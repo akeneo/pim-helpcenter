@@ -12,11 +12,11 @@ To learn more on how the attributes and products interact, please refer to “Ad
 
 Attributes are always optional data fields. This means that all attributes can be with no values for the products except the SKU, which identifies a product, and is therefore mandatory with a value entered as of you create a product.
 
-View attributes
+## View attributes
 
 To start, go to Settings > Attributes. From this page, you will have several options to work with the datagrid of attributes as described below.
 
-Attribute’s grid pagination
+### Attribute’s grid pagination
 
 The attribute’s grid displays between 10 and 100 attributes per page. By default, the grid displays 25 attributes per page, you can change this by clicking on «View per page» and select the number of attributes you wish to see per page.
 
@@ -24,7 +24,7 @@ The attribute’s grid displays between 10 and 100 attributes per page. By defau
 
 In order to navigate through the different pages of the attribute datagrid, the navigation buttons “next” and “previous” are available above the grid. Eventually, the page number is displayed at the center. You can directly go to a specific page by amending the field of the ongoing page number.
 
-Filter on attributes
+### Filter on attributes
 
 The attribute datagrid comes with a filter bar.
 
@@ -35,8 +35,7 @@ The attribute datagrid comes with a filter bar.
 
 Labels filters are localised: If an attribute has a label in the locale preference, then this wording is used. If there is no available language, then the attribute code will be displayed in brackets. For example: [COLOR].
 
-Filters can be sorted out on the following attribute information:
-
+**Filters can be sorted out on the following attribute information:**
 *   The code,
 *   The label,
 *   The attribute type,
@@ -45,14 +44,14 @@ Filters can be sorted out on the following attribute information:
 *   The group it belongs to,
 *   If there is a set of conditions and actions to execute the rule for a smart attribute (Enterprise Edition only).
 
-Sort out product attributes
+### Sort out product attributes
 
 To sort out the attributes, you can click on the column header in the datagrid.
 
 > **Note**  
   The following type of information cannot be used to sort out the list: the attribute type and if it is a smart attribute (an attribute affected by a rule).
 
-Shortcut actions on each attribute
+### Shortcut actions on each attribute
 
 There is a set of actions available for each attribute, that you can find in the last column of the grid. The buttons are prompted when you hover your mouse over the line.
 
@@ -61,12 +60,11 @@ There is a set of actions available for each attribute, that you can find in the
 > **Note**  
   The shortcut actions are only displayed if you have been granted the appropriate rights
 
-Create an attribute
+## Create an attribute
 
 To create an attribute from the PIM user interface (without going through imports), you must have a specific permission. If you do not have it, please contact your administrator.
 
-To create an attribute in the PIM:
-
+**To create an attribute in the PIM:**
 1.  Go on Settings/Attributes,
 1.  Click on the “Create attribute” button.
 
