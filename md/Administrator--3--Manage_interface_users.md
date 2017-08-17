@@ -10,10 +10,10 @@ Most user interfaces in the PIM are translated. For more information about how w
 ### Choose the default language
 
 1.  Log in with a user account with the rights to “System” menu.
-1.  Go to System/Configuration
-    ![image](../img/Akn_dashboard.jpg)
-1.  Select the default language from the drop down menu.
-    ![image](../img/Akn_dashboard.jpg)
+1.  Go to System/Configuration  
+  ![image](../img/Akn_dashboard.jpg)
+1.  Select the default language from the drop down menu.  
+  ![image](../img/Akn_dashboard.jpg)
 1.  Click on “Save” to apply your settings
 
 All users in the PIM can see the firstname and lastname of other users in the application.
@@ -27,9 +27,9 @@ Any PIM user can see his own account details, update his/her password, and set h
 ### View the list of users
 
 1.  Log in with a user account with the rights to “List of user groups”.
-1.  Go to System/User Management/Users.
+1.  Go to System/User Management/Users.  
     ![image](../img/Akn_dashboard.jpg)
-1.  To narrow the list of users displayed, use the filters above the users grid.
+1.  To narrow the list of users displayed, use the filters above the users grid.  
     ![image](../img/Akn_dashboard.jpg)
 1.  To view information of a specific user, click on the user.
 
@@ -63,7 +63,7 @@ When a user is created, this latter can be added to at least one of the groups t
 1. Go to System/Users Management/Users,
 1. Click on the user to proceed,
 1. Click on the “Edit user” button,
-1. Click on the “Groups and Roles” tab from the menu
+1. Click on the “Groups and Roles” tab from the menu  
   ![image](../img/Akn_dashboard.jpg)
 1. Check / uncheck the groups to add or remove the user from these groups,
 1. Click “Save”.
@@ -77,7 +77,7 @@ Assign a role to a user allows him to have access rights in the PIM.
 1. Go to System/Users Management/Users
 1. Click on the user to proceed,
 1. Click on the “Edit user” button,
-1. Click on the “Groups and Roles” tab from the menu,
+1. Click on the “Groups and Roles” tab from the menu,  
   ![image](../img/Akn_dashboard.jpg)
 1. Check / uncheck the user to assign role,
 1. Click “Save”.
@@ -92,7 +92,7 @@ Assign a role to a user allows him to have access rights in the PIM.
 ### Delete a user
 
 1. Go to System/Users Management/UsersClick the user to proceed,
-1. Click on the right on the “Delete” button,
+1. Click on the right on the “Delete” button,  
   ![image](../img/Akn_dashboard.jpg)
 1. Then confirm you want to delete the user.
 
