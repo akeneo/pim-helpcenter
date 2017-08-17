@@ -28,20 +28,20 @@ Any PIM user can see his own account details, update his/her password, and set h
 
 1.  Log in with a user account with the rights to “List of user groups”.
 1.  Go to System/User Management/Users.
-![image](../img/Akn_dashboard.jpg)
+    ![image](../img/Akn_dashboard.jpg)
 1.  To narrow the list of users displayed, use the filters above the users grid.
-![image](../img/Akn_dashboard.jpg)
+    ![image](../img/Akn_dashboard.jpg)
 1.  To view information of a specific user, click on the user.
 
 ### Add a user
 
-1.  Go on System/Users Management/Users
-1.  Then click on “Create User” button on the top right corner
-1.  Fill out the General information required (red asterisk),
-1.  Then go on Additional to define the user default settins, this can be later changed if needed,
-1.  Define a user role under the Groups and Roles tab,
-1.  You can also define the default language for this user (Interfaces tab),
-1.  Then click on “Save”.
+1. Go on System/Users Management/Users
+1. Then click on “Create User” button on the top right corner
+1. Fill out the General information required (red asterisk),
+1. Then go on Additional to define the user default settins, this can be later changed if needed,
+1. Define a user role under the Groups and Roles tab,
+1. You can also define the default language for this user (Interfaces tab),
+1. Then click on “Save”.
 
 The user account has been created.
 
@@ -64,9 +64,9 @@ When a user is created, this latter can be added to at least one of the groups t
 1. Click on the user to proceed,
 1. Click on the “Edit user” button,
 1. Click on the “Groups and Roles” tab from the menu
-![image](../img/Akn_dashboard.jpg)
-1.  Check / uncheck the groups to add or remove the user from these groups,
-1.  Click “Save”.
+  ![image](../img/Akn_dashboard.jpg)
+1. Check / uncheck the groups to add or remove the user from these groups,
+1. Click “Save”.
 
 ### Assign a role to a user
 
@@ -74,26 +74,26 @@ Assign a role to a user allows him to have access rights in the PIM.
 
 #### To change the membership of a user:
 
-1.  Go to System/Users Management/Users
-1.  Click on the user to proceed,
-1.  Click on the “Edit user” button,
-1.  Click on the “Groups and Roles” tab from the menu,
-![image](../img/Akn_dashboard.jpg)
-1.  Check / uncheck the user to assign role,
-1.  Click “Save”.
+1. Go to System/Users Management/Users
+1. Click on the user to proceed,
+1. Click on the “Edit user” button,
+1. Click on the “Groups and Roles” tab from the menu,
+  ![image](../img/Akn_dashboard.jpg)
+1. Check / uncheck the user to assign role,
+1. Click “Save”.
 
 ### Change the user general information
 
-1.  Go to System/Users Management/Users,
-1.  Click on the user to proceed,
-1.  Click on the “General” tab,
-1.  Make the desired changes and click on the “Save” button.
+1. Go to System/Users Management/Users,
+1. Click on the user to proceed,
+1. Click on the “General” tab,
+1. Make the desired changes and click on the “Save” button.
 
 ### Delete a user
 
-1.  Go to System/Users Management/UsersClick the user to proceed,
-1.  Click on the right on the “Delete” button,
-![image](../img/Akn_dashboard.jpg)
-1.  Then confirm you want to delete the user.
+1. Go to System/Users Management/UsersClick the user to proceed,
+1. Click on the right on the “Delete” button,
+  ![image](../img/Akn_dashboard.jpg)
+1. Then confirm you want to delete the user.
 
 The user can no longer connect to the PIM application. Though the user actions generated in the PIM will be stored.
