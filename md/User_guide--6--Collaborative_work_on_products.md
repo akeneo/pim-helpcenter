@@ -153,21 +153,22 @@ Three users have edit permissions on the locale en_US and on the Bags category, 
 
 **Here is a small tab summing up in which cases all 3 users will be notified.**
 
-| Attributes and users having permissions | Is the attribute filled in? | Is the attribute required for completeness? | Will the user be notified?                                                                                     |
-|:----------------------------------------|:----------------------------|:--------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
-| **Marketing (Mary)**                    |                             |                                             |                                                                                                                |
-| Name                                    | YES                         | YES                                         | No, Mary will not be notified since the attribute is already filled in.                                        |
-| Release date                            | NO                          | YES                                         | Yes, Mary will be notified since the attribute is not filled in.                                               |
-| Price                                   | NO                          | NO                                          | No, Mary will not be notified since the attribute is not required for completeness.                            |
-| **Design (Mary)**                       |                             |                                             |                                                                                                                |
-| Main color                              | YES                         | NO                                          | No, Mary will not be notified since the attribute is not required for completeness.                            |
-| Bag style                               | NO                          | YES                                         | Yes, Mary will be notified since the attribute is not filled in.                                               |
-| **Purchase (Tony)**                     |                             |                                             |                                                                                                                |
-| Brand                                   | YES                         | YES                                         | No, Tony will not be notified since the attribute is already filled in. Anyway Tony has only view permissions. |
-| Supplier                                | YES                         | YES                                         | No, Tony will not be notified since the attribute is already filled in. Anyway Tony has only view permissions. |
-| **Quality (Bob)**                       |                             |                                             |                                                                                                                |
-| Tests reports                           | NO                          | YES                                         | Yes, Bob will be notified since the attribute is not filled in.                                                |
-| Material                                | NO                          | YES                                         | Yes, Bob will be notified since the attribute is not filled in.                                                |
+|                                             |                                 |                                                 |                                                                                                                |
+|:--------------------------------------------|:--------------------------------|:------------------------------------------------|:---------------------------------------------------------------------------------------------------------------|
+| **Attributes and users having permissions** | **Is the attribute filled in?** | **Is the attribute required for completeness?** | **Will the user be notified?**                                                                                 |
+| **Marketing (Mary)**                        |                                 |                                                 |                                                                                                                |
+| Name                                        | YES                             | YES                                             | No, Mary will not be notified since the attribute is already filled in.                                        |
+| Release date                                | NO                              | YES                                             | Yes, Mary will be notified since the attribute is not filled in.                                               |
+| Price                                       | NO                              | NO                                              | No, Mary will not be notified since the attribute is not required for completeness.                            |
+| **Design (Mary)**                           |                                 |                                                 |                                                                                                                |
+| Main color                                  | YES                             | NO                                              | No, Mary will not be notified since the attribute is not required for completeness.                            |
+| Bag style                                   | NO                              | YES                                             | Yes, Mary will be notified since the attribute is not filled in.                                               |
+| **Purchase (Tony)**                         |                                 |                                                 |                                                                                                                |
+| Brand                                       | YES                             | YES                                             | No, Tony will not be notified since the attribute is already filled in. Anyway Tony has only view permissions. |
+| Supplier                                    | YES                             | YES                                             | No, Tony will not be notified since the attribute is already filled in. Anyway Tony has only view permissions. |
+| **Quality (Bob)**                           |                                 |                                                 |                                                                                                                |
+| Tests reports                               | NO                              | YES                                             | Yes, Bob will be notified since the attribute is not filled in.                                                |
+| Material                                    | NO                              | YES                                             | Yes, Bob will be notified since the attribute is not filled in.                                                |
 
 Mary will be notified once at the project creation to enrich Release date and Bag style, as these attributes are empty and required attributes.
 
@@ -196,8 +197,9 @@ Under each figure, you will find a percentage. Each percentage will inform you a
 
 When you are working on a project it is also added to the widget with 3 key figures:
 
-| Labels                 | Definitions                                                                |
+|                        |                                                                            |
 |:-----------------------|:---------------------------------------------------------------------------|
+| **Labels**             | **Definitions**                                                            |
 | TODO                   | Number of products with no required attributes filled in the user can edit |
 | % TODO PRODUCTS        | (Number of TODO products*100)/ number of products I have to enrich         |
 | IN PROGRESS            | Number of products with at least one required attribute the user can edit  |
@@ -309,8 +311,9 @@ To view the values of a working copy or your draft (in another locale / channel)
 ![image](../img/Akn_dashboard.jpg)
 1.  You can change the channel and the locale in the two drop down lists on top of the right panel.
 
-| Selection           | Attributes and values displayed                                                                                |
+|                     |                                                                                                                |
 |:--------------------|:---------------------------------------------------------------------------------------------------------------|
+| **Selection**       | **Attributes and values displayed**                                                                            |
 | Working copy        | Only the attributes with a different value between my draft and the working copy are displayed.                |
 | My draft            | All the attributes values updated in my draft are displayed.                                                   |
 | Contributor’s draft | Only the attributes with a different value between the contributor’s draft and the working copy are displayed. |
@@ -343,8 +346,9 @@ When the product managers review your proposal, they can:
 *   Approve or reject all your proposals: they can approve everything or fully reject the proposal.
 *   Approve or reject partially your proposal: they can approve or reject only some changes of the proposal.
 
-| Product manager action                              | My draft                                                                                | Working copy                                               | Draft status         |
+|                                                     |                                                                                         |                                                            |                      |
 |:----------------------------------------------------|:----------------------------------------------------------------------------------------|:-----------------------------------------------------------|:---------------------|
+| **Product manager action**                          | **My draft**                                                                            | **Working copy**                                           | **Draft status**     |
 | Approve all your proposal                           | Your draft is deleted.                                                                  | The values proposed in your draft are saved in the product | Working copy         |
 | Reject all your proposal                            | Your draft is still there with your changes.                                            | No update of the product                                   | In progress          |
 | Partially approve your proposal                     | The changes approved are deleted from your draft.                                       |                                                            |                      |
@@ -427,8 +431,9 @@ The two first actions and the last action take you straight to all product propo
 
 A proposal can have several statuses, according to your permissions (on attributes groups and locales):
 
-| Status                    | Details                                                                                                                                                           | Actions available                                                      |
+|                           |                                                                                                                                                                   |                                                                        |
 |:--------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------|
+| **Status**                | **Details**                                                                                                                                                       | **Actions available**                                                  |
 | In progress               | The contributor is still working on the proposal, it is not yet completed. <br>Hence it is not possible to review it (it is not displayed in the proposals grid). | You can delete the draft in the Product form, “Proposal” tab.          |
 | Waiting for approval      | The proposal is complete and has been sent by the contributor. <br>You have all the permissions to review the proposal changes.                                   | You can approve or reject all the proposal.                            |
 | Can be partially reviewed | The proposal is complete and has been sent by the contributor. <br>You have partial permissions to review the proposal changes.                                   | You can approve or reject only the changes on values with edit rights. |
@@ -445,12 +450,13 @@ A proposal can have several statuses, according to your permissions (on attribut
 
 A product manager can review all the proposals (approve or reject a proposal) or can partially review a proposal (approve or reject a change or somes changes) according to her/his permissions.
 
-| Product manager action | Contributor’s draft                                                                                 | Product working copy                         | Proposal                                            |
-|:-----------------------|:----------------------------------------------------------------------------------------------------|:---------------------------------------------|:----------------------------------------------------|
-| Approve a proposal     | The values approved are deleted from the draft.                                                     | The values approved are saved in the product | The values approved are deleted from the proposal.  |
-| Reject a proposal      | The draft contains the changes rejected and not yet reviewed.                                       | No update of the product                     | The values rejected are deleted from the proposal.  |
-| Approve a change       | The change approved is deleted from the draft.<br>The draft contains only the changes not reviewed. | The value approved is saved in the product   | The value approved is    deleted from the proposal. |
-| Reject a change        | The draft contains the changes rejected and not yet reviewed.                                       | No update of the product                     | The values approved is deleted from the proposal.   |
+|                            |                                                                                                     |                                              |                                                     |
+|:---------------------------|:----------------------------------------------------------------------------------------------------|:---------------------------------------------|:----------------------------------------------------|
+| **Product manager action** | **Contributor’s draft**                                                                             | **Product working copy**                     | **Proposal**                                        |
+| Approve a proposal         | The values approved are deleted from the draft.                                                     | The values approved are saved in the product | The values approved are deleted from the proposal.  |
+| Reject a proposal          | The draft contains the changes rejected and not yet reviewed.                                       | No update of the product                     | The values rejected are deleted from the proposal.  |
+| Approve a change           | The change approved is deleted from the draft.<br>The draft contains only the changes not reviewed. | The value approved is saved in the product   | The value approved is    deleted from the proposal. |
+| Reject a change            | The draft contains the changes rejected and not yet reviewed.                                       | No update of the product                     | The values approved is deleted from the proposal.   |
 
 **Approve a proposal**
 
@@ -589,8 +595,9 @@ You can view the inputs coming from the contributors in order to know what they 
 ![image](../img/Akn_dashboard.jpg)
 1.  You can change the channel and the locale using the two drop down lists on top of the right panel.
 
-| Selection           | Attributes and values displayed                                                                                        |
+|                     |                                                                                                                        |
 |:--------------------|:-----------------------------------------------------------------------------------------------------------------------|
+| **Selection**       | **Attributes and values displayed**                                                                                    |
 | Working copy        | Only the attributes localizable or scopable are displayed.                                                             |
 | Contributor’s draft | Only the attributes with a different value between the contributor’s draft and the product working copy are displayed. |
 

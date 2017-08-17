@@ -4,7 +4,7 @@ Akeneo is open source, if you feel like contributing to the project, you can do 
 
 ## Contribute on our GitHub
 
-On our [<span class="Hyperlien">GitHub repository</span>](https://github.com/akeneo/pim-community-dev/issues) you can suggest improvements, new features or simply ask question or report a bug. Go to our Issue page, and we’ll try to answer you in the best delays.
+On our [GitHub repository](https://github.com/akeneo/pim-community-dev/issues) you can suggest improvements, new features or simply ask question or report a bug. Go to our Issue page, and we’ll try to answer you in the best delays.
 
 We also now propose our users to easily become contributors and we can assist them to fix issues.
 

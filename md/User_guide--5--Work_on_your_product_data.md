@@ -479,8 +479,9 @@ To access the bulk actions, go on the Product’s grid and click on Bulk actions
 1.  Select the operation to be performed from the screen menu (see the list of operations on the next page),
 1.  According to the selected operation, the next page of configuration changes.
 
-| Operations                                                                                        | Step of configuration                                                                                                                                   |
+|                                                                                                   |                                                                                                                                                         |
 |:--------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Operations**                                                                                    | **Step of configuration**                                                                                                                               |
 | Change status                                                                                     | Select the status to be applied: enable or disable                                                                                                      |
 | Edit common attributes                                                                            | Add attributes to the product form to set the values ​​to be applied. The changes will be done for the scope and the locale selected in the product’s grid. |
 | If you have several locales or scopes, you will have to do several mass actions.                  |                                                                                                                                                         |
@@ -497,7 +498,7 @@ The action is processed to the back-end, so that you can continue to work on the
 
 ![image](../img/Akn_dashboard.jpg)
 
-    When you click on the notification, you access the report page of the action.
+When you click on the notification, you access the report page of the action.
 
 ![image](../img/Akn_dashboard.jpg)
 
@@ -547,8 +548,9 @@ In order to save you some time, you can now directly classify products in catego
 5.  Select the operation to be performed from the screen menu (see the list of operations on the next page),
 6.  According to the selected operation, the next page of configuration changes.
 
-| Operations                      | Step of configuration                                                                          |
+|                                 |                                                                                                |
 |:--------------------------------|:-----------------------------------------------------------------------------------------------|
+| **Operations**                  | **Step of configuration**                                                                      |
 | Classify products in categories | The products will be positionned into the selected categories, the existing placement is kept. |
 | Move products to categories     | The products will be moved into the selected categories, the existing placement is lost.       |
 | Remove products from categories | The products will be removed from the selected categories.                                     |

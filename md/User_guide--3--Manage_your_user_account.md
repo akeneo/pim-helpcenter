@@ -64,11 +64,13 @@ Each user can set his User Interface (UI) locale in his user account:
 
 This UI locale is used all over the PIM interface: menus, screens labels, messages… The default language is a locale: it will take into account the dates, numbers and currencies formats to input and to display. You will find on the next page some examples of formats displayed.
 
-| User UI locale set | Date format | Number format | Currency format |
-|:-------------------|:------------|:--------------|:----------------|
-| fr_FR              | 08/03/2016  | 12,5          | 90,50 $US       |
-| de_DE              | 08.03.16    | 12,5          | 90,50 $         |
-| en_US              | 03/08/2016  | 12.5          | $90.50          |
+|                        |                 |                   |                     |
+|:-----------------------|:----------------|:------------------|:--------------------|
+| **User UI locale set** | **Date format** | **Number format** | **Currency format** |
+| fr_FR                  | 08/03/2016      | 12,5              | 90,50 $US           |
+| de_DE                  | 08.03.16        | 12,5              | 90,50 $             |
+| en_US                  | 03/08/2016      | 12.5              | $90.50              |
+
 
 
 If your desired locale is not available, please contact your administrator.

@@ -46,101 +46,236 @@ In the following tabs, you will see on the left side the permission’s name and
 
 ## Permissions on categories
 
-|  |  |
-|:-|:-|
-|  |  |
+|                                  |                                                                                                         |
+|:---------------------------------|:--------------------------------------------------------------------------------------------------------|
+| Create a category                | User can create a new category with a right click on the tree and select “Create” in Enrich/Categories. |
+| Edit a category                  | User can edit a category.                                                                               |
+| View category history            | User can access the “History” tab of categories.                                                        |
+| List categories                  | The user can see and access all categories and category trees listed under Enrich/Categories.           |
+| Remove a category                | The user can remove a category using the «Delete» button.                                               |
+| Manage category permissions (EE) | User has access to the “Permissions” tab on a category.                                                 |
 
 ## Permissions on channels
 
-|  |  |
-|:-|:-|
-|  |  |
+|                      |                                                                                         |
+|:---------------------|:----------------------------------------------------------------------------------------|
+| Create a channel     | User can create a new channel with the “Create channel” button in the Setting/Channels. |
+| Edit a channel       | User can edit a channel’s information.                                                  |
+| View channel history | User can access the “History” tab of channels.                                          |
+| List channels        | The user can see and access all channels listed under Settings/Channels.                |
+| Remove a channel     | The user can remove a channel group on the Channel’s page through the «Delete» button.  |
 
 ## Permissions on currencies
 
-|  |  |
-|:-|:-|
-|  |  |
+|                   |                                                                                                    |
+|:------------------|:---------------------------------------------------------------------------------------------------|
+| List Currency     | The user can see all (active and inactive) currencies listed under Settings/Currencies.            |
+| Toggle currencies | The user can activate/deactivate currencies using the toggle button on the right side of the page. |
 
 ## Permissions on families
 
-|  |  |
-|:-|:-|
-|  |  |
+|                             |                                                                                       |
+|:----------------------------|:--------------------------------------------------------------------------------------|
+| Create a family             | User can create a new family with the “Create family” button in the Setting/Families. |
+| Edit attributes of a family | User can edit the attributes of a family, Attributes tab.                             |
+| Edit properties of a family | User can edit the properties of a family, Properties tab.                             |
+| View family history         | User can access the “History” tab of families.                                        |
+| List families               | The user can see and access all families listed under Settings/Families.              |
+| Remove a family             | The user can remove a family on the family’s page through the «Delete» button.        |
 
 ## Permissions on groups
 
-|  |  |
-|:-|:-|
-|  |  |
+|                    |                                                                                  |
+|:-------------------|:---------------------------------------------------------------------------------|
+| Create a group     | User can create a new group with the “Create group” button in the Enrich/Groups. |
+| Edit a group       | User can edit the group’s properties.                                            |
+| View group history | User can access the “History” tab of groups.                                     |
+| List of groups     | The user can see and access all groups listed under Enrich/Groups.               |
+| Remove a group     | The user can remove a group on the group’s page through the «Delete» button.     |
 
 ## Permissions on variant groups
 
-|  |  |
-|:-|:-|
-|  |  |
+|                                       |                                                                                                          |
+|:--------------------------------------|:---------------------------------------------------------------------------------------------------------|
+| Add attributes to variant groups      | Go to the “Enrich” menu → variants Groups.                                                               |
+| Create a variant group                | User can create a new variant group with the “Create variant group” button in the Enrich/Variant groups. |
+| Edit a variant group                  | User can add products in the variant group and edit the variant group’s properties.                      |
+| Edit attributes of variant groups     | User can add attributes to the variant group using the “Add Attributes” button in the ”Attributes“ tab.  |
+| View variant group history            | User can access the “History” tab of variant groups.                                                     |
+| List variants groups                  | The user can see all variant groups listed under Enrich/Variant groups.                                  |
+| Delete a variant group                | The user can delete a variant group using the “Delete” button in the variant’s group edit form page.     |
+| Remove attributes from variant groups | The user can remove a variant group on the variant group’s page through the «Delete» button.             |
 
 ## Permissions on group types
 
-|  |  |
-|:-|:-|
-|  |  |
+|                     |                                                                                               |
+|:--------------------|:----------------------------------------------------------------------------------------------|
+| Create a group type | User can create a new group type with the “Create group type” button in Settings/Group types. |
+| Edit a group type   | User can edit the group type’s properties.                                                    |
+| List group types    | User can see the group types in Settings/Group types.                                         |
+| Remove a group type | The user can remove a group type on the group type’s page through the «Delete» button.        |
 
 ## Permissions on locales
 
-|  |  |
-|:-|:-|
-|  |  |
+|                                |                                                                                                  |
+|:-------------------------------|:-------------------------------------------------------------------------------------------------|
+| List locales                   | User can see the locales in Settings/Locales                                                     |
+| Manage locale permissions (EE) | User can manager locales permissions for users under the “Permissions” tab in the locale’s page. |
 
 ## Permissions on products
 
-|  |  |
-|:-|:-|
-|  |  |
+|                                                |                                                                                                                                                                                        |
+|:-----------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Add an attribute to a product                  | User can add attributes to a product using the “Add Attributes” button in the product edit form.                                                                                       |
+| Add product to groups                          | The user can add products to group, in Enrich/Groups he will see the tab “Products”.                                                                                                   |
+| Add product to a variant group                 | The user can add products to a variant group, in Enrich/Variant groups he will see the tab “Products”.                                                                                 |
+| View the association types of a product        | The user can see the “Associations” tab in the product edit form.                                                                                                                      |
+| Consult the categories of a product            | The user can see the “Categories” tab in the product edit form.                                                                                                                        |
+| Change product Family                          | The user can change the product’s family in the product header by clicking on the link “Family”.                                                                                       |
+| Change state of product                        | User can change the status of the product: “enable” or “disable” directly in the header of the product.                                                                                |
+| Comment products                               | User can see the “Comments” tab in the product’s edit form.                                                                                                                            |
+| Create a product                               | User can create a new product in the Product’s grid through “Create product” button.                                                                                                   |
+| Download the product as PDF                    | User will be able to generate a PDF file containing all the product’s information using the “PDF” button on the top of the product edit form.                                          |
+| Edit attributes of a product                   | The user can edit the product’s attributes under the “Attributes” tab of the product edit form.                                                                                        |
+| View product history                           | The user can see the “History” tab in the product edit form.                                                                                                                           |
+| List products                                  | The user can see the list of products in several pages: on the product’s grid in Enrich/Products, as well as on the “Associations” tab of the product, in Groups and Variant groups... |
+| Product mass edit actions                      | User can make mass actions on the product’s grid.                                                                                                                                      |
+| Remove a product                               | The user can remove a product from the PIM using the “Delete” button in the product edit form.                                                                                         |
+| Remove an attribute from a product             | The user can remove an attribute from a product using the “cross” icon next to attributes added to the product.                                                                        |
+| List asset categories in the asset picker (EE) | User can access the “Manage assets” button to open the asset picker and list the asset categories.                                                                                     |
+| Restore a product (EE)                         | The user can restore a previous version of a product using the “restore” button in the product’s history page.                                                                         |
+| Manage published products (EE)                 | User can access the published products grid in Enrich/Published Products.                                                                                                              |
 
 ## Permissions on assets (Enterprise Edition only)
 
-|  |  |
-|:-|:-|
-|  |  |
+|                                    |                                                                                                                                        |
+|:-----------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
+| Consult the categories of an asset | The user can see the asset categories, under the “Categories” tab of the asset edit form.                                              |
+| Create an asset                    | The user can create a new asset, using the “Create Asset” button in Enrich/Assets.                                                     |
+| Enrich asset                       | The user can access the asset edition page.                                                                                            |
+| Mass-upload assets                 | The user can mass upload assets in Collect/Upload assets.                                                                              |
+| Remove asset                       | User can delete an asset using the “Delete” button in the asset edition page and also access the bulk actions   to mass delete assets. |
 
 ## Permissions on asset categories (Enterprise Edition only)
 
-|  |  |
-|:-|:-|
-|  |  |
+|                                   |                                                                                                                     |
+|:----------------------------------|:--------------------------------------------------------------------------------------------------------------------|
+| Create an asset category          | User can create a new asset category with a right click on the tree and select “Create” in Enrich/Asset categories. |
+| Edit an asset category            | User can edit an asset category.                                                                                    |
+| View asset category history       | User can access the “History” tab of asset categories.                                                              |
+| List asset categories             | The user can see and access all asset categories and asset category trees listed under Enrich/Asset categories.     |
+| Manage asset category permissions | User has access to the “Permissions” tab on the asset category form.                                                |
+| Remove an asset category          | The user can remove an asset category using the «Delete» button.                                                    |
 
 ## Permissions on rules (Enterprise Edition only)
 
-|  |  |
-|:-|:-|
-|  |  |
+|                                               |                                                                                                                                               |
+|:----------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------|
+| Delete rules                                  | The user can delete rules in Settings/Rules, using the trash icon or the mass delete action.                                                  |
+| Execute rules                                 | The user can run rules in Settings/Rules, using the run icon, the top button “Execute Rules” or the mass action “Execute the selected rules”. |
+| Calculate the affected products for the rules | The user can run the bulk action “Calculate the affected products” to see how many products are impacted by a rule.                           |
+| View rules                                    | The user can view the active rules in Settings/Rules.                                                                                         |
 
 ## Permissions on export profiles
 
-|  |  |
-|:-|:-|
-|  |  |
+|                                           |                                                                                                                                                                         |
+|:------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Download exported files                   | The user can download a generated export file in the export profile execution page using “Download generated file“ button.                                              |
+| Download export report log                | The user can download the log of the exported file in the export profile execution page using “Download log“ button.                                                    |
+| View export reports list                  | User can access the list of exported files in Spread/Exports history.                                                                                                   |
+| View export report log details            | On the list of exports history, user can access the “Show“ icon to check the report’s details.                                                                          |
+| Edit an export profile content            | User can customise the content of a product export profile. On the export profile, click on ”Edit” button and go under the ”Content” tab.                               |
+| Show an export profile content            | User can see the content of a product export profile. On the export profile, click on ”Content” tab.                                                                    |
+| Create an export profile                  | User can create a new export profile in Spread/Export profiles using the “Create export profile” button.                                                                |
+| Edit an export profile                    | User can edit an export profile. After selecting a specific export job, he will see the “Edit” button and a shortcut the export profile line.                           |
+| View export profile history               | User can access the “History” tab of an export profile.                                                                                                                 |
+| View export profiles list                 | User can access the menu Spread/Export profiles to see the list of export profiles.                                                                                     |
+| Launch an export profile                  | The user can run an export using the “Export now” button in the export profile’s page.                                                                                  |
+| Edit an export profile general properties | User can edit the general properties of an export profile. After selecting a specific export job, he will see the “Edit” button and a shortcut the export profile line. |
+| Show an export profile general properties | User can view the general properties of an export profile. After selecting a specific export job, he will be able to access the “General properties” tab of the export. |
+| Remove an export profile                  | User can remove an export profile using the “Delete” button in the export profile edit form.                                                                            |
+| Show an export profile                    | User can view information of an export profile.                                                                                                                         |
+| Manage export profile permissions         | User can access and edit the permissions to run and edit the job profile. He will see the “Permissions” tab in the edit page of an export profile.                      |
 
 ## Permissions on import profiles
 
-|  |  |
-|:-|:-|
-|  |  |
+|                                    |                                                                                                                                                    |
+|:-----------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Download imported files            | The user can download the imported file in the import profile execution page using the “Download read file“ button.                                |
+| Download import report log         | The user can download the log of the imported file in the import profile execution page using “Download log“ button.                               |
+| View import reports list           | User can access the list of imported files in Collect/Imports history.                                                                             |
+| View import reports details        | On the list of importd history, user can access the “Show“ icon to check the report’s details.                                                     |
+| Create an import profile           | User can create a new import profile in Collect/Import profiles using the “Create import profile” button.                                          |
+| Edit an import profile             | User can edit an import profile. After selecting a specific import job, he will see the “Edit” button and a shortcut the import profile line.      |
+| View import profile history        | User can access the “History” tab of an import profile.                                                                                            |
+| View import profiles list          | User can access the menu Collect/Import profiles to see the list of import profiles.                                                               |
+| Launch an import profile           | The user can launch an import using the “Import now” and “Upload and Import now” buttons in the import profile’s page.                             |
+| Remove an import profile           | User can remove an import profile using the “Delete” button in the import profile edit form.                                                       |
+| Show an import profile             | User can view information of an import profile.                                                                                                    |
+| Manage import profiles permissions | User can access and edit the permissions to run and edit the job profile. He will see the “Permissions” tab in the edit page of an import profile. |
 
 ## Permissions on system
 
-|  |  |
-|:-|:-|
-|  |  |
+|                      |                                                                                                                                                                 |
+|:---------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| System configuration | The user can access System/Configuration page.                                                                                                                  |
+| Create a user group  | The user can create a new user group in the PIM. He can click on System/Users management/Groups and then use the “Create group” button to add a new user group. |
+| Remove a user group  | The user can remove a user group from the PIM using the “Delete” button in the user group edition page.                                                         |
+| Edit user groups     | The user can edit the user groups, he will see the “Save” button in the edition page of user groups.                                                            |
+| List user groups     | User will see the list of user groups in System/Users management/Groups.                                                                                        |
+| Create a role        | The user can create a new role in the PIM. He can click on System/Users management/Roles and then use the “Create role” button to add a new role.               |
+| Remove a role        | The user can remove a role from the PIM using the “Delete” button in the role edition page.                                                                     |
+| Edit a role          | The user can edit the roles, he will see the “Save” button in the edition page of roles.                                                                        |
+| List roles           | User will see the list of roles in System/Users management/Roles                                                                                                |
+| Create a user        | The user can create a new user in the PIM. He can click on System/Users management/Users and then use the “Create user” button to add a new user.               |
+| Remove a user        | The user can remove a user from the PIM using the “Delete” button in the user edition page.                                                                     |
+| Edit users           | The user can edit users, he will see the “Save” button in the edition page of users.                                                                            |
+| List users           | User will see the list of users in System/Users management/Users.                                                                                               |
+| System information   | User will see the System Information of the PIM installation and will be able to download this information using the “TXT” button.                              |
+| View process tracker | User can access the page System/Process tracker.                                                                                                                |
 
 ## Set permissions on the Web API
 
 Permissions on the Web API are granted according to the user’s role(s). The following table lists all the rights and the features that are attached to it.
 
-|  |  |
-|:-|:-|
-|  |  |
+**Overall Web API accesses**
+|                         |                                       |
+|:------------------------|:--------------------------------------|
+| Overal Web API accesses | Gives access to all Web API endpoints |
+
+**Channels**
+|               |                                                 |
+|:--------------|:------------------------------------------------|
+| List channels | Gives permission to GET on the channel endpoint |
+
+**Locales**
+|              |                                                |
+|:-------------|:-----------------------------------------------|
+| List locales | Gives permission to GET on the locale endpoint |
+
+**Families**
+|                            |                                                           |
+|:---------------------------|:----------------------------------------------------------|
+| List families              | Gives permission to GET on the family endpoint            |
+| Create and update families | Gives permission to POST and PATCH on the family endpoint |
+
+**Attributes**
+|                              |                                                              |
+|:-----------------------------|:-------------------------------------------------------------|
+| List attributes              | Gives permission to GET on the attribute endpoint            |
+| Create and update attributes | Gives permission to POST and PATCH on the attribute endpoint |
+
+**Attribute options**
+|                                     |                                                                      |
+|:------------------------------------|:---------------------------------------------------------------------|
+| List attribute options              | Gives permission to GET on the attribute options endpoint            |
+| Create and update attribute options | Gives permission to POST and PATCH on the attribute options endpoint |
+
+**Categories**
+|                              |                                                             |
+|:-----------------------------|:------------------------------------------------------------|
+| List categories              | Gives permission to GET on the category endpoint            |
+| Create and update categories | Gives permission to POST and PATCH on the category endpoint |
 
 For more details about these permissions, have a look to our [API documentation](https://api.akeneo.com/documentation.html#authorization).
 
