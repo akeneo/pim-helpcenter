@@ -4,7 +4,8 @@
 
 Most user interfaces in the PIM are translated. For more information about how we manage translations, please refer to the end of this guide section «How to participate to Akeneo PIM translation?». You can set a default language for the interface, that will be used for all new users.
 
-> **Note**
+> **Note**  
+  ***
   that each user can configure the interface in its own language. For instance your German team can have the PIM interface in German, whereas the US team will have the PIM in American English - this can be set in their user account (refer to the end-user guide (Manage your user account).
 
 ### Choose the default language

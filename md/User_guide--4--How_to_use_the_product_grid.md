@@ -6,6 +6,8 @@ This page contains all information you need to start working on your catalog: yo
 
 ![image](../img/Akn_dashboard.jpg)
 
+***
+
 ## Set up your work environment
 
 ### Locale & Channel contexts
@@ -44,6 +46,8 @@ This will also impact the completeness displayed, since there can be one complet
   The available channels are those concerned with the locale selected higher up on the page. If you don’t find your channel, it means the locale selected is not required for the channel you want, so it is not proposed. To add a locale to a channel, refer to “Manage channels” section in the PIM Catalog Settings Guide.
   Like the locale, the channel selected on the product grid’s page is applied when editing a product form.
 
+***
+
 ### Product’s grid pagination
 
 The product’s grid displays between 10 and 100 products per page. By default, the grid displays 25 products per page, you can change this by clicking on «View per page» and select the number of products you wish to see per page.
@@ -55,6 +59,8 @@ To browse product’s pages, click on the right and left arrows.
 Go directly to a specific page by modifying the field indicating the current page number:
 
 ![image](../img/Akn_dashboard.jpg)
+
+***
 
 ### Category Panel
 
@@ -95,6 +101,7 @@ At the bottom of the category tree, you will see a Yes/No option: «Include sub-
 This option takes into account the number of products classified in sub-categories. By default, this option is set to “Yes”, hence subcategories are included. If you do not want to take into account products classified in subcategories, select ”No”. The tree will be then updated accordingly.
 
 > **Note for Enterprise Edition**  
+  ***
   In the Enterprise Edition, only the products on which you have rights to view and publish are counted. The other products are not taken into account.
 
 **Hide or expand the category panel**
@@ -115,6 +122,8 @@ If a category name is not fully displayed, you can enlarge the panel. Drag your 
 
 There is a minimum width for the fixed panel.
 
+***
+
 ## Customise the grid
 
 ### Use filters
@@ -132,12 +141,16 @@ If an attribute or an attribute option is not translated in the active locale, i
 * Product information managed via the attributes.
 
 > **Notes**  
-  1 - You can define your own default product grid filters in your user account, refer to the section “Change your default preferences”.
-  2 - If no default filters are set in your user account, the PIM will use the system attributes as default product grid filters: family, groups, status, completeness, creation date, updated date, product identifier and permissions.
-  3 - If you are missing an attribute in the Manage filters menu check if it is well activated as «usable as grid filter».
+  ***
+  1. You can define your own default product grid filters in your user account, refer to the section “Change your default preferences”.
+  2. If no default filters are set in your user account, the PIM will use the system attributes as default product grid filters: family, groups, status, completeness, creation date, updated date, product identifier and permissions.
+  3. If you are missing an attribute in the Manage filters menu check if it is well activated as «usable as grid filter».  
 
 > **Note for the Enterprise Edition**  
+  ***
   Only the attributes that you can view or edit are available in the list of filters on the product grid.
+
+***
 
 ### Configure grid columns
 
@@ -166,6 +179,7 @@ Nearby each group, you will see the number of attributes belonging to this group
 If you want to display all attributes, click on «All groups». On the right side, you will see your current grid’s columns.
 
 > **Notes**  
+  ***
   Like for filters, only attributes having the property «usable as grid filter» activated can be used as columns.
   And like for categories and locales, if you are an Enterprise Edition client and if you cannot see an attribute this is more likely that you do not have the permission to view it.
 
@@ -185,6 +199,8 @@ Click on «Apply» to save your changes. Your customised grid will be displayed.
 You can also sort on some columns headers, for instance you can sort products on sku, family, status, complete, created and updated at and on some other attributes (text, text area, number, simple select attributes).
 
 You can not sort values on price, media, asset, metric, multiselect attributes and on Label and Groups system attributes. To check if you can sort on a column simply hover your mouse over the column’s header.
+
+***
 
 ## Work with the views
 
@@ -245,7 +261,10 @@ To apply a specific view, select it from the dropdown list or look for it using 
 ![image](../img/Akn_dashboard.jpg)
 
 > **Note**  
+  ***
   You cannot edit or delete someone else’s view.
+
+***
 
 ## Actions on products
 
@@ -261,8 +280,11 @@ Depending on your Akeneo version (Enterprise or Community) and your rights, you 
 
 You will be then able to edit the product information by clicking on the small pencil icon, edit its categories by clicking on the small folder icon, delete it with the trash bin icon and change its status thanks to the 2 arrows icon.
 
-> **Note**  
+> **Note**
+  ***
   The shortcut actions are displayed if you have the appropriate rights, or as if you are working with the Enterprise Edition or the Community Version of the Akeneo PIM
+
+***
 
 ## Quick export feature
 
@@ -301,10 +323,13 @@ The created file encloses one line per product exported, and a column for each p
 
 For this export from the datagrid, the completeness, the product status, their classification are not taken into account to determine what information can be exported. All the products selected in the datagrid, regardless of their details, are exported to the CSV file or XLSX file.
 
-> **Note for the Enterprise Edition**  
+> **Note for the Enterprise Edition**
+  ***
   The quick export takes into account the user permissions on locales and attributes groups:
-  - If a user has no view right on a locale, the localizable values for this locale are not exported.
-  - If a user has no view right on an attribute group, the attributes for this attribute group are not exported.
+  * If a user has no view right on a locale, the localizable values for this locale are not exported.
+  * If a user has no view right on an attribute group, the attributes for this attribute group are not exported.
+
+***
 
 ## Create a product
 

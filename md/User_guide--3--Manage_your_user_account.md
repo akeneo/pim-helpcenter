@@ -8,6 +8,8 @@
 
 ![image](../img/Akn_dashboard.jpg)
 
+***
+
 ## Edit your account information
 
 Click on Edit to change your profile information or settings. New tabs will appear once in Edit mode: «Groups and Roles» and «Password». Enterprise Edition clients will also see a «Notifications» tab to manage notifications for the proposals (feature only available on the EE version).
@@ -95,3 +97,5 @@ If you have only edit rights on some products (meaning you have the «edit produ
 ![image](../img/Akn_dashboard.jpg)
 
 You will see both notification parameters if you have edit rights on some categories and own rights on others.
+
+***
