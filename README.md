@@ -36,7 +36,7 @@ In the first case, you don't need my help, so go ahead and add thousands of arti
 
 In the second case, here is a small explanation on how the `article-template.md` works. First, this file should never be changed. You just need it to copy its content in your newly created Markdown file. Then, it works like a pattern, just fill in the blanks.
 
-#### Fill the header
+#### FILL THE HEADER
 Each article has a header that contains several information. It's at the top of each article and it's surrounded by `---` blocks.
 Here is a description of what we expect in each field.
 
@@ -77,7 +77,7 @@ The id of articles that are related to the current article and that you want to 
 - If the article is related to several articles, separate you articles' ids with comma. Example: `related: my-article-1, my-article-2`
 - It is not mandatory. If empty, the "Related articles" section at the end of the article won't appear.
 
-#### Write the content
+#### WRITE THE CONTENT
 Once your header is completed, you can begin to write your article below the header.
 
 It's classic Markdown and you've learned everything about it a couple of sections ago, so you should be fine.
