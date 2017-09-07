@@ -1,0 +1,57 @@
+{{!-- Shared template for the Themes pages --}}
+{{> navbar-with-search }}
+{{#> layout }}
+    <div class="jumbotron jumbotron-light">
+        <div class="container">
+            <div class="with-img">
+                <img src="/img/stars.svg"></img>
+                <h1 class="emphasis">{{{title}}}</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-offset-3 col-sm-9 col-xs-12">
+                <p><a href="/">Home</a> > {{{title}}}</p>
+            </div>
+        </div>
+        <div class="row">
+            <div id="navbar" class="col-sm-3 hidden-xs">
+                <nav role="tablist" data-spy="affix" data-offset-top="190">
+                    <ul class="nav nav-stacked">
+                        <p class="pre-nav">Browse all our themes</p>
+                        {{#each themes as |theme themeId|}}
+                            <li class="main-nav"><a href="#{{{themeId}}}">{{{title}}}</a>
+                            </li>
+                        {{/each}}
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-xs-12 col-sm-9">
+                {{#each themes as |theme themeId|}}
+                    <div class="theme">
+                        <div class="media">
+                            <div class="media-left">
+                                <svg viewBox="0 0 256 256" width="100">
+                                    <use xlink:href="/img/icons.svg#icon--marketplace"></use>
+                                </svg>
+                            </div>
+                            <div class="media-body">
+                                <a class="anchor" id="{{{themeId}}}"></a>
+                                <h2 class="media-heading"><a class="markdownIt-Anchor" href="#{{{themeId}}}">#</a>{{theme.title}}</h2>
+                                <p>{{theme.description}}</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            {{#each articles}}
+                            <div class="col-xs-6">
+                                <p>{{#if eeOnly}}<span class="label label-ee">EE</span>{{/if}}&nbsp; <a href="/articles/{{articlePath}}">{{{articleName}}} ></a></p>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+{{/layout}}

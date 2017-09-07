@@ -1,0 +1,181 @@
+{{!-- Homepage --}}
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">
+                <img height="20" src="/img/akeneo.svg"></img>
+            </a>
+        </div>
+    </div>
+</nav>
+{{#> layout  title="Akeneo Help center"}}
+    <div class="jumbotron">
+        <div class="container-fluid" style="background: url(img/fioritures.png);
+    background-position: center top;
+    background-repeat: no-repeat;">
+            <h1 class="text-center emphasis">Hi there! Can we help you?</h1>
+            <div class="row">
+                <div class="col-sm-offset-3 col-sm-6">
+                    <input type="text" placeholder="Type your search right here..." class="form-control input-lg" style="margin: 10px 0;">
+                    <small>For instance, try <a href="articles/what-is-a-family.html">"What is a family?"</a>, <a href="articles/manage-your-projects.html">"Projects"</a> or <a href="articles/build-your-user-roles.html">"How do I set permissions?"</a></small>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="persona">
+                    <a href="/themes-for-julia.html">
+                        <img class="img-responsive center-block" src="img/Illustration-attributes.png"/>
+                        <h2 class="text-center">Using<br>Akeneo</h2>
+                        <div class="row">
+                            <div class="col-xs-offset-1 col-xs-10 col-lg-offset-3 col-lg-6">
+                                <p class="text-center"><em>#akeneoConcepts #productivity #teamWork #masterYourProductsData</em></p>
+                                <p class="btn btn-default btn-block">Browse all articles</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="persona">
+                    <a href="/themes-for-peter.html">
+                        <img class="img-responsive center-block" src="img/Illustration-attributes.png"/>
+                        <h2 class="text-center">Setting up<br>the PIM</h2>
+                        <div class="row">
+                            <div class="col-xs-offset-1 col-xs-10 col-lg-offset-3 col-lg-6">
+                                <p class="text-center"><em>#permissions #trackBatchJobs #masterYourCatalogSettings</em></p>
+                                <p class="btn btn-default btn-block">Browse all articles</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="persona">
+                    <a href="/">
+                        <img class="img-responsive center-block" src="img/Illustration-attributes.png"/>
+                        <h2 class="text-center">Coding<br>around</h2>
+                        <div class="row">
+                            <div class="col-xs-offset-1 col-xs-10 col-lg-offset-3 col-lg-6">
+                                <p class="text-center"><em>#APIPower #customizationKraken #styleguide</em></p>
+                                <p class="btn btn-default btn-block">Go to the dev hub</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Popular guides</h2>
+                <div class="row">
+                    {{#each popularArticles}}
+                    <div class="col-xs-6 col-sm-4">
+                        <a href="articles/{{articlePath}}"> <p>{{{articleName}}} ></p></a></div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="big">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Stay in touch with our community</h2>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="panel panel-default panel-btn panel-slack">
+                            <div class="panel-body">
+                                <div class="panel-btn-big">Slack User Group</div>
+                                <p class="text-center">Come aboard! Join the Akeneo community</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="panel panel-default panel-btn">
+                            <div class="panel-body">
+                                <div class="panel-btn-big">Stack overflow</div>
+                                <p class="text-center">Need answers? Here you go!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="panel panel-default panel-btn">
+                            <div class="panel-body">
+                                <div class="panel-btn-big">Forum Akeneo</div>
+                                <p class="text-center">Browse existing topics on our dedicated forum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="panel panel-default panel-btn panel-badger">
+                            <div class="panel-body">
+                                <div class="panel-btn-big">Badger</div>
+                                <p class="text-center">Great achievements mean great badges! Come and claim them</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-offset-1 col-sm-5">
+                <h2>Stay in touch with us</h2>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="panel panel-default panel-btn">
+                            <div class="panel-body">
+                                <div class="panel-btn-big">Contact us!</div>
+                                <p class="text-center">A comment? Leave us a message!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="panel panel-default panel-btn">
+                            <div class="panel-body">
+                                <div class="panel-btn-big">Blog</div>
+                                <p class="text-center">For fresh news, follow us on our blog</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="panel panel-default panel-btn">
+                            <div class="panel-body">
+                                <div class="panel-btn-big">Welcome to our dear partners!</div>
+                                <p class="text-center">Access to our partners portal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Other resources</h2>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href=""><p>Userguides for v1.6 & v1.7 ></p></a>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href=""><p>Marketplace ></p></a>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href=""><p>Changelog ></p></a>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href=""><p>Webinars ></p></a>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href=""><p>White papers ></p></a>
+            </div>
+            <div class="col-xs-6 col-sm-4">
+                <a href=""><p>Knowledge base ></p></a>
+            </div>
+        </div>
+    </div>
+{{/layout}}

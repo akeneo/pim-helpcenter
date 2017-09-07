@@ -1,0 +1,22 @@
+{
+    "akeneo-concepts":{
+        "title": "Discover Akeneo concepts",
+        "description": "If you are new to Akeneo, you will want to start here. It's just a few basics to get you started. Remember every Jedi knight was a young Padawan first."
+    },
+    "catalog-settings":{
+        "title": "Build up your catalog",
+        "description": "Having a catalog modelling that is totally tailored to your end-users needs, is really crucial. Before beginning to play with Akeneo, be sure to understand how this few key settings work."
+    },
+    "permissions-settings":{
+        "title": "Users and permissions",
+        "description": "As an administrator, you will need to manage all the users that will access the PIM. Here are some articles to help you understand how to handle the users and their permissions."
+    },
+    "language-and-translations":{
+        "title": "Languages and translations",
+        "description": "We love being international here. The more languages the PIM will speak, the happier we will be. There is already a lot of happiness at Akeneo, but let's bring some more!"
+    },
+    "administration":{
+        "title": "Administration matters",
+        "description": "This is a kind of 'Miscellaneous' theme: you will need these articles to grasp some PIM concepts, but as you will see below, these concepts are totally unrelated."
+    }
+}

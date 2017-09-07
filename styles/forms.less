@@ -1,0 +1,11 @@
+.form-control{
+    .box-shadow(none);
+    font-weight: 300;
+    &:focus{
+        border-color: inherit;
+        .box-shadow(none);
+    }
+    &.input-lg {
+        .input-size(@input-height-large; @padding-large-vertical; @padding-large-horizontal; @font-size-base; @line-height-large; @input-border-radius-large);
+    }
+}

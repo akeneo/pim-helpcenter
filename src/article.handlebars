@@ -1,0 +1,33 @@
+{{!-- Shared template for all the articles --}}
+{{> navbar-with-search }}
+{{#> layout }}
+    <div class="jumbotron jumbotron-light">
+        <div class="container">
+            <div class="with-img">
+                <img src="/img/stars.svg"></img>
+                <h1 class="emphasis">{{{titleWithBold}}}</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            {{{mainContent}}}
+        </div>
+        <div class="row">
+            <div class="col-sm-offset-3 col-sm-9">
+                <hr>
+                {{#if relatedArticles}}
+                <h2>Be curious! Take a look at these related articles</h2>
+                <div class="row">
+                    {{#each relatedArticles}}
+                    <div class="col-sm-6">
+                        <p>{{#if eeOnly}}<span class="label label-ee">EE</span>{{/if}}&nbsp; <a href="/articles/{{articlePath}}">{{{articleName}}} ></a></p>
+                    </div>
+                    {{/each}}
+                </div>
+                <hr>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+{{/layout}}

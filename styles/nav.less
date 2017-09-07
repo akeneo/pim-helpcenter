@@ -1,0 +1,142 @@
+// Main navbar
+nav{
+    &.scroll{
+        .box-shadow(0 5px 25px 0 @gray-light);
+    }
+    &.navbar-default{
+        .navbar-nav {
+            a{
+                font-weight: bold;
+                &:hover{
+                    &:after{
+                        content: '';
+                        border-bottom: 2px solid @navbar-default-link-hover-color;
+                        width: 15px;
+                        bottom: 15px;
+                        position: absolute;
+                        right: calc(50% - 7px);
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar-form {
+        margin-top: 12px;
+        margin-bottom: 13px;
+        .form-group{
+            input{
+                @media (min-width: @screen-md-min) {
+                    width: 350px;
+                }
+                @media (min-width: @screen-lg-min) {
+                    width: 450px;
+                }
+                padding-left: 40px;
+                height: 35px;
+            }
+            position: relative;
+            &:before{
+                content: '\f002';
+                font-family: 'FontAwesome';
+                position: absolute;
+                left: 5px;
+                padding-left: 10px;
+                top: 4px;
+            }
+        }
+    }
+}
+
+// Table of content
+ul.nav.nav-stacked{
+    padding: 30px 20px 0 0;
+    width: 285px;
+    p.pre-nav{
+        color: @gray-light;
+        padding-left: 10px;
+    }
+    @media (max-width: @screen-md-max) {
+        width: 200px;
+    }
+    li{
+        font-weight: normal;
+        a {
+            padding: 10px 10px;
+        }
+        > a {
+            color: @gray;
+            line-height: @line-height-base * 0.7;
+        }
+        &.active > a{
+            background-color: @gray-lighter;
+            border-radius: @border-radius-base;
+        }
+        > ul li{
+            display: none;
+            > a {
+                font-size: @font-size-small;
+                color: @text-color;
+                margin-left: 15px;
+                font-weight: 200;
+                border-bottom: 1px @gray-lighter solid;
+            }
+            &:last-child > a{
+                border: none;
+            }
+            &.active > a{
+                background-color: @gray-lighter;
+            }
+        }
+        > ul > li > ul > li{
+            margin-left: 10px;
+            > a {
+                font-size: @font-size-small * 0.9;
+            }
+        }   
+        &.active > ul > li {
+            display: block;
+        }
+        > ul > li.active  > ul > li {
+            display: block;
+        }
+    }
+}
+
+// Tabs
+.nav.nav-tabs.nav-tabs-responses{
+    > li a, > li a.active{
+        padding: 5px @spacing-base/3;
+        color: @text-color;
+    }
+}
+.nav.nav-tabs.nav-tabs-sneak-peek{
+    > li a{
+        color: @text-color;
+        svg{
+          width: 20px;
+      }
+  }
+}
+
+// Fix issue of markdown-it-toc-and-anchor
+// @see https://github.com/medfreeman/markdown-it-toc-and-anchor/issues/25
+.nav p:empty {
+    display: none;
+}
+
+// Fix TOC
+ul.nav ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+
+    li a {
+        display: block;
+
+        &:hover {
+            text-decoration: none;
+            background-color: @gray-lighter;
+        }
+    }
+}

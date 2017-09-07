@@ -1,0 +1,31 @@
+h1{
+    font-weight: bold;
+    margin-top: @spacing-base * 1.25;
+    &.article-title{
+        font-size: ceil((@font-size-h1 * 1.25));
+        margin-top: 0;
+    }
+}
+
+h2{
+    margin-top: @spacing-base * 0.75;
+    margin-bottom: @spacing-base / 3;
+}
+
+h3{
+    margin-top: @spacing-base * 0.75;
+    text-transform: uppercase;
+    color: lighten(@headings-color, 10%);
+}
+
+h4{
+    color: @gray-light;
+}
+
+h5{
+    font-weight: 300;
+}
+
+hr{
+    margin: @spacing-base 0;
+}

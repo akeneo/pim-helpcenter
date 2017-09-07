@@ -1,0 +1,50 @@
+.jumbotron{
+    background-color: @gray-lighter;
+    &.jumbotron-tight{
+        padding: @spacing-base/3 0;
+    }
+    &.jumbotron-light{
+        background-color: @gray-lighter;
+    }
+    &.jumbotron-team{
+        background: url(/img/product-team.png);
+        background-position: center 550px;
+    }
+    .container{
+        margin-bottom: 0px;
+        .with-img{
+            img{
+                position: absolute;
+                width: 130px;
+                & + h1{
+                    padding: 20px 0 0 150px;
+                }
+            }
+        }
+    }
+    h1.emphasis{
+        color: #11324D;
+        font-size:  @font-size-base*2;
+        font-family: Comfortaa, sans-serif;
+    }
+    h1{
+        font-size: @font-size-h1;
+        margin-top: 0px;
+        color: @headings-color;
+    }
+    p{
+        font-size: @font-size-base;
+        font-weight: normal;
+    }
+    .btn  p{
+        margin-left: 10px;
+        &.lead{
+            margin-bottom: 0;
+            margin-top: 20px;
+            font-size: @font-size-large;
+        }
+    }
+    .panel.panel-jumbotron{
+        margin-bottom: 0;
+    }
+}

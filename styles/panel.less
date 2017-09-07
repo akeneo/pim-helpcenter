@@ -1,0 +1,74 @@
+.panel{
+    color: @text-color;
+    margin-bottom:  @spacing-base / 2;
+    &.panel-btn{
+        cursor: pointer;
+        .transition(all 0.25s);
+        &:hover{
+            .box-shadow(0 2px 5px 0 @gray-light);
+        }
+        a{
+            color: inherit;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        .panel-btn-big{
+            font-size: @font-size-h3;
+            font-weight: normal;
+            text-align: center;
+            color: lighten(@headings-color,10%);
+            & + p{
+                margin: 0;
+            }
+        }
+    }
+    &.panel-slack{
+        background: url(/img/slack.svg);
+        background-repeat: no-repeat;
+    }
+    &.panel-badger{
+        background: url(/img/badger.svg);
+        background-repeat: no-repeat;
+    }
+    .panel-heading {
+        padding: @spacing-base / 4;
+        border-bottom: none;
+        font-size: @font-size-h3;
+        text-align: center;
+        color: lighten(@headings-color,10%);
+        background-color: transparent;
+    }
+    .panel-body{
+        padding: @spacing-base / 3;
+        a.btn{
+            margin-top: @spacing-base / 10;
+            margin-bottom: @spacing-base / 10;
+        }
+        h4{
+            margin-top: @spacing-base / 10;
+            & + p {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .panel-footer {
+        padding: @spacing-base / 3;
+        border-top: none;
+    } 
+}
+
+.panel-light{
+    margin-top: @spacing-base;
+    border:none;
+    background-color: @gray-lighter;
+    h2{
+        text-align: center;
+        margin-top: 15px;
+    }
+}
+
+hr.big{
+    .skew(0, 3deg);
+    border-top-width: 40px;
+}

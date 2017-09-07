@@ -1,0 +1,26 @@
+{
+    "first-steps":{
+        "title": "Your first steps into Akeneo",
+        "description": "You are very new to Akeneo and you don't know where to begin. Here are a few articles to help you understand the basics. Enjoy!"
+    },
+    "products-super-power":{
+        "title": "Take the power over your products",
+        "description": "Everything you always wanted to know about the products enrichment inside Akeneo. Brace yourself, we've brought some articles just for you."
+    },
+    "boost-your-productivity":{
+        "title": "Boost your productivity",
+        "description": "You are a PIM master and you know how to perfectly handle your products inside Akeneo. But still, you think you can do better. Check out these awesome features that will help you be so much more productive."
+    },
+    "collaborative-work":{
+        "title": "Collaborative work",
+        "description": "At Akeneo, we think working as a team is the only way to succeed. You should be able to do the same thanks to your PIM. Empower your coworkers, enrich your products as a team!"
+    },
+    "import-export-data":{
+        "title": "Import/export data in your PIM",
+        "description": "Anything you need to know about importing data inside your dearest PIM. You'll also find here infomartions about exporting data. Cause yeah, products information you cannot export is kind of useless, isn't it?"
+    },
+    "manage-your-assets":{
+        "title": "Manages your images, files, assets",
+        "description": "Product information without any asset, it's like Akeneo without Ziggy, it's depressing. So here is how to handle these assets that will liven up your products' sheets."
+    }
+}
