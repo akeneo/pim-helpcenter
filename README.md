@@ -54,24 +54,28 @@ If it belongs to several themes, separate your themes' ids with comma. Example: 
 If you don't want your article to be referenced in the help center, you just have to empty this field.
 
 **title**
+
 The title of the article.
-It is mandatory.
-It will appear at the top of the article and it will be used as links in the "Themes" pages and the popular section of homepage.
-You can put some words in bold inside the title by using the following syntax `\*\*bold\*\*`. If the first word of your title is a bold word, you will have to use quotes to make it work. Example: `title: "\*\*Crazy\*\* is this title"`
+- It is mandatory.
+- It will appear at the top of the article and it will be used as links in the "Themes" pages and the popular section of homepage.
+- You can put some words in bold inside the title by using the following syntax `**bold**`. If the first word of your title is a bold word, you will have to use quotes to make it work. Example: `title: "**Crazy** is this title"`
 
 **popular**
+
 Whether the article should appear in the "Popular article" section on the homepage or not.
-It is not mandatory, and false by default.
+- It is not mandatory, and false by default.
 
 **ee-only**
+
 Whether the article concerns only an Entreprise Edition feature or not.
-It will add a "EE" label nearby the links of this article, so you don't need to precise in the article's title that it's an EE article.
-It is not mandatory, and false by default.
+- It will add a "EE" label nearby the links of this article, so you don't need to precise in the article's title that it's an EE article.
+- It is not mandatory, and false by default.
 
 **related**
+
 The id of articles that are related to the current article and that you want to appear in the dedicated section "Related articles" at the end of the article.
-If the article is related to several articles, separate you articles' ids with comma. Example: `related: my-article-1, my-article-2`
-It is not mandatory. If empty, the "Related articles" section at the end of the article won't appear.
+- If the article is related to several articles, separate you articles' ids with comma. Example: `related: my-article-1, my-article-2`
+- It is not mandatory. If empty, the "Related articles" section at the end of the article won't appear.
 
 #### Write the content
 Once your header is completed, you can begin to write your article below the header.
@@ -126,6 +130,7 @@ Entreprise Edition only. A very serious thing here.
 ```
 
 **Emojis for the fun**
+
 ![Emojis](readme-img/emojis.png)
 ```
 :) :tada: :wink:
