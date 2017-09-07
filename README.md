@@ -40,18 +40,20 @@ In the second case, here is a small explanation on how the `article-template.md`
 Each article has a header that contains several information. It's at the top of each article and it's surrounded by `---` blocks.
 Here is a description of what we expect in each field.
 
-**id** 
+**id**
+
 The identifier of the article. 
-It should be unique among all articles. 
-In lowercase with hyphens between words. 
-It is mandatory as it is used when you want to reference this article in other articles and it is also used to build the URL path to this article.
-If you forget to give an id, your article will be ignored.
+- It should be unique among all articles. 
+- In lowercase with hyphens between words. 
+- It is mandatory as it is used when you want to reference this article in other articles and it is also used to build the URL path to this article.
+- If you forget to give an id, your article will be ignored.
 
 **themes**
+
 The id of the themes to which the article belongs.
-One article can belong to zero to several themes.
-If it belongs to several themes, separate your themes' ids with comma. Example: `themes: my-theme-1, my-theme-2`
-If you don't want your article to be referenced in the help center, you just have to empty this field.
+- One article can belong to zero to several themes.
+- If it belongs to several themes, separate your themes' ids with comma. Example: `themes: my-theme-1, my-theme-2`
+- If you don't want your article to be referenced in the help center, you just have to empty this field.
 
 **title**
 
