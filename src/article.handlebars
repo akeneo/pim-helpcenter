@@ -1,16 +1,11 @@
 {{!-- Shared template for all the articles --}}
 {{> navbar-with-search }}
 {{#> layout }}
-    <div class="jumbotron jumbotron-light">
-        <div class="container">
-            <div class="with-img">
-                <img src="/img/stars.svg"></img>
-                <h1 class="emphasis">{{{titleWithBold}}}</h1>
-            </div>
-        </div>
-    </div>
     <div class="container">
         <div class="row">
+            <div class="col-xs-12">
+                <h1 class="article-title">{{{titleWithBold}}}</h1>
+            </div>
             {{{mainContent}}}
         </div>
         <div class="row">

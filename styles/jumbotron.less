@@ -3,9 +3,6 @@
     &.jumbotron-tight{
         padding: @spacing-base/3 0;
     }
-    &.jumbotron-light{
-        background-color: @gray-lighter;
-    }
     &.jumbotron-team{
         background: url(/img/product-team.png);
         background-position: center 550px;
@@ -15,10 +12,13 @@
         .with-img{
             img{
                 position: absolute;
-                width: 130px;
+                width: 200px;
                 & + h1{
-                    padding: 20px 0 0 150px;
+                    padding: 20px 0 0 230px;
                 }
+            }
+            p{
+                padding: 20px 0 0 230px;
             }
         }
     }
@@ -26,6 +26,10 @@
         color: #11324D;
         font-size:  @font-size-base*2;
         font-family: Comfortaa, sans-serif;
+        + p {
+            font-size: 19px;
+            font-weight: 300;
+        }
     }
     h1{
         font-size: @font-size-h1;

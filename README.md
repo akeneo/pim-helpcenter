@@ -10,7 +10,7 @@ First, a few things you should know. The help center is composed of articles tha
 ### Let's talk about themes
 You will find the themes in the files named `themes-for-julia.json` and `themes-for-peter.json` in the `content` folder.
 
-If you take a look at one of this file, you will see that this is a very simple JSON. Its structure is the following:
+If you take a look at one of this file, you will see that this is a very simple JSON. There is a key named `"themes"` whose structure is the following:
 - Each key is the identifier of a theme: It should be unique among all themes and it should only use lowercase with hyphens between words.
 - Each theme has a title: It is the title used in the "Themes" pages.
 - Each theme has a description: It is the description used in the "Themes" pages.
@@ -142,6 +142,7 @@ Don't forget to use first level titles (`# My title`) inside your article so as 
 
 Wanna pimp your article with some beautiful images? Go ahead! We love them! First, add your image in the `content/img` folder. Then, use the following line in your markdown: `![replacement-text](../img/my-image.png)`
 Images are automatically centered. You don't need to bother about that.
+If you have a very big image tough, it will be better to resize it to a 840px width.
 
 That's not enough? You also want to add some links to other articles? That's easy! Here: `[I want this to be a link](/articles/id-of-the-article.html)`.
 
@@ -172,7 +173,7 @@ sudo npm install --global gulp-cli
 ```
 
 ### Run locally
-Once Node and gulp-cli installed, run:
+Once Node and gulp-cli installed, run in your root folder after cloning/downloading the Helpcenter sources:
 
 ```bash
 npm install

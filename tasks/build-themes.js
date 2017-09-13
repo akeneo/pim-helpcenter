@@ -15,7 +15,7 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
     // For each Json file containing the Persona themes
     return gulp.src('content/*.json')
         .pipe(jsonTransform(function(data, file) {
-            var personaThemes = data;
+            var personaThemes = data.themes;
 
             // This stream go through all Markdown articles to retrieve from their header
             // information such as their id, themes, title and if they concern only EE.
@@ -60,7 +60,9 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
                 return gulp.src('src/themes.handlebars')
                     .pipe(gulpHandlebars({
                         themes: personaThemes,
-                        title: (path.basename(file.path) === 'themes-for-julia.json') ? 'Using Akeneo' : 'Setting up the PIM'
+                        title: data.title,
+                        description: data.description,
+                        img: data.img
                     }, {
                         partialsDirectory: ['./src/partials']
                     }))

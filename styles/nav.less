@@ -4,26 +4,80 @@ nav{
         .box-shadow(0 5px 25px 0 @gray-light);
     }
     &.navbar-default{
+        .navbar-header{
+            float: left;
+        }
+        .navbar-brand{
+            padding: 21px 30px;
+        }
         .navbar-nav {
+            margin-top: 0;
+            margin-bottom: 0;
+            &.navbar-right{
+                float: right;
+                &:last-child {
+                    margin-right: -15px;
+                }
+            }
             a{
                 font-weight: bold;
-                &:hover{
-                    &:after{
-                        content: '';
-                        border-bottom: 2px solid @navbar-default-link-hover-color;
-                        width: 15px;
-                        bottom: 15px;
-                        position: absolute;
-                        right: calc(50% - 7px);
+                &:hover:after{
+                    content: '';
+                    border-bottom: 2px solid @navbar-default-link-hover-color;
+                    width: 15px;
+                    bottom: 15px;
+                    position: absolute;
+                    right: calc(50% - 7px);
+                }
+            }
+            > a, > li > a {
+                padding-top: 16.5px;
+                padding-bottom: 16.5px;
+            }
+            > li{
+                float: left;
+            }
+            li.dropdown{
+                position: relative;
+                .dropdown-menu{
+                    position: absolute;
+                    opacity: 0;
+                    transition: opacity 0.2s ease-out;
+                    animation-iteration-count: 1;
+                    top: 10px;
+                    left: -90px;
+                    box-shadow: 1px 2px 8px rgba(0,0,0,0.15);
+                    border: none;
+                }
+                &.open{
+                    > a{
+                        background-color: inherit;
+                        color: inherit;
                     }
+                    .dropdown-menu{
+                        background-color: white;
+                        opacity: 1;
+                        animation: fadeIn 0.2s ease-in;
+                        li.dropdown-title{
+                            text-transform: uppercase;
+                            color: @brand-primary;
+                            margin: 3px 20px;
+                            border-bottom: 1px @brand-primary solid;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                a:hover:after{
+                    content: none;
+                    border: none;
                 }
             }
         }
     }
 
     .navbar-form {
-        margin-top: 12px;
-        margin-bottom: 13px;
+        margin: 12px 0 13px 0;
+        padding: 0 30px;
         .form-group{
             input{
                 @media (min-width: @screen-md-min) {
@@ -138,5 +192,18 @@ ul.nav ul {
             text-decoration: none;
             background-color: @gray-lighter;
         }
+    }
+}
+
+
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
     }
 }
