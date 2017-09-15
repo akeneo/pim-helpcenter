@@ -1,15 +1,15 @@
 ---
 id: products-grid
 themes: products-super-power
-title: Get familiar with the **products' grid**
+title: Get familiar with the **product grid**
 popular: true
 ee-only: false
 related: manage-your-views, what-is-a-product, what-is-a-category, what-is-a-channel, what-is-a-locale
 ---
 
-# Where is the products' grid?
+# Where is the product grid?
 
-To access your products: click on the main menu (Enrich/Products) or click on the dashboard «Manage Products» shortcut. You will land on the products’ grid.
+To access your products: click on the main menu (Products). You will land on the product grid.
 
 This page contains all information you need to start working on your catalog: your products, your categories, some filters, your scopes and locales.
 
@@ -17,19 +17,19 @@ This page contains all information you need to start working on your catalog: yo
 
 In the following sections, we will see how to set up your work environment.
 
-# Locale & channel contexts
+# Locale & channel context
 
 ## Select a locale context
 
 By default, you will find all your products on the product grid page. You can choose your working locale, if several locales have been activated. The locale selection will impact the following information on the page:
 - The category labels (on the left panel),
-- The attribute labels that can be used as filters (on the Manage filters panel),
+- The attribute labels that can be used as filters (on the filters section in the left panel),
 - The labels of attribute groups,
 - The attribute option labels used as values (on the product grid),
 - The completeness displayed (its percentage in the «Complete» grid column),
-- The product or attribute values in the products’ grid.
+- The product or attribute values in the product grid.
 
-The locale selected in the dropdown menu is your working locale. Every time it will be changed, product information will be updated in the product’s grid.
+The locale selected in the dropdown menu is your working locale. Every time it will be changed, product information will be updated in the product grid.
 
 ![image](../img/dummy.png)
 
@@ -41,29 +41,25 @@ The locale selected in the dropdown menu is your working locale. Every time it w
 
 ## Select a channel context
 
-On the right side of the grid, you have a drop down menu to select your channel.
+On the left side of the grid, you have a drop down menu to select your channel.
 
 ![image](../img/dummy.png)
 
-The selected channel or scope selected will be your working channel (or working scope). Selecting a channel impacts values displayed on the products’ grid, especially if your attribute information differ depending on the channel.
+The selected channel or scope selected will be your working channel (or working scope). Selecting a channel impacts values displayed on the product grid, especially if your attribute information differ depending on the channel.
 
 This will also impact the completeness displayed, since there can be one completeness percentage per channel/locale combination. Therefore the product grid is updated whenever the working channel changes.
 
-::: info 
+::: info
 The available channels are those concerned with the locale selected higher up on the page. If you don’t find your channel, it means the locale selected is not required for the channel you want, so it is not proposed. To add a locale to a channel, refer to “Manage channels” section in the PIM Catalog Settings Guide.
 
 Like the locale, the channel selected on the product grid’s page is applied when editing a product form.
-::: 
+:::
 
-# Products' grid pagination
+# Product grid pagination
 
-The product’s grid displays between 10 and 100 products per page. By default, the grid displays 25 products per page, you can change this by clicking on «View per page» and select the number of products you wish to see per page.
+The product grid displays 100 products per page. To browse product’s pages, click on the right and left arrows.
 
 ![image](../img/dummy.png)
-
-To browse product’s pages, click on the right and left arrows.
-
-Go directly to a specific page by modifying the field indicating the current page number:
 
 ![image](../img/dummy.png)
 
@@ -111,7 +107,7 @@ In the Enterprise Edition, only the products on which you have rights to view an
 
 ## Hide or expand the category panel
 
-In order to allow you to display the products’ grid widely, you can hide the category panel. To do so, click on the left arrows on the top right corner of the panel:
+In order to allow you to display the product grid widely, you can hide the category panel. To do so, click on the left arrows on the bottom right corner of the panel:
 
 ![image](../img/dummy.png)
 
@@ -121,21 +117,17 @@ To expand the panel, click again on the arrows, the panel will be displayed.
 
 ![image](../img/dummy.png)
 
-If a category name is not fully displayed, you can enlarge the panel. Drag your mouse over the right side of the panel to expand it, release your mouse when you are satisfied.
-
 ![image](../img/dummy.png)
-
-There is a minimum width for the fixed panel.
 
 # Customise the grid
 
 ## Use filters
 
-The product grid includes a filter bar. By default, the PIM displays System attributes (Family, Groups...):
+The product grid includes a filter management. By default, the PIM displays System attributes (Family, Groups...):
 
 ![image](../img/dummy.png)
 
-You can use the filters displayed or add new filters: click on the ”Manage filters” menu and select the new attributes you want to use as filters. The new filters will appear in the filter bar. You can now filter your products displayed in the grid.
+You can use the filters displayed or add new filters: click on the ”+” icon and select the new attributes you want to use as filters. The new filters will appear in the left panel. You can now filter your products displayed in the grid.
 
 If an attribute or an attribute option is not translated in the active locale, its code will be displayed into brackets like [name] and only the attributes having the property «usable as grid filter» enabled are available to be used as filters.
 
@@ -150,7 +142,7 @@ If no default filters are set in your user account, the PIM will use the system 
 :::
 
 ::: info
-If you are missing an attribute in the Manage filters menu check if it is well activated as «usable as grid filter».
+If you are missing an attribute in the Filters menu check if it is well activated as «usable as grid filter».
 :::
 
 ::: ee
@@ -162,7 +154,7 @@ Only the attributes that you can view or edit are available in the list of filte
 Now you’re set up with your filters, you can select which columns you would like to see in the grid. By default, Akeneo displays the System attributes as columns.
 
 By default, the grid displays the following columns:
-- Sku (our product identifier),
+- ID (our product identifier),
 - Label (the product’s display name in Akeneo),
 - Family,
 - Status (Enabled/Disabled),
