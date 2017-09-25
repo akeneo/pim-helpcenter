@@ -58,7 +58,7 @@ A product is considered as **complete** (when it has a completeness of 100% [SCR
 
 # How often is my completeness refreshed?
 The completeness is regenerated:
-- afteran import, 
+- after an import, 
 - after a mass action, 
 - after the rules are executed, 
 - after you edit your family,
