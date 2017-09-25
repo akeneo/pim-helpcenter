@@ -7,7 +7,7 @@ related: product-completeness
 ---
 
 # About the completeness
-What is this **orange or green progress bar displayed on my dashboard**? What means **the percentage on my product grid**?
+What is this **red, orange or green progress bar displayed on my dashboard**? What means **the percentage on my product grid**?
 
 **This is the completeness!**
 
@@ -17,43 +17,54 @@ Akeneo's completeness is an information about your enrichment quality: it tells 
 # Where to see the completeness?
 The completeness can be displayed as a **progress bar** or as a **percentage** in the PIM.
 
-You can see it on your **dashboard** (overall combination channel/locale completeness)
+## On your dashboard
+Your **dashboard** will display the overall completeness for each combination channel/locale
 [SCREENSHOT dashboard]
 
-on your **product grid**:
+## On your product grid
+Your **product grid** will display the completeness for each product as a percentage
 [SCREENSHOT product grid] 
 
-or in your **product edit form**:
-[SCREENSHOT global completeness]
+## On your product edit form:
+Your **product edit form** will display the completeness for each product, as well as for each variant if it is a product model
+[SCREENSHOT product completeness]
 [SCREENSHOT if variant products]
+
+## On your completeness panel (product edit form):
+[SCREENSHOT completeness panel]
 
 ::: tips
 Thanks to the completeness panel, get the list of empty attributes and fill them in!
 :::
 
 # How do I set up my completeness?
-The **completeness is defined by a family** (see the definition of a family here), a **locale** (see the definition of a locale here) and a **channel** (see the definition of a channel here).
+The **completeness is defined by a [family](/articles/what-is-a-family.html)**, a **[locale](/articles/what-is-a-locale.html)** and a **[channel](/articles/what-is-a-channel.html)**.
 
 
 Then, once you know which attributes have to be taken into account for each family, in other words, **which attributes must be filled in to export your product**, go to *Settings/Family*.
 Select a family and under the tab *Attributes*, tick attributes to take them into account in the completeness calculation or untick them to remove them from completeness calculation.
-[SCREENSHOT] (tick untick products, it would be so great to have a kind of animation like a GIF...)
+[SCREENSHOT GIF tick untick products]
 
 It's easy as pie!
 
 ::: success
-To determine which attributes to set as required, try to answer the following question: which product information do I absolutely need to display on my website, app...? It it the same for all my channels?
+To determine which attributes to set as required, try to answer the following question: which product information do I absolutely need to display on my website, app...? Is it the same for all my channels?
 :::
 
-# How do we calculate a product's completeness?
+# How is it calculated?
 The **completeness calculation takes into account several parameters**: the attributes defined as mandatory for the product's family, the locales enabled for the channel... The PIM checks all the attributes filled in and all the attributes missing a value, and display you a percentage.
 
 A product is considered as **complete** (when it has a completeness of 100% [SCREENSHOT]), meaning when all its required attributes have a value.
 
 # How often is my completeness refreshed?
-The completeness is regenerated after an import, after a mass edit, after the rules, after you edit your family, after your save a product... 
+The completeness is regenerated:
+- afteran import, 
+- after a mass action, 
+- after the rules are executed, 
+- after you edit your family,
+- after a product is saved... 
 
 ::: warning
-Refresh your completeness using the command ```app/console pim:completeness:calculate```
+You can refresh your completeness using the command ```app/console pim:completeness:calculate``` (not available for Serenity edition)
 :::
 
