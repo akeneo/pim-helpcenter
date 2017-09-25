@@ -1,5 +1,8 @@
 .jumbotron{
     background-color: @gray-lighter;
+    &.jumbotron-search{
+        padding: @spacing-base*1.5 0;
+    }
     &.jumbotron-tight{
         padding: @spacing-base/3 0;
     }
@@ -9,18 +12,6 @@
     }
     .container{
         margin-bottom: 0px;
-        .with-img{
-            img{
-                position: absolute;
-                width: 200px;
-                & + h1{
-                    padding: 20px 0 0 230px;
-                }
-            }
-            p{
-                padding: 20px 0 0 230px;
-            }
-        }
     }
     h1.emphasis{
         color: #11324D;
