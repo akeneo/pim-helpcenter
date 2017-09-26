@@ -21,7 +21,7 @@ The completeness can be displayed as a **progress bar** or as a **percentage** i
 Your **dashboard** will display the overall completeness for each combination channel/locale
 [SCREENSHOT dashboard]
 
-## On your product grid
+## In your product grid
 Your **product grid** will display the completeness for each product as a percentage
 [SCREENSHOT product grid] 
 
@@ -30,7 +30,7 @@ Your **product edit form** will display the completeness for each product, as we
 [SCREENSHOT product completeness]
 [SCREENSHOT if variant products]
 
-## On your completeness panel (product edit form):
+## In your completeness panel (product edit form):
 [SCREENSHOT completeness panel]
 
 ::: tips
