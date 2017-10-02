@@ -65,6 +65,9 @@ nav{
                             border-bottom: 1px @brand-primary solid;
                             font-size: 14px;
                         }
+                        li.a{
+                            color: @brand-primary;
+                        }
                     }
                 }
                 a:hover:after{
@@ -86,17 +89,7 @@ nav{
                 @media (min-width: @screen-lg-min) {
                     width: 450px;
                 }
-                padding-left: 40px;
                 height: 35px;
-            }
-            position: relative;
-            &:before{
-                content: '\f002';
-                font-family: 'FontAwesome';
-                position: absolute;
-                left: 5px;
-                padding-left: 10px;
-                top: 4px;
             }
         }
     }

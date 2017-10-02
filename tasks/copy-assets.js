@@ -6,8 +6,6 @@ var rename = require('gulp-rename');
 var merge = require('merge-stream');
 
 gulp.task('copy-assets', ['clean-dist'], function(){
-    var fa = gulp.src('node_modules/font-awesome/css/font-awesome.min.css')
-        .pipe(gulp.dest('dist/css/'));
     var comfortaaCss = gulp.src('node_modules/typeface-comfortaa/index.css')
         .pipe(rename('font-comfortaa.css'))
         .pipe(gulp.dest('dist/css/'));
@@ -31,6 +29,9 @@ gulp.task('copy-assets', ['clean-dist'], function(){
         .pipe(gulp.dest('dist/fonts/'));
     var img = gulp.src('content/img/*')
         .pipe(gulp.dest('dist/img/'));
+    var articleImg = gulp.src('content/md/*/img/*')
+        .pipe(rename({dirname: ''}))
+        .pipe(gulp.dest('dist/img/'));
 
-    return merge(fa, comfortaaCss, lib, fonts, img);
+    return merge(comfortaaCss, lib, fonts, img, articleImg);
 });
