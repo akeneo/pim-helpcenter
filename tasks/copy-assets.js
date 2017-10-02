@@ -29,6 +29,9 @@ gulp.task('copy-assets', ['clean-dist'], function(){
         .pipe(gulp.dest('dist/fonts/'));
     var img = gulp.src('content/img/*')
         .pipe(gulp.dest('dist/img/'));
+    var articleImg = gulp.src('content/md/*/img/*')
+        .pipe(rename({dirname: ''}))
+        .pipe(gulp.dest('dist/img/'));
 
-    return merge(comfortaaCss, lib, fonts, img);
+    return merge(comfortaaCss, lib, fonts, img, articleImg);
 });
