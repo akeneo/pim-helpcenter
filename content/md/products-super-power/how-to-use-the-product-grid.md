@@ -45,7 +45,7 @@ On the left side of the grid, you have a drop down menu to select your channel.
 
 ![image](../img/dummy.png)
 
-The selected channel or scope selected will be your working channel (or working scope). Selecting a channel impacts values displayed on the product grid, especially if your attribute information differ depending on the channel.
+The selected channel or scope will be your working channel (or working scope). Selecting a channel impacts values displayed on the product grid, especially if your attribute information differ depending on the channel.
 
 This will also impact the completeness displayed, since there can be one completeness percentage per channel/locale combination. Therefore the product grid is updated whenever the working channel changes.
 
@@ -57,7 +57,7 @@ Like the locale, the channel selected on the product grid’s page is applied wh
 
 # Product grid pagination
 
-The product grid displays 100 products per page. To browse product’s pages, click on the right and left arrows.
+The product grid displays 25 products per page. To browse product’s pages, click on the number of the page you want to reach.
 
 ![image](../img/dummy.png)
 
@@ -69,7 +69,7 @@ The product grid displays 100 products per page. To browse product’s pages, cl
 
 On the left side of the page, you will see the category panel. Thanks to this panel, you can easily navigate between category trees or between categories. It displays all categories you have access to.
 
-In the Enterprise Edition, you can define specific rights on categories and category trees. Thus, if you do not see a specific tree or category, it’s because you have not the permission to see it.Click on a category name to expand it or to display its products in the grid.
+In the Enterprise Edition, you can define specific rights on categories and category trees. Thus, if you do not see a specific tree or category, it’s because you have not the permission to see it. Click on a category name to expand it or to display its products in the grid.
 
 ![image](../img/dummy.png)
 
@@ -93,7 +93,7 @@ Click on «All products» to see all products (categorised and uncategorised) of
 
 ## Product counter
 
-Akeneo displays you the number of products available in each category and category tree. You will see a number into brackers nearby each category, this figure represents the total number of products classified in this category or sub-category.
+Akeneo displays you the number of products available in each category and category tree. You will see a number into brackets nearby each category, this figure represents the total number of products classified in this category or sub-category.
 
 At the bottom of the category tree, you will see a Yes/No option: «Include sub-categories».
 
@@ -107,13 +107,13 @@ In the Enterprise Edition, only the products on which you have rights to view an
 
 ## Hide or expand the category panel
 
-In order to allow you to display the product grid widely, you can hide the category panel. To do so, click on the left arrows on the bottom right corner of the panel:
+In order to allow you to display the product grid widely, you can hide the category panel. To do so, click on the left arrow on the bottom right corner of the panel:
 
 ![image](../img/dummy.png)
 
 The category panel will be reduced automatically to the left side.
 
-To expand the panel, click again on the arrows, the panel will be displayed.
+To expand the panel, click again on the arrow, the panel will be displayed.
 
 ![image](../img/dummy.png)
 
@@ -138,7 +138,7 @@ The filters can be applied on the following product information:
 ::: tips
 You can define your own default product grid filters in your user account, refer to the section “Change your default preferences”.
 
-If no default filters are set in your user account, the PIM will use the system attributes as default product grid filters: family, groups, status, completeness, creation date, updated date, product identifier and permissions.
+If no default filters are set in your user account, the PIM will use the system attributes as default product grid filters: family, groups, status, complete, complete product, creation date, updated date, product identifier and permissions.
 :::
 
 ::: info
@@ -161,7 +161,8 @@ By default, the grid displays the following columns:
 - Complete (the completeness percentage),
 - Created at (the creation date of the product),
 - Updated at (the product last updated date),
-- Groups (if the product belongs to groups or variant groups)
+- Groups (if the product belongs to groups)
+- Complete product
 
 ### Configure the columns
 Click on «columns» on the right side of the grid to display the column selection window:
@@ -187,7 +188,7 @@ Select an attribute group on the left side or select «All groups». Drag your a
 
 ### Remove attributes as columns
 
-Click on «Clear» top of the screen to remove all current grid’s attributes, or use the “trash” icon to remove a a specific attribute from the grid. You need to have at least one attribute as a column.
+Click on «Clear» top of the screen to remove all current grid’s attributes, or use the “trash” icon to remove a specific attribute from the grid. You need to have at least one attribute as a column.
 
 Click on «Apply» to save your changes. Your customised grid will be displayed.
 
