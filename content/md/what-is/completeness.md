@@ -25,12 +25,12 @@ Your **dashboard** will display the overall completeness for each combination ch
 Your **product grid** will display the completeness for each product as a percentage
 [SCREENSHOT product grid] 
 
-## On your product edit form:
+## On your product edit form
 Your **product edit form** will display the completeness for each product, as well as for each variant if it is a product model
 [SCREENSHOT product completeness]
 [SCREENSHOT if variant products]
 
-## In your completeness panel (product edit form):
+## In your completeness panel (product edit form)
 [SCREENSHOT completeness panel]
 
 ::: tips
