@@ -11,8 +11,9 @@ ee-only: true
 ## Published a single product
 
 To publish a product:
-1.  Open a product edit form,
-1.  Click on the “Publish this version” button.
+1.  Open a product edit form
+1.  Click on the "..." in the top right corner of the screen
+1.  Select "Publish this version” in the dropdown
 
 The current version is published. In the “History” tab, the published version is indicated by a blue «P» label as shown below:
 
@@ -25,12 +26,12 @@ If you click on «More» to open the complete History page, the Published versio
 ## Publish several products at once
 To publish several products simultaneously:
 
-1.  Tick the products in the product grid.
-1.  Click on the Bulk Actions button, select «mass edit» action.
-1.  Choose the “Publish products” operation:
-    *   If you are in charge of all the products you have selected, follow the steps and all selected products will be published.
-    *   If you are in charge of some of the products: a message will inform you that you will only be able to publish the relevant products on which you have the own right. Then, follow the steps and only the products you manage will be published. The other products will not be published.
-    *   If you are in charge of none of product you have selected, an error message will inform you that you do this action you do not have permission to publish these products. Click on the “Back” button to exit the mass edit process.
+1.  Tick the products in the product grid
+1.  Click on the Bulk Actions button at the bottom of the screen, select «Publish» action
+1.  Choose the “Publish products” operation and click on "Next":
+    *   If you are in charge of all the products you have selected, follow the steps and all selected products will be published
+    *   If you are in charge of some of the products: a message will inform you that you will only be able to publish the relevant products on which you have the own right. Then, follow the steps and only the products you manage will be published. The other products will not be published
+    *   If you are in charge of none of product you have selected, an error message will inform you that you do this action you do not have permission to publish these products. Click on the “Back” button to exit the mass edit process
 
 # View the published products
 
@@ -38,16 +39,17 @@ To publish several products simultaneously:
 
 To check which products are published:
 
-1.  Go to Enrich/Published products.
-1.  The published product grid is the same as the product grid.
+1.  Go to the Product grid
+1.  Click on the "..." in the top right corner of the screen
+1.  Select "Published products” in the dropdown
 
 ![image](../img/dummy.png)
 
 But some features will not be available on this grid:
 
-*   You will not be able to create a new product from this page,
-*   You will not be able to delete any published products,
-*   You will not be able to modify any published products.
+*   You will not be able to create a new product from this page
+*   You will not be able to delete any published products
+*   You will not be able to modify any published products
 
 The views are specific to the published product grid. Hence, the views of unpublished products are not shared with the grid of published products.
 
@@ -64,9 +66,11 @@ It is not possible to edit published products, you can only view them.
 ## View a published product in detail
 
 To view a published product form:
-1.  Go to Enrich/Published products.
-1.  Click on the product.
-1.  The Product Edit Form is displayed.
+1.  Go to the Product grid
+1.  Click on the "..." in the top right corner of the screen
+1.  Select "Published products” in the dropdown
+1.  Click on the product
+1.  The Product Form is displayed
 
 ![image](../img/dummy.png)
 
@@ -91,11 +95,11 @@ Unpublishing products only impacts the export of products. The export of attribu
 ## Unpublish a single product
 
 To unpublish one product:
-1.  Go to Enrich/Published Products or Enrich/Products.
-1.  Click on your product.
-1.  Click on the “Unpublish” button if you’re on the published version (see screenshot below).
+1.  Go to Products/Published Products or Products/Products
+1.  Click on your product
+1.  Click on the “Unpublish” button if you’re on the published version (see screenshot below)
 ![image](../img/dummy.png)
-1.  Click on small arrow nearby the Publish this version button and select Unpublish if you are on the unpublished product grid.
+1.  Click on small arrow nearby the Publish this version button and select Unpublish if you are on the unpublished product grid
 
 ![image](../img/dummy.png)
 
@@ -104,14 +108,18 @@ The product will be no longer published. The product will not be listed anymore 
 ## Unpublish several products at once
 
 To unpublish several products at the same time:
-1.  Go to Enrich/Published products.
-1.  Tick the products in the grid.
-1.  Click on the Bulk Actions button, and select the Mass Edit action.
+1.  Go to the Product grid
+1.  Click on the "..." in the top right corner of the screen
+1.  Select "Published products” in the dropdown
+1.  Tick the products in the grid
+1.  Click on the Bulk Actions button at the bottom of the screen, and select the Unpublish action
+
 ![image](../img/dummy.png)
-1.  Select the “Unpublish Products” operation:
+
+1.  Select the “Unpublish” operation:
     *   If you are in charge of all selected products, follow the steps and all
-        products will be unpublished.
-    *   If you are in charge of only part of the selected products: a message will appear to inform you that you can only unpublish the products for on which you have own rights. Then follow the next steps and only the products you own will be unpublished. The other products will not be unpublished.
-    *   If you are in charge of none of the selected products: an error message will appear to inform you that you cannot unpublish the products because you do not have the rights to do so. Click on the “Back” button to exit the mass edit process.
+        products will be unpublished
+    *   If you are in charge of only part of the selected products: a message will appear to inform you that you can only unpublish the products for on which you have own rights. Then follow the next steps and only the products you own will be unpublished. The other products will not be unpublished
+    *   If you are in charge of none of the selected products: an error message will appear to inform you that you cannot unpublish the products because you do not have the rights to do so. Click on the “Back” button to exit the mass edit process
 
     The combination of actions to unpublish / restore a version allows to push new information to a product version.
