@@ -22,9 +22,9 @@ A channel is also known as a **scope** in Akeneo PIM.
 :::
 
 Additional properties:
-- it has its own [asset transformation](articles/assets-transformation.html)
-- it has its own metrics conversion.
+- it has its own [asset transformations](articles/assets-transformation.html)
+- it has its own metric conversions.
 
 ## How many channels do I need?
 
-You might need a new channel if and only if you need a different content for a same attribute (for example Description for the web and Description for the Mobile application) or you need a different [completeness](articles/what-is-the-completeness.html) (for example Web needs 50 Attributes but Mobile application only 30).
+You might need a new channel if and only if you need a different content for a same attribute (for example Description for the web and Description for the Mobile application) or if you need a different [completeness](articles/what-is-the-completeness.html) (for example Web needs 50 Attributes but Mobile application only 30).
