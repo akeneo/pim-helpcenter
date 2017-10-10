@@ -11,7 +11,7 @@ What is this **red, orange or green progress bar displayed on my dashboard**? Wh
 
 **This is the completeness!**
 
-Because product information matters to us, we introduced the concept of "completeness" in our PIM. 
+Because product information matters to us, we introduced the concept of "completeness" in our PIM.
 Akeneo's completeness is an information about your enrichment quality: it tells you how many attributes are filled in for your products.
 
 # Where to see the completeness?
@@ -23,7 +23,7 @@ Your **dashboard** will display the overall completeness for each combination ch
 
 ## In your product grid
 Your **product grid** will display the completeness for each product as a percentage
-[SCREENSHOT product grid] 
+[SCREENSHOT product grid]
 
 ## On your product edit form
 Your **product edit form** will display the completeness for each product, as well as for each variant if it is a product model
@@ -41,8 +41,8 @@ Thanks to the completeness panel, get the list of empty attributes and fill them
 The **completeness is defined by a [family](/articles/what-is-a-family.html)**, a **[locale](/articles/what-is-a-locale.html)** and a **[channel](/articles/what-is-a-channel.html)**.
 
 
-Then, once you know which attributes have to be taken into account for each family, in other words, **which attributes must be filled in to export your product**, go to *Settings/Family*.
-Select a family and under the tab *Attributes*, tick attributes to take them into account in the completeness calculation or untick them to remove them from completeness calculation.
+Then, once you know which attributes have to be taken into account for each family, in other words, **which attributes must be filled in to export your product**, go to `Settings/Family`.
+Select a family and under the tab `Attributes`, tick attributes to take them into account in the completeness calculation or untick them to remove them from completeness calculation.
 [SCREENSHOT GIF tick untick products]
 
 It's easy as pie!
@@ -58,13 +58,12 @@ A product is considered as **complete** (when it has a completeness of 100% [SCR
 
 # How often is my completeness refreshed?
 The completeness is regenerated:
-- after an import, 
-- after a mass action, 
-- after the rules are executed, 
+- after an import,
+- after a mass action,
+- after the rules are executed,
 - after you edit your family,
-- after a product is saved... 
+- after a product is saved...
 
 ::: warning
 You can refresh your completeness using the command ```app/console pim:completeness:calculate``` (not available for Serenity edition)
 :::
-
