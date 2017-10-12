@@ -21,7 +21,7 @@ Here’s the list of the bulk operations available in the PIM (Community and Ent
   - Add to groups: to add your selection of products in one or more groups
   - Add to categories: to add product into categories
   - Move between categories: to change your product categorization
-  - Remove products from categories: to remove products from one or more categories at once
+  - Remove products from categories: to remove products from one or more categories at once. Selected products will be uncategorized.
   - Publish products (Enterprise Edition only): to mass publish products
   - Unpublish products (Enterprise Edition only - available from the Published product grid): to mass unpublish products
   - Edit products sequentially: to edit product one after the other through their product edit forms
