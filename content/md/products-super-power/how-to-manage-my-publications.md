@@ -8,7 +8,7 @@ ee-only: true
 
 # Publish products
 
-## Published a single product
+## Publish a single product
 
 To publish a product:
 1.  Open a product edit form
@@ -41,7 +41,7 @@ To check which products are published:
 
 1.  Go to the Product grid
 1.  Click on the "..." in the top right corner of the screen
-1.  Select "Published products” in the dropdown
+1.  Select "Publish” in the dropdown
 
 ![image](../img/dummy.png)
 
@@ -95,8 +95,8 @@ Unpublishing products only impacts the export of products. The export of attribu
 ## Unpublish a single product
 
 To unpublish one product:
-1.  Go to Products/Published Products or Products/Products
-1.  Click on your product
+1.  Go to the published product grid by clicking on the "..." in the top right corner of the product grid screen
+1.  Click on the small cloud icon displayed on product rollover in the grid
 1.  Click on the “Unpublish” button if you’re on the published version (see screenshot below)
 ![image](../img/dummy.png)
 1.  Click on small arrow nearby the Publish this version button and select Unpublish if you are on the unpublished product grid

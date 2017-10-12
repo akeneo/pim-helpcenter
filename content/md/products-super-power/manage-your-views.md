@@ -1,3 +1,4 @@
+em
 ---
 id: manage-your-views
 themes: boost-your-productivity, collaborative-work
@@ -21,11 +22,11 @@ And once you are all set, you will see that the Default view name became Default
 To create your first view:
 1.  Click on the "..." nearby the view selector menu
 ![image](../img/dummy.png)
-1.  Select "Create view" in the dropdown
+1.  Select `Create view` in the dropdown
 1.  A window will appear:
 ![image](../img/dummy.png)
 1.  Enter a name for your view
-1.  Click on "Save" to record your view
+1.  Click on `Save` to record your view
 
 This view will now be available under the Views dropdown menu.
 
@@ -54,16 +55,16 @@ To update the filters or the column configuration of the views you have created:
 1.  Change the filter and/or the grid columns, when you make changes an asterisk “\*” is shown nearby your view name
 ![image](../img/dummy.png)
 1.  Click on the "..." nearby the view selector menu
-1.  Select "Save this view" in the dropdown
+1.  Select `Save this view` in the dropdown
 
 # Share a view
 
 Your view may be useful for your colleagues too. No problem, they can easily set it as their default view too!
 Here are the steps to follow:
-1. Go to System/ users
+1. Click on your avatar on the top right corner of the screen
 1. Select your name
-1. Click on "Edit" and select the "Additional" tab
-1. In the "Default view" field, select the relevant view in the dropdown
+1. Click on `Edit` and select the `Additional` tab
+1. In the `Default view` field, select the relevant view in the dropdown
 Go back to the product grid and you will benefit from it.
 
 # Delete a view
@@ -71,7 +72,7 @@ Go back to the product grid and you will benefit from it.
 To remove a view you have created, follow the steps below:
 1.  Select the view you want to delete
 1.  Click on the "..." nearby the view selector menu
-1.  Select "Delete this view" in the dropdown
+1.  Select `Delete this view` in the dropdown
 ![image](../img/dummy.png)
 1.  Confirm or cancel the suppression of the view.
 
