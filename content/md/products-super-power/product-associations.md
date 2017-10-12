@@ -18,11 +18,11 @@ This type of relationship enables you to define relationships like an alternativ
 # View the product’s associations
 
 To check the association types:
-1.  Open the relevant product edit form.
-1.  Click on the “Association” tab.
-1.  Click on the association type name on the left-hand side.
-1.  Click on the “Show groups” button on the right-hand side of the tab to display the product groups grid.
-1.  Click on the “Show products” button on the right-hand side of the tab to display the product grid.
+1.  Open the relevant product edit form
+1.  Click on the `Association` tab
+1.  Click on the association type name on the left-hand side
+1.  Click on the `Show groups` button on the right-hand side of the tab to display the product groups grid
+1.  Click on the `Show products` button on the right-hand side of the tab to display the product grid
 
 ![image](../img/dummy.png)
 
@@ -30,14 +30,14 @@ The green icon in front of the name of the association type shows that the produ
 
 ![image](../img/dummy.png)
 
-The associated products can be identified by the input “Yes” in green in the «Is associated» column of the grid. The boxes are also checked.
+The associated products can be identified by the input `Yes` in green in the `Is associated` column of the grid. The boxes are also checked.
 
 # Add/remove associations to/from a product
 
 To associate a product with another product or group of products
-1.  Open the Product Edit Form.
-1.  Click on the “Associations“ tab.
-1.  Click on the association name on the left-hand side.
-1.  Find the products or the product groups and tick them.
-1.  Untick the products or the product groups that you no longer want to associate with the relevant product.
-1.  Click on the “Save” button.
+1.  Open the Product Form
+1.  Click on the `Associations` tab
+1.  Click on the association name on the left-hand side
+1.  Find the products or the product groups and tick them
+1.  Untick the products or the product groups that you no longer want to associate with the relevant product
+1.  Click on the `Save` button
