@@ -11,20 +11,20 @@ related: sequential-edit
 
 Bulk operations enable you to perform actions on multiple products at once. These operations are performed on a selection of products from the grid.
 
-To access the bulk actions, go on the Product grid, select at least one product and click on `Bulk actions` button, at the bottom of the grid.
+To access the bulk actions, go on the Product grid, **select at least one product** and click on the `Bulk actions` button, at the bottom of the grid.
 
 # Available mass actions
 Here’s the list of the bulk operations available in the PIM (Community and Enterprise Editions):
-  - Edit common attributes: to edit the common attributes of your selection of products. For instance, set a new release date or a new value for an attribute This action does not add attribute to products
+  - Edit common attributes: to edit the common attributes of your selection of products. For instance, set a new release date or a new value for an attribute. This action does not add attribute to products
   - Change family: to choose/change the family of the selected products
   - Change status (enable/disable): this action allows you to edit the status of one or several products, to enable or disable the products
   - Add to groups: to add your selection of products in one or more groups
   - Add to categories: to add product into categories
   - Move between categories: to change your product categorization
   - Remove products from categories: to remove products from one or more categories at once
-  - Publish products (EE Enterprise only): to mass publish products
-  - Unpublish products (EE Enterprise only - available from the Published product’s grid): to mass unpublish products
-- Edit products sequentially: to edit product one after the other through their product edit forms.
+  - Publish products (Enterprise Edition only): to mass publish products
+  - Unpublish products (Enterprise Edition only - available from the Published product grid): to mass unpublish products
+  - Edit products sequentially: to edit product one after the other through their product edit forms
 
 
 ::: info  
@@ -37,8 +37,8 @@ In order to perform a bulk operation on products, you need the rights to each po
 1.  Tick the products you want to mass edit via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `None` for none of the products:
   ![image](../img/dummy.png)
 1.  Click on `Bulk Actions`
-1.  Select the operation to be performed from the screen menu (see the list of operations on the next page)
-1.  According to the selected operation, the next page of configuration changes
+1.  Select the operation to be performed from the screen menu
+1.  According to the selected operation, the next screen of configuration changes
 
 | Operations  | Step of configuration  |
 |:------------|:-----------------------|
@@ -46,7 +46,7 @@ In order to perform a bulk operation on products, you need the rights to each po
 | Change family | Select the family to be applied on products   |
 | Change status | Select the status to be applied: enable or disable  |
 | Add to groups     | Check the groups in which the products will be brought together       |
-| Add to categories<br>Move between categories<br>Remove from categories | Tick the categories in which the products will be classified, moved or removed.   |
+| Add to categories<br>Move between categories<br>Remove from categories | Tick the categories in which the products will be categorized, moved or removed.   |
 | Publish products  | Confirm the action     |
 | Unpublish products  | Confirm the action     |
 
