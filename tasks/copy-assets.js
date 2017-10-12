@@ -6,9 +6,6 @@ var rename = require('gulp-rename');
 var merge = require('merge-stream');
 
 gulp.task('copy-assets', ['clean-dist'], function(){
-    var comfortaaCss = gulp.src('node_modules/typeface-comfortaa/index.css')
-        .pipe(rename('font-comfortaa.css'))
-        .pipe(gulp.dest('dist/css/'));
     var lib = gulp.src([
             'node_modules/jquery/dist/jquery.min.js',
             'node_modules/handlebars/handlebars.min.js',
@@ -24,8 +21,7 @@ gulp.task('copy-assets', ['clean-dist'], function(){
               'node_modules/lato-font/fonts/lato-semibold/*',
               'node_modules/lato-font/fonts/lato-semibold-italic/*',
               'node_modules/lato-font/fonts/lato-bold/*',
-              'node_modules/lato-font/fonts/lato-bold-italic/*',
-              'node_modules/font-awesome/fonts/*'])
+              'node_modules/lato-font/fonts/lato-bold-italic/*'])
         .pipe(gulp.dest('dist/fonts/'));
     var img = gulp.src('content/img/*')
         .pipe(gulp.dest('dist/img/'));
@@ -33,5 +29,5 @@ gulp.task('copy-assets', ['clean-dist'], function(){
         .pipe(rename({dirname: ''}))
         .pipe(gulp.dest('dist/img/'));
 
-    return merge(comfortaaCss, lib, fonts, img, articleImg);
+    return merge(lib, fonts, img, articleImg);
 });
