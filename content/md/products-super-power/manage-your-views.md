@@ -1,4 +1,3 @@
-em
 ---
 id: manage-your-views
 themes: boost-your-productivity, collaborative-work
