@@ -43,7 +43,7 @@ To check which products are published:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Publish` in the dropdown
 
-![image](../img/dummy.png)
+![Publish](https://github.com/akeneo/pim-helpcenter/blob/lucas/content/md/products-super-power/img/Products_PublishedGrid.png)
 
 But some features will not be available on this grid:
 
@@ -72,19 +72,16 @@ To view a published product form:
 1.  Click on the product
 1.  The Product Form is displayed
 
-![image](../img/dummy.png)
+![Published Products](https://github.com/akeneo/pim-helpcenter/blob/7d89dbe0dd6e1f58b4319c4665730c3706cefe0d/content/md/products-super-power/img/Products-PublishedProducts.png)
 
 The display is the same as the unpublished product form. For more information, you can refer to the section, “Viewing a product form”. Also, if you do not have the appropriate rights to see some attribute groups at least, these latter will not be displayed.
 
 When you are in charge of the published product which is viewed, there are two buttons available in the header on the right side:
 
 *   Edit the current product version (working copy): clicking on this button will redirect you to the Unpublished Product Form.
-
-![image](../img/dummy.png)
-
 *   Unpublish
 
-![image](../img/dummy.png)
+![Edit working copy or Unpublish buttons](https://github.com/akeneo/pim-helpcenter/blob/119bfbdc62e79949a6e5d50878373a9c0bb7767d/content/md/products-super-power/img/Products-PublishedProduct2.png)
 
 # Unpublish products
 
@@ -96,12 +93,13 @@ Unpublishing products only impacts the export of products. The export of attribu
 
 To unpublish one product:
 1.  Go to the published product grid by clicking on the "..." in the top right corner of the product grid screen
-1.  Click on the small cloud icon displayed on product rollover in the grid
-1.  Click on the `Unpublish` button if you’re on the published version (see screenshot below)
-![image](../img/dummy.png)
-1.  Click on small arrow nearby the Publish this version button and select Unpublish if you are on the unpublished product grid
+1.  Click on the small cloud icon displayed on product rollover in the grid (see screenshot below)
+![Unpublished a product from the grid](https://github.com/akeneo/pim-helpcenter/blob/119bfbdc62e79949a6e5d50878373a9c0bb7767d/content/md/products-super-power/img/Products-PublishedProduct3.png)
 
-![image](../img/dummy.png)
+> **Notes** 
+You can also unpublish a product directly from the edit form. 
+1.  Click on a product in the Published product grid
+1.  On the top right corner, you have the `Unpublish` button. Click on it to unpublish your product.
 
 The product will be no longer published. The product will not be listed anymore in the published product grid.
 
@@ -114,7 +112,7 @@ To unpublish several products at the same time:
 1.  Tick the products in the grid
 1.  Click on the Bulk Actions button at the bottom of the screen, and select the Unpublish action
 
-![image](../img/dummy.png)
+![Bulk Actions on Publish products](https://github.com/akeneo/pim-helpcenter/blob/119bfbdc62e79949a6e5d50878373a9c0bb7767d/content/md/products-super-power/img/Products-PublishedProduct4.png)
 
 1.  Select the `Unpublish` operation:
     *   If you are in charge of all selected products, follow the steps and all
