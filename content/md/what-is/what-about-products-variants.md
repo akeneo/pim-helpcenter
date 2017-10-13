@@ -51,14 +51,16 @@ You will define:
 - the variant axes for each level
 - the distribution of attributes between common attributes and variant attributes
 
-For our example of the t-shirts, you will define a family variant "T-shirts by color/size" with:
+For our t-shirt example, you will define a family variant "T-shirts by color/size" with:
 - the number of variant levels: 2
 - the variant axes: color for the 1st level, size for the 2nd one
 - the common attributes: name, brand, care instructions
 - the variant attributes by color: pictures, composition
 - the variant attributes by color/size: EAN, SKU
 
+::: tips
 A [family](/articles/what-is-a-family.html) could have several variants. For example, a family "furnitures" varying in the number of seats for sofas or in the material for tables.
+:::
 
 # How many levels of enrichment are managed?
 With this new modeling, **up to 3 levels of enrichment can be managed for products with variants** (ex: t-shirt model, t-shirt color, t-shirt color/size):
