@@ -19,7 +19,7 @@ A project needs the following information:
 - one locale
 - one channel
 - a product’s category (or a subcategory)
-- Optional: you can also customize your product’s grid: add/remove attribute filters and/or customize the grid’s columns
+- Optional: you can also customize your product grid: add/remove attribute filters and/or customize the grid’s columns
 
 ::: info
 If you select a category, all its subcategories will also be added.
@@ -108,12 +108,12 @@ If you have created the project, you can delete it when:
 - you do not need it anymore
 - some settings have changed: locale and/or channel so you need to create a new project
 
-Drag your mouse over the project’s label, the project will be greyed out and two small icons will appear on the right side.
-
-Click on the red cross icon to delete the project.
-
-Once you click on the red cross icon, a confirmation window is prompted:
-- Click on `Yes, delete project` to definitely remove the project
+Here are the different steps:
+1. Click on the `...` nearby `Views/Projects` selector
+1. Select `Projects`
+1. In the projects drop down, select your project
+1. Click on `...` and select `Delete project` to definitely remove the project
+1. A confirmation window is prompted to allow you to `Confirm` or `Cancel` your action.
 
 ::: danger
 Be aware this operation cannot be reverted.
