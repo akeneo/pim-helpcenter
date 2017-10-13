@@ -27,7 +27,7 @@ The PIM opens the Export Profile in Edition mode so you can customise it and sel
 # Edit a product export profile
 
 From an existing product export profile:
-1. Go to Exports Profiles
+1. Go to Exports
 1. Click on the product export profile line to edit
 1. Click on the `Edit` button located on the top right corner of the screen
 1. Once the export profile is displayed, click on the `Content` tab to edit the exported product information
@@ -42,7 +42,7 @@ You land on a page divided in two sections:
 
 ![image](../img/dummy.png)
 
-Structure Filters: this part allows you to define the structure of the exported file, namely its columns: you will have to specify a Channel and one or more locales to export (required fields). The last field `Attributes` will allow you to select the attributes to be used as file columns.
+Structure Filters: this part allows you to define the structure of the exported file, namely its columns: you will have to specify a channel and one or more locales to export (required fields). The last field `Attributes` will allow you to select the attributes to be used as file columns.
 
 Data Filters: this part allows you to filter your data on several product and system information such as the family, category, status, completeness or even insert a list of SKUs, you can also add new attributes to use them to filter your data.
 
@@ -151,7 +151,7 @@ For example, you want to export the clothing products (categories `Clothing` in 
 By default all categories are exported. To select a category, click on the `Edit` button. The categories of the channel tree are displayed:
 
 ![image](../img/dummy.png)
-
+g
 You can expand a category and see its subcategory by clicking on the arrow. This arrow also enables to collapse a category.
 
 You can select a category and its subcatgories, or only the subcategories.
@@ -159,7 +159,7 @@ You can select a category and its subcatgories, or only the subcategories.
 Clicking on `All products` allows you to export all categories by erasing the above selection.
 
 ::: info
-You can not export unclassified products thanks to the export builder. If you want to do so, you can use the Quick export in the product grid.
+You cannot export unclassified products thanks to the export builder. If you want to do so, you can use the Quick export in the product grid.
 :::
 
 #### Filter on SKU (or product identifiers)
