@@ -41,9 +41,9 @@ As a project creator, you can search for a user to know his progress on a projec
 ![image](../img/dummy.png)
 
 ::: info
-The project creator is the only one who can select «All contributor» or another contributor.
+The project creator is the only one who can select `All contributor` or another contributor.
 :::
 
-If you have no project, the widget will display users the message: You have no current project, start a new project.
+If you have no project, the widget will display users the message: `You have no current project, start a new project`.
 
 ![image](../img/dummy.png)
