@@ -22,7 +22,7 @@ Notifications are automatic. A contributor is notified when he/she has work to d
 
 # Who is notified?
 
-According to the project’s channel, locale, category, the contributors having edit right on attribute group, category and locale will be notified in the PIM Notification center if they have empty required attributes to enrich.
+According to the project’s channel, locale, category, the contributors having edit right on attribute group, category and locale will be notified in the PIM Notification centre if they have empty required attributes to enrich.
 
 # A concrete example
 
@@ -64,9 +64,9 @@ The project’s creator and the contributors will be notified when the project i
 
 Project’s contributors and creator are notified at different steps of a project:
 
-1.  At the project’s creation,
-1.  On the due date reminder: when a project is not 100% complete, 7, 3 and 1 days before due date,
-1.  At the end of the project: when a project is 100% complete.
+1.  At the project’s creation
+1.  On the due date reminder: when a project is not 100% complete, 7, 3 and 1 days before due date
+1.  At the end of the project: when a project is 100% complete
 
 ::: info
 Our developer guide (aka our cookbook) contains additional information about how to customize notifications and change the number of default days for the reminder (See Customize notification).
