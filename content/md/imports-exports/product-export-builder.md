@@ -22,7 +22,7 @@ To create a product export:
 ![image](../img/dummy.png)
 1. Save your new export profile
 
-The PIM opens the Export Profile in Edition mode so you can customise it and select the information you want to export. You can start customising your own export profile to only export the data you need.
+The PIM opens the export profile in Edition mode so you can customise it and select the information you want to export. You can start customising your own export profile to only export the data you need.
 
 # Edit a product export profile
 
@@ -138,7 +138,7 @@ You can now export your product on a specific time condition:
 - Updated products since this date:  you want to export products updated since a specific date
 - Updated products since last export: you want to export products updated since the last export
 
-If you select `Updated products over the last n days (e.g. 6)`, a field will be displayed nearby the drop down menu. Indicate a number of days (please only use numbers) in this field.
+If you select `Updated products over the last n days (e.g. 6)`, a field will be displayed nearby the drop down menu. Specify a number of days (please only use numbers) in this field.
 
 If you select `Updated products since this date`, the date picker will be displayed to choose a date. To change the date, click again on the date picker. To completely remove a date, select another time condition.
 
