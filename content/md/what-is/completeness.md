@@ -43,7 +43,7 @@ The **completeness is defined by a [family](/articles/what-is-a-family.html)**, 
 
 Then, once you know which attributes have to be taken into account for each family, in other words, **which attributes must be filled in to export your product**, go to `Settings/Family`.
 Select a family and under the tab `Attributes`, tick attributes to take them into account in the completeness calculation or untick them to remove them from completeness calculation.
-[SCREENSHOT GIF tick untick products]
+![GIF Set Attributes Requirements](https://github.com/akeneo/pim-helpcenter/blob/lucas/content/md/what-is/img/Products_SetAttributesRequirements.gif)
 
 It's easy as pie!
 
