@@ -80,21 +80,21 @@ To create an attribute from the PIM user interface (without going through import
 
 To create an attribute in the PIM:
 1. Go on `Settings/Attributes`
-2. Click on the `Create attribute` button
-![image](../img/dummy.png)
-3. Select the attribute type you want to create
-![image](../img/dummy.png)
-4. The attribute edit page is displayed.
-The following properties are required to create an attribute:
-- A code
-- An attribute group: the attribute group the attribute will belong to
-- Unique value (Yes/No): if the values for this attribute are unique (will be available or required according to the attribute type)
-- A value per channel (Yes/No): use this field if your attribute values depend on the channels
-- A value per locale (Yes/No): use this field if your attribute values depend on the locales
-- Locale specific: if it must apply to specific locales not all of them
-- Usable in grid: whether or not the attribute can be displayed as a column or used as a filter in the product grid
-- Validation parameters: depending on the attribute type chosen
-5. Then click on `Save`
+1. Click on the `Create attribute` button
+  ![image](../img/dummy.png)
+1. Select the attribute type you want to create
+  ![image](../img/dummy.png)
+1. The attribute edit page is displayed. The following properties are required to create an attribute:
+ - A **code** to identify the attribute
+ - An **attribute group**: the attribute group the attribute will belong to
+ - **Unique value** (Yes/No): if the values for this attribute are unique (will be available or required according to the attribute type)
+ - **A value per channel** (Yes/No): Yes if your attribute values depend on the channels
+ - **A value per locale** (Yes/No): Yes if your attribute values depend on the locales
+ - **Locale specific**: if it must apply to specific locales not all of them
+ - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid
+ - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
+ 
+1. Then click on `Save`
 
 ::: ee
 The property "read only" prevents this attribute from being edited in the UI, it could be updated only through imports or rules.
@@ -113,12 +113,12 @@ id, associationTypes, category, categories, categoryId, completeness, enabled, f
 # Edit attribute properties
 
 You can change the following properties of an attribute:
-- The attribute group: the attribute group the attribute belongs to
-- Labels: these are labels that appear when they are displayed in the PIM
-- Locale specific: if it must apply to specific locales not all of them
-- Usable in grid: whether or not the attribute can be displayed as a column or used as a filter in the product grid
-- Specific properties to attributes (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
-- Options (for simple or multi select attribute types only): these are predefined values that the user can select
+- **Attribute group**: the attribute group the attribute belongs to
+- **Labels**: these are labels that appear when they are displayed in the PIM
+- **Locale specific**: if it must apply to specific locales not all of them
+- **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid
+- **Validation parameters** (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
+- **Options** (for simple or multi select attribute types only): these are predefined values that the user can select
 
 ::: ee
 - Read only: to prevent this attribute from being edited in the UI, it could be updated only through imports or rules.
