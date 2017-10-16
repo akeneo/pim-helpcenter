@@ -19,7 +19,7 @@ To create a product export:
 1.  Go to Spread/Export Profiles,
 1. Click on the «Create export profile» button,
 1. Indicate a unique export code, an export label and select the job: csv_product_export or xlsx_product_export (all fields are required)
-![image](../img/dummy.png)
+![Create a new product export profile](https://github.com/akeneo/pim-helpcenter/blob/f17559635930f1215676854fed45f6c570385f2b/content/md/imports-exports/img/Exports_CreateProfilExport.png)
 1. Save your new export profile.
 
 The PIM opens the Export Profile in Edition mode so you can customise it and select the information you want to export. You can start customising your own export profile to only export the data you need.
@@ -40,7 +40,7 @@ To edit the product information:
 
 You land on a page divided in two sections:
 
-![image](../img/dummy.png)
+![Edit a product export profile](https://github.com/akeneo/pim-helpcenter/blob/0a6987d5a91e75ca19dd16d9adc8a57e1c5837d2/content/md/imports-exports/img/Exports_EditContent.png)
 
 Structure Filters: this part allows you to define the structure of the exported file, namely its columns: you will have to specify a Channel and one or more locales to export (required fields). The last field «Attributes» will allow you to select the attributes to be used as file columns.
 
@@ -71,19 +71,17 @@ Click on the locale to add it to the field.
 
 Click on the «Edit» button in the field to open the Attribute Selection popin:
 
-![image](../img/dummy.png)
+![Select attributes as file columns](https://github.com/akeneo/pim-helpcenter/blob/3050419d3479e1238f43aa438ba0ead2045158f5/content/md/imports-exports/img/Exports_%20AttributesEditContent.png)
 
 The popin is divided in three parts: the left part shows the attribute groups, the middle part displays the attributes belonging to the selected group, and on the right side, you will find your attribute selection. By default, note that all attributes are exported.
 
 To make your own attribute selection, click on left side to select a specific attribute group (or All groups to display all attributes). Place your mouse on your attribute and drag and drop it into the right-most column. The selected attributes will be displayed as columns in your export file.
 
-![image](../img/dummy.png)
+![Drag and drop attributes](https://github.com/akeneo/pim-helpcenter/blob/3050419d3479e1238f43aa438ba0ead2045158f5/content/md/imports-exports/img/Exports_DragandDropttributes.gif)
 
 You can reorder your attributes by dragging them up and down. To clear your selection, click on the «Clear» button. To save your attribute selection, click on «Apply».
 
 The Attributes field will display you the number of attributes selected for the export.
-
-![image](../img/dummy.png)
 
 ::: info 
 By default, the SKU field is exported in the product export.
@@ -151,7 +149,7 @@ For example, you want to export the clothing products (categories «Clothing» i
 
 By default all categories are exported. To select a category, click on the «Edit» button. The categories of the channel tree are displayed:
 
-![image](../img/dummy.png)
+![Filter on categories](https://github.com/akeneo/pim-helpcenter/blob/3050419d3479e1238f43aa438ba0ead2045158f5/content/md/imports-exports/img/Exports_CategoriesEditContent.png)
 
 You can expand a category and see its subcategory by clicking on the arrow:
 
@@ -175,7 +173,7 @@ You can easily copy an identifier list from a csv or xlsx file and paste it in t
 
 An additional filter «Add attributes» is available on the right side of the page. This drop down menu allows you to add attributes as filters for the export.
 
-![image](../img/dummy.png)
+![Add attributes](https://github.com/akeneo/pim-helpcenter/blob/3050419d3479e1238f43aa438ba0ead2045158f5/content/md/imports-exports/img/Exports_AddAttributes.png)
 
 Select the attributes you’d like to use as filters. Once selected, they will be displayed in the Data filters area, above the SKU field.
 
@@ -183,11 +181,11 @@ For instance, you are working with a German translator, he needs to only work on
 
 Only export the products having no description for German locale and e-commerce channel.
 
-![image](../img/dummy.png)
+![Filter on attributes](https://github.com/akeneo/pim-helpcenter/blob/3050419d3479e1238f43aa438ba0ead2045158f5/content/md/imports-exports/img/Exports_GermanExample.png)
 
 Each attribute comes with a list of operators, for instance for text area fields, you will have the following operators available:
 
-![image](../img/dummy.png)
+![List of operators](https://github.com/akeneo/pim-helpcenter/blob/3050419d3479e1238f43aa438ba0ead2045158f5/content/md/imports-exports/img/Exports_Operators.png)
 
 ::: tips
 1. To create a filter on an attribute, you do not need to have it as a column in your export file.
