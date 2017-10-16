@@ -149,7 +149,7 @@ In the export builder, you can also configure the category (ies) of the channel 
 
 For example, you want to export the clothing products (categories «Clothing» in the tree) to update in mass the families because the families have been refined and new families have been created for clothing.
 
-By default all categories are exported. To select a category, click n the «Edit» button The categories of the channel tree are displayed:
+By default all categories are exported. To select a category, click on the «Edit» button The categories of the channel tree are displayed:
 
 ![image](../img/dummy.png)
 
