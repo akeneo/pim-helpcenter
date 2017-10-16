@@ -15,7 +15,7 @@ You will be able to select the most appropriate attribute type for your needs (s
 
 Once you have created a new attribute (see [Create an attribute](#create-an-attribute)), you’ll need to assign it to one or more families to make it available to users.
 
-To learn more on how the attributes and families interact, please refer to [Add an attribute to a family](/articles/manage-attributes-in-a-family.html).
+To learn more on how the attributes and families interact, please refer to [Add an attribute to a family](/articles/manage-your-families.html#manage-attributes-in-a-family).
 
 ::: info
 Attributes are always **optional data fields**. This means that all attributes can have no value for the products except the attribute which identifies a product (ex: SKU), and is therefore mandatory with a value when you create a product.
@@ -85,15 +85,14 @@ To create an attribute in the PIM:
 1. Select the attribute type you want to create
   ![image](../img/dummy.png)
 1. The attribute edit page is displayed. The following properties are required to create an attribute:
- - A **code** to identify the attribute
- - An **attribute group**: the attribute group the attribute will belong to
- - **Unique value** (Yes/No): if the values for this attribute are unique (will be available or required according to the attribute type)
- - **A value per channel** (Yes/No): Yes if your attribute values depend on the channels
- - **A value per locale** (Yes/No): Yes if your attribute values depend on the locales
- - **Locale specific**: if it must apply to specific locales not all of them
- - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid
- - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
-
+    - A **code** to identify the attribute
+    - An **attribute group**: the attribute group the attribute will belong to
+    - **Unique value** (Yes/No): if the values for this attribute are unique (will be available or required according to the attribute type)
+    - **A value per channel** (Yes/No): Yes if your attribute values depend on the channels
+    - **A value per locale** (Yes/No): Yes if your attribute values depend on the locales
+    - **Locale specific**: if it must apply to specific locales not all of them
+    - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid
+    - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
 1. Then click on `Save`
 
 ::: ee
