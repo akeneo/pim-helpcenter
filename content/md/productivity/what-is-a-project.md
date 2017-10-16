@@ -9,6 +9,8 @@ ee-only: true
 # Overview
 A project is a feature of the Teamwork Assistant. It's a new way of organizing your work around a specific activity. It will help you to plan your work alone or as a team.
 
+![Projects](https://github.com/akeneo/pim-helpcenter/blob/lucas/content/md/productivity/img/Products_What-is-a-project.svg)
+
 For instance, you are launching a Summer brand product range and you must have it online on your website by the end of May. All your product information must be filled by this date. All users that need to contribute on this new product range will know what they have to do.
 
 All users part of a project will be able to see at a glance their product’s selection enrichment progress and they will be automatically notified when new information will have to be filled in and it will ease the working processes and communication between workers.
