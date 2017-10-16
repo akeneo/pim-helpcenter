@@ -41,9 +41,9 @@ As a project creator, you can search for a user to know his progress on a projec
 ![Browse users](https://github.com/akeneo/pim-helpcenter/blob/3bcb7bf3dec8fd545744a6d4ab5a5abc76042600/content/md/productivity/img/Dashboard_DropdownMenuContributors.png)
 
 ::: info
-The project creator is the only one who can select «All contributor» or another contributor.
+The project creator is the only one who can select `All contributor` or another contributor.
 :::
 
-If you have no project, the widget will display users the message: You have no current project, start a new project.
+If you have no project, the widget will display users the message: `You have no current project, start a new project`.
 
 ![No current project](https://github.com/akeneo/pim-helpcenter/blob/3bcb7bf3dec8fd545744a6d4ab5a5abc76042600/content/md/productivity/img/Dashboard_NoProject.png)
