@@ -69,7 +69,7 @@ From the family edit form, go under the “Attributes” tab:
 1.  Click on `Add`
 
 ::: info
-If you do not see the `Add Attributes` or `Add by groups` button, it might be because you do not have the relevant rights. Please contact your administrator.
+If you do not see the `Add Attributes` or `Add by groups` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
 :::
 
 ### Remove an attribute
@@ -79,7 +79,7 @@ Attributes can be easily removed from families.
 To remove an attribute from a family:
 
 1.  Go under the `Attributes` tab
-1.  Click on the `delete` icon to remove the relevant attribute
+1.  Click on the `Delete` icon to remove the relevant attribute
 ![image](../img/dummy.png)
 1.  `Save` your update
 
@@ -110,7 +110,7 @@ On the attribute’s family page:
 ![image](../img/dummy.png)
 
 :::warning
-The attributes added will be taken in account for the completeness computing. Completeness will be then updated when next time it is executed.
+The attributes added will be taken in account for the completeness computing. Completeness will be updated next time it is executed.
 :::
 
 ### To remove an attribute as required for a channel
@@ -119,12 +119,12 @@ The attributes added will be taken in account for the completeness computing. Co
 1.  Select the attributes to be required for your family
 1.  Click on the checks to remove them from being required for the channel’s completeness
 1.  Checks are automatically converted into circles
-1.  Click on “Save”
+1.  Click on `Save`
 
 ![image](../img/dummy.png)
 
 :::warning
-The attribute removed will be taken in account for the completeness computing. Completeness will be then updated when next time it is executed.
+The attribute removed will be taken in account for the completeness computing. Completeness will be updated next time it is executed.
 :::
 
 # Mass edit families
