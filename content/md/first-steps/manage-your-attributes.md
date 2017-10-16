@@ -43,8 +43,8 @@ The attribute datagrid comes with a filter bar.
 
 ![image](../img/dummy.png)
 
-1.  Enter your filter criteria.
-1.  The grid is automatically updated when a new filter is set.
+1.  Enter your filter criteria
+1.  The grid is automatically updated when a new filter is set
 
 You can filter on the following attribute information:
 - The attribute type
@@ -93,7 +93,7 @@ To create an attribute in the PIM:
  - **Locale specific**: if it must apply to specific locales not all of them
  - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid
  - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
- 
+
 1. Then click on `Save`
 
 ::: ee
@@ -125,10 +125,10 @@ You can change the following properties of an attribute:
 :::
 
 To edit an attribute:
-1.  Go to `Settings/Attributes`.
-2.  Select the attribute to edit in the datagrid and click on the line or on the shortcut.
+1.  Go to `Settings/Attributes`
+2.  Select the attribute to edit in the datagrid and click on the line or on the shortcut
 ![image](../img/dummy.png)
-3.  Change the properties and click on `Save`.
+3.  Change the properties and click on `Save`
 ![image](../img/dummy.png)
 
 ## Validation for the different attribute types
@@ -173,7 +173,7 @@ You can define values for simple and multi select attribute types. Options can b
 
 ![image](../img/dummy.png)
 
-To add new values, click on `Add an option` and save
+To add new values, click on `Add an option` and save.
 To edit values, use the small pencil icon.
 
 ::: warning
@@ -213,7 +213,7 @@ The option is instantly created.
 
 ### Delete an option
 
-1.  Click on the `delete` button to remove an option.
+1.  Click on the `delete` button to remove an option
 
 ![image](../img/dummy.png)
 
@@ -226,7 +226,7 @@ An option that is used by a published product cannot be deleted.
 :::
 
 
-## Manage rules on attributes (EE)
+## Manage rules on attributes (EE only)
 
 You can find the rules applied on an attribute under the `Rules` tab.
 
