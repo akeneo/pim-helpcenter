@@ -45,7 +45,7 @@ To edit an association type:
 1.  Click on the association type you want to edit in the grid
 1.  The edit form appears
 1.  Only the labels can be edited for a type of association  
-1.  Click on the “save” button to save your changes
+1.  Click on the `Save` button to save your changes
 
 The code cannot be changed once created.
 
@@ -76,4 +76,4 @@ Changes made on association types are recorded and visible under the history tab
 To view the versions of an association type:
 
 1.  Open & edit the association type page.
-1.  Click on the “History” tab. The list of versions will be displayed.
+1.  Click on the `History` tab. The list of versions will be displayed.
