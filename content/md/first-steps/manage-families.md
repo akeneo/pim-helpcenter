@@ -9,37 +9,41 @@ related: what-is-a-family
 
 # List families
 
-To see your families, edit them or create a new family go to Settings/Families.
+To see your families, edit them or create a new family go to `Settings/Families`.
 
 # Create a family
 
-You must be granted a specific permission to do be able to create a family.
+:::info
+You must be granted a specific permission to be able to create a family.
+:::
 
 To create a family:
-1.  Go to Settings/Families,
-1.  Click on “Create family”,
-1.  The creation of a family popin is prompted.
-1.  Enter a new family code (this code must be unique),
-1.  Click on “Save”.
+1.  Go to `Settings/Families`
+1.  Click on `Create family`
+1.  The creation of a family popin is prompted
+1.  Enter a new family code (this code must be unique)
+1.  Click on `Save`
 
 The family is now created.
 
-Once a familly is created, you can later edit those family information:
-*   The family’s labels for the locales enabled for the catalog,
+Once a family is created, you can later edit those family information:
+*   The family’s labels for the locales enabled for the catalog
 *   Add/remove attributes from the family
-*   Edit these attributes’ completeness,
-*   To select the attribute to be used as «label» for the products in their product edit form.
+*   Edit these attributes’ completeness
+*   To select the attribute to be used as «label» for the products in the product grid (column "label") and in their product form
+*   To select the attribute to be used as «the main picture» for the products in the product grid (column "image") and in their product form header
+
 
 # Edit families
 
 ## Edit family labels
 
 To edit the family properties:
-1.  Go to Settings/Families.
-1.  Select the family to edit in the grid and click on its line.
-1.  The family edit page is displayed.
-1.  Under the “Properties” tab, change the labels
-1.  Click on “Save”.
+1.  Go to `Settings/Families`
+1.  Select the family to edit in the grid and click on its line
+1.  The family edit page is displayed
+1.  Under the `Properties` tab, change the labels
+1.  Click on `Save`
 
 ## Manage attributes in a family
 Attributes can be shared amongst families, but an attribute can be only added once to a family.
@@ -48,24 +52,24 @@ You have several ways of adding an attribute, a group of attribute or several at
 
 ### Add an attribute to a family
 
-From the family edit form, go under the “Attributes” tab:
-1.  Click on “Add Attributes” on the right side of the screeen:
+From the family edit form, go under the `Attributes` tab:
+1.  Click on `Add Attributes` on the right side of the screen
 ![image](../img/dummy.png)
-1.  Select the attributes to add by clicking on their labels.
-1.  Click on “Add”.
+1.  Select the attributes to add by clicking on their labels
+1.  Click on `Add`
 
 The attributes have been added to the current family.
 
 ### Add an attribute group to a family
 
 From the family edit form, go under the “Attributes” tab:
-1.  Click on “Add attribute groups” on the right side of the screeen:
+1.  Click on `Add by groups` on the right side of the screen
 ![image](../img/dummy.png)
-1.  Select the attribute groups to add by clicking on their labels,
-1.  Click on “Add”.
+1.  Select the attribute groups to add by clicking on their labels
+1.  Click on `Add`
 
 ::: info
-If you do not see the “Add Attributes” or “Add Attribute groups” button, it might be because you do not have the relevant rights. Please contact your administrator.
+If you do not see the `Add Attributes` or `Add by groups` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
 :::
 
 ### Remove an attribute
@@ -74,68 +78,72 @@ Attributes can be easily removed from families.
 
 To remove an attribute from a family:
 
-1.  Go under the “Attributes” tab
-1.  Click on the “delete” icon to remove the relevant attribute.
+1.  Go under the `Attributes` tab
+1.  Click on the `Delete` icon to remove the relevant attribute
 ![image](../img/dummy.png)
-1.  Confirm the action in the validation popin.
+1.  `Save` your update
 
-The attribute will be back in the add attributes’ list, if you need it later, you will be able to add it again.
+The attribute will be back in the `Add attributes` list, if you need it later, you will be able to add it again.
 
 ## Set channel’s completeness
 
-The completeness is displayed as a progress bar or as a percentage in the PIM. It is calculated for each product (it represents the percentage of completion of a product) and for each combination channel/locale.
-
+:::info
+The **completeness represents the percentage of completion of a product**, it is displayed as a progress bar or as a percentage in the PIM. It is calculated for each product and for each combination channel/locale.
 A product is considered as complete (or 100% completeness) when its required attributes (defined at the family level) have values.
+For more details about the completeness, please refer to [What is the completeness of a product?](/articles/what-is-the-completeness.html).
+:::
 
 When an attribute is added to a family, it is not set required for any channel by default. Only your product identifier attribute is automatically added and set as required for families.
 
-On the atttribute’s family page:
-- A grey circle means that the attribute is not required in the channel’s completeness,
-- A green check means that the attribute is already set as required for this channel.
+On the attribute’s family page:
+- A **circle** means that the attribute is **not required** in the channel’s completeness
+- A **check** means that the attribute is already set as **required** for this channel
 
 ### Set an attribute required for a channel
 
-1.  Go under the “Attributes” tab,
-1.  Select the attributes to be required for your family,
-1.  Click on the grey circles to make them required for the channel’s completeness,
-1.  Grey circles are automatically converted into a green “check”,
-1.  Click on “Save”.
+1.  Go under the `Attributes` tab
+1.  Select the attributes to be required for your family
+1.  Click on the circles to make them required for the channel’s completeness
+1.  Circles are automatically converted into a “check”
+1.  Click on `Save`
 
 ![image](../img/dummy.png)
 
-The attributes added will be taken in account for the completeness computing. Completeness will be then updated when next time it is executed.
+:::warning
+The attributes added will be taken in account for the completeness computing. Completeness will be updated next time it is executed.
+:::
 
 ### To remove an attribute as required for a channel
 
-1.  Go under the “Attributes” tab,
-1.  Select the attributes to be required for your family,
-1.  Click on the green checks to removed them from being required for the channel’s completeness,
-1.  Green checks are automatically converted into grey circles,
-1.  Click on “Save”.
+1.  Go under the `Attributes` tab
+1.  Select the attributes to be required for your family
+1.  Click on the checks to remove them from being required for the channel’s completeness
+1.  Checks are automatically converted into circles
+1.  Click on `Save`
 
 ![image](../img/dummy.png)
 
-The attribute is removed from the completeness computing. Completeness will be updated then updated when executed.
+:::warning
+The attribute removed will be taken in account for the completeness computing. Completeness will be updated next time it is executed.
+:::
 
 # Mass edit families
 
-Like for products can mass edit families: you can add several attributes at once for several families, and through the same action, define if they are required of not for the selected families.
+Like for products you can mass edit families and add several attributes at once for several families, and through the same action, define if they are required of not for the selected families.
 
 To add attributes to several families:
-1.  Go to Settings/Families
-1.  Select families for which the same attributes need to be added.
-  *   Click on “All” to select all the existing families,
-  *   Click on “All visible” to select all the families display on screen,
-  *   (Click on “No” to unselect all the families),
-1.  Click on the “Mass Edit” icon on the left side of the datagrid.
+1.  Go to `Settings/Families`
+1.  Tick the families for which the same attributes need to be added (via the down arrow of the bottom toolbar: `All` to select all the existing families, `All visible` to select all the families displayed on the ongoing page, `None` to unselect all the families)
+1.  Click on the `Bulk actions` in the bottom toolbar
 ![image](../img/dummy.png)
-1.  The mass edit window is displayed.
-1.  Select the operation “Set attribute requirements”
-1.  Click on “Next.”
+1.  The mass edit window is displayed
+1.  Select the operation `Set attributes requirements`
+1.  Click on `Next`
 ![image](../img/dummy.png)
-1.  Add the relevant attributes and set the attributes required for the product completeness of the channels
-1.  Click on “Next”
-1.  Confirm messages to add attributes to the selected families.
+1.  Add the relevant attributes by attributes or by attribute groups
+1.  Set the attributes required for the product completeness of the channels
+1.  Click on `Next`
+1.  Confirm the action with the `Confirm` button to add attributes to the selected families
 
 The attributes have now been added to families.
 
@@ -144,23 +152,34 @@ The attributes have now been added to families.
 Changes made on a family are recorded and visible under the history tab of families. For example: label change, attribute change, etc.
 
 For each change, a version of the family is created. The following information is tracked down for each version:
-- The person or system that generated changes,
-- The date and time (down to seconds) at which the changes took place,
-- The old value and the new value of each modified field.
+- The person or system that generated changes
+- The date and time (down to seconds) at which the changes took place
+- The old value and the new value of each modified field
 
 To view the family versions:
 1.  Open and edit the family tab.
-1.  Click on the “History” tab. The list of versions is displayed.
+1.  Click on the `History` tab. The list of versions is displayed
 
 # Delete a family
 
-Deleting a family does not delete the attributes it includes, or the products associated with it. The attributes are always available and the products keep these very same attributes: they will become “optional” and the products with no family will have no longer completeness. The values are though maintained: there is no loss of product information.
+::: info
+Deleting a family does not delete the attributes it includes, or the products associated with it. The attributes are always available and the products keep these very same attributes if they have values: they will become “optional” and the products with no family will have no longer completeness. The values are though maintained: there is no loss of product information.
+:::
 
-To remove a family:
-1.  Go to Settings/Families to list the families.
-1.  Click on the family to be removed.
-1.  Click on the “Delete” button.
-1.  Confirm the action via the validation message.
+You have two ways to proceed to remove a family.
+Through the family form:
+1. Go to `Settings/Families` to list the families
+1. Click on the family to delete
+1. Click on `...` for other actions and then `Delete` on the top right corner
+  ![image](../img/dummy.png)
+1. Confirm the action via the validation message
+
+Through the Delete shortcut in the grid:
+  ![image](../img/dummy.png)
+1. Select the family you want to remove from the family datagrid
+1. Place your mouse over the line of family in the grid, the button delete is prompted (trash can icon)
+1. Click on the trash can icon
+1. Confirm the action via the validation message
 
 ::: ee
 A family used by a published product cannot be deleted.
