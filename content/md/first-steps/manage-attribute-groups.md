@@ -123,6 +123,6 @@ Deleting an attribute group does not remove the attributes it includes. The attr
 
 To delete an attribute group:
 1.  Go to `Settings/Attribute Groups` to list the attribute groups
-1.  Click on the attribute group to be deleted,
+1.  Click on the attribute group to be deleted
 1.  Click on `...` for other actions and then `Delete` on the top right corner
 1.  Confirm the action via the validation message
