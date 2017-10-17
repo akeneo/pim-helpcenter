@@ -9,6 +9,8 @@ related:
 
 # About products with variants
 
+![Variants](../img/Products_Product%20variant.svg)
+
 **Products with variants are products that have similarities, they are based on the same model, but differ in some aspects from one another**.
 
 They offer customers various purchase options for a product such as different colors, sizes, dimensions, flavors, etc.
@@ -31,7 +33,7 @@ Each t-shirt color has different pictures and could have a different composition
 Each t-shirt color could be available in different sizes: S, M or L.   
 For each color/size, the identifier of the product is different (EAN, SKU) and the technical dimensions like weight, sleeves length could be different.  
 
-![Scheme modeling products with variants](../img/scheme_variants.png)
+![Scheme modeling products with variants](../img/Products_SchemeModelingProductsWithVariantsTshirtsExample.png)
 
 ## What is a product model?
 

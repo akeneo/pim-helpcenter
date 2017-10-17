@@ -19,19 +19,19 @@ The completeness can be displayed as a **progress bar** or as a **percentage** i
 
 ## On your dashboard
 Your **dashboard** will display the overall completeness for each combination channel/locale
-[SCREENSHOT dashboard]
+![Dashboard](../img/Dashboard.png)
 
 ## In your product grid
 Your **product grid** will display the completeness for each product as a percentage
-[SCREENSHOT product grid]
+![Product grid](../img/Products_views.png)
 
 ## On your product edit form
 Your **product edit form** will display the completeness for each product, as well as for each variant if it is a product model
-[SCREENSHOT product completeness]
-[SCREENSHOT if variant products]
+![Product completeness](../img/Products_PEF2.png)
+![Variants products completeness](../img/Products_VariantProdcut2.png)
 
 ## In your completeness panel (product edit form)
-[SCREENSHOT completeness panel]
+![Completeness panel in the product edit form](../img/Products_PEF8.png)
 
 ::: tips
 Thanks to the completeness panel, get the list of empty attributes and fill them in!
@@ -43,7 +43,7 @@ The **completeness is defined by a [family](/articles/what-is-a-family.html)**, 
 
 Then, once you know which attributes have to be taken into account for each family, in other words, **which attributes must be filled in to export your product**, go to `Settings/Family`.
 Select a family and under the tab `Attributes`, tick attributes to take them into account in the completeness calculation or untick them to remove them from completeness calculation.
-[SCREENSHOT GIF tick untick products]
+![GIF Set Attributes Requirements](../img/Products_SetAttributesRequirements.gif)
 
 It's easy as pie!
 
@@ -54,7 +54,8 @@ To determine which attributes to set as required, try to answer the following qu
 # How is it calculated?
 The **completeness calculation takes into account several parameters**: the attributes defined as mandatory for the product's family, the locales enabled for the channel... The PIM checks all the attributes filled in and all the attributes missing a value, and display you a percentage.
 
-A product is considered as **complete** (when it has a completeness of 100% [SCREENSHOT]), meaning when all its required attributes have a value.
+A product is considered as **complete** (when it has a completeness of 100%), meaning when all its required attributes have a value. 
+![100% Completeness](../img/Products_PEF12Completeness.png)
 
 # How often is my completeness refreshed?
 The completeness is regenerated:
