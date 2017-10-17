@@ -14,7 +14,7 @@ To see your families, edit them or create a new family go to `Settings/Families`
 # Create a family
 
 :::info
-You must be granted a specific permission to do be able to create a family.
+You must be granted a specific permission to be able to create a family.
 :::
 
 To create a family:
