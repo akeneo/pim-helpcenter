@@ -15,13 +15,13 @@ To publish a product:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Publish this version` in the dropdown
 
-The current version is published. In the “History” tab, the published version is indicated by a blue «P» label as shown below:
+The current version is published. In the “History” tab, the published version is indicated by a `Published` blue button with  label as shown below:
 
-![image](../img/dummy.png)
+![image](../img/Products_PublishedHistoryButton.png)
 
-If you click on `More` to open the complete History page, the Published version will have the Published label, as shown below:
+If you click on the arrow nearby the product version, you will open the complete History page. The published version will have the `Published` label, as shown below:
 
-![image](../img/dummy.png)
+![image](../img/Products_PublishedHistoryDropdown.png)
 
 ## Publish several products at once
 To publish several products simultaneously:
@@ -43,7 +43,7 @@ To check which products are published:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Publish` in the dropdown
 
-![Publish](https://github.com/akeneo/pim-helpcenter/blob/lucas/content/md/products-super-power/img/Products_PublishedGrid.png)
+![Publish](../img/Products_PublishedGrid.png)
 
 But some features will not be available on this grid:
 
@@ -72,7 +72,7 @@ To view a published product form:
 1.  Click on the product
 1.  The Product Form is displayed
 
-![Published Products](https://github.com/akeneo/pim-helpcenter/blob/7d89dbe0dd6e1f58b4319c4665730c3706cefe0d/content/md/products-super-power/img/Products-PublishedProducts.png)
+![Published Products](../img/Products-PublishedProducts.png)
 
 The display is the same as the unpublished product form. For more information, you can refer to the section, “Viewing a product form”. Also, if you do not have the appropriate rights to see some attribute groups at least, these latter will not be displayed.
 
@@ -81,7 +81,7 @@ When you are in charge of the published product which is viewed, there are two b
 *   Edit the current product version (working copy): clicking on this button will redirect you to the Unpublished Product Form.
 *   Unpublish
 
-![Edit working copy or Unpublish buttons](https://github.com/akeneo/pim-helpcenter/blob/119bfbdc62e79949a6e5d50878373a9c0bb7767d/content/md/products-super-power/img/Products-PublishedProduct2.png)
+![Edit working copy or Unpublish buttons](../img/Products-PublishedProduct2.png)
 
 # Unpublish products
 
@@ -94,7 +94,7 @@ Unpublishing products only impacts the export of products. The export of attribu
 To unpublish one product:
 1.  Go to the published product grid by clicking on the "..." in the top right corner of the product grid screen
 1.  Click on the small cloud icon displayed on product rollover in the grid (see screenshot below)
-![Unpublished a product from the grid](https://github.com/akeneo/pim-helpcenter/blob/119bfbdc62e79949a6e5d50878373a9c0bb7767d/content/md/products-super-power/img/Products-PublishedProduct3.png)
+![Unpublished a product from the grid](../img/Products-PublishedProduct3.png)
 
 > **Notes** 
 You can also unpublish a product directly from the edit form. 
@@ -112,7 +112,7 @@ To unpublish several products at the same time:
 1.  Tick the products in the grid
 1.  Click on the Bulk Actions button at the bottom of the screen, and select the Unpublish action
 
-![Bulk Actions on Publish products](https://github.com/akeneo/pim-helpcenter/blob/119bfbdc62e79949a6e5d50878373a9c0bb7767d/content/md/products-super-power/img/Products-PublishedProduct4.png)
+![Bulk Actions on Publish products](../img/Products-PublishedProduct4.png)
 
 1.  Select the `Unpublish` operation:
     *   If you are in charge of all selected products, follow the steps and all
