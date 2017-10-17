@@ -1,7 +1,7 @@
 {
     "title":"Using Akeneo",
     "description":"You are our dear Julia: the PIM is your daily tool. You want to be productive and have the best products catalog ever. We're here to help you.",
-    "img":"illustration-attributes.png",
+    "img":"illus-using.svg",
     "themes":{
         "first-steps":{
             "title": "Your first steps into Akeneo",
