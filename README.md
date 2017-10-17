@@ -140,7 +140,7 @@ Entreprise Edition only. A very serious thing here.
 
 Don't forget to use first level titles (`# My title`) inside your article so as the help center is able to build a summary of your article.
 
-Wanna pimp your article with some beautiful images? Go ahead! We love them! First, add your image in the `content/img` folder. Then, use the following line in your markdown: `![replacement-text](../img/my-image.png)`
+Wanna pimp your article with some beautiful images? Go ahead! We love them! First, add your image in the `content/img` folder or in `/img` in each articles' categories. Then, use the following line in your markdown: `![replacement-text](../img/my-image.png)`
 Images are automatically centered. You don't need to bother about that.
 If you have a very big image tough, it will be better to resize it to a 840px width.
 
