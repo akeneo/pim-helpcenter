@@ -8,7 +8,7 @@ popular: true
 # Definition of a channel
 A channel in Akeneo defines a selection of products and information to export. A channel can be a website, a print catalog, a mobile application...
 
-![Channels](https://github.com/akeneo/pim-helpcenter/blob/lucas/content/md/what-is/img/Settings_What-is-a-channels.svg)
+![Channels](../img/Settings_What-is-a-channels.svg)
 
 # What's the use of channel?
 A channel defines a selection of products and information to export.
