@@ -14,14 +14,14 @@ To view your attribute groups, go to `Settings/Attribute groups`.
 ![image](../img/dummy.png)
 
 ::: info
-«Other» is a default attribute group managed by Akeneo and it cannot be deleted. If you do not create attribute groups, all product attributes will be gathered in this group.
+`Other` is a default attribute group managed by Akeneo and it cannot be deleted. If you do not create attribute groups, all product attributes will be gathered in this group.
 :::
 
 ## Sort attribute groups
 
 To sort attribute groups, you can drag and drop the attribute groups:
 1.  Go to `Settings/Attribute Groups`
-1.  Place your mouse over the icon nearby attribute to move
+1.  Place your mouse over the icon nearby the attribute to move
 1.  Once your mouse changes into a cross, put the group higher or lower
 
 ![image](../img/dummy.png)
@@ -57,7 +57,7 @@ To edit an attribute group’s labels:
 
 ## Add an attribute to an attribute group
 
-Only the attributes belonging to the “Other” group can be added to another attribute group. To add attributes from another group, first remove it from its current group.
+Only the attributes belonging to the `Other` group can be added to another attribute group. To add attributes from another group, first remove it from its current group.
 
 It is possible to add attributes to an attribute group:
 1.  Select the attribute group, go under the `Attributes` tab
@@ -85,7 +85,7 @@ To remove an attribute:
 1.  Confirm the action via the validation popin
 1.  Click on `Save`
 
-The attribute is put back in the group “Other” and can now be added to another group.
+The attribute is put back in the group `Other` and can now be added to another group.
 
 ## Sort out attributes
 
@@ -115,10 +115,10 @@ To view the versions of an attribute:
 
 # Delete an attribute group
 
-Deleting an attribute group does not remove the attributes it includes. The attributes will be again visible in the default attribute group “Other”.
+Deleting an attribute group does not remove the attributes it includes. The attributes will be again visible in the default attribute group `Other`.
 
 ::: warning
-«Other» is a default attribute group managed by Akeneo and it cannot be deleted.
+`Other` is a default attribute group managed by Akeneo and it cannot be deleted.
 :::
 
 To delete an attribute group:
