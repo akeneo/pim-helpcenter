@@ -43,9 +43,9 @@ The labels can be changed.
 To edit an association type:
 1.  Go to `Settings/Association Types`
 1.  Click on the association type you want to edit in the grid
-1.  The edit form appears.
-1.  Only the labels can be edited for a type of association.  
-1.  Click on the “save” button to save your changes.
+1.  The edit form appears
+1.  Only the labels can be edited for a type of association  
+1.  Click on the “save” button to save your changes
 
 The code cannot be changed once created.
 
@@ -54,7 +54,7 @@ The code cannot be changed once created.
 To remove an association type:
 1.  Go to `Settings/Association types`
 1.  Click on the association type you want to delete from the grid
-1.  Click on the “Delete” button
+1.  Click on the `Delete` button
 1.  Confirm the action via the validation message
 
 The association type is then deleted.
