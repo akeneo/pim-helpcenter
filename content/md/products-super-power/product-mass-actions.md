@@ -35,7 +35,7 @@ In order to perform a bulk operation on products, you need the rights to each po
 
 1.  Select the desired products in the grid with the appropriate filters
 1.  Tick the products you want to mass edit via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `None` for none of the products:
-  ![Mass edit options](https://github.com/akeneo/pim-helpcenter/blob/0ba86dda8cfa69583ba7007166096f6502bf75fe/content/md/products-super-power/img/Products_BulkActionUppermenu.png)
+  ![Mass edit options](../img/Products_BulkActionUppermenu.png)
 1.  Click on `Bulk Actions`
 1.  Select the operation to be performed from the screen menu
 1.  According to the selected operation, the next screen of configuration changes
@@ -54,11 +54,11 @@ Confirm the action with the `Confirm` button located in the middle of the screen
 
 The action is processed to the back-end, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified.
 
-![Notification center](https://github.com/akeneo/pim-helpcenter/blob/0ba86dda8cfa69583ba7007166096f6502bf75fe/content/md/products-super-power/img/Products_MassEditNotifications.png)
+![Notification center](../img/Products_MassEditNotifications.png)
 
 When you click on the notification, you access the report page of the action.
 
-![Process tracker](https://github.com/akeneo/pim-helpcenter/blob/0ba86dda8cfa69583ba7007166096f6502bf75fe/content/md/products-super-power/img/Products-ProcessTrackerReportMassEdit.png)
+![Process tracker](../img/Products-ProcessTrackerReportMassEdit.png)
 
 ::: ee
 After some of the bulk actions the rules will be automatically applied.
@@ -70,10 +70,10 @@ In order to save you some time, you can also directly categorize products in cat
 
 1.  Search for products in the grid with the appropriate filters
 2.  Select the products to be removed via the selection tool: Tick the products you want to update via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
-   ![Mass edit options](https://github.com/akeneo/pim-helpcenter/blob/0ba86dda8cfa69583ba7007166096f6502bf75fe/content/md/products-super-power/img/Products_BulkActionUppermenu.png)
+   ![Mass edit options](../img/Products_BulkActionUppermenu.png)
 3.  Click on `Bulk Actions`
 4.  Select the operation to be performed from the screen menu
-![image](../img/dummy.png)
+![image](../img/Products_BulkActionsMenu.png)
 5.  According to the selected operation, the next page of configuration changes
 
 
@@ -90,6 +90,6 @@ Confirm the action with the `Confirm` button located in the middle of the screen
 To delete multiple products:
 1.  Search for products in the grid with the appropriate filters
 2.  Select the products to be removed via the selection tool: all the products recorded, all visible products from the ongoing page, none of the products and the products for which you have ticked the 1st column
- ![Mass edit options](https://github.com/akeneo/pim-helpcenter/blob/0ba86dda8cfa69583ba7007166096f6502bf75fe/content/md/products-super-power/img/Products_BulkActionUppermenu.png)
+ ![Mass edit options](../img/Products_BulkActionUppermenu.png)
 3.  Click on `Delete` in the toolbar located at the bottom of the screen
 4.  Confirm the action with the `Confirm` button
