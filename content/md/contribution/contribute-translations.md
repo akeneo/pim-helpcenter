@@ -21,12 +21,12 @@ Akeneo uses the application [Crowdin](https://crowdin.com/) which provides a col
 Access to [Crowdin](https://crowdin.com/) is free, simply register to access to [Akeneo project](https://fr.crowdin.com/project/akeneo) and start contributing!
 
 For now, here is the current status on PIM translation on Crowdin.
-![Crowdin](https://github.com/akeneo/pim-helpcenter/blob/lucas/content/md/contribution/img/Crowdin_situation.png)
+![Crowdin](../img/Crowdin_situation.png)
 
 # Get your reward
 
 Yes! Contributing translations to the PIM will get you a nice reward: you'll be able to claim the "El translator" badge!
 
-![Get your reward](https://github.com/akeneo/pim-helpcenter/blob/lucas/content/md/contribution/img/translator-badge.png)
+![Get your reward](../img/translator-badge.png)
 
 To claim it, it's really simple. Go to our [Badger](http://badger.akeneo.com/) platform, create an account if you don't already have one and look for the badge. Congratulations! :tada:
