@@ -21,7 +21,7 @@ Akeneo uses the application [Crowdin](https://crowdin.com/) which provides a col
 Access to [Crowdin](https://crowdin.com/) is free, simply register to access to [Akeneo project](https://fr.crowdin.com/project/akeneo) and start contributing!
 
 For now, here is the current status on PIM translation on Crowdin.
-![image](../img/dummy.png)
+![image](../img/Crowdin_situation.png)
 
 # Get your reward
 
