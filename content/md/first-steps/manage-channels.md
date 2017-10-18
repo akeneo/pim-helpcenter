@@ -55,7 +55,7 @@ If you are an Enterprise Edition client and if you are using the Product Asset M
 
 To consult the assets transformation for a channel, click on the `Assets Transformation` tab.
 
-![image](../img/dummy.png)
+![image](../img/Settings_ChannelsAssetstransformations.png)
 
 To edit or add asset transformations, please refer to [About the asset transformations](/articles/assets-transformation.html).
 
@@ -89,11 +89,11 @@ Through the channel form:
 1. Go to `Settings/Channels` to list the channels
 1. Click on the channel to delete
 1. Click on `...` for other actions and then `Delete` on the top right corner
-  ![image](../img/dummy.png)
+  ![image](../img/Settings_ChannelDeleteEdit.png)
 1. Confirm the action via the validation message
 
 Through the Delete shortcut in the grid:
-  ![image](../img/dummy.png)
+  ![image](../img/Settings_ChannelDeleteHover.png)
 1. Select the channel you want to remove from the channel grid
 1. Place your mouse over the line of channel in the grid, the button delete is prompted (trash can icon)
 1. Click on the trash can icon
