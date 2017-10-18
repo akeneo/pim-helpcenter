@@ -48,6 +48,8 @@ Then, you will land on a page divided in two sections:
 
 Each export can only be linked to one channel, please select the relevant channel of products to export.
 
+![Choose a channel](../img/Exports_EditManageChannels.png)
+
 ### Select one or more locales
 
 By default, all activated locales for the channel previously selected are exported. You can export product information for one or more locales depending on your needs.
@@ -61,6 +63,8 @@ Click on the small cross nearby the locale code.
 ### Add a locale
 
 Start typing your locale code in the field, the PIM will automatically propose you the matching locales. Click on the locale to add it to the field.
+
+![Add a locale](Exports_EditManageLocales.png)
 
 ### Select attributes as file columns
 
@@ -89,6 +93,8 @@ By default, this filter is empty meaning that all products will be exported rega
 
 ### Add a family
 If you want to export products belonging to specific families, click on the drop down list and click on the families to add in the field.
+
+![Add a family](Exports_EditFamilyManagement.png)
 
 ### Remove a family
 Click on the cross nearby the family label to remove it from the field. Products belonging to this family will not be exported anymore.
@@ -159,6 +165,8 @@ You cannot export unclassified products thanks to the export builder. If you wan
 #### Filter on product identifiers
 
 You can make a selection of identifiers to export by adding them in the `Identifier` field. You can copy and paste a list of identifiers. They must separated by comma, space or line breaks.
+
+![Filter on product identifiers](Exports-EditContentIdentifiers.png)
 
 ::: info
 You can easily copy an identifier list from a csv or xlsx file and paste it in the identifier text area.
