@@ -1,7 +1,7 @@
 {
     "title":"Setting up the PIM",
     "description":"Having trouble with your PIM catalog structure? Don't know how to set up permissions? Don't worry. Here, you are in good care.",
-    "img":"illustration-attributes.png",
+    "img":"illus-setting-up.svg",
     "themes":{
         "akeneo-concepts":{
             "title": "Discover Akeneo concepts",

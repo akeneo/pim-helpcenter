@@ -1,7 +1,7 @@
 ---
 id: manage-your-locales
 themes: catalog-settings
-title: View and activate your **locales**
+title: View your **locales**
 popular: false
 ee-only: false
 related: what-is-a-locale
@@ -9,34 +9,20 @@ related: what-is-a-locale
 
 # Overview
 
-The locales are used to set values for attributes which may differ according to the relevant language/locale.
+The locales are used to set values for attributes which may differ according to the relevant language/locale (for examples English UK (en_GB), English US (en_US), English AU (en_AU)).   
+For more details, see [What is a locale](/articles/what-is-a-locale.html).
 
 # View locales
 
-To view locales, go to Settings/Locales:
+To view locales, go to `Settings/Locales`.     
+You can search on the locale’s code and filter on its status `Activated`: All/Yes/No.
 
 ![image](../img/dummy.png)
-
-## Locale’s grid pagination
-
-The locale’s grid displays between 10 and 100 locales per page. By default, the grid displays 25 locales per page, you can change this by clicking on «View per page» and select the number of locales you wish to see per page.
-
-## Filter on locales
-
-The locale’s grid comes with a filter bar. You can filter on the locale’s code and its status: Activated: Yes/No.
-
-![image](../img/dummy.png)
-
-Enter your criteria. If the displayed criteria are not sufficient or relevant you can add additional criteria by selecting from the list that appears via the “Manage filters” button. The grid is automatically updated as a new filter is added.
-
-## Sort out locales
-
-To sort out locales, you can click on a column header in the grid. You can sort them on code or on their status.
 
 # Activate a locale
 
-To activate a locale, you need to add it to at least one channel.
+A locale is activated if it is added at least to one channel, see [Manage your channels](/articles/manage-your-channels.html).
 
-![image](../img/dummy.png)
-
-Unused locales are inactive.
+:::info
+Locales not used in at least one channel are inactive.
+:::
