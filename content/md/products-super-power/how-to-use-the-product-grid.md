@@ -167,6 +167,8 @@ Click on `Columns` on the right side of the grid to display the column selection
 
 On the left side of the window, you will see your attribute groups.
 
+![Attributes groups are on the left columns](../img/Products_ColumnsPopUp.png)
+
 Nearby each group, you will see the number of attributes belonging to this group that can be used as columns in the grid. Click on a group to display its attributes in the middle column.
 
 If you want to display all attributes, click on «All groups». On the right side, you will see your current grid’s columns.
