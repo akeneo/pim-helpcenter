@@ -24,5 +24,5 @@ You can search on the locale’s code and filter on its status `Activated`: All/
 A locale is activated if it is added at least to one channel, see [Manage your channels](/articles/manage-your-channels.html).
 
 :::info
-Unused locales are inactive.
+Locales not used in at least one channel are inactive.
 :::
