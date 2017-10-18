@@ -7,12 +7,18 @@ popular: false
 
 # Overview
 
-In the latest versions, we have added an information page that contains technical information. To check this page, go to System/System Information.
+In the PIM, there is an information page that contains technical information.  
+To check this page, go to `System` and click on the `System information` menu entry.
 
 ![image](../img/dummy.png)
 
-On this page, you will have a sum up of all technical information that could be very helpful when raising a ticket: Edition version, Storage, Environment, Activated bundles… Once you land on this page, click on “TXT” button on the right hand corner to download a text file containing all this information.
+# Content
+
+On this page, you will have a sum up of all technical information regarding the PIM.
+
+It could be very helpful when raising a ticket on our Helpdesk: edition version, storage, environment, activated bundles…  
+Once you land on this page, click on the `TXT` button on the right hand corner to download a text file containing all this information.
+
+You can then attach the generated text file to your ticket.
 
 ![image](../img/dummy.png)
-
-This page has been developed in order to gather most of the information you need to raise tickets through our Helpdesk. Please attach the text file downloaded to your ticket (Attachment field).
