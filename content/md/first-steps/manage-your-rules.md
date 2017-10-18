@@ -25,12 +25,12 @@ To help you to validate your rules and well define your rules conditions, you ca
 
 The fist time a rule is executed, it can match many products. The next times, you might have 0 `Affected products` or only few.
 
-![image](../img/dummy.png)
-
 1.  To use this action, select one or several rules by ticking them on the left side of the screen
 1.  Click on `Calculate the affected products`
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the calculation is done.
+
+![image](../img/dummy.png)
 
 The number of affected products will appear on the right side of your screen in the column `Affected products`.
 
@@ -65,13 +65,13 @@ You can also execute several rules at the same time:
 
 # Create a rule
 
-Rules are exclusively created by YML imports. You need create your YML file like explained on our online documentation: [General information about rule format](https://docs.akeneo.com/1.7/cookbook/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the import job `Rule import in YML`.
+Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/1.7/cookbook/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.
 
 ::: info
 For more details about how to execute an import, please refer to [Import your data](/articles/imports.html).
 :::
 
-You can also export your rules. To export your rules, execute the export job `Rule export in YML`.
+You can also export your rules. To export your rules, execute the `Rule export in YML` export job.
 
 ::: info
 For more details about how to execute an export, please refer to [Export your data](/articles/exports.html).
@@ -91,12 +91,14 @@ A confirmation message validates the action of deleting a rule.
 ![image](../img/dummy.png)
 
 ::: info  
-If you do not see the button `Delete` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
+If you do not see the `Delete` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
 :::
 
 ## Delete a selection of rules
 
 You can also delete several rules at the same time:
 1.  Select one or several rules by ticking them on the left side of the screen  
-1.  Click on 'Delete'
+1.  Click on `Delete`
 1.  Then confirm the action in the pop in
+
+![image](../img/dummy.png)
