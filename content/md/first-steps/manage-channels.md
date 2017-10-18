@@ -53,10 +53,7 @@ The channel is updated accordingly. The changes will be reflected in the PIM in 
 If you are an Enterprise Edition client and if you are using the Product Asset Manager, you can check the current assets’ transformations under the tab `Asset transformations`.
 :::
 
-To consult the assets transformation for a channel:
-1.  Click on the channel to consult from the channel grid
-1.  The page is displayed
-1.  Click on `Assets Transformation` tab
+To consult the assets transformation for a channel, click on the `Assets Transformation` tab.
 
 ![image](../img/dummy.png)
 
