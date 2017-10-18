@@ -12,7 +12,7 @@ You can create products directly in the PIM or through imports. Product’s crea
 
 To create a product
 1.  Click on `Create product` on the top right corner of the product grid:
-    ![Create a Product](../img/Products_views.png)
+    ![Create a Product](../img/Products_CreateProduct.png)
 1.  Specify a unique product identifier
 1.  Select a family for the new product
 1.  Click on `Save`
