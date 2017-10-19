@@ -5,6 +5,7 @@
     "themes":{
         "akeneo-concepts":{
             "title": "Discover Akeneo concepts",
+            "img": "illus-concepts.svg",
             "description": "If you are new to Akeneo, you will want to start here. It's just a few basics to get you started. Remember every Jedi knight was a young Padawan first."
         },
         "catalog-settings":{
