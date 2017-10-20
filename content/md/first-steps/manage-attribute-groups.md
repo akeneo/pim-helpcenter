@@ -60,9 +60,6 @@ To edit an attribute group’s labels:
 
 Only the attributes belonging to the `Other` group can be added to another attribute group. To add attributes from another group, first remove it from its current group.
 
-
-### Add an attribute to an attribute group
-
 It is possible to add attributes to an attribute group:
 1.  Select the attribute group, go under the `Attributes` tab
 1.  Click on `Add Attributes`
@@ -120,12 +117,6 @@ To view the versions of an attribute:
 # Delete an attribute group
 
 Deleting an attribute group does not remove the attributes it includes. The attributes will be again visible in the default attribute group `Other`.
-
-To delete an attribute group
-1.  Go to Settings/Attribute Groups to list the attribute groups,
-1.  Click on the attribute group to be deleted,
-1.  Click on “Delete”,
-1.  Confirm the action via the validation message.
 
 ::: warning
 `Other` is a default attribute group managed by Akeneo and it cannot be deleted.
