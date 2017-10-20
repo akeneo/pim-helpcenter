@@ -102,8 +102,6 @@ To sort the attributes, you can drag and drop attributes:
 1.  Place your mouse over the icon nearby the attribute to move
 1.  Once your mouse changes into a cross, put the attribute higher or lower
 
-![Remove 2](../img/Settings_AttributesGroupsAddAttributesDraganddrop.png)
-
 ![Sort out attributes](../img/Settings_AttributesGroupsAddAttributesDraganddrop.png)
 
 # Check the attribute group history
