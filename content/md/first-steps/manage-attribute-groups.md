@@ -20,7 +20,7 @@ To sort attribute groups:
   *   place your mouse over the icon nearby attribute to move
   *   once your mouse changes into a cross, put the group higher or lower.
 
-![image](../img/Settings_AttributesGroupsDraganddrop.gif)
+![Drag and drop attributes groups](../img/Settings_AttributesGroupsDraganddrop.gif)
 
 # Create an attribute group
 
@@ -30,7 +30,7 @@ To create an attribute group:
 
 1.  Go to Settings/Attribute groups,
 1.  Click on “Create a new attribute group”,
-![image](../img/Settings_Attributesgroups Create.png)
+![Create an attribute](../img/Settings_AttributesgroupsCreate.png)
 1.  The page of the new attribute group is displayed. Enter a unique code and a label,
 1.  Click on “Save”. The attribute group has been created and is now visible on the left side of the screen along with the other attribute groups.
 
@@ -57,7 +57,6 @@ It is possible to add attributes to an attribute group.
 
 1.  Select the attribute group, go under the “Attributes” tab,
 1.  Click on “Add Attributes” (visible on the right side of the screen):
-![image](../img/Settings_AttributesGroupsAddAttributes.png)
 1.  Select the attributes to add by clicking on the their labels:
   *   You can find an attribute by its label via the quick search box at the top of the list.
   *   You can select all the attributes and click on the label of the attribute group.
@@ -65,7 +64,7 @@ It is possible to add attributes to an attribute group.
 
 The attributes are added to the current group.
 
-![image](../img/Settings_AttributesGroupsAddAttributes2.gif)
+![Add attributes to an attribute group](../img/Settings_AttributesGroupsAddAttributes2.gif)
 
 ::: info
 If you do not see the button “Add Attributes” you more likely do not have the appropriate rights to add attributes. Should it be the case, please contact your administrator.
@@ -78,7 +77,7 @@ Attributes can be easily removed from groups.
 To remove an attribute:
 
 1.  From the “Attributes” tab of an attribute group, click on the “delete” icon to remove the relevant attribute.
-![image](../img/Settings_AttributesGroupsAddAttributesDelete.png)
+![Remove 1](../img/Settings_AttributesGroupsAddAttributesDelete.png)
 1.  Confirm the action via the validation popin.
 
 The attribute is put back in the group “other” and can now be added to another group.
@@ -95,7 +94,7 @@ To order the attributes:
   *   place your mouse over the icon nearby the attribute to move
   *   once your mouse changes into a cross, put the attribute higher or lower.
 
-![image](../img/Settings_AttributesGroupsAddAttributesDraganddrop.png)
+![Remove 2](../img/Settings_AttributesGroupsAddAttributesDraganddrop.png)
 
 
 # Check the history list of an attribute group
