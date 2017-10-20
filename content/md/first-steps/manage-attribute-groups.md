@@ -8,31 +8,40 @@ related: what-is-an-attribute-group
 ---
 
 # List attribute groups
-To view your attribute groups, go to Settings/Attribute groups:
+
+To view your attribute groups, go to `Settings/Attribute groups`.
 
 ![Settings_Attributesgroups](../img/Settings_Attributesgroups.png)
 
+::: info
+`Other` is a default attribute group managed by Akeneo and it cannot be deleted. If you do not create attribute groups, all product attributes will be gathered in this group.
+:::
+
 ## Sort attribute groups
 
-To sort attribute groups:
-1.  Go to Settings/Attribute Groups,
-1.  Drag and drop attribute groups you want using your mouse:
-  *   place your mouse over the icon nearby attribute to move
-  *   once your mouse changes into a cross, put the group higher or lower.
+To sort attribute groups, you can drag and drop the attribute groups:
+1.  Go to `Settings/Attribute Groups`
+1.  Place your mouse over the icon nearby the attribute to move
+1.  Once your mouse changes into a cross, put the group higher or lower
 
 ![Drag and drop attributes groups](../img/Settings_AttributesGroupsDraganddrop.gif)
 
 # Create an attribute group
 
+:::info
 You must have specific permission to create an attribute group in the PIM.
+:::
 
 To create an attribute group:
 
-1.  Go to Settings/Attribute groups,
-1.  Click on “Create a new attribute group”,
+1.  Go to `Settings/Attribute groups`
+1.  Click on the button `Create`
 ![Create an attribute](../img/Settings_AttributesgroupsCreate.png)
-1.  The page of the new attribute group is displayed. Enter a unique code and a label,
-1.  Click on “Save”. The attribute group has been created and is now visible on the left side of the screen along with the other attribute groups.
+1.  The page of the new attribute group is displayed
+1.  Enter a unique code and labels
+1.  Click on `Save`
+
+The attribute group has been created and is now visible on the left side of the screen along with the other attribute groups.
 
 Once you new attribute group is created, you can order it.
 
@@ -40,80 +49,79 @@ Once you new attribute group is created, you can order it.
 
 ## Edit labels
 
-To edit an attribute group’s label:
-1.  Go to Settings/Attribute Groups,
-1.  Select the attribute group to edit in the left panel and click on its label,
-1.  The attribute’s page is displayed,
-1.  Change its labels,
-1.  Click on Save.
+To edit an attribute group’s labels:
+1.  Go to `Settings/Attribute Groups`
+1.  Select the attribute group to edit in the left panel and click on its label
+1.  The attribute’s page is displayed
+1.  Change its labels
+1.  Click on `Save`
 
-## Manage attributes in a group
+## Add an attribute to an attribute group
 
-Only the attributes belonging to the “Other” group can be added to another attribute group. To add attributes from another group, first remove it from its current group.
+Only the attributes belonging to the `Other` group can be added to another attribute group. To add attributes from another group, first remove it from its current group.
+
 
 ### Add an attribute to an attribute group
 
-It is possible to add attributes to an attribute group.
-
-1.  Select the attribute group, go under the “Attributes” tab,
-1.  Click on “Add Attributes” (visible on the right side of the screen):
-1.  Select the attributes to add by clicking on the their labels:
-  *   You can find an attribute by its label via the quick search box at the top of the list.
-  *   You can select all the attributes and click on the label of the attribute group.
-1.  Click on the “add” button below the list.
+It is possible to add attributes to an attribute group:
+1.  Select the attribute group, go under the `Attributes` tab
+1.  Click on `Add Attributes`
+1.  Select the attributes to add by clicking on the their labels (you can find an attribute by its label via the quick search box at the top of the list)
+1.  Click on the `Add` button below the list
+1.  Click on `Save`
 
 The attributes are added to the current group.
 
-![Add attributes to an attribute group](../img/Settings_AttributesGroupsAddAttributes2.gif)
+![Add an attribute](../img/Settings_AttributesGroupsAddAttributes2.gif)
 
 ::: info
-If you do not see the button “Add Attributes” you more likely do not have the appropriate rights to add attributes. Should it be the case, please contact your administrator.
+If you do not see the button `Add Attributes`, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
 :::
 
-### Remove an attribute
+## Remove an attribute from an attribute group
 
 Attributes can be easily removed from groups.
 
 To remove an attribute:
 
-1.  From the “Attributes” tab of an attribute group, click on the “delete” icon to remove the relevant attribute.
-![Remove 1](../img/Settings_AttributesGroupsAddAttributesDelete.png)
-1.  Confirm the action via the validation popin.
+1.  From the `Attributes` tab of an attribute group, click on the `Delete` icon to remove the relevant attribute.
+![Remove an attribute](../img/Settings_AttributesGroupsAddAttributesDelete.png)
+1.  Confirm the action via the validation popin
+1.  Click on `Save`
 
-The attribute is put back in the group “other” and can now be added to another group.
+The attribute is put back in the group `Other` and can now be added to another group.
 
-### Sort out attributes
+## Sort out attributes
 
 Like attribute groups, you can sort attributes belonging to a same group.
 
-To order the attributes:
-1.  Go to Settings/Attribute Groups to open the attribute group.
-1.  Click on the attribute group to be edited in the left panel.
-1.  Click on the “Attributes” tab to display the list of attributes included in the group.
-1.  Drag and drop attribute groups you want using your mouse:
-  *   place your mouse over the icon nearby the attribute to move
-  *   once your mouse changes into a cross, put the attribute higher or lower.
+To sort the attributes, you can drag and drop attributes:
+1.  Go to `Settings/Attribute Groups` to open the attribute group
+1.  Click on the attribute group to be edited
+1.  Click on the `Attributes` tab to display the list of attributes included in the group
+1.  Place your mouse over the icon nearby the attribute to move
+1.  Once your mouse changes into a cross, put the attribute higher or lower
 
 ![Remove 2](../img/Settings_AttributesGroupsAddAttributesDraganddrop.png)
 
+![Sort out attributes](../img/Settings_AttributesGroupsAddAttributesDraganddrop.png)
 
-# Check the history list of an attribute group
+# Check the attribute group history
 
-Changes made on an attribute group are recorded and visible under the history tab of one group. For example: label change, attribute change, etc.
+Changes made on an attribute group are recorded and visible under the `History` tab of one group. For example: label change, attribute change, etc.
 
 For each change, a version of the attribute group is created. The following information is tracked down for each version:
-
-*   The person or system that generated changes,
-*   The date and time (up to seconds) at which the changes took place,
-*   The old value and the new value of each modified field.
+*   The person or system that generated changes
+*   The date and time (up to seconds) at which the changes took place
+*   The old value and the new value of each modified field
 
 To view the versions of an attribute:
-1.  Open and edit the page of the attribute group,
-1.  Click on the “History” tab and the list of versions will be displayed.
+1.  Open and edit the page of the attribute group
+1.  Click on the `History` tab and the list of versions will be displayed
 
 # Delete an attribute group
 
-Deleting an attribute group does not remove the attributes it includes. The attributes will be again visible in the default attribute group “Other”.
+Deleting an attribute group does not remove the attributes it includes. The attributes will be again visible in the default attribute group `Other`.
 
 To delete an attribute group
 1.  Go to Settings/Attribute Groups to list the attribute groups,
@@ -121,6 +129,12 @@ To delete an attribute group
 1.  Click on “Delete”,
 1.  Confirm the action via the validation message.
 
-::: info
-«Other» is a default attribute group managed by Akeneo and it cannot be deleted. If you do not create attribute groups, all product forms will be gathered in this group.
+::: warning
+`Other` is a default attribute group managed by Akeneo and it cannot be deleted.
 :::
+
+To delete an attribute group:
+1.  Go to `Settings/Attribute Groups` to list the attribute groups
+1.  Click on the attribute group to be deleted
+1.  Click on `...` for other actions and then `Delete` on the top right corner
+1.  Confirm the action via the validation message
