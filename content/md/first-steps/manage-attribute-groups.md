@@ -11,7 +11,7 @@ related: what-is-an-attribute-group
 
 To view your attribute groups, go to `Settings/Attribute groups`.
 
-![Settings_Attributesgroups](../img/Settings_Attributesgroups.png)
+![image](../img/dummy.png)
 
 ::: info
 `Other` is a default attribute group managed by Akeneo and it cannot be deleted. If you do not create attribute groups, all product attributes will be gathered in this group.
@@ -24,7 +24,11 @@ To sort attribute groups, you can drag and drop the attribute groups:
 1.  Place your mouse over the icon nearby the attribute to move
 1.  Once your mouse changes into a cross, put the group higher or lower
 
+<<<<<<< HEAD
 ![Drag and drop attributes groups](../img/Settings_AttributesGroupsDraganddrop.gif)
+=======
+![image](../img/dummy.png)
+>>>>>>> parent of 4063b40... Updated imgs
 
 # Create an attribute group
 
@@ -34,6 +38,7 @@ You must have specific permission to create an attribute group in the PIM.
 
 To create an attribute group:
 
+<<<<<<< HEAD
 1.  Go to `Settings/Attribute groups`
 1.  Click on the button `Create`
 ![Create an attribute](../img/Settings_AttributesgroupsCreate.png)
@@ -42,6 +47,13 @@ To create an attribute group:
 1.  Click on `Save`
 
 The attribute group has been created and is now visible on the left side of the screen along with the other attribute groups.
+=======
+1.  Go to Settings/Attribute groups,
+1.  Click on “Create a new attribute group”,
+![image](../img/dummy.png)
+1.  The page of the new attribute group is displayed. Enter a unique code and a label,
+1.  Click on “Save”. The attribute group has been created and is now visible on the left side of the screen along with the other attribute groups.
+>>>>>>> parent of 4063b40... Updated imgs
 
 Once you new attribute group is created, you can order it.
 
@@ -63,6 +75,7 @@ Only the attributes belonging to the `Other` group can be added to another attri
 
 ### Add an attribute to an attribute group
 
+<<<<<<< HEAD
 It is possible to add attributes to an attribute group:
 1.  Select the attribute group, go under the `Attributes` tab
 1.  Click on `Add Attributes`
@@ -73,6 +86,19 @@ It is possible to add attributes to an attribute group:
 The attributes are added to the current group.
 
 ![Add an attribute](../img/Settings_AttributesGroupsAddAttributes2.gif)
+=======
+1.  Select the attribute group, go under the “Attributes” tab,
+1.  Click on “Add Attributes” (visible on the right side of the screen):
+![image](../img/dummy.png)
+1.  Select the attributes to add by clicking on the their labels:
+  *   You can find an attribute by its label via the quick search box at the top of the list.
+  *   You can select all the attributes and click on the label of the attribute group.
+1.  Click on the “add” button below the list.
+
+The attributes are added to the current group.
+
+![image](../img/dummy.png)
+>>>>>>> parent of 4063b40... Updated imgs
 
 ::: info
 If you do not see the button `Add Attributes`, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
@@ -84,10 +110,16 @@ Attributes can be easily removed from groups.
 
 To remove an attribute:
 
+<<<<<<< HEAD
 1.  From the `Attributes` tab of an attribute group, click on the `Delete` icon to remove the relevant attribute.
 ![Remove an attribute](../img/Settings_AttributesGroupsAddAttributesDelete.png)
 1.  Confirm the action via the validation popin
 1.  Click on `Save`
+=======
+1.  From the “Attributes” tab of an attribute group, click on the “delete” icon to remove the relevant attribute.
+![image](../img/dummy.png)
+1.  Confirm the action via the validation popin.
+>>>>>>> parent of 4063b40... Updated imgs
 
 The attribute is put back in the group `Other` and can now be added to another group.
 
@@ -95,12 +127,24 @@ The attribute is put back in the group `Other` and can now be added to another g
 
 Like attribute groups, you can sort attributes belonging to a same group.
 
+<<<<<<< HEAD
 To sort the attributes, you can drag and drop attributes:
 1.  Go to `Settings/Attribute Groups` to open the attribute group
 1.  Click on the attribute group to be edited
 1.  Click on the `Attributes` tab to display the list of attributes included in the group
 1.  Place your mouse over the icon nearby the attribute to move
 1.  Once your mouse changes into a cross, put the attribute higher or lower
+=======
+To order the attributes:
+1.  Go to Settings/Attribute Groups to open the attribute group.
+1.  Click on the attribute group to be edited in the left panel.
+1.  Click on the “Attributes” tab to display the list of attributes included in the group.
+1.  Drag and drop attribute groups you want using your mouse:
+  *   place your mouse over the icon nearby the attribute to move
+  *   once your mouse changes into a cross, put the attribute higher or lower.
+
+![image](../img/dummy.png)
+>>>>>>> parent of 4063b40... Updated imgs
 
 ![Sort out attributes](../img/Settings_AttributesGroupsAddAttributesDraganddrop.png)
 
@@ -126,9 +170,15 @@ To delete an attribute group
 1.  Click on the attribute group to be deleted,
 1.  Click on “Delete”,
 1.  Confirm the action via the validation message.
+<<<<<<< HEAD
 
 ::: warning
 `Other` is a default attribute group managed by Akeneo and it cannot be deleted.
+=======
+ 
+::: info
+«Other» is a default attribute group managed by Akeneo and it cannot be deleted. If you do not create attribute groups, all product forms will be gathered in this group.
+>>>>>>> parent of 4063b40... Updated imgs
 :::
 
 To delete an attribute group:
