@@ -29,19 +29,19 @@ To start, go to `Settings > Attributes`. From this page, you will have several o
 
 The attribute grid displays 25 attributes per page. To browse attribute's pages, click on the page number you want to reach.
 
-![image](../img/dummy.png)
+![image](../img/Settings_Attributes.png)
 
 ## Search on the attribute label
 
 To quickly find an attribute, you can use the search bar to search on the attribute label.
 
-![image](../img/dummy.png)
+![image](../img/Settings-UsetheSearchBar.gif)
 
 ## Filter on attributes
 
 The attribute datagrid comes with a filter bar.
 
-![image](../img/dummy.png)
+![image](../img/Settings_AttributesFilters.png)
 
 1.  Enter your filter criteria
 1.  The grid is automatically updated when a new filter is set
@@ -68,7 +68,7 @@ To sort out the attributes, you can click on the column header in the datagrid.
 
 There is a set of actions available for each attribute, that you can find in the last column of the grid. The buttons are prompted when you hover your mouse over the line.
 
-![image](../img/dummy.png)
+![image](../img/Settings-AttributesGridHover.png)
 
 ::: info
 The shortcut actions are only displayed if you have been granted the appropriate rights.
@@ -81,9 +81,9 @@ To create an attribute from the PIM user interface (without going through import
 To create an attribute in the PIM:
 1. Go on `Settings/Attributes`
 1. Click on the `Create attribute` button
-  ![image](../img/dummy.png)
+  ![image](../img/Settings_AttributesCTAButton.png)
 1. Select the attribute type you want to create
-  ![image](../img/dummy.png)
+  ![image](../img/Settings_Attributes_Create1.png)
 1. The attribute edit page is displayed. The following properties are required to create an attribute:
     - A **code** to identify the attribute
     - An **attribute group**: the attribute group the attribute will belong to
@@ -126,9 +126,9 @@ You can change the following properties of an attribute:
 To edit an attribute:
 1.  Go to `Settings/Attributes`
 2.  Select the attribute to edit in the datagrid and click on the line or on the shortcut
-![image](../img/dummy.png)
+![image](../img/Settings_AttributesModifyAnAttributes.gif)
 3.  Change the properties and click on `Save`
-![image](../img/dummy.png)
+![image](../img/Settings_Attributes_Properties.png)
 
 ## Validation for the different attribute types
 
@@ -170,7 +170,7 @@ The **simple** and **multi select** attribute types, as well as **Yes/No** attri
 
 You can define values for simple and multi select attribute types. Options can be added, modified, sorted, or deleted.
 
-![image](../img/dummy.png)
+![image](../img/Settings_Attributes_Options.png)
 
 To add new values, click on `Add an option` and save.
 To edit values, use the small pencil icon.
@@ -193,7 +193,7 @@ To edit an attribute option:
 1. Give a unique code to the new option
 1. Click on the confirm or cancel button
 
-![image](../img/dummy.png)
+![image](../img/Settings-AttributesAddOption.gif)
 
 The option is instantly created.
 
@@ -202,19 +202,19 @@ The option is instantly created.
 1.  Click on the small pencil icon change the option labels
 1.  Click on the button to confirm or on the button to cancel
 
-![image](../img/dummy.png)
+![image](../img/Settings_Attributes_OptionsEdit.png)
 
 ### Sort out options
 
 1.  Drag and drop the rows to reorder options manually via the icon at the beginning of each row of options.
 
-![image](../img/dummy.png)
+![image](../img/Settings_AttributesDraganddropOption.gif)
 
 ### Delete an option
 
 1.  Click on the `delete` button to remove an option
 
-![image](../img/dummy.png)
+![image](../img/Settings_Attributes_OptionsDelete.png)
 
 ::: warning
 A deleted option can no longer be used as a value for the attribute for a product. If a product had this value, the product has no value anymore for the attribute.
@@ -229,15 +229,13 @@ An option that is used by a published product cannot be deleted.
 
 You can find the rules applied on an attribute under the `Rules` tab.
 
-![image](../img/dummy.png)
+![image](../img/Settings_Attributes_Rules.png)
 
 The display screen is composed of several elements:
 - The rule code
 - The conditions which are displayed below each other starting by “If”
 - The rule’s action beginning with “Then”
 - The number of affected products is the number of products which are selected by the rules conditions
-
-![image](../img/dummy.png)
 
 The rules have to be read from left to right: conditions first, then actions.
 
@@ -277,11 +275,11 @@ You have two ways to proceed to remove an attribute.
 Through the attribute edit form:
 1. Select the attribute to delete
 1. Click on `...` for other actions and then `Delete` on the top right corner
-  ![image](../img/dummy.png)
+  ![image](../img/Settings_Attributes_Delete.png)
 1. Confirm the action in the popin
 
 Through the Delete shortcut in the grid:
-  ![image](../img/dummy.png)
+  ![image](../img/Settings_Attributes_GridDeleteHover.png)
 1. Select the attribute you want to remove from the attribute datagrid
 1. Place your mouse over the line of attribute in the grid, the button delete is prompted (trash can icon)
 1. Click on the trash can icon
