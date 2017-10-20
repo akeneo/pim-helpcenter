@@ -32,13 +32,13 @@ Click on the dropdown icon next to the project locale. Current projects will be 
 
 A search toolbar is available on the top of the list: start typing the first letters of your project’s label, the list will be updated accordingly.
 
-![image](../img/dummy.png)
+![image](../img/Dashboard_DropdownMenuProjects.png)
 
 ## Browse users
 
 As a project creator, you can search for a user to know his progress on a project. Click on the dropdown icon next to the user and start typing the first letters of his name.
 
-![image](../img/dummy.png)
+![image](../img/Dashboard_DropdownMenuContributors.png)
 
 ::: info
 The project creator is the only one who can select `All contributor` or another contributor.
@@ -46,4 +46,4 @@ The project creator is the only one who can select `All contributor` or another 
 
 If you have no project, the widget will display users the message: `You have no current project, start a new project`.
 
-![image](../img/dummy.png)
+![image](../img/Dashboard_NoProject.png)
