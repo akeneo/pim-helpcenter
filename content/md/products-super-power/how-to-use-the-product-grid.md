@@ -13,7 +13,7 @@ To access your products: click on the main menu (Products). You will land on the
 
 This page contains all information you need to start working on your catalog: your products, your categories, some filters, your scopes and locales.
 
-![image](../img/dummy.png)
+![The products grid with all the informations you need](../img/Products_views.png)
 
 In the following sections, we will see how to set up your work environment.
 
@@ -31,7 +31,7 @@ By default, you will find all your products on the product grid page. You can ch
 
 The locale selected in the dropdown menu is your working locale. Every time it will be changed, product information will be updated in the product grid.
 
-![image](../img/dummy.png)
+![Select a locale context](../img/Products_locales.png)
 
 ::: info
   1. The locales displayed are those added to at least one channel. If you do not see your working locale, it is more likely that you do not have the appropriate access rights to view or edit products for this working locale (Enterprise version). In this case, then please contact your administrator. Or the locale is not required by any channel, therefore it is not activated. To add a locale to a channel, please refer to “Manage channels” in the PIM Catalog Settings Guide
@@ -43,7 +43,7 @@ The locale selected in the dropdown menu is your working locale. Every time it w
 
 On the left side of the grid, you have a drop down menu to select your channel.
 
-![image](../img/dummy.png)
+![Select a channel context](../img/Products_Channels.png)
 
 The selected channel or scope will be your working channel (or working scope). Selecting a channel impacts values displayed on the product grid, especially if your attribute information differ depending on the channel.
 
@@ -59,9 +59,7 @@ Like the locale, the channel selected on the product grid’s page is applied wh
 
 The product grid displays 25 products per page. To browse product’s pages, click on the number of the page you want to reach.
 
-![image](../img/dummy.png)
-
-![image](../img/dummy.png)
+![Select the page you want to reach by clicking on the number of the page](../img/Products_views_click_on_pages.png)
 
 # Category panel
 
@@ -71,17 +69,17 @@ On the left side of the page, you will see the category panel. Thanks to this pa
 
 In the Enterprise Edition, you can define specific rights on categories and category trees. Thus, if you do not see a specific tree or category, it’s because you have not the permission to see it. Click on a category name to expand it or to display its products in the grid.
 
-![image](../img/dummy.png)
+![Browse products' categories](../img/Products_Category1.png)
 
 Click on the higher dropdown menu to select another category tree, `Master Catalog` in our screenshot above.
 
-![image](../img/dummy.png)
+![Change the catalog tree](../img/Products_Category2.png)
 
 ## View unclassified products
 
 Below the category tree, you will see an additional category: `Unclassified products`. Click on this category to see all unclassified products. this category is added automatically by the PIM and cannot be removed or edited.
 
-![image](../img/dummy.png)
+![View unclassified products](../img/Products_Category3.png)
 
 Remember that unclassified products are not exported.
 
@@ -89,7 +87,7 @@ Remember that unclassified products are not exported.
 
 Click on `All products` to see all products (categorised and uncategorised) of the selected category tree.
 
-![image](../img/dummy.png)
+![View all products](../img/Products_Category4.png)
 
 ## Product counter
 
@@ -97,7 +95,7 @@ Akeneo displays you the number of products available in each category and catego
 
 At the bottom of the category tree, you will see a Yes/No option: `Include sub-categories`.
 
-![image](../img/dummy.png)
+![Product counter](../img/Products_Category5.png)
 
 This option takes into account the number of products classified in sub-categories. By default, this option is set to `Yes`, hence subcategories are included. If you do not want to take into account products classified in subcategories, select `No`. The tree will be then updated accordingly.
 
@@ -109,15 +107,13 @@ In the Enterprise Edition, only the products on which you have rights to view an
 
 In order to allow you to display the product grid widely, you can hide the category panel. To do so, click on the left arrow on the bottom right corner of the panel:
 
-![image](../img/dummy.png)
+![How to hide the category panel](../img/Products_views_focus_fullpage.png)
 
 The category panel will be reduced automatically to the left side.
 
 To expand the panel, click again on the arrow, the panel will be displayed.
 
-![image](../img/dummy.png)
-
-![image](../img/dummy.png)
+![How to expand the category panel](../img/Products_Fullpage_FOCUS.png)
 
 # Customise the grid
 
@@ -125,7 +121,7 @@ To expand the panel, click again on the arrow, the panel will be displayed.
 
 The product grid includes a filter management. By default, the PIM displays System attributes (Family, Groups...):
 
-![image](../img/dummy.png)
+![Use filters](../img/Products_Filters.png)
 
 You can use the filters displayed or add new filters: click on the `+` icon and select the new attributes you want to use as filters. The new filters will appear in the left panel. You can now filter your products displayed in the grid.
 
@@ -167,9 +163,11 @@ By default, the grid displays the following columns:
 ### Configure the columns
 Click on `Columns` on the right side of the grid to display the column selection window:
 
-![image](../img/dummy.png)
+![Configure the columns](../img/Products_Columns.png)
 
 On the left side of the window, you will see your attribute groups.
+
+![Attributes groups are on the left columns](../img/Products_ColumnsPopUp.png)
 
 Nearby each group, you will see the number of attributes belonging to this group that can be used as columns in the grid. Click on a group to display its attributes in the middle column.
 
@@ -202,7 +200,7 @@ You can not sort values on price, media, asset, metric, multiselect attributes a
 
 There is a set of actions available for each product. They are available on the right side of the product grid when you mouse over the product’s line:
 
-![image](../img/dummy.png)
+![Hover on the products grid](../img/Products_GridHover.png)
 
 Depending on your Akeneo version (Enterprise or Community) and your rights, you might not see all these shortcut actions: edit the product information, edit its category/ies, delete it or change its status.
 
