@@ -16,10 +16,10 @@ To start the export of product information from the products' grid:
 1. Select the products on which you want to perform the operation via the selection tool: all the products recorded, all visible products from the ongoing page, none of the products and the products for which you have ticked the 1st column
 ![image](../img/dummy.png)
 1.  Click on the `Quick Export` displayed in at the bottom of the screen and select:
-  - `Excel (Grid context)` to generate an Excel file according to your current view
-  - `Excel (All attributes)` to generate an Excel file with all products’ attributes
-  - `CSV (Grid context)` to generate a CSV file according to your current view
-  - `CSV (All attributes)` to generate a CSV file with all products’ attributes
+    - `Excel (Grid context)` to generate an Excel file according to your current view
+    - `Excel (All attributes)` to generate an Excel file with all products’ attributes
+    - `CSV (Grid context)` to generate a CSV file according to your current view
+    - `CSV (All attributes)` to generate a CSV file with all products’ attributes
 
 ![image](../img/dummy.png)
 
