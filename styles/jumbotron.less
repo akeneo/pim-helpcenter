@@ -26,6 +26,12 @@
         font-size: @font-size-h1;
         margin-top: 0px;
         color: @headings-color;
+
+        img:hover {
+          animation: hello 0.5s infinite;
+          transform-origin: 30px 40px;
+          animation-timing-function: ease-in-out;
+        }
     }
     p{
         font-size: @font-size-base;
@@ -42,4 +48,10 @@
     .panel.panel-jumbotron{
         margin-bottom: 0;
     }
+}
+
+@-webkit-keyframes hello {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(15deg);}
+    100% {transform: rotate(0deg);}
 }
