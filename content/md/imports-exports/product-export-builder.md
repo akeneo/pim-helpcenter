@@ -64,7 +64,7 @@ Click on the small cross nearby the locale code.
 
 Start typing your locale code in the field, the PIM will automatically propose you the matching locales. Click on the locale to add it to the field.
 
-![Add a locale](Exports_EditManageLocales.png)
+![Add locales](../img/Exports_EditManageLocale.png)
 
 ### Select attributes as file columns
 
@@ -76,7 +76,7 @@ The popin is divided in three parts: the left part shows the attribute groups, t
 
 To make your own attribute selection, click on left side to select a specific attribute group (or `All groups` to display all attributes). Place your mouse on your attribute and drag and drop it into the right-most column. The selected attributes will be displayed as columns in your export file.
 
-![Drag and drop attributes](../img/Exports_DragandDropttributes.gif)
+![Drag and drop attributes](../img/Exports_DragandDropAttributes.gif)
 
 You can reorder your attributes by dragging them up and down. To clear your selection, click on the `Clear` button. To save your attribute selection, click on `Apply`.
 
@@ -94,7 +94,7 @@ By default, this filter is empty meaning that all products will be exported rega
 ### Add a family
 If you want to export products belonging to specific families, click on the drop down list and click on the families to add in the field.
 
-![Add a family](Exports_EditFamilyManagement.png)
+![Add a family](../img/Exports_EditFamilyManagement.png)
 
 ### Remove a family
 Click on the cross nearby the family label to remove it from the field. Products belonging to this family will not be exported anymore.
@@ -166,7 +166,7 @@ You cannot export unclassified products thanks to the export builder. If you wan
 
 You can make a selection of identifiers to export by adding them in the `Identifier` field. You can copy and paste a list of identifiers. They must separated by comma, space or line breaks.
 
-![Filter on product identifiers](Exports-EditContentIdentifiers.png)
+![Filter on product identifiers](../img/Exports-EditContentIdentifiers.png)
 
 ::: info
 You can easily copy an identifier list from a csv or xlsx file and paste it in the identifier text area.
