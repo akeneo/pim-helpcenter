@@ -19,7 +19,7 @@ When a `Price` attribute type is created, it can have as many values as needed a
 To view the currencies, go to `Settings/Currencies`. The grid displays all currencies available in the PIM.   
 You can search on the currency’s code and filter on its status `Activated`: `All`/`Yes`/`No`.
 
-![image](../img/dummy.png)
+![View currencies](../img/Settings_Currencies.png)
 
 # Enable/disable a currency
 
@@ -29,7 +29,7 @@ Each currency line comes with a shortcut action button to enable or disable it.
 
 The currency status will be changed, and the currency grid will be automatically updated.
 
-![image](../img/dummy.png)
+![Change status of the currencies](../img/Settings_CurrenciesDisabled.gif)
 
 ::: info
 The shortcut action will be displayed if you have the appropriate rights.
