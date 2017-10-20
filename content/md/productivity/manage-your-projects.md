@@ -35,7 +35,7 @@ You first need to set up your project’s environment: select a locale, a scope,
 1.  Go to `Products`
 1.  Click on the `Views/Projects` selector
 1.  Select `Projects`
-![image](../img/dummy.jpg)
+![Select Projects in the dropdown menu](../img/Products-DropdownViewsProducts.png)
 1.  Select a locale on the product grid using the locale dropdown menu (remember you only see the locales you have permissions on)
 1.  Select a channel on the product grid using the channel dropdown menu
 1.  Select your products’ category/ies or subcategory/ies
@@ -44,11 +44,12 @@ You first need to set up your project’s environment: select a locale, a scope,
 You are now ready to create a new project!
 
 ## Create a project
-1.  Click on the `...` icon nearby the Views/Projects selector
+
+1. Click on the `...` icon nearby the `Views/Projects` selector
 1. Select `Create project`
-![image](../img/dummy.png)
+![Create a project](../img/Products_CreateProjectsDropdown.png)
 1.  The project creation window appears:
-![image](../img/dummy.png)
+![Create a project](../img/Products_CreateProjectsWizard1.png)
 1.  You can now add:
   *   a project’s label: the name you want to give to your project. For instance, ‘New Summer Collection Website’
   *   a project’s due date: the date the project must be over at, for instance, 30/May/2018
@@ -79,7 +80,7 @@ All projects you can work on, or projects you have created, can be visible from 
 
 A search field is available above the list: start typing the first letters of the project’s label and the list will be updated with the projects’ labels matching your request:
 
-![image](../img/dummy.png)
+![How to find a project](../img/Products_SearchProjectsDropdown.gif)
 
 Along with the project’s label, you will find other information:
 - A percentage: this is the percentage of products completed according to your permission(s) (see done products). You might not have rights on all products
@@ -95,11 +96,11 @@ If you have created the project, you can edit all project’s information: label
 
 Select your project in the project’s list.
 
-Click on the pencil icon, a project window is prompted:
+Click on the "..." icon and then "Edit Project", a project window is prompted:
 - You can edit label, due date and/or description
 - Click on `Save` and the project will be updated accordingly
 
-![image](../img/dummy.png)
+![How to edit a project](../img/Products_EditProjects.gif)
 
 # How to delete a project?
 
@@ -113,7 +114,7 @@ Here are the different steps:
 1. Select `Projects`
 1. In the projects drop down, select your project
 1. Click on `...` and select `Delete project` to definitely remove the project
-1. A confirmation window is prompted to allow you to `Confirm` or `Cancel` your action.
+1. A confirmation window is prompted to allow you to `Confirm` or `Cancel` your action
 
 ::: danger
 Be aware this operation cannot be reverted.
