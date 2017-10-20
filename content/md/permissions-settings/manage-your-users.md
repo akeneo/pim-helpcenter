@@ -10,7 +10,7 @@ related: what-is-a-user, manage-your-account
 
 The user management and their access rights is available only if the rights have been given to the user.
 
-Any PIM user can see his own account details, update his/her password, and set his/her preferences (eg working environment for local and channel).
+Any PIM user can see his own account details, update his/her password, and set his/her preferences (eg working environment for locale and channel for example).
 
 ::: info
 All users in the PIM can see the firstname and lastname of other users in the application.
@@ -18,24 +18,23 @@ All users in the PIM can see the firstname and lastname of other users in the ap
 
 # View the list of users
 
-1.  Log in with a user account with the rights to “List of user groups”.
-1.  Go to System/User Management/Users.  
-    ![image](../img/Akn_dashboard.jpg)
-1.  To narrow the list of users displayed, use the filters above the users grid.  
-    ![image](../img/Akn_dashboard.jpg)
-1.  To view information of a specific user, click on the user.
+1.  Go to `System` and click on the `Users` menu entry  
+    ![image](../img/dummy.png)
+1.  To narrow the list of users displayed, use the filters above the users grid
+    ![image](../img/dummy.png)
+1.  To view information of a specific user, click on the user in the grid
 
 # Add a user
 
-1. Go on System/Users Management/Users
-1. Then click on “Create User” button on the top right corner
-1. Fill out the General information required (red asterisk),
-1. Then go on Additional to define the user default settins, this can be later changed if needed,
-1. Define a user role under the Groups and Roles tab,
-1. You can also define the default language for this user (Interfaces tab),
-1. Then click on “Save”.
+1. Go to `System` and click on the `Users` menu entry
+1. Then click on the `Create User` button on the top right corner
+1. Fill out the general information about the user in the `General`tab
+1. Then go under the `Additional` tab to define the user default settings, this can be changed later if needed
+1. Define your user role(s) and user group(s) under the `Groups and Roles` tab
+1. You can also define the default language for this user (`Interfaces` tab)
+1. Then click on `Save`
 
-The user account has been created.
+The user account is created.
 
 ::: info
 An email is not automatically sent to the new user. It depends on the initial configuration of the PIM. Hence you will need to provide the login and password to the user manually.
@@ -43,20 +42,25 @@ An email is not automatically sent to the new user. It depends on the initial co
 
 # Change the user general information
 
-1. Go to System/Users Management/Users,
-1. Click on the user to proceed,
-1. Click on the “General” tab,
-1. Make the desired changes and click on the “Save” button.
+1. Go to `System` and click on the `Users` menu entry
+1. Click on the user to proceed
+1. Click on the `General` tab
+1. Make the desired changes and click on the `Save` button
 
 # Delete a user
 
-1. Go to System/Users Management/UsersClick the user to proceed,
-1. Click on the right on the “Delete” button,  
-  ![image](../img/Akn_dashboard.jpg)
-1. Then confirm you want to delete the user.
+1. Go to `System` and click on the `Users` menu entry
+2. Click on the user to proceed
+1. Click on the right on the `Delete` button
+  ![image](../img/dummy.png)
+1. Then confirm you want to delete the user
 
-The user can no longer connect to the PIM application. Though the user actions generated in the PIM will be stored.
+The user can no longer connect to the PIM application.
 
-# User's permission
+::: info
+Even if a user is deleted, its actions generated in the PIM won't be erased.
+:::
 
-To know more about user's permissions, there is an article just for you: [Handle your users' permissions](/articles/handle-your-users-permissions.html).
+# Deal with the user permissions
+
+To know more about user permissions, there is two articles just for you depending on what your need are: [Manage interface and API accesses](/articles/build-your-user-roles.html) and [Build your user groups](/articles/build-your-user-groups.html).
