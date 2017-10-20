@@ -17,7 +17,7 @@ For more details, see [What is a locale](/articles/what-is-a-locale.html).
 To view locales, go to `Settings/Locales`.     
 You can search on the locale’s code and filter on its status `Activated`: All/Yes/No.
 
-![image](../img/dummy.png)
+![View locales](../img/Settings_Locales.png)
 
 # Activate a locale
 
