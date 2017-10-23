@@ -19,9 +19,11 @@ nav{
                     margin-right: -15px;
                 }
             }
-            a{
-                font-weight: bold;
-                &:hover:after{
+            li.active>a,
+            li.active>a:hover {
+                background-color: inherit;
+                color: @brand-primary;
+                &:after {
                     content: '';
                     border-bottom: 2px solid @navbar-default-link-hover-color;
                     width: 15px;
@@ -30,49 +32,32 @@ nav{
                     right: calc(50% - 7px);
                 }
             }
-            > a, > li > a {
+            a {
+                font-weight: bold;
+                &:hover:after {
+                    content: '';
+                    border-bottom: 2px solid @navbar-default-link-hover-color;
+                    width: 15px;
+                    bottom: 15px;
+                    position: absolute;
+                    right: calc(50% - 7px);
+                }
+            }
+            >a,
+            >li>a {
                 padding-top: 16.5px;
                 padding-bottom: 16.5px;
             }
-            > li{
-                float: left;
-            }
-            li.dropdown{
-                position: relative;
-                .dropdown-menu{
-                    position: absolute;
-                    opacity: 0;
-                    transition: opacity 0.2s ease-out;
-                    animation-iteration-count: 1;
+            li.dropdown {
+                .dropdown-menu {
                     top: 10px;
-                    left: -90px;
-                    box-shadow: 1px 2px 8px rgba(0,0,0,0.15);
-                    border: none;
                 }
-                &.open{
-                    > a{
-                        background-color: inherit;
-                        color: inherit;
-                    }
-                    .dropdown-menu{
-                        background-color: white;
-                        opacity: 1;
-                        animation: fadeIn 0.2s ease-in;
-                        li.dropdown-title{
-                            text-transform: uppercase;
-                            color: @brand-primary;
-                            margin: 3px 20px;
-                            border-bottom: 1px @brand-primary solid;
-                            font-size: 14px;
-                        }
-                        li.a{
-                            color: @brand-primary;
-                        }
-                    }
-                }
-                a:hover:after{
+                a:hover:after {
                     content: none;
                     border: none;
+                }
+                &.open>a {
+                    background-color: inherit;
                 }
             }
         }
