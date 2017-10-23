@@ -38,6 +38,7 @@ In order to perform a bulk operation on products, you need the rights to each po
 ![Mass edit options](../img/Products_BulkActionUppermenu.png)
 1.  Click on `Bulk Actions`
 1.  Select the operation to be performed from the screen menu
+![Operations to be performed](../img/Products_BulkAction2.png)
 1.  According to the selected operation, the next screen of configuration changes
 
 | Operations  | Step of configuration  |
@@ -73,7 +74,6 @@ In order to save you some time, you can also directly categorize products in cat
 ![Mass edit options](../img/Products_BulkActionUppermenu.png)
 3.  Click on `Bulk Actions`
 4.  Select the operation to be performed from the screen menu
-![Operations to be performed](../img/Products_BulkAction2.png)
 5.  According to the selected operation, the next page of configuration changes
 
 
@@ -93,3 +93,4 @@ To delete multiple products:
 ![Mass edit options](../img/Products_BulkActionUppermenuDelete.png)
 3.  Click on `Delete` in the toolbar located at the bottom of the screen
 4.  Confirm the action with the `Confirm` button
+![Confirm delete](../img/Products_BulkActionUppermenuDelete2.png)
