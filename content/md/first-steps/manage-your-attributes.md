@@ -37,6 +37,10 @@ To quickly find an attribute, you can use the search bar to search on the attrib
 
 ![image](../img/dummy.png)
 
+::: warning 
+If your attribute does not have any label translated yet, it will not pop in the search results. Make sure your attribute has its labels translated!
+:::
+
 ## Filter on attributes
 
 The attribute datagrid comes with a filter bar.
