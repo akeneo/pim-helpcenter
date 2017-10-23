@@ -15,13 +15,13 @@ To publish a product:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Publish this version` in the dropdown
 
-The current version is published. In the “History” tab, the published version is indicated by a blue `Published`button as shown below:
+The current version is published. In the “History” tab, the published version is indicated by a blue `Published` button as shown below:
 
-![image](../img/Products_PublishedHistoryButton.png)
+![Published History Button](../img/Products_PublishedHistoryButton.png)
 
-If you click on `More` to open the complete History page, the Published version will have the Published label, as shown below:
+If you click on the arrow to open the complete History page, the Published version will have the Published label, as shown below:
 
-![image](../img/Products_PublishedHistoryDropdown.png)
+![Published History Button dropdown](../img/Products_PublishedHistoryDropdown.png)
 
 ## Publish several products at once
 To publish several products simultaneously:
@@ -108,7 +108,7 @@ To unpublish several products at the same time:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Published products` in the dropdown
 1.  Tick the products in the grid
-1.  Click on the Bulk Actions button at the bottom of the screen, and select the Unpublish action
+1.  Click on the Bulk Actions button at the bottom of the screen, and select the unpublish operation
 
 ![Bulk Actions on Publish products](../img/Products-PublishedProduct4.png)
 
