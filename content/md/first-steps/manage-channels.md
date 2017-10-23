@@ -11,6 +11,8 @@ related: what-is-a-channel
 
 To see your current channels, go to `Settings/Channels`.
 
+![List of channels](../img/Settings_Channels.png)
+
 # Create a channel
 
 :::info
@@ -20,6 +22,7 @@ You must be granted a specific permission to be able to create a channel.
 To create a channel:
 1.  Go to `Settings/Channels`
 1.  Click on the `Create channel` button
+![Create a channel](../img/Settings_Channels_Create.png)
 1.  The creation form of a channel is displayed
 1.  Provide information for all the mandatory fields in the property tab such as:
     - A unique **code** to identify the channel in the PIM
