@@ -25,7 +25,6 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 
 | Permission name | Effect on the interface |
 |---------------------------|--------------|
-| Add an attribute to a product                  | User can add attributes to a product using the `Add Attributes` button in the product form   |
 | Add product to groups                          | User can add products to group, in `Settings`/`Groups` he will see the `Products` tab               |
 | View the association types of a product        | User can see the `Associations` menu entry in the product form                                  |
 | Consult the categories of a product            | User can see the `Categories` menu entry in the product form                                    |
@@ -52,8 +51,8 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | Consult the categories of an asset | User can see the asset categories, under the `Categories` tab of the asset form                    |
 | Create an asset      | User can create a new asset, using the `Create an asset` button in `Assets` |
 | Enrich asset      | User can access the asset form             |
-| Mass-upload assets | User can mass upload assets in `Assets` by clicking on the `Upload assets` of the `...` dropdown |
-| Remove asset                       | User can delete an asset using the `Delete` button in the asset edition page and also access the bulk actions to mass delete assets |
+| Mass-upload assets | User can mass upload assets in `Assets` by clicking on `Upload assets` in the `...` dropdown |
+| Remove asset                       | User can delete an asset by clicking on `Delete` in the `...` dropdown, in the asset edition page. He can also use the bulk action to mass delete assets |
 
 ## Permissions on asset categories _(EE only)_
 
@@ -64,10 +63,9 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | View asset category history       | User can access the `History` tab of asset categories        |
 | List asset categories        | User can see and access all asset categories and asset category trees listed under `Settings`/`Asset categories`     |
 | Manage asset category permissions | User has access to the `Permissions` tab on the asset category form     |
-| Remove an asset category          | User can remove an asset category using the `Delete` button                                                  |
+| Remove an asset category          | User can remove an asset category by clinking on `Delete` in the `...` dropdown                   |
 
 # Rights on exports
-## Permissions on export profiles
 
 | Permission name | Effect on the interface |
 |---------------------------|--------------|
@@ -84,7 +82,7 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | Launch an export profile                  | User can run an export using the `Export now` button in an export profile page   |
 | Edit an export profile general properties | User can edit the general properties of an export profile. After selecting a specific export job, he will see the `Edit` button and a shortcut the export profile line |
 | Show an export profile general properties | User can view the general properties of an export profile. After selecting a specific export job, he will be able to access the `General properties` tab of the export |
-| Remove an export profile                  | User can remove an export profile using the `Delete` button in the `...` dropdown, when editing the export profile form     |
+| Remove an export profile                  | User can remove an export profile using the `Delete` button in the `...` dropdown, when editing the export profile form. He can also removes it by clicking the trash icon in the export profile grid.    |
 | Show an export profile     | User can view information of an export profile |
 | Manage export profile permissions _(EE only)_       | User can access and edit the permissions to run and edit the job profile. He will see the `Permissions` tab in the edit page of an export profile |
 
@@ -101,7 +99,7 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | View import profile history        | User can access the `History` tab of an import profile        |
 | View import profiles list          | User can access the menu `Imports` to see the list of import profiles    |
 | Launch an import profile   | User can launch an import using the `Import now` and `Upload and Import now` buttons in the import profile page   |
-| Remove an import profile           | User can remove an import profile using the `Delete` button in the import profile form      |
+| Remove an import profile           | User can remove an import profile using the `Delete` button in the import profile form. He can also removes it by clicking the trash icon in the import profile grid.      |
 | Show an import profile | User can view information of an import profile   |
 | Manage import profiles permissions _(EE only)_ | User can access and edit the permissions to run and edit the job profile. He will see the `Permissions` tab in the edit page of an import profile |
 
@@ -115,7 +113,7 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | Edit an association type      | User can edit the association types under `Settings`/`Association types`                   |
 | View association type history | User can access the `History` tab of the  association types. He must also have the permission to `Edit an association type`.                   |
 | List association types        | User can see and access the `Settings`/`Association types` menu entry |
-| Remove an association type    | User can delete an association type under `Settings`/`Association types` menu entry|
+| Remove an association type    | User can delete an association type under `Settings`/`Association types` menu entry via the association types grid or via the `...` dropdown when on an association type page |
 
 ## Permissions on attributes
 
@@ -213,9 +211,9 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 
 | Permission name | Effect on the interface |
 |---------------------------|--------------|
-| Delete rules                                  | User can delete rules in `Settings`/`Rules`, using the trash icon or the mass delete action       |
-| Execute rules | User can run rules in `Settings`/`Rules`, using the run icon, the top button `Execute Rules` or the mass action `Execute the selected rules` |
-| Calculate the affected products for the rules | User can run the bulk action `Calculate the affected products` to see how many products are impacted by a rule                        |
+| Delete rules                                  | User can delete rules in `Settings`/`Rules`, using the trash icon or the `Delete` mass action       |
+| Execute rules | User can run rules in `Settings`/`Rules`, using the run icon, the top button `Execute Rules` or the `Execute` mass action |
+| Calculate the affected products for the rules | User can run the `Calculate the affected products` mass action to see how many products are impacted by a rule                        |
 | View rules  | User can view the active rules in `Settings`/`Rules`         |
 
 
