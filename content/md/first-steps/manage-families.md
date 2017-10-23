@@ -11,6 +11,8 @@ related: what-is-a-family
 
 To see your families, edit them or create a new family go to `Settings/Families`.
 
+![List of families](../img/Settings_Families.png)
+
 # Create a family
 
 :::info
@@ -20,6 +22,7 @@ You must be granted a specific permission to be able to create a family.
 To create a family:
 1.  Go to `Settings/Families`
 1.  Click on `Create family`
+![Create a family](../img/Settings_Families_Create.png)
 1.  The creation of a family popin is prompted
 1.  Enter a new family code (this code must be unique)
 1.  Click on `Save`
@@ -54,7 +57,7 @@ You have several ways of adding an attribute, a group of attribute or several at
 
 From the family edit form, go under the `Attributes` tab:
 1.  Click on `Add Attributes` on the right side of the screen
-![image](../img/dummy.png)
+![image](../img/Settings_Families_Attributes.png)
 1.  Select the attributes to add by clicking on their labels
 1.  Click on `Add`
 
@@ -64,7 +67,7 @@ The attributes have been added to the current family.
 
 From the family edit form, go under the “Attributes” tab:
 1.  Click on `Add by groups` on the right side of the screen
-![image](../img/dummy.png)
+![image](../img/Settings_Families_Groups.png)
 1.  Select the attribute groups to add by clicking on their labels
 1.  Click on `Add`
 
@@ -80,7 +83,7 @@ To remove an attribute from a family:
 
 1.  Go under the `Attributes` tab
 1.  Click on the `Delete` icon to remove the relevant attribute
-![image](../img/dummy.png)
+![image](../img/Settings_Families_Delete.png)
 1.  `Save` your update
 
 The attribute will be back in the `Add attributes` list, if you need it later, you will be able to add it again.
@@ -107,7 +110,7 @@ On the attribute’s family page:
 1.  Circles are automatically converted into a “check”
 1.  Click on `Save`
 
-![image](../img/dummy.png)
+![image](../img/Settings_FamiliesAddAttributes.gif)
 
 :::warning
 The attributes added will be taken in account for the completeness computing. Completeness will be updated next time it is executed.
@@ -121,8 +124,6 @@ The attributes added will be taken in account for the completeness computing. Co
 1.  Checks are automatically converted into circles
 1.  Click on `Save`
 
-![image](../img/dummy.png)
-
 :::warning
 The attribute removed will be taken in account for the completeness computing. Completeness will be updated next time it is executed.
 :::
@@ -135,11 +136,11 @@ To add attributes to several families:
 1.  Go to `Settings/Families`
 1.  Tick the families for which the same attributes need to be added (via the down arrow of the bottom toolbar: `All` to select all the existing families, `All visible` to select all the families displayed on the ongoing page, `None` to unselect all the families)
 1.  Click on the `Bulk actions` in the bottom toolbar
-![image](../img/dummy.png)
+![image](../img/Settings_FamiliesBulkActions1.png)
 1.  The mass edit window is displayed
 1.  Select the operation `Set attributes requirements`
 1.  Click on `Next`
-![image](../img/dummy.png)
+![image](../img/Settings_FamiliesBulkActions2.png)
 1.  Add the relevant attributes by attributes or by attribute groups
 1.  Set the attributes required for the product completeness of the channels
 1.  Click on `Next`
@@ -171,11 +172,11 @@ Through the family form:
 1. Go to `Settings/Families` to list the families
 1. Click on the family to delete
 1. Click on `...` for other actions and then `Delete` on the top right corner
-  ![image](../img/dummy.png)
+  ![image](../img/Settings_FamilyDelete.png)
 1. Confirm the action via the validation message
 
 Through the Delete shortcut in the grid:
-  ![image](../img/dummy.png)
+  ![image](../img/Settings_Families_DeleteHover.png)
 1. Select the family you want to remove from the family datagrid
 1. Place your mouse over the line of family in the grid, the button delete is prompted (trash can icon)
 1. Click on the trash can icon
