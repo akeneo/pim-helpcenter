@@ -11,6 +11,8 @@ related: what-is-a-family
 
 To see your families, edit them or create a new family go to `Settings/Families`.
 
+![List of families](../img/Settings_Families.png)
+
 # Create a family
 
 :::info
@@ -20,6 +22,7 @@ You must be granted a specific permission to be able to create a family.
 To create a family:
 1.  Go to `Settings/Families`
 1.  Click on `Create family`
+![Create a family](../img/Settings_Families_Create.png)
 1.  The creation of a family popin is prompted
 1.  Enter a new family code (this code must be unique)
 1.  Click on `Save`
@@ -120,8 +123,6 @@ The attributes added will be taken in account for the completeness computing. Co
 1.  Click on the checks to remove them from being required for the channel’s completeness
 1.  Checks are automatically converted into circles
 1.  Click on `Save`
-
-![image](../img/Settings_Families_RemoveAttributesRequirements.png)
 
 :::warning
 The attribute removed will be taken in account for the completeness computing. Completeness will be updated next time it is executed.
