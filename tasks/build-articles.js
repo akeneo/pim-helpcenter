@@ -149,7 +149,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
 
     return gulp.src('content/md/**/*.md')
         .pipe(flatmap(function(stream, file){
-            var id, themes, title, titleWithBold, relatedArticlesId, relatedArticles;
+            var id, themes, title, eeOnly, titleWithBold, relatedArticlesId, relatedArticles;
             // This first stream go through all Markdown articles and retrieve the information
             // from their header such as their id, title, themes and related articles
             // It also removes the header from the Markdown file, convert it into HTML and finally,
@@ -160,6 +160,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                     id = file.fm['id'] == undefined ? '' : file.fm['id'];
                     themes = file.fm['themes'] == undefined ? '' : file.fm['themes'].split(',');
                     title = file.fm['title'] == undefined ? '' : file.fm['title'];
+                    eeOnly = file.fm['ee-only'] == undefined ? '' : file.fm['ee-only'];
                     titleWithBold = title.replace(/\*\*/, '<strong>').replace(/\*\*/, '</strong>');
                     title = title.replace(/\*\*/, '').replace(/\*\*/, '');
                     relatedArticlesId = file.fm['related'] == undefined ? '' : file.fm['related'].split(',');
@@ -206,6 +207,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                         .pipe(gulpHandlebars({
                             title: title,
                             titleWithBold: titleWithBold,
+                            eeOnly: eeOnly,
                             relatedArticles: relatedArticles,
                             mainContent: fs.readFileSync('tmp/' + path.basename(file.path).replace(/\.md/, '.html'))
                         }, {
