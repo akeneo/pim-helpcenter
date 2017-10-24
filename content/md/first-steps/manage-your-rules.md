@@ -17,7 +17,7 @@ For more details, please refer to [What is a rule](/articles/what-is-a-rule.html
 The screen `Settings/Rules` displays all rules created.  
 You can search on the rule's code.
 
-![image](../img/dummy.png)
+![image](../img/Settings_Rules.png)
 
 # Calculate the number of affected products for rules
 
@@ -30,7 +30,7 @@ The fist time a rule is executed, it can match many products. The next times, yo
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the calculation is done.
 
-![image](../img/dummy.png)
+![image](../img/Settings-RulesCalculation.png)
 
 The number of affected products will appear on the right side of your screen in the column `Affected products`.
 
@@ -51,8 +51,6 @@ But you can also execute rules on your own, you can execute:
 To execute a rule, click on the `Execute` button at the end of each line in the grid.  
 A confirmation message validates the action of executing a rule.
 
-![image](../img/dummy.png)
-
 ## Execute a selection of rules
 
 You can also execute several rules at the same time:
@@ -60,8 +58,6 @@ You can also execute several rules at the same time:
 1.  Click on `Execute`
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the execution is done
-
-![image](../img/dummy.png)
 
 # Create a rule
 
@@ -88,7 +84,7 @@ A deleted rule can no longer be executed by the rules engine. The products keep 
 To delete a rule, click on the `Delete` button at the end of each line in the grid.  
 A confirmation message validates the action of deleting a rule.
 
-![image](../img/dummy.png)
+![image](../img/Settings_DeleteHover.png)
 
 ::: info  
 If you do not see the `Delete` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
@@ -101,4 +97,4 @@ You can also delete several rules at the same time:
 1.  Click on `Delete`
 1.  Then confirm the action in the pop in
 
-![image](../img/dummy.png)
+![image](../img/Settings_RulesBulkActionDelete.png)
