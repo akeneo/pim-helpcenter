@@ -15,13 +15,13 @@ To publish a product:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Publish this version` in the dropdown
 
-The current version is published. In the “History” tab, the published version is indicated by a blue «P» label as shown below:
+The current version is published. In the “History” tab, the published version is indicated by a blue `Published` button as shown below:
 
-![image](../img/dummy.png)
+![Published History Button](../img/Products_PublishedHistoryButton.png)
 
-If you click on `More` to open the complete History page, the Published version will have the Published label, as shown below:
+If you click on the arrow to open the complete History page, the Published version will have the Published label, as shown below:
 
-![image](../img/dummy.png)
+![Published History Button dropdown](../img/Products_PublishedHistoryDropdown.png)
 
 ## Publish several products at once
 To publish several products simultaneously:
@@ -43,7 +43,7 @@ To check which products are published:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Publish` in the dropdown
 
-![image](../img/dummy.png)
+![Publish](../img/Products_PublishedGrid.png)
 
 But some features will not be available on this grid:
 
@@ -72,7 +72,7 @@ To view a published product form:
 1.  Click on the product
 1.  The Product Form is displayed
 
-![image](../img/dummy.png)
+![Published Products](../img/Products-PublishedProducts.png)
 
 The display is the same as the unpublished product form. For more information, you can refer to the section, “Viewing a product form”. Also, if you do not have the appropriate rights to see some attribute groups at least, these latter will not be displayed.
 
@@ -80,11 +80,10 @@ When you are in charge of the published product which is viewed, there are two b
 
 *   Edit the current product version (working copy): clicking on this button will redirect you to the Unpublished Product Form.
 
-![image](../img/dummy.png)
+![Edit working copy or Unpublish buttons](../img/Products-PublishedProduct2.png)
 
 *   Unpublish
 
-![image](../img/dummy.png)
 
 # Unpublish products
 
@@ -95,13 +94,10 @@ Unpublishing products only impacts the export of products. The export of attribu
 ## Unpublish a single product
 
 To unpublish one product:
-1.  Go to the published product grid by clicking on the "..." in the top right corner of the product grid screen
-1.  Click on the small cloud icon displayed on product rollover in the grid
-1.  Click on the `Unpublish` button if you’re on the published version (see screenshot below)
-![image](../img/dummy.png)
-1.  Click on small arrow nearby the Publish this version button and select Unpublish if you are on the unpublished product grid
+1.  Go to the published product grid by clicking on the `...` in the top right corner of the product grid screen
+1.  Click on the small cloud icon displayed on product rollover in the grid (see screenshot below)
 
-![image](../img/dummy.png)
+![Unpublished a product from the grid](../img/Products-PublishedProduct3.png)
 
 The product will be no longer published. The product will not be listed anymore in the published product grid.
 
@@ -112,9 +108,9 @@ To unpublish several products at the same time:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Published products` in the dropdown
 1.  Tick the products in the grid
-1.  Click on the Bulk Actions button at the bottom of the screen, and select the Unpublish action
+1.  Click on the Bulk Actions button at the bottom of the screen, and select the unpublish operation
 
-![image](../img/dummy.png)
+![Bulk Actions on Publish products](../img/Products-PublishedProduct4.png)
 
 1.  Select the `Unpublish` operation:
     *   If you are in charge of all selected products, follow the steps and all
