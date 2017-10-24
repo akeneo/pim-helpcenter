@@ -16,7 +16,7 @@
                 <div class="row">
                     {{#each relatedArticles}}
                     <div class="col-sm-6">
-                        <p>{{#if eeOnly}}<span class="label label-ee">EE</span>{{/if}}&nbsp; <a href="/articles/{{articlePath}}">{{{articleName}}} ></a></p>
+                        <p {{#if eeOnly}}class="label-ee"{{/if}}><a href="/articles/{{articlePath}}">{{{articleName}}} ></a></p>
                     </div>
                     {{/each}}
                 </div>

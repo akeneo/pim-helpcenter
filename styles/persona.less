@@ -18,7 +18,9 @@
         color: @text-color;
     }
     &:hover{
-        .scale(1.01, 1.01);
+        -webkit-transform: scale3d(1.01, 1.01);
+        -ms-transform: scale3d(1.01, 1.01);
+        transform: scale3d(1.01, 1.01);
         .box-shadow(0 5px 25px 0 @gray-light);
     }
     a:hover{
