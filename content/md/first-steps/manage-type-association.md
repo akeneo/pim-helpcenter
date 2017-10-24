@@ -14,7 +14,7 @@ For example, you can link a product to its accessories. The code for this associ
 
 The association types are mandatory to create a link between two products. There is no default association types.
 
-![image](../img/Settings_AssociationTypes_Create.png)
+![image](../img/Settings_AssociationsTypes.png)
 
 Once you have created an association type between products, it can be used while editing a product (in the tab `Associations`).
 
