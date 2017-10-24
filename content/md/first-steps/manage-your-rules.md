@@ -51,8 +51,6 @@ But you can also execute rules on your own, you can execute:
 To execute a rule, click on the `Execute` button at the end of each line in the grid.  
 A confirmation message validates the action of executing a rule.
 
-![image](../img/Settings_RulesExecute.png)
-
 ## Execute a selection of rules
 
 You can also execute several rules at the same time:
@@ -60,8 +58,6 @@ You can also execute several rules at the same time:
 1.  Click on `Execute`
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the execution is done
-
-![image](../img/Settings-RulesExecutionsNotifications.png)
 
 # Create a rule
 
