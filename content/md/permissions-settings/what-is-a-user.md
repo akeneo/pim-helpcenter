@@ -13,11 +13,11 @@ One user account can be used by one or several persons in a company.
 :::
 
 A user has at least:
- - a firtsname,
- - a lastname,
- - a username,
- - a password,
- - an email,
+ - a firtsname
+ - a lastname
+ - a username
+ - a password
+ - an email
  - a role.
 
 ::: ee
@@ -27,8 +27,8 @@ A user can belong to one or several [user groups](/articles/what-is-a-user-group
 # As a user you can...
 
 As a user you can:
- - choose the [language of your PIM interface](/articles/set-the-default-PIM-language.html) to better understand what's going on :wink: ,
- - choose your favorite [view](/articles/manage-your-views.html) and working category tree to be even more productive,
- - choose your favorite [locale](/articles/what-is-a-locale.html), [channel](/articles/what-is-a-channel.html) and other filters when you are working on the [product grid](/articles/products-grid.html).
+ - choose the language of your PIM interface to better understand what's going on :wink: 
+ - choose your favorite [view](/articles/manage-your-views.html) and working category tree to be even more productive
+ - choose your favorite [locale](/articles/what-is-a-locale.html), [channel](/articles/what-is-a-channel.html) and other filters when you are working on the [product grid](/articles/products-grid.html)
 
 ![image](../img/dummy.png)
