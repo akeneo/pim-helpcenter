@@ -3,97 +3,118 @@ id: manage-your-account
 themes: first-steps
 title: Manage your **account**
 popular: false
+related: manage-your-users, what-is-a-user-role, what-is-a-user-group, build-your-user-roles, build-your-user-groups, workflow
 ---
 
 # Access your account information
 
 To access your account information:
-1.  Click on your username on the top right corner
-2.  Select “My Account” to display your profile.
+1.  Click on your picture in the top right corner
+2.  In the dropdown, click on `My Account` to display your profile
 
 ![image](../img/dummy.png)
 
 # Edit your account information
 
-Click on **Edit** to change your *profile* information or settings. New tabs will appear once in Edit mode: «Groups and Roles» and «Password». Enterprise Edition clients will also see a «Notifications» tab to manage notifications for the proposals (feature only available on the EE version).
+Click on `Edit` to change your profile information or settings. New tabs will appear once in edit mode: `Groups and Roles` and `Password`.
+
+::: ee
+Enterprise Edition clients will also see a `Notifications` tab to manage notifications for the [proposals workflow](/articles/workflow.html) (feature only available on the EE version).
+:::
 
 ## Your general information
 
-Under the «General» tab, you will be able to edit your personal information: username, firstname, lastname, date of birth, add/remove your avatar and your email address.
+Under the `General` tab, you will be able to edit your personal information: username, firstname, lastname, date of birth, add/remove your picture and your email address.
 
 ![image](../img/dummy.png)
 
-## Your default catalog settings
+## Your favorite catalog and product grid settings
 
-Under the «Additional» tab, you will be able to define your default catalog settings. You will find the following information:
+Under the `Additional` tab, you will be able to define your default catalog settings. You will find the following information:
+- `Catalog locale`: your default locale
+- `Catalog scope`: your defaut channel
+- `Default tree`: your default category tree
+- `Default asset tree` (_EE only_): your default asset category tree
+- `Product grid filters`: your default product grid filters. This setting will be used on the product grid and on the published product grid (_EE only_)
+- `Default product grid view`: your default view used in the product grid.
+- `Default published product grid view` (_EE only_): your default view used in the published products grid
 
-*   Your default locale (Catalog locale)
-*   Your default scope (Catalog scope)
-*   Your default category tree (Default tree)
-*   Your default asset category tree (Default asset tree) only for Enterprise Edition clients
-*   Your default grid filters (Product grid filters), you can define here the filters you want to see on the Products’ grid. This setting will be used on the Products grid (and on the published products’s grid only for Enterprise Edition clients)
-*   Your default view for products’s grid (Default product grid view) is when you open the products grid.
-*   Your default view for published products’s grid (Default published product grid view) only for Enterprise  Edition clients
+::: tips
+You first need to create default views to be able to set one in your account. If you do not see these menus, please check you have already created at **least one view** on your product grid.
+:::
 
-You first need to create default views to be able to set one in your account. If you do not see these menus, please check you have already created at least one view on your products’ grid.
+::: info
+If no default filters are defined, system attributes (family, groups, status, completeness, creation date, updated date, product identifier, permissions) will be used as default filters on the product grid.
+:::
 
-If no default filters are defined,  system attributes (family, groups, status, completeness, creation date, updated date, product identifier, permissions) will be used as default filters on the products’ grids.
+## Your groups and roles
 
-## Your group and role information
-
-Click on the «Groups and Roles» tab:
-On the top of the page, you will see the «Group(s)» you belong to, and then your «Role(s)».
+To edit your [user groups](/articles/what-is-a-user-group.html) and [roles](/articles/what-is-a-user-roles.html):
+1. Click on the `Groups and Roles` tab
+1. On the top of the page, you will see the user group(s) you belong to, and then your user role(s). Check/uncheck to change your groups/roles.
+2. Click on `Save` to save your changes
 
 ![image](../img/dummy.png)
 
-Enterprise Edition clients will see additional information: a tickbox to activate «Email notifications» and an «Asset delay reminder» field. This field is used to set an automatic reminder n days before an asset end-of-use date.
+::: ee
+In the Enterprise Edition, you will see two additional fields:
+- a tickbox to activate `Email notifications`. If activated, you will receive automatic emails when exports or imports are finished.
+- an `Asset delay reminder` field. If activated, you will receive a notification to remind you N days before the end-of-use date of an asset
+:::
 
-## Change your password
+## Your password
 
-Still on Edition mode in your profile account:
-
-1.  Click on the «Password» tab
+Still in edition mode in your profile account:
+1.  Click on the `Password` tab
 2.  Change your password
-3.  Click on «Save» to save changes.
+3.  Click on `Save` to save your changes
 
 ![image](../img/dummy.png)
 
 ## Your interface default language
 
-Each user can set his User Interface (UI) locale in his user account:
+You can choose in which language you want your PIM interface to be.
 
-1.  On edition mode, click on «Interfaces»
-2.  Select the default language for your account
-3.  Click on «Save».
+Still in edition mode in your profile account:
+1.  Click on the `Interfaces` tab
+2.  Select the default language for your account (`UI locale` field)
+3.  Click on `Save` to save your changes
 
 ![image](../img/dummy.png)
 
-This UI locale is used all over the PIM interface: menus, screens labels, messages… The default language is a locale: it will take into account the dates, numbers and currencies formats to input and to display. You will find on the next page some examples of formats displayed.
+This UI locale is used all over the PIM interface: menus, screens labels, messages… Dates, numbers and currencies will be formatted according to the locale you chose. Below are some examples of formats.
 
-| User UI locale set | Date format | Number format | Currency format |
+| User UI locale | Date format | Number format | Currency format     |
 |:--------------|:----------------|:------------------|:-------------|
-| fr_FR  | 08/03/2016      | 12,5              | 90,50 $US           |
-| de_DE  | 08.03.16        | 12,5              | 90,50 $             |
-| en_US  | 03/08/2016      | 12.5              | $90.50              |
+| French (France)  | 08/03/2019      | 12,5       | 90,50 $US        |
+| German (Germany)  | 08.03.19        | 12,5        | 90,50 $        |
+| English (United States) | 03/08/2019 | 12.5    | $90.50            |
 
-If your desired locale is not available, please contact your administrator.
+## Your notifications preferences _(EE only)_
 
-## Change your notifications preferences (Enterprise Edition only)
+Still in edition mode in your profile account:
+1. Click on the `Notifications` tab
+2. Toggle the yes/no button to the right or left of the notification to edit
+3.  Click on `Save` to save your changes
 
-To edit notifications
-1. Select the notification to edit,
-2. Toggle the yes/no button to the right or left.
+If you wonder how to use these preferences, take a look below.
 
-### Notification: «When new proposal to review»
+### The `When new proposal to review` notification
 
-If you own some products (meaning you have the «own products» permission for at least one category). If you activate it, you will be notified by email everytime you will have to review a proposal.
-
-![image](../img/dummy.png)
-
-### Notification: «When proposal is approved or rejected»
-
-If you have only edit rights on some products (meaning you have the «edit products» permission for at least one category). If you activate it, you will receive notifications if your proposal has been approved or rejected.
+If you activate this preference, you will receive notifications everytime you will have a [proposal](/articles/workflow.html) to review.
 
 ![image](../img/dummy.png)
 
-You will see both notification parameters if you have edit rights on some categories and own rights on others.
+::: info
+You will only see this option in the case you own at least one product, meaning you have the `Own products` permission for at least one category. To learn more about this permission, it's [here](/articles/build-your-user-groups.html)!
+::: 
+
+### The `When proposal is approved or rejected` notification
+
+If you activate this preference, you will receive notifications when your [proposals](/articles/workflow.html) are approved or rejected by your reviewers.
+
+![image](../img/dummy.png)
+
+::: info
+You will only see this option in the case you have only edit rights on at least one product, meaning you only have the `Edit products` permission for at least one category. To learn more about this permission, it's [here](/articles/build-your-user-groups.html)!
+::: 
