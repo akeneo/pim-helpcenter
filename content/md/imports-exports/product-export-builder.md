@@ -19,7 +19,7 @@ To create a product export:
 1. Go to `Exports`
 1. Click on the `Create export profile` button
 1. Indicate a unique export code, an export label and select the job: csv_product_export or xlsx_product_export (all fields are required)
-![image](../img/dummy.png)
+![Create a new product export profile](../img/Exports_CreateProfilExport.png)
 1. Save your new export profile
 
 The PIM opens the export profile in edition mode so you can customise it and select the information you want to export. You can start customising your own export profile to only export the data you need.
@@ -36,7 +36,7 @@ From a newly created product export profile, click on the `Content` tab.
 
 Then, you will land on a page divided in two sections:
 
-![image](../img/dummy.png)
+![Edit a product export profile](../img/Exports_EditContent.png)
 
 `Structure Filters`: this part allows you to define the structure of the exported file, namely its columns: you will have to specify a channel and one or more locales to export (required fields). The last field `Attributes` will allow you to select the attributes to be used as file columns.
 
@@ -47,6 +47,8 @@ Then, you will land on a page divided in two sections:
 ### Select a channel
 
 Each export can only be linked to one channel, please select the relevant channel of products to export.
+
+![Choose a channel](../img/Exports_EditManageChannels.png)
 
 ### Select one or more locales
 
@@ -62,23 +64,23 @@ Click on the small cross nearby the locale code.
 
 Start typing your locale code in the field, the PIM will automatically propose you the matching locales. Click on the locale to add it to the field.
 
+![Add locales](../img/Exports_EditManageLocale.png)
+
 ### Select attributes as file columns
 
 Click on the `Edit` button in the field to open the Attributes Selection popin:
 
-![image](../img/dummy.png)
+![Select attributes as file columns](../img/Exports_AttributesEditContent.png)
 
 The popin is divided in three parts: the left part shows the attribute groups, the middle part displays the attributes belonging to the selected group, and on the right side, you will find your attribute selection. By default, note that all attributes are exported.
 
 To make your own attribute selection, click on left side to select a specific attribute group (or `All groups` to display all attributes). Place your mouse on your attribute and drag and drop it into the right-most column. The selected attributes will be displayed as columns in your export file.
 
-![image](../img/dummy.png)
+![Drag and drop attributes](../img/Exports_DragandDropAttributes.gif)
 
 You can reorder your attributes by dragging them up and down. To clear your selection, click on the `Clear` button. To save your attribute selection, click on `Apply`.
 
 The `Attributes` field will display the number of attributes selected for the export.
-
-![image](../img/dummy.png)
 
 ::: info
 By default, the `Identifier` field is exported in the product export.
@@ -91,6 +93,8 @@ By default, this filter is empty meaning that all products will be exported rega
 
 ### Add a family
 If you want to export products belonging to specific families, click on the drop down list and click on the families to add in the field.
+
+![Add a family](../img/Exports_EditFamilyManagement.png)
 
 ### Remove a family
 Click on the cross nearby the family label to remove it from the field. Products belonging to this family will not be exported anymore.
@@ -146,7 +150,7 @@ For example, you want to export the clothing products (categories `Clothing` in 
 
 By default all categories are exported. To select a category, click on the `Edit` button. The categories of the channel tree are displayed:
 
-![image](../img/dummy.png)
+![Filter on categories](../img/Exports_CategoriesEditContent.png)
 
 You can expand a category and see its subcategory by clicking on the arrow. This arrow also enables to collapse a category.
 
@@ -162,6 +166,8 @@ You cannot export unclassified products thanks to the export builder. If you wan
 
 You can make a selection of identifiers to export by adding them in the `Identifier` field. You can copy and paste a list of identifiers. They must separated by comma, space or line breaks.
 
+![Filter on product identifiers](../img/Exports-EditContentIdentifiers.png)
+
 ::: info
 You can easily copy an identifier list from a csv or xlsx file and paste it in the identifier text area.
 :::
@@ -170,7 +176,7 @@ You can easily copy an identifier list from a csv or xlsx file and paste it in t
 
 An additional filter `Add attributes` is available on the right side of the page. This drop down menu allows you to add attributes as filters for the export.
 
-![image](../img/dummy.png)
+![Add attributes](../img/Exports_AddAttributes.png)
 
 Select the attributes you’d like to use as filters. Once selected, they will be displayed in the Data filters area, above the identifier field.
 
@@ -178,11 +184,11 @@ For instance, you are working with a German translator, he needs to only work on
 
 Only export the products having no description for German locale and e-commerce channel.
 
-![image](../img/dummy.png)
+![Filter on attributes](../img/Exports_GermanExample.png)
 
 Each attribute comes with a list of operators, for instance for text area fields, you will have the following operators available:
 
-![image](../img/dummy.png)
+![List of operators](../img/Exports_Operators.png)
 
 ::: tips
 1. To create a filter on an attribute, you do not need to have it as a column in your export file.
