@@ -63,4 +63,4 @@ Even if a user is deleted, its actions generated in the PIM won't be erased.
 
 # Deal with the user permissions
 
-To know more about user permissions, there is two articles just for you depending on what your need are: [Manage interface and API accesses](/articles/build-your-user-roles.html) and [Build your user groups](/articles/build-your-user-groups.html).
+To know more about user permissions, there are two articles just for you depending on what your need are: [Manage interface and API accesses](/articles/build-your-user-roles.html) and [Build your user groups](/articles/build-your-user-groups.html).
