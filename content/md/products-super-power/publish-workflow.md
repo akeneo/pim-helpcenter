@@ -15,9 +15,9 @@ This is handle by what we call the **Publication** feature.
 
 # A publication example
 
-This is really simple. Imagine one of your product is complete for all locales activated for the *Web* channel. This complete version is the 5th. The product is enabled and classified in the Web channel category tree.
+This is really simple. Imagine one of your product is complete for all locales activated for the *E-commerce* channel. The product is enabled and classified in the *E-commerce* channel category tree.
 
-You are stasified by your product information for this product, so you hit the `Publish` button.
+You are satisfied by your product information for this product, so you hit the `Publish` button.
 
 ![image](../img/dummy.png)
 
@@ -25,10 +25,12 @@ You are stasified by your product information for this product, so you hit the `
 In fact, this *takes a picture* of your product information at that time. This *picture* is called the *published* version of your product.
 
 **What happens next?**   
-You can still edit all your product information, for instance, change its name, its description, its price... But it won't impact the published version of your product you created earlier.  
+You can still edit all your product information, for instance, change its description or composition for the next season...  
+But it won't impact the published version of your product you created earlier and it won't be exported to your *E-commerce* channel.
+
 This way, you end up with two versions of your dear product at the same time:
-- one is *frozen*: this is your published version,
-- one can still be *modified*: this is your current version of your product.
+- one is *frozen*: this is your published version, exported to your sales channel
+- one can still be *modified*: this is your current version of your product
 
 As you can see, this feature can be really useful, especially as it allows you to start working on a new version of the product without changing the version that is used as exported data in your channels.
 
@@ -36,7 +38,9 @@ As you can see, this feature can be really useful, especially as it allows you t
 
 Only your **attribute values** and **associations** are frozen in your published product. If you change them later, in the working copy of your product, the changes won't be applied on your published product.
 
+::: warning
 This is not the case if you change other product information such as category classification, product activation (enabled/disabled), group membership and family. The information will also be updated in your published product.
+:::
 
 # Published products & associations
 
