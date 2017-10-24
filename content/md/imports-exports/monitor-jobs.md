@@ -4,37 +4,48 @@ themes: import-export-data, administration
 title: Follow your **jobs** execution
 popular: false
 ee-only: false
-related: imports, exports, product-export-builder
+related: imports, exports, product-export-builder, discover-the-dashboard, what-is-a-rule, what-is-a-project, product-mass-actions
 ---
 
-# Jobs execution details
+# What is a job?
 
-You have several ways to follow the status of a job (import, export, mass edit, rules...):
-- You’re notified by a flash message when the job starts
-- A notification appears on screen when the job is completed.
-- A widget gives you the status on Akeneo dashboard
-- On the Process Tracker page (System/Process Tracker), you can access the status and job report.
-- From the execution details page for imports and exports
-- With the email notification once the job is complete
+You have several ways to follow the status of a job. A job can be:
+- an [import](/articles/imports.html), 
+- an [export](/articles/exports.html),
+- a [mass edit](/articles/product-mass-actions.html),
+- a [rules](/articles/what-is-a-rule.html) execution _(EE only)_
+- a calculation of [project](/articles/what-is-a-project.html).
 
-# Imports & exports reports
+# How to monitor?
+First, you are notified by a flash message when the job starts.
+![image](../img/dummy.png)
 
-To review an import report:
-1.  Go to Collect/Import history.
-2.  On the history page, you can clearly see the status of your import: completed, started or failed thanks to the colors.
-1.  Click on the notification of the complete import or select your import executed displayed in the grid.
-1.  The page of the import job appears:.
+Then, when the job is completed, a notification appears on the top of your screen.
+![image](../img/dummy.png)
+
+There is a Process Tracker page which will give you the full list of all jobs you launched. To access it, go to `Activity` and click on the `Process tracker`menu entry.
+![image](../img/dummy.png)
+
+The `Last operations` widget on Akeneo dashboard will also give you the status of your launched jobs.
+![image](../img/dummy.png)
+
+## Imports & exports reports
+
+You can also have more details when you executed an import or an export. To review their report:
+1.  Go to `Imports`
+2.  Select in the list the profile job for which you want to view the report
+2.  You can clearly see the status of your import: `Completed`, `Started` or `Failed` thanks to a color code
+1.  Click on your import/export
+1.  The page of the import/export job detail should appear
 
 ![image](../img/dummy.png)
 
-The details of the executing import job are shown on the page. The details are related to each executed import/export profile. For more detailed information, please refer to the documentation of the used Akeneo connector for the execution.
+The details of the executing import/export job are shown on the page. The details are related to each executed import/export profile.
 
-# Bulk actions execution reports
+## Mass actions execution reports
 
-To review a report of a bulk action:
-1.  Two ways to display a report:
-    - Go to System/Process Tracker
-    - Click on the notification of the completed action
-1.  The page of the report is then displayed:The details of the executing bulk action are shown on the page.
+You can also have more details when you executed a mass action. To review their report:
+1.  Go to `Activity`/`Process Tracker` or click on the notification of the completed mass action
+1.  The page of the report is then displayed: the details of the executing bulk action are shown on the page
 
 ![image](../img/dummy.png)
