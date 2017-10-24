@@ -23,7 +23,8 @@ gulp.task('copy-assets', ['clean-dist'], function(){
               'node_modules/lato-font/fonts/lato-bold/*',
               'node_modules/lato-font/fonts/lato-bold-italic/*'])
         .pipe(gulp.dest('dist/fonts/'));
-    var img = gulp.src('content/img/*')
+    var img = gulp.src('content/img/**/*')
+        .pipe(rename({dirname: ''}))
         .pipe(gulp.dest('dist/img/'));
     var articleImg = gulp.src('content/md/*/img/*')
         .pipe(rename({dirname: ''}))
