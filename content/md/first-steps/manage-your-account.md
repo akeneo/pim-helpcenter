@@ -12,7 +12,7 @@ To access your account information:
 1.  Click on your picture in the top right corner
 2.  In the dropdown, click on `My Account` to display your profile
 
-![image](../img/dummy.png)
+![image](../img/Dashboard_DropdownMenuUser.png)
 
 # Edit your account information
 
@@ -26,7 +26,7 @@ Enterprise Edition clients will also see a `Notifications` tab to manage notific
 
 Under the `General` tab, you will be able to edit your personal information: username, firstname, lastname, date of birth, add/remove your picture and your email address.
 
-![image](../img/dummy.png)
+![image](../img/System_users_Profil_edit.png)
 
 ## Your favorite catalog and product grid settings
 
@@ -54,7 +54,7 @@ To edit your [user groups](/articles/what-is-a-user-group.html) and [roles](/art
 1. On the top of the page, you will see the user group(s) you belong to, and then your user role(s). Check/uncheck to change your groups/roles.
 2. Click on `Save` to save your changes
 
-![image](../img/dummy.png)
+![image](../img/System_users_Profil_edit_grpandroles.png)
 
 ::: ee
 In the Enterprise Edition, you will see two additional fields:
@@ -69,7 +69,7 @@ Still in edition mode in your profile account:
 2.  Change your password
 3.  Click on `Save` to save your changes
 
-![image](../img/dummy.png)
+![image](../img/System_users_Profil_edit_password.png)
 
 ## Your interface default language
 
@@ -80,7 +80,7 @@ Still in edition mode in your profile account:
 2.  Select the default language for your account (`UI locale` field)
 3.  Click on `Save` to save your changes
 
-![image](../img/dummy.png)
+![image](../img/System_users_Profil_edit_interfaces.png)
 
 This UI locale is used all over the PIM interface: menus, screens labels, messages… Dates, numbers and currencies will be formatted according to the locale you chose. Below are some examples of formats.
 
@@ -103,18 +103,18 @@ If you wonder how to use these preferences, take a look below.
 
 If you activate this preference, you will receive notifications everytime you will have a [proposal](/articles/workflow.html) to review.
 
-![image](../img/dummy.png)
+![image](../img/System_users_Profil_edit_notifs.png)
 
 ::: info
 You will only see this option in the case you own at least one product, meaning you have the `Own products` permission for at least one category. To learn more about this permission, it's [here](/articles/build-your-user-groups.html)!
-::: 
+:::
 
 ### The `When proposal is approved or rejected` notification
 
 If you activate this preference, you will receive notifications when your [proposals](/articles/workflow.html) are approved or rejected by your reviewers.
 
-![image](../img/dummy.png)
+![image](../img/System_users_Profil_edit_notifs2.png)
 
 ::: info
 You will only see this option in the case you have only edit rights on at least one product, meaning you only have the `Edit products` permission for at least one category. To learn more about this permission, it's [here](/articles/build-your-user-groups.html)!
-::: 
+:::
