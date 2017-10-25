@@ -53,6 +53,8 @@ In order to perform a bulk operation on products, you need the rights to each po
 
 Confirm the action with the `Confirm` button located in the middle of the screen.
 
+![Confirm button](../img/Products_ConfirmBulkActions.png)
+
 The action is processed to the back-end, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified.
 
 ![Notification center](../img/Products_MassEditNotifications.png)
