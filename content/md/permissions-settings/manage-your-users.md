@@ -51,7 +51,7 @@ An email is not automatically sent to the new user. It depends on the initial co
 
 1. Go to `System` and click on the `Users` menu entry
 2. Click on the user to proceed
-1. Click on the right on the `Delete` button
+1. Click on the `...` button in the top right corner, then select `Delete` in the dropdown
   ![image](../img/System_DeleteUsers.gif)
 1. Then confirm you want to delete the user
 
