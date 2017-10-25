@@ -7,7 +7,7 @@ related: manage-your-users, what-is-a-role, build-your-user-groups, build-your-u
 
 # Definition
 
-![What is a user ?](../img/What-is-a-user.svg)
+![What is a user?](../img/What-is-a-user.svg)
 
 Nothing exotic here. A user is simply an account access to log into the PIM.
 
