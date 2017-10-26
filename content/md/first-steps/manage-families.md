@@ -175,8 +175,9 @@ An attribute of the family could be a **variant axis** only if its attribute typ
 - Simple reference data
 - Metric
 - Yes/no   
-Moreover, the attribute cannot be scopable, localizable and locale specific.  
- 
+Moreover, the attribute cannot be scopable, localizable and locale specific.
+:::  
+
 ::: info
 The maximum number of variant axes for each variant level is less than **5**.
 :::
