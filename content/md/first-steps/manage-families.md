@@ -37,7 +37,7 @@ Once a family is created, you can later edit those family information:
 *   To select the attribute to be used as «the main picture» for the products in the product grid (column "image") and in their product form header
 
 
-# Edit families
+# Edit family
 
 ## Edit family labels
 
@@ -127,6 +127,65 @@ The attributes added will be taken in account for the completeness computing. Co
 :::warning
 The attribute removed will be taken in account for the completeness computing. Completeness will be updated next time it is executed.
 :::
+
+# Manage family's variants
+
+A [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) allow you to define all the structure for your products with variants and create [product model](/articles/what-about-products-variants.html#what-is-a-product-model).
+
+The family's variants are managed in a dedicated tab `Variants` in `Settings/Families`.
+
+## List family's variants
+1.  Go to `Settings/Families`
+1.  Select the family to edit in the grid and click on its line
+1.  Open the tab `Variants` for the family
+
+![image](../img/dummy.png)
+
+## Display a family variant
+1.  In `Settings/Families`, choose a family and open the tab `Variants`
+1.  Click on a family variant to display it  
+1.  The family variant details are displayed
+
+![image](../img/dummy.png)
+
+You can see how the attributes are distributed between the different levels:
+- The **common attributes** in the 1st column for all the products in a product model
+- The **variant attributes for the level 1** in the 2nd column are the attributes which vary according to the variant axes of the level 1
+- If the family variant has 2 variant levels, **the variant attributes for the level 2** in the 3rd column are the attributes which vary according to the variant axes of the level 1 and level 2
+
+In our example for clothing which vary on 2 levels by color and then by size, the common attributes are the name, the collection, the description, the brand, etc. The attributes varying by color (variant level 1) are the composition and the pictures and the attributes varying by color and size (variant level 2) are the EAN, the SKU and the weight.
+
+## Create a family variant
+1.  In `Settings/Families`, choose a family and open the tab `Variants`
+1.  Click on `Create variant` to create a new variant for the family
+1.  The creation of a family variant is prompted. The following properties are required to create a family variant:
+    - A **code** to identify the family variant
+    - A **label**
+    - A number of **variant levels**: 1 or 2
+    - The **variant axes** for each level: the variant axes are attributes of the family which identify the variant product in the product model. Their values must differ from a variant product to another in the product model (unicity). For examples, the `size` for a clothing model (there is only one product with the size S and one product with the size M for a t-shirt model), the `color` for a chair model, the `dimensions` for a mattress model.
+1.  Click on `Create`
+
+![image](../img/dummy.png)
+
+The family variant is created.
+
+::: info
+An attribute of the family could be a **variant axis** if its attribute type is **structured**:
+- Simple select
+- Simple reference data
+- Metric
+- Yes/no   
+
+Moreover, the attribute cannot be scopable, localizable and locale specific.   
+The maximum number of variant axes for each level is less than **5**.
+:::
+
+## Edit a family variant
+
+::: info
+This feature will be available soon. For the moment, you can only update the family variant by a dedicated import `Family variant import` available in CSV and XLSX.
+:::
+
 
 # Mass edit families
 
