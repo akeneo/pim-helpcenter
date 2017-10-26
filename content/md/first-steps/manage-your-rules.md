@@ -61,7 +61,7 @@ You can also execute several rules at the same time:
 
 # Create a rule
 
-Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/1.7/cookbook/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.
+Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/2.0/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.
 
 ::: info
 For more details about how to execute an import, please refer to [Import your data](/articles/imports.html).
