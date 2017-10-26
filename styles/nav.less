@@ -100,12 +100,22 @@ ul.nav.nav-stacked{
             color: @gray;
             line-height: @line-height-base * 0.7;
         }
+
+        &.active:before {
+          content: "\25B8";
+          position: absolute;
+          color: #9452BA;
+          left: -2px;
+          top: 3px;
+          z-index: 100;
+        }
         &.active > a{
-            background-color: @gray-lighter;
-            border-radius: @border-radius-base;
+            color: @brand-akeneo;
         }
         > ul li{
             display: none;
+            position: relative;
+
             > a {
                 font-size: @font-size-small;
                 color: @text-color;
@@ -116,8 +126,14 @@ ul.nav.nav-stacked{
             &:last-child > a{
                 border: none;
             }
+
+            &.active:before {
+              left: 12px;
+              top: 1px;
+            }
+
             &.active > a{
-                background-color: @gray-lighter;
+                color: @brand-akeneo;
             }
         }
         > ul > li > ul > li{
@@ -125,7 +141,7 @@ ul.nav.nav-stacked{
             > a {
                 font-size: @font-size-small * 0.9;
             }
-        }   
+        }
         &.active > ul > li {
             display: block;
         }
