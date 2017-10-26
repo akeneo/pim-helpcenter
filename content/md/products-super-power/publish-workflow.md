@@ -4,36 +4,50 @@ themes: products-super-power
 title: The **publication**, the "2 versions/1 product" feature
 popular: false
 ee-only: true
+related: how-to-manage-my-publications, products-associations
 ---
 
 # Overview
 
-In the PIM, you can manage two different versions of a very same product, one published version used for export and another version to prepare for instance the next collection or season of products.
+In the PIM, you can manage **two different versions** of a very same product, one published version you can use for export to your channels and another version to prepare for instance the next collection or season of products.
 
-This is the job of the publication feature.
+This is handle by what we call the **Publication** feature.
 
-Publishing products defines which version of a product will be used for export.
+# A publication example
 
-::: info
-The export of attributes, categories, etc... does not take into account the notion of «publication».
+This is really simple. Imagine one of your product is complete for all locales activated for the *E-commerce* channel. The product is enabled and classified in the *E-commerce* channel category tree.
+
+You are satisfied by your product information for this product, so you hit the `Publish` button.
+
+![image](../img/dummy.png)
+
+**What's happening?**    
+In fact, this *takes a picture* of your product information at that time. This *picture* is called the *published* version of your product.
+
+**What happens next?**   
+You can still edit all your product information, for instance, change its description or composition for the next season...  
+But it won't impact the published version of your product you created earlier and it won't be exported to your *E-commerce* channel.
+
+This way, you end up with two versions of your dear product at the same time:
+- one is *frozen*: this is your published version, exported to your sales channel
+- one can still be *modified*: this is your current version of your product
+
+As you can see, this feature can be really useful, especially as it allows you to start working on a new version of the product without changing the version that is used as exported data in your channels.
+
+# Which information is published?
+
+Only your **attribute values** and **associations** are frozen in your published product. If you change them later, in the working copy of your product, the changes won't be applied on your published product.
+
+::: warning
+This is not the case if you change other product information such as category classification, product activation (enabled/disabled), group membership and family. The information will also be updated in your published product.
 :::
 
-# The publication process with an example
+# Published products & associations
 
-For example, a product is complete for all locales activated for the «Web» channel, this complete version is the 5th. The product is enabled and classified in the Web channel category tree.
+Products you [associate](/articles/products-associations.html) to a published product should also be published, if you want to see the associations between those products in your published product.  
+In other words, an association of a published product A with a non-published product B, will not be visible in your published product A.
 
-When you will «publish this version» of this product, all its information will be saved and the PIM will created a «published» version, this published version will be used for the export.
-
-Once you have published a product, you can still edit all its information, for instance, change its name, its description, its price... Publishing a product allows you to start working on a new version of the product without changing the exported data.
-
-New information will not be taken into account in the export until you click again on «Publish this version».
-
-# Use case for associations between published products
-
-Only associations between published products are exported. An association of a published product with a non-published product, will not be visible in the export.
-
-To associate 2 published products, for instance, Product A to Product B: Product B must be published before you create the association between those 2 products.
-
-# Use case for other product information
-
-If you change other product information else than attributes or associations, such as category classification, product activation (enabled / disabled), group membership and family change, the information will be updated in the export, they are not kept for the published product.
+To associate 2 published products, for instance, *Product A* to *Product B*:
+1. Publish your *Product B*
+2. Create the association in the *Product A*, with your *Product B*
+3. Publish the *Product A*
