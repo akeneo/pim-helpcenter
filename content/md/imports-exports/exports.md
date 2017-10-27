@@ -39,11 +39,11 @@ An export profile allows to perform exports from the PIM. This profile format is
 To view the available export profiles:
 1.  Log in with a user account with permissions to `View the list of profiles` for exports
 1.  Go to the `Exports` menu
-![image](../img/dummy.png)
+![image](../img/Exports_Mainpage.png)
 1.  To narrow down the list of displayed export profiles, use the available filters above the grid or the search bar that will search on the label
 
 To see the information of an export profile, click on the row in the grid
-![image](../img/dummy.png)
+![image](../img/Exports_Mainpage2.png)
 
 # Create a new export profile
 
@@ -51,12 +51,12 @@ To create a new export profile:
 1.  Log in with a user account with `Create an export profile` permissions
 1.  Go to the `Exports` menu
 1.  Click on `Create export profile`
-![image](../img/dummy.png)
+![image](../img/Exports_MainpageCreateExportProfile.png)
 1.  All fields in the pop-up window must be filled in:
     - A unique code
     - A name to identify the profile more easily
     - A job according to what you wish to export
-![image](../img/dummy.png)
+![image](../img/Exports_CreateExportProfile1.png)
 1.  Click on `Save` to finalise the export profile creation. The profile page screen is displayed. You can then configure it.
 
 # Update an export profile
@@ -69,7 +69,7 @@ To update an export profile:
 1.  Make your changes
 1.  Click on `Save` to update the profile
 
-![image](../img/dummy.png)
+![image](../img/Exports_Edit.png)
 
 In the tab `General properties`, you can edit the label of your profile.  
 In the `Global settings` tab, properties depend on the export job. For example, for the CSV product export, you will find the following properties:
@@ -101,7 +101,7 @@ If a user has no rights granted to modify an export profile due to his role, the
 
 When the export ends, a notification is available on the top right corner of the PIM.
 
-![image](../img/dummy.png)
+![image](../img/Exports_ExportProcess.gif)
 
 An email can also be sent depending on your user configuration. For further details on this, please refer to the [Manage your account](/articles/manage-your-account.html) article.
 
