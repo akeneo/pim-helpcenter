@@ -21,7 +21,7 @@ For instance, your German team can have the PIM interface in German, whereas the
 1.  Log in with an admin user account
 1.  Go to `System` and click on the `Configuration` menu entry
 1.  In the `Localization` tab, select the default language from the `Language` dropdown
-  ![image](../img/dummy.png)
+  ![image](../img/System_Configuration.png)
 1.  Click on `Save` to apply your settings
 
 # Give us a hand with translations
