@@ -12,13 +12,13 @@ You can set a default language for the interface, that will be used for all new 
 
 Most user interfaces in the PIM are translated in other languages than English.
 
-Note that each user can configure the interface in its own language. For more information, do not hesitate to take a look at this [article](/articles/manage-your-account.html).
+Note that each user can configure the interface in its own language. For more information, do not hesitate to take a look at this [article](/articles/manage-your-account.html#your-interface-default-language).
 
 For instance, your German team can have the PIM interface in German, whereas the US team will have the PIM in American English - this can be set in their user account.
 
 # Choose the default language
 
-1.  Log in with a user account
+1.  Log in with an admin user account
 1.  Go to `System` and click on the `Configuration` menu entry
 1.  In the `Localization` tab, select the default language from the `Language` dropdown
   ![image](../img/dummy.png)
