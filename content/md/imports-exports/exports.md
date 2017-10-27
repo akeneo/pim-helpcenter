@@ -4,33 +4,43 @@ themes: import-export-data
 title: "**Export** your data"
 popular: false
 ee-only: false
-related: monitor-jobs, product-export-builder, imports
+related: monitor-jobs, product-export-builder, access-rights-on-imports-exports, imports
 ---
 
 # Overview
 
-This feature allows you to provide your product information to third-parties like e-commerce platforms, mobile applications, suppliers... or for other needs.
+This feature allows you to provide your product information to third-parties like e-commerce platforms, mobile applications, suppliers... or more simply, if you want to extract information from the PIM for your own usage.
 
 You have several ways to export your product information:
 - You can manually download the export file: you execute the job from the PIM user interface and you download the generated file.
 - You automatically send the export file to the third-party, by setting a path in the export profile configuration enabling the PIM to automatically drop the file when executing the command.
 
-When exporting the products, Akeneo PIM extracts data from the PIM and converts it to push in a certain format to a file or directly to a third party application (eg Magento ).
+When exporting data, Akeneo PIM extracts data from the PIM and converts it into a certain format to a file or directly to a third party application (eg Magento).
 
-# What is a export profile?
+::: info
+The exports can be done in two formats: CSV and XSLX.
+:::
 
-An export profile allows to perform exports in or from the PIM. This profile format is based on:
-- A code to identify the export or export profile.
-- A job with a connector to define what will make the export when executing. For instance, a product export in CSV or XLSX file, category export in CSV or XLSX to a Magento platform.
-- A set of configuration fields, available as a form in the PIM. Each job can have its own configuration. Thus the job configuration form “product export” in CSV connector in Akeneo will be different from the job configuration form “product export” in XLSX or from any customised job created.
+You can export product data, of course, but also catalog entities such as the families, the categories, the attributes...
 
-# Browse profiles of exports
+## Steps of an export
+File export process is really simple. It consists of:
+1.  Creating an export profile (see below for more information about it)
+1.  Launching the CSV or XLSX file export
+
+## What is a export profile?
+An export profile allows to perform exports from the PIM. This profile format is based on:
+- A code to identify the export profile
+- A job to define what will do the export when executing. For instance, a category export in XLSX file or a product export in CSV to a Magento platform
+- A set of configuration fields, available as a form in the PIM. Each export profile can have its own configuration.
+
+# Browse your export profiles
 
 To view the available export profiles:
-1.  Log in with a user account with permissions to “View the list of profiles” for exports
-1.  Go to Spread/Export Profiles
+1.  Log in with a user account with permissions to `View the list of profiles` for exports
+1.  Go to the `Exports` menu
 ![image](../img/dummy.png)
-1.  To narrow down the list of exports displayed, use the available filters above the grid of Export profiles
+1.  To narrow down the list of displayed export profiles, use the available filters above the grid or the search bar that will search on the label
 
 To see the information of an export profile, click on the row in the grid
 ![image](../img/dummy.png)
@@ -38,59 +48,72 @@ To see the information of an export profile, click on the row in the grid
 # Create a new export profile
 
 To create a new export profile:
-1.  Log in with a user account with “Create an export profile” permissions
-1.  Go to the Spread/export Profiles
-1.  Click on “Create export profile”
+1.  Log in with a user account with `Create an export profile` permissions
+1.  Go to the `Exports` menu
+1.  Click on `Create export profile`
 ![image](../img/dummy.png)
 1.  All fields in the pop-up window must be filled in:
-  - A unique code
-  - A name for the label to identify the profile more easily in the PIM
-  - A job to execute the task.
+    - A unique code
+    - A name to identify the profile more easily
+    - A job according to what you wish to export
 ![image](../img/dummy.png)
-    The list of jobs matches all the jobs available to perform exports, for all installed and configured connectors with Akeneo PIM.
-1.  Click on “Save” to finalise the profile’s creation. The profile page screen is displayed. It is then possible to configure the job export.
+1.  Click on `Save` to finalise the export profile creation. The profile page screen is displayed. You can then configure it.
 
-# Modify an export profile
+# Update an export profile
 
-If a user has no rights granted to modify an export or export profile due to his role, then the permissions which he may benefit due to his group (Enterprise Edition rights) will not be applied. For instance, if a user does not have the “edit profiles of exports” permission, his Enterprise Edition rights to edit a specific export profile is ignored.
-
-To edit an export profile
-1.  Connect with a user account with edit permission for an export profile.
-1.  Go to the Spread/Export Profiles.
-1.  Click on the Export profile that needs to be modified.
-1.  Click on “Edit”, go under the tab “General properties”. The code and label properties are available for all export profiles, the Global Settings properties depend of the export job. For example for the CSV product export:
-
-You will find the following properties:
+To update an export profile:
+1.  Connect with a user account
+1.  Go to the `Exports` menu
+1.  Click on the export profile that needs to be modified
+1.  Click on the `Edit` button
+1.  Make your changes
+1.  Click on `Save` to update the profile
 
 ![image](../img/dummy.png)
+
+In the tab `General properties`, you can edit the label of your profile.  
+In the `Global settings` tab, properties depend on the export job. For example, for the CSV product export, you will find the following properties:
 
 | Property            | Details   |
 |:--------------------|:----------|
-| Decimal separator  | Defines the character used as decimal separator in the exported |
+| File path       | Defines where to generate the exported file _(Not available in Serenity offer)_ |
+| Decimal separator  | Defines the character used as decimal separator in the exported file |
 | Date format        | Defines the format used for dates in the exported file |
-| File path       | Defines the path for the CSV file generated by the export |
 | Delimiter     | Defines the character to delimit the fields in the CSV file |
 | Enclosure   | Defines the character for the field enclosure in the CSV file |
 | With header             | Defines if the first line of the exported file contains the columns names     |
-| Export files and images | Disable the media archiving of images, images will not be exported in the file and the image column will not be present in the export. |
+| Export files and images | Disable the media archiving of images, images will not be exported in the file and the image column will not be present in the export |
+| Number of lines per file | Defines the limit number of lines per file for XSLX export |
 
+In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which product or published product data you want to export. To find out more about this feature called `Product export builder`, take a look at this [article](/articles/product-export-builder.html).
+
+::: ee
+If a user has no rights granted to modify an export profile due to his role, then the permissions which he may benefit due to his user group(s) _(EE only)_ will not be applied. For instance, if a user does not have the `Edit profiles of exports` permission, his Enterprise Edition rights to edit a specific export profile is ignored.
+:::
 
 # Run an export
-To export information, you need to:
-1.  Have an existing export profile or create a new export profile, please refer to the administration guide for this step.
-1.  Start the export (the exported file will be in CSV or XLSX format).
 
-You can change the export configuration under the export profile management. Please refer to the Akeneo PIM administration guidelines to do so.
+## How to
+1.  Go to the `Exports` menu to see the list of available export profiles
+1.  Select the export profile to execute, and click on the relevant line
+1.  The export profile page is displayed. Click on the `Export now` button
+1.  The page of the export execution is prompted. The page refreshes continually to let know at what stage the export is
 
-To learn more about connectors and how they work, please refer to the relevant documentation. For instance, for more information about the CSV connector, refer to the documentation of the Akeneo connector Akeneo to export CSV files or XLSX files.
+When the export ends, a notification is available on the top right corner of the PIM.
 
-1.  Go to Collect/Export Profiles to see the list of available export profiles.
-1.  Select the job profile to execute, and click on the relevant line.
-1.  The export profile page is displayed. Click on the “Export” button.
-1.  The execution of the export page is prompted. The page refreshes continually to update the information displayed.
+![image](../img/dummy.png)
 
-When the export has ended, a notification is available on the top right of the Akeneo PIM.
+An email can also be sent depending on your user configuration. For further details on this, please refer to the [Manage your account](/articles/manage-your-account.html) article.
 
-![image](../img/dummy.jpng)
+## With the user groups rights _(EE only)_
 
-An email can also be sent depending on the system configuration. For further details on this, please refer to the technical online documentation of the PIM.
+### Rights on the product information
+In the case of *product and published product exports*, the PIM takes into account your permissions based on the [user groups](/articles/what-is-a-user-groups.html) you are in:
+- you **do not have a view right** on the products that are in the `Goodies` category, you won't be able to export any information about these products
+- you **do not have a view right** on the `Marketing` attribute group, you won't be able to export the product information of the attributes in this attribute group
+- you **do not have a view right** on the `de_DE` locale, you won't be able to export any product data regarding this locale
+
+If you want to know more about how the rights on product data works in the PIM, take a look to the [Access rights in products](/articles/access-rights-on-rpoducts) article.
+
+### Rights on export execution
+The permission to execute exports can be customized for each export profile. So if you cannot launch an export, be sure that you have the right to run it in the `Permissions` tab of your export profile in edition mode. See the [Access rights on imports/exports](/articles/access-rights-on-imports-exports.html) article for more details.
