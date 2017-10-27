@@ -34,7 +34,7 @@ An export profile allows to perform exports from the PIM. This profile format is
 - A job to define what will do the export when executing. For instance, a category export in XLSX file or a product export in CSV to a Magento platform
 - A set of configuration fields, available as a form in the PIM. Each export profile can have its own configuration.
 
-# Browse your import profiles
+# Browse your export profiles
 
 To view the available export profiles:
 1.  Log in with a user account with permissions to `View the list of profiles` for exports
@@ -83,6 +83,9 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 | Enclosure   | Defines the character for the field enclosure in the CSV file |
 | With header             | Defines if the first line of the exported file contains the columns names     |
 | Export files and images | Disable the media archiving of images, images will not be exported in the file and the image column will not be present in the export |
+| Number of lines per file | Defines the limit number of lines per file for XSLX export |
+
+In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which product or published product data you want to export. To find out more about this feature called `Product export builder`, take a look at this [article](/articles/product-export-builder.html).
 
 ::: ee
 If a user has no rights granted to modify an export profile due to his role, then the permissions which he may benefit due to his user group(s) _(EE only)_ will not be applied. For instance, if a user does not have the `Edit profiles of exports` permission, his Enterprise Edition rights to edit a specific export profile is ignored.
