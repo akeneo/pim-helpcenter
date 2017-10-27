@@ -4,7 +4,7 @@ themes: products-super-power
 title: "**Enrich** your products with variants"
 popular: false
 ee-only: false
-related: create-a-product, work-on-a-product, manage-your-families
+related: what-about-products-variants, manage-your-families, create-a-product, work-on-a-product
 ---
 
 # Display products with variants
@@ -13,9 +13,13 @@ Products with variants are displayed in the grid, they can be managed and enrich
 
 By default, the [product model](/articles/what-about-products-variants.html#what-is-a-product-model) is displayed in the grid.
 
+![image](../img/dummy.png)
+
 ::: tips
 To recognize a product model in the grid, it's displayed with a pile of pictures which means that some variant products are behind this model.
 :::
+
+![image](../img/dummy.png)
 
 A product model has no completeness, but you can follow the completeness of its variant products in the column `Variant products` in the grid, with:
 - 1st number: the number of complete variant products for this product model  
@@ -36,7 +40,7 @@ If the background of the `Variant products` is:
 
 ## Filter on your attributes
 
-To easily manage the products with variants and their until 3 levels of enrichment, we have added a smart search in the grid for products with variants to automatically display what you are looking for.
+To easily manage the products with variants and their until 3 levels of enrichment, we have added a **smart** search in the grid for products with variants to automatically display what you are looking for.
 
 By default, the product models are displayed in the grid.
 For example, you have a model of t-shirt which vary by color (blue, red, grey) and by size (S, M, L, XL).
@@ -56,9 +60,9 @@ If you are looking for clothing with the color "red" and the size "S", the red S
 A product model has no completeness but its variant products have a completeness.
 
 For the completeness filter `Complete`:
-- If `Yes`, the product models with at least one variant product complete are displayed in the grid
-- If `No`, the product models with at least one variant product incomplete are displayed in the grid
-- If `All`, there is no filter on the completeness
+- If you select `Yes`, the product models with at least one variant product complete are displayed in the grid
+- If you select `No`, the product models with at least one variant product incomplete are displayed in the grid
+- If you select `All`, there is no filter on the completeness
 
 # Edit products with variants
 
@@ -66,7 +70,7 @@ Click on a [product model](/articles/what-about-products-variants.html#what-is-a
 
 The products with variants are enriched in the same product form than products without any variant.
 
-For more details about the product form, you can read [How enrich a product](/articles/work-on-a-product.html).
+For more details about the product form, you can read [Enrich your product](/articles/work-on-a-product.html).
 
 ## Header and infos
 
@@ -94,16 +98,12 @@ This navigation component is composed of:
 
 ![image](../img/dummy.png)
 
-1.  Click on the small arrow next to the `Variant axes labels level 1` to display the values available for this product model (`COLOR` in our example)
-
-![image](../img/dummy.png)
-
-1.  Click on a line to reload the product form with the properties of the variant axes values selected
-1.  Click on the small arrow next to the `Variant axes labels level 2` to display the values available for this product model (`SIZE` in our example)
-
-![image](../img/dummy.png)
-
-1.  Click on a line to reload the product form with the properties of the variant axes values selected   
+1.  Click on the small arrow next to the `Variant axes labels level 1` to display the values available for this product model (`COLOR` in our example)  
+  ![image](../img/dummy.png)
+2.  Click on a line to reload the product form with the properties of the variant axes values selected
+3.  Click on the small arrow next to the `Variant axes labels level 2` to display the values available for this product model (`SIZE` in our example)
+  ![image](../img/dummy.png)
+4.  Click on a line to reload the product form with the properties of the variant axes values selected   
 
 In the navigation component, you can also view the number of variant products complete for a product model or the completeness of the product if it's the last variant level (product level).
 
@@ -115,7 +115,7 @@ We manage the following common properties for products with variants:
 
 ## Enrich their attributes
 
-In `COMMON`, in the tab `Attributes`, you can enrich the common attributes for the products of this product model (the common attributes are defined in the [family variant](/articles/manage-your-families.html#manage-familys-variants)).
+In `COMMON`, in the `Attributes` tab, you can enrich the common attributes for the products of this product model (the common attributes are defined in the [family variant](/articles/manage-your-families.html#manage-familys-variants)).
 
 ![image](../img/dummy.png)
 
@@ -123,10 +123,11 @@ In `COMMON`, in the tab `Attributes`, you can enrich the common attributes for t
 In a variant level, you can view the common attributes but you can not update them. If you would like to update them, go in `COMMON` (message _This attribute can be updated on the common attributes_) or in the dedicated level (message example _This attribute can be updated on the attributes by Color_).
 :::
 
+![image](../img/dummy.png)
 
 ## Categorize
 
-In `COMMON`, in the tab `Categories`, you can classify the model and all its children products in categories.
+In `COMMON`, in the `Categories` tab, you can classify the model and all its children products in categories.
 
 You can then add categories for a specific variant level. For example, your model is categorized in `T-shirts` and for the color blue, you can add them to a dedicated category `Marine`.
 
@@ -143,7 +144,7 @@ For each change, a new version is created. What is tracked down for each version
 - The date and time (up to seconds) at which the changes took place
 - The old and the new value of each amended product information
 
-The list of versions are displayed in the tab `History`.
+The list of versions are displayed in the `History` tab.
 
 ::: info
 In `COMMON`, only the common properties (attributes and categories) will be versioned. You can use the navigation component to display the versions of each variant level.
