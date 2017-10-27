@@ -9,6 +9,8 @@ related:
 
 # About products with variants
 
+![Variants](../img/Products_Product%20variant.svg)
+
 **Products with variants are products that have similarities, they are based on the same model, but differ in some aspects from one another**.
 
 They offer customers various purchase options for a product such as different colors, sizes, dimensions, flavors, etc.
