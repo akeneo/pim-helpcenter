@@ -9,98 +9,107 @@ related: upload-assets, assets-transformation
 
 # View the assets list
 
-To start, go to Enrich/Assets. From this page, there are many ways to work within the asset grid below.
+To start, go to the `Assets` menu. From this page, there are many ways to work within the asset grid below.
 
 ![image](../img/dummy.png)
 
 ## Set up your work environment
 
-Like for the product’s grid, you can set up a locale and a channel context, you can reduce and expand the category panel’s, and work with filters.
+Like for the product grid, you can set up a locale and a channel context, you can reduce and expand the categories panel, and use filters to easily find the assets you are looking for.
 
-For more information about the grid, please refer to the presentation of the product’s grid in the section (Work with the grid/Set up your work environment)
+For more information about the grid, please refer to the [Master your PIM interface](/articles/master-your-pim-interface.html) article.
 
 The filters can be applied on the following asset information:
+- Code
+- Description
+- Tags
+- End of use
+- Creation date
+- Last update date
 
-- All the asset information managed by the PIM:
-  - Code
-  - Description
-  - Tags
-  - End of use
-  - Creation date
-  - Last update date
-
-The following information cannot be sorted out in the asset’s grid:
+::: info
+The following information cannot be sorted out in the asset grid:
 - Thumbnail
 - Tags
-
-## Shortcut actions for each asset
-
-There is a set of actions available for each asset that you can find in the last column in the asset grid. The buttons are displayed when you hover your mouse over the line.
+:::
 
 # Create an asset
 
-To create an asset from the PIM user interface (without going through imports), you must have a special permission to do so. If this is not the case, please contact your administrator.
-
 To create an asset in the PIM:
-1.  Click on the “Create asset” at the top right­ hand side of the page Enrich/Assets.
+1. Go to the `Assets` menu
+1.  Click on the `Create an asset` in the top right­ corner
 ![image](../img/dummy.png)
 1.  Select if the asset you want to create is localized or not. Note: If it will be localized, the area to upload a reference file is hidden. If not, you can upload a reference file.
-![image](../img/dummy.png)
 1.  If a file is uploaded as a reference file, a code is automatically generated based on the given filename. If not, the user has to put a code for the asset.
-1.  Click on the “Save” button.
+1.  Click on the `Save` button.
 
 The asset has been created and the asset form page is displayed.
 
 ![image](../img/dummy.png)
 
+::: info
+You can also create assets by mass uploading files. For more information about this feature, see [Upload assets](/articles/upload-assets.html).
+:::
+
 # Edit an asset
 
-To edit an asset, open the asset form by clicking the right row in the asset grid.
+To edit an asset, open the asset form by clicking on the right row in the asset grid.
 
-## Edit the asset’s properties
-1.  Click on the “Properties” tab.
+## Edit the asset properties
+1.  Click on the `Properties` tab
 ![image](../img/dummy.png)
-1.  Edit the properties you want to add, remove or change.
-1.  Click on the button “Save”.
+1.  Edit the properties you want to change
+1.  Click on the `Save` button
 
 ::: info
 The code of an asset cannot be changed after its creation.
 :::
 
-You can add a description, tags and a end-of-use date for each assets.
+You can add a description, tags and a end-of-use date for each asset.
 
 ## Create a new tag for an asset
 
-When a tag is not available (no results), and if you continue to type it, then use the button “Enter” of your keyboard to tell the PIM that the tag has to be created. The tag will be automatically created and it will be available for other assets.
+When a tag is not available, if you continue to type it, you can use the `Enter` button of your keyboard to tell the PIM that you want to create the tag. It will be automatically created and it will be then available for other assets.
+
+## Classify the asset into categories
+
+An asset can be classified in one or more categories, but can also be left out of any categories in the PIM. The asset can either be classified in several categories of the very same tree or in different ones.
+
+To classify one asset:
+1.  Click on the `Categories` tab
+1.  Click on the name of a tree you want on the left hand side
+1.  Check the categories in which the asset has to be classified
+1.  Uncheck the categories in which the asset should no longer be listed
+1.  Click on the `Save` button to confirm your changes
 
 ## Edit the files of an asset
 
-1.  Click on the “Variations” tab.
+Click on the `Variations` tab.
 
 ![image](../img/dummy.png)
 
 You can either generate variations from a reference file, or put the variation files manually.
 
 ### Add a reference file
-
-1.  Drag and drop the file in the area or click in the area to open the dialog box and select the file to add.
+If you don't have any reference file for your asset yet:
+1.  Drag and drop the file in the area or click in the area to open the dialog box and select the file to add
 ![image](../img/dummy.png)
-1.  Click on the “Save” button.
+1.  Click on the `Save` button
+
+The reference file is added and the variation files are generated.
 
 ::: info
-The loading time depends on the size of the file, the complexity of the transformations to apply and the number of channels. During this time, you have to wait.
+The loading time depends on the size of the file, the complexity of the transformations to apply and the number of channels.
 :::
-
-Then the reference file is added and the variation files are generated.
 
 ### Download a file (reference or variation)
 
-To download a file, click on the relevant “download” button.
+To download a file, click on the relevant `Download` button.
 ![image](../img/dummy.png)
 
 ### Delete a file (reference or variation)
 
-To delete a file, click on the relevant “Delete” button, and confirm the action.
+To delete a file, click on the relevant `Delete` button, and confirm the action.
 
 ![image](../img/dummy.png)
 
@@ -114,9 +123,7 @@ If you delete a variation file, it cannot be generated from the reference file a
 
 ### Generate a variation file from the reference file manually
 
-1.  Click on the “Generate from the reference file” button.
-
-![image](../img/dummy.png)
+Click on the `Generate from the reference file` button.
 
 ::: tips
 This option is not displayed if there is no reference file.
@@ -124,9 +131,7 @@ This option is not displayed if there is no reference file.
 
 ### Generate variation files from the reference file automatically
 
-1.  Click on the “Reset variations” button.
-
-![image](../img/dummy.png)
+Click on the `Reset variations` button in the reference file panel.
 
 All the variations different from the reference file are updated. The others are not updated.
 
@@ -134,7 +139,7 @@ All the variations different from the reference file are updated. The others are
 
 1.  Drag and drop the file in the area or click in the area to open the dialog box and select the file to add.
 ![image](../img/dummy.png)
-1.  Click on the “Save” button.
+1.  Click on the `Save` button.
 
 The variation file will be no more related to the reference file.
 
@@ -142,67 +147,47 @@ The variation file will be no more related to the reference file.
 
 An asset can be removed from the PIM. This means that all the relevant asset information will be deleted in the PIM. This action cannot be reverted.
 
-1.  Open the asset form you want to delete.
-1.  Click on the “Delete” button in the asset header page.
+1.  Open the asset form you want to delete
+1.  Click on the `...` button and then select `Delete` in the dropdown
 ![image](../img/dummy.png)
-1.  Confirm the action in the popin.
+1.  Confirm the action in the popin
 
 # Mass actions on asset
 
 ## Mass add tag to a selection of assets
 
 To save time you can mass add tag to an asset:
-1.  Select the assets
-1.  Click on the bulk action menu
-1.  Select Add tag
-1.  Write your tag
-1.  Click on Next
-1.  Confirm
+1.  Select the assets thanks to the checkboxes in front of each asset row
+1.  A menu appears at the bottom of the screen. Click on the `Mass edit assets` button
+1.  Select `Add tags to assets` and click on the `Next` button in the top right corner
+1.  Select the tags you want to add to your assets
+1.  Click on `Next`
+1.  To finish, click on `Confirm`
 
-A notification message is displayed «The bulk action «add tags to assets» has been launched. You will be notified when it is done.»
-
-The notification centre displays a notification.
+A push message is displayed and the notification center displays a new notification.
 
 ::: tips 
-If some tags don't exist, they will be created.
+If some of the tags you added don't exist, they will be automaticcaly created.
 :::
 
-![image](../img/dummy.png)
+## Mass move assets into categories
 
-## Classify assets into categories
+You can move a selection of assets in new categories at once to earn time. The old categorization will be lost.
+1.  Select the assets thanks to the checkboxes in front of each asset row
+1.  A menu appears at the bottom of the screen. Click on the `Mass edit assets` button
+1.  Select `Classify assets in categories` and click on the `Next` button in the top right corner
+1.  Select the category in which you want your assets to be moved
+1.  Click on `Next`
+1.  To finish, click on `Confirm`
 
-An asset can be classified in one or more categories, but can also be left out of any categories in the PIM. The asset can either be classified in several categories of the very same tree or in different ones.
-
-To add/remove an asset:
-1.  Open the edit asset form you want to classify in categories.
-1.  Click on the “Categories” tab.
-1.  Click on the name of a tree on the left hand side to be displayed.
-1.  Check the categories in which the asset has to be classified.
-1.  Uncheck the categories in which the asset should no longer be listed.
-1.  Then click on the “Save” button.
-
-
-## Mass remove assets from categories
-
-You can remove a selection of assets at once to earn time.
-1.  Select the assets
-1.  Click on the bulk action menu
-1.  Select classify
-1.  Select the category you want to remove
-1.  Click on next
-1.  Confirm
-
-A notification message is displayed «The bulk action «move to categories» has been launched. You will be notified when it is done.»
-
-The notification centre displays a notification.
+A push message is displayed and the notification center displays a new notification.
 
 ## Mass delete assets
 
 You can delete a selection of assets at once to earn time.
-1.  Select the assets
-1.  Click on the bulk acton menu
-1.  Select delete
-1.  Click on OK in the confirmation pop in
+1.  Select the assets thanks to the checkboxes in front of each asset row
+1.  A menu appears at the bottom of the screen. Click on the `Delete assets` button
+1.  Click on `Delete` to confirm your action
 
 ::: info 
 Like a delete of a single asset, this action does not delete asset from the server.
