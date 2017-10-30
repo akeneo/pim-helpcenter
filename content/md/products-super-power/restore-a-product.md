@@ -6,7 +6,7 @@ popular: false
 ee-only: true
 ---
 
-# Some concrete use case
+# Some concrete use cases
 
 ## A very simple use case
 
@@ -16,15 +16,15 @@ It's totally possible with the restore feature. You can browse through the whole
 
 
 ## Another use case
-Just picture the following case: you have a [published product](/articles/publish-workflow.html), which information is disseminated in different channels. You are currently enriching the product form with new photos, a more detailed description and a new price.  
-But a new legislation compels you all at once to update your current published version to push new information about the product: its weight for instance.  
+Just picture the following case: you have a [published product](/articles/publish-workflow.html), which information is disseminated in different channels. You are currently enriching the product form with new photos, a more detailed description and a new price.
+But a new legislation compels you all at once to update your current published version to push new information about the product: its weight for instance.
 Unfortunately your improvements on the product page are not completed and still you do not want to publish them. What can you do?
 
 ### The restore magic
 
 Akeneo PIM allows you to restore your published version in order to work on it and get back to your latest working copy afterwards.
 
-Restoring a version means reverting the product to an earlier version. For example, if you have 15 product versions, it is possible to go back to the version #3, which will not take into account any changes done afterwards.
+Restoring a version means reverting the product to an earlier version. For example, if you have 5 product versions, it is possible to go back to the version #3, which will not take into account any changes done afterwards.
 
 ::: info
 Restoring a version does not delete information, but generates a new version representing the restored version.
