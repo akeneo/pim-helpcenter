@@ -139,14 +139,14 @@ The family variants are managed in a dedicated `Variants` tab in `Settings/Famil
 1.  Select the family to edit in the grid and click on its line
 1.  Open the `Variants` tab for the family
 
-![image](../img/dummy.png)
+![List of family variants](../img/Settings_Families_Variant_List.png)
 
 ## Display a family variant
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
 1.  Click on a family variant to display it  
 1.  The family variant details are displayed
 
-![image](../img/dummy.png)
+![Display a family variant](../img/Settings_Families_Variant_Display.png)
 
 You can see how the attributes are distributed between the different levels:
 - The **common attributes** in the 1st column for all the products in a product model
@@ -162,10 +162,10 @@ In our example for clothing which vary on 2 levels by color and then by size, th
     - A **code** to identify the family variant
     - A **label**
     - A number of **variant levels**: 1 or 2
-    - The **variant axes** for each level: the variant axes are attributes of the family which identify the variant product in the product model. Their values must differ from a variant product to another in the product model (unicity). For examples, the `size` for a clothing model (there is only one product with the size S and one product with the size M for a t-shirt model), the `color` for a chair model, the `dimensions` for a mattress model.
+    - The **variant axes** for each level: the variant axes are attributes of the family which identify the variant product in the product model. Their values must differ from a variant product to another in the product model (unicity). For examples, the `color` and `size` for a clothing model (there is only one product with the color blue and the size S and one product with the color blue and the size M for a t-shirt model), the `color` for a chair model, the `dimensions` for a mattress model.
 1.  Click on `Create`
 
-![image](../img/dummy.png)
+![Create a family variant](../img/Settings_Families_Variant_Create.png)
 
 The family variant is created.
 
@@ -174,7 +174,8 @@ An attribute of the family could be a **variant axis** only if its attribute typ
 - Simple select
 - Simple reference data
 - Metric
-- Yes/no   
+- Yes/no       
+
 Moreover, the attribute cannot be scopable, localizable and locale specific.
 :::  
 
