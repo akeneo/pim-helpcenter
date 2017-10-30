@@ -103,7 +103,7 @@ To start an import:
 
 When the import ends, a notification is available on the top right corner of the PIM.
 
-![image](../img/Imports-ImportProcess.png)
+![image](../img/Imports-ImportProcess.gif)
 
 An email can also be sent depending on your user configuration. For further details on this, please refer to the [Manage your account](/articles/manage-your-account.html) article.
 
