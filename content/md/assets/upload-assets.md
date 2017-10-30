@@ -14,9 +14,9 @@ Mass upload assets is pretty convenient especially if you want to update your as
 The PIM uses the filename to know for which asset the file have to be used.
 
 **Example 1**  
-If the filename is `demo_video.wmv`, then the PIM will check:
-- If the asset with the `demo_video` code already exists, the PIM will update the asset with the `demo_video` code by importing the `demo_video.wmv` file as its reference file (and generate the variation files accordingly)
-- If the asset doesn’t already exist, the PIM will create a new asset with the `demo_video` code and with the file as the reference file, so that the variation files can be generated
+If the filename is `main_picture_S1263547.jpg`, then the PIM will check:
+- If the asset with the `main_picture_S1263547` code already exists, the PIM will update the asset with the `main_picture_S1263547` code by importing the `main_picture_S1263547.jpg` file as its reference file (and generate the variation files accordingly)
+- If the asset doesn’t already exist, the PIM will create a new asset with the `main_picture_S1263547` code and with the file as the reference file, so that the variation files can be generated
 
 **Example 2**  
 Another example, if the filename is `asset_en_US.pdf` and the asset with the `asset` code already exists, then the PIM will check:
@@ -36,9 +36,9 @@ Another example, if the filename is `asset_en_US.pdf` and the asset with the `as
 
 The report of the import is displayed.
 
+::: info
 When files are added to the list, you can remove them whatever their status.  
 To remove the file from the list, click on the `X` button at the end of the row. The file will be removed and will not be imported.
 
-![image](../img/dummy.png)
-
-If you want to remove at once all the files you chose, click on the `Remove all files` button at the top of the screen. ;) 
+If you want to remove all the files you chose at once, click on the `Remove all files` button at the top of the screen. ;)
+:::
