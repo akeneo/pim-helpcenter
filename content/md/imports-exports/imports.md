@@ -33,7 +33,7 @@ An import profile allows to perform imports in the PIM. This profile format is b
 - A job to define what will make the import when executing. For instance, is it a product import in XLSX file or a category import in CSV
 - A set of configuration fields, available as a form in the PIM. Each import profile can have its own configuration.
 
-# Browse imports profiles
+# Browse import profiles
 
 To view the available import profiles:
 1.  Log in with a user account with permissions to `View the list of profiles` for imports
