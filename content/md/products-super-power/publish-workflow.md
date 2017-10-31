@@ -19,7 +19,7 @@ This is really simple. Imagine one of your product is complete for all locales a
 
 You are satisfied by your product information for this product, so you hit the `Publish` button.
 
-![image](../img/dummy.png)
+![image](../img/Products_PublishProductExample.png)
 
 **What's happening?**    
 In fact, this *takes a picture* of your product information at that time. This *picture* is called the *published* version of your product.
