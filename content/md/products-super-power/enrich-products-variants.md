@@ -13,21 +13,19 @@ Products with variants are displayed in the grid, they can be managed and enrich
 
 By default, the [product model](/articles/what-about-products-variants.html#what-is-a-product-model) is displayed in the grid.
 
-![image](../img/dummy.png)
+![Grid with product models](../img/Products_ProductModel_grid.png)
 
 ::: tips
 To recognize a product model in the grid, it's displayed with a pile of pictures which means that some variant products are behind this model.
 :::
 
-![image](../img/dummy.png)
-
 A product model has no completeness, but you can follow the completeness of its variant products in the column `Variant products` in the grid, with:
 - 1st number: the number of complete variant products for this product model  
 - 2nd number: the total number of variant products behind this product model
 
-For example, on the 1st product model, 2 variant products are complete out of the 5 variant products.
+For example, on the 1st product model, 2 variant products are complete out of the 6 variant products.
 
-![image](../img/dummy.png)
+![Variant products for product models](../img/Products_ProductModel_grid_VariantsProducts.png)
 
 ::: info
 If the background of the `Variant products` is:
@@ -45,15 +43,15 @@ To easily manage the products with variants and their until 3 levels of enrichme
 By default, the product models are displayed in the grid.
 For example, you have a model of t-shirt which vary by color (blue, red, grey) and by size (S, M, L, XL).
 
-![image](../img/dummy.png)
+![Grid with product models](../img/Products_ProductModel_Search1.png)
 
 As done on e-commerce websites, if you are looking for clothing with the color "red", the red t-shirt will be automatically displayed in the grid.
 
-![image](../img/dummy.png)
+![Search results with color red](../img/Products_ProductModel_Search2.png)
 
 If you are looking for clothing with the color "red" and the size "S", the red S t-shirt will be displayed with its completeness.
 
-![image](../img/dummy.png)
+![Search results with color red and size S](../img/Products_ProductModel_Search3.png)
 
 ## Filter on the completeness
 
@@ -76,15 +74,13 @@ For more details about the product form, you can read [Enrich your product](/art
 
 For products with variants, the number of variant products behind the model and the number of complete variant products for the model are displayed in the product form header (`Variant products`).
 
-![image](../img/dummy.png)
-
 For products with variants, the following properties are displayed in the `Product infos`:
 - Family: All the products of a product model belong to the same family
 - **Variant**: A [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) defines how the products with variants are structured
 - Created: Creation date and user who create the product model
 - Last update: Updated date and user who last update the product model
 
-![image](../img/dummy.png)
+![Product form for product model](../img/Products_ProductModel_PEF.png)
 
 ## Navigate among your products with variants
 
@@ -96,13 +92,13 @@ This navigation component is composed of:
 - `Variant axes labels level 1`: you can enrich the properties which vary according to the variant axes level 1 of this model (`COLOR` in our example)
 - `Variant axes labels level 2`: if your family variant has 2 variant levels, you can enrich the properties which vary for each product of this model (`SIZE` in our example)
 
-![image](../img/dummy.png)
+![Navigation component for product model](../img/Products_ProductModel_PEFEnrich1.png)
 
 1.  Click on the small arrow next to the `Variant axes labels level 1` to display the values available for this product model (`COLOR` in our example)  
-  ![image](../img/dummy.png)
+  ![Navigation by color for product model](../img/Products_ProductModel_PEFNav1.png)
 2.  Click on a line to reload the product form with the properties of the variant axes values selected
 3.  Click on the small arrow next to the `Variant axes labels level 2` to display the values available for this product model (`SIZE` in our example)
-  ![image](../img/dummy.png)
+  ![Navigation by size for product model](../img/Products_ProductModel_PEFNav2.png)
 4.  Click on a line to reload the product form with the properties of the variant axes values selected   
 
 In the navigation component, you can also view the number of variant products complete for a product model or the completeness of the product if it's the last variant level (product level).
@@ -117,13 +113,13 @@ We manage the following common properties for products with variants:
 
 In `COMMON`, in the `Attributes` tab, you can enrich the common attributes for the products of this product model (the common attributes are defined in the [family variant](/articles/manage-your-families.html#manage-familys-variants)).
 
-![image](../img/dummy.png)
+![COMMON for product model](../img/Products_ProductModel_PEFEnrich1.png)
 
 ::: info
 In a variant level, you can view the common attributes but you can not update them. If you would like to update them, go in `COMMON` (message _This attribute can be updated on the common attributes_) or in the dedicated level (message example _This attribute can be updated on the attributes by Color_).
 :::
 
-![image](../img/dummy.png)
+![SIZE for product model](../img/Products_ProductModel_PEFEnrich2.png)
 
 ## Categorize
 
@@ -131,7 +127,7 @@ In `COMMON`, in the `Categories` tab, you can classify the model and all its chi
 
 You can then add categories for a specific variant level. For example, your model is categorized in `T-shirts` and for the color blue, you can add them to a dedicated category `Marine`.
 
-![image](../img/dummy.png)
+![SIZE for product model](../img/Products_ProductModel_PEFCategory.png)
 
 ::: info
 You can add categories on the products for this product model but on a product you can not remove a category of its parent, the category is disabled in the tree. If you would like to remove it, go in `COMMON` or in the dedicated level.
