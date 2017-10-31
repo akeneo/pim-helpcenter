@@ -18,7 +18,7 @@ This type of relationship enables you to define relationships like an alternativ
 # View the product’s associations
 
 To check the association types:
-1.  Open the relevant product edit form
+1.  Open the relevant product form
 1.  Click on the `Association` tab
 1.  Click on the association type name on the left-hand side
 1.  Click on the `Show groups` button on the right-hand side of the tab to display the product groups grid
