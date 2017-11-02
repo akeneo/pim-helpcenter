@@ -17,7 +17,7 @@ To start, go to the `Assets` menu. From this page, there are many ways to work w
 
 Like for the product grid, you can set up a locale and a channel context, you can reduce and expand the categories panel, and use filters to easily find the assets you are looking for.
 
-For more information about the grid, please refer to the [Master your PIM interface](/articles/master-your-pim-interface.html) article.
+For more information about the grid, please refer to the [Get familiar with the grid](/articles/products-grid.html) article.
 
 The filters can be applied on the following asset information:
 - Code
@@ -54,33 +54,6 @@ You can also create assets by mass uploading files. For more information about t
 # Edit an asset
 
 To edit an asset, open the asset form by clicking on the right row in the asset grid.
-
-## Edit the asset properties
-1.  Click on the `Properties` tab
-![image](../img/dummy.png)
-1.  Edit the properties you want to change
-1.  Click on the `Save` button
-
-::: info
-The code of an asset cannot be changed after its creation.
-:::
-
-You can add a description, tags and a end-of-use date for each asset.
-
-## Create a new tag for an asset
-
-When a tag is not available, if you continue to type it, you can use the `Enter` button of your keyboard to tell the PIM that you want to create the tag. It will be automatically created and it will be then available for other assets.
-
-## Classify the asset into categories
-
-An asset can be classified in one or more categories, but can also be left out of any categories in the PIM. The asset can either be classified in several categories of the very same tree or in different ones.
-
-To classify one asset:
-1.  Click on the `Categories` tab
-1.  Click on the name of a tree you want on the left hand side
-1.  Check the categories in which the asset has to be classified
-1.  Uncheck the categories in which the asset should no longer be listed
-1.  Click on the `Save` button to confirm your changes
 
 ## Edit the files of an asset
 
@@ -142,6 +115,36 @@ All the variations different from the reference file are updated. The others are
 1.  Click on the `Save` button.
 
 The variation file will be no more related to the reference file.
+
+## Edit the asset properties
+1.  Click on the `Properties` tab
+![image](../img/dummy.png)
+1.  Edit the properties you want to change
+1.  Click on the `Save` button
+
+::: info
+The code of an asset cannot be changed after its creation.
+:::
+
+You can add:
+- a description to give more details about your asset,
+- tags that will help you work with your assets,
+- a end-of-use date for each asset to could be very useful if you want to receive a notification a few days before your asset license expires. To enable this option, please refer to the [Manage your account](/articles/manage-your-account.html#your-groups-and-roles) article.
+
+## Create a new tag for an asset
+
+When a tag is not available, if you continue to type it, you can use the `Enter` button of your keyboard to tell the PIM that you want to create the tag. It will be automatically created and it will be then available for other assets.
+
+## Classify the asset into categories
+
+An asset can be classified in one or more categories, but can also be left out of any categories in the PIM. The asset can either be classified in several categories of the very same tree or in different ones.
+
+To classify one asset:
+1.  Click on the `Categories` tab
+1.  Click on the name of a tree you want on the left hand side
+1.  Check the categories in which the asset has to be classified
+1.  Uncheck the categories in which the asset should no longer be listed
+1.  Click on the `Save` button to confirm your changes
 
 # Delete an asset
 
