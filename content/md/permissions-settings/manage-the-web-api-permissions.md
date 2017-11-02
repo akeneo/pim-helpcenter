@@ -1,7 +1,7 @@
 ---
 id: manage-the-web-api-permissions
 themes: permissions-settings
-title: Manage the **WEP API** permissions
+title: Manage the **Web API** permissions
 popular: false
 ee-only: false
 related: build-your-user-roles, what-is-a-role, what-is-a-user, manage-the-interface-and-actions-accesses

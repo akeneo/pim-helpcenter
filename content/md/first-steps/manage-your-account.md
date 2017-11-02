@@ -106,7 +106,7 @@ If you activate this preference, you will receive notifications everytime you wi
 ![image](../img/System_users_Profil_edit_notifs.png)
 
 ::: info
-You will only see this option in the case you own at least one product, meaning you have the `Own products` permission for at least one category. To learn more about this permission, it's [here](/articles/build-your-user-groups.html)!
+You will only see this option in the case you own at least one product, meaning you have the `Own products` permission for at least one category. To learn more about this permission, it's [here](/articles/access-rights-on-products.html)!
 :::
 
 ### The `When proposal is approved or rejected` notification
@@ -116,5 +116,5 @@ If you activate this preference, you will receive notifications when your [propo
 ![image](../img/System_users_Profil_edit_notifs2.png)
 
 ::: info
-You will only see this option in the case you have only edit rights on at least one product, meaning you only have the `Edit products` permission for at least one category. To learn more about this permission, it's [here](/articles/build-your-user-groups.html)!
+You will only see this option in the case you have only edit rights on at least one product, meaning you only have the `Edit products` permission for at least one category. To learn more about this permission, it's [here](/articles/access-rights-on-products.html)!
 :::
