@@ -1,7 +1,7 @@
 ---
 id: what-is-a-family
 themes: first-steps, akeneo-concepts
-title: What are **families** for?
+title: What is a family?
 ---
 
 # Definition of a family
