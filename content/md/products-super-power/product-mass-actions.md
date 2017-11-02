@@ -67,6 +67,10 @@ When you click on the notification, you access the report page of the action.
 After some of the bulk actions the rules will be automatically applied.
 :::
 
+:::warning
+The bulk actions do not support [product models](/articles/what-about-products-variants.html#what-is-a-product-model) yet.
+:::
+
 ## Categorize, move or remove products
 
 In order to save you some time, you can also directly categorize products in categories without an import / export thanks to a bulk action menu in the product grid.
