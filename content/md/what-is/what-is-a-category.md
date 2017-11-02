@@ -51,7 +51,7 @@ If you do not know the file format to import, go to `Exports`, use an existing X
 :::
 
 ::: tips
-To learn how to create/update a category through the API, see the [API documentation](https://api.akeneo.com/api-reference-index-17.html#Categories) documentation.
+To learn how to create/update a category through the API, see the [API documentation](https://api.akeneo.com/api-reference-index-17.html#Categories).
 :::
 
 # Sort categories
