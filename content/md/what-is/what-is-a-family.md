@@ -1,46 +1,40 @@
 ---
 id: what-is-a-family
 themes: first-steps, akeneo-concepts
-title: What is the aim of **families**?
+title: What are **families** for?
 ---
 
-# Definition
+# Definition of a family
 
-A family is a set of attributes that are shared by products belonging to this family. In other words, a family can be considered as a template for products.
+A family is **a set of attributes** that is shared by products belonging to the same family. In other words, a family can be considered to something similar as a **product template**.
 
-A product family can use all the attributes available in the PIM. Several families of products can use the same attributes.
+When a product is added to a family, it automatically inherits from all attributes defined at the family level. A product **can belong to only one family** (but a product can be without family, in this case, it has no default attributes).
 
-When a product is associated to a family, the product automatically inherits from all attributes defined at the family level. A product can belong to only one family (but a product does not have to belong to a family, in this case, it has no default attributes). Moreover, the family helps managing the product’s completeness.
+Finally, the family manages **the product’s completeness**.
 
-### Example
-A family can be:
-- a mug,
-- a T-shirt,
-- a pair of shoes.
+Here are some examples of families:
+- a family "camcorders",
+- a family "mugs",
+- a family "sofas",
+- a family "fridges",
+- a family "hammers"...
 
-Each product family has a code and a label that can be translated. A product family can use all the attributes available in the PIM.
+All these types of products have **their own characteristics**, a camcorder will have for instance the following attributes in its family: a product identifier (a sku for instance), a GTIN/EAN code, a name, a description, a reference price, a type of sensor,  a resolution, a sensor type and so on. The family 'Camcorders' will **gather all these attributes**, and they will be automatically added to any new product added to this family. 
 
-This means that a product family is used as a product model: the set of attributes generates the product edit form automatically and each product belonging to the same family has the same attributes.
+A hammer will also have a product identifier (a sku for instance), a GTIN/EAN code, a name, a description, but it will have its own attributes like a handle length, a handle material, a weight, a material...
 
-### Example
-The _“Mug”_ family is composed of the following attributes:
-- Name,
-- Weight,
-- Description,
-- Color.
+So, a family can use all the attributes available in the PIM and a same attribute can be used in several families, most of your products will have a description, a name, an identifier...
 
-If a product belongs to the _“Mug”_ family, the above attributes are automatically added to the product. These attributes cannot be removed from the product.
+# Properties of families
 
-# Key rules
+Each family has **a code and a label**. The label can be translated in any activated locale.
 
-- Any product can be part of a family, but a product can be without a family. In this case, the product has no default attributes.
-- A family can also define the completeness of products.
+::: tips
+- A product **can only belong to only one family**.
+- A product **without family has no default attributes and no completeness**.
+- A family **defines the completeness of products**.
+:::
 
+Each family has also a **completeness**. Learn how to set your product completeness on the [completeness article](articles/what-is-the-completeness.html).
 
-# Differences between families and categories
-
-- Tree/categories is a way to classify your products.
-One product can be in n categories.
-
-- Family is set of attributes to enrich a product.
-  One product belongs to only one family.
+Learn how to create, edit... your families on the [Manage your families](articles/manage-your-families.html)
