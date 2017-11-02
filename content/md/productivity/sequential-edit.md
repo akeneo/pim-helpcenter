@@ -1,7 +1,7 @@
 ---
 id: sequential-edit
-themes: products-super-power, boost-your-productivity 
-title: Discover the **sequential edit** on products
+themes: products-super-power, boost-your-productivity
+title: "**Sequential edit** your products"
 popular: false
 ee-only: false
 related: product-mass-actions
@@ -13,29 +13,30 @@ Sequential edit enables to display one after the other the product forms from a 
 
 Any user with product access with edit permissions can run a sequential edit. There is no specific right to provide access to this feature.
 
-::: ee 
-If the user cannot edit any products from his product selection, then an error message is prompted to inform he cannot do the sequential edit.
-:::
-
 # How to?
 
 To start the product sequential edit:
-1.  Search for products in the datagrid with the appropriate filters.
-2.  Select the products on which you want to perform the operation via the selection tool: all the products recorded, all visible products from the ongoing page, none of the products and the products for which you have ticked the 1st column.
+1.  Search for products in the datagrid with the appropriate filters
+2.  Select the products on which you want to perform the operation via the selection tool:   
+    - `All` for all the products recorded  
+    - `All visible` for all visible products on the ongoing page  
+    - `None` for none of the products  
   ![image](../img/dummy.png)
-3.  Click on “Bulk Actions”,
-4.  Select “Edit products sequentially”,
+3.  Click on the `Sequential edit` button
   ![image](../img/dummy.png)
-5.  The product edit page of the first product of the selection is prompted with a progress bar at the top of the page.
+4.  The product form of the first product of your selection is prompted with a progress bar at the bottom of the page
+  ![image](../img/dummy.png)
+5. Enrich your first product and click on the button `Save and next` to display and enrich the next product in your selection
+  ![image](../img/dummy.png)  
+6. When all the products of your selection are enriched, click on the button `Save and finish` to come back to the product grid
 
-![image](../img/dummy.png)
-
-The progress bar tracks down the number of products that have already been changed from the total number of products of selected products. The progress bar is surrounded by two links on the left and right side.
+The progress bar tracks the number of products that have already been changed from the total number of products of selected products. The progress bar is surrounded by two links on the left and right side.
 
 ![image](../img/dummy.png)
 
 The left link allows you to go back to the previous product, the right link to switch to the next one.
 
-::: ee 
-If the user can edit at least one product from his selection, it means that the sequential edition has started. Only the products with the read-only access rights will be displayed.
+::: ee
+Only the products with the read-only access rights will be displayed.  
+If the user cannot edit any products from his product selection, then an error message is prompted to inform he cannot do the sequential edit. For more details, you can read [Set rights on the product catalog](/articles/build-your-user-groups.html#access-rights-on-product-information)   
 :::
