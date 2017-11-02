@@ -17,7 +17,10 @@ Any user with product access with edit permissions can run a sequential edit. Th
 
 To start the product sequential edit:
 1.  Search for products in the datagrid with the appropriate filters
-2.  Select the products on which you want to perform the operation via the selection tool: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `None` for none of the products
+2.  Select the products on which you want to perform the operation via the selection tool:   
+    - `All` for all the products recorded  
+    - `All visible` for all visible products on the ongoing page  
+    - `None` for none of the products  
   ![image](../img/dummy.png)
 3.  Click on the `Sequential edit` button
   ![image](../img/dummy.png)
