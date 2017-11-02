@@ -4,7 +4,7 @@ themes: products-super-power
 title: "**Enrich** your product"
 popular: false
 ee-only: false
-related: create-a-product, product-associations, product-completeness, product-mass-actions
+related: create-a-product, product-completeness, categorize-a-product, products-associations
 ---
 
 # Go to a product
@@ -40,7 +40,7 @@ If you cannot find your working locale listed, perhaps the locale is not require
 
 
 ::: ee
-Or, you do not have the appropriate rights to view or edit the product values for this locale, please refer to [Set rights on the product catalog](/articles/build-your-user-groups.html#access-rights-on-product-information).
+Or, you do not have the appropriate rights to view the product values for this locale, please refer to [Set rights on the product catalog](/articles/build-your-user-groups.html#access-rights-on-product-information).
 :::
 
 For the localizable attributes (with the indicated locale on top right of the field), the entered values will be saved only for the working locale.
@@ -75,10 +75,10 @@ If you cannot view or edit some attributes values, you do not have the appropria
 
 ::: tips
 To check if your product is complete, have more information about the `Missing required attributes` filter and the `Completeness` tab and widget, take a look at [Follow your product's completeness](/articles/product-completeness.html).
-:::
 
-::: tips
-To associate a product to another product or group of products in the `Associations` tab, you can read this [article](/articles/product-associations.html).
+To categorize a product in the `Categories` tab, you can read this [article](/articles/categorize-a-product.html).
+
+To associate a product to another product or group of products in the `Associations` tab, you can read this [article](/articles/products-associations.html).
 :::
 
 ## Add options to a simple or multi-select attribute
