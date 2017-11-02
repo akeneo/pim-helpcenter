@@ -156,7 +156,7 @@ The Enterprise Edition comes with a feature that allows you to rollback to a pre
 # Comment a product
 
 Commenting a product is a convenient way to add additional product information and facilitate the collaboration between team members.
-Comments are available under the  `Comments ` tab in the Product Form.
+Comments are available under the  `Comments` tab in the Product Form.
 
 ## Add a comment
 
