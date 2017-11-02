@@ -13,11 +13,11 @@ When a product is added to a family, it automatically inherits from all attribut
 Finally, the family manages **the product’s completeness**.
 
 Here are some examples of families:
-- a 'camcorders'family,
-- a 'mugs'family,
-- a 'sofas'family,
-- a 'fridges'family,
-- a 'hammers'family...
+- a 'camcorders' family,
+- a 'mugs' family,
+- a 'sofas' family,
+- a 'fridges' family,
+- a 'hammers' family...
 
 All these types of products have **their own characteristics**, a camcorder will have for instance the following attributes in its family: a product identifier (a sku for instance), a GTIN/EAN code, a name, a description, a reference price, a type of sensor,  a resolution, a sensor type and so on. The family 'Camcorders' will **gather all these attributes**, and they will be automatically added to any new product added to this family. 
 
