@@ -5,19 +5,69 @@ title: What is a **category**?
 related: categorize-a-product
 ---
 
-# Definition
-A category is a way of categorizing products. It is part of a main category tree (or classification tree).
+# Definition of a category
+In Akeneo, **a category is used to classify products or assets (EE)**. A category is always part of a main category tree (or *classification tree*).
 
-In Akeneo, you can have multiple category trees with an unlimited number of levels (categories, subcategories, subsubcategories..).
+You can have **one or more category trees** in Akeneo with an **unlimited number of levels** (categories, subcategories, sub-subcategories...).
 
-![image](../img/dummy.png)
+![image of the category trees](../img/dummy.png)
 
-# Key rules
-_That you should not forget_
+## Differences between families and categories
 
-- A product can be categorized in one or n categories.
+- Trees and categories are a way to classify your products  
+- A product can be in several or no categories
+- A family is a *set of attributes* used to enrich a product  
+- A product can only belong to one family  
 
-- A product that does not belong to a category will not be exported.
+# How to create a new category? 
 
-# EE specificity
-In the Enterprise Edition, you can define specific user rights on categories.
+A category or a category tree only needs a code to be created. You can name your category or category tree and this name can be translated to any activated locale in the PIM.
+![image of category tabs](../img/dummy.png)
+
+## From the user interface
+
+Go to Settings/Categories. To create a new category tree, click on 'Create a new category' button.
+![image of creating a new category tree? ](../img/dummy.png)
+
+To add a new category or subcategory in this tree, select your tree in the category dropdown menu. Once the tree appears, select the tree name to add a new category or select a category to add a new subcategory.
+Then right click on the selected category, the button 'create' will appear. 
+
+![image of create button to add a new category ](../img/dummy.png)
+
+## Through imports
+Akeneo comes with import jobs that allow you to create or update category trees and categories. You can use them to create a new tree, update a category tree or a category labels, or add new categories or subcategories for instance.
+
+To do so, use the search bar to find the existing job from `Imports` or click on `Create Import Profile` to add a new import.
+You can choose to use a CSV or XLSX import profile.
+![image of category ](../img/dummy.png)
+
+::: tips
+To learn how to create/update a category through the API, see the [API documentation](https://api.akeneo.com/api-reference-index-17.html#Categories) documentation.
+If you do not know the file format to import, go to `Exports`, use an existing XLSX or CSV category export profile (or create a new one) and use the exported file as a template!
+:::
+
+# Sort categories
+
+From the UI, you can drag & drop categories to reorder them within the tree. 
+![image of reordering category ](../img/dummy.png)
+
+::: warning
+You cannot sort category trees only categories. Trees are displayed by date of creation: new trees are displayed first.
+:::
+
+::: ee
+In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products.For more information about permissions on categories see the following page: [Proposals workflow](/articles/workflow.html). If you don't have the permission to see the categories, you won't be able to access the category panel displayed on the left side of the screen and access to the Settings/Categories menu.
+:::
+
+# How to categorize a product?
+
+Learn more about product categorization on the following page: [Categorize a product](/articles/categorize-a-product.html)
+
+::: tips
+A product can be categorized in none, one or several categories.
+An uncategorized product will not be exported.
+:::
+
+::: warning
+category, categories, categoryId are used for internal purposes, you cannot use these words as "codes" in the PIM.
+:::
