@@ -36,8 +36,28 @@ You can check if your channel has its own asset transformation by going to `Sett
 # Associate a transformation to a channel
 
 You can define one or more asset transformation per channel.
-To add new assets transformations for your channels, you will have to import them into the PIM. The expected file format is YML. Below is an example of this type of formation.
+To add new assets transformations for your channels, you will have to import them into the PIM. The expected file format is YML. Below is an example of the file.
 
+```yml
+asset_channel_configurations:
+    mobile:
+        configuration:
+            scale:
+                width: 200
+            colorspace:
+                colorspace: gray
+    print:
+        configuration:
+            resize:
+                width: 400
+                height: 500
+    ecommerce:
+        configuration:
+            scale:
+                ratio: 50
+```
+
+When you YML file is ready:
 1.  Go to `Imports`
 1.  Create a new import profile or use an existing one that is running the `Asset channel configuration import in Yaml` job
 1.  Upload your YML file and process the file
