@@ -59,12 +59,14 @@ To learn how to create/update a category through the API, see the [API documenta
 From the UI, you can drag & drop categories to reorder them within the tree. 
 ![image of reordering category ](../img/dummy.png)
 
+If you do not have the permission to see the categories (which is a permission defined for your user role in `System`/`Roles`), you will not be able to access the category panel displayed on the left side of the screen and access to the `Settings`/`Categories` menu.
+
 ::: warning
 You cannot sort category trees only categories. Trees are displayed by date of creation: new trees are displayed first.
 :::
 
 ::: ee
-In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Proposals workflow](/articles/workflow.html). If you don't have the permission to see the categories, you won't be able to access the category panel displayed on the left side of the screen and access to the `Settings`/`Categories` menu.
+In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Proposals workflow](/articles/workflow.html). 
 :::
 
 # How to categorize a product?
