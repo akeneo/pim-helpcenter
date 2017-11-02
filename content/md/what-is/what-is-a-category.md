@@ -6,7 +6,7 @@ related: categorize-a-product
 ---
 
 # Definition of a category
-In Akeneo, **a category is used to classify products or assets (EE)**. A category is always part of a main category tree (or *classification tree*).
+In Akeneo, **a category is used to classify products or assets (EE only)**. A category is always part of a main category tree (or *classification tree*).
 
 You can have **one or more category trees** in Akeneo with an **unlimited number of levels** (categories, subcategories, sub-subcategories...).
 
@@ -14,10 +14,15 @@ You can have **one or more category trees** in Akeneo with an **unlimited number
 
 ## Differences between families and categories
 
+### Categories
+
 - Trees and categories are a way to classify your products  
 - A product can be in several or no categories
+
+### Families
+
 - A family is a *set of attributes* used to enrich a product  
-- A product can only belong to one family  
+- A product can only belong to one family
 
 # How to create a new category? 
 
@@ -26,11 +31,11 @@ A category or a category tree only needs a code to be created. You can name your
 
 ## From the user interface
 
-Go to Settings/Categories. To create a new category tree, click on 'Create a new category' button.
+Go to `Settings`/`Categories`. To create a new category tree, click on `Create a new category` button.
 ![image of creating a new category tree? ](../img/dummy.png)
 
 To add a new category or subcategory in this tree, select your tree in the category dropdown menu. Once the tree appears, select the tree name to add a new category or select a category to add a new subcategory.
-Then right click on the selected category, the button 'create' will appear. 
+Then right click on the selected category, a `Create` button appears. 
 
 ![image of create button to add a new category ](../img/dummy.png)
 
@@ -42,8 +47,11 @@ You can choose to use a CSV or XLSX import profile.
 ![image of category ](../img/dummy.png)
 
 ::: tips
-To learn how to create/update a category through the API, see the [API documentation](https://api.akeneo.com/api-reference-index-17.html#Categories) documentation.
 If you do not know the file format to import, go to `Exports`, use an existing XLSX or CSV category export profile (or create a new one) and use the exported file as a template!
+:::
+
+::: tips
+To learn how to create/update a category through the API, see the [API documentation](https://api.akeneo.com/api-reference-index-17.html#Categories) documentation.
 :::
 
 # Sort categories
@@ -56,7 +64,7 @@ You cannot sort category trees only categories. Trees are displayed by date of c
 :::
 
 ::: ee
-In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products.For more information about permissions on categories see the following page: [Proposals workflow](/articles/workflow.html). If you don't have the permission to see the categories, you won't be able to access the category panel displayed on the left side of the screen and access to the Settings/Categories menu.
+In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Proposals workflow](/articles/workflow.html). If you don't have the permission to see the categories, you won't be able to access the category panel displayed on the left side of the screen and access to the `Settings`/`Categories` menu.
 :::
 
 # How to categorize a product?
@@ -69,5 +77,5 @@ An uncategorized product will not be exported.
 :::
 
 ::: warning
-category, categories, categoryId are used for internal purposes, you cannot use these words as "codes" in the PIM.
+`category`, `categories`, `categoryId` are used for internal purposes, you cannot use these words as "codes" in the PIM.
 :::
