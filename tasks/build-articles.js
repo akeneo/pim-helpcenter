@@ -10,6 +10,7 @@ var insert = require('gulp-insert');
 var tap    = require('gulp-tap');
 var path = require('path');
 var gulpMarkdownIt = require('gulp-markdown-it-adapter');
+var highlightJs = require('highlightjs');
 var hbs = require('handlebars');
 var gulpHandlebars = require('gulp-handlebars-html')(hbs);
 var fs = require('fs');
@@ -21,13 +22,32 @@ function getTocMarkdown(currentPage) {
     return "\n\n:::: toc\n@[toc]\n\n::::\n\n";
 }
 
+/**
+ * Highlight code snippet according to the language specified in the markdown.
+ *
+ * @param str
+ * @param lang
+ * @returns {string}
+ */
+function highlight(str, lang) {
+    if (lang && highlightJs.getLanguage(lang)) {
+        try {
+            return '<pre class="hljs"><code>' +
+                highlightJs.highlight(lang, str, true).value +
+                '</code></pre>';
+        } catch (__) {}
+    }
+    return '<pre class="hljs"><code>' + str + '</code></pre>';
+}
+
 gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
     var optionsMd = {
         html: true,
         xhtmlOut: true,
         typographer: false,
         linkify: false,
-        breaks: false
+        breaks: false,
+        highlight: highlight
     };
 
     var md = new MarkdownIt('default', optionsMd);
@@ -43,6 +63,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
         return '<a class="anchor" id="' + tokens[idx].attrs[0][1] + '"></a>'+
             '<'+tokens[idx].tag+' title-id="' + tokens[idx].attrs[0][1] + '">';
     };
+
 
     md.use(mdEmoji);
     md.use(require('markdown-it-container'), 'danger', {
