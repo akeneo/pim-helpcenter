@@ -11,7 +11,7 @@ related: upload-assets, assets-transformation
 
 To start, go to the `Assets` menu. From this page, there are many ways to work within the asset grid below.
 
-![image](../img/dummy.png)
+![View the assets list](../img/Assets_MainPage.png)
 
 ## Set up your work environment
 
@@ -38,14 +38,14 @@ The following information cannot be sorted out in the asset grid:
 To create an asset in the PIM:
 1. Go to the `Assets` menu
 1.  Click on the `Create an asset` in the top right­ corner
-![image](../img/dummy.png)
+![Create an asset](../img/Assets_Create1.png)
 1.  Select if the asset you want to create is localized or not. Note: If it will be localized, the area to upload a reference file is hidden. If not, you can upload a reference file.
 1.  If a file is uploaded as a reference file, a code is automatically generated based on the given filename. If not, the user has to put a code for the asset.
 1.  Click on the `Save` button.
 
 The asset has been created and the asset form page is displayed.
 
-![image](../img/dummy.png)
+![Variations of the assets](../img/Assets_Variations1.png)
 
 ::: info
 You can also create assets by mass uploading files. For more information about this feature, see [Upload assets](/articles/upload-assets.html).
@@ -59,14 +59,14 @@ To edit an asset, open the asset form by clicking on the right row in the asset 
 
 Click on the `Variations` tab.
 
-![image](../img/dummy.png)
+![Edit the files of an asset](../img/Assets_variations2.png)
 
 You can either generate variations from a reference file, or put the variation files manually.
 
 ### Add a reference file
 If you don't have any reference file for your asset yet:
 1.  Drag and drop the file in the area or click in the area to open the dialog box and select the file to add
-![image](../img/dummy.png)
+![Add a reference title](../img/Assets_AddingReferenceImgProcess.gif)
 1.  Click on the `Save` button
 
 The reference file is added and the variation files are generated.
@@ -78,19 +78,19 @@ The loading time depends on the size of the file, the complexity of the transfor
 ### Download a file (reference or variation)
 
 To download a file, click on the relevant `Download` button.
-![image](../img/dummy.png)
+![download a file](../img/Assets_DownloadButton.png)
 
 ### Delete a file (reference or variation)
 
 To delete a file, click on the relevant `Delete` button, and confirm the action.
 
-![image](../img/dummy.png)
+![delete a file](../img/Assets_DeleteButton.png)
 
-::: info 
+::: info
 If you delete the reference file, the variation files will not be updated.
 :::
 
-::: warning 
+::: warning
 If you delete a variation file, it cannot be generated from the reference file automatically, except if you reset variations. See the dedicated section below.
 :::
 
@@ -111,14 +111,13 @@ All the variations different from the reference file are updated. The others are
 ### Upload a variation file manually
 
 1.  Drag and drop the file in the area or click in the area to open the dialog box and select the file to add.
-![image](../img/dummy.png)
 1.  Click on the `Save` button.
 
 The variation file will be no more related to the reference file.
 
 ## Edit the asset properties
 1.  Click on the `Properties` tab
-![image](../img/dummy.png)
+![edit the asset properties](../img/Assets_Properties.png)
 1.  Edit the properties you want to change
 1.  Click on the `Save` button
 
@@ -152,7 +151,7 @@ An asset can be removed from the PIM. This means that all the relevant asset inf
 
 1.  Open the asset form you want to delete
 1.  Click on the `...` button and then select `Delete` in the dropdown
-![image](../img/dummy.png)
+![delete an asset](../img/Assets_DeleteAsset.png.png)
 1.  Confirm the action in the popin
 
 # Mass actions on asset
@@ -169,7 +168,7 @@ To save time you can mass add tag to an asset:
 
 A push message is displayed and the notification center displays a new notification.
 
-::: tips 
+::: tips
 If some of the tags you added don't exist, they will be automaticcaly created.
 :::
 
@@ -192,6 +191,6 @@ You can delete a selection of assets at once to earn time.
 1.  A menu appears at the bottom of the screen. Click on the `Delete assets` button
 1.  Click on `Delete` to confirm your action
 
-::: info 
+::: info
 Like a delete of a single asset, this action does not delete asset from the server.
 :::
