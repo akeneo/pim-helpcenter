@@ -31,7 +31,7 @@ The assets transformation given above are not enough for you? You need a new typ
 
 You can check if your channel has its own asset transformation by going to `Settings`/`Channels` then click on your channel, and go under the tab `Asset transformations`.
 
-![image](../img/dummy.png)
+![image](../img/Settings_ChannelsAssetsTransformations.png)
 
 # Associate a transformation to a channel
 
