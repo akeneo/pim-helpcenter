@@ -21,18 +21,18 @@ To start the product sequential edit:
     - `All` for all the products recorded  
     - `All visible` for all visible products on the ongoing page  
     - `None` for none of the products  
-  ![image](../img/dummy.png)
+  ![Dropdown Menu Sequential edit](../img/Products_DropdownmenuSequentialEdit.png)
 3.  Click on the `Sequential edit` button
-  ![image](../img/dummy.png)
+  ![image](../img/Products_SequentialEditCTA.png)
 4.  The product form of the first product of your selection is prompted with a progress bar at the bottom of the page
-  ![image](../img/dummy.png)
+  ![image](../img/Products_SequentialEditProgressBar.png)
 5. Enrich your first product and click on the button `Save and next` to display and enrich the next product in your selection
-  ![image](../img/dummy.png)  
+  ![image](../img/Products_SequentialEditProgressBarSaveandNext.png)  
 6. When all the products of your selection are enriched, click on the button `Save and finish` to come back to the product grid
 
 The progress bar tracks the number of products that have already been changed from the total number of products of selected products. The progress bar is surrounded by two links on the left and right side.
 
-![image](../img/dummy.png)
+![image](../img/Products_SequentialEditProgressBar2.png)
 
 The left link allows you to go back to the previous product, the right link to switch to the next one.
 
