@@ -13,13 +13,25 @@ When a product is added to a family, it automatically inherits from all attribut
 Finally, the family manages **the product’s completeness**.
 
 Here are some examples of families:
-- a 'camcorders' family,
-- a 'mugs' family,
-- a 'sofas' family,
-- a 'fridges' family,
-- a 'hammers' family...
+- a `camcorders` family,
+- a `mugs` family,
+- a `sofas` family,
+- a `fridges` family,
+- a `hammers` family...
 
-All these types of products have **their own characteristics**, a camcorder will have for instance the following attributes in its family: a product identifier (a sku for instance), a GTIN/EAN code, a name, a description, a reference price, a type of sensor,  a resolution, a sensor type and so on. The family 'Camcorders' will **gather all these attributes**, and they will be automatically added to any new product added to this family. 
+All these types of products have **their own characteristics**, a camcorder will have for instance the following attributes in its family: 
+- a product identifier (a `sku` for instance),
+- a GTIN/EAN/UPC/ASIN code,
+- a brand,
+- a commercial name,
+- a description,
+- a sensor type, 
+- a lens type,
+- an optical zoom, 
+- a screen type, 
+- exposure modes...
+
+The family `Camcorders` will **gather all these attributes**, and they will be automatically added to any new product added to this family. 
 
 A hammer will also have a product identifier (a sku for instance), a GTIN/EAN code, a name, a description, but it will have its own attributes like a handle length, a handle material, a weight, a material...
 
@@ -30,11 +42,11 @@ So, a family can use all the attributes available in the PIM and a same attribut
 Each family has **a code and a label**. The label can be translated in any activated locale.
 
 ::: tips
-- A product **can only belong to only one family**.
+- A product **can belong to only one family**.
 - A product **without family has no default attributes and no completeness**.
 - A family **defines the completeness of products**.
 :::
 
-Each family has also a **completeness**. Learn how to set your product completeness on the [completeness article](articles/what-is-the-completeness.html).
+Each family also has a **completeness**. Learn how to set your product completeness in the [Completeness](articles/what-is-the-completeness.html) article.
 
-Learn how to create, edit... your families on the [Manage your families](articles/manage-your-families.html)
+Find more information about how to create, update, edit the properties of your families in the [Manage your families](articles/manage-your-families.html) article.
