@@ -18,7 +18,7 @@ Click on a product on the grid or [create a new product](/articles/create-a-prod
 
 To select the channel you want to edit, select your channel in the drop down list on the header of the product form.
 
-![Selectt your working channel](../img/Products_PEF2.png)
+![Select your working channel](../img/Products_DropdownChannelPEF.png)
 
 If you want to edit several channels at once, you can edit the product information for one channel then another one and save all changes at once.
 
@@ -163,7 +163,7 @@ Comments are available under the  `Comments` tab in the Product Form.
 
 1.  Open the Product Form of the product you want to comment
 2.  Click on the `Comments` tab
-  ![image](../img/dummy.png)
+  ![image](../img/Products_Comments.png)
 3.  In the text field, write a new comment (there is no length restrictions)
 4.  Click on the `Add a new comment` button
 
@@ -183,5 +183,3 @@ You can only delete your own comments.
 1.  Place your mouse over the comment to delete
 2.  Click on the `Trash` icon which is prompted
 3.  Confirm you want to delete the comment by clicking on the `OK` button in the popin
-
-![image](../img/Products_DeleteComments.png)
