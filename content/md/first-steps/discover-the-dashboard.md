@@ -27,7 +27,7 @@ In the Entreprise Edition, the first widget of the dashboard is the widget gathe
 
 If no project is available you will see the message: «You have no current project, create a new project.»
 
-If you want to dig deeper into this widget, there is an [article](/articles/project-widget-in-dashboard.html) for you. ;)
+If you want to dig deeper into this widget, there is an [article](/articles/project-widget-dashboard.html) for you. ;)
 
 ::: ee
 This widget is only available for Enterprise Edition clients.
@@ -59,8 +59,8 @@ All products are displayed on this widget, regardless your [permissions on the p
 ## Last operations
 
 The next widget gathers the last operations you run in your PIM: 
-- your latest imports,
-- your latest exports,
+- your latest imports
+- your latest exports
 - your latest updates performed in the UI or that were automatically run
 
 For each operation, you will have a status (`Completed` or `Failed`) and a shortcut to the operation details. 
@@ -68,17 +68,17 @@ For each operation, you will have a status (`Completed` or `Failed`) and a short
 ![image](../img/dummy.png)
 
 ::: info
-To bring you more visibility on the job’s status, it is displayed in green when successful (no warnings), yellow when successful but with warnings, and red when it failed.
+To bring you more visibility on the job’s status, it is displayed in green when successful (no warnings), yellow when successful but with warnings (total number of warnings are also displayed), and red when it failed.
 :::
 
 
 ## Proposals to review _(Enterprise Edition only)_
 
-In the Entreprise Edition and depending on [your permissions](/articles/access-rights-on-products.html), you might see an additional widget that allows you to review suggestion of modifications made on products.
+In the Entreprise Edition and depending on [your permissions](/articles/access-rights-on-products.html), you might see an additional widget that allows you to [review suggestion of modifications made on products](/articles/review-products-proposals.html).
 
 ![image](../img/dummy.png)
 
-This widget will display the last proposals to review. To see all pending reviews, click on the `View all` button.
+This widget will display the last [proposals](/articles/proposals-workflow.html) to review. To see all pending reviews, click on the `View all` button.
 
 ::: ee
 This widget is only available for Enterprise Edition clients.
