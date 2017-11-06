@@ -10,7 +10,7 @@ related: create-a-product, product-completeness, categorize-a-product, products-
 # Go to a product
 Click on a product on the grid or [create a new product](/articles/create-a-product.html) to display the product form.
 
-![image](../img/dummy.png)
+![Go to a product](../img/Products_PEF1.png)
 
 # Select your working context (channel/locale)
 
@@ -18,7 +18,7 @@ Click on a product on the grid or [create a new product](/articles/create-a-prod
 
 To select the channel you want to edit, select your channel in the drop down list on the header of the product form.
 
-![image](../img/dummy.png)
+![Select your working channel](../img/Products_DropdownChannelPEF.png)
 
 If you want to edit several channels at once, you can edit the product information for one channel then another one and save all changes at once.
 
@@ -33,7 +33,7 @@ It is possible to define your working locale, the selection of the locale impact
 
 To select your working locale, select the locale you want to work with on the header of the product form.
 
-![image](../img/dummy.png)
+![select your working locale](../img/Products_PEF5.png)
 
 In the drop-down menu, you will find the locales (at least those that have been added to a channel).  
 If you cannot find your working locale listed, perhaps the locale is not required by any of the channels: therefore it is not enabled. To add a locale to a channel, please refer to [Manage your channels](/articles/manage-your-channels.html).
@@ -45,7 +45,7 @@ Or, you do not have the appropriate rights to view the product values for this l
 
 For the localizable attributes (with the indicated locale on top right of the field), the entered values will be saved only for the working locale.
 
-![image](../img/dummy.png)
+![Process to change of locales](../img/Products_ChangeOfLocalesProcess.gif)
 
 The localizable attributes for some locales exclusively (locale specific), are only displayed when they are concerned by the working locale.
 
@@ -59,15 +59,16 @@ The global attributes are displayed regardless of the working locale. Hence, the
 
 1.  Click on the `Attributes` tab
 1.  Select the channel and locale you want to edit
-  ![image](../img/dummy.png)
 1.  Change or complete your product information
 1.  Click on the `Save` button (top right hand corner).
+
+  ![Edit a product](../img/Products_EditingaProductProcess.gif)
 
 The product is updated and a new product version is created. You can view the product's versions on the `History` tab (see [View the product's versions](#view-the-products-versions)).
 
 By default all the attributes are displayed, you can change the attribute group by clicking on the list `Attribute group` and then selecting the attribute group.
 
-![image](../img/dummy.png)
+![Edit a product 2](../img/Products_PEF3.png)
 
 ::: ee
 If you cannot view or edit some attributes values, you do not have the appropriate rights to view or edit the product values for some attribute groups, please refer to [Set rights on the product catalog](/articles/build-your-user-groups.html#access-rights-on-product-information).
@@ -87,9 +88,9 @@ If an attribute option is missing for a select attribute type (simple or multise
 
 From the product form:
 1.  Click on the `+` icon on the right side of the attribute
-  ![image](../img/dummy.png)
+  ![The + option](../img/Products_AddOptionAttributes.png)
 1.  A popin appears, add the attribute option code and its label for the working locale
-  ![image](../img/dummy.png)
+  ![Add an option to your attribute](../img/Products_AddOptionAttributes2.png)
 1.  Click on the `Add` button to create the option, it will be automatically added to the product for this attribute
 
 If you do not see `+` icon, you might not have the appropriate rights to add an option, please refer to [Manage your user roles](/articles/build-your-user-roles.html).
@@ -108,7 +109,7 @@ To view the data in another locale and/or channel:
 
 The localized or scopable values are displayed on the right side of the product form in the compare / translate panel.
 
-![image](../img/dummy.png)
+![image](../img/Products_CompareTranslate1.png)
 
 The values on the right side can only be viewed, no edition is possible.
 
@@ -120,12 +121,12 @@ When a locale is displayed for convenient reference in the Product Form, you wil
 
 To copy the product information from a locale:
 1.  In the `Compare / Translate` mode, there are multiple option values that can be selected from the `Select` drop down menu
-  ![image](../img/dummy.png)
+  ![Dropdown Menu](../img/Products_CompareTranslateDropdownMenu.png)
     - The `All` option enables you to select all localized values of the locale of reference
     - The `All visible` option enables you to select all the attribute group values displayed.
     - The `None` option enables you to deselect all the localized values of the locale of reference
 1.  Click on the `Copy` button, the selected values are copied to the Product Form
-  ![image](../img/dummy.png)
+  ![Copy](../img/Products_CompareTranslateCopy.png)
 
 # View the product’s versions
 
@@ -147,7 +148,7 @@ To view the product versions:
 1.  Open the product form
 1.  Click on the `History` tab to see the whole list of versions
 
-![image](../img/dummy.png)
+![image](../img/Products_PEFHistory1.png)
 
 ::: ee
 The Enterprise Edition comes with a feature that allows you to rollback to a previous product version (button `Restore`, for more details, take a look at [Restore an old product version](/articles/restore-a-product.html).
@@ -162,7 +163,7 @@ Comments are available under the  `Comments` tab in the Product Form.
 
 1.  Open the Product Form of the product you want to comment
 2.  Click on the `Comments` tab
-  ![image](../img/dummy.png)
+  ![image](../img/Products_Comments.png)
 3.  In the text field, write a new comment (there is no length restrictions)
 4.  Click on the `Add a new comment` button
 
@@ -173,7 +174,7 @@ You can reply to all comments made on a product.
 1.  In the text field of the comment, reply to the comment
 1.  Click on the `Reply` button to save your answer
 
-![image](../img/dummy.png)
+![comments](../img/Products_Comments.png)
 
 ## Delete your comments
 
@@ -182,5 +183,3 @@ You can only delete your own comments.
 1.  Place your mouse over the comment to delete
 2.  Click on the `Trash` icon which is prompted
 3.  Confirm you want to delete the comment by clicking on the `OK` button in the popin
-
-![image](../img/dummy.png)
