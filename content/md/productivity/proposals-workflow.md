@@ -12,7 +12,7 @@ Thanks to the [Enterprise Edition permissions on the categories](/articles/acces
 
 # Statuses of products
 
-In the case you only have an [edit right though you user groups on a product](/articles/access-rights-on-products.html#rights-depending-on-the-categories), two more product information are displayed in the `Product infos` left panel in the product form:
+In the case you only have an [edit right on a product depending on its categorization](/articles/access-rights-on-products.html#rights-depending-on-the-categories), two more product information are displayed in the `Product infos` left panel in the product form:
 - `Owner groups`: the name(s) of the user group(s) that own the product
 - `Draft status`: the status of the product form
 
@@ -27,7 +27,7 @@ The statuses visible on the product form enable you to know which information is
 
 First, you will have to find a product on which you only have an edit right through its categories. In the product grid, there is a filter to help you find those products: set the `Permissions` filter to `Edit`.
 
-Select one of these product to go to its form.
+Select one of these products to go to its form.
 
 You can propose changes on all the product attributes of an attribute group on which you have the edit permission on the product values of the relevant locale. For more information about these permissions, do not hesitate to check the following sections: 
 - [Rights depending on the locales](/articles/access-rights-on-products.html#rights-depending-on-the-locale)
@@ -49,7 +49,7 @@ You can come back later on your product draft version to finish your enrichment 
 
 # Contribute on your product draft
 
-A product form will have the `In progress` status after you propose new values for the product information, it also means it has not been yet sent for approval to product managers.
+A product form will have the `In progress` status after you propose new values for the product information, it also means it has not been yet sent for approval to product managers. We call "product managers", whatever user that has a [owner right](/articles/access-rights-on-products#the-owner-right) on this product.
 
 You can continue to enrich your current draft by changing the product attributes values. Each time you will hit the `Save` button, a new draft will be generated.
 
