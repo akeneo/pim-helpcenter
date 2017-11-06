@@ -149,7 +149,7 @@ An asset can be removed from the PIM. This means that all the relevant asset inf
 
 1.  Open the asset form you want to delete
 1.  Click on the `...` button and then select `Delete` in the dropdown
-![delete an asset](../img/Assets_DeleteAsset.png.png)
+![delete an asset](../img/Assets_DeleteAsset.png)
 1.  Confirm the action in the popin
 
 # Mass actions on asset
