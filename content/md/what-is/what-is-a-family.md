@@ -1,46 +1,52 @@
 ---
 id: what-is-a-family
 themes: first-steps, akeneo-concepts
-title: What is the aim of **families**?
+title: What is a family?
 ---
 
-# Definition
+# Definition of a family
 
-A family is a set of attributes that are shared by products belonging to this family. In other words, a family can be considered as a template for products.
+A family is **a set of attributes** that is shared by products belonging to the same family. In other words, a family can be considered to something similar as a **product template**.
 
-A product family can use all the attributes available in the PIM. Several families of products can use the same attributes.
+When a product is added to a family, it automatically inherits from all attributes defined at the family level. A product **can belong to only one family** (but a product can be without family, in this case, it has no default attributes).
 
-When a product is associated to a family, the product automatically inherits from all attributes defined at the family level. A product can belong to only one family (but a product does not have to belong to a family, in this case, it has no default attributes). Moreover, the family helps managing the product’s completeness.
+Finally, the family manages **the product’s completeness**.
 
-### Example
-A family can be:
-- a mug,
-- a T-shirt,
-- a pair of shoes.
+Here are some examples of families:
+- a `camcorders` family,
+- a `mugs` family,
+- a `sofas` family,
+- a `fridges` family,
+- a `hammers` family...
 
-Each product family has a code and a label that can be translated. A product family can use all the attributes available in the PIM.
+All these types of products have **their own characteristics**, a camcorder will have for instance the following attributes in its family: 
+- a product identifier (a `sku` for instance),
+- a GTIN/EAN/UPC/ASIN code,
+- a brand,
+- a commercial name,
+- a description,
+- a sensor type, 
+- a lens type,
+- an optical zoom, 
+- a screen type, 
+- exposure modes...
 
-This means that a product family is used as a product model: the set of attributes generates the product edit form automatically and each product belonging to the same family has the same attributes.
+The family `Camcorders` will **gather all these attributes**, and they will be automatically added to any new product added to this family. 
 
-### Example
-The _“Mug”_ family is composed of the following attributes:
-- Name,
-- Weight,
-- Description,
-- Color.
+A hammer will also have a product identifier (a sku for instance), a GTIN/EAN code, a name, a description, but it will have its own attributes like a handle length, a handle material, a weight, a material...
 
-If a product belongs to the _“Mug”_ family, the above attributes are automatically added to the product. These attributes cannot be removed from the product.
+So, a family can use all the attributes available in the PIM and a same attribute can be used in several families, most of your products will have a description, a name, an identifier...
 
-# Key rules
+# Properties of families
 
-- Any product can be part of a family, but a product can be without a family. In this case, the product has no default attributes.
-- A family can also define the completeness of products.
+Each family has **a code and a label**. The label can be translated in any activated locale.
 
+::: tips
+- A product **can belong to only one family**.
+- A product **without family has no default attributes and no completeness**.
+- A family **defines the completeness of products**.
+:::
 
-# Differences between families and categories
+Each family also has a **completeness**. Learn how to set your product completeness in the [Completeness](articles/what-is-the-completeness.html) article.
 
-- Tree/categories is a way to classify your products.
-One product can be in n categories.
-
-- Family is set of attributes to enrich a product.
-  One product belongs to only one family.
+Find more information about how to create, update, edit the properties of your families in the [Manage your families](articles/manage-your-families.html) article.
