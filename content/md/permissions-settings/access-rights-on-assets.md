@@ -46,8 +46,8 @@ If an asset is in multiple asset categories of one tree or more, the most permis
 
 **Example**  
 The `main_picture_tshirt_divided.png` asset is categorized in:
- - the `Divided brand` category, on which the `Divided supplier` user group has an edit right
- - the `Tshirt` category, on which the `Divided supplier` user group only has a view right
+- the `Divided brand` category, on which the `Divided supplier` user group has an edit right
+- the `Tshirt` category, on which the `Divided supplier` user group only has a view right
 Now, imagine Mary is in the `Divider supplier` user group. She will have the edit right on the `main_picture_tshirt_divided.png` asset.
 
 ## One user, several user groups

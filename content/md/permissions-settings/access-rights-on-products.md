@@ -70,7 +70,7 @@ It is possible to define for each [user group](/articles/what-is-a-user-group.ht
 ## Three levels of access
 They are three levels of access based on the locales. Each one is described in the sections below.
 ### The edition right
-If a user **has rights to edit product information** for a specific locale (ie one of its user groups has at least the `Allowed to edit product information` permission), the specific locale will be displayed in the dropdown menu for the available locales:
+If a user **has rights to edit product information** for a specific locale (ie one of his user groups has at least the `Allowed to edit product information` permission), the specific locale will be displayed in the dropdown menu for the available locales:
 - In the product grid
 - In the published product grid _(Enterprise Edition only)_
 - In the product form
@@ -79,7 +79,7 @@ If a user **has rights to edit product information** for a specific locale (ie o
 He will also be able to import product data on this specific locale.
 
 ### The view right 
-If a user **has rights to only view product information** for a specific locale (ie its user groups only have the `Allowed to view product information` permission), the specific locale will be displayed in the dropdown menu for the available locales:
+If a user **has rights to only view product information** for a specific locale (ie his user groups only have the `Allowed to view product information` permission), the specific locale will be displayed in the dropdown menu for the available locales:
 - In the product grid
 - In the published product grid (Enterprise Edition only)
 - In the product form
@@ -122,7 +122,7 @@ It is possible to define for each [user group](/articles/what-is-a-user-group.ht
 They are four levels of access you can grant for your user groups on each of your category.
 
 ### The owner right
-If a user **is owner of the product information** for the products that are in a given category (ie its user groups have at least the `Allowed to own products` permission), he will be able to:
+If a user **is owner of the product information** for the products that are in a given category (ie his user groups have at least the `Allowed to own products` permission), he will be able to:
 *   View and edit the product information directly; rather than going through the [proposal’s workflow](/articles/workflow.html)
 *   View/review the [current proposals](/articles/review-products-proposals.html) of product values
 *   Approve/reject or partially approve [proposals](/articles/review-products-proposals.html) of values that needs to be reviewed
@@ -130,13 +130,13 @@ If a user **is owner of the product information** for the products that are in a
 *   View/Change the product [associations](/articles/products-associations.html) and [categories](/articles/what-is-a-category.html)
 
 ### The edition right
-If a user **has rights to only edit product information** for the products that are in a given category (ie its user groups have at least the `Allowed to edit products` permission), he will be able to:
+If a user **has rights to only edit product information** for the products that are in a given category (ie his user groups have at least the `Allowed to edit products` permission), he will be able to:
 *   View the product information
 *   Create a product [draft](/articles/workflow.html) that will need to be approved by the product manager
 *   Generate/send a proposal that will be processed by the product manager
 
 ### The view right 
-If a user **has rights to only view product information** for the products that are in a given category (ie its user groups only have the `Allowed to view products` permission), he will only be able to view the product information and that's all. No possibility to edit it.
+If a user **has rights to only view product information** for the products that are in a given category (ie his user groups only have the `Allowed to view products` permission), he will only be able to view the product information and that's all. No possibility to edit it.
 
 ### No right
 If a user **has no rights to see nor edit product information** for the products that are in a given category, he won't be able to neither view nor edit the product information, whatever the screen in the PIM.
@@ -228,13 +228,13 @@ It is possible to define for each [user group](/articles/what-is-a-user-group.ht
 They are three levels of access based on the attribute groups. Each one is described in the sections below.
 
 ### The edition right
-If a user **has rights to edit product information** for a specific attribute group (ie its user groups have at least the `Allowed to edit attribute` permission):
+If a user **has rights to edit product information** for a specific attribute group (ie his user groups have at least the `Allowed to edit attribute` permission):
 *   In the product form, the values of all the attributes of the group are enabled and they can be edited
 *   When using a product import, the values of all the attributes of the group can be updated
 *   When exporting products, the values of all attributes of the group will be exported
 
 ### The view right 
-If a user **has rights to only view product information** for a specific attribute group (ie its user groups only have the `Allowed to view attribute` permission):
+If a user **has rights to only view product information** for a specific attribute group (ie his user groups only have the `Allowed to view attribute` permission):
 *   In the product form, the values of all the attributes of the group are disabled and they can't be edited
 *   When using a product import, the values of all attributes of the group cannot be updated
 *   When exporting products, the values of all attributes of the group will be exported
