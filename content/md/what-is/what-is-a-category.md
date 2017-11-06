@@ -66,7 +66,7 @@ You cannot sort category trees only categories. Trees are displayed by date of c
 :::
 
 ::: ee
-In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Proposals workflow](/articles/workflow.html). 
+In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Proposals workflow](/articles/proposals-workflow.html). 
 :::
 
 # How to categorize a product?
