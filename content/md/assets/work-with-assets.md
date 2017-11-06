@@ -45,7 +45,7 @@ To create an asset in the PIM:
 
 The asset has been created and the asset form page is displayed.
 
-![Variations of the assets](../img/Assets_Variations1.png)
+![Create an asset 2](../img/Assets_variations2.png)
 
 ::: info
 You can also create assets by mass uploading files. For more information about this feature, see [Upload assets](/articles/upload-assets.html).
@@ -58,8 +58,6 @@ To edit an asset, open the asset form by clicking on the right row in the asset 
 ## Edit the files of an asset
 
 Click on the `Variations` tab.
-
-![Edit the files of an asset](../img/Assets_variations2.png)
 
 You can either generate variations from a reference file, or put the variation files manually.
 
