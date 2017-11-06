@@ -3,33 +3,31 @@ id: discover-the-dashboard
 themes: first-steps
 title: Discover the **dashboard** in details
 popular: false
-related: project-widget-dashboard, review-products-proposal, what-is-a-family, what-is-a-category, what-is-an-attribute
+related: what-is-a-project, project-widget-dashboard, imports, exports, review-products-proposals, access-rights-on-products 
 ---
 
 # Overview
-The dashboard is the default opening page. It is composed of a main navigation bar on the top (purple bar), and several widgets.
+The dashboard is the default opening page, once you've logged in.
 
 ![image](../img/dummy.png)
 
-Go back on the dashboard by clicking on the Akeneo logo on the top left hand corner. Depending on your permissions and on your version (Enterprise or Community), you will have more or less widgets.
+It is composed of several widgets. Each one is presented below.
+
+::: tips
+Wherever you are in the PIM, to go back to the dashboard, just click on the Akeneo logo at the top left corner.
+:::
 
 # Dashboard widgets
 
-## Shortcuts
+## Teamwork assistant projects _(Enterprise Edition only)_
 
-On the dashboard, you will find 4 main shortcut buttons that will lead you to your main catalog informations: Products, Families, Attributes and Categories. Depending on your permissions, you will have more or less shortcut buttons.
-
-![image](../img/dummy.png)
-
-## Teamwork assistant projects (Enterprise Edition only)
-
-Below the 4 shortcuts, you will see the projects created with the Teamwork Assistant.
+In the Entreprise Edition, the first widget of the dashboard is the widget gathering the projects created with the [Teamwork Assistant](/articles/what-is-a-project.html).
 
 ![image](../img/dummy.png)
 
 If no project is available you will see the message: «You have no current project, create a new project.»
 
-If you want to dig deeper into this widget, there is an [article](/articles/project-widget-in-dashboard.html) for you.
+If you want to dig deeper into this widget, there is an [article](/articles/project-widget-in-dashboard.html) for you. ;)
 
 ::: ee
 This widget is only available for Enterprise Edition clients.
@@ -37,21 +35,50 @@ This widget is only available for Enterprise Edition clients.
 
 ## Completeness over channels and locales
 
-Below the projects, you will have an overview of your channels and locales completenesses. In our example, we have 3 channels: Mobile, Print and Ecommerce. Each channel has 3 activated locales: German (de_DE), English (en_UK) and French (fr_FR). For each locales we have the enrichment’s progress bar (how complete my products are?), the number of products completed vs the total number of products. All products are displayed on this widget, regardless your permissions on the product’s categories.
+This widget gives you an overview of your channels and locales [completenesses](/articles/what-is-the-completeness.html).
 
 ![image](../img/dummy.png)
+
+In our example, we have 3 channels: 
+- Mobile
+- Print
+- Ecommerce 
+ 
+Each channel has 3 activated locales: 
+- German (`de_DE`)
+- English (`en_US`)
+- French (`fr_FR`)
+
+For each locales, there is an enrichment’s progress bar (how complete my products are?), the number of products completed vs the total number of products.
+
+::: info
+All products are displayed on this widget, regardless your [permissions on the product’s categories](/articles/access-rights-on-products.html#rights-depending-on-the-categories).
+:::
+
 
 ## Last operations
 
-At the bottom of the dashboard, you will see the last PIM operations: latest imports and exports, latest updates performed in the UI or run automatically. For each operation, you will have a status (completed/failed) and a shortcut to the operation details. To bring you more visibility on the job’s status, it is displayed in green when successfull (no warnings), yellow when successfull but with warnings, and red when it is failed.
+The next widget gathers the last operations you run in your PIM: 
+- your latest imports,
+- your latest exports,
+- your latest updates performed in the UI or that were automatically run
+
+For each operation, you will have a status (`Completed` or `Failed`) and a shortcut to the operation details. 
 
 ![image](../img/dummy.png)
 
-## Proposals to review (Enterprise Edition only)
+::: info
+To bring you more visibility on the job’s status, it is displayed in green when successful (no warnings), yellow when successful but with warnings, and red when it failed.
+:::
 
-Depending on your Akeneo Edition version (Enterprise or Community) and on your permissions, you might see an additional widget that allows you to review suggestion of modifications made on products. This widget will display the last reviews, to see all pending reviews to approve/reject click on «VIEW ALL».
+
+## Proposals to review _(Enterprise Edition only)_
+
+In the Entreprise Edition and depending on [your permissions](/articles/access-rights-on-products.html), you might see an additional widget that allows you to review suggestion of modifications made on products.
 
 ![image](../img/dummy.png)
+
+This widget will display the last proposals to review. To see all pending reviews, click on the `View all` button.
 
 ::: ee
 This widget is only available for Enterprise Edition clients.
