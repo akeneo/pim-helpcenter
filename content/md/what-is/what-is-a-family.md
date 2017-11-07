@@ -6,6 +6,8 @@ title: What is a family?
 
 # Definition of a family
 
+![what-is-a-family](../img/What-is-a-family.svg)
+
 A family is **a set of attributes** that is shared by products belonging to the same family. In other words, a family can be considered to something similar as a **product template**.
 
 When a product is added to a family, it automatically inherits from all attributes defined at the family level. A product **can belong to only one family** (but a product can be without family, in this case, it has no default attributes).
@@ -19,19 +21,19 @@ Here are some examples of families:
 - a `fridges` family,
 - a `hammers` family...
 
-All these types of products have **their own characteristics**, a camcorder will have for instance the following attributes in its family: 
+All these types of products have **their own characteristics**, a camcorder will have for instance the following attributes in its family:
 - a product identifier (a `sku` for instance),
 - a GTIN/EAN/UPC/ASIN code,
 - a brand,
 - a commercial name,
 - a description,
-- a sensor type, 
+- a sensor type,
 - a lens type,
-- an optical zoom, 
-- a screen type, 
+- an optical zoom,
+- a screen type,
 - exposure modes...
 
-The family `Camcorders` will **gather all these attributes**, and they will be automatically added to any new product added to this family. 
+The family `Camcorders` will **gather all these attributes**, and they will be automatically added to any new product added to this family.
 
 A hammer will also have a product identifier (a sku for instance), a GTIN/EAN code, a name, a description, but it will have its own attributes like a handle length, a handle material, a weight, a material...
 
