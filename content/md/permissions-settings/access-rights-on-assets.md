@@ -28,7 +28,7 @@ To set the level of access on assets according to the assets categories:
 1.  Go to `Settings` and click on the `Asset categories` menu entry
 1.  Select the asset category to set permissions on, in the left panel
 1.  Click on the `Permissions` tab
-    ![image](../img/dummy.png)
+    ![image](../img/Settings_AssetsCategoriesPermissions.png)
 1.  Click in the fields and select groups to grant them permissions
 1.  Click on the `Save` button
 
@@ -36,7 +36,7 @@ Permissions are immediately applied to users according to their user groups
 
 ::: info
 By default, all users are entitled to all the rights on the created asset categories through the `All` user group, which is the user group by default. If you define permissions to specific groups, remove the `All` user group.
-::: 
+:::
 
 # Some crucial tips
 
@@ -63,8 +63,8 @@ Now, imagine Mary is both in the `Divider supplier` and the `Manager` user group
 ## The `Apply changes on children` option
 
 In the `Permissions` tab, there is an option called `Apply changes on children`. This option is checked by default. It means that the permissions you have granted to your current category will be apply to all its sub-categories.  
-And vice-versa. 
+And vice-versa.
 
 As you can see in the example below, the `Apply changes on children` is checked for the parent category. So all its sub-categories will get exactly the same user groups configuration for the view and edit rights.
 
-![image](../img/dummy.png)
+![image](../img/Settings_AssetCategoriesPermissionsApplytoAllChildren.png)
