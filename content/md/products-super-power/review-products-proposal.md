@@ -3,12 +3,12 @@ id: review-products-proposals
 themes: boost-your-productivity, collaborative-work
 title: Review the product's **proposals**
 ee-only: true
-related: workflow, build-your-user-groups, what-is-a-user-group, access-rights-on-products
+related: proposals-workflow, build-your-user-groups, what-is-a-user-group, access-rights-on-products
 ---
 
 # Overview
 
-A proposal is a set of attribute values, written by a single contributor. 
+A [proposal](/articles/proposals-workflow.html) is a set of attribute values, written by a single contributor. 
 
 ::: info
 If two contributors are modifying the same product, then 2 proposals will be created.
@@ -34,7 +34,7 @@ A contributor can only send one single proposal per product.
 A proposal can gather several changes on a product.
 :::
 
-# Review the products’ proposals
+# Review the proposals
 
 You have 4 ways to review products’ proposals:
 - from the dashboard, click on the `Review` button in the `Proposals` widget
@@ -56,7 +56,7 @@ The proposals have the following properties:
 - A date and time sent for review
 - A status
 
-They are some filters available on each of th proposals’ grids. Do not hesitate to take advantage of them in order to filter your proposals.
+They are some filters available on each of the proposals’ grids. Do not hesitate to take advantage of them in order to filter your proposals.
 
 You can review the proposals and its changes according to [your permissions on attributes groups and locales](/articles/access-rights-on-products.html):
 - You can view only the changes you have the view permissions on
@@ -81,7 +81,7 @@ If you have only view rights on some changes, the changes are displayed but you 
 
 # Review actions on proposals
 
-A product manager can review all the proposals (approve or reject a proposal) or can partially review a proposal (approve or reject a change or somes changes) according to his permissions.  
+A product manager can review all the proposals (approve or reject a proposal) or can partially review a proposal (approve or reject a change or somes changes) according to his permissions. These actions are also available as mass actions to be even more efficient.  
 He can also delete proposals.
 
 ## Approve a proposal
@@ -179,7 +179,7 @@ The deleted values are not added to the product and the proposal is deleted.
 If you only have edit rights on some changes of a proposal, only these changes will be deleted in the proposal. The proposal will be kept with the other changes.
 :::
 
-## Mass review products’ proposals
+## Mass review proposals
 
 When you have a lot of proposals to review, you can see them all in the proposals grid accessible from `Activity` > `Proposals`.
 
@@ -202,7 +202,7 @@ For proposals having the `Can’t be reviewed` status, you cannot review the cha
 # View the contributors’ drafts
 
 You can view the inputs coming from the contributors in order to know what they have already enriched:
-1.  Go to a product edit form on which you are owner
+1.  Go to a product form on which you are owner
 1.  Click on the `...` button then choose the `Compare/Translate` option in the dropdown
 1.  By default, the product’s values of the working copy are displayed. However, you can change this using the following dropdown menu, choose `XX's draft`, XX being the name of the contributor you want to see the draft values
   ![image](../img/dummy.png)
