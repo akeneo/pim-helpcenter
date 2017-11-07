@@ -19,7 +19,7 @@ To access your account information:
 Click on `Edit` to change your profile information or settings. New tabs will appear once in edit mode: `Groups and Roles` and `Password`.
 
 ::: ee
-Enterprise Edition clients will also see a `Notifications` tab to manage notifications for the [proposals workflow](/articles/workflow.html) (feature only available on the EE version).
+Enterprise Edition clients will also see a `Notifications` tab to manage notifications for the [proposals workflow](/articles/proposals-workflow.html) (feature only available on the EE version).
 :::
 
 ## Your general information
@@ -101,20 +101,20 @@ If you wonder how to use these preferences, take a look below.
 
 ### The `When new proposal to review` notification
 
-If you activate this preference, you will receive notifications everytime you will have a [proposal](/articles/workflow.html) to review.
+If you activate this preference, you will receive notifications everytime you will have a [proposal](/articles/proposals-workflow.html) to review.
 
 ![image](../img/System_users_Profil_edit_notifs.png)
 
 ::: info
-You will only see this option in the case you own at least one product, meaning you have the `Own products` permission for at least one category. To learn more about this permission, it's [here](/articles/build-your-user-groups.html)!
+You will only see this option in the case you own at least one product, meaning you have the `Own products` permission for at least one category. To learn more about this permission, it's [here](/articles/access-rights-on-products.html)!
 :::
 
 ### The `When proposal is approved or rejected` notification
 
-If you activate this preference, you will receive notifications when your [proposals](/articles/workflow.html) are approved or rejected by your reviewers.
+If you activate this preference, you will receive notifications when your [proposals](/articles/proposals-workflow.html) are approved or rejected by your reviewers.
 
 ![image](../img/System_users_Profil_edit_notifs2.png)
 
 ::: info
-You will only see this option in the case you have only edit rights on at least one product, meaning you only have the `Edit products` permission for at least one category. To learn more about this permission, it's [here](/articles/build-your-user-groups.html)!
+You will only see this option in the case you have only edit rights on at least one product, meaning you only have the `Edit products` permission for at least one category. To learn more about this permission, it's [here](/articles/access-rights-on-products.html)!
 :::

@@ -40,7 +40,7 @@ If you cannot find your working locale listed, perhaps the locale is not require
 
 
 ::: ee
-Or, you do not have the appropriate rights to view the product values for this locale, please refer to [Set rights on the product catalog](/articles/build-your-user-groups.html#access-rights-on-product-information).
+Or, you do not have the appropriate rights to view the product values for this locale, please refer to the [Set rights on your catalog](/articles/access-rights-on-products.html) article.
 :::
 
 For the localizable attributes (with the indicated locale on top right of the field), the entered values will be saved only for the working locale.
@@ -71,7 +71,7 @@ By default all the attributes are displayed, you can change the attribute group 
 ![Edit a product 2](../img/Products_PEF3.png)
 
 ::: ee
-If you cannot view or edit some attributes values, you do not have the appropriate rights to view or edit the product values for some attribute groups, please refer to [Set rights on the product catalog](/articles/build-your-user-groups.html#access-rights-on-product-information).
+If you cannot view or edit some attributes values, you do not have the appropriate rights to view or edit the product values for some attribute groups, please refer to the [Set rights on your catalog](/articles/access-rights-on-products.html) article.
 :::
 
 ::: tips
