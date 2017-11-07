@@ -166,8 +166,8 @@ Now, let's imagine that the `Sony SS-SP32FWB` product is only categorized in the
 - Mary will get the following product form for the `Sony SS-SP32FWB` product. You can notice that the `Categories`, `Associations` and `Proposals` menu entries are hidden, in this case.
   ![Waht mary sees](../img/Products_ExampleMary.png)
 - Marco will get the following product form for the `Sony SS-SP32FWB` product. You can notice that the attributes values are greyed out because their edition is not allowed in this case.
-  ![What marco sees](../img/dummy.png)
-- Elis won't be able to access the product form of the `Sony SS-SP32FWB` product. She won't even be able to view the `Audio  and Video` category in the category tree.
+  ![What marco sees](../img/Products_ExampleMarco.png)
+- Elis won't be able to access the product form of the `Sony SS-SP32FWB` product. She won't even be able to view the `Audio and Video` category in the category tree.
 
 ## Set rights to user groups
 So now you better understand how the rights depending on the categories work, let's configure it in the interface:
