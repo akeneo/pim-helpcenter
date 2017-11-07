@@ -25,7 +25,7 @@ They are two available rights you can grant on each import/export profile:
 1. Click on the `Edit` button
 1. Click on the `Permissions` tab
 1. Click on the fields and select user groups to grant them permissions
-     ![image](../img/dummy.png)
+     ![image](../img/Imports_Permissions.png)
 1. Click on the `Save` button
 
 Permissions are immediately applied.
@@ -37,7 +37,7 @@ Permissions are immediately applied.
 1. Click on the `Edit` button
 1. Click on the `Permissions` tab
 1. Click on the fields and select user groups to grant them permissions
-     ![image](../img/dummy.png)
+     ![image](../img/Exports_Permissions.png)
 1. Click on the `Save` button
 
 Permissions are immediately applied.
