@@ -174,8 +174,8 @@ So now you better understand how the rights depending on the categories work, le
 1.  Go to `Settings` and select the `Categories` entry
 1.  Select the category to set permissions on
 1.  Go under the `Permissions` tab
-1.  Click in the fields to add users groups to grant them permisssions
-  ![image](../img/dummy.png)
+1.  Click in the fields to add users groups to grant them permissions
+  ![image](../img/Settings_AssetsCategoriesPermissions.png)
 1.  Click on the `Save` button
 
 Permissions are immediately applied to users.
