@@ -9,22 +9,22 @@ related: manage-your-attributes
 
 An attribute is a product’s characteristic. Each product is composed of different attributes.
 
-Depending on your Akeneo Edition version, you can have up to 13 attribute types: 
+Depending on your Akeneo Edition version, you can have up to 13 attribute types:
 - text and text area,
 - simple or multiselect,
 - [reference data](/articles/what-is-a-reference-data.html),
 - boolean (yes/no),
 - date,
-- number, 
-- price, 
-- metric (with an automatic conversion) 
+- number,
+- price,
+- metric (with an automatic conversion),
 - image,
 - assets (digital resources like a video, picture, pdf file...).
 
 Attributes are gathered into attribute groups in Akeneo.
 
 # Attribute properties
-Hereafter, we present the differents types of attributes.
+Hereafter, we present the different types of attributes.
 
 ::: info
 You can mix and match attribute properties to achieve a powerful result.
