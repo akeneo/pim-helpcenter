@@ -218,7 +218,7 @@ And vice-versa.
 
 As you can see in the example below, the `Apply changes on children` is checked for the parent category. So all its sub-categories will get exactly the same user groups configuration for the view and edit rights.
 
-![image](../img/dummy.png)
+![image](../img/Settings_AssetCategoriesPermissionsApplytoAllChildren.png)
 
 # Rights depending on the attribute groups
 It is possible to define for each [user group](/articles/what-is-a-user-group.html), which [attribute](/articles/what-is-an-attribute.html) values of products can be viewed and/or edited, depending on their [attribute groups](/articles/what-is-an-attribute-group.html).
@@ -247,16 +247,16 @@ If a user **has no rights to see nor edit product information** for a specific a
 
 ## An example
 Let's take an example with the following user groups permissions configuration, regarding the `Marketing` attribute group.
-![image](../img/dummy.png)
+![image](../img/Settings_AttributesgroupsMarketingExample1.png)
 
 Julia is in the `Marketing` user group that has the right to edit product information regarding the `Marketing` attribute group. As a result, in the product form, she can view/edit the product information in this attribute group as you can see in the screenshot below.
-![image](../img/dummy.png)
+![image](../img/Products_AttributesgroupsMarketingExample2.png)
 
 Robert is in the `Intern` user group that only has the right to view product information regarding the `Marketing` attribute group. As a result, in the product form, he can only view the product information in this attribute group as you can see in the screenshot below. The attributes in this attribute group are greyed out.
-![image](../img/dummy.png)
+![image](../img/Products_AttributesgroupsMarketingExample3.png)
 
-Mary is in the `Purchase team` user group that has no right on product information regarding the `Marketing` attribute group. As a result, in the product form, he cannot see at all neither the `Marketing` attribute group, nor its attributes, as you can see in the screenshot below.
-![image](../img/dummy.png)
+Mary is in the `Purchase team` user group that has no right on product information regarding the `Marketing` attribute group. As a result, in the product form, she cannot see at all neither the `Marketing` attribute group, nor its attributes, as you can see in the screenshot below.
+![image](../img/Products_AttributesgroupsMarketingExample4.png)
 
 ## Set rights to user groups
 So now you better understand how the rights depending on the attribute groups work, let's configure it in the interface:
