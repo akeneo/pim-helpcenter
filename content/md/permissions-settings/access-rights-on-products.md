@@ -57,7 +57,7 @@ The user can see the products in the `Shoes` category and can see the attributes
 ### Example 3
 Finally, let’s give the same user the permission to edit the locale `fr_FR`:
 - `de_DE` locale: no rights
-- `en_US` locale: view permission 
+- `en_US` locale: view permission
 - `fr_FR` locale: edit permission
 - `Shoes` category: view & edit permissions
 -  `General` attribute group: view & edit permissions
@@ -78,7 +78,7 @@ If a user **has rights to edit product information** for a specific locale (ie o
 
 He will also be able to import product data on this specific locale.
 
-### The view right 
+### The view right
 If a user **has rights to only view product information** for a specific locale (ie his user groups only have the `Allowed to view product information` permission), the specific locale will be displayed in the dropdown menu for the available locales:
 - In the product grid
 - In the published product grid (Enterprise Edition only)
@@ -96,24 +96,23 @@ If a user **has no rights to see nor edit product information** for a specific l
 
 He won't be able to edit product data in the product form, nor import product data on this specific locale.
 
-## An example
-
-Julia is in the `US team` user group that has the rights to edit product information regarding the `en_US` locale.  
-Robert is in the `Manager` user group that only has the rights to view product information regarding the `en_US` locale.  
-Mary is in the `German team` user group that has no rights on product information regarding the `en_US` locale.
-![image](../img/dummy.png)
-
-
 ## Set rights to user groups
 So now you better understand how the rights depending on the locales work, let's configure it in the interface:
 1.  Go to `Settings` and select the `Locales` entry
 1.  Select the locale from the grid or using the grid filters
 1.  Click on the `Permissions` tab
-  ![image](../img/dummy.png)
-1.  Click in the fields to add users groups to grant them permisssions
+  ![Set rights to user groups](../img/Settings_LocalesPermissions.png)
+1.  Click in the fields to add users groups to grant them permissions
 1.  Click on the `Save` button
 
 Permissions are immediately applied to users.
+
+## An example
+
+Julia is in the `US team` user group that has the rights to edit product information regarding the `en_US` locale.  
+Robert is in the `Manager` user group that only has the rights to view product information regarding the `en_US` locale.  
+Mary is in the `German team` user group that has no rights on product information regarding the `en_US` locale.
+![An example to better understand](../img/Settings_LocalesUserGroupsRights.png)
 
 # Rights depending on the categories
 It is possible to define for each [user group](/articles/what-is-a-user-group.html), which products can be viewed and/or edited and/or owned, depending on their classification in the [categories](/articles/what-is-a-category.html).
@@ -135,7 +134,7 @@ If a user **has rights to only edit product information** for the products that 
 *   Create a product [draft](/articles/workflow.html) that will need to be approved by the product manager
 *   Generate/send a proposal that will be processed by the product manager
 
-### The view right 
+### The view right
 If a user **has rights to only view product information** for the products that are in a given category (ie his user groups only have the `Allowed to view products` permission), he will only be able to view the product information and that's all. No possibility to edit it.
 
 ### No right
@@ -159,24 +158,24 @@ Then we have Marco, the supplier. He is in the `Supplier` user group.
 To finish, Elise is in the `Clothes manager` user group.
 
 As you can see in the screenshot below, the `Audio manager` user group is owner of the products in the `Audio  and Video` category, whereas the `Redactor` user group only has edit rights and the `Supplier` user group only has view rights. As it appears nowhere, the `Clothes manager` has no rights on the products of the `Audio  and Video` category.
-![image](../img/dummy.png)
+![An examples](../img/Settings_ExamplePermissions1.png)
 
 Now, let's imagine that the `Sony SS-SP32FWB` product is only categorized in the `Audio  and Video` category. As a result of the application of these rights:
 - Julia will get the following product form for the `Sony SS-SP32FWB` product
-  ![image](../img/dummy.png)
+  ![What Julia sees](../img/Products_ExampleJulia.png)
 - Mary will get the following product form for the `Sony SS-SP32FWB` product. You can notice that the `Categories`, `Associations` and `Proposals` menu entries are hidden, in this case.
-  ![image](../img/dummy.png)
+  ![Waht mary sees](../img/Products_ExampleMary.png)
 - Marco will get the following product form for the `Sony SS-SP32FWB` product. You can notice that the attributes values are greyed out because their edition is not allowed in this case.
-  ![image](../img/dummy.png)
-- Elis won't be able to access the product form of the `Sony SS-SP32FWB` product. She won't even be able to view the `Audio  and Video` category in the category tree.
+  ![What marco sees](../img/Products_ExampleMarco.png)
+- Elis won't be able to access the product form of the `Sony SS-SP32FWB` product. She won't even be able to view the `Audio and Video` category in the category tree.
 
 ## Set rights to user groups
 So now you better understand how the rights depending on the categories work, let's configure it in the interface:
 1.  Go to `Settings` and select the `Categories` entry
 1.  Select the category to set permissions on
 1.  Go under the `Permissions` tab
-1.  Click in the fields to add users groups to grant them permisssions
-  ![image](../img/dummy.png)
+1.  Click in the fields to add users groups to grant them permissions
+  ![Set rightsto users groups](../img/Settings_CategoriesPermissions.png)
 1.  Click on the `Save` button
 
 Permissions are immediately applied to users.
@@ -215,11 +214,11 @@ Now, imagine Mary is both in the `Divider supplier` and the `Manager` user group
 ### The `Apply changes on children` option
 
 In the `Permissions` tab, there is an option called `Apply changes on children`. This option is checked by default. It means that the permissions you have granted to your current category will be apply to all its sub-categories.  
-And vice-versa. 
+And vice-versa.
 
 As you can see in the example below, the `Apply changes on children` is checked for the parent category. So all its sub-categories will get exactly the same user groups configuration for the view and edit rights.
 
-![image](../img/dummy.png)
+![Apply changes to all children](../img/Settings_CategoriesPermissionsApplytoAllChildren.png)
 
 # Rights depending on the attribute groups
 It is possible to define for each [user group](/articles/what-is-a-user-group.html), which [attribute](/articles/what-is-an-attribute.html) values of products can be viewed and/or edited, depending on their [attribute groups](/articles/what-is-an-attribute-group.html).
@@ -233,7 +232,7 @@ If a user **has rights to edit product information** for a specific attribute gr
 *   When using a product import, the values of all the attributes of the group can be updated
 *   When exporting products, the values of all attributes of the group will be exported
 
-### The view right 
+### The view right
 If a user **has rights to only view product information** for a specific attribute group (ie his user groups only have the `Allowed to view attribute` permission):
 *   In the product form, the values of all the attributes of the group are disabled and they can't be edited
 *   When using a product import, the values of all attributes of the group cannot be updated
@@ -248,16 +247,16 @@ If a user **has no rights to see nor edit product information** for a specific a
 
 ## An example
 Let's take an example with the following user groups permissions configuration, regarding the `Marketing` attribute group.
-![image](../img/dummy.png)
+![Marketing permissions](../img/Settings_AttributesgroupsMarketingExample1.png)
 
 Julia is in the `Marketing` user group that has the right to edit product information regarding the `Marketing` attribute group. As a result, in the product form, she can view/edit the product information in this attribute group as you can see in the screenshot below.
-![image](../img/dummy.png)
+![Julia's case](../img/Products_AttributesgroupsMarketingExample2.png)
 
 Robert is in the `Intern` user group that only has the right to view product information regarding the `Marketing` attribute group. As a result, in the product form, he can only view the product information in this attribute group as you can see in the screenshot below. The attributes in this attribute group are greyed out.
-![image](../img/dummy.png)
+![Robert's case](../img/Products_AttributesgroupsMarketingExample3.png)
 
-Mary is in the `Purchase team` user group that has no right on product information regarding the `Marketing` attribute group. As a result, in the product form, he cannot see at all neither the `Marketing` attribute group, nor its attributes, as you can see in the screenshot below. 
-![image](../img/dummy.png)
+Mary is in the `Purchase team` user group that has no right on product information regarding the `Marketing` attribute group. As a result, in the product form, she cannot see at all neither the `Marketing` attribute group, nor its attributes, as you can see in the screenshot below.
+![Mary's case](../img/Products_AttributesgroupsMarketingExample4.png)
 
 ## Set rights to user groups
 So now you better understand how the rights depending on the attribute groups work, let's configure it in the interface:
