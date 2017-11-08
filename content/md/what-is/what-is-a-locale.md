@@ -7,19 +7,22 @@ title: What is a **locale**?
 # Definition of a locale
 A locale in Akeneo is a combination of a language (English, German, French...) and a country (United States, United Kingdom, France…). For instance, US english is en_US, UK english is en_UK. 
 
-You can have one or more locales activated in your PIM. Locales are used to translate some data in the interface. They are used to set values for attributes which may differ according to the relevant locale.
+Locales are used to translate some data in the interface.  
+Locales are also really central in the PIM because they are used to set values for [attributes](/articles/what-is-an-attribute.html) which may differ according to each locale.  
 
-If an attribute in Akeneo can have different values per locale enabled, these attributes will be called _“localizable”_.
+If an attribute in Akeneo can have different values per locale enabled, these attributes will be called _localizable_.
 
-Akeneo offers more than 200 locales by default that you can activate following your needs.
+# Locale properties
+Akeneo offers more than 200 locales by default that you can activate following your needs. You can have one or more locales activated in your PIM.
 
-::: tips
-In the Enterprise Edition, you can define specific user rights on locales: who can see or edit some product information for a specific locale.
+Learn how to enable/disable locales in the [Manage your locales](/articles/manage-your-locales.html) article.
 
+::: ee
+In the Enterprise Edition, you can define specific user [rights on locales](/articles/access-rights-on-products.html#rights-depending-on-the-locale): who can see or edit some product information for a specific locale.
+:::
 
 ::: warning
-Don't mix the locale concept with the Interface language :)
+Don't mix the locale concept with the interface language. :) 
 :::
 
 
-Learn how to enable/disable locales on the [Manage Your Locales](/articles/manage-your-locales.html) article.
