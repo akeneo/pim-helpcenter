@@ -9,8 +9,11 @@ gulp.task('copy-assets', ['clean-dist'], function(){
     var lib = gulp.src([
             'node_modules/jquery/dist/jquery.min.js',
             'node_modules/handlebars/handlebars.min.js',
-            'node_modules/bootstrap/dist/js/bootstrap.min.js'])
+            'node_modules/bootstrap/dist/js/bootstrap.min.js',
+            'node_modules/docsearch.js/dist/cdn/docsearch.min.js'])
         .pipe(gulp.dest('dist/js/'));
+    var css = gulp.src(['node_modules/docsearch.js/dist/cdn/docsearch.min.css'])
+        .pipe(gulp.dest('dist/css/'));
     var fonts = gulp.src(['node_modules/typeface-comfortaa/files/*',
               'node_modules/lato-font/fonts/lato-light/*',
               'node_modules/lato-font/fonts/lato-light-italic/*',
@@ -30,5 +33,5 @@ gulp.task('copy-assets', ['clean-dist'], function(){
         .pipe(rename({dirname: ''}))
         .pipe(gulp.dest('dist/img/'));
 
-    return merge(lib, fonts, img, articleImg);
+    return merge(lib, css, fonts, img, articleImg);
 });

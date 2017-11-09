@@ -1,0 +1,63 @@
+.algolia-autocomplete {
+    .ds-dropdown-menu {
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+        &:before{
+            border-radius: @border-radius-base;
+            border-top: 1px solid @gray-lighter;
+            border-right: 1px solid @gray-lighter;
+        }
+        [class^="ds-dataset-"]{
+            border-radius: @border-radius-base;
+            border: solid 1px @gray-lighter;
+        }
+    }
+    .algolia-docsearch-suggestion {
+        color: @text-color;
+    }
+    .algolia-docsearch-suggestion--highlight {
+        background: #E1F2FF;
+        color: inherit;
+    }
+    .algolia-docsearch-suggestion--category-header {
+        font-weight: 400;
+        color: lighten(@headings-color,10%);
+        text-transform: uppercase;
+        border-bottom: 1px solid @gray-lighter;
+    }
+    .algolia-docsearch-suggestion--subcategory-column {
+        color: @gray-light;
+    }
+    .algolia-docsearch-suggestion--title {
+        font-weight: normal;
+        color: @brand-info;
+    }
+
+    .algolia-docsearch-suggestion--text {
+        color: @text-color;
+        .algolia-docsearch-suggestion--highlight {
+            box-shadow: inset 0 -2px 0 0 @brand-akeneo;
+        }
+    }
+    .suggestion-layout-simple.algolia-docsearch-suggestion {
+        border-bottom: solid 1px @brand-akeneo;
+    }
+}
+
+@media (max-width: 768px) {
+    .algolia-autocomplete .ds-dropdown-menu {
+        max-width: calc(100vw - 32px) !important;
+        min-width: calc(100vw - 32px) !important;
+        width: calc(100vw - 32px) !important;
+        margin-left: 16px !important;
+    }
+    .algolia-autocomplete .algolia-docsearch-suggestion--content {
+        width: 100% !important;
+        padding-left: 0 !important;
+    }
+    .algolia-autocomplete .algolia-docsearch-suggestion--content:before {
+        display: none !important;
+    }
+    .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
+        display: none !important;
+    }
+}
