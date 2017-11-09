@@ -2,14 +2,14 @@
 id: what-is-an-attribute
 themes: first-steps, akeneo-concepts
 title: What is an **attribute**?
-related: manage-your-attributes
+related: manage-your-attributes, what-is-an-attribute-group
 ---
 
 # Definition of an attribute
 
 An attribute is a product’s characteristic. Each product is composed of different attributes.
 
-Depending on your Akeneo Edition version, you can have up to 12 attribute types:
+Depending on your Akeneo Edition version, you can have up to 13 attribute types:
 - text and text area
 - simple or multiselect
 - [reference data](/articles/what-is-a-reference-data.html)
@@ -51,5 +51,12 @@ For instance, you might want:
 - a short description for your e-commerce website
 - a even shorter for your mobile app
 - a long one for your print catalog
+
+# Validation parameters
+
+In order to control your data quality, you can add validation parameters to some of your attributes.  
+For instance, you can add a regular expression on a text field to use it for EAN codes. As they contain 13 digits, we can add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
+
+![image](../img/dummy.png)
 
 
