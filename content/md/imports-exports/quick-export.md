@@ -16,10 +16,10 @@ To start the export of product information from the products' grid:
 1. Select the products on which you want to perform the operation via the selection tool: all the products recorded, all visible products from the ongoing page, none of the products and the products for which you have ticked the 1st column
 ![image](../img/Products_BulkActions.png)
 1.  Click on the `Quick Export` displayed in at the bottom of the screen and select:
-    - `Excel (Grid context)` to generate Excel file according to your current view
-    - `Excel (All attributes)` to generate Excel file with all products’ attributes
-    - `CSV (Grid context)` to generate CSV file according to your current view
-    - `CSV (All attributes)` to generate CSV file with all products’ attributes
+    - `Excel (Grid context)` to generate Excel files according to your current view
+    - `Excel (All attributes)` to generate Excel files with all products’ attributes
+    - `CSV (Grid context)` to generate CSV files according to your current view
+    - `CSV (All attributes)` to generate CSV files with all products’ attributes
 
 ![image](../img/Products_QuickExportDropdown.png)
 
@@ -35,7 +35,7 @@ Two files are created:
 1. A file with the selected products named `products_export_<Working Locale Code>_<Working channel Code>_Date_Heure.xlsx` or with `.csv` extension
 2. A file with the selected product models named `product_models_export_<Working Locale Code>_<Working channel Code>_Date_Heure.xlsx` or with `.csv` extension
 
-The created files encloses one line per product or product model exported, and a column for each product information available. The format of the generated file is the same as for the product import and export in CSV or XLSX  format with the Akeneo connector.
+The created files enclose one line per product or product model exported, and a column for each product information available. The format of the generated file is the same as for the product import and export in CSV or XLSX  format with the Akeneo connector.
 
 ![image](../img/Exports_XLSXexample.png)
 
