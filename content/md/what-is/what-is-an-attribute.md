@@ -12,7 +12,7 @@ An attribute is a product’s characteristic. Each product is composed of differ
 Depending on your Akeneo Edition version, you can have up to 13 attribute types:
 - text and text area
 - simple or multiselect
-- [reference data](/articles/what-is-a-reference-data.html)
+- reference data
 - boolean (yes/no)
 - date
 - number
