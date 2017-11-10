@@ -1,6 +1,5 @@
 ---
 id: what-is-a-reference-data
-themes: first-steps
 title: What is a **reference data**?
 ---
 
