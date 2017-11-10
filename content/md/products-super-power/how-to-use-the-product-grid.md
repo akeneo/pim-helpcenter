@@ -4,7 +4,7 @@ themes: products-super-power
 title: Get familiar with the **product grid**
 popular: true
 ee-only: false
-related: manage-your-views, what-is-a-product, what-is-a-category, what-is-a-channel, what-is-a-locale
+related: manage-your-views, what-is-a-category, what-is-a-channel, what-is-a-locale
 ---
 
 # Where is the product grid?

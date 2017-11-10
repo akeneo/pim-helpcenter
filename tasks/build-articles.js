@@ -141,7 +141,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                 return params.trim().match(/^mainContent$/);
             },
             render: function (tokens, idx) {
-                return (tokens[idx].nesting === 1) ? '<div class="col-xs-12 col-sm-9">' : '</div>';
+                return (tokens[idx].nesting === 1) ? '<div class="col-xs-12 col-sm-9 docSearch-content">' : '</div>';
             }
         })
         .use(require('markdown-it-container'), 'panel-link', {
