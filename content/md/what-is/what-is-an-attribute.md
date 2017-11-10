@@ -24,7 +24,7 @@ Depending on your Akeneo Edition version, you can have up to 13 attribute types:
 Attributes are gathered into [attribute groups](/articles/what-is-an-attribute-group.html) in Akeneo.
 
 # Attribute properties
-An attribute can have several specific properties: it can be localisable, locale specific and/or scopable.
+An attribute can have several specific properties: it can be localizable, locale specific and/or scopable.
 
 ::: info
 You can mix and match attribute properties to achieve a powerful result.
@@ -57,6 +57,4 @@ For instance, you might want:
 In order to control your data quality, you can add validation parameters to some of your attributes.  
 For instance, you can add a regular expression on a text field to use it for EAN codes. As they contain 13 digits, we can add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 
-![image](../img/dummy.png)
-
-
+![Validation parameters](../img/Settings_EAN.png)
