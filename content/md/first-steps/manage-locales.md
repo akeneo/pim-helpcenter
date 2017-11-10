@@ -19,10 +19,10 @@ You can search on the locale’s code and filter on its status `Activated`: All/
 
 ![View locales](../img/Settings_Locales.png)
 
-# Activate a locale
+# How to enable a locale?
 
-A locale is activated if it is added at least to one channel, see [Manage your channels](/articles/manage-your-channels.html).
+A locale is activated when it is added to a channel, it cannot be enabled from the locale settings page or through a CSV or XLSX locale import. To learn how to enable a locale from the channel see [Manage your channels](/articles/manage-your-channels.html).
 
 :::info
-Locales not used in at least one channel are inactive.
+Locales which are not used in at least one channel are shown as inactive.
 :::
