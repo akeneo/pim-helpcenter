@@ -5,7 +5,10 @@ title: What is a **locale**?
 ---
 
 # Definition of a locale
-A locale in Akeneo is a combination of a language (English, German, French...) and a country (United States, United Kingdom, France…). For instance, US english is en_US, UK english is en_UK. 
+
+![What-is-a-locale ?](../img/what-is-a-locale.svg)
+
+A locale in Akeneo is a combination of a language (English, German, French...) and a country (United States, United Kingdom, France…). For instance, US english is en_US, UK english is en_UK.
 
 Locales are used to translate some data in the interface.  
 Locales are also really central in the PIM because they are used to set values for [attributes](/articles/what-is-an-attribute.html) which may differ according to each locale.  
@@ -22,7 +25,5 @@ In the Enterprise Edition, you can define specific user [rights on locales](/art
 :::
 
 ::: warning
-Don't mix the locale concept with the interface language. :) 
+Don't mix the locale concept with the interface language. :)
 :::
-
-
