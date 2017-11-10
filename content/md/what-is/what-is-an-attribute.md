@@ -57,4 +57,4 @@ For instance, you might want:
 In order to control your data quality, you can add validation parameters to some of your attributes.  
 For instance, you can add a regular expression on a text field to use it for EAN codes. As they contain 13 digits, we can add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 
-![Validation parameters](../img/Settings_AttributesRegularExpression1.png)
+![Validation parameters](../img/Settings_AttributesRegularExpression2.png)
