@@ -24,11 +24,11 @@ To check the association types:
 1.  Click on the `Show groups` button on the right-hand side of the tab to display the product groups grid
 1.  Click on the `Show products` button on the right-hand side of the tab to display the product grid
 
-![image](../img/dummy.png)
+![image](../img/Products_Associations.png)
 
 The green icon in front of the name of the association type shows that the product has at least one association with another product or group of products. The first type of association is displayed in the product grid, listing the products on which the type of association has been applied.
 
-![image](../img/dummy.png)
+![image](../img/Products_ProductsAssociated.png)
 
 The associated products can be identified by the input `Yes` in green in the `Is associated` column of the grid. The boxes are also checked.
 
