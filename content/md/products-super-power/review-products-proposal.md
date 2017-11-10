@@ -170,7 +170,6 @@ To delete a proposal:
     ![image](../img/Products_ProposalsInProgressRemove.png)
 1.  Click on the `Remove` button
 1.  You can add an optional comment for the contributor about your deletion
-    ![image](../img/Products_ProposalsInProgressRemoveComment.png)
 1.  Click on `Send` to delete the proposal. A notification is sent to the contributor
 
 The deleted values are not added to the product and the proposal is deleted.
