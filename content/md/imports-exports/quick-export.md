@@ -16,10 +16,10 @@ To start the export of product information from the products' grid:
 1. Select the products on which you want to perform the operation via the selection tool: all the products recorded, all visible products from the ongoing page, none of the products and the products for which you have ticked the 1st column
 ![image](../img/Products_BulkActions.png)
 1.  Click on the `Quick Export` displayed in at the bottom of the screen and select:
-    - `Excel (Grid context)` to generate an Excel file according to your current view
-    - `Excel (All attributes)` to generate an Excel file with all products’ attributes
-    - `CSV (Grid context)` to generate a CSV file according to your current view
-    - `CSV (All attributes)` to generate a CSV file with all products’ attributes
+    - `Excel (Grid context)` to generate Excel file according to your current view
+    - `Excel (All attributes)` to generate Excel file with all products’ attributes
+    - `CSV (Grid context)` to generate CSV file according to your current view
+    - `CSV (All attributes)` to generate CSV file with all products’ attributes
 
 ![image](../img/Products_QuickExportDropdown.png)
 
@@ -27,17 +27,21 @@ The action is processed as a back end task, so that you can continue to work on 
 
 ![image](../img/Products_QuickExportNotification.gif)
 
-On the report page, you can download the generated file.
+On the report page, you can download the generated files.
 
 ![image](../img/Products_QuickExportDownload.png)
 
-A file named `Products_export_<Working Locale Code>_<Working channel Code>_Date_Heure.csv` or `Products_export_<Working Locale Code>_<Working channel Code>_Date_Heure.xlsx` will be created.
+Two files are created:
+1. A file with the selected products named `products_export_<Working Locale Code>_<Working channel Code>_Date_Heure.xlsx` or with `.csv` extension
+2. A file with the selected product models named `product_models_export_<Working Locale Code>_<Working channel Code>_Date_Heure.xlsx` or with `.csv` extension
 
-The created file encloses one line per product exported, and a column for each product information available. The format of the generated file is the same as for the product import and export in CSV or XLSX  format with the Akeneo connector. Only the working channel is taken into account, and thus all the locale information required for the channel is exported. The working locale is not taken into account.
+The created files encloses one line per product or product model exported, and a column for each product information available. The format of the generated file is the same as for the product import and export in CSV or XLSX  format with the Akeneo connector.
 
 ![image](../img/Exports_XLSXexample.png)
 
-For this export from the grid, the completeness, the product status, their classification are not taken into account to determine what information can be exported. All the products selected in the product grid, regardless of their details, are exported to the CSV file or XLSX file.
+Only the working channel is taken into account, and thus all the locale information required for the channel is exported. The working locale is not taken into account.
+
+For this export from the grid, the completeness, the product status, their classification are not taken into account to determine what information can be exported. All the products and product models selected in the product grid, regardless of their details, are exported to the CSV file or XLSX file.
 
 ::: ee
 The quick export takes into account the user permissions on locales and attributes groups:
