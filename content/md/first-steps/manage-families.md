@@ -158,16 +158,14 @@ In our example for clothing which vary on 2 levels by color and then by size, th
 ## Create a family variant
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
 1.  Click on `Create variant` to create a new variant for the family
-1.  The creation of a family variant is prompted. The following properties are required to create a family variant:
+1.  The creation of a family variant is prompted
+![Create a family variant](../img/Settings_Families_Variant_Create.png)
+1.  The following properties are required to create a family variant:
     - A **code** to identify the family variant
     - A **label**
     - A number of **variant levels**: 1 or 2
     - The **variant axes** for each level: the variant axes are attributes of the family which identify the variant product in the product model. Their values must differ from a variant product to another in the product model (unicity). For examples, the `color` and `size` for a clothing model (there is only one product with the color blue and the size S and one product with the color blue and the size M for a t-shirt model), the `color` for a chair model, the `dimensions` for a mattress model.
-1.  Click on `Create`
-
-![Create a family variant](../img/Settings_Families_Variant_Create.png)
-
-The family variant is created.
+1.  Click on `Create`, the family variant is created.
 
 ::: info
 An attribute of the family could be a **variant axis** only if its attribute type is **structured**:
@@ -183,12 +181,39 @@ Moreover, the attribute cannot be scopable, localizable and locale specific.
 The maximum number of variant axes for each variant level is less than **5**.
 :::
 
-## Edit a family variant
+Then, a screen to distribute the attributes between the different levels (`common attributes`, `variant attributes level 1` and `variant attributes level 2`) for the family variant opens
+1.  Drag and drop attributes or attribute groups from the `common attributes` to the selected variant level to have these attributes managed at each variant level
+![Display a family variant](../img/Settings_Families_Variant_DistributeAttributes.png)
+1.  Click on `Save`, the family variant is updated
 
 ::: info
-This feature will be available soon. For the moment, you can only update the family variant by a dedicated import `Family variant import` available in CSV and XLSX.
+By default, the `common attributes` are all the attributes of the family, except the variant axes attributes (available for each variant level) and the attributes with the property `unique value` at `Yes` which are at the last variant level = product level (for example the `SKU` and `EAN`).
 :::
 
+
+## Edit a family variant
+
+1.  In `Settings/Families`, choose a family and open the `Variants` tab
+1.  Click on a family variant
+1.  The family variant edit page is displayed
+![Display a family variant](../img/Settings_Families_Variant_Display.png)
+1.  You can move attributes or attribute groups by a drag and drop from the `common attributes` to the selected variant level or from the `variant attributes level 1` to the `variant attributes level 2`
+1.  You can remove an attribute from a variant level by clicking on the cross
+1.  A confirmation opens
+![Display a family variant](../img/Settings_Families_Variant_EditRemove.png)
+1.  Click on `OK` to confirm the remove
+1.  When you have made all your updates on the family variant attributes, click on `Save`
+![Display a family variant](../img/Settings_Families_Variant_Edit.png)
+
+::: info
+Move attributes from `common attributes` to the selected variant level or from the `variant attributes level 1` to the `variant attributes level 2` mean than these attributes will be now managed at a level under (not common but variant), the values for these attributes are kept and moved. For the `Clothing` example, if you move the attribute `Description` from the `common attributes` to the `variant attributes level 1`, it means than now the description can be managed by color.
+
+You cannot move a variant axis or an attribute with the property `unique value` at `Yes`.
+:::
+
+::: warning
+Remove an attribute from a level means that this attribute will be managed as a `common attribute`, its values will be removed from the existing variant products with this family variant.
+:::
 
 # Mass edit families
 
