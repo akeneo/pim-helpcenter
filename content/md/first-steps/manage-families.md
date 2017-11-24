@@ -181,7 +181,7 @@ Moreover, the attribute cannot be scopable, localizable and locale specific.
 The maximum number of variant axes for each variant level is less than **5**.
 :::
 
-Then, a screen to distribute the attributes between the different levels (`common attributes`, `variant attributes level 1` and `variant attributes level 2`) for the family variant opens
+Then, a screen to distribute the attributes between the different levels (`common attributes`, `variant attributes level 1` and `variant attributes level 2`) for the family variant opens.
 1.  Drag and drop attributes or attribute groups from the `common attributes` to the selected variant level to have these attributes managed at each variant level
 ![Display a family variant](../img/Settings_Families_Variant_DistributeAttributes.png)
 1.  Click on `Save`, the family variant is updated
@@ -206,13 +206,15 @@ By default, the `common attributes` are all the attributes of the family, except
 ![Display a family variant](../img/Settings_Families_Variant_Edit.png)
 
 ::: info
-Move attributes from `common attributes` to the selected variant level or from the `variant attributes level 1` to the `variant attributes level 2` mean than these attributes will be now managed at a level under (not common but variant), the values for these attributes are kept and moved. For the `Clothing` example, if you move the attribute `Description` from the `common attributes` to the `variant attributes level 1`, it means than now the description can be managed by color.
+Moving attributes from `common attributes` to the selected variant level or from the `variant attributes level 1` to the `variant attributes level 2` means that these attributes will now be managed at a level under (not common but variant), the values for these attributes are kept and moved. For the `Clothing` example, if you move the attribute `Description` from the `common attributes` to the `variant attributes level 1`, it means that now the description can be managed by color.
+:::
 
+::: warning
 You cannot move a variant axis or an attribute with the property `unique value` at `Yes`.
 :::
 
 ::: warning
-Remove an attribute from a level means that this attribute will be managed as a `common attribute`, its values will be removed from the existing variant products with this family variant.
+Removing an attribute from a level means that this attribute will be managed as a `common attribute`, its values will be removed from the existing variant products with this family variant.
 :::
 
 # Mass edit families
