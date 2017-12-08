@@ -76,7 +76,7 @@ The bulk actions do not support [product models](/articles/what-about-products-v
 In order to save you some time, you can also directly categorize products in categories without an import / export thanks to a bulk action menu in the product grid.
 
 1.  Search for products in the grid with the appropriate filters
-2.  Select the products to be categorized via the selection tool: Tick the products you want to update via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+2.  Select the products to be categorized via the selection tool: tick the products you want to update via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
 ![Mass edit options](../img/Products_BulkActionUppermenu.png)
 3.  Click on `Bulk Actions`
 4.  Select the operation to be performed from the screen menu
@@ -96,7 +96,7 @@ Confirm the action with the `Confirm` button located in the middle of the screen
 To ease the enrichment of [products with variants](/articles/what-about-products-variants.html), you can gather products in a product model to allow the enrichment of their common properties.
 
 1.  Search for products in the grid with the appropriate filters
-2.  Select the products to add to an existing product model: Tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+2.  Select the products to add to an existing product model: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
 3.  Click on `Bulk Actions`
 4.  Select `Add products to an existing product model` and then `Next`
 5.  Select a family, a [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) and a [product model](/articles/what-about-products-variants.html#what-is-a-product-model)
@@ -106,7 +106,7 @@ To ease the enrichment of [products with variants](/articles/what-about-products
 8.  The products allowed will be added to the selected product model
 
 :::info
-The attributes defined as `common attributes` in the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) will be now enriched in the product model, the previous values for these attributes on the products are removed. For example, if you add 2 products with an existing description and you would like to gather them in a product model and manage a common description, their previous descriptions are removed.
+The attributes defined as `common attributes` in the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) will be now enriched at the product model level, the previous values for these attributes on the products are removed. For example, if you add 2 products with an existing description and you would like to gather them in a product model and manage a common description, their previous descriptions are removed.
 :::
 
 :::warning
