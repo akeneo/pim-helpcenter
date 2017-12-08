@@ -1,7 +1,7 @@
 ---
 id: product-mass-actions
 themes: products-super-power, boost-your-productivity
-title: "**Mass actions** on products"
+title: "**Bulk actions** on products"
 popular: false
 ee-only: false
 related: sequential-edit
@@ -13,25 +13,24 @@ Bulk operations enable you to perform actions on multiple products at once. Thes
 
 To access the bulk actions, go on the Product grid, **select at least one product** and click on the `Bulk actions` button, at the bottom of the grid.
 
-# Available mass actions
+# Available bulk actions
 Here’s the list of the bulk operations available in the PIM (Community and Enterprise Editions):
-  - Edit common attributes: to edit the common attributes of your selection of products. For instance, set a new release date or a new value for an attribute. This action does not add attribute to products
-  - Change family: to choose/change the family of the selected products
-  - Change status (enable/disable): this action allows you to edit the status of one or several products, to enable or disable the products
-  - Add to groups: to add your selection of products in one or more groups
-  - Add to categories: to add product into categories
-  - Move between categories: to change your product categorization
-  - Remove products from categories: to remove products from one or more categories at once. Selected products will be uncategorized.
-  - Publish products (Enterprise Edition only): to mass publish products
-  - Unpublish products (Enterprise Edition only - available from the Published product grid): to mass unpublish products
-  - Edit products sequentially: to edit product one after the other through their product edit forms
-
+  - **Edit common attributes**: to edit the common attributes of your selection of products. For instance, set a new release date or a new value for an attribute. This action does not add attribute to products
+  - **Change family**: to choose/change the family of the selected products
+  - **Change status (enable/disable)**: this action allows you to edit the status of one or several products, to enable or disable the products
+  - **Add to groups**: to add your selection of products in one or more groups
+  - **Add to categories**: to add product into categories
+  - **Move between categories**: to change your product categorization
+  - **Remove products from categories**: to remove products from one or more categories at once. Selected products will be uncategorized.
+  - **Publish products (Enterprise Edition only)**: to mass publish products
+  - **Unpublish products (Enterprise Edition only - available from the Published product grid)**: to mass unpublish products
+  - **Add to an existing product model**: to add products as variant of a [product model](/articles/what-about-products-variants.html#what-is-a-product-model)
 
 ::: info  
 In order to perform a bulk operation on products, you need the rights to each possible action, and also the general permission to perform bulk actions on products.
 :::
 
-# How to?
+# How to perform bulk actions?
 
 1.  Select the desired products in the grid with the appropriate filters
 1.  Tick the products you want to mass edit via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `None` for none of the products:
@@ -43,13 +42,14 @@ In order to perform a bulk operation on products, you need the rights to each po
 
 | Operations  | Step of configuration  |
 |:------------|:-----------------------|
-| Edit common attributes  | Add attributes to the product form to set the values ​​to be applied. The changes will be done for the scope and the locale selected in the product’s grid. <br>If you have several locales or scopes, you will have to do several mass actions                  |
+| Edit common attributes  | Add attributes to the product form to set the values ​​to be applied. The changes will be done for the scope and the locale selected in the product’s grid. <br>If you have several locales or scopes, you will have to do several bulk actions                  |
 | Change family | Select the family to be applied on products   |
 | Change status | Select the status to be applied: enable or disable  |
 | Add to groups     | Check the groups in which the products will be brought together       |
 | Add to categories<br>Move between categories<br>Remove from categories | Tick the categories in which the products will be categorized, moved or removed.   |
 | Publish products  | Confirm the action     |
 | Unpublish products  | Confirm the action     |
+| Add to an existing product model  | Select the product model to gather the products    |
 
 Confirm the action with the `Confirm` button located in the middle of the screen.
 
@@ -71,12 +71,12 @@ After some of the bulk actions the rules will be automatically applied.
 The bulk actions do not support [product models](/articles/what-about-products-variants.html#what-is-a-product-model) yet.
 :::
 
-## Categorize, move or remove products
+# Categorize, move or remove products
 
 In order to save you some time, you can also directly categorize products in categories without an import / export thanks to a bulk action menu in the product grid.
 
 1.  Search for products in the grid with the appropriate filters
-2.  Select the products to be removed via the selection tool: Tick the products you want to update via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+2.  Select the products to be categorized via the selection tool: tick the products you want to update via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
 ![Mass edit options](../img/Products_BulkActionUppermenu.png)
 3.  Click on `Bulk Actions`
 4.  Select the operation to be performed from the screen menu
@@ -85,11 +85,35 @@ In order to save you some time, you can also directly categorize products in cat
 
 | Operations                  | Step of configuration |
 |:----------------------------|:----------------------|
-| Add to categories | The products will be positionned into the selected categories, the existing placement is kept |
+| Add to categories | The products will be positioned into the selected categories, the existing placement is kept |
 | Move between categories     | The products will be moved into the selected categories, the existing placement is lost       |
 | Remove from categories | The products will be removed from the selected categories                                     |
 
 Confirm the action with the `Confirm` button located in the middle of the screen.
+
+# Add products to an existing product model
+
+To ease the enrichment of [products with variants](/articles/what-about-products-variants.html), you can gather products in a product model to allow the enrichment of their common properties.
+
+1.  Search for products in the grid with the appropriate filters
+2.  Select the products to add to an existing product model: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+3.  Click on `Bulk Actions`
+4.  Select `Add products to an existing product model` and then `Next`
+5.  Select a family, a [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) and a [product model](/articles/what-about-products-variants.html#what-is-a-product-model)
+![Mass edit options](../img/Products_BulkActionAddProductModel.png)
+6.  Click on `Next`
+7.  Confirm the action with the `Confirm` button located in the middle of the screen
+8.  The products allowed will be added to the selected product model
+
+:::info
+The attributes defined as `common attributes` in the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) will be now enriched at the product model level, the previous values for these attributes on the products are removed. For example, if you add 2 products with an existing description and you would like to gather them in a product model and manage a common description, their previous descriptions are removed.
+:::
+
+:::warning
+This operation can be only performed for non variant products, so products not already linked to a product model:
+  - You cannot add product models to a product model, only products.
+  - You cannot change the parent product model of a variant product.
+:::
 
 # Delete multiple products
 
