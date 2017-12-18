@@ -15,7 +15,7 @@ To access the bulk actions, go on the Product grid, **select at least one produc
 
 # Available bulk actions
 Here’s the list of the bulk operations available in the PIM (Community and Enterprise Editions):
-  - **Edit common attributes**: to edit the common attributes of your selection of products. For instance, set a new release date or a new value for an attribute. This action does not add attribute to products
+  - **Edit attributes**: to edit the attributes of your selection of products. For instance, set a new release date or a new value for an attribute. This action does not add attribute to products
   - **Change family**: to choose/change the family of the selected products
   - **Change status (enable/disable)**: this action allows you to edit the status of one or several products, to enable or disable the products
   - **Add to groups**: to add your selection of products in one or more groups
@@ -42,7 +42,7 @@ In order to perform a bulk operation on products, you need the rights to each po
 
 | Operations  | Step of configuration  |
 |:------------|:-----------------------|
-| Edit common attributes  | Add attributes to the product form to set the values ​​to be applied. The changes will be done for the scope and the locale selected in the product’s grid. <br>If you have several locales or scopes, you will have to do several bulk actions                  |
+| Edit attributes  | Add attributes to the products to set the values ​​to be applied |
 | Change family | Select the family to be applied on products   |
 | Change status | Select the status to be applied: enable or disable  |
 | Add to groups     | Check the groups in which the products will be brought together       |
@@ -68,12 +68,39 @@ After some of the bulk actions the rules will be automatically applied.
 :::
 
 :::warning
-The bulk actions do not support [product models](/articles/what-about-products-variants.html#what-is-a-product-model) yet.
+Only the bulk action `Edit attributes` supports the [product models](/articles/what-about-products-variants.html#what-is-a-product-model).
+:::
+
+# Edit products attributes
+
+To ease the mass enrichment of products attributes values, you can edit the attributes values of your products thanks to the `Edit attributes` bulk action in the product grid. For example, you can set the brand of a selection of products to Akeneo.
+
+1.  Search for products in the grid with the appropriate filters
+2.  Select the products to edit: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+3.  Click on `Bulk Actions`
+4.  Select `Edit attributes` and then `Next`
+5.  Click on `Select attributes` to select the attributes you want to update (for example the collection and the brand)
+6.  Add values for the selected attributes
+![Mass edit options](../img/Products_BulkActionEditAttribute.png)
+7.  Click on `Next`
+8.  Confirm the action with the `Confirm` button located in the middle of the screen
+9.  The attributes values will be updated in the selected products
+
+:::warning
+This action doesn't add attribute to products, only the attributes belonging to the families of the selected products will be edited.
+:::
+
+:::info
+The changes will be done for the scope and the locale selected in the product grid. If you have several locales or scopes, you will have to do several bulk actions.
+:::
+
+:::tips
+If you select some product models in the grid, the attributes will be updated on the product models and all its children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) is mass edited, the description will be updated on the product models and the weight on each child variant product of the selected product models.
 :::
 
 # Categorize, move or remove products
 
-In order to save you some time, you can also directly categorize products in categories without an import / export thanks to a bulk action menu in the product grid.
+In order to save you some time, you can also directly categorize products in categories without an import / export thanks to a bulk action in the product grid.
 
 1.  Search for products in the grid with the appropriate filters
 2.  Select the products to be categorized via the selection tool: tick the products you want to update via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
