@@ -84,18 +84,18 @@ To ease the mass enrichment of products attributes values, you can edit the attr
 ![Mass edit options](../img/Products_BulkActionEditAttribute.png)
 7.  Click on `Next`
 8.  Confirm the action with the `Confirm` button located in the middle of the screen
-9.  The attributes values will be updated on the products selected
+9.  The attributes values will be updated in the selected products
 
 :::warning
 This action doesn't add attribute to products, only the attributes belonging to the families of the selected products will be edited.
 :::
 
 :::info
-The changes will be done for the scope and the locale selected in the product’s grid. If you have several locales or scopes, you will have to do several bulk actions.
+The changes will be done for the scope and the locale selected in the product grid. If you have several locales or scopes, you will have to do several bulk actions.
 :::
 
 :::tips
-If you select some product models in the grid, the attributes will be updated on the product models and all its children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) is mass edited, the description will be updated on the product models and the weight on each child variant product of the product models selected.
+If you select some product models in the grid, the attributes will be updated on the product models and all its children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) is mass edited, the description will be updated on the product models and the weight on each child variant product of the selected product models.
 :::
 
 # Categorize, move or remove products
