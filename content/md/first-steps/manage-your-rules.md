@@ -46,6 +46,10 @@ But you can also execute rules on your own, you can execute:
 *   a selection of rules
 *   all your rules (be aware, this action could take a long time)
 
+:::warning
+The rules do not support [product models](/articles/what-about-products-variants.html#what-is-a-product-model) yet.
+:::
+
 ## Execute a single rule
 
 To execute a rule, click on the `Execute` button at the end of each line in the grid.  
