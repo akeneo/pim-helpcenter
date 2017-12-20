@@ -173,7 +173,7 @@ You can delete a product model from the product grid or the product form.
 1.  Click on the `Delete` button
 1.  A confirmation pop-in opens
   ![Add new variant](../img/Products_ProductModel_Delete.png)
-1.  Then `Delete` to confirm you want to delete the product model and its children
+1.  Then click on `Delete` to confirm you want to delete the product model and its children
 
 :::warning
 The product model and all its children (product models and variant products) are deleted.
@@ -189,7 +189,7 @@ It's not possible to mass delete product models from the product grid, because t
 1.  Select `Delete` in the dropdown
 1.  A confirmation pop-in opens
   ![Add new variant](../img/Products_ProductModel_Delete.png)
-1.  Then `Delete` to confirm you want to delete the product model and its children
+1.  Then click on `Delete` to confirm you want to delete the product model and its children
 
 :::warning
 The product model and all its children (product models and variant products) are deleted.
