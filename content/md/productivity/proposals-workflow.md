@@ -23,6 +23,10 @@ The statuses visible on the product form enable you to know which information is
 - `In progress:` this is the approved product form with your changes in progress. In other words, this a draft for your product form
 - `Waiting for approval:` you are waiting for your draft to be approved by the product manager
 
+:::warning
+The proposals do not support [product models](/articles/what-about-products-variants.html#what-is-a-product-model) yet.
+:::
+
 # Contribute to a working copy
 
 First, you will have to find a product on which you only have an edit right through its categories. In the product grid, there is a filter to help you find those products: set the `Permissions` filter to `Edit`.
