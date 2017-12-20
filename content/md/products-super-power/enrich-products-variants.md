@@ -163,3 +163,34 @@ The list of versions are displayed in the `History` tab.
 ::: info
 In `COMMON`, only the common properties (attributes and categories) will be versioned. You can use the navigation component to display the versions of each variant level.
 :::
+
+# Delete a product model
+
+You can delete a product model from the product grid or the product form.
+
+## From the product grid
+1.  Hover your mouse over the product model line in the grid, then the delete button (a trash icon) will be displayed
+1.  Click on the `Delete` button
+1.  A confirmation pop-in opens
+  ![Add new variant](../img/Products_ProductModel_Delete.png)
+1.  Then click on `Delete` to confirm you want to delete the product model and its children
+
+:::warning
+The product model and all its children (product models and variant products) are deleted.
+:::
+
+:::info
+It's not possible to mass delete product models from the product grid, because the delete of a product model could delete in cascade lots of children product models and variant products.
+:::
+
+## From the product form
+1.  Open the product form for a product model
+1.  Click on the `...` in the top right corner of the screen
+1.  Select `Delete` in the dropdown
+1.  A confirmation pop-in opens
+  ![Add new variant](../img/Products_ProductModel_Delete.png)
+1.  Then click on `Delete` to confirm you want to delete the product model and its children
+
+:::warning
+The product model and all its children (product models and variant products) are deleted.
+:::  
