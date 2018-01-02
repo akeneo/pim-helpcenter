@@ -55,6 +55,27 @@ The available channels are those concerned with the locale selected higher up on
 Like the locale, the channel selected on the product grid’s page is applied when editing a product form.
 :::
 
+# Product grid display (_since 2.1_)
+
+To highlight the products' images in the product grid, a new `Gallery` display of the product grid is now available. This display can be used to quickly find products by their images and update them.
+
+With this new display, the following properties are displayed in the grid (you cannot choose them, there is no `Columns` button available):
+- Identifier for a product (attribute defined as product identifier) or code for a [product model](/articles/what-about-products-variants.html#what-is-a-product-model)
+- Label: attribute used as "label" in the [product's family](/articles/manage-your-families.html#create-a-family)
+- Image: attribute used as "main picture" in the [product's family](/articles/manage-your-families.html#create-a-family)
+- Completeness for a product
+- Number of complete variant products out of the number of variant products for a [product model](/articles/what-about-products-variants.html#what-is-a-product-model) (ex: 2/3 means that 2 variants out of 3 for the product model are complete)
+
+Other grid features also apply to this new display (channel, locale and categories selection, filters, pagination, products selection, etc.).
+1.  Click on `List` to change the display  
+  ![Select the product grid display](../img/Products_display.png)
+1.  Select the new display `Gallery`
+  ![Gallery display of the product grid](../img/Products_gallery_display.png)
+
+:::info
+The context of the chosen display for the product grid is kept.
+:::
+
 # Product grid pagination
 
 The product grid displays 25 products per page. To browse product’s pages, click on the number of the page you want to reach.
@@ -144,6 +165,23 @@ If you are missing an attribute in the Filters menu check if it is well activate
 ::: ee
 Only the attributes that you can view or edit are available in the list of filters on the product grid.
 :::
+
+## Search by label and identifier (_since 2.1_)
+
+To quickly find products, a search bar is available in the product grid.
+The search is only on the identifier (product identifier or [product model](/articles/what-about-products-variants.html#what-is-a-product-model) code) and the label (attribute used as "label" in the [product's family](/articles/manage-your-families.html#create-a-family)).
+
+![Search bar](../img/Products_search.png)
+
+The behavior of the search is a "contains" filter. For example, if you type in "can", it will display all the products or product models with an identifier/code or a label which contains "can".  
+You don't need to press enter to search, just enter a few characters and it automatically searches.
+
+![Use the search](../img/Products_searchExample.png)
+
+:::info
+If the label is localizable or scopable, the search takes into account the locale and the channel selected in the grid.
+:::
+
 
 ## Configure grid columns
 
