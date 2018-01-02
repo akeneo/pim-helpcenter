@@ -25,6 +25,7 @@ Here’s the list of the bulk operations available in the PIM (Community and Ent
   - **Publish products (Enterprise Edition only)**: to mass publish products
   - **Unpublish products (Enterprise Edition only - available from the Published product grid)**: to mass unpublish products
   - **Add to an existing product model**: to add products as variant of a [product model](/articles/what-about-products-variants.html#what-is-a-product-model)
+  - **Associate to products (since 2.1)**: to add associations for your selection of products
 
 ::: info  
 In order to perform a bulk operation on products, you need the rights to each possible action, and also the general permission to perform bulk actions on products.
@@ -50,6 +51,7 @@ In order to perform a bulk operation on products, you need the rights to each po
 | Publish products  | Confirm the action     |
 | Unpublish products  | Confirm the action     |
 | Add to an existing product model  | Select the product model to gather the products    |
+| Associate to products  | Add associations to the products selected (_since 2.1_)    |
 
 Confirm the action with the `Confirm` button located in the middle of the screen.
 
@@ -65,10 +67,6 @@ When you click on the notification, you access the report page of the action.
 
 ::: ee
 After some of the bulk actions the rules will be automatically applied.
-:::
-
-:::warning
-Only the bulk action `Edit attributes` supports the [product models](/articles/what-about-products-variants.html#what-is-a-product-model).
 :::
 
 # Edit products attributes
@@ -95,7 +93,7 @@ The changes will be done for the scope and the locale selected in the product gr
 :::
 
 :::tips
-If you select some product models in the grid, the attributes will be updated on the product models and all its children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) is mass edited, the description will be updated on the product models and the weight on each child variant product of the selected product models.
+If you select some [product models](/articles/what-about-products-variants.html#what-is-a-product-model) in the grid, the attributes will be updated on the product models and all its children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) is mass edited, the description will be updated on the product models and the weight on each child variant product of the selected product models.
 :::
 
 # Categorize, move or remove products
@@ -118,9 +116,13 @@ In order to save you some time, you can also directly categorize products in cat
 
 Confirm the action with the `Confirm` button located in the middle of the screen.
 
+:::warning
+These bulk actions support the [product models](/articles/what-about-products-variants.html#what-is-a-product-model) since the 2.1.
+:::
+
 # Add products to an existing product model
 
-To ease the enrichment of [products with variants](/articles/what-about-products-variants.html), you can gather products in a product model to allow the enrichment of their common properties.
+To ease the enrichment of [products with variants](/articles/what-about-products-variants.html), you can gather products in a [product model](/articles/what-about-products-variants.html#what-is-a-product-model) to allow the enrichment of their common properties.
 
 1.  Search for products in the grid with the appropriate filters
 2.  Select the products to add to an existing product model: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
@@ -142,6 +144,35 @@ This operation can be only performed for non variant products, so products not a
   - You cannot change the parent product model of a variant product.
 :::
 
+# Associate products (_since 2.1_)
+
+To ease the add of associations, you can mass associate products.
+
+1.  Search for products in the grid with the appropriate filters
+2.  Select the products to add associations: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+3.  Click on `Bulk Actions`
+4.  Select `Associate to products` and then `Next`
+5.  Select the association type
+  ![Select association type](../img/Products_BulkSelectAssociationType.png)
+6.  Click on the `Add associations` button
+  ![Add association](../img/Products_BulkAddAssociation.png)
+7.  The picker to select products or product models opens
+8.  Filter on the categories, on the label or identifier or add filters to find the products or product models to associate
+9.  Tick in the grid the products or product models to associate, they are displayed in the basket
+  ![Add association](../img/Products_BulkPickerAssociation.png)
+10.  Click on the `Confirm` button
+11.  Confirm the bulk action with the `Confirm` button located in the middle of the screen
+  ![Add association](../img/Products_BulkConfirmAssociation.png)
+12.  The products selected will be associated to the products and product models/
+
+:::warning
+[Product models](/articles/what-about-products-variants.html#what-is-a-product-model) have no association, if you select product models in the grid and mass associate it to products or product models, all their children variant products will be associated.
+:::
+
+:::info
+You can view the products associations in the product form, in the `Associations` tab, refer to [this article](/articles/products-associations.html) for more details.
+:::
+
 # Delete multiple products
 
 To delete multiple products:
@@ -151,3 +182,7 @@ To delete multiple products:
 3.  Click on `Delete` in the toolbar located at the bottom of the screen
 4.  Confirm the action with the `Confirm` button
 ![Confirm delete](../img/Products_BulkActionUppermenuDelete2.png)
+
+:::warning
+You can mass delete only products, [product models](/articles/what-about-products-variants.html#what-is-a-product-model) cannot be mass deleted, you have to delete them one by one.
+:::
