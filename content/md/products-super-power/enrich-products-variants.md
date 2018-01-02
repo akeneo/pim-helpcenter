@@ -85,13 +85,13 @@ For more details about the product form, you can read [Enrich your product](/art
 
 ## Header and infos
 
-For products with variants, the following properties are displayed in the product form header:
-- The number of complete variant products out of the number of variant products for a product model are displayed in `Variant products` (ex: 2/6 means that 2 variants out of 6 for the product model are complete)
+For product models, the following properties are displayed in the product form header:
+- The number of complete variant products out of the number of variant products for a product model in `Variant products` (ex: 2/6 means that 2 variants out of 6 for the product model are complete)
 - The total `missing required attributes` (__since the 2.1__) for a product model. If you click on it, it will display only the attributes required for the completeness without value (filter on display `all missing required attributes`).
 
 ![Header for product model](../img/Products_ProductModel_Header.png)
 
-For products with variants, the following properties are displayed in the `Product infos`:
+For product models, the following properties are displayed in the `Product infos`:
 - Family: All the products of a product model belong to the same family
 - **Variant**: A [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) defines how the products with variants are structured
 - Created: Creation date and user who create the product model
