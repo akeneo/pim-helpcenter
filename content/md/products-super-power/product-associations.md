@@ -20,7 +20,7 @@ Since the 2.1, a product can be associated to a [product model](/articles/what-a
 :::
 
 :::warning
-Only products can have associations, [product models](/articles/what-about-products-variants.html#what-is-a-product-model) have no association.
+Only products can have associations, [product models](/articles/what-about-products-variants.html#what-is-a-product-model) can't have association.
 :::
 
 # View the product’s associations
@@ -48,7 +48,7 @@ Only the associated products or [product models](/articles/what-about-products-v
 
 ![View the associated products](../img/Products_ProductsAssociated21.png)
 
-By default, if the product has no association for the association type selected, nothing is displayed in the "Associations" tab.
+By default, if the product has no association for the selected association type, nothing is displayed in the "Associations" tab.
 
 ![No association](../img/Products_ProductsNoAssociation.png)
 
