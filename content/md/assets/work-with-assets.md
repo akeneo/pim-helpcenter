@@ -35,7 +35,7 @@ The following information cannot be sorted out in the asset grid:
 
 ## Asset grid display (_since 2.1_)
 
-To highlight the products' images, a `Gallery` display is available in the asset grid.
+To highlight the assets images, a `Gallery` display is available in the asset grid.
 
 :::info
 Grid features also apply to this display (filters, channel, locale and categories selection, pagination, assets selection, etc.).
