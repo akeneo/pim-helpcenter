@@ -23,25 +23,39 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 
 # Rights on products pages
 
+## Permissions on products
+
 | Permission name | Effect on the interface |
 |---------------------------|--------------|
 | Add product to groups                          | User can add products to group, in `Settings`/`Groups` he will see the `Products` tab               |
-| View the association types of a product        | User can see the `Associations` menu entry in the product form                                  |
+| View the associations of a product        | User can see the `Associations` menu entry in the product form  |
+| Add associations to a product (_since 2.1_)         | User can add associations in the `Associations` tab using the `Add associations` button  |
+| Remove associations to a product (_since 2.1_)       | User can remove an association in the `Associations` tab using the cross                               |
 | Consult the categories of a product            | User can see the `Categories` menu entry in the product form                                    |
 | Change product Family                          | User can change the product’s family in the panel on the left of the product form      |
 | Change state of product     | User can change the status of the product: `enable` or `disable` directly in the panel on the left of the product form  |
 | Comment products | User can see the `Comments` menu entry in the product form |
-| Create a product                               | User can create a new product in the product grid through the `Create product` button             |
+| Create a product                               | User can create a new product in the product grid through the `Create` button             |
 | Download the product as PDF                | User will be able to generate a PDF file containing all the product information using the `PDF` button in the `...` dropdown on the top of the product form |
 | Edit attributes of a product                   | User can edit the product’s attributes under the `Attributes` menu entry of the product form   |
 | View product history | User can see the `History` menu entry in the product form  |
 | List products                                  | User can see the list of products in several pages: on the product grid in `Products`, as well as on the `Associations` menu entry of the product form, in `Groups`... |
 | Product mass edit actions | User can make mass actions on the product grid |
-| Remove a product           | User can remove a product from the PIM using the `Delete` button in the `...` dropdown on the top of the product form      |
+| Remove a product           | User can remove a product from the PIM using the `Delete` button in the `...` dropdown on the top of the product form or the product grid (trash icon)      |
 | Remove an attribute from a product             | User can remove an attribute from a product using the `cross` icon next to attributes added to the product                                                                  |
 | List asset categories in the asset picker _(EE only)_ | User can access the `Manage assets` button to open the asset picker and list the asset categories  |
 | Restore a product _(EE only)_ | User can restore a previous version of a product using the `Restore` button in the product history page  |
 | Manage published products _(EE only)_   | User can access the published products grid by clicking on the `Published products` button  in the `...` dropdown on the top of the product grid |
+
+## Permissions on product models
+
+| Permission name | Effect on the interface |
+|---------------------------|--------------|
+| Consult the categories of a product model  | User can see the `Categories` menu entry in the product form for a product model                                    |
+| Create a product model   | User can create a new product model in the product grid through the `Create` button             |
+| Edit attributes of a product model | User can edit the product’s attributes under the `Attributes` menu entry in the product form for a product model   |
+| View product model history | User can see the `History` menu entry in the product form for a product model  |
+| Remove a product model  | User can remove a product model from the PIM using the `Delete` button in the `...` dropdown on the top of the product form or the product grid (trash icon)     |
 
 # Rights on assets
 ## Permissions on assets _(EE only)_
