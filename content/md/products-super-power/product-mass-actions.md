@@ -163,14 +163,14 @@ To ease the add of associations, you can mass associate products.
 10.  Click on the `Confirm` button
 11.  Confirm the bulk action with the `Confirm` button located in the middle of the screen
   ![Add association](../img/Products_BulkConfirmAssociation.png)
-12.  The products selected will be associated to the products and product models/
+12.  The products selected will be associated to the products and product models
 
 :::warning
 [Product models](/articles/what-about-products-variants.html#what-is-a-product-model) have no association, if you select product models in the grid and mass associate it to products or product models, all their children variant products will be associated.
 :::
 
 :::info
-You can view the products associations in the product form, in the `Associations` tab, refer to [this article](/articles/products-associations.html) for more details.
+You can view the associations for a product in its product form, in the `Associations` tab, refer to [this article](/articles/products-associations.html) for more details.
 :::
 
 # Delete multiple products
