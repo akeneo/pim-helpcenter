@@ -54,7 +54,7 @@ If you are looking for clothing with the color "red" and the size "S", the red S
 ![Search results with color red and size S](../img/Products_ProductModel_Search3.png)
 
 :::tips
-If you would like to display only products in the grid, you just have to filter on an attribute always at the product level, for example its identifier ("SKU").
+If you would like to display only products in the grid, you just have to filter on an attribute that is always at the product level, whatever the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant), for example the identifier ("SKU").
 :::
 
 ## Filter on the completeness
@@ -87,7 +87,7 @@ For more details about the product form, you can read [Enrich your product](/art
 
 For product models, the following properties are displayed in the product form header:
 - The number of complete variant products out of the number of variant products for a product model in `Variant products` (ex: 2/6 means that 2 variants out of 6 for the product model are complete)
-- The total `missing required attributes` (__since the 2.1__) for a product model. If you click on it, it will display only the attributes required for the completeness without value (filter on display `all missing required attributes`).
+- The total `missing required attributes` (_since the 2.1_) for a product model. If you click on it, it displays only the attributes that are required for the completeness but that are still incomplete (it filters on display `All missing required attributes`).
 
 ![Header for product model](../img/Products_ProductModel_Header.png)
 
