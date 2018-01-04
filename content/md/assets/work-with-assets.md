@@ -33,32 +33,6 @@ The following information cannot be sorted out in the asset grid:
 - Tags
 :::
 
-## Asset grid display (_since 2.1_)
-
-To highlight the assets images, a `Gallery` display is available in the asset grid.
-
-:::info
-Grid features also apply to this display (filters, channel, locale and categories selection, pagination, assets selection, etc.).
-:::
-
-To use the `Gallery` display:
-1.  Click on `List` to change the display  
-  ![Select the asset grid display](../img/Assets_display.png)
-1.  Select the display `Gallery`
-  ![Gallery display of the asset grid](../img/Assets_gallery_display.png)
-
-:::info
-The context of the chosen display for the asset grid is kept.
-:::
-
-## Search by code (_since 2.1_)
-
-To quickly find assets in the assets grid, you can search on the code.
-
-The behavior of the search is a "contains" filter. For example, if you type in "can", it will display all the assets with a code which contains "can".  
-
-![Search bar of the asset grid](../img/Assets_search.png)
-
 # Create an asset
 
 To create an asset in the PIM:
