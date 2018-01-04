@@ -53,6 +53,10 @@ If you are looking for clothing with the color "red" and the size "S", the red S
 
 ![Search results with color red and size S](../img/Products_ProductModel_Search3.png)
 
+:::tips
+If you would like to display only products in the grid, you just have to filter on an attribute that is always at the product level, whatever the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant), for example the identifier ("SKU").
+:::
+
 ## Filter on the completeness
 
 A product model has no completeness but its variant products have a completeness.
@@ -61,6 +65,15 @@ For the completeness filter `Complete`:
 - If you select `Yes`, the product models with at least one variant product complete are displayed in the grid
 - If you select `No`, the product models with at least one variant product incomplete are displayed in the grid
 - If you select `All`, there is no filter on the completeness
+
+## Filter on the parent product model (_since 2.1_)
+
+To display the children of a product model, you can filter on the `parent` attribute in the product grid with the product model code.
+
+You can also add a `parent` column in the grid to display the parent product model code. This column is not displayed by default, you can add it by clicking on `Columns`.
+
+![Search on parent](../img/Products_ProductModel_SearchParent.png)
+
 
 # Edit products with variants
 
@@ -72,9 +85,13 @@ For more details about the product form, you can read [Enrich your product](/art
 
 ## Header and infos
 
-For products with variants, the number of variant products behind the model and the number of complete variant products for the model are displayed in the product form header (`Variant products`).
+For product models, the following properties are displayed in the product form header:
+- The number of complete variant products out of the number of variant products for a product model in `Variant products` (ex: 2/6 means that 2 variants out of 6 for the product model are complete)
+- The total `missing required attributes` (_since the 2.1_) for a product model. If you click on it, it displays only the attributes that are required for the completeness but that are still incomplete (it filters on display `All missing required attributes`).
 
-For products with variants, the following properties are displayed in the `Product infos`:
+![Header for product model](../img/Products_ProductModel_Header.png)
+
+For product models, the following properties are displayed in the `Product infos`:
 - Family: All the products of a product model belong to the same family
 - **Variant**: A [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) defines how the products with variants are structured
 - Created: Creation date and user who create the product model
