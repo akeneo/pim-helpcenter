@@ -34,7 +34,7 @@ gulp.task('landings', ['clean-dist','less', 'grab-related-articles'], function()
     // When all information about the popular articles are gathered,
     // we inject this data into the Handlebars template of the homepage.
     // Finally, the resulting HTML is saved into "dist".       
-    return gulp.src('src/index.handlebars')
+    return gulp.src('src/indexes/*.handlebars')
             .pipe(flatmap(function(stream, file){
                 return gulp.src(file.path)
                         .pipe(gulpHandlebars({popularArticles: popularArticles}, {
