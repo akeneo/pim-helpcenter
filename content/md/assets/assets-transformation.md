@@ -17,14 +17,27 @@ If the reference file (the original asset) does not fit the transformation requi
 :::
 
 The following assets transformation are available:
-- resolution: change an image resolution
-- colorspace: change an image color space
-- resize: resize an image without keeping its proportions
-- scale: scale an image
-- thumbnail: create a miniature image (the image proportion is kept)
+- `resolution`: change an image resolution
+available options:
+`resolution`: resolution value
+`resolution-unit`: unit of the resolution (possible values : ppc, ppi)
+- `colorspace`: change an image color space (possible values: grey, cmyk, rgb)
+- `resize`: resize an image without keeping its proportions
+available options:
+`width`: in pixels
+`height`: in pixels
+- `scale`: scale an image
+available options:
+`width`: in pixels
+`height`: in pixels
+`ratio`: scaling percentage
+- `thumbnail`: create a miniature image (the image proportion is kept)
+available options:
+`width`: maximum width in pixels
+`height`: maximum height in pixels
 
 ::: tips
-The assets transformation given above are not enough for you? You need a new type of assets transofrmations? It's totally possible! You can define new types of assets transformations by following the [technical cookbook](https://docs.akeneo.com/2.0/manipulate_pim_data/product_asset/add_new_transformation.html) we prepared for you.
+The assets transformation given above are not enough for you? You need a new type of assets transformations? It's totally possible! You can define new types of assets transformations by following the [technical cookbook](https://docs.akeneo.com/2.0/manipulate_pim_data/product_asset/add_new_transformation.html) we prepared for you.
 :::
 
 # Check the current assets transformations
