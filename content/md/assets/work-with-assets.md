@@ -218,3 +218,14 @@ You can delete a selection of assets at once to earn time.
 ::: info
 Like a delete of a single asset, this action does not delete asset from the server.
 :::
+
+## Export assets
+
+To export assets, you need to use several export profiles, first of all, run a basic product [export](/articles/exports.html#run-an-export): it contains the assets codes associated to products.
+Then, you can run an assets variation export to get the asset's path on the server. In the exported file, you can find the original asset file path in the `reference_file` column and its channel's variations in the `variation_file` column.
+
+::: info
+Assets are not available through a URL nor exported in a zip folder like pictures. 
+:::
+
+If you need the actual files, it's possible! Since asset files are stored in the `app/filestorage` folder, you can set up a cron task or a script to automatically export them to a FTP for instance.
