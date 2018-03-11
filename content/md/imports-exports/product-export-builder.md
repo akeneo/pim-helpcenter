@@ -13,12 +13,16 @@ You can configure your product export profile to only export the data you need t
 
 If you are granted with the permissions, you can either create your own product export using the Product Export Builder or edit an existing product export profile.
 
+::: info
+The Product Export Builder feature is available for the product and published product export profiles (for the CSV and XLSX connectors) and since the 2.2, on [product model](/articles/what-about-products-variants.html#what-is-a-product-model) export profiles.
+:::
+
 # Create a new product export profile
 
 To create a product export:
 1. Go to `Exports`
 1. Click on the `Create export profile` button
-1. Indicate a unique export code, an export label and select the job: csv_product_export or xlsx_product_export (all fields are required)
+1. Indicate a unique export code, an export label and select the job, for example: csv_product_export or xlsx_product_export for product exports (all fields are required)
 ![Create a new product export profile](../img/Exports_CreateProfilExport.png)
 1. Save your new export profile
 
@@ -38,11 +42,11 @@ Then, you will land on a page divided in two sections:
 
 ![Edit a product export profile](../img/Exports_EditContent.png)
 
-`Structure Filters`: this part allows you to define the structure of the exported file, namely its columns: you will have to specify a channel and one or more locales to export (required fields). The last field `Attributes` will allow you to select the attributes to be used as file columns.
+`Filter the data`: this part allows you to define the data of the exported file, namely its columns: you will have to specify a channel and one or more locales to export (required fields). The last field `Attributes` will allow you to select the attributes to be used as file columns.
 
-`Data Filters`: this part allows you to filter your data on several product and system information such as the family, category, status, completeness or even insert a list of identifiers, you can also add new attributes to use them to filter your data.
+`Filter the products`: this part allows you to filter your products on several product and system attributes such as the family, category, status, completeness or even insert a list of identifiers, you can also add new attributes to use them to filter your products.
 
-## Use the structure filters
+## Filter the data
 
 ### Select a channel
 
@@ -86,7 +90,7 @@ The `Attributes` field will display the number of attributes selected for the ex
 By default, the `Identifier` field is exported in the product export.
 :::
 
-## Use the data filters
+## Filter the products
 
 ### Filter on families
 By default, this filter is empty meaning that all products will be exported regardless of the family they belong to, products without families will also be exported.
@@ -102,18 +106,18 @@ Click on the cross nearby the family label to remove it from the field. Products
 ### Filter on products’ statuses
 
 You can also filter on the status of your products, three options available:
-- All: to export all products whatever their status is
-- Enabled (default option): to only export enabled products
-- Disabled: to only export enabled products
+- `All`: to export all products whatever their status is
+- `Enabled` (default option): to only export enabled products
+- `Disabled`: to only export enabled products
 
-### Use the completeness filter
+### Use the completeness filter for product export
 
 The following drop down enables you to filter on completeness of selected locales. Four options on completeness are proposed:
-- No condition on completeness: all products will be exported whatever their completeness is.
-- Complete on at least one selected locale (default option): products must be complete on at least one locale
-- Complete on all selected locales: products must be complete on all locales (if you have selected more than
+- `No condition on completeness`: all products will be exported whatever their completeness is.
+- `Complete on at least one selected locale` (default option): products must be complete on at least one locale
+- `Complete on all selected locales`: products must be complete on all locales (if you have selected more than
 one locale).
-- Not complete on all selected locales: products must not be complete on all locales (if you have selected
+- `Not complete on all selected locales`: products must not be complete on all locales (if you have selected
 more than one locale).
 
 For instance, with 4 products and 2 exported locales fr_FR and en_US:
@@ -130,13 +134,20 @@ Exported products according to each completeness option for the locales fr_FR an
 - Option 3: Only product C will be exported  
 - Option 4: Only product D will be exported  
 
+### Use the completeness filter for product model export (_since 2.2_)
+
+The following drop down enables you to filter on the completeness of the product models children products for the selected locales. Three options on completeness are proposed:
+- `No condition on completeness`: all products models are exported whatever the completeness of their children products for the channel and locales selected
+- `At least one child product complete on one selected locale` (default option): a product model is exported if at least one of its child product is complete for the channel selected on one of the selected local
+- `All children products complete on all selected locales`: a product model is exported if all its products are complete for the channel selected on all selected locales.
+
 ### Filter on date
 
 You can now export your product on a specific time condition:
-- No date condition (default option)
-- Updated products over the last n days (e.g. 6): you want to export products updated since the last ‘n’ days:
-- Updated products since this date:  you want to export products updated since a specific date
-- Updated products since last export: you want to export products updated since the last export
+- `No date condition` (default option)
+- `Updated products over the last n days (e.g. 6)`: you want to export products updated since the last ‘n’ days:
+- `Updated products since this date`:  you want to export products updated since a specific date
+- `Updated products since last export`: you want to export products updated since the last export
 
 If you select `Updated products over the last n days (e.g. 6)`, a field will be displayed nearby the drop down menu. Specify a number of days (please only use numbers) in this field.
 
@@ -172,6 +183,10 @@ You can make a selection of identifiers to export by adding them in the `Identif
 You can easily copy an identifier list from a csv or xlsx file and paste it in the identifier text area.
 :::
 
+::: info
+Since 2.2, for product models, a selection on their codes is available.
+:::
+
 #### Filter on attributes
 
 An additional filter `Add attributes` is available on the right side of the page. This drop down menu allows you to add attributes as filters for the export.
@@ -194,8 +209,4 @@ Each attribute comes with a list of operators, for instance for text area fields
 1. To create a filter on an attribute, you do not need to have it as a column in your export file.
 2. All attributes created in the PIM can be used in the Product Export Builder.
 3. Any attribute can only be used once as a filter.
-:::
-
-::: info
-The Product Export Builder feature is available for the product and published product export profiles (for the CSV and XLSX connectors)
 :::
