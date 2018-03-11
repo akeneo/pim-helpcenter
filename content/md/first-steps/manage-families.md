@@ -213,9 +213,16 @@ Moving attributes from `common attributes` to the selected variant level or from
 You cannot move a variant axis or an attribute with the property `unique value` at `Yes`.
 :::
 
+## Delete a family variant (_since 2.2_)
+
 ::: warning
-Removing an attribute from a level means that this attribute will be managed as a `common attribute`, its values will be removed from the existing variant products with this family variant.
+A family variant can be deleted if there is no [product model](/articles/what-about-products-variants.html#what-is-a-product-model) for this family variant, else there is an error message.
 :::
+
+1.  In `Settings/Families`, choose a family and open the `Variants` tab
+1.  Place your mouse over the line of the family variant you want to remove in the grid, the button delete is prompted (trash can icon)
+1.  Click on the trash can icon, a confirmation opens
+1.  Click on `Delete` to confirm the action via the confirmation message
 
 # Mass edit families
 
