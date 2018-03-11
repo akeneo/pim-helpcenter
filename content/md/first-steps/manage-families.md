@@ -36,6 +36,10 @@ Once a family is created, you can later edit those family information:
 *   To select the attribute to be used as «label» for the products in the product grid (column "label") and in their product form
 *   To select the attribute to be used as «the main picture» for the products in the product grid (column "image") and in their product form header
 
+:::info
+The attributes available to be used as «the main picture» are attributes not localizable and not scopable, with the types `image` or  `assets collection` (since 2.1).
+:::
+
 
 # Edit family
 
@@ -151,13 +155,13 @@ The family variants are managed in a dedicated `Variants` tab in `Settings/Famil
 You can see how the attributes are distributed between the different levels:
 - The **common attributes** in the 1st column for all the products in a product model
 - The **variant attributes for the level 1** in the 2nd column are the attributes which vary according to the variant axes of the level 1
-- If the family variant has 2 variant levels, **the variant attributes for the level 2** in the 3rd column are the attributes which vary according to the variant axes of the level 1 and level 2
+- If the family variant has 2 variant levels, **the variant attributes for the level 2** in the 3rd column are the attributes which vary according to the variant axes of the level 2 (and level 1)
 
 In our example for clothing which vary on 2 levels by color and then by size, the common attributes are the name, the collection, the description, the brand, etc. The attributes varying by color (variant level 1) are the composition and the pictures and the attributes varying by color and size (variant level 2) are the EAN, the SKU and the weight.
 
 ## Create a family variant
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
-1.  Click on `Create variant` to create a new variant for the family
+1.  Click on `Add variant` to create a new variant for the family
 1.  The creation of a family variant is prompted
 ![Create a family variant](../img/Settings_Families_Variant_Create.png)
 1.  The following properties are required to create a family variant:
