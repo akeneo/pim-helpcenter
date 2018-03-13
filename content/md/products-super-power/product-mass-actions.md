@@ -184,5 +184,13 @@ To delete multiple products:
 ![Confirm delete](../img/Products_BulkActionUppermenuDelete2.png)
 
 :::warning
-You can mass delete only products, [product models](/articles/what-about-products-variants.html#what-is-a-product-model) cannot be mass deleted, you have to delete them one by one.
+To be deleted, a product should be categorized in at least one category that you own.
+:::
+
+:::info
+Since the 2.2, you can also mass delete [product models](/articles/what-about-products-variants.html#what-is-a-product-model). If you delete product models, all their children (product models and variant products) are also deleted.
+:::
+
+:::info
+Since the 2.2, like all bulk actions mass delete is processed to the back-end, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified and when you click on the notification, you access the report page.
 :::
