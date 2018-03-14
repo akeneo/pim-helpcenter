@@ -143,7 +143,7 @@ The family variants are managed in a dedicated `Variants` tab in `Settings/Famil
 1.  Select the family to edit in the grid and click on its line
 1.  Open the `Variants` tab for the family
 
-![List of family variants](../img/Settings_Families_Variant_List.png)
+![List of family variants](../img/Settings_Families_Variant_List1.png)
 
 ## Display a family variant
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
@@ -225,6 +225,7 @@ A family variant can be deleted if there is no [product model](/articles/what-ab
 
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
 1.  Place your mouse over the line of the family variant you want to remove in the grid, the button delete is prompted (trash can icon)
+![Display a family variant](../img/Settings_Families_Variant_Delete.png)
 1.  Click on the trash can icon, a confirmation opens
 1.  Click on `Delete` to confirm the action via the confirmation message
 
