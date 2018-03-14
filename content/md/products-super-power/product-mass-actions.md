@@ -93,7 +93,7 @@ To ease the mass enrichment of products attributes values, you can edit the attr
 2.  Select the products to edit: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
 3.  Click on `Bulk Actions`
 4.  Select `Edit attributes values` and then `Next`
-5.  Click on `Select attributes` to select the attributes you want to update (for example the collection and the brand)
+5.  Click on `Select attributes` to select the attributes you want to update (for example the brand)
 6.  Add values for the selected attributes
 ![Mass edit options](../img/Products_BulkActionEditAttribute.png)
 7.  Click on `Next`
@@ -117,6 +117,7 @@ Only the multivalued attributes can be updated with this bulk action, so the att
 4.  Select `Add attributes values` and then `Next`
 5.  Click on `Select attributes` to select the attributes you want to update (for example the collection)
 6.  Add values for the selected attributes
+![Mass edit options](../img/Products_BulkActionAddAttribute.png)
 7.  Click on `Next`
 8.  Confirm the action with the `Confirm` button located in the middle of the screen
 9.  The attributes values will be added in the selected products. The previous attributes values are kept.
