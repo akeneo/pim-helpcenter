@@ -82,7 +82,7 @@ The changes will be done for the scope and the locale selected in the product gr
 :::
 
 :::tips
-If you select some [product models](/articles/what-about-products-variants.html#what-is-a-product-model) in the grid, the attributes will be updated on the product models and all its children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) is mass edited, the description will be updated on the product models and the weight on each child variant product of the selected product models.
+If you select some [product models](/articles/what-about-products-variants.html#what-is-a-product-model) in the grid, the attributes will be updated on the product models and all its children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) are mass edited, the description will be updated on the product models and the weight on each child variant product of the selected product models.
 :::
 
 ## Edit products attributes values
@@ -102,10 +102,10 @@ To ease the mass enrichment of products attributes values, you can edit the attr
 
 ## Add products attributes values (_since 2.2_)
 
-To add products attributes values to the multivalued attributes, you can add attributes values to your products thanks to the `Add attributes values` bulk action in the product grid. For example, you can add a new collection "summer 2018" on a selection of products.
+To add products attributes values to the attributes with multiple values, you can add attributes values to your products thanks to the `Add attributes values` bulk action in the product grid. For example, you can add a new collection "summer 2018" on a selection of products.
 
 :::info
-Only the multivalued attributes can be updated with this bulk action, so the attributes with the following attribute types:
+Only the attributes with multiple values can be updated with this bulk action, so the attributes with the following attribute types:
  - Multi-select
  - Reference data multi-select
  - Assets collection
