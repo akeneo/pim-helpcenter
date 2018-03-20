@@ -34,6 +34,18 @@ A contributor can only send one single proposal per product.
 A proposal can gather several changes on a product.
 :::
 
+# Filter the proposals (since 2.2)
+
+To quickly find products with proposals, a search bar on product label and product identifier is available. Its behaviour is the same as in the [product grid](/articles/products-grid.html#search-by-label-and-identifier-since-21.html).
+
+The proposal grid also includes [filter management](/articles/products-grid.html#use-filters) to search on new attributes values. By default, the PIM displays the following filters: family, author, proposed date and SKU.
+
+![image](../img/Products_Proposals_Filter.jpg)
+
+::: info
+If you are missing an attribute in the Filters menu, check if it is well activated as ["usable as grid filter"](/articles/manage-your-attributes.html#edit-attribute-properties).
+:::
+
 # Review the proposals
 
 You have 4 ways to review products’ proposals:
