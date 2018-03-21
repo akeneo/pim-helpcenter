@@ -15,7 +15,8 @@ To access the bulk actions, go on the Product grid, **select at least one produc
 
 # Available bulk actions
 Here’s the list of the bulk operations available in the PIM (Community and Enterprise Editions):
-  - **Edit attributes**: to edit the attributes of your selection of products. For instance, set a new release date or a new value for an attribute. This action does not add attribute to products
+  - **Edit attributes values**: to edit the attributes values of your selection of products. For instance, set a new release date or a new value for an attribute. This action does not add attribute to products
+  - **Add attributes values (_since 2.2_)**: to add values for the multivalued attributes on your selection of products. For instance, add a collection or an asset. This action does not add attribute to products  
   - **Change family**: to choose/change the family of the selected products
   - **Change status (enable/disable)**: this action allows you to edit the status of one or several products, to enable or disable the products
   - **Add to groups**: to add your selection of products in one or more groups
@@ -25,7 +26,7 @@ Here’s the list of the bulk operations available in the PIM (Community and Ent
   - **Publish products (Enterprise Edition only)**: to mass publish products
   - **Unpublish products (Enterprise Edition only - available from the Published product grid)**: to mass unpublish products
   - **Add to an existing product model**: to add products as variant of a [product model](/articles/what-about-products-variants.html#what-is-a-product-model)
-  - **Associate to products (since 2.1)**: to add associations for your selection of products
+  - **Associate to products (_since 2.1_)**: to add associations for your selection of products
 
 ::: info  
 In order to perform a bulk operation on products, you need the rights to each possible action, and also the general permission to perform bulk actions on products.
@@ -43,7 +44,8 @@ In order to perform a bulk operation on products, you need the rights to each po
 
 | Operations  | Step of configuration  |
 |:------------|:-----------------------|
-| Edit attributes  | Add attributes to the products to set the values ​​to be applied |
+| Edit attributes values | Add attributes to the products to set the values ​​to be applied |
+| Add attributes values | Add attributes to the products to add the values ​​to be applied (_since 2.2_) |
 | Change family | Select the family to be applied on products   |
 | Change status | Select the status to be applied: enable or disable  |
 | Add to groups     | Check the groups in which the products will be brought together       |
@@ -69,23 +71,10 @@ When you click on the notification, you access the report page of the action.
 After some of the bulk actions the rules will be automatically applied.
 :::
 
-# Edit products attributes
-
-To ease the mass enrichment of products attributes values, you can edit the attributes values of your products thanks to the `Edit attributes` bulk action in the product grid. For example, you can set the brand of a selection of products to Akeneo.
-
-1.  Search for products in the grid with the appropriate filters
-2.  Select the products to edit: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
-3.  Click on `Bulk Actions`
-4.  Select `Edit attributes` and then `Next`
-5.  Click on `Select attributes` to select the attributes you want to update (for example the collection and the brand)
-6.  Add values for the selected attributes
-![Mass edit options](../img/Products_BulkActionEditAttribute.png)
-7.  Click on `Next`
-8.  Confirm the action with the `Confirm` button located in the middle of the screen
-9.  The attributes values will be updated in the selected products
+# Edit or add products attributes values
 
 :::warning
-This action doesn't add attribute to products, only the attributes belonging to the families of the selected products will be edited.
+These actions don't add attribute to products, only the attributes belonging to the families of the selected products will be updated.
 :::
 
 :::info
@@ -93,8 +82,45 @@ The changes will be done for the scope and the locale selected in the product gr
 :::
 
 :::tips
-If you select some [product models](/articles/what-about-products-variants.html#what-is-a-product-model) in the grid, the attributes will be updated on the product models and all its children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) is mass edited, the description will be updated on the product models and the weight on each child variant product of the selected product models.
+If you select some [product models](/articles/what-about-products-variants.html#what-is-a-product-model) in the grid, the attributes will be updated on the product models and all its children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) are mass edited, the description will be updated on the product models and the weight on each child variant product of the selected product models.
 :::
+
+## Edit products attributes values
+
+To ease the mass enrichment of products attributes values, you can edit the attributes values of your products thanks to the `Edit attributes values` bulk action in the product grid. For example, you can set the brand of a selection of products to Akeneo.
+
+1.  Search for products in the grid with the appropriate filters
+2.  Select the products to edit: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+3.  Click on `Bulk Actions`
+4.  Select `Edit attributes values` and then `Next`
+5.  Click on `Select attributes` to select the attributes you want to update (for example the brand)
+6.  Add values for the selected attributes
+![Mass edit options](../img/Products_BulkActionEditAttribute.png)
+7.  Click on `Next`
+8.  Confirm the action with the `Confirm` button located in the middle of the screen
+9.  The attributes values will be updated in the selected products
+
+## Add products attributes values (_since 2.2_)
+
+To add products attributes values to the attributes with multiple values, you can add attributes values to your products thanks to the `Add attributes values` bulk action in the product grid. For example, you can add a new collection "summer 2018" on a selection of products.
+
+:::info
+Only the attributes with multiple values can be updated with this bulk action, so the attributes with the following attribute types:
+ - Multi-select
+ - Reference data multi-select
+ - Assets collection
+:::
+
+1.  Search for products in the grid with the appropriate filters
+2.  Select the products to edit: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+3.  Click on `Bulk Actions`
+4.  Select `Add attributes values` and then `Next`
+5.  Click on `Select attributes` to select the attributes you want to update (for example the collection)
+6.  Add values for the selected attributes
+![Mass edit options](../img/Products_BulkActionAddAttribute.png)
+7.  Click on `Next`
+8.  Confirm the action with the `Confirm` button located in the middle of the screen
+9.  The attributes values will be added in the selected products. The previous attributes values are kept.
 
 # Categorize, move or remove products
 
@@ -184,5 +210,13 @@ To delete multiple products:
 ![Confirm delete](../img/Products_BulkActionUppermenuDelete2.png)
 
 :::warning
-You can mass delete only products, [product models](/articles/what-about-products-variants.html#what-is-a-product-model) cannot be mass deleted, you have to delete them one by one.
+To be deleted, a product should be categorized in at least one category that you own.
+:::
+
+:::info
+Since the 2.2, you can also mass delete [product models](/articles/what-about-products-variants.html#what-is-a-product-model). If you delete product models, all their children (product models and variant products) are also deleted.
+:::
+
+:::info
+Since the 2.2, like all bulk actions mass delete is processed to the back-end, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified and when you click on the notification, you access the report page.
 :::
