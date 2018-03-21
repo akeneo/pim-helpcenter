@@ -46,8 +46,8 @@ But you can also execute rules on your own, you can execute:
 *   a selection of rules
 *   all your rules (be aware, this action could take a long time)
 
-:::warning
-The rules do not support [product models](/articles/what-about-products-variants.html#what-is-a-product-model) yet.
+:::info
+Since the 2.2, the rules support [product models](/articles/what-about-products-variants.html#what-is-a-product-model), so rules can be defined also on attributes at the product model level (or sub product model level).
 :::
 
 ## Execute a single rule
