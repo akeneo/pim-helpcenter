@@ -43,7 +43,7 @@ The proposal grid also includes [filter management](/articles/products-grid.html
 ![image](../img/Products_Proposals_Filter.jpg)
 
 ::: info
-If you are missing an attribute in the Filters menu, check if it is well activated as ["usable in grid"](/articles/manage-your-attributes.html#edit-attribute-properties).
+If you are missing an attribute in the Filters menu, check if it is well activated as [`usable in grid`](/articles/manage-your-attributes.html#edit-attribute-properties).
 :::
 
 # Review the proposals
