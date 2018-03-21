@@ -90,6 +90,17 @@ This UI locale is used all over the PIM interface: menus, screens labels, messag
 | German (Germany)  | 08.03.19        | 12,5        | 90,50 $        |
 | English (United States) | 03/08/2019 | 12.5    | $90.50            |
 
+## Your interface default time zone (since 2.2)
+
+You can choose on which time zone you want your PIM interface to be.
+
+Still in edition mode in your profile account:
+1.  Click on the `Interfaces` tab
+2.  Select the default language for your account (`Time zone` field)
+3.  Click on `Save` to save your changes
+
+This time zone is used all over the PIM interface: Product Form meta data and `History` panel, product grid, [last operations widget](/articles/discover-the-dashboard.html#last-operations) of the dashboard, [process tracker](articles/monitor-jobs.html#how-to-monitor), [published products grid](/articles/how-to-manage-my-publications.html#view-the-published-products) (EE only) and [asset grid](/articles/work-with-assets.html#view-the-assets-list) (EE only).
+
 ## Your notifications preferences _(EE only)_
 
 Still in edition mode in your profile account:
