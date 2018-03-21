@@ -37,7 +37,7 @@ To quickly find an attribute, you can use the search bar to search on the attrib
 
 ![image](../img/Settings-UsetheSearchBar.gif)
 
-::: warning 
+::: warning
 If your attribute does not have any label translated yet, it will not pop in the search results. Make sure your attribute has its labels translated!
 :::
 
@@ -95,7 +95,7 @@ To create an attribute in the PIM:
     - **A value per channel** (Yes/No): Yes if your attribute values depend on the channels
     - **A value per locale** (Yes/No): Yes if your attribute values depend on the locales
     - **Locale specific**: if it must apply to specific locales not all of them
-    - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid
+    - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
     - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
 1. Then click on `Save`
 
@@ -119,7 +119,7 @@ You can change the following properties of an attribute:
 - **Attribute group**: the attribute group the attribute belongs to
 - **Labels**: these are labels that appear when they are displayed in the PIM
 - **Locale specific**: if it must apply to specific locales not all of them
-- **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid
+- **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
 - **Validation parameters** (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
 - **Options** (for simple or multi select attribute types only): these are predefined values that the user can select
 
