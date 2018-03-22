@@ -143,7 +143,7 @@ The family variants are managed in a dedicated `Variants` tab in `Settings/Famil
 1.  Select the family to edit in the grid and click on its line
 1.  Open the `Variants` tab for the family
 
-![List of family variants](../img/Settings_Families_Variant_List1.png)
+![List of family variants](../img/Settings_Families_Variant_List.png)
 
 ## Display a family variant
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
