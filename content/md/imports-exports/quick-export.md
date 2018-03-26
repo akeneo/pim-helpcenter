@@ -41,6 +41,8 @@ The created files enclose one line per product or product model exported, and a 
 
 Only the working channel is taken into account, and thus all the locale information required for the channel is exported. The working locale is not taken into account.
 
+Quick export file of the context grid will not include “read only” values, such as completeness, created at, updated at, variant products, etc. The label is not exported, as it is considered as a property and group column is exported by default as empty.
+
 For this export from the grid, the completeness, the product status, their classification are not taken into account to determine what information can be exported. All the products and product models selected in the product grid, regardless of their details, are exported to the CSV file or XLSX file.
 
 ::: ee
