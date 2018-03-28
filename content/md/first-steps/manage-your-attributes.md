@@ -9,7 +9,7 @@ related: what-is-an-attribute
 
 # Overview
 
-To fit the PIM application to your needs, Akeneo enables you to define attributes. Akeneo offers you 14 types on the Community Edition version, and 15 types of attributes on the Enterprise Edition version. The additional one is the Asset type, which is part of our [Product Asset Manager feature] (/articles/work-with-assets.html).
+To fit the PIM application to your needs, Akeneo enables you to define attributes. Akeneo offers you 14 types of attributes on the Community Edition version, and 15 types on the Enterprise Edition version. The additional one is the Asset type, which is part of our [Product Asset Manager feature] (/articles/work-with-assets.html).
 
 For example, if you need to capture data about the weight of your products, you can add an attribute type as ‘metric’.
 
@@ -25,6 +25,13 @@ To learn more on how attributes and families interact with each other, please re
 
 ::: info
 Attributes are always **optional data fields**. This means that attributes can be empty for some or all products exception made of the identifier attribute type which is used to identify a product (ex: SKU), and is therefore must have a value when you create a product.
+:::
+
+Check the [What is an attribute](/articles/what-is-an-attribute.html) article to discover the different types of attributes available in Akeneo.
+
+:::tips
+To store GTIN, EAN13, UPC… in your PIM, use the **text attribute type** and use a regular Expression to make sure that your codes will contain the exact number of digits required. 
+For instance, to store an EAN13 in Akeneo, which contains 13 digits, add a validation rule based on the following regular expression: /^[0-9]{13}$/
 :::
 
 # Create an attribute
@@ -53,11 +60,11 @@ The attribute is now created, if you need to edit an attribute property, please 
 
 ::: warning
 After being created, it is not possible to change the following properties of an atttribute:
-  - its code
-  - its type
-  - the unique value property
-  - the value per channel property
-  - the value per locale property
+- its code
+- its type
+- the unique value property
+- the value per channel property
+- the value per locale property
 :::
 
 ::: warning
