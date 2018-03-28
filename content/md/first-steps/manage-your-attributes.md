@@ -9,18 +9,203 @@ related: what-is-an-attribute
 
 # Overview
 
-To fit the PIM application to your needs, Akeneo enables you to define attributes. For example, if you need to capture data about the weight of your products, you can add an attribute type as ‘metric’.
+To fit the PIM application to your needs, Akeneo enables you to define attributes. Akeneo offers you 14 types on the Community Edition version, and 15 types of attributes on the Enterprise Edition version. The additional one is the Asset type, which is part of our [Product Asset Manager feature] (/articles/work-with-assets.html).
 
-You will be able to select the most appropriate attribute type for your needs (see [Create an attribute](#create-an-attribute)). For example, you can choose to create a field as a text, in which users can write what they want, or as a drop down list (simple or multi select) with a selection of values, forcing users to select from a list of predefined options.
+For example, if you need to capture data about the weight of your products, you can add an attribute type as ‘metric’.
 
-Once you have created a new attribute (see [Create an attribute](#create-an-attribute)), you’ll need to assign it to one or more families to make it available to users.
+You will be able to select the most appropriate attribute type for your needs (see [Create an attribute](#create-an-attribute)). For example, you can choose to create a field as a text, in which users can write what they want, or as a drop down list (simple or multi select) with a selection of values, forcing users to select from a list of predefined options or add a ‘metric’ attribute to fill in the weight/size/length... of your products. 
 
-To learn more on how the attributes and families interact, please refer to [Add an attribute to a family](/articles/manage-your-families.html#manage-attributes-in-a-family).
-
-::: info
-Attributes are always **optional data fields**. This means that all attributes can have no value for the products except the attribute which identifies a product (ex: SKU), and is therefore mandatory with a value when you create a product.
+::: tips
+For metric attributes, you will be even offered the possibility to automatically convert metric values into others to fit your export needs see the [Manage your Channels](/articles/manage-your-channels.html#create-a-channel) article.
 :::
 
+Once you have created a new attribute (see [Create an attribute](#create-an-attribute)), you will have to assign it to one or more families to make it available to users.
+
+To learn more on how attributes and families interact with each other, please refer to [Add an attribute to a family](/articles/manage-your-families.html#manage-attributes-in-a-family).
+
+::: info
+Attributes are always **optional data fields**. This means that attributes can be empty for some or all products exception made of the identifier attribute type which is used to identify a product (ex: SKU), and is therefore must have a value when you create a product.
+:::
+
+# Create an attribute
+
+To create an attribute from the PIM user interface (without going through imports), you must have a specific permission. If you do not have it, please contact your administrator.
+
+To create an attribute in the PIM:
+1. Go on `Settings/Attributes`
+1. Click on the `Create attribute` button
+  ![image](../img/Settings_AttributesCTAButton.png)
+1. Select the attribute type you want to create
+  ![image](../img/Settings_Attributes_Create1.png)
+1. The attribute edit page is displayed. The following properties are required to create an attribute:
+    - A **code** to identify the attribute
+    - An **attribute group**: the attribute group the attribute will belong to
+    - **Unique value** (Yes/No): if the values for this attribute are unique (will be available or required according to the attribute type)
+    - **A value per channel** (Yes/No): Yes if your attribute values depend on the channels
+    - **A value per locale** (Yes/No): Yes if your attribute values depend on the locales
+    - **Locale specific**: if it must apply to specific locales not all of them
+    - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
+    - **Read only**: only for Enterprise Edition users, when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules.
+    - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
+1. Then click on `Save`
+
+The attribute is now created, if you need to edit an attribute property, please refer to the next section [Edit attribute properties] (/articles/manage-your-attributes.html#edit-attribute-properties)
+
+::: warning
+After being created, it is not possible to change the following properties of an atttribute:
+  - its code
+  - its type
+  - the unique value property
+  - the value per channel property
+  - the value per locale property
+:::
+
+::: warning
+Please note that the following attribute codes cannot be used in Akeneo PIM:
+
+id, associationTypes, category, categories, categoryId, completeness, enabled, family, groups, associations, products, scope, treeId, values, parent
+:::
+
+
+# Edit attribute properties
+
+You can change the following properties of an attribute:
+- **Attribute group**: the attribute group the attribute belongs to
+- **Labels**: these are labels that appear when they are displayed in the PIM
+- **Locale specific**: if it must apply to specific locales not all of them
+- **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
+- **Read only**: only for Enterprise Edition users, when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules.
+- **Validation parameters** (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
+- **Options** (for simple or multi select attribute types only): these are predefined values that the user can select
+
+To edit an attribute:
+1.  Go to `Settings/Attributes`
+2.  Select the attribute to edit in the datagrid and click on the line or on the shortcut
+![image](../img/Settings_AttributesModifyAnAttributes.gif)
+3.  Change the properties and click on `Save`
+![image](../img/Settings_Attributes_Properties.png)
+
+## Validation for the different attribute types
+
+Each attribute has specific properties to validate values:
+- **Date**:
+  - Min date: the earliest date that can be accepted
+  - Max date: the latest date that can be accepted
+- A short text field: **text**
+  - Maximum number of characters: maximum number of characters that an attribute value can have
+  - Validation rule: how the value should be validated: such as an URL, as an Email, or using a regular expression
+- A long text field: **text area**
+  - Maximum number of characters: like for the previous text attribute type
+  - Enable WYSIWYG: activates the WYSIWYG feature
+- **File** and **image**:
+  - Maximum size allowed in MB
+  - Allowed extensions files: png, jpg, pdf, doc, etc ...
+- **Metric**:
+  - Allow negative values for the attribute
+  - Allow decimal values for this attribute
+  - Minimum value: the smallest value allowed
+  - Maximum value: the largest value allowed
+  - Metric family: family units of measurement to be used for the attribute (weight, dimensions, area, etc. )
+  - The default unit of measurement
+- **Price**:
+  - Allow decimals for the attribute values
+  - minimum value: the smallest allowed value
+  - maximum value: the largest allowed value
+- **Number**:
+  - Allow negative values for the attribute
+  - Allow decimals
+  - Minimum value: the smallest allowed value
+  - Maximum value: the largest allowed value
+
+::: info
+The **simple** and **multi select** attribute types, as well as **Yes/No** (boolean) attribute have no specific properties to validate the attributes.
+:::
+
+## Manage attribute options
+
+You can define values for simple and multi select attribute types. Options can be added, modified, sorted, or deleted.
+
+![image](../img/Settings_Attributes_Options.png)
+
+To add new values, click on `Add an option` and save.
+To edit values, use the small pencil icon.
+
+::: tips
+**Simple** and **multi select** attribute types **do rarely need to be localisable** since all their options can be translated in any enabled locales in the PIM.
+:::
+
+::: warning
+You can add and update many lines at once but you will have to save each line before leaving the page. 
+You cannot use the main Save button to record your new options.
+:::
+
+### List attribute options
+
+To see your attribute option(s):
+1. Go to `Settings/Attributes`
+1. Select the attribute to edit, then click on the relevant row in the attribute datagrid
+1. Click on the `Options` tab
+
+### Add an option
+
+1. Click on `Add an option`
+1. Give a unique code for the new option
+1. Click on the `Confirm` or `Cancel` button
+
+![image](../img/Settings-AttributesAddOption.gif)
+
+The option is instantly created.
+
+### Edit option labels
+
+1.  Click on the small pencil icon change the option labels
+1.  Click on the green checkmark to confirm or on the cross to cancel
+
+![image](../img/Settings_Attributes_OptionsEdit.png)
+
+### Sort out options
+
+1.  Drag and drop the rows to reorder options manually via the icon at the beginning of each row of options.
+
+![image](../img/Settings_AttributesDraganddropOption.gif)
+
+### Delete an option
+
+1.  Click on the `Delete` button to remove an option
+
+![image](../img/Settings_Attributes_OptionsDelete.png)
+
+::: warning
+A deleted option can no longer be used as a value for the attribute for a product. If a product had this value, the product has no value anymore for the attribute.
+:::
+
+::: ee
+An option that is used by a published product cannot be deleted.
+:::
+
+
+## Manage rules on attributes (EE only)
+
+You can find the rules applied on an attribute under the `Rules` tab.
+
+![image](../img/Settings_Attributes_Rules.png)
+
+The display screen is composed of several elements:
+- The rule code
+- The conditions which are displayed below each other starting by “If”
+- The rule’s action beginning with “Then”
+- The number of affected products is the number of products which are selected by the rules conditions
+
+The rules have to be read from left to right: conditions first, then actions.
+
+::: info
+A dedicated screen lists all the rules (`Settings/Rules`), the rules can be applied on attributes, categories, system attributes.
+:::
+
+Like on `Settings/Rules`, you can perform several actions from this grid:
+- Execute rules
+- Delete rules
+- Calculate the number of affected products by the rule
 # List attributes
 
 To start, go to `Settings > Attributes`. From this page, you will have several options to work with the datagrid of attributes as described below.
@@ -78,179 +263,6 @@ There is a set of actions available for each attribute, that you can find in the
 The shortcut actions are only displayed if you have been granted the appropriate rights.
 :::
 
-# Create an attribute
-
-To create an attribute from the PIM user interface (without going through imports), you must have a specific permission. If you do not have it, please contact your administrator.
-
-To create an attribute in the PIM:
-1. Go on `Settings/Attributes`
-1. Click on the `Create attribute` button
-  ![image](../img/Settings_AttributesCTAButton.png)
-1. Select the attribute type you want to create
-  ![image](../img/Settings_Attributes_Create1.png)
-1. The attribute edit page is displayed. The following properties are required to create an attribute:
-    - A **code** to identify the attribute
-    - An **attribute group**: the attribute group the attribute will belong to
-    - **Unique value** (Yes/No): if the values for this attribute are unique (will be available or required according to the attribute type)
-    - **A value per channel** (Yes/No): Yes if your attribute values depend on the channels
-    - **A value per locale** (Yes/No): Yes if your attribute values depend on the locales
-    - **Locale specific**: if it must apply to specific locales not all of them
-    - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
-    - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
-1. Then click on `Save`
-
-::: ee
-The property "read only" prevents this attribute from being edited in the UI, it could be updated only through imports or rules.
-:::
-
-The attribute has been created and some properties can be added or amended over time.
-
-
-::: warning
-Please note that the following attribute codes cannot be used in Akeneo PIM:
-
-id, associationTypes, category, categories, categoryId, completeness, enabled, family, groups, associations, products, scope, treeId, values, parent
-:::
-
-
-# Edit attribute properties
-
-You can change the following properties of an attribute:
-- **Attribute group**: the attribute group the attribute belongs to
-- **Labels**: these are labels that appear when they are displayed in the PIM
-- **Locale specific**: if it must apply to specific locales not all of them
-- **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
-- **Validation parameters** (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
-- **Options** (for simple or multi select attribute types only): these are predefined values that the user can select
-
-::: ee
-- Read only: to prevent this attribute from being edited in the UI, it could be updated only through imports or rules.
-:::
-
-To edit an attribute:
-1.  Go to `Settings/Attributes`
-2.  Select the attribute to edit in the datagrid and click on the line or on the shortcut
-![image](../img/Settings_AttributesModifyAnAttributes.gif)
-3.  Change the properties and click on `Save`
-![image](../img/Settings_Attributes_Properties.png)
-
-## Validation for the different attribute types
-
-Each attribute has specific properties to validate values:
-- **Date**:
-  - Min date: the earliest date that can be accepted
-  - Max date: the latest date that can be accepted
-- A short text field: **text**
-  - Maximum number of characters: maximum number of characters that an attribute value can have
-  - Validation rule: how the value should be validated: such as an URL, as an Email, or using a regular expression
-- A long text field: **text area**
-  - Maximum number of characters: like for the previous text attribute type
-  - Enable WYSIWYG: activates the WYSIWYG feature
-- **File** and **image**:
-  - Maximum size allowed in MB
-  - Allowed extensions files: png, jpg, pdf, doc, etc ...
-- **Metric**:
-  - Allow negative values for the attribute
-  - Allow decimal values for this attribute
-  - Minimum value: the smallest value allowed
-  - Maximum value: the largest value allowed
-  - Metric family: family units of measurement to be used for the attribute (weight, dimensions, area, etc. )
-  - The default unit of measurement
-- **Price**:
-  - Allow decimals for the attribute values
-  - minimum value: the smallest allowed value
-  - maximum value: the largest allowed value
-- **Number**:
-  - Allow negative values for the attribute
-  - Allow decimals
-  - Minimum value: the smallest allowed value
-  - Maximum value: the largest allowed value
-
-::: info
-The **simple** and **multi select** attribute types, as well as **Yes/No** attribute have no specific properties to validate the attributes.
-:::
-
-## Manage attribute options
-
-You can define values for simple and multi select attribute types. Options can be added, modified, sorted, or deleted.
-
-![image](../img/Settings_Attributes_Options.png)
-
-To add new values, click on `Add an option` and save.
-To edit values, use the small pencil icon.
-
-::: warning
-You can add and update many lines at once but you will have to save each line before leaving the page.
-You cannot use the main Save button to record your new options.
-:::
-
-### List attribute options
-
-To edit an attribute option:
-1. Go to `Settings/Attributes`
-1. Select the attribute to edit, then click on the relevant row in the attribute datagrid
-1. Click on the `Options` tab
-
-### Add an option
-
-1. Click on `Add an option`
-1. Give a unique code to the new option
-1. Click on the confirm or cancel button
-
-![image](../img/Settings-AttributesAddOption.gif)
-
-The option is instantly created.
-
-### Edit option labels
-
-1.  Click on the small pencil icon change the option labels
-1.  Click on the button to confirm or on the button to cancel
-
-![image](../img/Settings_Attributes_OptionsEdit.png)
-
-### Sort out options
-
-1.  Drag and drop the rows to reorder options manually via the icon at the beginning of each row of options.
-
-![image](../img/Settings_AttributesDraganddropOption.gif)
-
-### Delete an option
-
-1.  Click on the `delete` button to remove an option
-
-![image](../img/Settings_Attributes_OptionsDelete.png)
-
-::: warning
-A deleted option can no longer be used as a value for the attribute for a product. If a product had this value, the product has no value anymore for the attribute.
-:::
-
-::: ee
-An option that is used by a published product cannot be deleted.
-:::
-
-
-## Manage rules on attributes (EE only)
-
-You can find the rules applied on an attribute under the `Rules` tab.
-
-![image](../img/Settings_Attributes_Rules.png)
-
-The display screen is composed of several elements:
-- The rule code
-- The conditions which are displayed below each other starting by “If”
-- The rule’s action beginning with “Then”
-- The number of affected products is the number of products which are selected by the rules conditions
-
-The rules have to be read from left to right: conditions first, then actions.
-
-::: info
-A dedicated screen lists all the rules (`Settings/Rules`), the rules can be applied on attributes, categories, system attributes.
-:::
-
-Like on `Settings/Rules`, you can perform several actions from this grid:
-- Execute rules
-- Delete rules
-- Calculate the number of affected products by the rule
 
 # Check the attribute history
 
@@ -272,10 +284,11 @@ Unlike products you cannot restore or revert an attribute’s versions.
 # Delete an attribute
 
 ::: warning
-You can delete attributes, deleting an attribute means that all information regarding this attribute will be removed from PIM. Once you have confirmed the action, the action cannot be reverted.
+Prior to delete an attribute, please first delete from the families in which it is used and then from the products. After this, you will be able to delete safely your attribute.
 :::
 
-You have two ways to proceed to remove an attribute.
+You have two ways to proceed to remove an attribute:
+
 Through the attribute edit form:
 1. Select the attribute to delete
 1. Click on `...` for other actions and then `Delete` on the top right corner
@@ -289,8 +302,12 @@ Through the Delete shortcut in the grid:
 1. Click on the trash can icon
 1. Confirm the action in the popin
 
+::: warning
+You can delete attributes, deleting an attribute means that all information regarding this attribute will be removed from PIM. Once you have confirmed the action, the action cannot be reverted.
+:::
+
 **The attribute and all its relevant information will be deleted in Akeneo PIM.**
 
 ::: ee
-An attribute used by a published product cannot be deleted.
+An attribute used in a published product cannot be deleted.
 :::
