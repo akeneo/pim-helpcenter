@@ -29,8 +29,13 @@ The only mandatory attribute is the **Identifier attribute type**. You first nee
 :::
 
 :::warning
-You can only have only one **identifier attribute type** in your installation.
+You can only have only one **identifier attribute type** in your PIM.
 :::
+
+:::warning
+A **text** attribute is **limited to 255 characters**, for text data greater than 255 char, use the **text area** attribute type.
+:::
+
 
 # Attribute properties
 An attribute can have several specific properties: it can be localizable, locale specific and/or scopable.
