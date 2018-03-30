@@ -29,11 +29,11 @@ Locales which are not used in at least one channel are shown as inactive.
 
 # How to add a new locale?
 
-You are missing a locale? It is very simple to add a new locale using imports.
+You are missing a locale? It is very simple to add a new locale using imports.  
 For instance, to add a `en_HK` locale, follow these steps:
-1.  Create an import file XLSX or CSV containing two values: a locale `code` column like below:
-`code`
-`en_HK`
+1.  Create an import file XLSX or CSV containing two values: a locale `code` column like below:  
+  `code`  
+  `en_HK`  
 1.  Import this file using an import job (`csv_locale_import` or `xlsx_locale_import`). Once the file is imported, the new locale will appear under `Settings/Locales`.
 1.  To enable it and add it to a channel, use a channel import job (again csv or xlsx) and add the `en_HK` code in the `locales` column.
 
