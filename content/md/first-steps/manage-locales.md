@@ -40,5 +40,5 @@ For instance, to add a `en_HK` locale, follow these steps:
 And that's it! Your `en_HK` locale is activated for your channel!
 
 :::warning
-Your locale will not have a label thus it is not possible to add it directly in the channel's settings page.
+You can only enable your new locale with a channel import. It will not work using the user interface.
 :::
