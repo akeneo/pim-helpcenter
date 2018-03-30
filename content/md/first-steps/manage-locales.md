@@ -35,7 +35,7 @@ For instance, to add a `en_HK` locale, follow these steps:
 `code`
 `en_HK`
 1.  Import this file using an import job (`csv_locale_import` or `xlsx_locale_import`). Once the file is imported, the new locale will appear under `Settings/Locales`.
-1.  To enable it and add it to a channel, use a channel import job (again csv or xlsx) and add 
+1.  To enable it and add it to a channel, use a channel import job (again csv or xlsx) and add the `en_HK` code in the `locales` column.
 
 And that's it! Your `en_HK` locale is activated for your channel!
 
