@@ -9,12 +9,12 @@ related: exports, monitor-jobs
 
 # Overview
 
-You can configure your product export profile to only export the data you need thanks to the Product Export Builder. This feature allows you to filter your export data on several product and system information.
+You can configure your product export profile to only export the data you need, thanks to the Product Export Builder. This feature allows you to filter your export data on several products and system information.
 
 If you are granted with the permissions, you can either create your own product export using the Product Export Builder or edit an existing product export profile.
 
 ::: info
-The Product Export Builder feature is available for the product and published product export profiles (for the CSV and XLSX connectors) and since the 2.2, on [product model](/articles/what-about-products-variants.html#what-is-a-product-model) export profiles.
+The Product Export Builder feature is available for the product and published product export profiles (for the CSV and XLSX connectors). Since the 2.2, it is also available for [product model](/articles/what-about-products-variants.html#what-is-a-product-model) export profiles.
 :::
 
 # Create a new product export profile
@@ -22,7 +22,7 @@ The Product Export Builder feature is available for the product and published pr
 To create a product export:
 1. Go to `Exports`
 1. Click on the `Create export profile` button
-1. Indicate a unique export code, an export label and select the job, for example: csv_product_export or xlsx_product_export for product exports (all fields are required)
+1. Indicate a unique export code, an export label and select a job, for example: `Product model export in CSV`, `Product export in XLSX` or `Published product export in XLSX` (EE only)
 ![Create a new product export profile](../img/Exports_CreateProfilExport.png)
 1. Save your new export profile
 
@@ -143,21 +143,24 @@ The following drop down enables you to filter on the completeness of the product
 
 ### Filter on date
 
-You can now export your product on a specific time condition:
-- `No date condition` (default option)
-- `Updated products over the last n days (e.g. 6)`: you want to export products updated since the last ‘n’ days:
-- `Updated products since this date`:  you want to export products updated since a specific date
-- `Updated products since last export`: you want to export products updated since the last export
+You can now export your products based on a specific time condition:
+- `No date condition` (default option): no time condition will not be taken into account for your product export
+- `Updated products over the last n days (e.g. 6)`: you only want to export the products that have been updated since the last ‘n’ days
+- `Updated products since this date`: you only want to export the products that have been updated since a specific date
+- `Updated products since last export`: you only want to export the products that have been updated since the last export
 
 If you select `Updated products over the last n days (e.g. 6)`, a field will be displayed nearby the drop down menu. Specify a number of days (please only use numbers) in this field.
 
-If you select `Updated products since this date`, the date picker will be displayed to choose a date. To change the date, click again on the date picker. To completely remove a date, select another time condition.
+If you select `Updated products since this date`, click the empty field to display the date picker and choose a date. To change the date, click again on the date picker. To completely remove a date, select another time condition.
+
+::: tips
+Save export time and used this filter to only export edited data:::
 
 ### Filter on categories
 
-In the export builder, you can also configure the category (ies) of the channel tree you want to export.
+In the export builder, you can also select the category(ies) of the tree you want to export.
 
-For example, you want to export the clothing products (categories `Clothing` in the tree) to update in mass the families because the families have been refined and new families have been created for clothing.
+For example, you want to export the clothing products (categories `Clothing` in the tree) to mass update families because they have been refined and new families have been created for clothing.
 
 By default all categories are exported. To select a category, click on the `Edit` button. The categories of the channel tree are displayed:
 
@@ -170,7 +173,11 @@ You can select a category and its subcategories, or only the subcategories.
 Clicking on `All products` allows you to export all categories by erasing the above selection.
 
 ::: info
-You cannot export unclassified products thanks to the export builder. If you want to do so, you can use the Quick export in the product grid.
+**Only categorised and enabled products are exported**, thus unclassified products will not be exported. If you want to export unclassified products, you can use the [Quick export](/articles/quick-export.html#mainContent) feature.
+:::
+
+::: warning
+The category tree available in the export builder, will be the tree linked to the channel selected above. If you want to export products belonging to another category tree, change the channel selected or edit the Channel settings. Check the [Manage your Channels](/articles/manage-your-channels.html#mainContent) article for more information about channels.
 :::
 
 #### Filter on product identifiers
@@ -180,11 +187,11 @@ You can make a selection of identifiers to export by adding them in the `Identif
 ![Filter on product identifiers](../img/Exports-EditContentIdentifiers.png)
 
 ::: info
-You can easily copy an identifier list from a csv or xlsx file and paste it in the identifier text area.
+You can easily copy a list of identifiers from a csv or xlsx file and paste it in the identifier text area.
 :::
 
 ::: info
-Since 2.2, for product models, a selection on their codes is available.
+Since 2.2, a selection on product model codes is available.
 :::
 
 #### Filter on attributes
