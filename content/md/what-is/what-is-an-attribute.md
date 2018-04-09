@@ -29,7 +29,7 @@ The only mandatory attribute is the **Identifier attribute type**. You first nee
 :::
 
 :::warning
-You can only have only one **identifier attribute type** in your PIM.
+You can only have one **identifier attribute type** in your PIM.
 :::
 
 :::warning
