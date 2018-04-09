@@ -9,14 +9,16 @@ related: what-is-an-attribute
 
 # Overview
 
-To fit the PIM application to your needs, Akeneo enables you to define attributes. Akeneo offers you 14 types of attributes on the Community Edition version, and 15 types on the Enterprise Edition version. The additional one is the Asset type, which is part of our [Product Asset Manager feature] (/articles/work-with-assets.html).
+To fit the PIM application to your needs, Akeneo enables you to define attributes. Akeneo offers you 14 types of attributes on the Community Edition version, and 15 types on the Enterprise Edition version. 
 
-For example, if you need to capture data about the weight of your products, you can add an attribute type as ‘metric’.
+::: info
+The Asset Collection attribute is specific to the Enterprise Edition version. Learn more about it by discovering our [Product Asset Manager feature](/articles/work-with-assets.html).
+:::
 
-You will be able to select the most appropriate attribute type for your needs (see [Create an attribute](#create-an-attribute)). For example, you can choose to create a field as a text, in which users can write what they want, or as a drop down list (simple or multi select) with a selection of values, forcing users to select from a list of predefined options or add a ‘metric’ attribute to fill in the weight/size/length... of your products. 
+You will be able to select the most appropriate attribute type for your needs (see [Create an attribute](#create-an-attribute)). For example, you can choose to create a field as a text, in which users can write what they want, or as a drop down list (simple or multi select) with a selection of values, forcing users to select from a list of predefined options or add a `metric` attribute to fill in the weight/size/length... of your products. 
 
 ::: tips
-For metric attributes, you will be even offered the possibility to automatically convert metric values into others to fit your export needs see the [Manage your Channels](/articles/manage-your-channels.html#create-a-channel) article.
+For `metric` attributes, you will be even offered the possibility to automatically convert metric values into others to fit your export needs see the [Manage your Channels](/articles/manage-your-channels.html#create-a-channel) article.
 :::
 
 Once you have created a new attribute (see [Create an attribute](#create-an-attribute)), you will have to assign it to one or more families to make it available to users.
@@ -30,8 +32,8 @@ Attributes are always **optional data fields**. This means that attributes can b
 Check the [What is an attribute](/articles/what-is-an-attribute.html) article to discover the different types of attributes available in Akeneo.
 
 :::tips
-To store GTIN, EAN13, UPC… in your PIM, use the **text attribute type** and use a regular Expression to make sure that your codes will contain the exact number of digits required. 
-For instance, to store an EAN13 in Akeneo, which contains 13 digits, add a validation rule based on the following regular expression: /^[0-9]{13}$/
+To store GTIN, EAN13, UPC… in your PIM, use the **text attribute type** and use a regular Expression to make sure that your codes will contain the exact number of digits required.  
+For instance, to store an EAN13 in Akeneo, which contains 13 digits, add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 :::
 
 # Create an attribute
@@ -52,11 +54,11 @@ To create an attribute in the PIM:
     - **A value per locale** (Yes/No): Yes if your attribute values depend on the locales
     - **Locale specific**: if it must apply to specific locales not all of them
     - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
-    - **Read only**: only for Enterprise Edition users, when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules.
+    - **Read only**: only for Enterprise Edition users, when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports, API or rules
     - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
 1. Then click on `Save`
 
-The attribute is now created, if you need to edit an attribute property, please refer to the next section [Edit attribute properties] (/articles/manage-your-attributes.html#edit-attribute-properties)
+The attribute is now created, if you need to edit an attribute property, please refer to the next section [Edit attribute properties](/articles/manage-your-attributes.html#edit-attribute-properties)
 
 ::: warning
 After being created, it is not possible to change the following properties of an atttribute:
@@ -70,7 +72,7 @@ After being created, it is not possible to change the following properties of an
 ::: warning
 Please note that the following attribute codes cannot be used in Akeneo PIM:
 
-id, associationTypes, category, categories, categoryId, completeness, enabled, family, groups, associations, products, scope, treeId, values, parent
+`id`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `parent`
 :::
 
 
@@ -143,7 +145,7 @@ To edit values, use the small pencil icon.
 
 ::: warning
 You can add and update many lines at once but you will have to save each line before leaving the page. 
-You cannot use the main Save button to record your new options.
+You cannot use the main `Save` button to record your new options.
 :::
 
 ### List attribute options
@@ -215,7 +217,7 @@ Like on `Settings/Rules`, you can perform several actions from this grid:
 - Calculate the number of affected products by the rule
 # List attributes
 
-To start, go to `Settings > Attributes`. From this page, you will have several options to work with the datagrid of attributes as described below.
+To start, go to `Settings/Attributes`. From this page, you will have several options to work with the datagrid of attributes as described below.
 
 ## Attribute grid pagination
 
@@ -245,15 +247,16 @@ The attribute datagrid comes with a filter bar.
 You can filter on the following attribute information:
 - The attribute type
 - The attribute group it belongs to
-- The “scopable” property (one value per channel)
-- The “localizable” property (one value per locale)
+- The `scopable` property (one value per channel)
+- The `localizable` property (one value per locale)
 
 ::: ee
-You can also filter on the property "smart". The attribute is smart if there is a rule defined on this attribute.
+You can also filter on the property `smart`. The attribute is smart if there is a rule defined on this attribute.
 :::
 
 ::: info
-Labels filters are localised: If an attribute has a label in the locale preference, then this wording is used. If there is no available language, then the attribute code will be displayed in brackets. For example: [COLOR].
+Labels filters are localised. If an attribute has a label in the locale preference, then this wording is used.  
+If there is no available translated label, then the attribute code will be displayed in brackets. For example: [COLOR].
 :::
 
 ## Sort out attributes
@@ -291,7 +294,7 @@ Unlike products you cannot restore or revert an attribute’s versions.
 # Delete an attribute
 
 ::: warning
-Prior to delete an attribute, please first delete from the families in which it is used and then from the products. After this, you will be able to delete safely your attribute.
+Please first delete it from the families in which it is used and then from the products. After this, you will be able to delete safely your attribute.
 :::
 
 You have two ways to proceed to remove an attribute:
@@ -310,7 +313,7 @@ Through the Delete shortcut in the grid:
 1. Confirm the action in the popin
 
 ::: warning
-You can delete attributes, deleting an attribute means that all information regarding this attribute will be removed from PIM. Once you have confirmed the action, the action cannot be reverted.
+Please note that deleting an attribute means that all information regarding this attribute will be removed from PIM. Once you have confirmed the action, it cannot be reverted.
 :::
 
 **The attribute and all its relevant information will be deleted in Akeneo PIM.**
