@@ -9,73 +9,31 @@ related: what-is-an-attribute
 
 # Overview
 
-To fit the PIM application to your needs, Akeneo enables you to define attributes. For example, if you need to capture data about the weight of your products, you can add an attribute type as ‘metric’.
-
-You will be able to select the most appropriate attribute type for your needs (see [Create an attribute](#create-an-attribute)). For example, you can choose to create a field as a text, in which users can write what they want, or as a drop down list (simple or multi select) with a selection of values, forcing users to select from a list of predefined options.
-
-Once you have created a new attribute (see [Create an attribute](#create-an-attribute)), you’ll need to assign it to one or more families to make it available to users.
-
-To learn more on how the attributes and families interact, please refer to [Add an attribute to a family](/articles/manage-your-families.html#manage-attributes-in-a-family).
+To fit the PIM application to your needs, Akeneo enables you to define attributes. Akeneo offers you 14 types of attributes on the Community Edition version, and 15 types on the Enterprise Edition version. 
 
 ::: info
-Attributes are always **optional data fields**. This means that all attributes can have no value for the products except the attribute which identifies a product (ex: SKU), and is therefore mandatory with a value when you create a product.
+The Asset Collection attribute is specific to the Enterprise Edition version. Learn more about it by discovering our [Product Asset Manager feature](/articles/work-with-assets.html).
 :::
 
-# List attributes
+You will be able to select the most appropriate attribute type for your needs (see [Create an attribute](#create-an-attribute)). For example, you can choose to create a field as a text, in which users can write what they want, or as a drop down list (simple or multi select) with a selection of values, forcing users to select from a list of predefined options or add a `metric` attribute to fill in the weight/size/length... of your products. 
 
-To start, go to `Settings > Attributes`. From this page, you will have several options to work with the datagrid of attributes as described below.
-
-## Attribute grid pagination
-
-The attribute grid displays 25 attributes per page. To browse attribute's pages, click on the page number you want to reach.
-
-![image](../img/Settings_Attributes.png)
-
-## Search on the attribute label
-
-To quickly find an attribute, you can use the search bar to search on the attribute label.
-
-![image](../img/Settings-UsetheSearchBar.gif)
-
-::: warning
-If your attribute does not have any label translated yet, it will not pop in the search results. Make sure your attribute has its labels translated!
+::: tips
+For `metric` attributes, you will be even offered the possibility to automatically convert metric values into others to fit your export needs see the [Manage your Channels](/articles/manage-your-channels.html#create-a-channel) article.
 :::
 
-## Filter on attributes
+Once you have created a new attribute (see [Create an attribute](#create-an-attribute)), you will have to assign it to one or more families to make it available to users.
 
-The attribute datagrid comes with a filter bar.
-
-![image](../img/Settings_AttributesFilters.png)
-
-1.  Enter your filter criteria
-1.  The grid is automatically updated when a new filter is set
-
-You can filter on the following attribute information:
-- The attribute type
-- The attribute group it belongs to
-- The “scopable” property (one value per channel)
-- The “localizable” property (one value per locale)
-
-::: ee
-You can also filter on the property "smart". The attribute is smart if there is a rule defined on this attribute.
-:::
+To learn more on how attributes and families interact with each other, please refer to [Add an attribute to a family](/articles/manage-your-families.html#manage-attributes-in-a-family).
 
 ::: info
-Labels filters are localised: If an attribute has a label in the locale preference, then this wording is used. If there is no available language, then the attribute code will be displayed in brackets. For example: [COLOR].
+Attributes are always **optional data fields**. This means that attributes can be empty for some or all products exception made of the identifier attribute type which is used to identify a product (ex: SKU), and is therefore must have a value when you create a product.
 :::
 
-## Sort out attributes
+Check the [What is an attribute](/articles/what-is-an-attribute.html) article to discover the different types of attributes available in Akeneo.
 
-To sort out the attributes, you can click on the column header in the datagrid.
-
-## Shortcut actions on each attribute
-
-There is a set of actions available for each attribute, that you can find in the last column of the grid. The buttons are prompted when you hover your mouse over the line.
-
-![image](../img/Settings-AttributesGridHover.png)
-
-::: info
-The shortcut actions are only displayed if you have been granted the appropriate rights.
+:::tips
+To store GTIN, EAN13, UPC… in your PIM, use the **text attribute type** and use a regular Expression to make sure that your codes will contain the exact number of digits required.  
+For instance, to store an EAN13 in Akeneo, which contains 13 digits, add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 :::
 
 # Create an attribute
@@ -96,20 +54,25 @@ To create an attribute in the PIM:
     - **A value per locale** (Yes/No): Yes if your attribute values depend on the locales
     - **Locale specific**: if it must apply to specific locales not all of them
     - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
+    - **Read only**: only for Enterprise Edition users, when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports, API or rules
     - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
 1. Then click on `Save`
 
-::: ee
-The property "read only" prevents this attribute from being edited in the UI, it could be updated only through imports or rules.
+The attribute is now created, if you need to edit an attribute property, please refer to the next section [Edit attribute properties](/articles/manage-your-attributes.html#edit-attribute-properties)
+
+::: warning
+After being created, it is not possible to change the following properties of an atttribute:
+- its code
+- its type
+- the unique value property
+- the value per channel property
+- the value per locale property
 :::
-
-The attribute has been created and some properties can be added or amended over time.
-
 
 ::: warning
 Please note that the following attribute codes cannot be used in Akeneo PIM:
 
-id, associationTypes, category, categories, categoryId, completeness, enabled, family, groups, associations, products, scope, treeId, values, parent
+`id`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `parent`
 :::
 
 
@@ -120,12 +83,9 @@ You can change the following properties of an attribute:
 - **Labels**: these are labels that appear when they are displayed in the PIM
 - **Locale specific**: if it must apply to specific locales not all of them
 - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
+- **Read only**: only for Enterprise Edition users, when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules.
 - **Validation parameters** (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
 - **Options** (for simple or multi select attribute types only): these are predefined values that the user can select
-
-::: ee
-- Read only: to prevent this attribute from being edited in the UI, it could be updated only through imports or rules.
-:::
 
 To edit an attribute:
 1.  Go to `Settings/Attributes`
@@ -167,7 +127,7 @@ Each attribute has specific properties to validate values:
   - Maximum value: the largest allowed value
 
 ::: info
-The **simple** and **multi select** attribute types, as well as **Yes/No** attribute have no specific properties to validate the attributes.
+The **simple** and **multi select** attribute types, as well as **Yes/No** (boolean) attribute have no specific properties to validate the attributes.
 :::
 
 ## Manage attribute options
@@ -179,14 +139,18 @@ You can define values for simple and multi select attribute types. Options can b
 To add new values, click on `Add an option` and save.
 To edit values, use the small pencil icon.
 
+::: tips
+**Simple** and **multi select** attribute types **do rarely need to be localisable** since all their options can be translated in any enabled locales in the PIM.
+:::
+
 ::: warning
-You can add and update many lines at once but you will have to save each line before leaving the page.
-You cannot use the main Save button to record your new options.
+You can add and update many lines at once but you will have to save each line before leaving the page. 
+You cannot use the main `Save` button to record your new options.
 :::
 
 ### List attribute options
 
-To edit an attribute option:
+To see your attribute option(s):
 1. Go to `Settings/Attributes`
 1. Select the attribute to edit, then click on the relevant row in the attribute datagrid
 1. Click on the `Options` tab
@@ -194,8 +158,8 @@ To edit an attribute option:
 ### Add an option
 
 1. Click on `Add an option`
-1. Give a unique code to the new option
-1. Click on the confirm or cancel button
+1. Give a unique code for the new option
+1. Click on the `Confirm` or `Cancel` button
 
 ![image](../img/Settings-AttributesAddOption.gif)
 
@@ -204,7 +168,7 @@ The option is instantly created.
 ### Edit option labels
 
 1.  Click on the small pencil icon change the option labels
-1.  Click on the button to confirm or on the button to cancel
+1.  Click on the green checkmark to confirm or on the cross to cancel
 
 ![image](../img/Settings_Attributes_OptionsEdit.png)
 
@@ -216,7 +180,7 @@ The option is instantly created.
 
 ### Delete an option
 
-1.  Click on the `delete` button to remove an option
+1.  Click on the `Delete` button to remove an option
 
 ![image](../img/Settings_Attributes_OptionsDelete.png)
 
@@ -251,6 +215,64 @@ Like on `Settings/Rules`, you can perform several actions from this grid:
 - Execute rules
 - Delete rules
 - Calculate the number of affected products by the rule
+# List attributes
+
+To start, go to `Settings/Attributes`. From this page, you will have several options to work with the datagrid of attributes as described below.
+
+## Attribute grid pagination
+
+The attribute grid displays 25 attributes per page. To browse attribute's pages, click on the page number you want to reach.
+
+![image](../img/Settings_Attributes.png)
+
+## Search on the attribute label
+
+To quickly find an attribute, you can use the search bar to search on the attribute label.
+
+![image](../img/Settings-UsetheSearchBar.gif)
+
+::: warning
+If your attribute does not have any label translated yet, it will not pop in the search results. Make sure your attribute has its labels translated!
+:::
+
+## Filter on attributes
+
+The attribute datagrid comes with a filter bar.
+
+![image](../img/Settings_AttributesFilters.png)
+
+1.  Enter your filter criteria
+1.  The grid is automatically updated when a new filter is set
+
+You can filter on the following attribute information:
+- The attribute type
+- The attribute group it belongs to
+- The `scopable` property (one value per channel)
+- The `localizable` property (one value per locale)
+
+::: ee
+You can also filter on the property `smart`. The attribute is smart if there is a rule defined on this attribute.
+:::
+
+::: info
+Labels filters are localised. If an attribute has a label in the locale preference, then this wording is used.  
+If there is no available translated label, then the attribute code will be displayed in brackets. For example: [COLOR].
+:::
+
+## Sort out attributes
+
+To sort out the attributes, you can click on the column header in the datagrid.
+
+## Shortcut actions on each attribute
+
+There is a set of actions available for each attribute, that you can find in the last column of the grid. The buttons are prompted when you hover your mouse over the line.
+
+![image](../img/Settings-AttributesGridHover.png)
+
+::: info
+The shortcut actions are only displayed if you have been granted the appropriate rights.
+:::
+
 
 # Check the attribute history
 
@@ -272,10 +294,11 @@ Unlike products you cannot restore or revert an attribute’s versions.
 # Delete an attribute
 
 ::: warning
-You can delete attributes, deleting an attribute means that all information regarding this attribute will be removed from PIM. Once you have confirmed the action, the action cannot be reverted.
+Please first delete it from the families in which it is used and then from the products. After this, you will be able to delete safely your attribute.
 :::
 
-You have two ways to proceed to remove an attribute.
+You have two ways to proceed to remove an attribute:
+
 Through the attribute edit form:
 1. Select the attribute to delete
 1. Click on `...` for other actions and then `Delete` on the top right corner
@@ -289,8 +312,12 @@ Through the Delete shortcut in the grid:
 1. Click on the trash can icon
 1. Confirm the action in the popin
 
+::: warning
+Please note that deleting an attribute means that all information regarding this attribute will be removed from PIM. Once you have confirmed the action, it cannot be reverted.
+:::
+
 **The attribute and all its relevant information will be deleted in Akeneo PIM.**
 
 ::: ee
-An attribute used by a published product cannot be deleted.
+An attribute used in a published product cannot be deleted.
 :::
