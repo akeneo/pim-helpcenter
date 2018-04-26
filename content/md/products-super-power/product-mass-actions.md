@@ -210,6 +210,10 @@ To delete multiple products:
 ![Confirm delete](../img/Products_BulkActionUppermenuDelete2.png)
 
 :::warning
+For security reasons, you cannot remove more than 1000 products at a time.
+:::
+
+:::warning
 To be deleted, a product should be categorized in at least one category that you own.
 :::
 
