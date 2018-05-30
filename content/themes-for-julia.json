@@ -1,37 +1,37 @@
 {
-    "title":"Using Akeneo",
-    "description":"You are our dear Julia: the PIM is your daily tool. You want to be productive and have the best products catalog ever. We're here to help you.",
+    "title":"using_akeneo_theme",
+    "description":"using_akeneo_description_theme",
     "img":"illus-using.svg",
     "themes":{
         "first-steps":{
-            "title": "Your first steps into Akeneo",
+            "title": "your_first_steps_in_akeneo",
             "img": "illus-first-steps.svg",
-            "description": "You are very new to Akeneo and you don't know where to begin. Here are a few articles to help you understand the basics. Enjoy!"
+            "description": "your_first_steps_in_akeneo_description"
         },
         "products-super-power":{
-            "title": "Take the power over your products",
+            "title": "take_the_power_over_your_products",
             "img": "illus-products.svg",
-            "description": "Everything you always wanted to know about the products enrichment inside Akeneo. Brace yourself, we've brought some articles just for you."
+            "description": "take_the_power_over_your_products_description"
         },
         "boost-your-productivity":{
-            "title": "Boost your productivity",
+            "title": "boost_your_productivity",
             "img": "illus-productivity.svg",
-            "description": "You are a PIM master and you know how to perfectly handle your products inside Akeneo. But still, you think you can do better. Check out these awesome features that will help you be so much more productive."
+            "description": "boost_your_productivity_description"
         },
         "collaborative-work":{
-            "title": "Collaborative work",
+            "title": "collaborative_work",
             "img": "illus-drafts.svg",
-            "description": "At Akeneo, we think working as a team is the only way to succeed. You should be able to do the same thanks to your PIM. Empower your coworkers, enrich your products as a team!"
+            "description": "collaborative_work_description"
         },
         "import-export-data":{
-            "title": "Import/export data in your PIM",
+            "title": "import_export_data_in_your_pim",
             "img": "illus-imports.svg",
-            "description": "Anything you need to know about importing data inside your dearest PIM. You'll also find here infomartions about exporting data. Cause yeah, products information you cannot export is kind of useless, isn't it?"
+            "description": "import_export_data_in_your_pim_description"
         },
         "manage-your-assets":{
-            "title": "Manages your images, files, assets",
+            "title": "manage_your_images_assets",
             "img": "illus-assets.svg",
-            "description": "Product information without any asset, it's like Akeneo without Ziggy, it's depressing. So here is how to handle these assets that will liven up your products' sheets."
+            "description": "manage_your_images_assets_description"
         }
     }
 }

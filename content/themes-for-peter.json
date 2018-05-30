@@ -1,32 +1,32 @@
 {
-    "title":"Setting up the PIM",
-    "description":"Having trouble with your PIM catalog structure? Don't know how to set up permissions? Don't worry. Here, you are in good care.",
+    "title":"setting_up_the_pim_theme",
+    "description":"setting_up_the_pim_description_theme",
     "img":"illus-setting-up.svg",
     "themes":{
         "akeneo-concepts":{
-            "title": "Discover Akeneo concepts",
+            "title": "discover_akeneo_concepts",
             "img": "illus-concepts.svg",
-            "description": "If you are new to Akeneo, you will want to start here. It's just a few basics to get you started. Remember every Jedi knight was a young Padawan first."
+            "description": "discover_akeneo_concepts_description"
         },
         "catalog-settings":{
-            "title": "Build up your catalog",
+            "title": "build_up_your_catalog",
             "img": "illus-catalog.svg",
-            "description": "Having a catalog modelling that is totally tailored to your end-users needs, is really crucial. Before beginning to play with Akeneo, be sure to understand how these few key settings work."
+            "description": "build_up_your_catalog_description"
         },
         "permissions-settings":{
-            "title": "Users and permissions",
+            "title": "users_and_permissions",
             "img": "illus-permissions.svg",
-            "description": "As an administrator, you will need to manage all the users that will access the PIM. Here are some articles to help you understand how to handle the users and their permissions."
+            "description": "users_and_permissions_description"
         },
         "language-and-translations":{
-            "title": "Languages and translations",
+            "title": "languages_and_translations",
             "img": "illus-languages.svg",
-            "description": "We love being international here. The more languages the PIM will speak, the happier we will be. There is already a lot of happiness at Akeneo, but let's bring some more!"
+            "description": "languages_and_translations_description"
         },
         "administration":{
-            "title": "Administration matters",
+            "title": "adminstration_matters",
             "img": "illus-settings.svg",
-            "description": "This is a kind of 'Miscellaneous' theme: you will need these articles to grasp some PIM concepts, but as you will see below, these concepts are totally unrelated."
+            "description": "adminstration_matters_description"
         }
     }
 }

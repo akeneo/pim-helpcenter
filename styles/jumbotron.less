@@ -13,14 +13,6 @@
     .container{
         margin-bottom: 0px;
     }
-    h1.emphasis{
-        color: #11324D;
-        font-size:  @font-size-base*2;
-        font-family: Comfortaa, sans-serif;
-        + p {
-            font-size: 19px;
-        }
-    }
     h1{
         font-size: @font-size-h1;
         margin-top: 0px;
@@ -30,6 +22,11 @@
           animation: hello 0.5s infinite;
           transform-origin: 30px 40px;
           animation-timing-function: ease-in-out;
+        }
+        &.emphasis{
+            + p {
+                font-size: 19px;
+            }
         }
     }
     p{
@@ -52,6 +49,18 @@
             font-size: 30px;
             margin-top: 75px;
             color: @headings-color;
+        }
+    }
+    + .help-us{
+        margin-top: -70px;
+        background-color: lighten(@brand-info, 10%);
+        color: white;
+        padding: 20px 0 10px 0;
+        strong{
+            font-family: Comfortaa, sans-serif;
+        }
+        a{
+            color: white;
         }
     }
 }
