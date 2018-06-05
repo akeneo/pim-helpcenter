@@ -4,7 +4,7 @@ themes: first-steps, products-super-power
 title: What about products with **variants**?
 popular: true
 ee-only: false
-related:
+related: enrich-products-variants, manage-your-families, create-a-product
 ---
 
 # About products with variants
@@ -68,3 +68,9 @@ A [family](/articles/what-is-a-family.html) could have several variants. For exa
 With this new modeling, **up to 3 levels of enrichment can be managed for products with variants** (ex: t-shirt model, t-shirt color, t-shirt color/size):
 - 2 levels of product model (we call the 1st one a "root product model" and the 2nd one a "sub product model")
 - 1 level of variant product
+
+# How create and enrich products with variants?
+Now you know almost everything about products with variants and you would like to create your first products with variants, here are some articles that might interest you ;)
+1.  [Create your first family variant](/articles/manage-your-families.html#create-a-family-variant)
+1.  [Create your first product model ](/articles/create-a-product.html#create-a-product-model)
+1.  [Enrich your products with variants](articles/enrich-products-variants)
