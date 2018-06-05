@@ -229,6 +229,16 @@ A family variant can be deleted if there is no [product model](/articles/what-ab
 1.  Click on the trash can icon, a confirmation opens
 1.  Click on `Delete` to confirm the action via the confirmation message
 
+## Translate a family variant label (_since 2.3_)
+
+1.  In `Settings/Families`, choose a family and open the `Variants` tab
+1.  Click on a family variant
+1.  The family variant edit page is displayed
+1.  Select the `Label translations` tab
+1.  Translate the family variant label in the different enabled locales
+![Display a family variant](../img/Settings_Families_Variant_Translate.png)
+1.  Click on `Save`
+
 # Mass edit families
 
 Like for products you can mass edit families and add several attributes at once for several families, and through the same action, define if they are required of not for the selected families.
@@ -268,6 +278,18 @@ To view the family versions:
 Deleting a family does not delete the attributes it includes, or the products associated with it. The attributes are always available and the products keep these very same attributes if they have values: they will become “optional” and the products with no family will have no longer completeness. The values are though maintained: there is no loss of product information.
 :::
 
+::: warning
+A family with family variants cannot be deleted. You need to first [delete its family variants](/articles/manage-your-families.html#delete-a-family-variant-since-22).
+:::
+
+::: warning
+_Since 2.3_, a family cannot be deleted if there are some products with this family, you need to first remove the products from this family (refer to [the bulk action change family of products](/articles/product-mass-actions.html)).
+:::
+
+::: ee
+A family used by a published product cannot be deleted.
+:::
+
 You have two ways to proceed to remove a family.
 Through the family form:
 1. Go to `Settings/Families` to list the families
@@ -282,7 +304,3 @@ Through the Delete shortcut in the grid:
 1. Place your mouse over the line of family in the grid, the button delete is prompted (trash can icon)
 1. Click on the trash can icon
 1. Confirm the action via the validation message
-
-::: ee
-A family used by a published product cannot be deleted.
-:::
