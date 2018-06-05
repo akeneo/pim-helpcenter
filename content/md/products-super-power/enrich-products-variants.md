@@ -53,6 +53,12 @@ If you are looking for clothing with the color "red" and the size "S", the red S
 
 ![Search results with color red and size S](../img/Products_ProductModel_Search3.png)
 
+:::info
+_Since 2.3_ if you search by categories, the grid will automatically display the product models or the products classified according to the category selected in the grid.
+If a product model is not classified in the selected category but its children products are, the products will be displayed in the grid.
+So all the filters, attributes and categories selected in the grid, will be taken into account to display the level you would like to enrich.
+:::
+
 :::tips
 If you would like to display only products in the grid, you just have to filter on an attribute that is always at the product level, whatever the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant), for example the identifier ("SKU").
 :::
@@ -138,6 +144,13 @@ In a variant level, you can view the common attributes but you can not update th
 
 ![SIZE for product model](../img/Products_ProductModel_PEFEnrich2.png)
 
+_Since the 2.3_, we added in the product form a new filter `Display all level specific attributes` to display only the attributes managed at the current level that can be enriched.
+This is very easy: just click on the drop down `Display all attributes` and select `Display all level specific attributes`. That's it!
+This filter is available only for variant products and product models (if family variant with 2 variant levels).
+
+![SIZE for product model](../img/Products_ProductModel_PEFEnrich3.png)
+
+
 ## Categorize
 
 In `COMMON`, in the `Categories` tab, you can classify the model and all its children products in categories.
@@ -149,6 +162,28 @@ You can then add categories for a specific variant level. For example, your mode
 ::: info
 You can add categories on the products for this product model but on a product you can not remove a category of its parent, the category is disabled in the tree. If you would like to remove it, go in `COMMON` or in the dedicated level.
 :::
+
+## Associate (_since 2.3_)
+
+In `COMMON`, in the `Associations` tab, you can define associations for the whole product model and all its children products will be also associated.
+
+For example, you can define associations for this t-shirt model.
+
+![COMMON for product model](../img/Products_ProductModel_PEFAssociation1.png)
+
+You can also add associations for a specific variant level. For example, you define an association only for the color `Red`.
+
+![COLOR for product model](../img/Products_ProductModel_PEFAssociation2.png)
+
+The products will have all the associations of their parents. Hereafter the associations for the `Red S` t-shirt.
+
+![SIZE for product model](../img/Products_ProductModel_PEFAssociation3.png)
+
+
+::: info
+You can add associations on the products for this product model but on a product you can not remove an association of its parent. If you would like to remove it, go in `COMMON` or in the dedicated level.
+:::
+
 
 # Add a variant
 
