@@ -9,13 +9,13 @@ related: what-is-an-attribute
 
 # Overview
 
-To fit the PIM application to your needs, Akeneo enables you to define attributes. Akeneo offers you 14 types of attributes on the Community Edition version, and 15 types on the Enterprise Edition version. 
+To fit the PIM application to your needs, Akeneo enables you to define attributes. Akeneo offers you 14 types of attributes on the Community Edition version, and 15 types on the Enterprise Edition version.
 
 ::: info
 The Asset Collection attribute is specific to the Enterprise Edition version. Learn more about it by discovering our [Product Asset Manager feature](/articles/work-with-assets.html).
 :::
 
-You will be able to select the most appropriate attribute type for your needs (see [Create an attribute](#create-an-attribute)). For example, you can choose to create a field as a text, in which users can write what they want, or as a drop down list (simple or multi select) with a selection of values, forcing users to select from a list of predefined options or add a `metric` attribute to fill in the weight/size/length... of your products. 
+You will be able to select the most appropriate attribute type for your needs (see [Create an attribute](#create-an-attribute)). For example, you can choose to create a field as a text, in which users can write what they want, or as a drop down list (simple or multi select) with a selection of values, forcing users to select from a list of predefined options or add a `metric` attribute to fill in the weight/size/length... of your products.
 
 ::: tips
 For `metric` attributes, you will be even offered the possibility to automatically convert metric values into others to fit your export needs see the [Manage your Channels](/articles/manage-your-channels.html#create-a-channel) article.
@@ -144,8 +144,12 @@ To edit values, use the small pencil icon.
 :::
 
 ::: warning
-You can add and update many lines at once but you will have to save each line before leaving the page. 
+You can add and update many lines at once but you will have to save each line before leaving the page.
 You cannot use the main `Save` button to record your new options.
+:::
+
+::: warning
+_Since 2.3_, if an attribute option is used in a variant product or a product model as a variant axis value, the option cannot be removed, there is an error message. Refer to [what is a family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) for more details about variant axes.
 :::
 
 ### List attribute options
