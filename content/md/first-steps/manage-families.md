@@ -279,11 +279,11 @@ Deleting a family does not delete the attributes it includes, or the products as
 :::
 
 ::: warning
-A family with family variants cannot be deleted. You need to first [delete its family variants](/articles/manage-your-families.html#delete-a-family-variant-since-22).
+A family with family variants cannot be deleted. You first need to [delete its family variants](/articles/manage-your-families.html#delete-a-family-variant-since-22).
 :::
 
 ::: warning
-_Since 2.3_, a family cannot be deleted if there are some products with this family, you need to first remove the products from this family (refer to [the bulk action change family of products](/articles/product-mass-actions.html)).
+_Since 2.3_, a family cannot be deleted if there are some products within this family, you first need to remove the products from this family (refer to [the bulk action change family of products](/articles/product-mass-actions.html)).
 :::
 
 ::: ee
