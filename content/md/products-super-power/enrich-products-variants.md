@@ -38,20 +38,20 @@ If the background of the `Variant products` is:
 
 ## Filter on your attributes
 
-To easily manage the products with variants up to 3 levels of enrichment, we added a **smart** search in the grid for products with variants to automatically display what you are looking for. Either a product model, or a product.
+To easily manage up to 3 levels of enrichment for the products with variants, we added a **smart** search in the grid to automatically display what you are looking for. Either a [product model](/articles/what-about-products-variants.html#what-is-a-product-model), or a product.
 
 :::info
 By default, if no filter in the grid, the products are grouped by product models, so the product models are displayed in the grid.
 :::
 
-Let's take an example with a t-shirt model "model-tshirt-divided" available in 3 colors (blue, red, grey) and 4 different sizes (S, M, L, XL).
+Let's take an example with a t-shirt model "model-tshirt-divided" with 2 variant levels, available in 3 colors (blue, red, grey) and each color is available in 4 different sizes (S, M, L, XL).
 When you open the grid, one line for this t-shirt model is displayed (12 variant products are grouped in this product model).
 
 ![Grid with product models](../img/Products_ProductModel_Search1.png)
 
 As done on e-commerce websites, if you are looking for clothes with the color "red", red clothes will be automatically displayed in the grid.
 
-So in our example, you add the filter on the attribute `color` and select the option `red`, the product model displayed in the grid is now the "model-tshirt-divided-red" (with 4 red variant products in S, M, L, XL sizes)
+So in our example, you add the filter on the attribute `color` and select the option `red`, the [sub product model](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) "model-tshirt-divided-red" is displayed in the grid (with 4 red variant products in S, M, L, XL sizes)
 
 ![Search results with color red](../img/Products_ProductModel_Search2.png)
 
@@ -83,11 +83,11 @@ If you click on the `T-shirts` category, the product model "Model-tshirt-divided
 
 ![Grid with product models](../img/Products_ProductModel_SearchCat1.png)
 
-If you click on the `Christmas` category, the product model "model-tshirt-divided-red" is displayed in the grid (same result for this model than if you click on the T-shirts category and filter on the attribute color and the option red).
+If you click on the `Christmas` category, the [sub product model](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) "model-tshirt-divided-red" is displayed in the grid (same result for this t-shirt model than if you click on the T-shirts category and filter on the attribute color and the option red).
 
 ![Search results with category christmas](../img/Products_ProductModel_SearchCat2.png)
 
-If you click on the `Small` category, the products of this product model with the sizes S are displayed in the grid (same results for this model than if you click on the T-shirts category and filter on the attribute size and the option S).
+If you click on the `Small` category, the products of this product model with the sizes S are displayed in the grid (same results for this t-shirt model than if you click on the T-shirts category and filter on the attribute size and the option S).
 
 ![Search results with category small](../img/Products_ProductModel_SearchCat3.png)
 
@@ -148,7 +148,7 @@ This navigation component is composed of:
 1.  Click on the small arrow next to the `Variant axes labels level 1` to display the values available for this product model (`COLOR` in our example)  
   ![Navigation by color for product model](../img/Products_ProductModel_PEFNav1.png)
 2.  Click on a line to reload the product form with the properties of the variant axes values selected
-3.  Click on the small arrow next to the `Variant axes labels level 2` to display the values available for this product model (`SIZE` in our example)
+3.  Click on the small arrow next to the `Variant axes labels level 2` to display the values available for this [sub product model](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) (`SIZE` in our example)
   ![Navigation by size for product model](../img/Products_ProductModel_PEFNav2.png)
 4.  Click on a line to reload the product form with the properties of the variant axes values selected   
 
@@ -174,7 +174,7 @@ In a variant level, you can view the common attributes but you can not update th
 
 _Since the 2.3_, we added in the product form a new filter `Display all level specific attributes` to display only the attributes managed at the current level that can be enriched.
 This is very easy: just click on the drop down `Display all attributes` and select `Display all level specific attributes`. That's it!
-This filter is available only for variant products and product models (if family variant with 2 variant levels).
+This filter is available only for variant products and [sub product models](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) (if family variant with 2 variant levels).
 
 ![SIZE for product model](../img/Products_ProductModel_PEFEnrich3.png)
 
