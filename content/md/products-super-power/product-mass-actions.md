@@ -1,6 +1,7 @@
 ---
 id: product-mass-actions
 themes: products-super-power, boost-your-productivity
+
 title: "**Bulk actions** on products"
 popular: false
 ee-only: false
@@ -24,7 +25,7 @@ Here’s the list of the bulk operations available in the PIM (Community and Ent
   - **Move between categories**: Change your products categorization
   - **Remove products from categories**: Remove products from one or more categories at once. Selected products will be uncategorized.
   - **Add to an existing product model**: Add products as variant of a [product model](/articles/what-about-products-variants.html#what-is-a-product-model).
-  - **Change the parent product model (_since 2.3_)**: Change the parent [product model](/articles/what-about-products-variants.html#what-is-a-product-model) of variant products or product models.
+  - **Change the parent product model (_since 2.3_)**: Change the parent [product model](/articles/what-about-products-variants.html#what-is-a-product-model) of variant products or [sub product models](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed).
   - **Associate to products (_since 2.1_)**: Add associations for your selection of products.
   - **Publish products (Enterprise Edition only)**: Mass publish products.
   - **Unpublish products (Enterprise Edition only - available from the Published product grid)**: Mass unpublish products.
@@ -52,7 +53,7 @@ In order to perform a bulk operation on products, you need the rights to each po
 | Add to groups     | Check the groups in which the products will be brought together       |
 | Add to categories<br>Move between categories<br>Remove from categories | Tick the categories in which the products will be categorized, moved or removed.   |
 | Add to an existing product model  | Select the product model to gather the products    |
-| Change the parent product model  | Select the new parent product model to gather the products or product models selected   |
+| Change the parent product model  | Select the new parent product model to gather the products or [sub product models](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) selected   |
 | Associate to products  | Add associations to the products selected (_since 2.1_)    |
 | Publish products  | Confirm the action     |
 | Unpublish products  | Confirm the action     |
@@ -178,21 +179,20 @@ This operation can be only performed for non variant products, so products not a
 
 # Change the parent product model (_since 2.3_)
 
-To allow more flexibility on variant products (such as merging or splitting product models), you can now change the parent product model of a variant product or a product model.
+To allow more flexibility on variant products (such as merging or splitting product models), you can now change the parent product model of a variant product or a [sub product model](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed).
 
 :::warning
 The new parent product model should have the same [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) than the previous parent model, else the parent is not changed.
 :::
 
-:::tips
 Hereafter 2 examples of use cases:
   - In the ERP, there are 2 models of beers for the same beer that come in different sizes, one model that comes in 33cL and 75cL volume, one with 6L and 6L triple pack volume. The marketing team would like to keep only one model with all the available sizes.
   - In the ERP, the buyers have created one t-shirt model with different colors – some in basic solid colors and some with colored flowers - but the marketing team would like to split the colors in 2 different models. Technically it's the same product but it's not the same target customer and not the same description or season. Marketing would prefer 2 different product models (one with the basic solid colors and one with the colored flowers).
   ![Mass edit options](../img/Products_BulkActionChangeParentProductModelEx.png)
-:::
 
-1.  Search for products or product models in the grid with the appropriate filters
-2.  Select the products or product models to change the parent product model: tick the products or product models you want to add via the down arrow of the toolbar: `All` for all results, `All visible` for all visible results on the ongoing page, `none` for none of the results
+1.  Search for products or sub product models in the grid with the appropriate filters
+2.  Select the products or sub product models to change the parent product model: tick the products or sub product models you want to add via the down arrow of the toolbar: `All` for all results, `All visible` for all visible results on the ongoing page, `none` for none of the results
+![Mass edit options](../img/Products_BulkActionChangeParentProductModelSelect.png)
 3.  Click on `Bulk Actions`
 4.  Select `Change the parent product model` and then `Next`
 5.  Select a family, a [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) and a [product model](/articles/what-about-products-variants.html#what-is-a-product-model)
@@ -206,7 +206,7 @@ The attributes defined as `common attributes` in the [family variant](/articles/
 :::
 
 :::warning
-This operation can be only performed for variant products or product models already linked to a parent product model.
+This operation can be only performed for variant products or [sub product models](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed), already linked to a parent product model.
 :::
 
 # Associate products (_since 2.1_)
