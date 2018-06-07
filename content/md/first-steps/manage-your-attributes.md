@@ -15,7 +15,7 @@ To fit the PIM application to your needs, Akeneo enables you to define attribute
 The Asset Collection attribute is specific to the Enterprise Edition version. Learn more about it by discovering our [Product Asset Manager feature](/articles/work-with-assets.html).
 :::
 
-You will be able to select the most appropriate attribute type for your needs (see [Create an attribute](#create-an-attribute)). For example, you can choose to create a field as a text, in which users can write what they want, or as a drop down list (simple or multi select) with a selection of values, forcing users to select from a list of predefined options or add a `metric` attribute to fill in the weight/size/length... of your products.
+You will be able to select the most appropriate attribute type for your needs (see [Create an attribute](#create-an-attribute)). For example, you can choose to create a field as a text, in which users can write what they want, or as a drop down list (simple or multi select) with a selection of values, forcing users to select predefined options or add a `metric` attribute to fill in the weight/size/length... of your products.
 
 ::: tips
 For `metric` attributes, you will be even offered the possibility to automatically convert metric values into others to fit your export needs see the [Manage your Channels](/articles/manage-your-channels.html#create-a-channel) article.
