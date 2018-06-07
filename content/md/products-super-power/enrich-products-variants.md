@@ -38,30 +38,58 @@ If the background of the `Variant products` is:
 
 ## Filter on your attributes
 
-To easily manage the products with variants and their until 3 levels of enrichment, we have added a **smart** search in the grid for products with variants to automatically display what you are looking for.
+To easily manage the products with variants up to 3 levels of enrichment, we added a **smart** search in the grid for products with variants to automatically display what you are looking for. Either a product model, or a product.
 
-By default, the product models are displayed in the grid.
-For example, you have a model of t-shirt which vary by color (blue, red, grey) and by size (S, M, L, XL).
+:::info
+By default, if no filter in the grid, the products are grouped by product models, so the product models are displayed in the grid.
+:::
+
+Let's take an example with a t-shirt model "model-tshirt-divided" available in 3 colors (blue, red, grey) and 4 different sizes (S, M, L, XL).
+When you open the grid, one line for this t-shirt model is displayed (12 variant products are grouped in this product model).
 
 ![Grid with product models](../img/Products_ProductModel_Search1.png)
 
-As done on e-commerce websites, if you are looking for clothing with the color "red", the red t-shirt will be automatically displayed in the grid.
+As done on e-commerce websites, if you are looking for clothes with the color "red", red clothes will be automatically displayed in the grid.
+
+So in our example, you add the filter on the attribute `color` and select the option `red`, the product model displayed in the grid is now the "model-tshirt-divided-red" (with 4 red variant products in S, M, L, XL sizes)
 
 ![Search results with color red](../img/Products_ProductModel_Search2.png)
 
-If you are looking for clothing with the color "red" and the size "S", the red S t-shirt will be displayed with its completeness.
+If you are looking for clothes with the color "red" and the size "S", red clothes with the size S will be displayed in the grid.
+
+So in our example, you keep the filter on the `color` attribute with the option `red` and you add a filter on the attribute `size` and select the option `S`. For this t-shirt model, only one product has the color red and the size S, so the variant product "tshirt-divided-red-s" is displayed in the grid with its completeness.
 
 ![Search results with color red and size S](../img/Products_ProductModel_Search3.png)
-
-:::info
-_Since 2.3_ if you search by categories, the grid will automatically display the product models or the products classified according to the category selected in the grid.
-If a product model is not classified in the selected category but its children products are, the products will be displayed in the grid.
-So all the filters, attributes and categories selected in the grid, will be taken into account to display the level you would like to enrich.
-:::
 
 :::tips
 If you would like to display only products in the grid, you just have to filter on an attribute that is always at the product level, whatever the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant), for example the identifier ("SKU").
 :::
+
+## Filter on the categories (_since 2.3_)
+
+:::info
+_Since 2.3_ if you search by categories, the grid will automatically display the product models or the products classified according to the category selected in the grid.
+If a product model is not classified in the selected category but its children products are, the products will be displayed in the grid.
+So all the filters, attributes and categories selected in the grid, will be taken into account to display the level you would like to enrich. Either a product model, or a product.
+:::
+
+:::info
+For more details about the classification of products with variants, please read this [paragraph](/articles/enrich-products-variants.html#categorize) in the article.
+:::
+
+Let's take again our previous example, the t-shirt model "Model-tshirt-divided" is classified in the "T-shirts" category, its color red is classified in the "Christmas" category and the products with the sizes S (red S, blue S, grey S) are classified in the category "Small".
+
+If you click on the `T-shirts` category, the product model "Model-tshirt-divided" is displayed in the grid.
+
+![Grid with product models](../img/Products_ProductModel_SearchCat1.png)
+
+If you click on the `Christmas` category, the product model "model-tshirt-divided-red" is displayed in the grid (same result for this model than if you click on the T-shirts category and filter on the attribute color and the option red).
+
+![Search results with category christmas](../img/Products_ProductModel_SearchCat2.png)
+
+If you click on the `Small` category, the products of this product model with the sizes S are displayed in the grid (same results for this model than if you click on the T-shirts category and filter on the attribute size and the option S).
+
+![Search results with category small](../img/Products_ProductModel_SearchCat3.png)
 
 ## Filter on the completeness
 
