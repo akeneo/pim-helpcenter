@@ -206,7 +206,7 @@ The attributes defined as `common attributes` in the [family variant](/articles/
 :::
 
 :::warning
-This operation can be only performed for variant products or [sub product models](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed), already linked to a parent product model.
+This operation can only be performed for variant products or [sub product models](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed), already linked to a parent product model.
 :::
 
 # Associate products (_since 2.1_)
