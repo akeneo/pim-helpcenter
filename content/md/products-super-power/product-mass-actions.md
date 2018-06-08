@@ -172,7 +172,7 @@ The attributes defined as `common attributes` in the [family variant](/articles/
 :::
 
 :::warning
-This operation can be only performed for non variant products, so products not already linked to a product model:
+This operation can only be performed for non variant products, so products not already linked to a product model:
   - You cannot add product models to a product model, only products.
   - You cannot change the parent product model of a variant product.
 :::
@@ -186,7 +186,7 @@ The new parent product model should have the same [family variant](/articles/wha
 :::
 
 Hereafter 2 examples of use cases:
-  - In the ERP, there are 2 models of beers for the same beer that come in different sizes, one model that comes in 33cL and 75cL volume, one with 6L and 6L triple pack volume. The marketing team would like to keep only one model with all the available sizes.
+  - In the ERP, there are 2 models of beers for the same beer that come in different sizes, one model that comes in 33cl and 75cl volume, one with 6L and 6L triple pack volume. The marketing team would like to keep only one model with all the available sizes.
   - In the ERP, the buyers have created one t-shirt model with different colors – some in basic solid colors and some with colored flowers - but the marketing team would like to split the colors in 2 different models. Technically it's the same product but it's not the same target customer and not the same description or season. Marketing would prefer 2 different product models (one with the basic solid colors and one with the colored flowers).
   ![Mass edit options](../img/Products_BulkActionChangeParentProductModelEx.png)
 
