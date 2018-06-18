@@ -10,6 +10,10 @@ related: review-products-proposals, build-your-user-groups, what-is-a-user-group
 
 Thanks to the [Enterprise Edition permissions on the categories](/articles/access-rights-on-products.html#rights-depending-on-the-categories), you can elaborate workflows to enrich your products. Some users will have ownership of products, they will be able to approve or reject contributions sent from users having only the edit permissions on categories.
 
+:::warning
+Since 2.3, proposals support [product models](/articles/what-about-products-variants.html#what-is-a-product-model).
+:::
+
 # Statuses of products
 
 In the case you only have an [edit right on a product depending on its categorization](/articles/access-rights-on-products.html#rights-depending-on-the-categories), two more product information are displayed in the `Product infos` left panel in the product form:
@@ -23,9 +27,7 @@ The statuses visible on the product form enable you to know which information is
 - `In progress:` this is the approved product form with your changes in progress. In other words, this a draft for your product form
 - `Waiting for approval:` you are waiting for your draft to be approved by the product manager
 
-:::warning
-The proposals do not support [product models](/articles/what-about-products-variants.html#what-is-a-product-model) yet.
-:::
+
 
 # Contribute to a working copy
 
