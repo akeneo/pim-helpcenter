@@ -144,7 +144,7 @@ The following drop down enables you to filter on the completeness of the product
 ### Filter on date
 
 You can now export your products based on a specific time condition:
-- `No date condition` (default option): no time condition will not be taken into account for your product export
+- `No date condition` (default option): no time condition will be taken into account for your product export
 - `Updated products over the last n days (e.g. 6)`: you only want to export the products that have been updated since the last ‘n’ days
 - `Updated products since this date`: you only want to export the products that have been updated since a specific date
 - `Updated products since last export`: you only want to export the products that have been updated since the last export
@@ -154,7 +154,8 @@ If you select `Updated products over the last n days (e.g. 6)`, a field will be 
 If you select `Updated products since this date`, click the empty field to display the date picker and choose a date. To change the date, click again on the date picker. To completely remove a date, select another time condition.
 
 ::: tips
-Save export time and used this filter to only export edited data:::
+Save export time and used this filter to only export edited products
+:::
 
 ### Filter on categories
 
