@@ -33,6 +33,10 @@ The following information cannot be sorted out in the asset grid:
 - Tags
 :::
 
+::: warning
+Asset thumbnail images displayed in the grid are the selected channel's variations. If no image is displayed it is because you do not have any variations generated for this channel. See how to generate variations in the [Edit the files of an asset](/articles/work-with-assets.html#edit-the-files-of-an-asset) part of this article.
+:::
+
 ## Asset grid display (_since 2.1_)
 
 To highlight the assets images, a `Gallery` display is available in the asset grid.
@@ -193,7 +197,7 @@ To save time you can mass add tag to an asset:
 A push message is displayed and the notification center displays a new notification.
 
 ::: tips
-If some of the tags you added don't exist, they will be automaticcaly created.
+If some of the tags you added don't exist, they will be automatically created.
 :::
 
 ## Mass move assets into categories

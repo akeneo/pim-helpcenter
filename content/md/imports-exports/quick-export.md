@@ -43,6 +43,10 @@ Only the working channel is taken into account, and thus all the locale informat
 
 For this export from the grid, the completeness, the product status, their classification are not taken into account to determine what information can be exported. All the products and product models selected in the product grid, regardless of their details, are exported to the CSV file or XLSX file.
 
+::: warning
+Note that the following columns are not exported: `Label`, `Image`, `Complete`, `Created at`, `Updated at` and `Variant products`.
+:::
+
 ::: ee
 The quick export takes into account the user permissions on locales and attributes groups:
   * If a user has no view right on a locale, the localizable values for this locale are not exported
