@@ -22,6 +22,15 @@ When you are working on a project it is also added to the widget with 3 key figu
 | **% IN PROGRESS PRODUCTS** | (Number of IN PROGRESS products*100) / number of products I have to enrich  |
 | **DONE**                   | Number of complete products with all required attributes the user can edit |
 
+# Navigate to the product grid
+
+When you display the project widget, you can easily see the products by clicking on the figures.
+For example if you click on the widget `In Progress` which displays 25 as a figure, the product grid will be prompted and filtered with the 25 products.
+
+::: info
+Since 2.3, if you create a project including product models, the project widget will always display the number of variant products. If you click on a project widget, the product grid will also display variant products, you can start the product enrichment!
+:::
+
 # Browse projects and users
 
 In addition to figures, the widget also allows you to look for projects and users.
