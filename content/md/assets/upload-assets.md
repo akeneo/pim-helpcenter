@@ -13,15 +13,15 @@ Mass upload assets is pretty convenient especially if you want to update your as
 
 The PIM uses the filename to know for which asset the file have to be used and if this asset is localized or not.
 
-**Example 1 with a not localized asset**  
+**Example 1 with a non-localized asset**  
 If the filename is `main_picture_S1263547.jpg`, then the PIM will check:
-- If the asset with the `main_picture_S1263547` code already exists, the PIM will update the asset with the `main_picture_S1263547` code by importing the `main_picture_S1263547.jpg` file as its reference file (and generate the variation files accordingly).
+- If the asset with the `main_picture_S1263547` code already exists, the PIM will update the asset with the `main_picture_S1263547` code by importing the `main_picture_S1263547.jpg` file as its new reference file (and will regenerate the variation files accordingly).
 - If the asset doesn’t already exist, the PIM will create a new asset with the `main_picture_S1263547` code and with the file as the reference file, so that the variation files can be generated.
 
 **Example 2 with a localized asset**  
 Another example, if the filename is `akene-en_US.pdf`, then the PIM will check:
-- If the asset with the `akene` code already exists and is localized, the PIM will update the asset with the `akene` code by importing the `akene-en_US.pdf` file as the reference file for the given locale code at the end of the filename (`en_US`).
-- If the asset with the `akene` code already exists and is not localized, the PIM will display an error message in red.
+- If the asset with the `akene` code already exists and if it is localized, the PIM will update the asset with the `akene` code by importing the `akene-en_US.pdf` file as the reference file for the given locale code at the end of the filename (`en_US`).
+- If the asset with the `akene` code already exists and if it is not localized, the PIM will display an error message in red.
 - If the asset with the `akene` code doesn't already exist, the PIM will create a new localized asset with the `akene` code and with the file as the reference file for the given locale code at the end of the filename (`en_US`).
 
 :::warning
