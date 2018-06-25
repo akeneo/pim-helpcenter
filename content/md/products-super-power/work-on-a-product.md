@@ -95,6 +95,74 @@ From the product form:
 
 If you do not see `+` icon, you might not have the appropriate rights to add an option, please refer to [Manage your user roles](/articles/build-your-user-roles.html).
 
+## Work with assets in an asset collection attribute
+
+::: ee
+The asset collection attribute is only available in the Enterprise Edition.
+:::
+
+### Add assets to your product form
+
+You can add assets to your product form using an Asset collection attribute. The first thing to do is to add this attribute to your family.
+
+::: tips
+If you don't remember how to add attributes, you can get the info reading [this article](/articles/manage-your-attributes.html).  
+:::
+
+Once your attribute type is well configured, you can :
+1. Go back to your product form
+1. Go down until your new asset collection attribute
+1. Click on `Manage assets` to access to the asset picker and the basket,
+1. Pick the assets you want to link to your product, and save.
+
+![asset-collection](../img/asset-collection.png)
+
+![asset-picker and basket](../img/asset-picker.png)
+
+### Upload assets directly from the asset collection
+
+From the 2.3 version, you can upload assets directly from the Asset collection in the Product Form. You don't need to quit the product form anymore.
+
+1. Click on the new button `Upload assets` in the asset collection, then you will retrieve the mass upload screen.
+1. Drag and drop your files or click on the image to chose your assets on your browser.
+1. Click on `Upload`
+1. Then click on `Import`
+1. You may will have to wait a bit while the asset import. Refresh the page when you receive the notification, and you will see assets linked to your product in asset collection.
+
+::: tips
+You can retrieve those assets in the Assets part of your PIM.
+:::
+
+### Order assets in the asset collection
+
+We know that ordering assets can be important for you. Indeed, it can help you **organize assets for your different channels**. Until the 2.2, it was impossible to do that in the PIM : assets were organized only according to their code.
+From the 2.3 version, we added a simple way to do that, directly from the product form.
+
+OK, let's see !
+
+
+If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with a **drag and drop**, and retrieve this order in export file. Simple. Fast. Effective.
+
+You need to import assets in a certain order in Akeneo PIM ? No problem : now you can ! Just order your assets in your import file, separating asset's names with a coma, then retrieve this order in the PIM.
+
+The order defined in the PIM will also be the same in the API.
+
+::: tips
+And if you want to have a look at history, a new version is created in `History` tab each time the user changes the asset order.
+:::
+
+### Better assets display
+
+If you have assets linked to your products, you can have a **large display of those assets** clicking on their thumbnails.
+
+Where ? In the **asset collection** in the **Product Form**.
+
+And moreover, we added a slideshow to navigate between the assets.
+
+If you have edit rights, you can also **remove** each asset from the asset collection attribute, just clicking on `remove` in the asset preview.
+
+Every user can download each asset clicking on `download` in the asset preview.
+
 # Compare product information from another locale and/or channel
 
 ## View product information from another locale and/or channel
