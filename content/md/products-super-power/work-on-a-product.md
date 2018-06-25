@@ -95,13 +95,14 @@ From the product form:
 
 If you do not see `+` icon, you might not have the appropriate rights to add an option, please refer to [Manage your user roles](/articles/build-your-user-roles.html).
 
-## Work with assets in an asset collection attribute
+## Work with assets in an asset collection attribute (Enterprise Edition)
 
-In the product sheets, you can have some asset collection attributes which look like this:
+In the product form, you can have some asset collection attributes which look like this:
 
 ![asset_collection_attribute](../img/asset_collection_attribute.png)
 
-In the following section, you will discover all the features that are available around this attribute.
+In the following section, you will discover all the features that are available around this attribute.  
+And to learn more about assets, you can have a look at [this article](/articles/work-with-assets.html).
 
 ::: ee
 The asset collection attribute is only available in the Enterprise Edition.
@@ -113,23 +114,23 @@ You can link assets to your product using this attribute. To do that, follow the
 
 1. Go to your product form
 1. Scroll down towards the asset collection attribute
-1. Click on `Manage assets` to access to the asset picker and the basket
+1. Click on `Manage assets` to access the asset picker and the basket
 1. Pick the assets you want to link to your product, and save.
 
 ![basket](../img/basket.png)
 
-### Upload assets directly from the asset collection
+### Upload assets directly from the product form
 
 From the 2.3 version, you can upload assets directly from the Asset collection in the Product Form. You don't need to quit the product form anymore.
 
-1. Click on the new button `Upload assets` in the asset collection, then you will retrieve the mass upload screen.
-1. Drag and drop your files or click on the image to chose your assets on your browser.
+1. Click on the new button `Upload assets` in the asset collection, then you will find the mass upload screen.
+1. Drag and drop your files or click on the image to chose assets on your browser.
 1. Click on `Upload`.
 1. Then click on `Import`.
-1. You may will have to wait a bit while the asset import. Refresh the page when you receive the notification, and you will see assets linked to your product in the asset collection.
+1. You may have to wait a bit while the asset import. Refresh the page when you receive the notification, and you will see assets linked to your product in the asset collection.
 
 ::: tips
-You can retrieve those assets in the Assets part of your PIM.
+You can find those assets in the Assets part of your PIM.
 :::
 
 ### Order assets in the asset collection
@@ -141,9 +142,9 @@ OK, let's see !
 
 ![drag_drop](../img/drag_drop.jpg)
 
-If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with a **drag and drop**, and retrieve this order in export file. Simple. Fast. Effective.
+If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with a **drag and drop**, and find this order in export file. Simple. Fast. Effective.
 
-You need to import assets in a certain order in Akeneo PIM ? No problem : now you can ! Just order your assets in your import file, separating asset's names with a coma, then retrieve this order in the PIM.
+You need to import assets in a certain order in Akeneo PIM ? No problem : now you can ! Just order your assets in your import file, separating asset's names with a coma, then have this order in the PIM.
 
 The order defined in the PIM will also be the same in the API.
 
