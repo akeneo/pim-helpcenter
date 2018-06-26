@@ -9,19 +9,24 @@ related: work-with-assets, assets-transformation
 
 # Overview
 
-Mass upload assets is pretty convenient especially if you want to update your asset catalog with external sources: photo shooting, new collection, etc...
+Assets mass upload is pretty convenient especially if you want to update your asset catalog with external sources: photo shooting, new collection, etc...
 
-The PIM uses the filename to know for which asset the file have to be used.
+The PIM uses the filename to know for which asset the file have to be used and if this asset is localized or not.
 
-**Example 1**  
+**Example 1 with a non-localized asset**  
 If the filename is `main_picture_S1263547.jpg`, then the PIM will check:
-- If the asset with the `main_picture_S1263547` code already exists, the PIM will update the asset with the `main_picture_S1263547` code by importing the `main_picture_S1263547.jpg` file as its reference file (and generate the variation files accordingly)
-- If the asset doesn’t already exist, the PIM will create a new asset with the `main_picture_S1263547` code and with the file as the reference file, so that the variation files can be generated
+- If the asset with the `main_picture_S1263547` code already exists, the PIM will update the asset with the `main_picture_S1263547` code by importing the `main_picture_S1263547.jpg` file as its new reference file (and will regenerate the variation files accordingly).
+- If the asset doesn’t already exist, the PIM will create a new asset with the `main_picture_S1263547` code and with the file as the reference file, so that the variation files can be generated.
 
-**Example 2**  
-Another example, if the filename is `asset_en_US.pdf` and the asset with the `asset` code already exists, then the PIM will check:
-- If the asset is localized, the PIM will import the file as the reference for the given locale code at the end of the filename (`en_US`)
-- If the asset is not localized, the PIM will display an error message in red, to inform that the PIM does not know what to do with this file
+**Example 2 with a localized asset**  
+Another example, if the filename is `akene-en_US.pdf`, then the PIM will check:
+- If the asset with the `akene` code already exists and if it is localized, the PIM will update the asset with the `akene` code by importing the `akene-en_US.pdf` file as the reference file for the given locale code at the end of the filename (`en_US`).
+- If the asset with the `akene` code already exists and if it is not localized, the PIM will display an error message in red.
+- If the asset with the `akene` code doesn't already exist, the PIM will create a new localized asset with the `akene` code and with the file as the reference file for the given locale code at the end of the filename (`en_US`).
+
+:::warning
+If the locale is disabled or doesn't exist in the PIM, the PIM will display an error message in red.
+:::
 
 # How to?
 
