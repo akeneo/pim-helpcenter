@@ -7,41 +7,51 @@
                 <img height="20" src="/img/akeneo.svg"></img>
             </a>
         </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;"><img src="/img/{{selectedLanguage}}-flag.svg" class="flag"/> {{selectedLanguage}}<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-title">{{switch_to}}</li>
+                    <li><a href="/index.html"><img src="/img/en-flag.svg" class="flag"/> EN</a></li>
+                    <li><a href="/fr/index.html"><img src="/img/fr-flag.svg" class="flag"/> FR</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </nav>
 <div class="container-fluid"> 
-    <h1 class="text-center" style="font-family: Comfortaa, sans-serif;"><img src="/img/hello.svg" width="40" style="vertical-align: bottom;"/> Hi there! </h1>
-    <h2 class="text-center" style="font-family: Comfortaa, sans-serif;">You have questions, we have answers!<br>First, choose between our solutions</h2>
+    <h1 class="text-center" style="font-family: Comfortaa, sans-serif;"><img src="/img/hello.svg" width="40" style="vertical-align: bottom;"/> {{hi_there}} </h1>
+    <h2 class="text-center" style="font-family: Comfortaa, sans-serif;">{{{choose_solutions}}}</h2>
 </div>
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-offset-2 col-lg-4 col-sm-6">
             <div class="solution">
-                <a href="/pim-index.html">
+                <a href="pim-index.html">
                     <img class="img-responsive center-block" src="/img/illus-pim.svg"/>
-                    <h3 class="text-center">PIM</h3>
-                    <p class="text-center"><em>The best container in town for your products</em></p>
+                    <h3 class="text-center">{{pim}}</h3>
+                    <p class="text-center"><em>{{best_container}}</em></p>
                 </a>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6">
             <div class="solution">
-                <a href="/onboarder/index.html">
+                <a href="onboarder/index.html">
                     <img class="img-responsive center-block" src="/img/illus-onboarder.svg"/>
-                    <h3 class="text-center">Onboarder</h3>
-                    <p class="text-center"><em>Easily manage product information from your suppliers</em></p>
+                    <h3 class="text-center">{{onboarder}}</h3>
+                    <p class="text-center"><em>{{onboarder_description}}</em></p>
                 </a>
             </div>
         </div>
     </div>
     <div class="row">
-        <h2 class="text-center" style="font-family: Comfortaa, sans-serif;">Or maybe you need help with our tools?</h2>
+        <h2 class="text-center" style="font-family: Comfortaa, sans-serif;">{{or_maybe_tools_help}}</h2>
         <div class="col-lg-offset-4 col-lg-4 col-sm-offset-3 col-sm-6">
             <div class="solution">
-                <a href="/portal/index.html">
+                <a href="portal/index.html">
                     <img class="img-responsive center-block" src="/img/illus-portal.svg"/>
-                    <h3 class="text-center">Portal</h3>
-                    <p class="text-center"><em>Administrate all your Akeneo projects from one single place</em></p>
+                    <h3 class="text-center">{{portal}}</h3>
+                    <p class="text-center"><em>{{portal_description}}</em></p>
                 </a>
             </div>
         </div>
@@ -54,14 +64,14 @@
                 <img src="/img/illus-akademy.svg" width="100%"></img>
             </div>
             <div class="hidden-xs col-xs-12 col-sm-8 col-md-7 col-lg-5">
-                <h2 class="media-heading">Need more help?</h2>
-                <p>Whether you're having trouble setting up your PIM or modelizing your product data, The Akademy can give you a hand. Do not hesitate to contact us!</p>
-                <a class="btn btn-info" href="https://www.akeneo.com/training/?source=akeneo-help">Get trained!</a>
+                <h2 class="media-heading">{{need_more_help}}</h2>
+                <p>{{need_more_help_descrition}}</p>
+                <a class="btn btn-info" href="https://www.akeneo.com/training/?source=akeneo-help">{{get_trained}}</a>
             </div>
             <div class="visible-xs col-xs-12">
-                <h2 class="text-center">Need more help?</h2>
-                <p class="text-center">Either you're having trouble setting up your PIM or modelizing your product data, our Akademy can give you a hand. Do not hesitate to contact us!</p>
-                <a href="https://www.akeneo.com/training/?source=akeneo-help"><button class="btn btn-info center-block">Get trained!</button></a>
+                <h2 class="text-center">{{need_more_help}}</h2>
+                <p class="text-center">{{need_more_help_descrition}}</p>
+                <a href="https://www.akeneo.com/training/?source=akeneo-help"><button class="btn btn-info center-block">{{get_trained}}</button></a>
             </div>
         </div>
     </div>
@@ -69,14 +79,14 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <h2>Stay in touch with our open source community</h2>
+            <h2>{{stay_in_touch_community}}</h2>
             <div class="row">
                 <div class="col-xs-6">
                     <div class="panel panel-default panel-btn panel-slack">
                         <a href="https://akeneopim-ug.herokuapp.com">
                             <div class="panel-body">
-                                <div class="panel-btn-big">Slack User Group</div>
-                                <p class="text-center">Come aboard! Join the Akeneo community</p>
+                                <div class="panel-btn-big">{{slack_user_group}}</div>
+                                <p class="text-center">{{slack_user_group_description}}</p>
                             </div>
                         </a>
                     </div>
@@ -85,8 +95,8 @@
                     <div class="panel panel-default panel-btn panel-stack-overflow">
                         <a href="https://stackoverflow.com/questions/tagged/akeneo">
                             <div class="panel-body">
-                                <div class="panel-btn-big">Stack overflow</div>
-                                <p class="text-center">Need to find technical answers? Here you go!</p>
+                                <div class="panel-btn-big">Stock overflow</div>
+                                <p class="text-center">{{stack_overflow_description}}</p>
                             </div>
                         </a>
                     </div>
@@ -98,7 +108,7 @@
                         <a href="https://crowdin.com/project/akeneo">
                             <div class="panel-body">
                                 <div class="panel-btn-big">Crowdin</div>
-                                <p class="text-center">Go multinational! Help us translate our apps in other languages</p>
+                                <p class="text-center">{{crowdin_description}}</p>
                             </div>
                         </a>
                     </div>
@@ -108,7 +118,7 @@
                         <a href="http://badger.akeneo.com/login/">
                             <div class="panel-body">
                                 <div class="panel-btn-big">Badger</div>
-                                <p class="text-center">Great achievements mean great badges! Come and claim them</p>
+                                <p class="text-center">{{badger_description}}</p>
                             </div>
                         </a>
                     </div>
@@ -116,14 +126,14 @@
             </div>
         </div>
         <div class="col-md-offset-1 col-md-5">
-            <h2>Stay in touch with us</h2>
+            <h2>{{stay_in_touch_us}}</h2>
             <div class="row">
                 <div class="col-xs-12">
                     <div class="panel panel-default panel-btn">
                         <a href="https://www.akeneo.com/blog/?source=akeneo-help">
                             <div class="panel-body">
-                                <div class="panel-btn-big">Blog</div>
-                                <p class="text-center">For fresh news, follow us on our blog</p>
+                                <div class="panel-btn-big">{{blog}}</div>
+                                <p class="text-center">{{blog_deccription}}</p>
                             </div>
                         </a>
                     </div>
@@ -132,8 +142,8 @@
                     <div class="panel panel-default panel-btn">
                         <a href="https://www.akeneo.com/contact/?source=akeneo-help">
                             <div class="panel-body">
-                                <div class="panel-btn-big">Contact us!</div>
-                                <p class="text-center">Want to know how to work with us? You may want to leave us a message!</p>
+                                <div class="panel-btn-big">{{contact_us}}</div>
+                                <p class="text-center">{{contact_us_description}}</p>
                             </div>
                         </a>
                     </div>
