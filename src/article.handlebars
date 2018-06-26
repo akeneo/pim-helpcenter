@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <h1 class="article-title docSearch-mainTitle">{{{titleWithBold}}}</h1>
-                {{#if eeOnly}}<p class="small"><em>Only available in our <a href="https://www.akeneo.com/enterprise-edition/?source=akeneo-help">Entreprise Edition</a></em></p>{{/if}}
+                {{#if eeOnly}}<p class="small"><em>{{only_available_in_our_EE}} <a href="https://www.akeneo.com/enterprise-edition/?source=akeneo-help">{{entreprise_edition}}</a></em></p>{{/if}}
             </div>
             {{{mainContent}}}
         </div>
@@ -13,7 +13,7 @@
             <div class="col-sm-offset-3 col-sm-9">
                 <hr>
                 {{#if relatedArticles}}
-                    <h2>Be curious! Take a look at these related articles</h2>
+                    <h2>{{take_a_look_at_these_related_articles}}</h2>
                     <div class="row">
                         <div class="col-xs-offset-1 col-xs-11">
                             <div class="row">
