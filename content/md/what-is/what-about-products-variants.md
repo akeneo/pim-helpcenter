@@ -73,4 +73,4 @@ With this new modeling, **up to 3 levels of enrichment can be managed for produc
 Now you know almost everything about products with variants and you would like to create your first products with variants, here are some articles that might interest you ;)
 1.  [Create your first family variant](/articles/manage-your-families.html#create-a-family-variant)
 1.  [Create your first product model ](/articles/create-a-product.html#create-a-product-model)
-1.  [Enrich your products with variants](articles/enrich-products-variants)
+1.  [Enrich your products with variants](/articles/enrich-products-variants.html)
