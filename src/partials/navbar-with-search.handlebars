@@ -20,6 +20,14 @@
                     <li><a href="/pim/v2/index-older.html">Older versions</a></li>
                 </ul>
             </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;"><img src="/img/{{selectedLanguage}}-flag.svg" class="flag"/> {{selectedLanguage}}<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-title">{{switch_to}}</li>
+                    <li><a href="/{{filePath}}"><img src="/img/en-flag.svg" class="flag"/> EN</a></li>
+                    <li><a href="/fr/{{filePath}}"><img src="/img/fr-flag.svg" class="flag"/> FR</a></li>
+                </ul>
+            </li>
         </div>
     </div>
 </nav>

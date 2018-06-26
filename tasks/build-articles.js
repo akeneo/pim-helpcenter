@@ -17,6 +17,8 @@ var fs = require('fs');
 var frontMatter = require('gulp-front-matter');
 var rename = require('gulp-rename');
 var revReplace = require('gulp-rev-replace');
+var readYaml = require('read-yaml');
+var _ = require('lodash');
 
 var majorVersion = 'v3';
 
@@ -42,7 +44,19 @@ function highlight(str, lang) {
     return '<pre class="hljs"><code>' + str + '</code></pre>';
 }
 
-gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
+var messages;
+gulp.task('grab-article-messages', function(){
+    return gulp.src('content/messages/*.yaml')
+            .pipe(tap(function(file, t) {
+                if(!messages){
+                    messages = [];   
+                }
+                var language = /messages-(.*)\.yaml/g.exec(path.basename(file.path))[1];
+                messages.push(_.extend(readYaml.sync(file.path),{language: language}));
+            }));
+});
+
+gulp.task('build-articles', ['clean-dist','less', 'build-themes-pages', 'grab-article-messages'], function () {
     var optionsMd = {
         html: true,
         xhtmlOut: true,
@@ -222,28 +236,35 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                             }
                         }))
                         .pipe(gulp.dest('tmp/'));
+
                 // Once the second stream is finished, we inject the resulting HMTL file (previously stored in "tmp"),
                 // into the handlebars template of articles
                 // The result is then saved into "dist"
                 return stream2.on('end', function(){
                     var fileName = path.basename(file.path).replace(/\.md/, '.html');
-                    return gulp.src('src/article.handlebars')
-                        .pipe(gulpHandlebars({
+                    var language = /.*_(.*)\.md/g.exec(path.basename(file.path)) ? /.*_(.*)\.md/g.exec(path.basename(file.path))[1] : 'en';
+                    var translatedMessages = _.find(messages,function(languageMessages){
+                        return languageMessages.language === language;
+                    });
+                    var injectedStrings = Object.assign({},translatedMessages);
+                    Object.assign(injectedStrings, {
                             title: title,
                             titleWithBold: titleWithBold,
                             eeOnly: eeOnly,
                             relatedArticles: relatedArticles,
                             mainContent: fs.readFileSync('tmp/' + fileName),
                             filePath: 'articles/' + id + '.html',
-                            majorVersion: majorVersion
-                        }, {
-                        partialsDirectory: ['./src/partials']
-                    }))
-                    .pipe(rename(id + '.html'))
-                    .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                    .pipe(gulp.dest('./dist/pim/'+ majorVersion + '/articles'));
+                            selectedLanguage: language,
+                            majorVersion: majorVersion});
+        
+                    return gulp.src('src/article.handlebars')
+                                    .pipe(gulpHandlebars(injectedStrings, {
+                                    partialsDirectory: ['./src/partials']
+                                }))
+                                .pipe(rename(id + '.html'))
+                                .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
+                                .pipe(gulp.dest((language === 'en') ? './dist/pim/'+ majorVersion + '/articles' : './dist/' + language + '/pim/' + majorVersion + '/articles'));
                 });
             });
-        }));
-    }
-);
+    }));
+});

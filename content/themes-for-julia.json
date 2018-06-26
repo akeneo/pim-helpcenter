@@ -1,47 +1,47 @@
 {
-    "title":"Using Akeneo",
-    "description":"You are our dear Julia: the PIM is your daily tool. You want to be productive and have the best products catalog ever. We're here to help you.",
+    "title":"using_akeneo_theme",
+    "description":"using_akeneo_description_theme",
     "img":"illus-using.svg",
     "themes":{
         "first-steps":{
-            "title": "Your first steps with Akeneo",
+            "title": "your_first_steps_in_akeneo",
             "img": "illus-first-steps.svg",
-            "description": "You are very new to Akeneo and you don't know where to begin. Here are a few articles to help you understand the basics. Enjoy!"
+            "description": "your_first_steps_in_akeneo_description"
         },
         "products-super-power":{
-            "title": "Take the power over your products",
+            "title": "take_the_power_over_your_products",
             "img": "illus-products.svg",
-            "description": "Everything you ever wanted to know about product enrichment. Brace yourself, here are a few articles just for you."
+            "description": "take_the_power_over_your_products_description"
         },
         "boost-your-productivity":{
-            "title": "Boost your productivity",
+            "title": "boost_your_productivity",
             "img": "illus-productivity.svg",
-            "description": "You've gotten the hang of handling your products in Akeneo. Ready for the next level? Become a PIM master thanks to these awesome features."
+            "description": "boost_your_productivity_description"
         },
         "collaborative-work":{
-            "title": "Collaborative work",
+            "title": "collaborative_work",
             "img": "illus-drafts.svg",
-            "description": "At Akeneo, we think teamwork is a fundamental key to success. Empower your coworkers, enrich your products as a team!"
+            "description": "collaborative_work_description"
         },
         "import-export-data":{
-            "title": "Import/export data",
+            "title": "import_export_data_in_your_pim",
             "img": "illus-imports.svg",
-            "description": "Anything you need to know about importing data in your dearest PIM. Here, you'll also find here information about exporting data. 'Cause yeah, product information you cannot export is kind of useless, right?"
+            "description": "import_export_data_in_your_pim_description"
         },
         "manage-your-assets":{
-            "title": "Manage your images, files, assets",
+            "title": "manage_your_images_assets",
             "img": "illus-assets.svg",
-            "description": "Product information without any asset, is like Akeneo without Ziggy, it's depressing. Here is how to handle the assets that will liven up your product sheets."
+            "description": "manage_your_images_assets_description"
         },
         "manage-your-reference-entities":{
-            "title": "Manage your reference entities",
+            "title": "manage_your_reference_entities",
             "img": "illus-entities.svg",
-            "description": "Your product sheets look good, but you feel like you could do better? Try the reference entities! Create relevant information related to products (e.g. brands, manufacturers, colors, materials, ingredients...) and provide your customers with a rich Product Experience!"
+            "description": "manage_your_reference_entities_description"
         },
         "franklin-insights":{
-            "title": "Franklin Insights",
+            "title": "franklin_insights",
             "img": "illus-franklin.svg",
-            "description": "Welcome to Franklin’s world! Franklin is our new product data intelligence assistant, at your service. Here you can find the information needed in order to activate and operate Franklin."
+            "description": "franklin_insights_description"
         }
     }
 }
