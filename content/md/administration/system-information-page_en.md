@@ -10,7 +10,7 @@ popular: false
 In the PIM, there is an information page that contains technical information.  
 To check this page, go to `System` and click on the `System information` menu entry.
 
-![image](../img/System_SystemInformation.png)
+![image](/img/System_SystemInformation.png)
 
 # Content
 
