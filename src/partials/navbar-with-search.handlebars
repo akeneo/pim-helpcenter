@@ -1,16 +1,31 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="index.html">
                 <img height="20" src="/img/akeneo.svg"></img>
             </a>
         </div>
-        <div class="nav navbar-nav navbar-right">
-            <form class="navbar-form">
-                <div class="form-group form-search">
-                    <input id="docSearch-input" type="text" class="form-control" placeholder="Search for PIM help...">
-                </div>
-            </form>
-        </div>
+        <form class="navbar-form navbar-left">
+            <div class="form-group form-search">
+                <input id="docSearch-input" type="text" class="form-control" placeholder="{{search_for_anything}}">
+            </div>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">v2.x <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-title">{{switch_to}}</li>
+                    <li><a href="pim-index-older.html">{{older_versions}}</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;"><img src="/img/{{selectedLanguage}}-flag.svg" class="flag"/> {{selectedLanguage}}<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-title">{{switch_to}}</li>
+                    <li><a href="/{{filePath}}"><img src="/img/en-flag.svg" class="flag"/> EN</a></li>
+                    <li><a href="/fr/{{filePath}}"><img src="/img/fr-flag.svg" class="flag"/> FR</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </nav>
