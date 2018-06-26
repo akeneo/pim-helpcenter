@@ -9,7 +9,7 @@ related: work-with-assets, assets-transformation
 
 # Overview
 
-Mass upload assets is pretty convenient especially if you want to update your asset catalog with external sources: photo shooting, new collection, etc...
+Assets mass upload is pretty convenient especially if you want to update your asset catalog with external sources: photo shooting, new collection, etc...
 
 The PIM uses the filename to know for which asset the file have to be used and if this asset is localized or not.
 
