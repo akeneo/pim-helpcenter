@@ -64,7 +64,7 @@ The global attributes are displayed regardless of the working locale. Hence, the
 
   ![Edit a product](../img/Products_EditingaProductProcess.gif)
 
-The product is updated and a new product version is created. You can view the product's versions on the `History` tab (see [View the product's versions](#view-the-products-versions)).
+The product is updated and a new product version is created. You can view the product versions on the `History` tab (see [View the product versions](#view-the-products-versions)).
 
 By default all the attributes are displayed, you can change the attribute group by clicking on the list `Attribute group` and then selecting the attribute group.
 
@@ -75,7 +75,7 @@ If you cannot view or edit some attributes values, you do not have the appropria
 :::
 
 ::: tips
-To check if your product is complete, have more information about the `Missing required attributes` filter and the `Completeness` tab and widget, take a look at [Follow your product's completeness](/articles/product-completeness.html).
+To check if your product is complete, have more information about the `Missing required attributes` filter and the `Completeness` tab and widget, take a look at [Monitor product completeness](/articles/product-completeness.html).
 
 To categorize a product in the `Categories` tab, you can read this [article](/articles/categorize-a-product.html).
 
@@ -144,7 +144,7 @@ OK, let's see !
 
 If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with a **drag and drop**, and find this order in export file. Simple. Fast. Effective.
 
-You need to import assets in a certain order in Akeneo PIM ? No problem : now you can ! Just order your assets in your import file, separating asset's names with a coma, then have this order in the PIM.
+You need to import assets in a certain order in Akeneo PIM? No problem : now you can ! Just order your assets in your import file, separating asset's names with a coma, then have this order in the PIM.
 
 The order defined in the PIM will also be the same in the API.
 
@@ -158,7 +158,7 @@ If you have assets linked to your products, you can have a **large display of th
 
 ![preview](../img/preview.jpg)
 
-Where ? In the **asset collection** in the **Product Form**.
+Where? In the **asset collection** in the **Product Form**.
 
 And moreover, we added a slideshow to navigate between the assets.
 

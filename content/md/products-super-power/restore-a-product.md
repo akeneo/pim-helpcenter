@@ -1,7 +1,7 @@
 ---
 id: restore-a-product
 themes: products-super-power
-title: Restore an **old product version**
+title: Restore a **previous product version**
 popular: false
 ee-only: true
 ---

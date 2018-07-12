@@ -1,7 +1,7 @@
 ---
 id: what-is-the-completeness
 themes: first-steps
-title: What is the **completeness** of a product?
+title: Understand product **completeness**
 popular: true
 related: product-completeness
 ---
@@ -56,7 +56,7 @@ To determine which attributes to set as required, try to answer the following qu
 :::
 
 # How is it calculated?
-The **completeness calculation takes into account several parameters**: the attributes defined as mandatory for the product's family, the locales enabled for the channel... The PIM checks all the attributes filled in and all the attributes missing a value, and display you a percentage.
+The **completeness calculation takes into account several parameters**: the attributes defined as mandatory for the product family, the locales enabled for the channel... The PIM checks all the attributes filled in and all the attributes missing a value, and display you a percentage.
 
 A product is considered as **complete** (when it has a completeness of 100%, meaning when all its required attributes have a value.
 
