@@ -97,7 +97,7 @@ The attribute will be back in the `Add attributes` list, if you need it later, y
 :::info
 The **completeness represents the percentage of completion of a product**, it is displayed as a progress bar or as a percentage in the PIM. It is calculated for each product and for each combination channel/locale.
 A product is considered as complete (or 100% completeness) when its required attributes (defined at the family level) have values.
-For more details about the completeness, please refer to [What is the completeness of a product?](/articles/what-is-the-completeness.html).
+For more details about the completeness, please refer to [Understand product completeness](/articles/what-is-the-completeness.html).
 :::
 
 When an attribute is added to a family, it is not set required for any channel by default. Only your product identifier attribute is automatically added and set as required for families.

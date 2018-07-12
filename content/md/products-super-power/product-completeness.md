@@ -20,7 +20,7 @@ Therefore the [completeness](/articles/what-is-the-completeness.html) of a produ
 
 # Display the product’s completeness
 
-In the product form, you have two different ways to display the product's completeness: via the `Completeness` panel or thanks to the completeness widget.
+In the product form, you have two different ways to display the product completeness: via the `Completeness` panel or thanks to the completeness widget.
 
 ## Completeness panel
 

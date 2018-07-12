@@ -1,7 +1,7 @@
 ---
 id: how-to-manage-my-publications
 themes: products-super-power
-title: How to manage my products' **publications**?
+title: Manage **publishing**
 popular: false
 ee-only: true
 ---
