@@ -15,9 +15,9 @@ Pour vous rendre sur cette page, cliquez sur `Système` puis sur l'entrée de me
 
 # Contenu de la page
 
-Sur cette page, vous trouverez résumé toutes les informations techniques qui concernent votre PIM : votre édition, votre version, votre stockage, vos bundles activés...
+Sur cette page, vous trouverez un résumé de toutes les informations techniques qui concernent votre PIM : votre édition, votre version, votre stockage, vos bundles activés...
 
-Ces informations peuvent vous êtres très utiles dans le cas où vous souhaitez ouvrir un ticket sur notre Helpdesk (disponible pour nos clients de l'édition Entreprise).  
+Ces informations peuvent vous être très utiles dans le cas où vous souhaitez ouvrir un ticket sur notre Helpdesk (disponible pour nos clients de l'édition Entreprise).  
 Une fois sur cette page, vous pouvez télécharger toutes ces informations au format texte en cliquant sur le bouton `TXT` en haut à droite de l'écran.  
 Vous pouvez ensuite attacher ce fichier à votre ticket d'Helpdesk.
 
