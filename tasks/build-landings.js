@@ -88,7 +88,7 @@ gulp.task('build-themes-pages', ['clean-dist','less', 'grab-messages'], function
             // Small transformations to allow page translations and translates articles
             data.title = '{{' + data.title + '}}';
             data.description = '{{' + data.description + '}}';
-            var availableLanguages = ['en', 'fr'];
+            var availableLanguages = ['en', 'fr', 'de'];
             for (themeId in personaThemes){
                 personaThemes[themeId].title = '{{' + personaThemes[themeId].title + '}}';
                 personaThemes[themeId].description = '{{' + personaThemes[themeId].description + '}}';
