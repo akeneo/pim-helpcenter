@@ -6,7 +6,7 @@ title: What is a **locale**?
 
 # Definition of a locale
 
-![What-is-a-locale ?](../img/what-is-a-locale.svg)
+![What-is-a-locale?](../img/what-is-a-locale.svg)
 
 A locale in Akeneo is a combination of a language (English, German, French...) and a country (United States, United Kingdom, France…). For instance, US english is en_US, UK english is en_UK.
 

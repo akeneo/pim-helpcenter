@@ -15,14 +15,6 @@ A product may be associated with none or several other products or product group
 This type of relationship enables you to define relationships like an alternative product or a substitution between products for example.
 :::
 
-:::info
-Since the 2.1, a product can be associated to a [product model](/articles/what-about-products-variants.html#what-is-a-product-model).
-:::
-
-:::warning
-Only products can have associations, [product models](/articles/what-about-products-variants.html#what-is-a-product-model) can't have association.
-:::
-
 # View the product’s associations
 
 To check the association types:
@@ -43,6 +35,14 @@ The green icon in front of the name of the association type shows that the produ
 The associated products can be identified by the input `Yes` in green in the `Is associated` column of the grid. The boxes are also checked.
 
 ## View the product’s associations (_since 2.1_)
+
+:::warning
+_Until 2.2_, only products can have associations, [product models](/articles/what-about-products-variants.html#what-is-a-product-model) can't have association.
+:::
+
+:::info
+_Since 2.3_, you can define associations on [product models](/articles/what-about-products-variants.html#what-is-a-product-model), refer to this [article](/articles/enrich-products-variants.html#associate-since-23) for more details.
+:::
 
 Only the associated products or [product models](/articles/what-about-products-variants.html#what-is-a-product-model) are displayed in the `Associations` tab.
 
@@ -67,6 +67,10 @@ To associate a product with another product or group of products:
 ![image](../img/Products_ProductsAssociated.png)
 
 ## Add associations to a product (_since 2.1_)
+
+:::info
+_Since the 2.1_, a product can be associated to a [product model](/articles/what-about-products-variants.html#what-is-a-product-model).
+:::
 
 To add associations, there is a picker to select products or [product models](/articles/what-about-products-variants.html#what-is-a-product-model) to associate:
 1.  Open the Product Form

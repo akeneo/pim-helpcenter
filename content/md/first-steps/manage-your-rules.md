@@ -1,7 +1,7 @@
 ---
 id: manage-your-rules
 themes: boost-your-productivity, catalog-settings
-title: Manage your **rules**
+title: Get started with the **rules engine**
 popular: false
 ee-only: true
 related: what-is-a-rule

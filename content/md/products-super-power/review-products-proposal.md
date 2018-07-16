@@ -1,7 +1,7 @@
 ---
 id: review-products-proposals
 themes: boost-your-productivity, collaborative-work
-title: Review the product's **proposals**
+title: Review product **proposals**
 ee-only: true
 related: proposals-workflow, build-your-user-groups, what-is-a-user-group, access-rights-on-products
 ---

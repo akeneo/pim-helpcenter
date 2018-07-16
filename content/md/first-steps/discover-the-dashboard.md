@@ -14,7 +14,7 @@ The dashboard is the default opening page, once you've logged in.
 It is composed of several widgets. Each one is presented below.
 
 ::: tips
-Wherever you are in the PIM, to go back to the dashboard, just click on the Akeneo logo at the top left corner.
+Wherever you are in the PIM, to go back to the dashboard, just click on the Akeneo logo on the top left corner.
 :::
 
 # Dashboard widgets
@@ -35,7 +35,7 @@ This widget is only available for Enterprise Edition clients.
 
 ## Completeness over channels and locales
 
-This widget gives you an overview of your channels and locales [completenesses](/articles/what-is-the-completeness.html).
+This widget gives you an overview of the [completeness](/articles/what-is-the-completeness.html) of your channels and locales.
 
 ![Dashboard_Completeness](../img/Dashboard_Completeness.png)
 
@@ -49,16 +49,16 @@ Each channel has 3 activated locales:
 - English (`en_US`)
 - French (`fr_FR`)
 
-For each locales, there is an enrichment’s progress bar (how complete my products are?), the number of products completed vs the total number of products.
+For each locale, there is a completeness bar, the number of products completed vs the total number of products.
 
 ::: info
-All products are displayed on this widget, regardless your [permissions on the product’s categories](/articles/access-rights-on-products.html#rights-depending-on-the-categories).
+All products are displayed on this widget, regardless of your [permissions on product categories](/articles/access-rights-on-products.html#rights-depending-on-the-categories).
 :::
 
 
 ## Last operations
 
-The next widget gathers the last operations you run in your PIM:
+The next widget gathers the latest operations you've run in your PIM:
 - your latest imports
 - your latest exports
 - your latest updates performed in the UI or that were automatically run
@@ -68,7 +68,7 @@ For each operation, you will have a status (`Completed` or `Failed`) and a short
 ![Last operations](../img/Dashboard_Process.png)
 
 ::: info
-To bring you more visibility on the job’s status, it is displayed in green when successful (no warnings), yellow when successful but with warnings (total number of warnings are also displayed), and red when it failed.
+To bring you more visibility on the job status, it is displayed in green when successful (no warnings), yellow when successful but with warnings (total number of warnings are also displayed), and red when it failed.
 :::
 
 
@@ -78,7 +78,7 @@ In the Entreprise Edition and depending on [your permissions](/articles/access-r
 
 ![Proposals to review](../img/Activity_Proposals.png)
 
-This widget will display the last [proposals](/articles/proposals-workflow.html) to review. To see all pending reviews, click on the `View all` button.
+This widget will display the latest [proposals](/articles/proposals-workflow.html) for review. To see all pending reviews, click on the `View all` button.
 
 ::: ee
 This widget is only available for Enterprise Edition clients.

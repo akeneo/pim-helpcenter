@@ -1,7 +1,7 @@
 ---
 id: sequential-edit
 themes: products-super-power, boost-your-productivity
-title: "**Sequential edit** your products"
+title: "**Sequentially edit** your products"
 popular: false
 ee-only: false
 related: product-mass-actions
