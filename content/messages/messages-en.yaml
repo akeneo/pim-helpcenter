@@ -65,7 +65,7 @@ end_user: "End-user"
 download_pdf: "Download the PDF"
 catalog_settings: "Catalog settings"
 administrator: "Administrator"
-end_of_user_guides: "I guess you reached the end!<br>Still looking for help? Join the community on"
+end_of_user_guides: "I guess you have reached the end!<br>Still looking for help? Join the community on"
 versions_below: "The versions below are not supported by our team anymore."
 run_their_course: "It's not that we don't like them, it's just that they have run their course and now, they need to rest a little."
 
