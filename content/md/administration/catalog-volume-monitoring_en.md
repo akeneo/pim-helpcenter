@@ -10,7 +10,7 @@ related: what-is-a-product-value, what-is-an-attribute, what-is-a-family, what-i
 
 In the PIM, there is a dedicated dashboard that will help you monitor your catalog size on a various number of axes.
 
-For example, you'll be able to find there the number of families or the average number of attribute per family.
+For example, you'll be able to find there the number of families or the average number of attributes per family.
 
 ![Catalog volume monitoring dashboard](../img/Activity_CatalogVolumeMonitoring.png)
 
@@ -31,7 +31,7 @@ To access this amazing (;)) screen, follow these very simple steps:
 
 The `Catalog volume monitoring` screen is composed of several sections.
 
-### The most important one
+### The most important one: the number of product values
 
 The first one is the most important one. It gives you the total number of [product values](/articles/what-is-a-product-value.html) that your PIM actually holds. In other terms, this indicator gives you a representation of how valuable is your PIM.
 
@@ -43,7 +43,7 @@ We wrote an [article](https://medium.com/akeneo-labs/because-your-product-catalo
 
 ::: tips
 You can't see the widget we are talking about? What a shame!  
-If you are a Community Edition user or working on the Premise/PAAS version, it's probably because you or your administrator didn't launch the CRON job to calculate the values shown in this widget.  
+If your PIM is on premise or on our PAAS version, it's probably because you or your administrator didn't launch the CRON job to calculate the values shown in this widget.  
 To do so, please refer to our technical documentation: over [here](https://docs.akeneo.com/2.3/install_pim/manual/installation_ce_archive.html#configuring-tasks-via-crontab) for the CE and over [there](https://docs.akeneo.com/2.3/install_pim/manual/installation_ee_archive.html#configuring-tasks-via-crontab) for the EE.
 :::
 
