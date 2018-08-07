@@ -1,0 +1,29 @@
+---
+id: what-is-a-locale
+themes: first-steps, akeneo-concepts
+title: Qu'est-ce qu'une **locale**?
+---
+
+# Définition d'une locale
+
+![What-is-a-locale?](../img/what-is-a-locale.svg)
+
+Une locale dans Akeneo est une combinaison d'une langue (Anglais, Allemand, Français...) et d'un pays (Etats-Unis, Royaume-Uni, France...). Par exemple, le Français Belge sera fr_BE, tandis que le Français Canadien sera fr_CA.
+
+Les locales sont utilisées pour traduire de l'information produit dans l'interface du PIM.  
+Les locales ont également un rôle essentiel pour définir la valeur des [attributs](/articles/what-is-an-attribute.html) qui diffère d'une locale à une autre.  
+
+Si un attribut dans Akeneo peut avoir différentes valeurs selon les locales, ces attributs seront dits _localisables_.
+
+# Propriétés d'une locale
+Akeneo propose plus de 200 locales par défaut que vous pouvez à tout moment activer selon vos besoins. En effet, vous pouvez choisir d'actiber une ou plusieurs locales pour votre PIM.
+
+Découvrez comment activer/désactiver des locales dans notre article [Gérer vos locales](/articles/manage-your-locales.html).
+
+::: ee
+Dans l'Edition Enterprise, vous pouvez définir des [droits spécifiques par locale](/articles/access-rights-on-products.html#rights-depending-on-the-locale) pour chaque utilisateur : qui peut voir ou éditer les informations produit pour chaque locale.
+:::
+
+::: warning
+Attention à ne pas confondre le concept de locale avec la langue de l'interface. :)
+:::
