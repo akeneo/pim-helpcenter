@@ -15,18 +15,18 @@ Un canal définit une sélection de produits et d'informations à exporter.
 
 Il peut être considéré comme un filtre sur le catalogue produits avec les propriétés suivantes:
 - Il est lié à un arbre de catégories (et un seul !)
-- Il dispose d'une ou de plusieurs [locales](articles/what-is-a-locale.html) activées
-- Il propose une ou plusieurs devises
-- Il a sa propre [complétude](articles/what-is-the-completeness.html)  
+- Il est rattaché à une ou plusieurs [locales](/articles/what-is-a-locale.html) activées
+- Une ou plusieurs devises lui sont rattachées
+- Il a sa propre [complétude](/articles/what-is-the-completeness.html)  
 
 ::: tips
 Un canal peut aussi être appelé un **scope** dans Akeneo PIM.
 :::
 
 Propriétés supplémentaires:
-- Il vous permet d'avoir une [transformation de ressources](articles/assets-transformation.html) dédiée
+- Il vous permet d'avoir une [transformation de ressources](/articles/assets-transformation.html) dédiée
 - Il vous permet également de définir une conversion de métriques unique.
 
 ## De combien de canaux ai-je besoin pour mon PIM ?
 
-Un nouveau canal sera requis dès lors que vous souhaitiez proposer un contenu différent pour un même attribut (par exemple une description pour votre site e-commerce et une autre pour votre application mobile), ou que vous souhaitiez définir un niveau de [complétude](articles/what-is-the-completeness.html) différent (par exemple si votre site e-commerce nécessite 50 attributs quand votre application mobile en demande 30).
+Un nouveau canal sera requis dès lors que vous souhaitez proposer un contenu différent pour un même attribut (par exemple une description pour votre site e-commerce et une autre pour votre application mobile), ou que vous souhaitez définir un niveau de [complétude](/articles/what-is-the-completeness.html) différent (par exemple si votre site e-commerce nécessite 50 attributs quand votre application mobile en demande 30).
