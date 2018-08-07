@@ -37,11 +37,11 @@ La famille `Caméscopes` **se composera de tous ces attributs**, et ils seront a
 
 Un marteau aura également un identifiant produit (comme le `sku` par exemple), un code GTIN/EAN, un nom, une description, mais il aura ses propres attributs tels qu'une taille de poignée, un type de matériau pour sa poignée, un poids, etc...
 
-En résumé, une famille peut utiliser tous les attributs disponibles dans le PIM tandis qu'un même attribut peut être utilisé dans plusieurs familles, puisque la plupart de vos produits auront une description, un nom, un identifiant...
+Une famille peut donc utiliser tous les attributs disponibles dans le PIM. En parallèle, un même attribut pourra être utilisé dans plusieurs familles, puisque la plupart de vos produits auront une description, un nom, un identifiant...
 
 # Propriétés des familles
 
-Chaque famille dispose **d'un code et d'une étiquette**. L'étiquette peut être traduite dans toutes les locales qui sont activées dans le PIM.
+Chaque famille dispose **d'un code et d'un libellé**. Le libellé peut être traduit dans toutes les locales qui sont activées dans le PIM.
 
 ::: tips
 - Un produit **ne peut appartenir qu'à une seule famille**.
