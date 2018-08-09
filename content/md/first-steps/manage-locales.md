@@ -30,15 +30,28 @@ Locales which are not used in at least one channel are shown as inactive.
 # How to add a new locale?
 
 You are missing a locale? It is very simple to add a new locale using imports.  
+
+## Format of the new locale to import
+
+Your new locales have to respect one of the following formats: xx_YY, xxx_YY, xx_YY_ZZ... never upload a locale with empty spaces in it. If you upload a `es_DE` locale, it will appear as `Spanish (Germany)`, if you upload a locale called `English_test_web` it will appear as `English (test, Web)`. 
+
+The PIM limits to 20 the number of characters that can be used for a locale.
+
+## Steps to add a new locale
+
 For instance, to add a `en_HK` locale, follow these steps:
 1.  Create an import XLSX or CSV file containing two values: a locale `code` column like below:  
   `code`  
   `en_HK`  
 1.  Import this file using an import job (`csv_locale_import` or `xlsx_locale_import`). Once the file is imported, the new locale will appear under `Settings/Locales`.
-1.  To enable it and add it to a channel, use a channel import job (again csv or xlsx) and add the `en_HK` code in the `locales` column.
+1.  To enable it and add it to a channel, go to `Settings/Channels` and add it in the dedicated field. If you cannot find it use a channel import job (csv or xlsx) and add the `en_HK` code in the `locales` column.
 
 And that's it! Your `en_HK` locale is activated for your channel!
 
+:::ee
+If you do not see your new locales in the User Interface, it's maybe because you forgot to set permissions on it in `Settings/Locales`. Select your locale and go under the `Permissions` tab. To know how to set up permissions on locales, check the [Set Rights depending on the locale](/articles/access-rights-on-products.html#rights-depending-on-the-locale) article.
+:::
+
 :::warning
-You can only enable your new locale with a channel import. It will not work using the user interface.
+You can add locales easily, but you cannot remove them afterwards from the user interface. Please make sure you really need it before uploading it!
 :::
