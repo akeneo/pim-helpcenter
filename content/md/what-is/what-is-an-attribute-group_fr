@@ -12,8 +12,8 @@ related: manage-your-attribute-groups
 ![what-is-an-attribute-group](../img/Settings_What-is-an-attribute-group.svg)
 
 Les groupes d'attributs sont utilisés pour :
-1. Regrouper des attributs ensemble afin de faciliter la saisie de leurs valeurs par les utilisateurs du PIM
-1. Organiser le travail des différents contributeurs sur les produits pour *l'Edition Entreprise*
+1. Regrouper des attributs ensemble afin de faciliter leur enrichissement par les utilisateurs du PIM
+1. Sur l'Edition Entreprise, organiser le travail d'enrichissement sur les produits par différents contributeurs (ou utilisateurs).
 
 Par exemple, vous avez la possibilité de regrouper tous les attributs Marketing (nom du produit, description, etc.) dans un groupe d'attributs `Marketing`.
 
@@ -21,18 +21,19 @@ Par exemple, vous avez la possibilité de regrouper tous les attributs Marketing
 
 Dès lors qu'un groupe d'attributs est créé, celui-ci apparaîtra automatiquement dans la fiche d'un produit qui possède au moins un attribut présent dans ce groupe.
 
-Dans l'exemple ci-dessous, nous avons les trois groupes d'attributs affichés: `Marketing`, `Technical` et `Media`.
+Dans l'exemple ci-dessous, nous avons trois groupes d'attributs affichés : `Marketing`, `Technical` et `Media`.
 
 ![in the product form](../img/Products_ExampleofAttributeGroups.gif)
 
-Si un groupe d'attributs n'est pas utilisé par une famille de produits, alors ce groupe d'attributs n'apparaîtra pas dans la fiche produit quand vous éditerez ce produit.
+Si aucun des attributs d'un groupe n'est utilisé par une famille de produits, alors ce groupe d'attributs ne sera pas visible dans la fiche produit.
 
-Vous pouvez également ajouter ou supprimer un attribut, ou définir un ordre pour vos attributs pour chaque groupe d'attributs. Merci de vous réferer à notre article sur la [Gestion des groupes d'attributs](/articles/manage-your-attribute-groups.html) pour plus d'informations à ce sujet.
+Vous pouvez également ajouter ou supprimer un attribut, ou définir un ordre pour vos attributs pour chaque groupe d'attributs. Merci de vous référer à notre article sur la [Gestion des groupes d'attributs](/articles/manage-your-attribute-groups.html) pour plus d'informations à ce sujet.
 
 # Spécificités de l'Edition Entreprise
 
 :::ee
-Dans l'Edition Entreprise, vous pouvez définir des permissions pour vos groupes d'attributs. En effet, vous pouvez définir des groupes d'utilisateurs pour leur autoriser l'édition des attributs appartenant à un groupe d'attributs en particulier, ou simplement leur donner un accès de consultation aux valeurs de ces attributs.
+Dans l'Edition Entreprise, vous pouvez définir des permissions pour vos groupes d'attributs.
+Vous pourrez restreindre la visibilité ou l'édition de certains attributs à un ou plusieurs groupes d'utilisateurs. Certains pourront donc éditer des attributs, d'autres seulement voir les valeurs de ces attributs ou bien n'auront aucune permission, donc ils ne pourront pas voir les informations des attributs d'un groupe d'attributs.
 
 Par exemple, l'équipe Marketing sera uniquement en mesure de renseigner les valeurs du groupe d'attributs `Marketing`, tandis qu'ils ne pourront que consulter les informations renseignées pour les attributs du groupe d'attributs `Technical`.
 :::
