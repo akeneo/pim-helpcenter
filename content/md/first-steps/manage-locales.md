@@ -35,7 +35,7 @@ You are missing a locale? It is very simple to add a new locale using imports.
 
 Your new locales have to respect one of the following formats: xx_YY, xxx_YY, xx_YY_ZZ... never upload a locale with empty spaces in it. If you upload a `es_DE` locale, it will appear as `Spanish (Germany)`, if you upload a locale called `English_test_web` it will appear as `English (test, Web)`. 
 
-The PIM limits to 20 the number of characters that can be used for a locale.
+The PIM limits to 20 the number of characters that can be used for a locale name.
 
 ## Steps to add a new locale
 
@@ -44,7 +44,7 @@ For instance, to add a `en_HK` locale, follow these steps:
   `code`  
   `en_HK`  
 1.  Import this file using an import job (`csv_locale_import` or `xlsx_locale_import`). Once the file is imported, the new locale will appear under `Settings/Locales`.
-1.  To enable it and add it to a channel, go to `Settings/Channels` and add it in the dedicated field. If you cannot find it use a channel import job (csv or xlsx) and add the `en_HK` code in the `locales` column.
+1.  To enable it and add it to a channel, go to `Settings/Channels` and add it in the dedicated field. If you cannot find it, use a channel import job (csv or xlsx) and add the `en_HK` code in the `locales` column.
 
 And that's it! Your `en_HK` locale is activated for your channel!
 
@@ -53,5 +53,5 @@ If you do not see your new locales in the User Interface, it's maybe because you
 :::
 
 :::warning
-You can add locales easily, but you cannot remove them afterwards from the user interface. Please make sure you really need it before uploading it!
+You can easily add locales, but you cannot remove them afterwards from the user interface. Please make sure you really need additional locales before uploading them!
 :::
