@@ -33,7 +33,9 @@ Vous pouvez également ajouter ou supprimer un attribut, ou définir un ordre po
 
 :::ee
 Dans l'Edition Entreprise, vous pouvez définir des permissions pour vos groupes d'attributs.
-Vous pourrez restreindre la visibilité ou l'édition de certains attributs à un ou plusieurs groupes d'utilisateurs. Certains pourront donc éditer des attributs, d'autres seulement voir les valeurs de ces attributs ou bien n'auront aucune permission, donc ils ne pourront pas voir les informations des attributs d'un groupe d'attributs.
+Vous pourrez restreindre la visibilité ou l'édition de certains attributs à un ou plusieurs groupes d'utilisateurs en utilisant **les permissions avancées sur les groupes d'attributs**.
+Certains utilisateurs pourront donc **éditer des attributs**, d'autres seulement **voir les valeurs de ces attributs** ou bien n'auront **aucune permission**. C'est-à-dire qu'ils ne pourront pas accéder aux données d'un ou plusieurs attributs appartenant au même groupe.
+
 
 Par exemple, l'équipe Marketing sera uniquement en mesure de renseigner les valeurs du groupe d'attributs `Marketing`, tandis qu'ils ne pourront que consulter les informations renseignées pour les attributs du groupe d'attributs `Technical`.
 :::
