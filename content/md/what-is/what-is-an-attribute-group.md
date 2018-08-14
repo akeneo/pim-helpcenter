@@ -32,7 +32,7 @@ You can also add, delete, and define an order in attribute groups, please refer 
 # Specificity for the Enterprise Edition
 
 :::ee
-In the Enterprise Edition, you can set permissions on attribute groups. You can restrict the view or the enrichment of attributes to one or more groups of users. Some users will then be able to edit attributes, others will only have a view permission to consult attributes values, and some others won't be able to access this data.
+In the Enterprise Edition, you can set permissions on attribute groups. You can restrict the view or the enrichment of attributes to one or more groups of users. Some users will then be able to edit attributes, others will only have a view permission to consult attributes values, and some others won't be able to see this data.
 
 For instance, Marketing team will only be able to enrich attributes that have been added to the `Marketing` attribute group, they will be able to view `Technical` information though.
 :::
