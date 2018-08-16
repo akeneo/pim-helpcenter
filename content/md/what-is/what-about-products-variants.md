@@ -24,36 +24,35 @@ There are more and more products with variants in all businesses, here are some 
 - Teas by packaging
 - Fruit compotes with different flavors
 
-# How we model products with variants?
+# How do we model products with variants?
 
-Let's take a well-known example of products with variants that are t-shirts. A t-shirt model is available in 3 colors (grey, blue, red) and different sizes (S, M, L).
+Let's take a well-known example of products with variants that are T-shirts. A T-shirt model is available in 3 colors (grey, blue, red) and different sizes (S, M, L).
 
-For all the colors and sizes of the t-shirt, some attributes are common, such as the name « Cotton t-shirt with a round neck », the brand « DIVIDED », the care instructions « machine wash at fourty degrees ».   
-Each t-shirt color has different pictures and could have a different composition.  
-Each t-shirt color could be available in different sizes: S, M or L.   
-For each color/size, the identifier of the product is different (EAN, SKU) and the technical dimensions like weight, sleeves length could be different.  
+For all the colors and sizes of the T-shirt, **some attributes are common**, such as the name « Cotton T-shirt with a round neck », the brand « DIVIDED », and the care instructions « machine wash at fourty degrees ».   
+Each T-shirt color has **different pictures and could have a different composition**.  
+Each T-shirt color could be **available in different sizes: S, M or L.**   
+For each color/size, **the identifier of the product is different** (EAN, SKU) as well as **the technical specs like weight, sleeves length that could vary from a T-shirt from another.**
 
 ![Scheme modeling products with variants](../img/scheme_variants.png)
 
-## What is a product model?
+## What is a Product Model?
 
-A **product model** gathers similar products, that differ in some aspects, and allows the **enrichment of their common properties**.
-A product model has no product identifier (ex: SKU) but a dedicated code.
+A **Product Model** gathers similar products, that differ in some aspects (size, color, price...). A Product Model is used to **enrich these products' common properties**.
+A product model has **no product identifier** (ex: SKU) but a dedicated code.
 
-## What is a variant product?
+## What is a Variant Product?
 
-A **variant product** is a product, it's a **variant of a product model** and it has all the product properties (common and variant).    
-A variant product has a product identifier (ex: SKU).
+A **Variant Product** is a product attached to a Product Model. It shares the common attributes of the Product Model and has also its own properties. A **variant product has a product identifier** (ex: SKU).
 
 ## What is a family variant?
 
-From a single place, in a **family variant**, you will define all the **structure for your products with variants**.  
+The **family variant** will allow you to determine the **structure of your products with variants**.  
 You will define:
 - the number of variant levels: 1 or 2
 - the variant axes for each level
 - the distribution of attributes between common attributes and variant attributes
 
-For our t-shirt example, you will define a family variant "T-shirts by color/size" with:
+For our T-shirt example, you will create a family variant "T-shirts by color/size" with:
 - the number of variant levels: 2
 - the variant axes: color for the 1st level, size for the 2nd one
 - the common attributes: name, brand, care instructions
@@ -61,15 +60,15 @@ For our t-shirt example, you will define a family variant "T-shirts by color/siz
 - the variant attributes by color/size: EAN, SKU
 
 ::: tips
-A [family](/articles/what-is-a-family.html) could have several variants. For example, a family "furnitures" varying in the number of seats for sofas or in the material for tables.
+A [family](/articles/what-is-a-family.html) can have several variants. For example, a family "furnitures" can vary on the number of seats for a sofa or on the material used for a table.
 :::
 
 # How many levels of enrichment are managed?
-With this new modeling, **up to 3 levels of enrichment can be managed for products with variants** (ex: t-shirt model, t-shirt color, t-shirt color/size):
+With this new modeling, **up to 3 levels of enrichment can be managed for products with variants** (ex: T-shirt model, T-shirt color, T-shirt color/size):
 - 2 levels of product model (we call the 1st one a "root product model" and the 2nd one a "sub product model")
 - 1 level of variant product
 
-# How create and enrich products with variants?
+# How to create and enrich products with variants?
 Now you know almost everything about products with variants and you would like to create your first products with variants, here are some articles that might interest you ;)
 1.  [Create your first family variant](/articles/manage-your-families.html#create-a-family-variant)
 1.  [Create your first product model ](/articles/create-a-product.html#create-a-product-model)
