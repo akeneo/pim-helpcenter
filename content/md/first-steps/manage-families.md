@@ -35,7 +35,7 @@ You can define some additional properties for your family:
 *   An `attribute used as label (required)`: the attribute that will be used as «Label» for the products belonging to this family. The Label will appear in the product grid ("Label") column and it will also be used in the product form's header.
 **Only text and identifier attributes can be used as a product's Label.**
 *   An `attribute used as the main picture`: the attribute that will be used as «the main picture» for the products belonging to this family in the product grid (column "image") and in the product form's header.
-You can select an `image` or  `assets collection` (since 2.1) attribute types. Attributes that localizable and/or scopable cannot be used as the main product picture.
+You can select an `image` or  `assets collection` (since 2.1) attribute types. Attributes that are localizable and/or scopable cannot be used as the main product picture.
 *   The family’s `Labels translations`: allow you to translate your family name into the locales enabled in the PIM. 
     
 These information can be edited afterwards.     
