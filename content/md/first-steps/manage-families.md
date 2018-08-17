@@ -45,7 +45,7 @@ Once a family is created, you can configure your family:
 *   Edit these attributes’ completeness
 
 :::info
-You must be granted a specific permission to be able to create a family.
+You must be granted a specific role permission to be able to create a family. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
 :::
 
 ## Manage attributes in a family
