@@ -1,7 +1,7 @@
 ---
 id: manage-your-families
 themes: catalog-settings
-title: Manage your **families** and **variant families**
+title: Manage your **families and variant families**
 popular: false
 ee-only: false
 related: what-is-a-family
