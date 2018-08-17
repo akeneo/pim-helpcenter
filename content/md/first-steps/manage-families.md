@@ -51,7 +51,7 @@ You must be granted a specific role permission to be able to create a family. Pl
 ## Manage attributes in a family
 Attributes can be used in one or several families, but **an attribute can only be added once to a family**.         
     
-You can easily add attributes to or remove them from a family using the user interface or through imports.
+You can easily add attributes to or remove them from a family using the user interface or through [imports](/articles/imports.html).
 
 ### Add an attribute to a family
 
@@ -128,7 +128,7 @@ Once changes are saved, the PIM will automatically run a completeness calculatio
 
 ## Mass edit families
 
-Like for products you can mass edit families and add several attributes at once for several families, and through the same action define if they are required of not for the selected channels.
+Like for products you can mass edit families and add several attributes at once for several families, and through the same action define if they are required or not for the selected channels.
 
 To add attributes (or a group of attributes) to several families:
 1.  Go to `Settings/Families`
@@ -145,14 +145,14 @@ To add attributes (or a group of attributes) to several families:
 1.  Click on `Next`
 1.  Confirm the action with the `Confirm` button to add attributes to the selected families     
 
-The attributes have been added to families.
+The attributes have been added to the families.
 
 ## Check the family history
 
 Changes made on a family are recorded and visible under the `History` tab.      
 
 For each change, a version of the family is created. The following information is tracked down for each version:
-- The person or system that generated changes
+- The person or system that made the changes
 - The date and time (down to seconds) at which the changes took place
 - The old value and the new value of each modified field
 
@@ -176,12 +176,12 @@ Through the family form:
   ![image](../img/Settings_FamilyDelete.png)
 1. Confirm the action via the validation message
 
-Through the Delete shortcut in the grid:
+Through the `Delete` shortcut in the grid:
   ![image](../img/Settings_Families_DeleteHover.png)
 1. Select the family you want to remove from the family datagrid
 1. Place your mouse over the line of family in the grid, the button delete is prompted (trash can icon)
 1. Click on the trash can icon
-1. Confirm the action via the validation message
+1. Confirm the action in the validation message
 
 ::: warning
 A family with family variants cannot be deleted. You first need to [delete its family variants](/articles/manage-your-families.html#delete-a-family-variant-since-22).
@@ -223,11 +223,11 @@ You can see how the attributes are distributed between the different levels:
 - The **variant attributes for the level 1** in the 2nd column are the attributes which will vary according to the variant axes of the level 1
 - If the family variant has 2 variant levels, **the variant attributes for the level 2** in the 3rd column are the attributes which vary according to the variant axes of the level 2 (and level 1)
 
-In our clothing example which vary on 2 levels by color and then by size, the common attributes are: the name, the collection, the description, the brand, etc. The attributes that vary by color (variant level 1) are the composition, the pictures and the attributes that differ by color and size (variant level 2) are the EAN, the SKU and the weight.
+In our clothing example which varies on 2 levels by color and then by size, the common attributes are: the name, the collection, the description, the brand, etc. The attributes that vary by color (variant level 1) are the composition, the pictures and the attributes that differ by color and size (variant level 2) are the EAN, the SKU and the weight.
 
 ## Create a new family variant
 
-You can create family variant for all your families.
+You can create one or more family variants in each family.
 1.  In `Settings/Families`, choose a family and select the `Variants` tab
 1.  Click on `Add variant` to create a new variant for the family
 1.  The creation of a family variant popin is prompted
@@ -304,4 +304,4 @@ A family variant can be deleted if there is no [product model](/articles/what-ab
 1.  Place your mouse over the line of the family variant you want to remove in the grid, the button delete is prompted (trash can icon)
 ![Display a family variant](../img/Settings_Families_Variant_Delete.png)
 1.  Click on the trash can icon, a confirmation opens
-1.  Click on `Delete` to confirm the action via the confirmation message
+1.  Click on `Delete` to confirm the action in the confirmation message
