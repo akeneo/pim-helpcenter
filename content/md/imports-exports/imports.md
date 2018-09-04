@@ -14,7 +14,7 @@ Importing data is pretty convenient especially if you want to update your catalo
 When importing data, Akeneo PIM extracts the data from the file and converts them to save in the PIM.
 
 ::: info
-The imports accepts two types of file: CSV and XSLX.
+The imports accept two types of file: CSV and XSLX.
 :::
 
 You can import product data, but also catalog entities such as the families, the categories, the attributes...
