@@ -108,7 +108,7 @@ An email can also be sent depending on your user configuration. For further deta
 ## With the user groups rights _(EE only)_
 
 ### Rights on the product information
-In the case of *product and published product exports*, the PIM takes into account your permissions based on the [user groups](/articles/what-is-a-user-groups.html) you are in:
+In the case of *product and published product exports*, the PIM takes into account your permissions based on the [user groups](/articles/what-is-a-user-group.html) you are in:
 - you **do not have a view right** on the products that are in the `Goodies` category, you won't be able to export any information about these products
 - you **do not have a view right** on the `Marketing` attribute group, you won't be able to export the product information of the attributes in this attribute group
 - you **do not have a view right** on the `de_DE` locale, you won't be able to export any product data regarding this locale
