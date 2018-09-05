@@ -6,13 +6,13 @@ related: handle-your-user-permissions, build-your-user-roles, manage-the-interfa
 ---
 
 # Definition
-A role is a set of permissions for actions available within the PIM (example: ceate a product, delete a product, view the attributes grid...).
+A role is a set of permissions for actions available within the PIM (example: create a product, delete a product, view the attributes grid...).
 
 A role can be assigned to one or several users. You can imagine having a role named `Administrator` that will grant more access than another role named `Manager` that will itself grant more access than a third role named `Intern`, for example.
 
 ![image](../img/System_users_Profil_edit_grpandroles.png)
 
-On user can have one or several roles. In the case a user has several user roles, the permissions given by each of its roles are cumulated.
+One user can have one or several roles. In the case a user has several user roles, the permissions given by each of its roles are cumulated.
 
 # Example
 
