@@ -3,20 +3,19 @@ id: manage-your-views
 themes: boost-your-productivity, collaborative-work
 title: Manage your **views**
 popular: false
-related: products-grid
+related: products-grid, manage-your-projects
 ---
 
 # Work with the views
 
-What if, you could save all changes made on your grid (filters, columns, category selection...) and come back later to the exact same view so you can keep on working on your product’s selection? Well, this is possible with the View feature!
+What if, you could **save all changes made on your grid** (filters, columns, category selection...) and **come back later to the exact same view so you can keep on working on your product’s selection**? Well, this is possible with the **View** feature!
 
-Views are available for all users for all versions (Community and Enterprise).
+**Views are available for all users for all versions** (Community and Enterprise).
 
 # Create a view
 
-Before creating a view, first select a category or a category tree, add some filters and add/remove columns.
-
-And once you are all set, you will see that the Default view name became Default view*. Every time you will make a change on a view, a small asterisk "\*" will be added nearby its name.
+Before creating a view, **first select a category or a category tree, add some filters and add/remove columns**.
+Once you are all set, you will see that the `Default view` name became `Default view*`. Every time you will make a change on a view, a small asterisk "\*" will be added nearby its name.
 
 To create your first view:
 1.  Click on the "..." nearby the view selector menu
@@ -30,16 +29,18 @@ To create your first view:
 This view will now be available under the Views dropdown menu.
 
 Some rules about the views:
-- All views created are shared to all other users.
-- Only the view’s creator can delete or edit it.
+- **All views created are shared with all other users**.
+- **Only the view’s creator can delete or edit it**.
 - If you need to edit someone’s else view, select it, make your changes and save it again under a new name.
-- Only active filters will be saved for your view. For instance, an attribute filtered on ALL will disappear when saving your view, because All is the default filter value.
+- **Only active filters will be saved for your view**. For instance, an attribute filtered on `ALL` will disappear when saving your view, because `ALL` is the default filter value.
 
-::: tips
-You can set one of your view as your own default view!
+::: info
+When you create a new view, you can save a **grid configuration as well as active filters**. Please note that **system filters will be always added to your filter menu**, unless you customise default filters in your account. Read our [Manage your account](/articles/manage-your-account.html#your-favorite-catalog-and-product-grid-settings) article to learn more about default grid filters.
 :::
 
-VIDEO TIP: Learn how to use the views!
+::: tips
+You can set one of your view as your own default view! To set one of your view as your default product grid view, read the following article [Manage your account](/articles/manage-your-account.html#your-favorite-catalog-and-product-grid-settings).
+:::
 
 # Apply a view
 
@@ -78,3 +79,7 @@ To remove a view you have created, follow the steps below:
 1.  Confirm or cancel the suppression of the view.
 
 ![Delete a view confirmation](../img/Products_DeleteViewConfirmation.png)
+
+::: ee
+Use one of your view to create a project! Read our [How to create a project](/articles/manage-your-projects.html#how-to-create-a-project) article.
+:::
