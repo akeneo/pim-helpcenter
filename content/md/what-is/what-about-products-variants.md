@@ -24,7 +24,7 @@ There are more and more products with variants in all businesses, here are some 
 - Teas by packaging
 - Fruit compotes with different flavors
 
-# How do we model products with variants?
+# How do we model products with variants in Akeneo?
 
 Let's take a well-known example of products with variants that are T-shirts. A T-shirt model is available in 3 colors (grey, blue, red) and different sizes (S, M, L).
 
@@ -35,14 +35,14 @@ For each color/size, **the identifier of the product is different** (EAN, SKU) a
 
 ![Scheme modeling products with variants](../img/scheme_variants.png)
 
-## What is a Product Model?
+## What is a product model?
 
-A **Product Model** gathers similar products, that differ in some aspects (size, color, price...). A Product Model is used to **enrich these products' common properties**.
+A **product model** gathers similar products, that differ in some aspects (size, color, price...). A product model is used to **enrich these products' common properties**.
 A product model has **no product identifier** (ex: SKU) but a dedicated code.
 
-## What is a Variant Product?
+## What is a variant product?
 
-A **Variant Product** is a product attached to a Product Model. It shares the common attributes of the Product Model and has also its own properties. A **variant product has a product identifier** (ex: SKU).
+A **variant product is a product** and it is also a **variant of a product model**. It shares the common attributes of a product model but also has its own properties. A **variant product has a product identifier** (ex: SKU).
 
 ## What is a family variant?
 
