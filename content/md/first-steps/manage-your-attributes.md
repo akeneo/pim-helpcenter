@@ -15,20 +15,20 @@ Go to `Settings/Attributes`, to see all the existing attributes or create a new 
 
 ## Attribute grid pagination
 
-The attribute grid displays 25 attributes per page. To browse attribute's pages, click on the page number you want to reach or use the filters.
+The attribute grid displays 25 attributes per page. To browse attributes pages, click on the page number you want to reach or use the filters.
 
 ![image](../img/Settings_Attributes.png)    
 
-You can sort out attributes, by clicking on the column header on the grid.
+You can sort out attributes by clicking on the column header on the grid.
 
-## Search on a attribute's label
+## Search on a attribute label
 
-To quickly find an attribute, use the search bar available above the grid. Use your attribute's label to find what you are looking for.
+To quickly find an attribute, use the search bar available above the grid. Use your attributes label to find what you are looking for.
 
 ![image](../img/Settings-UsetheSearchBar.gif)
 
 ::: warning
-If your attribute does not have any label translated yet, it will not pop in the search results. **Make sure your attribute has its labels translated.**
+If your attribute does not have any label translated, it will not pop in the search results. **Make sure your attribute has its labels translated.**
 :::
 
 ## Filter on attributes
@@ -48,7 +48,7 @@ You can filter on the following attribute information:
 - The `smart` property (Yes/No) if there is a rule defined on this attribute _(Entreprise Edition only)_
 
 ::: info
-By default, attributes will be displayed in the catalog locale selected in the product grid. If an attribute code appears into bracket like [color], it means it has not been translated into the current locale.
+By default, attributes will be displayed in the catalog locale selected in the product grid. If an attribute code appears into brackets like *[color]*, it means it has not been translated into the current locale.
 :::
 
 ## Shortcut actions on each attribute
@@ -58,12 +58,13 @@ There is a set of actions available for each attribute. You can find on the righ
 ![image](../img/Settings-AttributesGridHover.png)
 
 ::: info
-The shortcut actions are only displayed if you have been granted the appropriate rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
+The shortcut actions are only displayed if you have been granted the appropriate rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html) to learn more about roles.
 :::
 
 # Create an attribute
 
-Let's create an attribute! You will be able to select the **most appropriate attribute type to perfectly match your needs**. For example, you can choose to create a text attribute (free text) or a drop down list (simple or multi select) with a selection of values, to make sure users will select one of the predefined options. Create a `metric` attribute to fill in the weight/size/length... of your products.
+Let's create an attribute! You will be able to select the **most appropriate attribute type to perfectly match your needs**.    
+For example, you can choose to create a text attribute (free text) or a drop down list (simple or multi select) with a selection of values, to make sure users will select one of the predefined options. Create a `metric` attribute to fill in the weight/size/length... of your products.
 
 To create an attribute in the PIM:
 1. Go to `Settings/Attributes`
@@ -71,8 +72,7 @@ To create an attribute in the PIM:
   ![image](../img/Settings_AttributesCTAButton.png)
 1. Select the attribute type you want to create
   ![image](../img/Settings_Attributes_Create1.png)
-  
-The attribute edit page is displayed. The following properties are required to finalise the creation of your attribute:
+1. The attribute edit page is displayed. The following properties are required to finalise the creation of your attribute:
     - A **code** to identify the attribute
     - An **attribute group**: the attribute group the attribute will belong to
     - A **unique value** (Yes/No): if the value for this attribute is unique (field available or required depending on the attribute type)
@@ -82,7 +82,7 @@ The attribute edit page is displayed. The following properties are required to f
     - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
     - **Read only**: when enabled it prevents this attribute from being edited through the UI, it can only be updated through imports, API or rules _(Enterprise Edition only)_
     - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types)).    
-Click on `Save` to create your attribute.
+1. Click on `Save` to create your attribute.
 
 The attribute is now created, you **can add a translation for each enabled locales** under the `Label translations` tab. If you need to edit some other attribute's property, please refer to the section [Edit attribute properties](/articles/manage-your-attributes.html#edit-attribute-properties)
 
@@ -96,7 +96,7 @@ Please note that the **following attribute codes cannot be used** in Akeneo PIM:
 :::
 
 ::: warning
-If you cannot access the Attribute's page or if you cannot add a new attribute, it is probably because you do not have the role permission to. not. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
+If you cannot access the attribute page or if you cannot add a new attribute, it is probably because you do not have the role permission to. Please refer to [Manage your user roles](/articles/build-your-user-roles.html) to learn more about roles.
 :::
 
 ## Validation for the different attribute types
