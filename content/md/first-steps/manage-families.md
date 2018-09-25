@@ -7,10 +7,6 @@ ee-only: false
 related: what-is-a-family
 ---
 
-:::info
-If you are not familiar with the concept of families, you can first read our [What is a family?](/articles/what-is-a-family.html) article.
-:::
-
 # Manage your families
 
 ## See all your families
