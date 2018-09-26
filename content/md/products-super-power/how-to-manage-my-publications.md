@@ -4,6 +4,7 @@ themes: products-super-power
 title: Manage **publishing**
 popular: false
 ee-only: true
+related: publish-workflow, work-on-a-product
 ---
 
 # Publish products
@@ -15,23 +16,29 @@ To publish a product:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Publish this version` in the dropdown
 
-The current version is published. In the “History” tab, the published version is indicated by a blue `Published` button as shown below:
+The current version will be published. In the `History` tab, the published version is indicated by a blue `Published` button as shown below:
 
 ![Published History Button](../img/Products_PublishedHistoryButton.png)
 
-If you click on the arrow to open the complete History page, the Published version will have the Published label, as shown below:
+If you click on the arrow to open the complete `History` page, the published version will have the `Published` label, as shown below:
 
 ![Published History Button dropdown](../img/Products_PublishedHistoryDropdown.png)
 
 ## Publish several products at once
+
 To publish several products simultaneously:
 
-1.  Tick the products in the product grid
-1.  Click on the Bulk Actions button at the bottom of the screen, select «Publish» action
-1.  Choose the “Publish products” operation and click on `Next`:
-    *   If you are in charge of all the products you have selected, follow the steps and all selected products will be published
-    *   If you are in charge of some of the products: a message will inform you that you will only be able to publish the relevant products on which you have the own right. Then, follow the steps and only the products you manage will be published. The other products will not be published
-    *   If you are in charge of none of product you have selected, an error message will inform you that you do this action you do not have permission to publish these products. Click on the “Back” button to exit the mass edit process
+1.  Select products in the product grid
+1.  Click on the `Bulk Actions` button at the bottom of the screen, select the `Publish` action
+1.  Choose the `Publish products` operation and click on `Next`:
+    *   If you have the own permission on all the products you have selected, follow the steps and all the selected products will be published
+    *   If you have the own permission on some of these products: a message will inform you that you will only be able to publish the relevant products on which you have the own right. Then, follow the steps and only the products you manage will be published. The other products will not be published
+    *   If you do not have the own permission on any of the selected products: an error message will inform you that you do not have permission to publish these products. Click on the `Back` button to exit the mass edit process
+
+::: info
+**Product models cannot be not published**, if you select a product model in the grid, **only its variant products will be published**.
+Variant products will be published with all their attributes: their own attribute values as well as their parents, and with the link to their parent product model (`parent` attribute)
+::
 
 # View the published products
 
@@ -45,77 +52,81 @@ To check which products are published:
 
 ![Publish](../img/Products_PublishedGrid.png)
 
-But some features will not be available on this grid:
+Note that some features are not available from this grid:
 
 *   You will not be able to create a new product from this page
 *   You will not be able to delete any published products
-*   You will not be able to modify any published products
+*   You will not be able to edit any published products
 
 The views are specific to the published product grid. Hence, the views of unpublished products are not shared with the grid of published products.
 
-> **Notes**  
-  1. Like for the product grid, you can define a default view when you open the published product grid in your user account, refer to Change your default preferences.
-  2. This option is available in your account, only if you have already created a custom view in the published product grid, if not, the field will not appear.
+::ee
+  1. Like on the product grid, you can define a published product grid default view in your user account, learn how to set up this default published grid view in the [Manage your account](/articles/manage-your-account.html#your-favorite-catalog-and-product-grid-settings) article.
+  2. This option will be visible in your account if you have already created a custom view in the published product grid, if not, the field will not appear.
+:::
 
-The attributes, families, groups, and categories are taken into account by published product versions and cannot be deleted.
+Attributes, families, groups and categories are taken into account by published product versions and cannot be deleted.    
 
-The visual guide to mass edit offers to execute specific operations on published products, just like “unpublishing products”.
+Only one mass action is available on published products: `Unpublish`.
 
-It is not possible to edit published products, you can only view them.
+## View a published product
 
-## View a published product in detail
+From the published product grid:
+1.  Go to the published product grid
+1.  Select a published product
+1.  Its product form is displayed
 
-To view a published product form:
-1.  Go to the Product grid
+From the product grid:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Published products` in the dropdown
-1.  Click on the product
-1.  The Product Form is displayed
+1.  The published product grid is displayed
+1.  Select a published product
+1.  Its product form is displayed
 
 ![Published Products](../img/Products-PublishedProducts.png)
 
-The display is the same as the unpublished product form. For more information, you can refer to the section, “Viewing a product form”. Also, if you do not have the appropriate rights to see some attribute groups at least, these latter will not be displayed.
+:::info
+Published product information can only be viewed, they cannot be edited.
+::
 
-When you are in charge of the published product which is viewed, there are two buttons available in the header on the right side:
+Product information are displayed the same way as in the product form, to learn more about the product form, read the [Enrich your product] (/articles/work-on-a-product.html) article. 
+Permissions are also applied on published products, so if you do not have the appropriate rights to see some attribute groups, they will not be displayed.
 
-*   Edit the current product version (working copy): clicking on this button will redirect you to the Unpublished Product Form.
+When you own the ongoing published product, there are two actions available in the header on the right side:
+
+*   Edit the current product version (working copy): clicking on this button will redirect you to the unpublished product form.
 
 ![Edit working copy or Unpublish buttons](../img/Products-PublishedProduct2.png)
 
-*   Unpublish
-
+*   Unpublish: to unpublish this product
 
 # Unpublish products
 
-Unpublishing products remove the product’s version from being used in the exports.
+Unpublishing products remove the product’s version from being used in the published product exports.
 
-Unpublishing products only impacts the export of products. The export of attributes, categories, etc... does not take into account the concept of unpublishing product.
+Unpublishing products only impact the export of published products. The export of attributes, categories, etc... does not take into account the concept of unpublishing product.
 
 ## Unpublish a single product
 
 To unpublish one product:
-1.  Go to the published product grid by clicking on the `...` in the top right corner of the product grid screen
-1.  Click on the small cloud icon displayed on product rollover in the grid (see screenshot below)
+1.  Go to the published product grid (click on the `...` in the top right corner of the product grid screen)
+1.  Click on the small papersheet icon displayed on product rollover in the grid (see screenshot below)
 
 ![Unpublished a product from the grid](../img/Products-PublishedProduct3.png)
 
-The product will be no longer published. The product will not be listed anymore in the published product grid.
+The product will no longer be published and the product will not be listed anymore in the published product grid.
 
 ## Unpublish several products at once
 
 To unpublish several products at the same time:
-1.  Go to the Product grid
-1.  Click on the "..." in the top right corner of the screen
-1.  Select `Published products` in the dropdown
-1.  Tick the products in the grid
-1.  Click on the Bulk Actions button at the bottom of the screen, and select the unpublish operation
+1.  Go to the published product grid (click on the `...` in the top right corner of the product grid screen)
+1.  Select published products in the grid, the bulk action menu will appear at the bottom of the screen
+1.  Click on `Bulk action`
+1.  Then click on `Unpublish` button
 
 ![Bulk Actions on Publish products](../img/Products-PublishedProduct4.png)
 
 1.  Select the `Unpublish` operation:
-    *   If you are in charge of all selected products, follow the steps and all
-        products will be unpublished
-    *   If you are in charge of only part of the selected products: a message will appear to inform you that you can only unpublish the products for on which you have own rights. Then follow the next steps and only the products you own will be unpublished. The other products will not be unpublished
-    *   If you are in charge of none of the selected products: an error message will appear to inform you that you cannot unpublish the products because you do not have the rights to do so. Click on the “Back” button to exit the mass edit process
-
-    The combination of actions to unpublish / restore a version allows to push new information to a product version.
+    *   If you have the own permission on all the products you have selected, follow the steps and all the selected products will be unpublished
+    *   If you have the own permission on some of these published products: a message will inform you that you will only be able to unpublish the relevant products on which you have the own right. Then, follow the steps and only the products you own will be unpublished. The other products will not be unpublished
+    *   If you do not have the own permission on any of the selected products: an error message will inform you that you do not have permission to unpublish these products. Click on the `Back` button to exit the mass edit process
