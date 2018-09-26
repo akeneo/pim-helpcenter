@@ -108,11 +108,23 @@ Unpublishing products only impact the export of published products. The export o
 
 ## Unpublish a single product
 
-To unpublish one product:
-1.  Go to the published product grid (click on the `...` in the top right corner of the product grid screen)
+You can unpublish a product from the main product form or from the published product grid.
+
+From the published product grid:
+1.  Go to the published product grid (click on the `...` on the top right corner of the product grid screen)
 1.  Click on the small papersheet icon displayed on product rollover in the grid (see screenshot below)
 
+:::info
+You can also unpublish the product directly from the published product form.
+::
+
 ![Unpublished a product from the grid](../img/Products-PublishedProduct3.png)
+
+From the product grid:
+1.  Go to the product grid
+1.  Select the product to unpublish
+1.  Click on the `...` on the top right corner, 
+1.  Click on `Unpublish`
 
 The product will no longer be published and the product will not be listed anymore in the published product grid.
 
