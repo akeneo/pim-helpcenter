@@ -4,6 +4,7 @@ themes: boost-your-productivity, collaborative-work
 title: What is a **project**?
 popular: true
 ee-only: true
+related: manage-your-projects, projects-notifications
 ---
 
 # Overview
