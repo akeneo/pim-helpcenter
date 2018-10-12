@@ -1,7 +1,7 @@
 ---
 id: publish-workflow
 themes: products-super-power
-title: **Publication**: the "2 versions/1 product" feature
+title: **Product publication**, the "2 versions/1 product" feature
 popular: false
 ee-only: true
 related: how-to-manage-my-publications, products-associations
