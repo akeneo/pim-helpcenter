@@ -48,13 +48,13 @@ You are now ready to create a new project!
 1. Click on the `...` icon nearby the `Views/Projects` selector
 1. Select `Create project`
 ![Create a project](../img/Products_CreateProjectsDropdown.png)
-1.  The project creation window appears:
+1. The project creation window appears:
 ![Create a project](../img/Products_CreateProjectsWizard1.png)
-1.  You can now add:
-  *   a project’s label: the name you want to give to your project. For instance, ‘New Summer Collection Website’
-  *   a project’s due date: the date the project must be over at, for instance, 30/May/2018
-  *   a project’s description: the project’s description will appear on the dashboard
-5.  Click on `Save` to finalize the project’s creation
+1. You can now add:
+   - a project’s label: the name you want to give to your project. For instance, ‘New Summer Collection Website’
+   - a project’s due date: the date the project must be over at, for instance, 30/May/2018
+   - a project’s description: the project’s description will appear on the dashboard
+1. Click on `Save` to finalize the project’s creation
 
 Your project is now saved and it will be calculated.
 
