@@ -22,7 +22,7 @@ You are satisfied by your product information for this product, so you hit the `
 ![image](../img/Products_PublishProductExample.png)
 
 **What's happening?**    
-In fact, this *takes a picture* of your product information at this very moment. This *picture* is called the *published version* of your product.
+In fact, this *takes a snapshot* of your product information at this very moment. This *snapshot* represents the *published version* of your product.
 
 **What happens next?**   
 You can still edit all your product information, for instance, change its description or composition for the next season...  
