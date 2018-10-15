@@ -14,7 +14,6 @@ For instance, using rules you can:
 - automatically categorise new products based their family
 - copy the value from a text attribute to another text attribute
 - set a default value to an empty field
-- set a text attribute to another text attribute
 - assign families to new products
 
 Rules can only be imported in Akeneo using a YML file, but you can manage them from the UI. Check [How to manage your rules](/articles/manage-your-rules.html) article. 
