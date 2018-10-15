@@ -10,7 +10,7 @@ related: sequential-edit
 
 # Overview
 
-Bulk operations enable you to perform actions on multiple products at once. These operations are performed on a selection of products from the grid.
+Bulk operations enable you to **perform actions on multiple products at once**. These operations are performed on a selection of products from the grid.
 
 To access the bulk actions, go on the Product grid, **select at least one product** and click on the `Bulk actions` button, at the bottom of the grid.
 
@@ -19,12 +19,12 @@ Here’s the list of the bulk operations available in the PIM (Community and Ent
   - **Edit attributes values**: Edit the attributes values of your selection of products. For instance, set a new release date or a new value for an attribute.
   - **Add attributes values (_since 2.2_)**: Add values for the multivalued attributes on your selection of products. For instance, add a collection or an asset.  
   - **Change family**: Choose/change the family of the selected products.
-  - **Change status (enable/disable)**: Edit the status of one or several products, to enable or disable the products.
-  - **Add to groups**: Add your selection of products in one or more groups.
+  - **Change status (enable/disable)**: Edit the status of one or several products, enable or disable products.
+  - **Add to groups**: Add your selection of products to one or more groups.
   - **Add to categories**: Add products or product models into categories.
   - **Move between categories**: Change your products categorization
   - **Remove products from categories**: Remove products from one or more categories at once. Selected products will be uncategorized.
-  - **Add to an existing product model**: Add products as variant of a [product model](/articles/what-about-products-variants.html#what-is-a-product-model).
+  - **Add to an existing product model**: Add a simple product as a variant to a [product model](/articles/what-about-products-variants.html#what-is-a-product-model) if 2 levels of variants or to a [sub product model](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) if 3 levels of variants.
   - **Change the parent product model (_since 2.3_)**: Change the parent [product model](/articles/what-about-products-variants.html#what-is-a-product-model) of variant products or [sub product models](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed).
   - **Associate to products (_since 2.1_)**: Add associations for your selection of products.
   - **Publish products (Enterprise Edition only)**: Mass publish products.
@@ -37,7 +37,7 @@ In order to perform a bulk operation on products, you need the rights to each po
 # How to perform bulk actions?
 
 1.  Select the desired products in the grid with the appropriate filters
-1.  Tick the products you want to mass edit via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `None` for none of the products:
+1.  Tick the products you want to mass edit via the down arrow of the toolbar: select `All` to apply changes on **all your products**, `All visible` for all visible products (ongoing page) or click on `None` to cancel the action:
 ![Mass edit options](../img/Products_BulkActionUppermenu.png)
 1.  Click on `Bulk Actions`
 1.  Select the operation to be performed from the screen menu
@@ -52,7 +52,7 @@ In order to perform a bulk operation on products, you need the rights to each po
 | Change status | Select the status to be applied: enable or disable  |
 | Add to groups     | Check the groups in which the products will be brought together       |
 | Add to categories<br>Move between categories<br>Remove from categories | Tick the categories in which the products will be categorized, moved or removed.   |
-| Add to an existing product model  | Select the product model to gather the products    |
+| Add to an existing product model  | Select the product model or sub product model to gather the products    |
 | Change the parent product model  | Select the new parent product model to gather the products or [sub product models](/articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) selected   |
 | Associate to products  | Add associations to the products selected (_since 2.1_)    |
 | Publish products  | Confirm the action     |
@@ -62,16 +62,16 @@ Confirm the action with the `Confirm` button located in the middle of the screen
 
 ![Confirm button](../img/Products_ConfirmBulkActions.png)
 
-The action is processed to the back-end, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified.
+The action is processed as a background task, so you can continue to work on the PIM. When the process is done, you are the only user to be notified.
 
 ![Notification center](../img/Products_MassEditNotifications.png)
 
-When you click on the notification, you access the report page of the action.
+To access the Execution details of the process, click on the notification icon.
 
 ![Process tracker](../img/Products-ProcessTrackerReportMassEdit.png)
 
 ::: info  
-The operations `Change status`, `Add to groups` and `Publish products` are not available for the [product models](/articles/what-about-products-variants.html#what-is-a-product-model). _Since 2.3_, to ease these bulk actions, if you select some product models in the grid, their children variant products will be updated. For example, if you select some product models in the grid and the bulk action `Change status`, the status of the children variant products of the product models selected will be changed in mass.
+The following operations `Change status`, `Add to groups` and `Publish products` are not available for the [product models](/articles/what-about-products-variants.html#what-is-a-product-model). _Since 2.3_, to ease these bulk actions, if you select some product models in the grid, their children variant products will be updated. For example, if you select some product models in the grid and the bulk action `Change status`, the variant products' statuses of the product models selected will be changed.
 :::
 
 ::: ee
@@ -85,7 +85,7 @@ After some of the bulk actions the rules will be automatically executed.
 :::
 
 :::tips
-If you select some [product models](/articles/what-about-products-variants.html#what-is-a-product-model) in the grid, the attributes will be updated on the product models and all its children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) are mass edited, the description will be updated on the product models and the weight on each child variant product of the selected product models.
+If you select some [product models](/articles/what-about-products-variants.html#what-is-a-product-model) in the grid, the attributes will be updated on the product models and all their children variant products according to the [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) definition. For example, if the description (defined as `common attributes`) and the weight (defined for each variant product) are mass edited, the description will be updated on the product models and the weight on each child variant product of the selected product models.
 :::
 
 :::warning
@@ -97,7 +97,7 @@ These actions will not apply on products without families.
 To ease the mass enrichment of products attributes values, you can edit the attributes values of your products thanks to the `Edit attributes values` bulk action in the product grid. For example, you can set the brand of a selection of products to Akeneo.
 
 1.  Search for products in the grid with the appropriate filters
-2.  Select the products to edit: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+2.  Select the products to edit: tick the products you want to add via the down arrow of the toolbar: select `All` to apply changes on **all your products**, `All visible` for all visible products (ongoing page) or click on `None` to cancel the action
 3.  Click on `Bulk Actions`
 4.  Select `Edit attributes values` and then `Next`
 5.  Click on `Select attributes` to select the attributes you want to update (for example the brand)
@@ -120,7 +120,7 @@ Since 2.2 version, a new mass action is available: `Add attributes values`. This
  
 For example, you can now easily and massively add a new asset to several products or a new option value to a multi-select attribute used for several products. To do so, simply follow our steps: 
 1.  Search for products in the grid with the appropriate filters
-2.  Select the products to edit in your product grid: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `None` for none of the products
+2.  Select the products to edit in your product grid: tick the products you want to add via the down arrow of the toolbar: select `All` to apply changes on **all your products**, `All visible` for all visible products (ongoing page) or click on `None` to cancel the action
 3.  Click on `Bulk Actions`
 4.  Select `Add attributes values` and then `Next`
 5.  Click on `Select attributes` to select the attributes you want to update (for example the collection)
@@ -139,7 +139,7 @@ Like the `Edit attribute values`, this action **will not add new attribute to pr
 In order to save you some time, you can also directly categorize products in categories without an import / export thanks to a bulk action in the product grid.
 
 1.  Search for products in the grid with the appropriate filters
-2.  Select the products to be categorized via the selection tool: tick the products you want to update via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+2.  Select the products to be categorized via the selection tool: tick the products you want to update via the down arrow of the toolbar: select `All` to apply changes on **all your products**, `All visible` for all visible products (ongoing page) or click on `None` to cancel the action
 ![Mass edit options](../img/Products_BulkActionUppermenu.png)
 3.  Click on `Bulk Actions`
 4.  Select the operation to be performed from the screen menu
@@ -155,7 +155,7 @@ In order to save you some time, you can also directly categorize products in cat
 Confirm the action with the `Confirm` button located in the middle of the screen.
 
 :::warning
-These bulk actions support the [product models](/articles/what-about-products-variants.html#what-is-a-product-model) _since the 2.1_.
+These bulk actions support [product models](/articles/what-about-products-variants.html#what-is-a-product-model) _since the 2.1_.
 :::
 
 # Add products to an existing product model
@@ -163,7 +163,7 @@ These bulk actions support the [product models](/articles/what-about-products-va
 To ease the enrichment of [products with variants](/articles/what-about-products-variants.html), you can gather products in a [product model](/articles/what-about-products-variants.html#what-is-a-product-model) to allow the enrichment of their common properties.
 
 1.  Search for products in the grid with the appropriate filters
-2.  Select the products to add to an existing product model: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+2.  Select the products to add to an existing product model: tick the products you want to add via the down arrow of the toolbar: select `All` to apply changes on **all your products**, `All visible` for all visible products (ongoing page) or click on `None` to cancel the action
 3.  Click on `Bulk Actions`
 4.  Select `Add products to an existing product model` and then `Next`
 5.  Select a family, a [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) and a [product model](/articles/what-about-products-variants.html#what-is-a-product-model)
@@ -196,7 +196,7 @@ Hereafter 2 examples of use cases:
   ![Mass edit options](../img/Products_BulkActionChangeParentProductModelEx.png)
 
 1.  Search for products or sub product models in the grid with the appropriate filters
-2.  Select the products or sub product models to change the parent product model: tick the products or sub product models you want to add via the down arrow of the toolbar: `All` for all results, `All visible` for all visible results on the ongoing page, `none` for none of the results
+2.  Select the products or sub product models to change the parent product model: tick the products or sub product models you want to add via the down arrow of the toolbar: select `All` to apply changes on **all your products**, `All visible` for all visible products (ongoing page) or click on `None` to cancel the action
 ![Mass edit options](../img/Products_BulkActionChangeParentProductModelSelect.png)
 3.  Click on `Bulk Actions`
 4.  Select `Change the parent product model` and then `Next`
@@ -219,7 +219,7 @@ This operation can only be performed for variant products or [sub product models
 To ease the add of associations, you can mass associate products.
 
 1.  Search for products in the grid with the appropriate filters
-2.  Select the products to add associations: tick the products you want to add via the down arrow of the toolbar: `All` for all the products recorded, `All visible` for all visible products on the ongoing page, `none` for none of the products
+2.  Select the products to add associations: tick the products you want to add via the down arrow of the toolbar: select `All` to apply changes on **all your products**, `All visible` for all visible products (ongoing page) or click on `None` to cancel the action
 3.  Click on `Bulk Actions`
 4.  Select `Associate to products` and then `Next`
 5.  Select the association type
@@ -251,7 +251,7 @@ You can view the associations for a product in its product form, in the `Associa
 
 To delete multiple products:
 1.  Search for products in the grid with the appropriate filters
-2.  Select the products to be removed via the selection tool: all the products recorded, all visible products from the ongoing page, none of the products and the products for which you have ticked the 1st column
+2.  Select the products to be removed via the selection tool: select `All` to apply changes on **all your products**, `All visible` for all visible products (ongoing page) or click on `None` to cancel the action
 ![Mass edit options](../img/Products_BulkActionUppermenuDelete.png)
 3.  Click on `Delete` in the toolbar located at the bottom of the screen
 4.  Confirm the action with the `Confirm` button
