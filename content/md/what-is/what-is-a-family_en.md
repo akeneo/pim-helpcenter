@@ -6,7 +6,7 @@ title: What is a family?
 
 # Definition of a family
 
-![what-is-a-family](../img/What-is-a-family.svg)
+![what-is-a-family](/img/What-is-a-family.svg)
 
 A family is **a set of attributes** that is shared by products belonging to the same family. In other words, a family can be considered to something similar as a **product template**.
 
