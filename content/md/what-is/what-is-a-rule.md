@@ -12,7 +12,7 @@ related: manage-your-rules
 A rule is a set of actions and conditions that allows you to automatise data enrichment. 
 For instance, using rules you can:
 - automatically categorise new products based their family
-- copy the value from a text attribute to another text attribute
+- copy the value from an attribute to another attribute having the same attribute type
 - set a default value to an empty field
 - assign families to new products
 
