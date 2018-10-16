@@ -58,7 +58,7 @@ To edit your [user groups](/articles/what-is-a-user-group.html) and [roles](/art
 
 ::: ee
 In the Enterprise Edition, you will see two additional fields:
-- an `Email notifications` tickbox, relates to the `Asset delay reminder` field (see below). If you set up a number of days in this field, and if the tickbox is set to yes, you will be notified by email.
+- a tickbox to activate `Email notifications`. If activated, you will receive automatic emails when exports or imports are finished.
 - an `Asset delay reminder` field. If activated, you will receive a notification to remind you N days before the end-of-use date of an asset
 :::
 
