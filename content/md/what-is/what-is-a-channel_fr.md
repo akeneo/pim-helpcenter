@@ -13,7 +13,7 @@ Un canal dans Akeneo définit une sélection de produits et d'informations à ex
 # À quoi sert un canal ?
 Un canal définit une sélection de produits et d'informations à exporter.
 
-Il peut être considéré comme un filtre sur le catalogue produits avec les propriétés suivantes:
+Il peut être considéré comme un filtre sur le catalogue produits avec les propriétés suivantes :
 - Il est lié à un arbre de catégories (et un seul !)
 - Il est rattaché à une ou plusieurs [locales](/fr/articles/what-is-a-locale.html) activées
 - Une ou plusieurs devises lui sont rattachées
