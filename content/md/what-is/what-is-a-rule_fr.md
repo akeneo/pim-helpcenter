@@ -10,11 +10,10 @@ related: manage-your-rules
 # Définition d'une règle
 
 Une règle est une liste d'actions et de conditions qui permet d'automatiser l'enrichissement de vos données produit. 
-Par exemple, l'utilisation des règles permet:
+Par exemple, l'utilisation des règles permet :
 - de catégoriser automatiquement des nouveaux produits en fonction de leur famille
-- de copier la valeur d'un attribut texte dans un autre
-- de définir une valeur par défaut pour un champ vide en particulier
-- de définir un attribut texte pour un autre
+- de copier la valeur d'un attribut dans un autre attribut du même type 
+- de définir une valeur par défaut dans un champ vide
 - d'assigner des familles à de nouveaux produits
 
 Les règles peuvent uniquement être importées dans Akeneo via un fichier YML, mais vous pouvez les gérer directement depuis l'interface du PIM. Consultez notre article sur [Comment gérer vos règles](/articles/manage-your-rules.html). 
@@ -23,7 +22,7 @@ Les règles peuvent être priorisées de 0 à 100, une règle avec un niveau de 
 
 # Exemple d'une règle
 
-Il vous faut une ou plusieurs conditions pour déclencher une action. Par exemple, pour configurer la marque `Canon` pour tous les caméscopes Canon qui n'ont pas encore de Marque renseignée dans le PIM, il vous faudra créer une règle comme cellle-ci :
+Il vous faut une ou plusieurs conditions pour déclencher une action. Par exemple, pour configurer la marque `Canon` pour tous les caméscopes Canon qui n'ont pas encore de Marque renseignée dans le PIM, il vous faudra créer une règle comme celle-ci :
 
 SI:
 - mon produit appartient à la famille `Caméscopes`
