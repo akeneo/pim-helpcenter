@@ -9,7 +9,7 @@ related: manage-your-attribute-groups
 
 # Définition
 
-![what-is-an-attribute-group](../img/Settings_What-is-an-attribute-group.svg)
+![what-is-an-attribute-group](/img/Settings_What-is-an-attribute-group.svg)
 
 Les groupes d'attributs sont utilisés pour :
 1. Regrouper des attributs ensemble afin de faciliter leur enrichissement par les utilisateurs du PIM
@@ -23,11 +23,11 @@ Dès lors qu'un groupe d'attributs est créé, celui-ci apparaîtra automatiquem
 
 Dans l'exemple ci-dessous, nous avons trois groupes d'attributs affichés : `Marketing`, `Technical` et `Media`.
 
-![in the product form](../img/Products_ExampleofAttributeGroups.gif)
+![in the product form](/img/Products_ExampleofAttributeGroups.gif)
 
 Si aucun des attributs d'un groupe n'est utilisé par une famille de produits, alors ce groupe d'attributs ne sera pas visible dans la fiche produit.
 
-Vous pouvez également ajouter ou supprimer un attribut, ou définir un ordre pour vos attributs pour chaque groupe d'attributs. Merci de vous référer à notre article sur la [Gestion des groupes d'attributs](/articles/manage-your-attribute-groups.html) pour plus d'informations à ce sujet.
+Vous pouvez également ajouter ou supprimer un attribut, ou définir un ordre pour vos attributs pour chaque groupe d'attributs. Merci de vous référer à notre article sur la [Gestion des groupes d'attributs](/fr/articles/manage-your-attribute-groups.html) pour plus d'informations à ce sujet.
 
 # Spécificités de l'Edition Entreprise
 
@@ -40,4 +40,4 @@ Certains utilisateurs pourront donc **éditer des attributs**, d'autres seulemen
 Par exemple, l'équipe Marketing sera uniquement en mesure de renseigner les valeurs du groupe d'attributs `Marketing`, tandis qu'ils ne pourront que consulter les informations renseignées pour les attributs du groupe d'attributs `Technical`.
 :::
 
-![Permissions per users](../img/Settings_PermissionsOnAttributeGroups_fr.png)
+![Permissions per users](/img/Settings_PermissionsOnAttributeGroups_fr.png)

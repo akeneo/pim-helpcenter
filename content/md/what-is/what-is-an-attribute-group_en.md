@@ -9,7 +9,7 @@ related: manage-your-attribute-groups
 
 # Definition
 
-![what-is-an-attribute-group](/img/Settings_What-is-an-attribute-group.svg)
+![what-is-an-attribute-group](../img/Settings_What-is-an-attribute-group.svg)
 
 Attribute groups are used to:
 1. Gather attributes together to give more visibility when users fill in values
@@ -23,11 +23,11 @@ Once you have created an attribute group, the group will appear automatically in
 
 In the example below, we have three attribute groups displayed: `Marketing`, `Technical` and `Media`.
 
-![in the product form](/img/Products_ExampleofAttributeGroups.gif)
+![in the product form](../img/Products_ExampleofAttributeGroups.gif)
 
 If an attribute group is not used for the product family, then the attribute group does not appear in the product form when you edit your product.
 
-You can also add, delete, and define an order in attribute groups, please refer to [Manage your attribute groups](/fr/articles/manage-your-attribute-groups.html).
+You can also add, delete, and define an order in attribute groups, please refer to [Manage your attribute groups](/articles/manage-your-attribute-groups.html).
 
 # Specificity for the Enterprise Edition
 
@@ -37,4 +37,4 @@ In the Enterprise Edition, you can define permissions on attribute groups, meani
 For instance, Marketing team will only be able to enrich attributes that have been added to the `Marketing` attribute group, they will be able to view `Technical` information though.
 :::
 
-![Permissions per users](/img/Settings_PermissionsOnAttributeGroups.png)
+![Permissions per users](../img/Settings_PermissionsOnAttributeGroups.png)
