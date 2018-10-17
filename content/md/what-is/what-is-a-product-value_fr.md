@@ -12,14 +12,14 @@ Votre PIM est un espace de stockage, un conteneur, n'est-ce pas ? Et donc, que s
 
 C'est simple. Une "valeur de produit" est juste un autre terme pour désigner une “information produit”. C'est le P et le I qui forment les initiales de votre PIM. 🙂
 
-Dans le PIM, vous pouvez retrouver le nombre de valeurs de produit dans un tableau de bord dédié : la [volumétrie du catalogue](/articles/catalog-volume-monitoring.html).
+Dans le PIM, vous pouvez retrouver le nombre de valeurs de produit dans un tableau de bord dédié : la [volumétrie du catalogue](/fr/articles/catalog-volume-monitoring.html).
 
 # Exemple
 
 Pour faire simple, prenons un exemple.  
 Dans la capture d'écran du PIM Akeneo ci-dessous, il y a plusieurs valeurs de produit : le nom, l'image, la marque, la collection et la description, 5 valeurs de produit au total.
 
-![Product values in the product form](../img/Products_PEF_ProductValue.png)
+![Product values in the product form](/img/Products_PEF_ProductValue.png)
 
 Comme vous pouvez le voir, la description dans cet exemple est “scopable” et “localisable”, c'est-à-dire qu'elle a une valeur différente par canal et par locale activée.   
 Donc, au final, il y a plus que 5 valeurs de produit ici puisque la description ne contient pas une seule valeur, mais _n*m_ valeurs, _n_ étant le nombre de canaux et _m_ étant le nombre de locales activées.
