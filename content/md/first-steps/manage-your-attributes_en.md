@@ -72,7 +72,7 @@ After being created, it is not possible to change the following properties of an
 ::: warning
 Please note that the following attribute codes cannot be used in Akeneo PIM:
 
-`id`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `label`, `parent`
+`id`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `parent`
 :::
 
 
