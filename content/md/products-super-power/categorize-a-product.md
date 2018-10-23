@@ -9,7 +9,7 @@ related: what-is-a-category
 
 # Overview
 
-A product can be classified in none, one or more categories. A product can be classified in one category tree or more.
+A product can be classified in none, one, or multiple categories. A product can be classified in one category tree or more.
 
 # Check the categories a product is classified in
 
