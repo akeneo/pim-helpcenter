@@ -9,6 +9,7 @@ related: work-with-assets, upload-assets
 
 # Overview
 For each channel, you can define a specific asset transformation. This transformation will be applied on each assets created in the PIM and will be used to generate asset variations for your [channels](/articles/what-is-a-channel.html).
+**Asset transformations can be imported using a YML file**, you will find more information in the Add a transformation to a channel section below.
 
 If no asset transformation is set for a channel, the PIM will not be able to generate a variation. 
 
@@ -32,7 +33,7 @@ The following assets transformation are available:
     - `width`: maximum width in pixels
     - `height`: maximum height in pixels
 
-You can combine transformations, for instance, you can have a `scale` transformation and a `colorspace` transformation at the same time:
+You can combine transformations, for instance, you can have a `scale` transformation and a `colorspace` transformation at the same time. The YML file to upload will look like the following one:
 
 ```yml
 asset_channel_configurations:
