@@ -122,7 +122,7 @@ They are four levels of access you can grant for your user groups on each of you
 
 ### The owner right
 If a user **is owner of the product information** for the products that are in a given category (ie his user groups have at least the `Allowed to own products` permission), he will be able to:
-*   View and edit the product information directly; rather than going through the [proposal’s workflow](/articles/workflow.html)
+*   View and edit the product information directly; rather than going through the [proposal’s workflow](/articles/proposals-workflow.html#mainContent)
 *   View/review the [current proposals](/articles/review-products-proposals.html) of product values
 *   Approve/reject or partially approve [proposals](/articles/review-products-proposals.html) of values that needs to be reviewed
 *   Publish/unpublish a product version
