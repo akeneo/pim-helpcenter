@@ -1,0 +1,30 @@
+.solution{
+    cursor: pointer;
+    border-radius: @border-radius-base;
+    margin: @spacing-base/2 0 @spacing-base 0;
+    .transition(all 0.25s);
+    padding: @spacing-base/2.5 @spacing-base/5;
+    border: 1px solid darken(@gray-lighter, 10%);
+    h3{
+       font-family: Comfortaa, sans-serif;
+       margin-top: 20px;
+    }
+    img{
+        width: 100px;
+    }
+    p{
+        color: @text-color;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    a:focus{
+        outline: none;
+    }
+    &:hover{
+        -webkit-transform: scale3d(1.01, 1.01);
+        -ms-transform: scale3d(1.01, 1.01);
+        transform: scale3d(1.01, 1.01);
+        .box-shadow(0 2px 15px 0 darken(@gray-lighter, 10%));
+    }
+}
