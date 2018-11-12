@@ -52,7 +52,7 @@ If the assets transformation given above are not enough for you, you can create 
 :::
 
 ::: warning
-**The PIM only generated variations for image files having the extensions: .jpg, .jpeg, .png...**       
+**The PIM only generates variations for image files having the extensions: .jpg, .jpeg, .png...**       
 Natively, the PIM cannot generate variations for a PDF file or AVI files for instance.
 :::
 
