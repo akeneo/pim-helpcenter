@@ -38,7 +38,7 @@ The number of affected products will appear on the right side of your screen in 
 # Execute rules
 
 :::info
-Rules are regularly executed (after a bulk action, after imports with rules execution, etc.).
+Rules are regularly executed after a bulk action or after imports with rules.
 :::
 
 But you can also execute rules on your own, you can execute:
