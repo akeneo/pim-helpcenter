@@ -275,7 +275,7 @@ By default, the `common attributes` are all the attributes of the family, except
 ![Display a family variant](../img/Settings_Families_Variant_Edit.png)
 
 ::: info
-Moving attributes from `common attributes` to a variant level or from the `variant attributes level 1` to the `variant attributes level 2` means that the selected attributes will be managed at another level. If **these attributes were already filled in, those values will be kept**. For instance, to keep our `Clothing` example, if you move the `Description` attribute from the `common attributes` to the `variant attributes level 1`, the description previously filled in will be kept for all variant products, but you will be able to change it at the product variant level 1. Basically, you will have the possibility to fill in a description for each color.
+Moving attributes from `common attributes` to a variant level or from the `variant attributes level 1` to the `variant attributes level 2` means that the selected attributes will be managed at another level. If **these attributes were already filled in, those values will be kept and visible in the new level**. For instance, to keep our `Clothing` example, if you move the `Description` attribute from the `common attributes` to the `variant attributes level 1`, the description previously filled in will be kept for all variant products, but you will be able to change it at the product variant level 1. Basically, you will have the possibility to fill in a description for each color.
 :::
 
 ::: warning
