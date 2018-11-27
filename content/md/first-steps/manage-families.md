@@ -17,7 +17,7 @@ To see your families, edit them or create a new family go to `Settings/Families`
 
 ## How to create a family?
 
-**Families are used to gather attributes that are common to several products.** The [completeness](/articles/what-is-the-completeness.html) of your products is also defined at the family level.      
+**Families are used to gather attributes that are common to several products**. The [completeness](/articles/what-is-the-completeness.html) of your products is also defined at the family level.      
 To create a new family, follow these steps: 
 1.  Go to `Settings/Families`
 1.  Click on `Create family`
