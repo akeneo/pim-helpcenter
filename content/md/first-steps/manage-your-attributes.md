@@ -11,7 +11,7 @@ If you are not familiar with the concept of attributes, you can read our [What i
 
 # See your attributes
 
-Go to `Settings/Attributes`, to see all the existing attributes or create a new one. 
+Go to `Settings/Attributes`, to see all the existing attributes or create a new one.
 
 ## Attribute grid pagination
 
@@ -21,7 +21,7 @@ The attribute grid displays 25 attributes per page. To browse attributes pages, 
 
 You can sort out attributes by clicking on the column header on the grid.
 
-## Search on a attribute label
+## Search on an attribute label
 
 To quickly find an attribute, use the search bar available above the grid. Use your attributes label to find what you are looking for.
 
@@ -100,7 +100,7 @@ We strongly recommend you to do not use any of these codes even if the letter ca
 If you cannot access the attribute page or if you cannot add a new attribute, it is probably because you do not have the role permission to. Please refer to [Manage your user roles](build-your-user-roles.html) to learn more about roles.
 :::
 
-## Validation for the different attribute types
+## Validation & type specific parameters for the different attribute types
 
 Each attribute has specific properties to add more control on attribute's values:
 - **Date** attribute:
@@ -131,6 +131,9 @@ Each attribute has specific properties to add more control on attribute's values
   - *Allow decimals*
   - *Minimum value*: the smallest allowed value
   - *Maximum value*: the largest allowed value
+- **Reference entity simple link & multiple link** attribute:
+  - *Related reference entity*: the reference entity with which the product is linked
+
 
 For instance, you can add a regular expression on a text field to use it for EAN codes. As they contain 13 digits, we can add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 
