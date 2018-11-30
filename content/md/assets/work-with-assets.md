@@ -66,8 +66,8 @@ The behavior of the search is a "contains" filter. For example, if you type in "
 # Create an asset
 
 To create an asset in the PIM:
-1. Go to the `Assets` menu
-1.  Click on the `Create an asset` in the top right­ corner
+1.  Go to the `Assets` menu
+1.  Click on the `Create an asset` button in the top right­ corner
 ![Create an asset](../img/Assets_Create1.png)
 1.  Select if the asset you want to create is localized or not. Note: If it will be localized, the area to upload a reference file is hidden. If not, you can upload a reference file.
 1.  If a file is uploaded as a reference file, a code is automatically generated based on the given filename. If not, the user has to put a code for the asset.
@@ -156,7 +156,11 @@ The code of an asset cannot be changed after its creation.
 You can add:
 - a description to give more details about your asset,
 - tags that will help you work with your assets,
+<<<<<<< HEAD
 - a end-of-use date for each asset to could be very useful if you want to receive a notification a few days before your asset license expires. To enable this option, please refer to the [Manage your account](manage-your-account.html#your-groups-and-roles) article.
+=======
+- an end-of-use date for each asset could be very useful if you want to receive a notification a few days before your asset license expires. To enable this option, please refer to the [Manage your account](/articles/manage-your-account.html#your-groups-and-roles) article.
+>>>>>>> momo typo fixes
 
 ## Create a new tag for an asset
 
@@ -229,7 +233,7 @@ To export assets, you need to use several export profiles, first of all, run a b
 Then, you can run an assets variation export to get the asset's path on the server. In the exported file, you can find the original asset file path in the `reference_file` column and its channel's variations in the `variation_file` column.
 
 ::: info
-Assets are not available through a URL nor exported in a zip folder like pictures. 
+Assets are not available through a URL nor exported in a zip folder like pictures.
 :::
 
 If you need the actual files, it's possible! Since asset files are stored in the `app/filestorage` folder, you can set up a cron task or a script to automatically export them to a FTP for instance.
