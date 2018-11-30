@@ -117,8 +117,9 @@ Since 2.2 version, a new mass action is available: `Add attributes values`. This
  - Multi-select attributes
  - Reference data multi-select attributes
  - Assets collection attributes
- 
-For example, you can now easily and massively add a new asset to several products or a new option value to a multi-select attribute used for several products. To do so, simply follow our steps: 
+ - Reference entity multiple link attributes
+
+For example, you can now easily and massively add a new asset to several products or a new option value to a multi-select attribute used for several products. To do so, simply follow our steps:
 1.  Search for products in the grid with the appropriate filters
 2.  Select the products to edit in your product grid: tick the products you want to add via the down arrow of the toolbar: select `All` to apply changes on **all your products**, `All visible` for all visible products (ongoing page) or click on `None` to cancel the action
 3.  Click on `Bulk Actions`
