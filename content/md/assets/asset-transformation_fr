@@ -1,0 +1,104 @@
+# Aperçu
+Pour chaque canal, vous pouvez définir une transformation spécifique de votre ressource numérique. Cette transformation sera appliquée sur chaque ressource numérique créée dans le PIM, et sera utilisée pour générer des variations de cette ressource sur tous vos [canaux](/articles/what-is-a-channel.html). 
+**Ces transformations peuvent être importées via un fichier YML**, vous trouverez plus d’informations dans la section ci-dessous _« Ajouter une transformation pour un canal »_. 
+
+Si aucune transformation n’est configurée pour un canal, le PIM ne pourra pas générer de variation. 
+
+::: warning
+Si le fichier de référence (le média d'origine) ne répond pas aux exigences de la transformation, par exemple, s'il est trop petit pour être redimensionné, la transformation ne sera pas appliquée et un message sera affiché dans l’interface.
+:::
+
+Voici les transformations de ressources numériques disponibles : 
+- `resolution`: changer une résolution d’image. Les options disponibles sont : 
+    - `resolution`: la valeur de la résolution
+    - `resolution-unit`: l’unité de la résolution (valeurs possibles: ppc, ppi)
+- `colospace`: changer la couleur d’une image (les valeurs disponibles sont : gris, rgb, cmjn)
+- `resize`: redimensionner une image sans garder ses proportions. Les options disponibles sont: 
+    - `width`: en pixels
+    - `height`: en pixels
+- `scale` : redimensionner une image en gardant ses proportions. Les options disponibles sont: 
+    - `width`: en pixels
+    - `height`: en pixels
+    - `ratio`: pourcentage de redimensionnement 
+- `thumbnail`: créer une image miniature (la proportion de l’image est conservée). Les options disponibles sont: 
+    - `width`: la largeur maximale en pixels
+    - `height`: la hauteur maximale en pixels. 
+
+Vous pouvez combiner plusieurs transformations, par exemple, vous pouvez avoir une transformation `scale` et une transformation `colorspace` en même temps. Le fichier YML à télécharger ressemblera à celui-ci: 
+
+```yml
+asset_channel_configurations:
+    mobile:
+        configuration:
+            scale:
+                ratio: 50
+            colorspace:
+                colorspace: gray
+```
+
+Si les transformations données ci-dessus ne vous suffisent pas, vous pouvez en créer de nouvelles. Pour ce faire, nous vous conseillons de suivre le [guide technique] (https://docs.akeneo.com/2.0/manipulate_pim_data/product_asset/add_new_transformation.html) que nous vous avons concocté. 
+
+::: tips
+**Vous souhaiteriez garder le fichier de référence tel quel pour vos variations de canaux? Utilisez une transformation « scale » à 100%!**
+(ce ratio n’est possible que depuis le patch EE-2.3.14)
+:::
+
+::: warning
+**Le PIM génère des variations uniquement pour des fichiers images qui portent les extensions : .jpg, .jpeg, .png…**
+Nativement, le PIM ne peut pas générer de variations pour un fichier PDF ou AVI par exemple. 
+:::
+
+# Vérifier vos transformations de ressources numériques
+Vous pouvez vérifier si votre canal a bien ses propres transformations de ressources en vous rendant dans `Paramètres`/`Canaux`. Cliquez ensuite sur un canal, puis allez dans l’onglet `transformations de ressources`. 
+
+![image](../img/Settings_ChannelsAssetsTransformations.png)
+
+S’il n’y a pas de transformation, ajoutez-en une nouvelle.
+
+# Ajouter une transformation à un canal
+Pour ajouter une transformation média à votre canal, vous devez utiliser un profil d’import. Le format de fichier attendu est le YML. Vous trouverez ci-dessous un example de fichier YML: 
+
+```yml
+asset_channel_configurations:
+    mobile:
+        configuration:
+            scale:
+                width: 200
+            colorspace:
+                colorspace: gray
+    print:
+        configuration:
+            resize:
+                width: 400
+                height: 500
+    ecommerce:
+        configuration:
+            scale:
+                ratio: 50
+```
+
+Quand votre YML est prêt:
+1. Allez dans la partie `Imports`
+1. Créez un nouveau profil d’import ou utilisez-en un existant qui lance la tâche `Asset channel configuration import in Yaml`
+1. Téléchargez et importez votre fichier YML
+
+Pour en savoir plus sur les imports, vous pouvez vous référer à l’article relatif aux [imports](/articles/imports.html). 
+
+::: info:::
+Vous pouvez mettre à jour les transformations média pour vos canaux en réimportant un nouveau fichier YML dans Akeneo. Il est impossible de supprimer une transformation média depuis l’interface Akeneo. 
+:::
+
+# Exporter des transformations de ressources numériques
+
+Vous pouvez exporter vos transformations dans un fichier YML en exécutant la tâche `Asset channel configuration export in YML`. Le fichier YML généré contiendra toutes les transformations disponibles et paramétrées pour vos canaux. 
+
+1. Allez sur `Exports`
+1. Cliquez sur un profil d’export `Asset channel configuration export in YML`
+1. Cliquez sur `Exporter maintenant`
+1. Une fois que l’export est terminé, cliquez sur `Télécharger les fichiers générés` pour télécharger le fichier YML. 
+
+Pour en savoir plus sur comment exécuter un export, merci de vous référer à l’article dédié aux exports. 
+
+::: tips
+Si vous avez besoin d’éditer votre transformation média, exportez simplement vos transformations média actuelles, éditez le fichier YML et réimportez-le! 
+:::
