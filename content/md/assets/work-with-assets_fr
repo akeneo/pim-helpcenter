@@ -1,0 +1,236 @@
+---
+id: work-with-assets
+themes: manage-your-assets
+title: Work with **assets**
+popular: false
+ee-only: true
+related: upload-assets, assets-transformation
+---
+
+# Voir la liste de ressources numériques 
+
+Pour commencer, allez dans le menu `Ressources`. Depuis cette page, il y a plusieurs façon de travailler dans la grille de ressources numériques ci-dessous. 
+
+![View the assets list](../img/Assets_MainPage.png)
+
+## Configurez votre environnement de travail 
+
+Comme pour la grille de produits, vous pouvez configurer votre grille selon un contexte locale/canal, réduire ou étendre le panel des catégories, et utiliser les filtres pour trouver facilement les ressources que vous cherchez. 
+
+Pour plus d’information sur la grille, merci de vous référer à l’article [Get familiar with the grid](/articles/products-grid.html) ».
+
+Les filtres des ressources numériques peuvent être appliqués sur les informations suivantes:  
+- Code
+- Description
+- Tags
+- Date de fin d’utilisation
+- Date de création
+- Date de dernière mise à jour 
+
+::: info
+Les informations suivantes ne peuvent pas être triées dans la grille des ressources: 
+- les miniatures
+- les tags 
+:::
+
+::: warning
+Les images miniatures affichées dans la grille correspondent aux variations du canal sélectionné. Si aucune image n’est affichée, c’est parce que vous n’avez pas de variations générées pour ce canal. Découvrez comment générer des variations dans la partie [éditer les fichiers d’une ressource numérique](/articles/work-with-assets.html#edit-the-files-of-an-asset) de cet article. 
+:::
+
+## Affichage de la grille des ressources
+
+Pour mettre en avant les images, une vue `Galerie` est disponible dans la grille des ressources. 
+
+:::info
+Les fonctionnalités de la grille sont également disponibles avec cet affichage galerie (les filtres, le canal, la locale et la sélection de catégories, la pagination, la sélection de ressources, etc.). 
+:::
+
+Pour utiliser la vue `galerie` : 
+1. Cliquez sur `Liste` pour changer l’affichage
+  ![Select the asset grid display](../img/Assets_display.png)
+1. Sélectionnez l’affichage `Galerie`
+  ![Gallery display of the asset grid](../img/Assets_gallery_display.png)
+
+:::
+Le contexte d’affichage choisi pour la grille est conservé. 
+:::
+
+## Recherche par code
+
+Pour trouver facilement des ressources numériques dans la grille, vous pouvez les chercher par leur code. 
+
+La recherche fonctionne avec un filtre « contient ». Par exemple, si vous tapez « can », toutes les ressources dont le code contient « can » seront affichées. 
+
+![Search bar of the asset grid](../img/Assets_search.png)
+
+# Créer une ressource
+
+Pour créer une ressource dans le PIM : 
+1. Allez dans le menu `Ressources` 
+1. Cliquez sur le bouton `Créer une ressource` en haut à droite.
+![Create an asset](../img/Assets_Create1.png)
+1. Choisissez de rendre votre ressource localisable ou non. Petite info : si elle est localisable, la zone de chargement du fichier de référence est cachée. Si elle n’est pas localisable, vous pouvez alors charger un fichier de référence. 
+1. Si un fichier est chargé en tant que fichier de référence, un code est automatiquement généré en fonction du nom du fichier. Si non, l’utilisateur doit entrer un code pour cette ressource numérique. 
+1. Cliquez sur le bouton `sauvegarder`. 
+
+La ressource numérique a été créée et le formulaire de la ressource (la page où se trouvent les détails de la ressource) est affiché. 
+
+![Create an asset 2](../img/Assets_variations2.png)
+
+::: info
+Vous pouvez aussi créer des ressources numériques en chargeant en masse des fichiers. Pour plus d’information sur cette fonctionnalité, voir « charger les ressources numériques ». 
+:::
+
+# Editer une ressource numérique 
+
+Pour éditer une ressource, cliquez simplement dessus. 
+
+## Editer les fichiers d’une ressource numérique
+
+Cliquez sur l’onglet `variations` 
+
+Vous pouvez soit générer des variations depuis un fichier de référence, soit ajouter les fichiers de variations manuellement. 
+
+### Ajouter un fichier de référence 
+Si vous n’avez pas encore de fichier de référence pour votre ressource: 
+1. Glissez et déposez le fichier dans la zone de chargement ou cliquez dans cette zone pour ouvrir la fenêtre de dialogue et sélectionnez le fichier à ajouter. 
+![Add a reference title](../img/Assets_AddingReferenceImgProcess.gif)
+1. Cliquez sur le bouton `sauvegarder`. 
+
+Le fichier de référence est ajouté et les fichiers de variations sont générés. 
+
+::: info
+Le temps de chargement dépend de la taille du fichier, de la complexité des transformations à appliquer et du nombre de canaux. 
+:::
+
+### Télécharger un fichier (fichier de référence ou de variation)
+
+Pour télécharger un fichier, cliquez sur le bouton `Télécharger` de la référence ou de la variation souhaitée. 
+![download a file](../img/Assets_DownloadButton.png)
+
+### Supprimer un fichier (fichier de référence ou de variation)
+
+Pour supprimer un fichier, cliquez sur le bouton `Supprimer` de la référence ou de la variation souhaitée, et confirmez l’action. 
+
+![delete a file](../img/Assets_DeleteButton.png)
+
+:::info 
+Si vous supprimez un fichier de référence, les fichiers de variations ne seront pas mis à jour. 
+:::
+
+:::warning
+Si vous supprimez un fichier de variation, le fichier de référence ne pourra pas générer automatiquement un nouveau fichier de variation. Pour ce faire, il faut relancer les variations. Voir la section dédiée ci-dessous. 
+:::
+
+### Générer manuellement un fichier de variation à partir du fichier de référence
+
+Cliquez sur le bouton `Générer à partir du fichier de référence`. 
+
+::: tips
+Cette option n’est pas affichée s’il n’y a pas de fichier de référence. 
+:::
+
+### Générer automatiquement des fichiers de variation à partir du fichier de référence
+
+Cliquez sur le bouton `Réinitialiser les variations` dans l’encart du fichier de référence. 
+
+Toutes les variations différentes du fichier de référence sont mises à jour. Les autres ne sont pas mises à jour. 
+
+### Charger manuellement un fichier de variation 
+
+1. Glissez et déposez le fichier dans la zone de chargement ou cliquez sur cette zone pour ouvrir la fenêtre de dialogue et sélectionnez le fichier à ajouter. 
+1. Cliquez sur le bouton « sauvegarder ». 
+
+Le fichier de variation ne sera plus lié au fichier de référence. 
+
+## Editer les propriétés d’une ressource numérique 
+1. Cliquez sur l’onglet `Propriétés`
+![edit the asset properties](../img/Assets_Properties.png)
+1. Editez les propriétés que vous souhaitez changer
+1. Cliquez sur le bouton `Sauvegarder`. 
+
+::: info
+Le code de la ressource ne peut pas être changé après sa création. 
+::: 
+
+Vous pouvez ajouter : 
+- une description pour ajouter plus de détails sur votre ressource
+- des tags qui vous aideront à travailler avec vos ressources
+- Une date de fin d’utilisation pour chaque ressource si vous voulez recevoir une notification quelques jours avant sa date de fin de licence par exemple. Pour activer cette option, merci de vous référer à l’article [Gérez votre compte](/articles/manage-your-account.html#your-groups-and-roles). 
+
+## Créer un nouveau tag pour une ressource
+
+Quand un tag n’existe pas encore, vous pouvez le créer en l'écrivant simplement et en appuyant sur la touche `Entrer` de votre clavier pour dire au PIM que vous souhaitez créer ce tag. Il sera alors créé automatiquement et sera disponible pour d’autres ressources. 
+
+## Classer les ressources dans des catégories
+
+Une ressource numérique peut être classée dans une ou plusieurs catégories, mais elle peut aussi ne pas être classée dans le PIM. La ressource peut être classée dans plusieurs catégories du même arbre ou de différents arbres. 
+
+Pour classer une ressource: 
+1. Cliquez sur l’onglet `Catégories`
+1. Cliquez sur l’arbre de catégories que vous voulez, à gauche de l’écran
+1. Cochez les catégories dans lesquelles la ressource doit être classée
+1. Décochez les catégories dans lesquelles la ressource ne doit plus être classée
+1. Cliquez sur le bouton `Sauvegarder` pour confirmer vos changements. 
+
+# Supprimer une ressource numérique
+
+Une ressource peut être supprimée du PIM. Cela signifie que toutes les informations relatives à cette ressource seront supprimées du PIM. Cette action ne peut pas s’annuler. 
+
+1. Ouvrez le formulaire de la ressource que vous souhaitez supprimer. 
+1. Cliquez sur le bouton `...` puis `delete`. 
+![delete an asset](../img/Assets_DeleteAsset.png)
+1. Confirmez l’action. 
+
+# Actions de masse sur les ressources numériques 
+
+## Ajout en masse de tags sur une sélection de ressources numériques. 
+
+Pour gagner du temps, vous pouvez ajouter en masse des tags à une ressource. 
+1. Sélectionnez les ressources en cochant les cases en face de chaque ressource
+1. Un menu apparaît en bas de l’écran. Cliquez sur le bouton `Editer en masse les ressources` 
+1. Sélectionnez `Ajouter des tags aux ressources` et cliquez sur le bouton `Suivant` en haut à droite de l’écran
+1. Sélectionnez les tags que vous voulez ajouter aux ressources numériques 
+1. Cliquez sur `Suivant`
+1. Pour finir, cliquez sur `Confirmer`
+
+Un message s’affiche et le centre de notification affiche une nouvelle notification. 
+
+::: tips
+Si certains tags que vous avez ajoutés n’existent pas, ils seront automatiquement créés. 
+:::
+
+## Catégoriser en masse les ressources numériques 
+
+Vous pouvez déplacer d’un coup toute une sélection de ressources numériques dans des catégories pour gagner du temps. L’ancienne catégorisation sera alors perdue. 
+1. Sélectionnez les ressources numériques en cochant les cases en face de chaque ressource
+1. Un menu apparaît en bas de l’écran. Cliquez sur le bouton `éditer en masse les ressources`
+1. Sélectionnez `Catégoriser les ressources` et cliquez sur le bouton `Suivant` en haut à droite de l’écran. 
+1. Sélectionnez les catégories dans lesquelles vous souhaiter déplacer les ressources numériques 
+1. Cliquez sur `Suivant`
+1. Pour finir, cliquez sur `Confirmer`
+
+Un message s’affiche et le centre de notification affiche une nouvelle notification. 
+
+## Supprimer en masse des ressources numériques 
+
+Vous pouvez supprimer d’un coup une sélection de ressources pour gagner du temps. 
+1. Sélectionnez les ressources numériques en cochant les cases en face de chaque ressource
+1. Un menu apparaît en bas de l’écran. Cliquez sur le bouton `Supprimer les ressources`
+1. Cliquez sur le bouton `Supprimer` pour confirmer votre action.
+
+::: info
+De la même façon que pour la suppression d’une ressource seule, cette action ne supprime pas la ressource du serveur. 
+:::
+
+## Exporter des ressources numériques
+
+Pour exporter des ressources numériques, vous avez besoin d’utiliser plusieurs profils d’export. 
+Dans un premier temps, lancez un [export](/articles/exports.html#run-an-export) produit basique : il contient les codes des ressources associées aux produits. 
+Ensuite, vous pouvez exporter les variations (profil d’export spécifique) pour obtenir le chemin d’accès à la ressource sur le serveur. Dans le fichier exporté, vous trouverez le chemin d’accès du fichier de référence dans la colonne `reference_file`, et ses variations dans la colonne `variation_file`. 
+
+::: info
+Les ressources numériques ne sont pas disponibles via URL ni exportées dans un dossier zip comme les images. 
+:::
+
+Si vous avez besoin des fichiers, c’est possible ! Puisque les ressources sont stockées dans le dossier `app/filestorage`, vous pouvez configurer une tâche de cron ou un script pour les exporter automatiquement dans un FTP par exemple. 
