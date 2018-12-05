@@ -156,11 +156,7 @@ The code of an asset cannot be changed after its creation.
 You can add:
 - a description to give more details about your asset,
 - tags that will help you work with your assets,
-<<<<<<< HEAD
-- a end-of-use date for each asset to could be very useful if you want to receive a notification a few days before your asset license expires. To enable this option, please refer to the [Manage your account](manage-your-account.html#your-groups-and-roles) article.
-=======
-- an end-of-use date for each asset could be very useful if you want to receive a notification a few days before your asset license expires. To enable this option, please refer to the [Manage your account](/articles/manage-your-account.html#your-groups-and-roles) article.
->>>>>>> momo typo fixes
+- an end-of-use date for each asset could be very useful if you want to receive a notification a few days before your asset license expires. To enable this option, please refer to the [Manage your account](manage-your-account.html#your-groups-and-roles) article.
 
 ## Create a new tag for an asset
 

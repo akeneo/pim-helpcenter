@@ -102,6 +102,7 @@ If you cannot access the attribute page or if you cannot add a new attribute, it
 
 ## Validation & type specific parameters for the different attribute types
 
+
 Each attribute has specific properties to add more control on attribute's values:
 - **Date** attribute:
   - *Min date*: the earliest date that can be accepted
@@ -131,7 +132,7 @@ Each attribute has specific properties to add more control on attribute's values
   - *Allow decimals*
   - *Minimum value*: the smallest allowed value
   - *Maximum value*: the largest allowed value
-- **Reference entity simple link & multiple link** attribute:
+- **Reference entity simple link & multiple link** attribute (EE only):
   - *Related reference entity*: the reference entity with which the product is linked
 
 
