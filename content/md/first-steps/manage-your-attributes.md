@@ -92,7 +92,7 @@ The attribute is now created, you **can add a translation for each enabled local
 
 ::: warning
 Please note that the **following attribute codes cannot be used** in Akeneo PIM:    
-`id`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `Family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `label`, `parent`.    
+`id`, `identifier`, `Identifier`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `Family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `label`, `parent`.    
 We strongly recommend you to do not use any of these codes even if the letter case is different, for instance `Id`, `Groups`.
 :::
 
