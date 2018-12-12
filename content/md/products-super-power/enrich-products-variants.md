@@ -215,9 +215,9 @@ You can add associations on the products for this product model but on a product
 
 # Add a variant
 
-You can add a variant to a product model from the product form via the navigation component.
+You can add a variant to a product model from the product form via the navigation component. In our example, click on the `EU Shoes Size` tab nearby `Common`.
 
-1.  In the navigation component, click on the `Add new` button, a pop-in is displayed
+1.  In the navigation component `EU Shoes Size`, click on the `Add new` button, a pop-in is displayed
   ![Add new variant](../img/Products_ProductModel_AddProduct_1.png)
 1.  Select or enter the values for the variant axes
 1.  Specify a product model code or a product identifier depending on the variant level
