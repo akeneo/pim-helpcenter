@@ -18,7 +18,7 @@ To see your families, edit them or create a new family go to `Settings/Families`
 ## How to create a family?
 
 **Families are used to gather attributes that are common to several products**. The [completeness](/articles/what-is-the-completeness.html) of your products is also defined at the family level.      
-To create a new family, follow these steps: 
+To create a new family, follow these steps:
 1.  Go to `Settings/Families`
 1.  Click on `Create family`
 ![Create a family](../img/Settings_Families_Create.png)
@@ -29,9 +29,9 @@ To create a new family, follow these steps:
 Your new family is now created. The family's `Properties` tab is displayed.     
 You can give additional properties to your family:      
 *   **Set an `attribute used as label (required)`**: a **text or identifier attribute** that will be used as the **default name for products** belonging to this family. The attribute selected as label **will appear in the product grid** (as the "Label" column) and in **the product form's header**.
-*   **Set an `attribute used as the main picture`**: an **`image` or `assets collection` (since 2.1) attribute** that will be used as **"the main picture" for products** belonging to this family. This attribute used as main image will be displayed **in the product grid** (as the "image" column) and in **the product form's header**. **Localizable and/or scopable attributes cannot be used as main product pictures**. 
-*   Translate the family's label with `Labels translations`: allow you to translate your family name into the locales enabled in the PIM. 
-    
+*   **Set an `attribute used as the main picture`**: an **`image` or `assets collection` (since 2.1) attribute** that will be used as **"the main picture" for products** belonging to this family. This attribute used as main image will be displayed **in the product grid** (as the "image" column) and in **the product form's header**. **Localizable and/or scopable attributes cannot be used as main product pictures**.
+*   Translate the family's label with `Labels translations`: allow you to translate your family name into the locales enabled in the PIM.
+
 These information can be edited afterwards.     
 
 Once a family is created, you can configure your family:
@@ -48,7 +48,7 @@ You must be granted a specific role permission to be able to create a family. Pl
 
 ## Manage attributes in a family
 **Attributes can be used in one or several families, but an attribute can only be added once to a family**.         
-    
+
 You can easily add attributes to or remove them from a family using the user interface or through [imports](/articles/imports.html).
 
 ### Add an attribute to a family
@@ -163,7 +163,7 @@ To view the family versions:
 ::: info
 Deleting a family does not remove the attributes from the PIM and does not delete the products associated to it.        
 **Attributes that had values will remain visible in the product form** to keep the product information. These attributes will become “optional”.     
-**Products without a family will no longer have a completeness**. 
+**Products without a family will no longer have a completeness**.
 :::
 
 You have two ways of removing a family.
@@ -241,6 +241,7 @@ You can create one or more family variants in each family.
 An attribute of the family could be a **variant axis** only if its attribute type is **structured**:
 - **Simple select**
 - **Simple reference data**
+- **Reference entity simple link (EE only)**
 - **Metric**
 - **Boolean (Yes/No)**       
 
