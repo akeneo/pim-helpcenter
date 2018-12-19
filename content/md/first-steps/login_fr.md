@@ -1,30 +1,30 @@
 ---
 id: login
 themes: first-steps
-title: "**Login** & password"
+title: "**Connexion** & mot de passe"
 popular: false
 related: discover-the-dasboard
 ---
 
-# How to log in?
+# Comment se connecter ?
 
-The login page is displayed when you are not connected to the PIM or after being inactive.
-To log into Akeneo PIM, enter your username and password and click on `Log in`.
+La page de connexion s'affiche lorsque vous n'êtes pas connecté au PIM ou bien après une période d'inactivité.
+Pour se connecter dans le PIM Akeneo, saisissez votre identifiant et mot de passe et cliquez sur `Connexion`
 
 ::: tips
-Check the option `Remember me on this computer` to memorise your credentials.
+Cochez l'option `Se souvenir de moi sur cet ordinateur` pour sauvegarder vos identifiants.
 :::
 
 ![image](../img/Login1.png)
 
-# Recover your password
+# Retrouver son mot de passe
 
-You have lost your password? Simply click on `Forgot your password?`, fill in your username or email address and click on `Request`. Instructions to reset your password will be sent to you by email! ;)
+Vous avez oublié votre mot de passe ? Cliquez sur `Mot de passe oublié ?`, renseignez votre identifiant ou votre email et cliquez sur`Demander`. Des instructions vous seront communiquées pour reinitialiser votre mot de passe ! ;)
 
 ::: warning
-You can send a password reset request through `Forgot your password` link **only one time** in a 24-hour period.
+Vous pouvez demander une reinitialisation de mot de passe via le lien `Mot de passe oublié` **qu'une fois** toutes les 24h.
 :::
 
 ![image](../img/RecoverPassword.png)
 
-If you do not know your username or email address, please contact your Akeneo administrator.
+Si vous ne connaissez pas votre identifiant ou bien votre email, merci de contacter votre administrateur Akeneo.
