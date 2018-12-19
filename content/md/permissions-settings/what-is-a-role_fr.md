@@ -1,23 +1,23 @@
 ---
 id: what-is-a-role
 themes: akeneo-concepts, permissions-settings
-title: What is a user **role**?
+title: Qu'est-ce qu'un **rôle**?
 related: handle-your-user-permissions, build-your-user-roles, manage-the-interface-and-actions-accesses, manage-the-web-api-permissions
 ---
 
-# Definition
-A role is a set of permissions for actions available within the PIM (example: create a product, delete a product, view the attributes grid...).
+# Définition
+Un rôle est un ensemble de permissions pour diverses actions dans le PIM (exemple: créer un produit, supprimer un produit, voir l grille d'attributs...).
 
-A role can be assigned to one or several users. You can imagine having a role named `Administrator` that will grant more access than another role named `Manager` that will itself grant more access than a third role named `Intern`, for example.
+Un rôle peut-être assigné à une ou plusieurs utilisateurs. Par exemple, vous pouvez supposer qu'un rôle appelé `Administrateur` donnera plus de droits qu'un autre rôle appelé `Manager` lui-même possédant plus de droit qu'un troisième rôle appelé `Stagiaire`.
 
 ![image](../img/System_users_Profil_edit_grpandroles.png)
 
-One user can have one or several roles. In the case a user has several user roles, the permissions given by each of its roles are cumulated.
+Un utilisateur peut avoir un à plusieurs rôles. Dans le cas d'un utilisateurs possédant plusieurs rôles, les permissions données pour chaque rôles sont cumulées.
 
-# Example
+# Exemple
 
-Mary is an intern. We do not want her to create new products. So we assigned the `Intern` user role to her. This role does not grant the right to create new products as you can see in the screenshot below.
+Mary est une stagiaire. Nous ne souhaitons pas qu'elle puisse créer de nouveaux produits. Ainsi, nous lui avons assigné le rôle `Intern`. Ce rôle ne lui donne pas le droit de créer un nouveau produit, comme vous pouvez le constater dans la capture d'écran ci-dessous. 
 
 ![image](../img/System_RolesUsersPermission_MaryIntern.png)
 
-So easy!
+Facile !
