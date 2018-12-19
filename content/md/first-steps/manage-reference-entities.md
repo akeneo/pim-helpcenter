@@ -9,7 +9,7 @@ related: what-about-reference-entities
 
 # Display the reference entities
 
-To display the existing reference entities, click on the "Entities" menu.   
+To display the existing [reference entities](/articles/what-about-reference-entities.html), click on `Entities` menu.   
 
 By default, no reference entity is created, from this single place, you can:
 - Create your 1st reference entity
@@ -22,22 +22,27 @@ If a reference entity has already been created, simply click on it to access its
 
 # Create a reference entity
 
-To create a [reference entity](what-about-reference-entities), follow these steps:
+To create a [reference entity](/articles/what-about-reference-entities.html), follow these steps:
 1.  Go to `Entities` menu
 1.  Click on `Create` button
 1.  Input the label of the reference entity in the current catalog locale
 1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
 1.  Click on `Save` button
 
+![image](../img/ReferenceEntity_CreateEntity.png)
+
 Then you can define its properties (`Properties` tab) and its records structure (`Attributes` tab).
 
 # Define its properties
 In `Properties` tab, you can edit the label of the reference entity and upload an image used to identify the reference entity in the PIM.
+
 You can translate the label of the reference entity by switching the current locale in the header.
+
+![image](../img/ReferenceEntity_EditProperties.png)
 
 # Define its attributes (records structure)
 In `Attributes` tab, you can define what are the attributes for the records of this reference entity.
-For example, a 'Brand' reference entity is described by the following information: a code, a label, an image, a country, a designer, a foundation date, a photo, a description.
+For example, a `Brand` reference entity is described by the following information: a code, a label, an image, a country, a designer, a foundation date, a photo, a description.
 
 ## Add an attribute
 To add an attribute, follow these steps:
@@ -46,6 +51,7 @@ To add an attribute, follow these steps:
 1.  Input the label of the attribute in the current catalog locale
 1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
 1.  Select the attribute type:
+ ![image](../img/ReferenceEntity_AddAttribute_Type.png)
 - **Text**: for text or text area attributes
 - **Reference entity simple link**: to link a record to only one entity record
 - **Reference entity multiple link**: to link a record to several entity records
@@ -55,7 +61,9 @@ To add an attribute, follow these steps:
     - Select the reference entity to link to this attribute in the list
 1.  Tick `Value per locale` if your record attribute values differ per locale
 1.  Tick `Value per channel` if your record attribute values differ per channel
-1.  Click on `Save`
+1.  Click on `Save` button
+
+![image](../img/ReferenceEntity_AddAttribute.png)
 
 :::warning
 These attributes properties, except the label, can't be edited afterwards.  
@@ -68,8 +76,9 @@ To add an attribute, follow these steps:
 1.  Go to `Attributes` tab for a reference entity
 1.  Click on `Edit` icon
 1.  An edit pop-in opens with the attribute parameters depending on the attribute type
-1.  You can translate the label of the attribute by switching the current locale in the header.
-1.  Depending on the attribute type, each attribute has specific paramters:
+1.  You can translate the label of the attribute by switching the current locale in the header
+ ![image](../img/ReferenceEntity_EditAttribute.png)
+1.  Depending on the attribute type, each attribute has specific parameters:
 - A **text** attribute:
   - *Maximum number of characters*: maximum number of characters that an attribute value can have
   - *Text area*: long text
@@ -91,7 +100,10 @@ To define the attribute required for the completeness:
 1.  Go to `Attributes` tab for a reference entity
 1.  Click on `Edit` icon for an attribute
 1.  Tick `Required for completeness` if this attribute is required for the completeness
-1.  Untick `Required for completeness` if this attribute is not required for the completeness
+
+![image](../img/ReferenceEntity_EditAttribute_Completeness.png)
+
+If this attribute is not required for the completeness, untick `Required for completeness`.
 
 ### Delete an attribute
 To delete an attribute, follow these steps:
@@ -115,7 +127,7 @@ To delete a reference entity, follow these steps:
 ::: warning
 You cannot delete a reference entity if:
 - This reference entity has some records: you need to first delete the records of this reference entity.
-- This reference entity is linked to some product attributes: you need to first [delete the related product attributes](articles/manage-your-attributes.html#delete-an-attribute.html) to this reference entity.
+- This reference entity is linked to some product attributes: you need to first [delete the related product attributes](/articles/manage-your-attributes.html#delete-an-attribute) to this reference entity.
 :::
 
 # Set permissions on a reference entity
