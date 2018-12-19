@@ -23,11 +23,11 @@ If a reference entity has already been created, simply click on it to access its
 # Create a reference entity
 
 To create a [reference entity](what-about-reference-entities), follow these steps:
-1.  Go to `Entities`
-1.  Click on `Create`
+1.  Go to `Entities` menu
+1.  Click on `Create` button
 1.  Input the label of the reference entity in the current catalog locale
 1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
-1.  Click on `Save`
+1.  Click on `Save` button
 
 Then you can define its properties (`Properties` tab) and its records structure (`Attributes` tab).
 
@@ -41,8 +41,8 @@ For example, a 'Brand' reference entity is described by the following informatio
 
 ## Add an attribute
 To add an attribute, follow these steps:
-1.  Go to `Attributes` for a reference entity
-1.  Click on `Add an attribute`
+1.  Go to `Attributes` tab for a reference entity
+1.  Click on `Add an attribute` button
 1.  Input the label of the attribute in the current catalog locale
 1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
 1.  Select the attribute type:
@@ -65,8 +65,9 @@ The attribute is created and an edit pop-in opens with the attribute parameters 
 
 ## Edit an attribute
 To add an attribute, follow these steps:
-1.  Go to `Attributes` for a reference entity
+1.  Go to `Attributes` tab for a reference entity
 1.  Click on `Edit` icon
+1.  An edit pop-in opens with the attribute parameters depending on the attribute type
 1.  You can translate the label of the attribute by switching the current locale in the header.
 1.  Depending on the attribute type, each attribute has specific paramters:
 - A **text** attribute:
@@ -81,18 +82,40 @@ To add an attribute, follow these steps:
     - A `Manage options` button to manage the options of the list
 - A **reference entity simple/multiple link** attribute:
     - *Related reference entity*: the reference entity linked to this attribute, this information cannot be updated
+1.  Click on `Save` button
 
 ### Manage options
 
 ### Define the completeness
 To define the attribute required for the completeness:
-1.  Go to `Attributes` for a reference entity
+1.  Go to `Attributes` tab for a reference entity
 1.  Click on `Edit` icon for an attribute
 1.  Tick `Required for completeness` if this attribute is required for the completeness
 1.  Untick `Required for completeness` if this attribute is not required for the completeness
 
 ### Delete an attribute
+To delete an attribute, follow these steps:
+1.  Go to `Attributes` tab for a reference entity
+1.  Click on `Edit` icon for the attribute you want to delete
+1.  An edit pop-in opens with the attribute parameters
+1.  Click on `Delete the attribute` button
+1.  A confirmation pop-in opens to confirm that you want to delete the attributes
+1.  Click on `Delete` button
+
+**The attribute and its relevant information will be deleted in the records of the reference entity. Once you have confirmed the action, it cannot be reverted.**
+
 
 # Delete a reference entity
+To delete a reference entity, follow these steps:
+1.  Go to `Properties` tab for the reference entity you want to delete
+1.  Click on `...` for other actions and then `Delete entity`
+1.  A confirmation pop-in opens to confirm that you want to delete the reference entity
+1.  Click on `Delete` button
+
+::: warning
+You cannot delete a reference entity if:
+- This reference entity has some records: you need to first delete the records of this reference entity.
+- This reference entity is linked to some product attributes: you need to first [delete the related product attributes](articles/manage-your-attributes.html#delete-an-attribute.html) to this reference entity.
+:::
 
 # Set permissions on a reference entity
