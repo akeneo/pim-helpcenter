@@ -93,9 +93,10 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | Delete a record | User can delete a record in `Records` tab, using the `deletion icon` in the grid or `Other Actions > Delete` in the record form |
 | Delete all entity records | User can delete all records for a reference entity in `Records` tab, using `Other Actions > Delete all records` |
 | Create an entity | User can create a new reference entity in `Entities` menu, using the `Create` button |
-| Delete an entity | User can delete a reference entity in `Properties` tab, using `Other Actions > Delete entity` |
+| Delete an entity | User can delete a reference entity in `Properties` tab, using `...` for other actions and then `Delete entity` |
 | Edit the entity properties | User can edit the properties of a reference entity in `Properties` tab |
 
+Click on `...` for other actions and then `Delete entity`
 
 # Rights on exports
 
