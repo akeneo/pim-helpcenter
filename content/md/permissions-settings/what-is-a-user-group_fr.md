@@ -1,22 +1,22 @@
 ---
 id: what-is-a-user-group
 themes: akeneo-concepts, permissions-settings
-title: What is a **user group**?
+title: Qu'est-ce qu'un **groupe d'utilisateurs**?
 popular: false
 related: build-your-user-groups, whats-is-a-user, access-right-on-products, access-rights-on-imports-exports, access-rights-on-assets
 ---
 
-# Definition
+# Définition
 
-A user group is a set of users grouped by a name. A user may be a part of several user groups.  
-For example, the `Marketing Dpt` user group gathers all the users in the Marketing Department of the company. The `Managers` user group gathers all the users who are manager of a department. Some users can be in the `Marketing Dpt` only.
+Un groupe d'utilisateurs est un ensemble d'utilisateurs regroupés par nom. Un utilisateur peut faire parti de plusieurs groupes d'utilisateurs.  
+Par exemple, Le groupe d'utilisateurs `Dpt Marketing` regroupe tous les utilisateurs du département marketing de la société. Le groupe d'utilisateurs `Managers` regroupe tous les utilisateurs qui sont managers d'un département. Des utilisateurs peuvent uniquement être dans le groupe `Dpt Marketing`.
 
-# What is the aim?
-Well, we gathered people in groups of users. It's great but what is the aim?
+# Quel est le but ?
+Eh bien, nous avons rassemblé des personnes dans un groupe d'utilisateurs. C'est génial, mais quel est l'objectif ?
 
-In fact, it will be very useful for you, if you want to give different *permissions* to the users, according to the user groups they are in. This is an Entreprise Edition feature.  
-If you want to know more about how to set up these advanced permissions, take a look at the [Build you user groups article](/articles/build-your-user-groups.html).
+En fait, cela va vous être très utile si vous voulez donner différentes *permissions* aux utilisateurs, en fonction des groupes dans lesquels ils se trouvent. Il s'agit d'une fonctionnalité Entreprise Edition.  
+Si vous voulez en savoir plus sur la façon de mettre en place ces permissions avancées, rendez-vous sur [la page pour configurer votre groupe d'utilisateurs](/articles/build-your-user-groups.html).
 
 ::: info
-In the Community Edition, there is no permission applied on user groups. If you want to benefit from this feature, you'll have to upgrade to the [Entreprise Edition](https://www.akeneo.com/enterprise-edition/?source=akeneo-help).
+Dans la Community Edition, il n'est pas possible d'appliquer des permissions aux groupes d'utilisateurs. Si vous voulez bénéficier de cette fonctionnalité, vous devez passer en [Entreprise Edition](https://www.akeneo.com/enterprise-edition/?source=akeneo-help).
 :::
