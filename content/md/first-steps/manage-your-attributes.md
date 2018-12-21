@@ -92,7 +92,7 @@ The attribute is now created, you **can add a translation for each enabled local
 
 ::: warning
 Please note that the **following attribute codes cannot be used** in Akeneo PIM:    
-`id`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `label`, `parent`
+`id`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `Family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `label`, `parent`.
 We strongly recommend you not to use any of these codes even if the letter case is different, for instance `Id`, `Groups`.
 :::
 
@@ -100,8 +100,7 @@ We strongly recommend you not to use any of these codes even if the letter case 
 If you cannot access the attribute page or if you cannot add a new attribute, it is probably because you do not have the role permission to. Please refer to [Manage your user roles](/articles/build-your-user-roles.html) to learn more about roles.
 :::
 
-## Validation & type specific parameters for the different attribute types
-
+## Parameters according to specific attributes types 
 
 Each attribute has specific properties to add more control on attribute's values:
 - **Date** attribute:

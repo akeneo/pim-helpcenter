@@ -172,7 +172,7 @@ If you have added a « reference entity multiple link » or a « reference entit
 
 It's very simple:
 1. Click on the field of the "**reference entity multiple link**" or "**reference entity simple link**" attribute.
-1. If it's a reference entity simple link attribute, you can choose only one record. If it's a multiple link one, then you can choose as records as possible.
+1. If it's a reference entity simple link attribute, you can choose only one record. If it's a multiple link one, then you can choose as many records as you wish.
 
 ![selector](../img/Products-EntitySelector.png)
 
