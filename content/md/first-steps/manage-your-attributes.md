@@ -100,8 +100,7 @@ We strongly recommend you to do not use any of these codes even if the letter ca
 If you cannot access the attribute page or if you cannot add a new attribute, it is probably because you do not have the role permission to. Please refer to [Manage your user roles](build-your-user-roles.html) to learn more about roles.
 :::
 
-## Validation & type specific parameters for the different attribute types
-
+## Parameters according to specific attributes types
 
 Each attribute has specific properties to add more control on attribute's values:
 - **Date** attribute:
