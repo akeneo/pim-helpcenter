@@ -54,7 +54,7 @@ In order to perform a bulk operation on products, you need the rights to each po
 | Add to categories<br>Move between categories<br>Remove from categories | Tick the categories in which the products will be categorized, moved or removed.   |
 | Add to an existing product model  | Select the product model or sub product model to gather the products    |
 | Change the parent product model  | Select the new parent product model to gather the products or [sub product models](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) selected   |
-| Associate to products  | Add associations to the products selected    |
+| Associate to products  | Add associations to the selected products   |
 | Publish products  | Confirm the action     |
 | Unpublish products  | Confirm the action     |
 
