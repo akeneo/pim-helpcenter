@@ -14,7 +14,7 @@ You can configure your product export profile to only export the data you need, 
 If you are granted with the permissions, you can either create your own product export using the Product Export Builder or edit an existing product export profile.
 
 ::: info
-The Product Export Builder feature is available for the product and published product export profiles (for the CSV and XLSX connectors). Since the 2.2, it is also available for [product model](/articles/what-about-products-variants.html#what-is-a-product-model) export profiles.
+The Product Export Builder feature is available for the product and published product export profiles (for the CSV and XLSX connectors). Since the 2.2, it is also available for [product model](what-about-products-variants.html#what-is-a-product-model) export profiles.
 :::
 
 # Create a new product export profile
@@ -174,11 +174,11 @@ You can select a category and its subcategories, or only the subcategories.
 Clicking on `All products` allows you to export all categories by erasing the above selection.
 
 ::: info
-**Only categorised and enabled products are exported**, thus unclassified products will not be exported. If you want to export unclassified products, you can use the [Quick export](/articles/quick-export.html#mainContent) feature.
+**Only categorised and enabled products are exported**, thus unclassified products will not be exported. If you want to export unclassified products, you can use the [Quick export](quick-export.html#mainContent) feature.
 :::
 
 ::: warning
-The category tree available in the export builder, will be the tree linked to the channel selected above. If you want to export products belonging to another category tree, change the channel selected or edit the Channel settings. Check the [Manage your Channels](/articles/manage-your-channels.html#mainContent) article for more information about channels.
+The category tree available in the export builder, will be the tree linked to the channel selected above. If you want to export products belonging to another category tree, change the channel selected or edit the Channel settings. Check the [Manage your Channels](manage-your-channels.html#mainContent) article for more information about channels.
 :::
 
 #### Filter on product identifiers

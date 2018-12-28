@@ -224,13 +224,15 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                 // into the handlebars template of articles
                 // The result is then saved into "dist"
                 return stream2.on('end', function(){
+                    var fileName = path.basename(file.path).replace(/\.md/, '.html');
                     return gulp.src('src/article.handlebars')
                         .pipe(gulpHandlebars({
                             title: title,
                             titleWithBold: titleWithBold,
                             eeOnly: eeOnly,
                             relatedArticles: relatedArticles,
-                            mainContent: fs.readFileSync('tmp/' + path.basename(file.path).replace(/\.md/, '.html'))
+                            mainContent: fs.readFileSync('tmp/' + fileName),
+                            filePath: 'articles/' + id + '.html'
                         }, {
                         partialsDirectory: ['./src/partials']
                     }))

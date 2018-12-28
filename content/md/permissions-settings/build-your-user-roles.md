@@ -22,7 +22,7 @@ To create a new role:
 1. Click on the `Save` button to add the new role
 1. Then select the permissions for the role. The different permissions are detailed in the sections below.
 
-To better understand what is behind each permission, do not hesitate to take a look at the following articles: [Manage the interface and actions accesses](/articles/manage-the-interface-and-actions-accesses.html) and [Manage the Web API permissions](/articles/manage-the-web-api-permissions.html)
+To better understand what is behind each permission, do not hesitate to take a look at the following articles: [Manage the interface and actions accesses](manage-the-interface-and-actions-accesses.html) and [Manage the Web API permissions](manage-the-web-api-permissions.html)
 
 # Edit a role’s name
 

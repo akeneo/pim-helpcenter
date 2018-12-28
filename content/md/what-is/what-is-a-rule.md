@@ -17,7 +17,7 @@ For instance, using rules you can:
 - set a text attribute to another text attribute
 - assign families to new products
 
-Rules can only be imported in Akeneo using a YML file, but you can manage them from the UI. Check [How to manage your rules](/articles/manage-your-rules.html) article. 
+Rules can only be imported in Akeneo using a YML file, but you can manage them from the UI. Check [How to manage your rules](manage-your-rules.html) article. 
 
 Rules can be prioritised from 0 to 100, a rule with a priority of 100 will be applied before a rule having a priority of 10 or 50.
 

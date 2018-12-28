@@ -9,7 +9,7 @@ related: build-your-user-roles, what-is-a-role, what-is-a-user, manage-the-web-a
 
 # Overview
 
-Permissions on actions and on parts of the interface are granted according to the [user’s role(s)](/articles/what-is-a-role.html).
+Permissions on actions and on parts of the interface are granted according to the [user’s role(s)](what-is-a-role.html).
 
 To change permissions for one user role:
 1. Go to `System` and click on the `Roles` menu entry

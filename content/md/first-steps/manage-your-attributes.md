@@ -7,7 +7,7 @@ ee-only: false
 related: what-is-an-attribute
 ---
 
-If you are not familiar with the concept of attributes, you can read our [What is an attribute?](/articles/what-is-an-attribute.html#mainContent) article.
+If you are not familiar with the concept of attributes, you can read our [What is an attribute?](what-is-an-attribute.html#mainContent) article.
 
 # See your attributes
 
@@ -58,7 +58,7 @@ There is a set of actions available for each attribute. You can find on the righ
 ![image](../img/Settings-AttributesGridHover.png)
 
 ::: info
-The shortcut actions are only displayed if you have been granted the appropriate rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html) to learn more about roles.
+The shortcut actions are only displayed if you have been granted the appropriate rights. Please refer to [Manage your user roles](build-your-user-roles.html) to learn more about roles.
 :::
 
 # Create an attribute
@@ -84,7 +84,7 @@ To create an attribute in the PIM:
     - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types)).    
 1. Click on `Save` to create your attribute.
 
-The attribute is now created, you **can add a translation for each enabled locales** under the `Label translations` tab. If you need to edit some other attribute's property, please refer to the section [Edit attribute properties](/articles/manage-your-attributes.html#edit-attribute-properties)
+The attribute is now created, you **can add a translation for each enabled locales** under the `Label translations` tab. If you need to edit some other attribute's property, please refer to the section [Edit attribute properties](manage-your-attributes.html#edit-attribute-properties)
 
 ::: tips
 **Simple** and **multi select** attribute types **do rarely need to be localisable** since all their options can be translated in any enabled locales in the PIM.
@@ -97,7 +97,7 @@ We strongly recommend you to do not use any of these codes even if the letter ca
 :::
 
 ::: warning
-If you cannot access the attribute page or if you cannot add a new attribute, it is probably because you do not have the role permission to. Please refer to [Manage your user roles](/articles/build-your-user-roles.html) to learn more about roles.
+If you cannot access the attribute page or if you cannot add a new attribute, it is probably because you do not have the role permission to. Please refer to [Manage your user roles](build-your-user-roles.html) to learn more about roles.
 :::
 
 ## Validation for the different attribute types
@@ -220,7 +220,7 @@ A deleted option can no longer be used as a value for the attribute of a product
 :::
 
 ::: warning
-**_Since 2.3_, if an attribute option is used in a variant product or a product model as a variant axis value, the option cannot be removed**, an error message will be displayed. Please refer to the [what is a family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) article for more details about variant axes.
+**_Since 2.3_, if an attribute option is used in a variant product or a product model as a variant axis value, the option cannot be removed**, an error message will be displayed. Please refer to the [what is a family variant](what-about-products-variants.html#what-is-a-family-variant) article for more details about variant axes.
 :::
 
 ::: ee
@@ -229,7 +229,7 @@ An option that is used by a published product cannot be deleted. Unpublish the p
 
 # Manage rules on attributes (EE only)
 
-If you are not familiar with the concept of rules, you can read our [What is a rule?](/articles/what-is-a-rule.html) article.   
+If you are not familiar with the concept of rules, you can read our [What is a rule?](what-is-a-rule.html) article.   
 
 If a rule applies to your attribute, this rule will be visible under the `Rules` tab.
 
@@ -239,14 +239,14 @@ The `Rules` screen is composed of several information:
 - **Rule's code**: the name of the rule imported
 - **Rule's condition(s)**: the conditions to apply the rule, starting with "If"
 - **Rule’s action(s)**: the actions to do if the product matches the condition(s), starting with "Then"
-- **Number of affected products** (if calculated): the number of products that are impacted by the rule (this calculation can be run from the `Settings/Rules` page, see the dedicated section [Calculate the number of affected products for rules](/articles/manage-your-rules.html#calculate-the-number-of-affected-products-for-rules).
+- **Number of affected products** (if calculated): the number of products that are impacted by the rule (this calculation can be run from the `Settings/Rules` page, see the dedicated section [Calculate the number of affected products for rules](manage-your-rules.html#calculate-the-number-of-affected-products-for-rules).
 
 The rules have to be read from left to right: conditions and then actions.   
 
 Like on the `Settings/Rules` page, you can execute or delete rules from the `Rules` tab.
 
 ::: info
-All active rules can be seen from the `Settings/Rules` page. See our [Get started with the rules engine](/articles/manage-your-rules.html#calculate-the-number-of-affected-products-for-rules) to learn every thing about rules.
+All active rules can be seen from the `Settings/Rules` page. See our [Get started with the rules engine](manage-your-rules.html#calculate-the-number-of-affected-products-for-rules) to learn every thing about rules.
 :::
 
 # Check the attribute history

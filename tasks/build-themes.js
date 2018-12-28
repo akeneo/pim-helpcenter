@@ -57,16 +57,18 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
             // to create the final Theme page in HTML
             // Finally, the resulting HTML page is saved into "dist" 
             return stream.on('end', function () {
+                var filePath = path.basename(file.path).replace(/\.json$/, '.html');
                 return gulp.src('src/themes.handlebars')
                     .pipe(gulpHandlebars({
                         themes: personaThemes,
                         title: data.title,
                         description: data.description,
-                        img: data.img
+                        img: data.img,
+                        filePath: filePath
                     }, {
                         partialsDirectory: ['./src/partials']
                     }))
-                    .pipe(rename(path.basename(file.path).replace(/\.json$/, '.html')))
+                    .pipe(rename(filePath))
                     .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
                     .pipe(gulp.dest('./dist'));
             });
