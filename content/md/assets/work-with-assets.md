@@ -37,7 +37,7 @@ The following information cannot be sorted out in the asset grid:
 Asset thumbnail images displayed in the grid are the selected channel's variations. If no image is displayed it is because you do not have any variations generated for this channel. See how to generate variations in the [Edit the files of an asset](work-with-assets.html#edit-the-files-of-an-asset) part of this article.
 :::
 
-## Asset grid display (_since 2.1_)
+## Asset grid display
 
 To highlight the assets images, a `Gallery` display is available in the asset grid.
 
@@ -55,7 +55,7 @@ To use the `Gallery` display:
 The context of the chosen display for the asset grid is kept.
 :::
 
-## Search by code (_since 2.1_)
+## Search by code
 
 To quickly find assets in the assets grid, you can search on the code.
 

@@ -15,9 +15,9 @@ Bulk operations enable you to **perform actions on multiple products at once**. 
 To access the bulk actions, go on the Product grid, **select at least one product** and click on the `Bulk actions` button, at the bottom of the grid.
 
 # Available bulk actions
-Here’s the list of the bulk operations available in the PIM (Community and Enterprise Editions):
+Here’s the list of the bulk operations available in the PIM:
   - **Edit attributes values**: Edit the attributes values of your selection of products. For instance, set a new release date or a new value for an attribute.
-  - **Add attributes values (_since 2.2_)**: Add values for the multivalued attributes on your selection of products. For instance, add a collection or an asset.  
+  - **Add attributes values**: Add values for the multivalued attributes on your selection of products. For instance, add a collection or an asset.  
   - **Change family**: Choose/change the family of the selected products.
   - **Change status (enable/disable)**: Edit the status of one or several products, enable or disable products.
   - **Add to groups**: Add your selection of products to one or more groups.
@@ -25,10 +25,10 @@ Here’s the list of the bulk operations available in the PIM (Community and Ent
   - **Move between categories**: Change your products categorization
   - **Remove products from categories**: Remove products from one or more categories at once. Selected products will be uncategorized.
   - **Add to an existing product model**: Add a simple product as a variant to a [product model](what-about-products-variants.html#what-is-a-product-model) if 2 levels of variants or to a [sub product model](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) if 3 levels of variants.
-  - **Change the parent product model (_since 2.3_)**: Change the parent [product model](what-about-products-variants.html#what-is-a-product-model) of variant products or [sub product models](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed).
-  - **Associate to products (_since 2.1_)**: Add associations for your selection of products.
-  - **Publish products (Enterprise Edition only)**: Mass publish products.
-  - **Unpublish products (Enterprise Edition only - available from the Published product grid)**: Mass unpublish products.
+  - **Change the parent product model**: Change the parent [product model](what-about-products-variants.html#what-is-a-product-model) of variant products or [sub product models](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed).
+  - **Associate to products**: Add associations for your selection of products.
+  - **Publish products _(EE only)_**: Mass publish products.
+  - **Unpublish products _(EE only)_)**: Mass unpublish products. This action is available in the `Published products` grid.
 
 ::: info  
 In order to perform a bulk operation on products, you need the rights to each possible action, and also the general permission to perform bulk actions on products.
@@ -47,14 +47,14 @@ In order to perform a bulk operation on products, you need the rights to each po
 | Operations  | Step of configuration  |
 |:------------|:-----------------------|
 | Edit attributes values | Add attributes to the products to set the values ​​to be applied |
-| Add attributes values | Add attributes to the products to add the values ​​to be applied (_since 2.2_) |
+| Add attributes values | Add attributes to the products to add the values ​​to be applied |
 | Change family | Select the family to be applied on products   |
 | Change status | Select the status to be applied: enable or disable  |
 | Add to groups     | Check the groups in which the products will be brought together       |
 | Add to categories<br>Move between categories<br>Remove from categories | Tick the categories in which the products will be categorized, moved or removed.   |
 | Add to an existing product model  | Select the product model or sub product model to gather the products    |
 | Change the parent product model  | Select the new parent product model to gather the products or [sub product models](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) selected   |
-| Associate to products  | Add associations to the products selected (_since 2.1_)    |
+| Associate to products  | Add associations to the products selected    |
 | Publish products  | Confirm the action     |
 | Unpublish products  | Confirm the action     |
 
@@ -70,8 +70,9 @@ To access the Execution details of the process, click on the notification icon.
 
 ![Process tracker](../img/Products-ProcessTrackerReportMassEdit.png)
 
-::: info  
-The following operations `Change status`, `Add to groups` and `Publish products` are not available for the [product models](what-about-products-variants.html#what-is-a-product-model). _Since 2.3_, to ease these bulk actions, if you select some product models in the grid, their children variant products will be updated. For example, if you select some product models in the grid and the bulk action `Change status`, the variant products' statuses of the product models selected will be changed.
+::: info
+The following operations `Change status`, `Add to groups` and `Publish products` are not available for the [product models](what-about-products-variants.html#what-is-a-product-model).  
+To ease these bulk actions, if you select some product models in the grid, their children variant products will be updated. For example, if you select some product models in the grid and the bulk action `Change status`, the variant products' statuses of the product models selected will be changed.
 :::
 
 ::: ee
@@ -111,9 +112,9 @@ To ease the mass enrichment of products attributes values, you can edit the attr
 This action **will not add new attribute to products, it will only update the attributes that already belong to the families of the selected products.**
 :::
 
-## Add new values to attributes (_since 2.2_)
+## Add new values to attributes
 
-Since 2.2 version, a new mass action is available: `Add attributes values`. This new action allows you to add new values to the attributes having multiple values:
+You can use the `Add attributes values` action to add new values to the attributes having multiple values:
  - Multi-select attributes
  - Reference data multi-select attributes
  - Assets collection attributes
@@ -155,7 +156,7 @@ In order to save you some time, you can also directly categorize products in cat
 Confirm the action with the `Confirm` button located in the middle of the screen.
 
 :::warning
-These bulk actions support [product models](what-about-products-variants.html#what-is-a-product-model) _since the 2.1_.
+These bulk actions also support [product models](what-about-products-variants.html#what-is-a-product-model).
 :::
 
 # Add products to an existing product model
@@ -182,7 +183,7 @@ This operation can only be performed for non variant products, so products not a
   - You cannot change the parent product model of a variant product.
 :::
 
-# Change the parent product model (_since 2.3_)
+# Change the parent product model
 
 To allow more flexibility on variant products (such as merging or splitting product models), you can now change the parent product model of a variant product or a [sub product model](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed).
 
@@ -214,7 +215,7 @@ The attributes defined as `common attributes` in the [family variant](what-about
 This operation can only be performed for variant products or [sub product models](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed), already linked to a parent product model.
 :::
 
-# Associate products (_since 2.1_)
+# Associate products
 
 To ease the add of associations, you can mass associate products.
 
@@ -235,12 +236,8 @@ To ease the add of associations, you can mass associate products.
   ![Add association](../img/Products_BulkConfirmAssociation.png)
 12.  The products selected will be associated to the products and product models
 
-:::warning
-_Until 2.2_ [Product models](what-about-products-variants.html#what-is-a-product-model) have no associations, if you select product models in the grid and mass associate it to products or product models, all their children variant products will be also associated.
-:::
-
 :::info
-_Since 2.3_, you can define associations on [Product models](what-about-products-variants.html#what-is-a-product-model). So if you select product models in the grid and mass associate, the product models and their children (variant products and product models) will be associated.
+You can define associations on [Product models](what-about-products-variants.html#what-is-a-product-model). So if you select product models in the grid and mass associate, the product models and their children (variant products and product models) will be associated.
 :::
 
 :::info
@@ -262,9 +259,9 @@ Due to safety reasons, **you cannot remove more than 1000 products at a time.**
 :::
 
 :::info
-_Since the 2.2_, you can also mass delete [product models](what-about-products-variants.html#what-is-a-product-model). **If you delete product models, all their children (product models and variant products) are also deleted.**
+You can also mass delete [product models](what-about-products-variants.html#what-is-a-product-model). **If you delete product models, all their children (product models and variant products) are also deleted.**
 :::
 
 :::info
-_Since the 2.2_, like all bulk actions mass delete action is a back-end task, so you can continue to work on the PIM without experiencing slowdowns. When the process is done, you are the only user to be notified and when you click on the notification, you can access the report page.
+Like all bulk actions mass delete action is a back-end task, so you can continue to work on the PIM without experiencing slowdowns. When the process is done, you are the only user to be notified and when you click on the notification, you can access the report page.
 :::

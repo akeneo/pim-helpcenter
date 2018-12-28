@@ -56,7 +56,8 @@ rules:
                 field: camera_brand
                 value: canon_brand
 ``` 
+
 ::: info
-Find more information about all the conditions/actions and create your own rules! To do so, refer to our technical documentation: [General information about rule format](https://docs.akeneo.com/2.0/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure).
+Find more information about all the conditions/actions and create your own rules! To do so, refer to our technical documentation: [General information about rule format](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure).
 :::
 

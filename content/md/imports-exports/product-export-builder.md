@@ -14,7 +14,8 @@ You can configure your product export profile to only export the data you need, 
 If you are granted with the permissions, you can either create your own product export using the Product Export Builder or edit an existing product export profile.
 
 ::: info
-The Product Export Builder feature is available for the product and published product export profiles (for the CSV and XLSX connectors). Since the 2.2, it is also available for [product model](what-about-products-variants.html#what-is-a-product-model) export profiles.
+The Product Export Builder feature is available for the product and published product export profiles (for the CSV and XLSX connectors).  
+It is also available for [product model](what-about-products-variants.html#what-is-a-product-model) export profiles.
 :::
 
 # Create a new product export profile
@@ -134,7 +135,7 @@ Exported products according to each completeness option for the locales fr_FR an
 - Option 3: Only product C will be exported  
 - Option 4: Only product D will be exported  
 
-### Use the completeness filter for product model export (_since 2.2_)
+### Use the completeness filter for product model export
 
 The following drop down enables you to filter on the completeness of the product models children products for the selected locales. Three options on completeness are proposed:
 - `No condition on completeness`: all products models are exported whatever the completeness of their children products for the channel and locales selected
@@ -183,7 +184,7 @@ The category tree available in the export builder, will be the tree linked to th
 
 #### Filter on product identifiers
 
-You can make a selection of identifiers to export by adding them in the `Identifier` field. You can copy and paste a list of identifiers. They must separated by comma, space or line breaks.
+You can make a selection of identifiers to export by adding them in the `Identifier` field. You can copy and paste a list of identifiers. They must be separated by comma, space or line breaks.
 
 ![Filter on product identifiers](../img/Exports-EditContentIdentifiers.png)
 
@@ -192,7 +193,7 @@ You can easily copy a list of identifiers from a csv or xlsx file and paste it i
 :::
 
 ::: info
-Since 2.2, a selection on product model codes is available.
+You can also ask for a selection of product models. Simply give their codes in the `Identifier` text area.
 :::
 
 #### Filter on attributes

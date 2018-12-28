@@ -90,7 +90,7 @@ This UI locale is used all over the PIM interface: menus, screens labels, messag
 | German (Germany)  | 08.03.19        | 12,5        | 90,50 $        |
 | English (United States) | 03/08/2019 | 12.5    | $90.50            |
 
-## Your interface default time zone (since 2.2)
+## Your interface default time zone
 
 You can choose on which time zone you want your PIM interface to be.
 

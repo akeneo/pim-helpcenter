@@ -11,7 +11,7 @@ related: review-products-proposals, build-your-user-groups, what-is-a-user-group
 Thanks to the [Enterprise Edition permissions on the categories](access-rights-on-products.html#rights-depending-on-the-categories), you can elaborate workflows to enrich your products. Some users will have ownership of products, they will be able to approve or reject contributions sent from users having only the edit permissions on categories.
 
 :::info
-Since 2.3, proposals support [product models](what-about-products-variants.html#what-is-a-product-model).
+Proposals also work with [product models](what-about-products-variants.html#what-is-a-product-model).
 :::
 
 # Statuses of products

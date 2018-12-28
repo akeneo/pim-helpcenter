@@ -19,7 +19,7 @@ Wherever you are in the PIM, to go back to the dashboard, just click on the Aken
 
 # Dashboard widgets
 
-## Teamwork assistant projects _(Enterprise Edition only)_
+## Teamwork assistant projects _(EE only)_
 
 In the Entreprise Edition, the first widget of the dashboard is the widget gathering the projects created with the [Teamwork Assistant](what-is-a-project.html).
 
@@ -30,7 +30,7 @@ If no project is available you will see the message: «You have no current proje
 If you want to dig deeper into this widget, there is an [article](project-widget-dashboard.html) for you. ;)
 
 ::: ee
-This widget is only available for Enterprise Edition clients.
+This widget is only available for Enterprise Edition users.
 :::
 
 ## Completeness over channels and locales
@@ -72,7 +72,7 @@ To bring you more visibility on the job status, it is displayed in green when su
 :::
 
 
-## Proposals to review _(Enterprise Edition only)_
+## Proposals to review _(EE only)_
 
 In the Entreprise Edition and depending on [your permissions](access-rights-on-products.html), you might see an additional widget that allows you to [review suggestion of modifications made on products](review-products-proposals.html).
 
@@ -81,5 +81,5 @@ In the Entreprise Edition and depending on [your permissions](access-rights-on-p
 This widget will display the latest [proposals](proposals-workflow.html) for review. To see all pending reviews, click on the `View all` button.
 
 ::: ee
-This widget is only available for Enterprise Edition clients.
+This widget is only available for Enterprise Edition users.
 :::
