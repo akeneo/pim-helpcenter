@@ -24,7 +24,7 @@ Enterprise Edition clients will also see a `Notifications` tab to manage notific
 
 ## Your general information
 
-Under the `General` tab, you will be able to edit your personal information: username, firstname, lastname, date of birth, add/remove your picture and your email address.
+Under the `General` tab, you will be able to edit your personal information: username, firstname, lastname, add/remove your picture and your email address.
 
 ![image](../img/System_users_Profil_edit.png)
 
