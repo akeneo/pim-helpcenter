@@ -15,7 +15,7 @@ Rien de nouveau ici. Un utilisateur est simplement un compte d'accès pour se co
 Un compte utilisateur peut être utilisé par une ou plusieurs personnes dans la société.
 :::
 
-AUn utilisateur possède au moins :
+Un utilisateur possède au moins :
  - un prénom
  - un nom
  - un nom d'utilisateur
