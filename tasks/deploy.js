@@ -9,7 +9,7 @@ var rsync = require('gulp-rsync');
 var prompt = require('gulp-prompt');
 var fs = require('fs');
 
-var majorVersion = 'v2';
+var majorVersion = 'v3';
 
 const environments = ['staging', 'production'];
 

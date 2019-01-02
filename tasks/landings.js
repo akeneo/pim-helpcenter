@@ -11,7 +11,7 @@ var revReplace = require('gulp-rev-replace');
 var tap = require('gulp-tap');
 var frontMatter = require('gulp-front-matter');
 
-var majorVersion = 'v2';
+var majorVersion = 'v3';
 
 // This task goes through every Markdown articles looking for "popular" articles
 // in order to find information such as their title and path.
@@ -36,7 +36,7 @@ gulp.task('landings', ['clean-dist','less', 'grab-related-articles'], function()
     // When all information about the popular articles are gathered,
     // we inject this data into the Handlebars template of the homepage.
     // Finally, the resulting HTML is saved into "dist".       
-    return gulp.src('src/indexes/*.handlebars')
+    return gulp.src('src/index.handlebars')
             .pipe(flatmap(function(stream, file){
                 return gulp.src(file.path)
                         .pipe(gulpHandlebars({
