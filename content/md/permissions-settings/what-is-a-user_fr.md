@@ -1,37 +1,38 @@
 ---
 id: what-is-a-user
 themes: akeneo-concepts, permissions-settings
-title: What is a **user**?
+title: Qu'est-ce qu'un **utilisateur**?
 related: manage-your-users, what-is-a-role, build-your-user-groups, build-your-user-roles
 ---
 
-# Definition
+# Définition
 
-![What is a user?](../img/What-is-a-user.svg)
+![Qu'est-ce qu'un utilisateur ?](../img/What-is-a-user.svg)
 
-Nothing exotic here. A user is simply an account access to log into the PIM.
+Rien de nouveau ici. Un utilisateur est simplement un compte d'accès pour se connecter au PIM.
 
 ::: info
-One user account can be used by one or several persons in a company.
+Un compte utilisateur peut être utilisé par une ou plusieurs personnes dans la société.
 :::
 
-A user has at least:
- - a firtsname
- - a lastname
- - a username
- - a password
- - an email
- - a role.
+AUn utilisateur possède au moins :
+ - un prénom
+ - un nom
+ - un nom d'utilisateur
+ - un mot de passe
+ - une adresse mail
+ - un rôle.
 
 ::: ee
-A user can belong to one or several [user groups](/articles/what-is-a-user-group.html). In the Entreprise Edition, this is really useful when you want to assign them permissions regarding the products data. To know more about this subject, read [Build your user groups](/articles/build-your-user-groups.html).
+Un utilisateur peut appartenir à un ou plusieurs [groupes d'utilisateurs](/articles/what-is-a-user-group.html). Dans la version Entreprise Edition, il se montre utile lorsque que l'on veut attribuer des permissions en fonction des données du produit. 
+Pour en savoir plus à ce sujet, lire [construire vos groupes d'utilisateurs](/articles/build-your-user-groups.html).
 :::
 
-# As a user you can...
+# En tant qu'utilisateur vous pouvez...
 
-As a user you can:
- - choose the language of your PIM interface to better understand what's going on :wink:
- - choose your favorite [view](/articles/manage-your-views.html) and working category tree to be even more productive
- - choose your favorite [locale](/articles/what-is-a-locale.html), [channel](/articles/what-is-a-channel.html) and other filters when you are working on the [product grid](/articles/products-grid.html)
+En tant qu'utilisateur vous pouvez :
+ - choisir la langue de votre PIM pour mieux comprendre ce qu'il se passe :wink:
+ - choisir votre [vue](/articles/manage-your-views.html) favorite et travailler sur votre arbre de catégorie pour être encore plus productif
+ - choisir votre [locale](/articles/what-is-a-locale.html) favorite, [canal](/articles/what-is-a-channel.html) et autres filtres lorsque vous travaillez sur la [grille de produit](/articles/products-grid.html)
 
 ![image](../img/System_users_Profil.png)
