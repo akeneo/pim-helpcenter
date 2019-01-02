@@ -11,7 +11,7 @@ related: build-your-user-groups, whats-is-a-user, access-right-on-products, acce
 Un groupe d'utilisateurs est un ensemble d'utilisateurs regroupés par nom. Un utilisateur peut faire parti de plusieurs groupes d'utilisateurs.  
 Par exemple, Le groupe d'utilisateurs `Dpt Marketing` regroupe tous les utilisateurs du département marketing de la société. Le groupe d'utilisateurs `Managers` regroupe tous les utilisateurs qui sont managers d'un département. Des utilisateurs peuvent uniquement être dans le groupe `Dpt Marketing`.
 
-# Quel est le but ?
+# Quel est l'objectif ?
 Eh bien, nous avons rassemblé des personnes dans un groupe d'utilisateurs. C'est génial, mais quel est l'objectif ?
 
 En fait, cela va vous être très utile si vous voulez donner différentes *permissions* aux utilisateurs, en fonction des groupes dans lesquels ils se trouvent. Il s'agit d'une fonctionnalité Entreprise Edition.  
