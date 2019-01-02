@@ -11,6 +11,8 @@ var frontMatter = require('gulp-front-matter');
 var rename = require('gulp-rename');
 var revReplace = require('gulp-rev-replace');
 
+var majorVersion = 'v2';
+
 gulp.task('build-themes', ['clean-dist','less'], function () {
     // For each Json file containing the Persona themes
     return gulp.src('content/*.json')
@@ -64,13 +66,14 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
                         title: data.title,
                         description: data.description,
                         img: data.img,
-                        filePath: filePath
+                        filePath: filePath,
+                        majorVersion: majorVersion
                     }, {
                         partialsDirectory: ['./src/partials']
                     }))
                     .pipe(rename(filePath))
                     .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                    .pipe(gulp.dest('./dist'));
+                    .pipe(gulp.dest('./dist/pim/' + majorVersion));
             });
         }));
 });

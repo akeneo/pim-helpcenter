@@ -11,6 +11,8 @@ var revReplace = require('gulp-rev-replace');
 var tap = require('gulp-tap');
 var frontMatter = require('gulp-front-matter');
 
+var majorVersion = 'v2';
+
 // This task goes through every Markdown articles looking for "popular" articles
 // in order to find information such as their title and path.
 var popularArticles;
@@ -37,11 +39,14 @@ gulp.task('landings', ['clean-dist','less', 'grab-related-articles'], function()
     return gulp.src('src/indexes/*.handlebars')
             .pipe(flatmap(function(stream, file){
                 return gulp.src(file.path)
-                        .pipe(gulpHandlebars({popularArticles: popularArticles}, {
+                        .pipe(gulpHandlebars({
+                            popularArticles: popularArticles,
+                            majorVersion: majorVersion
+                        }, {
                             partialsDirectory: ['./src/partials']
                         }))
                         .pipe(rename(path.basename(file.path).replace(/\.handlebars$/, '.html')))
                         .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                        .pipe(gulp.dest('dist'));
+                        .pipe(gulp.dest('dist/pim/' + majorVersion));
                 }));
 });
