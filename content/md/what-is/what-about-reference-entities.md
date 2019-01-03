@@ -23,7 +23,7 @@ It allows enriching common data related to products with a rich content (descrip
 
 For example, you can create a reference entity to manage brands, ranges, manufacturers, colors, materials, care instructions...
 
-Let's take an example with an entity "Brand" and a list of brands (Kartell, Alessi, Fatboy, Fermob...). A brand is described by the following information: a code, a label, an image, a country, a designer, a foundation date, a photo and a description.
+Let's take an example with an entity called `Brand` and a list of brands (Kartell, Alessi, Fatboy, Fermob...). A brand is described by the following information: a code, a label, an image, a country, a designer, a foundation date, a photo and a description.
 
 
 # What's a record?
