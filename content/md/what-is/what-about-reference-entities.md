@@ -10,7 +10,7 @@ related:
 # What's the use case?
 
 Let's take an example of a product page.  
-There are many types of product information such as text, images...
+There are many types of product information such as text, images...  
 Some information is shared between different products (such as the definition of care instructions, colors or brands).
 This shared information has its own attributes (eg a label, a description, an image for the brand).
 They may have dedicated pages on the e-commerce website (eg dedicated pages for brands) or their information may enrich each product page.
