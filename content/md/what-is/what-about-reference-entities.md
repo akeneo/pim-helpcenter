@@ -10,32 +10,48 @@ related:
 # What's the use case?
 
 Let's take an example of a product page.  
+![Reference entity use case](../img/what-about-reference-entities.png)
+
 There are many types of product information such as text, images...  
 Some information are shared between different products (such as the definition of care instructions, colors or brands).  
-This shared information has its own attributes (eg a label, a description, an image for the brand).  
-They may have dedicated pages on the e-commerce website (eg dedicated pages for brands) or their information may enrich each product page.
+These shared information can be complex with their own attributes (eg a label, a logo, a description or photos for the brand).  
+They may have dedicated pages on the e-commerce website (eg dedicated pages for each brand) or their information may enrich each product page (logo of the brand).
 
-# What's a reference entity?
+# A bit of vocabulary
+## What's a reference entity?
 
-A **reference entity** allows you to create and enrich natively in the PIM those **common information** which are **linked to products**.   
-A reference entity has its **own attributes**, its **own lifecycle** and can be linked to products.  
-It allows enriching common data related to products with a rich content (description, images...), more complex than just a code and labels.
+A **reference entity** allows you to create and enrich natively in the PIM those **common information** which are **shared and linked to products**.   
+A reference entity has its **own attributes**, its **own lifecycle** and can be linked to products or to another reference entity.  
+It allows enriching common data related to products with a rich content (text, images...), more complex than just a code and labels.
 
-For example, you can create a reference entity to manage brands, ranges, manufacturers, colors, materials, care instructions...
+For example, you can create a reference entity to manage your brands, designers, manufacturers, product collections, artists, cities, countries, colors, sizes, materials, care instructions, technologies, ingredients...
 
-Let's take an example with an entity called `Brand` and a list of brands (Kartell, Alessi, Fatboy, Fermob...). A brand is described by the following information: a code, a label, an image, a country, a designer, a foundation date, a photo and a description.
+Let's take an example with a reference entity called `Brand` and a list of brands (Kartell, Alessi, Fatboy, Fermob...).   
+
+A brand is described by the following information:
+- a code
+- a label
+- an image
+- a description
+- a photo
+- a country
 
 
-# What's a record?
+## What's a record?
 
-A record contains all information about a reference entity. For example for the "Brands" reference entity, a record could be the information regarding the brand "Kartell".
+For the `Brand` reference entity, a record contains all the information regarding a brand like `Kartell` or `Fermob`.
+
+![Reference entity record](../img/what-about-reference-entities_record.png)
+
+
 :::info
 A record may be related to one or more products.
 :::
 
-# How to create your 1st reference entity and its records?
+# Let's create your first reference entity!
 
-From a single place, in a dedicated `Entities` menu, you can create your first reference entity, define its records structure, create and enrich its records. Let's go!
-1.  [Create your first family variant](/articles/manage-your-families.html#create-a-family-variant)
-1.  [Create your first product model ](/articles/create-a-product.html#create-a-product-model)
-1.  [Enrich your products with variants](/articles/enrich-products-variants.html)
+From a single place, in a dedicated `Entities` menu, you can create your first reference entity, define its records attributes, enrich its first records and link them to products. Let's go!
+1. [Create your 1st reference entity](/articles/manage-reference-entities.html#create-a-reference-entity)
+1. [Add and enrich its 1st records](/articles/enrich-your-reference-entity-records.html)
+1. [Define a new product attribute to link this reference entity to products](/articles/manage-your-attributes.html#create-an-attribute)
+1. [Link the products to the reference entity records](/articles/work-on-a-product.html)
