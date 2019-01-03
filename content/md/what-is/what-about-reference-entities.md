@@ -29,7 +29,9 @@ Let's take an example with an entity called `Brand` and a list of brands (Kartel
 # What's a record?
 
 A record contains all information about a reference entity. For example for the "Brands" reference entity, a record could be the information regarding the brand "Kartell".
+:::info
 A record may be related to one or more products.
+:::
 
 # How to create your 1st reference entity and its records?
 
