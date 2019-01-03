@@ -4,7 +4,7 @@ themes: first-steps
 title: What about **reference entities**?
 popular: true
 ee-only: true
-related:
+related: manage-reference-entities, enrich-your-reference-entity-records
 ---
 
 # What's the use case?
