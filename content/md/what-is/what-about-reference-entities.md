@@ -35,7 +35,7 @@ A record may be related to one or more products.
 
 # How to create your 1st reference entity and its records?
 
-From a single place, in a dedicated "Entities" menu, you can create your first reference entity, define its records structure, create and enrich its records. Let's go!
+From a single place, in a dedicated `Entities` menu, you can create your first reference entity, define its records structure, create and enrich its records. Let's go!
 1.  [Create your first family variant](/articles/manage-your-families.html#create-a-family-variant)
 1.  [Create your first product model ](/articles/create-a-product.html#create-a-product-model)
 1.  [Enrich your products with variants](/articles/enrich-products-variants.html)
