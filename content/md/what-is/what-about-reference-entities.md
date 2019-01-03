@@ -1,6 +1,6 @@
 ---
 id: what-about-reference-entities
-themes: first-steps
+themes: first-steps, manage-your-reference-entities
 title: What about **reference entities**?
 popular: true
 ee-only: true
