@@ -166,7 +166,7 @@ If you have edit rights, you can also **remove** each asset from the asset colle
 
 Every user can download each asset clicking on `download` in the asset preview.
 
-## Add one or several records of an entity to a product
+## Add one or several records of an entity to a product _(EE only)_
 
 If you have added a « reference entity multiple link » or a « reference entity simple link » attribute to your family, then you can add a link to one or several records of the entity to your product.
 
