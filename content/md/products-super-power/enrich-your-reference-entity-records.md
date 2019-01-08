@@ -11,19 +11,31 @@ related:
 
 ## Add a record
 Once you’ve created a reference entity, you can add **records**.
-Let’s say that you’ve just created the reference entity `Brand`, you’ve defined it’s records’ structure (i.e its attributes) and now it’s time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
+Let’s say that you’ve just created the reference entity `Brand`, you’ve defined it’s records' attributes and now it’s time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
 
 To add a new brand to the reference entity `Brand`:
 1. Go to your `Brand` entity (you are automatically on the records grid).
 1. Then click on the `Add new` button, choose a label for the record (the code is automatically generated but you can change it if needed).
-1. If you have several records to add, just check `Create another record` and save: you’ll stay in the creation pop-in and you can quickly add as many records as needed.
 
 ::: tips
-You will retrieve on each record, all the attributes you defined in the « attributes » tab.
+If you have several records to add, just check `Create another record` and save: you’ll stay in the creation pop-in and you can quickly add as many records as needed.
 :::
 
 ## Display records
-To see the records of the reference entity, click on the `Records` tab in the left menu. You will see the records grid, where all the records of the entity are listed. There is an infinite scroll on this grid, which allows you to gather all the records in the same page.
+To see the records of the reference entity, click on the `Records` tab in the left menu. You will see the records grid, where all the records of the entity are listed.
+
+### The records grid
+The records' grid is quite different than the products' one. Thereafter are the novelties of this grid:
+1. The first line is frozen: it allows you to scroll down the page, while continuing to see the name of the attributes
+1. The first 4 columns are also frozen since these are the system attributes and the status of the completeness. We added an horizontal scroll in order to see the content of all the columns.
+1. We also added a tooltip to preview the content of a text attribute directly in the grid.
+1. Finally, there is an infinite scroll down on this grid, which allows you to gather all the records in the same page.
+
+::: tips
+When you scroll in the grid, only the first 500 results are displayed (in order to avoid performances issues). When you arrive at the end of the first 500 records, a message is displayed *"You just scrolled through the first 500 results out of 10005 records. To see more, try with more specific search criteria."*
+:::
+
+Of course, you can still edit or delete a record thanks to the buttons at the end of each line. 
 
 ## Search for a record
 
@@ -48,6 +60,10 @@ As for a product, you can define if you want a different content according to ch
 
 (screenshot)
 
+If you defined a *"text area"* attribute for your records, you can check the parameter `rich text editor`. This will give you access to a set of options to improve the formate of your text. For example, you can change the font, the size, justify the text, etc. You can also add a link, a video, an image. In fact, the Rich text editor offers a large bunch of possibilities!
+
+(screenshot)
+
 ## Link a record to another record
 
 It is also possible to link a record to another one, and it is very simple.
@@ -60,14 +76,17 @@ You will see a new selector with all the records of the linked entity.
 Click on the `link` button on each record line in the selector to preview the record! It opens automatically a new tab in your browser.
 :::
 
-## Delete a record or all records
+## Delete records
+
+### Delete a record
 You can delete a record or all the records of an entity.
  To delete a record, 2 choices:
 - Either directly in the records grid, clicking on the *trashcan* button on each record line.
 - Either in the details of the record, clicking on the `...` button then `delete`.
 
+### Delete all the records
 To delete all the records of an entity, click on the `...` button in the records grid then `delete all records`.
 
 ::: tips
-To delete all the records of an entity, you need to check that no record of this entity is linked to other entities.
+To delete all the records of an entity, you need to check that no record of this entity is linked to other entities or used in a product.
 :::
