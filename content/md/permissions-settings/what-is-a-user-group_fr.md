@@ -8,7 +8,7 @@ related: build-your-user-groups, whats-is-a-user, access-right-on-products, acce
 
 # Définition
 
-Un groupe d'utilisateurs est un ensemble d'utilisateurs regroupés par nom. Un utilisateur peut faire parti de plusieurs groupes d'utilisateurs.  
+Un groupe d'utilisateurs est un ensemble d'utilisateurs regroupés par un nom. Un utilisateur peut faire parti de plusieurs groupes d'utilisateurs.  
 Par exemple, Le groupe d'utilisateurs `Dpt Marketing` regroupe tous les utilisateurs du département marketing de la société. Le groupe d'utilisateurs `Managers` regroupe tous les utilisateurs qui sont managers d'un département. Les utilisateurs peuvent uniquement être dans le groupe `Dpt Marketing`.
 
 # Quel est l'objectif ?
