@@ -1,6 +1,6 @@
 ---
 id: manage-your-users
-themes: permissions-settings
+themes: user-management
 title: Manage your **users**
 popular: false
 related: what-is-a-user, manage-your-account
@@ -63,7 +63,7 @@ Even if a user is deleted, its actions generated in the PIM won't be erased.
 
 # Deal with the user permissions
 
-To know more about user permissions, there are four articles just for you depending on what your need are: 
+To know more about user permissions, there are four articles just for you depending on what your need are:
 - [Manage the interface and action accesses](/articles/manage-the-interface-and-actions-accesses.html)
 - [Manage the web API permissions](/articles/manage-the-web-api-permissions.html)
 - [Set rights on your catalog](/articles/access-rights-on-products.html)

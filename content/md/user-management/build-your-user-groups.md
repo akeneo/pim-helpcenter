@@ -1,6 +1,6 @@
 ---
 id: build-your-user-groups
-themes: permissions-settings
+themes: user-management
 title: Build your **user groups**
 popular: false
 related: what-is-a-user-group, what-is-a-user, access-rights-on-products, access-rights-on-assets, access-rights-on-imports-exports
