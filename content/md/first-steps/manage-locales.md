@@ -17,7 +17,7 @@ To view the available locales in Akeneo, go to `Settings/Locales`. You can find 
 
 # How to enable/disable a locale?
 
-A **locale is activated when it is added to a channel**, it cannot be enabled from the locale settings page or through a CSV or XLSX locale import. To learn how to enable a locale from the channel check the following article: [Manage your channels](/articles/manage-your-channels.html).
+A **locale is activated when it is added to a channel**, it cannot be enabled from the locale settings page or through a CSV or XLSX locale import. To learn how to enable a locale from the channel check the following article: [Manage your channels](manage-your-channels.html).
 
 :::info
 An enabled locale means that it is used in at least one channel.  
@@ -46,7 +46,7 @@ For instance, to add a `en_HK` locale, follow these steps:
 And that's it! Your `en_HK` locale is activated for your channel! You will be able to find it in your Product grid, as well as in the product forms.
 
 :::ee
-If you do not see your new locales in the User Interface, it's maybe because you forgot to set permissions on it in `Settings/Locales`. Select your locale and go under the `Permissions` tab. To know how to set up permissions on locales, check the [Set Rights depending on the locale](/articles/access-rights-on-products.html#rights-depending-on-the-locale) article.
+If you do not see your new locales in the User Interface, it's maybe because you forgot to set permissions on it in `Settings/Locales`. Select your locale and go under the `Permissions` tab. To know how to set up permissions on locales, check the [Set Rights depending on the locale](access-rights-on-products.html#rights-depending-on-the-locale) article.
 :::
 
 :::warning
@@ -55,4 +55,4 @@ You can easily add locales, but **you cannot remove them afterwards from the use
 
 # Set permissions on locales
 
-Like on attribute groups and categories, you can define specific user permissions on locales. Check the [Set Rights depending on the locale](/articles/access-rights-on-products.html#rights-depending-on-the-locale) article to know how to add/remove permissions on locales.
+Like on attribute groups and categories, you can define specific user permissions on locales. Check the [Set Rights depending on the locale](access-rights-on-products.html#rights-depending-on-the-locale) article to know how to add/remove permissions on locales.

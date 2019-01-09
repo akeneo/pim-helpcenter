@@ -60,11 +60,11 @@ Like the locale, the channel selected on the product grid’s page is applied wh
 To highlight the products' images, a `Gallery` display of the product grid is available. This display can be used to quickly find products by their images and update them.
 
 With the `Gallery` display, the following properties are displayed in the grid (you cannot choose them, there is no `Columns` button available):
-- Identifier for a product (attribute defined as product identifier) or code for a [product model](/articles/what-about-products-variants.html#what-is-a-product-model)
-- Label: attribute used as "label" in the [product family](/articles/manage-your-families.html#create-a-family)
-- Image: attribute used as "main picture" in the [product family](/articles/manage-your-families.html#create-a-family)
+- Identifier for a product (attribute defined as product identifier) or code for a [product model](what-about-products-variants.html#what-is-a-product-model)
+- Label: attribute used as "label" in the [product family](manage-your-families.html#create-a-family)
+- Image: attribute used as "main picture" in the [product family](manage-your-families.html#create-a-family)
 - Completeness for a product
-- Number of complete variant products out of the number of variant products for a [product model](/articles/what-about-products-variants.html#what-is-a-product-model) (ex: "2/3" means that 2 variants out of 3 for the product model are complete)
+- Number of complete variant products out of the number of variant products for a [product model](what-about-products-variants.html#what-is-a-product-model) (ex: "2/3" means that 2 variants out of 3 for the product model are complete)
 
 :::info
 Other grid features also apply to this display (channel, locale and categories selection, filters, pagination, products selection, etc.).
@@ -173,7 +173,7 @@ Only the attributes that you can view or edit are available in the list of filte
 ## Search by label and identifier (_since 2.1_)
 
 To quickly find products, a search bar is available in the product grid.
-The search is only on the identifier (product identifier or [product model](/articles/what-about-products-variants.html#what-is-a-product-model) code) and the label (attribute used as "label" in the [product family](/articles/manage-your-families.html#create-a-family)).
+The search is only on the identifier (product identifier or [product model](what-about-products-variants.html#what-is-a-product-model) code) and the label (attribute used as "label" in the [product family](manage-your-families.html#create-a-family)).
 
 ![Search bar](../img/Products_search.png)
 

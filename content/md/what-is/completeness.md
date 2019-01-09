@@ -42,7 +42,7 @@ Thanks to the completeness panel, get the list of empty attributes and fill them
 :::
 
 # How do I set up my completeness?
-The **completeness is defined by a [family](/articles/what-is-a-family.html)**, a **[locale](/articles/what-is-a-locale.html)** and a **[channel](/articles/what-is-a-channel.html)**.
+The **completeness is defined by a [family](what-is-a-family.html)**, a **[locale](what-is-a-locale.html)** and a **[channel](what-is-a-channel.html)**.
 
 
 Then, once you know which attributes have to be taken into account for each family, in other words, **which attributes must be filled in to export your product**, go to `Settings/Family`.

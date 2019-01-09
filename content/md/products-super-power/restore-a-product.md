@@ -21,7 +21,7 @@ It's totally possible with the restore feature. You can browse through the whole
 ![After restoring](../img/Products_PEFHistory2.png)
 
 ## Another use case
-Just picture the following case: you have a [published product](/articles/publish-workflow.html), which information is disseminated in different channels. You are currently enriching the product form with new photos, a more detailed description and a new price.
+Just picture the following case: you have a [published product](publish-workflow.html), which information is disseminated in different channels. You are currently enriching the product form with new photos, a more detailed description and a new price.
 But a new legislation compels you all at once to update your current published version to push new information about the product: its weight for instance.
 Unfortunately your improvements on the product page are not completed and still you do not want to publish them. What can you do?
 

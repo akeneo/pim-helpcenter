@@ -18,6 +18,8 @@ var frontMatter = require('gulp-front-matter');
 var rename = require('gulp-rename');
 var revReplace = require('gulp-rev-replace');
 
+var majorVersion = 'v2';
+
 function getTocMarkdown(currentPage) {
     return "\n\n:::: toc\n@[toc]\n\n::::\n\n";
 }
@@ -224,19 +226,22 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                 // into the handlebars template of articles
                 // The result is then saved into "dist"
                 return stream2.on('end', function(){
+                    var fileName = path.basename(file.path).replace(/\.md/, '.html');
                     return gulp.src('src/article.handlebars')
                         .pipe(gulpHandlebars({
                             title: title,
                             titleWithBold: titleWithBold,
                             eeOnly: eeOnly,
                             relatedArticles: relatedArticles,
-                            mainContent: fs.readFileSync('tmp/' + path.basename(file.path).replace(/\.md/, '.html'))
+                            mainContent: fs.readFileSync('tmp/' + fileName),
+                            filePath: 'articles/' + id + '.html',
+                            majorVersion: majorVersion
                         }, {
                         partialsDirectory: ['./src/partials']
                     }))
                     .pipe(rename(id + '.html'))
                     .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                    .pipe(gulp.dest('./dist/articles'));
+                    .pipe(gulp.dest('./dist/pim/'+ majorVersion + '/articles'));
                 });
             });
         }));

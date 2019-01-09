@@ -33,7 +33,7 @@ The `Catalog volume monitoring` screen is composed of several sections.
 
 ### The most important one
 
-The first one is the most important one. It gives you the total number of [product values](/articles/what-is-a-product-value.html) that your PIM actually holds. This indicator gives you a representation of how extensive and valuable your PIM is.
+The first one is the most important one. It gives you the total number of [product values](what-is-a-product-value.html) that your PIM actually holds. This indicator gives you a representation of how extensive and valuable your PIM is.
 
 ![Number of product values widget](../img/Activity_CatalogVolumeMonitoring_PvWidget.png)
 
@@ -54,10 +54,10 @@ For example, the more channels or locales you have, the more product values you 
 
 The `Axes related to the catalog structure` section gathers all the axes that have an impact on your catalog structure.
 
-The `Axes regarding the variant modeling` section gathers the number of product models and [variant products](/articles/what-about-products-variants.html).
+The `Axes regarding the variant modeling` section gathers the number of product models and [variant products](what-about-products-variants.html).
 
 ::: ee
-In the Entreprise Edition, there is an additional section called `Axes on assets` that will give you the volume regarding [assets](/articles/work-with-assets.html).
+In the Entreprise Edition, there is an additional section called `Axes on assets` that will give you the volume regarding [assets](work-with-assets.html).
 :::
 
 ## The alerts

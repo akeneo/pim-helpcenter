@@ -37,14 +37,14 @@ The associated products can be identified by the input `Yes` in green in the `Is
 ## View the product’s associations (_since 2.1_)
 
 :::warning
-_Until 2.2_, only products can have associations, [product models](/articles/what-about-products-variants.html#what-is-a-product-model) can't have association.
+_Until 2.2_, only products can have associations, [product models](what-about-products-variants.html#what-is-a-product-model) can't have association.
 :::
 
 :::info
-_Since 2.3_, you can define associations on [product models](/articles/what-about-products-variants.html#what-is-a-product-model), refer to this [article](/articles/enrich-products-variants.html#associate-since-23) for more details.
+_Since 2.3_, you can define associations on [product models](what-about-products-variants.html#what-is-a-product-model), refer to this [article](enrich-products-variants.html#associate-since-23) for more details.
 :::
 
-Only the associated products or [product models](/articles/what-about-products-variants.html#what-is-a-product-model) are displayed in the `Associations` tab.
+Only the associated products or [product models](what-about-products-variants.html#what-is-a-product-model) are displayed in the `Associations` tab.
 
 ![View the associated products](../img/Products_ProductsAssociated21.png)
 
@@ -69,10 +69,10 @@ To associate a product with another product or group of products:
 ## Add associations to a product (_since 2.1_)
 
 :::info
-_Since the 2.1_, a product can be associated to a [product model](/articles/what-about-products-variants.html#what-is-a-product-model).
+_Since the 2.1_, a product can be associated to a [product model](what-about-products-variants.html#what-is-a-product-model).
 :::
 
-To add associations, there is a picker to select products or [product models](/articles/what-about-products-variants.html#what-is-a-product-model) to associate:
+To add associations, there is a picker to select products or [product models](what-about-products-variants.html#what-is-a-product-model) to associate:
 1.  Open the Product Form
 1.  Click on the `Associations` tab
 1.  Select the association type

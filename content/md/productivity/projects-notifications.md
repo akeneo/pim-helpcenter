@@ -8,7 +8,7 @@ ee-only: true
 
 # Overview
 
-With the Teamwork Assistant, you can follow up your product’s enrichment progress and receive notifications linked to [projects](/articles/what-is-a-project.html).
+With the Teamwork Assistant, you can follow up your product’s enrichment progress and receive notifications linked to [projects](what-is-a-project.html).
 
 A user will be notified when:
 - a new project he/she needs to work on is created,
@@ -17,7 +17,7 @@ A user will be notified when:
 
 Notifications are automatic. A contributor is notified when he/she has work to do: basically, required and empty attributes to fill in.
 
-::: panel-link Projects?![If you don't know what a project is, we have an article just for you! :wink:](/articles/what-is-a-project.html)
+::: panel-link Projects?![If you don't know what a project is, we have an article just for you! :wink:](what-is-a-project.html)
 :::
 
 # Who is notified?

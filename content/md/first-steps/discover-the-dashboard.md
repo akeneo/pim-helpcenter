@@ -21,13 +21,13 @@ Wherever you are in the PIM, to go back to the dashboard, just click on the Aken
 
 ## Teamwork assistant projects _(Enterprise Edition only)_
 
-In the Entreprise Edition, the first widget of the dashboard is the widget gathering the projects created with the [Teamwork Assistant](/articles/what-is-a-project.html).
+In the Entreprise Edition, the first widget of the dashboard is the widget gathering the projects created with the [Teamwork Assistant](what-is-a-project.html).
 
 ![Dashboard_Project](../img/Dashboard_Project.png)
 
 If no project is available you will see the message: «You have no current project, create a new project.»
 
-If you want to dig deeper into this widget, there is an [article](/articles/project-widget-dashboard.html) for you. ;)
+If you want to dig deeper into this widget, there is an [article](project-widget-dashboard.html) for you. ;)
 
 ::: ee
 This widget is only available for Enterprise Edition clients.
@@ -35,7 +35,7 @@ This widget is only available for Enterprise Edition clients.
 
 ## Completeness over channels and locales
 
-This widget gives you an overview of the [completeness](/articles/what-is-the-completeness.html) of your channels and locales.
+This widget gives you an overview of the [completeness](what-is-the-completeness.html) of your channels and locales.
 
 ![Dashboard_Completeness](../img/Dashboard_Completeness.png)
 
@@ -52,7 +52,7 @@ Each channel has 3 activated locales:
 For each locale, there is a completeness bar, the number of products completed vs the total number of products.
 
 ::: info
-All products are displayed on this widget, regardless of your [permissions on product categories](/articles/access-rights-on-products.html#rights-depending-on-the-categories).
+All products are displayed on this widget, regardless of your [permissions on product categories](access-rights-on-products.html#rights-depending-on-the-categories).
 :::
 
 
@@ -74,11 +74,11 @@ To bring you more visibility on the job status, it is displayed in green when su
 
 ## Proposals to review _(Enterprise Edition only)_
 
-In the Entreprise Edition and depending on [your permissions](/articles/access-rights-on-products.html), you might see an additional widget that allows you to [review suggestion of modifications made on products](/articles/review-products-proposals.html).
+In the Entreprise Edition and depending on [your permissions](access-rights-on-products.html), you might see an additional widget that allows you to [review suggestion of modifications made on products](review-products-proposals.html).
 
 ![Proposals to review](../img/Activity_Proposals.png)
 
-This widget will display the latest [proposals](/articles/proposals-workflow.html) for review. To see all pending reviews, click on the `View all` button.
+This widget will display the latest [proposals](proposals-workflow.html) for review. To see all pending reviews, click on the `View all` button.
 
 ::: ee
 This widget is only available for Enterprise Edition clients.

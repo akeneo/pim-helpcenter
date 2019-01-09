@@ -19,7 +19,7 @@ To access your account information:
 Click on `Edit` to change your profile information or settings. New tabs will appear once in edit mode: `Groups and Roles` and `Password`.
 
 ::: ee
-Enterprise Edition clients will also see a `Notifications` tab to manage notifications for the [proposals workflow](/articles/proposals-workflow.html) (feature only available on the EE version).
+Enterprise Edition clients will also see a `Notifications` tab to manage notifications for the [proposals workflow](proposals-workflow.html) (feature only available on the EE version).
 :::
 
 ## Your general information
@@ -49,7 +49,7 @@ If no default filters are defined, system attributes (family, groups, status, co
 
 ## Your groups and roles
 
-To edit your [user groups](/articles/what-is-a-user-group.html) and [roles](/articles/what-is-a-user-roles.html):
+To edit your [user groups](what-is-a-user-group.html) and [roles](what-is-a-user-roles.html):
 1. Click on the `Groups and Roles` tab
 1. On the top of the page, you will see the user group(s) you belong to, and then your user role(s). Check/uncheck to change your groups/roles.
 2. Click on `Save` to save your changes
@@ -99,7 +99,7 @@ Still in edition mode in your profile account:
 2.  Select the default language for your account (`Time zone` field)
 3.  Click on `Save` to save your changes
 
-This time zone is used all over the PIM interface: Product Form meta data and `History` panel, product grid, [last operations widget](/articles/discover-the-dashboard.html#last-operations) of the dashboard, [process tracker](articles/monitor-jobs.html#how-to-monitor), [published products grid](/articles/how-to-manage-my-publications.html#view-the-published-products) (EE only) and [asset grid](/articles/work-with-assets.html#view-the-assets-list) (EE only).
+This time zone is used all over the PIM interface: Product Form meta data and `History` panel, product grid, [last operations widget](discover-the-dashboard.html#last-operations) of the dashboard, [process tracker](monitor-jobs.html#how-to-monitor), [published products grid](how-to-manage-my-publications.html#view-the-published-products) (EE only) and [asset grid](work-with-assets.html#view-the-assets-list) (EE only).
 
 ## Your notifications preferences _(EE only)_
 
@@ -112,20 +112,20 @@ If you wonder how to use these preferences, take a look below.
 
 ### The `When new proposal to review` notification
 
-If you activate this preference, you will receive notifications everytime you will have a [proposal](/articles/proposals-workflow.html) to review.
+If you activate this preference, you will receive notifications everytime you will have a [proposal](proposals-workflow.html) to review.
 
 ![image](../img/System_users_Profil_edit_notifs.png)
 
 ::: info
-You will only see this option in the case you own at least one product, meaning you have the `Own products` permission for at least one category. To learn more about this permission, it's [here](/articles/access-rights-on-products.html)!
+You will only see this option in the case you own at least one product, meaning you have the `Own products` permission for at least one category. To learn more about this permission, it's [here](access-rights-on-products.html)!
 :::
 
 ### The `When proposal is approved or rejected` notification
 
-If you activate this preference, you will receive notifications when your [proposals](/articles/proposals-workflow.html) are approved or rejected by your reviewers.
+If you activate this preference, you will receive notifications when your [proposals](proposals-workflow.html) are approved or rejected by your reviewers.
 
 ![image](../img/System_users_Profil_edit_notifs2.png)
 
 ::: info
-You will only see this option in the case you have only edit rights on at least one product, meaning you only have the `Edit products` permission for at least one category. To learn more about this permission, it's [here](/articles/access-rights-on-products.html)!
+You will only see this option in the case you have only edit rights on at least one product, meaning you only have the `Edit products` permission for at least one category. To learn more about this permission, it's [here](access-rights-on-products.html)!
 :::
