@@ -131,7 +131,7 @@ For example, you can now easily and massively add a new asset to several product
 8.  Confirm the action with the `Confirm` button located in the middle of the screen
 9.  The attributes values will be added in the selected products. The previous attributes values are kept.
 
-:::warning
+:::info
 Like the `Edit attribute values`, this action **will not add new attribute to products, it will only update the attribute values that already belong to the families of the selected products.**
 :::
 
