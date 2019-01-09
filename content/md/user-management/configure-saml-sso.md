@@ -1,0 +1,121 @@
+---
+id: configure-saml-sso
+themes: user-management
+title: Configure the SAML-based **Single Sign-On**
+popular: false
+ee-only: true
+related:
+priority: low
+---
+
+# Overview
+
+Single Sign-On (aka SSO) is an authentication process that allows a user to access multiple applications with only one set of credentials.
+
+Single Sign-On is a common practice around corporations that handles lots of users and lots of applications.
+
+## Common SAML terms
+
+Understanding how SAML-based Single Sign-On work can be a complicated task as it introduces terms that can be obscure at first glance.
+
+### Identity Provider (IdP)
+
+The `Identity Provider` is the authority that verifies the user's identity and grant access to a requested application (aka the `Service Provider`)
+
+### Service Provider (SP)
+
+The `Service Provider` is the hosted resource that the user tries to access. In our scenario, the SP is a part of the PIM that handles the authentication process.
+
+### Entity ID
+
+An Entity ID is a globally unique name for an `Identity Provider` or a `Service Provider`. This unique name is used to identify each parties in the SSO process.
+For the `Service Provider`, the Entity ID is automatically generated and corresponds by default to the metadata URL of the SP.
+
+### Assertion Consumer Service (ACS)
+
+The ACS is the SP endpoint (URL) that is responsible for receiving the SAML response from the IdP.
+
+### Metadata
+
+Metadata is a set of information supplied either by the IdP or the SP, in XML format.
+* `Service Provider`: The SP supplied metadata provide the Entity ID, the X.509 certificate used for decrypting messages coming from the SP, the Logout URL and the ACS URL.
+
+:::tips
+The SP metadata information can be accessed at the following URL: https://YOUR_PIM_SERVER/saml/metadata. Depending on your IdP, this metadata URL can be imported into the IdP to ease the configuration process of your application.
+:::
+
+* `Identity Provider`: The IdP can also supply metadata to help configure the SAML communication. At this time, it is not possible to import it in the PIM to configure the Single Sign-On.
+
+## What is SAML?
+
+SAML (Security Assertion Markup Language) is an XML-based standard for exchanging authentication data between an `Identity Provider (IdP)` (such as Microsoft Azure AD) and a `Service Provider (SP)` (in our case our beloved PIM).
+
+# Gather information from your Identity Provider (IdP)
+
+First of all, before configuring your PIM to communicate with an `Identity Provider`, you will have to gather some information about your IdP. Your IT department/SSO administrator must probably have all the information.
+
+# Configure your Service Provider (SP) in your PIM to communicate with the IdP
+
+## Activate/Disable the Single Sign-On feature
+
+### Activate the Single Sign-On feature
+
+To activate the Single Sign-On feature, just click on the `SSO enabled` button in the interface.
+Once enabled, all the authentication requests will be redirected to the authentication server you specified.
+
+### Disable the Single Sign-On feature
+
+To disable the Single Sign-On feature, just click on the `SSO enabled` button in the interface.
+Once disabled, all the authentication requests will go through the classical login interface.
+
+## Configure the Identity Provider (IdP) section
+
+Using the information you gather previously, you can fill all the required fields that are required to communicate with the IdP.
+The mandatory values are the following:
+* `Entity ID`: String that uniquely identify your IdP (it is in general provided by your IdP)
+* `Sign-on URL`: URL that will be used when a user tries to log in the PIM
+* `Logout URL`: URL that will be used when a user ask for logout action in the PIM
+* `Public certificate`: As the communications are encrypted between the SP and the IdP, the IdP public key is required in order to decrypt any incoming message.
+
+:::info
+Certificates must be in X.509 format.
+:::
+
+## Configure the Service Provider (SP) section
+
+The information required for configuring the SP are the following:
+* `Entity ID`: String that uniquely identify your SP (this information needs to be provided to the IdP)
+* `Public and Private key certificates`: As the communications are encrypted, the private and public keys are required to encrypt outgoing messages.
+
+:::info
+By default, the SP configuration is automatically populated during the first access to the SSO configuration page. If you want to provide your own certificate, you can paste the public and private key certificates in the corresponding fields.
+:::
+
+:::info
+The SP certificate is self-signed and is generated to never expire. You will never have to renew it.
+:::
+
+# Tips and tricks for configuring the SAML-based SSO
+
+## About users in the PIM
+
+Once the SSO will be activated, the passwords that exists on the PIM will no longer be used.
+On the other hand, the users created in the PIM will still be needed to make the connection between the users coming from the IdP and the user rights existing in the PIM.
+
+You will have to make sure that all the potential users in your IdP that can access the PIM have an account configured in the PIM.
+Unknown users are not generated on-the-fly when accessing the PIM. If a user doesn't exist in the PIM, he will not be able to access the PIM and an error will be raised.
+
+## About user claims
+
+User claims are information that the Service Provider expects when a authentication is made on the IdP and the positive response comes back to the PIM.
+The IdP response must contain the following attributes:
+* **akeneo-uid**: Will be used to check the username in the PIM database. This is the most important part of the SAML communication.
+* **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname**: Last name of the user
+* **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname**: First name of the user
+* **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress**: Email of the user
+
+## About security
+
+By design, in order to have the more secured process, all communications between the Identity Provider and the Service Provider have to be encrypted.
+
+Moreover, as far as security is involved, it is mandatory to use the HTTPS protocol around the PIM. Using HTTP communication may be a serious security breach.
