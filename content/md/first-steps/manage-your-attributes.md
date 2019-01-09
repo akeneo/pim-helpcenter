@@ -79,7 +79,7 @@ To create an attribute in the PIM:
     - A **value per channel** (Yes/No): Will your product attribute values differ on the channels?
     - A **value per locale** (Yes/No): Will your product attribute values differ on the locales?
     - **Locale specific**: to enable this attribute only to specific locales and not all of them
-    - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
+    - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid _(Community and Enterprise Edition)_ or in the proposal grid _(Enterprise Edition only)_
     - **Read only**: when enabled it prevents this attribute from being edited through the UI, it can only be updated through imports, API or rules _(Enterprise Edition only)_
     - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types)).    
 1. Click on `Save` to create your attribute.
@@ -153,8 +153,8 @@ You can change the following properties of an attribute:
 - **Attribute group**: the attribute group the attribute belongs to
 - **Labels**: these are labels that appear when they are displayed in the PIM
 - **Locale specific**: if it must apply to specific locales not all of them
-- **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
-- **Read only**: only for Enterprise Edition users, when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules.
+- **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid _(Community and Enterprise Edition)_ or in the proposal grid _(Enterprise Edition only)_
+- **Read only**: when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules _(Enterprise Edition only)_
 - **Validation parameters** (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
 - **Options** (for simple or multi select attribute types only): these are predefined values that the user can select
 
@@ -220,14 +220,14 @@ A deleted option can no longer be used as a value for the attribute of a product
 :::
 
 ::: warning
-**_Since 2.3_, if an attribute option is used in a variant product or a product model as a variant axis value, the option cannot be removed**, an error message will be displayed. Please refer to the [what is a family variant](what-about-products-variants.html#what-is-a-family-variant) article for more details about variant axes.
+**If an attribute option is used in a variant product or a product model as a variant axis value, the option cannot be removed**, an error message will be displayed. Please refer to the [what is a family variant](what-about-products-variants.html#what-is-a-family-variant) article for more details about variant axes.
 :::
 
 ::: ee
 An option that is used by a published product cannot be deleted. Unpublish the product to be able to delete the option.
 :::
 
-# Manage rules on attributes (EE only)
+# Manage rules on attributes _(EE only)_
 
 If you are not familiar with the concept of rules, you can read our [What is a rule?](what-is-a-rule.html) article.   
 

@@ -47,7 +47,7 @@ But you can also execute rules on your own, you can execute:
 *   all your rules (be aware, this action could take a long time)
 
 :::info
-Since the 2.2, the rules support [product models](what-about-products-variants.html#what-is-a-product-model), so rules can be defined also on attributes at the product model level (or sub product model level).
+The rules support [product models](what-about-products-variants.html#what-is-a-product-model), so rules can be defined also on attributes at the product model level (or sub product model level).
 :::
 
 ## Execute a single rule
@@ -65,7 +65,7 @@ You can also execute several rules at the same time:
 
 # Create a rule
 
-Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/2.0/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.
+Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.
 
 ::: info
 For more details about how to execute an import, please refer to [Import your data](imports.html).

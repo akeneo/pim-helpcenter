@@ -8,7 +8,7 @@ ee-only: true
 
 # Display key figures
 
-A new widget will display you key information on your dashboard. You will see information like the remaining number of products that have none of the required attributes filled in the TODO section, the number of products with at least one required attribute in the IN PROGRESS section and finally the number of products that are complete in the DONE section.
+A new widget will display you key information on your dashboard. You will see information like the remaining number of products that have none of the required attributes filled in the `TODO` section, the number of products with at least one required attribute in the `IN PROGRESS` section and finally the number of products that are complete in the `DONE` section.
 
 Under each figure, you will find a percentage. Each percentage will inform you about the 3 statuses’ progress.
 
@@ -28,7 +28,7 @@ When you display the project widget, you can easily see the products by clicking
 For example if you click on the widget `In Progress` which displays 25 as a figure, the product grid will be prompted and filtered with the 25 products.
 
 ::: info
-Since 2.3, if you create a project including product models, the project widget will always display the number of variant products. If you click on a project widget, the product grid will also display variant products, you can start the product enrichment!
+If you create a project including product models, the project widget will always display the number of variant products. If you click on a project widget, the product grid will also display variant products, you can start the product enrichment!
 :::
 
 # Browse projects and users

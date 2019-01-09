@@ -28,8 +28,8 @@ To create a new family, follow these steps:
 
 Your new family is now created. The family's `Properties` tab is displayed.     
 You can give additional properties to your family:      
-*   **Set an `attribute used as label (required)`**: a **text or identifier attribute** that will be used as the **default name for products** belonging to this family. The attribute selected as label **will appear in the product grid** (as the "Label" column) and in **the product form's header**.
-*   **Set an `attribute used as the main picture`**: an **`image` or `assets collection` (since 2.1) attribute** that will be used as **"the main picture" for products** belonging to this family. This attribute used as main image will be displayed **in the product grid** (as the "image" column) and in **the product form's header**. **Localizable and/or scopable attributes cannot be used as main product pictures**.
+*   **Set an `attribute used as label` (required)**: a **text or identifier attribute** that will be used as the **default name for products** belonging to this family. The attribute selected as label **will appear in the product grid** (as the "Label" column) and in **the product form's header**.
+*   **Set an `attribute used as the main picture`**: an **`image` or `assets collection` attribute** that will be used as **"the main picture" for products** belonging to this family. This attribute used as main image will be displayed **in the product grid** (as the "image" column) and in **the product form's header**. **Localizable and/or scopable attributes cannot be used as main product pictures**.
 *   Translate the family's label with `Labels translations`: allow you to translate your family name into the locales enabled in the PIM.
 
 These information can be edited afterwards.     
@@ -182,11 +182,11 @@ Through the `Delete` shortcut in the grid:
 1. Confirm the action in the validation message
 
 ::: warning
-A family with family variants cannot be deleted. You first need to [delete its family variants](manage-your-families.html#delete-a-family-variant-since-22).
+A family with family variants cannot be deleted. You first need to [delete its family variants](manage-your-families.html#delete-a-family-variant).
 :::
 
 ::: warning
-_Since 2.3_, a family cannot be deleted if there are some products within this family, you first need to remove the products from this family (refer to [the bulk action change family of products](product-mass-actions.html)).
+A family cannot be deleted if there are some products within this family, you first need to remove the products from this family (refer to [the bulk action change family of products](product-mass-actions.html)).
 :::
 
 ::: ee
@@ -283,7 +283,7 @@ Moving attributes from `common attributes` to a variant level or from the `varia
 **You cannot move a variant axis** or **an attribute with the property `unique value` at `Yes`**.
 :::
 
-## Translate a family variant label (_since 2.3_)
+## Translate a family variant label
 
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
 1.  Click on a family variant
@@ -293,7 +293,7 @@ Moving attributes from `common attributes` to a variant level or from the `varia
 ![Display a family variant](../img/Settings_Families_Variant_Translate.png)
 1.  Click on `Save`
 
-## Delete a family variant (_since 2.2_)
+## Delete a family variant
 
 ::: warning
 **A family variant can be deleted if it does not contain any [product model](what-about-products-variants.html#what-is-a-product-model)**. If it has product models, an error message will be displayed. You will have to delete those products to be able to delete your family variant.

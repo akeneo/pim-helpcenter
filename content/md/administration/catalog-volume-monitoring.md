@@ -1,7 +1,7 @@
 ---
 id: catalog-volume-monitoring
 themes: administration, akeneo-concepts, catalog-settings 
-title: Monitor your **catalog size** (since 2.3)
+title: Monitor your **catalog size**
 popular: false
 related: what-is-a-product-value, what-is-an-attribute, what-is-a-family, what-is-a-channel, what-is-a-locale, what-is-a-category
 ---
@@ -13,10 +13,6 @@ In the PIM, there is a dedicated dashboard that will help you monitor your catal
 For example, you'll be able to track the number of families and the average number of attributes per family.
 
 ![Catalog volume monitoring dashboard](../img/Activity_CatalogVolumeMonitoring.png)
-
-::: warning
-This screen is only available starting with the 2.3 version of the PIM.
-:::
 
 # Where is it?
 
@@ -44,7 +40,7 @@ We wrote an [article](https://medium.com/akeneo-labs/because-your-product-catalo
 ::: tips
 You can't see the widget we are talking about? What a shame!  
 If you are a Community Edition user or working on the On-Premise or PaaS version, it's probably because you or your administrator didn't launch the CRON job to calculate the values shown in this widget.  
-To do so, please refer to our technical documentation: over [here](https://docs.akeneo.com/2.3/install_pim/manual/installation_ce_archive.html#configuring-tasks-via-crontab) for CE and over [there](https://docs.akeneo.com/2.3/install_pim/manual/installation_ee_archive.html#configuring-tasks-via-crontab) for EE.
+To do so, please refer to our technical documentation: over [here](https://docs.akeneo.com/latest/install_pim/manual/installation_ce_archive.html#configuring-tasks-via-crontab) for CE and over [there](https://docs.akeneo.com/latest/install_pim/manual/installation_ee_archive.html#configuring-tasks-via-crontab) for EE.
 :::
 
 ### The other sections

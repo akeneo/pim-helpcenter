@@ -9,7 +9,7 @@ related: manage-your-views, what-is-a-category, what-is-a-channel, what-is-a-loc
 
 # Where is the product grid?
 
-To access your products: click on the main menu (Products). You will land on the product grid.
+To access your products: click on the `Products` menu. You will land on the product grid.
 
 This page contains all information you need to start working on your catalog: your products, your categories, some filters, your scopes and locales.
 
@@ -55,7 +55,7 @@ The available channels are those concerned with the locale selected higher up on
 Like the locale, the channel selected on the product grid’s page is applied when editing a product form.
 :::
 
-# Product grid display (_since 2.1_)
+# Product grid display
 
 To highlight the products' images, a `Gallery` display of the product grid is available. This display can be used to quickly find products by their images and update them.
 
@@ -170,7 +170,7 @@ If you are missing an attribute in the Filters menu check if it is well activate
 Only the attributes that you can view or edit are available in the list of filters on the product grid.
 :::
 
-## Search by label and identifier (_since 2.1_)
+## Search by label and identifier
 
 To quickly find products, a search bar is available in the product grid.
 The search is only on the identifier (product identifier or [product model](what-about-products-variants.html#what-is-a-product-model) code) and the label (attribute used as "label" in the [product family](manage-your-families.html#create-a-family)).

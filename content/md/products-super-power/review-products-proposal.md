@@ -29,14 +29,14 @@ The proposals with the status `In progress` are not displayed in these grids.
 :::
 
 ::: info
-**Reminder**
+**Reminder**  
 A contributor can only send one single proposal per product.  
 A proposal can gather several changes on a product.
 :::
 
-# Filter the proposals (since 2.2)
+# Filter the proposals
 
-To quickly find products with proposals, a search bar on product label and product identifier is available. Its behaviour is the same as in the [product grid](products-grid.html#search-by-label-and-identifier-since-21.html).
+To quickly find products with proposals, a search bar on product label and product identifier is available. Its behaviour is the same as in the [product grid](products-grid.html#search-by-label-and-identifier.html).
 
 The proposal grid also includes [filter management](products-grid.html#use-filters) to search on new attributes values. By default, the PIM displays the following filters: family, author, proposed date and SKU.
 

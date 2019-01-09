@@ -19,7 +19,7 @@ By default, the [product model](what-about-products-variants.html#what-is-a-prod
 To recognize a product model in the grid, it's displayed with a pile of pictures which means that some variant products are behind this model.
 :::
 
-A product model has no completeness, but you can follow the completeness of its variant products in the column `Variant products` in the grid, with:
+A product model has no completeness, but you can follow the completeness of its variant products in the `Variant products` column in the grid, with:
 - 1st number: the number of complete variant products for this product model  
 - 2nd number: the total number of variant products behind this product model
 
@@ -44,20 +44,20 @@ To easily manage up to 3 levels of enrichment for the products with variants, we
 By default, if no filter in the grid, the products are grouped by product models, so the product models are displayed in the grid.
 :::
 
-Let's take an example with a t-shirt model "model-tshirt-divided" with 2 variant levels, available in 3 colors (blue, red, grey) and each color is available in 4 different sizes (S, M, L, XL).
+Let's take an example with a t-shirt model `model-tshirt-divided` with 2 variant levels, available in 3 colors (blue, red, grey) and each color is available in 4 different sizes (S, M, L, XL).
 When you open the grid, one line for this t-shirt model is displayed (12 variant products are grouped in this product model).
 
 ![Grid with product models](../img/Products_ProductModel_Search1.png)
 
 As done on e-commerce websites, if you are looking for clothes with the color "red", red clothes will be automatically displayed in the grid.
 
-So in our example, you add the filter on the attribute `color` and select the option `red`, the [sub product model](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) "model-tshirt-divided-red" is displayed in the grid (with 4 red variant products in S, M, L, XL sizes)
+So in our example, you add the filter on the `color` attribute and select the `red` option, the `model-tshirt-divided-red` [sub product model](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed)  is displayed in the grid (with 4 red variant products in S, M, L, XL sizes).
 
 ![Search results with color red](../img/Products_ProductModel_Search2.png)
 
-If you are looking for clothes with the color "red" and the size "S", red clothes with the size S will be displayed in the grid.
+If you are looking for clothes with the `red` color and the `S` size, red clothes with the S size will be displayed in the grid.
 
-So in our example, you keep the filter on the `color` attribute with the option `red` and you add a filter on the attribute `size` and select the option `S`. For this t-shirt model, only one product has the color red and the size S, so the variant product "tshirt-divided-red-s" is displayed in the grid with its completeness.
+So in our example, you keep the filter on the `color` attribute with the `red` option and you add a filter on the attribute `size` and select the `S` option. For this t-shirt model, only one product has the color red and the size S, so the `tshirt-divided-red-s` variant product is displayed in the grid with its completeness.
 
 ![Search results with color red and size S](../img/Products_ProductModel_Search3.png)
 
@@ -65,21 +65,20 @@ So in our example, you keep the filter on the `color` attribute with the option 
 If you would like to display only products in the grid, you just have to filter on an attribute that is always at the product level, whatever the [family variant](what-about-products-variants.html#what-is-a-family-variant), for example the identifier ("SKU").
 :::
 
-## Filter on the categories (_since 2.3_)
+## Filter on the categories
 
-:::info
-_Since 2.3_ if you search by categories, the grid will automatically display the product models or the products classified according to the category selected in the grid.
+If you search by categories, the grid will automatically display the product models or the products classified according to the category selected in the grid.
+
 If a product model is not classified in the selected category but its children products are, the products will be displayed in the grid.
 So all the filters, attributes and categories selected in the grid, will be taken into account to display the level you would like to enrich. Either a product model, or a product.
-:::
 
 :::info
 For more details about the classification of products with variants, please read this [paragraph](enrich-products-variants.html#categorize) in the article.
 :::
 
-Let's take again our previous example, the t-shirt model "Model-tshirt-divided" is classified in the "T-shirts" category, its color red is classified in the "Christmas" category and the products with the sizes S (red S, blue S, grey S) are classified in the category "Small".
+Let's take again our previous example, the t-shirt model "Model-tshirt-divided" is classified in the `T-shirts` category, its color red is classified in the `Christmas` category and the products with the sizes S (red S, blue S, grey S) are classified in the `Small` category.
 
-If you click on the `T-shirts` category, the product model "Model-tshirt-divided" is displayed in the grid.
+If you click on the `T-shirts` category, the `Model-tshirt-divided` product model is displayed in the grid.
 
 ![Grid with product models](../img/Products_ProductModel_SearchCat1.png)
 
@@ -100,7 +99,7 @@ For the completeness filter `Complete`:
 - If you select `No`, the product models with at least one variant product incomplete are displayed in the grid
 - If you select `All`, there is no filter on the completeness
 
-## Filter on the parent product model (_since 2.1_)
+## Filter on the parent product model
 
 To display the children of a product model, you can filter on the `parent` attribute in the product grid with the product model code.
 
@@ -121,7 +120,7 @@ For more details about the product form, you can read [Enrich your product](work
 
 For product models, the following properties are displayed in the product form header:
 - The number of complete variant products out of the number of variant products for a product model in `Variant products` (ex: 2/6 means that 2 variants out of 6 for the product model are complete)
-- The total `missing required attributes` (_since the 2.1_) for a product model. If you click on it, it displays only the attributes that are required for the completeness but that are still incomplete (it filters on display `All missing required attributes`).
+- The total `missing required attributes` for a product model. If you click on it, it displays only the attributes that are required for the completeness but that are still incomplete (it filters on display `All missing required attributes`).
 
 ![Header for product model](../img/Products_ProductModel_Header.png)
 
@@ -172,7 +171,7 @@ In a variant level, you can view the common attributes but you can not update th
 
 ![SIZE for product model](../img/Products_ProductModel_PEFEnrich2.png)
 
-_Since the 2.3_, we added in the product form a new filter `Display all level specific attributes` to display only the attributes managed at the current level that can be enriched.
+In the product form there is a filter called `Display all level specific attributes` to display only the attributes managed at the current level that can be enriched.
 This is very easy: just click on the drop down `Display all attributes` and select `Display all level specific attributes`. That's it!
 This filter is available only for variant products and [sub product models](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) (if family variant with 2 variant levels).
 
@@ -191,7 +190,7 @@ You can then add categories for a specific variant level. For example, your mode
 You can add categories on the products for this product model but on a product you can not remove a category of its parent, the category is disabled in the tree. If you would like to remove it, go in `COMMON` or in the dedicated level.
 :::
 
-## Associate (_since 2.3_)
+## Associate
 
 In `COMMON`, in the `Associations` tab, you can define associations for the whole product model and all its children products will be also associated.
 
@@ -199,7 +198,7 @@ For example, you can define associations for this t-shirt model.
 
 ![COMMON for product model](../img/Products_ProductModel_PEFAssociation1.png)
 
-You can also add associations for a specific variant level. For example, you define an association only for the color `Red`.
+You can also add associations for a specific variant level. For example, you define an association only for the `Red` color.
 
 ![COLOR for product model](../img/Products_ProductModel_PEFAssociation2.png)
 

@@ -69,5 +69,5 @@ Project’s contributors and creator are notified at different steps of a projec
 1.  At the end of the project: when a project is 100% complete
 
 ::: info
-Our developer guide (aka our cookbook) contains additional information about how to customize notifications and change the number of default days for the reminder [See Customize notification](https://docs.akeneo.com/2.0/manipulate_pim_data/teamwork_assistant/customize_notification.html#overview).
+Our developer guide (aka our cookbook) contains additional information about how to customize notifications and change the number of default days for the reminder [See Customize notification](https://docs.akeneo.com/latest/manipulate_pim_data/teamwork_assistant/customize_notification.html#overview).
 :::
