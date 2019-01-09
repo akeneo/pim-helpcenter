@@ -155,7 +155,7 @@ In order to save you some time, you can also directly categorize products in cat
 
 Confirm the action with the `Confirm` button located in the middle of the screen.
 
-:::warning
+:::info
 These bulk actions also support [product models](what-about-products-variants.html#what-is-a-product-model).
 :::
 
