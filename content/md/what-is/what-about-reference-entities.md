@@ -14,8 +14,8 @@ Let's take an example of a product page.
 
 There are many types of product information such as text, images...  
 Some information are shared between different products (such as the definition of care instructions, colors or brands).  
-These shared information can be complex with their own attributes (eg a label, a logo, a description or photos for the brand).  
-They may have dedicated pages on the e-commerce website (eg dedicated pages for each brand) or their information may enrich each product page (logo of the brand).
+This shared information can be complex with their own attributes (e.g. a label, a logo, a description or photos for the brand).  
+They may have dedicated pages on the e-commerce website (e.g. dedicated pages for each brand) or their information may enrich each product page (e.g. logo of the brand).
 
 # A bit of vocabulary
 ## What's a reference entity?
@@ -45,7 +45,7 @@ For the `Brand` reference entity, a record contains all the information regardin
 
 
 :::info
-A record may be related to one or more products.
+A record may be related to one or several products.
 :::
 
 # Let's create your first reference entity!
