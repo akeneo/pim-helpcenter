@@ -12,11 +12,11 @@ related: what-about-reference-entities, enrich-your-reference-entity-records
 To display the existing [reference entities](/articles/what-about-reference-entities.html), click on `Entities` menu.   
 
 By default, no reference entity is created, from this single place, you can:
-- Create your 1st reference entity
-- Define its properties (`Properties` tab)
-- Define its records attributes (`Attributes` tab)
-- Create and enrich its records (`Records` tab)
-- Define which user groups can view or edit this reference entity and its records (`Permissions` tab)
+- [Create your 1st reference entity  ](/articles/manage-reference-entities.html#create-a-reference-entity)
+- [Define its properties ](/articles/manage-reference-entities.html#define-its-properties) (`Properties` tab)
+- [Define its records attributes ](/articles/manage-reference-entities.html#define-its-records-attributes) (`Attributes` tab)
+- [Create and enrich its records ](/articles/enrich-your-reference-entity-records.html) (`Records` tab)
+- [Define its permissions](/articles/manage-reference-entities.html#set-permissions-on-a-reference-entity), which user groups can view or edit this reference entity and its records  (`Permissions` tab)
 
 If a reference entity has already been created, simply click on it to access its information.
 
@@ -35,6 +35,10 @@ To create a [reference entity](/articles/what-about-reference-entities.html), fo
 
 Then you can [define its properties](/articles/manage-reference-entities.html#define-its-properties) (`Properties` tab) and [define its records attributes](/articles/manage-reference-entities.html#define-its-records-attributes) (`Attributes` tab).
 
+:::info
+To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 reference entities for this feature. If you try to create more than 100 reference entities, you will have a blocking message.
+:::
+
 # Define its properties
 In `Properties` tab, you can edit the label of the reference entity and upload an image used to identify the reference entity in the PIM.
 
@@ -43,8 +47,16 @@ You can also translate the label of the reference entity by switching the curren
 ![image](../img/ReferenceEntity_EditProperties.png)
 
 # Define its records attributes
-In `Attributes` tab, you can define what are the attributes for the records of this reference entity.
-For example, a `Brand` reference entity could be described by the following information: a code, a label, an image, a country, a designer, a foundation date, a photo, a description.
+In `Attributes` tab, you can define what are the attributes for the records of this reference entity.  
+For example, a `Brand` reference entity could be described by the following information:
+- a code
+- a label
+- an image
+- a country
+- a designer
+- a foundation date
+- a photo
+- a description
 
 ## Add an attribute
 To add an attribute, follow these steps:
@@ -55,11 +67,11 @@ To add an attribute, follow these steps:
 1.  Select the attribute type:
  ![image](../img/ReferenceEntity_AddAttribute_Type.png)
     - **Text**: for text or text area attributes
-    - **Reference entity simple link**: to link a record to only one entity record
-    - **Reference entity multiple link**: to link a record to several entity records
+    - **Reference entity single link**: to link a record to only one entity record
+    - **Reference entity multiple links**: to link a record to several entity records
     - **Single option**: to define a list of options with a single choice
     - **Multiple options**: to define a list of options with multiple choices
-1.  If the attribute type is a **reference entity simple/multiple link**, select the reference entity to link to this attribute in the list
+1.  If the attribute type is a **reference entity single/multiple link**, select the reference entity to link to this attribute in the list
 1.  Tick `Value per locale` if your record could have different values per locale for this attribute
 1.  Tick `Value per channel` if your record could have different values per channel for this attribute
 1.  Click on `Save` button  
@@ -70,6 +82,10 @@ The attribute is now created and an edit pop-in opens with the attribute paramet
 
 :::warning
 These attributes parameters, except the label, can't be edited afterwards.  
+:::
+
+:::info
+To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 attributes per reference entity for this feature. If you try to create more than 100 attributes, you will have a blocking message.
 :::
 
 ## Edit an attribute
@@ -110,11 +126,15 @@ To define the options for a single/multiple options attribute, follow these step
 1.  Click on the `Manage options` button
 1.  A fullscreen opens to manage the options
 
+![image](../img/ReferenceEntity_ManageOptions.png)
+
 ### Add options
 1. Write your option label
 1. The option code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
 1. Write your next option label
 1. Click on `Save` button, the fullscreen is closed
+
+![image](../img/ReferenceEntity_AddOptions.png)
 
 :::warning
 The code can't be edited afterwards, you can only edit/translate the label.  
@@ -124,11 +144,18 @@ The code can't be edited afterwards, you can only edit/translate the label.
 To quickly input all your options, you just have to input the 1st label, then press `Enter`, input the 2nd label, then press `Enter` and so on...
 :::
 
+:::info
+To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 options per attribute for this feature. If you try to create more than 100 options, you will have a blocking message.  
+If you need to manage more than 100 options per attribute, we advise you to create a dedicated reference entity that can be linked to this entity.
+:::
+
 ### Translate options
 1. Change the catalog locale using the switcher
 1. Translate the option label
 1. Translate the next option label
 1. Click on `Save` button, the fullscreen is closed
+
+![image](../img/ReferenceEntity_TranslateOptions.png)
 
 :::info
 To help you for the translation, the labels of the option on other locales are displayed in the right panel.
@@ -142,10 +169,8 @@ To quickly translate all your options, you just have to translate the 1st label,
 ### Remove options
 To remove an option, click on the cross at the end of the option line.
 
-**TO COMPLETE**
-
 ## Define the completeness
-To define the attribute required for the completeness of a record:
+To define the attributes required for the completeness of a record:
 1.  Go to `Attributes` tab for a reference entity
 1.  Click on `Edit` icon for an attribute
 1.  Tick `Required for completeness` if this attribute is required for the completeness of a record
@@ -181,4 +206,28 @@ You cannot delete a reference entity if:
 :::
 
 # Set permissions on a reference entity
-**TO COMPLETE**
+You can define which user groups can view or edit this reference entity, its properties, its attributes and its records.  
+The Edit right means add, edit and delete.
+
+:::info
+It's not possible to hide a reference entity.
+:::
+
+To define the permissions on a reference entity, follow these steps:
+1.  Go to `Permissions` tab of the reference entity
+1.  For each user group, tick to give the `View` or `Edit` rights
+1.  Click on `Save` button to save the Permissions
+
+![image](../img/ReferenceEntity_Permissions.png)
+
+For example, a user in the `Manager` group can edit this `Brand` reference entity, so add and edit attributes or add and enrich some brands.
+A user in the `Clothes managers` group only view this `Brand` reference entity, so only view its attributes and view the brands.
+
+:::tips
+If you want that all your user groups have the edit rights, click on `EDIT` in the columns title and all the user groups will be ticked with `Edit` rights.  
+If you want that almost all your user groups have the view rights, click on `VIEW` in the columns title and all the user groups will be ticked with `View` rights. And then, tick with `Edit` rights some user groups.
+:::
+
+:::warning
+At least one user group should have `Edit` rights on a reference entity to manage the permissions on this reference entity.
+:::
