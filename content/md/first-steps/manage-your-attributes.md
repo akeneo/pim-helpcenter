@@ -100,7 +100,7 @@ We strongly recommend you not to use any of these codes even if the letter case 
 If you cannot access the attribute page or if you cannot add a new attribute, it is probably because you do not have the role permission to. Please refer to [Manage your user roles](/articles/build-your-user-roles.html) to learn more about roles.
 :::
 
-## Parameters according to specific attributes types 
+## Parameters according to specific attributes types
 
 Each attribute has specific properties to add more control on attribute's values:
 - **Date** attribute:
@@ -131,7 +131,7 @@ Each attribute has specific properties to add more control on attribute's values
   - *Allow decimals*
   - *Minimum value*: the smallest allowed value
   - *Maximum value*: the largest allowed value
-- **Reference entity simple link & multiple links** attribute _(EE only)_:
+- **Reference entity single link & multiple links** attribute _(EE only)_:
   - *Related reference entity*: the reference entity with which the product is linked
 
 

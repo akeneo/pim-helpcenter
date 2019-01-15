@@ -168,11 +168,11 @@ Every user can download each asset clicking on `download` in the asset preview.
 
 ## Add one or several records of an entity to a product _(EE only)_
 
-If you have added a `reference entity multiple links` or a `reference entity simple link` attribute to your family, then you can add a link to one or several records of the entity to your product.
+If you have added a `reference entity multiple links` or a `reference entity single link` attribute to your family, then you can add a link to one or several records of the entity to your product.
 
 It's very simple:
-1. Click on the field of the "**reference entity multiple link**" or "**reference entity simple link**" attribute.
-1. If it's a reference entity simple link attribute, you can choose only one record. If it's a multiple links one, then you can choose as many records as you wish.
+1. Click on the field of the "**reference entity multiple links**" or "**reference entity single link**" attribute.
+1. If it's a reference entity single link attribute, you can choose only one record. If it's a multiple links one, then you can choose as many records as you wish.
 
 ![selector](../img/Products-EntitySelector.png)
 
