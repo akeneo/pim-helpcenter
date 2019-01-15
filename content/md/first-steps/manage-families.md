@@ -241,7 +241,7 @@ You can create one or more family variants in each family.
 An attribute of the family could be a **variant axis** only if its attribute type is **structured**:
 - **Simple select**
 - **Simple reference data**
-- **Reference entity simple link (EE only)**
+- **Reference entity single link (EE only)**
 - **Metric**
 - **Boolean (Yes/No)**       
 
