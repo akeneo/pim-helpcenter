@@ -131,7 +131,7 @@ Each attribute has specific properties to add more control on attribute's values
   - *Allow decimals*
   - *Minimum value*: the smallest allowed value
   - *Maximum value*: the largest allowed value
-- **Reference entity simple link & multiple links** attribute _(EE only)_:
+- **Reference entity single link & multiple links** attribute _(EE only)_:
   - *Related reference entity*: the reference entity with which the product is linked
 
 
