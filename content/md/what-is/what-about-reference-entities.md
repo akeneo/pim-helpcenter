@@ -21,10 +21,10 @@ They may have dedicated pages on the e-commerce website (eg dedicated pages for 
 ## What's a reference entity?
 
 A **reference entity** allows you to create and enrich natively in the PIM those **common information** that are **shared and related to products**.   
-A reference entity has its **own attributes**, its **own lifecycle** and can be linked to products or to another reference entity.  
+A reference entity has its **own attributes**, its **own life cycle** and can be linked to products or to another reference entity.  
 It allows enriching common data related to products with a rich content (text, images...), more complex than just a code and labels.
 
-For example, you can create a reference entity to manage your brands, designers, manufacturers, product collections, artists, cities, countries, colors, sizes, materials, care instructions, technologies, ingredients...
+For example, you can create a reference entity to manage your brands, designers, manufacturers, product collections or ranges, artists, cities, countries, colors, sizes, materials, care instructions, technologies, ingredients...
 
 Let's take an example with a reference entity called `Brand` and a list of brands (Kartell, Alessi, Fatboy, Fermob...).   
 
