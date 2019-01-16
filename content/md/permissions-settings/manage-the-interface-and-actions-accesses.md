@@ -9,7 +9,7 @@ related: build-your-user-roles, what-is-a-role, what-is-a-user, manage-the-web-a
 
 # Overview
 
-Permissions on actions and on parts of the interface are granted according to the [user’s role(s)](/articles/what-is-a-role.html).
+Permissions on actions and on parts of the interface are granted according to the [user’s role(s)](what-is-a-role.html).
 
 To change permissions for one user role:
 1. Go to `System` and click on the `Roles` menu entry
@@ -29,8 +29,8 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 |---------------------------|--------------|
 | Add product to groups                          | User can add products to group, in `Settings`/`Groups` he will see the `Products` tab               |
 | View the associations of a product        | User can see the `Associations` menu entry in the product form  |
-| Add associations to a product (_since 2.1_)         | User can add associations in the `Associations` tab using the `Add associations` button  |
-| Remove associations to a product (_since 2.1_)       | User can remove an association in the `Associations` tab using the cross                               |
+| Add associations to a product         | User can add associations in the `Associations` tab using the `Add associations` button  |
+| Remove associations to a product       | User can remove an association in the `Associations` tab using the cross                               |
 | Consult the categories of a product            | User can see the `Categories` menu entry in the product form                                    |
 | Change product Family                          | User can change the product’s family in the panel on the left of the product form      |
 | Change state of product     | User can change the status of the product: `enable` or `disable` directly in the panel on the left of the product form  |

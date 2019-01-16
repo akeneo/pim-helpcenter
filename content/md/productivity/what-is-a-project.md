@@ -18,7 +18,7 @@ All users who are part of a project will be able to see at a glance their produc
 
 ::: warning
 **Scalability note**  
-The Teamwork Assistant has been designed to support a Medium Catalog ([see Teamwork Assistant Scalability Guide](https://docs.akeneo.com/2.0/technical_overview/teamwork_assistant/scalability_guide.html#teamwork-assistant-scalability-guide)), ie we do not recommend you to create a project with more than 50 000 products, 400 attributes, 15 attribute Groups.
+The Teamwork Assistant has been designed to support a Medium Catalog ([see Teamwork Assistant Scalability Guide](https://docs.akeneo.com/latest/technical_overview/teamwork_assistant/scalability_guide.html#teamwork-assistant-scalability-guide)), ie we do not recommend you to create a project with more than 50 000 products, 400 attributes, 15 attribute Groups.
 :::
 
 # More information

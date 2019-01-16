@@ -38,5 +38,5 @@ The left link allows you to go back to the previous product, the right link to s
 
 ::: ee
 Only the products with the read-only access rights will be displayed.  
-If the user cannot edit any products from his product selection, then an error message is prompted to inform he cannot do the sequential edit. For more details, you can read [Set rights on your catalog](/articles/access-rights-on-products.html)   
+If the user cannot edit any products from his product selection, then an error message is prompted to inform he cannot do the sequential edit. For more details, you can read [Set rights on your catalog](access-rights-on-products.html)   
 :::

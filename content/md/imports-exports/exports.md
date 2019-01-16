@@ -85,7 +85,7 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 | Export files and images | Disable the media archiving of images, images will not be exported in the file and the image column will not be present in the export |
 | Number of lines per file | Defines the limit number of lines per file for XSLX export |
 
-In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which product or published product data you want to export. To find out more about this feature called `Product export builder`, take a look at this [article](/articles/product-export-builder.html).
+In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which product or published product data you want to export. To find out more about this feature called `Product export builder`, take a look at this [article](product-export-builder.html).
 
 ::: ee
 If a user has no rights granted to modify an export profile due to his role, then the permissions which he may benefit due to his user group(s) _(EE only)_ will not be applied. For instance, if a user does not have the `Edit profiles of exports` permission, his Enterprise Edition rights to edit a specific export profile is ignored.
@@ -103,17 +103,17 @@ When the export ends, a notification is available on the top right corner of the
 
 ![image](../img/Exports_ExportProcess.gif)
 
-An email can also be sent depending on your user configuration. For further details on this, please refer to the [Manage your account](/articles/manage-your-account.html) article.
+An email can also be sent depending on your user configuration. For further details on this, please refer to the [Manage your account](manage-your-account.html) article.
 
 ## With the user groups rights _(EE only)_
 
 ### Rights on the product information
-In the case of *product and published product exports*, the PIM takes into account your permissions based on the [user groups](/articles/what-is-a-user-group.html) you are in:
+In the case of *product and published product exports*, the PIM takes into account your permissions based on the [user groups](what-is-a-user-group.html) you are in:
 - you **do not have a view right** on the products that are in the `Goodies` category, you won't be able to export any information about these products
 - you **do not have a view right** on the `Marketing` attribute group, you won't be able to export the product information of the attributes in this attribute group
 - you **do not have a view right** on the `de_DE` locale, you won't be able to export any product data regarding this locale
 
-If you want to know more about how the rights on product data works in the PIM, take a look to the [Access rights in products](/articles/access-rights-on-rpoducts) article.
+If you want to know more about how the rights on product data works in the PIM, take a look to the [Access rights in products](access-rights-on-rpoducts) article.
 
 ### Rights on export execution
-The permission to execute exports can be customized for each export profile. So if you cannot launch an export, be sure that you have the right to run it in the `Permissions` tab of your export profile in edition mode. See the [Access rights on imports/exports](/articles/access-rights-on-imports-exports.html) article for more details.
+The permission to execute exports can be customized for each export profile. So if you cannot launch an export, be sure that you have the right to run it in the `Permissions` tab of your export profile in edition mode. See the [Access rights on imports/exports](access-rights-on-imports-exports.html) article for more details.

@@ -10,7 +10,7 @@ priority: low
 
 # Overview
 
-Access rights enable you to configure the visibility scope of users on assets in the PIM. In other words, it is possible to define for each [user group](/articles/what-is-a-user-group.html), which assets can be viewed and/or edited, depending on the classification of the assets in their categories.
+Access rights enable you to configure the visibility scope of users on assets in the PIM. In other words, it is possible to define for each [user group](what-is-a-user-group.html), which assets can be viewed and/or edited, depending on the classification of the assets in their categories.
 
 ## Three levels of access
 

@@ -8,7 +8,7 @@ related: create-a-product, product-completeness, categorize-a-product, products-
 ---
 
 # Go to a product
-Click on a product on the grid or [create a new product](/articles/create-a-product.html) to display the product form.
+Click on a product on the grid or [create a new product](create-a-product.html) to display the product form.
 
 ![Go to a product](../img/Products_PEF1.png)
 
@@ -36,11 +36,11 @@ To select your working locale, select the locale you want to work with on the he
 ![select your working locale](../img/Products_PEF5.png)
 
 In the drop-down menu, you will find the locales (at least those that have been added to a channel).  
-If you cannot find your working locale listed, perhaps the locale is not required by any of the channels: therefore it is not enabled. To add a locale to a channel, please refer to [Manage your channels](/articles/manage-your-channels.html).
+If you cannot find your working locale listed, perhaps the locale is not required by any of the channels: therefore it is not enabled. To add a locale to a channel, please refer to [Manage your channels](manage-your-channels.html).
 
 
 ::: ee
-Or, you do not have the appropriate rights to view the product values for this locale, please refer to the [Set rights on your catalog](/articles/access-rights-on-products.html) article.
+Or, you do not have the appropriate rights to view the product values for this locale, please refer to the [Set rights on your catalog](access-rights-on-products.html) article.
 :::
 
 For the localizable attributes (with the indicated locale on top right of the field), the entered values will be saved only for the working locale.
@@ -71,15 +71,15 @@ By default all the attributes are displayed, you can change the attribute group 
 ![Edit a product 2](../img/Products_PEF3.png)
 
 ::: ee
-If you cannot view or edit some attributes values, you do not have the appropriate rights to view or edit the product values for some attribute groups, please refer to the [Set rights on your catalog](/articles/access-rights-on-products.html) article.
+If you cannot view or edit some attributes values, you do not have the appropriate rights to view or edit the product values for some attribute groups, please refer to the [Set rights on your catalog](access-rights-on-products.html) article.
 :::
 
 ::: tips
-To check if your product is complete, have more information about the `Missing required attributes` filter and the `Completeness` tab and widget, take a look at [Monitor product completeness](/articles/product-completeness.html).
+To check if your product is complete, have more information about the `Missing required attributes` filter and the `Completeness` tab and widget, take a look at [Monitor product completeness](product-completeness.html).
 
-To categorize a product in the `Categories` tab, you can read this [article](/articles/categorize-a-product.html).
+To categorize a product in the `Categories` tab, you can read this [article](categorize-a-product.html).
 
-To associate a product to another product or group of products in the `Associations` tab, you can read this [article](/articles/products-associations.html).
+To associate a product to another product or group of products in the `Associations` tab, you can read this [article](products-associations.html).
 :::
 
 ## Add options to a simple or multi-select attribute
@@ -93,16 +93,16 @@ From the product form:
   ![Add an option to your attribute](../img/Products_AddOptionAttributes2.png)
 1.  Click on the `Add` button to create the option, it will be automatically added to the product for this attribute
 
-If you do not see `+` icon, you might not have the appropriate rights to add an option, please refer to [Manage your user roles](/articles/build-your-user-roles.html).
+If you do not see `+` icon, you might not have the appropriate rights to add an option, please refer to [Manage your user roles](build-your-user-roles.html).
 
-## Work with assets in an asset collection attribute (Enterprise Edition)
+## Work with assets in an asset collection attribute _(EE only)_
 
 In the product form, you can have some asset collection attributes which look like this:
 
 ![asset_collection_attribute](../img/asset_collection_attribute.png)
 
 In the following section, you will discover all the features that are available around this attribute.  
-And to learn more about assets, you can have a look at [this article](/articles/work-with-assets.html).
+And to learn more about assets, you can have a look at [this article](work-with-assets.html).
 
 ::: ee
 The asset collection attribute is only available in the Enterprise Edition.
@@ -121,7 +121,7 @@ You can link assets to your product using this attribute. To do that, follow the
 
 ### Upload assets directly from the product form
 
-From the 2.3 version, you can upload assets directly from the Asset collection in the Product Form. You don't need to quit the product form anymore.
+You can upload assets directly from the Asset collection in the Product Form. You don't need to quit the product form anymore.
 
 1. Click on the new button `Upload assets` in the asset collection, then you will find the mass upload screen.
 1. Drag and drop your files or click on the image to chose assets on your browser.
@@ -135,18 +135,18 @@ You can find those assets in the Assets part of your PIM.
 
 ### Order assets in the asset collection
 
-We know that ordering assets can be important for you. Indeed, it can help you to **organize assets for your different channels**. Until the 2.2, it was impossible to do that in the PIM : assets were organized only according to their code.
-From the 2.3 version, we added a simple way to do that, directly from the product form.
+We know that ordering assets can be important for you. Indeed, it can help you to **organize assets for your different channels**.  
+There is a simple way to do that, directly from the product form.
 
-OK, let's see !
+OK, let's see!
 
 ![drag_drop](../img/drag_drop.jpg)
 
 If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with a **drag and drop**, and find this order in export file. Simple. Fast. Effective.
 
-You need to import assets in a certain order in Akeneo PIM? No problem : now you can ! Just order your assets in your import file, separating asset's names with a coma, then have this order in the PIM.
+You need to import assets in a certain order in Akeneo PIM? No problem! Just order your assets in your import file, separating asset's names with a coma, then have this order in the PIM. You can also achieve this by using the API.
 
-The order defined in the PIM will also be the same in the API.
+The order defined in the PIM will also be the same when you'll export your products with the API.
 
 ::: tips
 And if you want to have a look at history, a new version is created in `History` tab each time the user changes the asset order.
@@ -213,7 +213,7 @@ For each change, a new product version is created. What is tracked down for each
 - The date and time (up to seconds) at which the changes took place
 - The old and the new value of each amended product information
 
-You can define specific rights on users that can check the product’s history, please refer to [Manage your user roles](/articles/build-your-user-roles.html).   
+You can define specific rights on users that can check the product’s history, please refer to [Manage your user roles](build-your-user-roles.html).   
 
 To view the product versions:
 1.  Open the product form
@@ -222,7 +222,7 @@ To view the product versions:
 ![image](../img/Products_PEFHistory1.png)
 
 ::: ee
-The Enterprise Edition comes with a feature that allows you to rollback to a previous product version (button `Restore`, for more details, take a look at [Restore an old product version](/articles/restore-a-product.html).
+The Enterprise Edition comes with a feature that allows you to rollback to a previous product version (button `Restore`, for more details, take a look at [Restore an old product version](restore-a-product.html).
 :::
 
 # Comment a product

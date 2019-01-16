@@ -50,7 +50,7 @@ To classify/unclassify a product:
 
 # Classify products in categories using imports
 
-You can also update your products' categories using product imports. To do so, add the category code in the `Categories column` used to import categories [Update an import profile](/articles/imports.html#update-an-import-profile).
+You can also update your products' categories using product imports. To do so, add the category code in the `Categories column` used to import categories [Update an import profile](imports.html#update-an-import-profile).
 
 ::: info
 Product import jobs overwrite current product data, so if you want to add new categories, make sure you have the existing ones in your imported file.

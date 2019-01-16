@@ -105,17 +105,17 @@ When the import ends, a notification is available on the top right corner of the
 
 ![image](../img/Imports-ImportProcess.gif)
 
-An email can also be sent depending on your user configuration. For further details on this, please refer to the [Manage your account](/articles/manage-your-account.html) article.
+An email can also be sent depending on your user configuration. For further details on this, please refer to the [Manage your account](manage-your-account.html) article.
 
 ## With the user groups rights _(EE only)_
 
 ### Rights on the product information
-In the case of *product imports*, the PIM takes into account your permissions based on the [user groups](/articles/what-is-a-user-groups.html) you are in:
+In the case of *product imports*, the PIM takes into account your permissions based on the [user groups](what-is-a-user-groups.html) you are in:
 - you **own the products** of the `Clothes` category, if you try to import product information for these products, the import will directly update your products
 - you **only have an edit rights** on the products that are in the `Audio video` category, if you try to import product information for these products, the import will automatically create draft for you as you cannot direclty update these products
 - you **only have a view right** on the products that are in the `Goodies` category, if you try to import product information for these products, the import won't work for these products and you will receive errors saying that you cannot modify these products
 
-If you want to know more about how the rights on product data works in the PIM, take a look to the [Access rights in products](/articles/access-rights-on-rpoducts) article.
+If you want to know more about how the rights on product data works in the PIM, take a look to the [Access rights in products](access-rights-on-rpoducts) article.
 
 ### Rights on import execution
-The permission to execute imports can be customized for each import profile. So if you cannot launch an import, be sure that you have the right to run it in the `Permissions` tab of your import profile in edition mode. See the [Access rights on imports/exports](/articles/access-rights-on-imports-exports.html) article for more details.
+The permission to execute imports can be customized for each import profile. So if you cannot launch an import, be sure that you have the right to run it in the `Permissions` tab of your import profile in edition mode. See the [Access rights on imports/exports](access-rights-on-imports-exports.html) article for more details.

@@ -17,7 +17,7 @@ To see your families, edit them or create a new family go to `Settings/Families`
 
 ## How to create a family?
 
-**Families are used to gather attributes that are common to several products**. The [completeness](/articles/what-is-the-completeness.html) of your products is also defined at the family level.      
+**Families are used to gather attributes that are common to several products**. The [completeness](what-is-the-completeness.html) of your products is also defined at the family level.      
 To create a new family, follow these steps:
 1.  Go to `Settings/Families`
 1.  Click on `Create family`
@@ -27,9 +27,9 @@ To create a new family, follow these steps:
 1.  Click on `Save`
 
 Your new family is now created. The family's `Properties` tab is displayed.     
-You can give additional properties to your family:      
-*   **Set an `attribute used as label (required)`**: a **text or identifier attribute** that will be used as the **default name for products** belonging to this family. The attribute selected as label **will appear in the product grid** (as the "Label" column) and in **the product form's header**.
-*   **Set an `attribute used as the main picture`**: an **`image` or `assets collection` (since 2.1) attribute** that will be used as **"the main picture" for products** belonging to this family. This attribute used as main image will be displayed **in the product grid** (as the "image" column) and in **the product form's header**. **Localizable and/or scopable attributes cannot be used as main product pictures**.
+You can give additional properties to your family:  
+*   **Set an `attribute used as label` (required)**: a **text or identifier attribute** that will be used as the **default name for products** belonging to this family. The attribute selected as label **will appear in the product grid** (as the "Label" column) and in **the product form's header**.
+*   **Set an `attribute used as the main picture`**: an **`image` or `assets collection` attribute** that will be used as **"the main picture" for products** belonging to this family. This attribute used as main image will be displayed **in the product grid** (as the "image" column) and in **the product form's header**. **Localizable and/or scopable attributes cannot be used as main product pictures**.
 *   Translate the family's label with `Labels translations`: allow you to translate your family name into the locales enabled in the PIM.
 
 These information can be edited afterwards.     
@@ -43,13 +43,13 @@ Once a family is created, you can configure your family:
 :::
 
 :::info
-You must be granted a specific role permission to be able to create a family. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
+You must be granted a specific role permission to be able to create a family. Please refer to [Manage your user roles](build-your-user-roles.html).
 :::
 
 ## Manage attributes in a family
 **Attributes can be used in one or several families, but an attribute can only be added once to a family**.         
 
-You can easily add attributes to or remove them from a family using the user interface or through [imports](/articles/imports.html).
+You can easily add attributes to or remove them from a family using the user interface or through [imports](imports.html).
 
 ### Add an attribute to a family
 
@@ -67,7 +67,7 @@ Select the attribute groups to add by clicking on their labels and click on `Add
 The attributes will be added to the current family.
 
 ::: info
-If you do not see the `Add Attributes` or `Add by groups` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
+If you do not see the `Add Attributes` or `Add by groups` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](build-your-user-roles.html).
 :::
 
 ### Remove an attribute
@@ -85,7 +85,7 @@ The attribute(s) will be back under the `Add attributes` list. If you need it la
 :::info
 The **completeness represents the percentage of completion of a product**, it is displayed as a progress bar or as a percentage in the PIM. **It is calculated for each product and for each channel/locale combination.**
 **A product is considered as complete** (or 100% completeness) **when its required attributes** (defined at the family level) **have values.**
-For more details about the completeness, please refer to [Understand product completeness](/articles/what-is-the-completeness.html).
+For more details about the completeness, please refer to [Understand product completeness](what-is-the-completeness.html).
 :::
 
 When an attribute is added to a family, it is not set as required for any channel by default. **Only your product identifier attribute is automatically added and set as required for all families**.       
@@ -109,7 +109,7 @@ Once changes are saved, the PIM will automatically run a completeness calculatio
 :::
 
 :::tips
-Save time by using the **Family Mass action** (available from the families grid)! You will be be able to add one or several attributes (or attribute groups) to a selection of families, and also manage their completeness at the same time, read our section [Mass edit your families](/articles/manage-your-families.html#mass-edit-families) available below.
+Save time by using the **Family Mass action** (available from the families grid)! You will be be able to add one or several attributes (or attribute groups) to a selection of families, and also manage their completeness at the same time, read our section [Mass edit your families](manage-your-families.html#mass-edit-families) available below.
 :::
 
 ### Remove an attribute as required from a channel
@@ -182,11 +182,11 @@ Through the `Delete` shortcut in the grid:
 1. Confirm the action in the validation message
 
 ::: warning
-A family with family variants cannot be deleted. You first need to [delete its family variants](/articles/manage-your-families.html#delete-a-family-variant-since-22).
+A family with family variants cannot be deleted. You first need to [delete its family variants](manage-your-families.html#delete-a-family-variant).
 :::
 
 ::: warning
-_Since 2.3_, a family cannot be deleted if there are some products within this family, you first need to remove the products from this family (refer to [the bulk action change family of products](/articles/product-mass-actions.html)).
+A family cannot be deleted if there are some products within this family, you first need to remove the products from this family (refer to [the bulk action change family of products](product-mass-actions.html)).
 :::
 
 ::: ee
@@ -195,7 +195,7 @@ A family used by a published product cannot be deleted. You first need to unpubl
 
 # Manage family variants
 
-A [family variant](/articles/what-about-products-variants.html#what-is-a-family-variant) allows you to define the global structure of your products with variants and will enable you to create [product models](/articles/what-about-products-variants.html#what-is-a-product-model).
+A [family variant](what-about-products-variants.html#what-is-a-family-variant) allows you to define the global structure of your products with variants and will enable you to create [product models](what-about-products-variants.html#what-is-a-product-model).
 
 The family variants are managed in a dedicated tab called `Variants` in `Settings/Families`.
 
@@ -283,7 +283,7 @@ Moving attributes from `common attributes` to a variant level or from the `varia
 **You cannot move a variant axis** or **an attribute with the property `unique value` at `Yes`**.
 :::
 
-## Translate a family variant label (_since 2.3_)
+## Translate a family variant label
 
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
 1.  Click on a family variant
@@ -293,10 +293,10 @@ Moving attributes from `common attributes` to a variant level or from the `varia
 ![Display a family variant](../img/Settings_Families_Variant_Translate.png)
 1.  Click on `Save`
 
-## Delete a family variant (_since 2.2_)
+## Delete a family variant
 
 ::: warning
-**A family variant can be deleted if it does not contain any [product model](/articles/what-about-products-variants.html#what-is-a-product-model)**. If it has product models, an error message will be displayed. You will have to delete those products to be able to delete your family variant.
+**A family variant can be deleted if it does not contain any [product model](what-about-products-variants.html#what-is-a-product-model)**. If it has product models, an error message will be displayed. You will have to delete those products to be able to delete your family variant.
 :::
 
 1.  In `Settings/Families`, choose a family and open the `Variants` tab

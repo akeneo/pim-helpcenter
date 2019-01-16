@@ -10,7 +10,7 @@ priority: low
 
 # The basics
 
-Once you've [created your user groups](/articles/build-your-user-groups.html) and put some users in them, you can begin to define for each of these users groups which parts of the catalog they will be able to see/edit.
+Once you've [created your user groups](build-your-user-groups.html) and put some users in them, you can begin to define for each of these users groups which parts of the catalog they will be able to see/edit.
 
 ## Access rights on product information
 
@@ -65,7 +65,7 @@ Finally, let’s give the same user the permission to edit the locale `fr_FR`:
 On the `fr_FR` locale, the user can edit the products in the `Shoes` category and can edit the attributes in the `General` group. He can only see products and their attributes in `en_US` locale and he can’t see `de_DE` product information.
 
 # Rights depending on the locale
-It is possible to define for each [user group](/articles/what-is-a-user-group.html), on which [locale](/articles/what-is-a-locale.html) the product information can be viewed and/or edited.
+It is possible to define for each [user group](what-is-a-user-group.html), on which [locale](what-is-a-locale.html) the product information can be viewed and/or edited.
 
 ## Three levels of access
 They are three levels of access based on the locales. Each one is described in the sections below.
@@ -115,23 +115,23 @@ Mary is in the `German team` user group that has no rights on product informatio
 ![An example to better understand](../img/Settings_LocalesUserGroupsRights.png)
 
 # Rights depending on the categories
-It is possible to define for each [user group](/articles/what-is-a-user-group.html), which products can be viewed and/or edited and/or owned, depending on their classification in the [categories](/articles/what-is-a-category.html).
+It is possible to define for each [user group](what-is-a-user-group.html), which products can be viewed and/or edited and/or owned, depending on their classification in the [categories](what-is-a-category.html).
 
 ## Four levels of access
 They are four levels of access you can grant for your user groups on each of your category.
 
 ### The owner right
 If a user **is owner of the product information** for the products that are in a given category (ie his user groups have at least the `Allowed to own products` permission), he will be able to:
-*   View and edit the product information directly; rather than going through the [proposal’s workflow](/articles/proposals-workflow.html#mainContent)
-*   View/review the [current proposals](/articles/review-products-proposals.html) of product values
-*   Approve/reject or partially approve [proposals](/articles/review-products-proposals.html) of values that needs to be reviewed
+*   View and edit the product information directly; rather than going through the [proposal’s workflow](proposals-workflow.html#mainContent)
+*   View/review the [current proposals](review-products-proposals.html) of product values
+*   Approve/reject or partially approve [proposals](review-products-proposals.html) of values that needs to be reviewed
 *   Publish/unpublish a product version
-*   View/Change the product [associations](/articles/products-associations.html) and [categories](/articles/what-is-a-category.html)
+*   View/Change the product [associations](products-associations.html) and [categories](what-is-a-category.html)
 
 ### The edition right
 If a user **has rights to only edit product information** for the products that are in a given category (ie his user groups have at least the `Allowed to edit products` permission), he will be able to:
 *   View the product information
-*   Create a product [draft](/articles/workflow.html) that will need to be approved by the product manager
+*   Create a product [draft](workflow.html) that will need to be approved by the product manager
 *   Generate/send a proposal that will be processed by the product manager
 
 ### The view right
@@ -221,7 +221,7 @@ As you can see in the example below, the `Apply changes on children` is checked 
 ![Apply changes to all children](../img/Settings_CategoriesPermissionsApplytoAllChildren.png)
 
 # Rights depending on the attribute groups
-It is possible to define for each [user group](/articles/what-is-a-user-group.html), which [attribute](/articles/what-is-an-attribute.html) values of products can be viewed and/or edited, depending on their [attribute groups](/articles/what-is-an-attribute-group.html).
+It is possible to define for each [user group](what-is-a-user-group.html), which [attribute](what-is-an-attribute.html) values of products can be viewed and/or edited, depending on their [attribute groups](what-is-an-attribute-group.html).
 
 ## Three levels of access
 They are three levels of access based on the attribute groups. Each one is described in the sections below.

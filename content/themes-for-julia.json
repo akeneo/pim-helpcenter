@@ -29,9 +29,14 @@
             "description": "Anything you need to know about importing data in your dearest PIM. Here, you'll also find here information about exporting data. 'Cause yeah, product information you cannot export is kind of useless, right?"
         },
         "manage-your-assets":{
-            "title": "Manages your images, files, assets",
+            "title": "Manage your images, files, assets",
             "img": "illus-assets.svg",
             "description": "Product information without any asset, is like Akeneo without Ziggy, it's depressing. Here is how to handle the assets that will liven up your product sheets."
+        },
+        "manage-your-reference-entities":{
+            "title": "Manage your reference entities",
+            "img": "illus-entities.svg",
+            "description": ""
         }
     }
 }
