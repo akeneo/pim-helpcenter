@@ -62,7 +62,7 @@ Note that some features are not available from this grid:
 The views are specific to the published product grid. Hence, the views of unpublished products are not shared with the grid of published products.
 
 :::ee
-  1. Like on the product grid, you can define a published product grid default view in your user account, learn how to set up this default published grid view in the [Manage your account](/articles/manage-your-account.html#your-favorite-catalog-and-product-grid-settings) article.
+  1. Like on the product grid, you can define a published product grid default view in your user account, learn how to set up this default published grid view in the [Manage your account](manage-your-account.html#your-favorite-catalog-and-product-grid-settings) article.
   2. This option will be visible in your account if you have already created a custom view in the published product grid, if not, the field will not appear.
 :::
 
@@ -90,7 +90,7 @@ From the product grid:
 Published product information can only be viewed, they cannot be edited.
 :::
 
-Product information are displayed the same way as in the product form, to learn more about the product form, read the [Enrich your product](/articles/work-on-a-product.html) article. 
+Product information are displayed the same way as in the product form, to learn more about the product form, read the [Enrich your product](work-on-a-product.html) article. 
 Permissions are also applied on published products, so if you do not have the appropriate rights to see some attribute groups, they will not be displayed.
 
 When you own the ongoing published product, there are two actions available in the header on the right side:

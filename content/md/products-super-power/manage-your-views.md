@@ -35,11 +35,11 @@ Some rules about the views:
 - **Only active filters will be saved for your view**. For instance, an attribute filtered on `ALL` will disappear when saving your view, because `ALL` is the default filter value.
 
 ::: info
-When you create a new view, you can save a **grid configuration as well as active filters**. Please note that **system filters will be always added to your filter menu**, unless you customise default filters in your account. Read our [Manage your account](/articles/manage-your-account.html#your-favorite-catalog-and-product-grid-settings) article to learn more about default grid filters.
+When you create a new view, you can save a **grid configuration as well as active filters**. Please note that **system filters will be always added to your filter menu**, unless you customise default filters in your account. Read our [Manage your account](manage-your-account.html#your-favorite-catalog-and-product-grid-settings) article to learn more about default grid filters.
 :::
 
 ::: tips
-You can set one of your view as your own default view! To set one of your view as your default product grid view, read the following article [Manage your account](/articles/manage-your-account.html#your-favorite-catalog-and-product-grid-settings).
+You can set one of your view as your own default view! To set one of your view as your default product grid view, read the following article [Manage your account](manage-your-account.html#your-favorite-catalog-and-product-grid-settings).
 :::
 
 # Apply a view
@@ -81,5 +81,5 @@ To remove a view you have created, follow the steps below:
 ![Delete a view confirmation](../img/Products_DeleteViewConfirmation.png)
 
 ::: ee
-Use one of your view to create a project! Read our [How to create a project](/articles/manage-your-projects.html#how-to-create-a-project) article.
+Use one of your view to create a project! Read our [How to create a project](manage-your-projects.html#how-to-create-a-project) article.
 :::

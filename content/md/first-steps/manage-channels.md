@@ -60,7 +60,7 @@ To consult the assets transformation for a channel, click on the `Assets Transfo
 
 ![image](../img/Settings_ChannelsAssetstransformations.png)
 
-To edit or add asset transformations, please refer to [About the asset transformations](/articles/assets-transformation.html).
+To edit or add asset transformations, please refer to [About the asset transformations](assets-transformation.html).
 
 # Check the channel history
 

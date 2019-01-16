@@ -24,55 +24,23 @@ To check the association types:
 1.  Click on the `Show groups` button on the right-hand side of the tab to display the product groups grid
 1.  Click on the `Show products` button on the right-hand side of the tab to display the product grid
 
-## View the product’s associations (_until 2.0_)
-
-![image](../img/Products_Associations.png)
-
-The green icon in front of the name of the association type shows that the product has at least one association with another product or group of products. The first type of association is displayed in the product grid, listing the products on which the type of association has been applied.
-
-![image](../img/Products_ProductsAssociated.png)
-
-The associated products can be identified by the input `Yes` in green in the `Is associated` column of the grid. The boxes are also checked.
-
-## View the product’s associations (_since 2.1_)
-
-:::warning
-_Until 2.2_, only products can have associations, [product models](/articles/what-about-products-variants.html#what-is-a-product-model) can't have association.
-:::
-
 :::info
-_Since 2.3_, you can define associations on [product models](/articles/what-about-products-variants.html#what-is-a-product-model), refer to this [article](/articles/enrich-products-variants.html#associate-since-23) for more details.
+You can define associations on [product models](what-about-products-variants.html#what-is-a-product-model), refer to this [article](enrich-products-variants.html#associate) for more details.
 :::
 
-Only the associated products or [product models](/articles/what-about-products-variants.html#what-is-a-product-model) are displayed in the `Associations` tab.
+Only the associated products or [product models](what-about-products-variants.html#what-is-a-product-model) are displayed in the `Associations` tab.
 
 ![View the associated products](../img/Products_ProductsAssociated21.png)
 
-By default, if the product has no association for the selected association type, nothing is displayed in the "Associations" tab.
+By default, if the product has no association for the selected association type, nothing is displayed in the `Associations` tab.
 
 ![No association](../img/Products_ProductsNoAssociation.png)
 
 # Add/remove associations to/from a product
 
-## Add/remove associations to/from a product (_until 2.0_)
+## Add associations to a product
 
-To associate a product with another product or group of products:
-1.  Open the Product Form
-1.  Click on the `Associations` tab
-1.  Click on the association name on the left-hand side
-1.  Find the products or the product groups and tick them
-1.  Untick the products or the product groups that you no longer want to associate with the relevant product
-1.  Click on the `Save` button
-
-![image](../img/Products_ProductsAssociated.png)
-
-## Add associations to a product (_since 2.1_)
-
-:::info
-_Since the 2.1_, a product can be associated to a [product model](/articles/what-about-products-variants.html#what-is-a-product-model).
-:::
-
-To add associations, there is a picker to select products or [product models](/articles/what-about-products-variants.html#what-is-a-product-model) to associate:
+To add associations, there is a picker to select products or [product models](what-about-products-variants.html#what-is-a-product-model) to associate:
 1.  Open the Product Form
 1.  Click on the `Associations` tab
 1.  Select the association type
@@ -88,7 +56,11 @@ To add associations, there is a picker to select products or [product models](/a
 
 ![View the associated products](../img/Products_ProductsAssociated21.png)
 
-## Remove associations from a product (_since 2.1_)
+:::info
+A product can also be associated to a [product model](/articles/what-about-products-variants.html#what-is-a-product-model).
+:::
+
+## Remove associations from a product
 
 To remove an association:
 1.  Open the Product Form

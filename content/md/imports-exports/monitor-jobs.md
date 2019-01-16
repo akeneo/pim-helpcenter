@@ -10,11 +10,11 @@ related: imports, exports, product-export-builder, discover-the-dashboard, what-
 # What is a job?
 
 You have several ways to follow the status of a job. A job can be:
-- an [import](/articles/imports.html),
-- an [export](/articles/exports.html),
-- a [mass edit](/articles/product-mass-actions.html),
-- a [rules](/articles/what-is-a-rule.html) execution _(EE only)_
-- a calculation of [project](/articles/what-is-a-project.html).
+- an [import](imports.html),
+- an [export](exports.html),
+- a [mass edit](product-mass-actions.html),
+- a [rules](what-is-a-rule.html) execution _(EE only)_
+- a calculation of [project](what-is-a-project.html).
 
 # How to monitor?
 First, you are notified by a flash message when the job starts.

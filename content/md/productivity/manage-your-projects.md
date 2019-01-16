@@ -88,7 +88,7 @@ Along with the project’s label, you will find other information:
 - The project’s due date
 - Its channel and locale
 
-Your project is also added in the dashboard through a new widget: [See Dashboard widget’s project article](/articles/project-widget-dashboard.html).
+Your project is also added in the dashboard through a new widget: [See Dashboard widget’s project article](project-widget-dashboard.html).
 
 # How to edit a project?
 
