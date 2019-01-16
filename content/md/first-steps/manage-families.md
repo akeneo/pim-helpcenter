@@ -27,7 +27,7 @@ To create a new family, follow these steps:
 1.  Click on `Save`
 
 Your new family is now created. The family's `Properties` tab is displayed.     
-You can give additional properties to your family:      
+You can give additional properties to your family:  
 *   **Set an `attribute used as label` (required)**: a **text or identifier attribute** that will be used as the **default name for products** belonging to this family. The attribute selected as label **will appear in the product grid** (as the "Label" column) and in **the product form's header**.
 *   **Set an `attribute used as the main picture`**: an **`image` or `assets collection` attribute** that will be used as **"the main picture" for products** belonging to this family. This attribute used as main image will be displayed **in the product grid** (as the "image" column) and in **the product form's header**. **Localizable and/or scopable attributes cannot be used as main product pictures**.
 *   Translate the family's label with `Labels translations`: allow you to translate your family name into the locales enabled in the PIM.
@@ -241,7 +241,7 @@ You can create one or more family variants in each family.
 An attribute of the family could be a **variant axis** only if its attribute type is **structured**:
 - **Simple select**
 - **Simple reference data**
-- **Reference entity simple link (EE only)**
+- **Reference entity single link** _(EE only)_
 - **Metric**
 - **Boolean (Yes/No)**       
 
