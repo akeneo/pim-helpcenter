@@ -9,7 +9,7 @@ related: what-about-reference-entities, enrich-your-reference-entity-records
 
 # Display the reference entities
 
-To display the existing [reference entities](/articles/what-about-reference-entities.html), click on `Entities` menu.   
+To display the existing [reference entities](/articles/what-about-reference-entities.html), click on the `Entities` menu.   
 
 No reference entity is created by default.
 
@@ -27,7 +27,7 @@ If a reference entity has already been created, simply click on it to access its
 # Create a reference entity
 
 To create a [reference entity](/articles/what-about-reference-entities.html), follow these steps:
-1.  Go to `Entities` menu
+1.  Go to the `Entities` menu
 1.  Click on the `Create` button
 1.  Input the label of the reference entity in the current catalog locale
 1.  The code is automatically generated using the label, but it can also be updated (this code must be unique and may only contain letters, numbers and underscores)
@@ -42,14 +42,14 @@ To guarantee that the PIM is functional and runs smoothly, we defined a volume l
 :::
 
 # Define its properties
-In `Properties` tab, you can edit the label of the reference entity and upload an image used to identify the reference entity in the PIM.
+In the `Properties` tab, you can edit the label of the reference entity and upload an image used to identify the reference entity in the PIM.
 
 You can also translate the label of the reference entity by switching the current catalog locale in the header.
 
 ![image](../img/ReferenceEntity_EditProperties.png)
 
 # Define its records attributes
-In `Attributes` tab, you can define what are the attributes for the records of this reference entity.  
+In the `Attributes` tab, you can define what are the attributes for the records of this reference entity.  
 For example, a `Brand` reference entity could be described by the following information:
 - a code
 - a label
@@ -62,7 +62,7 @@ For example, a `Brand` reference entity could be described by the following info
 
 ## Add an attribute
 To add an attribute, follow these steps:
-1.  Go to `Attributes` tab for a reference entity
+1.  Go to the `Attributes` tab for a reference entity
 1.  Click on the `Add an attribute` button
 1.  Input the label of the attribute in the current catalog locale
 1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
@@ -92,7 +92,7 @@ To guarantee that the PIM is functional and runs smoothly, we defined a volume l
 
 ## Edit an attribute
 To edit an attribute, follow these steps:
-1.  Go to `Attributes` tab for a reference entity
+1.  Go to the `Attributes` tab for a reference entity
 1.  Click on the `Edit` icon
 1.  An edit pop-in opens with the attribute parameters depending on the attribute type
 1.  You can translate the label of the attribute by switching the current locale in the header
@@ -122,7 +122,7 @@ If not `Text area`:
 
 ## Manage the options
 To define the options for a single/multiple options attribute, follow these steps:
-1.  Go to `Attributes` tab for a reference entity
+1.  Go to the `Attributes` tab for a reference entity
 1.  Click on the `Edit` icon for the attribute
 1.  An edit pop-in opens with the attribute parameters
 1.  Click on the `Manage options` button
@@ -173,7 +173,7 @@ To remove an option, click on the cross at the end of the option line.
 
 ## Define the completeness
 To define the attributes required for the completeness of a record:
-1.  Go to `Attributes` tab for a reference entity
+1.  Go to the `Attributes` tab for a reference entity
 1.  Click on the `Edit` icon for an attribute
 1.  Tick `Required for completeness` if this attribute is required for the completeness of a record
 1. Click on the `Save` button
@@ -184,7 +184,7 @@ If this attribute is not required for the completeness, untick `Required for com
 
 ## Delete an attribute
 To delete an attribute, follow these steps:
-1.  Go to `Attributes` tab for a reference entity
+1.  Go to the `Attributes` tab for a reference entity
 1.  Click on the `Edit` icon for the attribute you want to delete
 1.  An edit pop-in opens with the attribute parameters
 1.  Click on the `Delete the attribute` button
@@ -197,7 +197,7 @@ The attribute and its relevant information will be deleted in the records of the
 
 # Delete a reference entity
 To delete a reference entity, follow these steps:
-1.  Go to `Properties` tab for the reference entity you want to delete
+1.  Go to the `Properties` tab for the reference entity you want to delete
 1.  In the top right corner of the header, click on `...` for other actions and then `Delete entity`
 1.  A confirmation pop-in opens to confirm that you want to delete the reference entity
 1.  Click on the `Delete` button
@@ -217,7 +217,7 @@ It's not possible to hide a reference entity.
 :::
 
 To define the permissions on a reference entity, follow these steps:
-1.  Go to `Permissions` tab of the reference entity
+1.  Go to the `Permissions` tab of the reference entity
 1.  For each user group, tick to give the `View` or `Edit` rights
 1.  Click on the `Save` button to save the Permissions
 
