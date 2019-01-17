@@ -87,7 +87,7 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | Delete an attribute for a reference entity | User can delete an attribute of a reference entity in `Attributes` tab, using the `Delete an attribute` button |
 | Edit an attribute of a reference entity | User can edit an attribute of a reference entity in `Attributes` tab, using the `edit` icon. |
 | Remove an option    | User can remove an option of a single or multiple options attribute in the `Attributes` tab, using the `Manage options` button and the `cross` in the list of options |
-| Edit options | User can manage the options for a single or multiple options attributes in `Attributes` tab, using the `Manage options` button |
+| Edit options | User can manage the options for a single or multiple options attribute in the `Attributes` tab, using the `Manage options` button |
 | Create a record | User can add a record to a reference entity in `Records` tab, using the `Add new` button  |
 | Delete a record | User can delete a record in `Records` tab, using the `deletion icon` in the grid or `...` for other actions and then `Delete` in the record form |
 | Delete all entity records | User can delete all records for a reference entity in `Records` tab, using `...` for other actions and then `Delete all records` |
