@@ -81,7 +81,7 @@ To create an attribute in the PIM:
     - **Locale specific**: to enable this attribute only to specific locales and not all of them
     - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid _(Community and Enterprise Edition)_ or in the proposal grid _(Enterprise Edition only)_
     - **Read only**: when enabled it prevents this attribute from being edited through the UI, it can only be updated through imports, API or rules _(Enterprise Edition only)_
-    - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types)).    
+    - **Validation parameters**: depending on the attribute type chosen (see [Parameters according to specific attributes types](#Parameters according to specific attributes types)).    
 1. Click on `Save` to create your attribute.
 
 The attribute is now created, you **can add a translation for each enabled locales** under the `Label translations` tab. If you need to edit some other attribute's property, please refer to the section [Edit attribute properties](manage-your-attributes.html#edit-attribute-properties)
@@ -156,9 +156,9 @@ You can change the following properties of an attribute:
 - **Attribute group**: the attribute group the attribute belongs to
 - **Labels**: these are labels that appear when they are displayed in the PIM
 - **Locale specific**: if it must apply to specific locales not all of them
-- **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid _(Community and Enterprise Edition)_ or in the proposal grid _(Enterprise Edition only)_
-- **Read only**: when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules _(Enterprise Edition only)_
-- **Validation parameters** (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
+- **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
+- **Read only**: only for Enterprise Edition users, when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules.
+- **Validation parameters** (see [Parameters according to specific attributes types](#parameters-according-to-specific-attributes-types))
 - **Options** (for simple or multi select attribute types only): these are predefined values that the user can select
 
 ::: warning
