@@ -31,7 +31,7 @@ To create a [reference entity](/articles/what-about-reference-entities.html), fo
 1.  Click on the `Create` button
 1.  Input the label of the reference entity in the current catalog locale
 1.  The code is automatically generated using the label, but it can also be updated (this code must be unique and may only contain letters, numbers and underscores)
-1.  Click on the `Save` button
+1.  Click on the `Save` button or press `Enter` to create the reference entity
 
 ![image](../img/ReferenceEntity_CreateEntity.png)
 
@@ -76,7 +76,7 @@ To add an attribute, follow these steps:
 1.  If the attribute type is a **reference entity single/multiple link**, select the reference entity to link to this attribute in the list
 1.  Tick `Value per locale` if your record could have different values per locale for this attribute
 1.  Tick `Value per channel` if your record could have different values per channel for this attribute
-1.  Click on the `Save` button  
+1.  Click on the `Save` button or press `Enter` to add the attribute
 
 ![image](../img/ReferenceEntity_AddAttribute.png)
 
@@ -87,7 +87,7 @@ These attributes parameters, except the label, can't be edited afterwards.
 :::
 
 :::tips
-To define a text area attribute, refer to [Edit an attribute](/articles/manage-reference-entities.html#edit-an-attribute)
+To define a text area attribute, refer to [Edit an attribute](/articles/manage-reference-entities.html#edit-an-attribute).
 :::
 
 :::info
@@ -102,7 +102,7 @@ To edit an attribute, follow these steps:
 1.  You can translate the label of the attribute by switching the current locale in the header
  ![image](../img/ReferenceEntity_EditAttribute.png)
 1.  Depending on the attribute type, set the specific parameters for the attribute (see below the specific parameters)
-1.  Click on the `Save` button
+1.  Click on the `Save` button or press `Enter` to save the attribute parameters
 
 ### Edit a text attribute
  - *Maximum number of characters*: maximum number of characters that an attribute value can have
@@ -147,7 +147,12 @@ The code can't be edited afterwards, you can only edit/translate the label.
 :::
 
 :::tips
-To quickly input all your options, you just have to input the 1st label, then press `Enter`, input the 2nd label, then press `Enter` and so on...
+To quickly input all your options:
+1. You just have to input the 1st option label
+1. Then press `Enter`
+1. Input the 2nd option label
+1. Then press `Enter`
+1. And so on...
 :::
 
 :::info
@@ -168,7 +173,12 @@ To help you for the translation, the labels of the option on other locales are d
 :::
 
 :::tips
-To quickly translate all your options, you just have to translate the 1st label, then press `Enter`, translate the 2nd label, then press `Enter` and so on...
+To quickly translate all your options:
+1. You just have to translate the 1st option label
+1. Then press `Enter`
+1. Translate the 2nd option label
+1. Then press `Enter`
+1. And so on...
 :::
 
 
@@ -180,7 +190,7 @@ To define the attributes required for the completeness of a record:
 1.  Go to the `Attributes` tab for a reference entity
 1.  Click on the `Edit` icon for an attribute
 1.  Tick `Required for completeness` if this attribute is required for the completeness of a record
-1. Click on the `Save` button
+1. Click on the `Save` button or press `Enter`
 
 ![image](../img/ReferenceEntity_EditAttribute_Completeness.png)
 
@@ -209,7 +219,7 @@ To delete a reference entity, follow these steps:
 ::: warning
 You cannot delete a reference entity if:
 - This reference entity has some records: first, you need to [delete the records of this reference entity](/articles/enrich-your-reference-entity-records.md).
-- This reference entity is linked to some product attributes: first, you need to [delete the related product attributes](/articles/manage-your-attributes.html#delete-an-attribute) to this reference entity.
+- This reference entity is linked to some product attributes: then, you need to [delete the related product attributes](/articles/manage-your-attributes.html#delete-an-attribute) to this reference entity.
 :::
 
 # Set permissions on a reference entity
