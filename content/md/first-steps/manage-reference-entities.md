@@ -86,6 +86,10 @@ The attribute is now created and an edit pop-in opens with the attribute paramet
 These attributes parameters, except the label, can't be edited afterwards.  
 :::
 
+:::tips
+To define a text area attribute, refer to [Edit an attribute](/articles/manage-reference-entities.html#edit-an-attribute)
+:::
+
 :::info
 To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 attributes per reference entity for this feature. If you try to create more than 100 attributes, you will have a blocking message.
 :::
