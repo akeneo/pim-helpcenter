@@ -95,7 +95,7 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | Create an entity | User can create a new reference entity in the `Entities` menu, using the `Create` button |
 | Delete an entity | User can delete a reference entity in `Properties` tab, using `...` for other actions and then `Delete entity` |
 | Edit the entity properties | User can edit the properties of a reference entity in the `Properties` tab |
-| Manage reference entity permissions | User can define the permissions for a reference entity in `Permissions` tab |
+| Manage reference entity permissions | User can define the permissions for a reference entity in the `Permissions` tab |
 
 # Rights on exports
 
