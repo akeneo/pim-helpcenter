@@ -11,7 +11,9 @@ related: what-about-reference-entities, enrich-your-reference-entity-records
 
 To display the existing [reference entities](/articles/what-about-reference-entities.html), click on `Entities` menu.   
 
-By default, no reference entity is created, from this single place, you can:
+No reference entity is created by default.
+
+From this single place, you can:
 - [Create your 1st reference entity  ](/articles/manage-reference-entities.html#create-a-reference-entity)
 - [Define its properties ](/articles/manage-reference-entities.html#define-its-properties) (`Properties` tab)
 - [Define its records attributes ](/articles/manage-reference-entities.html#define-its-records-attributes) (`Attributes` tab)
@@ -26,10 +28,10 @@ If a reference entity has already been created, simply click on it to access its
 
 To create a [reference entity](/articles/what-about-reference-entities.html), follow these steps:
 1.  Go to `Entities` menu
-1.  Click on `Create` button
+1.  Click on the `Create` button
 1.  Input the label of the reference entity in the current catalog locale
-1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
-1.  Click on `Save` button
+1.  The code is automatically generated using the label, but it can also be updated (this code must be unique and may only contain letters, numbers and underscores)
+1.  Click on the `Save` button
 
 ![image](../img/ReferenceEntity_CreateEntity.png)
 
@@ -61,7 +63,7 @@ For example, a `Brand` reference entity could be described by the following info
 ## Add an attribute
 To add an attribute, follow these steps:
 1.  Go to `Attributes` tab for a reference entity
-1.  Click on `Add an attribute` button
+1.  Click on the `Add an attribute` button
 1.  Input the label of the attribute in the current catalog locale
 1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
 1.  Select the attribute type:
@@ -74,11 +76,11 @@ To add an attribute, follow these steps:
 1.  If the attribute type is a **reference entity single/multiple link**, select the reference entity to link to this attribute in the list
 1.  Tick `Value per locale` if your record could have different values per locale for this attribute
 1.  Tick `Value per channel` if your record could have different values per channel for this attribute
-1.  Click on `Save` button  
-
-The attribute is now created and an edit pop-in opens with the attribute parameters depending on the attribute type.
+1.  Click on the `Save` button  
 
 ![image](../img/ReferenceEntity_AddAttribute.png)
+
+The attribute is now created and an edit pop-in opens with the attribute parameters depending on the attribute type.
 
 :::warning
 These attributes parameters, except the label, can't be edited afterwards.  
@@ -91,12 +93,12 @@ To guarantee that the PIM is functional and runs smoothly, we defined a volume l
 ## Edit an attribute
 To edit an attribute, follow these steps:
 1.  Go to `Attributes` tab for a reference entity
-1.  Click on `Edit` icon
+1.  Click on the `Edit` icon
 1.  An edit pop-in opens with the attribute parameters depending on the attribute type
 1.  You can translate the label of the attribute by switching the current locale in the header
  ![image](../img/ReferenceEntity_EditAttribute.png)
 1.  Depending on the attribute type, set the specific parameters for the attribute (see below the specific parameters)
-1.  Click on `Save` button
+1.  Click on the `Save` button
 
 ### Edit a text attribute
  - *Maximum number of characters*: maximum number of characters that an attribute value can have
@@ -113,7 +115,7 @@ If not `Text area`:
   - *Allowed extensions*: allowed extensions files (gif, jpeg, jpg, pdf, png...)
 
 ### Edit a single/multiple options attribute  
-  - A `Manage options` button to [manage the options of the list](/articles/manage-reference-entities.html#manage-the-options)
+  - The `Manage options` button enables to [manage the options of the list](/articles/manage-reference-entities.html#manage-the-options)
 
 ### Edit a reference entity simple/multiple link attribute    
   - *Related reference entity*: the reference entity linked to this attribute, this information cannot be updated
@@ -121,7 +123,7 @@ If not `Text area`:
 ## Manage the options
 To define the options for a single/multiple options attribute, follow these steps:
 1.  Go to `Attributes` tab for a reference entity
-1.  Click on `Edit` icon for the attribute
+1.  Click on the `Edit` icon for the attribute
 1.  An edit pop-in opens with the attribute parameters
 1.  Click on the `Manage options` button
 1.  A fullscreen opens to manage the options
@@ -130,9 +132,9 @@ To define the options for a single/multiple options attribute, follow these step
 
 ### Add options
 1. Write your option label
-1. The option code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
+1. The option code is automatically generated using the label, but it can also be updated (this code must be unique and may only contain letters, numbers and underscores)
 1. Write your next option label
-1. Click on `Save` button, the fullscreen is closed
+1. Click on the `Save` button, the fullscreen is closed
 
 ![image](../img/ReferenceEntity_AddOptions.png)
 
@@ -153,7 +155,7 @@ If you need to manage more than 100 options per attribute, we advise you to crea
 1. Change the catalog locale using the switcher
 1. Translate the option label
 1. Translate the next option label
-1. Click on `Save` button, the fullscreen is closed
+1. Click on the `Save` button, the fullscreen is closed
 
 ![image](../img/ReferenceEntity_TranslateOptions.png)
 
@@ -172,8 +174,9 @@ To remove an option, click on the cross at the end of the option line.
 ## Define the completeness
 To define the attributes required for the completeness of a record:
 1.  Go to `Attributes` tab for a reference entity
-1.  Click on `Edit` icon for an attribute
+1.  Click on the `Edit` icon for an attribute
 1.  Tick `Required for completeness` if this attribute is required for the completeness of a record
+1. Click on the `Save` button
 
 ![image](../img/ReferenceEntity_EditAttribute_Completeness.png)
 
@@ -182,11 +185,11 @@ If this attribute is not required for the completeness, untick `Required for com
 ## Delete an attribute
 To delete an attribute, follow these steps:
 1.  Go to `Attributes` tab for a reference entity
-1.  Click on `Edit` icon for the attribute you want to delete
+1.  Click on the `Edit` icon for the attribute you want to delete
 1.  An edit pop-in opens with the attribute parameters
-1.  Click on `Delete the attribute` button
+1.  Click on the `Delete the attribute` button
 1.  A confirmation pop-in opens to confirm that you want to delete the attributes
-1.  Click on `Delete` button
+1.  Click on the `Delete` button
 
 ::: warning
 The attribute and its relevant information will be deleted in the records of the reference entity. Once you have confirmed the action, it cannot be reverted.
@@ -195,14 +198,14 @@ The attribute and its relevant information will be deleted in the records of the
 # Delete a reference entity
 To delete a reference entity, follow these steps:
 1.  Go to `Properties` tab for the reference entity you want to delete
-1.  Click on `...` for other actions and then `Delete entity`
+1.  In the top right corner of the header, click on `...` for other actions and then `Delete entity`
 1.  A confirmation pop-in opens to confirm that you want to delete the reference entity
-1.  Click on `Delete` button
+1.  Click on the `Delete` button
 
 ::: warning
 You cannot delete a reference entity if:
-- This reference entity has some records: you need to first [delete the records of this reference entity](/articles/enrich-your-reference-entity-records.md).
-- This reference entity is linked to some product attributes: you need to first [delete the related product attributes](/articles/manage-your-attributes.html#delete-an-attribute) to this reference entity.
+- This reference entity has some records: first, you need to [delete the records of this reference entity](/articles/enrich-your-reference-entity-records.md).
+- This reference entity is linked to some product attributes: first, you need to [delete the related product attributes](/articles/manage-your-attributes.html#delete-an-attribute) to this reference entity.
 :::
 
 # Set permissions on a reference entity
@@ -216,16 +219,16 @@ It's not possible to hide a reference entity.
 To define the permissions on a reference entity, follow these steps:
 1.  Go to `Permissions` tab of the reference entity
 1.  For each user group, tick to give the `View` or `Edit` rights
-1.  Click on `Save` button to save the Permissions
+1.  Click on the `Save` button to save the Permissions
 
 ![image](../img/ReferenceEntity_Permissions.png)
 
 For example, a user in the `Manager` group can edit this `Brand` reference entity, so add and edit attributes or add and enrich some brands.
-A user in the `Clothes managers` group only view this `Brand` reference entity, so only view its attributes and view the brands.
+A user in the `Clothes managers` group only view this `Brand` reference entity, so he can only view its attributes and also view its brands.
 
 :::tips
-If you want that all your user groups have the edit rights, click on `EDIT` in the columns title and all the user groups will be ticked with `Edit` rights.  
-If you want that almost all your user groups have the view rights, click on `VIEW` in the columns title and all the user groups will be ticked with `View` rights. And then, tick with `Edit` rights some user groups.
+If you want all your user groups to have the edit rights, click on `EDIT` in the columns title and all the user groups will be ticked with `Edit` rights.  
+If you want almost all your user groups to have the view rights, click on `VIEW` in the columns title and all the user groups will be ticked with `View` rights. And then, tick with `Edit` rights some user groups.
 :::
 
 :::warning
