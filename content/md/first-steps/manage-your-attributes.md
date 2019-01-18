@@ -11,7 +11,7 @@ If you are not familiar with the concept of attributes, you can read our [What i
 
 # See your attributes
 
-Go to `Settings/Attributes`, to see all the existing attributes or create a new one. 
+Go to `Settings/Attributes`, to see all the existing attributes or create a new one.
 
 ## Attribute grid pagination
 
@@ -71,7 +71,7 @@ To create an attribute in the PIM:
 1. Click on the `Create attribute` button
   ![image](../img/Settings_AttributesCTAButton.png)
 1. Select the attribute type you want to create
-  ![image](../img/Settings_Attributes_Create1.png)
+  ![image](../img/Settings_Attributes_Create2.png)
 1. The attribute edit page is displayed. The following properties are required to finalise the creation of your attribute:
     - A **code** to identify the attribute
     - An **attribute group**: the attribute group the attribute will belong to
@@ -131,6 +131,8 @@ Each attribute has specific properties to add more control on attribute's values
   - *Allow decimals*
   - *Minimum value*: the smallest allowed value
   - *Maximum value*: the largest allowed value
+- **Reference entity single link & multiple links** attribute _(EE only)_:
+  - *Related reference entity*: the reference entity linked to this attribute
 
 For instance, you can add a regular expression on a text field to use it for EAN codes. As they contain 13 digits, we can add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 
