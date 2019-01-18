@@ -22,7 +22,7 @@ Si le nom de fichier est `image_principale_S1263547.jpg`, alors le PIM va vérif
 Si le nom de fichier est « akene-en_US.pdf », alors le PIM va vérifier: 
 - Si la ressource qui porte le code `akene` existe déjà et si elle est localisable, le PIM va mettre à jour la ressource portant le code `akene` en important le fichier `akene-en_US.pdf` en tant que fichier de référence pour la locale donnée (code de la locale à la fin du nom du fichier: ici `en_US`).
 - Si la ressource portant le code `akene` existe déjà mais qu’elle n’est pas localisable, le PIM affichera un message d’erreur en rouge. 
-- Si la ressource portant le code `akene` n’existe pas encore, le PIM va créer une nouvelle ressource localisable ayant pour code `akene` et pour fichier de référence de la locale donnée, le fichier PDF. (Code de la locale à la fin du nom du fichier: ici `en_US`)
+- Si la ressource portant le code `akene` n’existe pas encore, le PIM va créer une nouvelle ressource localisable ayant pour code `akene` et pour fichier de référence de la locale donnée, le fichier PDF (Code de la locale à la fin du nom du fichier: ici `en_US`).
 
 :::warning
 Si la locale est désactivée ou n’existe pas dans le PIM, le PIM affichera un message d’erreur en rouge. 
