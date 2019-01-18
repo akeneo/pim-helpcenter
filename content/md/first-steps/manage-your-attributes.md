@@ -11,7 +11,7 @@ If you are not familiar with the concept of attributes, you can read our [What i
 
 # See your attributes
 
-Go to `Settings/Attributes`, to see all the existing attributes or create a new one. 
+Go to `Settings/Attributes`, to see all the existing attributes or create a new one.
 
 ## Attribute grid pagination
 
@@ -21,7 +21,7 @@ The attribute grid displays 25 attributes per page. To browse attributes pages, 
 
 You can sort out attributes by clicking on the column header on the grid.
 
-## Search on a attribute label
+## Search on an attribute label
 
 To quickly find an attribute, use the search bar available above the grid. Use your attributes label to find what you are looking for.
 
@@ -81,7 +81,7 @@ To create an attribute in the PIM:
     - **Locale specific**: to enable this attribute only to specific locales and not all of them
     - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
     - **Read only**: when enabled it prevents this attribute from being edited through the UI, it can only be updated through imports, API or rules _(Enterprise Edition only)_
-    - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#validation-for-the-different-attribute-types)).    
+    - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#parameters-according-to-specific-attribute-types)).    
 1. Click on `Save` to create your attribute.
 
 The attribute is now created, you **can add a translation for each enabled locales** under the `Label translations` tab. If you need to edit some other attribute's property, please refer to the section [Edit attribute properties](manage-your-attributes.html#edit-attribute-properties)
@@ -93,14 +93,14 @@ The attribute is now created, you **can add a translation for each enabled local
 ::: warning
 Please note that the **following attribute codes cannot be used** in Akeneo PIM:    
 `id`, `identifier`, `Identifier`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `Family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `label`, `LABEL`, `Label`, `parent`.    
-We strongly recommend you to do not use any of these codes even if the letter case is different, for instance `Id`, `Groups`.
+We strongly recommend you not to use any of these codes even if the letter case is different, for instance `Id`, `Groups`.
 :::
 
 ::: warning
 If you cannot access the attribute page or if you cannot add a new attribute, it is probably because you do not have the role permission to. Please refer to [Manage your user roles](build-your-user-roles.html) to learn more about roles.
 :::
 
-## Validation for the different attribute types
+## Parameters according to specific attribute types
 
 Each attribute has specific properties to add more control on attribute's values:
 - **Date** attribute:
@@ -154,8 +154,8 @@ You can change the following properties of an attribute:
 - **Labels**: these are labels that appear when they are displayed in the PIM
 - **Locale specific**: if it must apply to specific locales not all of them
 - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the proposal grid (EE only - since 2.2)
-- **Read only**: only for Enterprise Edition users, when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules.
-- **Validation parameters** (see [Validation for the different attribute types](#validation-for-the-different-attribute-types))
+- **Read only**: when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules _(Enterprise Edition only)_
+- **Validation parameters** (see [Parameters according to specific attributes types](#parameters-according-to-specific-attribute-types))
 - **Options** (for simple or multi select attribute types only): these are predefined values that the user can select
 
 ::: warning
