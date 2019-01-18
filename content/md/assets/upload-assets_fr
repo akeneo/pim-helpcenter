@@ -39,7 +39,7 @@ Si la locale est désactivée ou n’existe pas dans le PIM, le PIM affichera un
 Le compte rendu de l’import est affiché. 
 
 ::: info
-Quand des fichiers sont ajoutés à la liste, vous pouvez les retirer peu importe leur statut. 
+Quand des fichiers sont ajoutés à la liste, vous pouvez les retirer peu importe leur statut.  
 Pour supprimer le fichier de la liste, cliquez sur le bouton `X` à droite de chaque ligne. Le fichier sera supprimé et ne sera pas importé. 
 
 Si vous voulez supprimer tous les fichiers que vous avez ajoutés, cliquez sur le bouton `Supprimer tous les fichiers` en haut de l’écran. ;) 
