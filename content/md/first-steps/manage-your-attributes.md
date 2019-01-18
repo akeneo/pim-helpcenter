@@ -45,7 +45,7 @@ You can filter on the following attribute information:
 - The attribute group it belongs to
 - The `scopable` property (one value per channel)
 - The `localizable` property (one value per locale)
-- The `smart` property (Yes/No) if there is a rule defined on this attribute _(Entreprise Edition only)_
+- The `smart` property (Yes/No) if there is a rule defined on this attribute _(Enterprise Edition only)_
 
 ::: info
 By default, attributes will be displayed in the catalog locale selected in the product grid. If an attribute code appears into brackets like *[color]*, it means it has not been translated into the current locale.
@@ -72,7 +72,7 @@ To create an attribute in the PIM:
   ![image](../img/Settings_AttributesCTAButton.png)
 1. Select the attribute type you want to create
   ![image](../img/Settings_Attributes_Create1.png)
-1. The attribute edit page is displayed. The following properties are required to finalise the creation of your attribute:
+1. The attribute edit page is displayed. The following properties are required to finalize the creation of your attribute:
     - A **code** to identify the attribute
     - An **attribute group**: the attribute group the attribute will belong to
     - A **unique value** (Yes/No): if the value for this attribute is unique (field available or required depending on the attribute type)
