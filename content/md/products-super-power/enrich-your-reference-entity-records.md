@@ -11,20 +11,23 @@ related:
 
 ## Add a record
 Once you’ve created a reference entity, you can add **records**.
-Let’s say that you’ve just created the reference entity `Brand`, you’ve defined it’s records' attributes and now it’s time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
+Let’s say that you have just created the reference entity `Brand`, you have defined its records attributes and now it is time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
 
 To add a new brand to the reference entity `Brand`:
 1. Go to your `Brand` entity (you are automatically on the records grid)
 1. Then click on the `Add new` button, choose a label for the record (the code is automatically generated but you can change it if needed).
 
 ::: tips
-If you have several records to add:
+If you have several records to add, you can stay in the creation pop-in to add quickly as many records as needed:
+1. Input the first record label
 1. Tick `Create another record`
-1. Input the first record's label and press "Enter"
-1. Input the second record's label and press "Enter"
-1. Do it for each record then save.  
+1. Press "Enter"
+1. Add the label for each record
+1. Once you've done, press "Esc" or "Echap"   
+:::
 
-You’ll stay in the creation pop-in to add quickly as many records as needed.  Note that we defined a limitation of 1 million records per reference entity to guarantee that the PIM is functional and runs smoothly.
+::: info
+Note that we defined a limitation of 1 million records per reference entity to guarantee that the PIM is functional and runs smoothly.
 :::
 
 ## Display records
@@ -37,7 +40,7 @@ The records grid is quite different than the products' one. Thereafter are the n
 - We also added a tooltip to **preview the content** of a text attribute directly in the grid
 - Finally, there is an **infinite scroll down** on this grid, which allows you to gather all the records in the same page.
 
-::: tips
+::: info
 When you scroll down in the grid, only the first 500 results are displayed (in order to avoid performances issues). When you arrive at the end of the first 500 records, a message is displayed *"You just scrolled through the first 500 results out of 10005 records. To see more, try with more specific search criteria."*
 :::
 
@@ -49,10 +52,14 @@ Of course, you can still edit or delete a record thanks to the buttons at the en
 
 Our goal is to facilitate your work and to **increase your productivity**. To make this possible, we made a very powerful search in the grid of records. Indeed, we implemented a **full text search** which allows you to search on code, label and text attribute types.
 
-For example, if you use the word *« famous »* in the description of a record, then you can type *« famous »* in the records grid search bar and all the records containing the word *« famous »* in their code, label or text attribute types will be displayed.  
-And we can go further.
+For example, if you search for the word *« famous »*, all the records containing the word *« famous »* in their code, label or text attribute types will be displayed.  
 
-Let's consider you use the word *"amazing"* in the description of two records, then if you type *"amazing"* in the records grid search bar, both records will be displayed. If you search for *"dark"* and *"amazing"*,then only the record containing both *"dark"* and *"amazing"* words will be displayed.
+![Search for records with a keyword](../img/Records_Search_1_word.png)
+
+And we can go further.
+If you search for *"famous"* and *"black"*,then only the record containing both *"famous"* and *"black"* words will be displayed.
+
+![Search for records with several keywords](../img/Records_Search_2_words.png)
 
 ### Filter on completeness
 
@@ -98,7 +105,7 @@ Please refer to this [article](/articles/manage-reference-entities.html#add-an-a
 Once you've chosen which entity is linked, you can see a new selector with all the records of the linked entity.
 
 ::: tips
-Click on the `link` button on each record line in the selector to preview the record! It opens automatically a new tab in your browser.
+Click on the `link` icon on each record line in the selector to preview the record! It opens automatically a new tab in your browser.
 :::
 
 ## Delete records
