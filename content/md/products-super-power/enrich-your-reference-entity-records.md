@@ -17,13 +17,15 @@ To add a new brand to the reference entity `Brand`:
 1. Go to your `Brand` entity (you are automatically on the records grid)
 1. Then click on the `Add new` button, choose a label for the record (the code is automatically generated but you can change it if needed).
 
+![Create a record](../img/Records_creation.png)
+
 ::: tips
 If you have several records to add, you can stay in the creation pop-in to add quickly as many records as needed:
 1. Input the first record label
 1. Tick `Create another record`
-1. Press "Enter"
+1. Press `Enter`
 1. Add the label for each record
-1. Once you've done, press "Esc" or "Echap"   
+1. Once you've done, press `Esc` or `Echap`   
 :::
 
 ::: info
@@ -32,6 +34,8 @@ Note that we defined a limitation of 1 million records per reference entity to g
 
 ## Display records
 To see the records of the reference entity, click on the `Records` tab in the left menu. You will see the records grid, where all the records of the entity are listed.
+
+![Records grid](../img/Records_grid.png)
 
 ### The records grid
 The records grid is quite different than the products' one. Thereafter are the novelties of this grid:
@@ -57,7 +61,7 @@ For example, if you search for the word *« famous »*, all the records contai
 ![Search for records with a keyword](../img/Records_Search_1_word.png)
 
 And we can go further.
-If you search for *"famous"* and *"black"*,then only the record containing both *"famous"* and *"black"* words will be displayed.
+If you search for *"famous"* and *"bags"*, then only the record containing both *"famous"* and *"bags"* words will be displayed.
 
 ![Search for records with several keywords](../img/Records_Search_2_words.png)
 
@@ -65,8 +69,10 @@ If you search for *"famous"* and *"black"*,then only the record containing both 
 
 You can also filter on completeness in order to see the records that are complete/incomplete, or choose to see all the records, no matter their completeness.
 
+![Records filter on completeness](../img/Records_filter_completeness.png)
+
 ::: tips
-To know how to define the completeness on each attribute, please take a look at this [article](/articles/manage-reference-entities.html)
+To know how to define the required attributes for the completeness, please take a look at this [article](/articles/manage-reference-entities.html)
 :::
 
 ## Edit a record
@@ -84,13 +90,17 @@ In fact, the Rich text editor offers a large bunch of possibilities!
 ![Records text area](../img/Records_text_area.png)
 
 
-## Follow the records' completeness
+## Follow the records completeness
 
-We also worked on the records completeness. As in the product grid, several indicators show you the status of your completeness and what is missing.
+As in the product grid, we calculate the completeness on records.
+
+::: tips
+To know how to define the required attributes for the completeness, please take a look at this [article](/articles/manage-reference-entities.html)
+:::
+
+In the records grid, several indicators show you the status of your completeness and what is missing.
 - **Yellow bullet points** in front of each missing required attribute, showing that you have to complete this attribute to improve the completeness.
 - The **completeness percentage** in the header of the record informs you of the completeness level.   
-
-*So, what's new?*
 
 The completeness is **automatically calculated** as soon as we enrich a required attribute. It means that the bullet point will disappear as soon as the required attribute is filled, and same for the completeness percentage evolution.
 
@@ -99,7 +109,11 @@ The completeness is **automatically calculated** as soon as we enrich a required
 
 It is also possible to link a record to another one, and it is very simple.
 
-For example, you can link a *brand* (let's say *"Kartell"*) to the record *"Philippe Starck"*, or to several records designers belonging to the *"Designer"* entity.  
+For example, you can link a *Designer* (let's say *"Philippe Starck"*) to the record *"Kartell"*, or to several records brands belonging to the *"Brands"* entity.  
+
+![Create a link between two records](../img/Records_link_entity_1.png)
+![Records link entity](../img/Records_link_entity_2.png)
+
 Please refer to this [article](/articles/manage-reference-entities.html#add-an-attribute) to discover how to do so.
 
 Once you've chosen which entity is linked, you can see a new selector with all the records of the linked entity.
