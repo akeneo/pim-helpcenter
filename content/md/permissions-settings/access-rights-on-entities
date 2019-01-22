@@ -34,5 +34,27 @@ At least one user group must have the right to edit a reference entity.
 If a user belonging to a user group that has right to display a reference entity, he will only be able to view the reference entity information (properties, attributes, records) and that's all.
 He will have to possibility to edit or delete it.
 
+
+You can define which user groups can view or edit this reference entity, its properties, its attributes and its records.
+The Edit right means add, edit and delete.
+:::info
+It's not possible to hide a reference entity.
+:::
+To define the permissions on a reference entity, follow these steps:
+1.  Go to the `Permissions` tab of the reference entity
+1.  For each user group, tick to give the `View` or `Edit` rights
+1.  Click on the `Save` button to save the Permissions
+![image](../img/ReferenceEntity_Permissions.png)
+For example, a user in the `Manager` group can edit this `Brand` reference entity, so add and edit attributes or add and enrich some brands.
+A user in the `Clothes managers` group only view this `Brand` reference entity, so he can only view its attributes and also view its brands.
+:::tips
+If you want all your user groups to have the edit rights, click on `EDIT` in the columns title and all the user groups will be ticked with `Edit` rights.
+If you want almost all your user groups to have the view rights, click on `VIEW` in the columns title and all the user groups will be ticked with `View` rights. And then, tick with `Edit` rights some user groups.
+:::
+:::warning
+At least one user group should have `Edit` rights on a reference entity to manage the permissions on this reference entity.
+:::
+
+
 # Rights depending on the locales
 It is possible to define for each [user group](what-is-a-user-group.html), on which [locale](what-is-a-locale.html) the reference entity information can be viewed and/or edited.
