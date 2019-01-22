@@ -71,8 +71,8 @@ To create an attribute in the PIM:
 1. Click on the `Create attribute` button
   ![image](../img/Settings_AttributesCTAButton.png)
 1. Select the attribute type you want to create
-  ![image](../img/Settings_Attributes_Create1.png)
-1. The attribute edit page is displayed. The following properties are required to finalize the creation of your attribute:
+  ![image](../img/Settings_Attributes_Create2.png)
+1. The attribute edit page is displayed. The following properties are required to finalise the creation of your attribute:
     - A **code** to identify the attribute
     - An **attribute group**: the attribute group the attribute will belong to
     - A **unique value** (Yes/No): if the value for this attribute is unique (field available or required depending on the attribute type)
@@ -131,6 +131,8 @@ Each attribute has specific properties to add more control on attribute's values
   - *Allow decimals*
   - *Minimum value*: the smallest allowed value
   - *Maximum value*: the largest allowed value
+- **Reference entity single link & multiple links** attributes _(EE only)_:
+  - *Related reference entity*: the reference entity linked to this attribute
 
 For instance, you can add a regular expression on a text field to use it for EAN codes. As they contain 13 digits, we can add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 
