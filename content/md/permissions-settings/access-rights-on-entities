@@ -1,0 +1,38 @@
+---
+id: access-rights-on-entities
+themes: permissions-settings, manage-your-reference-entities
+title: Set rights on your **reference entities**
+popular: false
+ee-only: true
+related: what-about-reference-entities, manage-your-reference-entities, build-your-user-groups
+---
+
+# The basics
+
+Once you've [created your 1st reference entity](manage-your-reference-entities.html) and [created your user groups](build-your-user-groups.html), you can begin to define for each of these users groups if they will be able to see/edit this reference entity.
+
+# Rights depending on the reference entity
+
+For reference entities, we have 2 levels of access: the view right and the edition right.
+
+::: warning
+It’s to hide a reference entity.
+:::
+
+## The edition right
+If a user belonging to a user group that has right to edit a reference entity, he will be able to:
+*   Edit the reference entities properties
+*   Add, edit, delete the reference entities Attributes
+*   Add, edit, delete a reference entity record
+*   Delete the reference entity
+
+:::info
+At least one user group must have the right to edit a reference entity.
+:::
+
+## The view right
+If a user belonging to a user group that has right to display a reference entity, he will only be able to view the reference entity information (properties, attributes, records) and that's all.
+He will have to possibility to edit or delete it.
+
+# Rights depending on the locales
+It is possible to define for each [user group](what-is-a-user-group.html), on which [locale](what-is-a-locale.html) the reference entity information can be viewed and/or edited.
