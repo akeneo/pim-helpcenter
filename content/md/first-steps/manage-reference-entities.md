@@ -49,7 +49,7 @@ You can also translate the label of the reference entity by switching the curren
 ![image](../img/ReferenceEntity_EditProperties.png)
 
 # Define its records attributes
-In the `Attributes` tab, you can define what are the attributes for the records of this reference entity.  
+In the `Attributes` tab, you can define what are the attributes for these reference entity records.  
 For example, a `Brand` reference entity could be described by the following information:
 - a code
 - a label
@@ -62,7 +62,7 @@ For example, a `Brand` reference entity could be described by the following info
 
 ## Add an attribute
 To add an attribute, follow these steps:
-1.  Go to the `Attributes` tab for a reference entity
+1.  Go to the `Attributes` tab of a reference entity
 1.  Click on the `Add an attribute` button
 1.  Input the label of the attribute in the current catalog locale
 1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
@@ -96,12 +96,12 @@ To guarantee that the PIM is functional and runs smoothly, we defined a volume l
 
 ## Edit an attribute
 To edit an attribute, follow these steps:
-1.  Go to the `Attributes` tab for a reference entity
+1.  Go to the `Attributes` tab of a reference entity
 1.  Click on the `Edit` icon
 1.  An edit pop-in opens with the attribute parameters depending on the attribute type
 1.  You can translate the label of the attribute by switching the current locale in the header
  ![image](../img/ReferenceEntity_EditAttribute.png)
-1.  Depending on the attribute type, set the specific parameters for the attribute (see below the specific parameters)
+1.  Depending on the attribute type, set the specific parameters of the attribute (see below the specific parameters)
 1.  Click on the `Save` button or press `Enter` to save the attribute parameters
 
 ### Edit a text attribute
@@ -125,9 +125,9 @@ If not `Text area`:
   - *Related reference entity*: the reference entity linked to this attribute, this information cannot be updated
 
 ## Manage the options
-To define the options for a single/multiple options attribute, follow these steps:
-1.  Go to the `Attributes` tab for a reference entity
-1.  Click on the `Edit` icon for the attribute
+To define the options of a single/multiple options attribute, follow these steps:
+1.  Go to the `Attributes` tab of a reference entity
+1.  Click on the `Edit` icon of the attribute
 1.  An edit pop-in opens with the attribute parameters
 1.  Click on the `Manage options` button
 1.  A fullscreen opens to manage the options
@@ -187,8 +187,8 @@ To remove an option, click on the cross at the end of the option line.
 
 ## Define the completeness
 To define the attributes required for the completeness of a record:
-1.  Go to the `Attributes` tab for a reference entity
-1.  Click on the `Edit` icon for an attribute
+1.  Go to the `Attributes` tab of a reference entity
+1.  Click on the `Edit` icon of an attribute
 1.  Tick `Required for completeness` if this attribute is required for the completeness of a record
 1. Click on the `Save` button or press `Enter`
 
@@ -198,8 +198,8 @@ If this attribute is not required for the completeness, untick `Required for com
 
 ## Delete an attribute
 To delete an attribute, follow these steps:
-1.  Go to the `Attributes` tab for a reference entity
-1.  Click on the `Edit` icon for the attribute you want to delete
+1.  Go to the `Attributes` tab of a reference entity
+1.  Click on the `Edit` icon of the attribute you want to delete
 1.  An edit pop-in opens with the attribute parameters
 1.  Click on the `Delete the attribute` button
 1.  A confirmation pop-in opens to confirm that you want to delete the attributes
@@ -211,7 +211,7 @@ The attribute and its relevant information will be deleted in the records of the
 
 # Delete a reference entity
 To delete a reference entity, follow these steps:
-1.  Go to the `Properties` tab for the reference entity you want to delete
+1.  Go to the `Properties` tab of the reference entity you want to delete
 1.  In the top right corner of the header, click on `...` for other actions and then `Delete entity`
 1.  A confirmation pop-in opens to confirm that you want to delete the reference entity
 1.  Click on the `Delete` button
@@ -222,29 +222,5 @@ You cannot delete a reference entity if:
 - This reference entity is linked to some product attributes: then, you need to [delete the related product attributes](/articles/manage-your-attributes.html#delete-an-attribute) to this reference entity.
 :::
 
-# Set permissions on a reference entity
-You can define which user groups can view or edit this reference entity, its properties, its attributes and its records.  
-The Edit right means add, edit and delete.
-
-:::info
-It's not possible to hide a reference entity.
-:::
-
-To define the permissions on a reference entity, follow these steps:
-1.  Go to the `Permissions` tab of the reference entity
-1.  For each user group, tick to give the `View` or `Edit` rights
-1.  Click on the `Save` button to save the Permissions
-
-![image](../img/ReferenceEntity_Permissions.png)
-
-For example, a user in the `Manager` group can edit this `Brand` reference entity, so add and edit attributes or add and enrich some brands.
-A user in the `Clothes managers` group only view this `Brand` reference entity, so he can only view its attributes and also view its brands.
-
-:::tips
-If you want all your user groups to have the edit rights, click on `EDIT` in the columns title and all the user groups will be ticked with `Edit` rights.  
-If you want almost all your user groups to have the view rights, click on `VIEW` in the columns title and all the user groups will be ticked with `View` rights. And then, tick with `Edit` rights some user groups.
-:::
-
-:::warning
-At least one user group should have `Edit` rights on a reference entity to manage the permissions on this reference entity.
-:::
+# Set rights on a reference entity
+To set rights on a reference entity, please read [this article](/articles/access-rights-on-entities.html).
