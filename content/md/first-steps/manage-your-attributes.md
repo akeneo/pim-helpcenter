@@ -131,7 +131,7 @@ Each attribute has specific properties to add more control on attribute's values
   - *Allow decimals*
   - *Minimum value*: the smallest allowed value
   - *Maximum value*: the largest allowed value
-- **Reference entity single link & multiple links** attribute _(EE only)_:
+- **Reference entity single link & multiple links** attributes _(EE only)_:
   - *Related reference entity*: the reference entity linked to this attribute
 
 For instance, you can add a regular expression on a text field to use it for EAN codes. As they contain 13 digits, we can add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
