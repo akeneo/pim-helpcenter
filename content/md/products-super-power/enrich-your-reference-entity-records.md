@@ -45,6 +45,10 @@ The records grid is quite different than the products' one. Thereafter are the n
 - Finally, there is an **infinite scroll down** on this grid, which allows you to gather all the records in the same page.
 
 ::: info
+In the records grid, you will see only certain types of attributes: code, text and image.
+:::
+
+::: info
 When you scroll down in the grid, only the first 500 results are displayed (in order to avoid performances issues). When you arrive at the end of the first 500 records, a message is displayed *"You just scrolled through the first 500 results out of 10005 records. To see more, try with more specific search criteria."*
 :::
 
@@ -92,13 +96,13 @@ In fact, the Rich text editor offers a large bunch of possibilities!
 
 ## Follow the records completeness
 
-As in the product grid, we calculate the completeness on records.
+As in the product, we calculate the completeness on records.
 
 ::: tips
 To know how to define the required attributes for the completeness, please take a look at this [article](/articles/manage-reference-entities.html)
 :::
 
-In the records grid, several indicators show you the status of your completeness and what is missing.
+In the records, several indicators show you the status of your completeness and what is missing.
 - **Yellow bullet points** in front of each missing required attribute, showing that you have to complete this attribute to improve the completeness.
 - The **completeness percentage** in the header of the record informs you of the completeness level.   
 
