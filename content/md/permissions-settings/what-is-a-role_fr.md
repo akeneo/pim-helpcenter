@@ -12,7 +12,7 @@ Un rôle peut-être assigné à un ou plusieurs utilisateurs. Par exemple, vous 
 
 ![image](../img/System_users_Profil_edit_grpandroles_fr.png)
 
-Un utilisateur peut avoir un à plusieurs rôles. Dans le cas d'un utilisateur possédant plusieurs rôles, les permissions données pour chaque rôles sont cumulées.
+Un utilisateur peut avoir un à plusieurs rôles. Dans le cas d'un utilisateur possédant plusieurs rôles, les permissions données pour chaque rôle sont cumulées.
 
 # Exemple
 
