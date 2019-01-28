@@ -10,12 +10,12 @@ related:
 # Enrich your reference entity records
 
 ## Add a record
-Once you’ve created a reference entity, you can add **records**.
-Let’s say that you have just created the reference entity `Brand`, you have defined its records attributes and now it is time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
+Once you have created a reference entity, you can add **records**.
+Let’s say that you just have created the reference entity `Brand`, you have defined its records attributes and now it is time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
 
 To add a new brand to the reference entity `Brand`:
-1. Go to your `Brand` entity (you are automatically on the records grid)
-1. Then click on the `Add new` button, choose a label for the record (the code is automatically generated but you can change it if needed).
+1. Go to your `Brand` entity (you will automatically land on the records grid)
+1. Then click on the `Add new` button, choose a label for the record (the PIM will automatically take its label to generate your record's code, but you can change it if needed).
 
 ![Create a record](../img/Records_creation.png)
 
@@ -123,7 +123,7 @@ Please refer to this [article](/articles/manage-reference-entities.html#add-an-a
 Once you've chosen which entity is linked, you can see a new selector with all the records of the linked entity.
 
 ::: tips
-Click on the `link` icon on each record line in the selector to preview the record! It opens automatically a new tab in your browser.
+Click on the `link` icon on each record line in the selector to preview the record! It will automatically open a new tab in your browser.
 :::
 
 ## Delete records
@@ -131,12 +131,12 @@ Click on the `link` icon on each record line in the selector to preview the reco
 ### Delete a record
 You can delete a record or all the records of an entity.
  To delete a record, 2 choices:
-- Either directly in the records grid, clicking on the *trashcan* button on each record line.
-- Either in the details of the record, clicking on the `...` button in the top right corner of the header then `delete`.
+- Either directly in the records grid, by clicking on the *trash can* button on each record line.
+- Either in the details of the record, by clicking on the `...` button at the top right corner of the header then `delete`.
 
 ### Delete all the records
-To delete all the records of an entity, click on the `...` button in the top right corner of the header's records grid then `delete all records`.
+To delete all the records of an entity, click on the `...` button at the top right corner of the header's records grid then `delete all records`.
 
 ::: tips
-To delete all the records of an entity, you need to check that no record of this entity is linked to other entities or used in a product.
+To delete all the records of an entity, you **need to check that no record of this entity is linked to other entities or used in a product**. Otherwise you will not be able to delete it.
 :::
