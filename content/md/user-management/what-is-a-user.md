@@ -24,14 +24,14 @@ A user has at least:
  - a role.
 
 ::: ee
-A user can belong to one or several [user groups](/articles/what-is-a-user-group.html). In the Entreprise Edition, this is really useful when you want to assign them permissions regarding the products data. To know more about this subject, read [Build your user groups](/articles/build-your-user-groups.html).
+A user can belong to one or several [user groups](what-is-a-user-group.html). In the Entreprise Edition, this is really useful when you want to assign them permissions regarding the products data. To know more about this subject, read [Build your user groups](build-your-user-groups.html).
 :::
 
 # As a user you can...
 
 As a user you can:
  - choose the language of your PIM interface to better understand what's going on :wink:
- - choose your favorite [view](/articles/manage-your-views.html) and working category tree to be even more productive
- - choose your favorite [locale](/articles/what-is-a-locale.html), [channel](/articles/what-is-a-channel.html) and other filters when you are working on the [product grid](/articles/products-grid.html)
+ - choose your favorite [view](manage-your-views.html) and working category tree to be even more productive
+ - choose your favorite [locale](what-is-a-locale.html), [channel](what-is-a-channel.html) and other filters when you are working on the [product grid](products-grid.html)
 
 ![image](../img/System_users_Profil.png)

@@ -8,13 +8,13 @@ related: proposals-workflow, build-your-user-groups, what-is-a-user-group, acces
 
 # Overview
 
-A [proposal](/articles/proposals-workflow.html) is a set of attribute values, written by a single contributor.
+A [proposal](proposals-workflow.html) is a set of attribute values, written by a single contributor.
 
 ::: info
 If two contributors are modifying the same product, then 2 proposals will be created.
 :::
 
-If you [own a product](/articles/access-rights-on-products.html#the-owner-right), you will be able to list its proposals, in order to approve, reject or even delete them.
+If you [own a product](access-rights-on-products.html#the-owner-right), you will be able to list its proposals, in order to approve, reject or even delete them.
 
 # List all the proposals to review
 
@@ -29,21 +29,21 @@ The proposals with the status `In progress` are not displayed in these grids.
 :::
 
 ::: info
-**Reminder**
+**Reminder**  
 A contributor can only send one single proposal per product.  
 A proposal can gather several changes on a product.
 :::
 
-# Filter the proposals (since 2.2)
+# Filter the proposals
 
-To quickly find products with proposals, a search bar on product label and product identifier is available. Its behaviour is the same as in the [product grid](/articles/products-grid.html#search-by-label-and-identifier-since-21.html).
+To quickly find products with proposals, a search bar on product label and product identifier is available. Its behaviour is the same as in the [product grid](products-grid.html#search-by-label-and-identifier.html).
 
-The proposal grid also includes [filter management](/articles/products-grid.html#use-filters) to search on new attributes values. By default, the PIM displays the following filters: family, author, proposed date and SKU.
+The proposal grid also includes [filter management](products-grid.html#use-filters) to search on new attributes values. By default, the PIM displays the following filters: family, author, proposed date and SKU.
 
 ![image](../img/Products_Proposals_Filter.png)
 
 ::: info
-If you are missing an attribute in the Filters menu, check if it is well activated as [`usable in grid`](/articles/manage-your-attributes.html#edit-attribute-properties).
+If you are missing an attribute in the Filters menu, check if it is well activated as [`usable in grid`](manage-your-attributes.html#edit-attribute-properties).
 :::
 
 # Review the proposals
@@ -59,7 +59,7 @@ The two first actions and the last action take you straight to all product propo
 ![image](../img/Products_Proposals.png)
 
 ::: tips
-If you didn’t receive a notification when the contributors send to approve a proposal, check your [notifications preferences](/articles/manage-your-account.html#your-notifications-preferences-ee-only) in your user account. ;)
+If you didn’t receive a notification when the contributors send to approve a proposal, check your [notifications preferences](manage-your-account.html#your-notifications-preferences-ee-only) in your user account. ;)
 :::
 
 The proposals have the following properties:
@@ -70,7 +70,7 @@ The proposals have the following properties:
 
 They are some filters available on each of the proposals’ grids. Do not hesitate to take advantage of them in order to filter your proposals.
 
-You can review the proposals and its changes according to [your permissions on attributes groups and locales](/articles/access-rights-on-products.html):
+You can review the proposals and its changes according to [your permissions on attributes groups and locales](access-rights-on-products.html):
 - You can view only the changes you have the view permissions on
 - You can review (approve or reject) only the changes you have the edit permissions on
 

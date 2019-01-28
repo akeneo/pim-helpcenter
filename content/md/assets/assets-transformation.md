@@ -8,7 +8,7 @@ related: work-with-assets, upload-assets
 ---
 
 # Overview
-For each channel, you can define a specific asset transformation. This transformation will be applied on each assets created in the PIM and will be used to generate asset variations for your [channels](/articles/what-is-a-channel.html).
+For each channel, you can define a specific asset transformation. This transformation will be applied on each assets created in the PIM and will be used to generate asset variations for your [channels](what-is-a-channel.html).
 **Asset transformations can be imported using a YML file**, you will find more information in the Add a transformation to a channel section below.
 
 If no asset transformation is set for a channel, the PIM will not be able to generate a variation. 
@@ -45,11 +45,10 @@ asset_channel_configurations:
                 colorspace: gray
 ```
 
-If the assets transformation given above are not enough for you, you can create new assets transformations. You can define new types of assets transformations by following the [technical cookbook](https://docs.akeneo.com/2.0/manipulate_pim_data/product_asset/add_new_transformation.html) we prepared for you.
+If the assets transformation given above are not enough for you, you can create new assets transformations. You can define new types of assets transformations by following the [technical cookbook](https://docs.akeneo.com/latest/manipulate_pim_data/product_asset/add_new_transformation.html) we prepared for you.
 
 ::: tips
-**You'd like to keep your reference file as it is for your channel's variations? Use a 100% scale transformation**!     
-(A 100% scale transformation is only possible since patch EE-2.3.14).
+**You'd like to keep your reference file as it is for your channel's variations? Use a 100% scale transformation**!
 :::
 
 ::: warning
@@ -94,7 +93,7 @@ When your YML file is ready:
 1.  Create a new import profile or use an existing one that is running the `Asset channel configuration import in Yaml` job
 1.  Upload your YML file and process the file
 
-For more details about how to execute an import, please refer to the [imports](/articles/imports.html) article.
+For more details about how to execute an import, please refer to the [imports](imports.html) article.
 
 ::: info
 You can update the asset transformations for your channels by reimporting a new YML file into Akeneo. It is not possible to remove an asset transformation from the UI.
@@ -109,7 +108,7 @@ You can export your asset transformations in a YML file by executing the `Asset 
 1.  Click on `Export now`
 1.  Once the export is finished, click on `Download generated files` to download the YML file
 
-For more details about how to execute an export, please refer to the article dedicated to [exports](/articles/exports.html).
+For more details about how to execute an export, please refer to the article dedicated to [exports](exports.html).
 
 ::: tips
 If you need to edit your asset transformation, simply export your current asset transformations, edit the YML file and reimport it!

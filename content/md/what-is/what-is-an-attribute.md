@@ -18,11 +18,11 @@ Depending on your Akeneo Edition version, you can have up to 15 attribute types:
 - **date**
 - **number**
 - **price**
-- **metric** (with automatic conversions): this attribute type allows you to **automatically convert metric values into others to fit your export needs**. See the [Manage your Channels](/articles/manage-your-channels.html#create-a-channel) article.
+- **metric** (with automatic conversions): this attribute type allows you to **automatically convert metric values into others to fit your export needs**. See the [Manage your Channels](manage-your-channels.html#create-a-channel) article.
 - **media file**: a simple file (pdf file for instance) or an image
-- **[asset collection](/articles/work-with-assets.html)**: digital resources like a video, picture, pdf file... _(Entreprise Edition only)_
+- **[asset collection](work-with-assets.html)**: digital resources like a video, picture, pdf file... _(Entreprise Edition only)_
 
-Attributes are gathered into [attribute groups](/articles/what-is-an-attribute-group.html) in Akeneo.
+Attributes are gathered into [attribute groups](what-is-an-attribute-group.html) in Akeneo.
 
 :::info
 The only mandatory attribute is the **Identifier attribute type**. You first need to create an identifier attribute type before creating products.    

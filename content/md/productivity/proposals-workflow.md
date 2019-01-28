@@ -8,15 +8,15 @@ related: review-products-proposals, build-your-user-groups, what-is-a-user-group
 
 # Overview
 
-Thanks to the [Enterprise Edition permissions on the categories](/articles/access-rights-on-products.html#rights-depending-on-the-categories), you can elaborate workflows to enrich your products. Some users will have ownership of products, they will be able to approve or reject contributions sent from users having only the edit permissions on categories.
+Thanks to the [Enterprise Edition permissions on the categories](access-rights-on-products.html#rights-depending-on-the-categories), you can elaborate workflows to enrich your products. Some users will have ownership of products, they will be able to approve or reject contributions sent from users having only the edit permissions on categories.
 
 :::info
-Since 2.3, proposals support [product models](/articles/what-about-products-variants.html#what-is-a-product-model).
+Proposals also work with [product models](what-about-products-variants.html#what-is-a-product-model).
 :::
 
 # Statuses of products
 
-In the case you only have an [edit right on a product depending on its categorization](/articles/access-rights-on-products.html#rights-depending-on-the-categories), two more product information are displayed in the `Product infos` left panel in the product form:
+In the case you only have an [edit right on a product depending on its categorization](access-rights-on-products.html#rights-depending-on-the-categories), two more product information are displayed in the `Product infos` left panel in the product form:
 - `Owner groups`: the name(s) of the user group(s) that own the product
 - `Draft status`: the status of the product form
 
@@ -36,8 +36,8 @@ First, you will have to find a product on which you only have an edit right thro
 Select one of these products to go to its form.
 
 You can propose changes on all the product attributes of an attribute group on which you have the edit permission on the product values of the relevant locale. For more information about these permissions, do not hesitate to check the following sections:
-- [Rights depending on the locales](/articles/access-rights-on-products.html#rights-depending-on-the-locale)
-- [Rights depending on the attribute groups](/articles/access-rights-on-products.html#rights-depending-on-the-attribute-groups)
+- [Rights depending on the locales](access-rights-on-products.html#rights-depending-on-the-locale)
+- [Rights depending on the attribute groups](access-rights-on-products.html#rights-depending-on-the-attribute-groups)
 
 Once you made your changes on the product, click on `Save`:
 
@@ -55,7 +55,7 @@ You can come back later on your product draft version to finish your enrichment 
 
 # Contribute on your product draft
 
-A product form will have the `In progress` status after you propose new values for the product information, it also means it has not been yet sent for approval to product managers. We call "product managers", whatever user that has a [owner right](/articles/access-rights-on-products#the-owner-right) on this product.
+A product form will have the `In progress` status after you propose new values for the product information, it also means it has not been yet sent for approval to product managers. We call "product managers", whatever user that has a [owner right](access-rights-on-products#the-owner-right) on this product.
 
 You can continue to enrich your current draft by changing the product attributes values. Each time you will hit the `Save` button, a new draft will be generated.
 
@@ -92,7 +92,7 @@ A notification is sent to the product managers for them to know there is somethi
 ![image](../img/Products_ProposalsNotification.png)
 
 ::: info
-To know more about how proposals are review, take a look at the [Review product proposals](/articles/review-products-proposals.html) article.
+To know more about how proposals are review, take a look at the [Review product proposals](review-products-proposals.html) article.
 :::
 
 # Contribute to your proposal awaiting for approval
@@ -122,5 +122,5 @@ When the product managers validate, reject or delete your proposal, you receive 
 Click on the proposal’s notification to open the product form.
 
 ::: info
-If you didn’t receive a notification after the products managers have validated or rejected your proposal, check your [notifications preferences](/articles/manage-your-account.html#your-notifications-preferences-ee-only) in your user account.
+If you didn’t receive a notification after the products managers have validated or rejected your proposal, check your [notifications preferences](manage-your-account.html#your-notifications-preferences-ee-only) in your user account.
 :::

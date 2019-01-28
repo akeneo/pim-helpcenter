@@ -8,7 +8,7 @@ related: what-is-a-user-group, what-is-a-user, access-rights-on-products, access
 
 # Manage your user groups
 
-Thanks to the user groups, you will be able to grant access to your PIM users to only certain parts of your dear catalog of products and assets. If you want to know more about what is a user group, take a look to this [article](/articles/what-is-a-user-group.html).
+Thanks to the user groups, you will be able to grant access to your PIM users to only certain parts of your dear catalog of products and assets. If you want to know more about what is a user group, take a look to this [article](what-is-a-user-group.html).
 
 ## View the user groups list
 

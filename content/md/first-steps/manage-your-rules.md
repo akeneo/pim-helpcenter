@@ -10,7 +10,7 @@ related: what-is-a-rule
 # Overview
 
 A rule allows you to enrich automatically some information in your products, according to automatic actions based on conditions. It applies on attributes, categories, system attributes (status, completeness...).  
-For more details, please refer to [What is a rule](/articles/what-is-a-rule.html).
+For more details, please refer to [What is a rule](what-is-a-rule.html).
 
 # View all rules
 
@@ -47,7 +47,7 @@ But you can also execute rules on your own, you can execute:
 *   all your rules (be aware, this action could take a long time)
 
 :::info
-Since the 2.2, the rules support [product models](/articles/what-about-products-variants.html#what-is-a-product-model), so rules can be defined also on attributes at the product model level (or sub product model level).
+The rules support [product models](what-about-products-variants.html#what-is-a-product-model), so rules can be defined also on attributes at the product model level (or sub product model level).
 :::
 
 ## Execute a single rule
@@ -65,16 +65,16 @@ You can also execute several rules at the same time:
 
 # Create a rule
 
-Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/2.0/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.
+Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.
 
 ::: info
-For more details about how to execute an import, please refer to [Import your data](/articles/imports.html).
+For more details about how to execute an import, please refer to [Import your data](imports.html).
 :::
 
 You can also export your rules. To export your rules, execute the `Rule export in YML` export job.
 
 ::: info
-For more details about how to execute an export, please refer to [Export your data](/articles/exports.html).
+For more details about how to execute an export, please refer to [Export your data](exports.html).
 :::
 
 # Delete rules
@@ -91,7 +91,7 @@ A confirmation message validates the action of deleting a rule.
 ![image](../img/Settings_DeleteHover.png)
 
 ::: info  
-If you do not see the `Delete` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
+If you do not see the `Delete` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](build-your-user-roles.html).
 :::
 
 ## Delete a selection of rules

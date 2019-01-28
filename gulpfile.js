@@ -5,6 +5,8 @@ var del = require('del');
 var requireDir = require('require-dir');
 var tasks = requireDir('./tasks');
 
+var majorVersion = 'v3';
+
 // Clean dist directory
 gulp.task('clean-dist', function () {
   return del(['dist/*', 'tmp/*']);
@@ -28,7 +30,7 @@ gulp.task('launch-webserver', ['create-dist'], function() {
     .pipe(webserver({
       livereload: true,
       directoryListing: false,
-      open: true
+      open: '/pim/' + majorVersion + '/'
     }));
 });
 

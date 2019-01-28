@@ -2,15 +2,24 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="/">
-                <img height="20" src="/img/akeneo.svg"></img>
+                <img height="20" src="/pim/{{majorVersion}}/img/akeneo.svg"></img>
             </a>
         </div>
+        <form class="navbar-form navbar-left">
+            <div class="form-group form-search">
+                <input id="docSearch-input" type="text" class="form-control" placeholder="Search for PIM help...">
+            </div>
+        </form>
         <div class="nav navbar-nav navbar-right">
-            <form class="navbar-form">
-                <div class="form-group form-search">
-                    <input id="docSearch-input" type="text" class="form-control" placeholder="Search for PIM help...">
-                </div>
-            </form>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">v3 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-title">Switch to</li>
+                    <li><a href="/pim/v3/{{filePath}}">v3</a></li>
+                    <li><a href="/pim/v2/{{filePath}}">v2</a></li>
+                    <li><a href="/pim/v2/index-older.html">Older versions</a></li>
+                </ul>
+            </li>
         </div>
     </div>
 </nav>
