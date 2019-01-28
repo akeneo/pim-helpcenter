@@ -29,7 +29,7 @@ If you have several records to add, you can stay in the creation pop-in to add q
 :::
 
 ::: info
-Note that we defined a limitation of 1 million records per reference entity to guarantee that the PIM is functional and runs smoothly.
+Note that we have defined a limitation of 1 million records per reference entity to guarantee that the PIM is functional and runs smoothly.
 :::
 
 ## Display records
@@ -38,19 +38,17 @@ To see the records of the reference entity, click on the `Records` tab in the le
 ![Records grid](../img/Records_grid.png)
 
 ### The records grid
-The records grid is quite different than the products' one. Thereafter are the novelties of this grid:
+The records grid is quite different than the products' one. Thereafter are the specific features of this grid:
 - The line with the attributes names is frozen: it allows you to scroll down the page, while **continuing to see the name of the attributes**
 - The first 4 columns with image, label, code and completeness are also frozen. We added an **horizontal scroll** in order to see the content of all the columns
-- We also added a tooltip to **preview the content** of a text attribute directly in the grid
-- Finally, there is an **infinite scroll down** on this grid, which allows you to gather all the records in the same page.
+- We also added a tooltip to **preview the content** of a text attribute directly in the grid when you hover over the text
+- Finally, there is an **infinite scroll down** on this grid, which allows you to gather all the records in the same page
 
 ::: info
 In the records grid, you will see only certain types of attributes: code, text and image.
 :::
 
-::: info
-When you scroll down in the grid, only the first 500 results are displayed (in order to avoid performances issues). When you arrive at the end of the first 500 records, a message is displayed *"You just scrolled through the first 500 results out of 10005 records. To see more, try with more specific search criteria."*
-:::
+Finally, the grid can display up to 500 results using an infinite scroll. If you have more results, please filter your search. When reaching this limit, the grid displays the message *"You just scrolled through the first 500 results out of 1450 records. To see more, try with more specific search criteria."*
 
 Of course, you can still edit or delete a record thanks to the buttons at the end of each line.
 
@@ -58,7 +56,7 @@ Of course, you can still edit or delete a record thanks to the buttons at the en
 
 ### Full text search
 
-Our goal is to facilitate your work and to **increase your productivity**. To make this possible, we made a very powerful search in the grid of records. Indeed, we implemented a **full text search** which allows you to search on code, label and text attribute types.
+Our goal is to **facilitate your work** and to increase your productivity. To make this possible, we made a very powerful search in the grid of records. Indeed, we implemented a **full text search** which allows you to search on code, label and text attribute types.
 
 For example, if you search for the word *« famous »*, all the records containing the word *« famous »* in their code, label or text attribute types will be displayed.  
 
@@ -83,12 +81,12 @@ To know how to define the required attributes for the completeness, please take 
 
 Of course, you can edit a record in order to change values or add new ones. Nothing simpler: just go on a record and add/change the values you want.
 
-As for a product, you can define if you want a **different content according to channels**, and same for **locales**.
+As for a product, you can define if you want a **different content according to channels**, and the same applies on **locales**.
 You can find a **locale and channel switcher** on each record, meaning that if you need to translate values for example, you can do it simply switching from a locale to another.
 
 ![Locale switcher on the records grid](../img/Records_locale_switcher.png)
 
-In the Attribute tab, if you defined a *"text area"* attribute for your records, you can tick the parameter `rich text editor`.   This will give you access to a set of options to improve the formate of your text. For example, you can change the font, the size, etc. You can also add a link, a video, an image.
+In the Attribute tab, if you define a *"text area"* attribute for your records, you can tick the parameter `rich text editor`. This will give you access to a set of options to improve the format of your text. For example, you can change the font, the size, etc. You can also add a link, a video, an image.
 In fact, the Rich text editor offers a large bunch of possibilities!
 
 ![Records text area](../img/Records_text_area.png)
@@ -96,13 +94,9 @@ In fact, the Rich text editor offers a large bunch of possibilities!
 
 ## Follow the records completeness
 
-As in the product, we calculate the completeness on records.
+Like for products, we calculate [completeness](/articles/manage-reference-entities.html) on records.
 
-::: tips
-To know how to define the required attributes for the completeness, please take a look at this [article](/articles/manage-reference-entities.html)
-:::
-
-In the records, several indicators show you the status of your completeness and what is missing.
+In the records, several indicators show you the status of your completeness and which attributes are missing.
 - **Yellow bullet points** in front of each missing required attribute, showing that you have to complete this attribute to improve the completeness.
 - The **completeness percentage** in the header of the record informs you of the completeness level.   
 
@@ -120,7 +114,7 @@ For example, you can link a *Designer* (let's say *"Philippe Starck"*) to the re
 
 Please refer to this [article](/articles/manage-reference-entities.html#add-an-attribute) to discover how to do so.
 
-Once you've chosen which entity is linked, you can see a new selector with all the records of the linked entity.
+Once you have chosen which entity is linked, you can see a new selector with all the records of the linked entity.
 
 ::: tips
 Click on the `link` icon on each record line in the selector to preview the record! It will automatically open a new tab in your browser.
