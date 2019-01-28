@@ -9,7 +9,7 @@ related: discover-the-dasboard
 # Comment se connecter ?
 
 La page de connexion s'affiche lorsque vous n'êtes pas connecté au PIM ou bien après une période d'inactivité.
-Pour se connecter dans le PIM Akeneo, saisissez votre identifiant et votre mot de passe et cliquez sur `Connexion`
+Pour vous connecter, saisissez votre identifiant et votre mot de passe et cliquez sur `Connexion`.
 
 ::: tips
 Cochez l'option `Se souvenir de moi sur cet ordinateur` pour sauvegarder vos identifiants.
