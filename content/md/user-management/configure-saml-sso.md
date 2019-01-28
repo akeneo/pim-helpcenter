@@ -70,7 +70,7 @@ Once disabled, all the authentication requests will go through the classical log
 
 ## Configure the Identity Provider (IdP) section
 
-Using the information you gather previously, you can fill all the required fields that are required to communicate with the IdP.
+Using the information you gathered previously, you can fill all the required fields that are required to communicate with the IdP.
 The mandatory values are the following:
 * `Entity ID`: String that uniquely identify your IdP (it is in general provided by your IdP)
 * `Sign-on URL`: URL that will be used when a user tries to log in the PIM
