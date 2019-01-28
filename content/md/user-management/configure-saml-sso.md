@@ -63,6 +63,8 @@ Once enabled, all the authentication requests will be redirected to the authenti
 
 ## Configure the Identity Provider (IdP) section
 
+![image](../img/SamlSSO-IdPConfiguration.png)
+
 Using the information you gathered previously, you can fill all the required fields that are required to communicate with the IdP.
 The mandatory values are the following:
 * `Entity ID`: String that uniquely identify your IdP (it is in general provided by your IdP)
@@ -72,9 +74,12 @@ The mandatory values are the following:
 
 :::info
 Certificates must be in X.509 format.
+For more information about X.509 certificate, you can have a look at [this article](https://en.wikipedia.org/wiki/X.509).
 :::
 
 ## Configure the Service Provider (SP) section
+
+![image](../img/SamlSSO-SPConfiguration.png)
 
 The information required for configuring the SP are the following:
 * `Entity ID`: String that uniquely identify your SP (this information needs to be provided to the IdP)
