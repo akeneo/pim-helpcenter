@@ -1,32 +1,33 @@
 ---
 id: what-is-a-project
 themes: boost-your-productivity, collaborative-work
-title: What is a **project**?
+title: Qu'est-ce qu'un **projet**?
 popular: true
 ee-only: true
 related: manage-your-projects, projects-notifications
 ---
 
-# Overview
-A project is a feature of the Teamwork Assistant. It's a new way of organizing your work around a specific activity. It will help you to plan your work alone or as a team.
-
-![Projects](../img/Products_What-is-a-project.svg)
-
-For instance, you are launching a Summer brand product range and you must have it online on your website by the end of May. All your product information must be filled in by this date. All users that need to contribute on this new product range will know what they have to do.
-
-All users who are part of a project will be able to see at a glance their product’s selection enrichment progress. They will be automatically notified when new information will have to be filled in. Working with the Teamwork Assistant will ease the working processes and communication between workers.
+# Introduction
+Un projet est une fonctionnalité de Teamwork Assistant. C'est une nouvelle façon d'organiser vos travaux autour d'une activité spécifique. Il va vous aider à organiser votre travail personnel ou en équipe. 
 
 ::: warning
-**Scalability note**  
-The Teamwork Assistant has been designed to support a Medium Catalog ([see Teamwork Assistant Scalability Guide](https://docs.akeneo.com/2.0/technical_overview/teamwork_assistant/scalability_guide.html#teamwork-assistant-scalability-guide)), ie we do not recommend you to create a project with more than 50 000 products, 400 attributes, 15 attribute Groups.
+![Projects](../img/Products_What-is-a-project.svg)
+
+Par exemple, vous êtes en train de lancer une gamme de produit pour une marque d'Eté et vous devez la mettre en ligne pour la fin Mai. Toute votre information produit doit être complétée à cette date. Tous les utilisateurs qui ont besoin de contribuer sur cette nouvelle gamme de produit sauront quoi faire. 
+
+Tous les utilisateurs qui font parti du projet vont être en mesure de voir en un clin d'oeil le niveau d'enrichissement de leur selection de produit. 
+Ils seront automatiquement notifiés quand de nouvelles informations devront être renseignées. Travailler avec le Teamwork Assistant facilitera l'organisation du travail et la communication entre collaborateurs.
+
+**Note sur la volumétrie**  
+Le Teamwork Assistant a été conçu pour supporter un catalogue moyen ([voir le guide de volumétrie Teamwork Assistant](https://docs.akeneo.com/2.0/technical_overview/teamwork_assistant/scalability_guide.html#teamwork-assistant-scalability-guide)), c.-à-d. nous ne recommandons pas de créer un projet avec plus de 50 000 produits, 400 attributs, 15 Groupes d'attributs. 
 :::
 
-# More information
+# Informations supplémentaires
 
-You can have only one project’s creator but you can have several contributors. A contributor is an Akeneo PIM user that will work on the project.
+Vous ne pouvez avoir qu'un seul créateur de projet mais vous pouvez avoir plusieurs contributeurs. Un contributeur est un utilisateur du PIM Akeneo qui travaillera sur le projet. 
 
-Depending on his/her permissions, he will be more or less active and will get tasks notifications.
+Selon son/ses permissions, il sera plus ou moins actif et recevra des notifications de tâches. 
 
-The project creator is the only one who can edit and/or delete the project he created.
+Le créateur du projet est le seul à pouvoir éditer/supprimer le projet qu'il a créé. 
 
-You can see a project in the `Views/Projects` selector only if you are concerned by this project.
+Vous pouvez voir un projet dans le sélecteur `Vues/Projets` seulement si vous êtes concerné par ce projet. 
