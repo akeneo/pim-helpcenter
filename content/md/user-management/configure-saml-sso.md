@@ -16,7 +16,7 @@ Single Sign-On is a common practice around corporations that handles lots of use
 
 ## Common SAML terms
 
-Understanding how SAML-based Single Sign-On work can be a complicated task as it introduces terms that can be obscure at first glance.
+Understanding how SAML-based Single Sign-On works can be a complicated task as it introduces terms that can be obscure at first glance.
 
 ### Identity Provider (IdP)
 
@@ -63,7 +63,7 @@ Once enabled, all the authentication requests will be redirected to the authenti
 
 ## Configure the Identity Provider (IdP) section
 
-Using the information you gather previously, you can fill all the required fields that are required to communicate with the IdP.
+Using the information you gathered previously, you can fill all the required fields that are required to communicate with the IdP.
 The mandatory values are the following:
 * `Entity ID`: String that uniquely identify your IdP (it is in general provided by your IdP)
 * `Sign-on URL`: URL that will be used when a user tries to log in the PIM
@@ -93,7 +93,7 @@ The SP certificate is self-signed and is generated to never expire. You will nev
 To disable the Single Sign-On feature, just click on the `SSO enabled` button in the interface.
 Once disabled, all the authentication requests will go through the classical login interface.
 
-# Tips and tricks for configuring the SAML-based SSO
+# Tips and tricks
 
 ## About users in the PIM
 
@@ -114,6 +114,6 @@ The IdP response must contain the following attributes:
 
 ## About security
 
-By design, in order to have the more secured process, all communications between the Identity Provider and the Service Provider have to be encrypted.
+By design, in order to have the most secure process, all communications between the Identity Provider and the Service Provider have to be encrypted.
 
 Moreover, as far as security is involved, it is mandatory to use the HTTPS protocol around the PIM. Using HTTP communication may be a serious security breach.
