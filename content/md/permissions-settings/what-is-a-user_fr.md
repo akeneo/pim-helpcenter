@@ -25,7 +25,7 @@ Un utilisateur possède au moins :
 
 ::: ee
 Un utilisateur peut appartenir à un ou plusieurs [groupes d'utilisateurs](/articles/what-is-a-user-group.html). Dans la version Entreprise Edition, il se montre utile lorsque que l'on veut attribuer des permissions en fonction des données du produit. 
-Pour en savoir plus à ce sujet, lire [construire vos groupes d'utilisateurs](/articles/build-your-user-groups.html).
+Pour en savoir plus à ce sujet, on vous conseille cet article: [Construire vos groupes d'utilisateurs](/articles/build-your-user-groups.html).
 :::
 
 # En tant qu'utilisateur vous pouvez...
