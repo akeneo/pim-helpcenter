@@ -8,7 +8,7 @@ related: handle-your-user-permissions, build-your-user-roles, manage-the-interfa
 # Définition
 Un rôle est un ensemble de permissions pour diverses actions dans le PIM (exemple: créer un produit, supprimer un produit, voir une grille d'attributs...).
 
-Un rôle peut-être assigné à une ou plusieurs utilisateurs. Par exemple, vous pouvez supposer qu'un rôle appelé `Administrateur` donnera plus de droits qu'un autre rôle appelé `Manager` lui-même possédant plus de droit qu'un troisième rôle appelé `Stagiaire`.
+Un rôle peut-être assigné à un ou plusieurs utilisateurs. Par exemple, vous pouvez imaginer créer un rôle appelé `Administrateur` qui donnera plus de droits qu'un autre rôle appelé `Manager` lui-même possédant plus de droits qu'un troisième rôle appelé `Stagiaire`.
 
 ![image](../img/System_users_Profil_edit_grpandroles_fr.png)
 
