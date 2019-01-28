@@ -1,7 +1,7 @@
 ---
 id: enrich-your-reference-entity-records
 themes: products-super-power, manage-your-reference-entities
-title: "Enrich your reference entity records"
+title: "Enrich your **reference entity records**"
 popular: false
 ee-only: right
 related:
@@ -42,13 +42,11 @@ The records grid is quite different than the products' one. Thereafter are the s
 - The line with the attributes names is frozen: it allows you to scroll down the page, while **continuing to see the name of the attributes**
 - The first 4 columns with image, label, code and completeness are also frozen. We added an **horizontal scroll** in order to see the content of all the columns
 - We also added a tooltip to **preview the content** of a text attribute directly in the grid when you hover over the text
-- Finally, there is an **infinite scroll down** on this grid, which allows you to gather all the records in the same page
+- Finally, the grid can display up to 500 results using an **infinite scroll**. If you have more results, please filter your search. When reaching this limit, the grid displays the message *"You just scrolled through the first 500 results out of 1450 records. To see more, try with more specific search criteria."*
 
 ::: info
 In the records grid, you will see only certain types of attributes: code, text and image.
 :::
-
-Finally, the grid can display up to 500 results using an infinite scroll. If you have more results, please filter your search. When reaching this limit, the grid displays the message *"You just scrolled through the first 500 results out of 1450 records. To see more, try with more specific search criteria."*
 
 Of course, you can still edit or delete a record thanks to the buttons at the end of each line.
 
@@ -109,7 +107,6 @@ It is also possible to link a record to another one, and it is very simple.
 
 For example, you can link a *Designer* (let's say *"Philippe Starck"*) to the record *"Kartell"*, or to several records brands belonging to the *"Brands"* entity.  
 
-![Create a link between two records](../img/Records_link_entity_1.png)
 ![Records link entity](../img/Records_link_entity_2.png)
 
 Please refer to this [article](/articles/manage-reference-entities.html#add-an-attribute) to discover how to do so.
