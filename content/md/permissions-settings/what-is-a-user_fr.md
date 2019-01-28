@@ -24,7 +24,7 @@ Un utilisateur possède au moins :
  - un rôle.
 
 ::: ee
-Un utilisateur peut appartenir à un ou plusieurs [groupes d'utilisateurs](/articles/what-is-a-user-group.html). Dans la version Entreprise Edition, il se montre utile lorsque que l'on veut attribuer des permissions en fonction des données du produit. 
+Un utilisateur peut appartenir à un ou plusieurs [groupes d'utilisateurs](/articles/what-is-a-user-group.html). Dans la Edition Entreprise, cela vous sera utile lorsque que vous souhaiterez attribuer des permissions sur vos données produit. 
 Pour en savoir plus à ce sujet, on vous conseille cet article: [Construire vos groupes d'utilisateurs](/articles/build-your-user-groups.html).
 :::
 
