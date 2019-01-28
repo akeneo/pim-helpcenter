@@ -1,9 +1,9 @@
 ---
 id: manage-your-users
-themes: permissions-settings
+themes: user-management
 title: Manage your **users**
 popular: false
-related: what-is-a-user, manage-your-account
+related: what-is-a-user, manage-your-account, what-is-a-role, build-your-user-roles, build-your-user-groups, what-is-a-user-group
 ---
 
 # Overview
@@ -63,9 +63,18 @@ Even if a user is deleted, its actions generated in the PIM won't be erased.
 
 # Deal with the user permissions
 
+<<<<<<< HEAD:content/md/user-management/manage-your-users.md
+To know more about user permissions, there are five articles just for you depending on what your needs are:
+- [Manage the interface and action accesses](/articles/manage-the-interface-and-actions-accesses.html)
+- [Manage the web API permissions](/articles/manage-the-web-api-permissions.html)
+- [Set rights on your catalog](/articles/access-rights-on-products.html)
+- [Set rights on your assets](/articles/access-rights-on-assets.html)
+- [Set rights on your imports and exports](/articles/access-rights-on-imports-exports.html)
+=======
 To know more about user permissions, there are four articles just for you depending on what your need are: 
 - [Manage the interface and action accesses](manage-the-interface-and-actions-accesses.html)
 - [Manage the web API permissions](manage-the-web-api-permissions.html)
 - [Set rights on your catalog](access-rights-on-products.html)
 - [Set rights on your assets](access-rights-on-assets.html)
 - [Set rights on your imports and exports](access-rights-on-imports-exports.html)
+>>>>>>> master:content/md/permissions-settings/manage-your-users.md

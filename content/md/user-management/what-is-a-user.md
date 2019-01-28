@@ -1,6 +1,6 @@
 ---
 id: what-is-a-user
-themes: akeneo-concepts, permissions-settings
+themes: akeneo-concepts, user-management
 title: What is a **user**?
 related: manage-your-users, what-is-a-role, build-your-user-groups, build-your-user-roles
 ---
@@ -16,7 +16,7 @@ One user account can be used by one or several persons in a company.
 :::
 
 A user has at least:
- - a firtsname
+ - a firstname
  - a lastname
  - a username
  - a password

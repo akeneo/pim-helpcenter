@@ -1,6 +1,6 @@
 ---
 id: what-is-a-user-group
-themes: akeneo-concepts, permissions-settings
+themes: akeneo-concepts, user-management
 title: What is a **user group**?
 popular: false
 related: build-your-user-groups, whats-is-a-user, access-right-on-products, access-rights-on-imports-exports, access-rights-on-assets
