@@ -95,7 +95,7 @@ By default, the SP configuration is automatically populated during the first acc
 The SP certificate is self-signed and is generated to never expire. You will never have to renew it.
 :::
 
-# Tips and tricks for configuring the SAML-based SSO
+# Tips and tricks
 
 ## About users in the PIM
 
