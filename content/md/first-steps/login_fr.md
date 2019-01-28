@@ -19,7 +19,7 @@ Cochez l'option `Se souvenir de moi sur cet ordinateur` pour sauvegarder vos ide
 
 # Retrouver son mot de passe
 
-Vous avez oublié votre mot de passe ? Cliquez sur `Mot de passe oublié ?`, renseignez votre identifiant ou votre email et cliquez sur`Demander`. Des instructions vous seront communiquées pour reinitialiser votre mot de passe ! ;)
+Vous avez oublié votre mot de passe ? Cliquez sur `Mot de passe oublié ?`, renseignez votre identifiant ou votre email et cliquez sur`Demander`. Des instructions vous seront communiquées pour réinitialiser votre mot de passe ! ;)
 
 ::: warning
 Vous pouvez demander une reinitialisation de mot de passe via le lien `Mot de passe oublié` **qu'une fois** toutes les 24h.
