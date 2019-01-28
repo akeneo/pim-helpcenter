@@ -38,10 +38,10 @@ The ACS is the SP endpoint (URL) that is responsible for receiving the SAML resp
 ### Metadata
 
 Metadata is a set of information supplied either by the IdP or the SP, in XML format.
-* `Service Provider`: The SP supplied metadata provide the Entity ID, the X.509 certificate used for decrypting messages coming from the SP, the Logout URL and the ACS URL.
+* `Service Provider`: The metadata information provided by the SP contains the Entity ID, the X.509 certificate used for decrypting messages coming from the SP, the Logout URL and the ACS URL.
 
 :::tips
-The SP metadata information can be accessed at the following URL: https://YOUR_PIM_SERVER/saml/metadata. Depending on your IdP, this metadata URL can be imported into the IdP to ease the configuration process of your application.
+The SP metadata information can be accessed at the following URL: https://YOUR_PIM_SERVER/saml/metadata. Depending on your IdP, this metadata URL can be directly imported into the IdP to ease the configuration process.
 :::
 
 * `Identity Provider`: The IdP can also supply metadata to help configure the SAML communication. At this time, it is not possible to import it in the PIM to configure the Single Sign-On.
@@ -50,23 +50,16 @@ The SP metadata information can be accessed at the following URL: https://YOUR_P
 
 SAML (Security Assertion Markup Language) is an XML-based standard for exchanging authentication data between an `Identity Provider (IdP)` (such as Microsoft Azure AD) and a `Service Provider (SP)` (in our case our beloved PIM).
 
-# Gather information from your Identity Provider (IdP)
+# Configure your Service Provider (SP) in your PIM to communicate with the IdP
+
+## Gather information from your Identity Provider (IdP)
 
 First of all, before configuring your PIM to communicate with an `Identity Provider`, you will have to gather some information about your IdP. Your IT department/SSO administrator must probably have all the information.
 
-# Configure your Service Provider (SP) in your PIM to communicate with the IdP
-
-## Activate/Disable the Single Sign-On feature
-
-### Activate the Single Sign-On feature
+## Activate the Single Sign-On feature
 
 To activate the Single Sign-On feature, just click on the `SSO enabled` button in the interface.
 Once enabled, all the authentication requests will be redirected to the authentication server you specified.
-
-### Disable the Single Sign-On feature
-
-To disable the Single Sign-On feature, just click on the `SSO enabled` button in the interface.
-Once disabled, all the authentication requests will go through the classical login interface.
 
 ## Configure the Identity Provider (IdP) section
 
@@ -94,6 +87,11 @@ By default, the SP configuration is automatically populated during the first acc
 :::info
 The SP certificate is self-signed and is generated to never expire. You will never have to renew it.
 :::
+
+# How to disable the Single Sign-On feature
+
+To disable the Single Sign-On feature, just click on the `SSO enabled` button in the interface.
+Once disabled, all the authentication requests will go through the classical login interface.
 
 # Tips and tricks for configuring the SAML-based SSO
 
