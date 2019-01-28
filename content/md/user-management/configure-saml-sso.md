@@ -116,6 +116,6 @@ The IdP response must contain the following attributes:
 
 ## About security
 
-By design, in order to have the more secured process, all communications between the Identity Provider and the Service Provider have to be encrypted.
+By design, in order to have the most secure process, all communications between the Identity Provider and the Service Provider have to be encrypted.
 
 Moreover, as far as security is involved, it is mandatory to use the HTTPS protocol around the PIM. Using HTTP communication may be a serious security breach.
