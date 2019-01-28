@@ -9,7 +9,7 @@ related: what-about-reference-entities, manage-your-reference-entities, build-yo
 
 # The basics
 
-Once you've [created your 1st reference entity](manage-your-reference-entities.html) and [created your user groups](build-your-user-groups.html), you can begin to define for each of these users groups if they will be able to display/edit this reference entity and its data.
+Once you have [created your 1st reference entity](manage-your-reference-entities.html) and [created your user groups](build-your-user-groups.html), you can begin to define for each of these user groups if they will be able to display/edit this reference entity and its data.
 
 # Rights depending on the reference entity
 
@@ -24,32 +24,32 @@ It’s not possible to hide a reference entity.
 ## The edit right
 The edit right means add, edit and delete rights.  
 If a user belonging to a user group has right to `EDIT` a reference entity, he will be able to:
-*   Edit the reference entities properties
-*   Add, edit and delete the reference entities attributes
-*   Add, edit and delete a reference entity record
-*   Delete the reference entity
+*   Edit the properties of this reference entity
+*   Add, edit and delete the attributes of this reference entity
+*   Add, edit and delete a record of this reference entity
+*   Delete this reference entity
 
 :::info
-If you would like that only some users can edit the attributes of a reference entity or delete a record, you can also manage accesses on the actions according to [the user roles](build-your-user-roles.html), please refer to [this article](manage-the-interface-and-actions-accesses.html#rights-on-reference-entities-ee-only).
+If you want only some users to be able to edit the attributes of a reference entity or delete a record, you can also manage accesses on the actions according to [the user roles](build-your-user-roles.html). Please refer to [this article](manage-the-interface-and-actions-accesses.html#rights-on-reference-entities-ee-only) to have more information.
 :::
 
 ## The view right
 If a user belonging to a user group has right to `VIEW` a reference entity, he will only be able to display the reference entity data (properties, attributes, records) and that's all.  
-He will have no possibility to edit or delete it.
+He won't be able to edit or delete it.
 
-## Set rights to a reference entity
+## Set rights on a reference entity
 To define the rights on a reference entity, follow these steps:
 1.  Go to the `Permissions` tab of the reference entity
 1.  For each user group, tick to give the `VIEW` or `EDIT` rights
 1.  Click on the `Save` button to save the Permissions
 ![image](../img/ReferenceEntity_Permissions.png)
 
-For example, a user in the `Manager` group can edit this `Brand` reference entity, so add and edit attributes or add and enrich some brands.
+For example, a user in the `Manager` group can edit this `Brand` reference entity, so he can add and edit attributes or add and enrich some brands.
 A user in the `Clothes managers` group can only view this `Brand` reference entity, so he can only view its attributes and also view its brands.
 
 :::tips
 If you want all your user groups to have the edit rights, click on `EDIT` in the columns title and all the user groups will be ticked with `EDIT` rights.  
-If you want almost all your user groups to have the view rights, click on `VIEW` in the columns title and all the user groups will be ticked with `VIEW` rights. And then, tick with `EDIT` rights some user groups.
+If you want almost all your user groups to have the view rights, click on `VIEW` in the columns title and all the user groups will be ticked with `VIEW` rights. And then, add the `EDIT` right to some user groups.
 :::
 
 :::warning
@@ -62,7 +62,7 @@ It is possible to define for each [user group](what-is-a-user-group.html), on wh
 For reference entities, we have 2 levels of access on locales: the view right and the edit right.
 
 ::: warning
-It’s not possible to hide a locale in a reference entity.
+It is not possible to hide a locale in a reference entity.
 :::
 
 ## The edit right
