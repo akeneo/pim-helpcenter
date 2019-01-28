@@ -9,7 +9,7 @@ related: manage-your-users, what-is-a-role, build-your-user-groups, build-your-u
 
 ![Qu'est-ce qu'un utilisateur ?](../img/What-is-a-user.svg)
 
-Rien de nouveau ici. Un utilisateur est simplement un compte d'accès pour se connecter au PIM.
+Rien de bien exotique ici. Un utilisateur est tout simplement un compte d'accès pour se connecter au PIM.
 
 ::: info
 Un compte utilisateur peut être utilisé par une ou plusieurs personnes dans la société.
