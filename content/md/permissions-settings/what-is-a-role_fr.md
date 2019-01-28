@@ -16,7 +16,7 @@ Un utilisateur peut avoir un à plusieurs rôles. Dans le cas d'un utilisateur p
 
 # Exemple
 
-Mary est une stagiaire. Nous ne souhaitons pas qu'elle puisse créer de nouveaux produits. Ainsi, nous lui avons assigné le rôle `Intern`. Ce rôle ne lui donne pas le droit de créer un nouveau produit, comme vous pouvez le constater dans la capture d'écran ci-dessous. 
+Mary est une stagiaire. Nous ne souhaitons pas qu'elle puisse créer de nouveaux produits. Ainsi, nous lui avons assigné le rôle `Stagiaire`. Ce rôle ne lui donne pas le droit de créer un nouveau produit, comme vous pouvez le constater dans la capture d'écran ci-dessous. 
 
 ![image](../img/System_RolesUsersPermission_MaryIntern_fr.png)
 
