@@ -16,7 +16,7 @@ Single Sign-On is a common practice around corporations that handles lots of use
 
 ## Common SAML terms
 
-Understanding how SAML-based Single Sign-On work can be a complicated task as it introduces terms that can be obscure at first glance.
+Understanding how SAML-based Single Sign-On works can be a complicated task as it introduces terms that can be obscure at first glance.
 
 ### Identity Provider (IdP)
 
