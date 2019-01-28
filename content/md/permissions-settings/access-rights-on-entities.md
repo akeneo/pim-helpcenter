@@ -74,7 +74,7 @@ If a user belonging to a user group has right to `EDIT` a reference entity, he w
 
 ## The view right
 If a user belonging to a user group has right to `VIEW` on a locale, he will only be able to display the reference entity data on this locale (properties, attributes, records) and that's all.  
-He will have no possibility to edit it.
+He won't be able to edit it.
 
-## Set rights to a locale
-To define the rights for a locale, please refer to [this article](access-rights-on-products.html#set-rights-to-user-groups).
+## Set rights on a locale
+To define the rights on a locale, please refer to [this article](access-rights-on-products.html#set-rights-to-user-groups).
