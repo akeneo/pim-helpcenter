@@ -32,6 +32,11 @@
             "title": "Manages your images, files, assets",
             "img": "illus-assets.svg",
             "description": "Product information without any asset, is like Akeneo without Ziggy, it's depressing. Here is how to handle the assets that will liven up your product sheets."
+        },
+        "franklin-insights":{
+            "title": "Franklin Insights",
+            "img": "illus-franklin.svg",
+            "description": "Welcome to Franklin’s world! Franklin is our new product data intelligence assistant, at your service. Here you can find the information needed in order to activate and operate Franklin."
         }
     }
 }
