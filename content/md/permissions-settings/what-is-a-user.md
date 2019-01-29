@@ -16,7 +16,7 @@ One user account can be used by one or several persons in a company.
 :::
 
 A user has at least:
- - a firtsname
+ - a firstname
  - a lastname
  - a username
  - a password
