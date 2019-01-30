@@ -35,5 +35,5 @@ You can manage the users’ permissions for Franklin on `System`/`Roles`/`Permis
 There are 3 different Franklin permissions:
 
 - **Franklin connection**: only users who have this permission active will be able to view and manage the Franklin activation.
-- **Franklin settings**: only users who have this permission active will be able to view and edit the Franklin mappings on Settings > Franklin Insights.
+- **Franklin settings**: only users who have this permission active will be able to view and edit the Franklin mappings on `Settings`/`Franklin Insights`.
 - **Franklin product subscription**: only users who have this permission active will be able to subscribe and unsubscribe products to and from Franklin.
