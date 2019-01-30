@@ -8,7 +8,7 @@ related: franklin-insights-getting-started, franklin-insights-subscriptions
 
 # Overview
 
-Franklin initially generates catalog and product information in its own format. In order to be able to subscribe products to Franklin and receive proposals, **Franklin needs to know which attributes on your PIM correspond to his**.
+Franklin initially generates catalog and product information in its own format. In order to be able to [subscribe](/franklin-insights-subscriptions.html) products to Franklin and receive proposals, **Franklin needs to know which attributes on your PIM correspond to his**.
 
 # Identifiers mapping
 
