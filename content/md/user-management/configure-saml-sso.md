@@ -50,7 +50,7 @@ The SP metadata information can be accessed at the following URL: https://YOUR_P
 
 SAML (Security Assertion Markup Language) is an XML-based standard for exchanging authentication data between an `Identity Provider (IdP)` (such as Microsoft Azure AD) and a `Service Provider (SP)` (in our case our beloved PIM).
 
-# Configure your PIM to work with Single Sign-On
+# Configure the SSO
 
 SAML-based Single Sign-On is a two-way communication between an authentication server (the Identity Provider) and an application (the Service Provider). Therefore, your PIM needs to be configured to declare who will be the authentication server and how the communication must work.
 
@@ -100,7 +100,7 @@ The `Metadata URL` and `ACS URL` are read-only. They have a built-in 'copy' func
 The SP certificate is self-signed and is generated to never expire. You will never have to renew it.
 :::
 
-# How to disable the Single Sign-On feature
+# Disable the SSO
 
 To disable the Single Sign-On feature, just click on the `SSO enabled` button in the interface.
 Once disabled, all the authentication requests will go through the classical login interface.
