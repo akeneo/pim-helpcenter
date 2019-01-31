@@ -18,7 +18,7 @@ You have 2 ways to subscribe products to Franklin:
 
 - Via the Product Edit Form
 
-screenshot to be added
+![image](../img/Akeneo_Screenshot_Franklin_Insights_PEF_Subscription.png)
 
 - Via bulk action
 
