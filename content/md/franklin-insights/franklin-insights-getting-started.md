@@ -17,7 +17,7 @@ For now, Franklin can assist retailers who operate in the United States.
 :::
 # Franklin activation
 
- PIM clients who purchase Franklin credits will receive an **activation code**. The activation code needs to be saved on the PIM on `System`/`Franklin Insights Connection` in order to activate communication between the PIM and Franklin.
+ PIM clients who purchase Franklin credits will receive an **activation code**. The activation code needs to be saved on the PIM on `System`/`Franklin Insights Connection` in order to enable communication between the PIM and Franklin.
 
 ![image](../img/Akeneo_Screenshot_Franklin_Insights_Connection.png)
 
