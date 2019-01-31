@@ -12,15 +12,22 @@ Once you [activate the Franklin connection](/franklin-insights-getting-started.h
 
 When you subscribe a product to Franklin, Franklin **collects and validates information on demand** from hundreds of sources and its internal database, and then utilizes **Big Data, Artificial Intelligence, and Machine Learning** in order to provide you with **rich, accurate, and structured product information suggestions**.
 
-:::info
-You can subscribe products to Franklin via the **Product Edit Form**, or, more efficiently, via **bulk action** :)
-:::
-(screenshots)
+# How to subscribe products
+
+You have 2 ways to subscribe products to Franklin:
+
+- Via the Product Edit Form
+
+screenshot to be added
+
+- Via bulk action
+
+![image](../img/Akeneo_Screenshot_Franklin_Insights_Bulk_Actions.png)
 
 In order for you to receive attribute values proposals for subscribed and enriched products, you need to **match between Franklin’s attributes and your catalog attributes** in each family using the [Franklin attributes mapping UI](/franklin-insights-mappings.html#identifiers-mapping).
 
 
-# Product subscriptions facts
+# What you need to know about product subscriptions
 
 -	A Franklin product subscription **costs 1 credit**.
 -	A Franklin product subscription is for **1 year**.

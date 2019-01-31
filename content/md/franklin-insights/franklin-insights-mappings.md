@@ -25,7 +25,7 @@ Pro tip about Brand & MPN: If you map one, you also need to map the other.
 
 In order to map Franklin’s identifiers to your catalog attributes, please select the corresponding attribute in your catalog on the mapping table. Don’t forget to save your work once the mapping is done, so we can let Franklin know :wink:
 
-screenshot
+![image](../img/Akeneo_Screenshot_Franklin_Insights_Identifiers_Mapping.png)
 
 Following the Franklin Identifiers Mapping stage, you have everything you need in order to start [subscribing products to Franklin](/franklin-insights-subscriptions.html).
 
@@ -35,14 +35,14 @@ Once you subscribe a product to Franklin, and Franklin successfully gathers prod
 
 In order to generate proposals for the subscribed and enriched product, Franklin needs to know which of your catalog attributes correspond to his attributes suggestions. The mapping needs to be done for **each family with subscribed and enriched products**.
 
-(screenshot)
+![image](../img/Akeneo_Screenshot_Franklin_Insights_Attributes_Mapping.png)
 
 You can **expand the Franklin attribute** in order to gain more insights regarding this attribute.  Franklin provides you with a recommended attribute type (not strictly validated), and a summary of the most frequent values for this attribute in this family, all based on **your enriched products**.
 
-screenshot
-
 For simple and multi select attributes, Franklin also needs to know the PIM catalog attribute options that match his. When you pick a simple or multi select attribute on the mapping screen, an icon that leads to the attribute options mapping screen will be revealed
 
-(2 screenshots).
+![image](../img/Akeneo_Screenshot_Franklin_Insights_Attributes_Options_Entry.png)
+
+![image](../img/Akeneo_Screenshot_Franklin_Insights_Options_Mapping.png)
 
 Once you successfully map your catalog attributes and attribute options to Franklin’s structure, **Franklin will begin to generate proposals for mapped attributes of subscribed and enriched products** :tada:.
