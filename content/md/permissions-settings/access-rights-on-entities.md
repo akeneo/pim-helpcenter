@@ -9,7 +9,7 @@ related: what-about-reference-entities, manage-your-reference-entities, build-yo
 
 # The basics
 
-Once you have [created your 1st reference entity](manage-your-reference-entities.html) and [created your user groups](build-your-user-groups.html), you can begin to define for each of these user groups if they will be able to display/edit this reference entity and its data.
+Once you have [created your 1st reference entity](manage-reference-entities.html) and [created your user groups](build-your-user-groups.html), you can begin to define for each of these user groups if they will be able to display/edit this reference entity and its data.
 
 # Rights depending on the reference entity
 

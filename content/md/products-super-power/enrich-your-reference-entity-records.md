@@ -7,9 +7,7 @@ ee-only: right
 related:
 ---
 
-# Enrich your reference entity records
-
-## Add a record
+# Add a record
 Once you have created a reference entity, you can add **records**.
 Let’s say that you just have created the reference entity `Brand`, you have defined its records attributes and now it is time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
 
@@ -32,12 +30,12 @@ If you have several records to add, you can stay in the creation pop-in to add q
 Note that we have defined a limitation of 1 million records per reference entity to guarantee that the PIM is functional and runs smoothly.
 :::
 
-## Display records
+# Display records
 To see the records of the reference entity, click on the `Records` tab in the left menu. You will see the records grid, where all the records of the entity are listed.
 
 ![Records grid](../img/Records_grid.png)
 
-### The records grid
+## The records grid
 The records grid is quite different than the products' one. Thereafter are the specific features of this grid:
 - The line with the attributes names is frozen: it allows you to scroll down the page, while **continuing to see the name of the attributes**
 - The first 4 columns with image, label, code and completeness are also frozen. We added an **horizontal scroll** in order to see the content of all the columns
@@ -50,9 +48,9 @@ In the records grid, you will see only certain types of attributes: code, text a
 
 Of course, you can still edit or delete a record thanks to the buttons at the end of each line.
 
-## Search for a record
+# Search for a record
 
-### Full text search
+## Full text search
 
 Our goal is to **facilitate your work** and to increase your productivity. To make this possible, we made a very powerful search in the grid of records. Indeed, we implemented a **full text search** which allows you to search on code, label and text attribute types.
 
@@ -65,7 +63,7 @@ If you search for *"famous"* and *"bags"*, then only the record containing both 
 
 ![Search for records with several keywords](../img/Records_Search_2_words.png)
 
-### Filter on completeness
+## Filter on completeness
 
 You can also filter on completeness in order to see the records that are complete/incomplete, or choose to see all the records, no matter their completeness.
 
@@ -75,7 +73,7 @@ You can also filter on completeness in order to see the records that are complet
 To know how to define the required attributes for the completeness, please take a look at this [article](/articles/manage-reference-entities.html)
 :::
 
-## Edit a record
+# Edit a record
 
 Of course, you can edit a record in order to change values or add new ones. Nothing simpler: just go on a record and add/change the values you want.
 
@@ -90,7 +88,7 @@ In fact, the Rich text editor offers a large bunch of possibilities!
 ![Records text area](../img/Records_text_area.png)
 
 
-## Follow the records completeness
+# Follow the records completeness
 
 Like for products, we calculate [completeness](/articles/manage-reference-entities.html) on records.
 
@@ -101,7 +99,7 @@ In the records, several indicators show you the status of your completeness and 
 The completeness is **automatically calculated** as soon as we enrich a required attribute. It means that the bullet point will disappear as soon as the required attribute is filled, and same for the completeness percentage evolution.
 
 
-## Link a record to another record
+# Link a record to another record
 
 It is also possible to link a record to another one, and it is very simple.
 
@@ -117,15 +115,15 @@ Once you have chosen which entity is linked, you can see a new selector with all
 Click on the `link` icon on each record line in the selector to preview the record! It will automatically open a new tab in your browser.
 :::
 
-## Delete records
+# Delete records
 
-### Delete a record
+## Delete a record
 You can delete a record or all the records of an entity.
  To delete a record, 2 choices:
 - Either directly in the records grid, by clicking on the *trash can* button on each record line.
 - Either in the details of the record, by clicking on the `...` button at the top right corner of the header then `delete`.
 
-### Delete all the records
+## Delete all the records
 To delete all the records of an entity, click on the `...` button at the top right corner of the header's records grid then `delete all records`.
 
 ::: tips
