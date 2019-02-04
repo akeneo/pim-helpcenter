@@ -37,9 +37,9 @@ In order to generate [proposals](/proposals-workflow.html) for the subscribed an
 
 ![image](../img/Akeneo_Screenshot_Franklin_Insights_Attributes_Mapping.png)
 
-In the family dropdown, you will only be able to see families with subscribed products. In the attribute mapping selection, you will only be able to see attributes that are in the family being reviewed. On the Franklin attributes search bar, you can find a Franklin attribute by searching for his label.
+In the family dropdown, you will be able to see **only families with subscribed products**. In the attribute mapping selection, you will be able to see **only attributes that are in the family being reviewed**. On the Franklin attributes search bar, you can find a Franklin attribute by searching for his label.
 
-When hovering on a Franklin attribute, you will see an icon which allows you to **expand the Franklin attribute** in order to gain more insights regarding this attribute.  Franklin provides you with a recommended attribute type (not strictly validated), and a summary of the most frequent values for this attribute in this family, all based on **your enriched products**.
+When hovering on a Franklin attribute, you will see an icon (next to the attribute name) which allows you to **expand the Franklin attribute** in order to gain more insights regarding this attribute.  Franklin provides you with a recommended attribute type (not strictly validated), and a summary of the most frequent values for this attribute in this family, all based on **your enriched products**.
 
 For simple and multi select attributes, Franklin also needs to know the PIM catalog attribute options that match his. When you pick a simple or multi select attribute on the mapping screen, an icon that leads to the attribute options mapping screen will be revealed
 
@@ -55,4 +55,4 @@ As Franklin needs a little time to make these calculations, the response may tak
 
 As Franklin relies on your catalog attributes and options for mapping, deleting a used attribute or option (or removing it from a family) will result in its removal from the Franklin mapping information.
 
-If the attribute is used for identifiers mapping, removing this attribute may result in unsubscription of many products. As Franklin relies on the product identifiers for data collection and generation, removing the original identifier linked to Franklin will result in the products' unsubscription. 
+If the attribute is used for identifiers mapping, removing this attribute may result in unsubscription of many products. As Franklin relies on the product identifiers for data collection and generation, removing the original identifier linked to Franklin will result in the products' unsubscription.
