@@ -33,6 +33,6 @@ Pour en savoir plus à ce sujet, on vous conseille cet article: [Construire vos 
 En tant qu'utilisateur vous pouvez :
  - choisir la langue de votre PIM pour mieux comprendre ce qu'il se passe :wink:
  - choisir votre [vue](/fr/articles/manage-your-views.html) favorite et travailler sur votre arbre de catégorie pour être encore plus productif
- - choisir votre [locale](/fr/articles/what-is-a-locale.html) favorite, [canal](/articles/what-is-a-channel.html) et autres filtres lorsque vous travaillez sur la [grille de produits](/fr/articles/products-grid.html)
+ - choisir votre [locale](/fr/articles/what-is-a-locale.html) favorite, [canal](/fr/articles/what-is-a-channel.html) et autres filtres lorsque vous travaillez sur la [grille de produits](/fr/articles/products-grid.html)
 
 ![image](/img/System_users_Profil_fr.png)
