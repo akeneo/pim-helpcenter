@@ -15,7 +15,7 @@ Pour vous connecter, saisissez votre identifiant et votre mot de passe et clique
 Cochez l'option `Se souvenir de moi sur cet ordinateur` pour sauvegarder vos identifiants.
 :::
 
-![image](../img/Login1_fr.png)
+![image](/img/Login1_fr.png)
 
 # Retrouver son mot de passe
 
@@ -25,6 +25,6 @@ Vous avez oublié votre mot de passe ? Cliquez sur `Mot de passe oublié ?`, ren
 Vous pouvez demander une reinitialisation de mot de passe via le lien `Mot de passe oublié` **qu'une fois** toutes les 24h.
 :::
 
-![image](../img/RecoverPassword_fr.png)
+![image](/img/RecoverPassword_fr.png)
 
 Si vous ne connaissez pas votre identifiant ou bien votre email, merci de contacter votre administrateur Akeneo.

@@ -7,7 +7,7 @@ related: manage-your-users, what-is-a-role, build-your-user-groups, build-your-u
 
 # Definition
 
-![What is a user?](../img/What-is-a-user.svg)
+![What is a user?](/img/What-is-a-user.svg)
 
 Nothing exotic here. A user is simply an account access to log into the PIM.
 
@@ -34,4 +34,4 @@ As a user you can:
  - choose your favorite [view](/articles/manage-your-views.html) and working category tree to be even more productive
  - choose your favorite [locale](/articles/what-is-a-locale.html), [channel](/articles/what-is-a-channel.html) and other filters when you are working on the [product grid](/articles/products-grid.html)
 
-![image](../img/System_users_Profil.png)
+![image](/img/System_users_Profil.png)

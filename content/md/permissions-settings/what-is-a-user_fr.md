@@ -7,7 +7,7 @@ related: manage-your-users, what-is-a-role, build-your-user-groups, build-your-u
 
 # Définition
 
-![Qu'est-ce qu'un utilisateur ?](../img/What-is-a-user.svg)
+![Qu'est-ce qu'un utilisateur ?](/img/What-is-a-user.svg)
 
 Rien de bien exotique ici. Un utilisateur est tout simplement un compte d'accès pour se connecter au PIM.
 
@@ -35,4 +35,4 @@ En tant qu'utilisateur vous pouvez :
  - choisir votre [vue](/articles/manage-your-views.html) favorite et travailler sur votre arbre de catégorie pour être encore plus productif
  - choisir votre [locale](/articles/what-is-a-locale.html) favorite, [canal](/articles/what-is-a-channel.html) et autres filtres lorsque vous travaillez sur la [grille de produits](/articles/products-grid.html)
 
-![image](../img/System_users_Profil_fr.png)
+![image](/img/System_users_Profil_fr.png)

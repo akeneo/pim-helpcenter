@@ -15,7 +15,7 @@ To log into Akeneo PIM, enter your username and password and click on `Log in`.
 Check the option `Remember me on this computer` to memorise your credentials.
 :::
 
-![image](../img/Login1.png)
+![image](/img/Login1.png)
 
 # Recover your password
 
@@ -25,6 +25,6 @@ You have lost your password? Simply click on `Forgot your password?`, fill in yo
 You can send a password reset request through `Forgot your password` link **only one time** in a 24-hour period.
 :::
 
-![image](../img/RecoverPassword.png)
+![image](/img/RecoverPassword.png)
 
 If you do not know your username or email address, please contact your Akeneo administrator.
