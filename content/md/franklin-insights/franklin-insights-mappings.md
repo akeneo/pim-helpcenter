@@ -8,7 +8,7 @@ related: franklin-insights-getting-started, franklin-insights-subscriptions
 
 # Overview
 
-Franklin initially generates catalog and product information in its own format. In order to be able to [subscribe](/franklin-insights-subscriptions.html) products to Franklin and receive proposals, **Franklin needs to know which attributes on your PIM correspond to his**.
+Franklin initially generates catalog and product information in its own format. In order to be able to [subscribe](/franklin-insights-subscriptions.html) products to Franklin and receive [proposals](/proposals-workflow.html), **Franklin needs to know which attributes on your PIM correspond to his**.
 
 # Identifiers mapping
 
@@ -33,11 +33,13 @@ Following the Franklin Identifiers Mapping stage, you have everything you need i
 
 Once you subscribe a product to Franklin, and Franklin successfully gathers product information suggestions for this product and product family, you will be directed to the **Franklin Attributes Mapping** UI.
 
-In order to generate proposals for the subscribed and enriched product, Franklin needs to know which of your catalog attributes correspond to his attributes suggestions. The mapping needs to be done for **each family with subscribed and enriched products**.
+In order to generate [proposals](/proposals-workflow.html) for the subscribed and enriched product, Franklin needs to know which of your catalog attributes correspond to his attributes suggestions. The mapping needs to be done for **each family with subscribed and enriched products**.
 
 ![image](../img/Akeneo_Screenshot_Franklin_Insights_Attributes_Mapping.png)
 
-You can **expand the Franklin attribute** in order to gain more insights regarding this attribute.  Franklin provides you with a recommended attribute type (not strictly validated), and a summary of the most frequent values for this attribute in this family, all based on **your enriched products**.
+In the family dropdown, you will only be able to see families with subscribed products. In the attribute mapping selection, you will only be able to see attributes that are in the family being reviewed. On the Franklin attributes search bar, you can find a Franklin attribute by searching for his label.
+
+When hovering on a Franklin attribute, you will see an icon which allows you to **expand the Franklin attribute** in order to gain more insights regarding this attribute.  Franklin provides you with a recommended attribute type (not strictly validated), and a summary of the most frequent values for this attribute in this family, all based on **your enriched products**.
 
 For simple and multi select attributes, Franklin also needs to know the PIM catalog attribute options that match his. When you pick a simple or multi select attribute on the mapping screen, an icon that leads to the attribute options mapping screen will be revealed
 
@@ -45,4 +47,12 @@ For simple and multi select attributes, Franklin also needs to know the PIM cata
 
 ![image](../img/Akeneo_Screenshot_Franklin_Insights_Options_Mapping.png)
 
-Once you successfully map your catalog attributes and attribute options to Franklin’s structure, **Franklin will begin to generate proposals for mapped attributes of subscribed and enriched products** :tada:.
+Once you successfully map your catalog attributes and attribute options to Franklin’s structure, the status of these attributes and options will change from "Inactive" to "Active", and **Franklin will begin to generate proposals for mapped attributes of subscribed and enriched products** :tada:.
+
+As Franklin needs a little time to make these calculations, the response may take some time. Hang tight, **data is coming**.
+
+# Impacts of catalog changes on Franklin
+
+As Franklin relies on your catalog attributes and options for mapping, deleting a used attribute or option (or removing it from a family) will result in its removal from the Franklin mapping information.
+
+If the attribute is used for identifiers mapping, removing this attribute may result in unsubscription of many products. As Franklin relies on the product identifiers for data collection and generation, removing the original identifier linked to Franklin will result in the products' unsubscription. 
