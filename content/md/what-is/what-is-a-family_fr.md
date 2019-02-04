@@ -49,6 +49,6 @@ Chaque famille dispose **d'un code et d'un libellé**. Le libellé peut être tr
 - Une famille **définit le niveau de complétude des produits**.
 :::
 
-Chaque famille aussi a un niveau de **complétude**. Découvrez comment définir une complétude pour vos produits dans notre article sur la [Complétude](/articles/what-is-the-completeness.html).
+Chaque famille aussi a un niveau de **complétude**. Découvrez comment définir une complétude pour vos produits dans notre article sur la [Complétude](/fr/articles/what-is-the-completeness.html).
 
-Apprenez-en plus sur comment créer, mettre à jour ou éditer les propriétés de vos familles dans notre article sur la [Gestion des familles](/articles/manage-your-families.html).
+Apprenez-en plus sur comment créer, mettre à jour ou éditer les propriétés de vos familles dans notre article sur la [Gestion des familles](/fr/articles/manage-your-families.html).
