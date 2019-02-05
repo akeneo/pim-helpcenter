@@ -10,11 +10,12 @@ related: manage-your-rules
 # Definition of a rule
 
 A rule is a set of actions and conditions that allows you to automatise data enrichment. 
-For instance, using rules you can:
-- automatically categorise new products based their family
-- copy the value from an attribute to another attribute having the same attribute type
-- set a default value to an empty field
-- assign families to new products
+For instance, using rules you can automatically:
+- fill in attributes
+- categorise new products
+- set a default value to an empty attribute
+- assign values, like a family, to new products
+- copy an attribute's value to another attribute (having the same attribute type)
 
 Rules can only be imported in Akeneo using a YML file, but you can manage them from the UI. Check [How to manage your rules](/articles/manage-your-rules.html) article. 
 
