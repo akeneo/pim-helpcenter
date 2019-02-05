@@ -49,6 +49,6 @@ Each family has **a code and a label**. The label can be translated in any activ
 - A family **defines the completeness of products**.
 :::
 
-Each family also has a **completeness**. Learn how to set your product completeness in the [Completeness](/articles/what-is-the-completeness.html) article.
+Each family also has a **completeness**. Learn how to set your product completeness in the [Completeness](what-is-the-completeness.html) article.
 
-Find more information about how to create, update, edit the properties of your families in the [Manage your families](/articles/manage-your-families.html) article.
+Find more information about how to create, update, edit the properties of your families in the [Manage your families](manage-your-families.html) article.

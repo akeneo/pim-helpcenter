@@ -9,7 +9,7 @@ related: build-your-user-roles, what-is-a-role, what-is-a-user, manage-the-inter
 
 # Set permissions on the Web API
 
-Permissions on the [Web API](https://api.akeneo.com) are also granted according to the [user’s role(s)](/articles/what-is-a-role.html).
+Permissions on the [Web API](https://api.akeneo.com) are also granted according to the [user’s role(s)](what-is-a-role.html).
 
 To change Web API permissions for one user role:
 1. Go to `System` and click on the `Roles` menu entry

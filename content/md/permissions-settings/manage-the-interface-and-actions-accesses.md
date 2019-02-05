@@ -9,7 +9,7 @@ related: build-your-user-roles, what-is-a-role, what-is-a-user, manage-the-web-a
 
 # Overview
 
-Permissions on actions and on parts of the interface are granted according to the [user’s role(s)](/articles/what-is-a-role.html).
+Permissions on actions and on parts of the interface are granted according to the [user’s role(s)](what-is-a-role.html).
 
 To change permissions for one user role:
 1. Go to `System` and click on the `Roles` menu entry
@@ -29,8 +29,8 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 |---------------------------|--------------|
 | Add product to groups                          | User can add products to group, in `Settings`/`Groups` he will see the `Products` tab               |
 | View the associations of a product        | User can see the `Associations` menu entry in the product form  |
-| Add associations to a product (_since 2.1_)         | User can add associations in the `Associations` tab using the `Add associations` button  |
-| Remove associations to a product (_since 2.1_)       | User can remove an association in the `Associations` tab using the cross                               |
+| Add associations to a product         | User can add associations in the `Associations` tab using the `Add associations` button  |
+| Remove associations to a product       | User can remove an association in the `Associations` tab using the cross                               |
 | Consult the categories of a product            | User can see the `Categories` menu entry in the product form                                    |
 | Change product Family                          | User can change the product’s family in the panel on the left of the product form      |
 | Change state of product     | User can change the status of the product: `enable` or `disable` directly in the panel on the left of the product form  |
@@ -78,6 +78,24 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | List asset categories        | User can see and access all asset categories and asset category trees listed under `Settings`/`Asset categories`     |
 | Manage asset category permissions | User has access to the `Permissions` tab on the asset category form     |
 | Remove an asset category          | User can remove an asset category by clinking on `Delete` in the `...` dropdown                   |
+
+# Rights on reference entities _(EE only)_
+
+| Permission name | Effect on the interface |
+|---------------------------|--------------|
+| Add an attribute to a reference entity | User can add an attribute to a reference entity in `Attributes` tab, using the `Add an attribute` button |
+| Delete an attribute for a reference entity | User can delete an attribute of a reference entity in `Attributes` tab, using the `Delete an attribute` button |
+| Edit an attribute of a reference entity | User can edit an attribute of a reference entity in `Attributes` tab, using the `edit` icon. |
+| Remove an option    | User can remove an option of a single or multiple options attribute in the `Attributes` tab, using the `Manage options` button and the `cross` in the list of options |
+| Edit options | User can manage the options for a single or multiple options attribute in the `Attributes` tab, using the `Manage options` button |
+| Create a record | User can add a record to a reference entity in the `Records` tab, using the `Add new` button  |
+| Delete a record | User can delete a record in the `Records` tab, using the deletion icon in the grid or click on `...` for other actions and then on `Delete` in the record form |
+| Delete all entity records | User can delete all the records of a reference entity in the `Records` tab, clicking on `...` for other actions and then on `Delete all records` |
+| Edit the records | User can edit a record of a reference entity in the `Records` tab, using the `Edit` icon in the grid or by double-clicking on the record |
+| Create an entity | User can create a new reference entity in the `Entities` menu, using the `Create` button |
+| Delete an entity | User can delete a reference entity in the `Properties` tab, clicking on `...` for other actions and then on `Delete entity` |
+| Edit the entity properties | User can edit the properties of a reference entity in the `Properties` tab |
+| Manage reference entity permissions | User can define the permissions for a reference entity in the `Permissions` tab |
 
 # Rights on exports
 

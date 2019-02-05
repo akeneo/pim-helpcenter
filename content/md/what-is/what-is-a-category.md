@@ -66,12 +66,12 @@ You cannot sort category trees only categories. Trees are displayed by date of c
 :::
 
 ::: ee
-In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Set rights on your catalog](/articles/access-rights-on-products.html#rights-depending-on-the-categories). 
+In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Set rights on your catalog](access-rights-on-products.html#rights-depending-on-the-categories). 
 :::
 
 # How to categorize a product?
 
-Learn more about product categorization on the following page: [Categorize a product](/articles/categorize-a-product.html)
+Learn more about product categorization on the following page: [Categorize a product](categorize-a-product.html)
 
 ::: tips
 A product can be categorized in none, one or several categories.

@@ -17,7 +17,7 @@ To start, go to the `Assets` menu. From this page, there are many ways to work w
 
 Like for the product grid, you can set up a locale and a channel context, you can reduce and expand the categories panel, and use filters to easily find the assets you are looking for.
 
-For more information about the grid, please refer to the [Get familiar with the grid](/articles/products-grid.html) article.
+For more information about the grid, please refer to the [Get familiar with the grid](products-grid.html) article.
 
 The filters can be applied on the following asset information:
 - Code
@@ -34,10 +34,10 @@ The following information cannot be sorted out in the asset grid:
 :::
 
 ::: warning
-Asset thumbnail images displayed in the grid are the selected channel's variations. If no image is displayed it is because you do not have any variations generated for this channel. See how to generate variations in the [Edit the files of an asset](/articles/work-with-assets.html#edit-the-files-of-an-asset) part of this article.
+Asset thumbnail images displayed in the grid are the selected channel's variations. If no image is displayed it is because you do not have any variations generated for this channel. See how to generate variations in the [Edit the files of an asset](work-with-assets.html#edit-the-files-of-an-asset) part of this article.
 :::
 
-## Asset grid display (_since 2.1_)
+## Asset grid display
 
 To highlight the assets images, a `Gallery` display is available in the asset grid.
 
@@ -55,7 +55,7 @@ To use the `Gallery` display:
 The context of the chosen display for the asset grid is kept.
 :::
 
-## Search by code (_since 2.1_)
+## Search by code
 
 To quickly find assets in the assets grid, you can search on the code.
 
@@ -66,8 +66,8 @@ The behavior of the search is a "contains" filter. For example, if you type in "
 # Create an asset
 
 To create an asset in the PIM:
-1. Go to the `Assets` menu
-1.  Click on the `Create an asset` in the top right­ corner
+1.  Go to the `Assets` menu
+1.  Click on the `Create an asset` button in the top right­ corner
 ![Create an asset](../img/Assets_Create1.png)
 1.  Select if the asset you want to create is localized or not. Note: If it will be localized, the area to upload a reference file is hidden. If not, you can upload a reference file.
 1.  If a file is uploaded as a reference file, a code is automatically generated based on the given filename. If not, the user has to put a code for the asset.
@@ -78,7 +78,7 @@ The asset has been created and the asset form page is displayed.
 ![Create an asset 2](../img/Assets_variations2.png)
 
 ::: info
-You can also create assets by mass uploading files. For more information about this feature, see [Upload assets](/articles/upload-assets.html).
+You can also create assets by mass uploading files. For more information about this feature, see [Upload assets](upload-assets.html).
 :::
 
 # Edit an asset
@@ -156,7 +156,7 @@ The code of an asset cannot be changed after its creation.
 You can add:
 - a description to give more details about your asset,
 - tags that will help you work with your assets,
-- a end-of-use date for each asset to could be very useful if you want to receive a notification a few days before your asset license expires. To enable this option, please refer to the [Manage your account](/articles/manage-your-account.html#your-groups-and-roles) article.
+- an end-of-use date for each asset could be very useful if you want to receive a notification a few days before your asset license expires. To enable this option, please refer to the [Manage your account](manage-your-account.html#your-groups-and-roles) article.
 
 ## Create a new tag for an asset
 
@@ -225,11 +225,11 @@ Like a delete of a single asset, this action does not delete asset from the serv
 
 ## Export assets
 
-To export assets, you need to use several export profiles, first of all, run a basic product [export](/articles/exports.html#run-an-export): it contains the assets codes associated to products.
+To export assets, you need to use several export profiles, first of all, run a basic product [export](exports.html#run-an-export): it contains the assets codes associated to products.
 Then, you can run an assets variation export to get the asset's path on the server. In the exported file, you can find the original asset file path in the `reference_file` column and its channel's variations in the `variation_file` column.
 
 ::: info
-Assets are not available through a URL nor exported in a zip folder like pictures. 
+Assets are not available through a URL nor exported in a zip folder like pictures.
 :::
 
 If you need the actual files, it's possible! Since asset files are stored in the `app/filestorage` folder, you can set up a cron task or a script to automatically export them to a FTP for instance.

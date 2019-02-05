@@ -12,7 +12,7 @@ Your PIM is a storage, a container, right? And what do you store inside your PIM
 
 So simple. "Product value" is just another wording for the “product information” notion. It’s the P and I that compose the PIM. 🙂
 
-In the PIM, you can find your number of product values in a dedicated dashboard: the [catalog volume monitoring](/articles/catalog-volume-monitoring.html) screen.
+In the PIM, you can find your number of product values in a dedicated dashboard: the [catalog volume monitoring](catalog-volume-monitoring.html) screen.
 
 # An example
 

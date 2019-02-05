@@ -16,7 +16,7 @@ The completeness for a product is defined according to several aspects:
 - According to a locale: a product can be considered complete in French but not in English as the translation has not been finished
 - According to a channel: a product can be complete for an iPad application but not for an E-commerce website due to different data requirements
 
-Therefore the [completeness](/articles/what-is-the-completeness.html) of a product is a percentage that represents the number of required attributes for a channel and a family, and which have values.
+Therefore the [completeness](what-is-the-completeness.html) of a product is a percentage that represents the number of required attributes for a channel and a family, and which have values.
 
 # Display the product’s completeness
 

@@ -44,7 +44,7 @@ This is not the case if you change other product information such as category cl
 
 # Published products & associations
 
-Products associated to a published product should also be published, if you want to see the associations between those products in your published product. Learn more about associations in the [Associations of products](/articles/products-associations.html) article.
+Products associated to a published product should also be published, if you want to see the associations between those products in your published product. Learn more about associations in the [Associations of products](products-associations.html) article.
 In other words, an association of a published product A with a non-published product B, will not be visible in your published product A.
 
 To associate 2 published products, for instance, *Product A* to *Product B*:

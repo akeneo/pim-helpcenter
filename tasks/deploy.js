@@ -9,6 +9,8 @@ var rsync = require('gulp-rsync');
 var prompt = require('gulp-prompt');
 var fs = require('fs');
 
+var majorVersion = 'v3';
+
 const environments = ['staging', 'production'];
 
 function isFileSync(aPath) {
@@ -25,7 +27,7 @@ function isFileSync(aPath) {
 
 gulp.task('deploy', ['create-dist'], function() {
     // Dirs and Files to sync
-    rsyncPaths = ['./dist/*' ];
+    rsyncPaths = ['./dist/pim/' + majorVersion + '/*' ];
 
     // Default options for rsync
     rsyncConf = {

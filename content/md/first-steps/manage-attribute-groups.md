@@ -72,7 +72,7 @@ The attributes are added to the current group.
 ![Add an attribute](../img/Settings_AttributesGroupsAddAttributes2.gif)
 
 ::: info
-If you do not see the button `Add Attributes`, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](/articles/build-your-user-roles.html).
+If you do not see the button `Add Attributes`, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](build-your-user-roles.html).
 :::
 
 ## Remove an attribute from an attribute group

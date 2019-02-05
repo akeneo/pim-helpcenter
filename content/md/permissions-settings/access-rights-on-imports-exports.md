@@ -10,7 +10,7 @@ priority: low
 
 # Overview
 
-You can easily restrict the edition or the execution of given [import](/articles/imports.html) and [export](/articles/exports.html) profiles depending on the [user groups](/articles/what-is-a-user-group.html) your users are in.
+You can easily restrict the edition or the execution of given [import](imports.html) and [export](exports.html) profiles depending on the [user groups](what-is-a-user-group.html) your users are in.
 
 ## Available rights
 

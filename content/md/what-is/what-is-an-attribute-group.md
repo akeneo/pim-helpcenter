@@ -27,7 +27,7 @@ In the example below, we have three attribute groups displayed: `Marketing`, `Te
 
 If none of the attributes added into an attribute group is used by a product family, the attribute group will not appear in the product form.
 
-You can also add, delete, and define an order in attribute groups, please refer to [Manage your attribute groups](/articles/manage-your-attribute-groups.html).
+You can also add, delete, and define an order in attribute groups, please refer to [Manage your attribute groups](manage-your-attribute-groups.html).
 
 # Specificity for the Enterprise Edition
 
