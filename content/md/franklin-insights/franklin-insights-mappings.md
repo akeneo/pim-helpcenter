@@ -8,7 +8,7 @@ related: franklin-insights-getting-started, franklin-insights-subscriptions
 
 # Overview
 
-Franklin initially generates catalog and product information in its own format. In order to be able to [subscribe](/franklin-insights-subscriptions.html) products to Franklin and receive [proposals](/proposals-workflow.html), **Franklin needs to know which attributes on your PIM correspond to his**.
+Franklin initially generates catalog and product information in its own format. In order to be able to [subscribe](franklin-insights-subscriptions.html) products to Franklin and receive [proposals](proposals-workflow.html), **Franklin needs to know which attributes on your PIM correspond to his**.
 
 # Identifiers mapping
 
@@ -27,7 +27,7 @@ In order to map Franklin’s identifiers to your catalog attributes, please sele
 
 ![image](../img/Akeneo_Screenshot_Franklin_Insights_Identifiers_Mapping.png)
 
-Following the Franklin Identifiers Mapping stage, you have everything you need in order to start [subscribing products to Franklin](/franklin-insights-subscriptions.html).
+Following the Franklin Identifiers Mapping stage, you have everything you need in order to start [subscribing products to Franklin](franklin-insights-subscriptions.html).
 
 # Attributes and options mapping
 
