@@ -8,7 +8,7 @@ related: franklin-insights-getting-started, franklin-insights-mappings
 
 # Overview
 
-Once you [activate the Franklin connection](/franklin-insights-getting-started.html#franklin-activation) and perform the [mapping of Franklin identifiers](/franklin-insights-mappings.html#identifiers-mapping), you have everything you need in order to **subscribe products to Franklin for automatic enrichment**.
+Once you [activate the Franklin connection](franklin-insights-getting-started.html#franklin-activation) and perform the [mapping of Franklin identifiers](franklin-insights-mappings.html#identifiers-mapping), you have everything you need in order to **subscribe products to Franklin for automatic enrichment**.
 
 When you subscribe a product to Franklin, Franklin **collects and validates information on demand** from hundreds of sources and its internal database, and then utilizes **Big Data, Artificial Intelligence, and Machine Learning** in order to provide you with **rich, accurate, and structured product information suggestions**.
 
@@ -24,7 +24,7 @@ You have 2 ways to subscribe products to Franklin:
 
 ![image](../img/Akeneo_Screenshot_Franklin_Insights_Bulk_Actions.png)
 
-In order for you to receive attribute values proposals for subscribed and enriched products, you need to **match between Franklin’s attributes and your catalog attributes** in each family using the [Franklin attributes mapping UI](/franklin-insights-mappings.html#identifiers-mapping).
+In order for you to receive attribute values proposals for subscribed and enriched products, you need to **match between Franklin’s attributes and your catalog attributes** in each family using the [Franklin attributes mapping UI](franklin-insights-mappings.html#identifiers-mapping).
 
 
 # What you need to know about product subscriptions
