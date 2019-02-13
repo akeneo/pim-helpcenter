@@ -25,7 +25,7 @@ For now, Franklin can assist retailers who operate in the United States.
 The Franklin activation failed? Please make sure that you pasted the code we provided correctly. If the issue persists, please let us know and we will be happy to assist :)
 :::
 
-The next step of the setup stage is to match between your catalog attributes and Franklin's identifiers on the **Franklin Identifiers Mapping UI** on `Settings`/`Franklin Insights`. You can learn more about this stage [here](/franklin-insights-mappings.html#identifiers-mapping).
+The next step of the setup stage is to match between your catalog attributes and Franklin's identifiers on the **Franklin Identifiers Mapping UI** on `Settings`/`Franklin Insights`. You can learn more about this stage [here](franklin-insights-mappings.html#identifiers-mapping).
 
 
 # Franklin permissions
