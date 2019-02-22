@@ -121,7 +121,7 @@ User claims are information that the Service Provider expects when a authenticat
 These values are mandatory for the Single Sign-On in the PIM to work. Your SSO administrator must configure the IdP response to embed these values. Please refer to your IdP's documentation on how to configure claims on the IdP.
 
 The IdP response must contain the following attributes:
-* **akeneo-uid**: Will be used to check the username in the PIM database. This is the most important part of the SAML communication.
+* **akeneo_uid**: Will be used to check the username in the PIM database. This is the most important part of the SAML communication.
 * **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname**: Last name of the user
 * **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname**: First name of the user
 * **http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress**: Email of the user
