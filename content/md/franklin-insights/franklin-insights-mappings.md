@@ -33,7 +33,7 @@ Following the Franklin Identifiers Mapping stage, you have everything you need i
 
 Once you subscribe a product to Franklin, and Franklin successfully gathers product information suggestions for this product and product family, you will be directed to the **Franklin Attributes Mapping** UI.
 
-In order to generate [proposals](/proposals-workflow.html) for the subscribed and enriched product, Franklin needs to know which of your catalog attributes correspond to his attributes suggestions. The mapping needs to be done for **each family with subscribed and enriched products**.
+In order to generate [proposals](proposals-workflow.html) for the subscribed and enriched product, Franklin needs to know which of your catalog attributes correspond to his attributes suggestions. The mapping needs to be done for **each family with subscribed and enriched products**.
 
 ![image](../img/Akeneo_Screenshot_Franklin_Insights_Attributes_Mapping.png)
 
