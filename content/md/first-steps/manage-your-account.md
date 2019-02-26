@@ -40,11 +40,15 @@ Under the `Additional` tab, you will be able to define your default catalog sett
 - `Default published product grid view` (_EE only_): your default view used in the published products grid
 
 ::: tips
-You first need to create default views to be able to set one in your account. If you do not see these menus, please check you have already created at **least one view** on your product grid.
+You first need to create at least one view to be able to see this field and to set a default view in your account.
+:::
+
+::: tips
+The search bar available on top of the product grid behaves like a filter, it can be added using the `label or identifier` filter in the `Product grid filters` field.
 :::
 
 ::: info
-If no default filters are defined, system attributes (family, groups, status, completeness, creation date, updated date, product identifier, permissions) will be used as default filters on the product grid.
+If no default filters are defined, the system attributes (family, groups, status, completeness, creation date, updated date, product identifier, permissions, label or identifier filter) will be used as default filters on the product grid.
 :::
 
 ## Your groups and roles
