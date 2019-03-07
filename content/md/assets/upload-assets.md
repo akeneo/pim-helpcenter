@@ -13,6 +13,10 @@ Assets mass upload is pretty convenient especially if you want to update your as
 
 The PIM uses the filename to know for which asset the file have to be used and if this asset is localized or not.
 
+:::warning
+If the file's name contains a minus character "-", it will be considered as an underscore "_", i.e: "Main-Picture.jpg" and "main_picture.jpg" will be linked to the same asset.  
+:::
+
 **Example 1 with a non-localized asset**  
 If the filename is `main_picture_S1263547.jpg`, then the PIM will check:
 - If the asset with the `main_picture_S1263547` code already exists, the PIM will update the asset with the `main_picture_S1263547` code by importing the `main_picture_S1263547.jpg` file as its new reference file (and will regenerate the variation files accordingly).
