@@ -1,32 +1,32 @@
 ---
 id: contribute-translations
 themes: language-and-translations
-title: Give us a hand with **translating** the PIM
+title: Donnez-nous un coup de main en **traduisant** le PIM
 popular: true
 related: manage-your-account, set-the-default-PIM-language
 ---
 
-# All about translations
+# Tout sur les traductions
 
-By default, Akeneo PIM is set in English. We then usually manage to translate the wording in French internally. Thanks to some of our employees, we also manage to translate some other languages like Russian, Portuguese... but for other languages you might miss some wordings.
+Par défaut, le PIM Akeneo est en anglais. Nous parvenons ensuite à le traduire en français en interne. Grâce à certains de nos collaborateurs, nous arrivons à le traduire dans d'autres langages comme le russe, le portuguais ... mais pour les autres langues, certaines expressions peuvent vous échapper. 
 
-If you are using a language for which you noticed there are some wordings in the PIM that are not properly translated, do not hesitate to help us on this subject!
+Si vous utilisez une langue dans laquelle certaines expressions dans le PIM ne vous paraissent pas correctement traduites, n'hésitez pas à nous aider sur le sujet ! 
 
-You'll see. This is very straight forward!
+Vous allez voir. C'est très simple ! 
 
-# Introducing Crowdin
+# Présentation de Crowdin
 
-Akeneo uses the application [Crowdin](https://crowdin.com/) which provides a collaborative environment for the community to translate the PIM. Feel free to create an account and submit translations for your language! This will be much appreciate. ;)
+Akeneo utilise l'application [Crowdin](https://crowdin.com/) qui offre un envionnement collaboratif pour la communauté afin de traduire le PIM. N'hésitez pas à créer un compte et proposer vos traductions pour votre langue ! Ce sera très apprécié. ;)
 
-Access to [Crowdin](https://crowdin.com/) is free, simply register to access to [Akeneo project](https://fr.crowdin.com/project/akeneo) and start contributing!
+Accéder à [Crowdin](https://crowdin.com/) est gratuit, il suffit de s'enregistrer pour accéder au [projet Akeneo](https://fr.crowdin.com/project/akeneo) et démarrer la contribution !
 
-For now, here is the current status on PIM translation on Crowdin.
+Pour le moment, voici l'état actuel de la traduction du PIM dans Crowdin.
 ![image](../img/Crowdin_situation.png)
 
-# Get your reward
+# Obtenez une récompense 
 
-Yes! Contributing translations to the PIM will get you a nice reward: you'll be able to claim the "El translator" badge!
+Eh oui ! Contribuer sur la traduction du PIM vous donnera une belle récompense : vous pourrez réclamer le badge "El Translator" !
 
 ![image](../img/translator-badge.png)
 
-To claim it, it's really simple. Go to our [Badger](http://badger.akeneo.com/) platform, create an account if you don't already have one and look for the badge. Congratulations! :tada:
+Pour le réclamer, rien de plus simple. Allez sur la plateforme [Badger](http://badger.akeneo.com/), créez un compte si vous n'en avez pas déjà un et allez cherche le badge. Félicitations ! :tada:
