@@ -84,6 +84,10 @@ The context of the chosen display for the product grid is kept.
 
 The product grid displays 25 products per page. To browse product’s pages, click on the number of the page you want to reach.
 
+:::info
+The grid can display up to 400 pages (10000 results). However, you can use the filters in the grid, to optimize the results displayed. 
+:::
+
 ![Select the page you want to reach by clicking on the number of the page](../img/Products_views_click_on_pages.png)
 
 # Category panel
