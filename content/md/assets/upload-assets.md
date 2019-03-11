@@ -12,6 +12,11 @@ related: work-with-assets, assets-transformation
 Assets mass upload is pretty convenient especially if you want to update your asset catalog with external sources: photo shooting, new collection, etc...
 
 The PIM uses the filename to know for which asset the file have to be used and if this asset is localized or not.
+To check if the asset already exists, the PIM compares the existing assets codes with the file's name. 
+
+:::warning
+Only letters, numbers and underscores are allowed in an asset code, the other characters will be replaced by an underscore " _ ". i.e: if the file's name contains a minus sign character "-", it will be changed into an underscore sign " _ ", so the "picture-1.jpg" and "picture_1.jpg" will be linked to the same asset code "picture_1".  
+:::
 
 **Example 1 with a non-localized asset**  
 If the filename is `main_picture_S1263547.jpg`, then the PIM will check:
