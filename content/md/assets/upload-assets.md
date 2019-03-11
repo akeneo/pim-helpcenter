@@ -15,7 +15,7 @@ The PIM uses the filename to know for which asset the file have to be used and i
 To check if the asset already exists, the PIM compares the existing assets codes with the file's name. 
 
 :::warning
-Only letters, numbers and underscores are allowed in an asset code, the rest of characters are replaced by an underscore "_". i.e: If the file's name contains a minus character "-", it will be considered as an underscore "_", "Main-Picture.jpg" and "main_picture.jpg" will be linked to the same asset code "main_picture".  
+Only letters, numbers and underscores are allowed in an asset code, the other characters will be replaced by an underscore " _ ". i.e: if the file's name contains a minus sign character "-", it will be changed into an underscore sign " _ ", so the "picture-1.jpg" and "picture_1.jpg" will be linked to the same asset code "picture_1".  
 :::
 
 **Example 1 with a non-localized asset**  
