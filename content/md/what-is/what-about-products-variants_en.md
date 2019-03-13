@@ -9,7 +9,7 @@ related: enrich-products-variants, manage-your-families, create-a-product
 
 # About products with variants
 
-![Variants](../img/Products_Product%20variant.svg)
+![Variants](Products_Product%20variant.svg)
 
 **Products with variants are products that have similarities, they are based on the same model, but differ in some aspects from one another**.
 
@@ -33,7 +33,7 @@ Each T-shirt color has **different pictures and could have a different compositi
 Each T-shirt color could be **available in different sizes: S, M or L.**   
 For each color/size, **the identifier of the product is different** (EAN, SKU) as well as **the technical specs like weight, sleeves length that could vary from a T-shirt from another.**
 
-![Scheme modeling products with variants](../img/scheme_variants.png)
+![Scheme modeling products with variants](scheme_variants.png)
 
 ## What is a product model?
 

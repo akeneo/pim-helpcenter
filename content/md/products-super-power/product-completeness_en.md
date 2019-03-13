@@ -26,7 +26,7 @@ In the product form, you have two different ways to display the product complete
 
 Click on the `Completeness` panel on the left side of the product form to display a panel summing up your product’s completeness:
 
-![Completeness panel](../img/Products_PEFCompleteness.png)
+![Completeness panel](Products_PEFCompleteness.png)
 
 The panel sums up the product’s completeness according to the channels.
 
@@ -65,7 +65,7 @@ This helpful yellow dot is also displayed in front of an attribute to let you kn
 
 Once a required attributes will be filled in, the bullet point disappears.
 
-![Highlighted attributes](../img/Products_CompleteAProductProcess.gif)
+![Highlighted attributes](Products_CompleteAProductProcess.gif)
 
 To be even more efficient in the product form, you can filter on these missing required attributes and go straight to the point.
 This is very easy: just click on the drop down `Display all attributes` and select `All missing required attributes`. That's it! We told you it was very quick :wink:.

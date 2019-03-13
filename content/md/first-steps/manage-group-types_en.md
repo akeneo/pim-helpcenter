@@ -19,7 +19,7 @@ There is no default group. Akeneo advises to create a default group type with co
 
 To see the group types, edit them or create a new group type go to `Settings/Group types`.
 
-![List the group types](../img/Settings_GroupsTypes.png)
+![List the group types](Settings_GroupsTypes.png)
 
 # Create a group type
 

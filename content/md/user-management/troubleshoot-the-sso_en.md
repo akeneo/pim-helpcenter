@@ -52,7 +52,7 @@ For now, this classical login route is not restricted to certain users so anyone
 The Single Sign-On configuration page in the PIM allows you to download the technical log files regarding the SSO process authentication.
 The log files can be downloaded as a zip archive containing the logs for the previous days, one file per day, for the last 10 days.
 
-![image](../img/sso-download-logs.png)
+![image](sso-download-logs.png)
 
 # Go deeper into your IdP
 

@@ -22,7 +22,7 @@ From this single place, you can:
 
 If a reference entity has already been created, simply click on it to access its information.
 
-![image](../img/ReferenceEntity_ListEntities.png)
+![image](ReferenceEntity_ListEntities.png)
 
 # Create a reference entity
 
@@ -33,7 +33,7 @@ To create a [reference entity](/articles/what-about-reference-entities.html), fo
 1.  The code is automatically generated using the label, but it can also be updated (this code must be unique and may only contain letters, numbers and underscores)
 1.  Click on the `Save` button or press `Enter` to create the reference entity
 
-![image](../img/ReferenceEntity_CreateEntity.png)
+![image](ReferenceEntity_CreateEntity.png)
 
 Then you can [define its properties](/articles/manage-reference-entities.html#define-its-properties) (`Properties` tab) and [define its records attributes](/articles/manage-reference-entities.html#define-its-records-attributes) (`Attributes` tab).
 
@@ -46,7 +46,7 @@ In the `Properties` tab, you can edit the label of the reference entity and uplo
 
 You can also translate the label of the reference entity by switching the current catalog locale in the header.
 
-![image](../img/ReferenceEntity_EditProperties.png)
+![image](ReferenceEntity_EditProperties.png)
 
 # Define its records attributes
 In the `Attributes` tab, you can define what are the attributes for these reference entity records.  
@@ -67,7 +67,7 @@ To add an attribute, follow these steps:
 1.  Input the label of the attribute in the current catalog locale
 1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
 1.  Select the attribute type:
- ![image](../img/ReferenceEntity_AddAttribute_Type.png)
+ ![image](ReferenceEntity_AddAttribute_Type.png)
     - **Text**: for text or text area attributes
     - **Reference entity single link**: to link a record to only one entity record
     - **Reference entity multiple links**: to link a record to several entity records
@@ -78,7 +78,7 @@ To add an attribute, follow these steps:
 1.  Tick `Value per channel` if your record could have different values per channel for this attribute
 1.  Click on the `Save` button or press `Enter` to add the attribute
 
-![image](../img/ReferenceEntity_AddAttribute.png)
+![image](ReferenceEntity_AddAttribute.png)
 
 The attribute is now created and an edit pop-in opens with the attribute parameters depending on the attribute type.
 
@@ -100,7 +100,7 @@ To edit an attribute, follow these steps:
 1.  Click on the `Edit` icon
 1.  An edit pop-in opens with the attribute parameters depending on the attribute type
 1.  You can translate the label of the attribute by switching the current locale in the header
- ![image](../img/ReferenceEntity_EditAttribute.png)
+ ![image](ReferenceEntity_EditAttribute.png)
 1.  Depending on the attribute type, set the specific parameters of the attribute (see below the specific parameters)
 1.  Click on the `Save` button or press `Enter` to save the attribute parameters
 
@@ -132,7 +132,7 @@ To define the options of a single/multiple options attribute, follow these steps
 1.  Click on the `Manage options` button
 1.  A fullscreen opens to manage the options
 
-![image](../img/ReferenceEntity_ManageOptions.png)
+![image](ReferenceEntity_ManageOptions.png)
 
 ### Add options
 1. Write your option label
@@ -140,7 +140,7 @@ To define the options of a single/multiple options attribute, follow these steps
 1. Write your next option label
 1. Click on the `Save` button, the fullscreen is closed
 
-![image](../img/ReferenceEntity_AddOptions.png)
+![image](ReferenceEntity_AddOptions.png)
 
 :::warning
 The code can't be edited afterwards, you can only edit/translate the label.  
@@ -166,7 +166,7 @@ If you need to manage more than 100 options per attribute, we advise you to crea
 1. Translate the next option label
 1. Click on the `Save` button, the fullscreen is closed
 
-![image](../img/ReferenceEntity_TranslateOptions.png)
+![image](ReferenceEntity_TranslateOptions.png)
 
 :::info
 To help you for the translation, the labels of the option on other locales are displayed in the right panel.
@@ -192,7 +192,7 @@ To define the attributes required for the completeness of a record:
 1.  Tick `Required for completeness` if this attribute is required for the completeness of a record
 1. Click on the `Save` button or press `Enter`
 
-![image](../img/ReferenceEntity_EditAttribute_Completeness.png)
+![image](ReferenceEntity_EditAttribute_Completeness.png)
 
 If this attribute is not required for the completeness, untick `Required for completeness`.
 

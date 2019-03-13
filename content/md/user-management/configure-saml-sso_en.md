@@ -65,7 +65,7 @@ Once enabled, all the authentication requests will be redirected to the authenti
 
 ## Configure the Identity Provider (IdP) section
 
-![image](../img/SamlSSO-IdPConfiguration.png)
+![image](SamlSSO-IdPConfiguration.png)
 
 Using the information you gathered previously, you can fill all the required fields that are required to communicate with the IdP.
 The mandatory values are the following:
@@ -81,7 +81,7 @@ For more information about X.509 certificate, you can have a look at [this artic
 
 ## Configure the Service Provider (SP) section
 
-![image](../img/SamlSSO-SPConfiguration.png)
+![image](SamlSSO-SPConfiguration.png)
 
 :::info
 By default, the SP configuration is automatically populated during the first access to the SSO configuration page. If you want to provide your own certificate, you can paste the public and private key certificates in the corresponding fields.

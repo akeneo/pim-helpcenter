@@ -15,7 +15,7 @@ Thanks to the user groups, you will be able to grant access to your PIM users to
 To see which groups have been created:
 1.  Log in with a user account witch has the rights to see the groups
 1.  Go to `System` and click on the `Groups` entry
-  ![image](../img/Systems_Groups.png)
+  ![image](Systems_Groups.png)
 1.  To see the details of a user group, click on a line in the group to view the information available
 
 ## Create a user group
@@ -23,7 +23,7 @@ To see which groups have been created:
 1.  Log in with a user account with the rights to create a group
 1.  Go to `System` and click on the `Groups` entry
 1.  Click on `Create group` button to generate a new user group
-  ![image](../img/Systems_GroupsCTA.png)
+  ![image](Systems_GroupsCTA.png)
 1.  Fill the form to name the group
 1.  Click on the `Save` button to save the newly created group
 
@@ -32,7 +32,7 @@ To see which groups have been created:
 1.  Log in with a user account with the rights to edit a group
 1.  Go to `System` and click on the `Groups` entry
 1.  Click on the group name to modify
-  ![image](../img/Systems_GroupEdit.png)
+  ![image](Systems_GroupEdit.png)
 1.  Change the name of the group
 1.  Click on the `Save` button to update the user group
 
@@ -49,7 +49,7 @@ To edit the users associated to a group:
 1.  Go to `System` and click on the `Groups` entry
 1.  Click on the user group to modify
 2.  Click on the `Users` tab in the form that just opened
-  ![image](../img/Systems_GroupUserEdit.png)
+  ![image](Systems_GroupUserEdit.png)
 
 A grid of users is displayed with the users belonging to the group. They can be easily identified by the check box in the first column `Has group`.
 1.  Look for the users and check the box to add the users to the group. And the other way around, uncheck the box to withdraw the users from the group
@@ -66,7 +66,7 @@ The rights which have been granted to or removed from users (added to or removed
 1. Check / uncheck the groups to add or remove the user from these groups
 1. Click on the `Save` button
 
-![image](../img/Systems_MoveaUsertoaGroup.gif)
+![image](Systems_MoveaUsertoaGroup.gif)
 
 # Delete a user group
 
@@ -79,7 +79,7 @@ To delete a user group:
     *   Click on the user group to be deleted and click on the `Delete` button on the top right
     *   Click on the :wastebasket: button that appears at the end of the line of the user group you want to delete, in the grid
 1.  Then confirm the message for the deletion of the group
-![image](../img/Groups_Delete.png)
+![image](Groups_Delete.png)
 
 ::: warning
 Please check first the potential impact of the removal of a group in which users are included. For instance, if the group membership was the only way for a user to have a specific right, then due to the group deletion, the user will have no longer his access right in the PIM.

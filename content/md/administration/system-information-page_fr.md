@@ -11,7 +11,7 @@ related: work-with-assets
 Vous trouverez dans le PIM un écran dédié à l'affichage de quelques informations concernant votre système.  
 Pour vous rendre sur cette page, cliquez sur `Système` puis sur l'entrée de menu `Informations système`.
 
-![image](/img/System_SystemInformation.png)
+![image](System_SystemInformation.png)
 
 # Contenu de la page
 

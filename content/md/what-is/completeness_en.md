@@ -20,19 +20,19 @@ The completeness can be displayed as a **progress bar** or as a **percentage** i
 ## On your dashboard
 Your **dashboard** will display the overall completeness for each combination channel/locale
 
-![SCREENSHOT dashboard](../img/Dashboard.png)
+![SCREENSHOT dashboard](Dashboard.png)
 
 ## In your product grid
 Your **product grid** will display the completeness for each product as a percentage
 
-![SCREENSHOT product grid](../img/Products_Project.png)
+![SCREENSHOT product grid](Products_Project.png)
 
 ## On your product edit form
 Your **product edit form** will display the completeness for each product, as well as for each variant if it is a product model
 
-![SCREENSHOT product completeness](../img/Products_PEF1.png)
+![SCREENSHOT product completeness](Products_PEF1.png)
 
-![SCREENSHOT if variant products](../img/Products_VariantProdcut2.png)
+![SCREENSHOT if variant products](Products_VariantProdcut2.png)
 
 ## In your completeness panel (product edit form)
 [SCREENSHOT completeness panel]
@@ -60,7 +60,7 @@ The **completeness calculation takes into account several parameters**: the attr
 
 A product is considered as **complete** (when it has a completeness of 100%, meaning when all its required attributes have a value.
 
-![SCREENSHOT](../img/Products_PEF12Completeness.png))
+![SCREENSHOT](Products_PEF12Completeness.png))
 
 # How often is my completeness refreshed?
 The completeness is regenerated:

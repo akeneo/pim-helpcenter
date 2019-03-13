@@ -19,11 +19,11 @@ To publish a product:
 
 The current version will be published. In the `History` tab, the published version is indicated by a blue `Published` button as shown below:
 
-![Published History Button](../img/Products_PublishedHistoryButton.png)
+![Published History Button](Products_PublishedHistoryButton.png)
 
 If you click on the arrow to open the complete `History` page, the published version will have the `Published` label, as shown below:
 
-![Published History Button dropdown](../img/Products_PublishedHistoryDropdown.png)
+![Published History Button dropdown](Products_PublishedHistoryDropdown.png)
 
 ## Publish several products at once
 
@@ -51,7 +51,7 @@ To check which products are published:
 1.  Click on the "..." in the top right corner of the screen
 1.  Select `Published Products` in the dropdown
 
-![Publish](../img/Products_PublishedGrid.png)
+![Publish](Products_PublishedGrid.png)
 
 Note that some features are not available from this grid:
 
@@ -84,7 +84,7 @@ From the product grid:
 1.  Select a published product
 1.  Its product form is displayed
 
-![Published Products](../img/Products-PublishedProducts.png)
+![Published Products](Products-PublishedProducts.png)
 
 :::info
 Published product information can only be viewed, they cannot be edited.
@@ -97,7 +97,7 @@ When you own the ongoing published product, there are two actions available in t
 
 *   Edit the current product version (working copy): clicking on this button will redirect you to the unpublished product form.
 
-![Edit working copy or Unpublish buttons](../img/Products-PublishedProduct2.png)
+![Edit working copy or Unpublish buttons](Products-PublishedProduct2.png)
 
 *   Unpublish: to unpublish this product
 
@@ -119,7 +119,7 @@ From the published product grid:
 You can also unpublish the product directly from the published product form.
 :::
 
-![Unpublished a product from the grid](../img/Products-PublishedProduct3.png)
+![Unpublished a product from the grid](Products-PublishedProduct3.png)
 
 From the product grid:
 1.  Go to the product grid
@@ -136,7 +136,7 @@ To unpublish several products at the same time:
 1.  Select published products in the grid, the bulk action menu will appear at the bottom of the screen
 1.  Click on `Bulk action`
 1.  Then click on `Unpublish` button
-![Bulk Actions on Publish products](../img/Products-PublishedProduct4.png)
+![Bulk Actions on Publish products](Products-PublishedProduct4.png)
 1.  Select the `Unpublish` operation:
     *   If you have the own permission on all the products you have selected, follow the steps and all the selected products will be unpublished.
     *   If you have the own permission on some of these published products: a message will inform you that you will only be able to unpublish the relevant products on which you have the own right. Then, follow the steps and only the products you own will be unpublished. The other products will not be unpublished.

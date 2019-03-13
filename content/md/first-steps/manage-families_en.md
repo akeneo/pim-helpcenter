@@ -13,7 +13,7 @@ related: what-is-a-family
 
 To see your families, edit them or create a new family go to `Settings/Families`.       
 
-![List of families](../img/Settings_Families.png)
+![List of families](Settings_Families.png)
 
 ## How to create a family?
 
@@ -21,7 +21,7 @@ To see your families, edit them or create a new family go to `Settings/Families`
 To create a new family, follow these steps:
 1.  Go to `Settings/Families`
 1.  Click on `Create family`
-![Create a family](../img/Settings_Families_Create.png)
+![Create a family](Settings_Families_Create.png)
 1.  The creation of a family popin is prompted
 1.  Enter a new family code (this code must be unique)
 1.  Click on `Save`
@@ -55,13 +55,13 @@ You can easily add attributes to or remove them from a family using the user int
 
 Once you are on your family edit form, go under the `Attributes` tab:
 1.  Click on `Add Attributes` on the right side of the screen
-![image](../img/Settings_Families_Attributes.png)
+![image](Settings_Families_Attributes.png)
 1.  Select the attributes to add by clicking on their labels
 1.  Click on `Add`
 1.  Click on `Save`
 
 You can also add a group of attributes, to do so click on `Add by groups` on the right side of the screen       
-![image](../img/Settings_Families_Groups.png)   
+![image](Settings_Families_Groups.png)   
 Select the attribute groups to add by clicking on their labels and click on `Add` and then `Save`.      
 
 The attributes will be added to the current family.
@@ -75,7 +75,7 @@ If you do not see the `Add Attributes` or `Add by groups` button, it might be be
 You can also remove attributes from a family:   
 1.  Go under the `Attributes` tab
 1.  Click on the `Delete` icon to remove the relevant attribute(s)
-![image](../img/Settings_Families_Delete.png)
+![image](Settings_Families_Delete.png)
 1.  `Save` your update
 
 The attribute(s) will be back under the `Add attributes` list. If you need it later, you will be able to add it again.
@@ -102,7 +102,7 @@ Under the attribute’s family tab, you will see
 1.  Circles are automatically converted into a “check”
 1.  Click on `Save`
 
-![image](../img/Settings_FamiliesAddAttributes.gif)
+![image](Settings_FamiliesAddAttributes.gif)
 
 :::warning
 Once changes are saved, the PIM will automatically run a completeness calculation to update your product information.
@@ -133,11 +133,11 @@ To add attributes (or a group of attributes) to several families:
 1.  Check the families on which you want to add the same attributes
 1.  A toolbar will be displayed at the bottom of the page: choose `All` to select all existing families, `All visible` to only select the families displayed on the current page or `None` to unselect all the families)
 1.  Click on the `Bulk actions` button in the toolbar
-![image](../img/Settings_FamiliesBulkActions1.png)
+![image](Settings_FamiliesBulkActions1.png)
 1.  The mass edit window will be displayed
 1.  Select the operation `Set attributes requirements`
 1.  Click on `Next`
-![image](../img/Settings_FamiliesBulkActions2.png)
+![image](Settings_FamiliesBulkActions2.png)
 1.  Add the relevant attributes by attributes or by attribute groups
 1.  Set the attributes required for the product completeness of the channels
 1.  Click on `Next`
@@ -171,11 +171,11 @@ Through the family form:
 1. Go to `Settings/Families` to list the families
 1. Click on the family to delete
 1. Click on `...` for other actions and then `Delete` on the top right corner
-  ![image](../img/Settings_FamilyDelete.png)
+  ![image](Settings_FamilyDelete.png)
 1. Confirm the action via the validation message
 
 Through the `Delete` shortcut in the grid:
-  ![image](../img/Settings_Families_DeleteHover.png)
+  ![image](Settings_Families_DeleteHover.png)
 1. Select the family you want to remove from the family datagrid
 1. Place your mouse over the line of family in the grid, the button delete is prompted (trash can icon)
 1. Click on the trash can icon
@@ -206,7 +206,7 @@ To see the existing family variants or create a new one:
 1.  Select the family to edit in the grid and click on it
 1.  Open the `Variants` tab for the family
 
-![List of family variants](../img/Settings_Families_Variant_List.png)
+![List of family variants](Settings_Families_Variant_List.png)
 
 ## Display a family variant
 
@@ -214,7 +214,7 @@ To see the existing family variants or create a new one:
 1.  Click on a family variant to display it  
 1.  The family variant details are displayed
 
-![Display a family variant](../img/Settings_Families_Variant_Display.png)
+![Display a family variant](Settings_Families_Variant_Display.png)
 
 You can see how the attributes are distributed between the different levels:
 - The **common attributes** in the 1st column for all the products in a product model
@@ -229,7 +229,7 @@ You can create one or more family variants in each family.
 1.  In `Settings/Families`, choose a family and select the `Variants` tab
 1.  Click on `Add variant` to create a new variant for the family
 1.  The creation of a family variant popin is prompted
-![Create a family variant](../img/Settings_Families_Variant_Create.png)
+![Create a family variant](Settings_Families_Variant_Create.png)
 1.  The following properties are required to create a family variant:
     - A **code** to identify the family variant
     - A **label**
@@ -254,7 +254,7 @@ A **family variant cannot have more than 5 attributes used as a variant axis.**
 
 Then, a screen to distribute the attributes between the different levels (`common attributes`, `variant attributes level 1` and `variant attributes level 2`) for the family variant will be displayed.
 1.  Drag and drop attributes or attribute groups from the `common attributes` to the selected variant level to have these attributes managed at each variant level
-![Display a family variant](../img/Settings_Families_Variant_DistributeAttributes.png)
+![Display a family variant](Settings_Families_Variant_DistributeAttributes.png)
 1.  Click on `Save`, the family variant will be updated
 
 ::: info
@@ -266,14 +266,14 @@ By default, the `common attributes` are all the attributes of the family, except
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
 1.  Click on a family variant
 1.  The family variant edit page is displayed
-![Display a family variant](../img/Settings_Families_Variant_Display.png)
+![Display a family variant](Settings_Families_Variant_Display.png)
 1.  You can move attributes or attribute groups by a drag and drop from the `common attributes` to the selected variant level or from the `variant attributes level 1` to the `variant attributes level 2`
 1.  You can remove an attribute from a variant level by clicking on the cross
 1.  A confirmation opens
-![Display a family variant](../img/Settings_Families_Variant_EditRemove.png)
+![Display a family variant](Settings_Families_Variant_EditRemove.png)
 1.  Click on `OK` to confirm the remove
 1.  When you have made all your updates on the family variant attributes, click on `Save`
-![Display a family variant](../img/Settings_Families_Variant_Edit.png)
+![Display a family variant](Settings_Families_Variant_Edit.png)
 
 ::: info
 Moving attributes from `common attributes` to a variant level or from the `variant attributes level 1` to the `variant attributes level 2` means that the selected attributes will be managed at another level. If **these attributes were already filled in, those values will be kept and visible in the new level**. For instance, to keep our `Clothing` example, if you move the `Description` attribute from the `common attributes` to the `variant attributes level 1`, the description previously filled in will be kept for all variant products, but you will be able to change it at the product variant level 1. Basically, you will have the possibility to fill in a description for each color.
@@ -290,7 +290,7 @@ Moving attributes from `common attributes` to a variant level or from the `varia
 1.  The family variant edit page is displayed
 1.  Select the `Label translations` tab
 1.  Translate the family variant label in the different enabled locales
-![Display a family variant](../img/Settings_Families_Variant_Translate.png)
+![Display a family variant](Settings_Families_Variant_Translate.png)
 1.  Click on `Save`
 
 ## Delete a family variant
@@ -301,6 +301,6 @@ Moving attributes from `common attributes` to a variant level or from the `varia
 
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
 1.  Place your mouse over the line of the family variant you want to remove in the grid, the button delete is prompted (trash can icon)
-![Display a family variant](../img/Settings_Families_Variant_Delete.png)
+![Display a family variant](Settings_Families_Variant_Delete.png)
 1.  Click on the trash can icon, a confirmation opens
 1.  Click on `Delete` to confirm the action in the confirmation message

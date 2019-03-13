@@ -60,7 +60,7 @@ Natively, the PIM cannot generate variations for a PDF file or AVI files for ins
 
 You can check if your channel has its own asset transformation by going to `Settings`/`Channels` then click on your channel, and go under the tab `Asset transformations`.
 
-![image](../img/Settings_ChannelsAssetsTransformations.png)
+![image](Settings_ChannelsAssetsTransformations.png)
 
 If there is no transformation, add a new transformation.
 

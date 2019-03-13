@@ -66,7 +66,7 @@ gulp.task('build-indexes', ['clean-dist','less', 'grab-messages', 'grab-related-
                         isNotEnglish: language !== 'en',
                         majorVersion: majorVersion
                     });
-        return gulp.src('src/indexes/*.handlebars')
+        return gulp.src('src/index.handlebars')
                 .pipe(flatmap(function(stream, file){
                     return gulp.src(file.path)
                         .pipe(gulpHandlebars(injectedStrings, {
@@ -74,7 +74,7 @@ gulp.task('build-indexes', ['clean-dist','less', 'grab-messages', 'grab-related-
                         }))
                         .pipe(rename(path.basename(file.path).replace(/\.handlebars$/, '.html')))
                         .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                        .pipe(gulp.dest((language === 'en') ? 'dist/pim/' : 'dist/' + language + '/pim/' + majorVersion));
+                        .pipe(gulp.dest('./dist/pim/' + majorVersion + '/' + language ));
                 }));
     });
 });
@@ -119,7 +119,7 @@ gulp.task('build-themes-pages', ['clean-dist','less', 'grab-messages'], function
                                         var article = {
                                             articleId: id,
                                             articleName: titleWithBold,
-                                            articlePath: language === 'en' ? '/articles/' + id + '.html' : '/' + language + '/articles/' + id + '.html',
+                                            articlePath: '/pim/' + majorVersion + '/' + language + '/articles/' + id + '.html',
                                             articleLanguage: language ,
                                             eeOnly: eeOnly
                                         };
@@ -165,7 +165,8 @@ gulp.task('build-themes-pages', ['clean-dist','less', 'grab-messages'], function
                             description: data.description,
                             img: data.img,
                             selectedLanguage: language,
-                            filePath: filePath
+                            filePath: filePath,
+                            majorVersion: majorVersion
                         });
                     return gulp.src('src/themes.handlebars')
                         .pipe(gulpHandlebars(injectedStrings, {
@@ -174,7 +175,7 @@ gulp.task('build-themes-pages', ['clean-dist','less', 'grab-messages'], function
                         .pipe(gulpHandlebars(injectedStrings))
                         .pipe(rename(filePath))
                         .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                        .pipe(gulp.dest((language === 'en') ? 'dist/' : 'dist/' + language + '/'));
+                        .pipe(gulp.dest('./dist/pim/' + majorVersion + '/' + language));
                 });
             });
         }));

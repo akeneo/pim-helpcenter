@@ -11,7 +11,7 @@ related: what-is-an-attribute-group
 
 To view your attribute groups, go to `Settings/Attribute groups`.
 
-![Settings_Attributesgroups](../img/Settings_Attributesgroups.png)
+![Settings_Attributesgroups](Settings_Attributesgroups.png)
 
 ::: info
 `Other` is a default attribute group managed by Akeneo and it cannot be deleted. If you do not create attribute groups, all product attributes will be gathered in this group.
@@ -24,7 +24,7 @@ To sort attribute groups, you can drag and drop the attribute groups:
 1.  Place your mouse over the icon nearby the attribute to move
 1.  Once your mouse changes into a cross, put the group higher or lower
 
-![Drag and drop attributes groups](../img/Settings_AttributesGroupsDraganddrop.gif)
+![Drag and drop attributes groups](Settings_AttributesGroupsDraganddrop.gif)
 
 # Create an attribute group
 
@@ -36,7 +36,7 @@ To create an attribute group:
 
 1.  Go to `Settings/Attribute groups`
 1.  Click on the button `Create`
-![Create an attribute](../img/Settings_AttributesgroupsCreate.png)
+![Create an attribute](Settings_AttributesgroupsCreate.png)
 1.  The page of the new attribute group is displayed
 1.  Enter a unique code and labels
 1.  Click on `Save`
@@ -69,7 +69,7 @@ It is possible to add attributes to an attribute group:
 
 The attributes are added to the current group.
 
-![Add an attribute](../img/Settings_AttributesGroupsAddAttributes2.gif)
+![Add an attribute](Settings_AttributesGroupsAddAttributes2.gif)
 
 ::: info
 If you do not see the button `Add Attributes`, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](build-your-user-roles.html).
@@ -82,7 +82,7 @@ Attributes can be easily removed from groups.
 To remove an attribute:
 
 1.  From the `Attributes` tab of an attribute group, click on the `Delete` icon to remove the relevant attribute.
-![Remove an attribute](../img/Settings_AttributesGroupsAddAttributesDelete.png)
+![Remove an attribute](Settings_AttributesGroupsAddAttributesDelete.png)
 1.  Confirm the action via the validation popin
 1.  Click on `Save`
 
@@ -99,7 +99,7 @@ To sort the attributes, you can drag and drop attributes:
 1.  Place your mouse over the icon nearby the attribute to move
 1.  Once your mouse changes into a cross, put the attribute higher or lower
 
-![Sort out attributes](../img/Settings_AttributesGroupsAddAttributesDraganddrop.png)
+![Sort out attributes](Settings_AttributesGroupsAddAttributesDraganddrop.png)
 
 # Check the attribute group history
 

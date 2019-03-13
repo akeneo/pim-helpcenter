@@ -16,7 +16,7 @@ Par exemple, l'utilisation des règles permet :
 - de définir une valeur par défaut dans un champ vide
 - d'assigner des familles à de nouveaux produits
 
-Les règles peuvent uniquement être importées dans Akeneo via un fichier YML, mais vous pouvez les gérer directement depuis l'interface du PIM. Consultez notre article sur [Comment gérer vos règles](/fr/articles/manage-your-rules.html). 
+Les règles peuvent uniquement être importées dans Akeneo via un fichier YML, mais vous pouvez les gérer directement depuis l'interface du PIM. Consultez notre article sur [Comment gérer vos règles](manage-your-rules.html). 
 
 Les règles peuvent être priorisées de 0 à 100, une règle avec un niveau de priorité défini à 100 sera appliquée avant une règle ayant un niveau de priorité de 10 ou 50.
 

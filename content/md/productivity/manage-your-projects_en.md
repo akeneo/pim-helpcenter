@@ -35,7 +35,7 @@ You first need to set up your project’s environment: select a locale, a scope,
 1.  Go to `Products`
 1.  Click on the `Views/Projects` selector
 1.  Select `Projects`
-![Select Projects in the dropdown menu](../img/Products-DropdownViewsProducts.png)
+![Select Projects in the dropdown menu](Products-DropdownViewsProducts.png)
 1.  Select a locale on the product grid using the locale dropdown menu (remember you only see the locales you have permissions on)
 1.  Select a channel on the product grid using the channel dropdown menu
 1.  Select your products’ category/ies or subcategory/ies
@@ -47,9 +47,9 @@ You are now ready to create a new project!
 
 1. Click on the `...` icon nearby the `Views/Projects` selector
 1. Select `Create project`
-![Create a project](../img/Products_CreateProjectsDropdown.png)
+![Create a project](Products_CreateProjectsDropdown.png)
 1. The project creation window appears:
-![Create a project](../img/Products_CreateProjectsWizard1.png)
+![Create a project](Products_CreateProjectsWizard1.png)
 1. You can now add:
    - a project’s label: the name you want to give to your project. For instance, ‘New Summer Collection Website’
    - a project’s due date: the date the project must be over at, for instance, 30/May/2018
@@ -80,7 +80,7 @@ All projects you can work on, or projects you have created, can be visible from 
 
 A search field is available above the list: start typing the first letters of the project’s label and the list will be updated with the projects’ labels matching your request:
 
-![How to find a project](../img/Products_SearchProjectsDropdown.gif)
+![How to find a project](Products_SearchProjectsDropdown.gif)
 
 Along with the project’s label, you will find other information:
 - A percentage: this is the percentage of products completed according to your permission(s) (see done products). You might not have rights on all products
@@ -100,7 +100,7 @@ Click on the "..." icon and then "Edit Project", a project window is prompted:
 - You can edit label, due date and/or description
 - Click on `Save` and the project will be updated accordingly
 
-![How to edit a project](../img/Products_EditProjects.gif)
+![How to edit a project](Products_EditProjects.gif)
 
 # How to delete a project?
 

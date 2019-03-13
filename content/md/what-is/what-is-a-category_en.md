@@ -10,7 +10,7 @@ In Akeneo, **a category is used to classify products or assets (EE only)**. A ca
 
 You can have **one or more category trees** in Akeneo with an **unlimited number of levels** (categories, subcategories, sub-subcategories...).
 
-![image of the category trees](../img/Settings_CategoryTree.png)
+![image of the category trees](Settings_CategoryTree.png)
 
 ## Differences between families and categories
 
@@ -27,24 +27,24 @@ You can have **one or more category trees** in Akeneo with an **unlimited number
 # How to create a new category?
 
 A category or a category tree only needs a code to be created. You can name your category or category tree and this name can be translated to any activated locale in the PIM.
-![image of category tabs](../img/Settings_CategoryTreesCreate.png)
+![image of category tabs](Settings_CategoryTreesCreate.png)
 
 ## From the user interface
 
 Go to `Settings`/`Categories`. To create a new category tree, click on `Create a new category` button.
-![How to create a new category](../img/Settings_CreateCategoryCTA.png)
+![How to create a new category](Settings_CreateCategoryCTA.png)
 
 To add a new category or subcategory in this tree, select your tree in the category dropdown menu. Once the tree appears, select the tree name to add a new category or select a category to add a new subcategory.
 Then right click on the selected category, a `Create` button appears.
 
-![image of create button to add a new category](../img/Settings_CreateASubcategory.png)
+![image of create button to add a new category](Settings_CreateASubcategory.png)
 
 ## Through imports
 Akeneo comes with import jobs that allow you to create or update category trees and categories. You can use them to create a new tree, update a category tree or a category labels, or add new categories or subcategories for instance.
 
 To do so, use the search bar to find the existing job from `Imports` or click on `Create Import Profile` to add a new import.
 You can choose to use a CSV or XLSX import profile.
-![image of import profile](../img/Imports_CategoryTreeProfile.png)
+![image of import profile](Imports_CategoryTreeProfile.png)
 
 ::: tips
 If you do not know the file format to import, go to `Exports`, use an existing XLSX or CSV category export profile (or create a new one) and use the exported file as a template!
@@ -57,7 +57,7 @@ To learn how to create/update a category through the API, see the [API documenta
 # Sort categories
 
 From the UI, you can drag & drop categories to reorder them within the tree.
-![image of reordering category ](../img/Settings_SortingCategoriesProcess.gif)
+![image of reordering category ](Settings_SortingCategoriesProcess.gif)
 
 If you do not have the permission to see the categories (which is a permission defined for your user role in `System`/`Roles`), you will not be able to access the category panel displayed on the left side of the screen and access to the `Settings`/`Categories` menu.
 

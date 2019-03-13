@@ -9,7 +9,7 @@ related: what-is-a-project, project-widget-dashboard, imports, exports, review-p
 # Overview
 The dashboard is the default opening page, once you've logged in.
 
-![Overview](../img/Dashboard.png)
+![Overview](Dashboard.png)
 
 It is composed of several widgets. Each one is presented below.
 
@@ -23,7 +23,7 @@ Wherever you are in the PIM, to go back to the dashboard, just click on the Aken
 
 In the Entreprise Edition, the first widget of the dashboard is the widget gathering the projects created with the [Teamwork Assistant](what-is-a-project.html).
 
-![Dashboard_Project](../img/Dashboard_Project.png)
+![Dashboard_Project](Dashboard_Project.png)
 
 If no project is available you will see the message: «You have no current project, create a new project.»
 
@@ -37,7 +37,7 @@ This widget is only available for Enterprise Edition users.
 
 This widget gives you an overview of the [completeness](what-is-the-completeness.html) of your channels and locales.
 
-![Dashboard_Completeness](../img/Dashboard_Completeness.png)
+![Dashboard_Completeness](Dashboard_Completeness.png)
 
 In our example, we have 3 channels:
 - Mobile
@@ -65,7 +65,7 @@ The next widget gathers the latest operations you've run in your PIM:
 
 For each operation, you will have a status (`Completed` or `Failed`) and a shortcut to the operation details.
 
-![Last operations](../img/Dashboard_Process.png)
+![Last operations](Dashboard_Process.png)
 
 ::: info
 To bring you more visibility on the job status, it is displayed in green when successful (no warnings), yellow when successful but with warnings (total number of warnings are also displayed), and red when it failed.
@@ -76,7 +76,7 @@ To bring you more visibility on the job status, it is displayed in green when su
 
 In the Entreprise Edition and depending on [your permissions](access-rights-on-products.html), you might see an additional widget that allows you to [review suggestion of modifications made on products](review-products-proposals.html).
 
-![Proposals to review](../img/Activity_Proposals.png)
+![Proposals to review](Activity_Proposals.png)
 
 This widget will display the latest [proposals](proposals-workflow.html) for review. To see all pending reviews, click on the `View all` button.
 

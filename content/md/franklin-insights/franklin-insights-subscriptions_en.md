@@ -18,11 +18,11 @@ You have 2 ways to subscribe products to Franklin:
 
 - Via the **Product Edit Form**
 
-![image](../img/Akeneo_Screenshot_Franklin_Insights_PEF_Subscription.png)
+![image](Akeneo_Screenshot_Franklin_Insights_PEF_Subscription.png)
 
 - Via **bulk action**
 
-![image](../img/Akeneo_Screenshot_Franklin_Insights_Bulk_Actions.png)
+![image](Akeneo_Screenshot_Franklin_Insights_Bulk_Actions.png)
 
 In order for you to receive attribute values proposals for subscribed and enriched products, you need to **match between Franklin’s attributes and your catalog attributes** in each family using the [Franklin attributes mapping UI](franklin-insights-mappings.html#identifiers-mapping).
 

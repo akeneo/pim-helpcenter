@@ -69,7 +69,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes-pages', 'grab-ar
     var md = new MarkdownIt('default', optionsMd);
 
     function imageTokenOverride(tokens, idx, options, env, self) {
-        return '<img class="img-responsive in-article" alt="'+ tokens[idx].content +'" src="'+ tokens[idx].attrs[0][1] + '"/>';
+        return '<img class="img-responsive in-article" alt="'+ tokens[idx].content +'" src="../../img/'+ tokens[idx].attrs[0][1] + '"/>';
     }
     md.renderer.rules['image'] = imageTokenOverride;
     md.renderer.rules.table_open = function(tokens, idx) {
@@ -255,7 +255,8 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes-pages', 'grab-ar
                             mainContent: fs.readFileSync('tmp/' + fileName),
                             filePath: 'articles/' + id + '.html',
                             selectedLanguage: language,
-                            majorVersion: majorVersion});
+                            majorVersion: majorVersion
+                        });
         
                     return gulp.src('src/article.handlebars')
                                     .pipe(gulpHandlebars(injectedStrings, {
@@ -263,7 +264,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes-pages', 'grab-ar
                                 }))
                                 .pipe(rename(id + '.html'))
                                 .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                                .pipe(gulp.dest((language === 'en') ? './dist/pim/'+ majorVersion + '/articles' : './dist/' + language + '/pim/' + majorVersion + '/articles'));
+                                .pipe(gulp.dest('./dist/pim/' + majorVersion + '/' + language + '/articles'));
                 });
             });
     }));

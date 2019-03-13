@@ -37,12 +37,12 @@ If the locale is disabled or doesn't exist in the PIM, the PIM will display an e
 
 1. Go to the `Assets` menu
 1. Click on the `...` button in the top right corner, and select `Upload assets` in the dropdown
-![image](../img/Assets_UploadAssetsDropdown.png)
+![image](Assets_UploadAssetsDropdown.png)
 1. Drag and drop your asset files in the page or click on `Drag and drop your assets or click here` to open the dialog box and select the asset files you want to upload
 1. Click on the `Upload assets` button to upload assets
-![image](../img/Assets-UploadAssetsCTA.png)
+![image](Assets-UploadAssetsCTA.png)
 1. Then, when it's done, click on the `Import` button to create the assets in the PIM
-![image](../img/Assetes_ImportAfterUpload.png)
+![image](Assetes_ImportAfterUpload.png)
 
 The report of the import is displayed.
 

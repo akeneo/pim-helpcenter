@@ -30,11 +30,11 @@ You can define associations on [product models](what-about-products-variants.htm
 
 Only the associated products or [product models](what-about-products-variants.html#what-is-a-product-model) are displayed in the `Associations` tab.
 
-![View the associated products](../img/Products_ProductsAssociated21.png)
+![View the associated products](Products_ProductsAssociated21.png)
 
 By default, if the product has no association for the selected association type, nothing is displayed in the `Associations` tab.
 
-![No association](../img/Products_ProductsNoAssociation.png)
+![No association](Products_ProductsNoAssociation.png)
 
 # Add/remove associations to/from a product
 
@@ -45,16 +45,16 @@ To add associations, there is a picker to select products or [product models](wh
 1.  Click on the `Associations` tab
 1.  Select the association type
 1.  Click on the `Add associations` button
-  ![Add association](../img/Products_ProductsAddAssociation.png)
+  ![Add association](Products_ProductsAddAssociation.png)
 1.  The picker to select product or product models opens
-  ![Add association](../img/Products_ProductsPickerAssociation.png)
+  ![Add association](Products_ProductsPickerAssociation.png)
 1.  Filter on the categories, on the label or identifier or add filters to find the products or product models to associate
 1.  Tick in the grid the products or product models to associate, they are displayed in the basket
-  ![Add association](../img/Products_ProductsBasketAssociation.png)
+  ![Add association](Products_ProductsBasketAssociation.png)
 1.  Click on the `Confirm` button
 1.  The products or product models you associate to the current product are displayed in the `Associations` tab
 
-![View the associated products](../img/Products_ProductsAssociated21.png)
+![View the associated products](Products_ProductsAssociated21.png)
 
 :::info
 A product can also be associated to a [product model](/articles/what-about-products-variants.html#what-is-a-product-model).
@@ -70,4 +70,4 @@ To remove an association:
 1.  Click on the cross to remove the association
 1.  Click on the `Save` button
 
-![Remove associations](../img/Products_ProductsRemoveAssociation.png)
+![Remove associations](Products_ProductsRemoveAssociation.png)

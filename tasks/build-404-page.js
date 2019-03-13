@@ -15,6 +15,8 @@ var readYaml = require('read-yaml');
 var _ = require('lodash');
 
 
+var majorVersion = 'v3';
+
 var messages;
 gulp.task('grab-404-messages', function(){
     return gulp.src('content/messages/*.yaml')
@@ -33,7 +35,9 @@ gulp.task('build-404-page', ['clean-dist','less', 'grab-404-messages'], function
     // Finally, the resulting HTML is saved into "dist".
     messages.forEach(function(languageMessages){
         var language = languageMessages.language;
-        var injectedStrings = Object.assign({},languageMessages);
+        var injectedStrings = Object.assign({
+            majorVersion: majorVersion
+        },languageMessages);
         Object.assign(injectedStrings, {selectedLanguage: language, filePath: '404.html'});
         return gulp.src('src/404.handlebars')
                 .pipe(flatmap(function(stream, file){
@@ -43,7 +47,7 @@ gulp.task('build-404-page', ['clean-dist','less', 'grab-404-messages'], function
                         }))
                         .pipe(rename(path.basename(file.path).replace(/\.handlebars$/, '.html')))
                         .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
-                        .pipe(gulp.dest((language === 'en') ? 'dist/' : 'dist/' + language + '/'));
+                        .pipe(gulp.dest('./dist/pim/' + majorVersion + '/' + language + '/'));
                 }));
     });
 });

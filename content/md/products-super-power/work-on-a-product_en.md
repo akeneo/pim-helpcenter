@@ -10,7 +10,7 @@ related: create-a-product, product-completeness, categorize-a-product, products-
 # Go to a product
 Click on a product on the grid or [create a new product](create-a-product.html) to display the product form.
 
-![Go to a product](../img/Products_PEF1.png)
+![Go to a product](Products_PEF1.png)
 
 # Select your working context (channel/locale)
 
@@ -18,7 +18,7 @@ Click on a product on the grid or [create a new product](create-a-product.html) 
 
 To select the channel you want to edit, select your channel in the drop down list on the header of the product form.
 
-![Select your working channel](../img/Products_DropdownChannelPEF.png)
+![Select your working channel](Products_DropdownChannelPEF.png)
 
 If you want to edit several channels at once, you can edit the product information for one channel then another one and save all changes at once.
 
@@ -33,7 +33,7 @@ It is possible to define your working locale, the selection of the locale impact
 
 To select your working locale, select the locale you want to work with on the header of the product form.
 
-![select your working locale](../img/Products_PEF5.png)
+![select your working locale](Products_PEF5.png)
 
 In the drop-down menu, you will find the locales (at least those that have been added to a channel).  
 If you cannot find your working locale listed, perhaps the locale is not required by any of the channels: therefore it is not enabled. To add a locale to a channel, please refer to [Manage your channels](manage-your-channels.html).
@@ -45,7 +45,7 @@ Or, you do not have the appropriate rights to view the product values for this l
 
 For the localizable attributes (with the indicated locale on top right of the field), the entered values will be saved only for the working locale.
 
-![Process to change of locales](../img/Products_ChangeOfLocalesProcess.gif)
+![Process to change of locales](Products_ChangeOfLocalesProcess.gif)
 
 The localizable attributes for some locales exclusively (locale specific), are only displayed when they are concerned by the working locale.
 
@@ -62,13 +62,13 @@ The global attributes are displayed regardless of the working locale. Hence, the
 1.  Change or complete your product information
 1.  Click on the `Save` button (top right hand corner).
 
-  ![Edit a product](../img/Products_EditingaProductProcess.gif)
+  ![Edit a product](Products_EditingaProductProcess.gif)
 
 The product is updated and a new product version is created. You can view the product versions on the `History` tab (see [View the product versions](#view-the-products-versions)).
 
 By default all the attributes are displayed, you can change the attribute group by clicking on the list `Attribute group` and then selecting the attribute group.
 
-![Edit a product 2](../img/Products_PEF3.png)
+![Edit a product 2](Products_PEF3.png)
 
 ::: ee
 If you cannot view or edit some attributes values, you do not have the appropriate rights to view or edit the product values for some attribute groups, please refer to the [Set rights on your catalog](access-rights-on-products.html) article.
@@ -88,9 +88,9 @@ If an attribute option is missing for a select attribute type (simple or multise
 
 From the product form:
 1.  Click on the `+` icon on the right side of the attribute
-  ![The + option](../img/Products_AddOptionAttributes.png)
+  ![The + option](Products_AddOptionAttributes.png)
 1.  A popin appears, add the attribute option code and its label for the working locale
-  ![Add an option to your attribute](../img/Products_AddOptionAttributes2.png)
+  ![Add an option to your attribute](Products_AddOptionAttributes2.png)
 1.  Click on the `Add` button to create the option, it will be automatically added to the product for this attribute
 
 If you do not see `+` icon, you might not have the appropriate rights to add an option, please refer to [Manage your user roles](build-your-user-roles.html).
@@ -99,7 +99,7 @@ If you do not see `+` icon, you might not have the appropriate rights to add an 
 
 In the product form, you can have some asset collection attributes which look like this:
 
-![asset_collection_attribute](../img/asset_collection_attribute.png)
+![asset_collection_attribute](asset_collection_attribute.png)
 
 In the following section, you will discover all the features that are available around this attribute.  
 And to learn more about assets, you can have a look at [this article](work-with-assets.html).
@@ -117,7 +117,7 @@ You can link assets to your product using this attribute. To do that, follow the
 1. Click on `Manage assets` to access the asset picker and the basket
 1. Pick the assets you want to link to your product, and save.
 
-![basket](../img/basket.png)
+![basket](basket.png)
 
 ### Upload assets directly from the product form
 
@@ -140,7 +140,7 @@ There is a simple way to do that, directly from the product form.
 
 OK, let's see!
 
-![drag_drop](../img/drag_drop.jpg)
+![drag_drop](drag_drop.jpg)
 
 If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with a **drag and drop**, and find this order in export file. Simple. Fast. Effective.
 
@@ -156,7 +156,7 @@ And if you want to have a look at history, a new version is created in `History`
 
 If you have assets linked to your products, you can have a **large display of those assets** clicking on their thumbnails.
 
-![preview](../img/preview.jpg)
+![preview](preview.jpg)
 
 Where? In the **asset collection** in the **Product Form**.
 
@@ -174,7 +174,7 @@ It's very simple:
 1. Click on the field of the "**reference entity single/multiple link**" attribute.
 1. If it's a reference entity single link attribute, you can choose only one record. If it's a multiple links one, then you can choose as many records as you wish.
 
-![selector](../img/Products_EntitySelector.png)
+![selector](Products_EntitySelector.png)
 
 ::: tips
 You can open the record directly from the list: just click on the `Link` icon at the end of each record line and the record will open in a new tab.
@@ -194,7 +194,7 @@ To view the data in another locale and/or channel:
 
 The localized or scopable values are displayed on the right side of the product form in the compare / translate panel.
 
-![image](../img/Products_CompareTranslate1.png)
+![image](Products_CompareTranslate1.png)
 
 The values on the right side can only be viewed, no edition is possible.
 
@@ -206,12 +206,12 @@ When a locale is displayed for convenient reference in the Product Form, you wil
 
 To copy the product information from a locale:
 1.  In the `Compare / Translate` mode, there are multiple option values that can be selected from the `Select` drop down menu
-  ![Dropdown Menu](../img/Products_CompareTranslateDropdownMenu.png)
+  ![Dropdown Menu](Products_CompareTranslateDropdownMenu.png)
     - The `All` option enables you to select all localized values of the locale of reference
     - The `All visible` option enables you to select all the attribute group values displayed.
     - The `None` option enables you to deselect all the localized values of the locale of reference
 1.  Click on the `Copy` button, the selected values are copied to the Product Form
-  ![Copy](../img/Products_CompareTranslateCopy.png)
+  ![Copy](Products_CompareTranslateCopy.png)
 
 # View the product’s versions
 
@@ -233,7 +233,7 @@ To view the product versions:
 1.  Open the product form
 1.  Click on the `History` tab to see the whole list of versions
 
-![image](../img/Products_PEFHistory1.png)
+![image](Products_PEFHistory1.png)
 
 ::: ee
 The Enterprise Edition comes with a feature that allows you to rollback to a previous product version (button `Restore`, for more details, take a look at [Restore an old product version](restore-a-product.html).
@@ -248,7 +248,7 @@ Comments are available under the  `Comments` tab in the Product Form.
 
 1.  Open the Product Form of the product you want to comment
 2.  Click on the `Comments` tab
-  ![image](../img/Products_Comments.png)
+  ![image](Products_Comments.png)
 3.  In the text field, write a new comment (there is no length restrictions)
 4.  Click on the `Add a new comment` button
 
@@ -259,7 +259,7 @@ You can reply to all comments made on a product.
 1.  In the text field of the comment, reply to the comment
 1.  Click on the `Reply` button to save your answer
 
-![comments](../img/Products_Comments.png)
+![comments](Products_Comments.png)
 
 ## Delete your comments
 

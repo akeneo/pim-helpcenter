@@ -18,16 +18,16 @@ You have several ways to follow the status of a job. A job can be:
 
 # How to monitor?
 First, you are notified by a flash message when the job starts.
-![image](../img/Settings_Calculation1.png)
+![image](Settings_Calculation1.png)
 
 Then, when the job is completed, a notification appears on the top of your screen.
-![image](../img/Settings_Calculation2.png)
+![image](Settings_Calculation2.png)
 
 There is a Process Tracker page which will give you the full list of all jobs you launched. To access it, go to `Activity` and click on the `Process tracker`menu entry.
-![image](../img/Settings_Calculation3.png)
+![image](Settings_Calculation3.png)
 
 The `Last operations` widget on Akeneo dashboard will also give you the status of your launched jobs.
-![image](../img/Dashboard_Calculation4.png)
+![image](Dashboard_Calculation4.png)
 
 ## Imports & exports reports
 
@@ -38,7 +38,7 @@ You can also have more details when you executed an import or an export. To revi
 1.  Click on your import/export
 1.  The page of the import/export job detail should appear
 
-![image](../img/Exports_Calculation5.png)
+![image](Exports_Calculation5.png)
 
 The details of the executing import/export job are shown on the page. The details are related to each executed import/export profile.
 
@@ -48,4 +48,4 @@ You can also have more details when you executed a mass action. To review their 
 1.  Go to `Activity`/`Process Tracker` or click on the notification of the completed mass action
 1.  The page of the report is then displayed: the details of the executing bulk action are shown on the page
 
-![image](../img/Dashboard_Calculation6.png)
+![image](Dashboard_Calculation6.png)

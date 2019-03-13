@@ -11,7 +11,7 @@ related: upload-assets, assets-transformation
 
 To start, go to the `Assets` menu. From this page, there are many ways to work within the asset grid below.
 
-![View the assets list](../img/Assets_MainPage.png)
+![View the assets list](Assets_MainPage.png)
 
 ## Set up your work environment
 
@@ -47,9 +47,9 @@ Grid features also apply to this display (filters, channel, locale and categorie
 
 To use the `Gallery` display:
 1.  Click on `List` to change the display  
-  ![Select the asset grid display](../img/Assets_display.png)
+  ![Select the asset grid display](Assets_display.png)
 1.  Select the display `Gallery`
-  ![Gallery display of the asset grid](../img/Assets_gallery_display.png)
+  ![Gallery display of the asset grid](Assets_gallery_display.png)
 
 :::info
 The context of the chosen display for the asset grid is kept.
@@ -61,21 +61,21 @@ To quickly find assets in the assets grid, you can search on the code.
 
 The behavior of the search is a "contains" filter. For example, if you type in "can", it will display all the assets with a code which contains "can".  
 
-![Search bar of the asset grid](../img/Assets_search.png)
+![Search bar of the asset grid](Assets_search.png)
 
 # Create an asset
 
 To create an asset in the PIM:
 1.  Go to the `Assets` menu
 1.  Click on the `Create an asset` button in the top right­ corner
-![Create an asset](../img/Assets_Create1.png)
+![Create an asset](Assets_Create1.png)
 1.  Select if the asset you want to create is localized or not. Note: If it will be localized, the area to upload a reference file is hidden. If not, you can upload a reference file.
 1.  If a file is uploaded as a reference file, a code is automatically generated based on the given filename. If not, the user has to put a code for the asset.
 1.  Click on the `Save` button.
 
 The asset has been created and the asset form page is displayed.
 
-![Create an asset 2](../img/Assets_variations2.png)
+![Create an asset 2](Assets_variations2.png)
 
 ::: info
 You can also create assets by mass uploading files. For more information about this feature, see [Upload assets](upload-assets.html).
@@ -94,7 +94,7 @@ You can either generate variations from a reference file, or put the variation f
 ### Add a reference file
 If you don't have any reference file for your asset yet:
 1.  Drag and drop the file in the area or click in the area to open the dialog box and select the file to add
-![Add a reference title](../img/Assets_AddingReferenceImgProcess.gif)
+![Add a reference title](Assets_AddingReferenceImgProcess.gif)
 1.  Click on the `Save` button
 
 The reference file is added and the variation files are generated.
@@ -106,13 +106,13 @@ The loading time depends on the size of the file, the complexity of the transfor
 ### Download a file (reference or variation)
 
 To download a file, click on the relevant `Download` button.
-![download a file](../img/Assets_DownloadButton.png)
+![download a file](Assets_DownloadButton.png)
 
 ### Delete a file (reference or variation)
 
 To delete a file, click on the relevant `Delete` button, and confirm the action.
 
-![delete a file](../img/Assets_DeleteButton.png)
+![delete a file](Assets_DeleteButton.png)
 
 ::: info
 If you delete the reference file, the variation files will not be updated.
@@ -145,7 +145,7 @@ The variation file will be no more related to the reference file.
 
 ## Edit the asset properties
 1.  Click on the `Properties` tab
-![edit the asset properties](../img/Assets_Properties.png)
+![edit the asset properties](Assets_Properties.png)
 1.  Edit the properties you want to change
 1.  Click on the `Save` button
 
@@ -179,7 +179,7 @@ An asset can be removed from the PIM. This means that all the relevant asset inf
 
 1.  Open the asset form you want to delete
 1.  Click on the `...` button and then select `Delete` in the dropdown
-![delete an asset](../img/Assets_DeleteAsset.png)
+![delete an asset](Assets_DeleteAsset.png)
 1.  Confirm the action in the popin
 
 # Mass actions on asset

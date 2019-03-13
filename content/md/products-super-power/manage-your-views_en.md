@@ -19,10 +19,10 @@ Once you are all set, you will see that the `Default view` name became `Default 
 
 To create your first view:
 1.  Click on the "..." nearby the view selector menu
-![Create a view](../img/Products_CreateView.png)
+![Create a view](Products_CreateView.png)
 1.  Select `Create view` in the dropdown
 1.  A window will appear:
-![Create a view window](../img/Products_CreateViewWizard1.png)
+![Create a view window](Products_CreateViewWizard1.png)
 1.  Enter a name for your view
 1.  Click on `Save` to record your view
 
@@ -46,7 +46,7 @@ You can set one of your view as your own default view! To set one of your view a
 
 To apply a specific view, select it from the dropdown list or look for it using the search bar. The product grid will be updated.
 
-![Apply a view](../img/Products_ChooseViewDropdown.png)
+![Apply a view](Products_ChooseViewDropdown.png)
 
 # Update a view
 
@@ -54,7 +54,7 @@ To update the filters or the column configuration of the views you have created:
 1.  Select the view that you want to edit
 1.  Change the filter and/or the grid columns, when you make changes an asterisk “\*” is shown nearby your view name
 
-![Update a view](../img/Products_EditView.gif)
+![Update a view](Products_EditView.gif)
 
 1.  Click on the "..." nearby the view selector menu
 1.  Select `Save this view` in the dropdown
@@ -75,10 +75,10 @@ To remove a view you have created, follow the steps below:
 1.  Select the view you want to delete
 1.  Click on the "..." nearby the view selector menu
 1.  Select `Delete this view` in the dropdown
-![Delete a view](../img/Products_DeleteThisView.png)
+![Delete a view](Products_DeleteThisView.png)
 1.  Confirm or cancel the suppression of the view.
 
-![Delete a view confirmation](../img/Products_DeleteViewConfirmation.png)
+![Delete a view confirmation](Products_DeleteViewConfirmation.png)
 
 ::: ee
 Use one of your view to create a project! Read our [How to create a project](manage-your-projects.html#how-to-create-a-project) article.

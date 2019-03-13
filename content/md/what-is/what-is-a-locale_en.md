@@ -9,7 +9,7 @@ related: manage-your-locales, what-is-an-attribute, access-rights-on-products
 
 # Definition of a locale
 
-![What-is-a-locale?](../img/what-is-a-locale.svg)
+![What-is-a-locale?](what-is-a-locale.svg)
 
 A locale in Akeneo is a combination of a language (English, German, French...) and a country (United States, United Kingdom, France…). For instance, US english is represented as `en_US` and UK english as `en_UK`. **Akeneo offers more than 200 locales by default** that you can enable depending on your needs.  
 

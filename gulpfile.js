@@ -31,7 +31,7 @@ gulp.task('launch-webserver', ['create-dist'], function() {
     .pipe(webserver({
       livereload: true,
       directoryListing: false,
-      open: '/pim/' + majorVersion + '/'
+      open: '/pim/' + majorVersion + '/en/'
     }));
 });
 

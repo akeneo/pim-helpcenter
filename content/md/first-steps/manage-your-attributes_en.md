@@ -17,7 +17,7 @@ Go to `Settings/Attributes`, to see all the existing attributes or create a new 
 
 The attribute grid displays 25 attributes per page. To browse attributes pages, click on the page number you want to reach or use the filters.
 
-![image](../img/Settings_Attributes.png)    
+![image](Settings_Attributes.png)    
 
 You can sort out attributes by clicking on the column header on the grid.
 
@@ -25,7 +25,7 @@ You can sort out attributes by clicking on the column header on the grid.
 
 To quickly find an attribute, use the search bar available above the grid. Use your attributes label to find what you are looking for.
 
-![image](../img/Settings-UsetheSearchBar.gif)
+![image](Settings-UsetheSearchBar.gif)
 
 ::: warning
 If your attribute does not have any label translated, it will not pop in the search results. **Make sure your attribute has its labels translated.**
@@ -35,7 +35,7 @@ If your attribute does not have any label translated, it will not pop in the sea
 
 The attribute grid comes with a filter bar.
 
-![image](../img/Settings_AttributesFilters.png)
+![image](Settings_AttributesFilters.png)
 
 1.  Enter your filter criteria
 1.  The grid is automatically updated when a new filter is set
@@ -55,7 +55,7 @@ By default, attributes will be displayed in the catalog locale selected in the p
 
 There is a set of actions available for each attribute. You can find on the right side of the grid. Buttons are visible when you hover your mouse over the line.
 
-![image](../img/Settings-AttributesGridHover.png)
+![image](Settings-AttributesGridHover.png)
 
 ::: info
 The shortcut actions are only displayed if you have been granted the appropriate rights. Please refer to [Manage your user roles](build-your-user-roles.html) to learn more about roles.
@@ -69,9 +69,9 @@ For example, you can choose to create a text attribute (free text) or a drop dow
 To create an attribute in the PIM:
 1. Go to `Settings/Attributes`
 1. Click on the `Create attribute` button
-  ![image](../img/Settings_AttributesCTAButton.png)
+  ![image](Settings_AttributesCTAButton.png)
 1. Select the attribute type you want to create
-  ![image](../img/Settings_Attributes_Create2.png)
+  ![image](Settings_Attributes_Create2.png)
 1. The attribute edit page is displayed. The following properties are required to finalise the creation of your attribute:
     - A **code** to identify the attribute
     - An **attribute group**: the attribute group the attribute will belong to
@@ -136,7 +136,7 @@ Each attribute has specific properties to add more control on attribute's values
 
 For instance, you can add a regular expression on a text field to use it for EAN codes. As they contain 13 digits, we can add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 
-![Validation parameters](../img/Settings_EAN.png)
+![Validation parameters](Settings_EAN.png)
 
 ::: info
 The **simple** and **multi select** attribute types, as well as **Yes/No** (boolean) attribute have no specific validation properties.
@@ -147,9 +147,9 @@ The **simple** and **multi select** attribute types, as well as **Yes/No** (bool
 To edit an attribute:
 1.  Go to `Settings/Attributes`
 2.  Select the attribute to edit in the grid and click on the line or on the edition shortcut
-![image](../img/Settings_AttributesModifyAnAttributes.gif)
+![image](Settings_AttributesModifyAnAttributes.gif)
 3.  Change the properties and click on `Save`
-![image](../img/Settings_Attributes_Properties.png)
+![image](Settings_Attributes_Properties.png)
 
 You can change the following properties of an attribute:
 - **Attribute group**: the attribute group the attribute belongs to
@@ -173,7 +173,7 @@ After an attribute is created, it is not possible to change the following proper
 
 You can define option values for simple and multi select attribute types. Options can be added, edited, sorted or deleted.
 
-![image](../img/Settings_Attributes_Options.png)
+![image](Settings_Attributes_Options.png)
 
 ## See attribute options
 
@@ -188,7 +188,7 @@ To see your attribute options, remove an option or add a new one:
 1. Give a unique code to the new option
 1. Click on the green checkmark at the end of the option line to confirm the creation or on the cross to cancel the option's creation.
 
-![image](../img/Settings-AttributesAddOption.gif)
+![image](Settings-AttributesAddOption.gif)
 
 The option is instantly created.
 
@@ -202,20 +202,20 @@ You cannot use the main `Save` button to record your new options.
 1.  Click on the small pencil icon change the option label(s) or code
 1.  Click on the green checkmark to confirm or on the cross to cancel
 
-![image](../img/Settings_Attributes_OptionsEdit.png)
+![image](Settings_Attributes_OptionsEdit.png)
 
 ## Sort out options
 
 Options can be **automatically sorted by alphabetical order** using the toggle button `Sort automatically options by alphabetical order` on the top of the attribute's options page.
 If you want to define your own sort, you **can drag and drop option rows to reorder options manually**.
 
-![image](../img/Settings_AttributesDraganddropOption.gif)
+![image](Settings_AttributesDraganddropOption.gif)
 
 ## Delete an option
 
 Click on the `Delete` button to remove an option
 
-![image](../img/Settings_Attributes_OptionsDelete.png)
+![image](Settings_Attributes_OptionsDelete.png)
 
 ::: warning
 A deleted option can no longer be used as a value for the attribute of a product. If a product had this value, it will be removed from the product's attribute.
@@ -235,7 +235,7 @@ If you are not familiar with the concept of rules, you can read our [What is a r
 
 If a rule applies to your attribute, this rule will be visible under the `Rules` tab.
 
-![image](../img/Settings_Attributes_Rules.png)
+![image](Settings_Attributes_Rules.png)
 
 The `Rules` screen is composed of several information:
 - **Rule's code**: the name of the rule imported
@@ -279,11 +279,11 @@ You have two ways to remove an attribute:
 Through the attribute edit form:
 1. Select the attribute to delete
 1. Click on `...` for other actions and then `Delete` on the top right corner
-  ![image](../img/Settings_Attributes_Delete.png)
+  ![image](Settings_Attributes_Delete.png)
 1. Confirm the action in the popin
 
 Through the `Delete` shortcut in the grid:
-  ![image](../img/Settings_Attributes_GridDeleteHover.png)
+  ![image](Settings_Attributes_GridDeleteHover.png)
 1. Select the attribute you want to remove from the attribute grid
 1. Place your mouse over the line of attribute in the grid, the button `Delete` is prompted (trash can icon)
 1. Click on the trash can icon

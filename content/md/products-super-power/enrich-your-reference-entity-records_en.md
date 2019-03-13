@@ -15,7 +15,7 @@ To add a new brand to the reference entity `Brand`:
 1. Go to your `Brand` entity (you will automatically land on the records grid)
 1. Then click on the `Add new` button, choose a label for the record (the PIM will automatically take its label to generate your record's code, but you can change it if needed).
 
-![Create a record](../img/Records_creation.png)
+![Create a record](Records_creation.png)
 
 ::: tips
 If you have several records to add, you can stay in the creation pop-in to add quickly as many records as needed:
@@ -33,7 +33,7 @@ Note that we have defined a limitation of 1 million records per reference entity
 # Display records
 To see the records of the reference entity, click on the `Records` tab in the left menu. You will see the records grid, where all the records of the entity are listed.
 
-![Records grid](../img/Records_grid.png)
+![Records grid](Records_grid.png)
 
 ## The records grid
 The records grid is quite different than the products' one. Thereafter are the specific features of this grid:
@@ -56,18 +56,18 @@ Our goal is to **facilitate your work** and to increase your productivity. To ma
 
 For example, if you search for the word *« famous »*, all the records containing the word *« famous »* in their code, label or text attribute types will be displayed.  
 
-![Search for records with a keyword](../img/Records_Search_1_word.png)
+![Search for records with a keyword](Records_Search_1_word.png)
 
 And we can go further.
 If you search for *"famous"* and *"bags"*, then only the record containing both *"famous"* and *"bags"* words will be displayed.
 
-![Search for records with several keywords](../img/Records_Search_2_words.png)
+![Search for records with several keywords](Records_Search_2_words.png)
 
 ## Filter on completeness
 
 You can also filter on completeness in order to see the records that are complete/incomplete, or choose to see all the records, no matter their completeness.
 
-![Records filter on completeness](../img/Records_filter_completeness.png)
+![Records filter on completeness](Records_filter_completeness.png)
 
 ::: tips
 To know how to define the required attributes for the completeness, please take a look at this [article](/articles/manage-reference-entities.html)
@@ -80,12 +80,12 @@ Of course, you can edit a record in order to change values or add new ones. Noth
 As for a product, you can define if you want a **different content according to channels**, and the same applies on **locales**.
 You can find a **locale and channel switcher** on each record, meaning that if you need to translate values for example, you can do it simply switching from a locale to another.
 
-![Locale switcher on the records grid](../img/Records_locale_switcher.png)
+![Locale switcher on the records grid](Records_locale_switcher.png)
 
 In the Attribute tab, if you define a *"text area"* attribute for your records, you can tick the parameter `rich text editor`. This will give you access to a set of options to improve the format of your text. For example, you can change the font, the size, etc. You can also add a link, a video, an image.
 In fact, the Rich text editor offers a large bunch of possibilities!
 
-![Records text area](../img/Records_text_area.png)
+![Records text area](Records_text_area.png)
 
 
 # Follow the records completeness
@@ -105,7 +105,7 @@ It is also possible to link a record to another one, and it is very simple.
 
 For example, you can link a *Designer* (let's say *"Philippe Starck"*) to the record *"Kartell"*, or to several records brands belonging to the *"Brands"* entity.  
 
-![Records link entity](../img/Records_link_entity_2.png)
+![Records link entity](Records_link_entity_2.png)
 
 Please refer to this [article](/articles/manage-reference-entities.html#add-an-attribute) to discover how to do so.
 

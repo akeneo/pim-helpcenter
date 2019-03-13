@@ -6,7 +6,7 @@ title: Qu'est-ce qu'une famille ?
 
 # Définition d'une famille
 
-![what-is-a-family](/img/What-is-a-family.svg)
+![what-is-a-family](What-is-a-family.svg)
 
 Une famille est **une sélection d'attributs** qui sont partagés par les produits appartenant à la même famille. En d'autres termes, une famille peut être assimilée à un **template de produit**.
 
@@ -49,6 +49,6 @@ Chaque famille dispose **d'un code et d'un libellé**. Le libellé peut être tr
 - Une famille **définit le niveau de complétude des produits**.
 :::
 
-Chaque famille aussi a un niveau de **complétude**. Découvrez comment définir une complétude pour vos produits dans notre article sur la [Complétude](/articles/what-is-the-completeness.html).
+Chaque famille aussi a un niveau de **complétude**. Découvrez comment définir une complétude pour vos produits dans notre article sur la [Complétude](what-is-the-completeness.html).
 
-Apprenez-en plus sur comment créer, mettre à jour ou éditer les propriétés de vos familles dans notre article sur la [Gestion des familles](/articles/manage-your-families.html).
+Apprenez-en plus sur comment créer, mettre à jour ou éditer les propriétés de vos familles dans notre article sur la [Gestion des familles](manage-your-families.html).

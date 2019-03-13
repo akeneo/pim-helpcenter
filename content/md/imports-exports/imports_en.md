@@ -38,11 +38,11 @@ An import profile allows to perform imports in the PIM. This profile format is b
 To view the available import profiles:
 1.  Log in with a user account with permissions to `View the list of profiles` for imports
 1.  Go to the `Imports` menu
-![image](../img/Imports.png)
+![image](Imports.png)
 1.  To narrow down the list of displayed import profiles, use the available filters above the grid or the search bar that will search on the label
 
 To see the information on a given import profile, click on its row in the grid.
-![image](../img/Imports_Imports2.png)
+![image](Imports_Imports2.png)
 
 # Create a new import profile
 
@@ -50,12 +50,12 @@ To create a new import profile:
 1.  Log in with a user account with `Create an import profile` permissions
 1.  Go to the `Imports` menu
 1.  Click on `Create import profile`
-![image](../img/Imports_CTACreateImportProfile.png)
+![image](Imports_CTACreateImportProfile.png)
 1.  All fields in the pop-up window must be filled in:
     - A unique code
     - A label to identify the profile more easily
     - A job according to what you wish to import
-![image](../img/Imports_CreateImportProfile.png)
+![image](Imports_CreateImportProfile.png)
 1.  Click on `Save` to finalise your import profile creation. The profile page screen is displayed. You can then configure it.
 
 # Update an import profile
@@ -68,7 +68,7 @@ To update an import profile:
 1.  Make your changes
 1.  Click on `Save` to update the profile
 
-![image](../img/Imports_EditButton.png)
+![image](Imports_EditButton.png)
 
 In the `Properties` tab, you can edit the label of your profile.  
 In the `Global settings` tab, properties depend on the import job. For example, for the CSV product import, you will find the following properties:
@@ -103,7 +103,7 @@ To start an import:
 
 When the import ends, a notification is available on the top right corner of the PIM.
 
-![image](../img/Imports-ImportProcess.gif)
+![image](Imports-ImportProcess.gif)
 
 An email can also be sent depending on your user configuration. For further details on this, please refer to the [Manage your account](manage-your-account.html) article.
 

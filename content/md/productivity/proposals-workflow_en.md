@@ -20,7 +20,7 @@ In the case you only have an [edit right on a product depending on its categoriz
 - `Owner groups`: the name(s) of the user group(s) that own the product
 - `Draft status`: the status of the product form
 
-![image](../img/Products_DraftAndOwner.png)
+![image](Products_DraftAndOwner.png)
 
 The statuses visible on the product form enable you to know which information is displayed in the form. You can have the following statuses on the product form:
 - `Working copy:` this is the current form approved by the product manager
@@ -41,14 +41,14 @@ You can propose changes on all the product attributes of an attribute group on w
 
 Once you made your changes on the product, click on `Save`:
 
-![image](../img/Products_InProgressStatus.png)
+![image](Products_InProgressStatus.png)
 
 Be aware, your proposal has not been sent yet for approval.
 
 You have now created your **own draft** of the product! How could you say?
 - The product status has been changed into `In progress`
 - All new changes applied are displayed. For each change an icon is visible nearby the attribute.
-    ![image](../img/Products_DraftIcon.png)
+    ![image](Products_DraftIcon.png)
 - A new blue button is prompted in the top right corner, it's called `Send for approval`: for further details on this action, please refer to the section [Send your draft for approval](#send-your-draft-for-approval).
 
 You can come back later on your product draft version to finish your enrichment work on the product.
@@ -73,13 +73,13 @@ To view the values of a working copy or your draft (in another locale / channel)
 1.  Click on the `...` button and select the `Compare / Translate` option in the dropdown
 1.  By default, the values of the working copy are displayed. However, you may change the selection with the dropdown list on top of the right panel
 1.  You can also change the channel and the locale, in the two dropdown lists on top of the right panel
-    ![image](../img/Products_Compare-Translate.png)
+    ![image](Products_Compare-Translate.png)
 
 ## Send your draft for approval
 You can send your draft for approval at any time to the product manager.
 Once you have created your product draft, a blue button appears in the header of the product form, it's called `Send for approval`.
 
-![image](../img/Products_SendforApproval.png)
+![image](Products_SendforApproval.png)
 
 This button allows you to turn your draft into a proposal that will be submitted to the product managers so they can approve or reject your proposal.
 
@@ -89,7 +89,7 @@ The status of your product is now `Waiting for approval`.
 
 A notification is sent to the product managers for them to know there is something to review.
 
-![image](../img/Products_ProposalsNotification.png)
+![image](Products_ProposalsNotification.png)
 
 ::: info
 To know more about how proposals are review, take a look at the [Review product proposals](review-products-proposals.html) article.
@@ -117,7 +117,7 @@ When the product managers review your proposal, they can:
 | Partially reject your proposal | Your draft is still there with your changes rejected and your changes not yet reviewed | No update of the product | `Waiting for approval` |
 
 When the product managers validate, reject or delete your proposal, you receive a notification with an optional comment.
-![image](../img/Products_ProposalsAccepted.png)
+![image](Products_ProposalsAccepted.png)
 
 Click on the proposal’s notification to open the product form.
 

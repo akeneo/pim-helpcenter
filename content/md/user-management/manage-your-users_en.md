@@ -19,9 +19,9 @@ All users in the PIM can see the firstname and lastname of other users in the ap
 # View the list of users
 
 1.  Go to `System` and click on the `Users` menu entry  
-    ![image](../img/System_Users.png)
+    ![image](System_Users.png)
 1.  To narrow the list of users displayed, use the filters above the users grid
-    ![image](../img/System_Users_filters.png)
+    ![image](System_Users_filters.png)
 1.  To view information of a specific user, click on the user in the grid
 
 # Add a user
@@ -52,7 +52,7 @@ An email is not automatically sent to the new user. It depends on the initial co
 1. Go to `System` and click on the `Users` menu entry
 2. Click on the user to proceed
 1. Click on the `...` button in the top right corner, then select `Delete` in the dropdown
-  ![image](../img/System_DeleteUsers.gif)
+  ![image](System_DeleteUsers.gif)
 1. Then confirm you want to delete the user
 
 The user can no longer connect to the PIM application.

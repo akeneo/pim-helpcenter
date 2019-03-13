@@ -18,7 +18,7 @@ To create a new role:
 1. Log in with a user account having the rights to create a role
 1. Go to `System` and click on the `Roles` menu entry
 1. Click on the `Create` button, fill in the form and give a name to the role
-    ![image](../img/System_Roles.png)
+    ![image](System_Roles.png)
 1. Click on the `Save` button to add the new role
 1. Then select the permissions for the role. The different permissions are detailed in the sections below.
 
@@ -45,7 +45,7 @@ To change the membership of a user:
 1. Log in with a user account having rights to edit a role
 1. Go to `System`/`Roles`
 1. Click on the role to edit and go under the `Users` tab
-    ![image](../img/System_Roles_Users.png)
+    ![image](System_Roles_Users.png)
 1. The list of users is displayed. Users currently belonging to the role can be easily identified by the check box in the first column `Has role`
 1. Look for the users and check boxes to add users to the role. And the other way around, uncheck the boxes for users to be removed from the role
 1. Click on the `Save` button to update the role

@@ -19,7 +19,7 @@ In the PIM, you can find your number of product values in a dedicated dashboard:
 To make it very simple, let’s take an example.  
 In the Akeneo PIM screenshot below, there are several product values: the value of the name, the picture, the brand, the collection and the description, 5 product values in total.
 
-![Product values in the product form](../img/Products_PEF_ProductValue.png)
+![Product values in the product form](Products_PEF_ProductValue.png)
 
 As you can see, the description in this example is “scopable” and “localisable”, meaning that it has a different value for each channel and each activated locale.   
 So, in fact, there are not really 5 product values. There are more, because the description does not store one single value, but _n*m_ values, _n_ being the number of channels and _m_ being the number of activated locales.

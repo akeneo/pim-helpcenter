@@ -12,7 +12,7 @@ In the PIM, there is a dedicated dashboard that will help you monitor your catal
 
 For example, you'll be able to track the number of families and the average number of attributes per family.
 
-![Catalog volume monitoring dashboard](../img/Activity_CatalogVolumeMonitoring.png)
+![Catalog volume monitoring dashboard](Activity_CatalogVolumeMonitoring.png)
 
 # Where is it?
 
@@ -31,7 +31,7 @@ The `Catalog volume monitoring` screen is composed of several sections.
 
 The first one is the most important one. It gives you the total number of [product values](what-is-a-product-value.html) that your PIM actually holds. This indicator gives you a representation of how extensive and valuable your PIM is.
 
-![Number of product values widget](../img/Activity_CatalogVolumeMonitoring_PvWidget.png)
+![Number of product values widget](Activity_CatalogVolumeMonitoring_PvWidget.png)
 
 We really encourage you to give a look at it from time to time. The more product values you have, the more useful your PIM is!
 
@@ -59,7 +59,7 @@ In the Entreprise Edition, there is an additional section called `Axes on assets
 ## The alerts
 
 On some axes, you will sometimes see an alert: text appears below the metric and the axis icon is colored in purple.
-![Alert in the catalog volume monitoring screen](../img/Activity_CatalogVolumeMonitoring_Alert.png)
+![Alert in the catalog volume monitoring screen](Activity_CatalogVolumeMonitoring_Alert.png)
 
 _What does this alert means?_  
 It simply means that for this axis, you may have a volume that is quite high. If you encounter any problems at this level of volume, do not hesitate to contact us.

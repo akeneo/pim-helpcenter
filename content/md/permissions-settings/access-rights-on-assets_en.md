@@ -28,7 +28,7 @@ To set the level of access on assets according to the assets categories:
 1.  Go to `Settings` and click on the `Asset categories` menu entry
 1.  Select the asset category to set permissions on, in the left panel
 1.  Click on the `Permissions` tab
-    ![image](../img/Settings_AssetsCategoriesPermissions.png)
+    ![image](Settings_AssetsCategoriesPermissions.png)
 1.  Click in the fields and select groups to grant them permissions
 1.  Click on the `Save` button
 
@@ -67,4 +67,4 @@ And vice-versa.
 
 As you can see in the example below, the `Apply changes on children` is checked for the parent category. So all its sub-categories will get exactly the same user groups configuration for the view and edit rights.
 
-![image](../img/Settings_AssetCategoriesPermissionsApplytoAllChildren.png)
+![image](Settings_AssetCategoriesPermissionsApplytoAllChildren.png)

@@ -19,7 +19,7 @@ For now, Franklin can assist retailers who operate in the United States.
 
  Franklin credits are required in order to subscribe products for enrichment. PIM clients who purchase Franklin credits will receive an **activation code**. The activation code needs to be saved on the PIM on `System`/`Franklin Insights Connection` in order to enable communication between the PIM and Franklin.
 
-![image](../img/Akeneo_Screenshot_Franklin_Insights_Connection.png)
+![image](Akeneo_Screenshot_Franklin_Insights_Connection.png)
 
 ::: warning
 The Franklin activation failed? Please make sure that you pasted the code we provided correctly. If the issue persists, please let us know and we will be happy to assist :)

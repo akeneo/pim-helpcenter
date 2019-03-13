@@ -13,7 +13,7 @@ related: what-is-a-locale
 
 To view the available locales in Akeneo, go to `Settings/Locales`. You can find a locale using its code. You can also filter on its status `Activated`: All/Yes/No.
 
-![View locales](../img/Settings_Locales.png)
+![View locales](Settings_Locales.png)
 
 # How to enable/disable a locale?
 

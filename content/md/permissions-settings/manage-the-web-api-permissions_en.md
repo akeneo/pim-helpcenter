@@ -15,7 +15,7 @@ To change Web API permissions for one user role:
 1. Go to `System` and click on the `Roles` menu entry
 1. Click on the role to edit
 1. Click on the `Web API Permissions` tab
-    ![image](../img/System_Roles_WebAPIPermissions.png)
+    ![image](System_Roles_WebAPIPermissions.png)
 1. Check/uncheck the permissions you want
 1. Click on the `Save` button to confirm your changes
 

@@ -15,17 +15,17 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">v3 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li class="dropdown-title">{{switch_to}}</li>
-                    <li><a href="/pim/v3/{{filePath}}">v3</a></li>
-                    <li><a href="/pim/v2/{{filePath}}">v2</a></li>
-                    <li><a href="/pim/v2/index-older.html">{{older_versions}}</a></li>
+                    <li><a href="/pim/v3/{{selectedLanguage}}/{{filePath}}">v3</a></li>
+                    <li><a href="/pim/v2/{{selectedLanguage}}/{{filePath}}">v2</a></li>
+                    <li><a href="/pim/v2/{{selectedLanguage}}/index-older.html">{{older_versions}}</a></li>
                 </ul>
             </li>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;"><img src="/img/{{selectedLanguage}}-flag.svg" class="flag"/> {{selectedLanguage}}<span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="text-transform: uppercase;"><img src="/pim/{{majorVersion}}/img/{{selectedLanguage}}-flag.svg" class="flag"/> {{selectedLanguage}}<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li class="dropdown-title">{{switch_to}}</li>
-                    <li><a href="/{{filePath}}"><img src="/img/en-flag.svg" class="flag"/> EN</a></li>
-                    <li><a href="/fr/{{filePath}}"><img src="/img/fr-flag.svg" class="flag"/> FR</a></li>
+                    <li><a href="/pim/v3/en/{{filePath}}"><img src="/pim/{{majorVersion}}/img/en-flag.svg" class="flag"/> EN</a></li>
+                    <li><a href="/pim/v3/fr/{{filePath}}"><img src="/pim/{{majorVersion}}/img/fr-flag.svg" class="flag"/> FR</a></li>
                 </ul>
             </li>
         </div>

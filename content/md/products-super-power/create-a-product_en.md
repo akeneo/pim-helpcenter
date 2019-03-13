@@ -13,13 +13,13 @@ Product’s creation is submitted to specific rights.
 
 # Create a product
 1.  To create a product, click on `Create product` in the top right corner of the product grid:
-    ![Create a Product](../img/Products_CreateProduct.png)
+    ![Create a Product](Products_CreateProduct.png)
 1.  Select `Product`
 1.  Specify a unique product identifier
 1.  Select a family for the new product
 1.  Click on `Save`
 
-![Save your new product](../img/Products_CreateProduct1.png)
+![Save your new product](Products_CreateProduct1.png)
 
 The product is created and its form is displayed, you can start filling its attributes. For more details about the product enrichment, you can read [enrich your product](work-on-a-product.html).
 
@@ -41,7 +41,7 @@ A product model is used to **manage products with variants**, it gathers variant
 1.  Choose a family variant ([a family variant](what-about-products-variants.html#what-is-a-family-variant) defines how the products with variants are structured)
 1.  Click on `Save`
 
-![Save your new product model](../img/Products_CreateProductModel1.png)
+![Save your new product model](Products_CreateProductModel1.png)
 
 The product model is created and its form is displayed, you can start filling its attributes. For more details you can read our article [enrich your products with variants](enrich-products-variants.html).
 

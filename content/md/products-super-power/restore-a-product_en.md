@@ -15,10 +15,10 @@ You just noticed that there are loads of errors in the product information of on
 It's totally possible with the restore feature. You can browse through the whole history of a product to find a version that is good according to your point of view and then, restore it. It's as easy as pie! :)
 
 **Before restoring**
-![Before restoring](../img/Products_PEFHistory1.png)
+![Before restoring](Products_PEFHistory1.png)
 
 **After restoring**
-![After restoring](../img/Products_PEFHistory2.png)
+![After restoring](Products_PEFHistory2.png)
 
 ## Another use case
 Just picture the following case: you have a [published product](publish-workflow.html), which information is disseminated in different channels. You are currently enriching the product form with new photos, a more detailed description and a new price.
@@ -49,7 +49,7 @@ To restore a version:
 1.  Click on the `History` menu entry
 1.  Click on the `Restore` button that is on the line of the version of product you want to restore
 
-![How to restore a product](../img/Products_PEFHistoryProcess.gif)
+![How to restore a product](Products_PEFHistoryProcess.gif)
 
 The version is restored.
 

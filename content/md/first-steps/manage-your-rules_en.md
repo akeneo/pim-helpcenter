@@ -17,7 +17,7 @@ For more details, please refer to [What is a rule](what-is-a-rule.html).
 The screen `Settings/Rules` displays all rules created.  
 You can search on the rule's code.
 
-![image](../img/Settings_Rules.png)
+![image](Settings_Rules.png)
 
 # Calculate the number of affected products for rules
 
@@ -30,7 +30,7 @@ The fist time a rule is executed, it can match many products. The next times, yo
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the calculation is done.
 
-![image](../img/Settings-RulesCalculation.png)
+![image](Settings-RulesCalculation.png)
 
 The number of affected products will appear on the right side of your screen in the column `Affected products`.
 
@@ -88,7 +88,7 @@ A deleted rule can no longer be executed by the rules engine. The products keep 
 To delete a rule, click on the `Delete` button at the end of each line in the grid.  
 A confirmation message validates the action of deleting a rule.
 
-![image](../img/Settings_DeleteHover.png)
+![image](Settings_DeleteHover.png)
 
 ::: info  
 If you do not see the `Delete` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](build-your-user-roles.html).
@@ -101,4 +101,4 @@ You can also delete several rules at the same time:
 1.  Click on `Delete`
 1.  Then confirm the action in the pop in
 
-![image](../img/Settings_RulesBulkActionDelete.png)
+![image](Settings_RulesBulkActionDelete.png)
