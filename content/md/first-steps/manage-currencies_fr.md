@@ -1,36 +1,36 @@
 ---
 id: manage-your-currencies
 themes: catalog-settings
-title: View and enable **currencies**
+title: Voir et activer les **devises**
 popular: false
 ee-only: false
 ---
 
-# Overview
+# Introduction
 
-You have 294 currencies available in Akeneo. Currencies are used to set values for the `Price` attribute type. Currencies are not related to locales.
+Vous avez 294 devises disponible dans Akeneo. Les devises sont utilisées afin de donner des valeurs pour l'attribut de type `Prix`. Les devises ne sont pas liées aux locales.
 
 ::: info
-When a `Price` attribute type is created, it can have as many values as needed as long as the relevant currency has been activated in the PIM.
+Quand un attribut de type `Prix` est créé, il peut y avoir autant de valeurs que nécessaire tant que la devise est activée dans le PIM. 
 :::
 
-# View currencies
+# Voir les devises
 
-To view the currencies, go to `Settings/Currencies`. The grid displays all currencies available in the PIM.   
-You can search on the currency’s code and filter on its status `Activated`: `All`/`Yes`/`No`.
+Pour voir les devises, allez sur `Paramètres/Devises`. Une grille affiche toutes les devises disponibles dans le PIM.
+Vous pouvez faire une recherche avec le code de la devise et filter son statut `Activé`: `Tous`/`Oui`/`Non`.
 
-![View currencies](../img/Settings_Currencies.png)
+![Voir les devises](../img/Settings_Currencies_fr.png)
 
-# Enable/disable a currency
+# Activer/désactiver une devise
 
-Each currency line comes with a shortcut action button to enable or disable it.
-1.  Place your mouse over the line, the `Change status` button will appear
-1.  To change the currency status (enable/disable), click on the button
+Chaque ligne de devise est accompagnée d'un bouton d'action de raccourci pour l'activer ou la désactiver.
+1.  Placez votre souris sur la ligne, le bouton `Changer le statut` va apparaître
+1.  Pour changer le statut de la devise (actif/inactif), cliquez sur le bouton
 
-The currency status will be changed, and the currency grid will be automatically updated.
+Le statut de la devise va être modifié, et la grille de devise va automatiquement être mise à jour. 
 
-![Change status of the currencies](../img/Settings_CurrenciesDisabled.gif)
+![Changer le statut de la devise](../img/Settings_CurrenciesDisabled.gif)
 
 ::: info
-The shortcut action will be displayed if you have the appropriate rights.
+L'action de raccourci n'est affiché que si vous avez les droits appropriés.
 :::
