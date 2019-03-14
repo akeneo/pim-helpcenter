@@ -10,7 +10,7 @@ related: manage-reference-entities, enrich-your-reference-entity-records
 # What's the use case?
 
 Let's take an example of a product page.  
-![Reference entity use case](../img/what-about-reference-entities.png)
+![Reference entity use case](what-about-reference-entities.png)
 
 There are many types of product information such as text, images...  
 Some information are shared between different products (such as the definition of care instructions, colors or brands).  
@@ -41,7 +41,7 @@ A brand is described by the following information:
 
 For the `Brand` reference entity, a record contains all the information regarding a brand like `Kartell` or `Fermob`.
 
-![Reference entity record](../img/what-about-reference-entities_record.png)
+![Reference entity record](what-about-reference-entities_record.png)
 
 
 :::info

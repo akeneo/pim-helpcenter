@@ -18,6 +18,7 @@ gulp.task('clean-dist', function () {
 gulp.task('watch', ['create-dist'], function() {
   gulp.watch('content/md/**/*.md', ['create-dist']);
   gulp.watch('content/*.json', ['create-dist']);
+  gulp.watch('content/**/*.yaml', ['create-dist']);
   gulp.watch('styles/*.less', ['create-dist']);
   gulp.watch('src/**/*.handlebars', ['create-dist']);
   gulp.watch('content/img/*', ['create-dist']);
@@ -30,7 +31,7 @@ gulp.task('launch-webserver', ['create-dist'], function() {
     .pipe(webserver({
       livereload: true,
       directoryListing: false,
-      open: '/pim/' + majorVersion + '/'
+      open: '/pim/' + majorVersion + '/en/'
     }));
 });
 
@@ -39,8 +40,10 @@ gulp.task('create-dist', [
   'clean-dist',
   'less',
   'copy-assets',
-  'landings',
-  'build-articles'
+  'build-indexes',
+  'build-themes-pages',
+  'build-articles',
+  'build-404-page'
 ]);
 
 // Main task that should be used for development purpose

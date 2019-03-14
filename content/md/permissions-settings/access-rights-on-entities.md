@@ -42,7 +42,7 @@ To define the rights on a reference entity, follow these steps:
 1.  Go to the `Permissions` tab of the reference entity
 1.  For each user group, tick to give the `VIEW` or `EDIT` rights
 1.  Click on the `Save` button to save the Permissions
-![image](../img/ReferenceEntity_Permissions.png)
+![image](ReferenceEntity_Permissions.png)
 
 For example, a user in the `Manager` group can edit this `Brand` reference entity, so he can add and edit attributes or add and enrich some brands.
 A user in the `Clothes managers` group can only view this `Brand` reference entity, so he can only view its attributes and also view its brands.
