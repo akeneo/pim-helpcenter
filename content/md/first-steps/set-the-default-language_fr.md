@@ -1,31 +1,31 @@
 ---
 id: set-the-default-PIM-language
 themes: language-and-translations
-title: Set the PIM default **language**
+title: Changer la **langue** du PIM par défaut
 popular: false
 related: manage-your-account, contribute-translations
 ---
 
-# The PIM interface language
+# La langue d'interface du PIM
 
-You can set a default language for the interface that will be used for all new users.
+Vous pouvez définir sur l'interface une langue par défaut qui sera utilisée pour tous vos utilisateurs. 
 
-Most screens in the PIM are translated into other languages besides English.
+La plupart des écrans dans le PIM sont traduits dans d'autres langues que l'anglais.
 
-Note that each user can configure the interface for their preferred language. For more information, take a look at this [article](/articles/manage-your-account.html#your-interface-default-language).
+Notez que chaque utilisateur peut configurer l'interface selon leur langue préférée. Pour plus d'information, jetez un oeil à cette [page](/articles/manage-your-account.html#your-interface-default-language).
 
-For instance, your German team can have the PIM interface in German, whereas the US team can have the PIM in American English - this can be set in their user account.
+Par exemple, votre équipe allemande peut avoir l'interface PIM en allemand, tandis que l'équipe américaine peut avoir le PIM en anglais - cela peut-être paramétré depuis le compte utilisateur. 
 
-# Choose the default language
+# Choisir la langue par défaut
 
-1.  Log in with an admin user account
-1.  Go to `System` and click on the `Configuration` menu entry
-1.  In the `Localization` tab, select the default language from the `Language` dropdown
-  ![image](../img/System_Configuration.png)
-1.  Click on `Save` to apply your settings
+1.  Se connecter avec un compte Administrateur
+1.  Aller sur `Système` et cliquer sur `Configuration` au niveau du menu
+1.  Dans l'onglet `Localisation`, selectionner le language par défaut depuis le menu déroulant `Langue`
+  ![image](../img/System_Configuration_fr.png)
+1.  Cliquer sur `Sauvegarder` pour appliquer votre réglage
 
-# Give us a hand with translations
+# Donnez-nous un coup de main pour les traductions !
 
-Did you notice any wording in the PIM that is not properly translated in the language you are using? Good news - you can help us improve our interface translations!
+Vous avez remarqué des expressions qui ne sont pas correctement traduites dans la langue que vous utilisez ? Bonne nouvelle ! Vous pouvez nous aider à améliorer les traductions de notre interface ! 
 
-See the article [Give us a hand on **translating** the PIM](/articles/contribute-translations.html) for more information. ;)
+Voir la page [Donnez-nous un comp de main en **traduisant** le PIM](/articles/contribute-translations.html) pour plus d'informations. ;)
