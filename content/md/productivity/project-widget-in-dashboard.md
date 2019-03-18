@@ -8,9 +8,9 @@ ee-only: true
 
 # Display key figures
 
-A new widget will display you key information on your dashboard. You will see information like the remaining number of products that have none of the required attributes filled in the TODO section, the number of products with at least one required attribute in the IN PROGRESS section and finally the number of products that are complete in the DONE section.
+The project widget will display key information on your dashboard, including the number of products which have none of their required attributes populated in the `TODO` section, the number of products partially completed in the `IN PROGRESS` section, and finally the number of products that are complete in the `DONE` section.
 
-Under each figure, you will find a percentage. Each percentage will inform you about the 3 statuses’ progress.
+Each section displays the relative percentage of products falling under that status.
 
 When you are working on a project it is also added to the widget with 3 key figures:
 
@@ -21,6 +21,7 @@ When you are working on a project it is also added to the widget with 3 key figu
 | **IN PROGRESS**            | Number of products with at least one required attribute the user can edit  |
 | **% IN PROGRESS PRODUCTS** | (Number of IN PROGRESS products*100) / number of products I have to enrich  |
 | **DONE**                   | Number of complete products with all required attributes the user can edit |
+| **% DONE PRODUCTS**        | (Number of DONE products*100) / number of products for which enrichment is complete  |
 
 # Navigate to the product grid
 
@@ -28,7 +29,7 @@ When you display the project widget, you can easily see the products by clicking
 For example if you click on the widget `In Progress` which displays 25 as a figure, the product grid will be prompted and filtered with the 25 products.
 
 ::: info
-Since 2.3, if you create a project including product models, the project widget will always display the number of variant products. If you click on a project widget, the product grid will also display variant products, you can start the product enrichment!
+If you create a project including product models, the project widget will always display the number of variant products. If you click on a project widget, the product grid will likewise display variant products which the user can enrich.
 :::
 
 # Browse projects and users
@@ -45,7 +46,7 @@ A search toolbar is available on the top of the list: start typing the first let
 
 ## Browse users
 
-As a project creator, you can search for a user to know his progress on a project. Click on the dropdown icon next to the user and start typing the first letters of his name.
+As a project creator, you can search for a user to view their progress on your project. Click on the dropdown icon next to the user and start typing the first letters of the user's name to locate them.
 
 ![image](../img/Dashboard_DropdownMenuContributors.png)
 
@@ -53,6 +54,6 @@ As a project creator, you can search for a user to know his progress on a projec
 The project creator is the only one who can select `All contributor` or another contributor.
 :::
 
-If you have no project, the widget will display users the message: `You have no current project, start a new project`.
+If you have no projects, the widget will display users the message: `You have no current project, start a new project`.
 
 ![image](../img/Dashboard_NoProject.png)
