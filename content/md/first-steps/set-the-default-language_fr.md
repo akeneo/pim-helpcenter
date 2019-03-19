@@ -28,4 +28,4 @@ Par exemple, votre équipe allemande peut avoir l'interface PIM en allemand, tan
 
 Vous avez remarqué des expressions qui ne sont pas correctement traduites dans la langue que vous utilisez ? Bonne nouvelle ! Vous pouvez nous aider à améliorer les traductions de notre interface ! 
 
-Voir la page [Donnez-nous un comp de main en **traduisant** le PIM](/articles/contribute-translations.html) pour plus d'informations. ;)
+Voir la page [Donnez-nous un coup de main en **traduisant** le PIM](/articles/contribute-translations.html) pour plus d'informations. ;)
