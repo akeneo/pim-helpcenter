@@ -1,7 +1,7 @@
-# Akeneo Help center
-This repository holds the sources for our help center, made by hand with love.
+# Akeneo PIM help center
+This repository holds the sources for our PIM help center, made by hand with love.
 
-**Install/preview the help center**
+**Install/preview the PIM help center**
 
 First, you will need [Node](https://nodejs.org/en/) as well as [Gulp-cli](https://github.com/gulpjs/gulp-cli).
 
@@ -13,7 +13,7 @@ npm install
 sudo npm install --global gulp-cli
 ```
 
-To run the help center locally, once Node and gulp-cli installed, run in your root folder after cloning/downloading the Helpcenter sources:
+To run the PIM help center locally, once Node and gulp-cli installed, run in your root folder after cloning/downloading the Helpcenter sources:
 
 ```bash
 npm install
@@ -21,7 +21,7 @@ npm install
 gulp serve
 ```
 
-The help center website is then available on `localhost:8000`.
+The PIM help center website is then available on `localhost:8000`.
 Files located in the content and src directories are watched for changes, so when developing or writing new articles you do not need to launch any other task.
 
 **Documentation contribution**
