@@ -9,25 +9,27 @@ related: assets-transformation, upload-assets, work-with-assets
 
 # Definition of an asset
 
-You will use an asset whenever you want to enrich your products with files. These files can be, for example, pictures or user manuals of your products.
+An asset can be a HD image, a video, a PDF installation guide... Any kind of files that can be used to enrich a product in Akeneo.
 
 ::: ee
-This feature is only available in the Entreprise Edition.
+Assets are only available in the Enterprise Edition.
 :::
 
-One asset is composed of several files depending on if you need a different version of this asset for each of your locales or channels.
+An asset is always `scopable` because an asset reference file can be declined for each channel depending on your export needs.  
+It can also be `localisable`, if you want to have a specific version for the locales enabled in the PIM. For instance, you can have a PDF guide in English, another one in French, another one in German...
+Thus, for each asset created, you may have several files attached to it.
 
 ![Asset](../img/Settings_What-is-an-asset.svg)
 
-An asset has a unique code which is mandatory and optional properties :
-- A set of files: one or several reference files and their variations per channel,
+An asset has a unique code which is mandatory and optional properties:
+- One or more reference files,
+- One variation (or none) per channel,
 - A description,
 - An end date of use,
 - Some tags (to qualify the asset and find it quickly).
 
-As stated above, an asset can be localizable. In this case, you will have as many reference files than activated locales. It is very useful when you need, for example, one PDF file for your manual in English and another one in French.
-
-To finish, you can define different transformations of these assets according to your channel needs, i.e. a picture with different sizes depending on the channels. To learn more about these transformations, you can go [here](assets-transformation.html).
+To unleash the power of our Product Asset Manager (PAM), you will need to upload asset transformations for your channels (see our dedicated : [About the asset transformations](assets-transformation.html) so the PIM generates variations based on the reference file.  
+Let's say you upload a HD image as a reference file, you can decide to reduce its resolution and/or size for your e-commerce channel, and do the same for the mobile channel. This is what asset transformation are used for.
 
 # Why should I use assets?
 
@@ -39,11 +41,11 @@ There are 2 major benefits when you use the assets to manage the files linked to
 
 All the assets are centralized in the PIM in one library called the PAM, the Product Asset Manager. You can find this library under the `Assets` menu. For more information on how to use this feature, we encourage you to take a look at this [article](work-with-assets.html).
 
-The PAM comes pretty handy when you want to manage and find your assets easily, especially if several of your teams will work on assets: your technical department for your user manuals, your marketing department for your images,...).
+The PAM comes pretty handy when you want to manage and find your assets easily, especially if several teams are working on assets: your technical department for your user manuals, your marketing department for your images,...
 
 ## The asset collection attribute
 
-To link your assets to your product, you use the attribute called the asset collection attribute. This attribute allows you to manage several assets for a same product by using only one single attribute.
+To link your assets to your products, use the attribute called the asset collection attribute. This attribute allows you to manage several assets for a same product by using only one single attribute.
 
 ![Zoom on the asset collection attribute](../img/zoom_asset_collection_attribute.png)
 
