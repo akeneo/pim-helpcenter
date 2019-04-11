@@ -9,7 +9,7 @@ related: assets-transformation, upload-assets, work-with-assets
 
 # Definition of an asset
 
-An asset can be a HD image, a video, a PDF installation guide... Any kind of files that can be used to enrich a product in Akeneo.
+An asset can be an HD image, a video, a PDF installation guide... Any kind of file that can be used to enrich a product in Akeneo.
 
 ::: ee
 Assets are only available in the Enterprise Edition.
