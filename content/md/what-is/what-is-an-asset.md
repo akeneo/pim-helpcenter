@@ -15,7 +15,7 @@ An asset can be an HD image, a video, a PDF installation guide... Any kind of fi
 Assets are only available in the Enterprise Edition.
 :::
 
-An asset is always `scopable` because an asset reference file can be declined for each channel depending on your export needs.  
+An asset is always `scopable` because you made need asset reference file variations for each channel - for example, a full size image for print and a small image for ecommerce.  
 It can also be `localisable`, if you want to have a specific version for the locales enabled in the PIM. For instance, you can have a PDF guide in English, another one in French, another one in German...
 Thus, for each asset created, you may have several files attached to it.
 
