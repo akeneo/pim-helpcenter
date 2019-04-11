@@ -45,7 +45,7 @@ The PAM comes in pretty handy when you want to manage and find your assets easil
 
 ## The asset collection attribute
 
-To link your assets to your products, use the attribute called the asset collection attribute. This attribute allows you to manage several assets for a same product by using only one single attribute.
+To link your assets to your products, use the asset collection attribute. This attribute allows you to manage several assets for the same product by using only one single attribute.
 
 ![Zoom on the asset collection attribute](../img/zoom_asset_collection_attribute.png)
 
