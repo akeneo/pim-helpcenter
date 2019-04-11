@@ -41,7 +41,7 @@ There are 2 major benefits when you use the assets to manage the files linked to
 
 All the assets are centralized in the PIM in one library called the PAM, the Product Asset Manager. You can find this library under the `Assets` menu. For more information on how to use this feature, we encourage you to take a look at this [article](work-with-assets.html).
 
-The PAM comes pretty handy when you want to manage and find your assets easily, especially if several teams are working on assets: your technical department for your user manuals, your marketing department for your images,...
+The PAM comes in pretty handy when you want to manage and find your assets easily, especially if several teams are working on assets: your technical department for your user manuals, your marketing department for your images,...
 
 ## The asset collection attribute
 
