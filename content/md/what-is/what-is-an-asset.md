@@ -21,7 +21,7 @@ Thus, for each asset created, you may have several files attached to it.
 
 ![Asset](../img/Settings_What-is-an-asset.svg)
 
-An asset has a unique code which is mandatory and optional properties:
+An asset has a unique code which is mandatory, and optional properties:
 - One or more reference files,
 - One variation (or none) per channel,
 - A description,
