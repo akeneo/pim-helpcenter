@@ -29,7 +29,7 @@ An asset has a unique code which is mandatory and optional properties:
 - Some tags (to qualify the asset and find it quickly).
 
 To unleash the power of our Product Asset Manager (PAM), you will need to upload asset transformations for your channels (see our dedicated : [About the asset transformations](assets-transformation.html) so the PIM generates variations based on the reference file.  
-Let's say you upload a HD image as a reference file, you can decide to reduce its resolution and/or size for your e-commerce channel, and do the same for the mobile channel. This is what asset transformation are used for.
+Let's say you upload an HD image as a reference file, you can decide to reduce its resolution and/or size for your e-commerce channel, and do the same for the mobile channel. This is what asset transformation is used for.
 
 # Why should I use assets?
 
