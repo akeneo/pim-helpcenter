@@ -25,7 +25,7 @@ An asset has a unique code which is mandatory, and optional properties:
 - One or more reference files,
 - One variation (or none) per channel,
 - A description,
-- An end date of use,
+- An end of use date,
 - Some tags (to qualify the asset and find it quickly).
 
 To unleash the power of our Product Asset Manager (PAM), you will need to upload asset transformations for your channels (see our dedicated : [About the asset transformations](assets-transformation.html) so the PIM generates variations based on the reference file.  
