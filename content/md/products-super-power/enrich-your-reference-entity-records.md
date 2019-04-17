@@ -43,12 +43,12 @@ The records grid is quite different than the products' one. Thereafter are the s
 - Finally, the grid can display up to 500 results using an **infinite scroll**. If you have more results, please filter your search. When reaching this limit, the grid displays the message *"You just scrolled through the first 500 results out of 1450 records. To see more, try with more specific search criteria."*
 
 ::: info
-In the records grid, you will see only certain types of attributes: code, text and image.
+In the records grid in 3.0, you will see only certain types of attributes: code, text and image.  
 _Since 3.1_, the values of the attributes types single/multiple options and reference entity single/multiple links are also displayed in the records grid.
 :::
 
 ::: info
-The order of the columns in the records grid is "Image, Label, Code, Completeness", the other attributes are then ordered according to their order of creation in the "Attributes" tab.
+The order of the columns in the records grid is "Image, Label, Code, Complete", the other attributes are then ordered according to their order of creation in the "Attributes" tab.
 :::
 
 Of course, you can still edit or delete a record thanks to the buttons at the end of each line.
@@ -80,11 +80,13 @@ To know how to define the required attributes for the completeness, please take 
 
 ## Filter on options and reference entity links (_since 3.1_)
 
-_Since 3.1_ we added the ability to filter on attributes types single/multiple options or reference entity single/multiple links in the records grid. It allows an exact search to find the records with a specific value (option value or link to a record).
+_Since 3.1_, we added the ability to filter on attributes types single/multiple options or reference entity single/multiple links in the records grid. It allows an exact search to find the records with a specific value (option value or link to a record).
 
 For examples:
 - If a "Brand" reference entity has a "Designers" attribute linked to a "Designer" reference entity, you can search for all brands with the designer "Ron Arad".
 - If a "Brand" reference entity has a "Country" attribute with a list of options, you can search for brands with the country "Italy".
+
+![Records grid](../img/Records_filter_options.png)
 
 The operator is an "in list" operator. If you are looking for the brand with the designer "Philippe Starck" OR "Ron Arad", the brands with the designer "Philippe Starck" OR the designer "Ron Arad" will be displayed.
 
