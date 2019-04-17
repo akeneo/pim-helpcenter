@@ -40,7 +40,7 @@ rules:
     camera_set_canon_brand:
         priority: 0
         conditions:
-            -   field: family.code
+            -   field: family
                 operator: IN
                 value:
                     - camcorders
