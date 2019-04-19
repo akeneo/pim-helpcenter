@@ -43,7 +43,7 @@ The records grid is quite different than the products' one. Thereafter are the s
 - Finally, the grid can display up to 500 results using an **infinite scroll**. If you have more results, please filter your search. When reaching this limit, the grid displays the message *"You just scrolled through the first 500 results out of 1450 records. To see more, try with more specific search criteria."*
 
 ::: info
-In the records grid in 3.0, you will see only certain types of attributes: code, text and image.  
+In the 3.0 version records grid, only the following types of attributes can be displayed in the grid: code, text and image.  
 _Since the 3.1 version_, the values of the attributes types single/multiple options and reference entity single/multiple links can also be displayed in the records grid.
 :::
 
