@@ -44,7 +44,7 @@ The records grid is quite different than the products' one. Thereafter are the s
 
 ::: info
 In the records grid in 3.0, you will see only certain types of attributes: code, text and image.  
-_Since 3.1_, the values of the attributes types single/multiple options and reference entity single/multiple links are also displayed in the records grid.
+_Since the 3.1 version_, the values of the attributes types single/multiple options and reference entity single/multiple links can also be displayed in the records grid.
 :::
 
 ::: info
