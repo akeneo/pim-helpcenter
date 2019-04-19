@@ -40,7 +40,7 @@ The records grid is quite different than the products' one. Thereafter are the s
 - The line with the attributes names is frozen: it allows you to scroll down the page, while **continuing to see the name of the attributes**
 - The first 4 columns with image, label, code and completeness are also frozen. We added an **horizontal scroll** in order to see the content of all the columns
 - We also added a tooltip to **preview the content** of a text attribute directly in the grid when you hover over the text
-- Finally, the grid can display up to 500 results using an **infinite scroll**. If you have more results, please filter your search. When reaching this limit, the grid displays the message *"You just scrolled through the first 500 results out of 1450 records. To see more, try with more specific search criteria."*
+- Finally, the grid comes with an **infinite scroll** that allows you to display up to 500 results. If you reach this limit, the grid will show the following message *"You just scrolled through the first 500 results out of 1450 records. To see more, try with more specific search criteria."*
 
 ::: info
 In the 3.0 version records grid, only the following types of attributes can be displayed in the grid: code, text and image.  
