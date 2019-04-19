@@ -82,7 +82,7 @@ To know how to define the required attributes for the completeness, please take 
 
 _Since the 3.1 version_, we added the possibility to filter on single/multiple options or reference entity single/multiple links attributes types in the records grid. This filter allows an exact search on an reference entity option value or on a reference entity link. 
 
-For examples:
+For instance:
 - If a "Brand" reference entity has a "Designers" attribute linked to a "Designer" reference entity, you can search for all brands with the designer "Ron Arad".
 - If a "Brand" reference entity has a "Country" attribute with a list of options, you can search for brands with the country "Italy".
 
