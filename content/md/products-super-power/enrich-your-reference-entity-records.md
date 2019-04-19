@@ -88,7 +88,7 @@ For examples:
 
 ![Records grid](../img/Records_filter_options.png)
 
-The operator is an "in list" operator. If you are looking for the brand with the designer "Philippe Starck" OR "Ron Arad", the brands with the designer "Philippe Starck" OR the designer "Ron Arad" will be displayed.
+The operator is an `in list` operator. If you are looking for the brand with the designer "Philippe Starck" OR "Ron Arad", the brands with the designer "Philippe Starck" OR the designer "Ron Arad" will be displayed.
 
 You can combine the filters. For example, you can search for all brands with the country "Italy" AND the designer "Ron Arad".
 
