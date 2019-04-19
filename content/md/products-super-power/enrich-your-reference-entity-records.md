@@ -90,7 +90,7 @@ For examples:
 
 The operator is an `in list` operator. If you are looking for the brand with the designer "Philippe Starck" OR "Ron Arad", the brands with the designer "Philippe Starck" OR the designer "Ron Arad" will be displayed.
 
-You can combine the filters. For example, you can search for all brands with the country "Italy" AND the designer "Ron Arad".
+You can combine filters. For instance, you can search on all brands with the country "Italy" AND the designer "Ron Arad".
 
 A record or an option can be removed from a filter using the cross.
 
