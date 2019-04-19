@@ -48,7 +48,7 @@ _Since the 3.1 version_, the values of the attributes types single/multiple opti
 :::
 
 ::: info
-The order of the columns in the records grid is "Image, Label, Code, Complete", the other attributes are then ordered according to their order of creation in the "Attributes" tab.
+The columns' order in the records grid is frozen, it cannot be changed. By default, the grid's column order is `Image`, `Label`, `Code`, `Complete`. If you add other attributes, under the `Attributes` tab, the grid will display them according to their order of creation.
 :::
 
 Of course, you can still edit or delete a record thanks to the buttons at the end of each line.
