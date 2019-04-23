@@ -259,7 +259,7 @@ The product model and all its children (product models and variant products) are
 :::
 
 :::info
-It's not possible to mass delete product models from the product grid, because the delete of a product model could delete in cascade lots of children product models and variant products.
+Since the 2.2, you can also mass delete product models. **If you delete product models, all their children (product models and variant products) are also deleted.**
 :::
 
 ## From the product form
