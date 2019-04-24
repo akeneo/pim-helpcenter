@@ -40,10 +40,15 @@ The records grid is quite different than the products' one. Thereafter are the s
 - The line with the attributes names is frozen: it allows you to scroll down the page, while **continuing to see the name of the attributes**
 - The first 4 columns with image, label, code and completeness are also frozen. We added an **horizontal scroll** in order to see the content of all the columns
 - We also added a tooltip to **preview the content** of a text attribute directly in the grid when you hover over the text
-- Finally, the grid can display up to 500 results using an **infinite scroll**. If you have more results, please filter your search. When reaching this limit, the grid displays the message *"You just scrolled through the first 500 results out of 1450 records. To see more, try with more specific search criteria."*
+- Finally, the grid comes with an **infinite scroll** that allows you to display up to 500 results. If you reach this limit, the grid will show the following message *"You just scrolled through the first 500 results out of 1450 records. To see more, try with more specific search criteria."*
 
 ::: info
-In the records grid, you will see only certain types of attributes: code, text and image.
+In the 3.0 version records grid, only the following types of attributes can be displayed in the grid: code, text and image.  
+_Since the 3.1 version_, the values of the attributes types single/multiple options and reference entity single/multiple links can also be displayed in the records grid.
+:::
+
+::: info
+The columns' order in the records grid is frozen, it cannot be changed. By default, the grid's column order is `Image`, `Label`, `Code`, `Complete`. If you add other attributes, under the `Attributes` tab, the grid will display them according to their order of creation.
 :::
 
 Of course, you can still edit or delete a record thanks to the buttons at the end of each line.
@@ -72,6 +77,23 @@ You can also filter on completeness in order to see the records that are complet
 ::: tips
 To know how to define the required attributes for the completeness, please take a look at this [article](/articles/manage-reference-entities.html)
 :::
+
+## Filter on options and reference entity links (_since 3.1_)
+
+_Since the 3.1 version_, we added the possibility to filter on single/multiple options or reference entity single/multiple links attributes types in the records grid. This filter allows an exact search on an reference entity option value or on a reference entity link. 
+
+For instance:
+- If a "Brand" reference entity has a "Designers" attribute linked to a "Designer" reference entity, you can search for all brands with the designer "Ron Arad".
+- If a "Brand" reference entity has a "Country" attribute with a list of options, you can search for brands with the country "Italy".
+
+![Records grid](../img/Records_filter_options.png)
+
+The operator is an `in list` operator. If you are looking for the brand with the designer "Philippe Starck" OR "Ron Arad", the brands with the designer "Philippe Starck" OR the designer "Ron Arad" will be displayed.
+
+You can combine filters. For instance, you can search on all brands with the country "Italy" AND the designer "Ron Arad".
+
+A record or an option can be removed from a filter using the cross.
+
 
 # Edit a record
 
