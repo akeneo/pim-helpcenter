@@ -259,7 +259,7 @@ The product model and all its children (product models and variant products) are
 :::
 
 :::info
-Since the 2.2, you can also mass delete product models. **If you delete product models, all their children (product models and variant products) are also deleted.**
+You can also mass delete product models. **If you delete product models, all their children (sub product models if any and their variant products) will also be deleted.**
 :::
 
 ## From the product form
