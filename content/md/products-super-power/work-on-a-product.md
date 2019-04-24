@@ -176,6 +176,10 @@ It's very simple:
 
 ![selector](../img/Products_EntitySelector.png)
 
+_Since the 3.1 version_, we added the completeness of a record in the selector.
+
+![selector](../img/Products_EntitySelectorCompleteness.png)
+
 ::: tips
 You can open the record directly from the list: just click on the `Link` icon at the end of each record line and the record will open in a new tab.
 :::

@@ -80,7 +80,7 @@ To know how to define the required attributes for the completeness, please take 
 
 ## Filter on options and reference entity links (_since 3.1_)
 
-_Since the 3.1 version_, we added the possibility to filter on single/multiple options or reference entity single/multiple links attributes types in the records grid. This filter allows an exact search on an reference entity option value or on a reference entity link. 
+_Since the 3.1 version_, we added the possibility to filter on single/multiple options or reference entity single/multiple links attributes types in the records grid. This filter allows an exact search on an reference entity option value or on a reference entity link.
 
 For instance:
 - If a "Brand" reference entity has a "Designers" attribute linked to a "Designer" reference entity, you can search for all brands with the designer "Ron Arad".
@@ -93,6 +93,8 @@ The operator is an `in list` operator. If you are looking for the brand with the
 You can combine filters. For instance, you can search on all brands with the country "Italy" AND the designer "Ron Arad".
 
 A record or an option can be removed from a filter using the cross.
+
+To empty a filter, you can click on the eraser.
 
 
 # Edit a record
@@ -127,11 +129,15 @@ It is also possible to link a record to another one, and it is very simple.
 
 For example, you can link a *Designer* (let's say *"Philippe Starck"*) to the record *"Kartell"*, or to several records brands belonging to the *"Brands"* entity.  
 
-![Records link entity](../img/Records_link_entity_2.png)
-
 Please refer to this [article](/articles/manage-reference-entities.html#add-an-attribute) to discover how to do so.
 
 Once you have chosen which entity is linked, you can see a new selector with all the records of the linked entity.
+
+![Records link entity](../img/Records_link_entity_2.png)
+
+_Since the 3.1 version_, we added the completeness of a record in the selector.
+
+![Records link entity](../img/Records_completeness.png)
 
 ::: tips
 Click on the `link` icon on each record line in the selector to preview the record! It will automatically open a new tab in your browser.
