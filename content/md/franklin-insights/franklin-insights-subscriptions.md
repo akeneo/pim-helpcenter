@@ -14,7 +14,7 @@ When you subscribe a product to Franklin, Franklin **collects and validates info
 
 # How to subscribe products
 
-You have 2 ways to subscribe products to Franklin:
+You have 2 ways to subscribe products to Franklin.
 
 ## Via the Product Edit Form
 
