@@ -20,7 +20,7 @@ You have 2 ways to subscribe products to Franklin:
 
 ![image](../img/Akeneo_Screenshot_Franklin_Insights_PEF_Subscription.png)
 
-## Via **bulk action**
+## Via bulk action
 
 ![image](../img/Akeneo_Screenshot_Franklin_Insights_Bulk_Actions.png)
 
