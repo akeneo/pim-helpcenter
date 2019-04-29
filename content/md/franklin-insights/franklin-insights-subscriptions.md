@@ -28,7 +28,7 @@ In order for you to receive attribute values proposals for subscribed and enrich
 
 # Filter on subscribed products in the product grid (_since 3.1_)
 
-In order to easily find the subscribed or unsubscribed products, we added a filter `Franklin subscription` in the product grid. Thus, you can easily display the products in the grid and [bulk subscribe or unsubscribe] them.
+In order to easily find the subscribed or unsubscribed products, we added a filter `Franklin subscription` in the product grid. Thus, you can easily display the products in the grid and [bulk subscribe or unsubscribe](franklin-insights-subscriptions.html#via-bulk-action) them.
 
 The available choices for this new filter are:
 - `All`: products will be displayed in the product grid regardless of their subscription status
