@@ -51,6 +51,10 @@ Once you successfully map your catalog attributes and attribute options to Frank
 
 As Franklin needs a little time to make these calculations, the response may take some time. Hang tight, **data is coming**.
 
+::: info
+_Since the 3.1 version_, unmapped attributes are displayed first.
+:::
+
 # Impacts of catalog changes on Franklin
 
 As Franklin relies on your catalog attributes and options for mapping, deleting a used attribute or option (or removing it from a family) will result in its removal from the Franklin mapping information.
