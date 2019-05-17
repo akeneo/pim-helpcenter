@@ -19,9 +19,9 @@ Here are the attribute types available in Akeneo:
 - **identifier** attribute: a code to identify your product, this code must be unique. It can be a SKU, a MPN... This attribute is mandatory.
 - **text** attribute: a single-line text field that can contain **up to 255 characters**, it is usually used for a product name.
 - **text area** attribute: a multi-line text field that can be used for a product description.
-- **simple** attribute: a single-choice select field coming with custom options. Only one value can be selected amongst the available options. 
+- **simple select** attribute: a single-choice select field coming with custom options. Only one value can be selected amongst the available options. 
 - **multi select** attribute: a multi-choice select field coming with custom options. More than one value can be selected amongst the available options.
-- **boolean** attribute: a yes/no attribute
+- **yes/no** attribute: a boolean attribute
 - **date** attribute: a date field, the PIM will display a calendar to choose the date, which includes day, month and year.
 - **number** attribute: a single-line field that can only contain digits. 
 - **metric** attribute: a single-line field composed of a 1st field containing a number and a second field containing a metric unit. It allows you to automatically convert metric values into others to fit your export needs. You can check the [Manage your Channels](manage-your-channels.html#create-a-channel) article to have more information about this feature.
