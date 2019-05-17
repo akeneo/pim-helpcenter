@@ -20,15 +20,19 @@ To create an attribute in Akeneo PIM:
   ![image](../img/Settings_AttributesCTAButton.png)
 1. Select the attribute type you want:
   ![image](../img/Settings_Attributes_Create2.png)
-1. The attribute edit form is displayed, fill in the following properties:
-    - A **code** to identify the attribute
-    - An **attribute group**: the attribute group the attribute will belong to
-    - A **unique value** (Yes/No): if the value for this attribute is unique (field available or required depending on the attribute type)
-    - A **value per channel** (Yes/No): do you plan to have different product values per channel?
-    - A **value per locale** (Yes/No): do you plan to have different product values per locale?
-    - **Locale specific**: this attribute will only be available for some locales.
-    - **Usable in grid**: if you want to filter on this attribute in the product's grids or use it as a column.
-    - **Read only**: to prevent this attribute from being edited through the UI, it will only be updated through imports, API or rules _(Enterprise Edition only)_
+1. The attribute edit form is displayed, fill in the following properties:  
+    Under `General Parameters`: 
+    - A **code** (required) to identify the attribute.
+    - A **type** based on the attribute type selected in the previous screen.
+    - An **attribute group** (required) in which the new attribute will be added to.
+    In addition to these required attributes, you can select the following properties:
+    - **Unique value** (Yes/No): enable this property if the value of this attribute must be unique. By default, it is set to yes for `Identifier` attribute type.
+    - **Value per channel** (Yes/No): enable this property if you plan to have different product values per channel.
+    - **Value per locale** (Yes/No): enable this property if you plan to have different product values per locale.
+    - **Read only** (Yes/No): to prevent this attribute from being edited through the UI, it will only be updated through imports, API or rules _(Enterprise Edition only)_
+    - **Usable in grid** (Yes/No): if you want to filter on this attribute in the product's grids or use it as a column.
+    - **Locale specific**: this attribute will only be available for some locales.      
+Under `Type Specific Parameters`, add validations to control your data: 
     - **Validation parameters**: each attribute comes with validation parameters (see [Add attributes validation parameters](#parameters-according-to-specific-attribute-types)).    
 1. Click on `Save` to create your attribute.
 
