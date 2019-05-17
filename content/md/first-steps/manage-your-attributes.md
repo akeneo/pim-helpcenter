@@ -9,137 +9,88 @@ related: what-is-an-attribute
 
 If you are not familiar with the concept of attributes, you can read our [What is an attribute?](what-is-an-attribute.html#mainContent) article.
 
-# See your attributes
+# How to create an attribute?
 
-Go to `Settings/Attributes`, to see all the existing attributes or create a new one.
+Akeneo proposes several types of attributes. Discover all attributes available on the article [Introduction to Akeneo attribute types](what-is-an-attribute.html#definition-of-an-attribute). Make sure you pick the **most appropriate attribute type to perfectly match your needs**.    
+For example, if you need to make sure that your PIM users will select one of a predefined option, select a simple select attribute type instead of a free text field. Create a `metric` attribute to fill in the weight/size/length... of your products.
 
-## Attribute grid pagination
-
-The attribute grid displays 25 attributes per page. To browse attributes pages, click on the page number you want to reach or use the filters.
-
-![image](../img/Settings_Attributes.png)    
-
-You can sort out attributes by clicking on the column header on the grid.
-
-## Search on an attribute label
-
-To quickly find an attribute, use the search bar available above the grid. Use your attributes label to find what you are looking for.
-
-![image](../img/Settings-UsetheSearchBar.gif)
-
-::: warning
-If your attribute does not have any label translated, it will not pop in the search results. **Make sure your attribute has its labels translated.**
-:::
-
-## Filter on attributes
-
-The attribute grid comes with a filter bar.
-
-![image](../img/Settings_AttributesFilters.png)
-
-1.  Enter your filter criteria
-1.  The grid is automatically updated when a new filter is set
-
-You can filter on the following attribute information:
-- The attribute type
-- The attribute group it belongs to
-- The `scopable` property (one value per channel)
-- The `localizable` property (one value per locale)
-- The `smart` property (Yes/No) if there is a rule defined on this attribute _(Enterprise Edition only)_
-
-::: info
-By default, attributes will be displayed in the catalog locale selected in the product grid. If an attribute code appears into brackets like *[color]*, it means it has not been translated into the current locale.
-:::
-
-## Shortcut actions on each attribute
-
-There is a set of actions available for each attribute. You can find on the right side of the grid. Buttons are visible when you hover your mouse over the line.
-
-![image](../img/Settings-AttributesGridHover.png)
-
-::: info
-The shortcut actions are only displayed if you have been granted the appropriate rights. Please refer to [Manage your user roles](build-your-user-roles.html) to learn more about roles.
-:::
-
-# Create an attribute
-
-Let's create an attribute! You will be able to select the **most appropriate attribute type to perfectly match your needs**.    
-For example, you can choose to create a text attribute (free text) or a drop down list (simple or multi select) with a selection of values, to make sure users will select one of the predefined options. Create a `metric` attribute to fill in the weight/size/length... of your products.
-
-To create an attribute in the PIM:
+To create an attribute in Akeneo PIM:
 1. Go to `Settings/Attributes`
-1. Click on the `Create attribute` button
+1. Click on the `Create attribute` button:
   ![image](../img/Settings_AttributesCTAButton.png)
-1. Select the attribute type you want to create
+1. Select the attribute type you want:
   ![image](../img/Settings_Attributes_Create2.png)
-1. The attribute edit page is displayed. The following properties are required to finalise the creation of your attribute:
+1. The attribute edit form is displayed, fill in the following properties:
     - A **code** to identify the attribute
     - An **attribute group**: the attribute group the attribute will belong to
     - A **unique value** (Yes/No): if the value for this attribute is unique (field available or required depending on the attribute type)
-    - A **value per channel** (Yes/No): Will your product attribute values differ on the channels?
-    - A **value per locale** (Yes/No): Will your product attribute values differ on the locales?
-    - **Locale specific**: to enable this attribute only to specific locales and not all of them
-    - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid _(Community and Enterprise Edition)_ or in the proposal grid _(Enterprise Edition only)_
-    - **Read only**: when enabled it prevents this attribute from being edited through the UI, it can only be updated through imports, API or rules _(Enterprise Edition only)_
-    - **Validation parameters**: depending on the attribute type chosen (see [Validation for the different attribute types](#parameters-according-to-specific-attribute-types)).    
+    - A **value per channel** (Yes/No): do you plan to have different product values per channel?
+    - A **value per locale** (Yes/No): do you plan to have different product values per locale?
+    - **Locale specific**: this attribute will only be available for some locales.
+    - **Usable in grid**: if you want to filter on this attribute in the product's grids or use it as a column.
+    - **Read only**: to prevent this attribute from being edited through the UI, it will only be updated through imports, API or rules _(Enterprise Edition only)_
+    - **Validation parameters**: each attribute comes with validation parameters (see [Add attributes validation parameters](#parameters-according-to-specific-attribute-types)).    
 1. Click on `Save` to create your attribute.
 
-The attribute is now created, you **can add a translation for each enabled locales** under the `Label translations` tab. If you need to edit some other attribute's property, please refer to the section [Edit attribute properties](manage-your-attributes.html#edit-attribute-properties)
-
-::: tips
-**Simple** and **multi select** attribute types **do rarely need to be localisable** since all their options can be translated in any enabled locales in the PIM.
+:::warning
+**Some attribute properties cannot be edited afterwards, such as the `code`, the `unique value`, `value per channel` and `value per locale`** make sure they fit your needs!
 :::
 
 ::: warning
 Please note that the **following attribute codes cannot be used** in Akeneo PIM:    
-`id`, `identifier`, `Identifier`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `Family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `label`, `LABEL`, `Label`, `parent`.    
-We strongly recommend you not to use any of these codes even if the letter case is different, for instance `Id`, `Groups`.
+`id`, `identifier`, `Identifier`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `Family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `label`, `LABEL`, `Label`, `parent`. We strongly recommend you not to use any of these codes even if the letter case is different, for instance `Id`, `Groups`.
 :::
 
-::: warning
-If you cannot access the attribute page or if you cannot add a new attribute, it is probably because you do not have the role permission to. Please refer to [Manage your user roles](build-your-user-roles.html) to learn more about roles.
-:::
-
-## Parameters according to specific attribute types
+## Add attributes validation parameters
 
 Each attribute has specific properties to add more control on attribute's values:
-- **Date** attribute:
+- **Date attribute**:
   - *Min date*: the earliest date that can be accepted
   - *Max date*: the latest date that can be accepted
-- A short text field: **text** attribute:
+- **Text attribute**:
   - *Maximum number of characters*: maximum number of characters that an attribute value can have
   - *Validation rule*: how the value should be validated: such as an URL, as an Email, or using a regular expression
-- A long text field: **text area** attribute:
+- **Text area attribute**:
   - *Maximum number of characters*: maximum number of characters that an attribute value can have
   - *Enable WYSIWYG*: activates the WYSIWYG feature
-- **File** and **image** attributes:
+- **File attribute** and **image attribute**:
   - *Maximum size allowed in MB*
-  - *Allowed extensions files*: png, jpg, pdf, doc, etc ...
-- **Metric** attribute:
+  - *Allowed extensions files*
+- **Metric attribute** :
   - *Allow negative values* for the attribute
   - *Allow decimal values* for this attribute
   - *Minimum value*: the smallest value allowed
   - *Maximum value*: the largest value allowed
   - *Metric family*: family measurement unit to be used for the attribute (weight, dimensions, area, etc. )
   - The *default unit of measurement*
-- **Price** attribute:
+- **Price attribute**:
   - *Allow decimals* for the attribute values
   - *minimum value*: the smallest allowed value
   - *maximum value*: the largest allowed value
-- **Number** attribute:
+- **Number attribute**:
   - *Allow negative values* for the attribute
   - *Allow decimals*
   - *Minimum value*: the smallest allowed value
   - *Maximum value*: the largest allowed value
-- **Reference entity single link & multiple links** attributes _(EE only)_:
+- **Reference entity single link attribute** & **reference entity multiple links attribute**_(EE only)_:
   - *Related reference entity*: the reference entity linked to this attribute
-
-For instance, you can add a regular expression on a text field to use it for EAN codes. As they contain 13 digits, we can add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
+- **Reference data simple select attribute** & **reference data multi select **:
+  - *Reference data type*: choose an existing reference data to link to your attribute.
+  
+For the text attribute type, you can add a regular expression to validate the content of the input. For instance, to control the right format of a EAN13 code, add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 
 ![Validation parameters](../img/Settings_EAN.png)
 
 ::: info
 The **simple** and **multi select** attribute types, as well as **Yes/No** (boolean) attribute have no specific validation properties.
+:::
+
+## Translate your attribute labels
+
+Once your attribute is created, translate it! you can add a **translation for each enabled locales** under the `Label translations` tab. If you need to edit some other attribute's property, please refer to the section [Edit attribute properties](manage-your-attributes.html#edit-attribute-properties)
+
+::: tips
+**Simple** and **multi select** attribute types **rarely need to be localisable** since all their options can be translated in any enabled locales in the PIM.
 :::
 
 # Edit attribute properties
@@ -160,24 +111,68 @@ You can change the following properties of an attribute:
 - **Validation parameters** (see [Parameters according to specific attributes types](#parameters-according-to-specific-attribute-types))
 - **Options** (for simple or multi select attribute types only): these are predefined values that the user can select
 
+# Find your attributes
+
+Go to `Settings/Attributes`, to see all the existing attributes or create a new one.
+
+The attribute grid displays 25 attributes per page. To browse attributes pages, click on the page number you want to reach or use the filters.
+
+![image](../img/Settings_Attributes.png)    
+
+You can sort out attributes by clicking on the column header on the grid.
+
+## Search on the grid
+
+### On its label
+
+To quickly find an attribute, use the search bar available above the grid. Use your attributes label to find what you are looking for.
+
+![image](../img/Settings-UsetheSearchBar.gif)
+
 ::: warning
-After an attribute is created, it is not possible to change the following properties:
-- its **code**
-- its **type**
-- the **unique value** property
-- the **value per channel** property
-- the **value per locale** property
+If your attribute does not have any label translated, it will not pop in the search results. **Make sure your attribute has its labels translated.**
 :::
 
-# Manage attribute options
+### Using the filters
+
+Other filters are available on the right side of the screen, you can search attributes based on their code, type...
+
+![image](../img/Settings_AttributesFilters.png)
+
+1.  Enter your filter criteria
+1.  The grid is automatically updated when a new filter is set
+
+You can filter on the following attribute information:
+- The attribute code
+- The attribute type
+- The attribute group it belongs to
+- The `scopable` property (one value per channel)
+- The `localizable` property (one value per locale)
+- The `smart` property (Yes/No) if there is a rule impacting this attribute _(Enterprise Edition only)_
+
+::: info
+By default, attributes will be displayed in the catalog locale selected in the product grid. If an attribute code appears into brackets like *[color]*, it means it has not been translated into the current locale.
+:::
+
+## Shortcut actions on each attribute
+
+There is a set of actions available for each attribute. You can find on the right side of the grid. Buttons are visible when you hover your mouse over the line.
+
+![image](../img/Settings-AttributesGridHover.png)
+
+::: info
+The shortcut actions are only displayed if you have been granted the appropriate rights. Please refer to [Manage your user roles](build-your-user-roles.html) to learn more about roles.
+:::
+
+# Manage simple and multi selects attribute options
 
 You can define option values for simple and multi select attribute types. Options can be added, edited, sorted or deleted.
 
 ![image](../img/Settings_Attributes_Options.png)
 
-## See attribute options
+## Find the attribute options
 
-To see your attribute options, remove an option or add a new one:
+To manage your simple and multi selects attribute options, remove an option or add a new one:
 1. Go to `Settings/Attributes`
 1. Select the attribute to edit, then click on the relevant row in the attribute datagrid
 1. Click on the `Options` tab
@@ -204,13 +199,6 @@ You cannot use the main `Save` button to record your new options.
 
 ![image](../img/Settings_Attributes_OptionsEdit.png)
 
-## Sort out options
-
-Options can be **automatically sorted by alphabetical order** using the toggle button `Sort automatically options by alphabetical order` on the top of the attribute's options page.
-If you want to define your own sort, you **can drag and drop option rows to reorder options manually**.
-
-![image](../img/Settings_AttributesDraganddropOption.gif)
-
 ## Delete an option
 
 Click on the `Delete` button to remove an option
@@ -228,6 +216,13 @@ A deleted option can no longer be used as a value for the attribute of a product
 ::: ee
 An option that is used by a published product cannot be deleted. Unpublish the product to be able to delete the option.
 :::
+
+## Sort options
+
+Options can be **automatically sorted by alphabetical order** using the toggle button `Sort automatically options by alphabetical order` on the top of the attribute's options page.
+If you want to define your own sort, you **can drag and drop option rows to reorder options manually**.
+
+![image](../img/Settings_AttributesDraganddropOption.gif)
 
 # Manage rules on attributes _(EE only)_
 
@@ -292,5 +287,9 @@ Through the `Delete` shortcut in the grid:
 **The attribute and all its relevant information will be deleted in Akeneo PIM. Once you have confirmed the action, it cannot be reverted.**
 
 ::: ee
-An attribute used in a published product cannot be deleted.
+An attribute that is used for published product cannot be deleted.
+:::
+
+::: warning
+If you cannot access the attribute page or if you cannot add/delete an attribute, it is probably because you do not have the permission to. Please refer to [Manage your user roles](build-your-user-roles.html) to learn about roles.
 :::
