@@ -63,7 +63,7 @@ Even if a user is deleted, its actions generated in the PIM won't be erased.
 
 # Deal with the user permissions
 
-To know more about user permissions, there are four articles just for you depending on what your need are: 
+To know more about user permissions, there are five articles just for you depending on what your need are: 
 - [Manage the interface and action accesses](manage-the-interface-and-actions-accesses.html)
 - [Manage the web API permissions](manage-the-web-api-permissions.html)
 - [Set rights on your catalog](access-rights-on-products.html)
