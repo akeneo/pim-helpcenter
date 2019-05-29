@@ -7,7 +7,7 @@ ee-only: false
 related: what-is-an-attribute
 ---
 
-If you are not familiar with the concept of attributes, you can read our [What is an attribute?](what-is-an-attribute.html#mainContent) article.
+If you are not familiar with the concept of attributes, you can read the [What is an attribute?](what-is-an-attribute.html#mainContent) article.
 
 # How to create an attribute?
 
