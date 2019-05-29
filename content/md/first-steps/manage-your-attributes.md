@@ -291,7 +291,7 @@ Through the `Delete` shortcut in the grid:
 **The attribute and all its relevant information will be deleted in Akeneo PIM. Once you have confirmed the action, it cannot be reverted.**
 
 ::: ee
-An attribute that is used for published product cannot be deleted.
+An attribute that is used in a published product cannot be deleted. You first need to unpublish the product(s) and then delete the attribute.
 :::
 
 ::: warning
