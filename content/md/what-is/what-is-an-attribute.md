@@ -68,7 +68,7 @@ This tool can also be used to initialize reference entities data from an ERP/MDM
 
 ### I was using Reference data, can I still use them on 3.X version(s)?
 
-Yes! the Reference data are still available on the 3.X versions.
+Yes! Reference data are still available on the 3.X versions.
 
 ### How can I import/export Reference entities?
 
