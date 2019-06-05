@@ -68,7 +68,9 @@ To add an attribute, follow these steps:
 1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
 1.  Select the attribute type:
  ![image](../img/ReferenceEntity_AddAttribute_Type.png)
+    - **Image**: for images attributes
     - **Text**: for text or text area attributes
+    - **Number (_since the 3.2 version_)**: for number attributes
     - **Reference entity single link**: to link a record to only one entity record
     - **Reference entity multiple links**: to link a record to several entity records
     - **Single option**: to define a list of options with a single choice
@@ -104,6 +106,10 @@ To edit an attribute, follow these steps:
 1.  Depending on the attribute type, set the specific parameters of the attribute (see below the specific parameters)
 1.  Click on the `Save` button or press `Enter` to save the attribute parameters
 
+### Edit an image attribute
+  - *Max file size (MB):* maximum file size allowed in MB
+  - *Allowed extensions*: allowed extensions files (gif, jpeg, jpg, pdf, png...)
+
 ### Edit a text attribute
  - *Maximum number of characters*: maximum number of characters that an attribute value can have
  - *Text area*: long text
@@ -114,9 +120,15 @@ If `Text area`:
 If not `Text area`:
  - *Validation rule*: defines how the value should be validated (such as an URL, an email, or using a regular expression)
 
-### Edit an image attribute
-  - *Max file size (MB):* maximum file size allowed in MB
-  - *Allowed extensions*: allowed extensions files (gif, jpeg, jpg, pdf, png...)
+### Edit a number attribute (_since the 3.2 version_)
+   - *Decimal values allowed:* allows decimal values for this attribute
+   - *Min value*: the smallest value allowed
+   - *Max value*: the largest value allowed
+
+:::tips
+To allow only positive values, define a `min value` equals to 0.  
+To allow only negative values, define a `max value` equals to 0.
+:::   
 
 ### Edit a single/multiple options attribute  
   - The `Manage options` button enables to [manage the options of the list](/articles/manage-reference-entities.html#manage-the-options)
