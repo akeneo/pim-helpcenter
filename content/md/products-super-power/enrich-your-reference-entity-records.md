@@ -112,22 +112,33 @@ In fact, the Rich text editor offers a large bunch of possibilities!
 ![Records text area](../img/Records_text_area.png)
 
 # Display the products linked to a record (_since 3.2_)
-_Since the 3.2 version_, you can display the 1st products linked to a record in a new tab `Products`.
+_Since the 3.2 version_, you can view directly from a reference entity record the 1st products linked to a record in a new `Products` tab.
 
-To display the products linked to a record `Kartell`:
+To display the 1st products linked to a `Kartell` record:
 1. Go to the `Kartell` record
 1. Then click on the `Products` tab
-1. If you have several product attribute linked to the `Brand` reference entity, you can switch the product attribute in the `Product attribute list`.
+1. To open a product, just click on it and it will open the product form in a new tab.
+1. If several product attribute are linked to the `Brand` reference entity, you can switch the product attribute in the `Product attribute` list.
 
-If no product is displayed in this `Products` tab, there could be 2 explanations:
-1. If you have the following message _"There is no product attribute linked to the reference entity "Brand""_, it means that this `Brand` reference entity is not linked to a product attribute, you have to first [create a new product attribute](articles/manage-your-attributes.html#create-an-attribute) linked to this `Brand` reference entity. To do this, just click on the `Create a new product attribute` link. And then link products to the `Kartell` record.
-1. If you have the following message _"There are no products linked for the product attribute "Brand_entity""_, it means that you have already defined a product attribute linked to the `Brand` reference entity but no product is linked to this record. You have to link some products to the `Kartell` record.
+![Records link entity](../img/Records_display_products.png)
 
-Only the 20 1st products are displayed in the `Products` tab. 
-If you want to view all the products linked to the record, you can click on the `View all products` button, the product grid will be opened filtered on the product attribute linked for the `Kartell` record.
+In this `Products` tab, only the 20 1st products linked to a record (for the selected product attribute) are displayed. The total number of products linked is displayed: `XX results`.
+
+If more than 20 products are linked to the record, a message is displayed after the last products:
+
+![Records link entity](../img/Records_display_all.png)
+
+If you want to display all the products linked to a record, you just have to click on the `View all products` button, it will open the product grid with a filter on the product attribute linked and the `Kartell` value. 
+Then, in the product grid, you can search and launch enrichment actions on these products.
 
 ::: info
-If you have more than 20 products linked to this record and no button `View all products`, [edit the product attribute](articles/manage-your-attributes.html#edit-attribute-properties) and set it as `usable in grid`.
+If no products are displayed in the `Products` tab, there can be 2 explanations:
+1. Your reference entity is not linked to a product attribute, you have to [create a new product attribute](articles/manage-your-attributes.html#create-an-attribute) linked to the reference entity.
+1. No products are linked to the record for the product attribute selected, you have to link products to the record.
+:::
+
+::: info
+If the `View all products` button is not displayed, [check that the product attribute](articles/manage-your-attributes.html#edit-attribute-properties) is set as `usable in grid`.
 :::
 
 # Follow the records completeness
