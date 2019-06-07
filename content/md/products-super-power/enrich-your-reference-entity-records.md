@@ -112,7 +112,7 @@ In fact, the Rich text editor offers a large bunch of possibilities!
 ![Records text area](../img/Records_text_area.png)
 
 # Display the products linked to a record (_since 3.2_)
-_Since the 3.2 version_, you can view directly from a reference entity record the 1st products linked to a record in a new `Products` tab.
+_Since the 3.2 version_, you can view directly from a reference entity record the first products linked to a record in a new `Products` tab.
 
 To display the 1st products linked to a `Kartell` record:
 1. Go to the `Kartell` record
@@ -122,13 +122,13 @@ To display the 1st products linked to a `Kartell` record:
 
 ![Records link entity](../img/Records_display_products.png)
 
-In this `Products` tab, only the 20 1st products linked to a record (for the selected product attribute) are displayed. The total number of products linked is displayed: `XX results`.
+In this `Products` tab, only the 20 first products linked to a record (for the selected product attribute) are displayed. The total number of products linked is displayed ("xx results").
 
 If more than 20 products are linked to the record, a message is displayed after the last products:
 
 ![Records link entity](../img/Records_display_all.png)
 
-If you want to display all the products linked to a record, you just have to click on the `View all products` button, it will open the product grid with a filter on the product attribute linked and the `Kartell` value. 
+If you want to display all the products linked to a record, you just have to click on the `View all products` button, it will open the product grid with a filter on the product attribute linked and the `Kartell` value.
 Then, in the product grid, you can search and launch enrichment actions on these products.
 
 ::: info
