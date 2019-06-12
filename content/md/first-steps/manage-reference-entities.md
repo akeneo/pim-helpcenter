@@ -121,7 +121,7 @@ If not `Text area`:
  - *Validation rule*: defines how the value should be validated (such as an URL, an email, or using a regular expression)
 
 ### Edit a number attribute (_since the 3.2 version_)
-   - *Decimal values allowed:* allows decimal values for this attribute
+   - *Decimal values allowed*: allows decimal values for this attribute
    - *Min value*: the smallest value allowed
    - *Max value*: the largest value allowed
 
