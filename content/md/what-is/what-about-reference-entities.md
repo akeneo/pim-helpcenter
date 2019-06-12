@@ -15,7 +15,7 @@ In order to present you quickly this attribute type, let's take an example of a 
 As you can see above are **many types of product information** visible on this page: text, images... 
 
 Some information are **shared between different products** (such as care instructions, or colors or even brands). This **data can be complex to manage because it has its own attributes** (e.g. a label, a logo, a description or photos).  
-Those information may have dedicated pages on one's e-commerce website (e.g. a webpage describing a brand) or their information may be used to enrich other product pages (e.g. the logo of a brand).
+Those information may have dedicated pages on one's e-commerce website (e.g. a webpage describing a brand) or their information may be used to enrich product pages (e.g. the logo of a brand).
 
 # A bit of vocabulary
 
