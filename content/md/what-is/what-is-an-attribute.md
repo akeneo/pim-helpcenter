@@ -11,31 +11,31 @@ An attribute is a product’s characteristic. A product is usually composed of s
 
 In Akeneo, attributes are gathered into **families**, so all products belonging to the same family share the same attributes. If you are not familiar with the concept of families, check our [What is family?](what-is-a-family.html) article.
 
-You can easily create attribute groups to gather your attributes and better manage them. Read the following article to get more information about attribute groups: [What is an attribute group?](what-is-an-attribute-group.html).
+You can easily create attribute groups to gather your attributes and ease their enrichment in the product form. Read the following article to get more information about attribute groups: [What is an attribute group?](what-is-an-attribute-group.html).
 
 # Akeneo attribute types
 
 Here are the attribute types available in Akeneo:
-- **identifier** attribute: a code to identify your product, this code must be unique. It can be a SKU, a MPN... **This attribute is mandatory to create products.**
-- **text** attribute: a single-line text field that can contain **up to 255 characters**, it is usually used for a product name.
-- **text area** attribute: a multi-line text field that can be used for a product description.
-- **simple select** attribute: a single-choice select field coming with custom options. Only one value can be selected amongst the available options. 
-- **multi select** attribute: a multi-choice select field coming with custom options. More than one value can be selected amongst the available options.
-- **yes/no** attribute: a boolean attribute
-- **date** attribute: a date field, the PIM will display a calendar to choose the date, which includes day, month and year.
-- **number** attribute: a single-line field that can only contain digits. 
-- **metric** attribute: a single-line field composed of a 1st field containing a number and a second field containing a metric unit. It allows you to automatically convert metric values into others to fit your export needs. You can check the [Manage your Channels](manage-your-channels.html#create-a-channel) article to have more information about this feature.
-- **price** attribute: a price attribute, displayed values will depend on the currencies enabled in the PIM. Learn [here](manage-your-currencies.html#enabledisable-a-currency) how to enable or disable a currency in Akeneo PIM.
-- **image** attribute: a drag and drop down zone to upload an image (extensions allowed: gif, jfif, jif, jpeg, jpg, pdf, png, psd, tif, tiff)
+- **Identifier** attribute: a code to identify your product, **this code must be unique**. It can be a SKU, a MPN... **This attribute is mandatory to create products.**
+- **Text** attribute: a single-line text field that can contain **up to 255 characters**, it is usually used for a product name.
+- **Text area** attribute: a multi-line text field that can be used for a product description.
+- **Simple select** attribute: a single-choice list coming with custom options. Only one value can be selected amongst the available options. 
+- **Multi select** attribute: a multi-choice list coming with custom options. More than one value can be selected amongst the available options.
+- **Yes/No** attribute: a boolean attribute
+- **Date** attribute: a date field, the PIM will display a calendar to choose the date, which includes day, month and year.
+- **Number** attribute: a single-line field that can only contain digits. 
+- **Metric** attribute: a single-line field composed of a 1st field containing a number and a second field containing a metric unit. It allows you to automatically convert metric values into others to fit your export needs. You can check the [Manage your Channels](manage-your-channels.html#create-a-channel) article to have more information about this feature.
+- **Price** attribute: a price attribute with values per currency. The displayed values will depend on the currencies enabled in the PIM. Learn [here](manage-your-currencies.html#enabledisable-a-currency) how to enable or disable a currency in Akeneo PIM.
+- **Image** attribute: a drag and drop down zone to upload an image (extensions allowed: gif, jfif, jif, jpeg, jpg, pdf, png, psd, tif, tiff)
 - **file** attribute: a drag and drop down zone to upload a file (extensions allowed: csv, doc, docx, mp3, pdf)
-- **asset collection** attribute _(Entreprise Edition only)_: an advanced attribute type to manage several digital resources like a video, picture, pdf file... Read the following article [What is an asset?](what-is-an-asset.html) to learn more about this attribute type
-- **reference entity simple link** attribute _(Entreprise Edition only)_: allows enriching common data related to products with a rich content (text, images...), more complex than just a code and labels. 
-- **reference entity multiple links** attribute _(Entreprise Edition only)_: the same as above but allowing you to manage multiple links
-- **reference data simple select** attribute: allows you to manage any kind of data that has its own properties, as a single-choice select. 
-- **reference data multi select** attribute: allows you to manage any kind of data that has its own properties, as a multi-choice select. 
+- **Asset collection** attribute **_(Entreprise Edition only)_**: an advanced attribute type to manage several digital resources like a video, picture, pdf file... Read the following article [What is an asset?](what-is-an-asset.html) to learn more about this attribute type
+- **Reference entity simple link** attribute **_(Entreprise Edition only)_**: allows enriching common data related to products with a rich content (text, images...), more complex than just a code and labels. 
+- **Reference entity multiple links** attribute **_(Entreprise Edition only)_**: the same as above but allowing you to manage multiple links
+- **Reference data simple select** attribute: allows you to manage any kind of data that has its own properties, as a single-choice select. 
+- **Reference data multi select** attribute: allows you to manage any kind of data that has its own properties, as a multi-choice select. 
 
 :::warning
-You can have only one attribute `identifier`, but you can have several attributes from the other types. If you need more identifier fields, use a text field.
+You can have only one attribute `identifier`, but you can have several attributes from the other types. If you need more identifier fields, use a text field with a unique value parameter set to `Yes`.
 :::
 
 :::info
@@ -48,7 +48,7 @@ Options for simple and multi select attributes can be translated in any enabled 
 
 :::tips
 To store GTIN, EAN, UPC… in your PIM, use the **text** attribute type and use a regular expression to control the field input. 
-For instance, to store an EAN13 in Akeneo, you can easily add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
+For instance, to store an EAN13 in Akeneo which does always contain 13 digits, add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 :::
 
 ## Reference entities or reference data?
@@ -56,9 +56,9 @@ For instance, to store an EAN13 in Akeneo, you can easily add a validation rule 
 ### Differences between the two attribute types 
 
 **Reference entities are an Enterprise Edition feature added in the 3.0 version**. To learn more about Reference entities, read our dedicated article [What is a Reference Entity?](what-about-reference-entities.html).    
-Whereas reference data are a native Community and Enterprise editions feature which implies a custom development using the [Custom Entity Bundle](https://github.com/akeneo-labs/CustomEntityBundle) to create the entities.
+Whereas reference data are a native Community and Enterprise editions feature that manages links with products. They imply a custom development (installation of the [Custom Entity Bundle](https://github.com/akeneo-labs/CustomEntityBundle)) to enrich the reference data through the user interface, collect and distribute it.
 
-**If you are starting a new project from version 3.0, we strongly recommand you to use the [Reference entities](manage-reference-entities.html#create-a-reference-entity).**
+**If you are starting a new Enterprise Edition project from version 3.0, we strongly recommand you to use the [Reference entities](manage-reference-entities.html#create-a-reference-entity).**
 
 ### I was using Reference data, can I transform them into Reference entities?
 
@@ -85,7 +85,7 @@ You can mix and match attribute properties to achieve a powerful result.
 
 ## The `value per channel` property
 
-This property is also called *scopable*: **an attribute is *scopable* if its values differ for each channel.**
+This property should be enabled if the attribute's values differ for each channel.
 For instance, you might want to have:
 - a short description for your e-commerce website
 - a even shorter for your mobile app
@@ -95,8 +95,7 @@ In this case, when creating your attribute, enable the `value per channel` prope
 
 ## The `value per locale` property
 
-This property is also called *localisable*: **a localisable attribute can have different values per locale.** 
-This allows you to manage a product translations according to the activated PIM locales.  
+This property should be enabled if the attribute is meant to have different values per locale. This allows you to manage a product translations according to the activated PIM locales.  
 
 For instance, this feature will allow you to have one product name or a description for each locale activated in your PIM. It is mostly used for text or text area attributes.
 
