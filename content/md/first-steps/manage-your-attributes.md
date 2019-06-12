@@ -78,7 +78,7 @@ Each attribute has specific properties to add more control on attribute's values
   - *Maximum value*: the largest allowed value
 - **Reference entity single link attribute** & **reference entity multiple links attribute**_(EE only)_:
   - *Related reference entity*: the reference entity linked to this attribute
-- **Reference data simple select attribute** & **reference data multi select **:
+- **Reference data simple select attribute** & **reference data multi select**:
   - *Reference data type*: choose an existing reference data to link to your attribute.
   
 For the text attribute type, you can add a regular expression to validate the content of the input. For instance, to control the right format of a EAN13 code, add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
