@@ -19,7 +19,7 @@ Those information may have dedicated pages on one's e-commerce website (e.g. a w
 
 # A bit of vocabulary
 
-## Introduction to the reference entity
+## What is a reference entity?
 
 A **reference entity** allows you to create and enrich natively in the PIM those **common information** that are **shared and related to products**.   
 A reference entity has its **own attributes**, its **own life cycle** and can be linked to products or to another reference entity.  
