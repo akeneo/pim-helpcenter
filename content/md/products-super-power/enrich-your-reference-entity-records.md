@@ -112,33 +112,36 @@ In fact, the Rich text editor offers a large bunch of possibilities!
 ![Records text area](../img/Records_text_area.png)
 
 # Display the products linked to a record (_since 3.2_)
-_Since the 3.2 version_, you can view directly from a reference entity record the first products linked to a record in a new `Products` tab.
+_Since the 3.2 version_, you can view the first products linked to a record in a new `Products` tab directly from a reference entity record.
 
 To display the 1st products linked to a `Kartell` record:
 1. Go to the `Kartell` record
 1. Then click on the `Products` tab
-1. To open a product, just click on it and it will open the product form in a new tab.
-1. If several product attribute are linked to the `Brand` reference entity, you can switch the product attribute in the `Product attribute` list.
+1. To open a product, just click on it and the product form will open in a new tab.
 
 ![Records link entity](../img/Records_display_products.png)
 
-In this `Products` tab, only the 20 first products linked to a record (for the selected product attribute) are displayed. The total number of products linked is displayed ("xx results").
+In this `Products` tab, the 20 first products linked to a record (for the selected product attribute) are displayed as well as the total number of products linked ("xx results").
 
 If more than 20 products are linked to the record, a message is displayed after the last products:
 
 ![Records link entity](../img/Records_display_all.png)
 
 If you want to display all the products linked to a record, you just have to click on the `View all products` button, it will open the product grid with a filter on the product attribute linked and the `Kartell` value.
-Then, in the product grid, you can search and launch enrichment actions on these products.
+Then, from the product grid, you can search and launch enrichment actions on these products.
 
-::: info
-If no products are displayed in the `Products` tab, there can be 2 explanations:
-1. Your reference entity is not linked to a product attribute, you have to [create a new product attribute](articles/manage-your-attributes.html#create-an-attribute) linked to the reference entity.
-1. No products are linked to the record for the product attribute selected, you have to link products to the record.
+:::info
+If several product attributes are linked to the `Brand` reference entity, you can change the `Product attribute` filter.
 :::
 
 ::: info
-If the `View all products` button is not displayed, [check that the product attribute](articles/manage-your-attributes.html#edit-attribute-properties) is set as `usable in grid`.
+If no products are displayed in the `Products` tab, there can be 2 explanations:
+1. Your reference entity is not linked to a product attribute, you first have to [create a new product attribute](/articles/manage-your-attributes.html#create-an-attribute) linked to the reference entity.
+1. The selected product attribute doesn't have any product linked to the record. You first have to link products to the record.
+:::
+
+::: info
+If the `View all products` button is not displayed, [check that the product attribute](/articles/manage-your-attributes.html#edit-attribute-properties) is set as `usable in grid`.
 :::
 
 # Follow the records completeness
