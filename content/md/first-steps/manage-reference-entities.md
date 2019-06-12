@@ -126,7 +126,7 @@ If not `Text area`:
    - *Max value*: the largest value allowed
 
 :::tips
-To allow only positive values, define a `min value` equals to 0.  
+To only allow positive values, define a `min value` equals to 0.  
 To allow only negative values, define a `max value` equals to 0.
 :::   
 
