@@ -108,7 +108,7 @@ To edit an attribute, follow these steps:
 
 ### Edit an image attribute
   - *Max file size (MB)*: maximum file size allowed in MB
-  - *Allowed extensions*: allowed extensions files (gif, jpeg, jpg, pdf, png...)
+  - *Allowed extensions*: allowed files extensions (gif, jpeg, jpg, pdf, png...)
 
 ### Edit a text attribute
  - *Maximum number of characters*: maximum number of characters that an attribute value can have
