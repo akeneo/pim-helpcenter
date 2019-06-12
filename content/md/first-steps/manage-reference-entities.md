@@ -127,7 +127,7 @@ If not `Text area`:
 
 :::tips
 To only allow positive values, define a `min value` equals to 0.  
-To allow only negative values, define a `max value` equals to 0.
+To only allow negative values, define a `max value` equals to 0.
 :::   
 
 ### Edit a single/multiple options attribute  
