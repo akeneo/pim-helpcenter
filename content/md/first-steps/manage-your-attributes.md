@@ -91,7 +91,7 @@ The **simple** and **multi select** attribute types, as well as **Yes/No** (bool
 
 ## Translate your attribute labels
 
-Once your attribute is created, translate it! you can add a **translation for each enabled locales** under the `Label translations` tab. If you need to edit some other attribute's property, please refer to the section [Edit attribute properties](manage-your-attributes.html#edit-attribute-properties)
+Once your attribute is created, translate it! You can add a **translation for each enabled locales** under the `Label translations` tab. If you need to edit some other attribute's property, please refer to the section [Edit attribute properties](manage-your-attributes.html#edit-attribute-properties).
 
 ::: tips
 **Simple** and **multi select** attribute types **rarely need to be localisable** since all their options can be translated in any enabled locales in the PIM.
