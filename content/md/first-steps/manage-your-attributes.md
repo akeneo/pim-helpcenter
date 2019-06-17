@@ -76,7 +76,7 @@ Each attribute has specific properties to add more control on attribute's values
   - *Allow decimals*
   - *Minimum value*: the smallest allowed value
   - *Maximum value*: the largest allowed value
-- **Reference entity single link attribute** & **reference entity multiple links attribute**_(EE only)_:
+- **Reference entity single link attribute** & **reference entity multiple links attribute _(Enterprise Edition only)_**:
   - *Related reference entity*: the reference entity linked to this attribute
 - **Reference data simple select attribute** & **reference data multi select**:
   - *Reference data type*: choose an existing reference data to link to your attribute.
