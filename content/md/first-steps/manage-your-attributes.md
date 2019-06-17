@@ -223,7 +223,7 @@ An option that is used by a published product cannot be deleted. Unpublish the p
 
 ## Sort options
 
-Options can be **automatically sorted by alphabetical order** using the toggle button `Sort automatically options by alphabetical order` on the top of the attribute's options page.
+Options can be **automatically sorted by alphabetical order** using the toggle button `Sort automatically options by alphabetical order` on the top of the attribute's options page.  
 If you want to define your own sort, you **can drag and drop option rows to reorder options manually**.
 
 ![image](../img/Settings_AttributesDraganddropOption.gif)
