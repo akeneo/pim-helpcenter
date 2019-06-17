@@ -1,24 +1,25 @@
 ---
 id: what-about-reference-entities
 themes: first-steps, manage-your-reference-entities
-title: What about **reference entities**?
+title: What is a **reference entity**?
 popular: true
 ee-only: true
 related: manage-reference-entities, enrich-your-reference-entity-records
 ---
 
-# What's the use case?
+# Introduction to reference entities
 
-Let's take an example of a product page.  
+In order to present you quickly the reference entities, let's take an example of a product page.  
 ![Reference entity use case](../img/what-about-reference-entities.png)
 
-There are many types of product information such as text, images...  
-Some information are shared between different products (such as the definition of care instructions, colors or brands).  
-This shared information can be complex with their own attributes (e.g. a label, a logo, a description or photos for the brand).  
-They may have dedicated pages on the e-commerce website (e.g. dedicated pages for each brand) or their information may enrich each product page (e.g. logo of the brand).
+As you can see above are **many types of product information** visible on this page: text, images... 
+
+Some information are **shared between different products** (such as care instructions, or colors or even brands). This **data can be complex to manage because it has its own attributes** (e.g. a label, a logo, a description or photos).  
+Those information may have dedicated pages on one's e-commerce website (e.g. a webpage describing a brand) or their information may be used to enrich product pages (e.g. the logo of a brand).
 
 # A bit of vocabulary
-## What's a reference entity?
+
+## What is a reference entity?
 
 A **reference entity** allows you to create and enrich natively in the PIM those **common information** that are **shared and related to products**.   
 A reference entity has its **own attributes**, its **own life cycle** and can be linked to products or to another reference entity.  
@@ -37,7 +38,7 @@ A brand is described by the following information:
 - a country
 
 
-## What's a record?
+## What is a record?
 
 For the `Brand` reference entity, a record contains all the information regarding a brand like `Kartell` or `Fermob`.
 
