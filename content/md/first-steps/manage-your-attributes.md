@@ -32,7 +32,7 @@ To create an attribute in Akeneo PIM:
     - **Read only** (Yes/No) **_(Enterprise Edition only)_**: to prevent this attribute from being edited through the UI, it will only be updated through imports, API or rules
     - **Usable in grid** (Yes/No): if you want to filter on this attribute in the product's grids or use it as a column.
     - **Locale specific**: this attribute will only be available for some locales.      
-Under `Type Specific Parameters`, add validations to control your data: 
+Under `Validation Parameters`, add validations to control your data: 
     - **Validation parameters**: each attribute comes with validation parameters (see [Add attributes validation parameters](#parameters-according-to-specific-attribute-types)).    
 1. Click on `Save` to create your attribute.
 
