@@ -137,7 +137,7 @@ To quickly find an attribute, use the search bar available above the grid. Use y
 If your attribute does not have any label translated, it will not pop in the search results. **Make sure your attribute has its labels translated.**
 :::
 
-### Using the filters
+### Use filters
 
 Other filters are available on the right side of the screen, you can search attributes based on their code, type...
 
