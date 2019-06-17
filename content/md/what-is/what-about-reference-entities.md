@@ -9,7 +9,7 @@ related: manage-reference-entities, enrich-your-reference-entity-records
 
 # Introduction to reference entities
 
-In order to present you quickly this attribute type, let's take an example of a product page.  
+In order to present you quickly the reference entities, let's take an example of a product page.  
 ![Reference entity use case](../img/what-about-reference-entities.png)
 
 As you can see above are **many types of product information** visible on this page: text, images... 
