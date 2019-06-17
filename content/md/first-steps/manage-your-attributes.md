@@ -37,7 +37,7 @@ Under `Validation Parameters`, add validations to control your data:
 1. Click on `Save` to create your attribute.
 
 :::warning
-**Some attribute properties cannot be edited afterwards, such as the `code`, the `unique value`, `value per channel` and `value per locale`** make sure they fit your needs!
+**Some attribute properties cannot be edited afterwards, such as `code`, `unique value`, `value per channel` and `value per locale`** make sure they fit your needs!
 :::
 
 ::: warning
