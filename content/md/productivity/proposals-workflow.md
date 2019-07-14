@@ -108,6 +108,18 @@ A new button `Send and next` has been added during the sequential edit. If your 
 
 ### Via a bulk actions
 
+As the bulk actions are also a great way to boost your productivity while enriching products, you can also send drafts for approval at the end of the bulk actions. You just need to select the checkbox `Send for approval`.
+
+![checkbox-bulk-send-for-approval](../img/productivity_bulk_send_for_approval.png)
+
+At the end of the process, the contributor is notified of the number of proposals generated.
+
+![checkbox-bulk-send-for-approval](../img/notif_bulk_send_for_approval.png)
+
+::: info
+The `Send for approval` checkbox is displayed at the end of the `Edit attribute values` and `Add attribute values` actions, regardless of the user permissions. The permission validation is calculated during a background process.
+:::
+
 # Contribute to your proposal awaiting for approval
 
 A product form will have the `Waiting for approval` status when you have entered new values for the product information, and that they have been sent to product managers for approval, but the new values have not been yet validated.
