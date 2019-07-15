@@ -55,6 +55,47 @@ As Franklin needs a little time to make these calculations, the response may tak
 _Since the 3.1 version_, unmapped attributes are displayed first.
 :::
 
+## Ease the mapping (_since 3.2 version_)
+
+### Exact match
+
+No need to map attributes if they're the same, we do it for you: the PIM attribute is automatically mapped and saved, the proposal is automatically generated!
+
+![image](../img/franklin_exact_match.png)
+
+::: info
+We consider attributes match if Franklin attribute code equals the PIM attribute code or PIM attribute label for an English catalog locale.
+:::
+
+### Suggest attribute creation
+
+In case we have no mapping suggestion, we added a new `Create attribute` button. In a single action, you can create the attribute and attach it to the family you're working on without leaving the attribute mapping screen.
+
+![image](../img/franklin_create_attribute.png)
+
+::: info
+The newly created attribute will have the following properties:
+- attribute type = Franklin attribute type except for metric attributes which are created as Text attribute in the PIM
+- attribute code = Franklin attribute code
+- attribute label for English locale(s) = Franklin attribute code
+- attribute group = Franklin (new default attribute group)
+- set as localizable, scopable not required
+:::
+
+### Suggest attribute attachment to a family
+
+To avoid useless navigation, if we identify that an attribute exists but is in another family, we added a `Add to family` button to easily add the attribute to the family you're working on.
+
+![image](../img/franklin_add_to_family.png)
+
+### Easily see the mapping progress
+
+A progress bar has been added to the attribute mapping screen to provide you with insights related your work progress.
+
+![image](../img/franklin_progress_bar.png)
+
+Thus, you can see at a glance the number of mapped attributes among the total number of attributes for a dedicated family.
+
 # Impacts of catalog changes on Franklin
 
 As Franklin relies on your catalog attributes and options for mapping, deleting a used attribute or option (or removing it from a family) will result in its removal from the Franklin mapping information.
