@@ -76,6 +76,9 @@ To view the values of a working copy or your draft (in another locale / channel)
     ![image](../img/Products_Compare-Translate.png)
 
 ## Send your draft for approval
+
+### One by One
+
 You can send your draft for approval at any time to the product manager.
 Once you have created your product draft, a blue button appears in the header of the product form, it's called `Send for approval`.
 
@@ -93,6 +96,28 @@ A notification is sent to the product managers for them to know there is somethi
 
 ::: info
 To know more about how proposals are review, take a look at the [Review product proposals](review-products-proposals.html) article.
+:::
+
+### Via a sequential edit
+
+Before the 3.2 PIM version, contributors could send drafts for approval, one by one via the `Send for approval` button in the Product Form. To increase their productivity while working with drafts we added the possibility to [sequentially edit](sequential-edit.html) drafts and send them for approval. Let's see how it works!
+
+![sequentially-send-for-approval](../img/productivity_proposals_sequential.png)
+
+A new button `Send and next` has been added during the sequential edit. If your draft is ready to be reviewed, you can send it for approval and go to the next one during the sequential edit process. Of course, if the enrichment is not complete yet, you can still save your draft without sending for approval.
+
+### Via a bulk actions
+
+As the bulk actions are also a great way to boost your productivity while enriching products, you can also send drafts for approval at the end of the bulk actions. You just need to select the checkbox `Send for approval`.
+
+![checkbox-bulk-send-for-approval](../img/productivity_bulk_send_for_approval.png)
+
+At the end of the process, the contributor is notified of the number of proposals generated.
+
+![checkbox-bulk-send-for-approval](../img/notif_bulk_send_for_approval.png)
+
+::: info
+The `Send for approval` checkbox is displayed at the end of the `Edit attribute values` and `Add attribute values` actions, regardless of the user permissions. The permission validation is calculated during a background process.
 :::
 
 # Contribute to your proposal awaiting for approval
