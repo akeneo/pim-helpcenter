@@ -79,7 +79,7 @@ The newly created attribute will have the following properties:
 - attribute code = Franklin attribute code
 - attribute label for English locale(s) = Franklin attribute code
 - attribute group = Franklin (new default attribute group)
-- set as localizable, scopable not required
+- not required for the family
 :::
 
 ### Suggest attribute attachment to a family
