@@ -102,7 +102,7 @@ To know more about how proposals are review, take a look at the [Review product 
 
 Before the 3.2 PIM version, contributors could send drafts for approval, one by one via the `Send for approval` button in the Product Form. To increase their productivity while working with drafts we added the possibility to [sequentially edit](sequential-edit.html) drafts and send them for approval. Let's see how it works!
 
-![sequentially-send-for-approval](../img/productivity_proposals_sequential.png)
+![sequentially-send-for-approval](../img/Productivity_proposals_sequential.png)
 
 A new button `Send and next` has been added during the sequential edit. If your draft is ready to be reviewed, you can send it for approval and go to the next one during the sequential edit process. Of course, if the enrichment is not complete yet, you can still save your draft without sending for approval.
 
