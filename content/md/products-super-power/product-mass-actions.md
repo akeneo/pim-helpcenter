@@ -93,6 +93,10 @@ If you select some [product models](what-about-products-variants.html#what-is-a-
 These actions will not apply on products without families.
 :::
 
+:::ee
+Since 3.2, a check box `Send for approval` is displayed in the confirmation step. If you select it and have `Edit` rights on products, you will automatically send the [drafts](https://help.akeneo.com/pim/v3/articles/proposals-workflow.html#statuses-of-products) for approval. At the end of the process, you will receive a notification with the number of proposals generated.
+:::
+
 ## Edit attribute values
 
 To ease the mass enrichment of products attributes values, you can edit the attributes values of your products thanks to the `Edit attributes values` bulk action in the product grid. For example, you can set the brand of a selection of products to Akeneo.
