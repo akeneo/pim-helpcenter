@@ -1,0 +1,76 @@
+---
+id: what-is-the-completeness
+themes: first-steps
+title: Comprendre la **complétude** des produits
+popular: true
+related: product-completeness
+---
+
+# Sur la complétude
+Qu'est-ce que cette barre de progression **rouge, orange ou verte qui est affichée sur mon tableau de bord** ? Que signifie **le pourcentage sur ma grille de produits** ?
+
+**Ceci est la complétude !**
+
+Parce que l'information sur les produits nous importe, nous avons introduit le concept de `complétude` dans notre PIM.
+La complétude d’Akeneo est une information sur la qualité de votre enrichissement : elle vous indique le nombre d’`attributs obligatoires` renseignés pour vos produits.
+
+# Où voir la complétude?
+L'intégralité peut être affichée sous la forme d'une **barre de progression** ou d'un **pourcentage** dans le PIM.
+
+## Sur votre tableau de bord
+Votre **tableau de bord** affiche l'intégralité de chaque combinaison canal / locale
+
+![Tableau de bord](Dashboard_fr.png)
+
+## Dans votre grille de produits
+Votre **grille produit** affichera l'intégralité de chaque produit sous forme de pourcentage
+
+![Grille de produits](Products_Project_fr.png)
+
+## Sur votre page de modification de produit
+Votre **page de modification de produit** affichera l'intégralité de chaque produit.
+
+![Complétude du produit](Products_PEF1_fr.png)
+
+Ainsi que de chaque variante s'il s'agit d'un modèle de produit.
+
+![Complétude des variantes de produits](Products_VariantProdcut2_fr.png)
+
+## Dans votre panneau d’exhaustivité (page de modification de produit)
+![Panneau d’exhaustivité](Products_PEF2_fr.png)
+
+::: tips
+Grâce au panneau d’exhaustivité, obtenez la liste des attributs vides et complétez-les!
+:::
+
+# Comment configurer votre complétude ?
+La **complétude est définie par une [famille](what-is-a-family.html)**, une **[locale](what-is-a-locale.html)** et un **[canal](what-is-a-channel.html)**.
+
+Ensuite, une fois que vous savez quels attributs doivent être pris en compte pour chaque famille, c’est-à-dire **quels attributs doivent être renseignés pour exporter votre produit**, allez dans `Paramètres / Famille`.
+Sélectionnez une famille et, sous l'onglet `Attributs`, cochez les attributs pour les prendre en compte dans le calcul de complétude ou décochez-les pour les supprimer du calcul de complétude.
+![Cocher ou décocher les produits](Completeness_Family_choose_fr.png)
+
+C'est simple comme bonjour !
+
+::: success
+Pour déterminer les attributs à définir en fonction des besoins, essayez de répondre à la question suivante : quelles informations sur le produit dois-je absolument afficher sur mon site Web, mon application, ... ? Est-ce la même chose pour toutes mes chaînes ?
+:::
+
+# Comment est-ce calculé ?
+**Le calcul de complétude prend en compte plusieurs paramètres** : les attributs définis comme obligatoires pour la famille de produits, les locales activées pour le canal ... Le PIM vérifie tous les attributs renseignés et tous les attributs manquants, et vous affiche un pourcentage.
+
+Un produit est considéré comme **complet** lorsqu'il a une complétude de 100%, ce qui signifie que tous ses attributs obligatoires ont une valeur.
+
+![SCREENSHOT](Products_PEF12Completeness_fr.png)
+
+# À quelle fréquence la complétude est-elle actualisée ?
+La complétude est régénérée:
+- après un import,
+- après une action de masse,
+- après l'exécution des règles,
+- après avoir modifié votre famille,
+- après la sauvegarde d'un produit ...
+
+::: warning
+Vous pouvez actualiser votre complétude en utilisant la commande ```app / console pim: complétude: Calculate``` (non disponible pour l'édition Serenity)
+:::
