@@ -30,3 +30,5 @@ Propriétés supplémentaires :
 ## De combien de canaux ai-je besoin pour mon PIM ?
 
 Un nouveau canal sera requis dès lors que vous souhaiterez proposer un contenu différent pour un même attribut (par exemple une description pour votre site e-commerce et une autre pour votre application mobile), ou que vous souhaiterez définir un niveau de [complétude](what-is-the-completeness.html) différent (par exemple si votre site e-commerce nécessite 50 attributs quand votre application mobile en demande 30).
+
+Découvrez comment créer/supprimer des canaux dans notre article [Gérer vos canaux](manage-your-channels.html).
