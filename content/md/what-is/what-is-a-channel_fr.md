@@ -16,7 +16,7 @@ Un canal définit une sélection de produits et d'informations à exporter.
 Il peut être considéré comme un filtre sur le catalogue produits avec les propriétés suivantes :
 - Il est lié à un arbre de catégories (et un seul !)
 - Il est rattaché à une ou plusieurs [locales](what-is-a-locale.html) activées
-- Une ou plusieurs devises lui sont rattachées
+- Une ou plusieurs [devises](manage-your-currencies.html) lui sont rattachées
 - Il a sa propre [complétude](what-is-the-completeness.html)  
 
 ::: tips
