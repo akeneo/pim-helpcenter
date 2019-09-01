@@ -27,6 +27,18 @@ Votre **grille produit** affichera l'intégralité de chaque produit sous forme 
 
 ![Grille de produits](Products_Project_fr.png)
 
+Pour les produits ayant des variantes, le pourcentage est remplacé par un nombre de produits complets, ainsi que le nombre de variantes associées à ce modèle de produit.
+
+![Grille des variantes de produits](Products_Project2_fr.png)
+
+### Signification des couleurs pour les variantes
+
+Trois couleurs sont possibles lorsque la grille affiche des modèles de produits associés à des variantes :
+- Rouge : **Aucune variante n'est complète**, exemple : les T-shirt motif "Kurt Cobain" et Veste de motard dans la capture précédente
+- Orange : des variantes sont complètes **mais pas toutes**, exemple : le T-shirt taille unique ou seulement 1 des 3 variantes est complète
+- Vert : **toutes les variantes de produits sont complètes**, exemple le T-shirt Cotton dont ses 12 variantes sont complètes
+
+
 ## Sur votre page de modification de produit
 Votre **page de modification de produit** affichera l'intégralité de chaque produit.
 
