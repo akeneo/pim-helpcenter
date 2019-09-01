@@ -47,13 +47,13 @@ Pour éditer un canal:
 1. Faites vos changements
 1. Cliquez sur le bouton `Enregistrer`
 
-Le canal est mise à jour en conséquence. Les changements seront reflétés dans le PIM dans les prochaines minutes.
+Le canal est mis à jour en conséquence. Les changements sont reflétés dans le PIM dans les minutes qui suivent.
 
 
 # Voir les transformations de ressources du canal (EE uniquement)
 
 :::ee
-Si vous êtes un client Enterprise Edition et que vous utilisez Product Asset Manager, vous pouvez vérifier les transformations des actifs en cours sous l’onglet `Transformations de la ressource`.
+Si vous êtes un client Enterprise Edition et que vous utilisez le Product Asset Manager, vous pouvez vérifier les transformations des ressources en cours sous l’onglet `Transformations de la ressource`.
 :::
 
 Pour consulter la transformation des ressources d'un canal, cliquez sur l'onglet `Transformation de la ressource`.
@@ -101,4 +101,4 @@ Par le raccourci Supprimer dans la grille :
 1. Cliquez sur l'icône de la corbeille
 1. Confirmez l'action via le message de validation
 
-Le canal sera supprimé du PIM.
+Le canal est supprimé du PIM.
