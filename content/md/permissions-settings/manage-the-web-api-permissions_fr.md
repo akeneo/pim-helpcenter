@@ -9,9 +9,9 @@ related: build-your-user-roles, what-is-a-role, what-is-a-user, manage-the-inter
 
 # Définir les autorisations sur l'API Web
 
-Les autorisations sur l'[API Web](https://api.akeneo.com) sont également accordées en fonction du(des) [rôle(s) de l'utilisateur](what-is-a-role.html).
+Les autorisations sur l'[API Web](https://api.akeneo.com) sont accordées en fonction du(des) [rôle(s) de l'utilisateur](what-is-a-role.html).
 
-Pour modifier les autorisations de l'API Web pour un rôle d'utilisateur:
+Pour modifier les autorisations de l'API Web pour un rôle d'utilisateur :
 1. Allez sur `Système` et cliquez sur l'entrée du menu `Rôles`
 1. Cliquez sur le rôle à modifier
 1. Cliquez sur l'onglet `Autorisations de l'API Web`
@@ -24,12 +24,12 @@ Les sections suivantes vous donneront une explication détaillée de ce que chaq
 # Donner l'accès global
 Premièrement, il existe une autorisation qui autorise l’accès à l’API Web globale. Cela s'appelle `Accès API Web général`.
 
-S'il est activé pour un rôle donné, les utilisateurs dotés de ce rôle auront un accès global à l'API. Ce qui signifie que ces utilisateurs pourront appeler n’importe quel endpoint dans l’API.
+S'il est activé pour un rôle donné, les utilisateurs dotés de ce rôle auront un accès global à l'API. Ce qui signifie que ces utilisateurs pourront appeler des endpoints dans l’API (en fonction des droits sur chaque endpoint).
 
-Si cette option est désactivée, les utilisateurs dotés de ce rôle ne pourront pas appeler les endpoints de l'API.
+Si cette option est désactivée, les utilisateurs dotés uniquement de ce rôle ne pourront pas appeler les endpoints de l'API.
 
 # Donner l'accès par endpoints
-Vous pouvez également préciser les endpoints que vous souhaitez que vos utilisateurs d'API appellent.
+Vous pouvez également préciser les endpoints que vous souhaitez que vos utilisateurs d'API puissent appeler.
 
 Les tableaux suivants récapitulent les autorisations que vous trouverez pour limiter l'accès à l'API, endpoint par endpoint.
 
