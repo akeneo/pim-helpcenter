@@ -14,11 +14,11 @@ Qu'est-ce que cette barre de progression **rouge, orange ou verte qui est affich
 Parce que l'information sur les produits nous importe, nous avons introduit le concept de `complétude` dans notre PIM.
 La complétude d’Akeneo est une information sur la qualité de votre enrichissement : elle vous indique le nombre d’`attributs obligatoires` renseignés pour vos produits.
 
-# Où voir la complétude?
+# Où voir la complétude ?
 L'intégralité peut être affichée sous la forme d'une **barre de progression** ou d'un **pourcentage** dans le PIM.
 
 ## Sur votre tableau de bord
-Votre **tableau de bord** affiche l'intégralité de chaque combinaison canal / locale
+Votre **tableau de bord** affiche l'intégralité de chaque combinaison canal/locale
 
 ![Tableau de bord](Dashboard_fr.png)
 
@@ -76,7 +76,7 @@ Un produit est considéré comme **complet** lorsqu'il a une complétude de 100%
 ![SCREENSHOT](Products_PEF12Completeness_fr.png)
 
 # À quelle fréquence la complétude est-elle actualisée ?
-La complétude est régénérée:
+La complétude est régénérée :
 - après un import,
 - après une action de masse,
 - après l'exécution des règles,
@@ -84,5 +84,5 @@ La complétude est régénérée:
 - après la sauvegarde d'un produit ...
 
 ::: warning
-Vous pouvez actualiser votre complétude en utilisant la commande ```app / console pim: complétude: Calculate``` (non disponible pour l'édition Serenity)
+Vous pouvez actualiser votre complétude en utilisant la commande ```app/console pim: complétude: Calculate``` (non disponible pour l'édition Serenity)
 :::
