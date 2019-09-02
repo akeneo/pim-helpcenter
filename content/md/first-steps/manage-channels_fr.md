@@ -7,7 +7,7 @@ ee-only: false
 related: what-is-a-channel
 ---
 
-# Liste des canaux
+# Lister les canaux
 
 Pour voir vos canaux actuels, allez dans `Paramètres / Canaux`.
 
