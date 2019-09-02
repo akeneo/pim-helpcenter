@@ -72,7 +72,7 @@ Pour chaque changement, une version du canal est créée. Les informations suiva
 - La date et l'heure (en secondes) auxquelles les changements ont eu lieu
 - l'ancienne valeur et la nouvelle valeur de chaque champ modifié
 
-Pour afficher les versions d'un canal:
+Pour afficher les versions d'un canal :
 1. Ouvrez et éditez l'onglet de canal
 1. Cliquez sur l'onglet `Historique`, la liste des versions sera affichée.
 
