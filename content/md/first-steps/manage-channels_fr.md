@@ -97,7 +97,7 @@ Vous avez deux façons de procéder pour supprimer un canal.
 Par le raccourci Supprimer dans la grille :
   ![image](Settings_ChannelDeleteHover_fr.png)
 1. Sélectionnez le canal que vous souhaitez supprimer dans la grille des canaux
-1. Placez votre souris sur la ligne du canal dans la grille, le bouton supprimer est affiché (icône de la corbeille)
+1. Placez votre souris sur la ligne du canal dans la grille, le bouton de suppression (icône Corbeille) s'affiche
 1. Cliquez sur l'icône de la corbeille
 1. Confirmez l'action via le message de validation
 
