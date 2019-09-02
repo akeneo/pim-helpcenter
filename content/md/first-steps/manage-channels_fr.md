@@ -43,7 +43,7 @@ Un canal ne peut être lié qu'à une seule arborescence de catégories.
 
 Pour modifier un canal:
 1. Allez dans `Paramètres / Canaux`
-1. Cliquez sur le canal que vous souhaitez éditer
+1. Cliquez sur le canal que vous souhaitez modifier
 1. Faites vos changements
 1. Cliquez sur le bouton `Enregistrer`
 
