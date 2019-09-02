@@ -1,7 +1,7 @@
 ---
 id: sequential-edit
 themes: products-super-power, boost-your-productivity
-title: "**Editer séquentiellement** vos produits"
+title: "**Modifier séquentiellement** vos produits"
 popular: false
 ee-only: false
 related: product-mass-actions
@@ -9,7 +9,7 @@ related: product-mass-actions
 
 # Introduction
 
-L’édition séquentielle permet d’afficher les unes après les autres les pages Produit à partir d’une sélection de produits, sans passer par la grille des produits. Cela permettra de gagner du temps en permettant la navigation directe entre les pages Produit des produits sélectionnés.
+La modification séquentielle permet d’afficher les unes après les autres les pages Produit à partir d’une sélection de produits, sans passer par la grille des produits. Cela permet de gagner du temps en permettant la navigation directe entre les pages Produit des produits sélectionnés.
 
 Tout utilisateur disposant d'un accès au produit avec des autorisations de modification peut exécuter une modification séquentielle. Il n’existe aucun droit spécifique pour donner accès à cette fonctionnalité.
 
