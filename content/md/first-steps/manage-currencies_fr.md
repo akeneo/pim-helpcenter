@@ -9,7 +9,7 @@ related: what-is-an-attribute, what-is-a-channel
 
 # Vue d'ensemble
 
-Vous avez 294 devises de disponibles dans Akeneo. Les devises permettent de définir des valeurs pour le type d'attribut `Prix`. Les devises ne sont pas liées aux locales.
+Vous avez 294 devises de disponibles dans Akeneo. Les devises permettent de définir des valeurs pour les attributs de type `Prix`. Les devises ne sont pas liées aux locales.
 
 ::: info
 Lorsqu'un attribut de type `Prix` est créé, il peut avoir autant de valeurs que nécessaire tant que la devise correspondante a été activée dans le PIM.
@@ -43,11 +43,11 @@ L'action de raccourci n'est affichée que si vous avez les droits appropriés.
 
 Une devise activée dans le PIM ne sera pas automatiquement associée aux canaux.
 
-Pour que la devise soit affichée dans la fiche produit pour un canal il vous faut :
-1. Allez dans `Paramètres / Canaux`
-1. Cliquez sur le canal que vous souhaitez éditer
-1. Ajouter ou supprimer les devises
-1. Cliquez sur le bouton `Enregistrer`
+Pour que la devise soit affichée dans la fiche produit pour un canal, il vous faut :
+1. Allez dans `Paramètres / Canaux`,
+1. Cliquez sur le canal que vous souhaitez éditer,
+1. Ajouter ou supprimer les devises,
+1. Cliquez sur le bouton `Enregistrer`.
 
 ![Ajouter/Supprimer une devise d'un canal](Settings_CurrencyChannel_fr.png)
 
