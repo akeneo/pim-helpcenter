@@ -16,23 +16,23 @@ Tout utilisateur disposant d'un accès au produit avec des autorisations de modi
 
 # Comment faire ?
 
-Pour lancer la modification séquentielle du produit:
-1. Recherchez des produits dans la grille de données avec les filtres appropriés.
-2. Sélectionnez les produits sur lesquels vous souhaitez effectuer l'opération via l'outil de sélection:
-     - `Tous` pour tous les produits enregistrés
-     - `Tous les éléments visibles` pour tous les produits visibles sur la page en cours
-     - `Aucune` pour vider la sélection
+Pour lancer la modification séquentielle du produit :
+1. Recherchez des produits dans la grille des produits avec les filtres appropriés,
+2. Sélectionnez les produits sur lesquels vous souhaitez effectuer l'opération via l'outil de sélection :
+     - `Tous` pour tous les produits enregistrés,
+     - `Tous les éléments visibles` pour tous les produits visibles sur la page en cours,
+     - `Aucune` pour vider la sélection.
    ![Menu déroulant Edition séquentielle](Products_DropdownmenuSequentialEdit_fr.png)
-3. Cliquez sur le bouton `Modification séquentielle`
+3. Cliquez sur le bouton `Modification séquentielle`,
    ![image](Products_SequentialEditCTA_fr.png)
-4. La page Produit du premier produit de votre sélection est indiquée par une barre de progression en bas de la page.
+4. La page Produit du premier produit de votre sélection est indiquée par une barre de progression en bas de la page,
    ![image](Products_SequentialEditProgressBar_fr.png)
-5. Enrichissez votre premier produit et cliquez sur le bouton `Enregistrer et passer au suivant` pour afficher et enrichir le prochain produit de votre sélection.
+5. Enrichissez votre premier produit et cliquez sur le bouton `Enregistrer et passer au suivant` pour afficher et enrichir le prochain produit de votre sélection,
    ![image](Products_SequentialEditProgressBarSaveandNext_fr.png)
 6. Lorsque tous les produits de votre sélection sont enrichis, cliquez sur le bouton `Enregistrer et terminer` pour revenir à la grille des produits.
 
 
-La barre de progression indique le nombre de produits qui ont déjà été modifiés par rapport au nombre total de produits des produits sélectionnés. La barre de progression est entourée de deux liens à gauche et à droite.
+La barre de progression indique le nombre de produits qui ont déjà été modifiés par rapport au nombre total de produits sélectionnés. La barre de progression est entourée de deux liens à gauche et à droite.
 
 ![image](Products_SequentialEditProgressBar2_fr.png)
 
