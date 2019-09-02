@@ -8,7 +8,7 @@ related: manage-your-projects, projects-notifications
 ---
 
 # Overview
-A project is a feature of the Teamwork Assistant. It's a new way of organizing your work around a specific activity. It will help you to plan your work alone or as a team.
+A project is a feature of the Teamwork Assistant. **It's a new way of organizing your work around a specific activity**. It will help you to plan your work alone or as a team.
 
 ![Projects](../img/Products_What-is-a-project.svg)
 
@@ -18,12 +18,12 @@ All users who are part of a project will be able to see at a glance their produc
 
 ::: warning
 **Scalability note**  
-The Teamwork Assistant has been designed to support a Medium Catalog ([see Teamwork Assistant Scalability Guide](https://docs.akeneo.com/latest/technical_overview/teamwork_assistant/scalability_guide.html#teamwork-assistant-scalability-guide)), ie we do not recommend you to create a project with more than 50 000 products, 400 attributes, 15 attribute Groups.
+The Teamwork Assistant has been designed to support a Medium Catalog ([see Teamwork Assistant Scalability Guide](https://docs.akeneo.com/latest/technical_overview/teamwork_assistant/scalability_guide.html#teamwork-assistant-scalability-guide)), ie we do not recommend you to create a project with more than 50,000 products, 400 attributes, 15 attribute groups.
 :::
 
 # More information
 
-You can have only one project’s creator but you can have several contributors. A contributor is an Akeneo PIM user that will work on the project.
+You can have only **one project’s creator but you can have several contributors**. A contributor is an Akeneo PIM user that will work on the project.
 
 Depending on his/her permissions, he will be more or less active and will get tasks notifications.
 
