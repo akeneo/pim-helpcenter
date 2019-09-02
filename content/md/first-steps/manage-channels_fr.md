@@ -39,7 +39,7 @@ Le canal est maintenant créé.
 Un canal ne peut être lié qu'à une seule arborescence de catégories.
 :::
 
-# Editer un canal
+# Modifier un canal
 
 Pour éditer un canal:
 1. Allez dans `Paramètres / Canaux`
