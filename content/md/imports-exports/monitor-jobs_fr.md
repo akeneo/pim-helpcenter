@@ -10,44 +10,44 @@ related: imports, exports, product-export-builder, discover-the-dashboard, what-
 # Qu'est-ce qu'un traitement ?
 
 Un traitement peut être:
-- un [import](imports.html),
-- un [export](exports.html),
-- une [édition en masse](product-mass-actions.html),
-- une exécution de [règle](what-is-a-rule.html) _(EE uniquement)_
-- un calcul de [projet](what-is-a-project.html)  _(EE uniquement)_
+- Un [import](imports.html),
+- Un [export](exports.html),
+- Une [édition en masse](product-mass-actions.html),
+- Une exécution de [règle](what-is-a-rule.html) _(EE uniquement)_,
+- Un calcul de [projet](what-is-a-project.html)  _(EE uniquement)_.
 
-Vous avez plusieurs façons de suivre le statut d'un traitement. 
+Vous avez plusieurs façons de suivre le statut d'un traitement.
 
 # Comment surveiller ?
-Tout d'abord, pour les actions en tache de fond comme une édition de masse ou une exécution de règle, vous êtes averti par un message flash lorsque le travail commence.
+Tout d'abord, pour les actions en tache de fond comme une modification de masse ou une exécution de règle, vous êtes averti par un message flash lorsque le travail commence.
 ![image](Settings_Calculation1_fr.png)
 
 Ensuite, lorsque le travail est terminé, une notification apparaît en haut de votre écran.
 ![image](Settings_Calculation2_fr.png)
 
-Il existe une page de suivi des processus qui vous donnera la liste complète de tous les travaux que vous avez lancés. Pour y accéder, allez à `Activité` et cliquez sur l'entrée du menu `Traqueur de processus`.
+Il existe une page de suivi des processus qui vous donnera la liste complète de tous les travaux que vous avez lancés. Pour y accéder, allez dans `Activité` et cliquez sur l'entrée du menu `Traqueur de processus`.
 ![image](Settings_Calculation3_fr.png)
 
-Le widget `Dernières opérations` sur le tableau de bord Akeneo vous indiquera également le statut de vos travaux lancés.
+Le widget `Dernières opérations` sur le tableau de bord Akeneo vous indiquera également le statut de vos travaux.
 ![image](Dashboard_Calculation4_fr.png)
 
 :::info
 Les couleurs correspondent à :
-- <span style="color:green">Vert</span> si tout est bon
-- <span style="color:orange">Jaune</span> si des avertissements ont été remontés lors de l'exécution du traitement
-- <span style="color:red">Rouge</span> si le traitement ne s'est pas terminé correctement
+- <span style="color:green">Vert</span> si tout est bon,
+- <span style="color:orange">Jaune</span> si des avertissements ont été remontés lors de l'exécution du traitement,
+- <span style="color:red">Rouge</span> si le traitement ne s'est pas terminé correctement.
 
 Le nombre affiché correspond au nombre d'avertissements ou erreurs remontés pendant le traitement.
 :::
 
 ## Rapports d'exécution des imports et exports
 
-Vous pouvez également avoir plus de détails lorsque vous avez exécuté un import ou un export. Pour examiner leur rapport:
-1. Allez dans `Imports`
-1. Sélectionnez dans la liste le travail de profil pour lequel vous souhaitez afficher le rapport
-1. Vous pouvez clairement voir le statut de votre import: `Démarré`, `Terminé` ou `Echoué` grâce à un code de couleur
-1. Cliquez sur votre import/export
-1. La page du détail du travail d'import/export doit apparaître
+Vous pouvez également avoir plus de détails lorsque vous avez exécuté un import ou un export. Pour examiner leur rapport :
+1. Allez dans `Imports`,
+1. Sélectionnez dans la liste le travail de profil pour lequel vous souhaitez afficher le rapport,
+1. Vous pouvez clairement voir le statut de votre import: `Démarré`, `Terminé` ou `Echoué` grâce au code de couleur,
+1. Cliquez sur votre import/export,
+1. La page du détail du travail d'import/export doit apparaître.
 
 ![image](Exports_Calculation5_fr.png)
 
@@ -59,10 +59,10 @@ Il est impossible de lister les exécutions des traitements lancés par d'autres
 Cependant, à des fins d'analyse, il est possible de visualiser le détail d'un traitement si l'utilisateur vous fournit l'URL complète du rapport d'exécution d'un traitement.
 :::
 
-## Rapports d'exécution des actions en masse
+## Rapports d'exécution des actions de masse
 
-Vous pouvez également avoir plus de détails lorsque vous exécutez une action en masse. Pour examiner leur rapport:
-1. Allez sur `Activité` / `Traqueur de processus` ou cliquez sur la notification de l'action de masse terminée
-1. La page du rapport est alors affichée: les détails de l'action de masse sont affichés sur la page
+Vous pouvez également avoir plus de détails lorsque vous exécutez une action de masse. Pour examiner leur rapport :
+1. Allez sur `Activité` / `Traqueur de processus` ou cliquez sur la notification de l'action de masse terminée,
+1. La page du rapport est alors affichée : les détails de l'action de masse sont affichés sur la page.
 
 ![image](Dashboard_Calculation6_fr.png)
