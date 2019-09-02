@@ -66,7 +66,7 @@ Pour modifier ou ajouter des transformations de ressources, veuillez vous report
 
 Les modifications apportées sur un canal sont enregistrées et visibles dans l'onglet `Historique` des canaux. Par exemple : changement de libellés, changement d'attribut, etc.
 
-Pour chaque changement, une version du canal est créée. Les informations suivantes sont historisées pour chaque version:
+Pour chaque changement, une version du canal est créée. Les informations suivantes sont historisées pour chaque version :
 
 - La personne ou le système qui a généré les changements
 - la date et l'heure (en secondes) auxquelles les changements ont eu lieu
