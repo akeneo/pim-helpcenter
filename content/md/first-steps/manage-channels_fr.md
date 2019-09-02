@@ -60,7 +60,7 @@ Pour consulter la transformation des ressources d'un canal, cliquez sur l'onglet
 
 ![image](Settings_ChannelsAssetstransformations_fr.png)
 
-Pour modifier ou ajouter des transformations de ressources, veuillez vous reporter à [À propos des transformations de ressources](assets-transformation.html).
+Pour modifier ou ajouter des transformations de ressources, veuillez vous reporter à l'article [À propos des transformations de ressources](assets-transformation.html).
 
 # Vérifier l'historique du canal
 
