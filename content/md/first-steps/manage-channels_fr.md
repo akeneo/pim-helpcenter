@@ -69,7 +69,7 @@ Les modifications apportées sur un canal sont enregistrées et visibles dans l'
 Pour chaque changement, une version du canal est créée. Les informations suivantes sont historisées pour chaque version :
 
 - La personne ou le système qui a généré les changements
-- la date et l'heure (en secondes) auxquelles les changements ont eu lieu
+- La date et l'heure (en secondes) auxquelles les changements ont eu lieu
 - l'ancienne valeur et la nouvelle valeur de chaque champ modifié
 
 Pour afficher les versions d'un canal:
