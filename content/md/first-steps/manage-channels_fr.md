@@ -70,7 +70,7 @@ Pour chaque changement, une version du canal est créée. Les informations suiva
 
 - La personne ou le système qui a généré les changements
 - La date et l'heure (en secondes) auxquelles les changements ont eu lieu
-- l'ancienne valeur et la nouvelle valeur de chaque champ modifié
+- L'ancienne valeur et la nouvelle valeur de chaque champ modifié
 
 Pour afficher les versions d'un canal :
 1. Allez dans `Paramètres / Canaux`
