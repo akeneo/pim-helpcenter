@@ -3,7 +3,7 @@ id: manage-your-account
 themes: first-steps
 title: Manage your **account**
 popular: false
-related: manage-your-users, what-is-a-user-role, what-is-a-user-group, build-your-user-roles, build-your-user-groups, workflow
+related: manage-your-users, what-is-a-role, what-is-a-user-group, build-your-user-roles, build-your-user-groups, workflow
 ---
 
 # Access your account information
@@ -53,7 +53,7 @@ If no default filters are defined, the system attributes (family, groups, status
 
 ## Your groups and roles
 
-To edit your [user groups](what-is-a-user-group.html) and [roles](what-is-a-user-roles.html):
+To edit your [user groups](what-is-a-user-group.html) and [roles](what-is-a-role.html):
 1. Click on the `Groups and Roles` tab
 1. On the top of the page, you will see the user group(s) you belong to, and then your user role(s). Check/uncheck to change your groups/roles.
 2. Click on `Save` to save your changes

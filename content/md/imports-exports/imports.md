@@ -115,7 +115,7 @@ In the case of *product imports*, the PIM takes into account your permissions ba
 - you **only have an edit rights** on the products that are in the `Audio video` category, if you try to import product information for these products, the import will automatically create draft for you as you cannot direclty update these products
 - you **only have a view right** on the products that are in the `Goodies` category, if you try to import product information for these products, the import won't work for these products and you will receive errors saying that you cannot modify these products
 
-If you want to know more about how the rights on product data works in the PIM, take a look to the [Access rights in products](access-rights-on-rpoducts) article.
+If you want to know more about how the rights on product data works in the PIM, take a look to the [Access rights on products](access-rights-on-products.html) article.
 
 ### Rights on import execution
 The permission to execute imports can be customized for each import profile. So if you cannot launch an import, be sure that you have the right to run it in the `Permissions` tab of your import profile in edition mode. See the [Access rights on imports/exports](access-rights-on-imports-exports.html) article for more details.
