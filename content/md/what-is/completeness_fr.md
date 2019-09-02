@@ -18,29 +18,28 @@ La complétude d’Akeneo est une information sur la qualité de votre enrichiss
 L'intégralité peut être affichée sous la forme d'une **barre de progression** ou d'un **pourcentage** dans le PIM.
 
 ## Sur votre tableau de bord
-Votre **tableau de bord** affiche l'intégralité de chaque combinaison canal/locale
+Votre **tableau de bord** affiche l'intégralité de chaque combinaison canal/locale.
 
 ![Tableau de bord](Dashboard_fr.png)
 
 ## Dans votre grille de produits
-Votre **grille produit** affichera l'intégralité de chaque produit sous forme de pourcentage
+Votre **grille produit** affichera la complétude de chaque produit sous forme de pourcentage.
 
 ![Grille de produits](Products_Project_fr.png)
 
-Pour les produits ayant des variantes, le pourcentage est remplacé par un nombre de produits complets, ainsi que le nombre de variantes associées à ce modèle de produit.
+Pour les produits ayant des variantes, le pourcentage est remplacé par un nombre de variantes produits complètes, ainsi que le nombre de variantes associées à ce modèle de produits.
 
 ![Grille des variantes de produits](Products_Project2_fr.png)
 
 ### Signification des couleurs pour les variantes
 
 Trois couleurs sont possibles lorsque la grille affiche des modèles de produits associés à des variantes :
-- Rouge : **Aucune variante n'est complète**, exemple : les T-shirt motif "Kurt Cobain" et Veste de motard dans la capture précédente
-- Orange : des variantes sont complètes **mais pas toutes**, exemple : le T-shirt taille unique ou seulement 1 des 3 variantes est complète
-- Vert : **toutes les variantes de produits sont complètes**, exemple le T-shirt Cotton dont ses 12 variantes sont complètes
-
+- Rouge : **Aucune variante n'est complète**, exemple : les T-shirt motif "Kurt Cobain" et Veste de motard dans la capture précédente,
+- Orange : des variantes sont complètes **mais pas toutes**, exemple : le T-shirt taille unique ou seulement 1 des 3 variantes est complète,
+- Vert : **toutes les variantes de produits sont complètes**, exemple le T-shirt Cotton dont ses 12 variantes sont complètes.
 
 ## Sur votre page de modification de produit
-Votre **page de modification de produit** affichera l'intégralité de chaque produit.
+Votre **page de modification de produit** affichera la complétude de chaque produit.
 
 ![Complétude du produit](Products_PEF1_fr.png)
 
@@ -52,7 +51,7 @@ Ainsi que de chaque variante s'il s'agit d'un modèle de produit.
 ![Panneau d’exhaustivité](Products_PEF2_fr.png)
 
 ::: tips
-Grâce au panneau d’exhaustivité, obtenez la liste des attributs vides et complétez-les!
+Grâce au panneau d’exhaustivité, obtenez la liste des attributs vides et complétez-les !
 :::
 
 # Comment configurer votre complétude ?
@@ -77,12 +76,12 @@ Un produit est considéré comme **complet** lorsqu'il a une complétude de 100%
 
 # À quelle fréquence la complétude est-elle actualisée ?
 La complétude est régénérée :
-- après un import,
-- après une action de masse,
-- après l'exécution des règles,
-- après avoir modifié votre famille,
-- après la sauvegarde d'un produit ...
+- Après un import,
+- Après une action de masse,
+- Après l'exécution des règles,
+- Après avoir modifié votre famille,
+- Après la sauvegarde d'un produit ...
 
 ::: warning
-Vous pouvez actualiser votre complétude en utilisant la commande ```app/console pim: complétude: Calculate``` (non disponible pour l'édition Serenity)
+Vous pouvez actualiser votre complétude en utilisant la commande ```app/console pim:completness:calculate``` (non disponible pour l'édition Serenity)
 :::
