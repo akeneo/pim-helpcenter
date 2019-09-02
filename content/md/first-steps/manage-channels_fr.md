@@ -56,7 +56,7 @@ Le canal est mis à jour en conséquence. Les changements sont reflétés dans l
 Si vous êtes un client Enterprise Edition et que vous utilisez le Product Asset Manager, vous pouvez vérifier les transformations des ressources en cours sous l’onglet `Transformations de la ressource`.
 :::
 
-Pour consulter la transformation des ressources d'un canal, cliquez sur l'onglet `Transformation de la ressource`.
+Pour consulter la transformation des ressources d'un canal, cliquez sur l'onglet `Transformations de la ressource`.
 
 ![image](Settings_ChannelsAssetstransformations_fr.png)
 
