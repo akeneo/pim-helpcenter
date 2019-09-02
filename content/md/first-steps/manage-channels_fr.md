@@ -24,7 +24,7 @@ Pour créer un canal:
 1. Cliquez sur le bouton `Créer un canal`
 ![Créer un canal](Settings_Channels_Create_fr.png)
 1. Le formulaire de création d'un canal est affiché
-1. Fournissez des informations pour tous les champs obligatoires de l'onglet Propriétés, telles que:
+1. Fournissez des informations pour tous les champs obligatoires de l'onglet `Propriétés`, telles que:
     - Un **code unique** pour identifier le canal dans le PIM
     - Les **devises** pour le canal
     - Les **locales** à activer pour le canal : ces informations seront utilisées pour sélectionner les informations de produit à exporter pour ce canal (via la sélection de locales et de devises)
