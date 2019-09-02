@@ -73,7 +73,8 @@ Pour chaque changement, une version du canal est créée. Les informations suiva
 - l'ancienne valeur et la nouvelle valeur de chaque champ modifié
 
 Pour afficher les versions d'un canal :
-1. Ouvrez et éditez l'onglet de canal
+1. Allez dans `Paramètres / Canaux`
+1. Cliquez sur le canal dont vous voulez visualiser l'historique
 1. Cliquez sur l'onglet `Historique`, la liste des versions sera affichée.
 
 :::info
