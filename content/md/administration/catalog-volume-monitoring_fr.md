@@ -33,27 +33,27 @@ La première est la plus importante. Elle vous donne le nombre total de [valeurs
 
 ![Widget Nombre de valeurs de produits](Activity_CatalogVolumeMonitoring_PvWidget_fr.png)
 
-Nous vous encourageons vraiment à y jeter un coup d'œil de temps en temps. Plus vous avez de valeurs de produit, plus votre PIM est utile!
+Nous vous encourageons vraiment à y jeter un coup d'œil de temps en temps. Plus vous avez de valeurs de produit, plus votre PIM est utile !
 
 Nous avons écrit un [article](https://medium.com/akeneo-labs/because-your-product-catalog-typology-matters-e1a9af4c33e0) pour expliquer pourquoi le nombre de valeurs de produit est un axe très intéressant pour mesurer la taille de votre catalogue. L'article est un peu long mais nous vous promettons que c'est très instructif. Vous ne penserez plus jamais à la taille du catalogue que vous devez gérer de la même manière que vous le faisiez auparavant. ;)
 
 ::: tips
 Vous ne pouvez pas voir le widget dont nous parlons ? C'est dommage !
-Si vous êtes un utilisateur de Community Edition ou travaillez sur une version OnPremise ou sur une version PaaS, c'est probablement parce que vous ou votre administrateur n'a pas lancé le traitement CRON pour calculer les valeurs affichées dans ce widget.
+Si vous êtes un utilisateur de l'édition communautaire ou travaillez sur une version OnPremise ou sur une version PaaS, c'est probablement parce que vous ou votre administrateur n'a pas lancé le traitement CRON pour calculer les valeurs affichées dans ce widget.
 Pour ce faire, veuillez vous reporter à notre documentation technique : [ici](https://docs.akeneo.com/latest/install_pim/manual/installation_ce_archive.html#configuring-tasks-via-crontab) pour les versions CE et [ici](https://docs.akeneo.com/latest/install_pim/manual/installation_ee_archive.html#configuring-tasks-via-crontab) pour EE.
 :::
 
 ### Les autres sections
 
 La section suivante `Axes qui influencent le nombre de valeurs de produit` est dédiée aux différents axes pouvant influer sur le nombre de valeurs de produit.
-Par exemple, plus vous avez de canaux ou de locales, plus vous aurez de valeurs de produit.
+Par exemple, plus vous aurez de canaux ou de locales, plus vous aurez de valeurs de produit.
 
 La section `Axes liés à la structure de votre catalogue` regroupe tous les axes ayant un impact sur la structure de votre catalogue.
 
-La section `Axes concernant la modélisation des produits avec variantes` regroupe le nombre de modèles de produit et de [variantes de produits](what-about-products-variants.html).
+La section `Axes concernant la modélisation des produits avec variantes` regroupe le nombre de modèles de produits et de [variantes de produits](what-about-products-variants.html).
 
 ::: ee
-Dans l'édition Entreprise, il y a une section supplémentaire appelée `Axes sur les ressources` qui vous donnera le volume concernant les [ressources](work-with-assets.html).
+Dans l'édition Entreprise, il y a une section supplémentaire appelée `Axes sur les ressources` qui vous donnera les informations concernant les [ressources](work-with-assets.html).
 :::
 
 ## Les alertes
