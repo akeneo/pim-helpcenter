@@ -19,7 +19,7 @@ Pour voir vos canaux actuels, allez dans `Paramètres / Canaux`.
 Vous devez disposer d'une autorisation spécifique pour pouvoir créer un canal.
 :::
 
-Pour créer un canal:
+Pour créer un canal :
 1. Allez dans `Paramètres / Canaux`
 1. Cliquez sur le bouton `Créer un canal`
 ![Créer un canal](Settings_Channels_Create_fr.png)
