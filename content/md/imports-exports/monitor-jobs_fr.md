@@ -9,7 +9,7 @@ related: imports, exports, product-export-builder, discover-the-dashboard, what-
 
 # Qu'est-ce qu'un traitement ?
 
-Un traitement peut être:
+Un traitement peut être :
 - Un [import](imports.html),
 - Un [export](exports.html),
 - Une [édition en masse](product-mass-actions.html),
