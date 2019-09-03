@@ -38,10 +38,3 @@ La barre de progression indique le nombre de produits qui ont déjà été modif
 
 Le lien de gauche vous permet de revenir au produit précédent, le lien de droite pour passer au produit suivant.
 
-::: ee
-Les produits avec les droits d'accès en lecture seule seront seulement affichés et ne seront pas modifiables.
-
-<!--
-Si l'utilisateur ne peut pas modifier les produits de sa sélection, un message d'erreur est affiché pour l'informer qu'il ne peut pas effectuer la modification séquentielle. Pour plus de détails, vous pouvez lire [Définir les droits sur votre catalogue] (access-rights-on-products.html)
--->
-:::
