@@ -16,7 +16,7 @@ Tout utilisateur disposant d'un accès au produit avec des autorisations de modi
 
 # Comment faire ?
 
-Pour lancer la modification séquentielle du produit :
+Pour lancer la modification séquentielle de produits :
 1. Recherchez des produits dans la grille des produits avec les filtres appropriés,
 2. Sélectionnez les produits sur lesquels vous souhaitez effectuer l'opération via l'outil de sélection :
      - `Tous` pour tous les produits enregistrés,
