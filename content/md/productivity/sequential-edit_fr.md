@@ -19,7 +19,7 @@ Tout utilisateur disposant d'un accès au produit avec des autorisations de modi
 Pour lancer la modification séquentielle de produits :
 1. Recherchez des produits dans la grille des produits avec les filtres appropriés,
 2. Sélectionnez les produits sur lesquels vous souhaitez effectuer l'opération via l'outil de sélection :
-     - `Tous` pour tous les produits enregistrés,
+     - `Tous` pour tous les produits de la grille,
      - `Tous les éléments visibles` pour tous les produits visibles sur la page en cours,
      - `Aucune` pour vider la sélection.
    ![Menu déroulant Edition séquentielle](Products_DropdownmenuSequentialEdit_fr.png)
