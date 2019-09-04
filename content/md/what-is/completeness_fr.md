@@ -35,7 +35,7 @@ Pour les produits variants, le pourcentage est remplacé par un nombre de varian
 
 Trois couleurs sont possibles lorsque la grille affiche des modèles de produits associés à des variantes :
 - Rouge : **Aucune variante n'est complète**, exemple : les T-shirt motif "Kurt Cobain" et Veste de motard dans la capture précédente,
-- Orange : des variantes sont complètes **mais pas toutes**, exemple : le T-shirt taille unique ou seulement 1 des 3 variantes est complète,
+- Orange : des variantes sont complètes **mais pas toutes**, exemple : le T-shirt taille unique où seulement 1 des 3 variantes est complète,
 - Vert : **toutes les variantes de produits sont complètes**, exemple le T-shirt Cotton dont ses 12 variantes sont complètes.
 
 ## Sur votre page de modification de produit
