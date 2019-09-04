@@ -7,7 +7,7 @@ ee-only: false
 related: imports, exports, product-export-builder, discover-the-dashboard, what-is-a-rule, what-is-a-project, product-mass-actions
 ---
 
-# Qu'est-ce qu'un traitement ?
+# Qu'est-ce qu'une opération ?
 
 Un traitement peut être :
 - Un [import](imports.html),
