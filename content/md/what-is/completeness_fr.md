@@ -64,7 +64,7 @@ Sélectionnez une famille et, sous l'onglet `Attributs`, cochez les attributs po
 C'est simple comme bonjour !
 
 ::: success
-Pour déterminer les attributs à définir en fonction des besoins, essayez de répondre à la question suivante : quelles informations sur le produit dois-je absolument afficher sur mon site Web, mon application, ... ? Est-ce la même chose pour toutes mes chaînes ?
+Pour déterminer les attributs à définir en fonction des besoins, essayez de répondre à la question suivante : quelles informations sur le produit dois-je absolument afficher sur mon site Web, mon application, ... ? Est-ce la même chose pour toutes mes canaux ?
 :::
 
 # Comment est-ce calculé ?
