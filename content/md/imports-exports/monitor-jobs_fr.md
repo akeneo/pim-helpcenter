@@ -25,7 +25,7 @@ Tout d'abord, pour les actions en tâche de fond comme une modification en masse
 Ensuite, lorsque le travail est terminé, une notification apparaît en haut de votre écran.
 ![image](Settings_Calculation2_fr.png)
 
-Il existe une page de suivi des processus qui vous donnera la liste complète de tous les travaux que vous avez lancés. Pour y accéder, allez dans `Activité` et cliquez sur l'entrée du menu `Traqueur de processus`.
+Il existe une page de suivi des processus qui vous donnera la liste complète de toutes les opérations que vous avez lancées. Pour y accéder, allez dans `Activité` et cliquez sur l'entrée de menu `Traqueur de processus`.
 ![image](Settings_Calculation3_fr.png)
 
 Le widget `Dernières opérations` sur le tableau de bord Akeneo vous indiquera également le statut de vos travaux.
