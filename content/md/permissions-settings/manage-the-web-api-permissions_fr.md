@@ -40,7 +40,7 @@ Les appels API se font via :
 - PATCH : pour créer ou mettre à jour les données dans le PIM
 :::
 
-| Endpoints des Attributs           |                                          |
+| Endpoints des attributs           |                                          |
 |:----------------------------------|:-----------------------------------------|
 | Créer et mettre à jour les attributs | Donne l'autorisation d'utiliser les endpoints de POST et de PATCH des attributs |
 | Liste des attributs | Donne la permission de GET sur le endpoint d'attribut |
