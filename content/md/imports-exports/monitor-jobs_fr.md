@@ -47,7 +47,7 @@ Vous pouvez également avoir plus de détails lorsque vous avez exécuté un imp
 1. Sélectionnez dans la liste le profil pour lequel vous souhaitez afficher le rapport,
 1. Vous pouvez clairement voir le statut de votre import: `Démarré`, `Terminé` ou `Echoué` grâce au code couleur,
 1. Cliquez sur votre import/export,
-1. La page du détail du travail d'import/export doit apparaître.
+1. La page du détail de l'import/export doit apparaître.
 
 ![image](Exports_Calculation5_fr.png)
 
