@@ -61,5 +61,5 @@ Dans l'édition Entreprise, il y a une section supplémentaire appelée `Axes su
 Vous verrez parfois une alerte sur certains axes : du texte apparaît sous la métrique et l'icône de l'axe est colorée en violet.
 ![Alerte dans l'écran de surveillance du volume du catalogue](Activity_CatalogVolumeMonitoring_Alert_fr.png)
 
-_Que signifie cette alerte ?_
+_Que signifie cette alerte ?_  
 Cela signifie simplement que pour cet axe, vous pouvez avoir un volume assez élevé. Si vous rencontrez des problèmes à ce niveau de volume, n'hésitez pas à nous contacter.
