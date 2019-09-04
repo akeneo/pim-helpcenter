@@ -1,7 +1,7 @@
 ---
 id: monitor-jobs
 themes: import-export-data, administration
-title: Suivez les exécutions des **traitements**
+title: Suivez les exécutions de vos **opérations**
 popular: false
 ee-only: false
 related: imports, exports, product-export-builder, discover-the-dashboard, what-is-a-rule, what-is-a-project, product-mass-actions
