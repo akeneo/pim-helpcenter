@@ -42,7 +42,7 @@ Les appels API se font via :
 
 | Endpoints des Attributs           |                                          |
 |:----------------------------------|:-----------------------------------------|
-| Créer et mettre à jour les attributs | Donne l'autorisation de POST et PATCH sur le endpoint d'attribut |
+| Créer et mettre à jour les attributs | Donne l'autorisation d'utiliser les endpoints de POST et de PATCH des attributs |
 | Liste des attributs | Donne la permission de GET sur le endpoint d'attribut |
 
 | Endpoints des options d'attribut  |                                          |
