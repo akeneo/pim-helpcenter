@@ -35,7 +35,7 @@ Le widget `Dernières opérations` sur le tableau de bord Akeneo vous indiquera 
 Les couleurs correspondent à :
 - <span style="color:green">Vert</span> si l'opération s'est bien déroulée,
 - <span style="color:orange">Jaune</span> si des avertissements ont été remontés lors de l'exécution de l'opération,
-- <span style="color:red">Rouge</span> si le traitement ne s'est pas terminé correctement.
+- <span style="color:red">Rouge</span> si l'opération ne s'est pas terminée correctement.
 
 Le nombre affiché correspond au nombre d'avertissements ou erreurs remontés pendant le traitement.
 :::
