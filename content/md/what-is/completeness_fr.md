@@ -9,7 +9,7 @@ related: product-completeness
 # A propos la complétude
 Qu'est-ce que c'est que cette barre de progression **rouge, orange ou verte qui est affichée sur mon tableau de bord** ? Que signifie **le pourcentage sur ma grille de produits** ?
 
-**Ceci est la complétude !**
+**Il s'agit de la complétude !**
 
 Parce que l'information sur les produits nous importe, nous avons introduit le concept de `complétude` dans notre PIM.
 La complétude d’Akeneo est une information sur la qualité de votre enrichissement : elle vous indique le nombre d’`attributs obligatoires` renseignés pour vos produits.
