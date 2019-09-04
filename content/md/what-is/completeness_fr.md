@@ -15,7 +15,7 @@ Parce que l'information sur les produits nous importe, nous avons introduit le c
 La complétude d’Akeneo est une information sur la qualité de votre enrichissement : elle vous indique le nombre d’attributs à obligatoirement renseigner dans vos produits.
 
 # Où voir la complétude ?
-L'intégralité peut être affichée sous la forme d'une **barre de progression** ou d'un **pourcentage** dans le PIM.
+La complétude s'affiche sous la forme d'une **barre de progression** ou d'un **pourcentage** dans le PIM.
 
 ## Sur votre tableau de bord
 Votre **tableau de bord** affiche l'intégralité de chaque combinaison canal/locale.
