@@ -43,7 +43,7 @@ Les **pages produit** présente la complétude de chaque produit.
 
 ![Complétude du produit](Products_PEF1_fr.png)
 
-Ainsi que de chaque variante s'il s'agit d'un modèle de produit.
+Ainsi que de chaque variante, s'il s'agit d'un modèle de produit.
 
 ![Complétude des variantes de produits](Products_VariantProdcut2_fr.png)
 
