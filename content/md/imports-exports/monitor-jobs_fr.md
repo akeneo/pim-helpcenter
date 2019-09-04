@@ -28,7 +28,7 @@ Ensuite, lorsque le travail est terminé, une notification apparaît en haut de 
 Il existe une page de suivi des processus qui vous donnera la liste complète de toutes les opérations que vous avez lancées. Pour y accéder, allez dans `Activité` et cliquez sur l'entrée de menu `Traqueur de processus`.
 ![image](Settings_Calculation3_fr.png)
 
-Le widget `Dernières opérations` sur le tableau de bord Akeneo vous indiquera également le statut de vos travaux.
+Le widget `Dernières opérations` sur le tableau de bord Akeneo vous indiquera également le statut de ces dernières.
 ![image](Dashboard_Calculation4_fr.png)
 
 :::info
