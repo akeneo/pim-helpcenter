@@ -83,5 +83,5 @@ La complétude est régénérée :
 - Après la sauvegarde d'un produit ...
 
 ::: warning
-Vous pouvez actualiser votre complétude en utilisant la commande ```app/console pim:completness:calculate``` (non disponible pour l'édition Serenity)
+Vous pouvez actualiser votre complétude en utilisant la commande ```app/console pim:completness:calculate``` (non disponible pour l'édition Serenity).
 :::
