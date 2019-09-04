@@ -9,7 +9,7 @@ related: imports, exports, product-export-builder, discover-the-dashboard, what-
 
 # Qu'est-ce qu'une opération ?
 
-Un traitement peut être :
+Une opération (ou "tâche") peut être :
 - Un [import](imports.html),
 - Un [export](exports.html),
 - Une [édition en masse](product-mass-actions.html),
