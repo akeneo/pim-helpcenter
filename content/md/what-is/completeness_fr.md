@@ -27,7 +27,7 @@ Votre **grille produit** affichera la complétude de chaque produit sous forme d
 
 ![Grille de produits](Products_Project_fr.png)
 
-Pour les produits ayant des variantes, le pourcentage est remplacé par un nombre de variantes produits complètes, ainsi que le nombre de variantes associées à ce modèle de produits.
+Pour les produits variants, le pourcentage est remplacé par un nombre de variantes de produits complètes, ainsi que le nombre total de variantes associées à ce modèle de produits.
 
 ![Grille des variantes de produits](Products_Project2_fr.png)
 
