@@ -39,7 +39,7 @@ Trois couleurs sont possibles lorsque la grille affiche des modèles de produits
 - Vert : **toutes les variantes de produits sont complètes**, exemple : le T-shirt Cotton dont les 12 variantes sont complètes.
 
 ## Sur vos pages produit
-Votre **page de modification de produit** affichera la complétude de chaque produit.
+Les **pages produit** présente la complétude de chaque produit.
 
 ![Complétude du produit](Products_PEF1_fr.png)
 
