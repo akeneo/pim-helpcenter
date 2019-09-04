@@ -16,7 +16,7 @@ Une opération (ou "tâche") peut être :
 - Une exécution de [règle](what-is-a-rule.html) _(EE uniquement)_,
 - Un calcul de [projet](what-is-a-project.html)  _(EE uniquement)_.
 
-Vous avez plusieurs façons de suivre le statut d'un traitement.
+Vous avez plusieurs façons de suivre le statut d'une opération.
 
 # Comment surveiller ?
 Tout d'abord, pour les actions en tache de fond comme une modification de masse ou une exécution de règle, vous êtes averti par un message flash lorsque le travail commence.
