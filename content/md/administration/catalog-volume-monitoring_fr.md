@@ -1,7 +1,7 @@
 ---
 id: catalog-volume-monitoring
 themes: administration, akeneo-concepts, catalog-settings
-title: Surveillez votre ** taille du catalogue **
+title: Surveillez la ** taille de votre catalogue **
 popular: false
 related: what-is-a-product-value, what-is-an-attribute, what-is-a-family, what-is-a-channel, what-is-a-locale, what-is-a-category
 ---
