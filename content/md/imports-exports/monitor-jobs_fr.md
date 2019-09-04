@@ -45,7 +45,7 @@ Le nombre affiché correspond au nombre d'avertissements ou erreurs remontés pe
 Vous pouvez également avoir plus de détails lorsque vous avez exécuté un import ou un export. Pour examiner leur rapport :
 1. Allez dans `Imports`,
 1. Sélectionnez dans la liste le profil pour lequel vous souhaitez afficher le rapport,
-1. Vous pouvez clairement voir le statut de votre import: `Démarré`, `Terminé` ou `Echoué` grâce au code de couleur,
+1. Vous pouvez clairement voir le statut de votre import: `Démarré`, `Terminé` ou `Echoué` grâce au code couleur,
 1. Cliquez sur votre import/export,
 1. La page du détail du travail d'import/export doit apparaître.
 
