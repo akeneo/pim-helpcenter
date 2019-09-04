@@ -50,7 +50,7 @@ Les appels API se font via :
 | Créer et mettre à jour les options d'attributs | Donne l'autorisation de POST et PATCH sur le endpoint des options d'attributs |
 | Liste les options d'attributs | Donne la permission de GET sur le endpoint des options d'attributs |
 
-| Endpoints des Catégories          |                                          |
+| Endpoints des catégories          |                                          |
 |:----------------------------------|:-----------------------------------------|
 | Créer et mettre à jour les catégories | Donne la permission de POST et PATCH sur le endpoint des catégories |
 | Liste des catégories | Donne la permission de GET sur le endpoint des catégories |
