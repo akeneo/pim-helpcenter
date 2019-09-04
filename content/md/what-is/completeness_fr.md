@@ -80,7 +80,7 @@ La complétude est régénérée :
 - Après une action de masse,
 - Après l'exécution des règles,
 - Après avoir modifié votre famille,
-- Après la sauvegarde d'un produit ...
+- Après la sauvegarde d'un produit...
 
 ::: warning
 Vous pouvez actualiser votre complétude en utilisant la commande ```app/console pim:completness:calculate``` (non disponible pour l'édition Serenity).
