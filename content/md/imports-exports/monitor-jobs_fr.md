@@ -56,7 +56,7 @@ Les détails de l'import/export en cours sont affichés sur la page. Les détail
 ::: info
 Pour les administrateurs du PIM :
 Il est impossible de lister les exécutions des traitements lancés par d'autres utilisateurs du PIM.
-Cependant, à des fins d'analyse, il est possible de visualiser le détail d'un traitement si l'utilisateur vous fournit l'URL complète du rapport d'exécution d'un traitement.
+Cependant, à des fins d'analyse, il est possible de visualiser le détail d'une opération si l'utilisateur vous fournit l'URL complète du rapport d'exécution de celle-ci.
 :::
 
 ## Rapports d'exécution des actions de masse
