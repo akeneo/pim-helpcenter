@@ -29,7 +29,7 @@ Votre **grille produit** affichera la complétude de chaque produit sous forme d
 
 Pour les produits variants, le pourcentage est remplacé par un nombre de variantes de produits complètes, ainsi que le nombre total de variantes associées à ce modèle de produits.
 
-![Grille des variantes de produits](Products_Project2_fr.png)
+![Grille de produits variants](Products_Project2_fr.png)
 
 ### Signification des couleurs pour les variantes
 
