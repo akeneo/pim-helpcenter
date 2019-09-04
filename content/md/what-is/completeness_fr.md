@@ -48,7 +48,7 @@ Ainsi que de chaque variante s'il s'agit d'un modèle de produit.
 ![Complétude des variantes de produits](Products_VariantProdcut2_fr.png)
 
 ## Dans votre panneau d’exhaustivité (page de modification de produit)
-![Panneau d’exhaustivité](Products_PEF2_fr.png)
+![Panel de complétude](Products_PEF2_fr.png)
 
 ::: tips
 Grâce au panneau d’exhaustivité, obtenez la liste des attributs vides et complétez-les !
