@@ -18,7 +18,7 @@ La complétude d’Akeneo est une information sur la qualité de votre enrichiss
 La complétude s'affiche sous la forme d'une **barre de progression** ou d'un **pourcentage** dans le PIM.
 
 ## Sur votre tableau de bord
-Votre **tableau de bord** affiche l'intégralité de chaque combinaison canal/locale.
+Votre **tableau de bord** affiche la complétude de vos produits pour chaque combinaison de canal et de locale.
 
 ![Tableau de bord](Dashboard_fr.png)
 
