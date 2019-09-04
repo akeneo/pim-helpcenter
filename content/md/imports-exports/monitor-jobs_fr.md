@@ -37,7 +37,7 @@ Les couleurs correspondent à :
 - <span style="color:orange">Jaune</span> si des avertissements ont été remontés lors de l'exécution de l'opération,
 - <span style="color:red">Rouge</span> si l'opération ne s'est pas terminée correctement.
 
-Le nombre affiché correspond au nombre d'avertissements ou erreurs remontés pendant le traitement.
+Le nombre affiché correspond au nombre d'avertissements ou erreurs remontés pendant l'opération.
 :::
 
 ## Rapports d'exécution des imports et exports
