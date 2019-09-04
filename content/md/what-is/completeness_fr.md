@@ -38,7 +38,7 @@ Trois couleurs sont possibles lorsque la grille affiche des modèles de produits
 - Orange : des variantes sont complètes **mais pas toutes**, exemple : le T-shirt taille unique où seulement 1 des 3 variantes est complète,
 - Vert : **toutes les variantes de produits sont complètes**, exemple : le T-shirt Cotton dont les 12 variantes sont complètes.
 
-## Sur votre page de modification de produit
+## Sur vos pages produit
 Votre **page de modification de produit** affichera la complétude de chaque produit.
 
 ![Complétude du produit](Products_PEF1_fr.png)
