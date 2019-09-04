@@ -47,7 +47,7 @@ Ainsi que de chaque variante s'il s'agit d'un modèle de produit.
 
 ![Complétude des variantes de produits](Products_VariantProdcut2_fr.png)
 
-## Dans votre panneau d’exhaustivité (page de modification de produit)
+## Dans votre panel de complétude (au sein de la page produit)
 ![Panel de complétude](Products_PEF2_fr.png)
 
 ::: tips
