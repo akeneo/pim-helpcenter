@@ -37,7 +37,7 @@ Les tableaux suivants récapitulent les autorisations que vous trouverez pour li
 Les appels API se font via :
 - GET : pour récupérer les informations contenues dans le PIM
 - POST : pour créer les données dans le PIM
-- PATCH : pour créer ou mettre à jours les données dans le PIM
+- PATCH : pour créer ou mettre à jour les données dans le PIM
 :::
 
 | Endpoints des Attributs           |                                          |
