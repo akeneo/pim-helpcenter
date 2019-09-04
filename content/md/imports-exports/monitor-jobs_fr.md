@@ -59,7 +59,7 @@ Il est impossible de lister les exécutions des traitements lancés par d'autres
 Cependant, à des fins d'analyse, il est possible de visualiser le détail d'une opération si l'utilisateur vous fournit l'URL complète du rapport d'exécution de celle-ci.
 :::
 
-## Rapports d'exécution des actions de masse
+## Rapports d'exécution des actions en masse
 
 Vous pouvez également avoir plus de détails lorsque vous exécutez une action de masse. Pour examiner leur rapport :
 1. Allez sur `Activité` / `Traqueur de processus` ou cliquez sur la notification de l'action de masse terminée,
