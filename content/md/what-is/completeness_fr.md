@@ -51,7 +51,7 @@ Ainsi que de chaque variante, s'il s'agit d'un modèle de produit.
 ![Panel de complétude](Products_PEF2_fr.png)
 
 ::: tips
-Grâce au panneau d’exhaustivité, obtenez la liste des attributs vides et complétez-les !
+Grâce à ce panel de complétude, obtenez la liste des attributs vides et complétez-les !
 :::
 
 # Comment configurer votre complétude ?
