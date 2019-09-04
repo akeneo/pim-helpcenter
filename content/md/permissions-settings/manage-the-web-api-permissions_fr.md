@@ -24,7 +24,7 @@ Les sections suivantes vous donneront une explication détaillée de ce que chaq
 # Donner l'accès global
 Il existe une autorisation qui donne l’accès à l'API Web. Celle-ci s'appelle `Accès API Web général`.
 
-S'il est activé pour un rôle donné, les utilisateurs dotés de ce rôle auront un accès global à l'API. Ce qui signifie que ces utilisateurs pourront appeler des endpoints dans l’API (en fonction des droits sur chaque endpoint).
+Les utilisateurs dotés d'au moins un rôle ayant cette autorisation, auront accès à l'API. Cela signifie qu'ils pourront utiliser les endpoints de l’API (en fonction des droits sur chaque endpoint, cf section suivante).
 
 Si cette option est désactivée, les utilisateurs dotés uniquement de ce rôle ne pourront pas appeler les endpoints de l'API.
 
