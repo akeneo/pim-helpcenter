@@ -51,7 +51,7 @@ Vous pouvez également avoir plus de détails lorsque vous avez exécuté un imp
 
 ![image](Exports_Calculation5_fr.png)
 
-Les détails du travail d'import/export en cours sont affichés sur la page. Les détails sont liés à chaque profil d'import/export exécuté.
+Les détails de l'import/export en cours sont affichés sur la page. Les détails sont liés à chaque profil d'import/export exécuté.
 
 ::: info
 Pour les administrateurs du PIM :
