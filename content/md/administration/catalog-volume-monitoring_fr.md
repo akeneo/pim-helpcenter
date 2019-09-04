@@ -38,7 +38,7 @@ Nous vous encourageons vraiment à y jeter un coup d'œil de temps en temps. Plu
 Nous avons écrit un [article](https://medium.com/akeneo-labs/because-your-product-catalog-typology-matters-e1a9af4c33e0) pour expliquer pourquoi le nombre de valeurs de produit est un axe très intéressant pour mesurer la taille de votre catalogue. L'article est un peu long mais nous vous promettons que c'est très instructif. Vous ne penserez plus jamais à la taille du catalogue que vous devez gérer de la même manière que vous le faisiez auparavant. ;)
 
 ::: tips
-Vous ne pouvez pas voir le widget dont nous parlons ? C'est dommage !
+Vous ne pouvez pas voir le widget dont nous parlons ? C'est dommage !  
 Si vous êtes un utilisateur de l'édition communautaire ou travaillez sur une version OnPremise ou sur une version PaaS, c'est probablement parce que vous ou votre administrateur n'a pas lancé le traitement CRON pour calculer les valeurs affichées dans ce widget.
 Pour ce faire, veuillez vous reporter à notre documentation technique : [ici](https://docs.akeneo.com/latest/install_pim/manual/installation_ce_archive.html#configuring-tasks-via-crontab) pour les versions CE et [ici](https://docs.akeneo.com/latest/install_pim/manual/installation_ee_archive.html#configuring-tasks-via-crontab) pour EE.
 :::
