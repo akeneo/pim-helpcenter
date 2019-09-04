@@ -12,7 +12,7 @@ Qu'est-ce que c'est que cette barre de progression **rouge, orange ou verte qui 
 **Il s'agit de la complétude !**
 
 Parce que l'information sur les produits nous importe, nous avons introduit le concept de "complétude" dans notre PIM.
-La complétude d’Akeneo est une information sur la qualité de votre enrichissement : elle vous indique le nombre d’`attributs obligatoires` renseignés pour vos produits.
+La complétude d’Akeneo est une information sur la qualité de votre enrichissement : elle vous indique le nombre d’attributs à obligatoirement renseigner dans vos produits.
 
 # Où voir la complétude ?
 L'intégralité peut être affichée sous la forme d'une **barre de progression** ou d'un **pourcentage** dans le PIM.
