@@ -19,7 +19,7 @@ Pour modifier les autorisations de l'API Web pour un rôle d'utilisateur :
 1. Cochez / décochez les autorisations souhaitées
 1. Cliquez sur le bouton `Enregistrer` pour confirmer vos modifications.
 
-Les sections suivantes vous donneront une explication détaillée de ce que chaque autorisation accorde. N'hésitez pas à jeter un coup d'oeil.
+Les sections suivantes vous donneront une explication détaillée de ce que chaque autorisation accorde. N'hésitez pas à y jeter un coup d'oeil.
 
 # Donner l'accès global
 Premièrement, il existe une autorisation qui autorise l’accès à l’API Web globale. Cela s'appelle `Accès API Web général`.
