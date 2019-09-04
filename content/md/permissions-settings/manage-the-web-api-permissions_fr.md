@@ -22,7 +22,7 @@ Pour modifier les autorisations de l'API Web pour un rôle d'utilisateur :
 Les sections suivantes vous donneront une explication détaillée de ce que chaque autorisation accorde. N'hésitez pas à y jeter un coup d'oeil.
 
 # Donner l'accès global
-Premièrement, il existe une autorisation qui autorise l’accès à l’API Web globale. Cela s'appelle `Accès API Web général`.
+Il existe une autorisation qui donne l’accès à l'API Web. Celle-ci s'appelle `Accès API Web général`.
 
 S'il est activé pour un rôle donné, les utilisateurs dotés de ce rôle auront un accès global à l'API. Ce qui signifie que ces utilisateurs pourront appeler des endpoints dans l’API (en fonction des droits sur chaque endpoint).
 
