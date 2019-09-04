@@ -19,7 +19,7 @@ Une opération (ou "tâche") peut être :
 Vous avez plusieurs façons de suivre le statut d'une opération.
 
 # Comment surveiller ?
-Tout d'abord, pour les actions en tache de fond comme une modification de masse ou une exécution de règle, vous êtes averti par un message flash lorsque le travail commence.
+Tout d'abord, pour les actions en tâche de fond comme une modification en masse ou une exécution de règle, vous êtes averti par un message "flash" lorsque le travail commence.
 ![image](Settings_Calculation1_fr.png)
 
 Ensuite, lorsque le travail est terminé, une notification apparaît en haut de votre écran.
