@@ -61,7 +61,7 @@ Cependant, à des fins d'analyse, il est possible de visualiser le détail d'une
 
 ## Rapports d'exécution des actions en masse
 
-Vous pouvez également avoir plus de détails lorsque vous exécutez une action de masse. Pour examiner leur rapport :
+Vous pouvez également avoir plus de détails lorsque vous exécutez une action en masse. Pour examiner leur rapport :
 1. Allez sur `Activité` / `Traqueur de processus` ou cliquez sur la notification de l'action de masse terminée,
 1. La page du rapport est alors affichée : les détails de l'action de masse sont affichés sur la page.
 
