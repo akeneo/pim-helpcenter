@@ -286,9 +286,9 @@ Par la page de modification des attributs :
 Par le raccourci `Supprimer` dans la grille :
   ![image](Settings_Attributes_GridDeleteHover_fr.png)
 1. Sélectionnez l'attribut que vous voulez supprimer de la grille d'attributs
-1. Placez votre souris sur la ligne d'attribut dans la grille, le bouton `Supprimer` est invité (icône poubelle)
+1. Placez votre souris sur la ligne d'attribut dans la grille, le bouton `Supprimer` est affiché (icône poubelle)
 1. Cliquez sur l'icône de la corbeille
-1. Confirmez l'action dans le popin
+1. Confirmez l'action dans la popin
 
 **L'attribut et toutes ses informations pertinentes seront supprimés dans Akeneo PIM. Une fois que vous avez confirmé l'action, elle ne peut plus être annulée**.
 
