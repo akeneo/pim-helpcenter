@@ -1,7 +1,7 @@
 ---
 id: what-is-an-attribute
 themes: first-steps, akeneo-concepts
-title: Qu'est-ce qu'un **attribut**?
+title: Qu'est-ce qu'un **attribut** ?
 related: manage-your-attributes, what-is-an-attribute-group
 ---
 
@@ -11,10 +11,10 @@ Un attribut est une caractéristique d’un produit. Un produit est généraleme
 
 ![Liste types d'attributs](attribute_type_list_fr.png)
 
-Dans Akeneo, les attributs sont gérés en **familles**, de sorte que tous les produits appartenant à la même famille partagent les mêmes attributs. Si vous n'êtes pas familier avec le concept de famille, lisez l'article suivant : [Qu'est-ce qu'une famille?](what-is-a-family.html).
+Dans Akeneo, les attributs sont gérés en **familles**, de sorte que tous les produits appartenant à la même famille partagent les mêmes attributs. Si vous n'êtes pas familier avec le concept de famille, lisez l'article suivant : [Qu'est-ce qu'une famille ?](what-is-a-family.html).
 
 Dans Akeneo, les attributs sont regroupés en **Groupes d'attributs** pour faciliter leur enrichissement dans la fiche produit.
-Vous pouvez facilement créer des groupes d'attributs pour regrouper vos attributs. Lisez l'article suivant pour obtenir plus d'informations sur les groupes d'attributs : [Qu'est-ce qu'un groupe d'attributs ?](What-is-an-attribute-group.html).
+Vous pouvez facilement créer des groupes d'attributs pour regrouper vos attributs. Lisez l'article suivant pour obtenir plus d'informations sur les groupes d'attributs : [Qu'est-ce qu'un groupe d'attributs ?](what-is-an-attribute-group.html).
 
 # Types d'attributs dans Akeneo
 
@@ -27,12 +27,12 @@ Voici les types d'attributs disponibles dans Akeneo :
 - **Oui / Non** : un attribut booléen
 - **Date** : un champ de date, le PIM affichera un calendrier pour choisir la date, qui comprend le jour, le mois et l’année.
 - **Nombre** : un champ d'une seule ligne ne pouvant contenir que des chiffres.
-- **Unité de mesure** : un duo de 2 champs composé d'un premier champ contenant un nombre et d'un deuxième champ contenant une unité de mesure. Il vous permet de convertir automatiquement les valeurs en d'autres valeurs, en fonction des unités, pour répondre à vos besoins en matière d'export. Vous pouvez consulter l'article [Gérer vos canaux](manage-your-channels.html#create-a-channel) pour obtenir plus d'informations sur cette fonctionnalité.
-- **Prix** : un attribut de prix avec des valeurs par devise. Les valeurs affichées dépendent des devises activées dans le PIM. Apprenez [ici](manage-your-currencies.html#enabledisable-a-currency) comment activer ou désactiver une devise dans le PIM Akeneo.
+- **Unité de mesure** : un duo de 2 champs composé d'un premier champ contenant un nombre et d'un deuxième champ contenant une unité de mesure. Il vous permet de convertir automatiquement les valeurs en d'autres valeurs, en fonction des unités, pour répondre à vos besoins en matière d'export. Vous pouvez consulter l'article [Gérer vos canaux](manage-your-channels.html#creer_un_canal) pour obtenir plus d'informations sur cette fonctionnalité.
+- **Prix** : un attribut de prix avec des valeurs par devise. Les valeurs affichées dépendent des devises activées dans le PIM. Apprenez [ici](manage-your-currencies.html#activer_une_devise) comment activer ou désactiver une devise dans le PIM Akeneo.
 - **Image** : une zone de glisser-déposer permettant de télécharger une image (extensions autorisées : gif, jfif, jif, jpeg, jpg, pdf, png, psd, tif, tiff).
 - **Fichier** : une zone de glisser-déposer pour télécharger un fichier (extensions autorisées : csv, doc, docx, mp3, pdf).
 - **Collection de ressources** **_(édition Entreprise uniquement)_** : un type d'attribut avancé permettant de gérer plusieurs ressources numériques telles qu'une vidéo, une image, un fichier pdf... Lire l'article suivant [Qu'est-ce qu'une ressource ?](what-is-an-asset.html) pour en savoir plus sur ce type d'attribut.
-- **Lien simple vers une entité référentielle** **_(édition Entreprise uniquement)_** : un type d'attribut avancé permettant d'enrichir les données communes relatives aux produits avec du contenu riche (texte, images...), plus complexe qu'un simple code et des étiquettes, exemple : gestion des marques liées aux produits. Consultez notre article dédié [Qu'est-ce qu'une entité de référence ?](What-about-reference-entity.html) pour en savoir plus sur ce type d'attribut.
+- **Lien simple vers une entité référentielle** **_(édition Entreprise uniquement)_** : un type d'attribut avancé permettant d'enrichir les données communes relatives aux produits avec du contenu riche (texte, images...), plus complexe qu'un simple code et des étiquettes, exemple : gestion des marques liées aux produits. Consultez notre article dédié [Qu'est-ce qu'une entité de référence ?](what-about-reference-entity.html) pour en savoir plus sur ce type d'attribut.
 - **Lien multiple vers une entité référentielle** **_(édition Entreprise uniquement)_** : identique au type d'attribut ci-dessus mais vous permettant de gérer plusieurs liens.
 - **Liste à choix unique de données référentielles** : un type d'attribut avancé permettant de gérer tout type de données possédant ses propres propriétés, en tant que sélection à choix unique.
 - **Liste à choix multiples de données référentielle** : identique au type d'attribut ci-dessus mais vous permettant de gérer plusieurs liens.
@@ -51,14 +51,14 @@ Les options relatives aux attributs de type `Liste à choix unique` et `Liste à
 
 :::tips
 Pour stocker les codes GTIN, EAN, UPC… dans votre PIM, utilisez le type d'attribut `Texte` et utilisez une expression régulière pour contrôler la saisie du champ.
-Par exemple, pour stocker un EAN13 dans Akeneo contenant toujours 13 chiffres, ajoutez une règle de validation basée sur l'expression régulière suivante: `/^[0-9]{13}$/`
+Par exemple, pour stocker un EAN13 dans Akeneo contenant toujours 13 chiffres, ajoutez une règle de validation basée sur l'expression régulière suivante : `/^[0-9]{13}$/`
 :::
 
 ## Entités référentielles ou données référentielles ?
 
 ### Différences entre les deux types d'attributs
 
-**Les entités référentielles sont une fonctionnalité de l'édition Entreprise ajoutée depuis la version 3.0**. Pour en savoir plus sur les entités référentielles, lisez notre article dédié [Qu'est-ce qu'une entité référentielles ?](What-about-reference-entity.html)
+**Les entités référentielles sont une fonctionnalité de l'édition Entreprise ajoutée depuis la version 3.0**. Pour en savoir plus sur les entités référentielles, lisez notre article dédié [Qu'est-ce qu'une entité référentielles ?](what-about-reference-entity.html)
 
 Les liens vers les données référentielles sont une fonctionnalité native des éditions Communautaire et Entreprise. Cette fonctionnalité gère les liens entre les données référentielles et les produits. Cependant les données référentielles impliquent un développement personnalisé (installation du [Bundle d'entités personnalisées](https://github.com/akeneo-labs/CustomEntityBundle)) pour enrichir les données référentielles via l'interface utilisateur, les collecter et les diffuser.
 
