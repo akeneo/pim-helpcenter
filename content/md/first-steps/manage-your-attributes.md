@@ -33,7 +33,7 @@ In addition to these required attributes, you can select the following propertie
     - **Usable in grid** (Yes/No): if you want to filter on this attribute in the product's grids or use it as a column.
     - **Locale specific**: this attribute will only be available for some locales.      
 Under `Validation Parameters`, add validations to control your data: 
-    - **Validation parameters**: each attribute comes with validation parameters (see [Add attributes validation parameters](#parameters-according-to-specific-attribute-types)).    
+    - **Validation parameters**: each attribute comes with validation parameters (see [Add attributes validation parameters](#add-attributes-validation-parameters)).    
 1. Click on `Save` to create your attribute.
 
 :::warning
