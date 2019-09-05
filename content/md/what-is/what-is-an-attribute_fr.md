@@ -21,7 +21,7 @@ Vous pouvez facilement créer des groupes d'attributs pour regrouper vos attribu
 Voici les types d'attributs disponibles dans Akeneo :
 - **Identifiant** : un code pour identifier votre produit, **ce code doit être unique**. Cela peut être un SKU, un EAN ... **Cet attribut est obligatoire pour créer des produits.**
 - **Texte** : un champ de texte d'une seule ligne pouvant contenir **jusqu'à 255 caractères**. Il est généralement utilisé pour un nom de produit.
-- **Zone de texte** : un champ de texte multiligne pouvant être utilisé, par exemple, pour une description du produit, un conseil d'utilisation ou même une composition détaillée. Ce type d'attribut propose une option [WYSIWYG](https://fr.wikipedia.org/wiki/What_you_see_is_what_you_get).
+- **Zone de texte** : un champ de texte multi lignes pouvant être utilisé, par exemple, pour une description du produit, un conseil d'utilisation ou même une composition détaillée. Ce type d'attribut propose une option [WYSIWYG](https://fr.wikipedia.org/wiki/What_you_see_is_what_you_get).
 - **Liste à choix unique** : une liste à choix unique contenant des options personnalisées. Une seule valeur peut être sélectionnée parmi les options disponibles.
 - **Liste à choix multiples** : une liste à choix multiples avec des options personnalisées. Plus d'une valeur peuvent être sélectionnées parmi les options disponibles.
 - **Oui / Non** : un attribut booléen
