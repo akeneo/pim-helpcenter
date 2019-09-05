@@ -48,11 +48,21 @@ Le code ne peut pas être modifié une fois créé.
 
 # Supprimer un type de groupe
 
-Pour supprimer un type de groupe :
+Vous avez deux façons de supprimer un type de groupe :
+
+Par la page de modification des types de groupe :
+
 1.  Aller à `Paramètres / Types de groupes`.
 1.  Cliquez sur le type de groupe à supprimer
 1.  Cliquez sur le bouton `Supprimer`.
 1.  Confirmer l'action via le message de validation
+
+Par le raccourci Supprimer dans la grille :
+
+1. Sélectionnez le type de groupe que vous voulez supprimer de la grille des types de groupe
+1. Placez votre souris sur la ligne du type de groupe dans la grille, le bouton `Supprimer` est affiché (icône poubelle)
+1. Cliquez sur l'icône de la corbeille
+1. Confirmez l'action via le message de validation
 
 Le type de groupe est supprimé.
 
