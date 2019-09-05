@@ -50,7 +50,7 @@ Si vous ne voyez pas vos nouvelles locales dans l'interface utilisateur, c'est p
 :::
 
 :::warning
-Vous pouvez facilement ajouter des locales, mais **vous ne pouvez pas les supprimer ensuite de l'interface utilisateur**. Veuillez vous assurer que vous avez vraiment besoin de locales supplémentaires avant de les importer!
+Vous pouvez facilement ajouter des locales, mais **vous ne pouvez pas les supprimer ensuite de l'interface utilisateur**. Veuillez vous assurer que vous avez vraiment besoin de locales supplémentaires avant de les importer !
 :::
 
 # Définir les autorisations sur les locales
