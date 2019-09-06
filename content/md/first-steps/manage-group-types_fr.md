@@ -1,7 +1,7 @@
 ---
 id: manage-your-group-types
 themes: catalog-settings
-title: Gérer vos **types de groupe**
+title: Gérer vos **types de groupes**
 popular: false
 ee-only: false
 ---
@@ -17,7 +17,7 @@ Il n'y a pas de groupe par défaut. Akeneo conseille de créer un type de groupe
 
 # Voir les types de groupes
 
-Pour voir les types de groupe, les modifier ou créer un nouveau type de groupe, allez dans `Paramètres / types de groupe`.
+Pour voir les types de groupe, les modifier ou créer un nouveau type de groupe, allez dans `Paramètres / types de groupes`.
 
 ![Liste des types de groupes](Settings_GroupsTypes_fr.png)
 
