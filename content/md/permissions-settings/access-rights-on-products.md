@@ -131,7 +131,7 @@ If a user **is owner of the product information** for the products that are in a
 ### The edition right
 If a user **has rights to only edit product information** for the products that are in a given category (ie his user groups have at least the `Allowed to edit products` permission), he will be able to:
 *   View the product information
-*   Create a product [draft](workflow.html) that will need to be approved by the product manager
+*   Create a product [draft](proposals-workflow.html#contribute-to-a-working-copy) that will need to be approved by the product manager
 *   Generate/send a proposal that will be processed by the product manager
 
 ### The view right
