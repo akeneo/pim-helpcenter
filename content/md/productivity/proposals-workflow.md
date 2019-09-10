@@ -55,7 +55,7 @@ You can come back later on your product draft version to finish your enrichment 
 
 # Contribute on your product draft
 
-A product form will have the `In progress` status after you propose new values for the product information, it also means it has not been yet sent for approval to product managers. We call "product managers", whatever user that has a [owner right](access-rights-on-products#the-owner-right) on this product.
+A product form will have the `In progress` status after you propose new values for the product information, it also means it has not been yet sent for approval to product managers. We call "product managers", whatever user that has a [owner right](access-rights-on-products.html#the-owner-right) on this product.
 
 You can continue to enrich your current draft by changing the product attributes values. Each time you will hit the `Save` button, a new draft will be generated.
 
