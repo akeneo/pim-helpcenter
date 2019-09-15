@@ -47,7 +47,7 @@ Pour revenir à la version actuelle qui est actuellement enrichie (incluant le p
 Pour restaurer une version :
 1.  Aller dans `Produits`
 1.  Cliquez sur le produit à restaurer
-1.  Cliquez sur l'entrée de menu `Historique`
+1.  Cliquez sur `Historique`
 1.  Cliquez sur le bouton `Restaurer` qui se trouve sur la ligne de la version du produit que vous voulez restaurer.
 
 ![comment restaurer un produit](Products_PEFHistoryProcess_fr.gif)
