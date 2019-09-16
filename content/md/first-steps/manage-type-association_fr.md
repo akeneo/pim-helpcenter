@@ -65,7 +65,7 @@ Si un type d'association est utilisé par au moins un produit, le type d'associa
 
 # Vérifiez l'historique du type d'association
 
-Les modifications apportées aux types d'association sont enregistrées et visibles sous l'onglet `Historique` du type d'association : changement de libellé.
+Les modifications apportées aux types d'association sont enregistrées et visibles sous l'onglet `Historique` du type d'association : exemple, les changements apportés aux libellés.
 
 Pour chaque modification, une version du type d'association est créée. Les informations suivantes sont recherchées pour chaque version :
 
