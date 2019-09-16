@@ -52,7 +52,7 @@ Le code ne peut pas être modifié une fois créé.
 # Supprimer un type d'association
 
 Pour supprimer un type d'association :
-1.  Aller à `Réglages/types d'association`.
+1.  Aller dans `Réglages/types d'association`.
 1.  Cliquez sur le type d'association que vous souhaitez supprimer de la grille
 1.  Cliquez sur le bouton `Supprimer`.
 1.  Confirmer l'action via la page de validation
