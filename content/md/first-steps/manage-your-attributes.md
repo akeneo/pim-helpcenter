@@ -33,7 +33,7 @@ In addition to these required attributes, you can select the following propertie
     - **Usable in grid** (Yes/No): if you want to filter on this attribute in the product's grids or use it as a column.
     - **Locale specific**: this attribute will only be available for some locales.      
 Under `Validation Parameters`, add validations to control your data: 
-    - **Validation parameters**: each attribute comes with validation parameters (see [Add attributes validation parameters](#parameters-according-to-specific-attribute-types)).    
+    - **Validation parameters**: each attribute comes with validation parameters (see [Add attributes validation parameters](#add-attributes-validation-parameters)).    
 1. Click on `Save` to create your attribute.
 
 :::warning
@@ -112,7 +112,7 @@ You can change the following properties of an attribute:
 - **Locale specific**: if it must apply to specific locales not all of them
 - **Usable in grid**: whether or not the attribute can be displayed as a column or used as a filter in the product grid _(Community and Enterprise Edition)_ or in the proposal grid _(Enterprise Edition only)_
 - **Read only**: when enabled it prevents this attribute from being edited in the UI, it can only be updated through imports or rules _(Enterprise Edition only)_
-- **Validation parameters** (see [Parameters according to specific attributes types](#parameters-according-to-specific-attribute-types))
+- **Validation parameters** (see [Add attributes validation parameters](#add-attributes-validation-parameters))
 - **Options** (for simple or multi select attribute types only): these are predefined values that the user can select
 
 # Find your attributes
