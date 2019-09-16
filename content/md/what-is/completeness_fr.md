@@ -6,7 +6,7 @@ popular: true
 related: product-completeness
 ---
 
-# A propos la complétude
+# A propos de la complétude
 Qu'est-ce que c'est que cette barre de progression **rouge, orange ou verte qui est affichée sur mon tableau de bord** ? Que signifie **le pourcentage sur ma grille de produits** ?
 
 **Il s'agit de la complétude !**
