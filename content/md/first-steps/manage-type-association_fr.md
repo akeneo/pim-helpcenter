@@ -8,7 +8,7 @@ ee-only: false
 
 # Vue d'ensemble
 
-Les types d'associations sont utilisés pour relier les produits entre eux.
+Les types d'associations sont nécessaires pour lier les produits entre eux.
 
 Par exemple, vous pouvez lier un produit à ses accessoires. Le code pour ce type d'association pourrait être "ACCESSOIRES".
 
