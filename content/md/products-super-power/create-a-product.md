@@ -46,5 +46,5 @@ A product model is used to **manage products with variants**, it gathers variant
 The product model is created and its form is displayed, you can start filling its attributes. For more details you can read our article [enrich your products with variants](enrich-products-variants.html).
 
 :::info
-Only the families with at least one family variant are listed. To manage family variants, refer to our article [Manage family variants](manage-your-families.html#manage-familys-variants).
+Only the families with at least one family variant are listed. To manage family variants, refer to our article [Manage family variants](manage-your-families.html#manage-family-variants).
 :::
