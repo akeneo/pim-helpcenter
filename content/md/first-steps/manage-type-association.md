@@ -65,7 +65,7 @@ If an association type is used by at least one product, then the association typ
 
 # Check the association type history
 
-Changes made on association types are recorded and visible under the history tab of the association type. For example: label change, attribute change, etc.
+Changes made on association types are recorded and visible under the history tab of the association type. 
 
 :For each change, a version of the association type is created. The following information is tracked down for each version:
 
