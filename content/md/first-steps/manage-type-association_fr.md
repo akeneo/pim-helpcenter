@@ -70,7 +70,7 @@ Les modifications apportées aux types d'association sont enregistrées et visib
 Pour chaque modification, une version du type d'association est créée. Les informations suivantes sont recherchées pour chaque version :
 
 * La personne ou le système qui a généré les changements
-* La date et l'heure (jusqu'à quelques secondes) auxquelles les changements ont eu lieu
+* La date et l'heure (à la seconde près) auxquelles les changements ont eu lieu
 * L'ancienne valeur et la nouvelle valeur de chaque champ modifié.
 
 Pour afficher les versions d'un type d'association :
