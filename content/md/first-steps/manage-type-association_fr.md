@@ -75,5 +75,5 @@ Pour chaque modification, une version du type d'association est créée. Les inf
 
 Pour afficher les versions d'un type d'association :
 
-1.  Ouvrez et modifiez la page du type d'association.
+1.  Ouvrez la page du type d'association
 1.  Cliquez sur l'onglet `Historique`. La liste des versions s'affiche.
