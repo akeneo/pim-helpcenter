@@ -15,7 +15,7 @@ La création du produit est soumise à des droits spécifiques.
 1.  Pour créer un produit, cliquez sur `Créer` dans le coin supérieur droit de la grille des produits :
     ![Créer un produit](Products_CreateProduct_fr.png)
 1.  Sélectionnez `Produit`
-1.  Spécifier un identifiant unique de produit
+1.  Spécifiez un identifiant unique de produit
 1.  Sélectionnez une famille pour le nouveau produit
 1.  Cliquez sur `Enregistrer`
 
@@ -36,7 +36,7 @@ Un modèle de produit est utilisé pour **gérer les produits à variantes**, il
 
 1.  Pour créer un modèle de produit, cliquez sur `Créer` dans le coin supérieur droit de la grille de produits
 1.  Sélectionnez `Modèle de produit`
-1.  Spécifier un code unique pour identifier le modèle de produit
+1.  Spécifiez un code unique pour identifier le modèle de produit
 1.  Choisissez une famille
 1.  Choisissez une variante de famille ([une variante de famille](what-about-products-variants.html) définit comment les produits à variantes sont structurés)
 1.  Cliquez sur `Enregistrer`
