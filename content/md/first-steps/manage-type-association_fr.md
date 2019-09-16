@@ -10,7 +10,7 @@ ee-only: false
 
 Les types d'associations sont nécessaires pour lier les produits entre eux.
 
-Par exemple, vous pouvez lier un produit à ses accessoires. Le code pour ce type d'association pourrait être "ACCESSOIRES".
+Par exemple, vous pouvez lier un produit à ses accessoires. Le code pour ce type d'association serait alors  `accessoires`.
 
 Les types d'association sont obligatoires pour créer un lien entre deux produits. Il n'y a pas de type d'association par défaut.
 
