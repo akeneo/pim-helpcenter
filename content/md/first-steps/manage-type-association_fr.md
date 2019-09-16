@@ -41,7 +41,7 @@ Les libellés peuvent être changés.
 # Modifier un type d'association
 
 Pour modifier un type d'association :
-1.  Aller à `Paramètres / types d'association`.
+1.  Aller dans `Paramètres / types d'association`.
 1.  Cliquez sur le type d'association que vous souhaitez modifier dans la grille
 1.  La page de modification apparaît
 1.  Seules les libellés peuvent être modifiés pour un type d'association  
