@@ -75,7 +75,7 @@ Un produit est considéré comme **complet** lorsqu'il a une complétude de 100%
 ![SCREENSHOT](Products_PEF12Completeness_fr.png)
 
 # À quelle fréquence la complétude est-elle actualisée ?
-La complétude est régénérée :
+La complétude est recalculée :
 - Après un import,
 - Après une action de masse,
 - Après l'exécution des règles,
