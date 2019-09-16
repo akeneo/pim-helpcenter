@@ -31,7 +31,7 @@ Vous devez avoir l'autorisation de créer un type d'association à partir du PIM
 :::
 
 Pour créer un type d'association :
-1.  Cliquez sur le bouton `Créer un type d'association`.
+1.  Cliquez sur le bouton `Créer un type d'association`
 1.  Saisissez le code du type d'association que vous voulez créer
 1.  Confirmez
 
@@ -41,20 +41,20 @@ Les libellés peuvent être changés.
 # Modifier un type d'association
 
 Pour modifier un type d'association :
-1.  Aller dans `Paramètres / types d'association`.
+1.  Aller dans `Paramètres / types d'association`
 1.  Cliquez sur le type d'association que vous souhaitez modifier dans la grille
 1.  La page de modification apparaît
 1.  Seules les libellés peuvent être modifiés pour un type d'association  
-1.  Cliquez sur le bouton `Enregistrer` pour enregistrer vos modifications.
+1.  Cliquez sur le bouton `Enregistrer` pour enregistrer vos modifications
 
 Le code ne peut pas être modifié une fois créé.
 
 # Supprimer un type d'association
 
 Pour supprimer un type d'association :
-1.  Aller dans `Réglages/types d'association`.
+1.  Aller dans `Réglages/types d'association`
 1.  Cliquez sur le type d'association que vous souhaitez supprimer de la grille
-1.  Cliquez sur le bouton `Supprimer`.
+1.  Cliquez sur le bouton `Supprimer`
 1.  Confirmer l'action via la page de validation
 
 Le type d'association est ensuite supprimé.
@@ -71,9 +71,9 @@ Pour chaque modification, une version du type d'association est créée. Les inf
 
 * La personne ou le système qui a généré les changements
 * La date et l'heure (à la seconde près) auxquelles les changements ont eu lieu
-* L'ancienne valeur et la nouvelle valeur de chaque champ modifié.
+* L'ancienne valeur et la nouvelle valeur de chaque champ modifié
 
 Pour afficher les versions d'un type d'association :
 
 1.  Ouvrez la page du type d'association
-1.  Cliquez sur l'onglet `Historique`. La liste des versions s'affiche.
+1.  Cliquez sur l'onglet `Historique`. La liste des versions s'affiche
