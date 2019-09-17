@@ -77,7 +77,7 @@ Les appels API se font via :
 | Endpoints des groupes d'attributs   |                                          |
 |:----------------------------------|:-----------------------------------------|
 | Créer et mettre à jour les groupes d'attributs | Donne l'autorisation de POST et PATCH sur le endpoint des groupes d'attributs |
-| Liste des groupes d'attributs | Autorise GET sur le endpoint des groupes d'attributs |
+| Liste des groupes d'attributs | Donne l'autorisation de GET sur le endpoint des groupes d'attributs |
 
 | Endpoints des devises             |                                          |
 |:----------------------------------|:-----------------------------------------|
