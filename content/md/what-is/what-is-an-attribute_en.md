@@ -2,7 +2,7 @@
 id: what-is-an-attribute
 themes: first-steps, akeneo-concepts
 title: What is an **attribute**?
-related: manage-your-attributes, what-is-an-attribute-group
+related: manage-your-attributes, what-is-an-attribute-group, manage-your-currencies
 ---
 
 # Definition of an attribute
@@ -17,7 +17,7 @@ Depending on your Akeneo Edition version, you can have up to 15 attribute types:
 - **boolean** (yes/no)
 - **date**
 - **number**
-- **price**
+- **price** See the [Manage your currencies](manage-your-currencies.html) article.
 - **metric** (with automatic conversions): this attribute type allows you to **automatically convert metric values into others to fit your export needs**. See the [Manage your Channels](manage-your-channels.html#create-a-channel) article.
 - **media file**: a simple file (pdf file for instance) or an image
 - **[asset collection](work-with-assets.html)**: digital resources like a video, picture, pdf file... _(Entreprise Edition only)_
