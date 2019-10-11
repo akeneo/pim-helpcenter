@@ -23,7 +23,8 @@ var _ = require('lodash');
 var majorVersion = 'v3';
 
 function getTocMarkdown(currentPage) {
-    return "\n\n:::: toc\n@[toc]\n\n::::\n\n";
+    var language = /.*_(.*)\.md/g.exec(path.basename(currentPage)) ? /.*_(.*)\.md/g.exec(path.basename(currentPage))[1] : 'en';
+    return "\n\n:::: toc_"+language+"\n@[toc]\n\n::::\n\n";
 }
 
 /**
@@ -142,9 +143,19 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes-pages', 'grab-ar
     };
 
     md.use(mdToc, optionsToc)
-        .use(require('markdown-it-container'), 'toc', {
+        .use(require('markdown-it-container'), 'toc_fr', {
             validate: function(params) {
-                return params.trim().match(/^toc$/);
+                return params.trim().match(/^toc_fr/);
+            },
+            render: function (tokens, idx) {
+                return (tokens[idx].nesting === 1) ? '<div id="navbar" class="col-sm-3 hidden-xs sticky">' +
+                    '<nav role="tablist" id="navbar-nav"><ul class="nav nav-stacked"><p class="pre-nav">Sommaire</p>' :
+                    '</ul></nav></div>\n';
+            }
+        })
+        .use(require('markdown-it-container'), 'toc_en', {
+            validate: function(params) {
+                return params.trim().match(/^toc_en/);
             },
             render: function (tokens, idx) {
                 return (tokens[idx].nesting === 1) ? '<div id="navbar" class="col-sm-3 hidden-xs sticky">' +
@@ -257,7 +268,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes-pages', 'grab-ar
                             selectedLanguage: language,
                             majorVersion: majorVersion
                         });
-        
+
                     return gulp.src('src/article.handlebars')
                                     .pipe(gulpHandlebars(injectedStrings, {
                                     partialsDirectory: ['./src/partials']
