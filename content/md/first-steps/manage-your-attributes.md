@@ -42,7 +42,7 @@ Under `Validation Parameters`, add validations to control your data:
 
 ::: warning
 Please note that the **following attribute codes cannot be used** in Akeneo PIM:    
-`id`, `identifier`, `Identifier`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `Family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `label`, `LABEL`, `Label`, `parent`. We strongly recommend you not to use any of these codes even if the letter case is different, for instance `Id`, `Groups`.
+`id`, `ID`,`identifier`, `Identifier`, `associationTypes`, `category`, `categories`, `categoryId`, `completeness`, `enabled`, `family`, `Family`, `groups`, `associations`, `products`, `scope`, `treeId`, `values`, `label`, `LABEL`, `Label`, `parent`. We strongly recommend you not to use any of these codes even if the letter case is different, for instance `Id`, `Groups`.
 :::
 
 ## Add attributes validation parameters
