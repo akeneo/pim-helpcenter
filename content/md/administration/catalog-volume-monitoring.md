@@ -57,7 +57,7 @@ The `Axes related to the catalog structure` section gathers all the axes that ha
 The `Axes regarding the variant modeling` section gathers the number of product models and [variant products](what-about-products-variants.html).
 
 ::: ee
-In the Entreprise Edition, there is an additional section called `Axes on assets` that will give you the volume regarding [assets](work-with-assets.html).
+In the Enterprise Edition, there is an additional section called `Axes on assets` that will give you the volume regarding [assets](work-with-assets.html).
 :::
 
 ## The alerts
