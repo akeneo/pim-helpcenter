@@ -8,7 +8,7 @@ related: what-is-a-project, project-widget-dashboard, what-is-a-locale, imports,
 
 # Overview
 
-Akeneo's Dashboard allows you to easily follow up your catalog enrichment progress, review the collaborative projects advancement (number of products completed, in progress or to be done) and supervise your teammates activity with the Teamwork Assistant project's widget.   
+The Akeneo PIM Dashboard allows you to easily track catalog enrichment progress, review how projects are advancing -- showing the number of products completed, in progress or to be done -- and supervise your team's activity with the Teamwork Assistant project widget.   
 It will also enable you to overview the number of products complete and incomplete per channel and locale, check the last operations and access the jobs reports in one click.    
 Finally, visualize the latest proposals for product changes you have to review. Akeneo's Dashboard displays you at a glance all the information you need to optimize your working day!    
 Akeneo Dashboard is the default opening page, once you've logged in.
