@@ -82,7 +82,7 @@ To bring you more visibility, the job status is displayed in green when successf
 
 ## Proposals to review _(EE only)_
 
-In the Entreprise Edition and depending on [your permissions](access-rights-on-products.html), you might see an additional widget that allows you to [review suggestion of modifications made on products](review-products-proposals.html).
+In the Enterprise Edition and depending on [your permissions](access-rights-on-products.html), you might see an additional widget that allows you to [review suggestion of modifications made on products](review-products-proposals.html).
 
 ![Proposals to review](../img/Activity_Proposals.png)
 
