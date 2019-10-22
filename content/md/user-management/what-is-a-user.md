@@ -24,7 +24,7 @@ A user has at least:
  - a role.
 
 ::: ee
-A user can belong to one or several [user groups](what-is-a-user-group.html). In the Entreprise Edition, this is really useful when you want to assign them permissions regarding the products data. By default, when a user is created, he does not belong to any user group. 
+A user can belong to one or several [user groups](what-is-a-user-group.html). In the Enterprise Edition, this is really useful when you want to assign them permissions regarding the products data. By default, when a user is created, he does not belong to any user group. 
 To know more about this subject, read [Build your user groups](build-your-user-groups.html).
 :::
 
