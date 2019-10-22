@@ -11,18 +11,24 @@ related: manage-your-locales, what-is-an-attribute, access-rights-on-products
 
 ![What-is-a-locale?](../img/what-is-a-locale.svg)
 
-A locale in Akeneo is a combination of a language (English, German, French...) and a country (United States, United Kingdom, France…). For instance, US english is represented as `en_US` and UK english as `en_UK`. **Akeneo offers more than 200 locales by default** that you can enable depending on your needs.  
+A locale in Akeneo is a **combination of a language** (English, German, Spanish, Italian, Japanese, French...) **and a country** (United States, Canada, United Kingdom, Sweden, Japan, Spain, France…). For instance, US English or American English is represented as: `en_US` and British English as: `en_GB`.   
+**Akeneo offers more than 200 locales by default** that you can enable depending on your needs.  
 
-Locales allow **to translate** some product information in the interface. They are also very central in the PIM because they are used to set on [attributes](what-is-an-attribute.html) values that may differ according to each locale. For instance, instead of having several `description` attributes: one for each locale enabled, you will have a **unique `description` attribute that will be filled depending on the selected locale**. We will say that this attribute is **localizable**.
+Activating a locale in Akeneo will allow **to translate your product information** in this locale directly in Akeneo's interface. For instance, instead of having several `description` attributes: one in American English, another one in Spanish and another one in German, you can have one **unique `description` attribute that will have a specific content for each enabled locale**. We will say that this attribute is **localizable**.
+A localizable attribute is an [attribute](what-is-an-attribute.html) whose values may differ according to each locale.
 
 # Do I need one locale enabled or more?
 
-You can have one or more locales activated in your PIM, but **a locale must be over all seen as an export language**. If you are selling the same products in France, Belgium, Canada and Switzerland, you will need a description, name, specs... translated in French. But you **do not necessarily need to enable 4 locales: fr_FR, fr_BE, fr_CA, fr_CH**. Why? Because if your product information is the same for these 4 languages, then you can only use one locale for the content :) 
+You can have one or more locales activated in your PIM, but **a locale must be overall seen as an export language**. If you are selling the same products in countries speaking the same language like French in France, Belgium, Canada and Switzerland, you will need to have some attribute information in French, but you **do not necessarily need to enable 4 locales: fr_FR, fr_BE, fr_CA, fr_CH**. Why? Because if your product information is the same for these 4 countries, then you can only use one locale for the content :). But if the content differs depending on the targetted country, you can enable several French locales and have specific content for each country.    
 
-If you can't find happiness with our 200 locales, you can still add new ones :) Follow the steps described in the [How to add a new locale](manage-your-locales.html#how-to-add-a-new-locale) article.
+:::tips
+For similar content, **use our [Rules Engine](what-is-a-rule.html) to copy attributes values from a locale to another locale!** 
+:::
+
+If you can't find happiness with our 200 locales, you can still add new ones :). Follow the steps described in the [How to add a new locale](manage-your-locales.html#how-to-add-a-new-locale) article.
 
 ::: ee
-**In the Enterprise Edition, you can define specific user [rights on locales](access-rights-on-products.html#rights-depending-on-the-locale)**: who can see or edit some product information for a specific locale.
+**In the Enterprise Edition, you can define specific [user rights on locales](access-rights-on-products.html#rights-depending-on-the-locale)**: in other words, who can see or edit some product information for a specific locale.
 :::
 
 ::: info
@@ -30,5 +36,5 @@ If you can't find happiness with our 200 locales, you can still add new ones :) 
 :::
 
 ::: warning
-Don't mix the locale concept with the interface language. :)
+Don't mix the locale concept with the interface language :)
 :::
