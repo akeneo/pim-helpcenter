@@ -25,7 +25,7 @@ Wherever you are in the PIM, to go back to the dashboard, just click on the Aken
 
 ## Teamwork assistant projects _(EE only)_
 
-In the Entreprise Edition, the first widget of the dashboard is the **widget gathering the projects created with the [Teamwork Assistant](what-is-a-project.html)**.
+In the Enterprise Edition, the first widget on the dashboard is the **widget gathering the projects created with the [Teamwork Assistant](what-is-a-project.html)**.
 
 ![Dashboard_Project](../img/Dashboard_Project.png)
 
