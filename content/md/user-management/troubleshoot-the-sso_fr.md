@@ -10,7 +10,7 @@ priority: low
 
 # Vue d'ensemble
 
-Le Single Sign-On est un outil puissant pour la productivité, mais parfois, en ce qui concerne les applications multiples, il peut s'avérer fastidieux de dépanner lorsque quelque chose ne va pas.
+Le Single Sign-On est un outil puissant pour la productivité, mais parfois, quand de multiples applications sont liées, il peut s'avérer fastidieux de le dépanner lorsque quelque chose ne va pas.
 
 Voici quelques conseils pour vous aider à comprendre ce qui se passe entre votre `IdP` et votre `SP`.
 
@@ -24,7 +24,7 @@ Vous ne connaissez pas les termes `fournisseur d'identités`, `IdP`, `fournisseu
    * l'identité de l'entité du SP
    * l'URL `ACS`.
 1. Assurez-vous qu'il n'y a pas de coquille ou de caractères manquants.
-1. S'assurer que les revendications sont définies dans l'IdP : au moins un attribut **akeneo_uid** doit être déclaré et doit envoyer les informations qui seront vérifiées par rapport au nom d'utilisateur dans le PIM.
+1. Assurez-vous que les revendications sont définies dans l'IdP : au moins un attribut **akeneo_uid** doit être déclaré et doit envoyer les informations qui seront vérifiées par rapport au nom d'utilisateur dans le PIM.
 1. Vérifiez si les utilisateurs sont créés dans votre serveur d'authentification et sont autorisés à accéder au PIM.
 
 # Vérifiez votre configuration PIM
@@ -54,7 +54,7 @@ Les fichiers journaux peuvent être téléchargés sous forme d'archive zip cont
 
 ![image](sso-download-logs_fr.png)
 
-# Go deeper into your IdP
+# Creusez grâce à votre IdP
 
 De nombreux `fournisseurs d'identités` disposent d'outils pour diagnostiquer un SSO défectueux ou non fonctionnel.
-La recherche de votre documentation IdP sur _'Troubleshoot SSO'_ peut vous aider à trouver des outils.
+La recherche de votre documentation IdP sur _'Troubleshoot SSO'_ peut vous aider à trouver des outils et des solutions.

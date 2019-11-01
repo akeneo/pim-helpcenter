@@ -1,10 +1,10 @@
 ---
 id: configure-saml-sso
 themes: user-management
-title: Configurez l'authentification unique **Single Sign-On** basée sur SAML 
+title: Configurez l'authentification unique **Single Sign-On** basée sur SAML
 popular: false
 ee-only: true
-related:
+related: troubleshoot-the-sso
 priority: low
 ---
 
@@ -26,21 +26,21 @@ Le `fournisseur d'identité` (Identity Provider aka `IdP`) est l'autorité qui v
 
 Le `fournisseur de services` (Service Provider aka `SP`) est la ressource hébergée à laquelle l'utilisateur tente d'accéder. Dans notre scénario, le `SP` fait partie du PIM qui gère le processus d'authentification.
 
-#### ID de l'entité
+### ID de l'entité
 
-Un ID d'entité est un nom unique au monde pour un `fournisseur d'identité` ou un `fournisseur de services`. Ce nom unique est utilisé pour identifier chaque partie dans le processus du BSP.
+Un ID d'entité est un nom unique au monde pour un `fournisseur d'identité` ou un `fournisseur de services`. Ce nom unique est utilisé pour identifier chaque partie dans le processus du SSO.
 Pour le `Fournisseur de services`, l'ID de l'entité est automatiquement généré et correspond par défaut à l'URL des métadonnées du `SP`.
 
-### Service à la clientèle d'affirmation de soi (ACS)
+### Assertion Consumer Service (ACS)
 
-L'ACS est l'extrémité SP (URL) qui est responsable de la réception de la réponse SAML de l'IdP.
+L'ACS est l'extrémité du SP (URL) qui est responsable de la réception de la réponse SAML de l'IdP.
 
-#### Métadonnées
+### Métadonnées
 
 Les métadonnées sont un ensemble d'informations fournies par l'IdP ou le SP, en format XML.
 * `Fournisseur de services` : Les informations de métadonnées fournies par le SP contiennent l'ID de l'entité, le certificat X.509 utilisé pour déchiffrer les messages provenant du SP, l'URL de déconnexion et l'URL ACS.
 
-::::tips
+::: tips
 L'information sur les métadonnées du SP peut être consultée à l'adresse URL suivante : https://YOUR_PIM_SERVER/saml/metadata. Selon votre IdP, cette URL de métadonnées peut être importée directement dans l'IdP pour faciliter le processus de configuration.
 :::
 
@@ -58,7 +58,7 @@ Le Single Sign-On basé sur SAML est une communication bidirectionnelle entre un
 
 Tout d'abord, avant de configurer votre PIM pour communiquer avec un `Identity Provider`, vous devrez rassembler quelques informations sur votre `IdP`. Votre département IT/administrateur SSO doit probablement avoir toutes les informations.
 
-## Activer la fonction d'ouverture de session unique
+## Activez la fonction d'ouverture de session unique
 
 Pour activer la fonction de Single Sign-On, il suffit de cliquer sur le bouton `SSO enabled` dans l'interface.
 Une fois activée, toutes les demandes d'authentification seront redirigées vers le serveur d'authentification que vous avez spécifié.
@@ -70,9 +70,9 @@ Une fois activée, toutes les demandes d'authentification seront redirigées ver
 À l'aide des renseignements que vous avez recueillis précédemment, vous pouvez remplir tous les champs requis pour communiquer avec l'IdP.
 Les valeurs obligatoires sont les suivantes :
 * `Entity ID` : Chaîne qui identifie de façon unique votre IdP (elle est en général fournie par votre IdP)
-* `Sign-on URL` : URL qui sera utilisée lorsqu'un utilisateur essaie de se connecter au PIM
-* `Logout URL` : URL qui sera utilisée lorsqu'un utilisateur demande une action de déconnexion dans le PIM
-* `Certificat public` : Comme les communications sont chiffrées entre le SP et l'IdP, la clé publique IdP est nécessaire pour déchiffrer tout message entrant.
+* `URL Sign-on` : URL qui sera utilisée lorsqu'un utilisateur essaie de se connecter au PIM
+* `URL de déconnexion` : URL qui sera utilisée lorsqu'un utilisateur demande une action de déconnexion dans le PIM
+* `Certificat` : Comme les communications sont chiffrées entre le SP et l'IdP, la clé publique IdP est nécessaire pour déchiffrer tout message entrant.
 
 ::: info
 Les certificats doivent être au format X.509.
@@ -90,7 +90,7 @@ Ces informations seront nécessaires pour configurer votre IdP.
 
 Les informations requises pour configurer le SP sont les suivantes :
 * `Entity ID` : Chaîne qui identifie de façon unique votre SP (cette information doit être fournie à l'IdP)
-* Certificats de clés publiques et privées : Comme les communications sont chiffrées, les clés privées et publiques sont nécessaires pour déchiffrer les messages sortants.
+* `Certificat` et `Clé privée` : Comme les communications sont chiffrées, les clés privées et publiques sont nécessaires pour déchiffrer les messages sortants.
 
 ::: tips
 Les `URL des métadonnées` et `URL de l'ACS` sont en lecture seule. Ils disposent d'une fonctionnalité de copie intégrée pour copier facilement l'URL dans le presse-papiers.
@@ -102,10 +102,10 @@ Le certificat SP est auto-signé et est généré pour ne jamais expirer. Vous n
 
 # Désactivez le SSO
 
-Pour désactiver la fonction de Single Sign-On, cliquez simplement sur le bouton `SSO enabled` dans l'interface.
+Pour désactiver la fonction de Single Sign-On, cliquez simplement sur le bouton `SSO activé` dans l'interface.
 Une fois désactivée, toutes les demandes d'authentification passeront par l'interface de connexion classique.
 
-# Tips and tricks
+# Trucs et astuces
 
 ## A propos des utilisateurs dans le PIM
 
@@ -115,10 +115,10 @@ D'autre part, les utilisateurs créés dans le PIM seront toujours nécessaires 
 Vous devrez vous assurer que tous les utilisateurs potentiels de votre IdP qui peuvent accéder au PIM ont un compte configuré dans le PIM.
 Les utilisateurs inconnus ne sont pas générés à la volée lorsqu'ils accèdent au PIM. Si un utilisateur n'existe pas dans le PIM, il ne pourra pas accéder au PIM et une erreur apparaîtra.
 
-## A propos des réclamations des utilisateurs
+## A propos des revendications des utilisateurs
 
-Les réclamations de l'utilisateur sont des informations que le fournisseur de services attend lorsqu'une authentification est effectuée sur l'IdP et que la réponse positive est renvoyée au PIM.
-Ces valeurs sont obligatoires pour que le Single Sign-On dans le PIM fonctionne. Votre administrateur SSO doit configurer la réponse IdP pour intégrer ces valeurs. Veuillez consulter la documentation de votre IdP pour savoir comment configurer les réclamations sur l'IdP.
+Les revendications de l'utilisateur sont des informations que le fournisseur de services attend lorsqu'une authentification est effectuée sur l'IdP et que la réponse positive est renvoyée au PIM.
+Ces valeurs sont obligatoires pour que le Single Sign-On dans le PIM fonctionne. Votre administrateur SSO doit configurer la réponse IdP pour intégrer ces valeurs. Veuillez consulter la documentation de votre IdP pour savoir comment configurer les revendications sur l'IdP.
 
 La réponse IdP doit contenir les attributs suivants :
 * **akeneo_uid** : Sera utilisé pour vérifier le nom d'utilisateur dans la base de données PIM. C'est la partie la plus importante de la communication SAML.
