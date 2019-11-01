@@ -2,6 +2,9 @@
 id: what-is-a-locale
 themes: first-steps, akeneo-concepts
 title: Qu'est-ce qu'une **locale**?
+popular: false
+ee-only: false
+related: manage-your-locales, what-is-an-attribute, access-rights-on-products
 ---
 
 # Définition d'une locale

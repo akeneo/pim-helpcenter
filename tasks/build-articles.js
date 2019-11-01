@@ -49,7 +49,7 @@ gulp.task('grab-article-messages', function(){
     return gulp.src('content/messages/*.yaml')
             .pipe(tap(function(file, t) {
                 if(!messages){
-                    messages = [];   
+                    messages = [];
                 }
                 var language = /messages-(.*)\.yaml/g.exec(path.basename(file.path))[1];
                 messages.push(_.extend(readYaml.sync(file.path),{language: language}));
@@ -212,6 +212,8 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes-pages', 'grab-ar
             // the related articles of one given article
             return stream.on('end', function(){
                 var stream2;
+                //we keep the language of the actual file to try to find translated related articles
+                var language = /.*_(.*)\.md/g.exec(path.basename(file.path)) ? /.*_(.*)\.md/g.exec(path.basename(file.path))[1] : 'en';
                 var articleId;
                 stream2 = gulp.src('content/md/**/*.md')
                         .pipe(frontMatter({property: 'fm',remove: true}))
@@ -221,14 +223,35 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes-pages', 'grab-ar
                                 relatedArticlesId.forEach(function(relatedArticleId){
                                     if(relatedArticleId.trim() === articleId){
                                         relatedArticleTitle = file.fm['title'] == undefined ? '' : file.fm['title'];
+                                        //we get the actual language of the article to be sure to prevent any dead link
+                                        articleLanguage = /.*_(.*)\.md/g.exec(path.basename(file.path)) ? /.*_(.*)\.md/g.exec(path.basename(file.path))[1] : 'en';
                                         var article = {
                                             articleName: relatedArticleTitle.replace(/\*\*/, '<strong>').replace(/\*\*/, '</strong>'),
-                                            articlePath: articleId + '.html',
-                                            eeOnly: file.fm['ee-only'] == undefined ? '' : file.fm['ee-only']
+                                            articlePath: '/pim/' + majorVersion + '/' + articleLanguage + '/articles/' + articleId + '.html',
+                                            articleId: articleId,
+                                            eeOnly: file.fm['ee-only'] == undefined ? '' : file.fm['ee-only'],
+                                            language: /.*_(.*)\.md/g.exec(path.basename(file.path)) ? /.*_(.*)\.md/g.exec(path.basename(file.path))[1] : 'en'
                                         };
                                         if(relatedArticles){
-                                            relatedArticles.push(article);
-                                        }else{
+                                            var index = relatedArticles.findIndex(x => x.articleId === article.articleId);
+                                            //Same article detected
+                                            if(index > -1 ){
+                                                //Correct language detected ==> we replace the article
+                                                if (article.language===language) {
+                                                    relatedArticles[index] = article;
+                                                }
+                                                //If not the same language, we try to put the EN transalation (to manage more than 2 translations of the Helpcenter)
+                                                else if (relatedArticles[index].language != 'en' && article.language === 'en') {
+                                                    relatedArticles[index] = article;
+                                                }
+                                            }
+                                            //the article appears for the first time as Related Article
+                                            else{
+                                              relatedArticles.push(article);
+                                            }
+                                        }
+                                        //first related article
+                                        else{
                                             relatedArticles = [article];
                                         }
                                     }
@@ -257,7 +280,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes-pages', 'grab-ar
                             selectedLanguage: language,
                             majorVersion: majorVersion
                         });
-        
+
                     return gulp.src('src/article.handlebars')
                                     .pipe(gulpHandlebars(injectedStrings, {
                                     partialsDirectory: ['./src/partials']
