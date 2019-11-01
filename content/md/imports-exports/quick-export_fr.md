@@ -15,8 +15,9 @@ Pour effectuer l'export des informations produit à partir de la grille des prod
 1. Recherchez des produits dans la grille avec les filtres appropriés
 1. Sélectionnez les produits sur lesquels vous voulez effectuer l'opération :
     - En cochant dans la grille produit
-    - Via l'outil de sélection `tous` pour sélectionner tous les produits filtrés
-    - Via l'outil de sélection `tous les éléments visibles`   
+    - Via l'outil de sélection `Tous` pour sélectionner tous les produits filtrés
+    - Via l'outil de sélection `Tous les éléments visibles`   
+    - (vous pouvez remettre à 0 la sélection via l'outil de sélection `Aucune`)
 ![image](Produits_BulkActions_fr.png)
 1.  Cliquez sur le bouton `Export Rapide` qui s'affiche en bas de l'écran et sélectionnez :
     - `Excel (Contexte de la grille)` pour générer des fichiers Excel en fonction de votre vue actuelle
@@ -35,15 +36,15 @@ Sur la page de rapport, vous pouvez télécharger les fichiers générés.
 ![image](Produits_QuickExportDownload_fr.png)
 
 Deux fichiers sont créés :
-1. Un fichier avec les produits sélectionnés nommé `products_export_<Working Locale Code>_<Working channel Code>_Date_Heure.xlsx` ou avec l'extension `.csv`
-2. Un fichier avec les modèles de produits sélectionnés nommé `product_models_export_<Working Locale Code>_<Working channel Code>_Date_Heure.xlsx` ou avec l'extension `.csv`
+1. Un fichier avec les produits sélectionnés nommé `products_export_<Code Locale Active>_<Code Canal Actif>_Date_Heure.xlsx` ou avec l'extension `.csv`
+2. Un fichier avec les modèles de produits sélectionnés nommé `product_models_export_<Code Locale Active>_<Code Canal Actif>_Date_Heure.xlsx` ou avec l'extension `.csv`
 
 Les fichiers créés contiennent une ligne par produit ou modèle de produit exporté et une colonne pour chaque information produit disponible. Le format du fichier généré est le même que pour l'import et l'export du produit au format CSV ou XLSX avec le connecteur Akeneo.
 
 ![image](Exporte_XLSXexample_fr.png)
 
 ::: warning
-Notez que les variantes d'un modèle de produit sélectionné ne sont pas exportées. Pour les exporter, il faut filtrer la grille produit et les sélectionner.
+Notez que les variantes d'un modèle de produit sélectionné ne sont pas exportées. Pour les exporter, il faut filtrer la grille produit pour les afficher et ensuite les sélectionner.
 :::
 
 Seul le canal sélectionné est pris en compte, et donc toutes les informations de toutes les locales pour le canal sont exportées. La locale sélectionnée n'est pas prise en compte.
@@ -51,7 +52,7 @@ Seul le canal sélectionné est pris en compte, et donc toutes les informations 
 Pour cette export à partir de la grille, la complétude, le statut des produits, leur classification ne sont pas pris en compte pour déterminer quelles informations peuvent être exportées. Tous les produits et modèles de produits sélectionnés dans la grille de produits, quels que soient leurs détails, sont exportés vers le fichier CSV ou le fichier XLSX.
 
 ::: warning
-Notez que les colonnes suivantes ne sont pas exportées : `Libellé`, `Image`, `Complet`, `Créée le`, `Mise à jour le` et `Produits variantes`.
+Notez que les colonnes suivantes ne sont pas exportées : `Libellé`, `Image`, `Complet`, `Créé le`, `Mis à jour le` et `Produits variants`.
 :::
 
 ::: ee
