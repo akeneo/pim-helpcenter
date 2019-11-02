@@ -44,14 +44,14 @@ For the `Brand` reference entity, a record contains all the information regardin
 ![Reference entity record](what-about-reference-entities_record.png)
 
 
-:::info
+::: info
 A record may be related to one or several products.
 :::
 
 # Let's create your first reference entity!
 
 From a single place, in a dedicated `Entities` menu, you can create your first reference entity, define its records attributes, enrich its first records and link them to products. Let's go!
-1. [Create your 1st reference entity](/articles/manage-reference-entities.html#create-a-reference-entity)
-1. [Add and enrich its 1st records](/articles/enrich-your-reference-entity-records.html)
-1. [Define a new product attribute to link this reference entity to products](/articles/manage-your-attributes.html#create-an-attribute)
-1. [Link the products to the reference entity records](/articles/work-on-a-product.html)
+1. [Create your 1st reference entity](manage-reference-entities.html#create-a-reference-entity)
+1. [Add and enrich its 1st records](enrich-your-reference-entity-records.html)
+1. [Define a new product attribute to link this reference entity to products](manage-your-attributes.html#create-an-attribute)
+1. [Link the products to the reference entity records](work-on-a-product.html)
