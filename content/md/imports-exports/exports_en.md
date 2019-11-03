@@ -113,7 +113,7 @@ In the case of *product and published product exports*, the PIM takes into accou
 - you **do not have a view right** on the `Marketing` attribute group, you won't be able to export the product information of the attributes in this attribute group
 - you **do not have a view right** on the `de_DE` locale, you won't be able to export any product data regarding this locale
 
-If you want to know more about how the rights on product data works in the PIM, take a look to the [Access rights in products](access-rights-on-rpoducts) article.
+If you want to know more about how the rights on product data works in the PIM, take a look to the [Access rights on products](access-rights-on-products.html) article.
 
 ### Rights on export execution
 The permission to execute exports can be customized for each export profile. So if you cannot launch an export, be sure that you have the right to run it in the `Permissions` tab of your export profile in edition mode. See the [Access rights on imports/exports](access-rights-on-imports-exports.html) article for more details.
