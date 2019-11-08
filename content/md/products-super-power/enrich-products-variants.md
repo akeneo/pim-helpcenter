@@ -218,6 +218,11 @@ You can add a variant to a product model from the product form via the navigatio
 
 1.  In the navigation component `EU Shoes Size`, click on the `Add new` button, a pop-in is displayed
   ![Add new variant](../img/Products_ProductModel_AddProduct_1.png)
+  
+  ::: ee
+In the Enterprise Edition, the `New` button will not be displayed, if the user has no edit permissions on the attribute group of the product identifier attribute.
+:::
+
 1.  Select or enter the values for the variant axes
 1.  Specify a product model code or a product identifier depending on the variant level
   ![Add new variant](../img/Products_ProductModel_AddProduct_2.png)
