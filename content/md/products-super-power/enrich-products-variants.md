@@ -218,11 +218,6 @@ You can add a variant to a product model from the product form via the navigatio
 
 1.  In the navigation component `EU Shoes Size`, click on the `Add new` button, a pop-in is displayed
   ![Add new variant](../img/Products_ProductModel_AddProduct_1.png)
-  
-  ::: ee
-In the Enterprise Edition, the `New` button will not be displayed, if the user has no edit permissions on the attribute group of the product identifier attribute.
-:::
-
 1.  Select or enter the values for the variant axes
 1.  Specify a product model code or a product identifier depending on the variant level
   ![Add new variant](../img/Products_ProductModel_AddProduct_2.png)
@@ -233,6 +228,10 @@ The variant is added to the product model and its form is displayed, you can sta
 
 ::: info
 If the [family variant](what-about-products-variants.html#what-is-a-family-variant) has 2 variant levels (for example by color then by size), you can add a variant `COLOR` at the 1st variant level as a product model (with a code) or you can also add a variant `SIZE` to a `COLOR` at the 2nd variant level as a variant product (with a product identifier).
+:::
+
+::: ee
+In the Enterprise Edition, the `ADD NEW` button will not be displayed, if the user has no edit permissions on the attribute group of the product identifier attribute.
 :::
 
 # View their history
