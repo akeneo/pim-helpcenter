@@ -230,6 +230,10 @@ The variant is added to the product model and its form is displayed, you can sta
 If the [family variant](what-about-products-variants.html#what-is-a-family-variant) has 2 variant levels (for example by color then by size), you can add a variant `COLOR` at the 1st variant level as a product model (with a code) or you can also add a variant `SIZE` to a `COLOR` at the 2nd variant level as a variant product (with a product identifier).
 :::
 
+::: ee
+In the Enterprise Edition, the `ADD NEW` button will not be displayed, if the user has no edit permissions on the attribute group of the product identifier attribute.
+:::
+
 # View their history
 
 For each change, a new version is created. What is tracked down for each version:
