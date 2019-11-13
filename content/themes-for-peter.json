@@ -9,9 +9,14 @@
             "description": "New to Akeneo? Start here with the basics. Remember every Jedi Knight began as a young Padawan!"
         },
         "catalog-settings":{
-            "title": "Building your catalog",
+            "title": "Build your catalog",
             "img": "illus-catalog.svg",
             "description": "Tailoring the catalog model to the needs of your users is absolutely crucial. Before beginning to play with Akeneo, be sure to check out these few key settings."
+        },
+        "connectivity":{
+            "title": "Connect your PIM",
+            "img": "illus-connectivity.svg",
+            "description": "Can we agree that a PIM on its own is pretty useless? So let's connect your PIM with all the data flows it needs to fulfill its purpose."
         },
         "user-management":{
             "title": "User Management",
