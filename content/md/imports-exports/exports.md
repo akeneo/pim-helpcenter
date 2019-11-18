@@ -17,16 +17,29 @@ You have several ways to export your product information:
 
 When exporting data, Akeneo PIM extracts data from the PIM and converts it into a certain format to a file or directly to a third party application (eg Magento).
 
-::: info
 The exports can be done in two formats: CSV and XSLX.
-:::
+
 
 You can export product data, of course, but also catalog entities such as the families, the categories, the attributes...
 
+::: info
 ## Steps of an export
 File export process is really simple. It consists of:
 1.  Creating an export profile (see below for more information about it)
 1.  Launching the CSV or XLSX file export
+:::
+
+::: info
+TEST **Markdown**
+![image](../img/Exports_Mainpage.png)
+:::
+
+
+::: success
+*   :tada:  ** ET **  
+:::
+
+
 
 ## What is a export profile?
 An export profile allows to perform exports from the PIM. This profile format is based on:
@@ -62,7 +75,7 @@ To create a new export profile:
 # Update an export profile
 
 To update an export profile:
-1.  Connect with a user account
+1.  Connect witeth a user account
 1.  Go to the `Exports` menu
 1.  Click on the export profile that needs to be modified
 1.  Click on the `Edit` button
