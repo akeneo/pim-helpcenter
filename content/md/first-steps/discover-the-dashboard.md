@@ -7,7 +7,7 @@ related: what-is-a-project, project-widget-dashboard, imports, exports, review-p
 ---
 
 # Overview
-The dashboard is the default opening page, once you've logged in.
+The dashboard is the default opening page once you've logged in.
 
 ![Overview](../img/Dashboard.png)
 
