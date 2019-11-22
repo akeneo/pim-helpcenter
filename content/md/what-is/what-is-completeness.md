@@ -35,7 +35,7 @@ Your **product edit form** will display the completeness for each product, as we
 ![SCREENSHOT if variant products](../img/Products_VariantProdcut2.png)
 
 ## In your completeness panel (product edit form)
-![SCREENSHOT completeness panel](../img/Products_PEF_CompletenessPanel)
+![SCREENSHOT completeness panel](../img/Products_PEF_CompletenessPanel.png)
 
 ::: tips
 Thanks to the completeness panel, get the list of empty attributes and fill them in!
