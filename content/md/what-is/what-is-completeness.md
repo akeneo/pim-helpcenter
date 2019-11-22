@@ -35,7 +35,7 @@ Your **product edit form** will display the completeness for each product, as we
 ![SCREENSHOT if variant products](../img/Products_VariantProdcut2.png)
 
 ## In your completeness panel (product edit form)
-[SCREENSHOT completeness panel]
+![SCREENSHOT completeness panel](../img/Products_PEF_CompletenessPanel.png)
 
 ::: tips
 Thanks to the completeness panel, get the list of empty attributes and fill them in!
@@ -47,7 +47,8 @@ The **completeness is defined by a [family](what-is-a-family.html)**, a **[local
 
 Then, once you know which attributes have to be taken into account for each family, in other words, **which attributes must be filled in to export your product**, go to `Settings/Family`.
 Select a family and under the tab `Attributes`, tick attributes to take them into account in the completeness calculation or untick them to remove them from completeness calculation.
-[SCREENSHOT GIF tick untick products]
+
+![SCREENSHOT GIF tick untick products](../img/Settings_Families_Attributes_Completeness.gif)
 
 It's easy as pie!
 
