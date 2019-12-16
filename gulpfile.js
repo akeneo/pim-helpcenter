@@ -28,6 +28,7 @@ gulp.task('watch', ['create-dist'], function() {
 gulp.task('launch-webserver', ['create-dist'], function() {
   return gulp.src('dist')
     .pipe(webserver({
+      host: '0.0.0.0',
       livereload: true,
       directoryListing: false,
       open: '/pim/' + majorVersion + '/'
