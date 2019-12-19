@@ -54,6 +54,12 @@ PORT is the SSH port to connect to the server.
 
 To know the production and staging environments of pim-helpcenter, please read the [inventory](https://github.com/akeneo/ansible/blob/master/inventories/core.inventory).
 
+## Dropdown to choose the documentation version
+
+The dropdown to choose the version of the documentation  is configured from a single file for every branches. The configuration of this dropdown is done in this [file] (https://github.com/akeneo/pim-helpcenter/blob/master/src/versions.json). **Only the configuration file `src/versions.json` of the `master` branch is deployed.** 
+
+When you create a new branch from master, such as `v4`, don't forget to remove the deployment of this configuration file in the `v4` version. It is just one line to remove in the `deploy` step of the `Makefile`.
+
 ## Documentation contribution
 
 It's right [here](https://github.com/akeneo/pim-helpcenter/wiki).

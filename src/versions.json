@@ -1,0 +1,17 @@
+[
+  {
+    "url": "/pim/v3/",
+    "label": "v3",
+    "suffix_with_filename": true
+  },
+  {
+    "url": "/pim/v2/",
+    "label": "v2",
+    "suffix_with_filename": true
+  },
+  {
+    "url": "/pim/v2/index-older.html",
+    "label": "Older versions",
+    "suffix_with_filename": false
+  }
+]
