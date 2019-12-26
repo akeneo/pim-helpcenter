@@ -76,27 +76,27 @@ That being said, even in this case, we advise you to choose between the two opti
 
 # Grab your credentials
 
-Whenever you create an app, the PIM automatically generates for you a set of credentials.
+Whenever you create an app, the PIM automatically generates a set of credentials for you.
 
-These credentials consist of 4 information:
+These credentials consist of 4 different strings:
 - the `client id`,
 - the `secret`,
 - the app `username`,
 - the app `password`.
 
-The client id, the secret and the username are displayed directly in the detail of an app. To access this detail, go to `System` / `Apps`, click on the app for which you want the credentials. It is displayed at the top of the screen. <!-- TODO: TO VALIDATE, UI NOT VALIDATED FOR THE MOMENT -->
+To access the client id, the secret and the username, go to `System` / `Apps`, click on the app for which you want to see the credentials. They are displayed on the right side of the screen in the `Credentials` column.
 
 ![Client id & secret in the app form](client_id_and_secret_in_the_app_form.png) <!-- TODO once all edit form cards are merged -->
 
-You can easily copy/paste this information by clicking on the button next to them.
+You can easily copy/paste the credentials by clicking on the button next to them.
 
 ![Copy/paste credentials](copy_paste_credentials.png) <!-- TODO once all edit form cards are merged -->
 
-The password is only showed once to you, just after the app creation. So, be sure to save it somewhere.
+The password is only showed once to you, just after the app creation. So, make sure you save it somewhere.
 
 ![Password is showed only once](password_showed_only_once.png) <!-- TODO once all edit form cards are merged -->
 
-Use these credentials to authenticate the API calls made in the connector that is symbolized by your app in the PIM. For this step, take a look at this [guide]() <!-- TODO add link when doc is written -->. 
+Use these credentials to authenticate the API calls in the connector that matches your app. For this step, take a look at this [guide]() <!-- TODO add link when doc is written -->. 
 
 
 
