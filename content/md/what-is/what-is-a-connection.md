@@ -19,6 +19,8 @@ In the end, all those data flows represent a great deal of connections around yo
 
 Connections are here to help you boost your connectivity. With connections, you can easily know which data flows surround your PIM. In fact, a connection identifies one particular data flow. It can be seen as a door to the PIM for your connection.
 
+## A real connectivity example
+
 Let's take an example to make this clearer. Below is an illustration of the `Connection` concept.
 
 ![An example of a PIM with its connections](../img/one_PIM_several_connections.svg)
@@ -35,6 +37,19 @@ There are also 2 destination connections declared for this particular PIM:
 - A flow sending product information to a publishing platform (`Priint`).
 
 To finish, this PIM is also connected to a translation service (`TextMaster`).
+
+## And how it translates into the PIM
+
+You can easily know to which third-parties your PIM is connected to, thanks to the `Connections` screen. To access it, click on the `System` menu and then on the `Connections` submenu.  
+
+If we go back to our previous example, here is what the `Connections` screen will look like in this case.
+
+![Connections screen](connections-screen.png) <!-- TODO -->
+
+::: info
+To declare new connection around your PIM, follow the [simple steps described here](manage-your-connections.html#create-a-connection).
+:::
+
 
 # Dive into the connections benefit
 
