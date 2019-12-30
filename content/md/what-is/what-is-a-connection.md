@@ -50,7 +50,6 @@ If we go back to our previous example, here is what the `Connections` screen wil
 To declare new connection around your PIM, follow the [simple steps described here](manage-your-connections.html#create-a-connection).
 :::
 
-
 # Dive into the connections benefit
 
 First of all, connections will generate your API credentials for you. That is very useful since connections aim at declaring connections that are based on the API.

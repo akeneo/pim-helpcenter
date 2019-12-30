@@ -145,6 +145,3 @@ If you created a connection you don't want to use anymore, you can delete it.
 As a result, your connection will be deleted. It means that: 
 - you won't be able anymore to follow its data flows inside the [connection dashboard](connection-dashboard.html),
 - the credentials that were generated with the connection, will be revoked. The API authentication made with these credentials will be revoked as well. It means that all the API calls using a token that was generated based on these credentials will now send 401 errors. If this does not ring any bell to you, you might want to learn more about [authentication in the API right here](https://api.akeneo.com/documentation/authentication.html). :wink:
-
-
-
