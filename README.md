@@ -22,15 +22,14 @@ make watch
 The help center website is then available on `http://localhost:8000/pim/v3/`.
 Files located in the content and src directories are watched for changes, so when developing or writing new articles you do not need to launch any other task.
 
-## Deployment of the v3 version
+## Deployment of the v4 version
 
 ### With Circle CI (recommended)
 
-The master branch is the `v3` version for now.
-Once you merge a PR into the `master` branch, it is automatically deployed on the staging server. In order to deploy it in production, please follow these steps:
+Once you merge a PR into the `v4` branch, it is automatically deployed on the staging server. In order to deploy it in production, please follow these steps:
 
 - Check the staging environment if everything is ok to be deployed in production
-- Open [the list of merged PR in master branch](https://circleci.com/gh/akeneo/workflows/pim-helpcenter/tree/master) in Circle CI. You have to be connected with your Github account.
+- Open [the list of merged PR in v4 branch](https://circleci.com/gh/akeneo/workflows/pim-helpcenter/tree/v4) in Circle CI. You have to be connected with your Github account.
 - Click on the first row which should be "On hold"
 
 ![List of merged PR in master](.circleci/list_workflows.jpg)
@@ -58,7 +57,7 @@ To know the production and staging environments of pim-helpcenter, please read t
 
 The dropdown to choose the version of the documentation  is configured from a single file for every branches. The configuration of this dropdown is done in this [file] (https://github.com/akeneo/pim-helpcenter/blob/master/src/versions.json). **Only the configuration file `src/versions.json` of the `master` branch is deployed.** 
 
-When you create a new branch from master, such as `v4`, don't forget to remove the deployment of this configuration file in the `v4` version. It is just one line to remove in the `deploy` step of the `Makefile`.
+When you create a new branch from master, such as `v5`, don't forget to remove the deployment of this configuration file in the `v5` version. It is just one line to remove in the `deploy` step of the `Makefile`.
 
 ## Documentation contribution
 
