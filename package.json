@@ -1,7 +1,7 @@
 {
   "name": "akeneo-help-center",
   "dependencies": {
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "docsearch.js": "2.4.1",
     "jquery": "3.4.0",
     "lato-font": "3.0.0",
