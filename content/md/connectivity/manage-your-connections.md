@@ -48,7 +48,7 @@ _Sidenote: the code of the connection is automatically generated based on the la
 
 You're done! :tada:
 
-Once your connection is created, you'll be able to assign it a visual in order to easily see to which connection it refers to. For example, if your connection represents your connection to Magento, you may want to put a picture of the Magento logo, exactly like in the screenshot below.
+Once your connection is created, you'll be able to assign it a visual in order to easily see which connection it refers to. For example, if your connection represents your connection to Magento, you may want to put a picture of the Magento logo, exactly like in the screenshot below.
 
 ![A logo for your connection image](../img/connection-image-choice.png)
 
