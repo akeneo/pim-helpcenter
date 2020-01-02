@@ -61,11 +61,17 @@ _Since the 3.1 version_, unmapped attributes are displayed first.
 
 No need to map attributes if they're the same, we do it for you: the PIM attribute is automatically mapped and saved, the proposal is automatically generated!
 
-![image](../img/franklin_exact_match.png)
+![Franklin's exact match screen](../img/franklin_exact_match.png)
 
 ::: info
 We consider attributes match if Franklin attribute code equals the PIM attribute code or PIM attribute label for an English catalog locale.
 :::
+
+### Suggested mapping
+
+No need to search in the long list of your catalog attributes: if they're close, we suggest the best match for the attribute. The best match is selected, you can check the other close ones we found. When you save the attribute mapping screen, the PIM attribute is automatically mapped and saved, the proposal is automatically generated!
+
+![Franklin's suggested mapping screen](../img/franklin_suggested_mapping.png)
 
 ### Suggest attribute creation
 
