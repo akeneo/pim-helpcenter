@@ -11,6 +11,25 @@ related: what-is-a-connection, how-to-connect-my-pim, connection-dashboard
 Wondering what `Connections` are? Let's discover what this concept is together [right here](what-is-a-connection.html).
 :::
 
+# See at a glance all your connections
+
+In the PIM, you can easily see all its connections to third-parties, such as ERPs, DAMs, ecommerce platforms, syndication tools,...
+
+To do so, click on the `System` menu and then, on the `Connections` submenu.  
+The following screen should be displayed.
+
+![Connections overview](../img/connections-overview.png)
+
+As an example, here, we have 3 connections around this PIM:
+- 2 source connections: an ERP and a retail collaboration platform,
+- one destination connection: an e-commerce platform.
+
+Those 3 third-parties are either sending or receving information to/from the PIM.
+
+::: tips
+There are no connection declared here yet? Discover [what a connection is here](what-is-a-connection.html) and then don't hesitate to [create a new one](#create-a-connection)! :wink:
+:::
+
 # Create a connection
 
 To [connect your PIM](how-to-connect-my-pim.html) to a third-party solution, you will need to create a connection.
