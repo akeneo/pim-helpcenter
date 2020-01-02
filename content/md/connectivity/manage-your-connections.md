@@ -90,7 +90,7 @@ These credentials consist of 4 different strings:
 
 To access the client id, the secret and the username, go to `System` / `Connections`, click on the connection for which you want to see the credentials. They are displayed on the right side of the screen in the `Credentials` column.
 
-![Client id & secret in the connection form](client_id_and_secret_in_the_connection_form.png) <!-- TODO once all edit form cards are merged -->
+![Credentials in the connection form](../img/credentials-in-connection-form.png)
 
 You can easily copy/paste the credentials by clicking on the button next to them.
 
@@ -98,7 +98,7 @@ You can easily copy/paste the credentials by clicking on the button next to them
 
 The password is only showed once to you, just after the connection creation. So, make sure you save it somewhere.
 
-![Password is showed only once](password_showed_only_once.png) <!-- TODO once all edit form cards are merged -->
+![Password is showed only once](password_showed_only_once.png) <!-- TODO -->
 
 ::: tips
 You forgot your password? Don't worry, you can regenerate a new one. Take a look at the [Regenerate your connection password](#regenerate-your-connection-password) section.
@@ -143,7 +143,7 @@ Here's how:
 2. Click on the `Connections` submenu.
 3. Click on the connection for which you want to revoke the password.
 4. In the `Credentials` section, on the right side of the `Password` line, click on the regenerate icon button.
-![Regenerate password icon button](../img/regenerate-password-icon-button.png)
+![Regenerate password icon button](../img/regenerate-password-icon-button.png) <!-- TODO -->
 5. A popin asks you for confirmation. Click on the `Regenerate` button.
 
 The current password will be deleted and a new one is generated. It means that no one will be able to use it anymore to authenticate their API calls.  
@@ -167,7 +167,7 @@ If you created a connection you don't want to use anymore, you can delete it.
 3. Click on the connection you want to delete.
 4. Click on the `...` in the top right corner of your screen.
 5. Click on the `Delete` option.
-![Delete a connection](delete-a-connection.png) <!-- TODO -->
+![Delete a connection](../img/delete-a-connection.png) <!-- TODO -->
 6. A popin asks you for confirmation. Click on the `Delete` button.
 
 As a result, your connection will be deleted. It means that: 
