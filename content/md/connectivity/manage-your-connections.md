@@ -127,7 +127,7 @@ Use these credentials to authenticate the API calls in the connector that matche
 
 # Revoke/regenerate your connection secret
 
-In some cases, your connection secret may have leaked and fallen into the wrong hands. So you want to revoke this secret, to avoid these "wrong hands" to access your PIM via the API.
+In some cases, your connection secret may have leaked and fallen into the wrong hands. So you want to revoke this secret, to avoid enabling these "wrong hands" to access your PIM via the API.
 
 ::: info
 Along with the secret revocation, the PIM will automatically regenerate a new secret for you.
