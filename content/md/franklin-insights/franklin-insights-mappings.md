@@ -64,7 +64,7 @@ No need to map attributes if they're the same, we do it for you: the PIM attribu
 ![Franklin's exact match screen](../img/franklin_exact_match.png)
 
 ::: info
-We consider attributes match if Franklin attribute code equals the PIM attribute code or PIM attribute label for an English catalog locale.
+We consider attributes match if the Franklin attribute code equals the PIM attribute code or PIM attribute label for an English catalog locale.
 :::
 
 ### Suggested mapping
