@@ -7,7 +7,7 @@ ee-only: true
 related: franklin-insights-subscriptions
 ---
 # A dedicated dashboard
-You want to follow your activity using Franklin? There's a dashboard for this!
+You want to follow your activity using Franklin? There is a dashboard for this!
 1. Click on `Activity`
 2. Click on `Franklin key figures`
 
