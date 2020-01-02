@@ -100,6 +100,10 @@ The password is only showed once to you, just after the connection creation. So,
 
 ![Password is showed only once](password_showed_only_once.png) <!-- TODO once all edit form cards are merged -->
 
+::: tips
+You forgot your password? Don't worry, you can regenerate a new one. Take a look at the [Regenerate your connection password](#regenerate-your-connection-password) section.
+:::
+
 Use these credentials to authenticate the API calls in the connector that matches your connection. For this step, take a look at this [guide](https://api.akeneo.com/getting-started/connect-the-pim-4x/step-3.html).
 
 # Revoke/regenerate your connection secret
@@ -124,6 +128,30 @@ Also, a new secret has been generated. Be sure to use this new one in your conne
 ::: warning
 As you may have understood, revoking a secret can have an impact on the connector linked to your connection. Indeed, when you revoke a secret that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authentified anymore.  
 To be authenticated again, launch a new [authentication request](https://api.akeneo.com/api-reference.html#post_token) using the new generated secret.
+:::
+
+::: tips
+Don't really know how the authentication via API works? [Don't worry, there is a documentation to help you! It's right here!](https://api.akeneo.com/documentation/authentication.html)
+:::
+
+# Regenerate your connection password
+
+The PIM shows you the connection password only once, at the connection creation. In case you may have forgotten it, you can regenerate a new one.  
+
+Here's how:
+1. Click on the `System` menu.
+2. Click on the `Connections` submenu.
+3. Click on the connection for which you want to revoke the password.
+4. In the `Credentials` section, on the right side of the `Password` line, click on the regenerate icon button.
+![Regenerate password icon button](../img/regenerate-password-icon-button.png)
+5. A popin asks you for confirmation. Click on the `Regenerate` button.
+
+The current password will be deleted and a new one is generated. It means that no one will be able to use it anymore to authenticate their API calls.  
+Be sure to use the new password in your connector, in order to be able to make API calls again.
+
+::: warning
+As you may have understood, regenerating a password can have an impact on the connector linked to your connection. Indeed, when you regenerate a password that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authentified anymore.  
+To be authenticated again, launch a new [authentication request](https://api.akeneo.com/api-reference.html#post_token) using the new generated password.
 :::
 
 ::: tips
