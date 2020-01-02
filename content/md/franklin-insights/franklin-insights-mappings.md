@@ -59,7 +59,7 @@ _Since the 3.1 version_, unmapped attributes are displayed first.
 
 ### Exact match
 
-No need to map attributes if they're the same, we do it for you: the PIM attribute is automatically mapped and saved, the proposal is automatically generated!
+No need to map attributes if they're the same, we do it for you: the PIM attribute is automatically mapped and saved, and a proposal is automatically generated!
 
 ![Franklin's exact match screen](../img/franklin_exact_match.png)
 
