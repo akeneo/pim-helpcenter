@@ -97,7 +97,7 @@ If you do not see `+` icon, you might not have the appropriate rights to add an 
 
 ## Work with assets in an asset collection attribute _(EE only)_
 
-In the product form, you can have some asset collection attributes which look like this:
+In the product form, there is a new tab "Assets" in which you will retrieve all the asset collections of your product. It means that the assets will not be mixed with other values of the product. The asset collections also have a brand new design, here is how they look like:
 
 ![asset_collection_attribute](../img/asset_collection_attribute.png)
 
@@ -110,28 +110,17 @@ The asset collection attribute is only available in the Enterprise Edition.
 
 ### Link assets to your product
 
-You can link assets to your product using this attribute. To do that, follow these steps:
+You can manually link assets to your product using this attribute. To do that, follow these steps:
 
 1. Go to your product form
+1. Click on the `Assets` tab of your product form
 1. Scroll down towards the asset collection attribute
-1. Click on `Manage assets` to access the asset picker and the basket
-1. Pick the assets you want to link to your product, and save.
+1. Click on `Add assets` to access the asset picker and the basket
+1. Pick the assets you want to link to your product, and save. You can use the search bar and filters.
 
 ![basket](../img/basket.png)
 
-### Upload assets directly from the product form
-
-You can upload assets directly from the Asset collection in the Product Form. You don't need to quit the product form anymore.
-
-1. Click on the new button `Upload assets` in the asset collection, then you will find the mass upload screen.
-1. Drag and drop your files or click on the image to chose assets on your browser.
-1. Click on `Upload`.
-1. Then click on `Import`.
-1. You may have to wait a bit while the asset import. Refresh the page when you receive the notification, and you will see assets linked to your product in the asset collection.
-
-::: tips
-You can find those assets in the Assets part of your PIM.
-:::
+When hovering the asset, you can remove it from the asset collection, or edit it in order to enrich its attributes.
 
 ### Order assets in the asset collection
 
@@ -142,7 +131,7 @@ OK, let's see!
 
 ![drag_drop](../img/drag_drop.jpg)
 
-If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with a **drag and drop**, and find this order in export file. Simple. Fast. Effective.
+If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with **the arrows**, and find this order in export file. Simple. Fast. Effective.
 
 You need to import assets in a certain order in Akeneo PIM? No problem! Just order your assets in your import file, separating asset's names with a coma, then have this order in the PIM. You can also achieve this by using the API.
 
@@ -152,7 +141,7 @@ The order defined in the PIM will also be the same when you'll export your produ
 And if you want to have a look at history, a new version is created in `History` tab each time the user changes the asset order.
 :::
 
-### Better assets display
+### Assets display
 
 If you have assets linked to your products, you can have a **large display of those assets** clicking on their thumbnails.
 
@@ -162,9 +151,9 @@ Where? In the **asset collection** in the **Product Form**.
 
 And moreover, we added a slideshow to navigate between the assets.
 
-If you have edit rights, you can also **remove** each asset from the asset collection attribute, just clicking on `remove` in the asset preview.
-
-Every user can download each asset clicking on `download` in the asset preview.
+Several actions are available in this asset preview screen:
+- You can download each asset clicking on `download`.
+- You can also enrich the asset attributes, clicking on `edit asset`. This way, you will be redirected on the asset form.
 
 ## Add one or several records of a reference entity to a product _(EE only)_
 
@@ -216,6 +205,10 @@ To copy the product information from a locale:
     - The `None` option enables you to deselect all the localized values of the locale of reference
 1.  Click on the `Copy` button, the selected values are copied to the Product Form
   ![Copy](../img/Products_CompareTranslateCopy.png)
+
+  ::: info
+  Note that this feature is not available on the new asset collection attributes.
+  :::
 
 # View the product’s versions
 
