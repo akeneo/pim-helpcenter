@@ -174,7 +174,7 @@ To be authenticated again, launch a new [authentication request](https://api.ake
 :::
 
 ::: tips
-Don't really know how the authentication via API works? [Don't worry, there is a documentation to help you! It's right here!](https://api.akeneo.com/documentation/authentication.html)
+Don't really know how the authentication via API works? [Don't worry, there is documentation to help you! It's right here!](https://api.akeneo.com/documentation/authentication.html)
 :::
 
 # Delete a connection
