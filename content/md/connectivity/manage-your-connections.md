@@ -145,7 +145,7 @@ The current secret will be revoked. It means that no one will be able to use it 
 Also, a new secret has been generated. Be sure to use this new one in your connector, in order to be able to make API calls again.
 
 ::: warning
-As you may have understood, revoking a secret can have an impact on the connector linked to your connection. Indeed, when you revoke a secret that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authentified anymore.  
+As you may have understood, revoking a secret can have an impact on the connector linked to your connection. Indeed, when you revoke a secret that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authenticated anymore.  
 To be authenticated again, launch a new [authentication request](https://api.akeneo.com/api-reference.html#post_token) using the new generated secret.
 :::
 
