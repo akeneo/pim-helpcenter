@@ -38,7 +38,7 @@ To [connect your PIM](how-to-connect-my-pim.html) to a third-party solution, you
 You can create up to 50 connections. :rocket:
 :::
 
-Here are the simple steps to create an connection:
+Here are the simple steps to create a connection:
 1. Click on the `System` menu.
 2. Click on the `Connections` submenu.
 3. Click on the `Create` button.
