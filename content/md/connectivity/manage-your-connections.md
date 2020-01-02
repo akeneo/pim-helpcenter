@@ -52,7 +52,7 @@ Once your connection is created, you'll be able to assign it a visual in order t
 
 ![A logo for your connection image](../img/connection-image-choice.png)
 
-After the connection creation, you'll also be given a set of credentials to authenticate your connector. See this [section](#grab-your-credentials), to know more.
+After creating the connection, you'll also be given a set of credentials to authenticate your connector. See this [section](#grab-your-credentials), to know more.
 
 # Choose your flow type
 
