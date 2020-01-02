@@ -1,6 +1,6 @@
 ---
 id: understand-data-quality
-themes: products-super-power
+themes: products-super-power, first-steps
 title: Understand **data quality**
 popular: false
 ee-only: true
