@@ -113,11 +113,11 @@ To access the client id, the secret and the username, go to `System` / `Connecti
 
 You can easily copy/paste the credentials by clicking on the button next to them.
 
-![Copy/paste credentials](../img/copy_paste_credentials.png)
+![Copy/paste credentials](../img/copy-paste-credentials.png)
 
 The password is only showed once to you, just after the connection creation. So, make sure you save it somewhere.
 
-![Password is showed only once](password_showed_only_once.png) <!-- TODO -->
+![Password is showed only once](password-showed-only-once.png) <!-- TODO -->
 
 ::: tips
 You forgot your password? Don't worry, you can regenerate a new one. Take a look at the [Regenerate your connection password](#regenerate-your-connection-password) section.
