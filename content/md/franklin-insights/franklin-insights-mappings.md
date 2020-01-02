@@ -75,7 +75,7 @@ No need to search through a long list of your catalog attributes: if they are al
 
 ### Suggest attribute creation
 
-In case we have no mapping suggestion, we added a new `Create attribute` button. In a single action, you can create the attribute and attach it to the family you're working on without leaving the attribute mapping screen.
+In case we have no mapping suggestion, we added a new `Create attribute` button. In a single action, you can create the attribute and attach it to the family you are working on without leaving the attribute mapping screen.
 
 ![image](../img/franklin_create_attribute.png)
 
