@@ -27,7 +27,7 @@ As an example, here, we have 3 connections around this PIM:
 Those 3 third-parties are either sending or receving information to/from the PIM.
 
 ::: tips
-There are no connection declared here yet? Discover [what a connection is here](what-is-a-connection.html) and then don't hesitate to [create a new one](#create-a-connection)! :wink:
+There is no connection declared here yet? Discover [what a connection is here](what-is-a-connection.html) and then don't hesitate to [create a new one](#create-a-connection)! :wink:
 :::
 
 # Create a connection
