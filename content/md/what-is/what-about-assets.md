@@ -9,10 +9,10 @@ related: manage-assets, enrich-your-assets
 
 # Introduction to the new Asset Manager
 
-A product sheet has no real impact without any media, right? That's why we let you manage assets in your Akeneo PIM, in order to add media to your product forms.
+We truely believe that a product sheet has no real impact without any media. That is why we let you manage assets in your Akeneo PIM, in order to add media to your product forms.
 
 Some media can be **shared between different products** (such as the atmosphere images, the user instructions, the legal documents or some commercial videos). This **data can be complex to manage because it has its own attributes** (e.g. a label, a media link, a description...).
-
+That is why it requires a bit of structure ;)
 
 # A bit of vocabulary
 
