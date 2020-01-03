@@ -115,9 +115,10 @@ You can easily copy/paste the credentials by clicking on the button next to them
 
 ![Copy/paste credentials](../img/copy-paste-credentials.png)
 
-The password is only showed once to you, just after the connection creation. So, make sure you save it somewhere.
+The password is only showed once to you, just after the connection creation. So, make sure you save it somewhere.  
+When the password is visible, there is a copy icon next to it for easy copy-paste. :wink:
 
-![Password is showed only once](password-showed-only-once.png) <!-- TODO -->
+![Password is showed only once](../img/password-showed-only-once.png)
 
 ::: tips
 You forgot your password? Don't worry, you can regenerate a new one. Take a look at the [Regenerate your connection password](#regenerate-your-connection-password) section.
@@ -162,7 +163,7 @@ Here's how:
 2. Click on the `Connections` submenu.
 3. Click on the connection for which you want to revoke the password.
 4. In the `Credentials` section, on the right side of the `Password` line, click on the regenerate icon button.
-![Regenerate password icon button](../img/regenerate-password-icon-button.png) <!-- TODO -->
+![Regenerate password icon button](../img/regenerate-password-icon-button.png)
 5. A popin asks you for confirmation. Click on the `Regenerate` button.
 
 The current password will be deleted and a new one is generated. It means that no one will be able to use it anymore to authenticate their API calls.  
