@@ -47,7 +47,7 @@ To do so, it’s very easy:
 3. See their enrichment and consistency grades
 
 ::: success
-Cherry on the cake: click on `See on the grid` to access a filtered view of your catalog to focus your work on what needs improvements the most!
+The cherry on the cake: click on `See on the grid` to access a filtered view of your catalog to focus your work on what needs most improvements!
 :::
 
 
