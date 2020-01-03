@@ -19,7 +19,7 @@ Check the option `Remember me on this computer` to memorise your credentials.
 
 #  Login using Single Sign-On _(EE only)_
 
-Since the 3.0, your PIM administrator can activate the **Single Sign-On** feature (aka SSO). This feature will allow you to connect to your PIM using your corporate credentials.
+Your PIM administrator can activate the **Single Sign-On** feature (aka SSO). This feature will allow you to connect to your PIM using your corporate credentials.
 **Once this feature is activated, you will no longer be prompted for your login and password in the PIM.**
 
 To learn more about Single Sign-On, it's [here](configure-saml-sso.html)!

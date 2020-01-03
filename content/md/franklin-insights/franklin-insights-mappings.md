@@ -52,10 +52,10 @@ Once you successfully map your catalog attributes and attribute options to Frank
 As Franklin needs a little time to make these calculations, the response may take some time. Hang tight, **data is coming**.
 
 ::: info
-_Since the 3.1 version_, unmapped attributes are displayed first.
+Unmapped attributes are displayed first.
 :::
 
-## Ease the mapping (_since 3.2 version_)
+## Ease the mapping
 
 ### Exact match
 

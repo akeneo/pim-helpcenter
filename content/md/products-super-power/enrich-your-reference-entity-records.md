@@ -43,8 +43,8 @@ The records grid is quite different than the products' one. Thereafter are the s
 - Finally, the grid comes with an **infinite scroll** that allows you to display up to 500 results. If you reach this limit, the grid will show the following message *"You just scrolled through the first 500 results out of 1450 records. To see more, try with more specific search criteria."*
 
 ::: info
-In the 3.0 version records grid, only the following types of attributes can be displayed in the grid: code, text and image.  
-_Since the 3.1 version_, the values of the attributes types single/multiple options and reference entity single/multiple links can also be displayed in the records grid.
+Only the following types of attributes can be displayed in the grid: code, text and image.  
+The values of the attributes types single/multiple options and reference entity single/multiple links can also be displayed in the records grid.
 :::
 
 ::: info
@@ -78,9 +78,9 @@ You can also filter on completeness in order to see the records that are complet
 To know how to define the required attributes for the completeness, please take a look at this [article](manage-reference-entities.html)
 :::
 
-## Filter on options and reference entity links (_since 3.1_)
+## Filter on options and reference entity links
 
-_Since the 3.1 version_, we added the possibility to filter on single/multiple options or reference entity single/multiple links attributes types in the records grid. This filter allows an exact search on an reference entity option value or on a reference entity link.
+We added the possibility to filter on single/multiple options or reference entity single/multiple links attributes types in the records grid. This filter allows an exact search on an reference entity option value or on a reference entity link.
 
 For instance:
 - If a "Brand" reference entity has a "Designers" attribute linked to a "Designer" reference entity, you can search for all brands with the designer "Ron Arad".
@@ -111,8 +111,8 @@ In fact, the Rich text editor offers a large bunch of possibilities!
 
 ![Records text area](../img/Records_text_area.png)
 
-# Display the products linked to a record (_since 3.2_)
-_Since the 3.2 version_, you can see the first products linked to a record in a new `Products` tab directly from a reference entity record.
+# Display the products linked to a record
+You can see the first products linked to a record in a new `Products` tab directly from a reference entity record.
 
 To display the 1st products linked to a `Kartell` record:
 1. Go to the `Kartell` record
@@ -167,7 +167,7 @@ Once you have chosen which entity is linked, you can see a new selector with all
 
 ![Records link entity](../img/Records_link_entity_2.png)
 
-_Since the 3.1 version_, we added the completeness of a record in the selector.
+We added the completeness of a record in the selector.
 
 ![Records link entity](../img/Records_completeness.png)
 
