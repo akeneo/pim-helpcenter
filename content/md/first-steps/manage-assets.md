@@ -65,8 +65,8 @@ To add an attribute, follow these steps:
     - **Number**: for number attributes
     - **Single option**: to define a list of options with a single choice
     - **Multiple options**: to define a list of options with multiple choices
-1.  Tick `Value per locale` if your record could have different values per locale for this attribute
-1.  Tick `Value per channel` if your record could have different values per channel for this attribute
+1.  Tick `Value per locale` if your asset has different values per locale for this attribute
+1.  Tick `Value per channel` if your asset has different values per channel for this attribute
 1.  Click on the `Save` button or press `Enter` to add the attribute
 
 ![image](../img/AssetManager_AddAttribute.png)
