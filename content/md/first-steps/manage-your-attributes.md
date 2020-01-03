@@ -24,7 +24,7 @@ To create an attribute in Akeneo PIM:
     Under `General Parameters`:
     - A **code** (required) to identify the attribute.
     - A **type** based on the attribute type selected in the previous screen.
-    - An **attribute group** (required) in which the new attribute will be added to.    
+    - An **attribute group** (required) to which the new attribute will be added.    
 In addition to these required attributes, you can select the following properties:
     - **Unique value** (Yes/No): enable this property if the value of this attribute must be unique. By default, it is set to yes for `Identifier` attribute type.
     - **Value per channel** (Yes/No): enable this property if you plan to have different product values per channel.
