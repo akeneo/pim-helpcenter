@@ -30,7 +30,7 @@ In addition to these required attributes, you can select the following propertie
     - **Value per channel** (Yes/No): enable this property if you plan to have different product values per channel.
     - **Value per locale** (Yes/No): enable this property if you plan to have different product values per locale.
     - **Read only** (Yes/No) **_(Enterprise Edition only)_**: to prevent this attribute from being edited through the UI, it will only be updated through imports, API or rules
-    - **Usable in grid** (Yes/No): if you want to filter on this attribute in the product's grids or use it as a column.
+    - **Usable in grid** (Yes/No): if you want to filter on this attribute in the product grid or use it as a column.
     - **Locale specific**: this attribute will only be available for some locales.      
 Under `Validation Parameters`, add validations to control your data:
     - **Validation parameters**: each attribute comes with validation parameters (see [Add attributes validation parameters](#add-attributes-validation-parameters)).    
