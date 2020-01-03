@@ -9,7 +9,7 @@ related: understand-data-quality
 
 # Improving data quality
 Data quality is key in offering a compelling product experience to your customers.
-In Akeneo PIM you can measure and follow your data quality on two axis: **enrichment** and **consistency**.
+In Akeneo PIM you can measure and follow your data quality on two axes: **enrichment** and **consistency**.
 
 To get a glimpse of your catalog’s overall data quality we introduced a `data quality insights` dashboard.
 
