@@ -212,7 +212,7 @@ To copy the product information from a locale:
 
 # View the product’s versions
 
-The history of changes applied to a product are taking into account for the following operations:
+The history of changes applied to a product are taken into account for the following operations:
 - Changes of attribute values in the Product Form
 - Changes on the product status (enabled/disabled)
 - Changes on family
