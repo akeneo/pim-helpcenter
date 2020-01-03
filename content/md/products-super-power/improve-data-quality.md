@@ -27,7 +27,7 @@ You can choose the see the evolution of your data quality for:
 
 
 ::: tips
-To see the distribution of the grades, simply over the chart bar.
+To see the distribution of the grades, simply mouse over the chart bar.
 :::
 
 ::: success
