@@ -32,11 +32,11 @@ Note that the `Asset attribute` resource is not the same as the `Attribute` reso
 
 There are several types of asset attributes, that will allow you to handle different types of data:
 
-- the text attribute,
-- the single and multiple options attributes,
-- the number attribute,
-- the media file attribute,
-- the media link attribute.
+- the **text** attribute,
+- the **single and multiple options** attributes,
+- the **number** attribute,
+- the **media file** attribute,
+- the **media link** attribute.
 
 Below are some examples of asset families, along with their asset attributes.
 
