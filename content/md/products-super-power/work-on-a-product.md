@@ -153,7 +153,7 @@ And moreover, we added a slideshow to navigate between the assets.
 
 Several actions are available in this asset preview screen:
 - You can download each asset by clicking on `download`.
-- You can also enrich the asset attributes, clicking on `edit asset`. This way, you will be redirected on the asset form.
+- You can also enrich the asset attributes, clicking on `edit asset`. This way, you will be redirected to the asset form.
 
 ## Add one or several records of a reference entity to a product _(EE only)_
 
