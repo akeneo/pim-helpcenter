@@ -14,7 +14,7 @@ What is this **red, orange or green A, B, C, D, E displayed on my product edit f
 
 Because rich, coherent and consistent product data is important to you, we introduced the concept of "data quality" in our PIM.
 This new capability helps you measure your data quality on two axes: **enrichment** and **consistency**.
-Each of these two axis has a grade ranging from A to E. The grades can be seen on several screens of the PIM.
+Each of these two axes has a score from A to E. The scores can be seen on several screens of the PIM.```
 
 ![Image data quality badges](../img/data-quality-grades.png)
 
