@@ -53,7 +53,7 @@ The cherry on the cake: click on `See on the grid` to access a filtered view of 
 
 # Improve data quality
 Now that you know how to measure your catalog’s data quality, it’s easier to know which families and products need to be worked on.
-To help you improve your products **enrichment** and **consistency**, in your product edit form, simply follow the **recommendations** that can be found in the **data quality insights** panel.
+To help you improve your products **enrichment** and **consistency**, simply follow the **recommendations** that can be found in the **data quality insights** panel in your product edit form.
 
 ![Image data quality panel](../img/data-quality-panel.png)
 From this panel, you will know which attributes need to be improved and how to improve them.
