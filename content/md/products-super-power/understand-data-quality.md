@@ -71,7 +71,7 @@ Your **product edit form** will display the enrichment and consistency grades fo
 ![Image product edit form](../img/data-quality-pef.png)
 
 ::: info
-Enrichment and consistency grades are not yet calculated on product variant and product models. Stay tuned for our future releases!
+Enrichment and consistency grades are not yet calculated on variant products and product models. Stay tuned for our future releases!
 :::
 
 ## In your data quality insights panel (product edit form)
