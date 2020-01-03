@@ -133,7 +133,7 @@ OK, let's see!
 
 If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with **the arrows**, and find this order in export file. Simple. Fast. Effective.
 
-You need to import assets in a certain order in Akeneo PIM? No problem! Just order your assets in your import file, separating asset's names with a coma, then have this order in the PIM. You can also achieve this by using the API.
+You need to import assets in a certain order in Akeneo PIM? No problem! Just order your assets in your import file, separating asset names with a comma, then have this order in the PIM. You can also achieve this by using the API.
 
 The order defined in the PIM will also be the same when you'll export your products with the API.
 
