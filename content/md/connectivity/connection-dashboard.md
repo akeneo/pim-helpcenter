@@ -26,5 +26,5 @@ You can easily switch the source connection you want to monitor by clicking on t
 ![Source connection dropdown](../img/source-connection-dropdown.png)
 
 ::: info
-This dashboard is still in its first version. In the future, it will show much more indicators to you. Stay tuned! 🙂
+This dashboard is still in its first version. In the future, it will show you many more indicators. Stay tuned! 🙂
 :::
