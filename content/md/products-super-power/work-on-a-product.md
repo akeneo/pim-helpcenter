@@ -97,7 +97,7 @@ If you do not see `+` icon, you might not have the appropriate rights to add an 
 
 ## Work with assets in an asset collection attribute _(EE only)_
 
-In the product form, there is a new tab "Assets" in which you will retrieve all the asset collections of your product. It means that the assets will not be mixed with other values of the product. The asset collections also have a brand new design, here is how they look like:
+In the product form, there is a new "Assets" tab in which you will retrieve all the asset collections of your product. It means that the assets will not be mixed with other values of the product. The asset collections also have a brand new design, here is how it looks:
 
 ![asset_collection_attribute](../img/asset_collection_attribute.png)
 
