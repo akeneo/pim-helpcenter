@@ -3,7 +3,7 @@ id: franklin-insights-subscriptions
 themes: franklin-insights
 title: Franklin Insights **subscriptions**
 ee-only: true
-related: franklin-insights-getting-started, franklin-insights-mappings
+related: franklin-insights-getting-started, franklin-insights-mappings, franklin-key-figures
 ---
 
 # Overview
