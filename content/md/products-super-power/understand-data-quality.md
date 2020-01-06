@@ -29,7 +29,7 @@ From the `data quality insights` panel, by clicking on the "Display all missing 
 
 # How is consistency calculated?
 
-The **consistency grade** is calculated on several criteria. The mix of the following criteria help the PIM determine the grade for consistency:
+The **consistency grade** is calculated on several criteria. The mix of the following criteria helps the PIM determine the grade for consistency:
 - Spell check: text and text areas are checked for spelling mistakes.
 - Title formatting: the attribute used as the main product title is checked for optimized writing.
 - Upper cases formatting: the PIM checks whether text area attributes are correctly formatted for upper cases.
