@@ -21,13 +21,13 @@ The first section of the dashboard lets you know the number of product values Fr
 - Detect an error in an attribute value
 
 
-To help you follow Franklin's activity, you can follow the following key figures:
-- `Attribute created`: attributes suggested and created using the attribute mapping screen,
+To help you see data quality activity by Franklin, you can track these key metrics:
+- `Attribute suggested`: attributes suggested using the attribute mapping screen,
 - `Attribute added to family`: attributes created and added using the attribute mapping screen,
-- `Attribute values validated`: attribute values for which Franklin found the same value as the one filled in the PIM,
-- `Attribute values in error`: errors detected in the PIM's attribute values,
-- `Attribute values suggested`: attribute content suggested by Franklin and validated in the PIM,
-- `Attribute names and values`: combination of an attribute label and content suggested by Franklin and validated in the PIM.
+- `Attribute values validated`: PIM attribute values validated by Franklin,
+- `Attribute values in error`: PIM attribute value errors detected by Franklin,
+- `Attribute values suggested`: attribute content suggested by Franklin,
+- `Attribute names and values`: combination of an attribute label and content suggested by Franklin.
 
 
 # Credits countdown
