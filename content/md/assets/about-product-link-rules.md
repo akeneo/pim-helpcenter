@@ -30,6 +30,8 @@ A product link rule is divided into two parts:
 A piece of advice: when defining two different rules on an asset family, make sure you define different product selections in each rule, as shown in the example above. Why? Because you could experience performance issues. If you want to assign your assets to two different product attributes on a given selection of products, use one single rule, with two assignments in the `assign_assets_to` field. See the Product value assignment section for an example.
 :::
 
+[Product link rules](image "Product link rules")
+
 Looks barbaric? Don't freak out! The following sections are here to help you understand this rule and how you can make the most of it. You'll see, it's super powerful! 😃
 
 ## Product selection
