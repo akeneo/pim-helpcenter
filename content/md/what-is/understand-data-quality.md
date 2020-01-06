@@ -75,7 +75,7 @@ Enrichment and consistency grades are not yet calculated on product variant and 
 :::
 
 ## In your data quality insights panel (product edit form)
-Clicking on `data quality insights` in the product edit form leads you to a panel dedicated so that you understand your grades.
+Clicking on `data quality insights` in the product edit form leads you to a dedicated panel so that you understand your grades.
 ![Image data quality panel](../img/data-quality-panel.png)
 
 ::: tips
