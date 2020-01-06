@@ -41,7 +41,7 @@ Spell check is usable with text and simple text area attributes.
 :::
 
 ::: info
-Title formatting suggestion is available for English locales.
+Title formatting suggestions are available for English locales.
 :::
 
 ::: tips
