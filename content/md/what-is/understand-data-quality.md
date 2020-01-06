@@ -24,7 +24,7 @@ The **enrichment grade** is calculated as the percentage of attributes with valu
 Checking the `data quality insights` panel in the product edit form allows you to quickly see which attributes need to be filled in to improve your data quality grade for enrichment.
 
 ::: tips
-From the `data quality insights` panel, by clicking on the "Display all missing attributes", you can easily access a product edit form filtered on all the attributes that need to be filled.
+From the `data quality insights` panel, by clicking on the "Display all missing attributes", you can easily access a product edit form filtered on all the attributes that need to be filled in.
 :::
 
 # How is consistency calculated?
