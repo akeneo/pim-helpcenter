@@ -40,6 +40,11 @@ Natively, the PIM cannot generate variations for a PDF file or AVI files for ins
 
 Still not comfortable with transformations and want to better understand? Don't hesitate to go through the next sections where we detail each part of the transformation format.
 
+# How does it work?
+
+In this part, we will dig into the parameters of the transformations format and see with example, how does this powerful feature work. Let's go!
+
+
 ## Label
 
 It's basically the name you want to give to your transformation.  
