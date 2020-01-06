@@ -156,16 +156,16 @@ There are 2 available parameters for this operation.
 Both parameters are required.
 :::
 
-## Dealing with several transformations
+# Dealing with several transformations
 
 As stated before, you can define **up to 10 transformations** by asset family. So in the case, you need several transformations for one given family, you will need to observe some business rules.
 
-### Unicity of the target value
+## Unicity of the target value
 In the same asset family, you **cannot have two transformations with the same target**, i.e. exactly the same `attribute`, `channel` and `locale` in your `target` property.
 
 Otherwise, your first generated target file may be erased by the next transformation.
 
-#### Example
+### Example
 Let's say that you have 2 transformations on your asset family:
 - A transformation named "Transformation 1":
   * the `filename_prefix` property is "t1_",
@@ -180,12 +180,12 @@ Let's say that you have 2 transformations on your asset family:
 
 This example will generate an error because both transformations have the same target.
 
-### Non-unicity of the source value
+## Non-unicity of the source value
 In the same asset family, you **can have two transformations with the same source**, i.e. exactly the same `attribute`, `channel` and `locale` in your `source` property.
 
 Indeed, it allows you generate different versions of your source file.
 
-#### Example
+### Example
 Let's say that you have 2 transformations on your asset family:
 - A transformation named "Transformation 1":
   * the `filename_prefix` property is "t1_",
@@ -200,12 +200,12 @@ Let's say that you have 2 transformations on your asset family:
 
 This example is completely valid - even if in this case we create twice exactly the same image in two different attributes, A bit useless if you ask, but still, it's valid. ;)
 
-### Unicity of the target filename
+## Unicity of the target filename
 In the same asset family, you **cannot have two transformations with the same target filename**, i.e. exactly the same `source`, `filename_prefix` and `filename_suffix`.
 
 Otherwise, the PIM would create two files called exactly the same way, which can cause you trouble if you want to retrieve them.
 
-#### Example
+### Example
 Let's say that you have 2 transformations on your asset family:
 - A transformation named "Transformation 1":
   * the `filename_prefix` property is **"thumbnail_"**,
@@ -220,11 +220,11 @@ Let's say that you have 2 transformations on your asset family:
 
 This example will generate an error because both target filenames are exactly the same.
 
-### A source value cannot be a target value
+## A source value cannot be a target value
 
 In the same asset family, you **cannot have two transformations with the first one defining a source value as the target value of the second one**. And vice versa.
 
-#### Example
+### Example
 Let's say that you have 2 transformations on your asset family:
 - A transformation named "Transformation 1":
   * the `filename_prefix` property is "t1_",
@@ -239,7 +239,7 @@ Let's say that you have 2 transformations on your asset family:
 
 This example will generate an error because the source of the second transformation is the target of the first one.
 
-#### Example
+### Example
 Let's say that you have 2 transformations on your asset family:
 - A transformation named "Transformation 1":
   * the `filename_prefix` property is "t1_",
@@ -254,7 +254,7 @@ Let's say that you have 2 transformations on your asset family:
 
 This example will also generate an error because both the target of the second transformation is the source of the first one.
 
-#### Example
+### Example
 Let's say that you have set up 2 transformations on your asset family:
 - A transformation named "Transformation 1":
   * the `filename_prefix` property is "t1_",
