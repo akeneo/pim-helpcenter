@@ -19,7 +19,7 @@ Each of these two axes has a score from A to E. The scores can be seen on severa
 ![Image data quality badges](../img/data-quality-grades.png)
 
 # How is enrichment calculated?
-The **enrichment grade** is calculated on the percentage of attributes filled in your product edit form (whether the attributes are required for completeness or not).
+The **enrichment grade** is calculated as the percentage of attributes with values in your product edit form (whether the attributes are required for completeness or not).
 
 Checking the `data quality insights` panel in the product edit form allows you to quickly see which attributes need to be filled to improve your data quality grade for enrichment.
 
