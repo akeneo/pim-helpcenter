@@ -49,7 +49,7 @@ From the `data quality insights` panel, by clicking on the "Display all improvab
 :::
 
 ::: success
-To fully take advantage of the Title formatting criteria, set your product title as attribute as main title
+To take full advantage of the Title formatting criteria, set your product title attribute as the main title
 :::
 
 # Where to see data quality grades?
