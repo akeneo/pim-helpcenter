@@ -56,7 +56,7 @@ To take full advantage of the title formatting functionality, set the right attr
 Data quality grades for **enrichment** and **consistency** are displayed as badges on various PIM screens.
 
 ## On your dashboard
-Your **dashboard** offers multiple ways of measuring your catalog's enrichment and consistency. You can choose to view data quality on the whole catalog, on a family or on a category.
+Your **dashboard** offers multiple ways of measuring your catalog's enrichment and consistency. You can choose to view data quality on the whole catalog, on a family, or on a category.
 
 ![Image data quality dashboard](../img/data-quality-dashboard.png)
 
