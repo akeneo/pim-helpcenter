@@ -53,7 +53,7 @@ To take full advantage of the Title formatting criteria, set your product title 
 :::
 
 # Where to see data quality grades?
-Data quality grades for **enrichment** and **consistency** are displayed as badges on various screens of the PIM.
+Data quality grades for **enrichment** and **consistency** are displayed as badges on various screens in the PIM.
 
 ## On your dashboard
 Your **dashboard** offers multiple ways of measuring your catalog's enrichment and consistency. You can choose to view data quality on the whole catalog, on a family or on a category.
