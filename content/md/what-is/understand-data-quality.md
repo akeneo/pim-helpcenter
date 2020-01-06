@@ -12,9 +12,9 @@ What is this **red, orange or green A, B, C, D, E displayed on my product edit f
 
 **This is data quality insights!**
 
-Because rich, coherent and consistent product data is important in order to deliver great product experiences, we introduced the concept of "data quality" in our PIM.
-Akeneo's data quality is information about your product data quality: it helps you measure your data quality along two axes: **enrichment** and **consistency**.
-Each of these axes has a grade ranging from A to E. The grades can be seen on several screens in the PIM.
+Because rich, coherent and consistent product data is important in order to deliver great product experiences, we introduced the concept of "data quality" in our PIM.  
+This new capability helps you measure your data quality along two axes: **enrichment** and **consistency**.  
+Each of these two axes has a score from A to E. The scores can be seen on several PIM screens.
 
 ![Image data quality badges](../img/data-quality-grades.png)
 
@@ -49,11 +49,11 @@ From the `data quality insights` panel, by clicking on the "Display all improvab
 :::
 
 ::: success
-To take full advantage of the Title formatting criteria, set your product title attribute as the main title
+To take full advantage of the Title formatting criteria, set your product title attribute as the **main label**.
 :::
 
 # Where to see data quality grades?
-Data quality grades for **enrichment** and **consistency** are displayed as badges on various screens in the PIM.
+Data quality grades for **enrichment** and **consistency** are displayed as badges on PIM screens.
 
 ## On your dashboard
 Your **dashboard** offers multiple ways of measuring your catalog's enrichment and consistency. You can choose to view data quality on the whole catalog, on a family, or on a category.
@@ -71,7 +71,7 @@ Your **product edit form** will display the enrichment and consistency grades fo
 ![Image product edit form](../img/data-quality-pef.png)
 
 ::: info
-Enrichment and consistency grades are not yet calculated on product variant and product models. Stay tuned for our future releases!
+Enrichment and consistency grades are not yet calculated on variant products and product models. Stay tuned for our future releases!
 :::
 
 ## In your data quality insights panel (product edit form)
