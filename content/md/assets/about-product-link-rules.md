@@ -23,11 +23,11 @@ You can have up to two different product link rules for one given asset family.
 :::
 
 A product link rule is divided into two parts:
-- the product_selections part,
-- the assign_assets_to part.
+- the `product_selections` part,
+- the `assign_assets_to` part.
 
 ::: info
-A piece of advice: when defining two different rules on an asset family, make sure you define different product selections in each rule, as shown in the example above. Why? Because you could experience performance issues. If you want to assign your assets to two different product attributes on a given selection of products, use one single rule, with two assigments in the assign_assets_to field. See the Product value assigment section for an example.
+A piece of advice: when defining two different rules on an asset family, make sure you define different product selections in each rule, as shown in the example above. Why? Because you could experience performance issues. If you want to assign your assets to two different product attributes on a given selection of products, use one single rule, with two assignments in the `assign_assets_to` field. See the Product value assignment section for an example.
 :::
 
 Looks barbaric? Don't freak out! The following sections are here to help you understand this rule and how you can make the most of it. You'll see, it's super powerful! 😃
@@ -65,7 +65,7 @@ This is done in the second part of the product link rule, in the `assign_assets_
 # Asset values extrapolation
 "Asset values extrapolation"? What the hell is that? It's the clever naming I just came up with to explain one last thing about the product link rule.
 
-You now know how to [select your products](#), and then [assign your assets](#) in the right product attribute. That's a good start.
+You now know how to [select your products](#product_selection), and then [assign your assets](#product_value_assignment) in the right product attribute. That's a good start.
 
 But in some cases, you might need the rule to be a bit more powerful so it answers your expectations.
 As an example is better than 10,000 words, let's imagine this situation.
