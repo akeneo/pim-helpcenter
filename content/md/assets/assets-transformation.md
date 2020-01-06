@@ -160,16 +160,108 @@ In the same asset family, you **cannot have two transformations with the same ta
 
 Otherwise, your first generated target file may be erased by the next transformation.
 
+#### Example
+Let's say that you have 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is "t1_",
+  * the attribute `main_image` is the source *(non-localisable & non-scopable)*,
+  * the attribute **`thumbnail`** is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is "t2_",
+  * the attribute `main_image_2` is the source *(non-localisable & non-scopable)*,
+  * the attribute **`thumbnail`** is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This example will generate an error because both transformations have the same target.
+
 ### Non-unicity of the source value
 In the same asset family, you **can have two transformations with the same source**, i.e. exactly the same `attribute`, `channel` and `locale` in your `source` property.
 
 Indeed, it allows you generate different versions of your source file.
+
+#### Example
+Let's say that you have 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is "t1_",
+  * the attribute **`main_image`** is the source *(non-localisable & non-scopable)*,
+  * the attribute `thumbnail` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is "t2_",
+  * the attribute **`main_image`** is the source *(non-localisable & non-scopable)*,
+  * the attribute `thumbnail_2` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This example is completely valid - even if in this case we create twice exactly the same image in two different attributes, A bit useless if you ask, but still, it's valid. ;)
 
 ### Unicity of the target filename
 In the same asset family, you **cannot have two transformations with the same target filename**, i.e. exactly the same `source`, `filename_prefix` and `filename_suffix`.
 
 Otherwise, the PIM would create two files called exactly the same way, which can cause you trouble if you want to retrieve them.
 
+#### Example
+Let's say that you have 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is **"thumbnail_"**,
+  * the attribute `main_image` is the source *(non-localisable & non-scopable)*,
+  * the attribute `thumbnail` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is **"thumbnail_"**,
+  * the attribute `main_image` is the source *(non-localisable & non-scopable)*,
+  * the attribute `thumbnail_2` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This example will generate an error because both target filenames are exactly the same.
+
 ### A source value cannot be a target value
 
 In the same asset family, you **cannot have two transformations with the first one defining a source value as the target value of the second one**. And vice versa.
+
+#### Example
+Let's say that you have 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is "t1_",
+  * the attribute `main_image` is the source *(non-localisable & non-scopable)*,
+  * the attribute **`thumbnail`** is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is "t2_",
+  * the attribute **`thumbnail`** is the source *(non-localisable & non-scopable)*,
+  * the attribute `thumbnail_2` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This example will generate an error because the source of the second transformation is the target of the first one.
+
+#### Example
+Let's say that you have 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is "t1_",
+  * the attribute `main_image` is the source *(non-localisable & non-scopable)*,
+  * the attribute **`thumbnail`** is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is "t2_",
+  * the attribute `main_image_2` is the source *(non-localisable & non-scopable)*,
+  * the attribute `main_image` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This example will also generate an error because both the target of the second transformation is the source of the first one.
+
+#### Example
+Let's say that you have set up 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is "t1_",
+  * the attribute `main_image` is the source (non-localisable but scopable: **channel= `ecommerce`**),
+  * the attribute **`thumbnail`** is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is "t2_",
+  * the attribute `main_image_2` is the source *(non-localisable & non-scopable)*,
+  * the attribute `main_image` is the target (non-localisable & but scopable: **channel= `print`**),.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This last example is valid because the source attribute value of the first transformation is **different** from the target attribute value of the second transformation, as they are referencing **different channels**.
+
+All the details are in our [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) documentation.
