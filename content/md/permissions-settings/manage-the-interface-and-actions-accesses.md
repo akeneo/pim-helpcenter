@@ -21,6 +21,10 @@ To change permissions for one user role:
 
 For almost each screen and button in the PIM, you can say if a user can see/use it or not. The following sections lists all the rights and the features that are attached to it, depending on the part of the application where they are located.
 
+::: warning
+Only give UI permissions to user roles that are related to real users, not to [connection user roles](manage-your-connections.html#configure-the-connection-user-role). As it gives right over the interface, they should only be granted to real users and not to [connections](what-is-a-connection.html).
+:::
+
 # Rights on products pages
 
 ## Permissions on products
