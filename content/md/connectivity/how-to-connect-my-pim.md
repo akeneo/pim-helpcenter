@@ -1,6 +1,6 @@
 ---
 id: how-to-connect-my-pim
-themes: connectivity
+themes: connectivity, import-export-data
 title: How to **connect** my PIM?
 popular: true
 ee-only: false
