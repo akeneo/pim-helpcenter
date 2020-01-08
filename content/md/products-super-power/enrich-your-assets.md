@@ -44,16 +44,6 @@ If you search for *"famous"* and *"bags"*, then only the record containing both 
 
 ![Search for assets with several keywords](../img/Assets_Search_2_words.png)
 
-## Filter on completeness
-
-You can also filter on completeness in order to see the assets that are complete/incomplete, or choose to see all the records, no matter their completeness. It can be very useful if you want to enrich the incomplete assets.
-
-![Assets filter on completeness](../img/Assets_filter_completeness.png)
-
-::: tips
-To know how to define the required attributes for the completeness, please take a look at this [article](manage-assets.html)
-:::
-
 ## Filter on options
 
 There are also filters on the left, where you retrieve the options of the single/multiple options attributes. It can be very powerful if you use these options to manage tags on your assets for example.
