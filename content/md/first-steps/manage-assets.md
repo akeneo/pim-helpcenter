@@ -110,7 +110,7 @@ To edit an attribute, follow these steps:
   :::
 
   :::info
-  The prefix and suffix are not mandatory. For `Youtube`, it is not necessary to put a prefix and a suffix, you can simply copy paste the id of the video link.
+  The prefix and suffix are not mandatory.
   :::
 
 ### Edit a text attribute
