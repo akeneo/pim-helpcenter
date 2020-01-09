@@ -180,7 +180,7 @@ Don't really know how the authentication via API works? [Don't worry, there is d
 
 # Set the permissions
 
-For each connections, you can define a set of permissions that can restrict the access to:
+For each connection, you can define a set of permissions that can restrict the access to:
 - some API endpoints. In this case, those permissions are defined thanks to your [connection user role](#configure-the-connection-user-role).
 - some parts of your product catalog. In this case, those permissions are enforced thanks to the [connection user group](#configure-the-connection-user-froup). Note that they are only available in the Entreprise Edition.
 
@@ -188,7 +188,7 @@ For each connections, you can define a set of permissions that can restrict the 
 For each connection, you can define a [user role](what-is-a-role.html). This user role should be first [created in the `User role` screens](build-your-user-roles.html#create-a-role).
 
 ::: warning
-By default, your connection is created with the `User` user role. You may want to change that as this user role is quite generic and won't certainly give the right permissions to your connection.
+By default, your connection is created with the `User` user role. You may want to change that as this user role is quite generic and may not assign the desired permissions to your connection.
 :::
 
 We strongly recommend you to create one **dedicated user role** for your connections, different from the user roles that you use for your UI users. It's even better if you create one user role for every connection you will need, as it will allow you to fine tune what each connection will be able to access. :wink:
@@ -201,13 +201,13 @@ To create a user role and link it to your connection:
 1. Click on the `System` menu.
 2. Click on the `Roles` submenu.
 3. Click on the `Create role` button.
-4. In the form that appear, give a name to your user role, `My Magento user role` for example.
-5. Click on the `Web API permissions` tab and select the `Overal Web API access`.
+4. In the form that appears, give a name to your user role, `My Magento user role` for example.
+5. Click on the `Web API permissions` tab and select `Overall Web API access`.
 6. You can also select other accesses in the list below depending on what you want your connection to be able to achieve.
 7. Save your configuration by clicking on the `Save` button.
 2. Click on the `Connections` submenu.
 3. Click on the connection for which you want to set the permissions.
-4. On the right side of the screen, there is a `Permissions` section. Select the user role you've juste created in the `Role` dropdown.
+4. On the right side of the screen, there is a `Permissions` section. Select the user role you've just created in the `Role` dropdown.
 ![Select the connection role](select-the-connection-role.png) <!-- TODO -->
 5. Don't forget to save by clicking on the `Save` button.
 
@@ -216,7 +216,7 @@ To create a user role and link it to your connection:
 For each connection, you can define a [user group](what-is-a-user-group.html). This user group should be first [created in the `User role` screens](build-your-user-groups.html#create-a-user-group).
 
 ::: warning
-By default, your connection is created with the `All` user group. You may want to change that as this user group is quite generic and won't certainly give the right permissions to your connection.
+By default, your connection is created with the `All` user group. You may want to change that as this user group is quite generic and may not assign the desired permissions to your connection.
 :::
 
 We strongly recommend you to create one **dedicated user group** for your connections, different from the user groups that you use for your UI users. It's even better if you create one user group for every connection you will need, as it will allow you to fine tune what each connection will be able to access. :wink:
@@ -225,16 +225,16 @@ To create a user group and link it to your connection:
 1. Click on the `System` menu.
 2. Click on the `User groups` submenu.
 3. Click on the `Create group` button.
-4. In the form that appear, give a name to your user group, `My Magento user group` for example.
+4. In the form that appears, give a name to your user group, `My Magento user group` for example.
 7. Save by clicking on the `Save` button.
 2. Click on the `Connections` submenu.
 3. Click on the connection for which you want to set the permissions.
-4. On the right side of the screen, there is a `Permissions` section. Select the user group you've juste created in the `Group` dropdown.
+4. On the right side of the screen, there is a `Permissions` section. Select the user group you've just created in the `Group` dropdown.
 ![Select the connection group](select-the-connection-group.png) <!-- TODO -->
 5. Don't forget to save by clicking on the `Save` button.
 
 ::: tips
-By default, the user group you've just created does not give any right over the catalog. So it's perfectly normal if you receive no product, when you ask for products via the API using the connection credentials.  
+By default, the user group you've just created does not give any rights to the catalog. So it's perfectly normal if you receive no products when you ask for products via the API using the connection credentials.  
 To be able to view the catalog, you will need to give permissions to your connection user group. [Here is the documentation to help you in this task.](access-rights-on-products.html)
 :::
 
