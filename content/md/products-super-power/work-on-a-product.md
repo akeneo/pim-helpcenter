@@ -165,7 +165,7 @@ It's very simple:
 
 ![selector](../img/Products_EntitySelector.png)
 
-_Since the 3.1 version_, we added the completeness of a record in the selector.
+We added the completeness of a record in the selector.
 
 ![selector](../img/Products_EntitySelectorCompleteness.png)
 

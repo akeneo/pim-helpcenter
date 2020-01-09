@@ -100,7 +100,7 @@ To know more about how proposals are review, take a look at the [Review product 
 
 ### Via a sequential edit
 
-Before the 3.2 PIM version, contributors could send drafts for approval, one by one via the `Send for approval` button in the Product Form. To increase their productivity while working with drafts we added the possibility to [sequentially edit](sequential-edit.html) drafts and send them for approval. Let's see how it works!
+To increase your productivity while working with drafts we added the possibility to [sequentially edit](sequential-edit.html) drafts and send them for approval. Let's see how it works!
 
 ![sequentially-send-for-approval](../img/Productivity_proposals_sequential.png)
 
