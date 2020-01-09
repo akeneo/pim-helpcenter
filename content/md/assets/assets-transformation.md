@@ -143,7 +143,7 @@ All parameters are required.
 
 ### Resize
 
-With the `resize` type, you can resize image without keeping the width/height proportions.
+With the `resize` type, you can resize an image without keeping the width/height proportions.
 
 There are 2 available parameters for this operation.
 
