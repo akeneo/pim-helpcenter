@@ -7,16 +7,6 @@ ee-only: true
 related: upload-assets, assets-transformation
 ---
 
-Qu'est ce qui a changé?
-Parler de ce qu'on avait avant, et comment il faut faire maintenant
-- tags: si utilisés pour les ref produits, possible maintenant de voir les produits liés et de créer un attribut texte "ref produit"
-- comment faire un asset localisable?
-- asset scopable
-- catégories
-- permissions
-- attributs / structure
-- transformations
-
 # From non-structured assets to structured ones
 
 You may know our famous PAM, Product Asset Manager. If not, just a short laius. Since 2015, Akeneo PIM has enabled you to manage assets thanks to the PAM. But the way we managed assets was quite different than with our brand new Asset Manager. Let's see why.
@@ -42,7 +32,7 @@ As for the products, you had the possibility to organize your assets thanks you 
 With the new Asset Manager, come new concepts.
 
 ## From asset categories to asset families
-We replaced the asset categories by the `Asset Families`, making it much more powerful since, in addition to the possibility to organize your assets, it is now possible to define a structure by asset family. You can also define permissions by asset families.   
+We replaced the asset categories by the `Asset Families`, making it much more powerful since, in addition to the possibility to organize your assets, it is now possible to define a structure by asset family. You can also define permissions by asset families. It allows you to access or not the content of the family.
 
 ## Tags management
 The way we handled `tags` was not efficient enough.  
@@ -56,7 +46,7 @@ If you used tags to reference your product, you should be very happy to learn th
 Thus, in the new asset manager, there is a dedicated tab in each asset, where you can list all the products linked to this asset. Very useful ;)
 :::
 
-:::info
+:::tips
 You had asset categories and/or tags, and you wonder how you could retrieve them? We recommend you to read our [step-by-step guide](#) for the migration ;)
 :::
 
@@ -78,7 +68,30 @@ We really wanted to ease your daily work, that is why we worked on that specific
 As mentioned above, you can add up to 100 attributes per asset family, in order to add marketing information to your assets. The list of available attributes is described in [this article](#).
 
 ## All media can be managed in Akeneo, even those stored outside of the PIM
-Because we know that your assets can be stored on specific media servers, or in a DAM, we
+Because we know that your assets can be stored on specific media servers, or in a DAM, we introduced a new attribute type `media link` in the Asset Manager, which enables you to add url link in your assets. This way, you can have in your PIM, videos stored on Youtube for example ;)
 
 ## Assets deserve completeness
-As for the products, we think that defining a completeness level on assets can be very important. It allows you to be way more rigorous in your assets enrichment work. To do that, just tick the `required for completeness` checkbox in your attribute settings ;)
+As for the products, we think that defining a completeness level on assets can be very important. It allows you to be way more rigorous in your assets enrichment work. To do that, just tick the `required for completeness` checkbox in your attribute settings.
+
+## I have specific values per locale, what should I do?
+Depending on your usecases, we have 2 solutions for you.
+
+### I have .pdf files for my notices: the same notice is declined into several languages.
+For this usecase, we advise you to create one asset (let's say `Yali_notice`), with a `media file` or `media link` attribute type, that you will choose as the `attribute used as main media`. Tick the property `value per locale` in the attribute settings. If you want to add other attributes to enrich your notice (for example, a short description), you can add a text attribute type and select the same property `value per locale`. This way, you will be able to upload, let's say, the english version of your notice in the english locale, and the french one in the french locale.
+
+::: info
+It's exactly the same when you have different values per channel.
+:::
+
+### I sell swimwears and I can't use the same images depending on the selling country.
+Indeed, some countries have restriction rules regarding the media. For example, to sell your `floral_bikini` swimwear, you will use images with models in Europe, but not in United Arab Emirates. This way, this time, you won't use the same asset but you will create two different assets: one with the model, one with the bikini only. But, you will create an `asset collection` product attribute, and you will choose the parameter `value per locale`. It will enable you to have a different asset collection depending on the locale!
+
+[screenshot](localisable_attribute)
+
+::: info
+It's exactly the same when you have different values per channel.
+:::
+
+::: tips
+It wouldn't make any sense to apply those 2 solutions at the same time, we let you choose the one which suits best your needs.
+:::
