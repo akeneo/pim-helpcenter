@@ -79,7 +79,7 @@ Each attribute has specific properties to add more control on attribute's values
 - **Reference entity single link attribute** & **reference entity multiple links attribute _(Enterprise Edition only)_**:
   - *Related reference entity*: the reference entity linked to this attribute
 - **Reference data simple select attribute** & **reference data multi select**:
-  - *Reference data type*: choose an existing reference data to link to your attribute
+  - *Reference data type*: choose an existing reference data value to link to your attribute
 - **Asset collection attribute _(Enterprise Edition only)_** :
   - *Related asset family*: the asset family linked to this attribute
 
