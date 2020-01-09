@@ -78,7 +78,7 @@ On the one hand, you have an asset of this family, let's say the user guide for 
 On the other hand, you have your TV and its SKU is `XMLD500`. The product sheet for this TV has an asset collection attribute called `user_guides`. It is localizable.  
 Now, what you want is to automatically link the `XMLD500_fr_FR_user_guide` to the `XMLD500` product, in the right attribute on the right locale, ie the French locale.
 
-How do you do that? I'll tell you. You're gonna need "**asset value extrapolation**".
+How do you do that? I'll tell you. You're going to need "**asset value extrapolation**".
 
 "Asset value extrapolation" is a mechanism by which you can target specific asset values in various fields of the product link rule so that they can be interpreted depending on the asset it is currently linking.
 
