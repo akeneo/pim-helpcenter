@@ -8,7 +8,7 @@ related: work-with-assets, upload-assets
 ---
 
 # What is a product link rule?
-The product link rule enables you to automatically link assets to products, based on assets name or attributes. This rule is defined at the asset family level.
+The product link rule enables you to automatically link assets to products, based on asset name or attributes. This rule is defined at the asset family level.
 
 This rule is launched by the PIM after the asset creation.
 
