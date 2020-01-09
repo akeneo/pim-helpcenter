@@ -78,7 +78,7 @@ The `operations` property allows you to define which image transformations shoul
 
 In one single transformation, you can define one or several operations. It means that you can combine transformations: for instance, you can have a `scale` transformation and a `colorspace` transformation at the same time.
 
-In the case you have several operations for the same asset family, note that they will be performed in the same order than they are defined in the `operations` array. So be sure to choose the right order for what you wish to accomplish.
+In the case where you have several operations for the same asset family, note that they will be performed in the same order as they are defined in the `operations` array. So be sure to choose the right order for what you wish to accomplish.
 
 ::: warning
 Defining the same operation type twice in the same transformation is forbidden as it would totally make no sense.
