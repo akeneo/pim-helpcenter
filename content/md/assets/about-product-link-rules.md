@@ -60,7 +60,7 @@ Here is the list of the fields you can use to select your products:
 
 ## Product value assignment
 
-Once you have chosen and selected the products you want to apply the rule on, it is time to think about where, in the products, you want to assign those assets.
+Once you have chosen and selected the products you want to apply the rule to, it is time to think about where, in the products, you want to assign those assets.
 
 This is done in the second part of the product link rule, in the `assign_assets_to` property. Thanks to this property, you will define to which product value you want to assign your assets. In other words, which attribute, locale and scope of the products you want to link your assets to. You can also decide whether you want to **add** new assets or **replace** the existing ones inside this product attribute.
 
