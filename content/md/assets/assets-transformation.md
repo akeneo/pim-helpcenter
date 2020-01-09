@@ -42,7 +42,7 @@ Still not comfortable with transformations and want to better understand? Don't 
 
 # How does it work?
 
-In this part, we will dig into the parameters of the transformations format and see with example, how does this powerful feature work. Let's go!
+In this part, we will dig into the parameters of the transformations format and will look at an example of how this powerful feature works. Let's go!
 
 
 ## Label
