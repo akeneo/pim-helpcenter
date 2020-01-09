@@ -55,7 +55,7 @@ For instance, to store an EAN13 in Akeneo which does always contain 13 digits, a
 
 ### Differences between the two attribute types
 
-**Reference entities are an Enterprise Edition feature added in the 3.0 version**. To learn more about Reference entities, read our dedicated article [What is a Reference Entity?](what-about-reference-entities.html).    
+**Reference Entities is an Enterprise Edition feature added in the 3.0 version**. To learn more about Reference Entities, read our dedicated article [What is a Reference Entity?](what-about-reference-entities.html).    
 Whereas reference data are a native Community and Enterprise editions feature that manages links with products. They imply a custom development (installation of the [Custom Entity Bundle](https://github.com/akeneo-labs/CustomEntityBundle)) to enrich the reference data through the user interface, collect and distribute it.
 
 **If you are starting a new Enterprise Edition project from version 3.0, we strongly recommend that you use [Reference entities](manage-reference-entities.html#create-a-reference-entity).**
