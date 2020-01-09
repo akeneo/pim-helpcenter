@@ -11,17 +11,17 @@ related: what-about-assets, enrich-your-assets
 
 To display the existing [assets](/articles/what-about-assets.html), click on the `Assets` menu. You will discover the new asset library.   
 
+![image](../img/asset_library.png)
+
+Assets are displayed by asset families. As you can see, there is a dropdown menu in the filters panel to choose the asset family. If you have several asset families, use it to switch between them!
+
 ::: warning
 It is not possible to have an asset without asset family. So if you don't have any asset family, the first thing to do is to create one, clicking on the `Create family` button.
 :::
 
-Once an asset family is created, it appears in the dropdown menu in the filters panel. If you have several asset families, use it to switch between your asset families! You'll see, the asset library will change accordingly.
-
-::: tips
+::: info
 By default, the first asset family is selected.
 :::
-
-![image](../img/asset_library.png)
 
 # Create an asset family
 
@@ -60,7 +60,7 @@ To add an attribute, follow these steps:
 1.  Select the attribute type:
  ![image](../img/ReferenceEntity_AddAttribute_Type.png)
     - **Media file**: for images and files stored internally
-    - **Media link**: when you have a url link
+    - **Media link**: for images and files stores externally (when you have a url link)
     - **Text**: for text or text area attributes
     - **Number**: for number attributes
     - **Single option**: to define a list of options with a single choice
@@ -93,7 +93,7 @@ To edit an attribute, follow these steps:
 
 ### Edit a media file attribute
   - *Max file size (MB)*: maximum file size allowed in MB
-  - *Media type*: choose either `image`, `pdf` or `other`
+  - *Media type*: choose either `image`, `pdf` or `other`. It has an impact on the preview but there is no control. It means that if you choose `pdf` as media type, you can still add an image in this attribute but we won't generate any preview.
   - *Allowed extensions*: allowed files extensions (gif, jpeg, jpg, pdf, png...)
 
   :::info
@@ -240,7 +240,7 @@ The product link rule enables you to automatically link assets to products, base
 
 This rule is launched by the PIM after the asset creation.
 
-The transformations format is quite technical to define but if you want to go deeper into this powerful feature, [this article](/articles/focus-on-product-link-rules.html).. is made for you ;)
+The product link rule format is quite technical to define but if you want to go deeper into this powerful feature, [this article](/articles/focus-on-product-link-rules.html) is made for you ;)
 
 :::warning
 The product link rule is only available to link assets to products. Yet, linking assets to product models has to be done manually, for now.
@@ -256,7 +256,7 @@ A piece of advice: when defining two different rules on an asset family, make su
 It is possible to define transformations at the asset family level. It means that, for each asset of a given asset family, transformations will be automatically applied.
 
 The settings of the transformations is done via the API or via the UI, in the `Transformations` tab of an asset family.
-It is the same screen as the Product link rules. I recommend you to [this article](/articles/focus-on-asset-transformations.html) this article to know how to define the asset transformations.
+I recommend you to read [this article](/articles/focus-on-asset-transformations.html) to know how to define the asset transformations.
 
 The following operations are available:
 - `colorspace` (change the image's colorspace)
@@ -288,14 +288,4 @@ The following operations are available:
 # Set rights on an asset family
 To set rights on an asset family, please read [this article](/articles/access-rights-on-asset-families.html).
 
-# Create an asset
-To create an asset:
-1. In the filters panel, select the asset family in which you want to add the asset
-1. Click on the `Create asset` button
-1. Choose the way you want to create assets: unitary or via the [mass upload](/articles/) feature
-1. If it's a unitary creation, input the label of the asset in the current catalog locale
-1. The code is automatically generated using the label, but it can also be updated (this code must be unique and may only contain letters, numbers and underscores)
-1. Click on `Save` or press `Enter` to create the asset.
-
-
-[Create and enrich assets ](/articles/enrich-your-assets.html)
+Now you can [create and enrich your assets ](/articles/enrich-your-assets.html)!
