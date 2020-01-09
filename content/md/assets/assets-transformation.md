@@ -116,7 +116,7 @@ There should be at least one of the 3 parameters defined.
 ### Change of colorspace
 With the `colorspace` type, you can change the image's colorspace. For example, you can turn it to black and white.
 
-There is one available parameter for this operation: `colorspace`. It allows you to choose to which colorspace you want your image to be turned into. It should be one of the following values:
+There is one available parameter for this operation: `colorspace`. It allows you to choose which colorspace you want your image to be turned into. It should be one of the following values:
 - `rgb`,
 - `cmyk`,
 - `grey`.
