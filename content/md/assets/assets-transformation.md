@@ -198,7 +198,7 @@ Let's say that you have 2 transformations on your asset family:
   * the attribute `thumbnail_2` is the target *(non-localisable & non-scopable)*.
   * The operation to apply is a `thumbnail` one *(150x150)*.
 
-This example is completely valid - even if in this case we create twice exactly the same image in two different attributes, A bit useless if you ask, but still, it's valid. ;)
+This example is completely valid - even if in this case we create twice exactly the same image in two different attributes. A bit useless if you ask, but still, it's valid. ;)
 
 ## Unicity of the target filename
 In the same asset family, you **cannot have two transformations with the same target filename**, i.e. exactly the same `source`, `filename_prefix` and `filename_suffix`.
