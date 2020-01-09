@@ -58,6 +58,10 @@ For instance, to store an EAN13 in Akeneo which does always contain 13 digits, a
 **Reference entities are an Enterprise Edition feature**. To learn more about Reference entities, read our dedicated article [What is a Reference Entity?](what-about-reference-entities.html).  
 Whereas reference data are a native Community and Enterprise editions feature that manages links with products. They imply a custom development (installation of the [Custom Entity Bundle](https://github.com/akeneo-labs/CustomEntityBundle)) to enrich the reference data through the user interface, collect and distribute it.
 
+::: tips
+If you are starting a new Enterprise Edition project, we strongly recommend that you use the [Reference entities](manage-reference-entities.html#create-a-reference-entity).
+:::
+
 ### I was using Reference data, can I transform them into Reference entities?
 
 Yes! If you were using Reference Data in a previous PIM version, you can migrate your Reference data thanks to the [`CSVToReferenceEntity`](https://github.com/akeneo/CsvToReferenceEntity) tool.  
