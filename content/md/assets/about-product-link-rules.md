@@ -75,7 +75,7 @@ As an example is better than 10,000 words, let's imagine this situation.
 ## How does it work?
 You put all your user guides in the same asset family, called `user_instructions`.
 On the one hand, you have an asset of this family, let's say the user guide for a particular TV, the `XMLD500 TV`. This user guide asset has the following code: `XMLD500_fr_FR_user_guide`. It is the French version of the user guide for this TV.  
-On the other hand, you have your TV which SKU is `XMLD500`. The product sheet of this TV has an asset collection attribute called `user_guides`. It is localizable.  
+On the other hand, you have your TV and its SKU is `XMLD500`. The product sheet for this TV has an asset collection attribute called `user_guides`. It is localizable.  
 Now, what you want is to automatically link the `XMLD500_fr_FR_user_guide` to the `XMLD500` product, in the right attribute on the right locale, ie the French locale.
 
 How do you do that? I'll tell you. You're gonna need "**asset value extrapolation**".
