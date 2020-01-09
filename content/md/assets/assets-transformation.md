@@ -183,7 +183,7 @@ This example will generate an error because both transformations have the same t
 ## Non-unicity of the source value
 In the same asset family, you **can have two transformations with the same source**, i.e. exactly the same `attribute`, `channel` and `locale` in your `source` property.
 
-Indeed, it allows you generate different versions of your source file.
+Indeed, it allows you to generate different versions of your source file.
 
 ### Example
 Let's say that you have 2 transformations on your asset family:
