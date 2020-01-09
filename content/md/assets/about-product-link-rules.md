@@ -10,7 +10,7 @@ related: work-with-assets, upload-assets
 # What is a product link rule?
 The product link rule enables you to automatically link assets to products, based on asset name or attributes. This rule is defined at the asset family level.
 
-This rule is launched by the PIM after the asset creation.
+This rule is launched by the PIM after the asset is created.
 
 You can define the product link rules via the [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) or directly in the PIM user interface, by editing a JSON field. The format is exactly the same in the API and in the PIM interface.
 
