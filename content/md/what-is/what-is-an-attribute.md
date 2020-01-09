@@ -72,7 +72,7 @@ Yes! Reference data are still available on the 3.X versions.
 
 ### How can I import/export Reference entities?
 
-There is no native import/export for Reference entities, but you can use our API to manage them. Learn about their API format and the endpoints available on our API online documentation:
+There is no native import/export for Reference Entities, but you can use our API to manage them. Learn about their API format and the endpoints available on our API online documentation:
 [Presentation of the reference entities and their associated standard formats](https://api.akeneo.com/documentation/resources.html#reference-entities)
 
 # Specific properties of attributes
