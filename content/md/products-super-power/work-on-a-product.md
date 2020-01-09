@@ -143,7 +143,7 @@ And if you want to have a look at history, a new version is created in `History`
 
 ### Assets display
 
-If you have assets linked to your products, you can have a **large display of those assets** clicking on their thumbnails.
+If you have assets linked to your products, you can have a **large display of those assets** clicking on their thumbnails. It is possible to preview images (.png, .jpeg, .tif, .svg, ...), PDF and Youtube videos!
 
 ![preview](../img/preview.jpg)
 
@@ -154,6 +154,10 @@ And moreover, we added a slideshow to navigate between the assets.
 Several actions are available in this asset preview screen:
 - You can download each asset clicking on `download`.
 - You can also enrich the asset attributes, clicking on `edit asset`. This way, you will be redirected on the asset form.
+
+:::info
+If the main media of your asset is a `media link`(meaning that the media is stored externally), there is also a button to **copy the url link** ;)
+:::
 
 ## Add one or several records of a reference entity to a product _(EE only)_
 
