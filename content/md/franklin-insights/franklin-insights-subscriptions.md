@@ -3,7 +3,7 @@ id: franklin-insights-subscriptions
 themes: franklin-insights
 title: Franklin Insights **subscriptions**
 ee-only: true
-related: franklin-insights-getting-started, franklin-insights-mappings
+related: franklin-insights-getting-started, franklin-insights-mappings, franklin-key-figures
 ---
 
 # Overview
@@ -26,7 +26,7 @@ You have 2 ways to subscribe products to Franklin.
 
 In order for you to receive attribute values proposals for subscribed and enriched products, you need to **match between Franklin’s attributes and your catalog attributes** in each family using the [Franklin attributes mapping UI](franklin-insights-mappings.html#identifiers-mapping).
 
-# Filter on subscribed products in the product grid (_since 3.1_)
+# Filter on subscribed products in the product grid
 
 In order to easily find the subscribed or unsubscribed products, we added a filter `Franklin subscription` in the product grid. Thus, you can easily display the products in the grid and [bulk subscribe or unsubscribe](franklin-insights-subscriptions.html#via-bulk-action) them.
 

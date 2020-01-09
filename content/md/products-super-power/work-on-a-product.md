@@ -97,7 +97,7 @@ If you do not see `+` icon, you might not have the appropriate rights to add an 
 
 ## Work with assets in an asset collection attribute _(EE only)_
 
-In the product form, there is a new tab "Assets" in which you will retrieve all the asset collections of your product. It means that the assets will not be mixed with other values of the product. The asset collections also have a brand new design, here is how they look like:
+In the product form, there is a new "Assets" tab in which you will retrieve all the asset collections of your product. It means that the assets will not be mixed with other values of the product. The asset collections also have a brand new design, here is how it looks:
 
 ![asset_collection_attribute](../img/asset_collection_attribute.png)
 
@@ -133,7 +133,7 @@ OK, let's see!
 
 If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with **the arrows**, and find this order in export file. Simple. Fast. Effective.
 
-You need to import assets in a certain order in Akeneo PIM? No problem! Just order your assets in your import file, separating asset's names with a coma, then have this order in the PIM. You can also achieve this by using the API.
+You need to import assets in a certain order in Akeneo PIM? No problem! Just order your assets in your import file, separating asset names with a comma, then have this order in the PIM. You can also achieve this by using the API.
 
 The order defined in the PIM will also be the same when you'll export your products with the API.
 
@@ -152,8 +152,8 @@ Where? In the **asset collection** in the **Product Form**.
 And moreover, we added a slideshow to navigate between the assets.
 
 Several actions are available in this asset preview screen:
-- You can download each asset clicking on `download`.
-- You can also enrich the asset attributes, clicking on `edit asset`. This way, you will be redirected on the asset form.
+- You can download each asset by clicking on `download`.
+- You can also enrich the asset attributes, clicking on `edit asset`. This way, you will be redirected to the asset form.
 
 :::info
 If the main media of your asset is a `media link`(meaning that the media is stored externally), there is also a button to **copy the url link** ;)
@@ -169,7 +169,7 @@ It's very simple:
 
 ![selector](../img/Products_EntitySelector.png)
 
-_Since the 3.1 version_, we added the completeness of a record in the selector.
+We added the completeness of a record in the selector.
 
 ![selector](../img/Products_EntitySelectorCompleteness.png)
 
@@ -216,7 +216,7 @@ To copy the product information from a locale:
 
 # View the product’s versions
 
-The history of changes applied to a product are taking into account for the following operations:
+The history of changes applied to a product are taken into account for the following operations:
 - Changes of attribute values in the Product Form
 - Changes on the product status (enabled/disabled)
 - Changes on family

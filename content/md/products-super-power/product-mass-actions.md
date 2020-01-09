@@ -94,7 +94,7 @@ These actions will not apply on products without families.
 :::
 
 :::ee
-Since 3.2, a check box `Send for approval` is displayed in the confirmation step. If you select it and have `Edit` rights on products, you will automatically send the [drafts](https://help.akeneo.com/pim/v3/articles/proposals-workflow.html#statuses-of-products) for approval. At the end of the process, you will receive a notification with the number of proposals generated.
+A check box `Send for approval` is displayed in the confirmation step. If you select it and have `Edit` rights on products, you will automatically send the [drafts](https://help.akeneo.com/pim/v3/articles/proposals-workflow.html#statuses-of-products) for approval. At the end of the process, you will receive a notification with the number of proposals generated.
 :::
 
 ## Edit attribute values
