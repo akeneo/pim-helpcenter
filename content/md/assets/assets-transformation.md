@@ -101,7 +101,7 @@ Both parameters are required.
 :::
 
 ### Scale
-With the `scale` type, you can resize image while keeping the width/height proportions.
+With the `scale` type, you can resize the image while keeping the width/height proportions.
 
 | Operator name | Description |
 | ----------------- | -------------- |
