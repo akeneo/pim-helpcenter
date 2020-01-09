@@ -86,7 +86,7 @@ As a prerequisite for this rule to work, we would need **two new attributes** in
 In our example, for our `XMLD500_fr_FR_user_guide` asset, we would store the values `XMLD500` into the `product_ref` attribute and `fr_FR` in the `locale` attribute.
 
 ::: info
-Those two new attributes can be easily filled by using the API and a simple regular expression on the code of the asset, as both information, the product reference and the locale are already in the code.
+Those two new attributes can be easily filled by using the API and a simple regular expression on the code of the asset, as both the product reference and the locale are already in the code.
 :::
 
 In fine, the PIM is going to select the product which SKU is `XMLD500` and assign the asset to the `user_instructions` product attribute on the `fr_FR` locale. Exactly what we wanted. 😉
