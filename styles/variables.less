@@ -18,54 +18,54 @@
 
 
 @font-family-sans-serif:  Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-@text-color:            #3B4A5F;
+@text-color: #677688;
 
-@brand-primary:					lighten(#11324D,10%);
-@brand-success:         #67B373;
-@brand-info:            #4992C7;
-@brand-warning:         #F9B53F;
-@brand-danger:          #D4604F;
-@brand-akeneo:          #9452BA;
-@brand-print-purple: 	#52267D;
-@brand-print-yellow: 	#FFCC00;
-@gray: 					#67768A;
-@gray-light:			#A1A9B7;
-@gray-light2:           #D9DDE2;
-@gray-lighter:			#F1F4F9;
+@brand-primary: darken(#5563B6, 10%);
+@brand-success: #81CCCC;
+@brand-info: #4CA8E0;
+@brand-warning: #FCCE76;
+@brand-danger: #F74B64;
+@brand-akeneo: #9452BA;
+@brand-print-purple: #52267D;
+@brand-print-yellow: #FFCC00;
+@gray: #67768A;
+@gray-light: #A1A9B7;
+@gray-light2: #D9DDE2;
+@gray-lighter: #F1F4F9;
 
-@link-color:            @brand-info;
-@link-hover-color:      darken(@link-color, 10%);
+@link-color: @brand-info;
+@link-hover-color: darken(@link-color, 20%);
 @link-hover-decoration: underline;
 
-@font-size-base:          16px;
-@font-size-large:         ceil((@font-size-base * 1.25));
-@font-size-small:         ceil((@font-size-base * 0.85));
+@font-size-base: 16px;
+@font-size-large: ceil((@font-size-base * 1.25));
+@font-size-small: ceil((@font-size-base * 0.85));
 
-@font-size-h1:            30px;
-@font-size-h2:            24px;
-@font-size-h3:            16px;
-@font-size-h4:            16px;
-@font-size-h5:            16px;
-@font-size-h6:            ceil((@font-size-base * 0.85));
-@headings-color:          @brand-primary;
+@font-size-h1: 30px;
+@font-size-h2: 24px;
+@font-size-h3: @font-size-base;
+@font-size-h4: @font-size-base;
+@font-size-h5: @font-size-base;
+@font-size-h6: ceil((@font-size-base * 0.85));
+@headings-color: @brand-primary;
 
 
-@line-height-base:          1.7;
+@line-height-base: 1.7;
 
 @spacing-base: 60px;
 
 
-@border-radius-base:        4px;
+@border-radius-base: 4px;
 
-@navbar-height:                    @spacing-base;
-@navbar-default-color:             @brand-primary;
-@navbar-default-bg:                @gray-lighter;
-@navbar-default-border:            @gray-lighter;
-@navbar-border-radius:             0px;
-@navbar-default-link-color:        @brand-primary;
-@navbar-default-link-hover-color:  @brand-primary;
+@navbar-height: @spacing-base;
+@navbar-default-color: @brand-primary;
+@navbar-default-bg: @gray-lighter;
+@navbar-default-border: @gray-lighter;
+@navbar-border-radius: 0px;
+@navbar-default-link-color: @brand-primary;
+@navbar-default-link-hover-color: @brand-primary;
 
-@panel-footer-bg:                   @gray-lighter;
+@panel-footer-bg: @gray-lighter;
 
 @input-height-base: 30px;
 @input-border-radius: 4px;
@@ -88,7 +88,7 @@ strong{
 }
 
 p, li{
-    line-height: 1.7;
+    line-height: @line-height-base;
 }
 
 .container{
