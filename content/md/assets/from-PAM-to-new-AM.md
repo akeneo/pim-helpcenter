@@ -19,7 +19,7 @@ In the PAM, it was impossible to add attributes to the assets. They all had the 
 ## The assets could be localisable but not their values
 It was possible to create localisable assets. In fact, only the file was localisable (meaning that you could have one file per locale), but not the values of the properties. For example, if you had 2 activated locales, you could have 2 different files but they would have the same description, tags, etc.
 
-## The assets had values per channel
+## The assets had mandatory transformations per channel
 By default, all the assets had different values per channel. One very important thing in the PAM was the transformations feature. You imported `reference files` and a `variation` per channel was automatically created. If you wanted to use assets in your product sheets, you had to define these transformations in order to get a variation per channel. You never used the reference file in your product forms.    
 
 ## The `assets collection` product attribute could not have different values per locale.
