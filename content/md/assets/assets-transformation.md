@@ -8,9 +8,9 @@ related: work-with-assets, upload-assets
 ---
 
 # Overview
-For each [asset family](#the-asset-family), you can define transformations. They allow you to ask the PIM to automatically generate one or several new variations of a given media file for each asset belonging to your family.
+For each [asset family](#the-asset-family), you can define transformations. They allow you to ask the PIM to automatically generate one or several new variations of a given media file for each asset belonging to your family. It can be very convenient if you need several formats of your media. For instance, on your ecommerce website, you could have a thumbnail, a fullscreen image and an horizontal one dedicated to your carousel.
 
-Let's take an example to make it much clearer.
+How does it work in the PIM? Let's take an example to make it clear.
 
 Say we have a `packshots` asset family. In its structure, it has 2 media file attributes:
 - the `main_image` attribute in which is stored the main image of your packshot,
@@ -47,16 +47,16 @@ In this part, we will dig into the parameters of the transformations format and 
 
 ## Label
 
-It's basically the name you want to give to your transformation.  
+It's basically the name you want to give to your transformation. For instance: `Thumbnail_transformation`.
 It will be used in error messages whenever your transformation failed to generate your variations.
 
 ## Source file
 
-The `source` property allows you to define in which attribute value is stored the media file you want to use as the source file for your transformation.
+The `source` property allows you to define in which attribute value is stored the media file you want to use as the source file for your transformation. For instance: `main_image`.
 
 ## Target file
 
-The `target` property allows you to define in which attribute value the PIM should generate the new variation.
+The `target` property allows you to define in which attribute value the PIM should generate the new variation. For instance: `Thumbnail_variation`.
 
 ## Target filename
 
@@ -83,6 +83,8 @@ In the case where you have several operations for the same asset family, note th
 ::: warning
 Defining the same operation type twice in the same transformation is forbidden as it would totally make no sense.
 :::
+
+![image](.assetsTransformations)
 
 Please refer to the [API documentation](https://api.akeneo.com/documentation/asset-manager.html#introduction) to discover the expected JSON format.
 
@@ -195,10 +197,10 @@ Let's say that you have 2 transformations on your asset family:
 - A transformation named "Transformation 2":
   * the `filename_prefix` property is "t2_",
   * the attribute **`main_image`** is the source *(non-localisable & non-scopable)*,
-  * the attribute `thumbnail_2` is the target *(non-localisable & non-scopable)*.
-  * The operation to apply is a `thumbnail` one *(150x150)*.
+  * the attribute `carousel_2` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `resize` one *(150x150)*.
 
-This example is completely valid - even if in this case we create twice exactly the same image in two different attributes. A bit useless if you ask, but still, it's valid. ;)
+This example is completely valid.
 
 ## Unicity of the target filename
 In the same asset family, you **cannot have two transformations with the same target filename**, i.e. exactly the same `source`, `filename_prefix` and `filename_suffix`.
