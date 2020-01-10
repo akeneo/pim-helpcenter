@@ -73,7 +73,7 @@ If a user belonging to a user group has right to `EDIT` an asset family, he will
 *   Edit the asset values for a locale if the attribute is localizable
 
 ## The view right
-If a user belonging to a user group has right to `VIEW` on a locale, he will only be able to display the asset family data on this locale (properties, attributes, records) and that's all.  
+If a user belonging to a user group has right to `VIEW` on a locale, he will only be able to display the asset family data on this locale (properties, attributes, assets) and that's all.  
 He won't be able to edit it.
 
 ## Set rights on a locale
