@@ -21,18 +21,18 @@ To create an attribute in Akeneo PIM:
 1. Select the attribute type you want:
   ![image](../img/Settings_Attributes_Create2.png)
 1. The attribute edit form is displayed, fill in the following properties:  
-    Under `General Parameters`: 
+    Under `General Parameters`:
     - A **code** (required) to identify the attribute.
     - A **type** based on the attribute type selected in the previous screen.
-    - An **attribute group** (required) in which the new attribute will be added to.    
+    - An **attribute group** (required) to which the new attribute will be added.    
 In addition to these required attributes, you can select the following properties:
     - **Unique value** (Yes/No): enable this property if the value of this attribute must be unique. By default, it is set to yes for `Identifier` attribute type.
     - **Value per channel** (Yes/No): enable this property if you plan to have different product values per channel.
     - **Value per locale** (Yes/No): enable this property if you plan to have different product values per locale.
     - **Read only** (Yes/No) **_(Enterprise Edition only)_**: to prevent this attribute from being edited through the UI, it will only be updated through imports, API or rules
-    - **Usable in grid** (Yes/No): if you want to filter on this attribute in the product's grids or use it as a column.
+    - **Usable in grid** (Yes/No): if you want to filter on this attribute in the product grid or use it as a column.
     - **Locale specific**: this attribute will only be available for some locales.      
-Under `Validation Parameters`, add validations to control your data: 
+Under `Validation Parameters`, add validations to control your data:
     - **Validation parameters**: each attribute comes with validation parameters (see [Add attributes validation parameters](#add-attributes-validation-parameters)).    
 1. Click on `Save` to create your attribute.
 
@@ -79,8 +79,10 @@ Each attribute has specific properties to add more control on attribute's values
 - **Reference entity single link attribute** & **reference entity multiple links attribute _(Enterprise Edition only)_**:
   - *Related reference entity*: the reference entity linked to this attribute
 - **Reference data simple select attribute** & **reference data multi select**:
-  - *Reference data type*: choose an existing reference data to link to your attribute.
-  
+  - *Reference data type*: choose an existing reference data value to link to your attribute
+- **Asset collection attribute _(Enterprise Edition only)_** :
+  - *Related asset family*: the asset family linked to this attribute
+
 For the text attribute type, you can add a regular expression to validate the content of the input. For instance, to control the right format of a EAN13 code, add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 
 ![Validation parameters](../img/Settings_EAN.png)

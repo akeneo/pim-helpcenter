@@ -6,7 +6,7 @@ related: handle-your-user-permissions, build-your-user-roles, manage-the-interfa
 ---
 
 # Definition
-A role is a set of permissions for actions available within the PIM (example: create a product, delete a product, view the attributes grid...).
+A role is a set of permissions for actions available within the PIM (example: create a product, delete a product, view the attributes grid...) or with the API (example: create/update categories, list attributes,...).
 
 A role can be assigned to one or several users. You can imagine having a role named `Administrator` that will grant more access than another role named `Manager` that will itself grant more access than a third role named `Intern`, for example.
 

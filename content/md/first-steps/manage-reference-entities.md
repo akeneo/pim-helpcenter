@@ -70,7 +70,7 @@ To add an attribute, follow these steps:
  ![image](../img/ReferenceEntity_AddAttribute_Type.png)
     - **Image**: for images attributes
     - **Text**: for text or text area attributes
-    - **Number (_since the 3.2 version_)**: for number attributes
+    - **Number**: for number attributes
     - **Reference entity single link**: to link a record to only one entity record
     - **Reference entity multiple links**: to link a record to several entity records
     - **Single option**: to define a list of options with a single choice
@@ -120,7 +120,7 @@ If `Text area`:
 If not `Text area`:
  - *Validation rule*: defines how the value should be validated (such as an URL, an email, or using a regular expression)
 
-### Edit a number attribute (_since the 3.2 version_)
+### Edit a number attribute
    - *Decimal values allowed*: allows decimal values for this attribute
    - *Min value*: the smallest value allowed
    - *Max value*: the largest value allowed

@@ -8,108 +8,267 @@ related: work-with-assets, upload-assets
 ---
 
 # Overview
-For each channel, you can define a specific asset transformation. This transformation will be applied on each assets created in the PIM and will be used to generate asset variations for your [channels](what-is-a-channel.html).
-**Asset transformations can be imported using a YML file**, you will find more information in the Add a transformation to a channel section below.
+For each [asset family](#the-asset-family), you can define transformations. They allow you to ask the PIM to automatically generate one or several new variations of a given media file for each asset belonging to your family. It can be very convenient if you need several formats of your media. For instance, on your ecommerce website, you could have a thumbnail, a fullscreen image and an horizontal one dedicated to your carousel.
 
-If no asset transformation is set for a channel, the PIM will not be able to generate a variation. 
+How does it work in the PIM? Let's take an example to make it clear.
 
-::: warning
-If the reference file (the original asset) does not fit the transformation requirements, for instance, if it’s too small to be resized, the transformation will not be applied and a message will be displayed in the interface.
+Say we have a `packshots` asset family. In its structure, it has 2 media file attributes:
+- the `main_image` attribute in which is stored the main image of your packshot,
+- the `thumbnail` attribute in which you want a smaller version of the main image, stored in `main_image`.
+
+The PIM can automatically generate the thumbnail version of your main image for you, and this, thanks to the definition of a transformation!
+
+![Asset transformation example](/img/beta/asset-transformation.svg)
+
+For each transformation, we define:
+- a label
+- a media file attribute that will be used as the source for your transformation and wisely called *source* attribute: in our example, the `main_image` attribute,
+- a media file attribute in which the generated file will be stored, called the *target* attribute: in our example, the `thumbnail` attribute,
+- a set of ordered operations to perform on the source picture to generate the target one: in our example, a resizing.
+
+::: info
+You can have up to **10** different transformations for one given asset family and each transformation can perform several operations.
 :::
 
-The following assets transformation are available:
-- `resolution`: change an image resolution, available options are:
-    - `resolution`: resolution value
-    - `resolution-unit`: unit of the resolution (possible values : ppc, ppi)
-- `colorspace`: change an image color space (available values are: grey, cmyk, rgb)
-- `resize`: resize an image without keeping its proportions, available options are:
-    - `width`: in pixels
-    - `height`: in pixels
-- `scale`: scale an image, available options are:
-    - `width`: in pixels
-    - `height`: in pixels
-    - `ratio`: scaling percentage
-- `thumbnail`: create a miniature image (the image proportion is kept), available options are:
-    - `width`: maximum width in pixels
-    - `height`: maximum height in pixels
+You can define the asset transformations via the [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) or directly in the PIM user interface, by editing a JSON field.
 
-You can combine transformations, for instance, you can have a `scale` transformation and a `colorspace` transformation at the same time. The YML file to upload will look like the following one:
-
-```yml
-asset_channel_configurations:
-    mobile:
-        configuration:
-            scale:
-                ratio: 50
-            colorspace:
-                colorspace: gray
-```
-
-If the assets transformation given above are not enough for you, you can create new assets transformations. You can define new types of assets transformations by following the [technical cookbook](https://docs.akeneo.com/latest/manipulate_pim_data/product_asset/add_new_transformation.html) we prepared for you.
-
-::: tips
-**You'd like to keep your reference file as it is for your channel's variations? Use a 100% scale transformation**!
-:::
 
 ::: warning
 **The PIM only generates variations for image files having the extensions: .jpg, .jpeg, .png...**       
 Natively, the PIM cannot generate variations for a PDF file or AVI files for instance.
 :::
 
-# Check your current assets transformations
+Still not comfortable with transformations and want to better understand? Don't hesitate to go through the next sections where we detail each part of the transformation format.
 
-You can check if your channel has its own asset transformation by going to `Settings`/`Channels` then click on your channel, and go under the tab `Asset transformations`.
+# How does it work?
 
-![image](../img/Settings_ChannelsAssetsTransformations.png)
+In this part, we will dig into the parameters of the transformations format and will look at an example of how this powerful feature works. Let's go!
 
-If there is no transformation, add a new transformation.
 
-# Add a transformation to a channel
+## Label
 
-To add an asset transformation to your channel, you need to use an import profile. 
-The expected file format is YML. You will find below an example of a YML file:
+It's basically the name you want to give to your transformation. For instance: `Thumbnail_transformation`.
+It will be used in error messages whenever your transformation failed to generate your variations.
 
-```yml
-asset_channel_configurations:
-    mobile:
-        configuration:
-            scale:
-                width: 200
-            colorspace:
-                colorspace: gray
-    print:
-        configuration:
-            resize:
-                width: 400
-                height: 500
-    ecommerce:
-        configuration:
-            scale:
-                ratio: 50
-```
+## Source file
 
-When your YML file is ready:
-1.  Go to `Imports`
-1.  Create a new import profile or use an existing one that is running the `Asset channel configuration import in Yaml` job
-1.  Upload your YML file and process the file
+The `source` property allows you to define in which attribute value is stored the media file you want to use as the source file for your transformation. For instance: `main_image`.
 
-For more details about how to execute an import, please refer to the [imports](imports.html) article.
+## Target file
+
+The `target` property allows you to define in which attribute value the PIM should generate the new variation. For instance: `Thumbnail_variation`.
+
+## Target filename
+
+You can give a name to the generated target file. By default, the naming is based on the filename of the source file. You can define a suffix and/or a prefix that will be concatenated to this filename and be used as the filename of the target file.
+
+::: warning
+You need to define at least either a suffix or a prefix, as the target filename can't be the same as the source filename.
+:::
+
+Let's take an example to make this much clearer.
+
+Let's say you have a file named `amor_red_model_picture.jpg`. You want to generate a thumbnail version of this file and you want the new generated file to be named `amor_red_model_picture_160x160.jpg`. Then, use the following properties in your transformation for the generated file to be named properly:
+- filename_prefix: null,
+- filename_suffix: `_160x160` .
+
+## Transformation operations
+
+The `operations` property allows you to define which image transformations should be applied to your source file to generate the target file.
+
+In one single transformation, you can define one or several operations. It means that you can combine transformations: for instance, you can have a `scale` transformation and a `colorspace` transformation at the same time.
+
+In the case where you have several operations for the same asset family, note that they will be performed in the same order as they are defined in the `operations` array. So be sure to choose the right order for what you wish to accomplish.
+
+::: warning
+Defining the same operation type twice in the same transformation is forbidden as it would totally make no sense.
+:::
+
+![image](.assetsTransformations)
+
+Please refer to the [API documentation](https://api.akeneo.com/documentation/asset-manager.html#introduction) to discover the expected JSON format.
+
+Here is the list of the available operations:
+
+### Thumbnail
+With the `thumbnail` type, you can automatically generate a thumbnail. It keeps the image proportions and crops it if needed.
+
+| Operator name | Description |
+| ----------------- | -------------- |
+| `width` | The width of the generated thumbnail in pixels |
+| `height` | The height of the generated thumbnail in pixels |
 
 ::: info
-You can update the asset transformations for your channels by reimporting a new YML file into Akeneo. It is not possible to remove an asset transformation from the UI.
+Both parameters are required.
 :::
 
-# Export assets transformations
+### Scale
+With the `scale` type, you can resize the image while keeping the width/height proportions.
 
-You can export your asset transformations in a YML file by executing the `Asset channel configuration export in YML` job. The YML file generated will contain all available asset transformations for all your channels.  
+| Operator name | Description |
+| ----------------- | -------------- |
+| `width` | The new width of the image in pixels |
+| `height` | The new height of the image in pixels |
+| `ratio` | The ratio (in %) for the image resizing. If defined, this parameter will take priority over the 2 other parameters.|
 
-1.  Go to `Exports`
-1.  Click on an export profile that is running the `Asset channel configuration export in Yaml` job
-1.  Click on `Export now`
-1.  Once the export is finished, click on `Download generated files` to download the YML file
-
-For more details about how to execute an export, please refer to the article dedicated to [exports](exports.html).
-
-::: tips
-If you need to edit your asset transformation, simply export your current asset transformations, edit the YML file and reimport it!
+::: info
+There should be at least one of the 3 parameters defined.
 :::
+
+### Change of colorspace
+With the `colorspace` type, you can change the image's colorspace. For example, you can turn it to black and white.
+
+There is one available parameter for this operation: `colorspace`. It allows you to choose which colorspace you want your image to be turned into. It should be one of the following values:
+- `rgb`,
+- `cmyk`,
+- `grey`.
+
+::: info
+The `colorspace` parameter is required.
+:::
+
+### Resolution
+
+With the `resolution` type, you can change the image resolution.
+
+There are 3 available parameters for this operation.
+
+| Operator name | Description |
+| ----------------- | -------------- |
+| `resolution-x` | The new horizontal resolution |
+| `resolution-y` | The new vertical resolution |
+| `resolution-unit` | The unit in which the `resolution-x` and `resolution-y`  properties were given (either "ppi" or "ppc") |
+
+::: info
+All parameters are required.
+:::
+
+### Resize
+
+With the `resize` type, you can resize an image without keeping the width/height proportions.
+
+There are 2 available parameters for this operation.
+
+| Operator name | Description |
+| ----------------- | -------------- |
+| `width` | The new width of the image in pixels |
+| `height` | The new height of the image in pixels |
+
+::: info
+Both parameters are required.
+:::
+
+# Dealing with several transformations
+
+As stated before, you can define **up to 10 transformations** by asset family. So in the case, you need several transformations for one given family, you will need to observe some business rules.
+
+## Unicity of the target value
+In the same asset family, you **cannot have two transformations with the same target**, i.e. exactly the same `attribute`, `channel` and `locale` in your `target` property.
+
+Otherwise, your first generated target file may be erased by the next transformation.
+
+### Example
+Let's say that you have 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is "t1_",
+  * the attribute `main_image` is the source *(non-localisable & non-scopable)*,
+  * the attribute **`thumbnail`** is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is "t2_",
+  * the attribute `main_image_2` is the source *(non-localisable & non-scopable)*,
+  * the attribute **`thumbnail`** is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This example will generate an error because both transformations have the same target.
+
+## Non-unicity of the source value
+In the same asset family, you **can have two transformations with the same source**, i.e. exactly the same `attribute`, `channel` and `locale` in your `source` property.
+
+Indeed, it allows you to generate different versions of your source file.
+
+### Example
+Let's say that you have 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is "t1_",
+  * the attribute **`main_image`** is the source *(non-localisable & non-scopable)*,
+  * the attribute `thumbnail` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is "t2_",
+  * the attribute **`main_image`** is the source *(non-localisable & non-scopable)*,
+  * the attribute `carousel_2` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `resize` one *(150x150)*.
+
+This example is completely valid.
+
+## Unicity of the target filename
+In the same asset family, you **cannot have two transformations with the same target filename**, i.e. exactly the same `source`, `filename_prefix` and `filename_suffix`.
+
+Otherwise, the PIM would create two files called exactly the same way, which can cause you trouble if you want to retrieve them.
+
+### Example
+Let's say that you have 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is **"thumbnail_"**,
+  * the attribute `main_image` is the source *(non-localisable & non-scopable)*,
+  * the attribute `thumbnail` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is **"thumbnail_"**,
+  * the attribute `main_image` is the source *(non-localisable & non-scopable)*,
+  * the attribute `thumbnail_2` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This example will generate an error because both target filenames are exactly the same.
+
+## A source value cannot be a target value
+
+In the same asset family, you **cannot have two transformations with the first one defining a source value as the target value of the second one**. And vice versa.
+
+### Example
+Let's say that you have 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is "t1_",
+  * the attribute `main_image` is the source *(non-localisable & non-scopable)*,
+  * the attribute **`thumbnail`** is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is "t2_",
+  * the attribute **`thumbnail`** is the source *(non-localisable & non-scopable)*,
+  * the attribute `thumbnail_2` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This example will generate an error because the source of the second transformation is the target of the first one.
+
+### Example
+Let's say that you have 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is "t1_",
+  * the attribute `main_image` is the source *(non-localisable & non-scopable)*,
+  * the attribute **`thumbnail`** is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is "t2_",
+  * the attribute `main_image_2` is the source *(non-localisable & non-scopable)*,
+  * the attribute `main_image` is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This example will also generate an error because both the target of the second transformation is the source of the first one.
+
+### Example
+Let's say that you have set up 2 transformations on your asset family:
+- A transformation named "Transformation 1":
+  * the `filename_prefix` property is "t1_",
+  * the attribute `main_image` is the source (non-localisable but scopable: **channel= `ecommerce`**),
+  * the attribute **`thumbnail`** is the target *(non-localisable & non-scopable)*.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+- A transformation named "Transformation 2":
+  * the `filename_prefix` property is "t2_",
+  * the attribute `main_image_2` is the source *(non-localisable & non-scopable)*,
+  * the attribute `main_image` is the target (non-localisable & but scopable: **channel= `print`**),.
+  * The operation to apply is a `thumbnail` one *(150x150)*.
+
+This last example is valid because the source attribute value of the first transformation is **different** from the target attribute value of the second transformation, as they are referencing **different channels**.
+
+All the details are in our [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) documentation.

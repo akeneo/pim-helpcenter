@@ -9,7 +9,7 @@ related: build-your-user-roles, what-is-a-role, what-is-a-user, manage-the-inter
 
 # Set permissions on the Web API
 
-Permissions on the [Web API](https://api.akeneo.com) are also granted according to the [user’s role(s)](what-is-a-role.html).
+Permissions on the [Web API](https://api.akeneo.com) are granted according to the [connection user role](manage-your-connections.html#configure-the-connection-user-role).
 
 To change Web API permissions for one user role:
 1. Go to `System` and click on the `Roles` menu entry
@@ -18,6 +18,10 @@ To change Web API permissions for one user role:
     ![image](../img/System_Roles_WebAPIPermissions.png)
 1. Check/uncheck the permissions you want
 1. Click on the `Save` button to confirm your changes
+
+::: warning
+Whenever you are setting up a connection user role, we strongly advise to only set permissions under the `Web API permissions` tab. No UI permission should be checked for your connection user role, as this user role shouldn't be used for logging into the PIM.
+:::
 
 The following sections will give you a detailed explanation of what each permission grant. Do not hesitate to take a look.
 

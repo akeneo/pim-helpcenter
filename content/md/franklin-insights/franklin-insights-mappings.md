@@ -52,24 +52,30 @@ Once you successfully map your catalog attributes and attribute options to Frank
 As Franklin needs a little time to make these calculations, the response may take some time. Hang tight, **data is coming**.
 
 ::: info
-_Since the 3.1 version_, unmapped attributes are displayed first.
+Unmapped attributes are displayed first.
 :::
 
-## Ease the mapping (_since 3.2 version_)
+## Ease the mapping
 
 ### Exact match
 
-No need to map attributes if they're the same, we do it for you: the PIM attribute is automatically mapped and saved, the proposal is automatically generated!
+No need to map attributes if they are the same, we do it for you: the PIM attribute is automatically mapped and saved, and a proposal is automatically generated!
 
-![image](../img/franklin_exact_match.png)
+![Franklin's exact match screen](../img/franklin_exact_match.png)
 
 ::: info
-We consider attributes match if Franklin attribute code equals the PIM attribute code or PIM attribute label for an English catalog locale.
+You will have an attribute match if the Franklin attribute code equals the PIM attribute code or its English locale label.
 :::
+
+### Suggested mapping
+
+No need to search through a long list of your catalog attributes: if they are almost identical, we suggest the best match for the attribute. The best match is selected, and you can check the other similar ones Franklin found. When you save the attribute mapping screen, the PIM attribute is automatically mapped and saved, and a proposal is automatically generated!
+
+![Franklin's suggested mapping screen](../img/franklin_suggested_mapping.png)
 
 ### Suggest attribute creation
 
-In case we have no mapping suggestion, we added a new `Create attribute` button. In a single action, you can create the attribute and attach it to the family you're working on without leaving the attribute mapping screen.
+In case we have no mapping suggestion, we added a new `Create attribute` button. In a single action, you can create the attribute and attach it to the family you are working on without leaving the attribute mapping screen.
 
 ![image](../img/franklin_create_attribute.png)
 

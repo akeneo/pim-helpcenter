@@ -21,6 +21,10 @@ To change permissions for one user role:
 
 For almost each screen and button in the PIM, you can say if a user can see/use it or not. The following sections lists all the rights and the features that are attached to it, depending on the part of the application where they are located.
 
+::: warning
+Only give UI permissions to user roles that are related to real users, not to [connection user roles](manage-your-connections.html#configure-the-connection-user-role). As it gives right over the interface, they should only be granted to real users and not to [connections](what-is-a-connection.html).
+:::
+
 # Rights on products pages
 
 ## Permissions on products
@@ -43,7 +47,6 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | Product mass edit actions | User can make mass actions on the product grid |
 | Remove a product           | User can remove a product from the PIM using the `Delete` button in the `...` dropdown on the top of the product form, or using directly the trash icon in the product grid      |
 | Remove an attribute from a product             | User can remove an attribute from a product using the `cross` icon next to attributes added to the product                                                                  |
-| List asset categories in the asset picker _(EE only)_ | User can access the `Manage assets` button to open the asset picker and list the asset categories  |
 | Restore a product _(EE only)_ | User can restore a previous version of a product using the `Restore` button in the product history page  |
 | Manage published products _(EE only)_   | User can access the published products grid by clicking on the `Published products` button  in the `...` dropdown on the top of the product grid |
 
@@ -58,26 +61,23 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 | Remove a product model  | User can remove a product model from the PIM using the `Delete` button in the `...` dropdown on the top of the product form, or using directly the trash icon in the product grid     |
 
 # Rights on assets
-## Permissions on assets _(EE only)_
-
 | Permission name | Effect on the interface |
 |---------------------------|--------------|
-| Consult the categories of an asset | User can see the asset categories, under the `Categories` tab of the asset form                    |
-| Create an asset      | User can create a new asset, using the `Create an asset` button in `Assets` |
-| Enrich asset      | User can access the asset form             |
-| Mass-upload assets | User can mass upload assets in `Assets` by clicking on `Upload assets` in the `...` dropdown |
-| Remove asset                       | User can delete an asset by clicking on `Delete` in the `...` dropdown, in the asset edition page. He can also use the bulk action to mass delete assets |
-
-## Permissions on asset categories _(EE only)_
-
-| Permission name | Effect on the interface |
-|---------------------------|--------------|
-| Create an asset category       | User can create a new asset category with a right click on the tree and select `Create a new category` in `Settings`/`Asset categories` |
-| Edit an asset category            | User can edit an asset category     |
-| View asset category history       | User can access the `History` tab of asset categories        |
-| List asset categories        | User can see and access all asset categories and asset category trees listed under `Settings`/`Asset categories`     |
-| Manage asset category permissions | User has access to the `Permissions` tab on the asset category form     |
-| Remove an asset category          | User can remove an asset category by clinking on `Delete` in the `...` dropdown                   |
+| Add an attribute to an asset family | User can add an attribute to an asset family in `Attributes` tab, using the `Add an attribute` button |
+| Delete an attribute of an asset family | User can delete an attribute of an asset family in `Attributes` tab, using the `Delete an attribute` button |
+| Edit an attribute of an asset family | User can edit an attribute of an asset family in `Attributes` tab, using the `edit` icon. |
+| Remove an option    | User can remove an option of a single or multiple options attribute in the `Attributes` tab, using the `Manage options` button and the `cross` in the list of options |
+| Edit options | User can manage the options for a single or multiple options attribute in the `Attributes` tab, using the `Manage options` button |
+| Create an asset | User can add an asset to an asset family in the library, using the `Create` button  |
+| Delete an asset | User can delete an asset clicking on `...` then on `Delete` in the asset form |
+| Delete all the assets of a family | User can delete all the assets of an asset family, selecting the right asset family in the library, then clicking on `...` for other actions and finaly on `Delete all assets` |
+| Edit the assets | User can edit an asset of an asset family by clicking on an asset in the library |
+| Create an asset family | User can create a new asset family in the `Assets` menu, using the `Create` button, then `Create an asset family` |
+| Delete an asset family | User can delete an asset family in the `Properties` tab, clicking on `...` for other actions and then on `Delete asset family` |
+| Edit the family properties | User can edit the properties of an asset family in the `Properties` tab |
+| Manage asset family permissions | User can define the permissions for an asset family in the `Permissions` tab |
+| List linked products to asset | User can list all the products linked to an asset, by clicking on the `Products` tab in the asset form |
+| Manage asset family transformations | User can edit the asset transformations, by clicking on the `Transformations` tab in an asset family |
 
 # Rights on reference entities _(EE only)_
 
