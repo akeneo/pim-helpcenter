@@ -9,10 +9,23 @@ related: manage-assets, enrich-your-assets
 
 # Introduction to the new Asset Manager
 
-We truely believe that a product sheet has no real impact without any media. That is why we let you manage assets in your Akeneo PIM, in order to add media to your product forms.
+We truely believe that a product sheet has no real impact without any media.
 
-Some media can be **shared between different products** (such as the atmosphere images, the user instructions, the legal documents or some commercial videos). This **data can be complex to manage because it has its own attributes** (e.g. a label, a media link, a description...).
-That is why it requires a bit of structure ;)
+The Asset Manager is a brand new and more efficient way to manage the assets linked to your products/product models inside the PIM. 🚀
+
+::: warning
+This feature is only available in the Enterprise Edition.
+:::
+
+The assets of the Asset Manager will be way more powerful than before. They will benefit from 3 major new features:
+
+- the possibility to define a flexible structure, thanks to the asset families,
+- the possibility to automatize the link with your products, thanks to the product link rules,
+- the possibility to refer to both external and internal binaries, thanks to the media link and the media file attribute types.
+
+Below, you'll find an illustration of this wonderful new feature.
+
+![Asset Manager schema](img/asset-manager.svg)
 
 # A bit of vocabulary
 
@@ -52,16 +65,24 @@ Below are some examples of assets.
 
 ![Asset](../img/what-about-assets_asset.png)
 
-An asset can **hold one or several files**. This comes in pretty handy if, for instance, you want to have one user instruction pdf file per language, aka per locale.
+An asset can **hold one or several files**. This comes in pretty handy if, for instance, you want to have one user instruction pdf file per language, aka per locale. It can also be useful if you use the asset [transformations](/articles/about-transformations) feature.
 
-:::info
-Assets can be linked to products and product models, in order to enrich them. To know more about this link, you can [read](/articles/manage-assets.html#create-an-asse) this section.
+## Use assets in your product sheets
+
+Assets can be linked to products and product models, in order to enrich them.
+To do so, just create a new `Asset collection` attribute, choose the asset family linked to this attribute, and add this attribute to your product family (more details [here](articles/work-on-a-product.html)).
+
+Thanks to our asset picker, you can easily pick assets of your family to add them in the product form!
+
+::: tips
+You can also automate the link between assets and products thanks to the `Product link rule` feature. To know more about this automatic link, you can read [this article](/articles/focus-on-product-link-rule).
 :::
 
-# Let's create your first asset family!
 
-From a single place, in a dedicated `Assets` menu, you can create your first asset family, define its assets attributes, enrich its first assets and link them to products. Let's go!
-1. [Create your 1st asset family](/articles/manage-reference-entities.html#create-a-reference-entity)
-1. [Add and enrich its 1st assets](/articles/enrich-your-reference-entity-records.html)
+# Let's create your first assets!
+
+From a single place, in a dedicated `Assets` menu, you can list all the assets of your families. But the first step is to create at least one asset family and define its assets attributes. Then you will be able to add new assets, enrich them and link them to products. Let's go!
+1. [Create your 1st asset family](/articles/manage-asset-families.html#create-an-asset-family)
+1. [Add and enrich its 1st assets](/articles/create-and-display-assets.html)
 1. [Define a new product attribute to link this asset family to products](/articles/manage-your-attributes.html#create-an-attribute)
 1. [Link the products to the assets](/articles/work-on-a-product.html)
