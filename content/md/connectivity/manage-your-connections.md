@@ -208,7 +208,7 @@ To create a user role and link it to your connection:
 2. Click on the `Connections` submenu.
 3. Click on the connection for which you want to set the permissions.
 4. On the right side of the screen, there is a `Permissions` section. Select the user role you've just created in the `Role` dropdown.
-![Select the connection role](select-the-connection-role.png) <!-- TODO -->
+![Select the connection role](../img/select-the-connection-role.png)
 5. Don't forget to save by clicking on the `Save` button.
 
 ## Configure the connection user group
@@ -230,7 +230,7 @@ To create a user group and link it to your connection:
 2. Click on the `Connections` submenu.
 3. Click on the connection for which you want to set the permissions.
 4. On the right side of the screen, there is a `Permissions` section. Select the user group you've just created in the `Group` dropdown.
-![Select the connection group](select-the-connection-group.png) <!-- TODO -->
+![Select the connection group](../img/select-the-connection-group.png)
 5. Don't forget to save by clicking on the `Save` button.
 
 ::: tips
