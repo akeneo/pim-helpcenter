@@ -32,7 +32,7 @@ Note that we have defined a limitation of 1 million assets per asset family to g
 
 ## Upload and create several assets at the same time
 
-Assets mass upload is pretty convenient since it **automatically creates new assets from uploaded files**.
+Assets mass upload is pretty convenient since it **automatically creates new assets from uploaded files**. The uploaded files will automatically be put in the attribute that you defined as *main media* in the asset family properties.
 
 ::: warning
 As for the unitary creation, you have to be in an asset family to mass upload your files.
@@ -58,21 +58,45 @@ To remove the file from the list, click on the `X` button at the end of the row.
 If you want to remove all files at once, click on the `Remove all` button. ;)
 :::
 
-### Special cases
-
-In your asset family, if the attribute used as main media is scopable and/or localisable,
-
-The PIM uses the filename to know for which asset the file have to be used and if this asset is localized or not.
-To check if the asset already exists, the PIM compares the existing assets codes with the file's name.
-
-:::warning
+::: warning
 Only letters, numbers and underscores are allowed in an asset code, the other characters will be replaced by an underscore " _ ". i.e: if the file's name contains a minus sign character "-", it will be changed into an underscore sign " _ ", so the "picture-1.jpg" and "picture_1.jpg" will be linked to the same asset code "picture_1".  
 :::
 
+Pretty simple, isn't it?
+If you need to have specific files per channel or per locale, there is another step to do.
 
+### Special cases
 
+#### My attribute used as main media is localisable
+Let's say that in your asset family `Packshots`, the attribute used as main media (called `My_main_image`) is localisable. It means that you want to have different files depending on the locale.  
 
+In the upload screen, a new column `Locale (required)` appears.
+- Upload your file (for instance `Alpha_1`) and choose in which locale you want to add it, by selecting the right locale in the dropdown field.
+- Once it is done, you can click on `Create` to create the asset :)
 
+Note that if the filename contains the code of the locale (for example: `Alpha_1-en_US.png`), we automatically filled the locale field with `English (United States)`. You can change it if desired.
+
+#### My attribute used as main media is scopable
+Let's say that in your asset family `Packshots`, the attribute used as main media (called `My_main_image`) is scopable. It means that you want to have different files depending on the channel.  
+
+In the upload screen, a new column `Channel (required)` appears.
+- Upload your file (for instance `Alpha_1`) and choose in which channel you want to add it, by selecting the right channel in the dropdown field.
+- Once it is done, you can click on `Create` to create the asset :)
+
+Note that if the filename contains the code of the channel (for example: `Alpha_1-ecommerce.png`), we automatically filled the channel field with `ecommerce`. You can change it if desired.
+
+#### My attribute used as main media is localisable & scopable
+Let's say that in your asset family `Packshots`, the attribute used as main media (called `My_main_image`) is localisable & scopable. It means that you want to have different files depending on the locale and on the channel.  
+
+In the upload screen, two new columns `Locale (required)` and `Channel (required)` appear.
+- Upload your file (for instance `Alpha_1`) and choose in which locale and which channel you want to add it, by selecting the right locale and channel in the dropdown fields.
+- Once it is done, you can click on `Create` to create the asset :)
+
+Note that if the filename contains the code of the locale and the code of the channel (for example: `Alpha_1-en_US-ecommerce.png`), we automatically filled the locale and the channel fields with `English (United States)` and `ecommerce`. You can change it if desired.
+
+::: info
+To add the files of the other locales/channels, just click on your asset in the library, go on the right attribute, switch the locale/channel and add files directly in the asset form!
+:::
 
 Now that your Asset Manager is filled with many assets, it's time to dig into the asset library.
 
@@ -116,30 +140,3 @@ You can combine filters. For instance, you can search on all packshots with the 
 An option can be removed from a filter using the cross.
 
 To empty a filter, you can click on the eraser.
-
-
-
-
-
-
-
-
-----------
-# Overview
-
-
-
-**Example 1 with a non-localized asset**  
-If the filename is `main_picture_S1263547.jpg`, then the PIM will check:
-- If the asset with the `main_picture_S1263547` code already exists, the PIM will update the asset with the `main_picture_S1263547` code by importing the `main_picture_S1263547.jpg` file as its new reference file (and will regenerate the variation files accordingly).
-- If the asset doesn’t already exist, the PIM will create a new asset with the `main_picture_S1263547` code and with the file as the reference file, so that the variation files can be generated.
-
-**Example 2 with a localized asset**  
-Another example, if the filename is `akene-en_US.pdf`, then the PIM will check:
-- If the asset with the `akene` code already exists and if it is localized, the PIM will update the asset with the `akene` code by importing the `akene-en_US.pdf` file as the reference file for the given locale code at the end of the filename (`en_US`).
-- If the asset with the `akene` code already exists and if it is not localized, the PIM will display an error message in red.
-- If the asset with the `akene` code doesn't already exist, the PIM will create a new localized asset with the `akene` code and with the file as the reference file for the given locale code at the end of the filename (`en_US`).
-
-:::warning
-If the locale is disabled or doesn't exist in the PIM, the PIM will display an error message in red.
-:::
