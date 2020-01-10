@@ -71,30 +71,41 @@ If you need to have specific files per channel or per locale, there is another s
 Let's say that in your asset family `Packshots`, the attribute used as main media (called `My_main_image`) is localisable. It means that you want to have different files depending on the locale.  
 
 In the upload screen, a new column `Locale (required)` appears.
-- Upload your file (for instance `Alpha_1`) and choose in which locale you want to add it, by selecting the right locale in the dropdown field.
-- Once it is done, you can click on `Create` to create the asset :)
 
 Note that if the filename contains the code of the locale (for example: `Alpha_1-en_US.png`), we automatically filled the locale field with `English (United States)`. You can change it if desired.  
 
+If the filename doesn't contain the locale code:
+- Upload your file (for instance `Alpha_1`) and choose in which locale you want to add it, by selecting the right locale in the dropdown field.
+- Once it is done, you can click on `Create` to create the asset :)
 
 #### My attribute used as main media is scopable
 Let's say that in your asset family `Packshots`, the attribute used as main media (called `My_main_image`) is scopable. It means that you want to have different files depending on the channel.  
 
 In the upload screen, a new column `Channel (required)` appears.
+
+Note that if the filename contains the code of the channel (for example: `Alpha_1-ecommerce.png`), we automatically filled the channel field with `ecommerce`. You can change it if desired.
+
+If the filename doesn't contain the channel code:
 - Upload your file (for instance `Alpha_1`) and choose in which channel you want to add it, by selecting the right channel in the dropdown field.
 - Once it is done, you can click on `Create` to create the asset :)
-
-Note that if the filename contains the code of the channel (for example: `Alpha_1-ecommerce.png`), we automatically filled the channel field with `ecommerce`. You can change it if desired.  
 
 
 #### My attribute used as main media is localisable & scopable
 Let's say that in your asset family `Packshots`, the attribute used as main media (called `My_main_image`) is localisable & scopable. It means that you want to have different files depending on the locale and on the channel.  
 
 In the upload screen, two new columns `Locale (required)` and `Channel (required)` appear.
-- Upload your file (for instance `Alpha_1`) and choose in which locale and which channel you want to add it, by selecting the right locale and channel in the dropdown fields.
-- Once it is done, you can click on `Create` to create the asset :)
 
 Note that if the filename contains the code of the locale and the code of the channel (for example: `Alpha_1-en_US-ecommerce.png`), we automatically filled the locale and the channel fields with `English (United States)` and `ecommerce`. You can change it if desired.
+
+::: warning
+Please, make sure that the filename contains first the locale code, and then the channel code.
+
+It won't work if the filename contains only the locale code or only the channel code whereas both are expected.
+:::
+
+If the filename doesn't contain neither the locale code neither the channel code:
+- Upload your file (for instance `Alpha_1`) and choose in which locale and which channel you want to add it, by selecting the right locale and channel in the dropdown fields.
+- Once it is done, you can click on `Create` to create the asset :)
 
 ::: info
 To add the files of the other locales/channels, just click on your asset in the library, go on the right attribute, switch the locale/channel and add files directly in the asset form!
@@ -110,7 +121,7 @@ When you open the `Assets` menu, you discover the assets in a mosaic view, that 
 Assets are displayed by asset families. By default, the first asset family is selected.
 
 ::: info
-If you don't have any asset family, the first thing to do is to create your first one, and then you will be able to add assets.
+If you don't have any asset family, the first thing to do is to [create your first one](/articles/manage-your-asset-families), and then you will be able to add assets.
 :::
 
 # Search for assets
