@@ -20,13 +20,13 @@ In the PAM, it was impossible to add attributes to the assets. They all had the 
 It was possible to create localisable assets. In fact, only the file was localisable (meaning that you could have one file per locale), but not the values of the properties. For example, if you had 2 activated locales, you could have 2 different files but they would have the same description, tags, etc.
 
 ## The assets had mandatory transformations per channel
-By default, all the assets had different values per channel. One very important thing in the PAM was the transformations feature. You imported `reference files` and a `variation` per channel was automatically created. If you wanted to use assets in your product sheets, you had to define these transformations in order to get a variation per channel. You never used the reference file in your product forms.    
+One very important thing in the PAM was the transformations feature. By default, all the assets had different variations per channel. You imported `reference files` and a `variation` per channel was automatically created. If you wanted to use assets in your product sheets, you had to define these transformations in order to get a variation per channel. You never used the reference file in your product forms.    
 
-## The `assets collection` product attribute could not have different values per locale.
-It was totally impossible to define a value per locale on this specific product attribute type. The localisation was hold by the asset itself.
+## The `assets collection` product attribute could not have different values per locale/channel.
+It was totally impossible to define a value per locale neither per channel on this specific product attribute type. The localization was hold by the asset itself.
 
 ## There were asset categories with rights on these categories
-As for the products, you had the possibility to organize your assets thanks you categories and category trees. There were permissions on that categories.
+As for the products, you had the possibility to organize your assets thanks to categories and category trees. There were permissions on that categories. It was possible to have view rights or edit rights on assets of these categories.
 
 # What has changed?
 With the new Asset Manager, come new concepts.
@@ -55,7 +55,6 @@ We radically changed the way to define asset transformations. They are not appli
 Each variation is created in a new attribute of the asset.
 
 Discover how new transformations work in the [dedicated article](#).
-
 
 # With a new asset manager come new powerful features
 Of course, we improved our existing asset management features. But we also added new ones, that very worth it. Let's discover them!
