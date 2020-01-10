@@ -26,7 +26,7 @@ The edit right means add, edit and delete rights.
 If a user belonging to a user group has right to `EDIT` an asset family, he will be able to:
 *   Edit the properties of this asset family
 *   Add, edit and delete the attributes of this asset family
-*   Add, edit and delete a record of this asset family
+*   Add, edit and delete assets of this asset family
 *   Delete this asset family
 
 :::info
