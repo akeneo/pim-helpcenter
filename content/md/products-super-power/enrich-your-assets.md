@@ -7,26 +7,16 @@ ee-only: right
 related:
 ---
 
-# Add an asset
-Once you have created an asset family, you can add **assets**.
-In the asset manager, you have 2 ways to add assets: unitary (one by one) or via the [mass upload](mass_upload.html) feature.
-Let’s say that you just have created the asset family `Packshots`, you have defined its asset attributes and now it is time to add new assets.
+# The asset library
+When you open the `Assets` menu, you discover the assets in a mosaic view, that we call the **asset library**.
 
-To add a new asset to the asset family `Packshots`:
-1. Go to the Asset Manager
-1. Select your `Packshots` family (the assets will automatically appear in the grid)
-1. Then click on `Create` and select `Create an asset`.
-1. Choose a label for the asset (the PIM will automatically take its label to generate your asset's code, but you can change it if needed).
+![Asset library](../img/Asset_library.png)
 
-![Create an asset](../img/Asset_creation.png)
+Assets are displayed by asset families. By default, the first asset family is selected.
 
 ::: info
-Note that we have defined a limitation of 1 million assets per asset family to guarantee that the PIM is functional and runs smoothly.
+If you don't have any asset family, the first thing to do is to create your first one, and then you will be able to add assets.
 :::
-
-# The asset library
-Once the assets are added to the family, they appear in a mosaic view, that we call the **asset library**.
-![Asset library](../img/Asset_library.png)
 
 # Search for assets
 Because we really want to help you in your daily work, we focused our efforts on the search.
