@@ -25,19 +25,13 @@ We noticed that you, our dear customers, usually name your asset files or asset 
 
 The idea of the naming convention feature is to be able to extract those pieces of information and use them to automatically enrich your assets with new attributes values.
 
-:::info
 Just a reminder but an important one for you to better understand what is coming next: *the product link rule is based on asset attributes* ;)
-:::
 
 By defining a naming convention, for each [asset family](#the-asset-family), the PIM will be able to split the asset code or the main media filename, in order to extract the information you want and use it to populate asset attributes.
 This operation is done automatically by the PIM upon each asset creation.
 
 ::: info
 This naming convention is defined at the [asset family](#the-asset-family) level.
-:::
-
-::: tips
-The naming convention is perfect to automatically populate the asset attributes that will then be used by the [product link rule](#focus-on-the-product-link-rule). :wink:
 :::
 
 The naming convention can be defined via the API.
