@@ -1,6 +1,6 @@
 ---
 id: create-and-display-assets
-themes: work-on-your-assets
+themes: manage-your-assets,
 title: "**Create and display** assets"
 popular: false
 ee-only: true
@@ -74,7 +74,8 @@ In the upload screen, a new column `Locale (required)` appears.
 - Upload your file (for instance `Alpha_1`) and choose in which locale you want to add it, by selecting the right locale in the dropdown field.
 - Once it is done, you can click on `Create` to create the asset :)
 
-Note that if the filename contains the code of the locale (for example: `Alpha_1-en_US.png`), we automatically filled the locale field with `English (United States)`. You can change it if desired.
+Note that if the filename contains the code of the locale (for example: `Alpha_1-en_US.png`), we automatically filled the locale field with `English (United States)`. You can change it if desired.  
+
 
 #### My attribute used as main media is scopable
 Let's say that in your asset family `Packshots`, the attribute used as main media (called `My_main_image`) is scopable. It means that you want to have different files depending on the channel.  
@@ -83,7 +84,8 @@ In the upload screen, a new column `Channel (required)` appears.
 - Upload your file (for instance `Alpha_1`) and choose in which channel you want to add it, by selecting the right channel in the dropdown field.
 - Once it is done, you can click on `Create` to create the asset :)
 
-Note that if the filename contains the code of the channel (for example: `Alpha_1-ecommerce.png`), we automatically filled the channel field with `ecommerce`. You can change it if desired.
+Note that if the filename contains the code of the channel (for example: `Alpha_1-ecommerce.png`), we automatically filled the channel field with `ecommerce`. You can change it if desired.  
+
 
 #### My attribute used as main media is localisable & scopable
 Let's say that in your asset family `Packshots`, the attribute used as main media (called `My_main_image`) is localisable & scopable. It means that you want to have different files depending on the locale and on the channel.  
