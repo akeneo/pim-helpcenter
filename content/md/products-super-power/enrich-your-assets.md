@@ -17,7 +17,7 @@ You are in your `videos` asset family, in the `alpha` asset. You want to add the
 
 :::tips
 If you don't remember how to add attributes to your asset family, you can read [this](#) article.
-...
+:::
 
 As for a product, you can define if you want a **different content according to channels**, and the same applies on **locales**.
 You can find a **locale and channel switcher** on each asset, meaning that if you need to translate values for example, you can do it simply switching from a locale to another.
