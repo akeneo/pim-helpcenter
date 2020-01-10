@@ -1,31 +1,21 @@
 ---
-id: manage-assets
-themes: catalog-settings, manage-your-assets
-title: Manage your **assets**
+id: manage-asset-families
+themes: catalog-settings, manage-your-assets-families
+title: Manage your **asset families**
 popular: false
 ee-only: true
 related: what-about-assets, enrich-your-assets
 ---
 
-# Display the assets
+# Create an asset family
 
-To display the existing [assets](/articles/what-about-assets.html), click on the `Assets` menu. You will discover the new asset library.   
+When you open the `Assets` menu, you discover the asset library. On this screen, we display the existing assets **by asset family**.
 
 ![image](../img/asset_library.png)
-
-Assets are displayed by asset families. As you can see, there is a dropdown menu in the filters panel to choose the asset family. If you have several asset families, use it to switch between them!
 
 ::: warning
 It is not possible to have an asset without asset family. So if you don't have any asset family, the first thing to do is to create one, clicking on the `Create family` button.
 :::
-
-::: info
-By default, the first asset family is selected.
-:::
-
-# Create an asset family
-
-As mentioned just before, it is mandatory to have at least one asset family to create assets.
 
 Once it is done, you will arrive on the asset family settings, where you can:
 - [Define the family properties ](/articles/manage-assets.html#define-family-properties) (`Properties` tab)
