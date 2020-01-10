@@ -75,5 +75,5 @@ You can delete an asset or all the assets of an asset family.
 To delete all the assets of a family, click on the `...` button at the top right corner of the header's asset library, then `delete all assets`.
 
 ::: tips
-To delete all the assets of an asset family, you **need to check that no asset of this family is used in a product**. Otherwise you will not be able to delete it.
+To delete all the assets of an asset family, you **need to check that no asset of this family is linked to a product or a product model**. Otherwise you will not be able to delete it.
 :::
