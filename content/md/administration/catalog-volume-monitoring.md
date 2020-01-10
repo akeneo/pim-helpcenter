@@ -1,6 +1,6 @@
 ---
 id: catalog-volume-monitoring
-themes: administration, akeneo-concepts, catalog-settings 
+themes: administration, akeneo-concepts, catalog-settings
 title: Monitor your **catalog size**
 popular: false
 related: what-is-a-product-value, what-is-an-attribute, what-is-a-family, what-is-a-channel, what-is-a-locale, what-is-a-category
@@ -53,7 +53,7 @@ The `Axes related to the catalog structure` section gathers all the axes that ha
 The `Axes regarding the variant modeling` section gathers the number of product models and [variant products](what-about-products-variants.html).
 
 ::: ee
-In the Enterprise Edition, there is an additional section called `Axes on assets` that will give you the volume regarding [assets](work-with-assets.html).
+In the Enterprise Edition, there are additional sections called `Axes on assets families` that will give you the volume regarding [assets](what-about-assets.html), and `Axes on reference entities` that will give you the volume regarding [reference entities](what-about-reference-entities).
 :::
 
 ## The alerts
@@ -63,4 +63,3 @@ On some axes, you will sometimes see an alert: text appears below the metric and
 
 _What does this alert means?_  
 It simply means that for this axis, you may have a volume that is quite high. If you encounter any problems at this level of volume, do not hesitate to contact us.
-
