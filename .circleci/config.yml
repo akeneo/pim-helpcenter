@@ -35,14 +35,14 @@ workflows:
                   filters:
                       branches:
                           ignore:
-                              - master
+                              - v3
 
     deployment:
         jobs:
             - deploy_staging:
                   filters:
                       branches:
-                          only: master
+                          only: v3
             - approve_to_deploy_in_production:
                   type: approval
                   requires:

@@ -26,14 +26,13 @@ Files located in the content and src directories are watched for changes, so whe
 
 ### With Circle CI (recommended)
 
-The master branch is the `v3` version for now.
-Once you merge a PR into the `master` branch, it is automatically deployed on the staging server. In order to deploy it in production, please follow these steps:
+Once you merge a PR into the `v3` branch, it is automatically deployed on the staging server. In order to deploy it in production, please follow these steps:
 
 - Check the staging environment if everything is ok to be deployed in production
-- Open [the list of merged PR in master branch](https://circleci.com/gh/akeneo/workflows/pim-helpcenter/tree/master) in Circle CI. You have to be connected with your Github account.
+- Open [the list of merged PR in v3 branch](https://circleci.com/gh/akeneo/workflows/pim-helpcenter/tree/v3) in Circle CI. You have to be connected with your Github account.
 - Click on the first row which should be "On hold"
 
-![List of merged PR in master](.circleci/list_workflows.jpg)
+![List of merged PR in v3](.circleci/list_workflows.jpg)
 
 - Click on the box "approve_to_deploy_in_production" and approve. It will launch the deployment in production.
 

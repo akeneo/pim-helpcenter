@@ -1,4 +1,4 @@
-DOCKER_IMAGE_TAG = pim-helpcenter:master
+DOCKER_IMAGE_TAG = pim-helpcenter:v3
 DOCKER_RUN = docker run -it --rm -u "$${UID}":"$${GID}" -v "$${PWD}":/opt/workdir -w /opt/workdir
 
 .PHONY: docker-build yarn-install serve deploy-staging
@@ -18,4 +18,3 @@ build: yarn-install
 
 deploy: build
 	$(DOCKER_RUN) -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/pim/v3/ akeneo@$${HOSTNAME}:/home/akeneo/pim/v3
-	$(DOCKER_RUN) -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az dist/pim/versions.json akeneo@$${HOSTNAME}:/home/akeneo/pim/versions.json
