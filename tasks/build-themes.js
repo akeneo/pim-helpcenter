@@ -11,7 +11,7 @@ var frontMatter = require('gulp-front-matter');
 var rename = require('gulp-rename');
 var revReplace = require('gulp-rev-replace');
 
-var majorVersion = 'v3';
+var majorVersion = 'serenity';
 
 gulp.task('build-themes', ['clean-dist','less'], function () {
     // For each Json file containing the Persona themes
@@ -57,7 +57,7 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
             // Once the stream is finished, we know for one given persona, all the information about the articles
             // that are in its themes. So we can inject this content into the handlebars template of the Themes page
             // to create the final Theme page in HTML
-            // Finally, the resulting HTML page is saved into "dist" 
+            // Finally, the resulting HTML page is saved into "dist"
             return stream.on('end', function () {
                 var filePath = path.basename(file.path).replace(/\.json$/, '.html');
                 return gulp.src('src/themes.handlebars')

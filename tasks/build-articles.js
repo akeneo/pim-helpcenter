@@ -18,7 +18,7 @@ var frontMatter = require('gulp-front-matter');
 var rename = require('gulp-rename');
 var revReplace = require('gulp-rev-replace');
 
-var majorVersion = 'v3';
+var majorVersion = 'serenity';
 
 function getTocMarkdown(currentPage) {
     return "\n\n:::: toc\n@[toc]\n\n::::\n\n";

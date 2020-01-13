@@ -6,7 +6,7 @@ var less = require('gulp-less');
 var path = require('path');
 var rev = require('gulp-rev');
 
-var majorVersion = 'v3';
+var majorVersion = 'serenity';
 
 gulp.task('less', ['clean-dist'], function () {
     return gulp.src('./styles/variables.less')

@@ -1,5 +1,10 @@
 [
   {
+    "url": "/pim/serenity/",
+    "label": "Serenity",
+    "suffix_with_filename": true
+  },
+  {
     "url": "/pim/v4/",
     "label": "v4",
     "suffix_with_filename": true
