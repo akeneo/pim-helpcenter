@@ -1,20 +1,25 @@
 ---
-id: full-automatic-migration-pam
-title: The **full-automatic** migration guide for PAM assets
+id: family-by-family-pam-migration
+title: The **family-by-family** migration guide for PAM assets
 popular: false
 ee-only: true
 related: from-PAM-to-new-AM, how-to-migrate-from-pam
 ---
 
-# What's the full-automatic migration
-In this migration, everything is automated, you just need to launch few commands and your PAM assets will be migrated in the 4.0 new Asset Manager:
-- One asset family will be created gathering all you assets.
-- All your assets will be migrated and linked to the asset family.
-- All you existing PAM asset collection product attributes will be linked to the asset family.
-- And all your links between assets and products / product model will be kept.
+# What's the family-by-family migration?
+In this migration, you can create several asset families for your PAM assets.
+You will need to define manually 2 things:
+- For each asset its asset family.
+- For each asset collection product attribute, the asset family linked.
 
-# What's my asset family gonna look like?
-The asset family created will contain the following attributes:
+Other steps are automated, you just need to launch few commands and your PAM assets will be migrated in the 4.0 new Asset Manager:
+- The asset families will be created automatically in the PIM.
+- All your assets will be migrated and linked to the asset family you defined.
+- All you existing PAM asset collection product attributes will be linked to the asset family.
+- And all your links between assets and products / product models will be kept.
+
+# What will my asset families gonna look like?
+The asset families will be all created with the following attributes:
 - `reference`: media file attribute (used as attribute as main media) containing the reference file of the asset if the asset was localizable in the PAM
 - `variation_scopable`: scopable media file attribute containing the asset variation file for each scope
 - `reference_localizable`: a localizable media file attribute containing the reference file of the asset if the asset was localizable in the PAM
@@ -24,44 +29,45 @@ The asset family created will contain the following attributes:
 - `tags`: text attribute with the asset tags (tags are separated by a comma)
 - `end_of_used`: text attribute with the asset end of use date
 
-During the migration, you will be able to choose the asset family code.
-
 ![PAM assets family](pam-assets-family.png)
 
-# What's my asset gonna look like?
+# What will my assets gonna look like?
 
 ![PAM asset](pam-asset.png)
 
 
 # What are the steps to migrate?
-This part is a bit technical.
+Don't be afraid, this part is a bit technical. If you are a Julia, you can ask your IT guy or your integrator to do it.
 
 ## _Step 1_ | Export the PAM assets
-First, we need to export your PAM assets with all their data (properties, reference and variation files).
+First, we need to export your PAM assets with all their data (properties, reference and variation files) in CSV files.
 To do so, in the PIM:
 1. Run `export-pam-assets`
 2. Put the CSV files in `tmp` folder.
 
-## _Step 2_ | Create the API credentials
+## _Step 2_ | Split the PAM assets family by family
+Then, as you want to create several asset families for your assets, you need to split the asset files family by family.
+
+## _Step 3_ | Create the API credentials
 Then, the API will be used to create the asset family and your assets in the new Asset Manager.
 To create the API credentials in the PIM :
 1. Run `create-api-credentials`
 2. And store the API credentials
 
-## _Step 3_ | Import the PAM assets
-To import the PAM assets, you can use our dedicated tool CSVToAsset with the CSV files and the API credentials.
-In the CSVToAsset tool:
-1. Run `make migration` and a default asset family code for your family in the new Asset Manager
+## _Step 4_ | Import the PAM assets
+To import the PAM assets for each asset family, you can use our dedicated tool CSVToAsset with the CSV files for this asset family and the API credentials.
+In the CSVToAsset tool, for each asset family:
+1. Run `make migration` with the chosen asset family code for your family in the new Asset Manager
 2. Run `create asset family`
 3. Run `merge 2 CSV files in 1`
 4. Run `import assets into the PIM through API`
 
-## _Step 4_ | Migrate the PAM asset collection product attributes
-The PAM asset collection product attributes will be linked to the family created.
-In the PIM:
-- Run `migrate-pam-attributes` command
+## _Step 5_ | Migrate the PAM asset collection product attributes
+The PAM asset collection product attributes will be linked to one of the family created.
+In the PIM, for each PAM asset collection product attribute to migrate:
+- Run `migrate-pam-attributes` command with the chosen asset family code and the existing attribute code
 
-## _Step 5_ | Check and test the migration
+## _Step 6_ | Check and test the migration
 Yeah, well done, your assets are successfully migrated to the new Asset Manager. But we strongly recommend you to make some checks and tests to verify that everything is ok and discover more our new Asset Manager.
 
 To view all your assets:
@@ -70,8 +76,9 @@ To view all your assets:
 1. You can search for an asset or display an asset by clicking on it
 If you want to go further, please read this article [Create and display assets](create-and-display-assets.html).
 
-To view how is structured your asset family:
+To view how are structured your asset families:
 1. Go the `Assets` menu`
+1. Choose an asset family on the left
 1. Click on the button `Edit family` at the top right of the grid
 1. View the family attributes in `Attributes` tab, you can translate the attributes labels for each locale
 1. View the family properties in `Properties` tab, you can translate the family labels for each locale
