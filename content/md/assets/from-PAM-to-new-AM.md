@@ -2,9 +2,9 @@
 id: from-PAM-to-new-AM
 themes: manage-your-assets
 title: From PAM to new Asset Manager
-popular: false
+popular: true
 ee-only: true
-related: upload-assets, assets-transformation
+related: upload-assets, assets-transformation, manage-asset-families, what-about-assets
 ---
 
 # From non-structured assets to structured ones
@@ -13,26 +13,26 @@ You may know our famous PAM, Product Asset Manager. If not, just a short laius. 
 
 An "old PAM asset" was a non-structured object which had some particularities.
 
-## All the assets had the same properties
+## Properties
 In the PAM, it was impossible to add attributes to the assets. They all had the same properties (a code, a description, tags, an end of use date).
 
-## The assets could be localisable but not their values
-It was possible to create localisable assets. In fact, only the file was localisable (meaning that you could have one file per locale), but not the values of the properties. For example, if you had 2 activated locales, you could have 2 different files but they would have the same description, tags, etc.
+## Asset localization
+The assets could be localizable but not their values, creating localizable assets. In fact, only the file was localizable (meaning that you could have one file per locale), but not the values of the properties. For example, if you had 2 activated locales, you could have 2 different files but they would have the same description, tags, etc.
 
-## The assets had mandatory transformations per channel
-One very important thing in the PAM was the transformations feature. By default, all the assets had different variations per channel. You imported `reference files` and a `variation` per channel was automatically created. If you wanted to use assets in your product sheets, you had to define these transformations in order to get a variation per channel. You never used the reference file in your product forms.    
+## Transformations per channel
+One very important thing in the PAM was the transformations feature. By default, all the assets had different variations per channel, and it was mandatory. You imported `reference files` and a `variation` per channel was automatically created. If you wanted to use assets in your product sheets, you had to define these transformations in order to get a variation per channel. You never used the reference file in your product forms.    
 
-## The `assets collection` product attribute could not have different values per locale/channel.
-It was totally impossible to define a value per locale neither per channel on this specific product attribute type. The localization was hold by the asset itself.
+## The `assets collection` product attribute
+The `assets collection` product attribute could not have different values per locale/channel. It was totally impossible to define a value per locale neither per channel on this specific product attribute type. The localization was hold by the asset itself.
 
-## There were asset categories with rights on these categories
-As for the products, you had the possibility to organize your assets thanks to categories and category trees. There were permissions on that categories. It was possible to have view rights or edit rights on assets of these categories.
+## Asset categories
+There were asset categories with rights on these categories. As for the products, you had the possibility to organize your assets thanks to categories and category trees. There were permissions on that categories. It was possible to have view rights or edit rights on assets of these categories.
 
 # What has changed?
 With the new Asset Manager, come new concepts.
 
 ## From asset categories to asset families
-We replaced the asset categories by the `Asset Families`, making it much more powerful since, in addition to the possibility to organize your assets, it is now possible to define a structure by asset family. You can also define permissions by asset families. It allows you to access or not the content of the family.
+With the new Asset Manager, we introduce a new concept: the asset families. It makes the asset management much more powerful than before since it is now possible to define a structure by asset family. You can also define permissions by asset families. It allows you to access or not the content of the family. Learn more about the asset families [here](/manage-asset-families.md).
 
 ## Tags management
 The way we handled `tags` was not efficient enough.  
@@ -73,7 +73,7 @@ Because we know that your assets can be stored on specific media servers, or in 
 As for the products, we think that defining a completeness level on assets can be very important. It allows you to be way more rigorous in your assets enrichment work. To do that, just tick the `required for completeness` checkbox in your attribute settings.
 
 ## I have specific values per locale, what should I do?
-Depending on your usecases, we have 2 solutions for you.
+Depending on your use cases, we have 2 solutions for you.
 
 ### I have .pdf files for my notices: the same notice is declined into several languages.
 For this usecase, we advise you to create one asset (let's say `Yali_notice`), with a `media file` or `media link` attribute type, that you will choose as the `attribute used as main media`. Tick the property `value per locale` in the attribute settings. If you want to add other attributes to enrich your notice (for example, a short description), you can add a text attribute type and select the same property `value per locale`. This way, you will be able to upload, let's say, the english version of your notice in the english locale, and the french one in the french locale.
@@ -85,7 +85,7 @@ It's exactly the same when you have different values per channel.
 ### I sell swimwears and I can't use the same images depending on the selling country.
 Indeed, some countries have restriction rules regarding the media. For example, to sell your `floral_bikini` swimwear, you will use images with models in Europe, but not in United Arab Emirates. This way, this time, you won't use the same asset but you will create two different assets: one with the model, one with the bikini only. But, you will create an `asset collection` product attribute, and you will choose the parameter `value per locale`. It will enable you to have a different asset collection depending on the locale!
 
-[screenshot](localisable_attribute)
+[screenshot](localizable_attribute)
 
 ::: info
 It's exactly the same when you have different values per channel.
@@ -94,3 +94,5 @@ It's exactly the same when you have different values per channel.
 ::: tips
 It wouldn't make any sense to apply those 2 solutions at the same time, we let you choose the one which suits best your needs.
 :::
+
+# Q&A
