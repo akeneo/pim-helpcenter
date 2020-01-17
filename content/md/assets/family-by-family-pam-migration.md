@@ -57,7 +57,7 @@ To create the API credentials in the PIM :
 2. And store the API credentials
 
 ## _Step 4_ | Import the PAM assets
-To import the PAM assets for each asset family, you can use our dedicated tool CSVToAsset with the CSV files for this asset family and the API credentials.
+To import the PAM assets for each asset family, you can use our dedicated tool `CSVToAsset` with the CSV files for this asset family and the API credentials.
 In the CSVToAsset tool, for each asset family:
 1. Run `make migration` with the chosen asset family code for your family in the new Asset Manager
 2. Run `create asset family`
