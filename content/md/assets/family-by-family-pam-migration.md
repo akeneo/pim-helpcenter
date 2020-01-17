@@ -7,9 +7,10 @@ related: from-PAM-to-new-AM, how-to-migrate-from-pam
 ---
 
 # What's the family-by-family migration?
-In this migration, you can create several asset families for your PAM assets.
+In this migration, you can have **several asset families** for your existing PAM assets.
+
 You will need to define manually 2 things:
-- For each asset its asset family.
+- For each asset, its asset family.
 - For each asset collection product attribute, the asset family linked.
 
 Other steps are automated, you just need to launch few commands and your PAM assets will be migrated in the 4.0 new Asset Manager:
@@ -19,14 +20,14 @@ Other steps are automated, you just need to launch few commands and your PAM ass
 - And all your links between assets and products / product models will be kept.
 
 # What will my asset families gonna look like?
-The asset families will be all created with the following attributes:
-- `reference`: media file attribute (used as attribute as main media) containing the reference file of the asset if the asset was localizable in the PAM
-- `variation_scopable`: scopable media file attribute containing the asset variation file for each scope
-- `reference_localizable`: a localizable media file attribute containing the reference file of the asset if the asset was localizable in the PAM
-- `variation_scopable_localizable`: scopable & localizable media file attribute containing the asset variation file for each scope and locale
-- `description`: text attribute with the asset description
-- `categories`: text attribute with the asset categories (categories are separated by a comma)
-- `tags`: text attribute with the asset tags (tags are separated by a comma)
+The asset family created will contain the following attributes:
+- `reference` (*media_file attribute*): containing the reference file of the PAM asset and used as attribute as main media for this family
+- `reference_localizable` (*media_file attribute*): an attribute with a value per locale containing the reference file of the asset for each locale, if the asset was localizable in the PAM
+- `variation_scopable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel
+- `variation_scopable_localizable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel and locale, if the asset was localizable in the PAM
+- `description` (*text attribute*):  with the PAM asset description
+- `categories` (*text attribute*): with the PAM asset categories separated by a comma
+- `tags` (*text attribute*): with the PAM asset tags (tags are separated by a comma)
 - `end_of_used`: text attribute with the asset end of use date
 
 ![PAM assets family](pam-assets-family.png)
@@ -35,9 +36,10 @@ The asset families will be all created with the following attributes:
 
 ![PAM asset](pam-asset.png)
 
-
 # What are the steps to migrate?
 Don't be afraid, this part is a bit technical. If you are a Julia, you can ask your IT guy or your integrator to do it.
+
+<!-- TOREVIEW
 
 ## _Step 1_ | Export the PAM assets
 First, we need to export your PAM assets with all their data (properties, reference and variation files) in CSV files.
@@ -99,4 +101,4 @@ So you need to set transformations rules in the new Asset Manager.
 The transformations are no more defined by channels, there are defined by asst family and you can define until 10 transformations per asset family.
 The format is bit different but don't worry, hereafter an example before / after.
 
-To know more about our powerful transformations, please read this article [About the asset transformations](assets-transformation.html).
+To know more about our powerful transformations, please read this article [About the asset transformations](assets-transformation.html). -->
