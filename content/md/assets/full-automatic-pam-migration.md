@@ -8,13 +8,13 @@ related: from-PAM-to-new-AM, how-to-migrate-from-pam
 
 # What's the full-automatic migration?
 In this migration, **everything is automated**, you just need to launch one single command and your PAM assets will be migrated in the 4.0 new Asset Manager:
-- One asset family will be created gathering all you assets.
+- One asset family will be created gathering all your assets.
 - All your assets will be migrated and linked to the new asset family.
-- All you existing PAM asset collection product attributes will be linked to the new asset family.
+- All your existing PAM `assets collection` product attributes will be linked to the new asset family.
 - And all your links between assets and products / product models will be kept.
 
-# What will my asset family gonna look like?
-The asset family created will contain the following attributes:
+# What will my asset family look like?
+The asset family that has been created will contain the following attributes:
 - `reference` (*media_file attribute*): containing the reference file of the PAM asset and used as attribute as main media for this family
 - `reference_localizable` (*media_file attribute*): an attribute with a value per locale containing the reference file of the asset for each locale, if the asset was localizable in the PAM
 - `variation_scopable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel
@@ -22,7 +22,7 @@ The asset family created will contain the following attributes:
 - `description` (*text attribute*):  with the PAM asset description
 - `categories` (*text attribute*): with the PAM asset categories separated by a comma
 - `tags` (*text attribute*): with the PAM asset tags (tags are separated by a comma)
-- `end_of_used`: text attribute with the asset end of use date
+- `end_of_use`: text attribute with the asset end of use date
 
 During the migration, you will be able to choose the asset family code.
 
