@@ -64,9 +64,9 @@ In the `CSVToAsset` tool, for each asset family:
 3. Run `merge 2 CSV files in 1`
 4. Run `import assets into the PIM through API`
 
-## _Step 5_ | Migrate the PAM asset collection product attributes
-The PAM asset collection product attributes will be linked to one of the family created.
-In the PIM, for each PAM asset collection product attribute to migrate:
+## _Step 5_ | Migrate the PAM `assets collection` product attributes
+The PAM `assets collection` product attributes will be linked to one of the created families.
+In the PIM, for each PAM `assets collection` product attribute to migrate:
 - Run `migrate-pam-attributes` command with the chosen asset family code and the existing attribute code
 
 ## _Step 6_ | Check and test the migration
@@ -78,12 +78,12 @@ To view all your assets:
 1. You can search for an asset or display an asset by clicking on it
 If you want to go further, please read this article [Create and display assets](create-and-display-assets.html).
 
-To view how are structured your asset families:
+To view how your asset families are structured:
 1. Go the `Assets` menu`
 1. Choose an asset family on the left
 1. Click on the button `Edit family` at the top right of the grid
 1. View the family attributes in `Attributes` tab, you can translate the attributes labels for each locale
-1. View the family properties in `Properties` tab, you can translate the family labels for each locale
+1. View the family properties in `Properties` tab, you can translate the family label for each locale
 
 If you want to go further, please read this article [Manage asset families](manage-asset-families.html)
 
@@ -93,12 +93,12 @@ To view the assets linked to a product:
 If you want to go further, please read this article [Work with asset in an asset collection atribute](work-with-assets-in-an-asset-collection-attribute-ee-only.html).
 
 ## _Step 6_ | Set transformations (optional)
-In the new Asset Manager, transformations are no more mandatory. So if you used before fake transformations (100% or 99%), you don't need anymore to set transformations.
+In the new Asset Manager, transformations are not mandatory anymore. So if you used to have fake transformations (100% or 99%) in the PAM in order to keep your reference file as it was, the only thing to do now is not to define any transformation ;-)
 
-If you were using some real transformations in the PAM, the variations of the assets are migrated during the step 3 but the transformations settings are not migrated.
+If you were using some real transformations in the PAM (for example, a `thumbnail` transformation), the variations of the assets will be migrated during the step 3 but the transformations settings won't be migrated since we totally change the format of the transformations settings.
 
 So you need to set transformations rules in the new Asset Manager.
-The transformations are no more defined by channels, there are defined by asst family and you can define until 10 transformations per asset family.
+The transformations are not defined by channels anymore. They are defined by asset family, and there can be up to 10 transformations per asset family. It means that you can have several transformations for the same channel for example.
 The format is bit different but don't worry, hereafter an example before / after.
 
 To know more about our powerful transformations, please read this article [About the asset transformations](assets-transformation.html). -->
