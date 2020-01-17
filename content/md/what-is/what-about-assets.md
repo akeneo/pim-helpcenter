@@ -1,7 +1,7 @@
 ---
 id: what-about-assets
 themes: first-steps, manage-your-assets
-title: What about **asset**?
+title: What about **assets**?
 popular: true
 ee-only: true
 related: manage-assets, enrich-your-assets
@@ -19,9 +19,9 @@ This feature is only available in the Enterprise Edition.
 
 The assets of the Asset Manager will be way more powerful than before. They will benefit from 3 major new features:
 
-- the possibility to define a flexible structure, thanks to the asset families,
-- the possibility to automatize the link with your products, thanks to the product link rules,
-- the possibility to refer to both external and internal binaries, thanks to the media link and the media file attribute types.
+- the possibility to define a **flexible structure**, thanks to the asset families,
+- the possibility to **automatize the link** with your products, thanks to the product link rules,
+- the possibility to refer to both **external and internal binaries**, thanks to the media link and the media file attribute types.
 
 Below, you'll find an illustration of this wonderful new feature.
 
