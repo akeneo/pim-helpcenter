@@ -32,7 +32,7 @@ The asset family created will contain the following attributes:
 
 ![PAM assets family](pam-assets-family.png)
 
-# What will my assets gonna look like?
+# What will my assets look like?
 
 ![PAM asset](pam-asset.png)
 
