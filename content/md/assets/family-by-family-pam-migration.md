@@ -44,7 +44,7 @@ Don't be afraid, this part is a bit technical. If you are a Julia, you can ask y
 ## _Step 1_ | Export the PAM assets
 First, we need to export your PAM assets with all their data (properties, reference and variation files) in CSV files.
 To do so, in the PIM:
-1. Run `export-pam-assets`
+1. Run `APP_ENV=prod bin/console pimee:migrate-pam-assets:export-assets /tmp`
 2. Put the CSV files in `tmp` folder.
 
 ## _Step 2_ | Split the PAM assets family by family
