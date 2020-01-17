@@ -13,7 +13,7 @@ You will need to define manually 2 things:
 - For each asset, its asset family.
 - For each asset collection product attribute, the asset family linked.
 
-Other steps are automated, you just need to launch few commands and your PAM assets will be migrated in the 4.0 new Asset Manager:
+Other steps are automated, you just need to launch a few commands and your PAM assets will be migrated in the 4.0 new Asset Manager:
 - The asset families will be created automatically in the PIM.
 - All your assets will be migrated and linked to the asset family you defined.
 - All you existing PAM asset collection product attributes will be linked to the asset family.
