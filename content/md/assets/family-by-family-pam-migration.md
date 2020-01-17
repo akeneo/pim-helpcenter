@@ -37,7 +37,7 @@ The asset family created will contain the following attributes:
 ![PAM asset](pam-asset.png)
 
 # What are the steps to migrate?
-Don't be afraid, this part is a bit technical. If you are a Julia, you can ask your IT guy or your integrator to do it.
+Don't be afraid, this part is a bit technical. If you are a Julia, you can ask your IT department or your integrator to do it.
 
 <!-- TOREVIEW
 
