@@ -19,7 +19,7 @@ Other steps are automated, you just need to launch a few commands and your PAM a
 - All your existing PAM asset collection product attributes will be linked to the asset family.
 - And all your links between assets and products / product models will be kept.
 
-# What will my asset families gonna look like?
+# What will my asset families will look like?
 The asset family created will contain the following attributes:
 - `reference` (*media_file attribute*): containing the reference file of the PAM asset and used as attribute as main media for this family
 - `reference_localizable` (*media_file attribute*): an attribute with a value per locale containing the reference file of the asset for each locale, if the asset was localizable in the PAM
