@@ -11,24 +11,24 @@ In this migration, you can have **several asset families** for your existing PAM
 
 You will need to define manually 2 things:
 - For each asset, its asset family.
-- For each asset collection product attribute, the asset family linked.
+- For each `asset collection` product attribute, the linked asset family.
 
 Other steps are automated, you just need to launch a few commands and your PAM assets will be migrated in the 4.0 new Asset Manager:
 - The asset families will be automatically created in the PIM.
 - All your assets will be migrated and linked to the asset family you defined.
-- All your existing PAM asset collection product attributes will be linked to the asset family.
+- All your existing PAM `asset collection` product attributes will be linked to the asset family.
 - And all your links between assets and products / product models will be kept.
 
-# What will my asset families will look like?
+# What will my asset families look like?
 The asset family that has been created will contain the following attributes:
-- `reference` (*media_file attribute*): containing the reference file of the PAM asset. This `reference` attribute is used `as main media` for this family
+- `reference` (*media_file attribute*): containing the reference file of the PAM asset. This `reference` attribute is used `as main media` for this family.
 - `reference_localizable` (*media_file attribute*): an attribute with a value per locale containing the reference file of the asset for each locale, if the asset was localizable in the PAM
 - `variation_scopable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel
 - `variation_scopable_localizable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel and locale, if the asset was localizable in the PAM
 - `description` (*text attribute*):  with the PAM asset description
 - `categories` (*text attribute*): with the PAM asset categories separated by a comma
 - `tags` (*text attribute*): with the PAM asset tags (tags are separated by a comma)
-- `end_of_used`: text attribute with the asset end of use date
+- `end_of_use`: text attribute with the asset end of use date
 
 ![PAM assets family](pam-assets-family.png)
 
@@ -42,7 +42,7 @@ Don't be afraid, this part is a bit technical. If you are a Julia, you can ask y
 <!-- TOREVIEW
 
 ## _Step 1_ | Export the PAM assets
-First, we need to export your PAM assets with all their data (properties, reference and variation files) in CSV files.
+First, we need to export your PAM assets in CSV files.
 To do so, in the PIM:
 1. Run `APP_ENV=prod bin/console pimee:migrate-pam-assets:export-assets /tmp`
 2. This command will put the CSV files (`assets.csv` and `asset_variations.csv`) in the `/tmp` folder
@@ -78,8 +78,8 @@ To view all your assets:
 1. You can search for an asset or display an asset by clicking on it
 If you want to go further, please read this article [Create and display assets](create-and-display-assets.html).
 
-To view how your asset families are structured:
-1. Go the `Assets` menu`
+To view how your asset families structure:
+1. Go to the `Assets` menu`
 1. Choose an asset family on the left
 1. Click on the button `Edit family` at the top right of the grid
 1. View the family attributes in `Attributes` tab, you can translate the attributes labels for each locale

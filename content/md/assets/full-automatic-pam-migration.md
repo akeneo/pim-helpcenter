@@ -15,7 +15,7 @@ In this migration, **everything is automated**, you just need to launch one sing
 
 # What will my asset family look like?
 The asset family that has been created will contain the following attributes:
-- `reference` (*media_file attribute*): containing the reference file of the PAM asset and used as attribute as main media for this family
+- `reference` (*media_file attribute*): containing the reference file of the PAM asset. This `reference` attribute is used `as main media` for this family.
 - `reference_localizable` (*media_file attribute*): an attribute with a value per locale containing the reference file of the asset for each locale, if the asset was localizable in the PAM
 - `variation_scopable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel
 - `variation_scopable_localizable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel and locale, if the asset was localizable in the PAM
@@ -28,12 +28,12 @@ During the migration, you will be able to choose the asset family code.
 
 ![PAM assets family](pam-assets-family.png)
 
-# What will my assets gonna look like?
+# What will my assets look like?
 
 ![PAM asset](pam-asset.png)
 
 # What are the steps to migrate?
-Don't be afraid, this part is a bit technical. If you are a Julia, you can ask your IT guy or your integrator to do it.
+Don't be afraid, this part is a bit technical. If you are a Julia, you can ask your IT department or your integrator to do it.
 
 4 steps to migrate your PAM assets:
 1. Install & Setup the migration tool
@@ -55,17 +55,14 @@ Run `./bin/migrate.php <family-code> <path-to-ee-installation>` with the family-
 This command will automatically:
 1. Export the PAM assets in CSV into a temporary folder
 1. Create dedicated API credentials
-1. Migrate the assets data:
-    - Create a new asset family with the code `family-code`
-    - Export the PAM assets with all their data (properties, reference and variation files) in CSV files
-    - Merge the exported Akeneo PAM CSV files in one single file
-    - Import the merged file into Akeneo PIM in the new asset format
-1. Migrate the former Akeneo PAM product attributes into new Asset product attributes and link them to the new newly created asset family
+1. Create the asset family with the code `family-code`
+1. Import the exported assets in the asset manager
+1. Migrate the former Akeneo PAM `assets collection` product attributes into new Asset product attributes and link them to the newly created asset family
 
 ## _Step 3_ | Check and test the assets migration
 Yeah, well done, your assets are successfully migrated to the new Asset Manager!
 
-But we strongly recommend you to make some checks and tests to verify that everything is ok. You can also take some time to deep dive into our brand new Asset Manager. (Link to the user doc ?)
+But we strongly recommend you to make some checks and tests to verify that everything is ok. You can also take some time to deep dive into our brand new Asset Manager.
 
 ### To view all your assets
 1. Go to the `Assets` menu
@@ -97,12 +94,13 @@ If you want to go further, please read this article [Work with asset in an asset
 ## _Step 4_ | Set transformations (*optional*)
 In the new Asset Manager, **transformations are not mandatory anymore**.
 
-So if you used fake transformations (100% or 99%) in the past, you don't need to set those transformations anymore.
+So if you used to have fake transformations (100% or 99%) in the PAM in order to keep your reference file as it was, the only thing to do now is not to define any transformation ;-)
 
-If you were using some real transformations in the PAM, the variations files of the assets are migrated during the step 2 but the transformations settings are not migrated.
+If you were using some real transformations in the PAM (for example, a `thumbnail` transformation), the variations of the assets will be migrated during the step 2.
+But the transformations settings won't be migrated since we totally change the format of the transformations settings.
 
 So you need to set transformations rules in the new Asset Manager.
-The transformations are not defined by channels anymore, they are defined by asset family and you can define until 10 transformations per asset family.
+The transformations are not defined by channels anymore.  They are defined by asset family, and there can be up to 10 transformations per asset family. It means that you can have several transformations for the same channel for example.
 
 The format is a bit different but don't worry, hereafter an example before / after.
 <!-- TODO -->

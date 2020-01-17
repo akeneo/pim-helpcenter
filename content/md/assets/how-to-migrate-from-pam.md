@@ -7,7 +7,8 @@ ee-only: true
 related: from-PAM-to-new-AM
 ---
 
-You would like to migrate to our new 4.0 version and you are using the PAM to manage your digital assets?
+You would like to migrate to our new 4.0 version and you are using the PAM to manage your digital assets.
+
 You have to know that the PAM disappeared in 4.0, and we replaced it with our brand new asset manager!
 
 But don't worry this step-by-step migration guide is made for you! It explains in details how you can migrate your PAM assets to our new 4.0 Asset Manager.
@@ -25,17 +26,18 @@ Migrating the PAM assets means that the following assets information will be mig
 - For each asset, its **asset properties** (code, description, tags, end of use at)
 - For each asset, its **asset reference files** / binaries (if the asset is localizable, one reference file per locale)
 - For each asset, its **asset variations files** / binaries (one variation file per channel for each reference file)
+
 And for each asset, its **links to products and products models** (the `assets collection` product attributes values) will be kept.
 
 # How can I migrate my PAM assets?
 Your PIM is in 4.0 and you want to migrate your PAM assets?
 
-To fit all your needs and use cases, we provide 3 ways to migrate your PAM assets:
+To fit all your needs and use cases, we provide 3 strategies to migrate your PAM assets:
 1. A [full-automatic migration](full-automatic-pam-migration.html)
 2. A [family-by-family migration](family-by-family-pam-migration.html).
 3. A full-manual migration
 
-These 3 migration ways are using a dedicated tool [CSVToAsset](https://github.com/akeneo/CsvToAsset) that we built.
+These 3 migration strategies are using a dedicated tool [CSVToAsset](https://github.com/akeneo/CsvToAsset) that we built.
 
 ## 1-The full-automatic migration
 In this migration, **everything is automated**, you just need to launch one single command and your PAM assets will be migrated in the 4.0 new Asset Manager:
@@ -44,22 +46,22 @@ In this migration, **everything is automated**, you just need to launch one sing
 - All your existing PAM `assets collection` product attributes will be linked to the new asset family.
 - And all your links between assets and products / product models will be kept.
 
-If you want to try this migration, please follow this step-by-step [full-automatic migration guide](full-automatic-pam-migration.html) guide.
+If you want to try this migration, please follow this step-by-step [full-automatic migration guide](full-automatic-pam-migration.html).
 
 ## 2-The family-by-family migration
 In this migration, you can have **several asset families** for your existing PAM assets.
 
 You will need to manually define 2 things:
 - For each asset, its asset family.
-- For each new `asset collection` product attribute, the linked asset family.
+- For each `asset collection` product attribute, the linked asset family.
 
-Other steps are automated, you just need to launch few commands and your PAM assets will be migrated in the 4.0 new Asset Manager:
-- The asset families will be created automatically in the PIM.
+Other steps are automated, you just need to launch a few commands and your PAM assets will be migrated in the 4.0 new Asset Manager:
+- The asset families will be automatically created in the PIM.
 - All your assets will be migrated and linked to the asset family you defined.
-- All you existing PAM asset collection product attributes will be linked to the asset family.
+- All your existing PAM `asset collection` product attributes will be linked to the asset family.
 - And all your links between assets and products / product models will be kept.
 
-You want to try this migration, please follow the step-by-step [family-by-family migration guide](family-by-family-pam-migration.html) guide.
+You want to try this migration, please follow the step-by-step [family-by-family migration guide](family-by-family-pam-migration.html).
 
 ## 3-The full-manual migration
 In this migration, you will model in the PIM all the asset families you want with their attributes.
