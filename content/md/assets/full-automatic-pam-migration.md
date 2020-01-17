@@ -52,20 +52,20 @@ Then, you will launch one single command of the [CSVToAsset](https://github.com/
 
 Run `./bin/migrate.php <family-code> <path-to-ee-installation>` with the family-code you chose/want for the new asset family
 
-This command will:
+This command will automatically:
 1. Export the PAM assets in CSV into a temporary folder
 1. Create dedicated API credentials
 1. Migrate the assets data:
-    - Create a new asset family with the code family-code
+    - Create a new asset family with the code `family-code`
     - Export the PAM assets with all their data (properties, reference and variation files) in CSV files
     - Merge the exported Akeneo PAM CSV files in one single file
     - Import the merged file into Akeneo PIM in the new asset format
-1. Migrate the former Akeneo PAM product attributes into new Asset product attributes and linked them to the new asset family with the code family-code
+1. Migrate the former Akeneo PAM product attributes into new Asset product attributes and link them to the new newly created asset family
 
 ## _Step 3_ | Check and test the assets migration
 Yeah, well done, your assets are successfully migrated to the new Asset Manager!
 
-But we strongly recommend you to make some checks and tests to verify that everything is ok and discover more our new Asset Manager.
+But we strongly recommend you to make some checks and tests to verify that everything is ok. You can also take some time to deep dive into our brand new Asset Manager. (Link to the user doc ?)
 
 ### To view all your assets
 1. Go to the `Assets` menu
@@ -76,8 +76,8 @@ But we strongly recommend you to make some checks and tests to verify that every
 If you want to go further, please read this article [Create and display assets](create-and-display-assets.html).
 :::
 
-### To view how is structured your asset family
-1. Go the `Assets` menu`
+### To view your asset family structure
+1. Go to the `Assets` menu`
 1. Click on the button `Edit family` at the top right of the grid
 1. View the family attributes in `Attributes` tab, you can translate the attributes labels for each locale
 1. View the family properties in `Properties` tab, you can translate the family labels for each locale
@@ -95,16 +95,16 @@ If you want to go further, please read this article [Work with asset in an asset
 :::
 
 ## _Step 4_ | Set transformations (*optional*)
-In the new Asset Manager, **transformations are no more mandatory**.
+In the new Asset Manager, **transformations are not mandatory anymore**.
 
-So if you used before fake transformations (100% or 99%), you don't need anymore to set transformations.
+So if you used fake transformations (100% or 99%) in the past, you don't need to set those transformations anymore.
 
 If you were using some real transformations in the PAM, the variations files of the assets are migrated during the step 2 but the transformations settings are not migrated.
 
 So you need to set transformations rules in the new Asset Manager.
-The transformations are no more defined by channels, there are defined by asst family and you can define until 10 transformations per asset family.
+The transformations are not defined by channels anymore, they are defined by asset family and you can define until 10 transformations per asset family.
 
-The format is bit different but don't worry, hereafter an example before / after.
+The format is a bit different but don't worry, hereafter an example before / after.
 <!-- TODO -->
 
 :::info
