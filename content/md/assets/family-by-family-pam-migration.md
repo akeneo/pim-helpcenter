@@ -21,7 +21,7 @@ Other steps are automated, you just need to launch a few commands and your PAM a
 
 # What will my asset families will look like?
 The asset family created will contain the following attributes:
-- `reference` (*media_file attribute*): containing the reference file of the PAM asset and used as attribute as main media for this family
+- `reference` (*media_file attribute*): containing the reference file of the PAM asset. This `reference` attribute is used `as main media` for this family
 - `reference_localizable` (*media_file attribute*): an attribute with a value per locale containing the reference file of the asset for each locale, if the asset was localizable in the PAM
 - `variation_scopable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel
 - `variation_scopable_localizable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel and locale, if the asset was localizable in the PAM
