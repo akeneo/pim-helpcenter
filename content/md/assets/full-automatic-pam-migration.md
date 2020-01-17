@@ -43,14 +43,14 @@ Don't be afraid, this part is a bit technical. If you are a Julia, you can ask y
 
 
 ## _Step 1_ | Install & Setup the migration tool
-We built a dedicated tool [CSVToAsset](https://github.com/akeneo/CsvToAsset) to migrate your PAM assets to new Asset Manager assets.
+We built a dedicated tool [CSVToAsset](https://github.com/akeneo/CsvToAsset) to migrate your PAM assets to the new Asset Manager.
 
 To install and setup this tool, refer to its [readme file](https://github.com/akeneo/CsvToAsset/blob/master/README.md).
 
 ## _Step 2_ | Launch the PAM assets migration
 Then, you will launch one single command of the [CSVToAsset](https://github.com/akeneo/CsvToAsset) tool and your PAM assets will be migrated in the 4.0 new Asset Manager.
 
-Run `./bin/migrate.php <family-code> <path-to-ee-installation>` with the family-code you choose for the asset family created.
+Run `./bin/migrate.php <family-code> <path-to-ee-installation>` with the family-code you chose/want for the new asset family
 
 This command will:
 1. Export the PAM assets in CSV into a temporary folder
