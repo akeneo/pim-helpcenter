@@ -31,7 +31,7 @@ There were asset categories with rights on these categories. As for the products
 # What has changed?
 With the new Asset Manager, come new concepts.
 
-## From asset categories to asset families
+## A new concept: the asset families
 With the new Asset Manager, we introduce a new concept: the asset families. It makes the asset management much more powerful than before since it is now possible to define a structure by asset family. You can also define permissions by asset families. It allows you to access or not the content of the family. Learn more about the asset families [here](/manage-asset-families.md).
 
 ## Tags management
@@ -76,7 +76,7 @@ As for the products, we think that defining a completeness level on assets can b
 Depending on your use cases, we have 2 solutions for you.
 
 ### I have .pdf files for my notices: the same notice is declined into several languages.
-For this usecase, we advise you to create one asset (let's say `Yali_notice`), with a `media file` or `media link` attribute type, that you will choose as the `attribute used as main media`. Tick the property `value per locale` in the attribute settings. If you want to add other attributes to enrich your notice (for example, a short description), you can add a text attribute type and select the same property `value per locale`. This way, you will be able to upload, let's say, the english version of your notice in the english locale, and the french one in the french locale.
+For this use case, we advise you to create one asset (let's say `Yali_notice`), with a `media file` or `media link` attribute type, that you will choose as the `attribute used as main media`. Tick the property `value per locale` in the attribute settings. If you want to add other attributes to enrich your notice (for example, a short description), you can add a text attribute type and select the same property `value per locale`. This way, you will be able to upload, let's say, the english version of your notice in the english locale, and the french one in the french locale.
 
 ::: info
 It's exactly the same when you have different values per channel.
@@ -96,3 +96,12 @@ It wouldn't make any sense to apply those 2 solutions at the same time, we let y
 :::
 
 # Q&A
+
+## What happened to my asset categories?
+Don't be surprised: there are no asset categories anymore in the 4.0 Asset Manager. If you used them in your PAM assets, don't worry, there are ways to retrieve them.
+- You had 100 or less than 100 asset categories? Depending on the path you choose for your asset migration, you can create a `single option` or `multiple options` attribute type in your asset family that you will call "categories", and then fill in the options with your asset categories.
+- You had more than 100 asset categories? Depending on the path you choose for your asset migration, you can create a `text` attribute type in your asset family that you will call "categories", and then retrieve your asset categories separated by a coma.
+Thanks to these two possibilities, you will be able to search for your assets, based on their old categories. Indeed, in the Asset Manager, you can search on options (thanks to filters) and on text attributes (with a search bar).
+
+## I used the "tags" property, how can I retrieve my old tags?
+In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets. 
