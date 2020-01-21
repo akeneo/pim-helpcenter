@@ -10,11 +10,11 @@ related: from-PAM-to-new-AM, how-to-migrate-from-pam
 In this migration, you can have **several asset families** for your existing PAM assets.
 
 You will need to define manually 2 things:
-- For each asset, its asset family.
+- For each asset, its `asset family`.
 - For each `asset collection` product attribute, the linked asset family.
 
 Other steps are automated, you just need to launch a few commands and your PAM assets will be migrated in the 4.0 new Asset Manager:
-- The asset families will be automatically created in the PIM.
+- The `asset families` will be automatically created in the PIM.
 - All your assets will be migrated and linked to the asset family you defined.
 - All your existing PAM `asset collection` product attributes will be linked to the asset family.
 - And all your links between assets and products / product models will be kept.

@@ -101,4 +101,4 @@ We hope you understood all the new concepts of the 4.0 Asset Manager and the dif
 The first step is to migrate your PIM in 4.0.
 And then, you can migrate your PAM assets to the new Asset Manager.
 
-To ease the PAM assets migration, we wrote a dedicated [step-by-step migration guide ](how-to-migrate-from-pam.html) to explain you how to do it.
+To ease the PAM assets migration, we wrote a dedicated [step-by-step migration guide ](pam-migration-guide.html) to explain you how to do it.

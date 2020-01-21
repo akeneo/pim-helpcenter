@@ -8,7 +8,7 @@ related: from-PAM-to-new-AM, how-to-migrate-from-pam
 
 # What's the full-automatic migration?
 In this migration, **everything is automated**, you just need to launch one single command and your PAM assets will be migrated in the 4.0 new Asset Manager:
-- One asset family will be created gathering all your assets.
+- One `asset family` will be created gathering all your assets.
 - All your assets will be migrated and linked to the new asset family.
 - All your existing PAM `assets collection` product attributes will be linked to the new asset family.
 - And all your links between assets and products / product models will be kept.
@@ -55,9 +55,9 @@ Run `./bin/migrate.php <family-code> <path-to-ee-installation>` with the family-
 This command will automatically:
 1. Export the PAM assets in CSV into a temporary folder
 1. Create dedicated API credentials
-1. Create the asset family with the code `family-code`
-1. Import the exported assets in the asset manager
-1. Migrate the former Akeneo PAM `assets collection` product attributes into new Asset product attributes and link them to the newly created asset family
+1. Create the `asset family` with the code `family-code`
+1. Import the exported assets in the new Asset Manager
+1. Migrate the former Akeneo PAM `asset collection` product attributes into new Asset Manager collection product attributes and link them to the newly created asset family
 
 ## _Step 3_ | Check and test the assets migration
 Yeah, well done, your assets are successfully migrated to the new Asset Manager!
