@@ -22,7 +22,7 @@ The assets could be localizable but not their values, creating localizable asset
 ## Transformations per channel
 One very important thing in the PAM was the transformations feature. By default, all the assets had different variations per channel, and it was mandatory. You imported `reference files` and a `variation` per channel was automatically created. If you wanted to use assets in your product sheets, you had to define these transformations in order to get a variation per channel. You never used the reference file in your product forms.    
 
-## The `assets collection` product attribute
+## The assets collection product attribute
 The `assets collection` product attribute could not have different values per locale/channel. It was totally impossible to define a value per locale neither per channel on this specific product attribute type. The localization was hold by the asset itself.
 
 ## Asset categories
@@ -104,4 +104,4 @@ Don't be surprised: there are no asset categories anymore in the 4.0 Asset Manag
 Thanks to these two possibilities, you will be able to search for your assets, based on their old categories. Indeed, in the Asset Manager, you can search on options (thanks to filters) and on text attributes (with a search bar).
 
 ## I used the "tags" property, how can I retrieve my old tags?
-In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets. 
+In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets.
