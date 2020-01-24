@@ -102,6 +102,14 @@ Don't be surprised: there are no asset categories anymore in the 4.0 Asset Manag
 - You had 100 or less than 100 asset categories? Depending on the path you choose for your asset migration, you can create a `single option` or `multiple options` attribute type in your asset family that you will call "categories", and then fill in the options with your asset categories.
 - You had more than 100 asset categories? Depending on the path you choose for your asset migration, you can create a `text` attribute type in your asset family that you will call "categories", and then retrieve your asset categories separated by a coma.
 Thanks to these two possibilities, you will be able to search for your assets, based on their old categories. Indeed, in the Asset Manager, you can search on options (thanks to filters) and on text attributes (with a search bar).
+More information on the different migration strategies [here](#)
+
+## I defined permissions on categories, how should I do now?
+In the Asset Manager, the permissions are managed at the asset family level. It enables users to have edit rights or only view rights on the family.
+
+## I defined fake transformations in the PAM, what should I do now?
+In the PAM, transformations were mandatory to use assets in your product sheets. It was impossible to define 0 transformation and use the reference file in the product. So, you probably used "fake" transformations (for instance: `scale: "99%" or "100%"`, or `colorspace: "rgb"`).
+With the new Asset Manager, transformations are not mandatory anymore. If you want to generate variations, the only thing to do is to fill in the `transformations` property of the asset family. If you don't, any variation will be created :wink:. More information about the asset transformations [here](#)
 
 ## I used the "tags" property, how can I retrieve my old tags?
-In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets.
+In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets. We recommend you to read [this article](#) to know how you can migrate your old tags in your new assets.
