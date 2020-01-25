@@ -1,58 +1,25 @@
 ---
-id: family-by-family-pam-migration
-title: The **family-by-family** migration for PAM assets
+id: full-manual-pam-migration
+title: The **full manual** migration for PAM assets
 popular: false
 ee-only: true
 related: from-PAM-to-new-AM, pam-migration-guide
 ---
 
-# What's the family-by-family migration?
-In this migration, you can have **several asset families** for your existing PAM assets.
-
-You will need to define manually 2 things:
-- For each asset, its `asset family`.
-- For each `asset collection` product attribute, the linked asset family.
-
-Other steps are automated, you just need to launch a few commands and your PAM assets will be migrated in the 4.0 new Asset Manager:
-- The `asset families` will be automatically created in the PIM.
-- All your assets will be migrated and linked to the asset family you defined.
-- All your existing PAM `asset collection` product attributes will be linked to the asset family.
-- And all your links between assets and products / product models will be kept.
+# What's the full manual migration?
+In this migration, you will model in the PIM all the asset families you want with their attributes and you could control each step of the migration.
 
 # When do you advise to use it?
 We advise you this migration if:
-- Your assets have different types (for example, you manage images, PDF files, videos).
-- AND each asset collection contains only a type of assets (for example, images or PDF files) because each asset collection will be then linked to a single asset family.
-
-# What will my asset families look like?
-The asset families that will be created could contain the following attributes:
-- `reference` (*media_file attribute*): containing the reference file of the PAM asset. This `reference` attribute is used `as main media` for this family.
-- `reference_localizable` (*media_file attribute*): an attribute with a value per locale containing the reference file of the asset for each locale, if the asset was localizable in the PAM
-- `variation_scopable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel
-- `variation_scopable_localizable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel and locale, if the asset was localizable in the PAM
-- `description` (*text attribute*): the PAM asset description
-- `categories` (*text or multiple options attribute*): the PAM asset categories (only if you used categories in the PAM)
-- `tags` (*text or multiple options attribute*): the PAM asset tags
-- `end_of_use` (*text attribute*): the PAM asset end of use date (only if you used the end of use date in the PAM)
-
-During the migration, you will be able to choose the asset families codes.
-
-![PAM assets family](pam-assets-family.png)
-
-:::info
-If for an asset family its assets were not localizable in the PAM, the `reference_localizable` and `variation_scopable_localizable` attributes won't be created in this new asset family.
-If for an asset family its assets were localizable in the PAM, the `reference` and `variation_scopable` attributes won't be created in this new asset family.
-:::
-
-# What will my assets look like?
-
-![PAM asset](pam-asset.png)
+- You want to control each step of the migration.
+- Your use case doesn't fit the recommended use cases of the "full-automatic migration" or "family-by-family migration".
 
 # What are the steps to migrate?
 4 steps to migrate your PAM assets:
 1. Install & Setup the migration tool
 1. Export the PAM assets
-1. Choose your new asset families
+1. Create your asset families
+1. Split your assets file by family
 1. Create your API connection
 1. Import your PAM Assets
 1. Update the former PAM assets collection product attributes
@@ -71,18 +38,23 @@ Run `php bin/console pimee:migrate-pam-assets:export-assets <temporary-folder>`
 
 This command will export 2 files, named `<temporary-folder>/assets.csv` and `<temporary-folder>/variations.csv`, each of them containing the assets and the assets variations.
 
-## _Step 3_ | Choose your new asset families
-Then, as you want to create several asset families for your assets, you need to define for each asset its asset family.
+## _Step 3_ | Create your asset families
+In this migration, you will model in the PIM all the asset families you want with their attributes.
 
-1. Open the `assets.csv` file with your favorite spreadsheet editor, to add a new column named `family`.
-1. For each asset, in this new `family` column put the family code where you want to gather your asset. You can put a different value at each line of this file / asset, it will create as much families as there are family codes.
-1. Save your `assets.csv` in the same format than the original one (most important is the separator has to be ";").
+To help you to create asset families, please read this article [Create an asset family](manage-asset-families.html#create-an-asset-family).
 
-:::tips
-If the asset families you want to create were previously `categories` or `tags` in the PAM. These 2 attributes are exported in the `assets.csv` file, so you just have to copy them in the new `family` column.
+## _Step 4_ | Split your assets file by family
+Once you have your  `assets.csv ` file containing all your assets, you will have to split it into several files.
+
+Each file will contain the assets of a unique asset family you created in the previous step with the assets attributes as columns.
+
+Once done, you should have several files like assets_packshots.csv, assets_instructions.csv, assets_videos.csv,...
+
+:::warning
+Please keep on each file the header of the original `assets.csv`, and keep the same CSV format.
 :::
 
-## _Step 4_ | Create your API connection
+## _Step 5_ | Create your API connection
 Create your new connection to be able to use the API. Go to your Enterprise Edition path, then:
 
 Run `php bin/console akeneo:connectivity-connection:create migrations_pam`
@@ -103,21 +75,20 @@ To create the API credentials in the PIM :
 1. Run `create-api-credentials`
 2. And store the API credentials
 
-## _Step 5_ | Import your PAM assets
-Go to `CsvToAsset` folder and run the migration process:
+## _Step 6_ | Import your PAM assets
+Now, you will have to migrate your assets family per family.
+For each file you created, go to `CsvToAsset` folder and run the migration process:
 
-Run `php bin/console app:migrate /path/to/assets.csv /path/to/variations.csv`
+Run `php bin/console app:migrate /path/to/assets_yourfamily.csv /path/to/variations.csv --asset-family-code=your-family-code`
 
-This command will automatically:
-1. Create the `asset families` using the new `family` column
-1. Import the exported assets in the new Asset Manager
+This command will automatically import the exported assets in the new Asset Manager
 
-## _Step 6_ | Update the former PAM assets collection product attributes
+## _Step 7_ | Update the former PAM assets collection product attributes
 Finally, we need to update the PAM `assets collection` product attributes to match the new asset families.
 
 Run `php bin/console pimee:assets:migrate:migrate-pam-attributes `
 
-## _Step 7_ | Check and test the migration
+## _Step 8_ | Check and test the migration
 Yeah, well done, your assets are successfully migrated to the new Asset Manager!
 
 But we strongly recommend you to make some checks and tests to verify that everything is ok. You can also take some time to deep dive into our brand new Asset Manager.
@@ -153,7 +124,7 @@ You don't want to have a description, categories, tags or a end of use on your n
 If you want to go further, please read this article [Work with asset in an asset collection atribute](work-with-assets-in-an-asset-collection-attribute-ee-only.html).
 :::
 
-## _Step 8A_ | Remove transformations
+## _Step 9A_ | Remove transformations
 In the new Asset Manager, **transformations are not mandatory anymore**.
 
 So if you were used to have fake transformations (resize 100% or 99%) in the PAM in order to keep your reference file as it was, the only thing to do now is to remove the existing variation files migrated.
@@ -162,7 +133,7 @@ To do it, you just have to [delete the attribute](manage-asset-families.html#del
 
 And to not define any transformation ;-)
 
-## _Step 8B_ | Set transformations
+## _Step 9B_ | Set transformations
 If you were using some real transformations in the PAM (for example, a `thumbnail` transformation), the variations of the assets will be migrated during the step 2.
 But the transformations settings won't be migrated since we totally change the format of the transformations settings.
 
