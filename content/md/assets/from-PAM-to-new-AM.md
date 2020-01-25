@@ -4,7 +4,7 @@ themes: manage-your-assets
 title: From PAM to new Asset Manager
 popular: true
 ee-only: true
-related: upload-assets, assets-transformation, how-to-migrate-from-pam
+related: upload-assets, assets-transformation, pam-migration-guide
 ---
 
 # From non-structured assets to structured ones
@@ -101,4 +101,6 @@ We hope you understood all the new concepts of the 4.0 Asset Manager and the dif
 The first step is to migrate your PIM in 4.0.
 And then, you can migrate your PAM assets to the new Asset Manager.
 
+:::tips
 To ease the PAM assets migration, we wrote a dedicated [step-by-step migration guide ](pam-migration-guide.html) to explain you how to do it.
+:::
