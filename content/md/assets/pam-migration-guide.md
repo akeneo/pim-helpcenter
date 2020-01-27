@@ -11,11 +11,11 @@ related: from-PAM-to-new-AM
 This step-by-step migration guide is for you if:
 1) You are **integrator of an Akeneo PIM project** **OR** you belong to the **IT department** of a customer using Akeneo PIM.
 2) **AND** You would like to **migrate to 4.0 a PIM project that uses the PAM to manage its digital assets**.
-
 So if you are a PAM user, you can ask your IT department or your integrator to read it.
 
 ## Why an asset migration is required in 4.0?
 In 4.0, we released a brand new asset manager, with a **new flexible structure** to model and enrich you assets.
+
 This new structure is no longer compatible with the non-structured assets in our previous Product Asset Manager (PAM).
 
 And **the PAM disappears in 4.0**, so if you want to continue to use assets in 4.0, an asset migration is needed.
