@@ -11,8 +11,8 @@ In this migration, you will model in the PIM all the asset families you want wit
 
 # When do you advise to use it?
 We advise you this migration if:
-- You want to control each step of the migration.
-- Your use case doesn't fit the recommended use cases of the "full-automatic migration" or "family-by-family migration".
+- You want to **control each step of the migration**.
+- Your **use case doesn't fit the recommended use cases** of the "full-automatic migration" or "family-by-family migration".
 
 # What are the steps to migrate?
 4 steps to migrate your PAM assets:

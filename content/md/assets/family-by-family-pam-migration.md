@@ -21,8 +21,8 @@ Other steps are automated, you just need to launch a few commands and your PAM a
 
 # When do you advise to use it?
 We advise you this migration if:
-- Your assets have different types (for example, you manage images, PDF files, videos).
-- AND each asset collection contains only a type of assets (for example, images or PDF files) because each asset collection will be then linked to a single asset family.
+- Your assets have **different types** (for example, you manage images, PDF files, videos).
+- AND **each asset collection contains only a type of assets** (for example, images or PDF files) because each asset collection will be then linked to a single asset family.
 
 # What will my asset families look like?
 The asset families that will be created could contain the following attributes:
