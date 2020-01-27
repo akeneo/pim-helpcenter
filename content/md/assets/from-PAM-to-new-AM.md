@@ -112,4 +112,4 @@ In the PAM, transformations were mandatory to use assets in your product sheets.
 With the new Asset Manager, transformations are not mandatory anymore. If you want to generate variations, the only thing to do is to fill in the `transformations` property of the asset family. If you don't, any variation will be created :wink:. More information about the asset transformations [here](#)
 
 ## I used the "tags" property, how can I retrieve my old tags?
-In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets. We recommend you to read [this article](#) to know how you can migrate your old tags in your new assets.
+In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets. We recommend you to read [this article](#) to know how you can migrate your old tags in your new assets. 
