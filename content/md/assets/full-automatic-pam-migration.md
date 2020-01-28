@@ -17,7 +17,7 @@ In this migration, **everything is automated**, you just need to launch one sing
 We provide this migration strategy as the simplest and easiest strategy, but we advise you to take a look at the other migration strategies: [family-by-family migration guide](family-by-family-pam-migration.html).
 
 We recommend you to use this migration if you have a simple usage of our former PAM:
-- **All your assets have the same type** (for example, you manage only images) because all assets will be gathered in a single asset family.
+- **All your assets are from one single type** (for example, you only manage images) because all your assets will be gathered in a single asset family.
 - AND you have only **one or few PAM asset collection product attributes**,
 
 # What will my asset family look like?
