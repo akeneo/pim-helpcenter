@@ -26,7 +26,7 @@ One very important thing in the PAM was the transformations feature. By default,
 The `assets collection` product attribute could not have different values per locale/channel. It was totally impossible to define a value per locale neither per channel on this specific product attribute type. The localization was hold by the asset itself.
 
 ## Asset categories
-There were asset categories with rights on these categories. As for the products, you had the possibility to organize your assets thanks to categories and category trees. There were permissions on that categories. It was possible to have view rights or edit rights on assets of these categories.
+Before the 4.0 version, there were asset categories. Just as the products, you had the possibility to organize your assets thanks to categories and category trees. And there were also specific permissions on these categories: it was possible to define view or edit rights so that the users can only view or edit the assets that are part of the category.
 
 # What has changed?
 With the new Asset Manager, come new concepts.
@@ -122,4 +122,4 @@ In the PAM, transformations were mandatory to use assets in your product sheets.
 With the new Asset Manager, transformations are not mandatory anymore. If you want to generate variations, the only thing to do is to fill in the `transformations` property of the asset family. If you don't, any variation will be created :wink:. More information about the asset transformations [here](#)
 
 ## I used the "tags" property, how can I retrieve my old tags?
-In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets. We recommend you to read [this article](#) to know how you can migrate your old tags in your new assets. 
+In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets. We recommend you to read [this article](#) to know how you can migrate your old tags in your new assets.
