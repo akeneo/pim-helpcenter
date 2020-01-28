@@ -50,7 +50,7 @@ If, for a given asset family, assets were localizable in the PAM, the `reference
 ![PAM asset](pam-asset.png)
 
 # What are the steps to migrate?
-4 steps to migrate your PAM assets:
+8 steps to migrate your PAM assets:
 1. Install & Setup the migration tool
 1. Export the PAM assets
 1. Choose your new asset families
@@ -143,7 +143,7 @@ If you want to go further, please read this article [Manage asset families](mana
 :::
 
 :::tips
-You don't want to have a description, categories, tags or an end of use date on your new assets, you can [delete the attribute](manage-asset-families.html#delete-an-attribute) added in the family.
+You don't want to have a description, categories, tags or an end-of-use date on your new assets, you can [delete the attribute](manage-asset-families.html#delete-an-attribute) added in the family.
 :::
 
 ### To view the assets linked to a product
@@ -155,7 +155,7 @@ If you want to go further, please read this article [Work with asset in an asset
 :::
 
 ## _Step 8A_ | Remove transformations
-In the new Asset Manager, **transformations are not mandatory anymore**.
+In the new Asset Manager, **transformations are no longer mandatory**.
 
 So if you were used to having fake transformations (resize 100% or 99%) in the PAM in order to keep your reference file as it was, the only thing you need to do now is to remove the existing variation files migrated.
 
