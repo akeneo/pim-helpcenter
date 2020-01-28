@@ -9,7 +9,7 @@ related: from-PAM-to-new-AM, pam-migration-guide
 # What's the full manual migration?
 In this migration, you will model in the PIM all the asset families you want with their attributes and you could control each step of the migration.
 
-# When do you advise to use it?
+# When do you recommend using it?
 We advise you this migration if:
 - You want to **control each step of the migration**.
 - Your **use case doesn't fit the recommended use cases** of the "full-automatic migration" or "family-by-family migration".
