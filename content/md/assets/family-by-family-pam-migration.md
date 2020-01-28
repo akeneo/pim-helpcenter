@@ -24,7 +24,6 @@ We recommend you this migration if:
 - You have assets of **different formats** (for example, you manage images, PDF files, videos).
 - AND **each asset collection contains only one single type of asset** (for example, images or PDF files) because each asset collection will then be linked to a single asset family.
 
-
 # What will my asset families look like?
 The asset families that will be created could contain the following attributes:
 - `reference` (*media_file attribute*): containing the reference file of the PAM asset. This `reference` attribute is used `as main media` for this family.

@@ -11,7 +11,7 @@ In this migration, you will model all the asset families you want in the PIM, wi
 
 # When should you use it?
 We recommend using this migration if:
-- You want to **control each step of the process**.
+- You want to **control each step of the process**. 
 - Your **use case doesn't fit the recommended use cases** of the "full-automatic migration" or "family-by-family migration".
 
 # What are the steps to migrate?
