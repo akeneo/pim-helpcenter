@@ -18,7 +18,7 @@ In 4.0, we released a brand new asset manager, with a **new flexible structure**
 
 This new structure is no longer compatible with the non-structured assets in our previous Product Asset Manager (PAM).
 
-And **the PAM disappears in 4.0**, so if you want to continue to use assets in 4.0, an asset migration is needed.
+And **the PAM disappears in 4.0**, so if you want to continue using assets in 4.0, an asset migration is needed.
 
 But don't worry this migration guide is here to explain in details how you can migrate your PAM assets to our new 4.0 Asset Manager and walk you through this migration step by step.
 
