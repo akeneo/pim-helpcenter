@@ -41,7 +41,7 @@ The naming convention can be defined via the API.
 The JSON format of the naming convention contains several parts:
 - the [`source` part](#the-source-property),
 - the [`pattern` part](#the-split-pattern),
-- a boolean [`abort_asset_creation_on_error`](#Abortion-on-error) stating whether to abort the asset creation in case there was an error during the application of the naming convention.
+- a boolean [`abort_asset_creation_on_error`](#abortion-on-error) stating whether to abort the asset creation in case there was an error during the application of the naming convention.
 
 ```json
 {
@@ -99,7 +99,7 @@ Let's take an example to make this clearer!
 The regexp above will split the source string into three parts, thanks to two named capture groups:
 - `(?P<product_ref>.*)` is the first capture group. It is named `product_ref`. So, the result of this capture will be sent into the `product_ref` asset attribute. The `product_ref` attribute should exist in the asset family.
 - `(?P<attribute_ref>.*)` is the second capture group. It is named `attribute_ref`. So, the result of this capture will be sent to the `attribute_ref` asset attribute. The `attribute_ref` attribute should exist in the asset family.
-Let's say our source string is equal to `allie_jean-picture-packshot.png`. After the naming convention application, the `product_ref` asset attribute will contain the value "allie_jean" and the `attribute_ref` asset attribute will contain the value "packshot".
+Let's say our source string is equal to `allie_jean-picture-packshot.png`. After the naming convention application, the `product_ref` asset attribute will contain the value "allie_jean" and the `attribute_ref` asset attribute will contain the value "packshot".  
 
 #### Abortion on error
 
@@ -145,7 +145,7 @@ The first part of the rule is a property called `product_selections`. This prope
 
 In one single product link rule, you can define one or several product selections.
 
-To see the format of the `product selection`, please read [this article](https://api.akeneo.com/documentation/asset-manager.html#link-with-products-and-product-models) on our API website ;)
+To see the format of the `product selections`, please read [this article](https://api-staging.akeneo.com/concepts/asset-manager.html#focus-on-the-product-link-rule) on our API website ;)
 
 ::: info
 You can use multiple conditions to make your selection. Those conditions are cumulative. For example, you can select the products that are **both** enabled **and** in the `men` category.
