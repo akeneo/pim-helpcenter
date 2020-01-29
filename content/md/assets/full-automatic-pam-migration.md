@@ -1,24 +1,22 @@
 ---
 id: full-automatic-pam-migration
-title: The **full-automatic** migration for PAM assets
+title: The **fully-automatic** migration for PAM assets
 popular: false
 ee-only: true
 related: from-PAM-to-new-AM, pam-migration-guide
 ---
 
-# What's the full-automatic migration?
+# What's the fully-automatic migration?
 In this migration, **everything is automated**, you just need to launch one single command and your PAM assets will be migrated to the 4.0 new Asset Manager:
 - One `asset family` will be created gathering all your assets.
 - All your assets will be migrated and linked to the new asset family.
 - All your existing PAM `asset collection` product attributes will be linked to the new asset family.
 - All your links between assets and products / product models will be kept.
 
-# When do you advise to use it?
+# When do we recommend you this migration?
 We provide this migration strategy as the simplest and easiest way, but we recommend you take a look at the other migration strategies: [family-by-family migration guide](family-by-family-pam-migration.html).
 
-We recommend this migration if you have a simple usage of our former PAM:
-- **You only have one type of format** (for example, you only manage images) because all assets will be gathered in a single asset family.
-- AND you have only **one or few PAM asset collection product attributes**,
+We recommend you using this migration if you have a simple usage of our former PAM and **you only have one type of format** (for example, you only manage images) because all assets will be gathered in a single asset family.
 
 # What will my asset family look like?
 The asset families that will be created could contain the following attributes:

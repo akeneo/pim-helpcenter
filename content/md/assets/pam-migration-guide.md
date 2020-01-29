@@ -87,12 +87,10 @@ We provide this migration strategy as the simplest and easiest strategy, but we 
 :::
 
 ::: tips
-We recommend this migration if you have a simple usage of our former PAM:
-- You only have one type of format (for example, you manage only images) because all assets will be gathered in a single asset family.
-- AND you have only one or few PAM asset collection product attributes,
+We recommend you using this migration if you have a simple usage of our former PAM and you only have one type of format (for example, you manage only images) because all assets will be gathered in a single asset family.
 :::
 
-If you want to try this migration, please follow this step-by-step [full-automatic migration guide](full-automatic-pam-migration.html).
+If you want to try this migration, please follow this step-by-step [fully-automatic migration guide](full-automatic-pam-migration.html).
 
 ## 2-The family-by-family migration
 In this migration, you can have **several asset families** for your existing PAM assets.
@@ -108,7 +106,7 @@ Other steps are automated, you just need to launch a few commands and your PAM a
 - And all your links between assets and products / product models will be kept.
 
 ::: tips
-We recommend this migration if:
+We recommend you using this migration if:
 - You have assets of **different formats** (for example, you manage images, PDF files, videos).
 - AND each asset collection contains only one single type of asset (for example, images or PDF files) because each asset collection will then be linked to a single asset family.
 :::
@@ -119,7 +117,7 @@ You want to try this migration, please follow the step-by-step [family-by-family
 In this migration, you will model, directly in the PIM, all the asset families you want with their attributes and you are able to control each step of the migration.
 
 ::: tips
-We recommend this migration if:
+We recommend you using this migration if:
 - You want to control each step of the migration.
 - Your use case doesn't fit the recommended use cases of the "fully-automatic migration" or "family-by-family migration".
 :::

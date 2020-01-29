@@ -1,18 +1,18 @@
 ---
 id: full-manual-pam-migration
-title: The **full manual** migration for PAM assets
+title: The **fully-manual** migration for PAM assets
 popular: false
 ee-only: true
 related: from-PAM-to-new-AM, pam-migration-guide
 ---
 
-# What is the fully manual migration?
+# What is the fully-manual migration?
 In this migration, you will model all the asset families you want in the PIM, with their attributes, and you are able to control each step of the migration.
 
-# When should you use it?
-We recommend using this migration if:
-- You want to **control each step of the process**. 
-- Your **use case doesn't fit the recommended use cases** of the "full-automatic migration" or "family-by-family migration".
+# When do we recommend you this migration?
+We recommend you using this migration if:
+- You want to **control each step of the process**.
+- Your **use case doesn't fit the recommended use cases** of the fully-automatic migration](full-automatic-pam-migration.html) or the [family-by-family migration](family-by-family-pam-migration.html).
 
 # What are the steps to migrate?
 9 steps to migrate your PAM assets:

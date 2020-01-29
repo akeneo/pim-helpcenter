@@ -19,8 +19,8 @@ Other steps are automated, you just need to launch a few commands and your PAM a
 - All your existing PAM `asset collection` product attributes will be linked to the asset family.
 - And all the links between your assets and your products / product models will be kept.
 
-# When should you use it?
-We recommend you this migration if:
+# When do we recommend you this migration?
+We recommend you using this migration if:
 - You have assets of **different formats** (for example, you manage images, PDF files, videos).
 - AND **each asset collection contains only one single type of asset** (for example, images or PDF files) because each asset collection will then be linked to a single asset family.
 
