@@ -62,7 +62,7 @@ The JSON format of the naming convention contains several parts:
         "channel": null,
         "locale": null
     },
-    "pattern": "/(?P<product_ref>.*)-.*-(?P<attribute_ref>.*)\.jpg/",
+    "pattern": "/(?P<product_ref>.*)\\_(?P<attribute_ref>.*)\\.jpg/",
     "abort_asset_creation_on_error": true
   }
 }
@@ -94,7 +94,7 @@ Not comfortable with regular expressions? You can try yours [right here](https:/
 
 Let's take an example to make this clearer!
 ```regexp
-/(?P<product_ref>.*)-.*-(?P<attribute_ref>.*)\.jpg/
+/(?P<product_ref>.*)\\_(?P<attribute_ref>.*)\\.jpg/
 ```
 The regexp above will split the source string into three parts, thanks to two named capture groups:
 - `(?P<product_ref>.*)` is the first capture group. It is named `product_ref`. So, the result of this capture will be sent into the `product_ref` asset attribute. The `product_ref` attribute should exist in the asset family.
@@ -104,7 +104,7 @@ Let's say our source string is equal to `allie_jean-picture-packshot.png`. After
 #### Abortion on error
 
 Sometimes, the application of the naming convention will fail. For example, it is the case if the regular expression did not capture any group.
-In this case, you can choose if you still want the corresponding asset to be created or not. To allow this behavior, set the `abort_asset_creation_on_error` to `true`. As a result, the asset won't be created and you will be able to submit it again with a better filename/code for example.
+In this case, you can choose if you still want the corresponding asset to be created or not. To allow this behavior, set `abort_asset_creation_on_error` to `true`. As a result, the asset won't be created and you will be able to submit it again with a better filename/code for example.
 If you want the asset to be created even if the naming convention application failed, set the property to `false`.
 
 ## To sum up
