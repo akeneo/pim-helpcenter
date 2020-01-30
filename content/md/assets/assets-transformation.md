@@ -18,7 +18,7 @@ Say we have a `packshots` asset family. In its structure, it has 2 media file at
 
 The PIM can automatically generate the thumbnail version of your main image for you, and this, thanks to the definition of a transformation!
 
-![Asset transformation example](/img/beta/asset-transformation.svg)
+![Assets transformation](/img/beta/Assets_Transformations.png)
 
 For each transformation, we define:
 - a label
@@ -32,6 +32,7 @@ You can have up to **10** different transformations for one given asset family a
 
 You can define the asset transformations via the [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) or directly in the PIM user interface, by editing a JSON field.
 
+![Assets transformation format](/img/beta/Assets_TransformationsFormat.png)
 
 ::: warning
 **The PIM only generates variations for image files having the extensions: .jpg, .jpeg, .png...**       
@@ -84,9 +85,7 @@ In the case where you have several operations for the same asset family, note th
 Defining the same operation type twice in the same transformation is forbidden as it would totally make no sense.
 :::
 
-![image](.assetsTransformations)
-
-Please refer to the [API documentation](https://api.akeneo.com/documentation/asset-manager.html#introduction) to discover the expected JSON format.
+Please refer to the [API documentation](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-transformations) to discover the expected JSON format.
 
 Here is the list of the available operations:
 
@@ -271,4 +270,4 @@ Let's say that you have set up 2 transformations on your asset family:
 
 This last example is valid because the source attribute value of the first transformation is **different** from the target attribute value of the second transformation, as they are referencing **different channels**.
 
-All the details are in our [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) documentation.
+All the details are in our [API](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-transformations) documentation.
