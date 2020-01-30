@@ -13,7 +13,7 @@ You want to follow your activity using Franklin? There is a dashboard for this!
 
 ![Franklin's dashboard screen](../img/Akeneo_Screenshot_Franklin_Insights_key-figures.png)
 
-# Quality Highlights KPI
+# Franklin contribution key figures
 
 The first section of the dashboard lets you know the number of product values Franklin added to your catalog. There are several ways for Franklin to contribute to your catalog enrichment:
 - Create a new attribute
