@@ -61,6 +61,8 @@ In the assets, several indicators show you the status of your completeness and w
 - **Yellow bullet points** in front of each missing required attribute, showing that you have to complete this attribute to improve the completeness.
 - The **completeness percentage** in the header of the asset informs you of the completeness level.   
 
+![Asset completeness](../img/asset_completeness.png)
+
 You also have the completeness indicator directly on the asset thumbnail in the library.
 
 The completeness is **automatically calculated** as soon as we enrich a required attribute. It means that the bullet point will disappear as soon as the required attribute is filled, and same for the completeness percentage evolution.
@@ -79,5 +81,5 @@ To delete all the assets of a family, click on the `...` button at the top right
 ![delete all assets](../img/delete_all_assets.png)
 
 ::: tips
-To delete all the assets of an asset family, you **need to check that no asset of this family is linked to a product or a product model**. Otherwise you will not be able to delete it.
+To delete all the assets of an asset family, you **need to check that no asset of this family is linked to a product or a product model**. Otherwise you will not be able to delete them.
 :::
