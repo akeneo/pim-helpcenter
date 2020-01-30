@@ -22,25 +22,25 @@ If you don't remember how to add attributes to your asset family, you can read [
 As for a product, you can define if you want a **different content according to channels**, and the same applies on **locales**.
 You can find a **locale and channel switcher** on each asset, meaning that if you need to translate values for example, you can do it simply switching from a locale to another.
 
-![Locale switcher on asset](../img/locale_switcher_asset_.png)
+![Assets Locale Switcher](../img/Assets_LocaleSwitcher.png)
 
 # Display the products linked to an asset
 You can see the first products linked to an asset in the `Products` tab directly from an asset.
 
-To display the 1st products linked to the asset `atmosphere_alpha`:
-1. Go to the `atmosphere_alpha` asset
+To display the 1st products linked to the asset `victor_with_measures`:
+1. Go to the `victor_with_measures` asset
 1. Then click on the `Products` tab
 1. To open a product, just click on it and the product form will open in a new tab.
 
-![Product asset link](../img/assets_display_products.png)
+![Assets Display Products](../img/Assets_DisplayProducts.png)
 
 In this `Products` tab, the 20 first products linked to an asset (for the selected product attribute) are displayed as well as the total number of products linked ("xx results").
 
 If more than 20 products are linked to the asset, a message is displayed after the last products:
 
-![Product asset link](../img/assets_display_all.png)
+![Assets Display All Products](../img/Assets_DisplayAllProducts.png)
 
-If you want to display all the products linked to an asset, you just have to click on the `View all products` button, it will open the product grid with a filter on the product attribute linked and the `atmosphere_alpha` value.
+If you want to display all the products linked to an asset, you just have to click on the `View all products` button, it will open the product grid with a filter on the product attribute linked and the `victor_with_measures` value.
 Then, from the product grid, you can search and launch enrichment actions on these products.
 
 ::: info
@@ -61,7 +61,7 @@ In the assets, several indicators show you the status of your completeness and w
 - **Yellow bullet points** in front of each missing required attribute, showing that you have to complete this attribute to improve the completeness.
 - The **completeness percentage** in the header of the asset informs you of the completeness level.   
 
-![Asset completeness](../img/asset_completeness.png)
+![Assets Completeness](../img/Assets_Completeness.png)
 
 You also have the completeness indicator directly on the asset thumbnail in the library.
 
@@ -73,12 +73,12 @@ The completeness is **automatically calculated** as soon as we enrich a required
 You can delete an asset or all the assets of an asset family.
  To delete an asset, click on the asset, then on the `...` button at the top right corner of the header, and `delete`.
 
-![asset deletion](../img/asset_deletion.png)
+![Assets Deletion](../img/Assets_Deletion.png)
 
 ## Delete all the assets
 To delete all the assets of a family, click on the `...` button at the top right corner of the header's asset library, then `delete all assets`.
 
-![delete all assets](../img/delete_all_assets.png)
+![Delete All Assets](../img/Assets_DeleteAllAssets.png)
 
 ::: tips
 To delete all the assets of an asset family, you **need to check that no asset of this family is linked to a product or a product model**. Otherwise you will not be able to delete them.
