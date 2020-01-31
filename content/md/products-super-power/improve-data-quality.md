@@ -64,6 +64,10 @@ To help you even further, in the `Attributes` panel, you can select spelling cor
 ![Image data quality title formatting suggestion](../img/data-quality-title-formatting.png)
 
 ::: info
+Even if they don't have permission to edit, all PIM users will be able to read data quality insights on all attributes.
+:::
+
+::: info
 Spell check is available for English, French, German and Spanish locales.
 Spell check is usable with text and simple text area attributes.
 :::
