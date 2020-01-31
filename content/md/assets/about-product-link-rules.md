@@ -41,7 +41,7 @@ The naming convention can be defined via the API.
 The JSON format of the naming convention contains several parts:
 - the [`source` part](#the-source-property),
 - the [`pattern` part](#the-split-pattern),
-- a boolean [`abort_asset_creation_on_error`](#abortion-on-error) stating whether to abort the asset creation in case there was an error during the application of the naming convention.
+- a [boolean `abort_asset_creation_on_error`](#abortion-on-error) stating whether to abort the asset creation in case there was an error during the application of the naming convention.
 
 ```json
 {
