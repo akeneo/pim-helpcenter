@@ -27,7 +27,7 @@ The idea of the naming convention feature is to be able to extract those pieces 
 
 Just a reminder but an important one for you to better understand what is coming next: *the product link rule is based on asset attributes* ;)
 
-By defining a naming convention, for each [asset family](../what-is/what-about-assets#what-is-an-asset-family), the PIM will be able to split the asset code or the main media filename, in order to extract the information you want and use it to populate asset attributes.
+By defining a naming convention, for each [asset family](/what-about-assets.html#what-is-an-asset-family), the PIM will be able to split the asset code or the main media filename, in order to extract the information you want and use it to populate asset attributes.
 This operation is done automatically by the PIM upon each asset creation.
 
 ::: info
