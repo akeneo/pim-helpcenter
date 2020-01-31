@@ -18,7 +18,7 @@ Say we have a `packshots` asset family. In its structure, it has 2 media file at
 
 The PIM can automatically generate the thumbnail version of your main image for you, and this, thanks to the definition of a transformation!
 
-![Asset transformation example](/img/beta/asset-transformation.svg)
+![Assets Transformations](../img/Assets_Transformations.png)
 
 For each transformation, we define:
 - a label
@@ -32,8 +32,13 @@ You can have up to **10** different transformations for one given asset family a
 
 You can define the asset transformations via the [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) or directly in the PIM user interface, by editing a JSON field.
 
+![Assets Transformations Format](../img/Assets_TransformationsFormat.png)
 
 ::: warning
+The asset transformations are automatically generated at the asset creation. If you edit the transformations settings after the asset creation and you want them to be applied on your existing assets, don't forget to click on `launch transformations`, so that they can be generated on all your existing assets :wink:
+:::
+
+::: info
 **The PIM only generates variations for image files having the extensions: .jpg, .jpeg, .png...**       
 Natively, the PIM cannot generate variations for a PDF file or AVI files for instance.
 :::
@@ -68,7 +73,7 @@ You need to define at least either a suffix or a prefix, as the target filename 
 
 Let's take an example to make this much clearer.
 
-Let's say you have a file named `amor_red_model_picture.jpg`. You want to generate a thumbnail version of this file and you want the new generated file to be named `amor_red_model_picture_160x160.jpg`. Then, use the following properties in your transformation for the generated file to be named properly:
+Let's say you have a file named `victor_packshot.jpg`. You want to generate a thumbnail version of this file and you want the new generated file to be named `victor_packshot_160x160.jpg`. Then, use the following properties in your transformation for the generated file to be named properly:
 - filename_prefix: null,
 - filename_suffix: `_160x160` .
 
@@ -84,9 +89,7 @@ In the case where you have several operations for the same asset family, note th
 Defining the same operation type twice in the same transformation is forbidden as it would totally make no sense.
 :::
 
-![image](.assetsTransformations)
-
-Please refer to the [API documentation](https://api.akeneo.com/documentation/asset-manager.html#introduction) to discover the expected JSON format.
+Please refer to the [API documentation](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-transformations) to discover the expected JSON format.
 
 Here is the list of the available operations:
 
@@ -271,4 +274,4 @@ Let's say that you have set up 2 transformations on your asset family:
 
 This last example is valid because the source attribute value of the first transformation is **different** from the target attribute value of the second transformation, as they are referencing **different channels**.
 
-All the details are in our [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) documentation.
+All the details are in our [API](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-transformations) documentation.
