@@ -27,7 +27,7 @@ The idea of the naming convention feature is to be able to extract those pieces 
 
 Just a reminder but an important one for you to better understand what is coming next: *the product link rule is based on asset attributes* ;)
 
-By defining a naming convention, for each [asset family](../what-is/what-about-assets#what-is-an-asset-family), the PIM will be able to split the asset code or the main media filename, in order to extract the information you want and use it to populate asset attributes.
+By defining a naming convention, for each [asset family](what-about-assets.html#what-is-an-asset-family), the PIM will be able to split the asset code or the main media filename, in order to extract the information you want and use it to populate asset attributes.
 This operation is done automatically by the PIM upon each asset creation.
 
 ::: info
@@ -39,7 +39,7 @@ The naming convention can be defined via the API.
 ### The format of the naming convention
 
 The JSON format of the naming convention contains several parts:
-- the [`source` part](#the-source-property),
+- the [`source` property](#the-source-property),
 - the [`pattern` part](#the-split-pattern),
 - a [boolean `abort_asset_creation_on_error`](#abortion-on-error) stating whether to abort the asset creation in case there was an error during the application of the naming convention.
 
@@ -68,7 +68,7 @@ The JSON format of the naming convention contains several parts:
 }
 ```
 
-Still not comfortable with the naming convention? Don't hesitate to go through the complete [API article](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-naming-convention) where we detail each part of the naming convention format.
+Still not comfortable with the naming convention? Don't hesitate to go through the complete [API article](https://api.akeneo.com/documentation/asset-manager.html#focus-on-the-naming-convention) where we detail each part of the naming convention format.
 
 #### The source property
 
