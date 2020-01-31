@@ -145,7 +145,7 @@ The first part of the rule is a property called `product_selections`. This prope
 
 In one single product link rule, you can define one or several product selections.
 
-To see the format of the `product selections`, please read [this article](https://api-staging.akeneo.com/concepts/asset-manager.html#focus-on-the-product-link-rule) on our API website ;)
+To see the format of the `product selections`, please read [this article](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-product-link-rule) on our API website ;)
 
 ::: info
 You can use multiple conditions to make your selection. Those conditions are cumulative. For example, you can select the products that are **both** enabled **and** in the `men` category.
