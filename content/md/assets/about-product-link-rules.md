@@ -68,7 +68,7 @@ The JSON format of the naming convention contains several parts:
 }
 ```
 
-Still not comfortable with the naming convention? Don't hesitate to go through the complete [API article](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-naming-convention) where we detail each part of the naming convention format.
+Still not comfortable with the naming convention? Don't hesitate to go through the complete [API article](https://api.akeneo.com/documentation/asset-manager.html#focus-on-the-naming-convention) where we detail each part of the naming convention format.
 
 #### The source property
 
