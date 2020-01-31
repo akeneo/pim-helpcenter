@@ -102,7 +102,7 @@ In the product form, there is a new "Assets" tab in which you will retrieve all 
 ![asset_collection_attribute](../img/asset_collection_attribute.png)
 
 In the following section, you will discover all the features that are available around this attribute.  
-And to learn more about assets, you can have a look at [this article](work-with-assets.html).
+And to learn more about assets, you can have a look at [this article](what-about-assets.html).
 
 ::: ee
 The asset collection attribute is only available in the Enterprise Edition.
@@ -118,7 +118,7 @@ You can manually link assets to your product using this attribute. To do that, f
 1. Click on `Add assets` to access the asset picker and the basket
 1. Pick the assets you want to link to your product, and save. You can use the search bar and filters.
 
-![basket](../img/basket.png)
+![asset_picker](../img/asset-picker.png)
 
 When hovering the asset, you can remove it from the asset collection, or edit it in order to enrich its attributes.
 
@@ -129,7 +129,7 @@ There is a simple way to do that, directly from the product form.
 
 OK, let's see!
 
-![drag_drop](../img/drag_drop.jpg)
+![sort_in_asset_collection](../img/sort_in_asset_collection.png)
 
 If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with **the arrows**, and find this order in export file. Simple. Fast. Effective.
 
@@ -143,9 +143,9 @@ And if you want to have a look at history, a new version is created in `History`
 
 ### Assets display
 
-If you have assets linked to your products, you can have a **large display of those assets** clicking on their thumbnails. It is possible to preview images (.png, .jpeg, .tif, .svg, ...), PDF and Youtube videos!
+If you have assets linked to your products, you can have a **large display of those assets** clicking on their thumbnails. It is possible to preview images (.png, .jpeg, .tif, .psd), PDF and Youtube videos!
 
-![preview](../img/preview.jpg)
+![preview](../img/preview.png)
 
 Where? In the **asset collection** in the **Product Form**.
 

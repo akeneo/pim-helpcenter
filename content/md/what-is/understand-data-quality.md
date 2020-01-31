@@ -16,7 +16,6 @@ Because rich, coherent and consistent product data is important in order to deli
 This new capability helps you measure your data quality along two axes: **enrichment** and **consistency**.  
 Each of these two axes has a score from A to E. The scores can be seen on several PIM screens.
 
-![Image data quality badges](../img/data-quality-grades.png)
 
 # How is enrichment calculated?
 The **enrichment grade** is calculated as the percentage of attributes with values in your product edit form (whether the attributes are required for completeness or not).

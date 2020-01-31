@@ -71,7 +71,9 @@ You will have an attribute match if the Franklin attribute code equals the PIM a
 
 No need to search through a long list of your catalog attributes: if they are almost identical, we suggest the best match for the attribute. The best match is selected, and you can check the other similar ones Franklin found. When you save the attribute mapping screen, the PIM attribute is automatically mapped and saved, and a proposal is automatically generated!
 
-![Franklin's suggested mapping screen](../img/franklin_suggested_mapping.png)
+![Franklin's suggested mapping screen](../img/franklin_suggested_mapping01.png)
+
+![Franklin's suggested mapping screen](../img/franklin_suggested_mapping02.png)
 
 ### Suggest attribute creation
 
