@@ -7,7 +7,9 @@ related: from-PAM-to-new-AM, pam-migration-guide
 ---
 
 # What is the fully-manual migration?
-In this migration, you will model all the asset families you want in the PIM, with their attributes, and you are able to control each step of the migration.
+In this migration, you can have **several asset families** for your existing PAM assets.
+
+You will structure, directly in the PIM, all the asset families you want with their attributes and you will be able to **control each step of the migration**.
 
 # When do we recommend you this migration?
 We recommend you using this migration if:
@@ -34,9 +36,17 @@ To install and setup this tool, refer to its [readme file](https://github.com/ak
 ## _Step 2_ | Export the PAM assets
 First, you need to export your PAM assets in CSV files.
 
-Run `php bin/console pimee:migrate-pam-assets:export-assets <temporary-folder>`
+Run `php bin/console pimee:migrate-pam-assets:export-assets <temporary-folder> <path-to-ee-installation>`
+
+with:
+- `temporary-folder` the folder to  export your PAM assets CSV files.
+- `path-to-ee-installation` is the path of your local Enterprise Edition. If you use Docker, this value will be /srv/ee.
 
 This command will export 2 files, named `<temporary-folder>/assets.csv` and `<temporary-folder>/variations.csv`, each of them containing the assets and the asset variations.
+
+:::info
+For more details about this command and its parameters, you can refer to the [CSVToAsset readme file](https://github.com/akeneo/CsvToAsset/blob/master/README.md).
+:::
 
 ## _Step 3_ | Create your asset families
 In this migration, you will model all the asset families you want with their attributes, directly in the PIM.
@@ -81,7 +91,11 @@ For each file you created, go to the `CsvToAsset` folder and run the migration p
 
 Run `php bin/console app:migrate /path/to/assets_yourfamily.csv /path/to/variations.csv --asset-family-code=your-family-code`
 
-This command will automatically import the exported assets in the new Asset Manager
+This command will automatically import the exported assets in the new Asset Manager.
+
+:::info
+For more details about this command and its parameters, you can refer to the [CSVToAsset readme file](https://github.com/akeneo/CsvToAsset/blob/master/README.md).
+:::
 
 ## _Step 7_ | Update the former PAM asset collection product attributes
 Finally, we need to update the PAM `asset collection` product attributes to match the new asset families.
@@ -140,8 +154,7 @@ But the transformation settings won't be migrated since we totally changed their
 So you need to set transformation rules in the new Asset Manager.
 The transformations are not defined by channels anymore.  They are defined by asset family, and there can be up to 10 transformations per asset family. It means that you can have several transformations for a single channel for example.
 
-The format is a bit different but don't worry, take a look at a before / after example.
-<!-- TODO -->
+The format is a bit different but don't worry, take a look at this article [About the asset transformations](assets-transformation.html).
 
 :::info
 To know more about our powerful transformations, please read this article [About the asset transformations](assets-transformation.html).

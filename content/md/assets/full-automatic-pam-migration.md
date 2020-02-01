@@ -7,7 +7,9 @@ related: from-PAM-to-new-AM, pam-migration-guide
 ---
 
 # What's the fully-automatic migration?
-In this migration, **everything is automated**, you just need to launch one single command and your PAM assets will be migrated to the 4.0 new Asset Manager:
+In this migration, you will have **a  single asset family** to gather all your existing PAM assets.
+
+**Everything is automated**, you just need to launch one single command and your PAM assets will be migrated in the 4.0 new Asset Manager:
 - One `asset family` will be created gathering all your assets.
 - All your assets will be migrated and linked to the new asset family.
 - All your existing PAM `asset collection` product attributes will be linked to the new asset family.
@@ -16,7 +18,7 @@ In this migration, **everything is automated**, you just need to launch one sing
 # When do we recommend you this migration?
 We provide this migration strategy as the simplest and easiest way, but we recommend you take a look at the other migration strategies: [family-by-family migration guide](family-by-family-pam-migration.html).
 
-We recommend you using this migration if you have a simple usage of our former PAM and **you only have one type of format** (for example, you only manage images) because all assets will be gathered in a single asset family.
+We recommend you using this migration if you have a simple usage of our former PAM and **you only have one type of asset** (for example, you only manage images) because all assets will be gathered in a single asset family.
 
 # What will my asset family look like?
 The asset families that will be created could contain the following attributes:
@@ -25,13 +27,13 @@ The asset families that will be created could contain the following attributes:
 - `variation_scopable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel
 - `variation_scopable_localizable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel and locale, if the asset was localizable in the PAM
 - `description` (*text attribute*): the PAM asset description
-- `categories` (*text or multiple options attribute*): the PAM asset categories (only if you used categories in the PAM)
-- `tags` (*text or multiple options attribute*): the PAM asset tags
+- `categories` (*text or multiple options attribute*): the PAM asset categories (only if you used categories in the PAM: refer to [What about my PAM categories](pam-migration-guide.html#what-about-my-pam-categories))
+- `tags` (*text or multiple options attribute*): the PAM asset tags (refer to [What about my PAM tags](pam-migration-guide.html#what-about-my-pam-tags))
 - `end_of_use` (*text attribute*): the PAM asset end of use date (only if you used the end of use date in the PAM)
 
 During the migration, you will be able to choose the asset family code.
 
-![PAM assets family](pam-assets-family.png)
+![Migration asset family](../img/migration_pam-family.png)
 
 :::info
 If all your assets were not localizable in the PAM, the `reference_localizable` and `variation_scopable_localizable` attributes won't be created in the new asset family.
@@ -40,7 +42,7 @@ If all your assets were localizable in the PAM, the `reference` and `variation_s
 
 # What will my assets look like?
 
-![PAM asset](pam-asset.png)
+![Migration asset](../img/migration_pam-asset.png)
 
 # What are the steps to migrate?
 4 steps to migrate your PAM assets:
@@ -70,6 +72,10 @@ This command will automatically:
 1. Import the exported assets in the new Asset Manager
 1. Migrate the former Akeneo PAM `asset collection` product attributes into new Asset Manager collection product attributes and link them to the newly created asset family
 
+:::info
+For more details about this command and its parameters, you can refer to the [CSVToAsset readme file](https://github.com/akeneo/CsvToAsset/blob/master/README.md).
+:::
+
 ## _Step 3_ | Check and test the assets migration
 Yeah, well done, your assets are successfully migrated to the new Asset Manager!
 
@@ -90,12 +96,18 @@ If you want to go further, please read this article [Create and display assets](
 1. Family attributes are displayed in the `Attributes` tab, you can translate the attributes labels for each locale
 1. Family properties are displayed in the `Properties` tab, you can translate the family labels for each locale
 
+![Migration asset family](../img/migration_pam-family.png)
+
 :::info
 If you want to go further, please read this article [Manage asset families](manage-asset-families.html).
 :::
 
 :::tips
-You don't want to have a description, categories, tags or an end-of-use date on your new assets, you can [delete the attribute](manage-asset-families.html#delete-an-attribute) added in the family.
+By default, for each asset family, a `label` and a `media` attributes are created, if you don't need them you can [delete these attributes](manage-asset-families.html#delete-an-attribute).
+:::
+
+:::tips
+You don't want to have a `description`, `categories`, `tags` or `end-of-use date` attributes on your new assets, you can [delete these attributes](manage-asset-families.html#delete-an-attribute).
 :::
 
 ### To view the assets linked to a product
@@ -122,8 +134,7 @@ But the transformations settings won't be migrated since we totally change the f
 So you need to set transformation rules in the new Asset Manager.
 The transformations are not defined by channels anymore.  They are defined by asset family, and there can be up to 10 transformations per asset family. It means that you can have several transformations for the same channel for example.
 
-The format is a bit different but don't worry, take a look at a before / after example.
-<!-- TODO -->
+The format is a bit different but don't worry, take a look at this article [About the asset transformations](assets-transformation.html).
 
 :::info
 To know more about our powerful transformations, please read this article [About the asset transformations](assets-transformation.html).

@@ -35,11 +35,11 @@ Migrating the PAM assets means that the following asset information will be migr
 And for each asset, its **links to products and product models** (the `asset collection` product attributes values) will be kept.
 
 ## What about my connectors?
-The existing PAM API endpoints are deprecated.
+The existing PAM API endpoints have been deprecated in 3.2 and removed in 4.0.
 
 **So your connectors that previously imported or exported your PAM assets need to be updated to fit our new 4.0 asset structure.**
 
-If you use an Akeneo premium connector, they will be soon updated for the new Asset Manager.
+If you use an Akeneo premium connector (with Magento or Salesforce Ecommerce cloud), they will be soon compatible with the new Asset Manager.
 
 :::info
 New API endpoints are available and explained on our [API documentation of the Asset Manager](https://api.akeneo.com/documentation/asset-manager.html).
@@ -76,23 +76,31 @@ During the asset migration, you should not use the PIM.
 :::
 
 ## 1-The fully-automatic migration
-In this migration, **everything is automated**, you just need to launch one single command and your PAM assets will be migrated in the 4.0 new Asset Manager:
-- One `asset family` will be created automatically gathering all your assets.
-- All your assets will be migrated and linked to the new asset family.
-- All your existing PAM `asset collection` product attributes will be linked to the new asset family.
-- And all your links between assets and products / product models will be kept.
-
 ::: info
 We provide this migration strategy as the simplest and easiest strategy, but we recommend you to take a look at the other migration strategies.
 :::
 
 ::: tips
-We recommend you using this migration if you have a simple usage of our former PAM and you only have one type of format (for example, you manage only images) because all assets will be gathered in a single asset family.
+We recommend you using this migration if you have a simple usage of our former PAM and you only have one type of asset (for example, you manage only images) because all assets will be gathered in a single asset family.
 :::
+
+In this migration, you will have **a  single asset family** to gather all your existing PAM assets.
+
+**Everything is automated**, you just need to launch one single command and your PAM assets will be migrated in the 4.0 new Asset Manager:
+- One `asset family` will be created automatically gathering all your assets.
+- All your assets will be migrated and linked to the new asset family.
+- All your existing PAM `asset collection` product attributes will be linked to the new asset family.
+- And all your links between assets and products / product models will be kept.
 
 If you want to try this migration, please follow this step-by-step [fully-automatic migration guide](full-automatic-pam-migration.html).
 
 ## 2-The family-by-family migration
+::: tips
+We recommend you using this migration if:
+- You have assets of **different types** (for example, you manage images, PDF files, videos).
+- AND each asset collection contains only one single type of asset (for example, images or PDF files) because each asset collection will then be linked to a single asset family.
+:::
+
 In this migration, you can have **several asset families** for your existing PAM assets.
 
 You will need to manually define 2 things:
@@ -105,22 +113,18 @@ Other steps are automated, you just need to launch a few commands and your PAM a
 - All your existing PAM `asset collection` product attributes will be linked to the asset family.
 - And all your links between assets and products / product models will be kept.
 
-::: tips
-We recommend you using this migration if:
-- You have assets of **different formats** (for example, you manage images, PDF files, videos).
-- AND each asset collection contains only one single type of asset (for example, images or PDF files) because each asset collection will then be linked to a single asset family.
-:::
-
 You want to try this migration, please follow the step-by-step [family-by-family migration guide](family-by-family-pam-migration.html).
 
 ## 3-The fully-manual migration
-In this migration, you will model, directly in the PIM, all the asset families you want with their attributes and you are able to control each step of the migration.
-
 ::: tips
 We recommend you using this migration if:
 - You want to control each step of the migration.
 - Your use case doesn't fit the recommended use cases of the "fully-automatic migration" or "family-by-family migration".
 :::
+
+In this migration, you can have **several asset families** for your existing PAM assets.
+
+You will structure, directly in the PIM, all the asset families you want with their attributes and you will be able to **control each step of the migration**.
 
 You want to try this migration, please follow the step-by-step [fully-manual migration guide](full-manual-pam-migration.html).
 
@@ -141,6 +145,7 @@ It means that with the asset migration:
 # FAQ
 ## I have only one asset collection attribute in the PAM, how can I migrate my assets?
 If you have only one PAM asset collection product attribute and all your assets have the same format (for example, you manage only images), we recommend you to use the [fully-automatic migration](full-automatic-pam-migration.html) to migrate your assets.
+
 They will be migrated to a single new asset family.
 
 ## I have several asset collection attributes in the PAM and each asset collection contains a type of assets (images, PDF...), how can I migrate my assets?
@@ -151,17 +156,17 @@ Several families will be created automatically and you will have to define to wh
 ## I don't have a lot of time to spend on a migration
 If you want to go fast in this asset migration, you can first use the [fully-automatic migration](full-automatic-pam-migration.html) to test if it fits your needs.
 
-And if it doesn't, you can take a look at the other migration strategies.
+And if it doesn't fit your needs, you can take a look at the other migration strategies: [family-by-family migration](family-by-family-pam-migration.html) or [fully-manual migration guide](full-manual-pam-migration.html).
 
 ## I want to control each step of the migration
 Please follow the step-by-step [fully-manual migration guide](full-manual-pam-migration.html).
 
 ## I would like to migrate my asset connectors
-The existing PAM API endpoints are deprecated.
+The existing PAM API endpoints have been deprecated in 3.2 and removed in 4.0.
 
-So the connectors that previously imported or exported your PAM assets need to be updated to fit our new 4.0 asset structure.
+So your connectors that previously imported or exported your PAM assets need to be updated to fit our new 4.0 asset structure.
 
-If you use an Akeneo premium connector, they will be soon updated for the new Asset Manager.
+If you use an Akeneo premium connector (with Magento or Salesforce Ecommerce cloud), they will be soon compatible with the new Asset Manager.
 
 :::info
 New API endpoints are available and explained in our [API documentation of the Asset Manager](https://api.akeneo.com/documentation/asset-manager.html).
@@ -187,7 +192,7 @@ In the new asset family created, `tags` attribute will be a text or a multiple o
 
 If you have several new asset families, tags won't be shared between the different families.
 
-## I used fake transformations in the PAM
+## I used artificial transformations in the PAM
 In the new Asset Manager, transformations are no longer mandatory (and are also more powerful).
 
 So if you don't want to use transformations, you don't have to set a transformation.
