@@ -11,25 +11,28 @@ related: what-about-assets, enrich-your-assets
 
 When you open the `Assets` menu, you discover the asset library. On this screen, we display the existing assets **by asset family**.
 
-![image](../img/asset_library.png)
-
 ::: warning
-It is not possible to have an asset without asset family. So if you don't have any asset family, the first thing to do is to create one, clicking on the `Create family` button.
+It is not possible to have an asset without asset family. So if you don't have any asset family, the first thing to do is to create one.
 :::
 
+To create an asset family, click on `Create` then `Create an asset family`.
+
+![Create a family in the asset library](../img/Assets_LibraryCreateFamily.png)
+
+
 Once it is done, you will arrive on the asset family settings, where you can:
-- [Define the family properties ](/articles/manage-assets.html#define-family-properties) (`Properties` tab)
-- [Define the asset attributes ](/articles/manage-assets.html#define-asset-attributes) (`Attributes` tab)
-- [Define the family permissions](/articles/manage-assets.html#set-permissions-on-an-asset-family), which user groups can view or edit this asset family and its assets  (`Permissions` tab)
-- [Define and edit the product link rules](/articles/manage-assets.html#define-product-link-rules) (`Product link rules` tab)
-- [Define and edit the asset transformations](/articles/manage-assets.html#define-asset-transformations) (`Transformations` tab)
+- [Define the family properties ](#define-family-properties) (`Properties` tab)
+- [Define the asset attributes ](#define-asset-attributes) (`Attributes` tab)
+- [Define the family permissions](#set-rights-on-an-asset-family), which user groups can edit this asset family and its assets  (`Permissions` tab)
+- [Define and edit the product link rules](#define-product-link-rules-on an-asset-family) (`Product link rules` tab)
+- [Define and edit the asset transformations](#define-asset-transformations-in-an-asset-family) (`Transformations` tab)
 
 # Define its properties
 In the `Properties` tab, you can edit the label of the asset family and choose which attribute is used as main media for the assets of this family. This means that you can choose to use either a media link or a media file attribute type to display the asset thumbnails.
 
 You can also translate the label of the asset family by switching the current catalog locale in the header.
 
-![image](../img/AssetFamily_EditProperties.png)
+![Asset family properties](../img/Assets_Properties.png)
 
 # Define its asset attributes
 In the `Attributes` tab, you can define what are the attributes for the assets.  
@@ -37,9 +40,11 @@ For example, a `Video` asset family could be described by the following informat
 - a code
 - a label
 - a Youtube link
-- an image
+- tags
 - a description
 - a duration
+
+![Asset family attributes](../img/Assets_Attributes.png)
 
 ## Add an attribute
 To add an attribute, follow these steps:
@@ -48,10 +53,9 @@ To add an attribute, follow these steps:
 1.  Input the label of the attribute in the current catalog locale
 1.  The code is automatically generated using the label but you can update it (this code must be unique and may only contain letters, numbers and underscores)
 1.  Select the attribute type:
- ![image](../img/ReferenceEntity_AddAttribute_Type.png)
     - **Media file**: for images and files stored internally
     - **Media link**: for images and files stores externally (when you have a url link)
-    - **Text**: for text or text area attributes
+    - **Text**: for text or text area attributes. You can also use the `rich text editor` for this attribute type.
     - **Number**: for number attributes
     - **Single option**: to define a list of options with a single choice
     - **Multiple options**: to define a list of options with multiple choices
@@ -59,13 +63,9 @@ To add an attribute, follow these steps:
 1.  Tick `Value per channel` if your asset has different values per channel for this attribute
 1.  Click on the `Save` button or press `Enter` to add the attribute
 
-![image](../img/AssetManager_AddAttribute.png)
+![Add attributes](../img/Assets_AddAttributes.png)
 
 The attribute is now created and an edit pop-in opens with the attribute parameters depending on the attribute type.
-
-:::tips
-To define a text area attribute, refer to [Edit an attribute](/articles/manage-asset-families.html#edit-an-attribute).
-:::
 
 :::info
 To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 attributes per asset family for this feature. If you try to create more than 100 attributes, you will have a blocking message.
@@ -77,31 +77,41 @@ To edit an attribute, follow these steps:
 1.  Click on the `Edit` icon
 1.  An edit pop-in opens with the attribute parameters depending on the attribute type
 1.  You can translate the label of the attribute by switching the current locale in the header
- ![image](../img/AssetFamily_EditAttribute.png)
+ ![Locale switcher on asset attributes](../img/Assets_AttributesLocaleSwitcher.png)
 1.  Depending on the attribute type, set the specific parameters of the attribute (see below the specific parameters)
 1.  Click on the `Save` button or press `Enter` to save the attribute parameters
 
 ### Edit a media file attribute
-  - *Max file size (MB)*: maximum file size allowed in MB
-  - *Media type*: choose either `image`, `pdf` or `other`. It has an impact on the preview but there is no control. It means that if you choose `pdf` as media type, you can still add an image in this attribute but we won't generate any preview.
-  - *Allowed extensions*: allowed files extensions (gif, jpeg, jpg, pdf, png...)
+- *Max file size (MB)*: maximum file size allowed in MB
+- *Media type*: choose either `image`, `pdf` or `other`. It has an impact on the preview but there is no control. It means that if you choose `pdf` as media type, you can still add an image in this attribute but we won't generate any preview.
+- *Allowed extensions*: allowed files extensions (gif, jpeg, jpg, pdf, png...)
 
-  :::info
-  Note that there is no preview for the `other` media type.
-  :::
+:::info
+Note that there is no preview for the `other` media type.
+:::
 
 ### Edit a media link attribute
-    - *Prefix*: to put a prefix on all the media link (for example: `mydam`)
-    - *Suffix*: to put a suffix on all the media link (for example: `.thumbnail.jpg`)
-    - *Media type*: choose either `image`, `pdf`, `youtube` or `other`
+- *Prefix*: to put a prefix on all the media links (for example: `mydam`)
+- *Suffix*: to put a suffix on all the media links (for example: `.thumbnail.jpg`)
+- *Media type*: choose either `image`, `pdf`, `youtube` or `other`
 
-  :::info
-  Note that there is no preview for the `other` media type.
-  :::
+:::info
+Note that there is no preview for the `other` media type.
+:::
 
-  :::info
-  The prefix and suffix are not mandatory.
-  :::
+:::info
+The prefix and suffix are not mandatory.
+:::
+
+#### Specificity for Youtube links
+If you want to use a Youtube url link in your asset, you have to put the ID of the video, not the entire url link.
+
+For instance: in the asset edition screen, instead of putting the entire url link `https://www.youtube.com/watch?v=Lp8N8VhoaahhQ` in the media link attribute, you must put the **ID of the video** which is: `Lp8N8VhoaahhQ`. You'll discover immediately the thumbnail of the video. :wink:   
+
+![Youtube link](../img/Assets_YoutubeLink.png)
+
+Also, no need to add prefix and suffix on Youtube links: **these fields must be empty**.
+
 
 ### Edit a text attribute
  - *Maximum number of characters*: maximum number of characters that an attribute value can have
@@ -137,7 +147,7 @@ To define the options of a single/multiple options attribute, follow these steps
 1.  Click on the `Manage options` button
 1.  A fullscreen opens to manage the options
 
-![image](../img/AssetFamily_ManageOptions.png)
+![Manage options](../img/Assets_ManageOptions.png)
 
 ### Add options
 1. Write your option label
@@ -145,7 +155,7 @@ To define the options of a single/multiple options attribute, follow these steps
 1. Write your next option label
 1. Click on the `Save` button, the fullscreen is closed
 
-![image](../img/AssetFamily_AddOptions.png)
+![Add options](../img/Assets_AddOptions.png)
 
 :::warning
 The code can't be edited afterwards, you can only edit/translate the label.  
@@ -170,7 +180,7 @@ To guarantee that the PIM is functional and runs smoothly, we defined a volume l
 1. Translate the next option label
 1. Click on the `Save` button, the fullscreen is closed
 
-![image](../img/AssetFamily_TranslateOptions.png)
+![Translate options](../img/Assets_TranslateOptions.png)
 
 :::info
 To help you for the translation, the labels of the option on other locales are displayed in the right panel.
@@ -195,7 +205,7 @@ To define the attributes required for the completeness of an asset:
 1.  Tick `Required for completeness` if this attribute is required for the completeness of an asset
 1. Click on `Save` or press `Enter`
 
-![image](../img/AssetFamily_EditAttribute_Completeness.png)
+![Asset attribute completeness](../img/Assets_AttributeCompleteness.png)
 
 If this attribute is not required for the completeness, untick `Required for completeness`.
 
@@ -219,10 +229,13 @@ To delete an asset family, follow these steps:
 1.  A confirmation pop-in opens to confirm that you want to delete the asset family
 1.  Click on `Delete`
 
+![Asset family deletion](../img/Assets_FamilyDeletion.png)
+
+
 ::: warning
 You cannot delete an asset family if:
-- This asset family has some assets: first, you need to [delete the assets of this asset family](/articles/.md).
-- This asset family is linked to some product attributes: then, you need to [delete the related product attributes](/articles/manage-your-attributes.html#delete-an-attribute) to this asset family.
+- This asset family has some assets: first, you need to [delete the assets of this asset family](work-on-your-assets.html#delete-assets).
+- This asset family is linked to some product attributes: then, you need to [delete the related product attributes](manage-your-attributes.html#delete-an-attribute) to this asset family.
 :::
 
 # Define product link rules on an asset family
@@ -230,7 +243,7 @@ The product link rule enables you to automatically link assets to products, base
 
 This rule is launched by the PIM after the asset creation.
 
-The product link rule format is quite technical to define but if you want to go deeper into this powerful feature, [this article](/articles/focus-on-product-link-rules.html) is made for you ;)
+The product link rule format is quite technical to define but if you want to go deeper into this powerful feature, [this article](assets-product-link-rules.html) is made for you ;)
 
 :::warning
 The product link rule is only available to link assets to products. Yet, linking assets to product models has to be done manually, for now.
@@ -246,7 +259,7 @@ A piece of advice: when defining two different rules on an asset family, make su
 It is possible to define transformations at the asset family level. It means that, for each asset of a given asset family, transformations will be automatically applied.
 
 The settings of the transformations is done via the API or via the UI, in the `Transformations` tab of an asset family.
-I recommend you to read [this article](/articles/focus-on-asset-transformations.html) to know how to define the asset transformations.
+I recommend you to read [this article](assets-transformation.html) to know how to define the asset transformations.
 
 The following operations are available:
 - `colorspace` (change the image's colorspace)
@@ -276,6 +289,6 @@ The following operations are available:
   :::
 
 # Set rights on an asset family
-To set rights on an asset family, please read [this article](/articles/access-rights-on-asset-families.html).
+To set rights on an asset family, please read [this article](access-rights-on-asset-families.html).
 
-Now you can [create and enrich your assets ](/articles/enrich-your-assets.html)!
+Now you can [create and enrich your assets ](work-on-your-assets.html)!
