@@ -1,7 +1,7 @@
 ---
 id: export-assets
 themes: administration, manage-your-assets
-title: **Export** your assets
+title: "**Export** your assets"
 popular: true
 ee-only: true
 related: exports, work-on-your-assets
