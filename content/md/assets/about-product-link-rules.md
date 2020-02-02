@@ -1,6 +1,6 @@
 ---
 id: assets-product-link-rules
-themes: administration, manage-your-assets
+themes: manage-your-assets, boost-your-productivity, catalog-settings
 title: About the **product link rules**
 popular: false
 ee-only: true
