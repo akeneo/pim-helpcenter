@@ -78,6 +78,8 @@ To edit an attribute, follow these steps:
 1.  An edit pop-in opens with the attribute parameters depending on the attribute type
 1.  You can translate the label of the attribute by switching the current locale in the header
  ![image](../img/AssetFamily_EditAttribute.png)
+1.  You can define if this attribute is required for the asset completeness or not (see the [Define the completeness](#define-the-completeness) part).
+1.  It is also possible to set each attribute as `read only in the UI`. It means that it is impossible to change this attribute value (see the [Read only](#read-only) part).
 1.  Depending on the attribute type, set the specific parameters of the attribute (see below the specific parameters)
 1.  Click on the `Save` button or press `Enter` to save the attribute parameters
 
@@ -198,6 +200,17 @@ To define the attributes required for the completeness of an asset:
 ![image](../img/AssetFamily_EditAttribute_Completeness.png)
 
 If this attribute is not required for the completeness, untick `Required for completeness`.
+
+## Set an attribute as read only
+If you don't want the users to be able to modify an attribute values:
+1. Go to the `Attributes` tab of an asset family
+1. Click on the `Edit` icon of an attribute
+1. Tick `Read only in the UI`
+1. Click on `Save` or press `Enter`
+
+:::tips
+It can be useful if this attribute is automatically populated. For example, if this is a `target` attribute of a transformation, or if the value comes from a third party tool such as a DAM.
+:::
 
 ## Delete an attribute
 To delete an attribute, follow these steps:
