@@ -21,11 +21,12 @@ To create an asset family, click on `Create` then `Create an asset family`.
 
 
 Once it is done, you will arrive on the asset family settings, where you can:
-- [Define the family properties ](#define-family-properties) (`Properties` tab)
-- [Define the asset attributes ](#define-asset-attributes) (`Attributes` tab)
+- [Define the family properties ](#define-its-properties) (`Properties` tab)
+- [Define the asset attributes ](#define-its-asset-attributes) (`Attributes` tab)
 - [Define the family permissions](#set-rights-on-an-asset-family), which user groups can edit this asset family and its assets  (`Permissions` tab)
-- [Define and edit the product link rules](#define-product-link-rules-on an-asset-family) (`Product link rules` tab)
+- [Define and edit the product link rules](#define-product-link-rules-on-an-asset-family) (`Product link rules` tab)
 - [Define and edit the asset transformations](#define-asset-transformations-in-an-asset-family) (`Transformations` tab)
+
 
 # Define its properties
 In the `Properties` tab, you can edit the label of the asset family and choose which attribute is used as main media for the assets of this family. This means that you can choose to use either a media link or a media file attribute type to display the asset thumbnails.
