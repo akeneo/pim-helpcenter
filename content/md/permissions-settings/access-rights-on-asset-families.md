@@ -42,10 +42,10 @@ To define the rights on an asset family, follow these steps:
 1.  Go to the `Permissions` tab of the asset family
 1.  For each user group, tick to give the `VIEW` or `EDIT` rights
 1.  Click on the `Save` button to save the Permissions
-![image](../img/AssetFamily_Permissions.png)
+![image](../img/Assets_FamilyPermissions.png)
 
-For example, a user in the `Manager` group can edit the `Packshots` asset family, so he can add and edit attributes or add and enrich some assets.
-A user in the `Clothes managers` group can only view this `Packshots` asset family, so he can only view its attributes and also view its assets.
+For example, a user in the `Manager` group can edit the `Images` asset family, so he can add and edit attributes, transformations and product link rules, and also add and enrich some assets.
+A user in the `Redactor` group can only view this `Images` asset family, so he can only view its attributes, transformations and product link rules settings, but also view its assets.
 
 :::tips
 If you want all your user groups to have the edit rights, click on `EDIT` in the columns title and all the user groups will be ticked with `EDIT` rights.  
