@@ -143,22 +143,25 @@ As for the Reference Entity feature, you benefit from a powerful search in the A
 
 For example, if you search for the word *« famous »*, all the assets containing the word *« famous »* in their code, label or text attribute types will be displayed.  
 
-![Search for assets with a keyword](../img/Assets_Search_1_word.png)
+![Search for assets with a keyword](../img/Assets_Search1Word.png)
 
 And we can go further.
-If you search for *"famous"* and *"bags"*, then only the record containing both *"famous"* and *"bags"* words will be displayed.
+If you search for *"famous"* and *"chest"*, then only the record containing both *"famous"* and *"chest"* words will be displayed.
 
-![Search for assets with several keywords](../img/Assets_Search_2_words.png)
+![Search for assets with several keywords](../img/Assets_Search2Words.png)
 
 ## Filter on options
 
 There are also filters on the left, where you retrieve the options of the single/multiple options attributes. It can be very powerful if you use these options to manage tags on your assets for example.
 
-![Asset library](../img/Asset_filter_options.png)
+The operator is an `in list` operator. If you are looking for the images with the colors "Yellow" OR "Gray", the images with the colors "Yellow" OR the color "Gray" will be displayed.
 
-The operator is an `in list` operator. If you are looking for the packshot with the room "kitchen" OR "leaving room", the packshots with the room "kitchen" OR the room "leaving roomd" will be displayed.
+You can combine filters. For instance, you can search on all images with:
+- the colors "Yellow" OR "Gray"
+- AND the "Living-room" room
+- AND the "ambient" tag.
 
-You can combine filters. For instance, you can search on all packshots with the material "wood" AND the color "brown".
+![Filters in the library](../img/Assets_FilterOptions.png)
 
 An option can be removed from a filter using the cross.
 
