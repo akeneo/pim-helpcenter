@@ -131,7 +131,7 @@ When you open the `Assets` menu, you discover the assets in a mosaic view, that 
 Assets are displayed by asset families. By default, the first asset family is selected.
 
 ::: info
-If you don't have any asset family, the first thing to do is to [create your first one](manage-your-asset-families.html/#create-an-asset-family), and then you will be able to add assets.
+If you don't have any asset family, the first thing to do is to [create your first one](manage-asset-families.html#create-an-asset-family), and then you will be able to add assets.
 :::
 
 # Search for assets
