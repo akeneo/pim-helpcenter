@@ -1,10 +1,10 @@
 ---
 id: work-on-your-assets
-themes: products-super-power, work-on-your-assets
+themes: manage-your-assets
 title: "Work on your **assets**"
 popular: false
 ee-only: right
-related:
+related: create-and-display-assets
 ---
 
 # Enrich an asset
