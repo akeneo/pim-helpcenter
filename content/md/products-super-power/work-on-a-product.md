@@ -129,7 +129,7 @@ To pick assets that already exist in your Asset Manager, follow these steps:
 1. Click on `Add asset` to access the asset picker and the basket
 1. Pick the assets you want to link to your product, and save. You can use the search bar and filters.
 
-![asset_picker](../img/asset-picker.png)
+![Asset picker](../img/Assets_AssetPicker.png)
 
 #### Upload and create assets from the Product edit form
 If your assets don't exist in the Asset Manager yet, you can easily add them directly from your product sheet. This way, they will be created in the library and linked to your product. To do that:
@@ -138,7 +138,9 @@ If your assets don't exist in the Asset Manager yet, you can easily add them dir
 1. Click on the `Assets` tab of your product form
 1. Scroll down towards the asset collection attribute
 1. Click on `Upload asset` to access the upload screen
-1. Drag and drop or open your file explorer and select the assets you want to add in the PIM and link to your product, then save.
+1. Drag and drop or open your file explorer and select the assets you want to add in the PIM and link to your product, then click on `Add to product`.
+
+![Upload from the Asset Collection](../img/Assets_UploadFromPEF.png)
 
 :::info
 The upload feature is available only for asset collections linked to asset families whose the `attribute used as main media` property is a `media file` attribute type. It is impossible to upload assets when the `attribute used as main media` is a `media link` attribute type.
