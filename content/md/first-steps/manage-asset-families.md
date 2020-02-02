@@ -23,17 +23,9 @@ To create an asset family, click on `Create` then `Create an asset family`.
 Once it is done, you will arrive on the asset family settings, where you can:
 - [Define the family properties ](#define-its-properties) (`Properties` tab)
 - [Define the asset attributes ](#define-its-asset-attributes) (`Attributes` tab)
-- [Define the family permissions](#set-rights-on-an-asset-family), which user groups can edit this asset family and its assets  (`Permissions` tab)
+- [Define the family permissions](#set-rights-on-an-asset-family) (`Permissions` tab)
 - [Define and edit the product link rules](#define-product-link-rules-on-an-asset-family) (`Product link rules` tab)
 - [Define and edit the asset transformations](#define-asset-transformations-in-an-asset-family) (`Transformations` tab)
-
-
-# Define its properties
-In the `Properties` tab, you can edit the label of the asset family and choose which attribute is used as main media for the assets of this family. This means that you can choose to use either a media link or a media file attribute type to display the asset thumbnails.
-
-You can also translate the label of the asset family by switching the current catalog locale in the header.
-
-![Asset family properties](../img/Assets_Properties.png)
 
 # Define its asset attributes
 In the `Attributes` tab, you can define what are the attributes for the assets.  
@@ -236,7 +228,14 @@ To delete an attribute, follow these steps:
 The attribute and its relevant information will be deleted in the assets of the asset family. Once you have confirmed the action, it cannot be reverted.
 :::
 
-# Delete an asset family
+# Define the asset family properties
+In the `Properties` tab, you can edit the label of the asset family and choose which attribute is used as main media for the assets of this family. This means that you can choose to use either a media link or a media file attribute type to display the asset thumbnails.
+
+You can also translate the label of the asset family by switching the current catalog locale in the header.
+
+![Asset family properties](../img/Assets_Properties.png)
+
+## Delete an asset family
 To delete an asset family, follow these steps:
 1.  Go to the `Properties` tab of the asset family you want to delete
 1.  In the top right corner of the header, click on `...` for other actions and then `Delete family`
@@ -305,4 +304,4 @@ The following operations are available:
 # Set rights on an asset family
 To set rights on an asset family, please read [this article](access-rights-on-asset-families.html).
 
-Now you can [create and enrich your assets ](work-on-your-assets.html)!
+Now you can [create](create-and-display-assets.html) and [enrich](work-on-your-assets.html) your assets !
