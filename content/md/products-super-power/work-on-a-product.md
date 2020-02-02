@@ -99,7 +99,13 @@ If you do not see `+` icon, you might not have the appropriate rights to add an 
 
 In the product form, there is a new "Assets" tab in which you will retrieve all the asset collections of your product. It means that the assets will not be mixed with other values of the product. The asset collections also have a brand new design, here is how it looks:
 
-![asset_collection_attribute](../img/asset_collection_attribute.png)
+![asset_collection_attribute](../img/Assets_AssetCollectionAttribute.png)
+
+To know how to add an Asset Collection attribute type, you can read [this article](manage-your-attributes.html#)
+
+:::info
+When you create an Asset Collection, you must choose the asset family linked to this attribute. It means that, for each Asset Collection, you will use assets that come from one and only asset family.
+:::
 
 In the following section, you will discover all the features that are available around this attribute.  
 And to learn more about assets, you can have a look at [this article](what-about-assets.html).
@@ -110,15 +116,33 @@ The asset collection attribute is only available in the Enterprise Edition.
 
 ### Link assets to your product
 
-You can manually link assets to your product using this attribute. To do that, follow these steps:
+You can manually link assets to your product using this attribute. You have two possibilities (and two use-cases):
+- your assets are already created in the Asset Manager: use the `Add asset` button to open the asset picker.
+- your assets are not yet created in the Asset Manager: use the `Upload asset` button to upload and create new assets in the Asset Manager, directly from your product sheet. Of course, they will be linked to your product.
+
+#### The asset picker
+To pick assets that already exist in your Asset Manager, follow these steps:
 
 1. Go to your product form
 1. Click on the `Assets` tab of your product form
 1. Scroll down towards the asset collection attribute
-1. Click on `Add assets` to access the asset picker and the basket
+1. Click on `Add asset` to access the asset picker and the basket
 1. Pick the assets you want to link to your product, and save. You can use the search bar and filters.
 
 ![asset_picker](../img/asset-picker.png)
+
+#### Upload and create assets from the Product edit form
+If your assets don't exist in the Asset Manager yet, you can easily add them directly from your product sheet. This way, they will be created in the library and linked to your product. To do that:
+
+1. Go to your product form
+1. Click on the `Assets` tab of your product form
+1. Scroll down towards the asset collection attribute
+1. Click on `Upload asset` to access the upload screen
+1. Drag and drop or open your file explorer and select the assets you want to add in the PIM and link to your product, then save.
+
+:::info
+The upload feature is available only for asset collections linked to asset families whose the `attribute used as main media` property is a `media file` attribute type. It is impossible to upload assets when the `attribute used as main media` is a `media link` attribute type.
+:::
 
 When hovering the asset, you can remove it from the asset collection, or edit it in order to enrich its attributes.
 
@@ -129,7 +153,7 @@ There is a simple way to do that, directly from the product form.
 
 OK, let's see!
 
-![sort_in_asset_collection](../img/sort_in_asset_collection.png)
+![Sort in asset collection](../img/Assets_SortInAssetCollection.png)
 
 If you have one or several asset collection attribute(s), you can now organize your assets directly in the asset collection in the product form with **the arrows**, and find this order in export file. Simple. Fast. Effective.
 
@@ -145,7 +169,7 @@ And if you want to have a look at history, a new version is created in `History`
 
 If you have assets linked to your products, you can have a **large display of those assets** clicking on their thumbnails. It is possible to preview images (.png, .jpeg, .tif, .psd), PDF and Youtube videos!
 
-![preview](../img/preview.png)
+![Asset preview](../img/Assets_Preview.png)
 
 Where? In the **asset collection** in the **Product Form**.
 
