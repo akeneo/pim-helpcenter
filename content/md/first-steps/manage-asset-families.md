@@ -242,7 +242,7 @@ As explained in the [upload asset part](create-and-display-assets.html#upload-an
 
 You can also translate the label of the asset family by switching the current catalog locale in the header.
 
-![Asset family properties](../img/Assets_Properties.png)
+![Asset family properties](../img/Assets_AssetFamilyProperties.png)
 
 ## Delete an asset family
 To delete an asset family, follow these steps:
