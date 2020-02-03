@@ -9,7 +9,7 @@ related: manage-assets, enrich-your-assets
 
 # Introduction to the new Asset Manager
 
-We truely believe that a product sheet has no real impact without any media. Most of the products sold on the Internet are described with several images, videos, pdf documents, etc.
+We truly believe that a product sheet has no real impact without any media. Most of the products sold on the Internet are described with several images, videos, pdf documents, etc.
 
 ![Product sheet](../img/Assets_ProductSheet.png)
 
@@ -67,7 +67,7 @@ Below is an example of an asset.
 
 ![Asset](../img/Assets_Asset.png)
 
-An asset can **hold one or several files**. This comes in pretty handy if, for instance, you want to have one user instruction pdf file per language, aka per locale. It can also be useful if you use the asset [transformations](about-transformations.html) feature.
+An asset can **hold one or several files**. This comes in pretty handy if, for instance, you want to have one user instruction pdf file per language, aka per locale. It can also be useful if you use the asset [transformations](assets-transformation.html) feature.
 
 ## Use assets in your product sheets
 
