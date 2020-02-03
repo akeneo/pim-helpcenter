@@ -1,13 +1,13 @@
 ---
 id: assets-product-link-rules
-themes: administration, manage-your-assets
+themes: manage-your-assets, boost-your-productivity, catalog-settings
 title: About the **product link rules**
 popular: false
 ee-only: true
 related: work-with-assets, upload-assets
 ---
 
-# What if we automated the link between assets and products?
+# What if we automate the link between assets and products?
 
 The `product link rule` feature enables you to automatically link assets to products, based on assets **attributes**. Indeed, most of you use a *naming convention* to name your assets, so it is quite simple to automate this link in order to gain time in your daily work.  
 
@@ -27,11 +27,11 @@ The idea of the naming convention feature is to be able to extract those pieces 
 
 Just a reminder but an important one for you to better understand what is coming next: *the product link rule is based on asset attributes* ;)
 
-By defining a naming convention, for each [asset family](#the-asset-family), the PIM will be able to split the asset code or the main media filename, in order to extract the information you want and use it to populate asset attributes.
+By defining a naming convention, for each [asset family](what-about-assets.html#what-is-an-asset-family), the PIM will be able to split the asset code or the main media filename, in order to extract the information you want and use it to populate asset attributes.
 This operation is done automatically by the PIM upon each asset creation.
 
 ::: info
-This naming convention is defined at the [asset family](#the-asset-family) level.
+This naming convention is defined at the asset family level.
 :::
 
 The naming convention can be defined via the API.
@@ -39,9 +39,9 @@ The naming convention can be defined via the API.
 ### The format of the naming convention
 
 The JSON format of the naming convention contains several parts:
-- the [`source` part](#the-source-string),
+- the [`source` part](#the-source-property),
 - the [`pattern` part](#the-split-pattern),
-- a [boolean stating whether to abort the asset creation in case there was an error during the application of the naming convention](#Abortion-on-error).
+- a [boolean `abort_asset_creation_on_error`](#abortion-on-error) stating whether to abort the asset creation in case there was an error during the application of the naming convention.
 
 ```json
 {
@@ -62,13 +62,13 @@ The JSON format of the naming convention contains several parts:
         "channel": null,
         "locale": null
     },
-    "pattern": "/(?P<product_ref>.*)-.*-(?P<attribute_ref>.*)\.jpg/",
+    "pattern": "/(?P<product_ref>.*)\\_(?P<attribute_ref>.*)\\.jpg/",
     "abort_asset_creation_on_error": true
   }
 }
 ```
 
-Still not comfortable with the naming convention? Don't hesitate to go through the complete [API article](#) where we detail each part of the naming convention format.
+Still not comfortable with the naming convention? Don't hesitate to go through the complete [API article](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-naming-convention) where we detail each part of the naming convention format.
 
 #### The source property
 
@@ -78,11 +78,11 @@ The `source` property allows you to define on which string the split will be app
 
 #### The split pattern
 
-The `pattern` property allows you to define how the PIM should split the [source string](#the-source-string). Then, the result of the split will automatically populate the corresponding asset attributes.
+The `pattern` property allows you to define how the PIM should split the [source value](#the-source-property). Then, the result of the split will automatically populate the corresponding asset attributes.
 
 The split pattern should be a string. It should be given as a regular expression.  
-In order for the PIM to know into which asset attributes the result of the split should be sent, this regular expression should contain one or several named capture groups.  
-Note that the names of these capture groups should be equal to the code of existing asset attribute of the family and these asset attributes can only be [`text` attributes](#the-text-attribute) and [`number` attributes](#the-number-attribute).
+For the PIM to know into which asset attributes the result of the split should be sent, this regular expression should contain one or several named capture groups.  
+Note that the names of these capture groups should be equal to the code of existing asset attribute of the family and these asset attributes can only be `text` attributes and `number` attributes.
 
 ::: warning
 These asset attributes cannot be localizable neither scopable.
@@ -94,31 +94,27 @@ Not comfortable with regular expressions? You can try yours [right here](https:/
 
 Let's take an example to make this clearer!
 ```regexp
-/(?P<product_ref>.*)-.*-(?P<attribute_ref>.*)\.jpg/
+/(?P<product_ref>.*)\\_(?P<attribute_ref>.*)\\.jpg/
 ```
 The regexp above will split the source string into three parts, thanks to two named capture groups:
 - `(?P<product_ref>.*)` is the first capture group. It is named `product_ref`. So, the result of this capture will be sent into the `product_ref` asset attribute. The `product_ref` attribute should exist in the asset family.
-This conversation was marked as resolved by NolwennP
 - `(?P<attribute_ref>.*)` is the second capture group. It is named `attribute_ref`. So, the result of this capture will be sent to the `attribute_ref` asset attribute. The `attribute_ref` attribute should exist in the asset family.
-Let's say our source string is equal to `allie_jean-picture-packshot.png`. After the naming convention application, the `product_ref` asset attribute will contain the value "allie_jean" and the `attribute_ref` asset attribute will contain the value "packshot".
+Let's say our source string is equal to `allie_jean-picture-packshot.png`. After the naming convention application, the `product_ref` asset attribute will contain the value "allie_jean" and the `attribute_ref` asset attribute will contain the value "packshot".  
 
 #### Abortion on error
 
-Sometimes, the application of the naming convention will fail. For example, it is the case if the regular expression did not capture any group. In this case, you can choose if you still want the corresponding asset to be created. As a result, the asset won't be created and you will be able to submit it again with a better filename/code for example.
-
-To allow this behavior, set the `abort_asset_creation_on_error` to `true`.
-
+Sometimes, the application of the naming convention will fail. For example, it is the case if the regular expression did not capture any group.
+In this case, you can choose if you still want the corresponding asset to be created or not. To allow this behavior, set `abort_asset_creation_on_error` to `true`. As a result, the asset won't be created and you will be able to submit it again with a better filename/code for example.
 If you want the asset to be created even if the naming convention application failed, set the property to `false`.
 
 ## To sum up
-When all your assets filenames have the same structure (let's say: ProductReference_ProductAttribute), you can declare a naming convention in the PIM. It would allow you to automatically populate asset attributes with those values from the filename of your assets. Then, the product link rule would use these asset attributes in order to automatically link assets to products! ;)
+When all your assets filenames have the same structure (let's say: *ProductReference_ProductAttribute*), you can declare a naming convention in the PIM. It would allow you to automatically populate asset attributes with those values from the filename of your assets. Then, the product link rule would use these asset attributes in order to automatically link assets to products! :wink:
 
-Now that you know how the naming convention feature works, we can go on discovering the product link rule.
+Now that you know how the naming convention feature works, we can go on discovering the *product link rule*.
 
 # The product link rule
 
 As said above, the product link rule is very useful when you can automate the link between assets and products.
-You have to know that this rule is defined at the asset family level and it is launched by the PIM after the asset creation.
 
 This rule is defined at the asset family level and it is launched by the PIM after the asset is created.
 
@@ -138,10 +134,9 @@ A product link rule is divided into two parts:
 - the `assign_assets_to` part.
 
 ::: info
-A piece of advice: when defining two different rules on an asset family, make sure you define different product selections in each rule. Why? Because you could experience performance issues. If you want to assign your assets to two different product attributes on a given selection of products, use one single rule, with two assignments in the `assign_assets_to` field. See the Product value assignment section for an example.
+A piece of advice: when defining two different rules on an asset family, make sure you define different product selections in each rule. Why? Because you could experience performance issues. If you want to assign your assets to two different product attributes on a given selection of products, use one single rule, with two assignments in the `assign_assets_to` field. See the [Product value assignment](#product-value-assignment) section for an example.
 :::
 
-[Product link rules](image "Product link rules")
 
 Looks difficult? Don't freak out! The following sections are here to help you understand this rule and how you can make the most of it. You'll see, it's super powerful! 😃
 
@@ -150,7 +145,7 @@ The first part of the rule is a property called `product_selections`. This prope
 
 In one single product link rule, you can define one or several product selections.
 
-To see the format of the `product selection`, please read [this article](https://api.akeneo.com/documentation/asset-manager.html#link-with-products-and-product-models) on our API website ;)
+To see the format of the `product selections`, please read [this article](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-product-link-rule) on our API website ;)
 
 ::: info
 You can use multiple conditions to make your selection. Those conditions are cumulative. For example, you can select the products that are **both** enabled **and** in the `men` category.

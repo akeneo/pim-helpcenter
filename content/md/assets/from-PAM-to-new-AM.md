@@ -121,3 +121,4 @@ With the new Asset Manager, transformations are not mandatory anymore. If you wa
 
 ## I used the "tags" property, how can I retrieve my old tags?
 In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets.
+

@@ -50,18 +50,6 @@ To edit a channel:
 The channel is updated accordingly. The changes will be reflected in the PIM in the next few minutes.
 
 
-# View channel’s asset transformations (EE only)
-
-:::ee
-If you are an Enterprise Edition client and if you are using the Product Asset Manager, you can check the current assets’ transformations under the tab `Asset transformations`.
-:::
-
-To consult the assets transformation for a channel, click on the `Assets Transformation` tab.
-
-![image](../img/Settings_ChannelsAssetstransformations.png)
-
-To edit or add asset transformations, please refer to [About the asset transformations](assets-transformation.html).
-
 # Check the channel history
 
 Changes made on a channel are recorded and visible under the history tab of channels. For example: label change, attribute change, etc.
