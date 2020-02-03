@@ -61,6 +61,12 @@ The dropdown to choose the version of the documentation  is configured from a si
 
 When you create a new branch from master, such as `v5`, don't forget to remove the deployment of this configuration file in the `v5` version. It is just one line to remove in the `deploy` step of the `Makefile`.
 
+## Create a branch for a new major version
+
+When you want to create a new major branch from the `master` branch, you have some modifications to do. Actually, all these operations have already been done to create the branch v4 from the master branch in this PR: https://github.com/akeneo/pim-helpcenter/pull/479.
+
+You have to do the same to make it work correctly.
+
 ## Documentation contribution
 
 It's right [here](https://github.com/akeneo/pim-helpcenter/wiki).
