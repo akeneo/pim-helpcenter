@@ -1,4 +1,4 @@
-DOCKER_IMAGE_TAG = pim-helpcenter:master
+DOCKER_IMAGE_TAG = pim-helpcenter:v4
 DOCKER_RUN = docker run -it --rm -u "$${UID}":"$${GID}" -v "$${PWD}":/opt/workdir -w /opt/workdir
 
 .PHONY: docker-build yarn-install serve deploy-staging
@@ -17,5 +17,4 @@ build: yarn-install
 	$(DOCKER_RUN) $(DOCKER_IMAGE_TAG) yarn gulp create-dist
 
 deploy: build
-	$(DOCKER_RUN) -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/pim/serenity/ akeneo@$${HOSTNAME}:/home/akeneo/pim/serenity
-	$(DOCKER_RUN) -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az dist/pim/versions.json akeneo@$${HOSTNAME}:/home/akeneo/pim/versions.json
+	$(DOCKER_RUN) -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/pim/v4/ akeneo@$${HOSTNAME}:/home/akeneo/pim/v4
