@@ -21,8 +21,8 @@ To create an asset family, click on `Create` then `Create an asset family`.
 
 
 Once it is done, you will arrive on the asset family settings, where you can:
-- [Define the family properties ](#define-its-properties) (`Properties` tab)
 - [Define the asset attributes ](#define-its-asset-attributes) (`Attributes` tab)
+- [Define the family properties ](#define-the-asset-family-properties) (`Properties` tab)
 - [Define the family permissions](#set-rights-on-an-asset-family) (`Permissions` tab)
 - [Define and edit the product link rules](#define-product-link-rules-on-an-asset-family) (`Product link rules` tab)
 - [Define and edit the asset transformations](#define-asset-transformations-in-an-asset-family) (`Transformations` tab)
@@ -72,7 +72,7 @@ To edit an attribute, follow these steps:
 1.  You can translate the label of the attribute by switching the current locale in the header
  ![Locale switcher on asset attributes](../img/Assets_AttributesLocaleSwitcher.png)
 1.  You can define if this attribute is required for the asset completeness or not (see the [Define the completeness](#define-the-completeness) part).
-1.  It is also possible to set each attribute as `read only in the UI`. It means that it is impossible to change this attribute value (see the [Read only](#read-only) part).
+1.  It is also possible to set each attribute as `read only in the UI`. It means that it is impossible to change this attribute value (see the [Read only](#set-an-attribute-as-read-only) part).
 1.  Depending on the attribute type, set the specific parameters of the attribute (see below the specific parameters)
 1.  Click on the `Save` button or press `Enter` to save the attribute parameters
 
@@ -129,7 +129,7 @@ To allow negative values only, define a `max value` equals to 0.
 :::   
 
 ### Edit a single/multiple options attribute  
-  - The `Manage options` button enables to [manage the options of the list](/articles/manage-asset-families.html#manage-the-options)
+  - The `Manage options` button enables to [manage the options of the list](#manage-the-options)
 
 
 ## Manage the options
@@ -205,7 +205,7 @@ To define the attributes required for the completeness of an asset:
 If this attribute is not required for the completeness, untick `Required for completeness`.
 
 ## Set an attribute as read only
-If you don't want the users to be able to modify an attribute values:
+If you don't want the users to be able to modify an attribute value:
 1. Go to the `Attributes` tab of an asset family
 1. Click on the `Edit` icon of an attribute
 1. Tick `Read only in the UI`
@@ -229,7 +229,16 @@ The attribute and its relevant information will be deleted in the assets of the 
 :::
 
 # Define the asset family properties
-In the `Properties` tab, you can edit the label of the asset family and choose which attribute is used as main media for the assets of this family. This means that you can choose to use either a media link or a media file attribute type to display the asset thumbnails.
+In the `Properties` tab, you can edit the label of the asset family but also **choose which attribute is used as main media** for the assets of this family. The `main media` attribute is the attribute that:
+- is used to be displayed in the **asset grid** and in the **product grid**,
+- is used as the **asset thumbnail** on each **asset page** and **product form** that contains this asset
+- is used to **mass upload assets** in the family.
+
+You can choose to use either a `media link` or a `media file` attribute type.
+
+:::info
+As explained in the [upload asset part](create-and-display-assets.html#upload-and-create-several-assets-at-the-same-time), you can't mass upload asset in an asset family whose the `attribute as main media` is a `media link` attribute type.
+:::
 
 You can also translate the label of the asset family by switching the current catalog locale in the header.
 
