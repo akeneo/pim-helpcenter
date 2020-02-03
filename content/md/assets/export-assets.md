@@ -34,6 +34,8 @@ Once the export profile is created, the settings of the export profile is open, 
 
 Once the settings are ready, save and just click on `Export now`. You will be redirected on the `Process tracker` screen. Wait for the export to be finished and then, download the generated files.
 
+![Process tracker](../img/Assets_ProcessTracker.png)
+
 You will be able to download two different file types:
 - the asset attributes in a CSV/XLSX file
 - the asset attributes + the binaries (the images, documents, etc.) in a zip file.
