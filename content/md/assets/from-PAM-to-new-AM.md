@@ -32,7 +32,7 @@ Before the 4.0 version, there were asset categories. Just as the products, you h
 With the new Asset Manager, come new concepts.
 
 ## A new concept: the asset families
-With the new Asset Manager, we introduce a new concept: the asset families. It makes the asset management much more powerful than before since it is now possible to define a structure by asset family. You can also define permissions by asset families. It allows you to access or not the content of the family. Learn more about the asset families [here](/manage-asset-families.md).
+With the new Asset Manager, we introduce a new concept: the asset families. It makes the asset management much more powerful than before since it is now possible to define a structure by asset family. You can also define permissions by asset families. It allows you to access or not the content of the family. Learn more about the asset families [here](manage-asset-families.html).
 
 ## Tags management
 The way we handled `tags` was not efficient enough.  
@@ -47,24 +47,24 @@ Thus, in the new asset manager, there is a dedicated tab in each asset, where yo
 :::
 
 :::tips
-You had asset categories and/or tags, and you wonder how you could retrieve them? We recommend you to read our [step-by-step guide](#) for the migration ;)
+You had asset categories and/or tags, and you wonder how you could retrieve them? We recommend you to read our [step-by-step guide](pam-migration-guide.html) for the migration :wink:
 :::
 
 ## About the transformations
 We radically changed the way to define asset transformations. They are not applied per channel anymore, and you can use the reference file in your product sheets. You can also have up to 10 transformations per asset family. This way, you are able to define that, for your ecommerce channel, you want 3 different transformations.
 Each variation is created in a new attribute of the asset.
 
-Discover how new transformations work in the [dedicated article](#).
+Discover how new transformations work in the [dedicated article](assets-transformation.html).
 
 # With a new asset manager come new powerful features
 Of course, we improved our existing asset management features. But we also added new ones, that very worth it. Let's discover them!
 
 ## Automatic link between assets & products
 We know that most of you use a convention to name your assets, often containing the reference of the product, which makes it possible to define a rule to automate the link between assets and products.
-We really wanted to ease your daily work, that is why we worked on that specific feature in order to propose it natively in the PIM, that we call the `product link rule`. All the details are [here](#).
+We really wanted to ease your daily work, that is why we worked on that specific feature in order to propose it natively in the PIM, that we call the `product link rule`. All the details are [here](assets-product-link-rules.html).
 
 ## Enrich your assets with more attributes
-As mentioned above, you can add up to 100 attributes per asset family, in order to add marketing information to your assets. The list of available attributes is described in [this article](#).
+As mentioned above, you can add up to 100 attributes per asset family, in order to add marketing information to your assets. The list of available attributes is described in [this article](manage-asset-families.html#add-an-attribute).
 
 ## All media can be managed in Akeneo, even those stored outside of the PIM
 Because we know that your assets can be stored on specific media servers, or in a DAM, we introduced a new attribute type `media link` in the Asset Manager, which enables you to add url link in your assets. This way, you can have in your PIM, videos stored on Youtube for example ;)
@@ -84,8 +84,6 @@ It's exactly the same when you have different values per channel.
 
 ### I sell swimwears and I can't use the same images depending on the selling country.
 Indeed, some countries have restriction rules regarding the media. For example, to sell your `floral_bikini` swimwear, you will use images with models in Europe, but not in United Arab Emirates. This way, this time, you won't use the same asset but you will create two different assets: one with the model, one with the bikini only. But, you will create an `asset collection` product attribute, and you will choose the parameter `value per locale`. It will enable you to have a different asset collection depending on the locale!
-
-[screenshot](localizable_attribute)
 
 ::: info
 It's exactly the same when you have different values per channel.
@@ -112,14 +110,15 @@ Don't be surprised: there are no asset categories anymore in the 4.0 Asset Manag
 - You had 100 or less than 100 asset categories? Depending on the path you choose for your asset migration, you can create a `single option` or `multiple options` attribute type in your asset family that you will call "categories", and then fill in the options with your asset categories.
 - You had more than 100 asset categories? Depending on the path you choose for your asset migration, you can create a `text` attribute type in your asset family that you will call "categories", and then retrieve your asset categories separated by a coma.
 Thanks to these two possibilities, you will be able to search for your assets, based on their old categories. Indeed, in the Asset Manager, you can search on options (thanks to filters) and on text attributes (with a search bar).
-More information on the different migration strategies [here](#)
+More information on the different migration strategies [here](pam-migration-guide.html#how-can-I-migrate-my-PAM-assets?)
 
 ## I defined permissions on categories, how should I do now?
 In the Asset Manager, the permissions are managed at the asset family level. It enables users to have edit rights or only view rights on the family.
 
 ## I defined fake transformations in the PAM, what should I do now?
 In the PAM, transformations were mandatory to use assets in your product sheets. It was impossible to define 0 transformation and use the reference file in the product. So, you probably used "fake" transformations (for instance: `scale: "99%" or "100%"`, or `colorspace: "rgb"`).
-With the new Asset Manager, transformations are not mandatory anymore. If you want to generate variations, the only thing to do is to fill in the `transformations` property of the asset family. If you don't, any variation will be created :wink:. More information about the asset transformations [here](#)
+With the new Asset Manager, transformations are not mandatory anymore. If you want to generate variations, the only thing to do is to fill in the `transformations` property of the asset family. If you don't, any variation will be created :wink:. More information about the asset transformations [here](assets-transformation.html)
 
 ## I used the "tags" property, how can I retrieve my old tags?
-In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets. We recommend you to read [this article](#) to know how you can migrate your old tags in your new assets.
+In the Asset Manager, it's possible to handle tags thanks to a `single option` or `multiple options` attribute type. It allows you to have a dedicated screen to manage your assets.
+
