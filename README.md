@@ -22,19 +22,17 @@ make watch
 The help center website is then available on `http://localhost:8000/pim/serenity/`.
 Files located in the content and src directories are watched for changes, so when developing or writing new articles you do not need to launch any other task.
 
-## Deployment of the Serenity version
+## Deployment of the v4 version
 
 ### With Circle CI (recommended)
 
-Master branch is the Serenity version.
-
-Once you merge a PR into the `Serenity` branch, it is automatically deployed on the staging server. In order to deploy it in production, please follow these steps:
+Once you merge a PR into the `v4` branch, it is automatically deployed on the staging server. In order to deploy it in production, please follow these steps:
 
 - Check the staging environment if everything is ok to be deployed in production
-- Open [the list of merged PR in master branch](https://circleci.com/gh/akeneo/workflows/pim-helpcenter/tree/master) in Circle CI. You have to be connected with your Github account.
+- Open [the list of merged PR in v4 branch](https://circleci.com/gh/akeneo/workflows/pim-helpcenter/tree/v4) in Circle CI. You have to be connected with your Github account.
 - Click on the first row which should be "On hold"
 
-![List of merged PR in master](.circleci/list_workflows.jpg)
+![List of merged PR in v4](.circleci/list_workflows.jpg)
 
 - Click on the box "approve_to_deploy_in_production" and approve. It will launch the deployment in production.
 
