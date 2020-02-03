@@ -117,8 +117,8 @@ The asset collection attribute is only available in the Enterprise Edition.
 ### Link assets to your product
 
 You can manually link assets to your product using this attribute. You have two possibilities (and two use-cases):
-- your assets are already created in the Asset Manager: use the `Add asset` button to open the asset picker.
-- your assets are not yet created in the Asset Manager: use the `Upload asset` button to upload and create new assets in the Asset Manager, directly from your product sheet. Of course, they will be linked to your product.
+- Your assets are already created in the Asset Manager: use the `Add asset` button to open the asset picker.
+- Your assets are not yet created in the Asset Manager: use the `Upload asset` button to upload and create new assets in the Asset Manager, directly from your product sheet. Of course, they will be linked to your product.
 
 #### The asset picker
 To pick assets that already exist in your Asset Manager, follow these steps:
@@ -143,7 +143,7 @@ If your assets don't exist in the Asset Manager yet, you can easily add them dir
 ![Upload from the Asset Collection](../img/Assets_UploadFromPEF.png)
 
 :::info
-The upload feature is available only for asset collections linked to asset families whose the `attribute used as main media` property is a `media file` attribute type. It is impossible to upload assets when the `attribute used as main media` is a `media link` attribute type.
+The upload feature is available only for asset collections linked to asset families whose the [`attribute used as main media` property](manage-asset-families.html#define-the-asset-family-properties) is a `media file` attribute type. It is impossible to upload assets when the `attribute used as main media` is a `media link` attribute type.
 :::
 
 When hovering the asset, you can remove it from the asset collection, or edit it in order to enrich its attributes.
