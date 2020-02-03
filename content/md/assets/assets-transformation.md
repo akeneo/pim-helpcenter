@@ -8,7 +8,7 @@ related: work-with-assets, upload-assets
 ---
 
 # Overview
-For each [asset family](#the-asset-family), you can define transformations. They allow you to ask the PIM to automatically generate one or several new variations of a given media file for each asset belonging to your family. It can be very convenient if you need several formats of your media. For instance, on your ecommerce website, you could have a thumbnail, a fullscreen image and an horizontal one dedicated to your carousel.
+For each [asset family](manage-asset-families.html), you can define transformations. They allow you to ask the PIM to automatically generate one or several new variations of a given media file for each asset belonging to your family. It can be very convenient if you need several formats of your media. For instance, on your ecommerce website, you could have a thumbnail, a fullscreen image and an horizontal one dedicated to your carousel.
 
 How does it work in the PIM? Let's take an example to make it clear.
 
