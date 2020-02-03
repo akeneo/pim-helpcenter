@@ -34,9 +34,14 @@ Once the export profile is created, the settings of the export profile is open, 
 
 Once the settings are ready, save and just click on `Export now`. You will be redirected on the `Process tracker` screen. Wait for the export to be finished and then, download the generated files.
 
+You will be able to download two different file types:
+- the asset attributes in a CSV/XLSX file
+- the asset attributes + the binaries (the images, documents, etc.) in a zip file.
+
+
 #### Download the file with the media attached
 
-You can choose to download the xlsx/csv file (with all the asset values) and the binairies (it means that you will download the media attached to the assets). To do that, click on `Download the generated files` then `Download generated archive`.
+You can choose to download the XLSX/CSV file (with all the asset values) and the binaries (it means that you will download the media attached to the assets). To do that, click on `Download the generated files` then `Download generated archive`.
 
 :::info
 Depending on the number of assets in your asset family and the file size, the download can take time.
@@ -44,4 +49,4 @@ Depending on the number of assets in your asset family and the file size, the do
 
 #### Download the file without the media attached
 
-It is also possible to download only the xlsx/csv file without downloading the binairies of the assets. This way, you will have only the xlsx/csv file with your asset family structure and the assets values.
+It is also possible to download only the XLSX/CSV file without downloading the binaries of the assets. This way, you will have only the XLSX/CSV file with your asset family structure and the assets values. To do that, click on `Download the generated files` then again `Download generated files`.
