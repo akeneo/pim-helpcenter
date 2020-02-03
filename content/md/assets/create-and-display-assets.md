@@ -72,7 +72,7 @@ If you need to have specific files per channel or per locale, there is another s
 ### Special cases
 
 #### My attribute used as main media is localizable
-Let's say that in your asset family `Packshots`, the attribute used as main media (called `My_main_image`) is localizable. It means that you want to have different files depending on the locale.  
+Let's say that in your asset family `Packshots`, the [attribute used as main media](manage-asset-families.html#define-the-asset-family-properties) (called `My_main_image`) is localizable. It means that you want to have different files depending on the locale.  
 
 In the upload screen, a new column `Locale (required)` appears.
 
@@ -141,14 +141,18 @@ Because we really want to help you in your daily work, we focused our efforts on
 
 As for the Reference Entity feature, you benefit from a powerful search in the Asset Manager. With the **full text search**, you can search on code, label and text attribute types.
 
-For example, if you search for the word *« famous »*, all the assets containing the word *« famous »* in their code, label or text attribute types will be displayed.  
+For example, if you search for the word *Ambient*, all the assets containing the word *Ambient* in their code, label or text attribute types will be displayed.  
 
 ![Search for assets with a keyword](../img/Assets_Search1Word.png)
 
+In this example, this word is part of the `Label` or the `Description` attribute of the assets.
+
 And we can go further.
-If you search for *"famous"* and *"chest"*, then only the record containing both *"famous"* and *"chest"* words will be displayed.
+If you search for *"famous"* and *"chest"*, then only the asset containing both *"famous"* and *"chest"* words will be displayed.
 
 ![Search for assets with several keywords](../img/Assets_Search2Words.png)
+
+In this example, both words are part of the `Description` attribute of the assets.
 
 ## Filter on options
 
