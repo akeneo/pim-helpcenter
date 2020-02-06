@@ -305,6 +305,9 @@ The following operations are available:
         - `resolution-unit` (string) one value among `ppi`, `ppc` (mandatory)
         - `resolution-x` (int > 0) new horizontal resolution (mandatory)
         - `resolution-y` (int > 0) new vertical resolution (mandatory)
+- `optimize` (reduce the size of image by converting it in JPEG format)
+    - parameter:
+        - `quality` (int >= 1 and <= 100) the higher the number is, better is the quality and lower is the compression/size (mandatory)
 
   :::info
   The asset transformations are not mandatory, and you can define up to 10 transformations per family.

@@ -161,6 +161,23 @@ There are 2 available parameters for this operation.
 Both parameters are required.
 :::
 
+### Optimize
+
+With the `optimize` type, you can reduce the size of an image by converting it in JPEG format.
+
+There is 1 available parameter for this operation.
+
+| Operator name | Description                         |
+| ------------- | ----------------------------------- |
+| `quality`     | A number between 1 and 100 included |
+
+1: low quality but high compression.  
+100: high quality but low compression.  
+
+::: info
+The parameter is required.
+:::
+
 # Dealing with several transformations
 
 As stated before, you can define **up to 10 transformations** by asset family. So in the case, you need several transformations for one given family, you will need to observe some business rules.
