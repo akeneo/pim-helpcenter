@@ -126,6 +126,16 @@ You forgot your password? Don't worry, you can regenerate a new one. Take a look
 
 Use these credentials to authenticate the API calls in the connector that matches your connection. For this step, take a look at this [guide](https://api.akeneo.com/getting-started/connect-the-pim-4x/step-3.html).
 
+## Why should you use the connection username?
+
+You may have noticed that nothing prevents you from using another username than the one generated for you when your connection is created. It's totally possible but it's, in fact, not recommended at all!
+
+Instead, we highly **recommend using the connection username** to authenticate all the API calls made by the connector linked to your connection.
+
+Here are the 2 main reasons why:
+- First, all the [permissions](#set-the-permissions) set on your connection are based on the connection username. So if you don't use it, your permission connection won't be enforced.
+- The [connection monitoring in the dashboard](connection-dashboard.html) is also based on the connection username. So if you want to benefit from this feature, use this username to authenticate your API calls.
+
 # Revoke/regenerate your connection secret
 
 In some cases, your connection secret may have leaked and fallen into the wrong hands. So you want to revoke this secret, to avoid enabling these "wrong hands" to access your PIM via the API.
