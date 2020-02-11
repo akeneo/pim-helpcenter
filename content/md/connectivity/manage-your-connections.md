@@ -130,7 +130,7 @@ Use these credentials to authenticate the API calls in the connector that matche
 
 You may have noticed that nothing prevents you from using another username than the one generated for you when your connection is created. It's totally possible but it's, in fact, not recommended at all!
 
-Instead, we highly **recommend using the connection username** to authenticate all the API calls made by the connector linked to your connection.
+Instead, we highly **recommend using the connection username** to authenticate all the API calls coming from the connector linked to your connection.
 
 Here are the 2 main reasons why:
 - First, all the [permissions](#set-the-permissions) set on your connection are based on the connection username. So if you don't use it, your permission connection won't be enforced.
