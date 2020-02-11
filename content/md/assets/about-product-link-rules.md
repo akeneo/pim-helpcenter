@@ -47,26 +47,22 @@ The JSON format of the naming convention contains several parts:
 
 ```json
 {
-  "naming_convention": {
     "source": {...},
     "pattern": A_REGEXP,
     "abort_asset_creation_on_error": A_BOOLEAN
-  }
 }
 ```
 
 #### Examples
 ```json
 {
-  "naming_convention": {
-    "source": {
-        "property": "main_asset_image",
-        "channel": null,
-        "locale": null
-    },
-    "pattern": "/(?P<product_ref>.*)\\_(?P<attribute_ref>.*)\\.jpg/",
-    "abort_asset_creation_on_error": true
-  }
+  "source": {
+    "property": "main_asset_image",
+    "channel": null,
+    "locale": null
+  },
+  "pattern": "/(?<product_ref>.*)\\_(?<attribute_ref>.*)\\.jpg/",
+  "abort_asset_creation_on_error": true
 }
 ```
 
@@ -96,14 +92,14 @@ Not comfortable with regular expressions? You can try yours [right here](https:/
 
 Let's take an example to make this clearer!
 ```regexp
-/(?P<product_ref>.*)_(?P<attribute_ref>.*)\\.jpg/
+/(?<product_ref>.*)_(?<attribute_ref>.*)\\.jpg/
 ```
 
 The regexp above will split the source string into two parts, thanks to two named capture groups:
-- `(?P<product_ref>.*)` is the first capture group. It is named `product_ref`. So, the result of this capture will be sent into the `product_ref` asset attribute. The `product_ref` attribute should exist in the asset family.
+- `(?<product_ref>.*)` is the first capture group. It is named `product_ref`. So, the result of this capture will be sent into the `product_ref` asset attribute. The `product_ref` attribute should exist in the asset family.
 
-- `(?P<attribute_ref>.*)` is the second capture group. It is named `attribute_ref`. So, the result of this capture will be sent to the `attribute_ref` asset attribute. The `attribute_ref` attribute should exist in the asset family.
-Let's say our source string is equal to `Victor-packshot.png`. After the naming convention application, the `product_ref` asset attribute will contain the value "Victor" and the `attribute_ref` asset attribute will contain the value "packshot".
+- `(?<attribute_ref>.*)` is the second capture group. It is named `attribute_ref`. So, the result of this capture will be sent to the `attribute_ref` asset attribute. The `attribute_ref` attribute should exist in the asset family.
+Let's say our source string is equal to `Victor_packshot.png`. After the naming convention application, the `product_ref` asset attribute will contain the value "Victor" and the `attribute_ref` asset attribute will contain the value "packshot".
 
 #### Abortion on error
 
@@ -174,3 +170,30 @@ Here is the list of the fields you can use to select your products:
 Once you have chosen and selected the products you want to apply the rule to, it is time to think about where, in the products, you want to assign those assets.
 
 This is done in the second part of the product link rule, in the `assign_assets_to` property. Thanks to this property, you will define to which product value you want to assign your assets. In other words, which attribute, locale and scope of the products you want to link your assets to. You can also decide whether you want to **add** new assets or **replace** the existing ones inside this product attribute.
+
+#### Examples
+Based on the previous example created for the [naming convention](#focus-on-the-naming-convention)
+
+```json
+[
+  {
+    "product_selections": [
+      {
+        "field": "sku",
+        "value": "{{product_ref}}",
+        "locale": null,
+        "channel": null,
+        "operator": "="
+      }
+    ],
+    "assign_assets_to": [
+      {
+        "attribute": "media_attribute_in_product",
+        "locale": null,
+        "channel": null,
+        "mode": "replace"
+      }
+    ]
+  }
+]
+```
