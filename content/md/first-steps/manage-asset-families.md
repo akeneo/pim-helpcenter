@@ -88,7 +88,7 @@ Note that there is no preview for the `other` media type.
 ### Edit a media link attribute
  - *Prefix*: to put a prefix on all the media link (for example: `mydam`)
  - *Suffix*: to put a suffix on all the media link (for example: `.thumbnail.jpg`)
- - *Media type*: choose either `image`, `pdf`, `youtube` or `other`
+ - *Media type*: choose either `image`, `pdf`, `youtube`, `vimeo` or `other`
 
 :::info
 Note that there is no preview for the `other` media type.
@@ -98,14 +98,14 @@ Note that there is no preview for the `other` media type.
 The prefix and suffix are not mandatory.
 :::
 
-#### Specificity for Youtube links
-If you want to use a Youtube url link in your asset, you have to put the ID of the video, not the entire url link.
+#### Specificity for Youtube and Vimeo links
+If you want to use a Youtube or a Vimeo url link in your asset, you have to put the ID of the video, not the entire url link.
 
 For instance: in the asset edition screen, instead of putting the entire url link `https://www.youtube.com/watch?v=Lp8N8VhoaahhQ` in the media link attribute, you must put the **ID of the video** which is: `Lp8N8VhoaahhQ`. You'll discover immediately the thumbnail of the video. :wink:   
 
 ![Youtube link](../img/Assets_YoutubeLink.png)
 
-Also, no need to add prefix and suffix on Youtube links: **these fields must be empty**.
+Also, no need to add prefix and suffix on Youtube neither Vimeo links: **these fields must be empty**.
 
 
 ### Edit a text attribute
