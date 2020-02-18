@@ -91,6 +91,10 @@ Defining the same operation type twice in the same transformation is forbidden a
 
 Please refer to the [API documentation](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-transformations) to discover the expected JSON format.
 
+::: info
+To do operations on your media, we always convert them to .png first, to avoid compression related losses. As a result, this conversion can increase the size of your images. To reduce your file size, we provide an `optimize jpeg` operation to convert them back to compressed .jpeg files :wink:.
+:::
+
 Here is the list of the available operations:
 
 ### Thumbnail
@@ -131,7 +135,6 @@ The `colorspace` parameter is required.
 :::
 
 ### Resolution
-
 With the `resolution` type, you can change the image resolution.
 
 There are 3 available parameters for this operation.
@@ -147,7 +150,6 @@ All parameters are required.
 :::
 
 ### Resize
-
 With the `resize` type, you can resize an image without keeping the width/height proportions.
 
 There are 2 available parameters for this operation.
@@ -159,6 +161,23 @@ There are 2 available parameters for this operation.
 
 ::: info
 Both parameters are required.
+:::
+
+### Optimize jpeg
+::: info
+Even if you upload a .jpeg image in your asset manager, we automatically convert it to a .png for each operation, in order to avoid quality loss. If you want to convert your images back to .jpeg, you can put this operation last.
+:::
+
+With the `optimize jpeg` type, you can convert your images to .jpeg and change their .jpeg quality.
+
+There is 1 available parameter for this operation.
+
+| Operator name | Description |
+| ----------------- | -------------- |
+| `quality` <br>_0 < integer < 100_ | The .jpeg quality of the image |
+
+::: info
+This parameter is required.
 :::
 
 # Dealing with several transformations
