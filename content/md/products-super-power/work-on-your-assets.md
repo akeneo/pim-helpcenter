@@ -13,7 +13,7 @@ Nothing simpler: just go on an asset and add/change the values you want.
 
 Let's take an example.
 
-You are in your `images` asset family, in the `Victor with measures` asset. You want to add the **image file**, a **short description**, and some **tags**. To do that, the only prerequisite is to create those 3 attributes in your `images` asset family. Then, you can add all the content you want in these attributes :wink:
+You are in your `images` asset family, in the `Trent packshot 1` asset. You want to add the **image file**, a **short description**, and some **tags**. To do that, the only prerequisite is to create those 3 attributes in your `images` asset family. Then, you can add all the content you want in these attributes :wink:
 
 :::tips
 If you don't remember how to add attributes to your asset family, you can read [this article](#manage-asset-families.html###Add-an-attribute).
@@ -25,27 +25,24 @@ You can find a **locale and channel switcher** on each asset, meaning that if yo
 ![Assets Locale Switcher](../img/Assets_LocaleSwitcher.png)
 
 # Display the products linked to an asset
-You can see the first products linked to an asset in the `Products` tab directly from an asset.
+You can see at a glance the products that are linked to an asset, directly in the asset edit form, in the `Linked products` section.
 
-To display the 1st products linked to the asset `victor_with_measures`:
-1. Go to the `victor_with_measures` asset
-1. Then click on the `Products` tab
-1. To open a product, just click on it and the product form will open in a new tab.
+![Assets Display Products](../img/Assets_AssetEditForm.png)
 
-![Assets Display Products](../img/Assets_DisplayProducts.png)
+In our example, the asset named `Trent packshot 1` is linked to only one product named `Trent` thanks to the asset collection `Images`. You can click on the product thumbnail to open the product edit form.
 
-In this `Products` tab, the 20 first products linked to an asset (for the selected product attribute) are displayed as well as the total number of products linked ("xx results").
+In the `Linked products` section, the first 10 products linked to the asset (for the selected product attribute) are displayed as well as the total number of products linked ("xx results").
 
-If more than 20 products are linked to the asset, a message is displayed after the last products:
+If more than 10 products are linked to the asset, a message is displayed after the last products:
 
-![Assets Display All Products](../img/Assets_DisplayAllProducts.png)
+![Assets Display All Products](../img/Assets_DisplayProductsMessage.png)
 
-If you want to display all the products linked to an asset, you just have to click on the `View all products` button, it will open the product grid with a filter on the product attribute linked and the `victor_with_measures` value.
+If you want to display all the products linked to an asset, you just have to click on the `View all products` button, it will open the product grid with a filter on the product attribute linked and the asset value (for example `Trent packshot 1`)
 Then, from the product grid, you can search and launch enrichment actions on these products.
 
 ::: info
-If no products are displayed in the `Products` tab, there are two possible reasons:
-1. Your asset family is not linked to a product attribute, you first have to [create a new product attribute](manage-your-attributes.html#create-an-attribute) linked to the asset family.
+If no products are displayed in the `Linked products` section, there are two possible reasons:
+1. Your asset family is not linked to a product attribute, so you first have to [create a new product attribute](manage-your-attributes.html#create-an-attribute) linked to the asset family.
 1. The selected product attribute doesn't have any product linked to the asset. You first have to link products to the asset.
 :::
 
@@ -61,7 +58,7 @@ In the assets, several indicators show you the status of your completeness and w
 - **Yellow bullet points** in front of each missing required attribute, showing that you have to complete this attribute to improve the completeness.
 - The **completeness percentage** in the header of the asset informs you of the completeness level.   
 
-![Assets Completeness](../img/Assets_Completeness.png)
+![Assets Completeness](../img/Assets_AssetCompleteness.png)
 
 You also have the completeness indicator directly on the asset thumbnail in the library.
 
