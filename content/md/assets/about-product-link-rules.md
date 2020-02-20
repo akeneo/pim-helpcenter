@@ -125,7 +125,7 @@ This rule is defined at the asset family level and it is launched by the PIM aft
 You can define the product link rules via the [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) or directly in the PIM user interface, by editing a JSON field. The format is exactly the same in the API and in the PIM interface.
 
 ::: warning
-The product link rule is only available to link assets to products. Yet, linking assets to product models has to be done manually, for now.
+To use the product link rules on product models, you should use the "identifier" of the model in the `field` of the product selections part.
 :::
 
 ::: info
