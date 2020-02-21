@@ -9,9 +9,9 @@ related: work-with-assets, upload-assets
 
 # What if we automate the link between assets and products?
 
-The `product link rule` feature enables you to automatically link assets to products, based on assets **attributes**. Indeed, most of you use a *naming convention* to name your assets, so it is quite simple to automate this link in order to gain time in your daily work.  
+The `product link rule` feature enables you to automatically link assets to products/product models, based on assets **attributes**. Indeed, most of you use a *naming convention* to name your assets, so it is quite simple to automate this link in order to gain time in your daily work.  
 
-With the new Asset Manager, it is now possible to define this convention in the PIM in order to automatically make the link between your assets and your products.  
+With the new Asset Manager, it is now possible to define this convention in the PIM in order to automatically make the link between your assets and your products/product models.  
 
 Yes, I agree with you, it looks promising ;) So let me introduce you the first part of this product link rule functionality: the `naming convention`.
 
@@ -108,13 +108,13 @@ In this case, you can choose if you still want the corresponding asset to be cre
 If you want the asset to be created even if the naming convention application failed, set the property to `false`.
 
 ## To sum up
-When all your assets filenames have the same structure (let's say: *ProductReference_ProductAttribute*), you can declare a naming convention in the PIM. It would allow you to automatically populate asset attributes with those values from the filename of your assets. Then, the product link rule would use these asset attributes in order to automatically link assets to products! :wink:
+When all your assets filenames have the same structure (let's say: *ProductReference_ProductAttribute*), you can declare a naming convention in the PIM. It would allow you to automatically populate asset attributes with those values from the filename of your assets. Then, the product link rule would use these asset attributes in order to automatically link assets to products or product models! :wink:
 
 Now that you know how the naming convention feature works, we can go on discovering the *product link rule*.
 
 # The product link rule
 
-As said above, the product link rule is very useful when you can automate the link between assets and products.
+As said above, the product link rule is very useful when you can automate the link between assets and products/product models.
 
 This rule is defined at the asset family level and it is launched by the PIM after the asset is created.
 
@@ -142,7 +142,7 @@ A piece of advice: when defining two different rules on an asset family, make su
 Looks difficult? Don't freak out! The following sections are here to help you understand this rule and how you can make the most of it. You'll see, it's super powerful! 😃
 
 ### Product selection
-The first part of the rule is a property called `product_selections`. This property will allow you to define a selection of products for which you want to automatically link the assets of the asset family.
+The first part of the rule is a property called `product_selections`. This property will allow you to define a selection of products/product models for which you want to automatically link the assets of the asset family.
 
 In one single product link rule, you can define one or several product selections.
 
