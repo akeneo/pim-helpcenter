@@ -19,6 +19,14 @@ You are in your `images` asset family, in the `Trent packshot 1` asset. You want
 If you don't remember how to add attributes to your asset family, you can read [this article](#manage-asset-families.html###Add-an-attribute).
 :::
 
+![Asset Form](../img/Assets_AssetForm.png)
+
+As you can see, the screen is divided into 2 parts. On the left, you retrieve all your asset attributes, that you can easily enrich. On the right, we display the main media of your asset and the product(s) linked to this asset.
+
+:::tips
+You can easily download and display in full screen the main media thanks to the two buttons on the top right of the `main media preview` section.
+:::
+
 As for a product, you can define if you want a **different content according to channels**, and the same applies on **locales**.
 You can find a **locale and channel switcher** on each asset, meaning that if you need to translate values for example, you can do it simply switching from a locale to another.
 
@@ -27,7 +35,7 @@ You can find a **locale and channel switcher** on each asset, meaning that if yo
 # Display the products linked to an asset
 You can see at a glance the products that are linked to an asset, directly in the asset edit form, in the `Linked products` section.
 
-![Assets Display Products](../img/Assets_AssetEditForm.png)
+![Assets Display Products](../img/Assets_LinkedProducts.png)
 
 In our example, the asset named `Trent packshot 1` is linked to only one product named `Trent` thanks to the asset collection `Images`. You can click on the product thumbnail to open the product edit form.
 
