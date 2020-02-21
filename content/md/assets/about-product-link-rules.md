@@ -11,7 +11,7 @@ related: work-with-assets, upload-assets
 
 The `product link rule` feature enables you to automatically link assets to products/product models, based on assets **attributes**. Indeed, most of you use a *naming convention* to name your assets, so it is quite simple to automate this link in order to gain time in your daily work.  
 
-With the new Asset Manager, it is now possible to define this convention in the PIM in order to automatically make the link between your assets and your products or product models.  
+With the new Asset Manager, it is now possible to define this convention in the PIM in order to automatically make the link between your assets and your products/product models.  
 
 Yes, I agree with you, it looks promising ;) So let me introduce you the first part of this product link rule functionality: the `naming convention`.
 
