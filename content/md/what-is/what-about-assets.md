@@ -65,7 +65,7 @@ An asset must be part of an asset family. That way, it will have its own attribu
 
 Below is an example of an asset.
 
-![Asset](../img/Assets_Asset.png)
+![Asset](../img/Assets_AssetEditForm.png)
 
 An asset can **hold one or several files**. This comes in pretty handy if, for instance, you want to have one user instruction pdf file per language, aka per locale. It can also be useful if you use the asset [transformations](assets-transformation.html) feature.
 
