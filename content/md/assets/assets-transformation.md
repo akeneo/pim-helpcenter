@@ -175,7 +175,10 @@ There is 1 available parameter for this operation.
 
 | Operator name | Description |
 | ----------------- | -------------- |
-| `quality` <br>_0 < integer < 100_ | The jpeg quality of the image |
+| `quality` | A number between 1 and 100 included |
+
+1: low quality but high compression.  
+100: high quality but low compression.  
 
 ::: info
 This parameter is required.
