@@ -9,15 +9,19 @@ related: manage-your-rules
 
 # Definition of a rule
 
-A rule is a set of actions and conditions that allows you to automatise data enrichment. 
-For instance, using rules you can:
-- automatically categorise new products based their family
-- copy the value from a text attribute to another text attribute
-- set a default value to an empty field
-- set a text attribute to another text attribute
-- assign families to new products
+Akeneo’s rules engine is a powerful feature included in Akeneo Enterprise Edition. A rule is **a set of actions and conditions that allows you to automatize data enrichment.**     
 
-Rules can only be imported in Akeneo using a YML file, but you can manage them from the UI. Check [How to manage your rules](manage-your-rules.html) article. 
+For instance, using rules you can automatically:
+- fill in attributes
+- categorise new products
+- enable/disable products
+- set a default value to an empty attribute
+- assign values like a family to new products
+- copy an attribute's value to another attribute (having the same attribute type)
+
+Rules can only be imported in Akeneo using a YML file, and they can be managed from the UI. Check the [How to manage your rules](manage-your-rules.html) article to learn more about our rules.
+
+Rules are meant to save you time enriching your product information. 
 
 Rules can be prioritised from 0 to 100, a rule with a priority of 100 will be applied before a rule having a priority of 10 or 50.
 
@@ -47,7 +51,7 @@ rules:
             -   field: name
                 operator: CONTAINS
                 value: Canon
-            -   field: camera_brand.code
+            -   field: camera_brand
                 operator: 'NOT IN'
                 value:
                     - canon_brand
@@ -56,7 +60,7 @@ rules:
                 field: camera_brand
                 value: canon_brand
 ``` 
-::: info
-Find more information about all the conditions/actions and create your own rules! To do so, refer to our technical documentation: [General information about rule format](https://docs.akeneo.com/2.3/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure).
-:::
 
+::: info
+Find more information about all the conditions/actions and create your own rules! To do so, refer to our technical documentation: [General information about rule format](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure).
+:::
