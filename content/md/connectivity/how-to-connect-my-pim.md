@@ -23,7 +23,7 @@ Want to know more? Ellen is going to give you some pointers on what this amazing
 
 <iframe width="100%" height="470" style="margin-right: 0; margin-left: 0;" src="https://www.youtube.com/embed/ado5f4HkTTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Also, to get a complete definition of what connections are, [here you go](what-is-a-connection.html)!
+Also, to get a complete definition of what connections are, [take a look here](what-is-a-connection.html)!
 
 # Steps to a successful connection
 
@@ -71,5 +71,4 @@ You can also find out more reasons to connect the PIM via the API, [directly on 
 ::: tips
 Want to know more about the API? You can easily send your first request by following this [simple guide](https://api.akeneo.com/getting-started/your-first-tutorial-4x/welcome.html).
 :::
-
 
