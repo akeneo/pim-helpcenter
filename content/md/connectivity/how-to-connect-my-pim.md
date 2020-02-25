@@ -19,7 +19,11 @@ In the end, all those data flows represent a great deal of connections around yo
 
 In the PIM, there is a concept that will help you connect any third party you might think of, to boost the powers of your PIM. It is called the `Connections`. :tada:
 
-To get a complete definition of what connections are, [here you go](what-is-a-connection.html)!
+Want to know more? Ellen is going to give you some pointers on what this amazing feature is about.
+
+<iframe width="100%" height="470" style="margin-right: 0; margin-left: 0;" src="https://www.youtube.com/embed/ado5f4HkTTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Also, to get a complete definition of what connections are, [here you go](what-is-a-connection.html)!
 
 # Steps to a successful connection
 
