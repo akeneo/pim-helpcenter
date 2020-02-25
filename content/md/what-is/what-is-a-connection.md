@@ -22,6 +22,9 @@ In the end, all those data flows represent a great deal of connections around yo
 The PIM **Connection** notion is here to help you boost your connectivity. :rocket:  
 With Connections, you can easily know which data flows surround your PIM. In fact, a connection identifies one particular data flow. It can be seen as a door to the PIM for your third-party connector.
 
+Want to know more? Here is a 6-min video to grasp how connections can really be helpful to you.
+<iframe width="100%" height="470" style="margin-right: 0; margin-left: 0;" src="https://www.youtube.com/embed/ado5f4HkTTc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## A real connectivity example
 
 Let's take an example to make this clearer. Below is an illustration of the `Connection` concept.
