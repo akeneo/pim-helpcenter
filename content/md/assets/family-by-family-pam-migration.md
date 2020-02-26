@@ -97,7 +97,7 @@ Create your new connection to be able to use the API. Go to your Enterprise Edit
 
 Run `php bin/console akeneo:connectivity-connection:create migrations_pam`
 
-Store these credentials into a credential file containing 4 lines:
+Store these credentials into a credential file named `credentials` containing 4 lines in the root of the CsvToAsset folder:
 - clientId,
 - secret,
 - username
