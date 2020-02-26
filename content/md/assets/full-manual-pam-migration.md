@@ -69,7 +69,7 @@ Create your new connection to be able to use the API. Go to your Enterprise Edit
 
 Run `php bin/console akeneo:connectivity-connection:create migrations_pam`
 
-Store these credentials into a credentials file containing 4 lines:
+Store these credentials into a credential file named `credentials` containing 4 lines in the root of the CsvToAsset folder:
 - clientId,
 - secret,
 - username
@@ -80,10 +80,6 @@ Don't forget to remove this file when you are done importing all your assets.
 :::warning
 Ensure the role linked to migration_pam connection has the permission to "list channels" to allow the script to work.
 :::
-
-To create the API credentials in the PIM :
-1. Run `create-api-credentials`
-2. And store the API credentials
 
 ## _Step 6_ | Import your PAM assets
 Now, you will have to migrate your assets family per family.
