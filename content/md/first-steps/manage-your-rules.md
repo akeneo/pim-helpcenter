@@ -1,7 +1,7 @@
 ---
 id: manage-your-rules
 themes: boost-your-productivity, catalog-settings
-title: Get started with the **rules engine**
+title: Manage your **rules**
 popular: false
 ee-only: true
 related: what-is-a-rule
@@ -9,19 +9,19 @@ related: what-is-a-rule
 
 # Overview
 
-A rule allows you to enrich automatically some information in your products, according to automatic actions based on conditions. It applies on attributes, categories, system attributes (status, completeness...).  
-For more details, please refer to [What is a rule](what-is-a-rule.html).
+A rule allows you to automatically enrich some information in your products, according to automatic actions based on conditions. It applies on attributes, categories, system attributes (status, completeness...).  
+For more details, please refer to [the dedicated article](blabla.html).
 
 # View all rules
 
-The screen `Settings/Rules` displays all rules created.  
+The `Settings/Rules` screen displays all rules that have been created and then imported in the PIM.  
 You can search on the rule's code.
 
 ![image](../img/Settings_Rules.png)
 
 # Calculate the number of affected products for rules
 
-To help you to validate your rules and well define your rules conditions, you can calculate the number of matching products that the rule will affect.
+To help you validate your rules and well define your rules conditions, you can calculate the number of matching products that the rule will affect.
 
 The fist time a rule is executed, it can match many products. The next times, you might have 0 `Affected products` or only few.
 
@@ -32,7 +32,7 @@ The fist time a rule is executed, it can match many products. The next times, yo
 
 ![image](../img/Settings-RulesCalculation.png)
 
-The number of affected products will appear on the right side of your screen in the column `Affected products`.
+The number of affected products will appear on the right side of your screen in the `Affected products` column.
 
 
 # Execute rules
@@ -41,7 +41,7 @@ The number of affected products will appear on the right side of your screen in 
 Rules are regularly executed after a bulk action or after imports with rules.
 :::
 
-But you can also execute rules on your own, you can execute:
+But you can also execute rules on your own. You can execute:
 *   one specific rule
 *   a selection of rules
 *   all your rules (be aware, this action could take a long time)
@@ -71,7 +71,7 @@ Rules are exclusively created by YML imports. You need to create your YML file l
 For more details about how to execute an import, please refer to [Import your data](imports.html).
 :::
 
-You can also export your rules. To export your rules, execute the `Rule export in YML` export job.
+You can also export your rules. For that, execute the `Rule export in YML` export job.
 
 ::: info
 For more details about how to execute an export, please refer to [Export your data](exports.html).
