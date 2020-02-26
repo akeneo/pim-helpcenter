@@ -109,10 +109,6 @@ Don't forget to remove this file when you finish to import all your assets.
 Ensure the role linked to migration_pam connection has the permission to "list channels" to allow the script to work.
 :::
 
-To create the API credentials in the PIM :
-1. Run `create-api-credentials`
-2. And store the API credentials
-
 ## _Step 5_ | Import your PAM assets
 Go to the `CsvToAsset` folder and run the migration process:
 
