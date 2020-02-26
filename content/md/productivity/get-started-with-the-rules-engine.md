@@ -9,6 +9,11 @@ related: what-is-a-rule
 
 # Discover the power of the rules engine
 
+The rules engine can radically boost your productivity in the PIM by automating actions. In this article, we detail:
+- the available actions,
+- the fields,
+- and the attribute types that can be part of these rules.
+
 ## Available actions
 
 ### Copy
