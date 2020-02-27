@@ -110,7 +110,7 @@ An email can also be sent depending on your user configuration. For further deta
 ## With the user groups rights _(EE only)_
 
 ### Rights on the product information
-In the case of *product imports*, the PIM takes into account your permissions based on the [user groups](what-is-a-user-groups.html) you are in:
+In the case of *product imports*, the PIM takes into account your permissions based on the [user groups](what-is-a-user-group.html) you are in:
 - you **own the products** of the `Clothes` category, if you try to import product information for these products, the import will directly update your products
 - you **only have an edit rights** on the products that are in the `Audio video` category, if you try to import product information for these products, the import will automatically create draft for you as you cannot direclty update these products
 - you **only have a view right** on the products that are in the `Goodies` category, if you try to import product information for these products, the import won't work for these products and you will receive errors saying that you cannot modify these products
