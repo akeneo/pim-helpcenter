@@ -39,7 +39,7 @@ You have a scopable and localizable attribute called “description”, you can 
 
 | Action        | Definition           | Business rules  |
 | -------------  |----------------------| ----------------|
-| Set           | Allows adding values to a multi-select attribute, a reference entity multiple links attribute or a product to categories. |<ul><li>field: attribute code</li><li>value: attribute value</li><ul><li>locale: locale code for which value is assigned (optional)</li><li>scope: channel code for which value is assigned (optional)</li></ul> |
+| Add           | Allows adding values to a multi-select attribute, a reference entity multiple links attribute or a product to categories. |<ul><li>field: attribute code</li><li>value: attribute value</li><ul><li>locale: locale code for which value is assigned (optional)</li><li>scope: channel code for which value is assigned (optional)</li></ul> |
 
 #### Example
 
@@ -57,7 +57,7 @@ To add the category “t-shirts”, action will be as follows:
 
 | Action        | Definition           | Business rules  |
 | -------------  |----------------------| ----------------|
-| Add           | Assigns value(s) to an attribute having the type text, textArea, simple select... |<ul><li>field: attribute code</li><li>value: attribute value</li><ul><li>locale: locale code for which value is assigned (optional)</li><li>scope: channel code for which value is assigned (optional)</li></ul> |
+| Set           | Assigns value(s) to an attribute having the type text, textArea, simple select... |<ul><li>field: attribute code</li><li>value: attribute value</li><ul><li>locale: locale code for which value is assigned (optional)</li><li>scope: channel code for which value is assigned (optional)</li></ul> |
 
 #### Example
 
