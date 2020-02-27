@@ -230,9 +230,9 @@ To delete a reference entity, follow these steps:
 
 ::: warning
 You cannot delete a reference entity if:
-- This reference entity has some records: first, you need to [delete the records of this reference entity](/articles/enrich-your-reference-entity-records.md).
-- This reference entity is linked to some product attributes: then, you need to [delete the related product attributes](/articles/manage-your-attributes.html#delete-an-attribute) to this reference entity.
+- This reference entity has some records: first, you need to [delete the records of this reference entity](enrich-your-reference-entity-records#delete-records.html).
+- This reference entity is linked to some product attributes: then, you need to [delete the related product attributes](manage-your-attributes.html#delete-an-attribute) to this reference entity.
 :::
 
 # Set rights on a reference entity
-To set rights on a reference entity, please read [this article](/articles/access-rights-on-entities.html).
+To set rights on a reference entity, please read [this article](access-rights-on-entities.html).
