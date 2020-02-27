@@ -28,7 +28,7 @@ Here are the attribute types available in Akeneo:
 - **Price** attribute: a price attribute with values per currency. The displayed values will depend on the currencies enabled in the PIM. Learn [here](manage-your-currencies.html#enabledisable-a-currency) how to enable or disable a currency in Akeneo PIM.
 - **Image** attribute: a drag and drop down zone to upload an image (extensions allowed: gif, jfif, jif, jpeg, jpg, pdf, png, psd, tif, tiff)
 - **File** attribute: a drag and drop down zone to upload a file (allowed extensions: csv, doc, docx, mp3, pdf)
-- **Asset collection** attribute **_(Enterprise Edition only)_**: an advanced attribute type to manage several digital resources like pictures, pdf files, Youtube videos... Read the following article [What is an asset?](what-is-an-asset.html) to learn more about this attribute type
+- **Asset collection** attribute **_(Enterprise Edition only)_**: an advanced attribute type to manage several digital resources like pictures, pdf files, Youtube videos... Read the following article [What about assets?](what-about-assets.html) to learn more about this attribute type
 - **Reference entity simple link** attribute **_(Enterprise Edition only)_**: allows enriching common data related to products with a rich content (text, images...), more complex than just a code and labels. Check our dedicated article [What is a reference entity?](what-about-reference-entities.html) to learn more about this attribute type.
 - **Reference entity multiple links** attribute **_(Enterprise Edition only)_**: the same as above but allowing you to manage multiple links
 - **Reference data simple select** attribute: allows you to manage any kind of data that has its own properties, as a single-choice select.

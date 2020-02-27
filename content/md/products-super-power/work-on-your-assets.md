@@ -60,7 +60,7 @@ If the `View all products` button is not displayed, [check that the product attr
 
 # Follow the assets completeness
 
-Like for products, we calculate [completeness](manage-assets.html) on assets.
+Like for products, we calculate completeness on assets.
 
 In the assets, several indicators show you the status of your completeness and which attributes are missing.
 - **Yellow bullet points** in front of each missing required attribute, showing that you have to complete this attribute to improve the completeness.

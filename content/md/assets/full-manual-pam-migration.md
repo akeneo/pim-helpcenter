@@ -131,7 +131,7 @@ You don't want to have a description, categories, tags or an end-of-use date on 
 1. Click on the `Assets` tab, all the assets linked to this product will be displayed
 
 :::info
-If you want to go further, please read this article [Working with assets in an asset collection atribute](work-with-assets-in-an-asset-collection-attribute-ee-only.html).
+If you want to go further, please read this article [Working with assets in an asset collection attribute](work-on-a-product.html#work-with-assets-in-an-asset-collection-attribute-ee-only).
 :::
 
 ## _Step 9A_ | Remove transformations
