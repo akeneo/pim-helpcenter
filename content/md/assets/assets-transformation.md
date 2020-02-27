@@ -45,7 +45,7 @@ asset_channel_configurations:
                 colorspace: gray
 ```
 
-If the assets transformation given above are not enough for you, you can create new assets transformations. You can define new types of assets transformations by following the [technical cookbook](https://docs.akeneo.com/latest/manipulate_pim_data/product_asset/add_new_transformation.html) we prepared for you.
+If the assets transformation given above are not enough for you, you can create new assets transformations. You can define new types of assets transformations by following the [technical cookbook](https://docs.akeneo.com/3.2/manipulate_pim_data/product_asset/add_new_transformation.html) we prepared for you.
 
 ::: tips
 **You'd like to keep your reference file as it is for your channel's variations? Use a 100% scale transformation**!
