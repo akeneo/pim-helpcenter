@@ -57,7 +57,7 @@ To add associations, there is a picker to select products or [product models](wh
 ![View the associated products](../img/Products_ProductsAssociated21.png)
 
 :::info
-A product can also be associated to a [product model](/articles/what-about-products-variants.html#what-is-a-product-model).
+A product can also be associated to a [product model](what-about-products-variants.html#what-is-a-product-model).
 :::
 
 ## Remove associations from a product
