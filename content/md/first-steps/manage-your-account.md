@@ -34,7 +34,6 @@ Under the `Additional` tab, you will be able to define your default catalog sett
 - `Catalog locale`: your default locale
 - `Catalog scope`: your defaut channel
 - `Default tree`: your default category tree
-- `Default asset tree` (_EE only_): your default asset category tree
 - `Product grid filters`: your default product grid filters. This setting will be used on the product grid and on the published product grid (_EE only_)
 - `Default product grid view`: your default view used in the product grid.
 - `Default published product grid view` (_EE only_): your default view used in the published products grid
@@ -59,12 +58,6 @@ To edit your [user groups](what-is-a-user-group.html) and [roles](what-is-a-role
 2. Click on `Save` to save your changes
 
 ![image](../img/System_users_Profil_edit_grpandroles.png)
-
-::: ee
-In the Enterprise Edition, you will see two additional fields:
-- an `Email notifications` tickbox, relates to the `Asset delay reminder` field (see below). If you set up a number of days in this field, and if the tickbox is set to yes, you will be notified by email.
-- an `Asset delay reminder` field. If activated, you will receive a notification to remind you N days before the end-of-use date of an asset
-:::
 
 ## Your password
 
@@ -103,7 +96,7 @@ Still in edition mode in your profile account:
 2.  Select the default language for your account (`Time zone` field)
 3.  Click on `Save` to save your changes
 
-This time zone is used all over the PIM interface: Product Form meta data and `History` panel, product grid, [last operations widget](discover-the-dashboard.html#last-operations) of the dashboard, [process tracker](monitor-jobs.html#how-to-monitor), [published products grid](how-to-manage-my-publications.html#view-the-published-products) (EE only) and [asset grid](work-with-assets.html#view-the-assets-list) (EE only).
+This time zone is used all over the PIM interface: Product Form meta data and `History` panel, product grid, [last operations widget](discover-the-dashboard.html#last-operations) of the dashboard, [process tracker](monitor-jobs.html#how-to-monitor), [published products grid](how-to-manage-my-publications.html#view-the-published-products) (EE only).
 
 ## Your notifications preferences _(EE only)_
 
