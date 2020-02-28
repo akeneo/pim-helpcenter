@@ -76,4 +76,4 @@ The following tables sum up the permissions you will find to restrict the access
 | List association types    | Gives permission to GET on the association type endpoint   |
 | Create and update association types | Gives permission to POST and PATCH on the association type endpoint |
 
-For more details about these permissions, have a look to our [dedicated section](https://api.akeneo.com/documentation/security.html#authorization) in the API documentation.
+For more details about these permissions, have a look to our [dedicated section](https://api.akeneo.com/documentation/permissions.html#permissions) in the API documentation.
