@@ -9,16 +9,16 @@ related: what-about-reference-entities, enrich-your-reference-entity-records
 
 # Display the reference entities
 
-To display the existing [reference entities](/articles/what-about-reference-entities.html), click on the `Entities` menu.   
+To display the existing [reference entities](what-about-reference-entities.html), click on the `Entities` menu.   
 
 No reference entity is created by default.
 
 From this single place, you can:
-- [Create your 1st reference entity  ](/articles/manage-reference-entities.html#create-a-reference-entity)
-- [Define its properties ](/articles/manage-reference-entities.html#define-its-properties) (`Properties` tab)
-- [Define its records attributes ](/articles/manage-reference-entities.html#define-its-records-attributes) (`Attributes` tab)
-- [Create and enrich its records ](/articles/enrich-your-reference-entity-records.html) (`Records` tab)
-- [Define its permissions](/articles/manage-reference-entities.html#set-permissions-on-a-reference-entity), which user groups can view or edit this reference entity and its records  (`Permissions` tab)
+- [Create your 1st reference entity  ](manage-reference-entities.html#create-a-reference-entity)
+- [Define its properties ](manage-reference-entities.html#define-its-properties) (`Properties` tab)
+- [Define its records attributes ](manage-reference-entities.html#define-its-records-attributes) (`Attributes` tab)
+- [Create and enrich its records ](enrich-your-reference-entity-records.html) (`Records` tab)
+- [Define its permissions](manage-reference-entities.html#set-permissions-on-a-reference-entity), which user groups can view or edit this reference entity and its records  (`Permissions` tab)
 
 If a reference entity has already been created, simply click on it to access its information.
 
@@ -26,7 +26,7 @@ If a reference entity has already been created, simply click on it to access its
 
 # Create a reference entity
 
-To create a [reference entity](/articles/what-about-reference-entities.html), follow these steps:
+To create a [reference entity](what-about-reference-entities.html), follow these steps:
 1.  Go to the `Entities` menu
 1.  Click on the `Create` button
 1.  Input the label of the reference entity in the current catalog locale
@@ -35,7 +35,7 @@ To create a [reference entity](/articles/what-about-reference-entities.html), fo
 
 ![image](../img/ReferenceEntity_CreateEntity.png)
 
-Then you can [define its properties](/articles/manage-reference-entities.html#define-its-properties) (`Properties` tab) and [define its records attributes](/articles/manage-reference-entities.html#define-its-records-attributes) (`Attributes` tab).
+Then you can [define its properties](manage-reference-entities.html#define-its-properties) (`Properties` tab) and [define its records attributes](manage-reference-entities.html#define-its-records-attributes) (`Attributes` tab).
 
 :::info
 To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 reference entities for this feature. If you try to create more than 100 reference entities, you will have a blocking message.
@@ -89,7 +89,7 @@ These attributes parameters, except the label, can't be edited afterwards.
 :::
 
 :::tips
-To define a text area attribute, refer to [Edit an attribute](/articles/manage-reference-entities.html#edit-an-attribute).
+To define a text area attribute, refer to [Edit an attribute](manage-reference-entities.html#edit-an-attribute).
 :::
 
 :::info
@@ -131,7 +131,7 @@ To only allow negative values, define a `max value` equals to 0.
 :::   
 
 ### Edit a single/multiple options attribute  
-  - The `Manage options` button enables to [manage the options of the list](/articles/manage-reference-entities.html#manage-the-options)
+  - The `Manage options` button enables to [manage the options of the list](manage-reference-entities.html#manage-the-options)
 
 ### Edit a reference entity simple/multiple link attribute    
   - *Related reference entity*: the reference entity linked to this attribute, this information cannot be updated
@@ -230,9 +230,9 @@ To delete a reference entity, follow these steps:
 
 ::: warning
 You cannot delete a reference entity if:
-- This reference entity has some records: first, you need to [delete the records of this reference entity](/articles/enrich-your-reference-entity-records.md).
-- This reference entity is linked to some product attributes: then, you need to [delete the related product attributes](/articles/manage-your-attributes.html#delete-an-attribute) to this reference entity.
+- This reference entity has some records: first, you need to [delete the records of this reference entity](enrich-your-reference-entity-records.md).
+- This reference entity is linked to some product attributes: then, you need to [delete the related product attributes](manage-your-attributes.html#delete-an-attribute) to this reference entity.
 :::
 
 # Set rights on a reference entity
-To set rights on a reference entity, please read [this article](/articles/access-rights-on-entities.html).
+To set rights on a reference entity, please read [this article](access-rights-on-entities.html).
