@@ -235,4 +235,4 @@ You cannot delete a reference entity if:
 :::
 
 # Set rights on a reference entity
-To set rights on a reference entity, please read [this article](access-rights-on-entities.html).
+To set rights on a reference entity, please read [this article](/articles/access-rights-on-entities.html).
