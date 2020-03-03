@@ -14,24 +14,24 @@ For instance, using rules you can automatically:
 - fill in attributes
 - categorize new products
 - set a default value to an empty attribute
-- assign values, like a family, to new products
+- assign values, such as a family, to new products
 - copy an attribute value to another attribute
 
-Rules can only be created and then imported in Akeneo using a YML file, but you can manage them from the UI. Check [How to manage your rules](manage-your-rules.html) article.
+Rules can only be created and then imported in Akeneo using a YML file, but you can manage them from the UI. Check our [How to manage your rules](manage-your-rules.html) article.
 
 Rules can be prioritized from 0 to 100: a rule with a priority of 100 will be applied before a rule having a priority of 10 or 50.
 
 # Example of a rule
 
-You need one or several conditions to trigger an action. For instance, to set the brand `Canon` to all Canon camcorders that do not have a Brand yet, you'll have to create a rule like the one below:
+You need one or several conditions to trigger an action. For instance, to set the `Canon` brand to all Canon camcorders that do not have a brand yet, you'll have to create a rule like the one below:
 
 IF:
 - my product is in the `Camcorders` family
-- my product attribute names contains the word `Canon`
+- my product attribute name contains the word: `Canon`
 - my brand attribute is `empty`
 
 THEN:
-set the value `Canon` in my product's brand attribute
+set the `Canon` value in my product brand attribute
 
 Here is the example of the YML format expected for this rule.
 
