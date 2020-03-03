@@ -415,11 +415,24 @@ The `field` expects the category code.
 
 # Attribute types
 
+Now that the actions and the fields don't have any secret for you anymore, you can discover which attribute types you can use as *targets* for your rules. It means that these attributes can receive the values you defined in your rules.
+
 ## Text/Text area
 
-| Attribute type | Operator | Value |
-| -------------- | ---------| ------|
-| Text/Text area |<ul><li>STARTS WITH</li><li>ENDS WITH</li><li>CONTAINS</li><li>DOES NOT CONTAIN</li><li>=</li><li>!=</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | Text, with or without quotation marks. If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+The possible operators for the `text/text area` attribute types are:  
+
+- STARTS WITH
+- ENDS WITH
+- CONTAINS
+- DOES NOT CONTAIN
+- =
+- !=
+- EMPTY
+- NOT EMPTY
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
 
 ### Example
 
@@ -428,12 +441,23 @@ field: description
 operator: CONTAINS
 value: "Awesome product"
 ```
+We expect **text**, with or without quotation marks.
 
 ## Metric
 
-| Attribute type | Operator | Value |
-| -------------- | ---------| ------|
-| Metric |<ul><li><</li><li><=</li><li>=</li><li>!=</li><li>=</li><li>!=</li><li>“>”</li><li>“>=”</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | Numeric value and measure unit code. Dot “.” is the decimal separator. No space between thousands. If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+The possible operators for the `metric` attribute type are:  
+- <
+- <=
+- =
+- !=
+- “>”
+- “>=”
+- EMPTY
+- NOT EMPTY
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
 
 ### Example
 
@@ -445,11 +469,15 @@ value:
  unit: KILOGRAM
 ```
 
+We expect **numeric value** and **measure unit code**. Regarding the expected format:
+- dot “.” is the decimal separator,
+- there is no space between thousands.
+
 ## Boolean
 
-| Attribute type | Operator | Value |
-| -------------- | ---------| ------|
-| Boolean |<ul><li>=</li><li>!=</li></ul> | Yes => “true” ; No => “false” |
+The possible operators for the `boolean` attribute type are:  
+- >=
+- !=
 
 ### Example
 
@@ -458,26 +486,47 @@ field: shippable_us
 operator: =
 value: false
 ```
+
+:::info
+If you want your rule to be applied to a boolean attribute type that is set to "Yes", you should set "true" as `value`. If you want your rule to be applied to a boolean attribute type that is set to "No", you should set "false" as `value`.
+:::
 
 ## Simple select list / Reference Entity single link
 
-| Attribute type | Operator | Value |
-| -------------- | ---------| ------|
-| Simple select list / Reference Entity single link |<ul><li>IN</li><li>NOT IN</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | Option code. If the operator is EMPTY or NOT EMPTY, the value element will be ignored. NOT IN (red, blue) means != red and != blue |
+The possible operators for the `Simple select list/Reference entity single link` attribute types are:  
+- IN
+- NOT IN
+- EMPTY
+- NOT EMPTY
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
 
 ### Example
 
 ```YML
-field: shippable_us
-operator: =
-value: false
+field: size
+operator: IN
+value:
+ - xxl
 ```
+
+We expect **option code** as `value`.
+
 
 ## Multiselect list / Reference Entity multiple link
 
-| Attribute type | Operator | Value |
-| -------------- | ---------| ------|
-| Multiselect list / Reference Entity multiple link |<ul><li>IN</li><li>NOT IN</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | Option code. If the operator is EMPTY or NOT EMPTY, the value element will be ignored. NOT IN (red, blue) means != red and != blue |
+The possible operators for the `Multiselect list/Reference entity multiple link` attribute types are:  
+
+- IN
+- NOT IN
+- EMPTY
+- NOT EMPTY
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
 
 ### Example
 
@@ -488,12 +537,23 @@ value:
  - GOLD
  - LEATHER
 ```
+We expect **option code** as `value`.
 
 ## Number
 
-| Attribute type | Operator | Value |
-| -------------- | ---------| ------|
-| Number |<ul><li><</li><li><=</li><li>=</li><li>!=</li><li>">"</li><li>">="</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | Number. If operator is EMPTY or NOT EMPTY, value element will be ignored |
+The possible operators for the `Number` attribute type are:  
+- <
+- <=
+- =
+- !=
+- ">"
+- ">="
+- EMPTY
+- NOT EMPTY
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
 
 ### Example
 
@@ -502,12 +562,26 @@ field: min_age
 operator: =
 value: 12
 ```
+We expect **a number** as `value`.
 
 ## Date
 
-| Attribute type | Operator | Value |
-| -------------- | ---------| ------|
-| Date |<ul><li><</li><li>">"</li><li>=</li><li>!=</li><li>BETWEEN</li><li>NOT BETWEEN</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | Format date: yyyy-mm-dd. If the operator is EMPTY or NOT EMPTY, values information is ignored. |
+The possible operators for the `Date` attribute type are:  
+- <
+- ">"
+- =
+- !=
+- BETWEEN
+- NOT BETWEEN
+- EMPTY
+- NOT EMPTY
+
+The expected date format is: **yyyy-mm-dd**
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
 
 ## Example
 
@@ -519,9 +593,19 @@ value: "2016-05-12"
 
 ## Price
 
-| Attribute type | Operator | Value |
-| -------------- | ---------| ------|
-| Price |<ul><li><</li><li><</li><li><=</li><li>=</li><li>!=</li><li>">"</li><li>">="</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | Numeric value and currency code. Dot “.” is the decimal separator. No space between thousands. If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+The possible operators for the `Price` attribute type are:  
+- <
+- <=
+- =
+- !=
+- ">"
+- ">="
+- EMPTY
+- NOT EMPTY
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
 
 ### Example
 
@@ -539,11 +623,23 @@ value:
   currency: EUR
 ```
 
+We expect a numeric value and the currency code. Dot “.” is the decimal separator and there is no space between thousands.
+
 ## Picture or file
 
-| Attribute type | Operator | Value |
-| -------------- | ---------| ------|
-| Picture or file |<ul><li>STARTS WITH</li><li>ENDS WITH</li><li>CONTAINS</li><li>DOES NOT CONTAIN</li><li>=</li><li>!=</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | Text. If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+The possible operators for the `Price` attribute type are:  
+- STARTS WITH
+- ENDS WITH
+- CONTAINS
+- DOES NOT CONTAIN
+- =
+- !=
+- EMPTY
+- NOT EMPTY
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
 
 ### Example
 
@@ -553,3 +649,5 @@ operator: CONTAINS
 value: ../../../
  src/PimEnterprise/Bundle/InstallerBundle/Resources/fixtures/icecat_demo/images/AKNTS_PB.jpg
 ```
+
+We expect a **text** as `value`.
