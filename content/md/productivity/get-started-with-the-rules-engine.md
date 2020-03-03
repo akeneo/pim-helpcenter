@@ -7,29 +7,38 @@ ee-only: true
 related: what-is-a-rule
 ---
 
-The rules engine can radically boost your productivity in the PIM by automating actions. In this article, we detail:
-- the available actions,
-- the fields,
-- and the attribute types that can be part of these rules.
+The rules engine can radically boost your productivity in the PIM by automating actions. The rules are defined in a YML file that you can import in the PIM, using a dedicated job profile.   
+
+This feature is very (like, really) powerful, but it can also be a bit complex to apprehend. Reading this article, you will know what you can do with and how you should use it.
+
 
 # Available actions
+
+As of today, 5 actions are available in the rules engine:
+- copy
+- add
+- set
+- remove
+- concatenate
+
+What are these actions for? Let's discover it :wink:
 
 ## Copy
 
 The `Copy` action enables you to copy an attribute value into another one.
 
-Expected values:
+The expected values are:
  - `from_field`: the code of the attribute to be copied
  - `to_field`: the attribute code the value will be copied into
- - `from_locale`: the locale code of the value to be copied (optional)
- - `from_scope`: the channel code of the value to be copied (optional)
- - `to_locale`: the locale code the value will be copied into (optional)
- - `to_scope`: the channel code the value will be copied into (optional)
+ - `from_locale`: the locale code of the value to be copied *(optional)*
+ - `from_scope`: the channel code of the value to be copied *(optional)*
+ - `to_locale`: the locale code the value will be copied into *(optional)*
+ - `to_scope`: the channel code the value will be copied into *(optional)*
 
 
 ### Example
 
-You have a scopable and localizable attribute called “description”, you can copy its content from en_US locale and print channel to the en_US locale and e-commerce channel. Action will be defined as follows:
+You have a *scopable* and *localizable* attribute called `description`. You can copy its content from `en_US` locale and `print` channel to the `en_US` locale and `e-commerce` channel. The action will be defined as follows:
 
 ```YML
   actions:
@@ -44,9 +53,9 @@ You have a scopable and localizable attribute called “description”, you can 
 
 ## Add
 
-The `Add` action allows adding values to a multi-select attribute, a reference entity multiple link attribute or a product to categories.
+The `Add` action allows adding values to a multi-select attribute or a reference entity multiple link attribute. Also, it allows to add a product to categories.
 
-Expected values:
+The expected values are:
 - `field`: the attribute code
 - `value`: the attribute value
 - `locale`: the locale code for which the value is assigned (optional)
@@ -54,7 +63,7 @@ Expected values:
 
 #### Example
 
-To add the “t-shirts” category, action will be as follows:
+To add the “t-shirts” category, the action will be as follows:
 
 ```YML
   actions:
@@ -66,17 +75,17 @@ To add the “t-shirts” category, action will be as follows:
 
 ### Set
 
-The `Set` action assigns value(s) to an attribute with the `text`, `textArea`, `simple select` type...
+The `Set` action assigns value(s) to every attributes, categories, family, associations, groups, the "parent" field, or the "enabled" field.
 
-Expected values:
-- `field`: the attribute code
-- `value`: the attribute value
+The expected values are:
+- `field`: the attribute code or category code or family code
+- `value`: the attribute value or category code or family code
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 
 #### Example
 
-To set the *“My very new description for purple T-shirt”* value to your description attribute in the `en_US` locale, for the `e-commerce` channel, the action will be as follows:
+To set the *“My very new description for purple T-shirt”* value to your `description` attribute in the `en_US` locale and for the `e-commerce` channel, the action will be as follows:
 
 ```YML
   actions:
@@ -91,7 +100,7 @@ To set the *“My very new description for purple T-shirt”* value to your desc
 
 The `Remove` action enables you to remove values from a multi-select attribute, a reference entity multiple link attribute or a product category.
 
-Expected values:
+The expected values are:
 - `field`: the attribute code or “categories”
 - `items`: the values to remove
 - `locale`: the locale code for which the value is assigned (optional)
@@ -111,7 +120,7 @@ To remove the “t-shirts” category, the action will be as follows:
           - t-shirts
 ```
 
-To remove the category “clothing” and its children, the action will be as follows:
+To remove the “clothing” category and its children, the action will be as follows:
 ```YML
   actions:
       type: remove
@@ -152,19 +161,19 @@ The possible target attribute types are:
 
 **The parameters `from` and `to` are required in this format. Depending on the source attribute type, some optional keys can be added.**
 
-Expected values:
+The expected values are:
 
 **`from`**
-- `field`: attribute code.
-- `locale`: locale code for which the value is assigned (optional)
-- `scope`: channel code for which the value is assigned (optional)
-- For `date` attribute: format of the date following the `PHP format [specification](https://www.php.net/manual/en/function.date.php)` (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
+- `field`: the attribute code.
+- `locale`: the locale code for which the value is assigned (optional)
+- `scope`: the channel code for which the value is assigned (optional)
+- For `date` attribute: the format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
 - For `price collection` attribute: the currency code for which the price is assigned (Optional). By default all the prices in the collection are displayed, separated by a coma.
 
 **`to`**
-- `field`: attribute code.
-- `locale`: locale code for which the value is assigned (optional)
-- `scope`: channel code for which the value is assigned (optional)
+- `field`: the attribute code.
+- `locale`: the locale code for which the value is assigned (optional)
+- `scope`: the channel code for which the value is assigned (optional)
 
 ### Example
 
@@ -199,7 +208,7 @@ To concatenate the **model** in the `en_US` locale, the **color** in the `en_US`
             locale: en_US
 ```
 
-To concatenate the **model** in the `en_US` locale and the **price** in USD from the `mobile` channel into the **subtitle** value in the en_US locale and the mobile channel, the action will be as follows:
+To concatenate the **model** in the `en_US` locale and the **price** in USD from the `mobile` channel into the **subtitle** value in the `en_US` locale and the `mobile` channel, the action will be as follows:
 
 ```YML
   actions:
@@ -216,40 +225,32 @@ To concatenate the **model** in the `en_US` locale and the **price** in USD from
             scope: mobile
 ```
 
-
-## Calculate (soon)
-
-| Action        | Definition           | Business rules  |
-| -------------  |----------------------| ----------------|
-| Calculate      |  |<ul><li>field: attribute code</li><li>value: attribute value</li><ul><li>locale: locale code for which value is assigned (optional)</li><li>scope: channel code for which value is assigned (optional)</li></ul> |
-
-### Example
-
-```YML
-  actions:
-    - type:   calculate
-```
-
-## Empty (soon)
-
-| Action        | Definition           | Business rules  |
-| -------------  |----------------------| ----------------|
-| Empty           | |<ul><li>field: attribute code</li><li>value: attribute value</li><ul><li>locale: locale code for which value is assigned (optional)</li><li>scope: channel code for which value is assigned (optional)</li></ul> |
-
-#### Example
-
-```YML
-  actions:
-    - type:   actions
-```
+Now that you know all the actions that are available, it's important to have in mind all the **fields** and their **operators** that we support in the rules engine. We call "fields" the different product properties on which you can filter (in other words, it corresponds to your **selection**).
 
 # Available fields
 
+As of today, 7 fields are supported in the rules engine, and each of them has it's own business rules. Here we go!
+
 ## Created
 
-| Field        | Operator           | Value  |
-| ------------ |--------------------| -------|
-| Created      |<ul><li>=</li><li>!=</li><li>“>”</li><li><</li><li>BETWEEN</li><li>NOT BETWEEN</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | date format: yyyy-mm-dd. If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+The possible operators for the `created` field are:
+- =
+- !=
+- “>”
+- <
+- BETWEEN
+- NOT BETWEEN
+- EMPTY
+- NOT EMPTY
+
+::: info
+The format of the date is: yyyy-mm-dd.
+:::
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
 
 ### Example
 
@@ -258,11 +259,24 @@ field: created
 operator: =
 value: "2015-01-23"
 ```
+
+
 ## Updated
 
-| Field        | Operator           | Value  |
-| ------------ |--------------------| -------|
-| Updated      |<ul><li>=</li><li>!=</li><li>“>”</li><li><</li><li>BETWEEN</li><li>NOT BETWEEN</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | date format: yyyy-mm-dd. If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+The possible operators for the `updated` field are:  
+- =
+- !=
+- “>”
+- <
+- BETWEEN
+- NOT BETWEEN
+- EMPTY
+- NOT EMPTY
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
 
 ### Example
 
@@ -272,11 +286,15 @@ operator: =
 value: "2015-01-23"
 ```
 
+::: info
+The format of the date is: yyyy-mm-dd.
+:::
+
 ## Enabled
 
-| Field        | Operator           | Value  |
-| ------------ |--------------------| -------|
-| Enabled      |<ul><li>=</li><li>!=</li></ul> | activated => “true” deactived => “false” |
+The possible operators for the `enabled` field are:  
+- =
+- !=
 
 ### Example
 
@@ -286,11 +304,17 @@ operator: =
 value: false
 ```
 
+::: info
+If you want to select the activated products, set "true". If you want to select the deactivated ones, set "false".
+:::
+
 ## Completeness
 
-| Field        | Operator           | Value  |
-| ------------ |--------------------| -------|
-| Completeness |<ul><li>=</li><li>!=</li><li>“>”</li><li><</li></ul> | percentage. /!\ locale and scope elements are mandatory. |
+The possible operators for the `completeness` field are:  
+- =
+- !=
+- “>”
+- <
 
 #### Example
 
@@ -302,11 +326,25 @@ operator: =
 value: "100"
 ```
 
+::: warning
+The `locale` and `scope` elements are mandatory.
+:::
+
+::: info
+The `value` field expects a percentage.
+:::
+
 ### Family
 
-| Field        | Operator           | Value  |
-| ------------ |--------------------| -------|
-| Family       |<ul><li>IN</li><li>NOT IN</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | Family code. If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+The possible operators for the `family` field are:  
+- IN
+- NOT IN
+- EMPTY
+- NOT EMPTY
+
+::: warning
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+:::
 
 #### Example
 
@@ -318,11 +356,23 @@ value:
  - digital_cameras
 ```
 
+::: info
+The `field` expects the family code.
+:::
+
+
 ### Groups
 
-| Field        | Operator           | Value  |
-| ------------ |--------------------| -------|
-| Groups       |<ul><li>IN</li><li>NOT IN</li><li>EMPTY</li><li>NOT EMPTY</li></ul> | Group code. If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+The possible operators for the `groups` field are:  
+
+- IN
+- NOT IN
+- EMPTY
+- NOT EMPTY
+
+::: warning
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+:::
 
 ### Example
 
@@ -334,11 +384,20 @@ value:
  - akeneo_tshirts
 ```
 
+::: info
+The `field` expects the group code.
+:::
+
 ## Categories
 
-| Field        | Operator           | Value  |
-| ------------ |--------------------| -------|
-| Categories      |<ul><li>IN</li><li>NOT IN</li><li>UNCLASSIFIED</li><li>IN OR UNCLASSIFIED</li><li>IN CHILDREN</li><li>NOT IN CHILDREN</li></ul> | Category code. |
+The possible operators for the `categories` field are:  
+
+- IN
+- NOT IN
+- UNCLASSIFIED
+- IN OR UNCLASSIFIED
+- IN CHILDREN
+- NOT IN CHILDREN
 
 ### Example
 
@@ -349,6 +408,10 @@ value:
  - C0056
  - F677
 ```
+
+::: info
+The `field` expects the category code.
+:::
 
 # Attribute types
 
