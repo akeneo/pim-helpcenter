@@ -16,7 +16,7 @@ The rules engine can radically boost your productivity in the PIM by automating 
 
 ## Copy
 
-The `Copy` action enables you to copy an attribute value into another.
+The `Copy` action enables you to copy an attribute value into another one.
 
 Expected values:
  - `from_field`: the code of the attribute to be copied
@@ -44,7 +44,7 @@ You have a scopable and localizable attribute called “description”, you can 
 
 ## Add
 
-The `Add` action allows adding values to a multi-select attribute, a reference entity multiple links attribute or a product to categories.
+The `Add` action allows adding values to a multi-select attribute, a reference entity multiple link attribute or a product to categories.
 
 Expected values:
 - `field`: the attribute code
@@ -66,17 +66,17 @@ To add the “t-shirts” category, action will be as follows:
 
 ### Set
 
-The `Set` action assigns value(s) to an attribute having the type `text`, `textArea`, `simple select`...
+The `Set` action assigns value(s) to an attribute with the `text`, `textArea`, `simple select` type...
 
 Expected values:
 - `field`: the attribute code
 - `value`: the attribute value
-- `locale`: the locale code for which value is assigned (optional)
-- `scope`: the channel code for which value is assigned (optional)
+- `locale`: the locale code for which the value is assigned (optional)
+- `scope`: the channel code for which the value is assigned (optional)
 
 #### Example
 
-To set the “My very new description for purple T-shirt” value to your description attribute in en_US locale, for e-commerce channel, the action will be as follows:
+To set the *“My very new description for purple T-shirt”* value to your description attribute in the `en_US` locale, for the `e-commerce` channel, the action will be as follows:
 
 ```YML
   actions:
@@ -89,19 +89,19 @@ To set the “My very new description for purple T-shirt” value to your descri
 
 ## Remove
 
-The `Remove` action enables to remove values from a multi-select attribute, a reference entity multiple links attribute or a product category.
+The `Remove` action enables you to remove values from a multi-select attribute, a reference entity multiple link attribute or a product category.
 
 Expected values:
 - `field`: the attribute code or “categories”
 - `items`: the values to remove
-- `locale`: the locale code for which value is assigned (optional)
-- `scope`: the channel code for which value is assigned (optional)
-- `include_children`: if true, then also apply the removal of the children to the given categories. Only applicable if field is set to “categories” (optional, defaults to false)
+- `locale`: the locale code for which the value is assigned (optional)
+- `scope`: the channel code for which the value is assigned (optional)
+- `include_children`: if true, then also apply the removal of the children to the given categories. Only applicable if field is set to “categories” (optional, default to false)
 
 
 ### Example
 
-To remove the “t-shirts” category, action will be as follows:
+To remove the “t-shirts” category, the action will be as follows:
 
 ```YML
   actions:
@@ -111,7 +111,7 @@ To remove the “t-shirts” category, action will be as follows:
           - t-shirts
 ```
 
-To remove the category “clothing” and its children, action will be as follows:
+To remove the category “clothing” and its children, the action will be as follows:
 ```YML
   actions:
       type: remove
@@ -121,7 +121,7 @@ To remove the category “clothing” and its children, action will be as follow
       include_children: true
 ```
 
-To unclassified products from the whole “Master catalog” tree, action will be as follows:
+To unclassify products from the whole “Master catalog” tree, the action will be as follows:
 
 ```YML
   actions:
@@ -134,7 +134,7 @@ To unclassified products from the whole “Master catalog” tree, action will b
 
 ## Concatenate
 
-The `Concatenate` action concatenates at least two values into a single value. A space separates each source values.
+The `Concatenate` action concatenates at least two values into a single value. A space separates each source value.
 
 The possible source attribute types are:
  - text
@@ -150,25 +150,25 @@ The possible target attribute types are:
  - text
  - text area
 
-**The parameters `from` and `to` are required in the format. Depending of the source attribute type, some optional keys can be additionally set:**
+**The parameters `from` and `to` are required in this format. Depending on the source attribute type, some optional keys can be added.**
 
 Expected values:
 
 **`from`**
 - `field`: attribute code.
-- `locale`: locale code for which value is assigned (optional)
-- `scope`: channel code for which value is assigned (optional)
-- For `date` attribute: format of the date following the `PHP format [specification](https://www.php.net/manual/en/function.date.php)` (Optional). Default is *Y-m-d* (e.g. *2020-01-31*)
-- For `price collection` attribute: currency code for which price is assigned (Optional). By default all the prices in the collection are displayed, separated by a coma.
+- `locale`: locale code for which the value is assigned (optional)
+- `scope`: channel code for which the value is assigned (optional)
+- For `date` attribute: format of the date following the `PHP format [specification](https://www.php.net/manual/en/function.date.php)` (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
+- For `price collection` attribute: the currency code for which the price is assigned (Optional). By default all the prices in the collection are displayed, separated by a coma.
 
 **`to`**
 - `field`: attribute code.
-- `locale`: locale code for which value is assigned (optional)
-- `scope`: channel code for which value is assigned (optional)
+- `locale`: locale code for which the value is assigned (optional)
+- `scope`: channel code for which the value is assigned (optional)
 
 ### Example
 
-To concatenate the **brand** (non localizable and non scopable) and the **model** in `en_US` locale into the **description** value in `en_US` locale, action will be as follows:
+To concatenate the **brand** (non localizable and non scopable) and the **model** in the `en_US` locale into the **description** value in the `en_US` locale, the action will be as follows:
 
 ```YML
   actions:
@@ -182,7 +182,7 @@ To concatenate the **brand** (non localizable and non scopable) and the **model*
             locale: en_US
 ```
 
-To concatenate the **model** in `en_US` locale, the **color** in `en_US` locale and the **year of the release date** into the **title** value in `en_US` locale, action will be as follows:
+To concatenate the **model** in the `en_US` locale, the **color** in the `en_US` locale and the **year of the release date** into the **title** value in the `en_US` locale, the action will be as follows:
 
 ```YML
   actions:
@@ -191,6 +191,7 @@ To concatenate the **model** in `en_US` locale, the **color** in `en_US` locale 
             field: model
             locale: en_US
             field: color
+            locale: en_US
             field: release_date
             format: Y
         to:
@@ -198,7 +199,7 @@ To concatenate the **model** in `en_US` locale, the **color** in `en_US` locale 
             locale: en_US
 ```
 
-To concatenate the model in en_US locale and the price in USD and in mobile channel into the subtitle value in en_US locale and mobile channel, action will be as follows:
+To concatenate the **model** in the `en_US` locale and the **price** in USD from the `mobile` channel into the **subtitle** value in the en_US locale and the mobile channel, the action will be as follows:
 
 ```YML
   actions:
