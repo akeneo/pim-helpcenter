@@ -42,14 +42,14 @@ You have a *scopable* and *localizable* attribute called `description`. You can 
 
 ```YML
   actions:
-      type: copy
+      -
+        type: copy
         from_field: description
         from_locale: en_US
         from_scope: print
         to_field: description
         to_locale: en_US
         to_scope: ecommerce
-```
 
 ## Add
 
