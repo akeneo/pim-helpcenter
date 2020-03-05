@@ -147,9 +147,13 @@ To unclassify products from the whole “Master catalog” tree, the action will
 
 The `Concatenate` action concatenates at least two values into a single value. A space separates each source value.
 
+:::info
+The action only concerns attribute values :wink:.
+:::
+
 The possible source attribute types are:
  - text
- - text area
+ - textarea
  - date
  - identifier
  - metric
@@ -159,7 +163,7 @@ The possible source attribute types are:
 
 The possible target attribute types are:
  - text
- - text area
+ - textarea
 
 **The parameters `from` and `to` are required in this format. Depending on the source attribute type, some optional keys can be added.**
 
@@ -179,7 +183,7 @@ The expected values are:
 
 ### Example
 
-To concatenate the **brand** (non localizable and non scopable) and the **model** in the `en_US` locale into the **description** value in the `en_US` locale, the action will be as follows:
+To concatenate the **brand** (non localizable and non scopable) and the **model** in the `en_US` locale into the **product title** value in the `en_US` locale, the action will be as follows:
 
 ```YML
   actions:
@@ -189,7 +193,7 @@ To concatenate the **brand** (non localizable and non scopable) and the **model*
           - field: model
             locale: en_US
       to:
-          field: description
+          field: product_title
           locale: en_US
 ```
 
@@ -424,9 +428,9 @@ The `field` expects the category code.
 
 Now that the actions and the fields don't have any secret for you anymore, you can discover which attribute types you can use as *targets* for your rules. It means that these attributes can receive the values you defined in your rules.
 
-## Text/Text area
+## Text/Textarea
 
-The possible operators for the `text/text area` attribute types are:  
+The possible operators for the `text/textarea` attribute types are:  
 
 - STARTS WITH
 - ENDS WITH
