@@ -46,6 +46,19 @@ Once a family is created, you can configure your family:
 You must be granted a specific role permission to be able to create a family. Please refer to [Manage your user roles](build-your-user-roles.html).
 :::
 
+:::wink
+The PIM supports many formats for the `Image` and `Asset Collection` thumbnail generation. You’ll find [here](https://imagemagick.org/script/formats.php) the whole list of supported extensions (such as jpg, jpeg, png, gif, psd, tiff...). If you use asset collections, you can also preview PDF and Youtube & Vimeo media links.
+:::
+
+:::warning
+The formats mentioned in the ImageMagick documentation are supported if they don’t require any other extension, with the exception of the ones requiring Ghostcript, which are supported (for example: the PIM is capable to read **EPS** images but not **FIG** since FIG requires `TransFig`, which has not been configured.)
+Please note that this list might evolve on ImageMagick side without notice.
+:::
+
+:::info
+You must be granted a specific role permission to be able to create a family. Please refer to [Manage your user roles](build-your-user-roles.html).
+:::
+
 ## Manage attributes in a family
 **Attributes can be used in one or several families, but an attribute can only be added once to a family**.         
 
