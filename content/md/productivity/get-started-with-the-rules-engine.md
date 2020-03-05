@@ -476,7 +476,7 @@ We expect **numeric value** and **measurement unit code** in the following forma
 ## Boolean
 
 The possible operators for the `boolean` attribute type are:  
-- >=
+- =
 - !=
 
 ### Example
