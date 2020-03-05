@@ -11,6 +11,8 @@ The rules engine can radically boost your productivity in the PIM by automating 
 
 This feature is very, like, really powerful, but it can also be a bit complex to apprehend. Reading this article, you will find out what you can use it for and how it works.
 
+Some words about the general behavior: a rule is composed of 1 or several conditions to target a list of products, and applicates 1 or several actions to this list.
+
 
 # Available actions
 
@@ -42,35 +44,35 @@ You have a *scopable* and *localizable* attribute called `description`. You can 
 
 ```YML
   actions:
-      type: copy
-        from_field: description
-        from_locale: en_US
-        from_scope: print
-        to_field: description
-        to_locale: en_US
-        to_scope: ecommerce
+      - type: copy
+          from_field: description
+          from_locale: en_US
+          from_scope: print
+          to_field: description
+          to_locale: en_US
+          to_scope: ecommerce
 ```
 
 ## Add
 
-The `Add` action allows you to add values to a multi-select attribute or a reference entity multiple link attribute. Also, it makes it possible to add a product to categories.
+The `Add` action allows you to add values to a multi-select attribute or a reference entity multiple link attribute. Also, it makes it possible to add a product to categories, to association and to groups too.
 
 The expected values are:
-- `field`: the attribute code
-- `value`: the attribute value
+- `field`: the attribute code or property
+- `items`: the value codes. It has to be an array of the items to add.
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 
 #### Example
 
-To add the “t-shirts” category, the action will be as follows:
+To add the “t-shirts” category to a set of products, the action will be as follows:
 
 ```YML
   actions:
-      type: add
-        field: categories
-        items:
-          - t-shirts
+      - type: add
+          field: categories
+          items:
+            - t-shirts
 ```
 
 ### Set
@@ -78,8 +80,8 @@ To add the “t-shirts” category, the action will be as follows:
 The `Set` action assigns value(s) to every attributes, categories, family, associations, groups, the "parent" field, or the "enabled" field.
 
 The expected values are:
-- `field`: the attribute code or category code or family code
-- `value`: the attribute value or category code or family code
+- `field`: the attribute code or property
+- `value`: the attribute value or property value
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 
@@ -89,20 +91,20 @@ To set the *“My very new description for purple T-shirt”* value to your `des
 
 ```YML
   actions:
-      type:   set
-        field:  description
-        locale: en_US
-        scope:  ecommerce
-        value:  "My very new description for purple tshirt"
+      - type:   set
+          field:  description
+          locale: en_US
+          scope:  ecommerce
+          value:  "My very new description for purple tshirt"
 ```
 
 ## Remove
 
-The `Remove` action enables you to remove values from a multi-select attribute, a reference entity multiple link attribute or a product category.
+The `Remove` action enables you to remove values from a multi-select attribute, a reference entity multiple link attribute, a product category or a group.
 
 The expected values are:
 - `field`: the attribute code or “categories”
-- `items`: the values to remove
+- `items`: the value codes to remove
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 - `include_children`: if true, then it also applies the removal of the children to the given categories. It is only applicable if the field is set to “categories” (It's optional. By default, it is set to false)
@@ -114,31 +116,31 @@ To remove the “t-shirts” category, the action will be as follows:
 
 ```YML
   actions:
-      type: remove
-        field: categories
-        items:
-          - t-shirts
+      - type: remove
+          field: categories
+          items:
+            - t-shirts
 ```
 
 To remove the “clothing” category and its children, the action will be as follows:
 ```YML
   actions:
-      type: remove
-      field: categories
-      items:
-        - clothing
-      include_children: true
+      - type: remove
+          field: categories
+          items:
+            - clothing
+          include_children: true
 ```
 
 To unclassify products from the whole “Master catalog” tree, the action will be as follows:
 
 ```YML
   actions:
-      type: remove
-      field: categories
-      items:
-        - master
-      include_children: true
+      - type: remove
+          field: categories
+          items:
+            - master
+          include_children: true
 ```
 
 ## Concatenate
@@ -182,13 +184,13 @@ To concatenate the **brand** (non localizable and non scopable) and the **model*
 ```YML
   actions:
     - type: concatenate
-        from:
-            field: brand
-            field: model
+      from:
+          - field: brand
+          - field: model
             locale: en_US
-        to:
-            field: description
-            locale: en_US
+      to:
+          field: description
+          locale: en_US
 ```
 
 To concatenate the **model** in the `en_US` locale, the **color** in the `en_US` locale and the **year of the release date** into the **title** value in the `en_US` locale, the action will be as follows:
@@ -197,12 +199,12 @@ To concatenate the **model** in the `en_US` locale, the **color** in the `en_US`
   actions:
     - type: concatenate
         from:
-            field: model
-            locale: en_US
-            field: color
-            locale: en_US
-            field: release_date
-            format: Y
+            - field: model
+              locale: en_US
+            - field: color
+              locale: en_US
+            - field: release_date
+              format: Y
         to:
             field: title
             locale: en_US
@@ -225,7 +227,13 @@ To concatenate the **model** in the `en_US` locale and the **price** in USD from
             scope: mobile
 ```
 
-Now that you have discovered all the available actions, it's important to have in mind all the **fields** and their **operators** that we support in the rules engine. The "fields" are the different product properties on which you can filter (in other words, it defines your **selection**).
+Now that you have discovered all the available actions,
+
+
+il faut filtrer les produits. gardez en tete que les filtres utilisés dans les rules sont les mêmes que dans la grille produit.
+
+
+it's important to have in mind all the **fields** and their **operators** that we support in the rules engine. The "fields" are the different product properties on which you can filter (in other words, it defines your **selection**).
 
 # Available fields
 
