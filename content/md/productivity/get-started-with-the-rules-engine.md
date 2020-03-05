@@ -9,7 +9,7 @@ related: what-is-a-rule
 
 The rules engine can radically boost your productivity in the PIM by automating actions. The rules are defined in a YML file that you can import in the PIM, using a dedicated job profile.   
 
-This feature is very (like, really) powerful, but it can also be a bit complex to apprehend. Reading this article, you will know what you can do with and how you should use it.
+This feature is very, like, really powerful, but it can also be a bit complex to apprehend. Reading this article, you will find out what you can use it for and how it works.
 
 
 # Available actions
@@ -38,7 +38,7 @@ The expected values are:
 
 ### Example
 
-You have a *scopable* and *localizable* attribute called `description`. You can copy its content from `en_US` locale and `print` channel to the `en_US` locale and `e-commerce` channel. The action will be defined as follows:
+You have a *scopable* and *localizable* attribute called `description`. You can copy its content from the `en_US` locale and the `print` channel to the `en_US` locale and the `e-commerce` channel. The action will be defined as follows:
 
 ```YML
   actions:
@@ -53,7 +53,7 @@ You have a *scopable* and *localizable* attribute called `description`. You can 
 
 ## Add
 
-The `Add` action allows adding values to a multi-select attribute or a reference entity multiple link attribute. Also, it allows to add a product to categories.
+The `Add` action allows you to add values to a multi-select attribute or a reference entity multiple link attribute. Also, it makes it possible to add a product to categories.
 
 The expected values are:
 - `field`: the attribute code
@@ -105,7 +105,7 @@ The expected values are:
 - `items`: the values to remove
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
-- `include_children`: if true, then also apply the removal of the children to the given categories. Only applicable if field is set to “categories” (optional, default to false)
+- `include_children`: if true, then it also applies the removal of the children to the given categories. It is only applicable if the field is set to “categories” (It's optional. By default, it is set to false)
 
 
 ### Example
@@ -225,7 +225,7 @@ To concatenate the **model** in the `en_US` locale and the **price** in USD from
             scope: mobile
 ```
 
-Now that you know all the actions that are available, it's important to have in mind all the **fields** and their **operators** that we support in the rules engine. We call "fields" the different product properties on which you can filter (in other words, it corresponds to your **selection**).
+Now that you have discovered all the available actions, it's important to have in mind all the **fields** and their **operators** that we support in the rules engine. The "fields" are the different product properties on which you can filter (in other words, it defines your **selection**).
 
 # Available fields
 
@@ -305,7 +305,7 @@ value: false
 ```
 
 ::: info
-If you want to select the activated products, set "true". If you want to select the deactivated ones, set "false".
+If you want to select the activated products, set the value to "true". If you want to select the deactivated ones, set it to "false".
 :::
 
 ## Completeness
@@ -331,7 +331,7 @@ The `locale` and `scope` elements are mandatory.
 :::
 
 ::: info
-The `value` field expects a percentage.
+The `value` field requires a percentage.
 :::
 
 ### Family
@@ -343,7 +343,7 @@ The possible operators for the `family` field are:
 - NOT EMPTY
 
 ::: warning
-If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
 #### Example
@@ -371,7 +371,7 @@ The possible operators for the `groups` field are:
 - NOT EMPTY
 
 ::: warning
-If the operator is EMPTY or NOT EMPTY, the value element will be ignored. |
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
 ### Example
@@ -441,7 +441,7 @@ field: description
 operator: CONTAINS
 value: "Awesome product"
 ```
-We expect **text**, with or without quotation marks.
+**text** can be written with or without quotation marks.
 
 ## Metric
 
@@ -469,7 +469,7 @@ value:
  unit: KILOGRAM
 ```
 
-We expect **numeric value** and **measure unit code**. Regarding the expected format:
+We expect **numeric value** and **measurement unit code** in the following format:
 - dot “.” is the decimal separator,
 - there is no space between thousands.
 
@@ -493,7 +493,7 @@ If you want your rule to be applied to a boolean attribute type that is set to "
 
 ## Simple select list / Reference Entity single link
 
-The possible operators for the `Simple select list/Reference entity single link` attribute types are:  
+The possible operators for the `Simple select list` / `Reference entity single link` attribute types are:  
 - IN
 - NOT IN
 - EMPTY
@@ -517,7 +517,7 @@ We expect **option code** as `value`.
 
 ## Multiselect list / Reference Entity multiple link
 
-The possible operators for the `Multiselect list/Reference entity multiple link` attribute types are:  
+The possible operators for the `Multiselect list` / `Reference entity multiple link` attribute types are:  
 
 - IN
 - NOT IN
@@ -623,11 +623,14 @@ value:
   currency: EUR
 ```
 
-We expect a numeric value and the currency code. Dot “.” is the decimal separator and there is no space between thousands.
+We expect **numeric value** and **currency code** in the following format:
+- dot “.” is the decimal separator,
+- there is no space between thousands.
+
 
 ## Picture or file
 
-The possible operators for the `Price` attribute type are:  
+The possible operators for the `Picture` or `File` attribute types are:  
 - STARTS WITH
 - ENDS WITH
 - CONTAINS
