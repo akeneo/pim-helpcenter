@@ -38,14 +38,6 @@ Once a family is created, you can configure your family:
 *   Add/remove attributes from the family
 *   Edit these attributes’ completeness
 
-:::info
-**Supported extensions for thumbnails** for `image` or `assets collection` attributes are the following: jpg, jpeg, png and gif.
-:::
-
-:::info
-You must be granted a specific role permission to be able to create a family. Please refer to [Manage your user roles](build-your-user-roles.html).
-:::
-
 :::wink
 The PIM supports many formats for the `Image` and `Asset Collection` thumbnail generation. You’ll find [here](https://imagemagick.org/script/formats.php) the whole list of supported extensions (such as jpg, jpeg, png, gif, psd, tiff...). If you use asset collections, you can also preview PDF and Youtube & Vimeo media links.
 :::
