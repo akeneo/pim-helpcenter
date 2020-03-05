@@ -598,9 +598,9 @@ operator: ">"
 value: "2016-05-12"
 ```
 
-## Price
+## Price collection
 
-The possible operators for the `Price` attribute type are:  
+The possible operators for the `Price collection` attribute type are:  
 - <
 - <=
 - =
@@ -661,3 +661,41 @@ value: ../../../
 ```
 
 We expect a **text** as `value`.
+
+
+# A real example
+You're done with all these specifications!
+
+We hope that you perfectly understand the rules engine operation now. But to make it crystal clear, we thought it would be better to take a real example of a rule :wink:.
+
+Let's say that, among all the attributes of your product form, you have one `price collection` attribute type and a `boolean` attribute type.
+In the price collection, you define the price of your product in USD. The boolean attribute is used to define if your product is ready to be sent to your ecommerce platform (if it is set to "yes", it means that the product is ready).
+
+Manually change the status of the boolean attribute is time consuming and a very repetitive task... But for the rules engine, it's a perfect match!
+The mission of the rules engine here is to **automate the status change of the boolean once the price attribute has a value.**
+
+For that, follow these steps:
+1. Open a editor text to write the YML code of the rule.
+1. Write this:
+
+```YML
+my_rule:
+  conditions:
+    - field: basic_price
+      operator: NOT EMPTY
+      value:
+        amount: null
+        currency: EUR
+  actions:
+    - field: ecommerce_ready
+      value: true
+      type: set
+```
+
+1. Then import your YML file using the Akeneo rules import job
+
+If you want to directly execute the rule:
+1. Go to `Settings`, `Rules`
+1. Click on the "play" button on your rule line and confirm.
+
+The rule is executed :wink:.
