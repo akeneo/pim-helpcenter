@@ -692,7 +692,8 @@ my_rule:
       type: set
 ```
 
-1. Then import your YML file using the Akeneo rules import job
+And finally, import your YML file using the Akeneo rules import job.
+
 
 If you want to directly execute the rule:
 1. Go to `Settings`, `Rules`
