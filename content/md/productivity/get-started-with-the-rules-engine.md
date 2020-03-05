@@ -7,11 +7,11 @@ ee-only: true
 related: what-is-a-rule
 ---
 
-The rules engine can radically boost your productivity in the PIM by automating actions. The rules are defined in a YML file that you can import in the PIM, using a dedicated job profile.   
+The rules engine can radically boost your productivity in the PIM by automating actions. As explained in [this article](what-is-a-rule.html), a rule enables you to automatically do **one or several actions** to a specific **list of products and product models**. To set the targeted products, you have to define `conditions` (that are composed by fields and operators).  
+
+The rules are defined in a YML file that you can import in the PIM, using a dedicated job profile.   
 
 This feature is very, like, really powerful, but it can also be a bit complex to apprehend. Reading this article, you will find out what you can use it for and how it works.
-
-Some words about the general behavior: a rule is composed of 1 or several conditions to target a list of products, and applicates 1 or several actions to this list.
 
 
 # Available actions
@@ -227,13 +227,12 @@ To concatenate the **model** in the `en_US` locale and the **price** in USD from
             scope: mobile
 ```
 
-Now that you have discovered all the available actions,
+Now that you have discovered all the available actions, you can easily see which ones can be useful in your daily work :wink:. But, to write a rule, you have to define your product selection. To do so, you need to know what are the available **fields** and their **operators**.
 
+:::info
+Keep in mind that the filters (or "fields") that are used in the rules, are the same than in the product grid.
+:::
 
-il faut filtrer les produits. gardez en tete que les filtres utilisés dans les rules sont les mêmes que dans la grille produit.
-
-
-it's important to have in mind all the **fields** and their **operators** that we support in the rules engine. The "fields" are the different product properties on which you can filter (in other words, it defines your **selection**).
 
 # Available fields
 
