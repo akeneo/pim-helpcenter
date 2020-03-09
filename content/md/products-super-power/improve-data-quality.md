@@ -82,7 +82,7 @@ Even if they don't have permission to edit, all PIM users will be able to read d
 :::
 
 ::: info
-Spell check is available for English, French, German, Spanish, Italian, Dutch, Danish, Swedish locales.
+Spell check is available for the English, French, German, Spanish, Italian, Dutch, Danish, and Swedish locales.
 Spell check is usable with text and simple text area attributes.
 :::
 
