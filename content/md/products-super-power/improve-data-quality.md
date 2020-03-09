@@ -58,17 +58,31 @@ To help you improve your products **enrichment** and **consistency**, simply fol
 ![Image data quality panel](../img/data-quality-panel.png)
 From this panel, you will know which attributes need to be improved and how to improve them.
 
+::: info
+Links can take you either to a specific attribute or to the list of improvable attributes in the attribute panel.
+:::
+
+
+![Image data quality variant panel](../img/data-quality-variant-panel.png)
+
+For variant products, the data quality panel lists all the attributes that need improvements to reach a higher data quality grade, whether at model or variant level.
+
+::: info
+Black attribute labels are not clickable and must be improved at product level.
+Purple attribute labels are clickable and can be improved at the variant level.
+:::
+
+
 To help you even further, in the `Attributes` panel, you can select spelling corrections and title formatting improvements.
 
 ![Image data quality spellcheck corrections](../img/data-quality-spelling.png)
-![Image data quality title formatting suggestion](../img/data-quality-title-formatting.png)
 
 ::: info
 Even if they don't have permission to edit, all PIM users will be able to read data quality insights on all attributes.
 :::
 
 ::: info
-Spell check is available for English, French, German and Spanish locales.
+Spell check is available for the English, French, German, Spanish, Italian, Dutch, Danish, and Swedish locales.
 Spell check is usable with text and simple text area attributes.
 :::
 
