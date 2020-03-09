@@ -37,7 +37,7 @@ The **consistency grade** is calculated on several criteria. The mix of the foll
 ::: info
 Spell check is available for English, French, German, Spanish, Italian, Dutch, Danish, Swedish locales.
 Spell check is usable with text and simple text area attributes.
-Spell check is usable with text, simple text area and rich text area attributes.
+Spell check works on text, simple text area and rich text area attributes.
 :::
 
 ::: info
