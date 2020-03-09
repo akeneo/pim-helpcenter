@@ -159,7 +159,8 @@ The possible source attribute types are:
  - metric
  - number
  - price collection
- - simple or multi select (option codes)
+ - simple select
+- multi select (values are separated by a coma)
 
 The possible target attribute types are:
  - text
@@ -175,6 +176,7 @@ The expected values are:
 - `scope`: the channel code for which the value is assigned (optional)
 - For `date` attribute: the format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
 - For `price collection` attribute: the currency code for which the price is assigned (Optional). By default all the prices in the collection are displayed, separated by a coma.
+- For `simple` and `multi select` attributes: in *label_locale*, the expected value is the locale code for the label of the option. Optional. By default, the code of the option is used. 
 
 **`to`**
 - `field`: the attribute code.
