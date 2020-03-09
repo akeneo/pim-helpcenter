@@ -35,7 +35,7 @@ The **consistency grade** is calculated on several criteria. The mix of the foll
 - Lowercases formatting: the PIM checks whether text area attributes are correctly formatted for lower cases.
 
 ::: info
-Spell check is available for English, French, German, Spanish, Italian, Dutch, Danish, Swedish locales.
+Spell check is available for the English, French, German, Spanish, Italian, Dutch, Danish, and Swedish locales.
 Spell check is usable with text and simple text area attributes.
 Spell check works on text, simple text area and rich text area attributes.
 :::
