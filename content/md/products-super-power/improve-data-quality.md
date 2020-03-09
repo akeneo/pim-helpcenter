@@ -68,7 +68,7 @@ Links can take you either to a specific attribute or to the list of improvable a
 For variant products, the data quality panel lists all the attributes that need improvements to reach a higher data quality grade, whether at model or variant level.
 
 ::: info
-Black attribute labels are not clickable and must be improved at upper level.
+Black attribute labels are not clickable and must be improved at product level.
 Purple attribute labels are clickable and can be improved at the variant level.
 :::
 
