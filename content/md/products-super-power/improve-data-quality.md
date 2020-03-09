@@ -59,7 +59,7 @@ To help you improve your products **enrichment** and **consistency**, simply fol
 From this panel, you will know which attributes need to be improved and how to improve them.
 
 ::: info
-Links can lead you either to a specific attribute or to the list of improvable attributes in the attribute panel.
+Links can take you either to a specific attribute or to the list of improvable attributes in the attribute panel.
 :::
 
 
