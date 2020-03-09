@@ -65,7 +65,7 @@ Links can take you either to a specific attribute or to the list of improvable a
 
 ![Image data quality variant panel](../img/data-quality-variant-panel.png)
 
-For variant products, the data quality panel lists all attributes that need improvements to reach a higher data quality grade, whether at model or variant level.
+For variant products, the data quality panel lists all the attributes that need improvements to reach a higher data quality grade, whether at model or variant level.
 
 ::: info
 Black attribute labels are not clickable and must be improved at upper level.
