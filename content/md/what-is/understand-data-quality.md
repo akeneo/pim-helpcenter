@@ -29,19 +29,18 @@ From the `data quality insights` panel, by clicking on the "Display all missing 
 # How is consistency calculated?
 
 The **consistency grade** is calculated on several criteria. The mix of the following criteria helps the PIM determine the grade for consistency:
-- Spell check: text and text areas are checked for spelling mistakes.
+- Spell check: localisable text and text areas are checked for spelling mistakes.
 - Title formatting: the attribute as **main label** is checked for optimised writing.
 - Uppercases formatting: the PIM checks whether text area attributes are correctly formatted for upper cases.
 - Lowercases formatting: the PIM checks whether text area attributes are correctly formatted for lower cases.
 
 ::: info
 Spell check is available for the English, French, German, Spanish, Italian, Dutch, Danish, and Swedish locales.
-Spell check is usable with text and simple text area attributes.
-Spell check works on text, simple text area and rich text area attributes.
+Spell check is usable with localisable text and simple text area attributes.
 :::
 
 ::: info
-Title formatting suggestions are available for English locales.
+Title formatting suggestions are available for English locales. In order to check title formatting, the attribute must be a localisable text attribute.
 :::
 
 ::: tips
@@ -70,16 +69,22 @@ Your **product edit form** will display the enrichment and consistency grades fo
 
 ![Image product edit form](../img/data-quality-pef.png)
 
-::: info
-Enrichment and consistency grades are not yet calculated on variant products and product models. Stay tuned for our future releases!
-:::
 
 ## In your data quality insights panel (product edit form)
 Clicking on `data quality insights` in the product edit form leads you to a dedicated panel so that you understand your grades.
 ![Image data quality panel](../img/data-quality-panel.png)
 
-::: tips
-Thanks to the data quality panel, get recommendations on how to improve your data quality grades!
+Recommendations can have several types:
+- "Everything is good": means all the checked attributes are correct.
+- Attribute label: attribute labels are clickable so you can improve them easily.
+- "N/A": if the recommendation is "N/A" (Not Applicable) it means that the criteria is not relevant for the given product. For example, "N/A" will be displayed for spell-check if you don't have localisable text or text area attributes.
+- "In progress": the criteria is being checked.
+
+![Image data quality panel](../img/data-quality-panel_inprogress.png)
+
+
+::: info
+Checking the quality of the **Title formatting** attribute can take up to 30 minutes. A global consistency grade is given during the process to give immediate feedback on the other criteria.
 :::
 
 # How often are the data quality grades refreshed?
