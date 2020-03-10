@@ -11,7 +11,7 @@ The rules engine can radically boost your productivity in the PIM by automating 
 
 The rules are defined in a YML file that you can import in the PIM, using a dedicated job profile.   
 
-This feature is very, like, really powerful, but it can also be a bit complex to apprehend. Reading this article, you will find out what you can use it for and how it works.
+This feature is very, like, really powerful, and the usages are large. In order to guide you in the rules engine usage, we wrote this article where you will find out what you can use it for and how it works.
 
 
 # Available actions
@@ -176,7 +176,7 @@ The expected values are:
 - `scope`: the channel code for which the value is assigned (optional)
 - For `date` attribute: the format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
 - For `price collection` attribute: the currency code for which the price is assigned (Optional). By default all the prices in the collection are displayed, separated by a coma.
-- For `simple` and `multi select` attributes: in *label_locale*, the expected value is the locale code for the label of the option. Optional. By default, the code of the option is used. 
+- For `simple` and `multi select` attributes: in *label_locale*, the expected value is the locale code for the label of the option. Optional. By default, the code of the option is used.
 
 **`to`**
 - `field`: the attribute code.
@@ -197,40 +197,6 @@ To concatenate the **brand** (non localizable and non scopable) and the **model*
       to:
           field: product_title
           locale: en_US
-```
-
-To concatenate the **model** in the `en_US` locale, the **color** in the `en_US` locale and the **year of the release date** into the **title** value in the `en_US` locale, the action will be as follows:
-
-```YML
-  actions:
-    - type: concatenate
-        from:
-            - field: model
-              locale: en_US
-            - field: color
-              locale: en_US
-            - field: release_date
-              format: Y
-        to:
-            field: title
-            locale: en_US
-```
-
-To concatenate the **model** in the `en_US` locale and the **price** in USD from the `mobile` channel into the **subtitle** value in the `en_US` locale and the `mobile` channel, the action will be as follows:
-
-```YML
-  actions:
-    - type: concatenate
-        from:
-          - field: model
-            locale: en_US
-          - field: price
-            scope: mobile
-            currency: USD
-        to:
-            field: subtitle
-            locale: en_US
-            scope: mobile
 ```
 
 Now that you have discovered all the available actions, you can easily see which ones can be useful in your daily work :wink:. But, to write a rule, you have to define your product selection. To do so, you need to know what are the available **fields** and their **operators**.
@@ -260,11 +226,6 @@ The possible operators for the `created` field are:
 The format of the date is: yyyy-mm-dd.
 :::
 
-:::info
-If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
-:::
-
-
 ### Example
 
 ```YML
@@ -273,6 +234,9 @@ operator: =
 value: "2015-01-23"
 ```
 
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
 
 ## Updated
 
@@ -286,11 +250,6 @@ The possible operators for the `updated` field are:
 - EMPTY
 - NOT EMPTY
 
-:::info
-If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
-:::
-
-
 ### Example
 
 ```YML
@@ -298,6 +257,10 @@ field: updated
 operator: =
 value: "2015-01-23"
 ```
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
 
 ::: info
 The format of the date is: yyyy-mm-dd.
@@ -681,7 +644,7 @@ Manually change the status of the boolean attribute is time consuming and a very
 The mission of the rules engine here is to **automate the status change of the boolean once the price attribute has a value.**
 
 For that, follow these steps:
-1. Open a editor text to write the YML code of the rule.
+1. Open an editor text to write the YML code of the rule.
 1. Write this:
 
 ```YML
