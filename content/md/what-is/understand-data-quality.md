@@ -75,7 +75,7 @@ Clicking on `data quality insights` in the product edit form takes you to a dedi
 ![Image data quality panel](../img/data-quality-panel.png)
 
 There are several types of recommendations:
-- "Everything is good": means all the checked attributes are correct.
+- "Everything is good": all the checked attributes are correct.
 - Attribute label: attribute labels are clickable so you can improve them easily.
 - "N/A": if the recommendation is "N/A" (Not Applicable) it means that the criteria is not relevant for the given product. For example, "N/A" will be displayed for spell-check if you don't have localisable text or text area attributes.
 - "In progress": the criteria is being checked.
