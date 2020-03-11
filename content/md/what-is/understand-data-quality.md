@@ -74,7 +74,7 @@ Your **product edit form** will display the enrichment and consistency grades fo
 Clicking on `data quality insights` in the product edit form takes you to a dedicated panel where you'll find what you need to understand your grades.
 ![Image data quality panel](../img/data-quality-panel.png)
 
-Recommendations can have several types:
+There are several types of recommendations:
 - "Everything is good": means all the checked attributes are correct.
 - Attribute label: attribute labels are clickable so you can improve them easily.
 - "N/A": if the recommendation is "N/A" (Not Applicable) it means that the criteria is not relevant for the given product. For example, "N/A" will be displayed for spell-check if you don't have localisable text or text area attributes.
