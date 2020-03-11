@@ -71,7 +71,7 @@ Your **product edit form** will display the enrichment and consistency grades fo
 
 
 ## In your data quality insights panel (product edit form)
-Clicking on `data quality insights` in the product edit form leads you to a dedicated panel so that you understand your grades.
+Clicking on `data quality insights` in the product edit form takes you to a dedicated panel where you'll find what you need to understand your grades.
 ![Image data quality panel](../img/data-quality-panel.png)
 
 Recommendations can have several types:
