@@ -36,7 +36,7 @@ As you can see, this feature can be really useful, especially as it allows you t
 
 # Which information is published?
 
-All you product values are frozen in your published product. If you change them later, in the working copy of your product, the changes won't be applied on your published product. This includes classification, product activation (enabled/disabled), group membership and family.
+All your product values are frozen in your published product. If you change them later, in the working copy of your product, the changes won't be applied to your published product. This includes attributes values, associations, categories classification, product activation (enabled/disabled), group membership and family.
 
 # Published products & associations
 
