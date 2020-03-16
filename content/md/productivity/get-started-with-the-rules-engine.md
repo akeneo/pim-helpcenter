@@ -44,7 +44,7 @@ You can only copy the given attribute to a selection of attribute types that we 
 - a **textarea** attribute
 
 #### You can copy the option codes of a **Multi select** attribute to:
-- a **reference entity multiple link** attribute *(the records should exist)*
+- a **reference entity multiple link** attribute *(the records must already exist)*
 - a **text** attribute
 - a **textarea** attribute
 
