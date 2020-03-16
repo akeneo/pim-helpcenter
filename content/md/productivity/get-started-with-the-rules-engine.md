@@ -31,42 +31,46 @@ The `Copy` action enables you to copy an attribute value into another one.
 
 The expected values are:
  - `from_field`: the code of the attribute to be copied
- - `to_field`: the attribute code the value will be copied into
+ - `to_field`: the attribute code where the value will be copied
  - `from_locale`: the locale code of the value to be copied *(optional)*
  - `from_scope`: the channel code of the value to be copied *(optional)*
- - `to_locale`: the locale code the value will be copied into *(optional)*
- - `to_scope`: the channel code the value will be copied into *(optional)*
+ - `to_locale`: the locale code where the value will be copied *(optional)*
+ - `to_scope`: the channel code where the value will be copied *(optional)*
 
 You can only copy the given attribute to a selection of attribute types that we defined based on logical criteria:
-#### You can copy the option code of a **Simple select** attribute to:
+#### You can copy the option code of a **simple select** attribute to:
 - a **reference entity single link** attribute *(the record must already exist)*
 - a **text** attribute
 - a **textarea** attribute
 
-#### You can copy the option codes of a **Multi select** attribute to:
+#### You can copy the option codes of a **multi select** attribute to:
 - a **reference entity multiple link** attribute *(the records must already exist)*
 - a **text** attribute
 - a **textarea** attribute
 
-#### You can copy the value of a **Text** attribute to:
+#### You can copy the value of a **text** attribute to:
 - a **textarea** attribute
 - a **simple select** attribute (the option code must already exist)
 - a **reference entity single link** attribute *(the record must already exist)*
 
-#### You can copy the value of an **Identifier** attribute to:
+#### You can copy the value of an **identifier** attribute to:
 - a **text** attribute
 - a **textarea** attribute
 
-#### You can copy the value of a **Date** attribute to:
+#### You can copy the value of a **date** attribute to:
 - a **text** attribute
 - a **textarea** attribute
 
-#### You can copy the value of a **Metric** attribute to:
+:::info
+The date will be copied into the ISO 8601 format (ex: 2019-01-25T12:00:00+01:00).
+:::
+
+#### You can copy the value of a **metric** attribute to:
 - a **text** attribute
 - a **textarea** attribute
 - a **number** attribute
 
-#### You can copy the value of a **Number** attribute to:
+#### You can copy the value of a **number** attribute to:
 - a **text** attribute
 - a **textarea** attribute
 - a **metric** attribute
