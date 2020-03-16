@@ -11,7 +11,7 @@ The rules engine can radically boost your productivity in the PIM by automating 
 
 The rules are defined in a YML file that you can import in the PIM, using a dedicated job profile.   
 
-This feature is very, like, really powerful, and the usages are large. In order to guide you in the rules engine usage, we wrote this article where you will find out what you can use it for and how it works.
+This feature is very, like, really powerful, and the usecases are countless. In order to guide you in the rules engine usage, we wrote this article where you will find out what you can use it for and how it works.
 
 
 # Available actions
