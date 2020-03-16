@@ -108,7 +108,7 @@ You have a *scopable* and *localizable* attribute called `description`. You can 
 
 ## Add
 
-The `Add` action allows you to add values to a multi-select attribute or a reference entity multiple link attribute. Also, it makes it possible to add a product to categories, to association and to groups too.
+The `Add` action allows you to add values to a multi-select attribute or a reference entity multiple link attribute. Also, it makes it possible to add a product to categories and to groups too.
 
 The expected values are:
 - `field`: the attribute code or property
@@ -130,7 +130,7 @@ To add the “t-shirts” category to a set of products, the action will be as f
 
 ### Set
 
-The `Set` action assigns value(s) to every attributes, categories, family, associations, groups, the "parent" field, or the "enabled" field.
+The `Set` action assigns value(s) to every attributes, categories, family, groups, or the "enabled" field.
 
 The expected values are:
 - `field`: the attribute code or property
