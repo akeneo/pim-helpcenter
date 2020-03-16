@@ -37,7 +37,7 @@ The expected values are:
  - `to_locale`: the locale code the value will be copied into *(optional)*
  - `to_scope`: the channel code the value will be copied into *(optional)*
 
-You can only copy the given attribute to a selection of attribute types that we have defined based on logical criteria:
+You can only copy the given attribute to a selection of attribute types that we defined based on logical criteria:
 #### You can copy the option code of a **Simple select** attribute to:
 - a **reference entity single link** attribute *(the record should exist)*
 - a **text** attribute
