@@ -65,7 +65,8 @@ You can also execute several rules at the same time:
 
 # Create a rule
 
-Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.
+Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.  
+We also detail in [this article](get-started-with-the-rules-engine.html), how to select products and the list of available actions.
 
 ::: info
 For more details about how to execute an import, please refer to [Import your data](imports.html).
@@ -99,6 +100,6 @@ If you do not see the `Delete` button, it might be because you do not have the r
 You can also delete several rules at the same time:
 1.  Select one or several rules by ticking them on the left side of the screen  
 1.  Click on `Delete`
-1.  Then confirm the action in the pop in
+1.  Then confirm the action in the pop in.
 
 ![image](../img/Settings_RulesBulkActionDelete.png)
