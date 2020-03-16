@@ -27,7 +27,7 @@ What are these actions for? Let's discover it :wink:
 
 ## Copy
 
-The `Copy` action enables you to copy an attribute value into another one.
+The `Copy` action enables you to copy an attribute value in another one.
 
 The expected values are:
  - `from_field`: the code of the attribute to be copied
