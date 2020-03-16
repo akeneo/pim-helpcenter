@@ -80,7 +80,7 @@ You can only copy the given attribute to a selection of attribute types that we 
 - a **textarea** attribute
 - a **simple select** attribute *(the option code of the simple select attribute must already exist)*
 
-#### You can copy the value of a **Reference entity multiple link** attribute to:
+#### You can copy the value of a **reference entity multiple links** attribute to:
 - a **text** attribute
 - a **textarea** attribute
 - a **multi select** attribute *(the option codes of the multi select attribute should exist)*
