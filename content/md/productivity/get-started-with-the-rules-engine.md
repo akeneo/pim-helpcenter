@@ -50,7 +50,7 @@ You can only copy the given attribute to a selection of attribute types that we 
 
 #### You can copy the value of a **Text** attribute to:
 - a **textarea** attribute
-- a **Simple select** attribute (the option code should exist)
+- a **simple select** attribute (the option code must already exist)
 - a **Reference entity single link** attribute *(the record should exist)*
 
 #### You can copy the value of an **Identifier** attribute to:
