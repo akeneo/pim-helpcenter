@@ -14,12 +14,12 @@ For instance, using rules you can automatically:
 - fill in attributes
 - categorize new products
 - set a default value to an empty attribute
-- assign values, such as a family, to new products
+- assign values to new products
 - copy an attribute value to another attribute
 
-Rules can only be created and then imported in Akeneo using a YML file, but you can manage them from the UI. Check our [How to manage your rules](manage-your-rules.html) article.
+Rules can only be created and imported in Akeneo using a YML file, but you can manage them from the UI. Check our [How to manage your rules](manage-your-rules.html) article.
 
-Rules can be prioritized from 0 to 100: a rule with a priority of 100 will be applied before a rule having a priority of 10 or 50.
+Rules can be prioritized: a rule with a priority of 100 will be applied before a rule having a priority of 10 or 50.
 
 # Example of a rule
 
@@ -47,7 +47,7 @@ rules:
             -   field: name
                 operator: CONTAINS
                 value: Canon
-            -   field: camera_brand.code
+            -   field: camera_brand
                 operator: 'NOT IN'
                 value:
                     - canon_brand
@@ -57,7 +57,7 @@ rules:
                 value: canon_brand
 ```
 
-Now that you know what a rule is, let's dive into this powerful feature! Discover in [this article](.) all the conditions and actions available, and learn how to use them.
+Now that you know what a rule is, let's dive into this powerful feature! Discover in [this article](get-started-with-the-rules-engine.html) all the conditions and actions available, and learn how to use them.
 
 ::: info
 You can refer to our [technical documentation](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) to find more information about the rules engine.

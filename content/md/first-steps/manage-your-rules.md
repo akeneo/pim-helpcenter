@@ -14,7 +14,7 @@ For more details, please refer to [the dedicated article](get-started-with-the-r
 
 # View all rules
 
-The `Settings/Rules` screen displays all the rules that have been created and then imported in the PIM.  
+The `Settings/Rules` screen displays all the rules that have been created and imported in the PIM.  
 You can search on the rule code.
 
 ![image](../img/Settings_Rules.png)
