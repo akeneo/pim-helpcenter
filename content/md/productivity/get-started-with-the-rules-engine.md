@@ -227,9 +227,9 @@ The expected values are:
 - `field`: the attribute code.
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
-- For `date` attribute: the format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
-- For `price collection` attribute: the currency code for which the price is assigned (Optional). By default all the prices in the collection are displayed, separated by a coma.
-- For `simple` and `multi select` attributes: in *label_locale*, the expected value is the locale code for the label of the option. Optional. By default, the code of the option is used.
+- For the `date` attribute: the format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
+- For the `price collection` attribute: the currency code for which the price is assigned (Optional). By default, all the prices in the collection are displayed, separated by a comma.
+- For the `simple` and `multi-select` attributes: in *label_locale*, the expected value is the locale code for the label of the option. Optional. By default, the code of the option is used.
 
 **`to`**
 - `field`: the attribute code.
@@ -693,11 +693,11 @@ We hope that you perfectly understand the rules engine operation now. But to mak
 Let's say that, among all the attributes of your product form, you have one `price collection` attribute type and a `boolean` attribute type.
 In the price collection, you define the price of your product in USD. The boolean attribute is used to define if your product is ready to be sent to your ecommerce platform (if it is set to "yes", it means that the product is ready).
 
-Manually change the status of the boolean attribute is time consuming and a very repetitive task... But for the rules engine, it's a perfect match!
+Manually changing the status of the boolean attribute is time-consuming and a very repetitive task... But for the rules engine, it's a perfect match!
 The mission of the rules engine here is to **automate the status change of the boolean once the price attribute has a value.**
 
-For that, follow these steps:
-1. Open an editor text to write the YML code of the rule.
+To do so, follow these steps:
+1. Open a text editor to write the YML code of the rule.
 1. Write this:
 
 ```YML
