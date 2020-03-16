@@ -37,6 +37,55 @@ The expected values are:
  - `to_locale`: the locale code the value will be copied into *(optional)*
  - `to_scope`: the channel code the value will be copied into *(optional)*
 
+You can only copy the given attribute to a selection of attribute types that we have defined based on logical criteria:
+#### You can copy the option code of a **Simple select** attribute to:
+- a **reference entity single link** attribute *(the record should exist)*
+- a **text** attribute
+- a **textarea** attribute
+
+#### You can copy the option codes of a **Multi select** attribute to:
+- a **reference entity multiple link** attribute *(the records should exist)*
+- a **text** attribute
+- a **textarea** attribute
+
+#### You can copy the value of a **Text** attribute to:
+- a **textarea** attribute
+- a **Simple select** attribute (the option code should exist)
+- a **Reference entity single link** attribute *(the record should exist)*
+
+#### You can copy the value of an **Identifier** attribute to:
+- a **text** attribute
+- a **textarea** attribute
+
+#### You can copy the value of a **Date** attribute to:
+- a **text** attribute
+- a **textarea** attribute
+
+#### You can copy the value of a **Metric** attribute to:
+- a **text** attribute
+- a **textarea** attribute
+- a **number** attribute
+
+#### You can copy the value of a **Number** attribute to:
+- a **text** attribute
+- a **textarea** attribute
+- a **metric** attribute
+
+#### You can copy the value of a **Price** attribute to:
+- a **text** attribute
+- a **textarea** attribute
+
+#### You can copy the value of a **Reference entity single link** attribute to:
+- a **text** attribute
+- a **textarea** attribute
+- a **simple select** attribute *(the option code of the simple select attribute should exist)*
+
+#### You can copy the value of a **Reference entity multiple link** attribute to:
+- a **text** attribute
+- a **textarea** attribute
+- a **multi select** attribute *(the option code of the multi select attribute should exist)*
+
+
 
 ### Example
 
@@ -160,7 +209,7 @@ The possible source attribute types are:
  - number
  - price collection
  - simple select
-- multi select (values are separated by a coma)
+ - multi select (values are separated by a comma)
 
 The possible target attribute types are:
  - text
