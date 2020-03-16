@@ -39,7 +39,7 @@ The expected values are:
 
 You can only copy the given attribute to a selection of attribute types that we defined based on logical criteria:
 #### You can copy the option code of a **Simple select** attribute to:
-- a **reference entity single link** attribute *(the record should exist)*
+- a **reference entity single link** attribute *(the record must already exist)*
 - a **text** attribute
 - a **textarea** attribute
 
