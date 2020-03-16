@@ -71,7 +71,7 @@ You can only copy the given attribute to a selection of attribute types that we 
 - a **textarea** attribute
 - a **metric** attribute
 
-#### You can copy the value of a **Price** attribute to:
+#### You can copy the value of a **price** attribute to:
 - a **text** attribute
 - a **textarea** attribute
 
