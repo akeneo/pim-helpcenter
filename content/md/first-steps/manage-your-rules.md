@@ -10,12 +10,12 @@ related: what-is-a-rule
 # Overview
 
 A rule allows you to automatically enrich some information in your products, according to automatic actions based on conditions. It applies on attributes, categories, system attributes (status, completeness...).  
-For more details, please refer to [the dedicated article](blabla.html).
+For more details, please refer to [the dedicated article](get-started-with-the-rules-engine.html).
 
 # View all rules
 
-The `Settings/Rules` screen displays all rules that have been created and then imported in the PIM.  
-You can search on the rule's code.
+The `Settings/Rules` screen displays all the rules that have been created and then imported in the PIM.  
+You can search on the rule code.
 
 ![image](../img/Settings_Rules.png)
 
