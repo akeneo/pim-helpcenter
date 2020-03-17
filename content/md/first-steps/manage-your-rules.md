@@ -9,7 +9,7 @@ related: what-is-a-rule
 
 # Overview
 
-A rule allows you to automatically enrich some information in your products, according to automatic actions based on conditions. It applies on attributes, categories, system attributes (status, completeness...).  
+A rule allows you to automatically enrich some of your product information. It relies on automatic actions based on conditions. You can use it on attributes, categories, system attributes (status, completeness...).  
 For more details, please refer to [the dedicated article](get-started-with-the-rules-engine.html).
 
 # View all rules
