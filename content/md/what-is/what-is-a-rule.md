@@ -10,7 +10,7 @@ related: manage-your-rules
 # Definition of a rule
 
 A rule is a set of actions and conditions that allows you to automatize data enrichment.
-For instance, using rules you can automatically:
+For instance, rules allow you to automatically:
 - fill in attributes
 - categorize new products
 - set a default value to an empty attribute
