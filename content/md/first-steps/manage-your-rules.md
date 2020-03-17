@@ -23,7 +23,7 @@ You can search on the rule code.
 
 To help you validate your rules and well define your rules conditions, you can calculate the number of matching products that the rule will affect.
 
-The fist time a rule is executed, it can match many products. The next times, you might have 0 `Affected products` or only few.
+The first time a rule is executed, it can match many products. The following time, you might have zero `Affected products` or only a few.
 
 1.  To use this action, select one or several rules by ticking them on the left side of the screen
 1.  Click on `Calculate the affected products`
