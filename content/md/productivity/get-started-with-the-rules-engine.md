@@ -45,8 +45,8 @@ You can only copy the given attribute to a selection of attribute types that we 
 
 #### You can copy the option codes of a **multi select** attribute to:
 - a **reference entity multiple link** attribute *(the records must already exist)*
-- a **text** attribute
-- a **textarea** attribute
+- a **text** attribute *(the codes are separated by a comma)*
+- a **textarea** attribute *(the codes are separated by a comma)*
 
 #### You can copy the value of a **text** attribute to:
 - a **textarea** attribute
@@ -87,7 +87,7 @@ The date will be copied into the ISO 8601 format (ex: 2019-01-25T12:00:00+01:00)
 #### You can copy the value of a **reference entity multiple links** attribute to:
 - a **text** attribute
 - a **textarea** attribute
-- a **multi select** attribute *(the option codes of the multi select attribute should exist)*
+- a **multi select** attribute *(the option codes of the multi select attribute must already exist)*
 
 
 
@@ -112,7 +112,7 @@ The `Add` action allows you to add values to a multi-select attribute or a refer
 
 The expected values are:
 - `field`: the attribute code or property
-- `items`: the value codes. It has to be an array of the items to add.
+- `items`: the value codes. It has to be an array of the items you need to add.
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 
@@ -201,7 +201,7 @@ To unclassify products from the whole “Master catalog” tree, the action will
 The `Concatenate` action concatenates at least two values into a single value. A space separates each source value.
 
 :::info
-The action only concerns attribute values :wink:.
+The action is only for attribute values :wink:.
 :::
 
 The possible source attribute types are:
