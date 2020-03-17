@@ -57,7 +57,7 @@ rules:
                 value: canon_brand
 ```
 
-Now that you know what a rule is, let's dive into this powerful feature! Discover in [this article](get-started-with-the-rules-engine.html) all the conditions and actions available, and learn how to use them.
+Now that you know what a rule is, let's dive into this powerful feature! Discover in [this article](get-started-with-the-rules-engine.html) all the available conditions and actions, and learn how to use them.
 
 ::: info
 You can refer to our [technical documentation](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) to find more information about the rules engine.
