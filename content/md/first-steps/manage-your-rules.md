@@ -21,7 +21,7 @@ You can search on the rule code.
 
 # Calculate the number of affected products for rules
 
-To help you validate your rules and well define your rules conditions, you can calculate the number of matching products that the rule will affect.
+To help you define the conditions for your rules and validate them, you can calculate the number of matching products that the rule will process.
 
 The first time a rule is executed, it can match many products. The following time, you might have zero `Affected products` or only a few.
 
