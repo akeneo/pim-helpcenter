@@ -50,7 +50,7 @@ You can only copy the given attribute to a selection of attribute types that we 
 
 #### You can copy the value of a **text** attribute to:
 - a **textarea** attribute
-- a **simple select** attribute (the option code must already exist)
+- a **simple select** attribute *(the option code must already exist)*
 - a **reference entity single link** attribute *(the record must already exist)*
 
 #### You can copy the value of an **identifier** attribute to:
@@ -612,7 +612,7 @@ If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
 
-## Example
+### Example
 
 ```YML
 field: created_date
