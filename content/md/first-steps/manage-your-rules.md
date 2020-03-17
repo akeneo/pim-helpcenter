@@ -100,6 +100,6 @@ If you do not see the `Delete` button, it might be because you do not have the r
 You can also delete several rules at the same time:
 1.  Select one or several rules by ticking them on the left side of the screen  
 1.  Click on `Delete`
-1.  Then confirm the action in the pop in.
+1.  Then, confirm the action in the pop in.
 
 ![image](../img/Settings_RulesBulkActionDelete.png)
