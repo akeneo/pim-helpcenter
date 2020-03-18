@@ -50,7 +50,7 @@ You can only copy the given attribute to a selection of attribute types that we 
 
 #### You can copy the value of a **text** attribute to:
 - a **textarea** attribute
-- a **simple select** attribute (the option code must already exist)
+- a **simple select** attribute *(the option code must already exist)*
 - a **reference entity single link** attribute *(the record must already exist)*
 
 #### You can copy the value of an **identifier** attribute to:
@@ -116,7 +116,7 @@ The expected values are:
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 
-#### Example
+### Example
 
 To add the “t-shirts” category to a set of products, the action will be as follows:
 
@@ -128,7 +128,7 @@ To add the “t-shirts” category to a set of products, the action will be as f
             - t-shirts
 ```
 
-### Set
+## Set
 
 The `Set` action assigns value(s) to every attributes, categories, family, groups, or the "enabled" field.
 
@@ -138,7 +138,7 @@ The expected values are:
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 
-#### Example
+### Example
 
 To set the *“My very new description for purple T-shirt”* value to your `description` attribute in the `en_US` locale and for the `e-commerce` channel, the action will be as follows:
 
@@ -345,7 +345,7 @@ The possible operators for the `completeness` field are:
 - “>”
 - <
 
-#### Example
+### Example
 
 ```YML
 field: completeness
@@ -363,7 +363,7 @@ The `locale` and `scope` elements are mandatory.
 The `value` field requires a percentage.
 :::
 
-### Family
+## Family
 
 The possible operators for the `family` field are:  
 - IN
@@ -375,7 +375,7 @@ The possible operators for the `family` field are:
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
-#### Example
+### Example
 
 ```YML
 field: family
@@ -390,7 +390,7 @@ The `field` expects the family code.
 :::
 
 
-### Groups
+## Groups
 
 The possible operators for the `groups` field are:  
 
@@ -612,7 +612,7 @@ If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
 
-## Example
+### Example
 
 ```YML
 field: created_date
