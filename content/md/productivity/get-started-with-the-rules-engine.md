@@ -238,7 +238,7 @@ The expected values are:
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 
-### Examples
+### Example
 
 To concatenate the **brand** (non localizable and non scopable) and the **model** in the `en_US` locale into the **product title** value in the `en_US` locale, the action will be as follows:
 
