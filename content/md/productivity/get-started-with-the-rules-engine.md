@@ -254,14 +254,13 @@ To concatenate the **brand** (non localizable and non scopable) and the **model*
           locale: en_US
 ```
 
-Now that you have discovered all the available actions, you can easily see which ones can be useful in your daily work :wink:. But, to write a rule, you have to define your product selection. To do so, you need to know what are the available **fields** and their **operators**.
+# Available fields
+
+Now that you have discovered all the [available actions](#available-actions), you can easily see which ones can be useful in your daily work :wink:. But, to write a rule, you have to define your product selection. To do so, you need to know what are the available **fields** and their **operators**.
 
 :::info
 Keep in mind that the filters (or "fields") that are used in the rules, are the same than in the product grid.
 :::
-
-
-# Available fields
 
 As of today, 7 fields are supported in the rules engine, and each of them has it's own business rules. Here we go!
 
