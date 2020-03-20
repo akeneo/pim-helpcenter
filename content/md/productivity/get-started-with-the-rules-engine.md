@@ -214,6 +214,8 @@ The possible source attribute types are:
  - price collection
  - simple select
  - multi select (values are separated by a comma)
+ - reference entity single link
+ - reference entity multiple link
 
 The possible target attribute types are:
  - text
@@ -228,15 +230,15 @@ The expected values are:
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 - For the `date` attribute: the format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
-- For the `price collection` attribute: the currency code for which the price is assigned (Optional). By default, all the prices in the collection are displayed, separated by a comma.
-- For the `simple` and `multi-select` attributes: in *label_locale*, the expected value is the locale code for the label of the option. Optional. By default, the code of the option is used.
+- For the `price collection` attribute: the currency code for which the price is assigned (optional). By default, all the prices in the collection are displayed, separated by a comma.
+- For `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes: in *label_locale*, the expected value is the locale code for the label of the option or record (optional). By default, the code of the option is used.
 
 **`to`**
 - `field`: the attribute code.
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 
-### Example
+### Examples
 
 To concatenate the **brand** (non localizable and non scopable) and the **model** in the `en_US` locale into the **product title** value in the `en_US` locale, the action will be as follows:
 
