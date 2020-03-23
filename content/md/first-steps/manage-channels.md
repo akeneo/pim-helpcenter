@@ -30,7 +30,7 @@ To create a channel:
     - The **locales** to activate for the channel: this information will be used to select which product information will be exported for this channel (via the selection of locales and currencies)
     - The expected **category tree** for the channel: this information will be used to select which products will be exported for this channel (via the tree selection)
     - The **labels** for the activated locales
-    - The **conversion unit** for each metric attribute that will be used during the product export
+    - The **conversion unit** for each [measurement attribute](what-about-measurements.html) that will be used during the product export
 1.  Click on the `Save` button
 
 The channel is now created.

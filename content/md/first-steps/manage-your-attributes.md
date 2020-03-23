@@ -12,7 +12,7 @@ If you are not familiar with the concept of attributes, you can read the [What i
 # How to create an attribute?
 
 Akeneo proposes several types of attributes. Discover all attributes available on the article [Introduction to Akeneo attribute types](what-is-an-attribute.html#definition-of-an-attribute). Make sure you pick the **most appropriate attribute type to perfectly match your needs**.    
-For example, if you need to make sure that your PIM users will select one of a predefined option, select a simple select attribute type instead of a free text field. Create a `metric` attribute to fill in the weight/size/length... of your products.
+For example, if you need to make sure that your PIM users will select one of a predefined option, select a simple select attribute type instead of a free text field. Create a `Measurement` attribute to fill in the weight/size/length... of your products.
 
 To create an attribute in Akeneo PIM:
 1. Go to `Settings/Attributes`
@@ -60,13 +60,13 @@ Each attribute has specific properties to add more control on attribute's values
 - **File attribute** and **image attribute**:
   - *Maximum size allowed in MB*
   - *Allowed extensions files*
-- **Metric attribute** :
+- **[Measurement attribute](what-about-measurements.html)**:
   - *Allow negative values* for the attribute
   - *Allow decimal values* for this attribute
   - *Minimum value*: the smallest value allowed
   - *Maximum value*: the largest value allowed
-  - *Metric family*: family measurement unit to be used for the attribute (weight, dimensions, area, etc. )
-  - The *default unit of measurement*
+  - *Measurement family*: the measurement family used for the attribute (weight, length, area, etc. )
+  - The *default measurement unit*: the unit selected by default to input a quantity for the measurement attribute
 - **Price attribute**:
   - *Allow decimals* for the attribute values
   - *minimum value*: the smallest allowed value
