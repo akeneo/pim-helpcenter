@@ -15,9 +15,9 @@ The measurements will be really helpful when you are exporting products for a gi
 
 A measurement attribute is a single-line field composed of a first field containing a quantity and a second field containing a measurement unit.
 
-Below is an example of one of a `Weight` [measurement attribute](manage-your-attributes.html#create-an-attribute).
+Below is an example of a `Weight` [measurement attribute](manage-your-attributes.html#create-an-attribute) with a quantity of `533` for the `Gram` unit.
 
-![List of measurement families](../img/Settings_Families.png)
+![Example of a measurement attribute](../img/Settings_Measurement_Attribute.png)
 
 # What is a measurement family?
 

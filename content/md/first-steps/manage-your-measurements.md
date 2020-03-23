@@ -18,7 +18,7 @@ To see all your measurement families, edit them or create a new measurement fami
 - *Standard unit* is the unit used to convert the other units of a measurement family
 - *Number of units* is the number of units for a measurement family (standard unit included)
 
-![List of measurement families](../img/Settings_Families.png)
+![List of measurement families](../img/Settings_Measurement_Families.png)
 
 You can search on the label or code of measurement families and you can sort on all the columns.
 
@@ -27,14 +27,14 @@ You can search on the label or code of measurement families and you can sort on 
 To create a new measurement family, follow these steps:
 1.  Go to `Settings/Measurements`
 1.  Click on `Create`
-![Create a measurement family](../img/Settings_Families_Create.png)
+![Create a measurement family](../img/Settings_Measurement_Families_Create.png)
 1.  The pop-in to create a measurement family is displayed
 1.  Input the new measurement family code (this code is required and must be unique)
 1.  Input its label in the current [UI locale](manage-your-account.html#your-interface-default-language)
 1.  For the standard unit used to convert the other units of this measurement family, input its code (this code is required and must be unique), its label in the current [UI locale](manage-your-account.html#your-interface-default-language) and symbol
 1.  Click on `Save`
 
-The measurement family is now created and the screen to [add others units](#manage-units-in-a-measurement-family) opens.
+The measurement family is now created and the screen to display and [add others units](#manage-units-in-a-measurement-family) opens.
 
 ::: warning
 The **standard unit** is set once and for all.
