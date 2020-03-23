@@ -214,6 +214,8 @@ The possible source attribute types are:
  - price collection
  - simple select
  - multi select (values are separated by a comma)
+ - reference entity single link
+ - reference entity multiple link
 
 The possible target attribute types are:
  - text
@@ -228,8 +230,8 @@ The expected values are:
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
 - For the `date` attribute: the format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
-- For the `price collection` attribute: the currency code for which the price is assigned (Optional). By default, all the prices in the collection are displayed, separated by a comma.
-- For the `simple` and `multi-select` attributes: in *label_locale*, the expected value is the locale code for the label of the option. Optional. By default, the code of the option is used.
+- For the `price collection` attribute: the currency code for which the price is assigned (optional). By default, all the prices in the collection are displayed, separated by a comma.
+- For `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes: in *label_locale*, the expected value is the locale code for the label of the option or record (optional). By default, the code of the option is used.
 
 **`to`**
 - `field`: the attribute code.
@@ -252,14 +254,13 @@ To concatenate the **brand** (non localizable and non scopable) and the **model*
           locale: en_US
 ```
 
-Now that you have discovered all the available actions, you can easily see which ones can be useful in your daily work :wink:. But, to write a rule, you have to define your product selection. To do so, you need to know what are the available **fields** and their **operators**.
+# Available fields
+
+Now that you have discovered all the [available actions](#available-actions), you can easily see which ones can be useful in your daily work :wink:. But, to write a rule, you have to define your product selection. To do so, you need to know what are the available **fields** and their **operators**.
 
 :::info
 Keep in mind that the filters (or "fields") that are used in the rules, are the same than in the product grid.
 :::
-
-
-# Available fields
 
 As of today, 7 fields are supported in the rules engine, and each of them has it's own business rules. Here we go!
 
