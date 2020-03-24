@@ -4,7 +4,7 @@ themes: first-steps
 title: What about **measurements**?
 popular: false
 ee-only: false
-related: manage-your-measurements
+related: manage-your-measurements, manage-your-attributes
 ---
 
 # Introduction to the measurements
@@ -21,7 +21,7 @@ Below is an example of a `Weight` [measurement attribute](manage-your-attributes
 
 # What is a measurement family?
 
-A measurement family is used to gather the units concerning the same kind of value for a product measurement, i.e. a weight, a length, a frequency, etc.
+A measurement family is used to gather the units concerning the same product measurement, i.e. a weight, a length, a frequency, etc.
 
 For example, the `Weight` measurement family allows you to store the weight of products in grams, kilograms, ounces, pounds, etc.
 

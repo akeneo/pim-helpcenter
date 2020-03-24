@@ -10,7 +10,8 @@ related: what-about-measurements, manage-your-attributes
 # See all your measurement families
 
 **Measurement families are used to store your product information with measurement i.e. weight, length or frequency inside your PIM**.    
-For more details about measurements, please read [this article](what-about-measurements.html).  
+
+[Here are a few definitions](what-about-measurements.html) to help you understand what we will speak about in this article.
 
 To see all your measurement families, edit them or create a new one, go to the `Settings/Measurements` menu:
 - *Label* is the label of a measurement family in the [UI locale](manage-your-account.html#your-interface-default-language)
@@ -20,7 +21,7 @@ To see all your measurement families, edit them or create a new one, go to the `
 
 ![List of measurement families](../img/Settings_Measurement_Families.png)
 
-You can use the label or the code to search your measurement families. You can also sort all the columns. 
+You can use the label or the code to search your measurement families. You can also sort all the columns.
 
 # How to create a measurement family?
 
@@ -36,6 +37,8 @@ To create a new measurement family, follow these steps:
 
 The measurement family is now created and the screen to display and [add other units](#manage-units-in-a-measurement-family) opens.
 
+![Measurement family with standard unit](../img/Settings_Measurement_Families_Standard_Unit.png)
+
 ::: warning
 The **standard unit** is set once and for all.
 :::
@@ -48,38 +51,45 @@ To guarantee that the PIM is functional and runs smoothly, we defined a volume l
 To edit a measurement family:
 1.  Go to `Settings/Measurements`
 2.  Select the measurement family you want to edit in the grid and click on the line or on the edition shortcut
-3.  Translate the labels in the `Properties` tab and click on `Save`
+3.  The screen to display the measurement family opens
+4.  Translate the labels in the `Properties` tab and click on `Save`
+
+![Measurement family edit properties](../img/Settings_Measurement_Families_Properties.png)
 
 # Manage units in a measurement family
 To manage units in a measurement family:
 1.  Go to `Settings/Measurements`
 2.  Select the measurement family to edit in the grid and click on the line or on the edition shortcut
-3.  Manage the units in the `Units` tab and click on `Save`
+3.  The screen to display the measurement family opens on the `Units` tab
+
+![Measurement family units](../img/Settings_Measurement_Families_Units.png)
 
 ## Add a unit to a measurement family
+::: warning
+If a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, once a unit is created, you will only be able to edit its translated labels and symbol.
+:::
+
 Once you are on your measurement family edit form, go to the `Units` tab:
 1.  Click on `Add unit`
 1.  The pop-in to add a new unit to a measurement family is displayed
+![Measurement family add unit](../img/Settings_Measurement_Families_Add_Unit.png)
 1.  Input the new unit code (this code is required and must be unique)
 1.  Fill in the label in the current [UI locale](manage-your-account.html#your-interface-default-language) and the symbol
 1.  Input the conversion operations to convert the unit to the standard unit (click on `Add new operation` to add several conversion operations, click on the cross to remove an operation)
 1.  Click on `Add`, the screen with all the units opens
+![Measurement family add unit](../img/Settings_Measurement_Families_Add_Unit_Labels.png)
 1.  Translate the labels of the added unit in the `Label translations` section
 1.  Click on `Save`
 
 The unit is now added.
-
-::: warning
-If a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, once a unit is created, you will only be able to edit its translated labels and symbol.
-:::
 
 ::: info
 One conversion operation per unit is required and you can have a maximum of 5 conversion operations per unit.
 :::
 
 :::info
-If you have several conversion operations, the order of the conversion operations is important.
-For example, for the `Weight` measurement family to convert the `Fahrenheit` unit to the standard unit `Kelvin`, you need to define 3 conversion operations:
+If you have several conversion operations, the order of the conversion operations is important.  
+For example, for the `Temperature` measurement family to convert the `Fahrenheit` unit to the standard unit `Kelvin`, you need to define 3 conversion operations:
 1. Subtract 32
 2. Divide by 1.8
 3. Add 273.15
@@ -94,9 +104,18 @@ If you have several units to add, you can stay in the `Add a new unit` pop-in to
 1. Once you've done, press `Esc` or `Echap`   
 :::
 
+:::info
+To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 50 units per measurement family. If you try to create more than 100 measurement families, you will receive a blocking message.  
+:::
+
 ## Edit a unit in a measurement family
+::: warning
+If a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, you will only be able to change the translated labels and symbols of existing units.
+:::
+
 Once you are on your measurement family edit form, go to the `Units` tab:
 1.  Click on the unit you want to edit in the list
+![Measurement family edit unit](../img/Settings_Measurement_Families_Edit_Unit.png)
 1.  Edit its symbol
 1.  Edit its conversion operations (click on `Add new operation` to add several conversion operations, click on the cross to remove an operation)
 1.  Translate the labels of the unit in the `Label translations` section
@@ -107,35 +126,50 @@ You can change the following properties of a unit:
 - *Conversion operations*: the operations to convert the unit to the standard unit
 - *Label translations*: the translated labels for the unit for all the [UI locales](manage-your-account.html#your-interface-default-language)
 
-::: warning
-If a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, you will only be able to change the translated labels and symbol of existing units.
+::: info
+You can have a maximum of 5 conversion operations per unit.
+:::
+
+:::info
+If you have several conversion operations, the order of the conversion operations is important.  
+For example, for the `Temperature` measurement family to convert the `Fahrenheit` unit to the standard unit `Kelvin`, you need to define 3 conversion operations:
+1. Subtract 32
+2. Divide by 1.8
+3. Add 273.15
+![Measurement family conversion](../img/Settings_Measurement_Families_Conversion.png)
 :::
 
 ## Delete a unit in a measurement family
-Once you are on your measurement family edit form, go under the `Units` tab:
-1.  Click on the bin icon in the grid or on the `Delete unit` button
-1.  Click on `Save`
-
 ::: warning
 When a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, you won't be able to delete its units.
 :::
 
+Once you are on your measurement family edit form, go under the `Units` tab:
+1.  Click on the the `Delete unit` button
+1.  Confirm the action from the validation message
+1.  Click on `Save`
+
+The unit is deleted.
+
 # Delete a measurement family
+::: warning
+If a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, you won't be able to delete the measurement family.
+:::
 
 You have two ways to remove a measurement family.
 
-From the measurement family form:
+## From the measurement family form
 1. Go to `Settings/Measurements` to list the measurement families
 1. Click on the measurement family you want to delete
 1. Click on `...` for other actions and then `Delete measurement family` on the top right corner
 1. Confirm the action from the validation message
 
-Through the `Delete` shortcut in the grid:
+The measurement family is deleted with all its units.
+
+## Through the delete shortcut in the grid
 1. Select the measurement family you want to remove from the measurement family grid
 1. Place your mouse over the line of the given measurement family, the button delete is prompted (trash can icon)
 1. Click on the trash can icon
 1. Confirm the action from the validation message
 
-::: warning
-If a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, you won't be able to delete the measurement family.
-:::
+The measurement family is deleted with all its units..
