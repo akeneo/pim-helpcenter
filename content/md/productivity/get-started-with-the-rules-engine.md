@@ -16,12 +16,13 @@ This feature is very, like, really powerful, and the usecases are countless. In 
 
 # Available actions
 
-As of today, 5 actions are available in the rules engine:
+As of today, 6 actions are available in the rules engine:
 - copy
 - add
 - set
 - remove
 - concatenate
+- clear
 
 What are these actions for? Let's discover it :wink:
 
@@ -252,6 +253,40 @@ To concatenate the **brand** (non localizable and non scopable) and the **model*
       to:
           field: product_title
           locale: en_US
+```
+## Clear
+This action clears the value(s) assigned to an attribute, product categories, product groups, or product associations.
+
+One parameter is required while the two others are optional. The expected values are:
+ - `field`: the attribute code, "categories", "groups" or "associations".
+ - `locale`: the locale code for which the value is assigned. For localizable attributes (optional).
+ - `scope`: the channel code for which the value is assigned. For scopable attributes (optional).
+
+### Examples
+
+To clear the model in `en_US` locale, the action will be as follows:
+
+```YML
+  actions:
+    - type: clear
+      field: brand
+      locale: en_US
+```
+
+To clear all the categories that are linked to products, the action will be as follows:
+
+```YML
+  actions:
+    - type: clear
+      field: categories
+```
+
+To clear all the product associations, the action will be as follows:
+
+```YML
+  actions:
+    - type: clear
+      field: associations
 ```
 
 # Available fields
