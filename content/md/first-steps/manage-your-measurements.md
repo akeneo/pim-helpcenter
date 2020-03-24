@@ -70,7 +70,7 @@ Once you are on your measurement family edit form, go to the `Units` tab:
 The unit is now added.
 
 ::: warning
-When a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, once a unit is created, you will only be able to edit its translated labels and symbol.
+If a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, once a unit is created, you will only be able to edit its translated labels and symbol.
 :::
 
 ::: info
