@@ -66,7 +66,7 @@ Each attribute has specific properties to add more control on attribute's values
   - *Minimum value*: the smallest value allowed
   - *Maximum value*: the largest value allowed
   - *Measurement family*: the measurement family used for the attribute (weight, length, area, etc. )
-  - The *default measurement unit*: the unit selected by default to input a quantity for the measurement attribute
+  - The *default measurement unit*: the unit selected by default to input a value for the measurement attribute
 - **Price attribute**:
   - *Allow decimals* for the attribute values
   - *minimum value*: the smallest allowed value

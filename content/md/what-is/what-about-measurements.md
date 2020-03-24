@@ -11,9 +11,9 @@ related: manage-your-measurements
 
 If you want to **store your product information with measurement**, i.e. weight, length or frequency inside your PIM, you will need [measurement families](#what-is-a-measurement-family) .
 
-The measurements will be really helpful when you are exporting products for a given channel and you want these measurement attributes to be converted into the units you set in the [given channel](manage-your-channels.html#create-a-channel).
+The measurements will be really helpful when you are exporting products for a given channel and you want these measurement attributes to be converted to the units you set in the [given channel](manage-your-channels.html#create-a-channel).
 
-A measurement attribute is a single-line field composed of a first field containing a quantity and a second field containing a measurement unit.
+A measurement attribute is a single-line field with a first field containing a quantity and a second one containing a measurement unit.
 
 Below is an example of a `Weight` [measurement attribute](manage-your-attributes.html#create-an-attribute) with a quantity of `533` for the `Gram` unit.
 
@@ -21,9 +21,9 @@ Below is an example of a `Weight` [measurement attribute](manage-your-attributes
 
 # What is a measurement family?
 
-A measurement family is used to group the units concerning the same kind of quantity for a product measurement, i.e. a weight, a length, a frequency, etc.
+A measurement family is used to gather the units concerning the same kind of quantity for a product measurement, i.e. a weight, a length, a frequency, etc.
 
-For example, the `Weight` measurement family allows you to store the weight of products in grams, kilograms, livres, pounds, etc.
+For example, the `Weight` measurement family allows you to store the weight of products in grams, kilograms, ounces, pounds, etc.
 
 # What about the measurement units?
 
@@ -31,11 +31,11 @@ For each measurement family, **a unit is defined as standard and used to convert
 
 For example, for the `Weight` measurement family, `Kilogram` is the standard unit to convert all the other weight units.
 
-To convert a unit into the standard unit you have to define one or several conversion operations.
+To convert a unit to the standard unit you have to define one or several conversion operations.
 
 # Let's create your first measurements!
 
-In `Settings` menu, there is a dedicated `Measurements` entry where you can list all the existing measurement families, create your own measurement families with their units or add units to the existing measurement families.
+In the`Settings` menu, there is a dedicated `Measurements` entry where you can list all the existing measurement families, create your own measurement families with their units or add units to the existing measurement families.
 
 Then you will be able to add `Measurement` attributes, enrich your products with measurement data and convert them during product exports.
 
