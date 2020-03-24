@@ -13,15 +13,15 @@ If you want to **store your product information with measurement**, i.e. weight,
 
 The measurements will be really helpful when you are exporting products for a given channel and you want these measurement attributes to be converted to the units you set in the [given channel](manage-your-channels.html#create-a-channel).
 
-A measurement attribute is a single-line field with a first field containing a quantity and a second one containing a measurement unit.
+A measurement attribute is a single-line field with a first field containing a value and a second one containing a measurement unit.
 
-Below is an example of a `Weight` [measurement attribute](manage-your-attributes.html#create-an-attribute) with a quantity of `533` for the `Gram` unit.
+Below is an example of a `Weight` [measurement attribute](manage-your-attributes.html#create-an-attribute) with a value of `533` for the `Gram` unit.
 
 ![Example of a measurement attribute](../img/Settings_Measurement_Attribute.png)
 
 # What is a measurement family?
 
-A measurement family is used to gather the units concerning the same kind of quantity for a product measurement, i.e. a weight, a length, a frequency, etc.
+A measurement family is used to gather the units concerning the same kind of value for a product measurement, i.e. a weight, a length, a frequency, etc.
 
 For example, the `Weight` measurement family allows you to store the weight of products in grams, kilograms, ounces, pounds, etc.
 
