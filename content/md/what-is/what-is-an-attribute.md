@@ -24,7 +24,7 @@ Here are the attribute types available in Akeneo:
 - **Yes/No** attribute: a boolean attribute
 - **Date** attribute: a date field, the PIM will display a calendar to choose the date, which includes day, month and year.
 - **Number** attribute: a single-line field that can only contain digits.
-- **Measurement** attribute: a single-line field composed of a first field containing a quantity and a second field containing a measurement unit. It allows you to automatically convert measurement values to others to fit your export needs. You can check the [What about measurements](what-about-measurements) article to get more information about this feature.
+- **Measurement** attribute: a single-line field composed of a first field containing a value and a second field containing a measurement unit. It allows you to automatically convert measurement values to others to fit your export needs. You can check the [What about measurements](what-about-measurements) article to get more information about this feature.
 - **Price** attribute: a price attribute with values per currency. The displayed values will depend on the currencies enabled in the PIM. Learn [here](manage-your-currencies.html#enabledisable-a-currency) how to enable or disable a currency in Akeneo PIM.
 - **Image** attribute: a drag and drop down zone to upload an image (extensions allowed: gif, jfif, jif, jpeg, jpg, pdf, png, psd, tif, tiff)
 - **File** attribute: a drag and drop down zone to upload a file (allowed extensions: csv, doc, docx, mp3, pdf)
