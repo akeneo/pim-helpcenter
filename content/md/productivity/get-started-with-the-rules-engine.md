@@ -257,10 +257,10 @@ To concatenate the **brand** (non localizable and non scopable) and the **model*
 ## Clear
 This action clears the value(s) assigned to an attribute, product categories, product groups, or product associations.
 
-One parameter is required while the two others are optional. The expected values are:
+The expected values are:
  - `field`: the attribute code, "categories", "groups" or "associations".
- - `locale`: the locale code for which the value is assigned. For localizable attributes (optional).
- - `scope`: the channel code for which the value is assigned. For scopable attributes (optional).
+ - `locale`: the locale code for which the value is assigned (optional).
+ - `scope`: the channel code for which the value is assigned (optional).
 
 ### Examples
 
