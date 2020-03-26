@@ -42,5 +42,5 @@ Then you will be able to add `Measurement` attributes, enrich your products with
 Let's go!
 1. [See the existing measurement families with their units](manage-your-measurements.html#see-all-your-measurement-families)
 1. [Create your own measurement family with its units](manage-your-measurements.html#how-to-create-a-measurement-family)
-1. [Define a new product attribute type Measurement](manage-your-attributes.html#create-an-attribute)
+1. [Create a new Measurement attribute](manage-your-attributes.html#create-an-attribute)
 1. [Set the conversion units for each measurement attribute by channel](manage-your-channels.html#create-a-channel)
