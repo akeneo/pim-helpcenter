@@ -9,7 +9,7 @@ related: what-about-measurements, manage-your-attributes
 
 # See all your measurement families
 
-**Measurement families are used to store your product information with measurement i.e. weight, length or frequency inside your PIM**.    
+**Measurement families are used to store your product information with measurement e.g. weight, length or frequency inside your PIM**.    
 
 [Here are a few definitions](what-about-measurements.html) to help you understand what we will speak about in this article.
 
@@ -30,7 +30,7 @@ To create a new measurement family, follow these steps:
 1.  Click on `Create`
 ![Create a measurement family](../img/Settings_Measurement_Families_Create.png)
 1.  The pop-in to create a measurement family is displayed
-1.  Input the new measurement family code (this code is required and must be unique)
+1.  Enter the new measurement family code (this code is required and must be unique)
 1.  Fill in the label in the current [UI locale](manage-your-account.html#your-interface-default-language)
 1.  For the standard unit used to convert the other units of this measurement family, add the code (this code is required and must be unique), the label in the current [UI locale](manage-your-account.html#your-interface-default-language) and the symbol
 1.  Click on `Save`
@@ -73,9 +73,9 @@ Once you are on your measurement family edit form, go to the `Units` tab:
 1.  Click on `Add unit`
 1.  The pop-in to add a new unit to a measurement family is displayed
 ![Measurement family add unit](../img/Settings_Measurement_Families_Add_Unit.png)
-1.  Input the new unit code (this code is required and must be unique)
+1.  Enter the new unit code (this code is required and must be unique)
 1.  Fill in the label in the current [UI locale](manage-your-account.html#your-interface-default-language) and the symbol
-1.  Input the conversion operations to convert the unit to the standard unit (click on `Add new operation` to add several conversion operations, click on the cross to remove an operation)
+1.  Enter the conversion operations to convert the unit to the standard unit (click on `Add new operation` to add several conversion operations, click on the cross to remove an operation)
 1.  Click on `Add`, the screen with all the units opens
 ![Measurement family add unit](../img/Settings_Measurement_Families_Add_Unit_Labels.png)
 1.  Translate the labels of the added unit in the `Label translations` section
@@ -97,7 +97,7 @@ For example, for the `Temperature` measurement family to convert the `Fahrenheit
 
 ::: tips
 If you have several units to add, you can stay in the `Add a new unit` pop-in to quickly add as many units as needed:
-1. Input the first record label
+1. Enter the first record label
 1. Tick `Create another unit`
 1. Press `Enter`
 1. Add the code, label, symbol and conversion operation for each record
@@ -105,7 +105,7 @@ If you have several units to add, you can stay in the `Add a new unit` pop-in to
 :::
 
 :::info
-To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 50 units per measurement family. If you try to create more than 100 measurement families, you will receive a blocking message.  
+To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 50 units per measurement family. If you try to create more than 50 units per measurement family, you will receive a blocking message.  
 :::
 
 ## Edit a unit in a measurement family
@@ -141,7 +141,7 @@ For example, for the `Temperature` measurement family to convert the `Fahrenheit
 
 ## Delete a unit in a measurement family
 ::: warning
-When a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, you won't be able to delete its units.
+If a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, you won't be able to delete its units.
 :::
 
 Once you are on your measurement family edit form, go under the `Units` tab:
@@ -172,4 +172,4 @@ The measurement family is deleted with all its units.
 1. Click on the trash can icon
 1. Confirm the action from the validation message
 
-The measurement family is deleted with all its units..
+The measurement family is deleted with all its units.
