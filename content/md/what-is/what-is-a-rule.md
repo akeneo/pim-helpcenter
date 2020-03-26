@@ -9,31 +9,31 @@ related: manage-your-rules
 
 # Definition of a rule
 
-A rule is a set of actions and conditions that allows you to automatise data enrichment. 
-For instance, using rules you can automatically:
+A rule is a set of actions and conditions that allows you to automatize data enrichment.
+For instance, rules allow you to automatically:
 - fill in attributes
-- categorise new products
+- categorize new products
 - set a default value to an empty attribute
-- assign values, like a family, to new products
-- copy an attribute's value to another attribute (having the same attribute type)
+- assign values to new products
+- copy an attribute value to another attribute
 
-Rules can only be imported in Akeneo using a YML file, but you can manage them from the UI. Check [How to manage your rules](manage-your-rules.html) article. 
+Rules can only be created and imported in Akeneo using a YML file, but you can manage them from the UI. Check our [How to manage your rules](manage-your-rules.html) article.
 
-Rules can be prioritised from 0 to 100, a rule with a priority of 100 will be applied before a rule having a priority of 10 or 50.
+Rules can be prioritized: a rule with a priority of 100 will be applied before a rule having a priority of 10 or 50.
 
 # Example of a rule
 
-You need one or several conditions to trigger an action. For instance, to set the brand `Canon` to all Canon camcorders that do not have a Brand yet, you'll have to create a rule like the one below:
+You need one or several conditions to trigger an action. For instance, to set the `Canon` brand to all Canon camcorders that do not have a brand yet, you'll have to create a rule like the one below:
 
 IF:
 - my product is in the `Camcorders` family
-- my product attribute names contains the word `Canon`
-- my brand attribute is `empty` 
+- my product attribute name contains the word: `Canon`
+- my brand attribute is `empty`
 
 THEN:
-set the value `Canon` in my product's brand attribute 
+set the `Canon` value in my product brand attribute
 
-Here the example of the YML format expected for this rule.
+Here is the example of the YML format expected for this rule.
 
 ```yaml
 rules:
@@ -47,7 +47,7 @@ rules:
             -   field: name
                 operator: CONTAINS
                 value: Canon
-            -   field: camera_brand.code
+            -   field: camera_brand
                 operator: 'NOT IN'
                 value:
                     - canon_brand
@@ -55,9 +55,10 @@ rules:
             -   type: set
                 field: camera_brand
                 value: canon_brand
-``` 
+```
+
+Now that you know what a rule is, let's dive into this powerful feature! Discover in [this article](get-started-with-the-rules-engine.html) all the available conditions and actions, and learn how to use them.
 
 ::: info
-Find more information about all the conditions/actions and create your own rules! To do so, refer to our technical documentation: [General information about rule format](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure).
+You can refer to our [technical documentation](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) to find out more information about the rules engine.
 :::
-
