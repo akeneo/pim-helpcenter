@@ -96,4 +96,4 @@ For **sub-product models**:
 For **variant products**:
 ![Image data quality variant panel](../img/data-quality-variant-panel.png)
 - Data quality grades are calculated on the attributes that can be improved at all levels hence reflecting the data quality of the product that will be published. Data quality grades are therefore displayed in the left side bar only for product variant.
-- Recommendations are given for all attributes by clicking on an attribute name, you can go and improve an attribute on the product model or sub-product model.
+- Recommendations are given for all attributes by clicking on an attribute name, you can go and improve an attribute in the product model, the sub-product model or the variant product.
