@@ -59,7 +59,7 @@ To help you improve your products **enrichment** and **consistency**, simply fol
 From this panel, you will know which attributes need to be improved and how to improve them.
 
 ::: info
-From the 'data quality panel', links on attribute names can take you to a specific attribute. By clicking on the 'Display all improvable attributes', you can easily access a product edit form filtered on all the attributes that need to be checked for consistency.
+From the `data quality panel`, links on attribute names can take you to a specific attribute. By clicking on the `Display all improvable attributes`, you can easily access a product edit form filtered on all the attributes that need to be checked for consistency.
 :::
 
 To help you even further, in the `Attributes` panel, you can select spelling corrections and title formatting improvements.
