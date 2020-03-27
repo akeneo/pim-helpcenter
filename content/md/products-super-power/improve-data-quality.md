@@ -81,8 +81,9 @@ Even if they don't have permission to edit, all PIM users will be able to read d
 
 # Improve data quality on variant products
 
-If you work with variant products, you will see slight differences between grades and recommendations for simple, product models and variant products.
+If you work with variant products, you will see slight differences between grades and recommendations for simple products, product models and variant products.
 
+::: info
 For **product models**:
 ![Image data quality product model panel](../img/data-quality-model-panel.png)
 - Data quality grades are calculated on the attributes that can be improved at the product model level.
@@ -97,3 +98,4 @@ For **variant products**:
 ![Image data quality variant panel](../img/data-quality-variant-panel.png)
 - Data quality grades are calculated on the attributes that can be improved at all levels hence reflecting the data quality of the product that will be published. Data quality grades are therefore displayed in the left side bar only for product variant.
 - Recommendations are given for all attributes by clicking on an attribute name, you can go and improve an attribute in the product model, the sub-product model or the variant product.
+:::
