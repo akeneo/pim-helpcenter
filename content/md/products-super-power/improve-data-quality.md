@@ -59,37 +59,43 @@ To help you improve your products **enrichment** and **consistency**, simply fol
 From this panel, you will know which attributes need to be improved and how to improve them.
 
 ::: info
-Links can take you either to a specific attribute or to the list of improvable attributes in the attribute panel.
+From the `data quality panel`, links on attribute names can take you to a specific attribute. By clicking on the `Display all improvable attributes`, you can easily access a product edit form filtered on all the attributes that need to be checked for consistency.
 :::
-
-
-![Image data quality variant panel](../img/data-quality-variant-panel.png)
-
-For variant products, the data quality panel lists all the attributes that need improvements to reach a higher data quality grade, whether at model or variant level.
-
-::: info
-Black attribute labels are not clickable and must be improved at product level.
-Purple attribute labels are clickable and can be improved at the variant level.
-:::
-
 
 To help you even further, in the `Attributes` panel, you can select spelling corrections and title formatting improvements.
 
 ![Image data quality spellcheck corrections](../img/data-quality-spelling.png)
 
 ::: info
-Even if they don't have permission to edit, all PIM users will be able to read data quality insights on all attributes.
-:::
-
-::: info
-Spell check is available for the English, French, German, Spanish, Italian, Dutch, Danish, and Swedish locales.
-Spell check is usable with text and simple text area attributes.
+Spell check is available for the English, French, German, Spanish, Italian, Dutch, Danish, Swedish, Norwegian and Portuguese (Brazilian) locales.
+Spell check is usable with localizable text and text area attributes.
 :::
 
 ::: info
 Title formatting suggestion is available for English locales.
 :::
 
-::: tips
-From the `data quality insights` panel, by clicking on the "Display all improvable attributes", you can easily access a product edit form filtered on all the attributes that need to be checked for consistency.
+::: info
+Even if they don't have permission to edit, all PIM users will be able to read data quality insights on all attributes.
+:::
+
+# Improve data quality on variant products
+
+If you work with variant products, you will see slight differences between grades and recommendations for simple products, product models and variant products.
+
+::: info
+For **product models**:
+![Image data quality product model panel](../img/data-quality-model-panel.png)
+- Data quality grades are calculated on the attributes that can be improved at the product model level.
+- Recommendations are given for attributes at the product model level.
+
+For **sub-product models**:
+![Image data quality sub product model panel](../img/data-quality-sub-model-panel.png)
+- Data quality grades are calculated based on the attributes that can be improved at the product model and sub-product model levels
+- Recommendations are given for attributes at the product model and sub-product model levels. By clicking on an attribute name, you can go and improve an attribute in the product model or sub-product model.
+
+For **variant products**:
+![Image data quality variant panel](../img/data-quality-variant-panel.png)
+- Data quality grades are calculated on the attributes that can be improved at all levels hence reflecting the data quality of the product that will be published. Data quality grades are therefore displayed in the left side bar only for product variant.
+- Recommendations are given for all attributes by clicking on an attribute name, you can go and improve an attribute in the product model, the sub-product model or the variant product.
 :::
