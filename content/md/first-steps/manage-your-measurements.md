@@ -32,7 +32,7 @@ To create a new measurement family, follow these steps:
 1.  The pop-in to create a measurement family is displayed
 1.  Enter the new measurement family code (this code is required and must be unique)
 1.  Fill in the label in the current [UI locale](manage-your-account.html#your-interface-default-language)
-1.  For the standard unit used to convert the other units of this measurement family, add the code (this code is required and must be unique), the label in the current [UI locale](manage-your-account.html#your-interface-default-language) and the symbol
+1.  For the **standard unit used to convert the other units of this measurement family**, add the code (this code is required and must be unique), the label in the current [UI locale](manage-your-account.html#your-interface-default-language) and the symbol
 1.  Click on `Save`
 
 The measurement family is now created and the screen to display and [add other units](#manage-units-in-a-measurement-family) opens.
@@ -45,6 +45,7 @@ The **standard unit** is set once and for all.
 
 :::info
 To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 measurement families. If you try to create more than 100 measurement families, you will receive a blocking message.  
+If you need more than 100 measurement families, please reach our support team and explain your use case.
 :::
 
 # Edit properties of a measurement family
@@ -75,7 +76,7 @@ Once you are on your measurement family edit form, go to the `Units` tab:
 ![Measurement family add unit](../img/Settings_Measurement_Families_Add_Unit.png)
 1.  Enter the new unit code (this code is required and must be unique)
 1.  Fill in the label in the current [UI locale](manage-your-account.html#your-interface-default-language) and the symbol
-1.  Enter the conversion operations to convert the unit to the standard unit (click on `Add new operation` to add several conversion operations, click on the cross to remove an operation)
+1.  Enter the **conversion operations to convert the unit to the standard unit** (click on `Add new operation` to add several conversion operations with their value and mathematical operator, click on the cross to remove an operation)
 1.  Click on `Add`, the screen with all the units opens
 ![Measurement family add unit](../img/Settings_Measurement_Families_Add_Unit_Labels.png)
 1.  Translate the labels of the added unit in the `Label translations` section
@@ -88,7 +89,7 @@ One conversion operation per unit is required and you can have a maximum of 5 co
 :::
 
 :::info
-If you have several conversion operations, the order of the conversion operations is important.  
+If you have several conversion operations, **the order of the conversion operations is important**.  
 For example, for the `Temperature` measurement family to convert the `Fahrenheit` unit to the standard unit `Kelvin`, you need to define 3 conversion operations:
 1. Subtract 32
 2. Divide by 1.8
@@ -106,6 +107,7 @@ If you have several units to add, you can stay in the `Add a new unit` pop-in to
 
 :::info
 To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 50 units per measurement family. If you try to create more than 50 units per measurement family, you will receive a blocking message.  
+If you need more than 50 measurement units per measurement family, please reach our support team and explain your use case.
 :::
 
 ## Edit a unit in a measurement family
@@ -117,7 +119,7 @@ Once you are on your measurement family edit form, go to the `Units` tab:
 1.  Click on the unit you want to edit in the list
 ![Measurement family edit unit](../img/Settings_Measurement_Families_Edit_Unit.png)
 1.  Edit its symbol
-1.  Edit its conversion operations (click on `Add new operation` to add several conversion operations, click on the cross to remove an operation)
+1.  Edit its conversion operations (click on `Add new operation` to add several conversion operations with their value and mathematical operator, click on the cross to remove an operation)
 1.  Translate the labels of the unit in the `Label translations` section
 1.  Click on `Save`
 
@@ -127,11 +129,11 @@ You can change the following properties of a unit:
 - *Label translations*: the translated labels for the unit for all the [UI locales](manage-your-account.html#your-interface-default-language)
 
 ::: info
-You can have a maximum of 5 conversion operations per unit.
+One conversion operation per unit is required and you can have a maximum of 5 conversion operations per unit.
 :::
 
 :::info
-If you have several conversion operations, the order of the conversion operations is important.  
+If you have several conversion operations, **the order of the conversion operations is important**.  
 For example, for the `Temperature` measurement family to convert the `Fahrenheit` unit to the standard unit `Kelvin`, you need to define 3 conversion operations:
 1. Subtract 32
 2. Divide by 1.8
@@ -156,20 +158,9 @@ The unit is deleted.
 If a [product attribute](manage-your-attributes.html#create-an-attribute) is linked to a measurement family, you won't be able to delete the measurement family.
 :::
 
-You have two ways to remove a measurement family.
-
-## From the measurement family form
 1. Go to `Settings/Measurements` to list the measurement families
 1. Click on the measurement family you want to delete
 1. Click on `...` for other actions and then `Delete measurement family` on the top right corner
-1. Confirm the action from the validation message
-
-The measurement family is deleted with all its units.
-
-## Through the delete shortcut in the grid
-1. Select the measurement family you want to remove from the measurement family grid
-1. Place your mouse over the line of the given measurement family, the button delete is prompted (trash can icon)
-1. Click on the trash can icon
 1. Confirm the action from the validation message
 
 The measurement family is deleted with all its units.
