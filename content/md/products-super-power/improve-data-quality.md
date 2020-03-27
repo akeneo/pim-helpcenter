@@ -88,7 +88,7 @@ For **product models**:
 - Data quality grades are calculated on the attributes that can be improved at the product model level.
 - Recommendations are given for attributes at product model level.
 
-For **sub-product model**:
+For **sub-product models**:
 ![Image data quality sub product model panel](../img/data-quality-sub-model-panel.png)
 - Data quality grades are calculated on the attributes that can be improved at product model + sub-product model levels
 - Recommendations are given for attributes at product model + sub-product model levels by clicking on an attribute name, you can go and improve an attribute on the product model.
