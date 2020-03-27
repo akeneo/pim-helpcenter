@@ -44,7 +44,7 @@ The **standard unit** is set once and for all.
 :::
 
 :::info
-To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 measurement families. If you try to create more than 100 measurement families, you will receive a blocking message.  
+To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 measurement families. You cannot create more than 100 measurement families.  
 If you need more than 100 measurement families, please reach our support team and explain your use case.
 :::
 
@@ -106,7 +106,7 @@ If you have several units to add, you can stay in the `Add a new unit` pop-in to
 :::
 
 :::info
-To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 50 units per measurement family. If you try to create more than 50 units per measurement family, you will receive a blocking message.  
+To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 50 units per measurement family. You cannot create more than 50 units per measurement family.  
 If you need more than 50 measurement units per measurement family, please reach our support team and explain your use case.
 :::
 
