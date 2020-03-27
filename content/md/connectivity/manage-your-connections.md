@@ -97,6 +97,24 @@ You may be tempted to declare the connections connecting to translation tools as
 That being said, even in this case, we advise you to choose between the two options, instead of choosing `Others`. The question you should ask yourself here is _"Do I wish to have a monitoring of the flows that are going out or the flows that are going in?"_.
 :::
 
+# Enable the tracking
+
+For each connection, you can choose whether you want to track it in the [connection dashboard](connection-dashboard.html).  
+To do so, select the `Track in the connection dashboard` checkbox, in the connection settings screen of the connection for which you want to enable the tracking.
+
+![Track checkbox](track-checkbox.html)
+
+::: warning
+`Others` connections can't be tracked. Indeed, we wouldn't know what to track about them.  
+If you want to track the data entering your PIM, [change your connection flow type](#choose-your-flow-type) to `Source`.  
+If you want to track the data that is pulled out of the PIM by your connector, [change your connection flow type](#choose-your-flow-type) to `Destination`.
+:::
+
+::: info
+You can deactivate the tracking whenever you want.  
+We will stop tracking the connection immediately and you won't be able to select it in the filters of the connection dashboard. However, all the data collected in the past for this connection will still be taken into account in KPIs that show sums for all your connections.
+:::
+
 # Grab your credentials
 
 Whenever you create a connection, the PIM automatically generates a set of credentials for you. These credentials are necessary if you want to make any API calls to the PIM. Don't hesitate to [learn more about the authentication over the API in our dedicated API website](https://api.akeneo.com/documentation/authentication.html).
