@@ -12,7 +12,7 @@ If you are not familiar with the concept of attributes, you can read the [What i
 # How to create an attribute?
 
 Akeneo proposes several types of attributes. Discover all attributes available in the [Introduction to Akeneo attribute types](what-is-an-attribute.html#definition-of-an-attribute) article. Make sure you pick the **most appropriate attribute type that perfectly matches your needs**.    
-For example, if you want to make sure that your PIM users will select one option from a list of predefined options, select a simple select attribute type instead of a free text field. Create a `Measurement` attribute to enter in the weight/size/length... of your products.
+For example, if you want to make sure that your PIM users will select one option from a list of predefined options, select a simple select attribute type instead of a free text field. Create a `Measurement` attribute to add a weight/size/length... for your products.
 
 To create an attribute in Akeneo PIM:
 1. Go to `Settings/Attributes`
