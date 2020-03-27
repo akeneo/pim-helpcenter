@@ -206,13 +206,13 @@ Only give UI permissions to user roles that are related to real users, not to [c
 
 | Permission name | Effect on the interface |
 |---------------------------|--------------|
-| Create a measurement family    | User can create a new measurement family with the `Create` button in the `Settings`/`Measurements` |
-| Delete a measurement family with its units| User can delete a measurement family with its units with the `Delete measurement family` button in the `...` dropdown on the top of the measurement family form|
-| Edit properties of a measurement family| User can edit the label translations of a measurement family in the `Properties` tab |
-| List measurements|  User can see and access all measurement families listed under the `Settings`/`Measurements` |
+| Create a measurement family    | User can create a new measurement family with the `Create` button under `Settings`/`Measurements` |
+| Delete a measurement family with its units| User can delete a measurement family with its units using the `Delete measurement family` button visible under the `...` dropdown at the top of the measurement family form|
+| Edit properties of a measurement family| User can edit the label translations of a measurement family under the `Properties` tab |
+| List measurements|  User can see and access all measurement families listed under `Settings`/`Measurements` |
 | Add a unit to a measurement family| User can add a unit to a measurement family with the `Add unit` button |
 | Delete a unit in a measurement family| User can delete a unit in a measurement family with the `Delete unit` button |
-| Edit units of a measurement family| User can edit the units of a measurement family in the `Units` tab |
+| Edit units of a measurement family| User can edit the units of a measurement family under the `Units` tab |
 
 ## Permissions on families
 
