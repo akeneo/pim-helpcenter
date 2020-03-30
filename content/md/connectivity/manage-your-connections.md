@@ -100,7 +100,7 @@ That being said, even in this case, we advise you to choose between the two opti
 # Enable the tracking
 
 For each connection, you can choose whether you want to track it in the [connection dashboard](connection-dashboard.html).  
-To do so, select the `Track in the connection dashboard` checkbox, in the connection settings screen of the connection for which you want to enable the tracking.
+To do so, select the `Track in the connection dashboard` checkbox, in the connection setting screen of the connection you want to track.
 
 ![Track checkbox](track-checkbox.html)
 
