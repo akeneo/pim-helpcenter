@@ -27,11 +27,11 @@ In this dashboard, you can easily track the following indicators from your sourc
 
 - the number of products that were **created** over the last 7 days for each source,
 ![Number of products created](../img/number-of-products-created.png)
-- the number of products that were **created** by all of them over the last 7 days,
+- the number of products that were **created** over the last 7 days by all your sources,
 ![Number of products created](../img/number-of-products-created-all-connections.png)
-- the number of products that were **updated** by each of them over the last 7 days.
+- the number of products that were **updated** over the last 7 days for each source,
 ![Number of products updated](../img/number-of-products-updated.png)
-- the number of products that were **updated** by all of them over the last 7 days.
+- the number of products that were **updated** over the last 7 days by all your sources.
 ![Number of products updated](../img/number-of-products-updated-all-connections.png)
 
 You can easily switch the source connection you want to monitor by clicking on the following dropdown.

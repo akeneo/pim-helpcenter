@@ -112,7 +112,7 @@ If you want to track the data that is pulled out of the PIM by your connector, [
 
 ::: info
 You can deactivate the tracking whenever you want.  
-We will stop tracking the connection immediately and you won't be able to select it in the filters of the connection dashboard. However, all the data collected in the past for this connection will still be taken into account in KPIs that show sums for all your connections.
+We will stop tracking the connection immediately and you won't be able to select it in the filters of the connection dashboard. However, note that all the data collected up to that point for this connection will still appear in some KPIs.
 :::
 
 # Grab your credentials
