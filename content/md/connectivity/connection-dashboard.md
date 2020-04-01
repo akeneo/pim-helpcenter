@@ -25,14 +25,10 @@ In this dashboard, for now, you can monitor both your source and destination con
 # Source connection monitoring
 In this dashboard, you can easily track the following indicators from your source connections:
 
-- the number of products that were **created** over the last 7 days for each source,
-![Number of products created](../img/number-of-products-created.png)
-- the number of products that were **created** over the last 7 days by all your sources,
-![Number of products created](../img/number-of-products-created-all-connections.png)
-- the number of products that were **updated** over the last 7 days for each source,
-![Number of products updated](../img/number-of-products-updated.png)
-- the number of products that were **updated** over the last 7 days by all your sources.
-![Number of products updated](../img/number-of-products-updated-all-connections.png)
+- the number of products that were **created** and **updated** over the last 7 days for each source,
+![Number of products created by each source](../img/number-of-products-created-updated.png)
+- the number of products that were **created** and **updated** over the last 7 days by all your sources.
+![Number of products created by all sources](../img/number-of-products-created-updated-all-connections.png)
 
 You can easily switch the source connection you want to monitor by clicking on the following dropdown.
 
@@ -41,9 +37,9 @@ You can easily switch the source connection you want to monitor by clicking on t
 # Destination connection monitoring
 In this dashboard, you can easily track the following indicators from your destination connections:
 - the number of products **sent** to each of your destinations over the last 7 days,
-![Number of products created](../img/number-of-products-sent.png)
+![Number of products sent](../img/number-of-products-sent.png)
 - the total number of products **sent** to all of your destinations over the last 7 days.
-![Number of products created](../img/number-of-products-sent-all-connections.png)
+![Number of products sent](../img/number-of-products-sent-all-connections.png)
 
 You can easily switch the destination connection you want to monitor by clicking on the following dropdown.
 
