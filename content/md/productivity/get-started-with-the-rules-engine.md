@@ -176,7 +176,7 @@ For instance, the following actions will **disable** the product and set its **f
         value:
            - casual
            - women
-      - type: groups
+      - type: set
         field: groups
         value:
           - summer
