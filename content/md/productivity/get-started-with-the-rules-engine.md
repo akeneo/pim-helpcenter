@@ -130,7 +130,7 @@ To add the “t-shirts” category to a set of products, the action will be as f
 
 #### Add associations
 
-The `add` action can also associate **products/product models/groups** without removing already associated ones. You can choose to only associate products or product models or groups, or any combination of those.
+The `add` action can also associate **products/product models/groups** without removing previously associated ones. You can choose to only associate products or product models or groups, or any combination you like.
 
 For instance, the following action will associate the `product_42` product and the `tshirt` group to your product (while **keeping previously associated products and groups**), and **won't update the associated product models**.
 
