@@ -21,7 +21,7 @@ We provide this migration strategy as the simplest and easiest way, but we recom
 We recommend you using this migration if you have a simple usage of our former PAM and **you only have one type of asset** (for example, you only manage images) because all assets will be gathered in a single asset family.
 
 # What will my asset family look like?
-The asset families that will be created could contain the following attributes:
+The asset family that will be created could contain the following attributes:
 - `reference` (*media_file attribute*): containing the reference file of the PAM asset. This `reference` attribute is used `as main media` for this family.
 - `reference_localizable` (*media_file attribute*): an attribute with a value per locale containing the reference file of the asset for each locale, if the asset was localizable in the PAM
 - `variation_scopable` (*media_file attribute*): an attribute with a value per channel containing the asset variation file for each channel
@@ -123,7 +123,7 @@ In the new Asset Manager, **transformations are no longer mandatory**.
 
 So if you were used to having fake transformations (resize 100% or 99%) in the PAM in order to keep your reference file as it was, the only thing you need to do now is to remove the existing variation files migrated.
 
-To do it, you just have to [delete the attribute](manage-asset-families.html#delete-an-attribute)`variation_scopable` and `variation_scopable_localizable` in the family.
+To do it, you just have to [delete the attribute](manage-asset-families.html#delete-an-attribute) `variation_scopable` and `variation_scopable_localizable` in the family.
 
 And to not define any transformation ;-)
 
