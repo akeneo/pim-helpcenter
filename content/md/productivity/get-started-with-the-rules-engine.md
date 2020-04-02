@@ -128,9 +128,28 @@ To add the “t-shirts” category to a set of products, the action will be as f
             - t-shirts
 ```
 
+#### Add associations
+
+The `add` action can also associate **products/product models/groups** without removing previously associated ones. You can choose to only associate products or product models or groups, or any combination you like.
+
+For instance, the following action will associate the `product_42` product and the `tshirt` group to your product (while **keeping previously associated products and groups**), and **won't update the associated product models**.
+
+```YML
+  actions:
+      - type: add
+        field: associations
+        items:
+            X_SELL:
+                products:
+                  - product_42
+                groups:
+                  - tshirts
+```
+
 ## Set
 
-The `Set` action assigns value(s) to every attributes, categories, family, groups, or the "enabled" field.
+The `Set` action assigns values to the following properties: categories, status (enabled/disabled), groups, family, associations.
+Beware, the previous values will be replaced by the new ones.
 
 The expected values are:
 - `field`: the attribute code or property
@@ -142,14 +161,51 @@ The expected values are:
 
 To set the *“My very new description for purple T-shirt”* value to your `description` attribute in the `en_US` locale and for the `e-commerce` channel, the action will be as follows:
 
+For instance, the following actions will **disable** the product and set its **family** to `shoes`. It will also **categorize** it in `casual` and `women` (while uncategorizing it from its previous categories), and **add** it to the `summer` group (while removing it from its previous groups).
+
 ```YML
   actions:
-      - type:   set
-          field:  description
-          locale: en_US
-          scope:  ecommerce
-          value:  "My very new description for purple tshirt"
+      - type: set
+        field: enabled
+        value: false
+      - type: set
+        field: family
+        value: shoes
+      - type: set
+        field: categories
+        value:
+           - casual
+           - women
+      - type: set
+        field: groups
+        value:
+          - summer
 ```
+
+#### Set associations
+
+Just like for the add action, you can choose to associate any combination of **products**, **product_models** or **groups** for each association type.
+You can decide which associated **products**, **product_model** or **groups** you want to update. The other ones will not be updated.
+
+In the example below, you can see that the following action will **replace the associated products** for the `X_SELL` association, but **won't replace associated product models or groups**.  
+And for the `UPSELL` association, it will **replace the associated product models and groups but not the associated products**.
+
+```YML
+  actions:
+      - type: set
+        field: associations
+        value:
+            X_SELL:
+                products:
+                  - product_42
+                  - another_product
+            UPSELL:
+                product_models:
+                  - amor
+                groups:
+                  - tshirts
+```
+
 
 ## Remove
 
