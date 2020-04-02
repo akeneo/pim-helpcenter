@@ -186,8 +186,8 @@ For instance, the following actions will **disable** the product and set its **f
 
 Just like for the add action, you can choose to associate any combination of **products**, **product_models** or **groups** for each association type.
 
-For instance, the following action will replace the associated products for X_SELL, but won't update associated product models or groups.
-On the opposite, it will replace its associated product models and groups for UPSELL association, but won't update associated products.
+In the example below, you can see that the following action will replace the associated products for X_SELL, but won't replace associated product models or groups.
+And for the UPSELL association, it will replace the associated product models and groups but not the associated products.
 
 ```YML
   actions:
