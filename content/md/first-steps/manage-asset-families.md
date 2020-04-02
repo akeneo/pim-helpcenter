@@ -221,7 +221,7 @@ To delete an attribute, follow these steps:
 1.  Click on the `Edit` icon of the attribute you want to delete
 1.  An edit pop-in opens with the attribute parameters
 1.  Click on `Delete the attribute`
-1.  A confirmation pop-in opens to confirm that you want to delete the attributes
+1.  A confirmation pop-in opens to confirm that you want to delete the attribute
 1.  Click on the `Delete` button
 
 ::: warning
