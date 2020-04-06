@@ -267,10 +267,6 @@ This rule is launched by the PIM after the asset creation.
 
 The product link rule format is quite technical to define but if you want to go deeper into this powerful feature, [this article](assets-product-link-rules.html) is made for you ;)
 
-:::warning
-The product link rule is only available to link assets to products. Yet, linking assets to product models has to be done manually, for now.
-:::
-
 :::info
 You can have up to two different product link rules for one given asset family.
 :::
