@@ -65,7 +65,7 @@ You can only copy the given attribute to a selection of attribute types that we 
 The date will be copied into the ISO 8601 format (ex: 2019-01-25T12:00:00+01:00).
 :::
 
-#### You can copy the value of a **metric** attribute to:
+#### You can copy the value of a **measurement** attribute to:
 - a **text** attribute
 - a **textarea** attribute
 - a **number** attribute
@@ -73,7 +73,7 @@ The date will be copied into the ISO 8601 format (ex: 2019-01-25T12:00:00+01:00)
 #### You can copy the value of a **number** attribute to:
 - a **text** attribute
 - a **textarea** attribute
-- a **metric** attribute
+- a **measurement** attribute
 
 #### You can copy the value of a **price** attribute to:
 - a **text** attribute
@@ -265,7 +265,7 @@ The possible source attribute types are:
  - textarea
  - date
  - identifier
- - metric
+ - measurement
  - number
  - price collection
  - simple select
@@ -529,9 +529,9 @@ value: "Awesome product"
 ```
 **text** can be written with or without quotation marks.
 
-## Metric
+## Measurement
 
-The possible operators for the `metric` attribute type are:  
+The possible operators for the `measurement` attribute type are:  
 - <
 - <=
 - =
