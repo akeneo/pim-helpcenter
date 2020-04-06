@@ -40,6 +40,10 @@ You will be able to download two different file types:
 - the asset attributes in a CSV/XLSX file
 - the asset attributes + the binaries (the images, documents, etc.) in a zip file.
 
+:::info
+If you export assets with files that are stored externally (meaning that you use the `media link` attribute type), you will find the url of the asset in the CSV/XLSX file :wink:
+:::
+
 
 #### Download the file with the media attached
 
