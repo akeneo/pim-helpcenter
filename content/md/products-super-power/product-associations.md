@@ -33,7 +33,8 @@ Only the associated products or [product models](what-about-products-variants.ht
 ![View the associated products](../img/Products_ProductsAssociated21.png)
 
 :::info
-The number of associations for a product or a product model is displayed in total and by association type.
+The number of associations for a product or a product model is displayed in total (after the `Associations` tab label) and by association type (in the `Association type` list).
+![View the number of associations](../img/Products_ProductsAssociatedNumber.png)
 :::
 
 By default, if the product has no association for the selected association type, nothing is displayed in the `Associations` tab.
@@ -47,7 +48,7 @@ By default, if the product has no association for the selected association type,
 1.  Click on an associated product or product model
 1.  The associated product or product model opens in a new tab
 
-![View the associated products](../img/Products_ProductsAssociated21.png)
+![Open the associated products](../img/Products_ProductsOpenAssociated.png)
 
 # Add/remove associations to/from a product
 
