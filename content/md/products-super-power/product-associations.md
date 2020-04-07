@@ -33,7 +33,7 @@ Only the associated products or [product models](what-about-products-variants.ht
 ![View the associated products](../img/Products_ProductsAssociated21.png)
 
 :::info
-The number of associations for a product or a product model is displayed in total (after the `Associations` tab label) and by association type (in the `Association type` list).
+The total number of associations is displayed per product or product model (the figure is visible after the `Associations` tab label) and per association type (figure visible in the `Association type` list).
 ![View the number of associations](../img/Products_ProductsAssociatedNumber.png)
 :::
 
