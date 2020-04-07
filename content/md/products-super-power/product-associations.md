@@ -32,9 +32,23 @@ Only the associated products or [product models](what-about-products-variants.ht
 
 ![View the associated products](../img/Products_ProductsAssociated21.png)
 
+:::info
+The total number of associations is displayed per product or product model (the figure is visible after the `Associations` tab label) and per association type (figure visible in the `Association type` list).
+![View the number of associations](../img/Products_ProductsAssociatedNumber.png)
+:::
+
 By default, if the product has no association for the selected association type, nothing is displayed in the `Associations` tab.
 
 ![No association](../img/Products_ProductsNoAssociation.png)
+
+# Open an associated product
+1.  Open the Product Form
+1.  Click on the `Associations` tab
+1.  Select the association type
+1.  Click on an associated product or product model
+1.  The associated product or product model opens in a new tab
+
+![Open the associated products](../img/Products_ProductsOpenAssociated.png)
 
 # Add/remove associations to/from a product
 
