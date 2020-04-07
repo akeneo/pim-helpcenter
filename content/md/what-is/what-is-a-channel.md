@@ -18,14 +18,11 @@ It works like a filter on the product catalog and has the following properties:
 - It has one or more enabled [locales](what-is-a-locale.html)
 - It has one or several currencies
 - It has a dedicated [completeness](what-is-the-completeness.html)  
+- It has its own measurement conversions.
 
 ::: tips
 A channel is also known as a **scope** in Akeneo PIM.
 :::
-
-Additional properties:
-- It has its own [asset transformations](assets-transformation.html)
-- It has its own metric conversions.
 
 ## How many channels do I need?
 
