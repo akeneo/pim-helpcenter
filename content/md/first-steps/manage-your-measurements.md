@@ -21,7 +21,7 @@ To see all your measurement families, edit them or create a new one, go to the `
 
 ![List of measurement families](../img/Settings_Measurement_Families.png)
 
-You can use the label or the code to search your measurement families. You can also sort all the columns.
+Type in a family code or label in the search bar to find a measurement family. You can also sort measurement family information using the columns in the grid.
 
 # How to create a measurement family?
 
@@ -45,7 +45,7 @@ The **standard unit** is set once and for all.
 
 :::info
 To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 measurement families. You cannot create more than 100 measurement families.  
-If you need more than 100 measurement families, please reach our support team and explain your use case.
+If you need more than 100 measurement families, please reach out to our support team and inform them about your use case.
 :::
 
 # Edit properties of a measurement family
@@ -107,7 +107,7 @@ If you have several units to add, you can stay in the `Add a new unit` pop-in to
 
 :::info
 To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 50 units per measurement family. You cannot create more than 50 units per measurement family.  
-If you need more than 50 units per measurement family, please reach our support team and explain your use case.
+If you need more than 50 units per measurement family, please reach out to our support team and inform them about your use case.
 :::
 
 ## Edit a unit in a measurement family
