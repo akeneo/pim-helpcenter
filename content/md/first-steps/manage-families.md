@@ -242,7 +242,7 @@ An attribute of the family could be a **variant axis** only if its attribute typ
 - **Simple select**
 - **Simple reference data**
 - **Reference entity single link** _(EE only)_
-- **Metric**
+- [**Measurement**](what-about-measurements.html)
 - **Boolean (Yes/No)**       
 
 You cannot use scopable and/or localizable or locale specific attributes as variant axis.
