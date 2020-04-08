@@ -1,6 +1,6 @@
 ---
 id: what-about-measurements
-themes: first-steps
+themes: first-steps, akeneo-concepts
 title: What about **measurements**?
 popular: false
 ee-only: false
