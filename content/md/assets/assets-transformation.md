@@ -30,7 +30,7 @@ For each transformation, we define:
 You can have up to **10** different transformations for one given asset family and each transformation can perform several operations.
 :::
 
-You can define the asset transformations via the [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) or directly in the PIM user interface, by editing a JSON field.
+You can define the asset transformations via the [API](https://api.akeneo.com/documentation/asset-manager.html#introduction) or directly in the PIM user interface, by editing a JSON field.
 
 ![Assets Transformations Format](../img/Assets_TransformationsFormat.png)
 
