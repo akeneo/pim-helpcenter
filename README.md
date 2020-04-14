@@ -32,7 +32,14 @@ Once you merge a PR into the `Serenity` branch, it is automatically deployed on 
 
 ### Manual
 
-In case you want to re deploy the Serenity documentation, [look at the latest deployment](https://app.circleci.com/pipelines/github/akeneo/pim-helpcenter?branch=master), click on _Deployment_ and then, once the page is loaded click on _Rerun_.
+In case you want to re deploy the Serenity documentation, [look at the latest merge in master](https://app.circleci.com/pipelines/github/akeneo/pim-helpcenter?branch=master) and click on _Deployment_.
+
+![List of merged PR in master](.circleci/list_workflows.jpg)
+
+Then click on _Rerun_.
+
+![Re run a deployment](.circleci/re_run.jpg)
+
 
 ## Dropdown to choose the documentation version
 
