@@ -34,7 +34,7 @@ Once you merge a PR into the `v2` branch, it is automatically deployed on the pr
 
 In case you want to re deploy the documentation of the v2, [look at the latest merge in the `v2` branch](https://app.circleci.com/pipelines/github/akeneo/pim-helpcenter?branch=v2) and click on _Deployment_.
 
-![List of merged PR in master](.circleci/list_workflows.png)
+![List of merged PR in v2](.circleci/list_workflows.png)
 
 Then click on _Rerun_.
 
