@@ -22,36 +22,23 @@ make watch
 The help center website is then available on `http://localhost:8000/pim/v2/`.
 Files located in the content and src directories are watched for changes, so when developing or writing new articles you do not need to launch any other task.
 
-## Deployment
+## Deployment of the documentation for the PIM 2.x
 
-### With Circle CI (recommended)
+### Automatic
 
-Once you merge a PR into the `v2` branch, it is automatically deployed on the staging server. In order to deploy it in production, please follow these steps:
+The `v2` branch is the documentation of the PIM 2.x.
 
-- Check the staging environment if everything is ok to be deployed in production
-- Open [the list of merged PR in v2 branch](https://circleci.com/gh/akeneo/workflows/pim-helpcenter/tree/v2) in Circle CI. You have to be connected with your Github account.
-- Click on the first row which should be "On hold"
+Once you merge a PR into the `v2` branch, it is automatically deployed on the production server, hence updating the documentation for the PIM 2.x. You have nothing to do.
 
-![List of merged PR in master](.circleci/list_workflows.jpg)
+### Manual
 
-- Click on the box "approve_to_deploy_in_production" and approve. It will launch the deployment in production.
+In case you want to re deploy the documentation of the v2, [look at the latest merge in the `v2` branch](https://app.circleci.com/pipelines/github/akeneo/pim-helpcenter?branch=v2) and click on _Deployment_.
 
-![List of jobs in a workflow](.circleci/list_jobs.jpg)
+![List of merged PR in v2](.circleci/list_workflows.png)
 
-- It's deployed in production in 1 minute!
+Then click on _Rerun_.
 
-### Local deployment (not recommended)
-
-Your public SSH key should be deployed on the server (see Ansible configuration). It is strongly recommended to release with the CI process though.
-
-```bash
-HOSTNAME=xxx PORT=xxx make deploy
-```
-
-HOSTNAME is the server to deploy the documentation on.
-PORT is the SSH port to connect to the server.
-
-To know the production and staging environments of pim-helpcenter, please read the [inventory](https://github.com/akeneo/ansible/blob/master/inventories/core.inventory).
+![Re run a deployment](.circleci/re_run.png)
 
 ## Documentation contribution
 
