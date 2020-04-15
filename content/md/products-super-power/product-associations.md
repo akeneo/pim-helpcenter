@@ -19,7 +19,7 @@ This type of relationship enables you to define relationships like an alternativ
 
 To check the association types:
 1.  Open the relevant product edit form
-1. rigolo
+1. rigolol
 1.  Click on the `Associations` tab
 1.  Click on the association type name on the left-hand side
 1.  Click on the `Show groups` button on the right-hand side of the tab to display the product groups grid
