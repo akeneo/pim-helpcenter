@@ -28,7 +28,7 @@ The idea of the naming convention feature is to be able to extract those pieces 
 Just a reminder but an important one for you to better understand what is coming next: *the product link rule is based on asset attributes* :wink:
 
 By defining a naming convention, for each [asset family](what-about-assets.html#what-is-an-asset-family), the PIM will be able to split the asset code or the main media filename, in order to extract the information you want and use it to populate asset attributes.
-This operation is done automatically by the PIM upon each asset creation.
+This operation is automatically done by the PIM upon each asset creation.
 
 ::: info
 This naming convention is defined at the asset family level.
@@ -36,7 +36,7 @@ This naming convention is defined at the asset family level.
 
 The naming convention can be defined via the API or directly in the PIM UI, in the `Product Link Rules` tab of each asset family.
 
-![Assets Naming Convention](../img/Assets_NamingConvention.png)
+![Assets Naming Convention](../img/Assets_NamingConventionNew.png)
 
 ### The format of the naming convention
 
@@ -120,7 +120,11 @@ Now that you know how the naming convention feature works, we can go on discover
 
 As said above, the product link rule is very useful when you can automate the link between assets and products.
 
-This rule is defined at the asset family level and it is launched by the PIM after the asset is created.
+This rule is defined at the asset family level and it is automatically launched by the PIM after the asset is created.
+
+:::tips
+If your product link rule came to change afterwards, you could easily execute it again thanks to the `Execute rules` button.
+:::
 
 You can define the product link rules via the [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) or directly in the PIM user interface, by editing a JSON field. The format is exactly the same in the API and in the PIM interface.
 
@@ -141,7 +145,7 @@ A product link rule is divided into two parts:
 A piece of advice: when defining two different rules on an asset family, make sure you define different product selections in each rule. Why? Because you could experience performance issues. If you want to assign your assets to two different product attributes on a given selection of products, use one single rule, with two assignments in the `assign_assets_to` field. See the [Product value assignment](#product-value-assignment) section for an example.
 :::
 
-![Product Link Rules](../img/Assets_ProductLinkRules.png)
+![Product Link Rules](../img/Assets_ProductLinkRulesNew.png)
 
 Looks difficult? Don't freak out! The following sections are here to help you understand this rule and how you can make the most of it. You'll see, it's super powerful! 😃
 
