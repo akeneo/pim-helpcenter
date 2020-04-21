@@ -358,28 +358,28 @@ The action is split into 3 different parts:
 
 **destination**: the value you want to update. It is composed of:
 
-- `field`: the attribute code (required)
-- `locale`: locale code if the attribute is localizable (optional)
-- `scope`: channel code if the attribute is scopable (optional)
-- `currency`: currency code if the attribute is a price collection (optional)
-- `unit`: unit code if the attribute is a measurement (optional, the default measurement unit of the attribute will be used if not set)
+- `field`: the attribute code *(required)*
+- `locale`: locale code if the attribute is localizable *(optional)*
+- `scope`: channel code if the attribute is scopable *(optional)*
+- `currency`: currency code if the attribute is a price collection *(optional)*
+- `unit`: unit code if the attribute is a measurement *(optional, the default measurement unit of the attribute will be used if not set)*
 
 **source**: the first operand of the operation. It requires at least either a value or a field and additional items. For instance, you can have:
 
-- `value`: a constant numeric value - decimal separator: dot, no thousands separator, e.g: ``1515.14`` (required)
+- `value`: a constant numeric value - decimal separator: dot, no thousands separator, e.g: *1515.14* *(required)*
 
 OR:
 
-- `field`: attribute code of the source value (required)
-- `locale`: locale code if the attribute is localizable (optional)
-- `scope`: channel code if the attribute is scopable (optional)
-- `currency`: currency code if the attribute is a price collection (optional)
+- `field`: attribute code of the source value *(required)*
+- `locale`: locale code if the attribute is localizable *(optional)*
+- `scope`: channel code if the attribute is scopable *(optional)*
+- `currency`: currency code if the attribute is a price collection *(optional)*
 
-**operation_list**: the list of operations to execute (at least one operation is required)
+**operation_list**: the list of operations to execute *(at least one operation is required)*
 
 It is exactly the same format as the **source** property, with an additional required field:
 
-- `operator`: can be either *add*, *subtract*, *multiply* or *divide* (required)
+- `operator`: can be either *add*, *subtract*, *multiply* or *divide* *(required)*
 
 ::: warning
 The operations are applied in the order they are provided, regardless of any mathematical priority.
