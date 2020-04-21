@@ -18,13 +18,14 @@ This feature is very, like, really powerful, and the use cases are countless. In
 
 # Available actions
 
-As of today, 6 actions are available in the rules engine:
+As of today, 7 actions are available in the rules engine:
 - copy
 - add
 - set
 - remove
 - concatenate
 - clear
+- calculate
 
 What are these actions for? Let's discover it :wink:
 
@@ -346,6 +347,97 @@ To clear all the product associations, the action will be as follows:
     - type: clear
       field: associations
 ```
+
+## Calculate
+
+This action allows calculating numeric attribute values, with simple mathematical operations (addition, subtraction, multiplication, and division).
+
+This action only accepts number, measurement or price collection attributes for both the source and the destination.
+
+The action is split into 3 different parts:
+
+**destination**: the value you want to update. It is composed of:
+
+- `field`: the attribute code (required)
+- `locale`: locale code if the attribute is localizable (optional)
+- `scope`: channel code if the attribute is scopable (optional)
+- `currency`: currency code if the attribute is a price collection (optional)
+- `unit`: unit code if the attribute is a measurement (optional, the default measurement unit of the attribute will be used if not set)
+
+**source**: the first operand of the operation. It requires at least either a value or a field and additional items. For instance, you can have:
+
+- `value`: a constant numeric value - decimal separator: dot, no thousands separator, e.g: ``1515.14`` (required)
+
+OR:
+
+- `field`: attribute code of the source value (required)
+- `locale`: locale code if the attribute is localizable (optional)
+- `scope`: channel code if the attribute is scopable (optional)
+- `currency`: currency code if the attribute is a price collection (optional)
+
+**operation_list**: the list of operations to execute (at least one operation is required)
+
+It is exactly the same format as the **source** property, with an additional required field:
+
+- `operator`: can be either *add*, *subtract*, *multiply* or *divide* (required)
+
+::: warning
+The operations are applied in the order they are provided, regardless of any mathematical priority.
+For instance, 5 - 3 + 2 x 5 will result in ((5 - 3) + 2) x 5) = 20
+:::
+
+If a product value required in an operation is empty, or if a division by zero occurs, the product won't be updated.
+
+### Examples
+
+For instance, in order to calculate the volume of a cone (volume = (¶ x R² x h) / 3), given a radius and a height, you can use the following action:
+
+```YML
+  actions:
+      - type: calculate
+        destination:
+          field: volume
+          unit: CUBE_CENTIMETER
+        source:
+          value: 3.14
+        operation_list:
+          - operator: multiply
+            field: radius
+          - operator: multiply
+            field: radius
+          - operator: multiply
+            field: height
+          - operator: divide
+            value: 3
+```
+
+The following action will calculate a price in euros, based on the price in dollars and a ratio:
+
+```YML
+  actions:
+      - type: calculate
+        destination:
+          field: price
+          scope: ecommerce
+          currency: EUR
+        source:
+          field: price
+          scope: ecommerce
+          currency: USD
+        operation_list:
+          - operator: multiply
+            field: ratio
+```
+
+::: warning
+When using measurement attributes, their value will be converted to the default measurement unit defined for the attribute.
+For instance, a `Length` attribute can have a 'CENTIMETER' default unit and yet its value for the product is 1 INCH. In that case, the value will be converted to 2.54 (1 inch = 2.54 cm).
+:::
+
+::: warning
+Also, no consistency check is performed regarding the units, you can perfectly multiply a frequency by a length, and put the result in a price attribute, even if it makes no sense :)
+:::
+
 
 # Available fields
 
