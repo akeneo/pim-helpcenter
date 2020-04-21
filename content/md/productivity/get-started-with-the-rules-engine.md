@@ -151,7 +151,7 @@ For instance, the following action will associate the `product_42` product and t
 
 ## Set
 
-The `Set` action assigns values to the following properties: categories, status (enabled/disabled), groups, family, associations.
+The `Set` action assigns values to attributes but also to the following properties: categories, status (enabled/disabled), groups, family, associations.
 Beware, the previous values will be replaced by the new ones.
 
 The expected values are:
