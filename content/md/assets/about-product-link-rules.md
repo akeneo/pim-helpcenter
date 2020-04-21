@@ -28,7 +28,7 @@ The idea of the naming convention feature is to be able to extract those pieces 
 Just a reminder but an important one for you to better understand what is coming next: *the product link rule is based on asset attributes* :wink:
 
 By defining a naming convention, for each [asset family](what-about-assets.html#what-is-an-asset-family), the PIM will be able to split the asset code or the main media filename, in order to extract the information you want and use it to populate asset attributes.
-This operation is automatically done by the PIM upon each asset creation.
+This operation is automatically run by the PIM during each asset creation.
 
 ::: info
 This naming convention is defined at the asset family level.
@@ -119,7 +119,7 @@ As said above, the product link rule is very useful when you can automate the li
 This rule is defined at the asset family level and it is automatically launched by the PIM after the asset is created.
 
 :::tips
-If your product link rule came to change afterwards, you could easily execute it again thanks to the `Execute rules` button.
+If your product link rule happened to change afterward, you could easily execute it again thanks to the `Execute rules` button.
 :::
 
 You can define the product link rules via the [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) or directly in the PIM user interface, by editing a JSON field. The format is exactly the same in the API and in the PIM interface.
