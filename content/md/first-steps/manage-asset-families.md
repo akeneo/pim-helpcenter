@@ -98,6 +98,10 @@ Note that there is no preview for the `other` media type.
 The prefix and suffix are not mandatory.
 :::
 
+::: warning
+The PIM cannot ensure that what you are currently seeing in a `media link` attribute is still what is externally stored. That's why we strongly recommend using one url per one media. **As soon as your media stored externally changes, the best practice is to change its url in the PIM**. 
+:::
+
 #### Specificity for Youtube and Vimeo links
 If you want to use a Youtube or a Vimeo url link in your asset, you have to put the ID of the video, not the entire url link.
 
