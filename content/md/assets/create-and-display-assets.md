@@ -52,7 +52,7 @@ To mass upload assets:
 ![Mass upload assets list](../img/Assets_MassUploadList.png)
 
 ::: tips
-The code in automatically filled based on the filename but you can edit it directly in this screen. It cannot be edited afterwards.
+The code is automatically filled based on the filename but you can edit it directly in this screen. It cannot be edited afterwards.
 :::
 
 ::: info
