@@ -1,0 +1,17 @@
+{
+  "04-2020": {
+    "title": "April Serenity updates",
+    "description": "Those are the new updates lo! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "img": "illus-april-20.svg"
+  },
+  "03-2020": {
+    "title": "March Serenity updates",
+    "description": "Those are the new updates lo! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "img": "illus-march-20.svg"
+  },
+  "02-2020": {
+    "title": "February Serenity updates",
+    "description": "Those are the new updates lo! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "img": "illus-february-20.svg"
+  }
+}
