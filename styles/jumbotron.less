@@ -1,5 +1,6 @@
 .jumbotron{
     background-color: @gray-lighter;
+    margin-bottom: 0;
     &.jumbotron-search{
         padding: @spacing-base/10 0 @spacing-base 0;
     }
@@ -51,6 +52,19 @@
             font-size: 30px;
             margin-top: 75px;
             color: @headings-color;
+        }
+    }
+    &.jumbotron-serenity-banner{
+        background-color: lighten(@gray-lighter,2%);
+        padding-top: @spacing-base/3;
+        padding-bottom: @spacing-base/5;
+        img{
+            vertical-align: text-bottom;
+        }
+        b{
+            color: @headings-color;
+            font-size:  @font-size-base*1.2;
+            font-style: italic;
         }
     }
 }
