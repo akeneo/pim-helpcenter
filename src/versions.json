@@ -1,16 +1,19 @@
 [
   {
     "url": "/pim/v4/",
+    "version": "v4",
     "label": "v4 EE/CE",
     "suffix_with_filename": true
   },
   {
     "url": "/pim/v3/",
+    "version": "v3",
     "label": "v3 EE/CE",
     "suffix_with_filename": true
   },
   {
     "url": "/pim/v2/",
+    "version": "v2",
     "label": "v2 EE/CE",
     "suffix_with_filename": true
   },

@@ -29,6 +29,9 @@ const updateVersions = function() {
                         filepath = versionsDom.dataset.filepath;
                         link.href = version.suffix_with_filename ? version.url + filepath : version.url;
                         versionsDom.appendChild(link);
+                        if(version.version === versionsDom.dataset.majorVersion){
+                            versionsDom.classList.add("active");
+                        }
                     } else {
                         versionsDom = document.getElementById('version-dropdown');
                         filepath = versionsDom.dataset.filepath;
