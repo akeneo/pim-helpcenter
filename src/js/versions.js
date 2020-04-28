@@ -20,15 +20,26 @@ const updateVersions = function() {
     getJSON('/pim/versions.json',
         function (err, data) {
             if (err === null) {
-                const versionsDom = document.getElementById('versions');
-                const filepath= versionsDom.dataset.filepath;
-                data.forEach(function (version) {
-                    var node = document.createElement('li');
+                data.forEach(function (version, key) {
+                    var versionsDom, filepath;
                     var link = document.createElement('a');
-                    link.href = version.suffix_with_filename ? version.url + filepath : version.url;
                     link.innerHTML = version.label;
-                    node.appendChild(link);
-                    versionsDom.appendChild(node);
+                    if(key === 0) {
+                        versionsDom = document.getElementById('last-EE-version');
+                        filepath = versionsDom.dataset.filepath;
+                        link.href = version.suffix_with_filename ? version.url + filepath : version.url;
+                        versionsDom.appendChild(link);
+                        if(version.version === versionsDom.dataset.majorVersion){
+                            versionsDom.classList.add("active");
+                        }
+                    } else {
+                        versionsDom = document.getElementById('version-dropdown');
+                        filepath = versionsDom.dataset.filepath;
+                        link.href = version.suffix_with_filename ? version.url + filepath : version.url;
+                        var node = document.createElement('li');
+                        node.appendChild(link);
+                        versionsDom.appendChild(node);
+                    }
                 });
             }
         }
