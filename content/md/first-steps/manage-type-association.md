@@ -44,7 +44,7 @@ To create an 1-way association type:
 1.  Click on Save
 
 The association type has now been created and the edit page is displayed.  
-The labels can be changed.
+The labels can be updated after the creation
 
 ## Create a 2-way association type
 
