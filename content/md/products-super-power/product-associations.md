@@ -19,7 +19,6 @@ This type of relationship enables you to define relationships like an alternativ
 
 To check the association types:
 1.  Open the relevant product edit form
-1. rigolo
 1.  Click on the `Associations` tab
 1.  Click on the association type name on the left-hand side
 1.  Click on the `Show groups` button on the right-hand side of the tab to display the product groups grid
@@ -63,6 +62,11 @@ To add associations, there is a picker to select products or [product models](wh
   ![Add association](../img/Products_ProductsAddAssociation.png)
 1.  The picker to select product or product models opens
   ![Add association](../img/Products_ProductsPickerAssociation.png)
+
+    :::info
+    Note that on the product picker, users can display all products from the catalog, including products they have no permission to edit. Users might as well associate products with the 2-way association when they have no permission to do so. Please see [2-way association](manage-your-association-types.html#create-a-2-way-association-type) for more information.
+    :::
+
 1.  Filter on the categories, on the label or identifier or add filters to find the products or product models to associate
 1.  Tick in the grid the products or product models to associate, they are displayed in the basket
   ![Add association](../img/Products_ProductsBasketAssociation.png)
@@ -86,3 +90,7 @@ To remove an association:
 1.  Click on the `Save` button
 
 ![Remove associations](../img/Products_ProductsRemoveAssociation.png)
+
+:::info
+When removing a [2-way association](manage-your-association-types.html#create-a-2-way-association-type), the association is removed from both sides.
+:::
