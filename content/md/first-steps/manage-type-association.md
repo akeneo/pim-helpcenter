@@ -40,7 +40,7 @@ You must have the permission to create an association type from the PIM.
 
 To create an 1-way association type:
 1.  Click on the `Create association type` button
-1.  Select the code of the association type you want to create
+1.  Fill in the code of the association type you want to create
 1.  Click on Save
 
 The association type has now been created and the edit page is displayed.  
