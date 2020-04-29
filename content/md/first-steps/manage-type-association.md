@@ -13,7 +13,7 @@ Associations types are used to link products together.
 For example, you can link a product to its accessories. The code for this association type could be “ACCESSORIES”.
 
 There are two different association types:
-*   The 1-way association (a product A is associated to a product B).
+*   The 1-way association (product A is associated with product B).
 *   The 2-way association (when a product A is associated to a product B, the product B will be automatically associated to the product A).
 
 :::info
