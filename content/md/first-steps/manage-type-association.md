@@ -30,7 +30,7 @@ Once you have created an association type between products, it can be used while
 
 # View the association types
 
-To see the association types, go to `Settings/Association types`.
+Read our Association types section to find out what they are.
 
 # Create an association type
 
