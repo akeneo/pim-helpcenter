@@ -13,7 +13,6 @@ What if, you could **save all changes made on your grid** (filters, columns, cat
 **Views are available for all users for all versions** (Community and Enterprise).
 
 # Create a view
-test
 
 Before creating a view, **first select a category or a category tree, add some filters and add/remove columns**.
 Once you are all set, you will see that the `Default view` name became `Default view*`. Every time you will make a change on a view, a small asterisk "\*" will be added nearby its name.

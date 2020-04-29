@@ -28,31 +28,29 @@ Once you have created an association type between products, it can be used while
 
 # View the association types
 
-Read our Association types section to find out what they are.
+Read our [Association types](manage-your-association-types.html) section to find out what they are.
 
 # Create an association type
-
-## Create a 1-way association type
 
 :::info
 You must have the permission to create an association type from the PIM.
 :::
 
-To create an 1-way association type:
+## Create a 1-way association type
+
+To create a 1-way association type:
 1.  Click on `Create association type`
 1.  Fill in the code of the association type you want to create
 1.  Click on Save
 
+:::tips
 The association type has now been created and the edit page is displayed.  
-The labels can be updated after the creation
+The labels can be changed.
+:::
 
 ## Create a 2-way association type
 
-:::info
-You must have the permission to create an association type from the PIM.
-:::
-
-To create an 2-way association type:
+To create a 2-way association type:
 1.  Click on `Create association type`
 1.  Select the code of the association type you want to create
 1.  Set the "2-way association" button to "Yes"
@@ -60,8 +58,10 @@ To create an 2-way association type:
 
 ![image](../img/Association_types_2-way_button.png)
 
+:::tips
 The association type has now been created and the edit page is displayed.  
 The labels can be changed.
+:::
 
 :::warning
 The 2-way association property can’t be updated once the association type is created.
@@ -76,7 +76,9 @@ To edit an association type:
 1.  Only the labels can be edited for a type of association  
 1.  Click on the `Save` button to save your changes
 
+:::info
 The code cannot be changed once created.
+:::
 
 :::warning
 The 2-way association property can’t be updated.
@@ -100,7 +102,7 @@ If an association type is used by at least one product, then the association typ
 
 Changes made on association types are recorded and visible in the history tab of the association type.
 
-:For each change, a version of the association type is created. The following information is tracked down for each version:
+For each change, a version of the association type is created. The following information is tracked down for each version:
 
 *   The person or system that generated changes
 *   The date and time (up to seconds) at which the changes took place
