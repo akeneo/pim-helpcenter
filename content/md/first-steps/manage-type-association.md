@@ -12,6 +12,14 @@ Associations types are used to link products together.
 
 For example, you can link a product to its accessories. The code for this association type will be “ACCESSORIES”.
 
+<<<<<<< HEAD
+=======
+There are two different association types:
+*   The 1-way association (product A is associated with product B).
+*   The 2-way association (when a product A is associated to a product B, the product B will be automatically associated to the product A).
+
+:::info
+>>>>>>> 6a683cc... Update content/md/first-steps/manage-type-association.md
 The association types are mandatory to create a link between two products. There is no default association types.
 
 ![image](../img/Settings_AssociationsTypes.png)
