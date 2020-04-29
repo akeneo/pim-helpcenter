@@ -16,7 +16,7 @@ For example, you can link a product to its accessories. The code for this associ
 =======
 There are two different association types:
 *   The 1-way association (product A is associated with product B).
-*   The 2-way association (when a product A is associated to a product B, the product B will be automatically associated to the product A).
+*   The 2-way association (when product A is associated with product B, then product B will be automatically associated with product A).
 
 :::info
 >>>>>>> 6a683cc... Update content/md/first-steps/manage-type-association.md
@@ -43,7 +43,7 @@ You must have the permission to create an association type from the PIM.
 :::
 
 To create an 1-way association type:
-1.  Click on the `Create association type` button
+1.  Click on `Create association type`
 1.  Fill in the code of the association type you want to create
 1.  Click on Save
 
@@ -57,10 +57,20 @@ The labels can be updated after the creation
 You must have the permission to create an association type from the PIM.
 :::
 
+<<<<<<< HEAD
 To create an association type:
 1.  Click on the `Create association type` button
 1.  Select the code of the association type you want to create
 1.  Confirm
+=======
+To create an 2-way association type:
+1.  Click on `Create association type`
+1.  Select the code of the association type you want to create
+1.  Set the "2-way association" button to "Yes"
+1.  Click on Save
+
+![image](../img/Association_types_2-way_button.png)
+>>>>>>> 7db4dce... Apply suggestions from code review
 
 The association type has now been created and the edit page is displayed.  
 The labels can be changed.
@@ -92,7 +102,11 @@ If an association type is used by at least one product, then the association typ
 
 # Check the association type history
 
+<<<<<<< HEAD
 Changes made on association types are recorded and visible under the history tab of the association type. 
+=======
+Changes made on association types are recorded and visible in the history tab of the association type.
+>>>>>>> 7db4dce... Apply suggestions from code review
 
 :For each change, a version of the association type is created. The following information is tracked down for each version:
 
