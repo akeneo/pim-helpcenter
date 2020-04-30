@@ -39,6 +39,9 @@ const updateVersions = function() {
                         var node = document.createElement('li');
                         node.appendChild(link);
                         versionsDom.appendChild(node);
+                        if(version.version === versionsDom.dataset.majorVersion){
+                            versionsDom.parentNode.classList.add("active");
+                        }
                     }
                 });
             }
