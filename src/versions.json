@@ -1,7 +1,8 @@
 [
   {
     "url": "/pim/v2/",
-    "label": "v2",
+    "version": "v2",
+    "label": "v2 EE/CE",
     "suffix_with_filename": true
   },
   {
