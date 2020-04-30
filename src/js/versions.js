@@ -29,7 +29,7 @@ const updateVersions = function() {
                         filepath = versionsDom.dataset.filepath;
                         link.href = version.suffix_with_filename ? version.url + filepath : version.url;
                         versionsDom.appendChild(link);
-                        if(version.version === versionsDom.dataset.majorVersion){
+                        if(version.version === versionsDom.dataset.currentDocVersion){
                             versionsDom.classList.add("active");
                         }
                     } else {
@@ -39,7 +39,7 @@ const updateVersions = function() {
                         var node = document.createElement('li');
                         node.appendChild(link);
                         versionsDom.appendChild(node);
-                        if(version.version === versionsDom.dataset.majorVersion){
+                        if(version.version === versionsDom.dataset.currentDocVersion){
                             versionsDom.parentNode.classList.add("active");
                         }
                     }
