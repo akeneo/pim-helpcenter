@@ -44,7 +44,7 @@ The expected values are:
 It is possible to copy values from an attribute type to another attribute of the same type (for example: from a `text` attribute type to another `text` attribute type).  
 But you can also go further, by copying attribute values in another one which is not of the same type :wink:, with exceptions that we list below.
 
-You can only copy the given attribute to a selection of attribute types that we defined based on logical criteria:
+You can copy the given attribute to a selection of attribute types that we defined based on logical criteria:
 #### You can copy the option code of a **simple select** attribute to:
 - a **reference entity single link** attribute *(the record must already exist)*
 - a **text** attribute
