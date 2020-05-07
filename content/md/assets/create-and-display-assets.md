@@ -14,6 +14,10 @@ In the asset manager, you have 2 ways to add assets:
 - unitary (one by one)
 - or via the [mass upload](#upload-and-create-several-assets-at-the-same-time) feature.
 
+:::info
+If you use `media links` attributes types in your asset family (meaning that your media are stored outside of the PIM), you won't be able to mass upload assets.
+:::
+
 ## Add an asset
 
 Let’s say that you just have created the `Packshots` asset family, you have defined its asset attributes and now you want to create your first asset.
@@ -29,6 +33,25 @@ To add a new asset to the `Packshots` asset family:
 ::: info
 Note that we have defined a limitation of 1 million assets per asset family to guarantee that the PIM is functional and runs smoothly.
 :::
+
+### Display media in a media link attribute
+
+As explained in introduction of this article, you cannot upload files in an asset family that uses a `media link` attribute as main media (seems logical, isn't it?).
+
+To add the url of your media, you have two options:
+- either you do it manually and unitary via the PIM UI
+- either you use the API (you can refer to [our API documentation](https://api.akeneo.com/guides/dam-connection/introduction.html) to build a connector which automatically sends media links).
+
+Once the media link attribute is filled with a url, the media automatically appears :tada:
+
+::: warning
+The PIM cannot ensure that what you are currently seeing in a `media link` attribute is still what is externally stored. That's why we strongly recommend using one url per one media. **As soon as your media stored externally changes, the best practice is to change its url in the PIM**.
+:::
+
+If you want to be sure that the thumbnail that you are currently seeing is still the one behind the url (and not the old one that is still in the PIM cache), you can click on the reload icon just next to the url or on top right of the main media preview.
+
+![Reload button](../img/Assets_ReloadButton.png)
+
 
 ## Upload and create several assets at the same time
 
