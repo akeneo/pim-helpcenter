@@ -40,7 +40,7 @@ As explained in the introduction, you cannot upload files in an asset family tha
 
 To add the url of your media, you have two options:
 - either you do it manually and one at a time via the PIM UI
-- either you use the API (you can refer to [our API documentation](https://api.akeneo.com/guides/dam-connection/introduction.html) to build a connector which automatically sends media links).
+- or you use the API (you can refer to [our API documentation](https://api.akeneo.com/guides/dam-connection/introduction.html) to build a connector which automatically sends media links).
 
 Once the media link attribute is filled with a url, the media automatically appears :tada:
 
