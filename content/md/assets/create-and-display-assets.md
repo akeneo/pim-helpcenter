@@ -36,7 +36,7 @@ Note that we have defined a limitation of 1 million assets per asset family to g
 
 ### Display media in a media link attribute
 
-As explained in introduction of this article, you cannot upload files in an asset family that uses a `media link` attribute as main media (seems logical, isn't it?).
+As explained in the introduction, you cannot upload files in an asset family that uses a `media link` attribute as main media (seems logical, isn't it?).
 
 To add the url of your media, you have two options:
 - either you do it manually and unitary via the PIM UI
