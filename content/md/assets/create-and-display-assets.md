@@ -39,7 +39,7 @@ Note that we have defined a limitation of 1 million assets per asset family to g
 As explained in the introduction, you cannot upload files in an asset family that uses a `media link` attribute as main media (seems logical, isn't it?).
 
 To add the url of your media, you have two options:
-- either you do it manually and unitary via the PIM UI
+- either you do it manually and one at a time via the PIM UI
 - either you use the API (you can refer to [our API documentation](https://api.akeneo.com/guides/dam-connection/introduction.html) to build a connector which automatically sends media links).
 
 Once the media link attribute is filled with a url, the media automatically appears :tada:
