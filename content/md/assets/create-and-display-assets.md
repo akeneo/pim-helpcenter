@@ -15,7 +15,7 @@ In the asset manager, you have 2 ways to add assets:
 - or via the [mass upload](#upload-and-create-several-assets-at-the-same-time) feature.
 
 :::info
-If you use `media links` attributes types in your asset family (meaning that your media are stored outside of the PIM), you won't be able to mass upload assets.
+If you use `media links` attribute types in your asset family (meaning that your media are stored out of the PIM), you won't be able to mass upload assets.
 :::
 
 ## Add an asset
