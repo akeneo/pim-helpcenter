@@ -45,7 +45,7 @@ To add the url of your media, you have two options:
 Once the media link attribute is filled with a url, the media automatically appears :tada:
 
 ::: warning
-The PIM cannot ensure that what you are currently seeing in a `media link` attribute is still what is externally stored. That's why we strongly recommend using one url per one media. **As soon as your media stored externally changes, the best practice is to change its url in the PIM**.
+The PIM cannot ensure that what you are currently seeing in a `media link` attribute is still what is externally stored. That's why we strongly recommend using one url per media. **As soon as your media stored externally changes, the best practice is to change its url in the PIM**.
 :::
 
 If you want to be sure that the thumbnail that you are currently seeing is still the one behind the url (and not the old one that is still in the PIM cache), you can click on the reload icon just next to the url or on top right of the main media preview.
