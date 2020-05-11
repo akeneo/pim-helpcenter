@@ -18,7 +18,7 @@ Say we have a `packshots` asset family. In its structure, it has 2 media file at
 
 The PIM can automatically generate the thumbnail version of your main image for you, and this, thanks to the definition of a transformation!
 
-![Assets Transformations](../img/Assets_Transformations.png)
+![Assets Transformations](../img/Assets_TransformationsV2.png)
 
 For each transformation, we define:
 - a label
@@ -57,11 +57,21 @@ It will be used in error messages whenever your transformation failed to generat
 
 ## Source file
 
-The `source` property allows you to define in which attribute value is stored the media file you want to use as the source file for your transformation. For instance: `main_image`.
+The `source` property allows you to define in which attribute value is stored the **media file** you want to use as the source file for your transformation. For instance: `main_image`.
+
+::: warning
+Only the `media file` attribute types can be used as sources. The transformation feature is not available for `media link` attribute types.
+:::
 
 ## Target file
 
 The `target` property allows you to define in which attribute value the PIM should generate the new variation. For instance: `Thumbnail_variation`.
+
+::: info
+As soon as an attribute is defined as a target attribute of a transformation, it becomes disabled (read only). It means that you cannot modify or remove it afterwards. If the target attribute changes, then the attribute previously defined as target becomes enabled and you are able to modify or remove it.
+:::
+
+![Assets Transformations](../img/Assets_TransformationsV2.png)
 
 ## Target filename
 
