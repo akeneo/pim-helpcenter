@@ -68,7 +68,7 @@ Only the `media file` attribute types can be used as sources. The transformation
 The `target` property allows you to define in which attribute value the PIM should generate the new variation. For instance: `Thumbnail_variation`.
 
 ::: info
-As soon as an attribute is defined as a target attribute of a transformation, it becomes disabled (read only). It means that you cannot modify or remove it afterwards. If the target attribute changes, then the attribute previously defined as target becomes enabled and you are able to modify or remove it.
+As soon as an attribute is defined as a target attribute of a transformation, it becomes disabled (read-only). It means that you can no longer modify or remove it. If the target attribute changes, then the attribute previously defined as the target becomes enabled and you can modify or remove it.
 :::
 
 ![Assets Transformations](../img/Assets_TransformationsV2.png)
