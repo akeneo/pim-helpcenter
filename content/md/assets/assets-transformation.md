@@ -60,7 +60,7 @@ It will be used in error messages whenever your transformation failed to generat
 The `source` property allows you to define in which attribute value the **media file** you want to use as the source file for your transformation is stored. For instance: `main_image`.
 
 ::: warning
-Only the `media file` attribute types can be used as sources. The transformation feature is not available for `media link` attribute types.
+The `media file` attribute types are the only ones that can be used as sources. The transformation feature is not available for `media link` attribute types.
 :::
 
 ## Target file
