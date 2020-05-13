@@ -508,7 +508,7 @@ If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 The format of the date is: yyyy-mm-dd.
 :::
 
-## Enabled
+## Enabled (status)
 
 The possible operators for the `enabled` field are:  
 - =
@@ -872,6 +872,30 @@ value: ../../../
 ```
 
 We expect a **text** as `value`.
+
+## Asset collection
+
+The possible operators for the `Asset Collection` attribute type are:  
+- IN
+- NOT IN
+- EMPTY
+- NOT EMPTY
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
+### Example
+
+```YML
+field: packshot
+operator: IN
+value: [my_product_packshot]
+```
+
+In this example, we select all the products that have the "my_product_packshot" asset in their "packshot" asset collection.
+
+We expect an **array** of asset codes as `value`.  
 
 
 # A real example
