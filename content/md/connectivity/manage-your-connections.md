@@ -272,7 +272,7 @@ Once your connection is set, you'll probably want to monitor its activity.
 
 In other words, how many products have been created or updated thanks to your source connection? **Or, on the contrary, why a product hasn't been created or updated by your source connection?**
 
-To do so, you can click on the monitoring page directly in the connection navigation menu where you'll see the details of the last 100 business errors. You can also search among them thanks to the search bar on top of the list. 
+To do so, click on the monitoring page directly in the connection navigation menu. From this page, you'll see the details of the last 100 business errors. You can also search among them thanks to the search bar on top of the list. 
 
 ::: info
 Information about created, updated and sent products are in the [connection dashboard](connection-dashboard.html).
