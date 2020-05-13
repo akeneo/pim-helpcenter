@@ -268,7 +268,7 @@ To be able to view the catalog, you will need to give permissions to your connec
 
 # Monitor a connection
 
-Once your connection is installed, you'll probably want to monitor its activity. 
+Once your connection is set, you'll probably want to monitor its activity. 
 
 In other words, how many products have been created or updated thanks to your source connection? **Or, on the contrary, why a product hasn't been created or updated by your source connection?**
 
