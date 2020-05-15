@@ -7,5 +7,5 @@ Before applying transformations on your assets, we first convert your files into
 ![Optimize jpeg transformation](../img/Optimize_jpeg_transformation.png)
 
 ::: more
-[What is a transformation?](../articles/assets-transformation.html) [Available asset transformation operations](/articles/assets-transformation.html#transformation-operations)
+[What is a transformation?](../articles/assets-transformation.html) [What are the available asset transformation operations?](/articles/assets-transformation.html#transformation-operations)
 :::
