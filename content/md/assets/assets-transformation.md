@@ -191,7 +191,7 @@ There is 1 available parameter for this operation.
 This parameter is required.
 :::
 
-The `optimize_jpeg` must be the last operation of your transformation. Set a quality number between 1 (high compression=lower quality) and 100 (low compression=higher quality). This way, you can optimize the weight of your images.
+The `optimize_jpeg` must be the last operation of your transformation. Define the desired compression rate, by setting a quality setting between 1 (high compression=lower quality) and 100 (low compression=higher quality).
 
 # Dealing with several transformations
 
