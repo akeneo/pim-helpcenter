@@ -11,7 +11,7 @@
   },
   "02-2020": {
     "title": "February Serenity updates",
-    "description": "Those are the new updates lo! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description": "This month's Serenity updates include a new asset management operation to optimize the weight of your transformed files and new warning messages on usernames for the Connections.",
     "img": "illus-february-20.svg"
   }
 }
