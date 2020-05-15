@@ -15,7 +15,7 @@ This feature is very, like, really powerful, and the use cases are countless. In
 
 # Name your rules
 
-A rule is defined by a code (required) and you can name it with a label as well. This label can have a value per locale.
+Each rule must have a unique code. It can also have a label per enabled PIM locale. This label will appear under `Settings`/`Rules` and be also visible in your product form under your smart attributes.
 Here is the expected format:
 
 ```YML
