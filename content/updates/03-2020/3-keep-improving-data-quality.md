@@ -20,7 +20,7 @@ If you have any improvement recommendations under the Data Quality Insights tab,
 
 To help always achieve a better data quality content, **spell-check and suggestions are now available on text area attributes having the rich text editor enabled** (WYSIWYG).
 
-The spell-check feature now **supports four new languages**: Italian 🇮🇹, Swedish 🇸🇪, Danish 🇩🇰 and Dutch 🇳🇱. This means that you can now have spelling mistakes automatically detected for no more than 8 locales. Mistakes are no longer allowed! ;)
+The spell-check feature now **supports four new languages**: Italian 🇮🇹, Swedish 🇸🇪, Danish 🇩🇰 and Dutch 🇳🇱. This means that you can now have spelling mistakes automatically detected for no more than 8 locales. Mistakes are no longer allowed! :wink:
 
 ::: more
 [Understand data quality](../articles/articles/understand-data-quality.html) and learn how to [improve data quality](../articles/improve-data-quality.html#improve-data-quality)
