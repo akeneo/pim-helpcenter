@@ -1,4 +1,4 @@
-# Rules engines extended capabilities
+# Rules engine extended capabilities
 ::: meta-data type="Improvement" features="Rules engine, Productivity, Automation" available="19th of March"
 :::
 
