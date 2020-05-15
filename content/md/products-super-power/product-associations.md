@@ -62,7 +62,6 @@ To add associations, there is a picker to select products or [product models](wh
   ![Add association](../img/Products_ProductsAddAssociation.png)
 1.  The picker to select product or product models opens
   ![Add association](../img/Products_ProductsPickerAssociation.png)
-  Note that in the product picker, users can display all the products from the catalog, including products they have no permission to edit. Users might as well associate products using the 2-way association even though they have no permission to do so. Please read our [2-way association documentation](manage-your-association-types.html#create-a-2-way-association-type) for more information.
 1.  Filter on the categories, on the label or identifier or add filters to find the products or product models to associate
 1.  Tick in the grid the products or product models to associate, they are displayed in the basket
   ![Add association](../img/Products_ProductsBasketAssociation.png)
@@ -83,10 +82,6 @@ To remove an association:
 1.  Select the association type
 1.  Hover a product or product model associated
 1.  Click on the cross to remove the association
-1.  Click on `Save`
+1.  Click on the `Save` button
 
 ![Remove associations](../img/Products_ProductsRemoveAssociation.png)
-
-:::info
-When removing a [2-way association](manage-your-association-types.html#create-a-2-way-association-type), the association is removed from both sides.
-:::
