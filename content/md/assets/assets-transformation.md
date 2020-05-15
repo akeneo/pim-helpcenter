@@ -187,12 +187,11 @@ There is 1 available parameter for this operation.
 | ----------------- | -------------- |
 | `quality` | A number between 1 and 100 included |
 
-1: low quality but high compression.  
-100: high quality but low compression.  
-
 ::: info
 This parameter is required.
 :::
+
+The `optimize_jpeg` must be the last operation of your transformation. Define the desired compression rate, by setting a quality setting between 1 (high compression=lower quality) and 100 (low compression=higher quality).
 
 # Dealing with several transformations
 
