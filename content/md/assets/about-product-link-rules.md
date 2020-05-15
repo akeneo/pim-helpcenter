@@ -145,12 +145,28 @@ A piece of advice: when defining two different rules on an asset family, make su
 
 Looks difficult? Don't freak out! The following sections are here to help you understand this rule and how you can make the most of it. You'll see, it's super powerful! 😃
 
-### Product selection
+### Product selections
 The first part of the rule is a property called `product_selections`. This property will allow you to define a selection of products/product models for which you want to automatically link the assets of the asset family.
 
 In one single product link rule, you can define one or several product selections.
 
-To see the format of the `product selections`, please read [this article](https://api.akeneo.com/concepts/asset-manager.html#product-selection) on our API website ;)
+The format of the product selection part is defined as follows:
+```json
+{
+      "product_selections": [
+        {
+          "field": "enabled",
+          "operator": "=",
+          "value": "true"
+        },
+        {
+          "field": "categories",
+          "operator": "IN",
+          "value": ["men"]
+        }
+      ]
+    }
+```
 
 ::: info
 You can use multiple conditions to make your selection. Those conditions are cumulative. For example, you can select the products that are **both** enabled **and** in the `men` category.
@@ -175,29 +191,85 @@ Once you have chosen and selected the products you want to apply the rule to, it
 
 This is done in the second part of the product link rule, in the `assign_assets_to` property. Thanks to this property, you will define to which product value you want to assign your assets. In other words, which attribute, locale and scope of the products you want to link your assets to. You can also decide whether you want to **add** new assets or **replace** the existing ones inside this product attribute.
 
-#### Examples
-Based on the previous example created for the [naming convention](#focus-on-the-naming-convention)
+The format of this part is defined as follows:
+```json
+{
+      "assign_assets_to": [
+        {
+          "mode": "add",
+          "attribute": "user_instructions",
+          "locale": "en_US",
+          "channel": null
+        }
+      ]
+    }
+```
+
+### Product link rule examples
+
+#### With one product link rule
 
 ```json
 [
-  {
-    "product_selections": [
-      {
-        "field": "sku",
-        "value": "{{product_ref}}",
-        "locale": null,
-        "channel": null,
-        "operator": "="
-      }
-    ],
-    "assign_assets_to": [
-      {
-        "attribute": "media_attribute_in_product",
-        "locale": null,
-        "channel": null,
-        "mode": "replace"
-      }
-    ]
-  }
-]
+        {
+          "product_selections": [
+            {
+              "field": "sku",
+              "operator": "=",
+              "value": "{{product_ref}}",
+              "locale": null,
+              "channel": null
+            }
+          ],
+          "assign_assets_to": [
+            {
+              "mode": "replace",
+              "attribute": "user_instructions",
+              "locale": "{{locale}}",
+              "channel": null
+            }
+          ]
+        }
+      ]
+```
+
+#### With two product link rules
+
+```json
+[
+        {
+          "product_selections": [
+            {
+              "field": "categories",
+              "operator": "IN",
+              "value": ["men_clothes"]
+            }
+          ],
+          "assign_assets_to": [
+            {
+              "mode": "add",
+              "attribute": "ambient_image",
+              "locale": null,
+              "channel": null
+            }
+          ]
+        },
+        {
+          "product_selections": [
+            {
+              "field": "categories",
+              "operator": "IN",
+              "value": ["women_clothes"]
+            }
+          ],
+          "assign_assets_to": [
+            {
+              "mode": "add",
+              "attribute": "ambient_image",
+              "locale": null,
+              "channel": null
+            }
+          ]
+        }
+      ]
 ```
