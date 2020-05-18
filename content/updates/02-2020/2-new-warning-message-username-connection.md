@@ -11,6 +11,6 @@ Want to discover why we need to ensure this? Read the following [help center sec
 ![Connection user warning](../img/connection_user_warning_message.png)
 
 ::: more
-[What is a connection?](../articles/what-is-a-connection.html)
+[What is a connection?](../articles/what-is-a-connection.html)  
 [How to manage a connection?](../articles/manage-your-connections.html)
 :::

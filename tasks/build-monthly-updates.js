@@ -198,7 +198,7 @@ gulp.task('build-monthly-updates', ['clean-dist','less'], function () {
                 return params.trim().match(/^more(.*)$/);
             },
             render: function (tokens, idx) {
-                return (tokens[idx].nesting === 1) ? '<div class="alert alert-info"><b>Want to dig a little bit more?</b><br><em>Don\'t hesitate to read the following articles:</em>' : '</div>\n'
+                return (tokens[idx].nesting === 1) ? '<div class="alert alert-info"><b>Not familiar with the context?</b><br><em>Here is a selection from our help center:</em>' : '</div>\n'
             }
         });
 
