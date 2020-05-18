@@ -16,7 +16,7 @@ This feature is very, like, really powerful, and the use cases are countless. In
 # Name your rules
 
 Each rule must have a unique code. It can also have a label per enabled PIM locale. This label will appear under `Settings`/`Rules` and be also visible in your product form under your smart attributes.
-Here is the expected format:
+You can add the labels settings anywhere in your rule. In the example below, it is placed at the end of the rule, and it adds labels for your American English and French locales, here is the expected format:
 
 ```YML
   camera_copy_name_to_model:
