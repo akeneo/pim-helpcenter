@@ -11,10 +11,35 @@ The rules engine can radically boost your productivity in the PIM by automating 
 
 The rules are defined in a YML file that you can import in the PIM, using a dedicated job profile.   
 
-A rule is defined by a code (required) and you can name it with a label as well. This label can have a value per locale.
-
 This feature is very, like, really powerful, and the use cases are countless. In order to guide you in the rules engine usage, we wrote this article where you will find out what you can use it for and how it works.
 
+# Name your rules
+
+Each rule must have a unique code. It can also have a label per enabled PIM locale. This label will appear under `Settings`/`Rules` and be also visible in your product form under your smart attributes.
+You can add the labels settings anywhere in your rule. In the example below, it is placed at the end of the rule, and it adds labels for your American English and French locales, here is the expected format:
+
+```YML
+  camera_copy_name_to_model:
+        priority: 0
+        conditions:
+            - field: family
+              operator: IN
+              value:
+                - camcorders
+            - field: camera_model_name
+              operator: EMPTY
+        actions:
+            - type: copy
+              from_field: name
+              to_field: camera_model_name
+        labels:
+            en_US: 'Copy name to model'
+            fr_FR: 'Copie nom vers modèle'
+```
+
+If no label is defined, we use the code between `[ ]` or `{}`.
+
+You will also be able to search on your rule labels under `Settings`/`Rules`.
 
 # Available actions
 
