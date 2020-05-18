@@ -176,7 +176,10 @@ gulp.task('build-monthly-updates', ['clean-dist','less'], function () {
                 return params.trim().match(/^meta-data(.*)$/);
             },
             render: function (tokens, idx) {
-                var metaData = tokens[idx].info.trim().match(/^meta-data\stype="(.*)"\sfeatures="(.*)"\savailable="(.*)"$/);
+                var metaData = tokens[idx].info.trim().match(/^meta-data\stype="(.*)"\sfeatures="(.*)"\savailable="(.*)"\slink-to-doc="(.*)"$/);
+                if(!metaData){
+                    metaData = tokens[idx].info.trim().match(/^meta-data\stype="(.*)"\sfeatures="(.*)"\savailable="(.*)"$/)
+                }
                 var html = '';
                 if(tokens[idx].nesting === 1) {
                     var type = metaData[1];
@@ -187,6 +190,10 @@ gulp.task('build-monthly-updates', ['clean-dist','less'], function () {
                     }, '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Feature' + ((features.length > 1) ? 's:</em>' : ':</em>'));
                     var availability = metaData[3];
                     html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in Serenity since the ' + availability + '</em>';
+                    var linkToDoc = metaData[4];
+                    if(linkToDoc) {
+                        html += '<em>&nbsp;&nbsp;|&nbsp;&nbsp;</em><a href="' + linkToDoc + '" target="_blank">📖 Read the doc</a>';
+                    }
                 } else {
                     html = '</p>';
                 }
