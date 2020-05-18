@@ -162,7 +162,7 @@ A piece of advice: when defining two different rules on an asset family, make su
 
 ![Product Link Rules](../img/Assets_ProductLinkRulesNew.png)
 
-Looks difficult? Don't freak out! The following sections are here to help you understand this rule and how you can make the most of it. You'll see, it's super powerful! 😃
+If you are not comfortable with the naming conventions yet, the following sections will help you understand the rules and how you can make the most of it. You'll see, it's super powerful! 😃
 
 ### Product selections
 The first part of the rule is a property called `product_selections`. This property will allow you to define a selection of products for which you want to automatically link the assets of the asset family.
