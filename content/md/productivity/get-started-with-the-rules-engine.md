@@ -39,6 +39,8 @@ You can add the labels settings anywhere in your rule. In the example below, it 
 
 If no label is defined, we use the code between `[ ]` or `{}`.
 
+You will also be able to search on your rule labels under `Settings`/`Rules`.
+
 # Available actions
 
 As of today, 7 actions are available in the rules engine:
