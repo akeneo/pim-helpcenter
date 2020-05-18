@@ -21,7 +21,7 @@ And also, don't hesitate to fill in the survey at the bottom of the dashboard pa
 In this dashboard, for now, you can monitor both your source and destination connections.
 
 ::: tips
-Empty graphs? Have you ticked the `Track this connection in the dashboard` checkbox in your connections settings?
+Empty charts? Have you ticked the `Track this connection in the dashboard` checkbox in your connections settings?
 :::
 
 # Source connection monitoring
