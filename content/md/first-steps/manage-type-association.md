@@ -81,7 +81,7 @@ The code cannot be changed once the association type is created.
 :::
 
 :::warning
-The 2-way association property can’t be updated.
+The 2-way association property cannot be updated.
 :::
 
 # Delete an association type
