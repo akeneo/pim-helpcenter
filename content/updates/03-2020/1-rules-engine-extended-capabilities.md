@@ -1,4 +1,4 @@
-# Rules engines extended capabilities
+# Rules engine extended capabilities
 
 ## A new rule action to concatenate attributes
 ::: meta-data type="Improvement" features="Rules engine, Productivity, Automation" available="19th of March" link-to-doc="../articles/get-started-with-the-rules-engine.html#concatenate"
