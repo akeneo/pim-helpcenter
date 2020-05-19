@@ -1,4 +1,4 @@
-# Product modeling improved thanks to new measurement units
+# New measurement units and families
 ::: meta-data type="Improvement" features="Measurements, Data Governance" available="mid-March"
 :::
 
