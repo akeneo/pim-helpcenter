@@ -14,6 +14,6 @@ Also, we completed some existing new measurement families with new units:
 Of course, these new measurement families and units come with preset conversion operations to help you save some time.
 
 ::: more
-Learn about our [measurements feature](../articles/what-about-measurements.html)    
+[What are measurements?](../articles/what-about-measurements.html)  
 [How to create an attribute?](../articles/manage-your-attributes.html#add-attributes-validation-parameters)
 :::
