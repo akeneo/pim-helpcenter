@@ -1,4 +1,4 @@
-# Keep on improving your data quality
+# Data quality improvements
 
 ## Data Quality Insights now available for variant products
 ::: meta-data type="Improvement" features="Data Quality Insights, Data Quality" available="5th of March" link-to-doc="../articles/improve-data-quality.html#improve-data-quality-on-variant-products"
