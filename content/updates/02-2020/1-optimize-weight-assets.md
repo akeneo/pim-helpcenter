@@ -1,4 +1,4 @@
-# Optimize the weight of your assets
+# Asset Manager: optimize images weight
 ::: meta-data type="Improvement" features="Asset Manager" available="20th of February" link-to-doc="../articles/assets-transformation.html#optimize-jpeg"
 :::
 
