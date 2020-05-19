@@ -1,4 +1,4 @@
-# Data quality new improvements
+# Data quality improvements
 
 ## Data Quality Insights on product models
 ::: meta-data type="Improvement" features="Quality, Data Quality Insights" available="5th of March" link-to-doc="../articles/articles/understand-data-quality.html"
@@ -14,9 +14,7 @@ This improvement now enables you to easily monitor **your data quality and accur
 [Understand data quality](../articles/articles/understand-data-quality.html)
 :::
 
-## Spell-check improvements
-
-## New languages supported!
+## Spell-check: new languages supported!
 ::: meta-data type="Improvement" features="Quality, Data Quality Insights" available="30th of April"
 :::
 

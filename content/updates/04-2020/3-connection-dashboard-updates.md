@@ -2,7 +2,7 @@
 ::: meta-data type="New" features="Connections, Connectivity" available="2nd of April"
 :::
 
-## Source connections charts rework
+## Source connections charts improved
 We reworked the display of the two charts about the source connections in the Connection dashboard. We also now compute the sum on the last 7 days of the number of products created and updated.
 
 ![Sources connection charts](../img/number-of-products-created-updated.png)
@@ -12,10 +12,11 @@ You can now easily track the number of products that were sent to your destinati
 
 ![Destination connection charts](../img/number-of-products-sent.png)
 
-## Choose which connection you want to track
-You now have control over the connections you want to track in the Connection Dashboard. By default, new connections won't be monitored. If you want to activate their tracking, check the dedicated option in the Connection setting page.
+By default, new connections won't be monitored. If you want to activate their tracking, check the dedicated option in the Connection setting page.
 
 ![Enable connection tracking](../img/track-checkbox.png)
+
+You now have more control over the connections you want to track in the Connection Dashboard!
 
 ::: more
 [What is a connection?](../articles/what-is-a-connection.html)
