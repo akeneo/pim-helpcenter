@@ -4,7 +4,7 @@
 ::: meta-data type="Improvement" features="Data Quality Insights, Data Quality" available="5th of March" link-to-doc="../articles/improve-data-quality.html#improve-data-quality-on-variant-products"
 :::
 
-To help you measure and improve your product data quality, **our Data Quality Insights recommendations tab and grades are now available for your variant products**.
+To help you measure and improve your product data quality, **our Data Quality Insights recommendation tab and grades are now available for your variant products**.
 
 Get specific enrichment and consistency grading scores for all your product variants and quickly identify the list of attributes you need to improve for a specific variant product whether these attributes are at the common or the variants level.
 
