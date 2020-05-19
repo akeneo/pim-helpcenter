@@ -189,7 +189,7 @@ gulp.task('build-monthly-updates', ['clean-dist','less'], function () {
                         return res + ' <span class="label label-info">' + feature + '</span>';
                     }, '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Feature' + ((features.length > 1) ? 's:</em>' : ':</em>'));
                     var availability = metaData[3];
-                    html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in Serenity since the ' + availability + '</em>';
+                    html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in Serenity since ' + availability + '</em>';
                     var linkToDoc = metaData[4];
                     if(linkToDoc) {
                         html += '<em>&nbsp;&nbsp;|&nbsp;&nbsp;</em><a href="' + linkToDoc + '" target="_blank">📖 Read the doc</a>';
