@@ -1,4 +1,4 @@
-# New warning message on connection usernames
+# Connection usernames: new warning messages
 ::: meta-data type="Improvement" features="Connections" available="27th of February" link-to-doc="../articles/manage-your-connections.html#why-should-you-use-the-connection-username"
 :::
 
