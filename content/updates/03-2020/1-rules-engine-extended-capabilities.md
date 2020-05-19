@@ -9,7 +9,7 @@ For instance, you want to make sure your product titles are always formatted the
 ## More automation with the `copy` action
 ::: meta-data type="Improvement" features="Rules engine, Productivity, Automation" available="19th of March" link-to-doc="../articles/get-started-with-the-rules-engine.html#copy"
 :::
-Ease and faster your product enrichment thanks to the extended capabilities of the `copy` action from our rules engine! You can now **copy the value from attribute type to another attribute type**. For instance, create a rule to copy an option from a simple select attribute to a reference entity single link, instead of manually copying/pasting it. By automating the copy of values, **you make sure you have the right data at the right place**, this will take out some manual and error-prone tasks.
+Ease and speed up your product enrichment thanks to the extended capabilities of the `copy` action from our rules engine! You can now **copy the value from an attribute type to another attribute type**. For instance, you can create a rule to copy an option from a simple select attribute to a reference entity single link, instead of manually copy/pasting it. By automating the copy of values, **you make sure you have the right data in the right place**, this will get rid of some manual and error-prone tasks.
 
 ::: more
 [What is a rule?](../articles/what-is-a-rule.html)  
