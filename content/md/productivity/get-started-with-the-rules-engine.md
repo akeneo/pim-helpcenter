@@ -41,7 +41,10 @@ The expected values are:
  - `to_locale`: the locale code where the value will be copied *(optional)*
  - `to_scope`: the channel code where the value will be copied *(optional)*
 
-You can only copy the given attribute to a selection of attribute types that we defined based on logical criteria:
+It is possible to copy values from an attribute type to another attribute of the same type (for example: from a `text` attribute type to another `text` attribute type).  
+And you can go even further.  It is possible to copy attribute values in another attribute value field even if they are two different types of values. :wink: There are some exceptions mind you! Check out the list below.
+
+You can copy the given attribute to a selection of attribute types that we defined based on logical criteria:
 #### You can copy the option code of a **simple select** attribute to:
 - a **reference entity single link** attribute *(the record must already exist)*
 - a **text** attribute
@@ -152,7 +155,7 @@ For instance, the following action will associate the `product_42` product and t
 
 ## Set
 
-The `Set` action assigns values to the following properties: categories, status (enabled/disabled), groups, family, associations.
+The `Set` action assigns values to attributes but also to the following properties: categories, status (enabled/disabled), groups, family, associations.
 Beware, the previous values will be replaced by the new ones.
 
 The expected values are:
@@ -505,7 +508,7 @@ If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 The format of the date is: yyyy-mm-dd.
 :::
 
-## Enabled
+## Enabled (status)
 
 The possible operators for the `enabled` field are:  
 - =
@@ -869,6 +872,30 @@ value: ../../../
 ```
 
 We expect a **text** as `value`.
+
+## Asset collection
+
+The possible operators for the `Asset Collection` attribute type are:  
+- IN
+- NOT IN
+- EMPTY
+- NOT EMPTY
+
+:::info
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
+### Example
+
+```YML
+field: packshot
+operator: IN
+value: [my_product_packshot]
+```
+
+In this example, we select all the products that have the "my_product_packshot" asset in their "packshot" asset collection.
+
+We expect an **array** of asset codes as `value`.  
 
 
 # A real example
