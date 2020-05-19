@@ -1,5 +1,5 @@
 # Product modeling improved thanks to new measurement units
-::: meta-data type="Improvement" features="Measurements, Data Governance" available="19th of March"
+::: meta-data type="Improvement" features="Measurements, Data Governance" available="mid-March"
 :::
 
 To better fit your needs in terms of product modeling and to make sure you provide the most accurate product information to your customers, we added four new measurement families: `Force`, `Angle`,`Capacitance` and `Volume Flow`.
