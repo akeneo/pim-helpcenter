@@ -1,5 +1,5 @@
 # Connection dashboard updates
-::: meta-data type="New features" features="Connections" available="2nd of April"
+::: meta-data type="New" features="Connections, Connectivity" available="2nd of April"
 :::
 
 ## Source connections charts rework
@@ -8,7 +8,7 @@ We reworked the display of the two charts about the source connections in the Co
 ![Sources connection charts](../img/number-of-products-created-updated.png)
 
 ## Track your destination connections
-You can now track the number of products that were sent to your destinations in the Connection dashboard. You can consult this metric for each of the last 7 days. We also compute the sum of the last 7 days.
+You can now easily track the number of products that were sent to your destinations in the Connection dashboard. You can consult this metric for each of the last 7 days. We also compute the sum of the last 7 days.
 
 ![Destination connection charts](../img/number-of-products-sent.png)
 
@@ -21,5 +21,3 @@ You now have control over the connections you want to track in the Connection Da
 [What is a connection?](../articles/what-is-a-connection.html)
 [What is the Connection dashboard?](../articles/connection-dashboard.html)
 :::
-
-
