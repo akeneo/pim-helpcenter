@@ -4,7 +4,7 @@
 
 To better fit your needs in terms of product modeling and to make sure you provide the most accurate product information to your customers, we added four new measurement families: `Force`, `Angle`,`Capacitance` and `Volume Flow`.
 
-Also, we completed some existing new measurement families with new units:
+Also, we completed some existing measurement families with new units:
 - in `Pressure`: bar, pascal, etc.
 - in `Binary`: kilobit, megabit, etc.
 - in `Length`: micrometer and nautical mile units
