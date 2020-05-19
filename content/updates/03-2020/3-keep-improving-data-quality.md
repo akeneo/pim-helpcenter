@@ -6,7 +6,7 @@
 
 To help you measure and improve your product data quality, **our Data Quality Insights recommendation tab and grades are now available for your variant products**.
 
-Get specific enrichment and consistency grading scores for all your product variants and quickly identify the list of attributes you need to improve for a specific variant product whether these attributes are at the common or the variants level.
+Get specific enrichment and consistency grading scores for all your product variants and quickly identify the list of attributes you need to improve for a specific variant product whether these attributes are at the product model or the variant level.
 
 ![Data Quality Insights on variant products](../img/dqi_variant_products.png)
 
