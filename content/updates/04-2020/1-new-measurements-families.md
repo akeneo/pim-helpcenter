@@ -22,7 +22,7 @@ We also introduced two new API endpoints for the measurement families:
 - A first [endpoint to retrieve all the measurement families with their units and conversion](https://api.akeneo.com/api-reference.html#measurement_families_get_list),
 - A second [endpoint to create and update measurements families with their units and conversion](https://api.akeneo.com/api-reference.html#patch_measurement_families).
 
-The [previous endpoints about metrics families](https://api.akeneo.com/api-reference.html#Measurefamily) still work but the new ones are more powerful. Indeed, they allow to create/update measurement families and they guarantee the order of the conversion operations.
+The [previous endpoints about metric families](https://api.akeneo.com/api-reference.html#Measurefamily) still work but the new ones are more powerful. Indeed, they allow creating/updating measurement families and they guarantee the order of the conversion calculations.
 
 ::: more
 [What are measurements?](../articles/what-about-measurements.html)
