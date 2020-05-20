@@ -5,7 +5,7 @@
 ## A new screen to manage measurements
 
 **In order to give you more flexibility, we have improved the way we managed metrics in the PIM.**    
-We are very glad to introduce you our **new `Measurements` feature**.
+We are very glad to introduce our **new `Measurements` feature**.
 Alongside standard measurement families (eg. weight, length, volume...), create your custom measurement families per your needs (eg. inductance, luminance...) and add the units you need (Henry, Lambert...).
 
 ![List measurement families](../img/Settings_Measurement_Families.png)
