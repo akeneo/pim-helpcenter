@@ -37,7 +37,15 @@ You can add the labels settings anywhere in your rule. In the example below, it 
             fr_FR: 'Copie nom vers modèle'
 ```
 
-If no label is defined, we use the code between `[ ]` or `{}`.
+If you do not want to add labels to your rule, leave the labels settings with { }.
+
+```YML
+labels: {}
+```
+
+:::warning
+If no label is set, the rule code will appear into brackets [ ] in the PIM user interface.
+:::
 
 You will also be able to search on your rule labels under `Settings`/`Rules`.
 
