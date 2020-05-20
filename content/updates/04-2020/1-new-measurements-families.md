@@ -6,7 +6,7 @@
 
 **In order to give you more flexibility, we have improved the way we manage metrics in the PIM.**    
 We are very glad to introduce our **new `Measurements` feature**.
-Alongside standard measurement families (eg. weight, length, volume...), create your custom measurement families per your needs (eg. inductance, luminance...) and add the units you need (Henry, Lambert...).
+Alongside standard measurement families (eg. weight, length, volume...), create your custom measurement families per your needs (eg. inductance, luminance...) and add the units you deem necessary (Henry, Lambert...).
 
 ![List measurement families](../img/Settings_Measurement_Families.png)
 
