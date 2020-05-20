@@ -23,7 +23,7 @@ Three new locales are now supported for the spell-check features: Norwegian Bokm
 The spell-check feature now can help you **improve your product information and avoid mistakes for 11 locales**!
 
 ## For single locale PIM
-Prior to this release, only localisable attributes could benefit from the spell-check feature released in 4.0. Now, the feature is also available for non-localisable attributes when there is only one locale activated. This means that if you have a catalog with only one activated locale, you can now benefit from spell-check on all your text and text area attributes, if your locale is one of the supported languages.
+For those of you who have a catalog with only one activated locale, we have good news for you. You can now benefit from spell-check on all your text and text area attributes, if your locale is one of the supported languages.
 
 ::: more
 [What is data quality?](../articles/articles/understand-data-quality.html)
