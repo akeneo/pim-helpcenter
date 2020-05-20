@@ -17,7 +17,7 @@ If you want additional units for an existing or new measurement family, easily a
 You now have **full control over your measurement families**: easily add, update, or delete measurement units or measurement families that you are not using.
 
 ## New dedicated API endpoints
-::: meta-data type="New features" features="Measurements, Data Governance" available="16th of April" link-to-doc="../articles/what-about-measurements.html"
+::: meta-data type="New features" features="Measurements, Data Governance" available="mid-April" link-to-doc="https://api.akeneo.com/api-reference-index.html#Measurementfamily"
 :::
 
 We also introduced two new API endpoints for the measurement families:
