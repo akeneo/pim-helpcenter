@@ -8,7 +8,7 @@
 **No more time wasting calculating values, the `Calculate` action does it for you.**
 
 ## Empty product values
-::: meta-data type="New" features="Rules engine, Productivity, Automation" available="9th of April" link-to-doc="../articles/get-started-with-the-rules-engine.html#clear"
+::: meta-data type="New" features="Rules engine, Productivity, Automation" available="early April" link-to-doc="../articles/get-started-with-the-rules-engine.html#clear"
 :::
 
 **Easily empty attribute values thanks to the new `Clear` rule action!** Automatically remove value from any attribute: a date, a price, a simple-select.. or any other field based on specific conditions. This new action also allows you to remove categories from a product, or ungroup/disassociate products from others automatically.
