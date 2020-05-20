@@ -11,7 +11,7 @@
 ::: meta-data type="New" features="Rules engine, Productivity, Automation" available="early April" link-to-doc="../articles/get-started-with-the-rules-engine.html#clear"
 :::
 
-**Easily empty attribute values thanks to the new `Clear` rule action!** Automatically remove value from any attribute: a date, a price, a simple-select.. or any other field based on specific conditions. This new action also allows you to remove categories from a product, or ungroup/disassociate products from others automatically.
+**Easily empty attribute values thanks to the new `Clear` rule action!** Automatically remove values from any attribute: a date, a price, a simple-select.. or any other field based on specific conditions. This new action also allows you to remove categories from a product, or ungroup/disassociate products from others automatically.
 
 ## Name your rules
 ::: meta-data type="New" features="Rules engine, Productivity, Automation" available="early April" link-to-doc="../articles/get-started-with-the-rules-engine.html#name-your-rules"
