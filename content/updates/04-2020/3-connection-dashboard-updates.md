@@ -4,7 +4,7 @@
 ::: meta-data type="New" features="Connections, Connectivity" available="2nd of April"
 :::
 
-We reworked the display of the two charts about the source connections in the Connection dashboard. We also now compute the sum on the last 7 days of the number of products created and updated.
+We reworked the display of the two charts about the source connections in the Connection dashboard. We also now compute the sum of the number of products created and updated in the last 7 days.
 
 ![Sources connection charts](../img/number-of-products-created-updated.png)
 
