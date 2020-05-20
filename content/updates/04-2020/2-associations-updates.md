@@ -22,7 +22,7 @@ Many of you had been asking for it... From the `Associations` tab, you can now c
 ::: meta-data type="New" features="Product associations, Productivity" available="mid-April" link-to-doc="../articles/products-associations.html"
 :::
 
-Until now, when opening the associations screen to associate more product with a product, the label of your product was not visible. We now display it under the title! This way we make sure you never lose track of what you are doing, even when a colleague of yours interrupt you during your work!
+Until now, when opening the association screen to associate a product with another one, the label of your product was not visible. We now display it under the title! This way we make sure you never lose track of what you are doing, even when a colleague of yours interrupts you during your work!
 ![Context in the associations popin](../img/context-in-associations-popin.png)
 
 ::: more
