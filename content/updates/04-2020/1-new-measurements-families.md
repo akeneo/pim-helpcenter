@@ -1,8 +1,8 @@
 # New: add your own measurement units
-::: meta-data type="New features" features="Measurements, Data Governance" available="16th of April" link-to-doc="../articles/what-about-measurements.html"
-:::
 
 ## A new screen to manage measurements
+::: meta-data type="New features" features="Measurements, Data Governance" available="16th of April" link-to-doc="../articles/what-about-measurements.html"
+:::
 
 **In order to give you more flexibility, we have improved the way we manage metrics in the PIM.**    
 We are very glad to introduce our **new `Measurements` feature**.
@@ -17,12 +17,14 @@ If you want additional units for an existing or new measurement family, easily a
 You now have **full control over your measurement families**: easily add, update, or delete measurement units or measurement families that you are not using.
 
 ## New dedicated API endpoints
+::: meta-data type="New features" features="Measurements, Data Governance" available="16th of April" link-to-doc="../articles/what-about-measurements.html"
+:::
 
 We also introduced two new API endpoints for the measurement families:
-- A first [endpoint to retrieve all the measurement families with their units and conversion](https://api.akeneo.com/api-reference.html#measurement_families_get_list),
-- A second [endpoint to create and update measurements families with their units and conversion](https://api.akeneo.com/api-reference.html#patch_measurement_families).
+- A first endpoint to [retrieve all the measurement families](https://api.akeneo.com/api-reference.html#measurement_families_get_list) with their units and conversion,
+- A second endpoint to [create and update measurement families](https://api.akeneo.com/api-reference.html#patch_measurement_families) with their units and conversion.
 
-The [previous endpoints about metric families](https://api.akeneo.com/api-reference.html#Measurefamily) still work but the new ones are more powerful. Indeed, they allow creating/updating measurement families and they guarantee the order of the conversion calculations.
+Our previous endpoints about [metric families](https://api.akeneo.com/api-reference.html#Measurefamily) still work but the new ones are more powerful. Indeed, they allow creating/updating measurement families and they guarantee the order of the conversion calculations.
 
 ::: more
 [What are measurements?](../articles/what-about-measurements.html)
