@@ -8,11 +8,11 @@
 We are very glad to introduce our **new `Measurements` feature**.
 Alongside standard measurement families (eg. weight, length, volume...), create your custom measurement families per your needs (eg. inductance, luminance...) and add the units you deem necessary (Henry, Lambert...).
 
-![List measurement families](../img/Settings_Measurement_Families.png)
+![List measurement families](../img/Settings_Measurement_Families-updates.png)
 
 If you want additional units for an existing or new measurement family, easily add them manually directly from the user interface.
 
-![Edition of units](../img/Settings_Measurement_Families_Edit_Unit.png)
+![Edition of units](../img/Settings_Measurement_Families_Edit_Unit-updates.png)
 
 You now have **full control over your measurement families**: easily add, update, or delete measurement units or measurement families that you are not using.
 
@@ -23,6 +23,8 @@ You now have **full control over your measurement families**: easily add, update
 We also introduced two new API endpoints for the measurement families:
 - A first endpoint to [retrieve all the measurement families](https://api.akeneo.com/api-reference.html#measurement_families_get_list) with their units and conversion,
 - A second endpoint to [create and update measurement families](https://api.akeneo.com/api-reference.html#patch_measurement_families) with their units and conversion.
+
+![Measurement endpoints](../img/measurements-api.png)
 
 Our previous endpoints about [metric families](https://api.akeneo.com/api-reference.html#Measurefamily) still work but the new ones are more powerful. Indeed, they allow creating/updating measurement families and they guarantee the order of the conversion calculations.
 
