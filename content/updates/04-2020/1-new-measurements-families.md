@@ -25,5 +25,5 @@ We also introduced two new API endpoints for the measurement families:
 The [previous endpoints about metrics families](https://api.akeneo.com/api-reference.html#Measurefamily) still work but the new ones are more powerful. Indeed, they allow to create/update measurement families and they guarantee the order of the conversion operations.
 
 ::: more
-[What about measurement?](../articles/what-about-measurements.html)
+[What are measurements?](../articles/what-about-measurements.html)
 :::
