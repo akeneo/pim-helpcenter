@@ -1,7 +1,7 @@
 # Data quality improvements
 
 ## Data Quality Insights on product models
-::: meta-data type="Improvement" features="Quality, Data Quality Insights" available="5th of March" link-to-doc="../articles/articles/understand-data-quality.html"
+::: meta-data type="Improvement" features="Quality, Data Quality Insights" available="mid-April" link-to-doc="../articles/articles/understand-data-quality.html"
 :::
 
 Following last month improvements on product variants, the data quality insights tab listing recommendations and grades is **now also available for product models**. You can now see the enrichment and consistency grading scores for all attributes and see at glance on which level the attribute is (product variant or model level).
