@@ -14,7 +14,7 @@ If you want additional units for an existing or new measurement family, easily a
 
 ![Edition of units](../img/Settings_Measurement_Families_Edit_Unit.png)
 
-You now have a **full control over your measurement families**: easily add, update, or delete measurement units or measurement families that you are not using.
+You now have **full control over your measurement families**: easily add, update, or delete measurement units or measurement families that you are not using.
 
 ## New dedicated API endpoints
 
