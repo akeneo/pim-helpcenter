@@ -2,7 +2,7 @@
 
 
 ## View the number of associations per product
-::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="10th of April" link-to-doc="../articles/products-associations.html#view-the-products-associations"
+::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-April" link-to-doc="../articles/products-associations.html#view-the-products-associations"
 :::
 
 We now display the **total number of associations per product or product model nearby the `Associations` tab** when you are your product form.    
