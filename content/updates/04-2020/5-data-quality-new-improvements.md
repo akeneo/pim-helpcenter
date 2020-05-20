@@ -15,7 +15,7 @@ This improvement now enables you to easily monitor **your data quality and accur
 :::
 
 ## Spell-check: new languages supported!
-::: meta-data type="Improvement" features="Quality, Data Quality Insights" available="30th of April"
+::: meta-data type="Improvement" features="Quality, Data Quality Insights" available="late April"
 :::
 
 Three new locales are now supported for the spell-check features: Norwegian Bokmål 🇳🇴, Norwegian Nynorsk 🇳🇴 and Brazilian Portuguese 🇧🇷.
