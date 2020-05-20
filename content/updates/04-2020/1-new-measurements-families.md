@@ -1,7 +1,7 @@
 # New: add your own measurement units
 
 ## A new screen to manage measurements
-::: meta-data type="New features" features="Measurements, Data Governance" available="16th of April" link-to-doc="../articles/what-about-measurements.html"
+::: meta-data type="New features" features="Measurements, Data Governance" available="mid-April" link-to-doc="../articles/manage-your-measurements.html"
 :::
 
 **In order to give you more flexibility, we have improved the way we manage metrics in the PIM.**    
