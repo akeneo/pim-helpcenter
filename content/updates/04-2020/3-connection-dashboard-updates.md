@@ -17,7 +17,7 @@ You can now easily track the number of products that were sent to your destinati
 ![Destination connection charts](../img/number-of-products-sent.png)
 
 ## Choose which connection you want to track
-::: meta-data type="New" features="Connections, Connectivity" available="2nd of April"
+::: meta-data type="New" features="Connections, Connectivity" available="early April" link-to-doc="../articles/manage-your-connections.html#enable-the-tracking"
 :::
 
 By default, new connections won't be monitored. If you want to activate their tracking, check the dedicated option in the Connection setting page.
