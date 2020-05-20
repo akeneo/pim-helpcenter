@@ -13,7 +13,7 @@ We also show you the **total number of associations per association type**, when
 ![Associations number](../img/associations-number.png)
 
 ## Easy access to associations
-::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="10th of April" link-to-doc="../articles/products-associations.html#open-an-associated-product"
+::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-April" link-to-doc="../articles/products-associations.html#open-an-associated-product"
 :::
 
 Many of you were asking for it... From the `Associations` tab, you can now click on an associated product or product model and have it displayed in a new tab!
