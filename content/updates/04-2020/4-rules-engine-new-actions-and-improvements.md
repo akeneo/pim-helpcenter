@@ -23,7 +23,7 @@ You can now **name your rules with a clear label**. And that's not it, you can d
 ::: meta-data type="Improvement" features="Rules engine, Productivity, Automation" available="early April" link-to-doc="../articles/get-started-with-the-rules-engine.html#add-associations"
 :::
 
-It was already possible to automatically set or add associations to products/product models/groups with the rules engine, but the format was a bit complex. **We simplified the format so it is easier for you to use those actions.**
+It was already possible to automatically set or add associations to products/product models/groups with the rules engine, but the format was a bit complex. **We simplified the format so that it is easier for you to use those actions.**
 
 ::: more
 [What is the rules engine?](../articles/get-started-with-the-rules-engine.html)   
