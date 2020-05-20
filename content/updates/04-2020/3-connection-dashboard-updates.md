@@ -19,6 +19,6 @@ By default, new connections won't be monitored. If you want to activate their tr
 You now have more control over the connections you want to track in the Connection Dashboard!
 
 ::: more
-[What is a connection?](../articles/what-is-a-connection.html)
+[What is a connection?](../articles/what-is-a-connection.html)  
 [What is the Connection dashboard?](../articles/connection-dashboard.html)
 :::
