@@ -1,6 +1,5 @@
 # Product associations update
 
-
 ## View the number of associations per product
 ::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-April" link-to-doc="../articles/products-associations.html#view-the-products-associations"
 :::
