@@ -1,7 +1,7 @@
 # Connection dashboard updates
 
 ## Source connections charts improved
-::: meta-data type="New" features="Connections, Connectivity" available="2nd of April"
+::: meta-data type="New" features="Connections, Connectivity" available="early April" link-to-doc="../articles/connection-dashboard.html#source-connection-monitoring"
 :::
 
 We reworked the display of the two charts about the source connections in the Connection dashboard. We also now compute the sum of the number of products created and updated in the last 7 days.
