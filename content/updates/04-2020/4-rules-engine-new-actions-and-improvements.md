@@ -27,5 +27,5 @@ It was already possible to automatically set or add associations to products/pro
 
 ::: more
 [What is the rules engine?](../articles/get-started-with-the-rules-engine.html)   
-[Manage your rules](../articles/manage-your-rules.html)
+[How to manage my rules?](../articles/manage-your-rules.html)
 :::
