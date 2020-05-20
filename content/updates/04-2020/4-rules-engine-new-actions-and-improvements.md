@@ -5,7 +5,7 @@
 :::
 
 **From complex to simple calculations, the `Calculate` rule action enables you to do mathematical operations to fill in attributes based on other attribute values**. Multiply your length, width and height attributes to get a volume, or create a more complex calculation to forecast your margin.
-**No more time wasting calculating values, the `Calculate` action does it for you.**
+**No more time wasted calculating values, the `Calculate` action does it for you.**
 
 ## Empty product values
 ::: meta-data type="New" features="Rules engine, Productivity, Automation" available="early April" link-to-doc="../articles/get-started-with-the-rules-engine.html#clear"
