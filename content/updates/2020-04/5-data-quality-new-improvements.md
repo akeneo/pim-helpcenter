@@ -8,7 +8,7 @@ Following last month improvements on product variants, the data quality insights
 
 This improvement now enables you to easily monitor **your data quality and accuracy for all your products**.
 
-![Data Quality Insights on variant products](../img/data-quality-variant-panel_2.png)
+![Data Quality Insights on variant products](../img/data-quality-product-models.png)
 
 ## Spell-check: new languages supported!
 ::: meta-data type="Improvement" features="Quality, Data Quality Insights" available="late April"
