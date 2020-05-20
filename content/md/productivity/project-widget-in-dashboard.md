@@ -51,7 +51,7 @@ As a project creator, you can search for a user to view their progress on your p
 ![image](../img/Dashboard_DropdownMenuContributors.png)
 
 ::: info
-The project creator is the only one who can select `All contributor` or another contributor.
+Select `All contributors` to have the global overview of the project.
 :::
 
 If you have no projects, the widget will display users the message: `You have no current project, start a new project`.
