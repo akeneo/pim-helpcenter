@@ -14,7 +14,7 @@
 **Easily empty attribute values thanks to the new `Clear` rule action!** Automatically remove value from any attribute: a date, a price, a simple-select.. or any other field based on specific conditions. This new action also allows you to remove categories from a product, or ungroup/disassociate products from others automatically.
 
 ## Name your rules
-::: meta-data type="New" features="Rules engine, Productivity, Automation" available="9th of April" link-to-doc="../articles/get-started-with-the-rules-engine.html#name-your-rules"
+::: meta-data type="New" features="Rules engine, Productivity, Automation" available="early April" link-to-doc="../articles/get-started-with-the-rules-engine.html#name-your-rules"
 :::
 
 You can now **name your rules with a clear label**. And that's not it, you can define a rule name per PIM locale enabled. The rule's label is visible under your rules grid and under your smart attributes, if you have international teams you can now make sure that they understand the purpose of a rule.
