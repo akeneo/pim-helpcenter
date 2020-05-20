@@ -14,10 +14,12 @@ For more details, please refer to [the dedicated article](get-started-with-the-r
 
 # View all rules
 
-The `Settings/Rules` screen displays all the rules that have been created and imported in the PIM.  
-You can search on the rule code.
+The `Settings/Rules` screen displays a grid with all the rules that have been created and imported in the PIM.  
+You can search on the rule code or label.
 
 ![image](../img/Settings_Rules.png)
+
+In the last column, there is a tag. Thanks to these tags, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) :wink:
 
 # Calculate the number of affected products for rules
 
