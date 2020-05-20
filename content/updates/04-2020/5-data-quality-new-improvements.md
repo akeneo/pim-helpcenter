@@ -20,7 +20,7 @@ This improvement now enables you to easily monitor **your data quality and accur
 
 Three new locales are now supported for the spell-check features: Norwegian Bokmål 🇳🇴, Norwegian Nynorsk 🇳🇴 and Brazilian Portuguese 🇧🇷.
 
-The spell-check feature now can help you **improve your product information and avoid mistakes for 11 locales**!
+The spell-check feature can now help you **improve your product information and avoid mistakes for 11 locales**!
 
 ## For single locale PIM
 For those of you who have a catalog with only one activated locale, we have good news for you. You can now benefit from spell-check on all your text and text area attributes, if your locale is one of the supported languages.
