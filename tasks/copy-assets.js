@@ -35,12 +35,18 @@ gulp.task('copy-assets', ['clean-dist'], function(){
     var img = gulp.src('content/img/**/*')
         .pipe(rename({dirname: ''}))
         .pipe(gulp.dest('dist/pim/' + majorVersion + '/img/'));
-    var img = gulp.src('content/pdf-user-guides/**/*')
+    var pdfUserGuides = gulp.src('content/pdf-user-guides/**/*')
         .pipe(rename({dirname: ''}))
         .pipe(gulp.dest('dist/pim/' + majorVersion + '/pdf-user-guides/'));
     var articleImg = gulp.src('content/md/*/img/*')
         .pipe(rename({dirname: ''}))
         .pipe(gulp.dest('dist/pim/' + majorVersion + '/img/'));
+    var updatesImg = gulp.src('content/updates/img/*')
+        .pipe(rename({dirname: ''}))
+        .pipe(gulp.dest('dist/pim/' + majorVersion + '/img/'));
+    var updateArticlesImg = gulp.src('content/updates/*/img/*')
+        .pipe(rename({dirname: ''}))
+        .pipe(gulp.dest('dist/pim/' + majorVersion + '/img/'));
 
-    return merge(lib, css, fonts, img, articleImg, versions);
+    return merge(lib, css, fonts, img, pdfUserGuides, articleImg, updatesImg, updateArticlesImg, versions);
 });

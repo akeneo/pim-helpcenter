@@ -12,7 +12,7 @@ h1{
 
 h2{
     margin-top: @spacing-base * 0.75;
-    margin-bottom: @spacing-base / 3;
+    margin-bottom: @spacing-base / 4;
 }
 
 h3{
@@ -27,6 +27,28 @@ h4{
 
 h5{
     font-weight: 300;
+}
+
+.updates{
+    h1{
+        font-size: @font-size-h2;
+        margin-top: @spacing-base * 1.6;
+        &:first-of-type{
+            margin-top: @spacing-base * 0.6;
+        }
+    }
+
+    h2{
+        font-size: @font-size-h3;
+        margin-top: @spacing-base * 0.75;
+        text-transform: uppercase;
+        color: lighten(@headings-color, 10%);
+    }
+
+    h3{
+        font-size: @font-size-h4;
+        color: @gray-light;
+    }    
 }
 
 hr{

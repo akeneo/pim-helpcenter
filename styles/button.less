@@ -96,3 +96,25 @@ button:focus,
     margin-left: 3px;
     border: none;
 }
+
+.serenity-updates-btn {
+    z-index: 1;
+    position: fixed;
+    top: 100px;
+    background: white;
+    padding: 12px 70px 12px 12px;
+    border-radius: @border-radius-base * 10;
+    .box-shadow(darken(@gray-lighter, 5%) 0 2px 2px);
+    text-transform: uppercase;
+    color: @brand-primary;
+    font-weight: bold;
+    right: -250px;
+    transition: right 0.5s;
+    &:hover {
+        right: -40px;
+    }
+    em {
+        padding-left: 10px;
+        vertical-align: middle;
+    }
+}

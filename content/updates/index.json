@@ -1,0 +1,17 @@
+{
+  "2020-04": {
+    "title": "🦋 April Serenity updates",
+    "description": "This month is full of new features and updates! Discover our new measurement families, improvements on product associations and on the Connection dashboard. But that's not it! Find out new rules actions and our latest data quality improvements.",
+    "img": "illus-april-20.svg"
+  },
+  "2020-03": {
+    "title": "🌱 March Serenity updates",
+    "description": "This month, enhance your productivity thanks to new rules engine capabilities, better model your catalog with new measurement units and families, and finally keep on improving your product information with data quality extended features.",
+    "img": "illus-march-20.svg"
+  },
+  "2020-02": {
+    "title": "❄️ February Serenity updates",
+    "description": "This month Serenity updates include two new improvements: a new asset management operation to optimize the weight of your transformed files and new warning messages on usernames for the Connections.",
+    "img": "illus-february-20.svg"
+  }
+}
