@@ -26,5 +26,5 @@ The spell-check feature now can help you **improve your product information and 
 Prior to this release, only localisable attributes could benefit from the spell-check feature released in 4.0. Now, the feature is also available for non-localisable attributes when there is only one locale activated. This means that if you have a catalog with only one activated locale, you can now benefit from spell-check on all your text and text area attributes, if your locale is one of the supported languages.
 
 ::: more
-[Understand data quality](../articles/articles/understand-data-quality.html)
+[What is data quality?](../articles/articles/understand-data-quality.html)
 :::
