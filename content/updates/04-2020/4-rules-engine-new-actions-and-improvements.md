@@ -19,7 +19,7 @@
 
 You can now **name your rules with a clear label**. And that's not it, you can define a rule name per PIM locale enabled. The rule's label is visible under your rules grid and under your smart attributes, if you have international teams you can now make sure that they understand the purpose of a rule.
 
-## Set or add associations actions improved
+## Set or add association actions improved
 ::: meta-data type="Improvement" features="Rules engine, Productivity, Automation" available="early April" link-to-doc="../articles/get-started-with-the-rules-engine.html#add-associations"
 :::
 
