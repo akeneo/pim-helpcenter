@@ -19,7 +19,7 @@ We also show you the **total number of associations per association type**, when
 Many of you had been asking for it... From the `Associations` tab, you can now click on an associated product or product model and have it displayed in a new tab!
 
 ## Association screen improvement
-::: meta-data type="New" features="Product associations, Productivity" available="mid-April" link-to-doc="../articles/products-associations.html"
+::: meta-data type="Improvement" features="Product associations, Productivity" available="mid-April" link-to-doc="../articles/products-associations.html"
 :::
 
 Until now, when opening the association screen to associate a product with another one, the label of your product was not visible. We now display it under the title! This way we make sure you never lose track of what you are doing, even when a colleague of yours interrupts you during your work!
