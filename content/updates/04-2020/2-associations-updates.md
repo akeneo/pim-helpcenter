@@ -6,7 +6,7 @@
 :::
 
 We now display the **total number of associations per product or product model nearby the `Associations` tab** when you are on your product form.    
-You can now quickly see the number of associations for your products.
+You can now see the number of associations for your products at a glance.
 
 We also show you the **total number of associations per association type**, when you are on your product associations page.
 
