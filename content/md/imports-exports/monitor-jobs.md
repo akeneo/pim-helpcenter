@@ -23,11 +23,15 @@ First, you are notified by a flash message when the job starts.
 Then, when the job is completed, a notification appears on the top of your screen.
 ![image](../img/Settings_Calculation2.png)
 
-There is a Process Tracker page which will give you the full list of all jobs you launched. To access it, go to `Activity` and click on the `Process tracker`menu entry.
+There is a Process Tracker page which will give you the full list of all jobs you launched. To access it, go to `Activity` and click on the `Process tracker` menu entry.
 ![image](../img/Settings_Calculation3.png)
 
 The `Last operations` widget on Akeneo dashboard will also give you the status of your launched jobs.
 ![image](../img/Dashboard_Calculation4.png)
+
+::: tips
+If you want to view the jobs of all the users of your PIM (and not only yours), adding the [permission on action](manage-the-interface-and-actions-accesses.html#rights-on-system-pages) `View all jobs in Process Tracker` on your user role will grant you that privilege.
+:::
 
 ## Imports & exports reports
 
