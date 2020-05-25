@@ -57,6 +57,9 @@ The rules support [product models](what-about-products-variants.html#what-is-a-p
 To execute a rule, click on the `Execute` button at the end of each line in the grid.  
 A confirmation message validates the action of executing a rule.
 
+![image](../img/Settings_RulesExecution1.png)
+
+
 ## Execute a selection of rules
 
 You can also execute several rules at the same time:
