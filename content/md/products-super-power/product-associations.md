@@ -9,10 +9,10 @@ related: manage-your-association-types
 
 # Overview
 
-A product may be associated with none or several other products or product groups. This type of link also called a relationship has a direction: e.g. Product “A” --> Product “B” and Product “A” --> Product Group ”G”. The Product “B” and the product group “G” have no link or associations with the product “A”.
+A product may be associated with none or several other products or product groups. This type of link has a direction: 1-way or 2-way. Please read our [Association Types documentation](manage-your-association-types.html#Overview) for more information.
 
 ::: info
-This type of relationship enables you to define relationships like an alternative product or a substitution between products for example.
+These types of associations enables you to define relationships, for example like an alternative product, a substitution between products, or even a cross-sell/up-sell option.
 :::
 
 # View the product’s associations
@@ -25,17 +25,15 @@ To check the association types:
 1.  Click on the `Show products` button on the right-hand side of the tab to display the product grid
 
 :::info
-You can define associations on [product models](what-about-products-variants.html#what-is-a-product-model), refer to this [article](enrich-products-variants.html#associate) for more details.
+You can define associations on [product models](what-about-products-variants.html#what-is-a-product-model), please refer to this [article](enrich-products-variants.html#associate) for more details.
 :::
 
 Only the associated products or [product models](what-about-products-variants.html#what-is-a-product-model) are displayed in the `Associations` tab.
 
 ![View the associated products](../img/Products_ProductsAssociated21.png)
 
-:::info
 The total number of associations is displayed per product or product model (the figure is visible after the `Associations` tab label) and per association type (figure visible in the `Association type` list).
 ![View the number of associations](../img/Products_ProductsAssociatedNumber.png)
-:::
 
 By default, if the product has no association for the selected association type, nothing is displayed in the `Associations` tab.
 
