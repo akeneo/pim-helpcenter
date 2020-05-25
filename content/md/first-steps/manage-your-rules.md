@@ -32,7 +32,7 @@ The first time a rule is executed, it can match many products. The following tim
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the calculation is done.
 
-![image](../img/Settings-RulesCalculation.png)
+![image](../img/Settings-RulesCalculate.png)
 
 The number of affected products will appear on the right side of your screen in the `Affected products` column.
 
@@ -65,6 +65,8 @@ You can also execute several rules at the same time:
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the execution is done
 
+![image](../img/Settings-RulesExecutionNotif.png)
+
 # Create a rule
 
 Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.  
@@ -91,7 +93,7 @@ A deleted rule can no longer be executed by the rules engine. The products keep 
 To delete a rule, click on the `Delete` button at the end of each line in the grid.  
 A confirmation message validates the action of deleting a rule.
 
-![image](../img/Settings_DeleteHover.png)
+![image](../img/Settings_RulesDeleteHover.png)
 
 ::: info  
 If you do not see the `Delete` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](build-your-user-roles.html).
