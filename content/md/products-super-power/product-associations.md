@@ -65,8 +65,7 @@ To add associations, there is a picker to select products or [product models](wh
   ![Add association](../img/Products_ProductsBasketAssociation.png)
 1.  Click on the `Confirm` button
 1.  The products or product models you associate to the current product are displayed in the `Associations` tab
-
-![View the associated products](../img/Products_ProductsAssociated21.png)
+  ![View the associated products](../img/Products_ProductsAssociated21.png)
 
 :::info
 A product can also be associated to a [product model](what-about-products-variants.html#what-is-a-product-model).
@@ -83,3 +82,7 @@ To remove an association:
 1.  Click on the `Save` button
 
 ![Remove associations](../img/Products_ProductsRemoveAssociation.png)
+
+:::info
+A product that has been associated with the 2-way association will be removed from both ways. Please read our [Association Types documentation](manage-your-association-types.html#Overview) for more information.
+:::
