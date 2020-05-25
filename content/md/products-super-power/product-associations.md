@@ -84,5 +84,5 @@ To remove an association:
 ![Remove associations](../img/Products_ProductsRemoveAssociation.png)
 
 :::info
-A product that has been associated with the 2-way association will be removed from both ways. Please read our [Association Types documentation](manage-your-association-types.html#Overview) for more information.
+A product that has been associated with the 2-way association will be removed from both ways. Please read our [Association Types](manage-your-association-types.html#Overview) article for more information.
 :::
