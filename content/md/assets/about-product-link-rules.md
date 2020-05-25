@@ -25,10 +25,11 @@ We noticed that you, our dear customers, usually name your asset files or asset 
 
 The idea of the naming convention feature is to be able to extract those pieces of information and use them to **automatically** enrich your assets with new attributes values.
 
-Just a reminder but an important one for you to better understand what is coming next: *the product link rule is based on asset attributes* :wink:
+Just a reminder but an important one for you to better understand what is coming next: ***the product link rule is based on asset attributes*** :wink:
 
-By defining a naming convention, for each [asset family](what-about-assets.html#what-is-an-asset-family), the PIM will be able to split the asset code or the main media filename, in order to extract the information you want and use it to populate asset attributes.
-This operation is automatically run by the PIM during each asset creation.
+Defining a naming convention for each [asset family](what-about-assets.html#what-is-an-asset-family) will enable the PIM to split your **asset code** or your **main media filename** to extract the information you want and use it to populate asset attributes.
+
+This operation is automatically **run by the PIM during each asset creation**.
 
 ::: info
 This naming convention is defined at the asset family level.
@@ -37,6 +38,20 @@ This naming convention is defined at the asset family level.
 The naming convention can be defined via the API or directly in the PIM UI, in the `Product Link Rules` tab of each asset family.
 
 ![Assets Naming Convention](../img/Assets_NamingConventionNew.png)
+
+### Should I split the asset code or the filename?
+
+As said above, you can choose to split the asset code or the main media filename. What should you do? Let's discover it.
+
+#### First use case
+If you **mass upload** your assets in the Asset Manager - meaning that your main media attribute is a `media file` attribute - you can choose to **split either the code of the asset, or its filename**.   
+
+#### Second use case
+If you create your assets **one by one** in your family, or if the main media attribute of your asset family is a `media link` attribute (meaning that you **can't use the mass upload** feature), you must split the **code** of your assets, **not the filename**.
+
+*Why?*
+Because the naming convention is executed at the ***asset creation*** step. In the second use case, we don't know the filename of the asset when the asset creation takes place since we add the file afterward. That's why the naming convention won't work if you split the filename instead of the code :wink:
+
 
 ### The format of the naming convention
 
@@ -143,14 +158,30 @@ A piece of advice: when defining two different rules on an asset family, make su
 
 ![Product Link Rules](../img/Assets_ProductLinkRulesNew.png)
 
-Looks difficult? Don't freak out! The following sections are here to help you understand this rule and how you can make the most of it. You'll see, it's super powerful! 😃
+If you are not comfortable with the naming conventions yet, the following sections will help you understand the rules and how you can make the most of it. You'll see, it's super powerful! 😃
 
-### Product selection
+### Product selections
 The first part of the rule is a property called `product_selections`. This property will allow you to define a selection of products/product models for which you want to automatically link the assets of the asset family.
 
 In one single product link rule, you can define one or several product selections.
 
-To see the format of the `product selections`, please read [this article](https://api.akeneo.com/concepts/asset-manager.html#product-selection) on our API website ;)
+The format of the product selection part is defined as follows:
+```json
+{
+      "product_selections": [
+        {
+          "field": "enabled",
+          "operator": "=",
+          "value": "true"
+        },
+        {
+          "field": "categories",
+          "operator": "IN",
+          "value": ["men"]
+        }
+      ]
+    }
+```
 
 ::: info
 You can use multiple conditions to make your selection. Those conditions are cumulative. For example, you can select the products that are **both** enabled **and** in the `men` category.
@@ -175,29 +206,85 @@ Once you have chosen and selected the products you want to apply the rule to, it
 
 This is done in the second part of the product link rule, in the `assign_assets_to` property. Thanks to this property, you will define to which product value you want to assign your assets. In other words, which attribute, locale and scope of the products you want to link your assets to. You can also decide whether you want to **add** new assets or **replace** the existing ones inside this product attribute.
 
-#### Examples
-Based on the previous example created for the [naming convention](#focus-on-the-naming-convention)
+The format of this part is defined as follows:
+```json
+{
+      "assign_assets_to": [
+        {
+          "mode": "add",
+          "attribute": "user_instructions",
+          "locale": "en_US",
+          "channel": null
+        }
+      ]
+    }
+```
+
+### Product link rule examples
+
+#### With one product link rule
 
 ```json
 [
-  {
-    "product_selections": [
-      {
-        "field": "sku",
-        "value": "{{product_ref}}",
-        "locale": null,
-        "channel": null,
-        "operator": "="
-      }
-    ],
-    "assign_assets_to": [
-      {
-        "attribute": "media_attribute_in_product",
-        "locale": null,
-        "channel": null,
-        "mode": "replace"
-      }
-    ]
-  }
-]
+        {
+          "product_selections": [
+            {
+              "field": "sku",
+              "operator": "=",
+              "value": "{{product_ref}}",
+              "locale": null,
+              "channel": null
+            }
+          ],
+          "assign_assets_to": [
+            {
+              "mode": "replace",
+              "attribute": "user_instructions",
+              "locale": "{{locale}}",
+              "channel": null
+            }
+          ]
+        }
+      ]
+```
+
+#### With two product link rules
+
+```json
+[
+        {
+          "product_selections": [
+            {
+              "field": "categories",
+              "operator": "IN",
+              "value": ["men_clothes"]
+            }
+          ],
+          "assign_assets_to": [
+            {
+              "mode": "add",
+              "attribute": "ambient_image",
+              "locale": null,
+              "channel": null
+            }
+          ]
+        },
+        {
+          "product_selections": [
+            {
+              "field": "categories",
+              "operator": "IN",
+              "value": ["women_clothes"]
+            }
+          ],
+          "assign_assets_to": [
+            {
+              "mode": "add",
+              "attribute": "ambient_image",
+              "locale": null,
+              "channel": null
+            }
+          ]
+        }
+      ]
 ```
