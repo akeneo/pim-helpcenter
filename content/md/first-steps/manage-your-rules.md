@@ -19,7 +19,7 @@ You can search on the rule code or label.
 
 ![image](../img/Settings_Rules.png)
 
-In the last column, there is a tag. Thanks to the tags, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) :wink:
+In the last column, there is a tag. Thanks to these tags, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) :wink:
 
 # Calculate the number of affected products for rules
 
@@ -32,7 +32,7 @@ The first time a rule is executed, it can match many products. The following tim
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the calculation is done.
 
-![image](../img/Settings-RulesCalculate.png)
+![image](../img/Settings_RulesCalculate.png)
 
 The number of affected products will appear on the right side of your screen in the `Affected products` column.
 
@@ -65,7 +65,7 @@ You can also execute several rules at the same time:
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the execution is done
 
-![image](../img/Settings-RulesExecutionNotif.png)
+![image](../img/Settings_RulesExecutionNotif.png)
 
 # Create a rule
 
