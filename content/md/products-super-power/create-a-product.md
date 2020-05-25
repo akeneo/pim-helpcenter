@@ -3,7 +3,7 @@ id: create-a-product
 themes: products-super-power
 title: "**Create** products"
 popular: false
-related: products-grid, work-on-a-product, enrich-products-variants
+related: products-grid, work-on-a-product, enrich-products-variants, duplicate-a-product
 ---
 
 # Overview
