@@ -50,7 +50,7 @@ If you **mass upload** your assets in the Asset Manager - meaning that your main
 If you create your assets **one by one** in your family, or if the main media attribute of your asset family is a `media link` attribute (meaning that you **can't use the mass upload** feature), you must split the **code** of your assets, **not the filename**.
 
 *Why?*
-Because the naming convention is executed at the ***asset creation*** step. In the second use case, we don't know the filename of the asset at the asset creation since we add the file afterward. That's why the naming convention won't work if you split the filename instead of the code :wink:
+Because the naming convention is executed at the ***asset creation*** step. In the second use case, we don't know the filename of the asset when the asset creation takes place since we add the file afterward. That's why the naming convention won't work if you split the filename instead of the code :wink:
 
 
 ### The format of the naming convention
