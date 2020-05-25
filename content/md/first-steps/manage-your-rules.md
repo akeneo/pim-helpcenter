@@ -19,7 +19,7 @@ You can search on the rule code or label.
 
 ![image](../img/Settings_Rules.png)
 
-In the last column, there is a tag. Thanks to these tags, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) :wink:
+In the last column, there is a tag. Thanks to the tags, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) :wink:
 
 # Calculate the number of affected products for rules
 
