@@ -14,10 +14,12 @@ For more details, please refer to [the dedicated article](get-started-with-the-r
 
 # View all rules
 
-The `Settings/Rules` screen displays all the rules that have been created and imported in the PIM.  
-You can search on the rule code.
+The `Settings/Rules` screen displays a grid with all the rules that have been created and imported in the PIM.  
+You can search on the rule code or label.
 
 ![image](../img/Settings_Rules.png)
+
+In the last column, there is a tag. Thanks to these tags, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) :wink:
 
 # Calculate the number of affected products for rules
 
@@ -30,7 +32,7 @@ The first time a rule is executed, it can match many products. The following tim
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the calculation is done.
 
-![image](../img/Settings-RulesCalculation.png)
+![image](../img/Settings_RulesCalculate.png)
 
 The number of affected products will appear on the right side of your screen in the `Affected products` column.
 
@@ -55,6 +57,9 @@ The rules support [product models](what-about-products-variants.html#what-is-a-p
 To execute a rule, click on the `Execute` button at the end of each line in the grid.  
 A confirmation message validates the action of executing a rule.
 
+![image](../img/Settings_RulesExecution1.png)
+
+
 ## Execute a selection of rules
 
 You can also execute several rules at the same time:
@@ -62,6 +67,8 @@ You can also execute several rules at the same time:
 1.  Click on `Execute`
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the execution is done
+
+![image](../img/Settings_RulesExecutionNotif.png)
 
 # Create a rule
 
@@ -89,7 +96,7 @@ A deleted rule can no longer be executed by the rules engine. The products keep 
 To delete a rule, click on the `Delete` button at the end of each line in the grid.  
 A confirmation message validates the action of deleting a rule.
 
-![image](../img/Settings_DeleteHover.png)
+![image](../img/Settings_RulesDeleteHover.png)
 
 ::: info  
 If you do not see the `Delete` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](build-your-user-roles.html).
