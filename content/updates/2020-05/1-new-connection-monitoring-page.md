@@ -1,7 +1,7 @@
 # New: monitor products errors on your connections
 
 ## A new page to monitor your connection errors
-::: meta-data type="New" features="Connections" available="mid-May" link-to-doc="../articles/manage-your-connections.html#monitor-a-connection"
+::: meta-data type="New" features="Connections" available="mid-May" link-to-doc="../articles/connection-dashboard.html#error-monitoring"
 :::
 
 This feature should help you to reduce the time needed to solve issues. The goal of displaying product business errors is to allow you to solve them before calling for IT support or your integrator support.
