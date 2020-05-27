@@ -56,7 +56,7 @@ To create a 2-way association type:
 1.  Set the "2-way association" button to "Yes"
 1.  Click on Save
 
-![image](../img/Association_types_2-way_button.png)
+![image](../img/Settings_Associations_2-way-association-type.png)
 
 :::tips
 The association type has now been created and the edit page is displayed.  
