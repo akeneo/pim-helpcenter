@@ -94,10 +94,6 @@ To remove an association type:
 
 The association type is then deleted.
 
-:::warning
-If an association type is used by at least one product, then the association type cannot be deleted: an error message is displayed to let the user know that the association type is used and cannot be deleted.
-:::
-
 # Check the association type history
 
 Changes made on association types are recorded and visible in the history tab of the association type.
