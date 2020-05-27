@@ -25,5 +25,5 @@ The spell-check feature can now help you **improve your product information and 
 For those of you who have a catalog with only one activated locale, we have good news for you. You can now benefit from spell-check on all your text and text area attributes, if your locale is one of the supported languages.
 
 ::: more
-[What is data quality?](../articles/articles/understand-data-quality.html)
+[What is data quality?](../articles/understand-data-quality.html)
 :::
