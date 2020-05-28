@@ -101,6 +101,10 @@ Defining the same operation type twice in the same transformation is forbidden a
 
 Please refer to the [API documentation](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-transformations) to discover the expected JSON format.
 
+::: info
+To do operations on your media, we always convert them to .png first, to avoid compression related losses. As a result, this conversion can increase the size of your images.
+:::
+
 Here is the list of the available operations:
 
 ### Thumbnail
