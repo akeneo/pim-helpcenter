@@ -1,6 +1,5 @@
-# Product associations update
+# New association type: the 2-way association
 
-## New association type: the 2-way association
 ::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-May" link-to-doc="../articles/manage-your-association-types.html#create-a-2-way-association-type"
 :::
 
@@ -14,6 +13,6 @@ This feature is particularly useful for clients who need to display products tha
 ![2-way association type](../img/Associations_2-way-association-type.png)
 
 ::: more
-[What are association types?](../articles/manage-your-association-types.html)  
+[What are association types?](../articles/manage-your-association-types.html)    
 [What are product associations?](../articles/products-associations.html)
 :::
