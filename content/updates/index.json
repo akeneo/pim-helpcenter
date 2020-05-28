@@ -4,6 +4,11 @@
     "description": "These are the updates that happened in July.",
     "img": "illus-july-20.svg"
   },
+  "2020-06": {
+    "title": "☀️ June Serenity updates",
+    "description": "This are the June Serenity updates",
+    "img": "illus-june-20.svg"
+  },
   "2020-05": {
     "title": "🌺 May Serenity updates",
     "description": "The month of May brings improvements for error management on Connections, more flexibility for your data modeling thanks to a brand new association type, more control and visibility on the ongoing PIM jobs and additional features for the rules engine!",
