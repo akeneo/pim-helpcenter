@@ -43,7 +43,7 @@ To create a 1-way association type:
 1.  Fill in the code of the association type you want to create
 1.  Click on Save
 
-:::tips
+::: success
 The association type has now been created and the edit page is displayed.  
 The labels can be changed.
 :::
@@ -58,7 +58,7 @@ To create a 2-way association type:
 
 ![image](../img/Settings_Associations_2-way-association-type.png)
 
-:::tips
+::: success
 The association type has now been created and the edit page is displayed.  
 The labels can be changed.
 :::
@@ -76,12 +76,9 @@ To edit an association type:
 1.  Only the labels can be edited for a type of association  
 1.  Click on the `Save` button to save your changes
 
-:::info
-The code cannot be changed once the association type is created.
-:::
-
-:::warning
-The 2-way association property cannot be updated.
+::: warning
+The code cannot be changed once the association type is created.  
+Also, the 2-way association property cannot be updated.
 :::
 
 # Delete an association type
@@ -92,7 +89,9 @@ To remove an association type:
 1.  Click on the `Delete` button
 1.  Confirm the action via the validation message
 
+::: success
 The association type is then deleted.
+:::
 
 # Check the association type history
 
