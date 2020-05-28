@@ -9,7 +9,7 @@ We created a new association type named **2-way association**. You can find it i
 When associating some products with others, you now have the possibility to link them thanks to a two-way association.
 Example: if you associate product A to product B, product B will **automatically** be associated with product A.
 
-This feature is especially useful for clients who need to display which products are compatible with which other products (like machines and spare parts).
+This feature is particularly useful for clients who need to display products that are compatible with other products (like machines and spare parts).
 
 ![2-way association type](../img/Associations_2-way-association-type.png)
 
