@@ -4,7 +4,7 @@
 ::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-May" link-to-doc="../articles/manage-your-association-types.html#create-a-2-way-association-type"
 :::
 
-We created a new association type named **2-way association**, accessible from `Settings` then `Association types` tabs.
+We created a new association type named **2-way association**. You can find it in `Settings` then `Association types`.
 
 When associating some products to others, you now have the possibility to link them via a two-way association.
 Example: if you associate product A to product B, product B will be **automatically** associated to product A.
