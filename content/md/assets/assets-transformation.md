@@ -175,7 +175,26 @@ There are 2 available parameters for this operation.
 Both parameters are required.
 :::
 
-###
+### Optimize jpeg
+
+With the `optimize_jpeg` type, you can convert your images to jpeg and change their jpeg quality.
+
+::: tips
+Even if you upload a jpeg image in your asset manager, we automatically convert it to a png for each operation, in order to avoid quality loss. If you want to convert your images back to jpeg, you can put this operation last.
+:::
+
+There is 1 available parameter for this operation.
+
+| Operator name | Description |
+| ----------------- | -------------- |
+| `quality` | A number between 1 and 100 included |
+
+::: info
+This parameter is required.
+:::
+
+The `optimize_jpeg` must be the last operation of your transformation. Define the desired compression rate, by setting a quality setting between 1 (high compression=lower quality) and 100 (low compression=higher quality).
+
 
 # Dealing with several transformations
 
