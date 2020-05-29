@@ -101,6 +101,10 @@ Defining the same operation type twice in the same transformation is forbidden a
 
 Please refer to the [API documentation](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-transformations) to discover the expected JSON format.
 
+::: info
+To do operations on your media, we always convert them to .png first, to avoid compression related losses. As a result, this conversion can increase the size of your images. To reduce your file size, we provide an optimize jpeg operation to convert them back to compressed jpeg files :wink:.
+:::
+
 Here is the list of the available operations:
 
 ### Thumbnail
@@ -170,6 +174,27 @@ There are 2 available parameters for this operation.
 ::: info
 Both parameters are required.
 :::
+
+### Optimize jpeg
+
+With the `optimize_jpeg` type, you can convert your images to jpeg and change their jpeg quality.
+
+::: tips
+Even if you upload a jpeg image in your asset manager, we automatically convert it to a png for each operation, in order to avoid quality loss. If you want to convert your images back to jpeg, you can put this operation last.
+:::
+
+There is 1 available parameter for this operation.
+
+| Operator name | Description |
+| ----------------- | -------------- |
+| `quality` | A number between 1 and 100 included |
+
+::: info
+This parameter is required.
+:::
+
+The `optimize_jpeg` must be the last operation of your transformation. Define the desired compression rate, by setting a quality setting between 1 (high compression=lower quality) and 100 (low compression=higher quality).
+
 
 # Dealing with several transformations
 
