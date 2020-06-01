@@ -1,22 +1,22 @@
-# New: monitor products errors on your connections
+# Connections new features
 
-## A new page to monitor your connection errors
-::: meta-data type="New" features="Connections" available="mid-May" link-to-doc="../articles/connection-dashboard.html#error-monitoring"
+## Easily monitor errors on your connections 
+::: meta-data type="New" features="Connections, Productivity" available="mid-May" link-to-doc="../articles/connection-dashboard.html#error-monitoring"
 :::
 
-This feature should help you to reduce the time needed to solve issues. The goal of displaying product business errors is to allow you to solve them before calling for IT support or your integrator support.
+The new `Monitoring` page available under `Connections` lists the last errors for your Connections. From this page, you can now easily track any error on products creation, update, or deletion for each of your connections and fix it. 
 
 In other words, why a product hasn't been created or updated by your source connection?
 
 ![Connection monitoring page](../img/new-connection-monitoring-page.png)
 
 ## New metrics on the connection dashboard
-::: meta-data type="New" features="Connections" available="late-May" link-to-doc="../articles/connection-dashboard.html#error-monitoring"
+::: meta-data type="New" features="Connections, Productivity" available="late-May" link-to-doc="../articles/connection-dashboard.html#error-monitoring"
 :::
 
-The connection dashboard now displays: 
-- a new graph with the number of product errors (business and technical) for the past week,
-- and connection cards with the number of business errors during the past week with a link to the errors list of the related connection.
+To ease the error monitoring and enable you to see at a glance how your Source Connections are performing, the connection dashboard now displays: 
+- a graph with the number of product errors (business and technical) for the past week,
+- and connection cards showing the number of business errors for the past week. 
 
 ![Error monitoring on connection dashboard](../img/error-monitoring-connection-dashboard.png)
 
