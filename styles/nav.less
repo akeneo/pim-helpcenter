@@ -8,17 +8,38 @@ nav{
         border-color: white;
     }
     &.navbar-default{
-        .navbar-header{
-            float: left;
+        .navbar-toggle{
+            border-color: @navbar-default-color;
+            &:hover, &:focus {
+                background-color: darken(@navbar-default-bg,5%);
+            }
+            .icon-bar{
+                background-color: @navbar-default-color;
+            }
         }
         .navbar-brand{
             padding: 21px 30px;
+        }
+        .collapse.in, .collapsing {
+            .navbar-right{
+                float: initial;
+            }
+            li.active>a,
+            li.active>a:hover{
+                &:after{
+                    right: unset;
+                    left: 15px;
+                }
+            }
+            a:hover:after {
+                right: unset;
+                left: 15px;
+            }
         }
         .navbar-nav {
             margin-top: 0;
             margin-bottom: 0;
             &.navbar-right{
-                float: right;
                 &:last-child {
                     margin-right: -15px;
                 }
