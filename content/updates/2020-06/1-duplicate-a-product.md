@@ -2,10 +2,10 @@
 ::: meta-data type="New" features="Enrichment, Product creation" available="early-June" link-to-doc="../articles/duplicate-a-product.html"
 :::
 
-Want to easily create a new product based on another? You can now duplicate a simple product in just one click! What a time-saver! :wink:  
-You can find this new action in the `...` button of the product edit form of each one of your products. 
+Do you want to easily create a new product from another? You can now duplicate a simple product in your user interface with one single click! What a time-saver! :wink:  
+Find this new action under the `...` button at the top right corner of each of your product edit forms. 
 
-There is a permission to hide this action, if you don't want some users to be able to duplicate products.
+This new feature also comes with a dedicated permission, so you can decide which group(s) of users can perform this action.
 
 ::: more
 [How to create new products?](../articles/create-a-product.html#mainContent)  
