@@ -1,6 +1,6 @@
 # Rules engine improvements
 
-## Tags for each action in the rules grid
+## New action tags for your rules
 ::: meta-data type="Improvement" features="Productivity, Rules engine" available="early May" link-to-doc="../articles/articles/manage-your-rules.html"
 :::
 
@@ -12,13 +12,12 @@ From now on, you can see at a glance the action type behind each rule (add, copy
 [Manage your rules](../articles/articles/manage-your-rules.html)
 :::
 
-## New parameter in the Calculate action in order to round the result
+## Round your calculation results with a new parameter
 ::: meta-data type="Improvement" features="Productivity, Rules engine" available="late May" link-to-doc="../articles/articles/get-started-with-the-rules-engine.html"
 :::
 
-A new "round_precision" parameter is available in the Calculate action, in order to let you choose the way you want to round the result of the operation(s).
+To give your more flexibility and ensure your data is in the right format, the `round_precision` new parameter enables you to round the final result of your rule operation(s).  For instance, define the number of decimals you need or remove all decimals.
 
-For instance, if the destination attribute is a number attribute that doesn't allow decimals, the action can be applied only when the result is an integer. This behavior can be changed by setting up the round_precision to 0: the result will be rounded and the action will be applied!
 
 ::: more
 [Get started with the rules engine](../articles/articles/get-started-with-the-rules-engine.html)
