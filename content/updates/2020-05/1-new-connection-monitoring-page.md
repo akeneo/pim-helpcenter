@@ -12,7 +12,7 @@ The new `Monitoring` page available under `Connections` lists the last errors fo
 ::: meta-data type="New" features="Connections, Productivity" available="late-May" link-to-doc="../articles/connection-dashboard.html#error-monitoring"
 :::
 
-To ease the error monitoring and enable you to see at a glance how your Source Connections are performing, the connection dashboard now displays: 
+To ease error monitoring and allow you to see at a glance how your Source Connections are performing, the connection dashboard now displays: 
 - a graph with the number of product errors (business and technical) for the past week,
 - and connection cards showing the number of business errors for the past week. 
 
