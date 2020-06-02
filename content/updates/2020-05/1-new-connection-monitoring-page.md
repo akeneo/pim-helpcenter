@@ -19,7 +19,7 @@ To ease error monitoring and allow you to see at a glance how your Source Connec
 ![Error monitoring on connection dashboard](../img/error-monitoring-connection-dashboard.png)
 
 ::: more
-[What is a connection?](../articles/what-is-a-connection.html) 
-[How to monitor your third-party connections?](../articles/connection-dashboard.html) 
+[What is a connection?](../articles/what-is-a-connection.html)   
+[How to monitor your third-party connections?](../articles/connection-dashboard.html)  
 [How to manage your connections?](../articles/manage-your-connections.html) 
 :::
