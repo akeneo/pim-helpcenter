@@ -51,20 +51,20 @@ You can easily switch the destination connection you want to monitor by clicking
 
 ## In the Connection dashboard
 In this dashboard, you can easily track **product errors** that occurred over the last 7 days. 
-- The graph represents the number of product errors (business and technical), 
+- The graph shows the number of product errors (business and technical), 
 - and connection cards display the number of business errors for the past week.
 
 ::: info
-Julia could solve **business errors** inside the PIM or in the connected application. On the contrary, **technical errors** can't be resolved without a developer or a technical profile intervention.
+Julia could solve **business errors** from the PIM or in the connected application. On the contrary, **technical errors** can't be resolved without a developer or a technical profile intervention.
 
-For example, a `This value is too long. It should have 7 characters or less.` error is considered as a business error because Julia could solve it by updating the value of the related attribute. But a `Property does not exist` is regarded as a technical error because it can't be solved without modifying the connector.
+For example, a `This value is too long. It should have 7 characters or less.` error is considered as a business error because Julia could solve it by changing the value of the related attribute. But a `Property does not exist` error is regarded as a technical error because it can't be solved without modifying the connector.
 :::
 
 ![Connection dashboard - error monitoring](../img/error-monitoring-connection-dashboard.png)
 
 ## In the connection Monitoring page
 
-You can access the `Monitoring` page by clicking on a connection card in the `Connection dashboard` or on the `System` menu, then `Connections`, and your connection card. 
+You can access the `Monitoring` page by clicking directly on a connection card in the `Connection dashboard` or in the `System` menu, then `Connections`, and on your connection card. 
 
 It displays information about **the last 100 business errors**:
 - the date and time of the error,
