@@ -78,7 +78,7 @@ To edit an association type:
 
 ::: warning
 You cannot change the code once you created the association type.    
-Also, the 2-way association property cannot be updated.
+Neither will you be able to update the 2-way association. 
 :::
 
 # Delete an association type
