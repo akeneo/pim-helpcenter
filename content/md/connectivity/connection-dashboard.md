@@ -50,13 +50,23 @@ You can easily switch the destination connection you want to monitor by clicking
 # Error monitoring
 
 ## In the Connection dashboard
-In this dashboard, you can easily track **business errors** that occurred over the last 7 days. Each square represents a connection and allows you to access the list of related errors by clicking on it. It will redirect you to the connection `Monitoring` page.
+In this dashboard, you can easily track **product errors** that occurred over the last 7 days. 
+- The graph represents the number of product errors (business and technical), 
+- and connection cards display the number of business errors for the past week.
 
-![Number of business error per connection](../img/business-errors-per-connection.png)
+::: info
+Julia could solve **business errors** inside the PIM or in the connected application. On the contrary, **technical errors** can't be resolved without a developer or a technical profile intervention.
+
+For example, a `This value is too long. It should have 7 characters or less.` error is considered as a business error because Julia could solve it by updating the value of the related attribute. But a `Property does not exist` is regarded as a technical error because it can't be solved without modifying the connector.
+:::
+
+![Connection dashboard - error monitoring](../img/error-monitoring-connection-dashboard.png)
 
 ## In the connection Monitoring page
 
-The `Monitoring` page displays information about **the last 100 business errors**:
+You can access the `Monitoring` page by clicking on a connection card in the `Connection dashboard` or on the `System` menu, then `Connections`, and your connection card. 
+
+It displays information about **the last 100 business errors**:
 - the date and time of the error,
 - the error message with details,
 - and, on top, a search bar to filter the list. 🔍
