@@ -77,7 +77,7 @@ To edit an association type:
 1.  Click on the `Save` button to save your changes
 
 ::: warning
-The code cannot be changed once the association type is created.  
+You cannot change the code once you created the association type.    
 Also, the 2-way association property cannot be updated.
 :::
 
