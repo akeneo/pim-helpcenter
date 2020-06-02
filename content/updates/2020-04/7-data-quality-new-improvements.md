@@ -1,4 +1,5 @@
 # Data quality improvements
+To make sure all your products have enriched and consistent content, Data quality insights recommendations and grades are now also available for product models and for more languages.
 
 ## Data Quality Insights on product models
 ::: meta-data type="Improvement" features="Quality, Data Quality Insights" available="mid-April" link-to-doc="../articles/articles/understand-data-quality.html"
