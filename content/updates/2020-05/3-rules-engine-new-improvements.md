@@ -4,7 +4,7 @@
 ::: meta-data type="Improvement" features="Productivity, Rules engine" available="early May" link-to-doc="../articles/manage-your-rules.html"
 :::
 
-From now on, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) in the rules grid. To ease your readability, each action type has its own color :wink:.
+From now on, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) in the rules grid. To ease your readability, each action type has its own color. :wink:
 
 ![rules_tags](../img/Rules_Tags.png)
 
