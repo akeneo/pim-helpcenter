@@ -5,8 +5,7 @@
 
 Easily handle product compatibility in your PIM thanks to our **brand new two-way association type**! This new association type is now available under `Settings`/`Association types`.
 
-When associating some products with others, you now have the possibility to link them thanks to a two-way association.
-Example: if you associate product A to product B, product B will **automatically** be associated with product A.
+If you choose the two-way association type, and associate product A with product B, product B will **automatically** be associated with product A.
 
 Use a 2-way association if you need to easily link substitute or replacement items, or products that are compatible such as appliances and spare parts.
 
