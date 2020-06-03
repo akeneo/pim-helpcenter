@@ -1,7 +1,7 @@
 # Connections new features
 
 ## Easily monitor errors on your connections 
-::: meta-data type="New" features="Connections, Productivity" available="mid-May" link-to-doc="../articles/connection-dashboard.html#error-monitoring"
+::: meta-data type="New" features="Connections, Productivity" available="mid-May" link-to-doc="../articles/connection-dashboard.html#in-the-connection-monitoring-page"
 :::
 
 The new `Monitoring` page available under `Connections` lists the last errors for your Connections. From this page, you can now easily track and fix any error on product creation, update, or deletion for each of your connections. 
@@ -9,7 +9,7 @@ The new `Monitoring` page available under `Connections` lists the last errors fo
 ![Connection monitoring page](../img/new-connection-monitoring-page.png)
 
 ## New metrics on the Connection dashboard
-::: meta-data type="New" features="Connections, Productivity" available="late-May" link-to-doc="../articles/connection-dashboard.html#error-monitoring"
+::: meta-data type="New" features="Connections, Productivity" available="late-May" link-to-doc="../articles/connection-dashboard.html#in-the-connection-dashboard"
 :::
 
 To ease error monitoring and allow you to see at a glance how your Source Connections are performing, the Connection dashboard now displays: 
