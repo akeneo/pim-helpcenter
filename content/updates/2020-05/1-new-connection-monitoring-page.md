@@ -4,7 +4,7 @@
 ::: meta-data type="New" features="Connections, Productivity" available="mid-May" link-to-doc="../articles/connection-dashboard.html#error-monitoring"
 :::
 
-The new `Monitoring` page available under `Connections` lists the last errors for your Connections. From this page, you can now easily track any error on products creation, update, or deletion for each of your connections and fix it. 
+The new `Monitoring` page available under `Connections` lists the last errors for your Connections. From this page, you can now easily track and fix any error on product creation, update, or deletion for each of your connections. 
 
 ![Connection monitoring page](../img/new-connection-monitoring-page.png)
 

@@ -3,12 +3,12 @@
 ::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-May" link-to-doc="../articles/manage-your-association-types.html#create-a-2-way-association-type"
 :::
 
-Easily handle products compatibility in your PIM thanks to our **brand new two-way association type**! This new association type is now available under `Settings`/`Association types`.
+Easily handle product compatibility in your PIM thanks to our **brand new two-way association type**! This new association type is now available under `Settings`/`Association types`.
 
 When associating some products with others, you now have the possibility to link them thanks to a two-way association.
 Example: if you associate product A to product B, product B will **automatically** be associated with product A.
 
-This feature is particularly useful for clients who need to display products that are compatible with other products (like machines and spare parts).
+Use a 2-way association if you need to easily link substitute or replacement items, or products that are compatible such as appliances and spare parts.
 
 ![2-way association type](../img/Associations_2-way-association-type.png)
 
