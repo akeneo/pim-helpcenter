@@ -25,7 +25,7 @@
             "notification_duration": 7, 
             "tags": ["new","updates"],
             "title": "New association type: the two-way association",
-            "description": "Easily handle products compatibility in your PIM thanks to our brand new two-way association type!",
+            "description": "Easily handle products compatibility in your PIM thanks to our **brand new two-way association type**! This new association type is now available under `Settings`/`Association types`.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/Associations_2-way-association-type.png",
             "altImg": "Create a new 2-way association type",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#new-association-type-the-2-way-association"
@@ -35,7 +35,7 @@
             "notification_duration": 7, 
             "tags": ["new","updates"],
             "title": "More visibility on all the jobs",
-            "description": "Say welcome to a brand new permission called `View all jobs in the Process Tracker`! It will allow you to see all jobs in the Process Tracker, even the ones that you didn't launch.",
+            "description": "To give you more visibility and control on all PIM jobs, we added a new permission: `View all jobs in the Process Tracker`. It will allow you to see all jobs of any status under the Process Tracker.",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#more-visibility-on-all-the-jobs"
         },
         {
@@ -80,10 +80,18 @@
             "startDate": "May, 7th 2020",
             "notification_duration": 7, 
             "tags": ["updates"],
-            "title": "Track your destination updates",
+            "title": "Track your destination connections",
             "description": "You can now easily track the number of products that are sent to your destinations in the Connection dashboard.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/number-of-products-sent.png",
             "altImg": "Destination connection chart",
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#track-your-destination-connections"
+        },
+        {
+            "startDate": "May, 7th 2020",
+            "notification_duration": 7, 
+            "tags": ["updates"],
+            "title": "Connection dashboard updates",
+            "description": "The Connection dashboard has been improved with a new layout as well as the possibility to choose which connection you want to track.",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#connection-dashboard-updates"
         },
         {
@@ -99,9 +107,7 @@
             "notification_duration": 7, 
             "tags": ["updates"],
             "title": "Data quality improvements",
-            "description": "To make sure all your products have enriched and consistent content, Data quality insights recommendations and grades are now also available for product models and for more languages.",
-            "img": "/bundles/akeneocommunicationchannel/images/cards/data-quality-product-models.png",
-            "altImg": "Data Quality Insights on product models",
+            "description": "To make sure all your products have enriched and consistent content, Data Quality Insights recommendations and grades are now also available for product models and for more languages.",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#data-quality-improvements"
         },
         {
