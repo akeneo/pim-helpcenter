@@ -213,7 +213,7 @@ gulp.task('build-monthly-updates', ['clean-dist','less'], function () {
     var updateTitles = {};
     var updateIndex = 0;
 
-    var indexCreationStream = gulp.src('content/updates/*.json')
+    var indexCreationStream = gulp.src('content/updates/index.json')
                                 .pipe(jsonTransform(function(data, file){
                                     monthlyUpdates = data;
                                     return gulp.src('src/monthly-updates-index.handlebars')
