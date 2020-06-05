@@ -1,5 +1,7 @@
 # Rules engine improvements
 
+Small UI enhancements and a new parameter for your calculation action, those are the last improvements of the rules engine!
+
 ## New action tags for your rules
 ::: meta-data type="Improvement" features="Productivity, Rules engine" available="early May" link-to-doc="../articles/manage-your-rules.html#view-all-rules"
 :::
