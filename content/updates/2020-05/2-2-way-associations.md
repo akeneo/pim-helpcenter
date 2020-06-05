@@ -9,7 +9,7 @@ If you choose the two-way association type, and associate product A with product
 
 Use a 2-way association if you need to easily link substitute or replacement items, or products that are compatible such as appliances and spare parts.
 
-![2-way association type](../img/Associations_2-way-association-type.png)
+![Create a new 2-way association type](../img/Associations_2-way-association-type.png)
 
 ::: more
 [What are association types?](../articles/manage-your-association-types.html)    
