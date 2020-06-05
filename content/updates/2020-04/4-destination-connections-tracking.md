@@ -6,7 +6,7 @@ You can now easily track the number of products that were sent to your destinati
 
 You can consult this metric for each of the last 7 days. We also compute the sum of the last 7 days.
 
-![Destination connection charts](../img/number-of-products-sent.png)
+![Destination connection chart](../img/number-of-products-sent.png)
 
 ::: more
 [What is a connection?](../articles/what-is-a-connection.html)  
