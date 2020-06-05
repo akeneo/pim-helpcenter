@@ -8,7 +8,7 @@
             "description": "The new `Monitoring` page available under the `Connections` menu lists the last errors for your Connections.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/new-connection-monitoring-page.png",
             "altImg": "Connection monitoring page",
-            "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#new-association-type-the-2-way-association"
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#easily-monitor-errors-on-your-connections"
         },
         {
             "startDate": "June, 4th 2020",
@@ -18,7 +18,7 @@
             "description": "To ease error monitoring and allow you to see at a glance how your source connections are performing, the connection dashboard now displays: a graph with the number of product errors (business and technical) for the past week, and connection cards showing the number of business errors for the past week.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/error-monitoring-connection-dashboard.png",
             "altImg": "Error monitoring on connection dashboard",
-            "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#new-association-type-the-2-way-association"
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#new-metric-on-the-connection-dashboard"
         },
         {
             "startDate": "June, 4th 2020",
@@ -28,7 +28,7 @@
             "description": "Easily handle products compatibility in your PIM thanks to our **brand new two-way association type**! This new association type is now available under `Settings`/`Association types`.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/Associations_2-way-association-type.png",
             "altImg": "Create a new 2-way association type",
-            "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#new-association-type-the-2-way-association"
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#new-association-type-the-2-way-association"
         },
         {
             "startDate": "June, 4th 2020",
@@ -36,7 +36,7 @@
             "tags": ["new","updates"],
             "title": "More visibility on all the jobs",
             "description": "To give you more visibility and control on all PIM jobs, we added a new permission: `View all jobs in the Process Tracker`. It will allow you to see all jobs of any status under the Process Tracker.",
-            "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#more-visibility-on-all-the-jobs"
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#more-visibility-on-all-the-jobs"
         },
         {
             "startDate": "June, 4th 2020",
@@ -44,7 +44,7 @@
             "tags": ["new","updates"],
             "title": "Rules engine improvements",
             "description": "Small UI enhancements and a new parameter for your calculation action, those are the last improvements of the rules engine!",
-            "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#rule-engine-improvements"
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#rule-engine-improvements"
         },
         {
             "startDate": "May, 7th 2020",
