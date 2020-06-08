@@ -5,7 +5,7 @@
             "notification_duration": 14, 
             "tags": ["new","updates"],
             "title": "Easily monitor errors on your connections",
-            "description": "A new page `Monitoring`/`Connections` now lists the last errors of your connections.",
+            "description": "For each of your connections, a new `Monitoring` page now lists the last integration errors that may have occurred.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/new-connection-monitoring-page.png",
             "altImg": "Connection monitoring page",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#easily-monitor-errors-on-your-connections"
@@ -99,7 +99,7 @@
             "notification_duration": 7, 
             "tags": ["updates"],
             "title": "Rules engine new actions and improvements",
-            "description": "To extend the rules engine capabilities, we added two new actions, the possibility to name your rules and we also improved the rules format for associations.",
+            "description": "Discover the latest enhancements on the rules engine: we added two new actions, the possibility to name your rules and we also improved the rules format for associations.",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#rules-engine-new-actions-and-improvements"
         },
         {
@@ -107,7 +107,7 @@
             "notification_duration": 7, 
             "tags": ["updates"],
             "title": "Data quality improvements",
-            "description": "To make sure all your products have enriched and consistent content, Data Quality Insights recommendations and grades are now also available for product models. Our spell-check feature also now supports additional languages.",
+            "description": "Data Quality Insights recommendations and grades are now also available for product models to help you ensure that all your products have enriched and consistent content. Also, our spell-check feature now supports additional languages.",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#data-quality-improvements"
         },
         {
@@ -123,7 +123,7 @@
             "notification_duration": 7, 
             "tags": ["updates"],
             "title": "New measurement units and families",
-            "description": "To better fit your needs in terms of product modeling and to make sure you provide the most accurate product information to your customers, we added four new measurement families: `Force`, `Angle`,`Capacitance` and `Volume Flow`.",
+            "description": "We added four new measurement families: `Force`, `Angle`,`Capacitance` and `Volume Flow` to better fit your needs in terms of product modeling.",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-03.html#new-measurement-units-and-families"
         },
         {
