@@ -14,10 +14,10 @@
             "startDate": "June, 4th 2020",
             "notification_duration": 7, 
             "tags": ["new","updates"],
-            "title": "New metric on the Connection dashboard",
+            "title": "New metrics on the Connection dashboard",
             "description": "The Connection dashboard now displays additional information to ease error monitoring and allow you to see at a glance how your source connections are performing.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/error-monitoring-connection-dashboard.png",
-            "altImg": "Error monitoring on connection dashboard",
+            "altImg": "Error monitoring on the Connection dashboard",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#new-metric-on-the-connection-dashboard"
         },
         {
