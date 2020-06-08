@@ -27,8 +27,8 @@
             "title": "New association type: the two-way association",
             "description": "Easily handle products compatibility in your PIM thanks to our **brand new two-way association type**! This new association type is now available under `Settings`/`Association types`.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/Associations_2-way-association-type.png",
-            "altImg": "Create a new 2-way association type",
-            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#new-association-type-the-2-way-association"
+            "altImg": "Create a new two-way association type",
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#new-association-type-the-two-way-association"
         },
         {
             "startDate": "June, 4th 2020",
