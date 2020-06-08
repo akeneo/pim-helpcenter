@@ -6,7 +6,7 @@ In order to give you more flexibility, we have improved the way we manage metric
 
 Alongside standard measurement families (eg. weight, length, volume...), create your custom measurement families per your needs (eg. inductance, luminance...) and add the units you deem necessary (Henry, Lambert...).
 
-![List measurement families](../img/Settings_Measurement_Families-updates.png)
+![Measurement families list screen](../img/Settings_Measurement_Families-updates.png)
 
 If you want additional units for an existing or new measurement family, easily add them manually directly from the user interface.
 

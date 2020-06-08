@@ -1,4 +1,4 @@
-# New dedicated API endpoints for your measurement units
+# New endpoints to manage measurements
 ::: meta-data type="New" features="Measurements, Data Governance" available="mid-April" link-to-doc="https://api.akeneo.com/api-reference-index.html#Measurementfamily"
 :::
 
