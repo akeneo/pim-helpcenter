@@ -14,7 +14,7 @@ We reworked the display of the two charts about the source connections in the Co
 
 You can now easily track the number of products that were sent to your destinations in the Connection dashboard. You can consult this metric for each of the last 7 days. We also compute the sum of the last 7 days.
 
-![Destination connection chart](../img/number-of-products-sent.png)
+![Destination connection charts](../img/number-of-products-sent.png)
 
 ## Choose which connection you want to track
 ::: meta-data type="New" features="Connections, Connectivity" available="early April" link-to-doc="../articles/manage-your-connections.html#enable-the-tracking"
