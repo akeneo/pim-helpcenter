@@ -50,11 +50,11 @@
             "startDate": "May, 7th 2020",
             "notification_duration": 7, 
             "tags": ["updates"],
-            "title": "A new screen to manage measurements",
+            "title": "A new screen to add your own measurement units",
             "description": "In order to give you more flexibility, we have improved the way we manage metrics in the PIM. Discover our new Measurements feature now!",
             "img": "/bundles/akeneocommunicationchannel/images/cards/Settings_Measurement_Families-updates.png",
             "altImg": "Measurement families list screen",
-            "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#new-add-your-own-measurement-units"
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#a-new-screen-to-add-your-own-measurement-units"
         },
         {
             "startDate": "May, 7th 2020",
@@ -64,7 +64,7 @@
             "description": "We introduced two new API endpoints to create, update and list your measurement families.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/measurements-api.png",
             "altImg": "Measurement endpoints",
-            "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#new-dedicated-api-endpoints"
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#new-endpoints-to-manage-measurements"
         },
         {
             "startDate": "May, 7th 2020",
@@ -123,7 +123,7 @@
             "notification_duration": 7, 
             "tags": ["updates"],
             "title": "New measurement units and families",
-            "description": "To better fit your needs in terms of product modeling and to make sure you provide the most accurate product information to your customers, we added four new measurement families.",
+            "description": "To better fit your needs in terms of product modeling and to make sure you provide the most accurate product information to your customers, we added four new measurement families: `Force`, `Angle`,`Capacitance` and `Volume Flow`.",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-03.html#new-measurement-units-and-families"
         },
         {
