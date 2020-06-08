@@ -5,7 +5,7 @@
             "notification_duration": 7, 
             "tags": ["new","updates"],
             "title": "Easily monitor errors on your connections",
-            "description": "A new page `Monitoring`/`Connections` now lists the last errors of your Connections.",
+            "description": "A new page `Monitoring`/`Connections` now lists the last errors of your connections.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/new-connection-monitoring-page.png",
             "altImg": "Connection monitoring page",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#easily-monitor-errors-on-your-connections"
@@ -15,7 +15,7 @@
             "notification_duration": 7, 
             "tags": ["new","updates"],
             "title": "New metric on the Connection dashboard",
-            "description": "The connection dashboard now displays additional information to ease error monitoring and allow you to see at a glance how your source connections are performing.",
+            "description": "The Connection dashboard now displays additional information to ease error monitoring and allow you to see at a glance how your source connections are performing.",
             "img": "/bundles/akeneocommunicationchannel/images/cards/error-monitoring-connection-dashboard.png",
             "altImg": "Error monitoring on connection dashboard",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#new-metric-on-the-connection-dashboard"
