@@ -1,4 +1,5 @@
 # Data quality improvements
+To help you craft the best product information ever, Data Quality Insights recommendations and grades are now available for variant products and our spell-check feature supports additional languages!
 
 ## Data Quality Insights now available for variant products
 ::: meta-data type="Improvement" features="Data Quality Insights, Data Quality" available="early March" link-to-doc="../articles/improve-data-quality.html#improve-data-quality-on-variant-products"

@@ -1,4 +1,5 @@
 # Rules engine extended capabilities
+A new action and enhancements made on the `copy` action: easily and automatically concatenate your attributes, and now copy values from an attribute type to another attribute type.
 
 ## A new rule action to concatenate attributes
 ::: meta-data type="Improvement" features="Rules engine, Productivity, Automation" available="mid-March" link-to-doc="../articles/get-started-with-the-rules-engine.html#concatenate"
