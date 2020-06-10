@@ -1,4 +1,5 @@
 # Product associations update
+Starting now, enjoy some small improvements to make your life easier when you work with product associations.
 
 ## View the number of associations per product
 ::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-April" link-to-doc="../articles/products-associations.html#view-the-products-associations"
