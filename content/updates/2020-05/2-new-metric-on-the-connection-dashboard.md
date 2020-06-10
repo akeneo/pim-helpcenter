@@ -3,6 +3,7 @@
 :::
 
 The Connection dashboard now displays additional information to ease error monitoring and allows you to see at a glance how your source connections are performing.  
+
 To ease error monitoring and allow you to see at a glance how your Source Connections are performing, the Connection dashboard now displays: 
 - a graph with the number of product errors (business and technical) for the past week,
 - connection cards showing the number of business errors for the past week. 
