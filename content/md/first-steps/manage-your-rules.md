@@ -52,6 +52,11 @@ But you can also execute rules on your own. You can execute:
 The rules support [product models](what-about-products-variants.html#what-is-a-product-model), so rules can be defined also on attributes at the product model level (or sub product model level).
 :::
 
+When a rule is executed, you can follow the status of the execution in the `process tracker` screen, where you retrieve all the jobs that have been launched.
+
+By clicking on the rule execution job, you will access the execution summary. This summary let you know how the execution went (were there errors/warnings? how many rules have been executed? how many products/product models have been updated? etc.)
+The `start` and `end` dates are available as well, so that you know when this execution happened. 
+
 ## Execute a single rule
 
 To execute a rule, click on the `Execute` button at the end of each line in the grid.  
