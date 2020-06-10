@@ -409,7 +409,7 @@ OR:
 - `field`: attribute code of the source value *(required)*
 - `locale`: locale code if the attribute is localizable *(optional)*
 - `scope`: channel code if the attribute is scopable *(optional)*
-- `currency`: currency code if the attribute is a price collection *(optional)*
+- `currency`: currency code if the attribute is a price collection *(required if the source attribute type is a price)*
 
 **operation_list**: the list of operations to execute *(at least one operation is required)*
 
