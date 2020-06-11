@@ -397,11 +397,7 @@ The action is split into 3 required steps, and 1 optional:
 - `field`: the attribute code *(required)*
 - `locale`: locale code if the attribute is localizable *(optional)*
 - `scope`: channel code if the attribute is scopable *(optional)*
-<<<<<<< HEAD
 - `currency`: currency code if the attribute is a price collection *(required if the destination attribute type is a price)*
-=======
-- `currency`: currency code if the attribute is a price collection *(required if the source attribute type is a price)*
->>>>>>> 4fc154ef056e0f647f9f388f8efb202907d27409
 - `unit`: unit code if the attribute is a measurement *(optional, the default measurement unit of the attribute will be used if not set)*
 
 **source**: the first operand of the operation. It requires at least either a value or a field and additional items. For instance, you can have:
