@@ -60,6 +60,10 @@ In this summary, you can easily access the details of the execution: how many ru
 
 ![image](../img/Rules_Summary.png)
 
+:::tips
+As the rules can automatically be executed (by crons), you need to have the right to `View all jobs in process tracker` in the `Roles` permissions to be able to see them the process tracker :wink:.
+:::
+
 ## Execute a single rule
 
 To execute a rule, click on the `Execute` button at the end of each line in the grid.  
