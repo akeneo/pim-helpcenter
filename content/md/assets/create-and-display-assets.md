@@ -34,35 +34,6 @@ To add a new asset to the `Packshots` asset family:
 Note that we have defined a limitation of 1 million assets per asset family to guarantee that the PIM is functional and runs smoothly.
 :::
 
-### About asset previews
-
-When you select a `media type`(`image`, `pdf` or `other`), a specific Preview Generator is used.
-
-For `image`, the Preview Generator will **try** to create an image from your asset. If the asset is not an image or if the format is not supported by *imagick* (the library we use in the Asset Manager to generate previews), a default image is returned.   
-
-For `pdf`, the Preview Generator will use a specific library to transform the first page of the pdf to an image. Same here, there is no guaranty it will work in 100% of the cases, we have a fallback on the default image.  
-
-For `other`, there are no previews.
-
-### Display media in a media link attribute
-
-As explained in the introduction, you cannot upload files in an asset family that uses a `media link` attribute as main media (seems logical, isn't it?).
-
-To add the url of your media, you have two options:
-- either you do it manually and one at a time via the PIM UI
-- or you use the API (you can refer to [our API documentation](https://api.akeneo.com/guides/dam-connection/introduction.html) to build a connector which automatically sends media links).
-
-Once the media link attribute is filled with a url, the media automatically appears :tada:
-
-::: warning
-The PIM cannot ensure that what you are currently seeing in a `media link` attribute is still what is externally stored. That's why we strongly recommend using one url per media. **As soon as your media stored externally changes, the best practice is to change its url in the PIM**.
-:::
-
-If you want to be sure that the thumbnail that you are currently seeing is still the one behind the url (and not the old one that is still in the PIM cache), you can click on the reload icon just next to the url or on the top right corner of the main media preview.
-
-![Reload button](../img/Assets_ReloadButton.png)
-
-
 ## Upload and create several assets at the same time
 
 Assets mass upload is pretty convenient since it **automatically creates new assets from uploaded files**. The uploaded files will automatically be put in the attribute that you defined as *main media* in the asset family properties.
@@ -203,3 +174,38 @@ You can combine filters. For instance, you can search on all images with:
 An option can be removed from a filter using the cross.
 
 To empty a filter, you can click on the eraser.
+
+Now that you are familiar with the asset library, let's focus on their display.
+
+## Display media
+
+### Display media in a media file attribute
+
+As explained in [this](manage-asset-families.html#edit-an-attribute) article, if a `media file` attribute (the attribute you will put your media file in) is part of your asset family, you have to choose a `media type` so that the PIM generates a preview.
+
+*How does it work?*
+When you select a `media type`(`image`, `pdf` or `other`), a specific Preview Generator is used.
+
+For `image`, the Preview Generator will **try** to create an image from your asset. If the asset is not an image or if the format is not supported by *imagick* (the library we use in the Asset Manager to generate previews), a default image is returned.   
+
+For `pdf`, the Preview Generator will use a specific library to transform the first page of the pdf to an image. Same here, there is no guaranty it will work in 100% of the cases, we have a fallback on the default image.  
+
+For `other`, there are no previews.
+
+### Display media in a media link attribute
+
+As explained in the introduction, you cannot upload files in an asset family that uses a `media link` attribute as main media (seems logical, isn't it?).
+
+To add the url of your media, you have two options:
+- either you do it manually and one at a time via the PIM UI
+- or you use the API (you can refer to [our API documentation](https://api.akeneo.com/guides/dam-connection/introduction.html) to build a connector which automatically sends media links).
+
+Once the media link attribute is filled with a url, the media automatically appears :tada:
+
+::: warning
+The PIM cannot ensure that what you are currently seeing in a `media link` attribute is still what is externally stored. That's why we strongly recommend using one url per media. **As soon as your media stored externally changes, the best practice is to change its url in the PIM**.
+:::
+
+If you want to be sure that the thumbnail that you are currently seeing is still the one behind the url (and not the old one that is still in the PIM cache), you can click on the reload icon just next to the url or on the top right corner of the main media preview.
+
+![Reload button](../img/Assets_ReloadButton.png)
