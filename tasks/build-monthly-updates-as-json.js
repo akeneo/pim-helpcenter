@@ -2,12 +2,12 @@ const gulp = require('gulp');
 const tap = require('gulp-tap');
 const markdownIt = require('markdown-it');
 const markdownToc = require('markdown-it-toc-and-anchor').default;
-var gulpMarkdownIt = require('gulp-markdown-it-adapter');
-
 const frontMatter = require('gulp-front-matter');
 const through = require('through2').obj;
 const jsonCombine = require('gulp-jsoncombine');
 const path = require('path');
+
+module.exports = updatesAsJson;
 
 const optionsMd = {
     html: true,
@@ -28,8 +28,6 @@ md.renderer.rules.heading_open = function(...args) {
     const [ tokens, idx, , env, self ] = args;
 
     let filteredTokens = tokens.filter(t => t.content.indexOf(':::') === -1);
-
-    console.log(filteredTokens);
 
     if (!env.title && filteredTokens[idx].tag === 'h1') {
         env.title = filteredTokens[idx + 1].content;
@@ -57,7 +55,7 @@ md.renderer.rules.heading_open = function(...args) {
 
 md.use(markdownToc);
 
-gulp.task('build-monthly-updates-to-json', ['clean-dist'], function () {
+gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
         let year = new Date().getFullYear();
         let month = new Date().getMonth();
 
@@ -66,11 +64,23 @@ gulp.task('build-monthly-updates-to-json', ['clean-dist'], function () {
     return gulp.src('content/updates/2020-02/*.md')
         .pipe(frontMatter({property: 'fm',remove: true}))
         .pipe(tap(parseTitleFromFile))
-        .pipe(gulpMarkdownIt(md))
         .pipe(generateJson())
         .pipe(jsonCombine('test.json', data => { return new Buffer.from(JSON.stringify(Object.values(data))); }))
         .pipe(gulp.dest('./dist/'));
 });
+
+
+function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination) {
+    // let year = new Date().getFullYear();
+    // let month = new Date().getMonth();
+
+    return gulp.src(filePattern)
+        .pipe(frontMatter({property: 'fm',remove: true}))
+        .pipe(tap(parseTitleFromFile))
+        .pipe(generateJson())
+        .pipe(jsonCombine(fileNameDestination, data => { return new Buffer.from(JSON.stringify(Object.values(data))); }))
+        .pipe(gulp.dest(fileDirectoryDestination));
+}
 
 function parseTitleFromFile(file) {
     const env = {};
