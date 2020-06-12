@@ -138,10 +138,10 @@ Assets are displayed by asset families. By default, the first asset family is se
 If you don't have any asset family, the first thing to do is to [create your first one](manage-asset-families.html#create-an-asset-family), and then you will be able to add assets.
 :::
 
-# Search for assets
+## Search for assets
 Because we really want to help you in your daily work, we focused our efforts on the search.
 
-## Full text search
+### Full text search
 
 As for the Reference Entity feature, you benefit from a powerful search in the Asset Manager. With the **full text search**, you can search on code, label and text attribute types.
 
@@ -158,7 +158,7 @@ If you search for *"famous"* and *"chest"*, then only the asset containing both 
 
 In this example, both words are part of the `Description` attribute of the assets.
 
-## Filter on options
+### Filter on options
 
 There are also filters on the left, where you retrieve the options of the single/multiple options attributes. It can be very powerful if you use these options to manage tags on your assets for example.
 
