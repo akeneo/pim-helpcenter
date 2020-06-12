@@ -511,7 +511,7 @@ The possible operators for the `created` field are:
 - NOT EMPTY
 
 ::: info
-The format of the date is: yyyy-mm-dd.
+The format of the date is: yyyy-mm-dd H:i:s.
 :::
 
 ### Example
@@ -551,7 +551,7 @@ If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
 ::: info
-The format of the date is: yyyy-mm-dd.
+The format of the date is: yyyy-mm-dd H:i:s.
 :::
 
 ## Enabled (status)
@@ -840,7 +840,7 @@ The possible operators for the `Date` attribute type are:
 - EMPTY
 - NOT EMPTY
 
-The expected date format is: **yyyy-mm-dd**
+The expected date format is: **yyyy-mm-dd H:i:s**
 
 :::info
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
