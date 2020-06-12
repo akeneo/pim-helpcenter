@@ -17,7 +17,6 @@ const optionsMd = {
     breaks: false
 };
 
-
 const md = new markdownIt('default', optionsMd);
 
 /**
@@ -28,14 +27,30 @@ const md = new markdownIt('default', optionsMd);
 md.renderer.rules.heading_open = function(...args) {
     const [ tokens, idx, , env, self ] = args;
 
-    console.log(tokens[idx]);
+    let filteredTokens = tokens.filter(t => t.content.indexOf(':::') === -1);
 
-    if (!env.title && tokens[idx].tag === 'h1') {
-        env.title = tokens[idx + 1].content;
-        env.anchorTitle = tokens[idx].attrs[0][1];
+    console.log(filteredTokens);
+
+    if (!env.title && filteredTokens[idx].tag === 'h1') {
+        env.title = filteredTokens[idx + 1].content;
+        env.anchorTitle = filteredTokens[idx].attrs[0][1];
     }
 
-    // console.log(tokens);
+    const firsth1TitleIndex =  filteredTokens.findIndex((token) => token.tag === 'h1' && token.type === 'heading_close');
+    const tokensWithouth1 = filteredTokens.slice(firsth1TitleIndex);
+
+    const firsth2TitleIndex = tokensWithouth1.findIndex((token) => token.tag === 'h2');
+    const descriptionIndex = tokensWithouth1.findIndex((token) => token.type === 'inline');
+
+    if (descriptionIndex === -1) {
+        env.description = null;
+    } else if (firsth2TitleIndex === -1) {
+        env.description = tokensWithouth1[descriptionIndex].content;
+    } else if (descriptionIndex < firsth2TitleIndex) {
+        env.description = tokensWithouth1[descriptionIndex].content;
+    } else {
+        env.description = null;
+    }
 
     return self.renderToken(...args);
 };
@@ -48,7 +63,7 @@ gulp.task('build-monthly-updates-to-json', ['clean-dist'], function () {
 
         // "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#track-your-destination-connections
 
-    return gulp.src('content/updates/2020*/*.md')
+    return gulp.src('content/updates/2020-02/*.md')
         .pipe(frontMatter({property: 'fm',remove: true}))
         .pipe(tap(parseTitleFromFile))
         .pipe(gulpMarkdownIt(md))
@@ -59,9 +74,10 @@ gulp.task('build-monthly-updates-to-json', ['clean-dist'], function () {
 
 function parseTitleFromFile(file) {
     const env = {};
-    let content = md.render(file.contents.toString(), env);
+    md.render(file.contents.toString(), env);
     file.title = env.title;
     file.anchorTitle = env.anchorTitle;
+    file.description = env.description;
 
     return;
 }
@@ -74,7 +90,6 @@ function generateJson() {
         let link = 'https://help.akeneo.com/pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
 
         let defaultValues = {
-            'pim_announcement_description': null,
             'pim_announcement_img': null,
             'pim_announcement_alt_img': null,
             'pim_announcement_audience': [],
@@ -84,7 +99,7 @@ function generateJson() {
 
         let content = JSON.stringify({
             'startDate': startDate,
-            'description':data['pim_announcement_description'],
+            'description': file.description,
             'img': data['pim_announcement_img'],
             'imgAlt': data['pim_announcement_alt_img'],
             'version': data['pim_announcement_audience'],
