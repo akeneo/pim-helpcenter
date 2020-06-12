@@ -177,7 +177,7 @@ To empty a filter, you can click on the eraser.
 
 # Display media
 
-Now that you are familiar with the asset library, you can now open an asset to have a large display of your media and to enrich the asset attributes.
+Now that you are familiar with the asset library, you can now open an asset to have a large display of your media and to [enrich](work-on-your-assets.html#enrich-an-asset) the asset attributes.
 
 ## Display media in a media file attribute
 
