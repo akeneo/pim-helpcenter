@@ -177,9 +177,9 @@ To empty a filter, you can click on the eraser.
 
 Now that you are familiar with the asset library, let's focus on their display.
 
-## Display media
+# Display media
 
-### Display media in a media file attribute
+## Display media in a media file attribute
 
 As explained in [this](manage-asset-families.html#edit-an-attribute) article, if a `media file` attribute (the attribute you will put your media file in) is part of your asset family, you have to choose a `media type` so that the PIM generates a preview.
 
@@ -192,7 +192,7 @@ For `pdf`, the Preview Generator will use a specific library to transform the fi
 
 For `other`, there are no previews.
 
-### Display media in a media link attribute
+## Display media in a media link attribute
 
 As explained in the introduction, you cannot upload files in an asset family that uses a `media link` attribute as main media (seems logical, isn't it?).
 
