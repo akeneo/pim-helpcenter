@@ -1,10 +1,3 @@
----
-pim_announcement_img: ../img/dqi_variant_products.png
-pim_announcement_alt_img: "this is alt img"
-pim_announcement_audience:
-- EE
----
-
 # Optimize the weight of your assets
 ::: meta-data type="Improvement" features="Asset Manager" available="late February" link-to-doc="../articles/assets-transformation.html#optimize-jpeg"
 :::
