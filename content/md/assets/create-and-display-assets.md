@@ -181,7 +181,7 @@ Now that you are familiar with the asset library, you can now open an asset to h
 
 ## Display media in a media file attribute
 
-As explained in [this](manage-asset-families.html#edit-an-attribute) article, if a `media file` attribute (the attribute you will put your media file in) is part of your asset family, you have to choose a `media type` so that the PIM generates a preview.
+As explained in [this](manage-asset-families.html#edit-a-media-file-attribute) article, if a `media file` attribute (the attribute you will put your media file in) is part of your asset family, you have to choose a `media type` so that the PIM generates a preview.
 
 *How does it work?*
 When you select a `media type`(`image`, `pdf` or `other`), a specific Preview Generator is used.
