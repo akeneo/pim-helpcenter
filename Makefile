@@ -16,6 +16,9 @@ watch: yarn-install
 build: yarn-install
 	$(DOCKER_RUN) $(DOCKER_IMAGE_TAG) yarn gulp create-dist
 
+test: yarn-install
+	$(DOCKER_RUN) $(DOCKER_IMAGE_TAG) yarn test
+
 json: yarn-install
 	$(DOCKER_RUN) $(DOCKER_IMAGE_TAG) yarn gulp build-monthly-updates-to-json
 

@@ -10,7 +10,7 @@
   "devDependencies": {
     "del": "3.0.0",
     "gulp": "3.9.1",
-    "gulp-jsoncombine": "1.0.4",
+    "gulp-base64-inline": "1.0.6",
     "gulp-concat": "2.6.1",
     "gulp-flatmap": "1.0.0",
     "gulp-front-matter": "1.3.0",
@@ -18,6 +18,7 @@
     "gulp-if": "2.0.2",
     "gulp-insert": "0.5.0",
     "gulp-json-transform": "0.4.2",
+    "gulp-jsoncombine": "1.0.4",
     "gulp-less": "3.3.0",
     "gulp-markdown-it-adapter": "0.1.1",
     "gulp-prompt": "0.2.0",
@@ -29,11 +30,15 @@
     "gulp-webserver": "0.9.1",
     "handlebars": "4.3.0",
     "highlightjs": "9.10.0",
+    "jest": "^26.0.1",
     "markdown-it": "8.2.2",
     "markdown-it-container": "2.0.0",
     "markdown-it-emoji": "1.4.0",
     "markdown-it-toc-and-anchor": "4.1.1",
     "merge-stream": "1.0.1",
     "require-dir": "0.3.2"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
