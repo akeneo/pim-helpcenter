@@ -175,9 +175,9 @@ An option can be removed from a filter using the cross.
 
 To empty a filter, you can click on the eraser.
 
-Now that you are familiar with the asset library, let's focus on their display.
-
 # Display media
+
+Now that you are familiar with the asset library, you can now open an asset to have a large display of your media and to enrich the asset attributes.
 
 ## Display media in a media file attribute
 
