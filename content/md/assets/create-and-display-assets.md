@@ -34,6 +34,16 @@ To add a new asset to the `Packshots` asset family:
 Note that we have defined a limitation of 1 million assets per asset family to guarantee that the PIM is functional and runs smoothly.
 :::
 
+### About asset previews
+
+When you select a `media type`(`image`, `pdf` or `other`), a specific Preview Generator is used.
+
+For `image`, the Preview Generator will **try** to create an image from your asset. If the asset is not an image or if the format is not supported by *imagick* (the library we use in the Asset Manager to generate previews), a default image is returned.   
+
+For `pdf`, the Preview Generator will use a specific library to transform the first page of the pdf to an image. Same here, there is no guaranty it will work in 100% of the cases, we have a fallback on the default image.  
+
+For `other`, there are no previews.
+
 ### Display media in a media link attribute
 
 As explained in the introduction, you cannot upload files in an asset family that uses a `media link` attribute as main media (seems logical, isn't it?).
