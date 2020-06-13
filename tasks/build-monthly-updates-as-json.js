@@ -56,17 +56,7 @@ md.renderer.rules.heading_open = function(...args) {
 md.use(markdownToc);
 
 gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
-        let year = new Date().getFullYear();
-        let month = new Date().getMonth();
-
-        // "link": "https://help.akeneo.com/pim/serenity/updates/2020-04.html#track-your-destination-connections
-
-    return gulp.src('content/updates/2020-02/*.md')
-        .pipe(frontMatter({property: 'fm',remove: true}))
-        .pipe(tap(parseTitleFromFile))
-        .pipe(generateJson())
-        .pipe(jsonCombine('test.json', data => { return new Buffer.from(JSON.stringify(Object.values(data))); }))
-        .pipe(gulp.dest('./dist/'));
+    return updatesAsJson('content/updates/20*/*.md', './dist/', 'test.json');
 });
 
 
