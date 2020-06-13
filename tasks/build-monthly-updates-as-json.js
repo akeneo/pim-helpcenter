@@ -9,30 +9,63 @@ const path = require('path');
 
 module.exports = updatesAsJson;
 
-const optionsMd = {
-    html: true,
-    xhtmlOut: true,
-    typographer: false,
-    linkify: false,
-    breaks: false
+const md = new markdownIt('default', {html: true, xhtmlOut: true });
+md.renderer.rules.heading_open = function(...args) {
+    parseTitleFromMarkdown(...args);
+    parseDescriptionFromMarkdown(...args);
 };
+md.use(markdownToc);
 
-const md = new markdownIt('default', optionsMd);
+gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
+    return updatesAsJson('content/updates/20*/*.md', './dist/', 'test.json');
+});
+
+
+function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination) {
+    return gulp.src(filePattern)
+        .pipe(frontMatter({property: 'fm',remove: true}))
+        .pipe(tap(parseMarkdown))
+        .pipe(generateJson())
+        .pipe(jsonCombine(fileNameDestination, data => { return new Buffer.from(JSON.stringify(Object.values(data))); }))
+        .pipe(gulp.dest(fileDirectoryDestination));
+}
+
+function parseMarkdown(file) {
+    const env = {};
+    md.render(file.contents.toString(), env);
+    file.title = env.title;
+    file.anchorTitle = env.anchorTitle;
+    file.description = env.description;
+
+    return;
+}
 
 /**
- * Return the first title in a markdown.
+ * Return the first h1 title in the markdown file.
  *
  * Inspired by https://github.com/GerHobbelt/markdown-it-title/blob/master/index.js
  */
-md.renderer.rules.heading_open = function(...args) {
+function parseTitleFromMarkdown(...args) {
     const [ tokens, idx, , env, self ] = args;
-
     let filteredTokens = tokens.filter(t => t.content.indexOf(':::') === -1);
 
     if (!env.title && filteredTokens[idx].tag === 'h1') {
         env.title = filteredTokens[idx + 1].content;
         env.anchorTitle = filteredTokens[idx].attrs[0][1];
     }
+
+    return self.renderToken(...args);
+};
+
+/**
+ * Return the description of the update feature.
+ *
+ * This description is the content of the paragraph just after the h1 title.
+ * If there is no paragraph after this title, the description is null.
+ */
+function parseDescriptionFromMarkdown(...args) {
+    const [ tokens, idx, , env, self ] = args;
+    let filteredTokens = tokens.filter(t => t.content.indexOf(':::') === -1);
 
     const firsth1TitleIndex =  filteredTokens.findIndex((token) => token.tag === 'h1' && token.type === 'heading_close');
     const tokensWithouth1 = filteredTokens.slice(firsth1TitleIndex);
@@ -53,34 +86,6 @@ md.renderer.rules.heading_open = function(...args) {
     return self.renderToken(...args);
 };
 
-md.use(markdownToc);
-
-gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
-    return updatesAsJson('content/updates/20*/*.md', './dist/', 'test.json');
-});
-
-
-function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination) {
-    // let year = new Date().getFullYear();
-    // let month = new Date().getMonth();
-
-    return gulp.src(filePattern)
-        .pipe(frontMatter({property: 'fm',remove: true}))
-        .pipe(tap(parseTitleFromFile))
-        .pipe(generateJson())
-        .pipe(jsonCombine(fileNameDestination, data => { return new Buffer.from(JSON.stringify(Object.values(data))); }))
-        .pipe(gulp.dest(fileDirectoryDestination));
-}
-
-function parseTitleFromFile(file) {
-    const env = {};
-    md.render(file.contents.toString(), env);
-    file.title = env.title;
-    file.anchorTitle = env.anchorTitle;
-    file.description = env.description;
-
-    return;
-}
 
 function generateJson() {
     return through((file, enc, cb) => {
