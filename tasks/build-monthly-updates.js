@@ -7,7 +7,6 @@ var mdToc = require('markdown-it-toc-and-anchor').default;
 var mdEmoji = require('markdown-it-emoji');
 var flatmap = require('gulp-flatmap');
 var insert = require('gulp-insert');
-var tap    = require('gulp-tap');
 var path = require('path');
 var gulpMarkdownIt = require('gulp-markdown-it-adapter');
 var highlightJs = require('highlightjs');
@@ -218,7 +217,7 @@ gulp.task('build-monthly-updates', ['clean-dist','less'], function () {
                                     monthlyUpdates = data;
                                     return gulp.src('src/monthly-updates-index.handlebars')
                                 .pipe(gulpHandlebars({
-                                        title: 'What\'s new in Serenity', 
+                                        title: 'What\'s new in Serenity',
                                         monthlyUpdates: monthlyUpdates,
                                         majorVersion: majorVersion
                                     }, {
@@ -229,8 +228,9 @@ gulp.task('build-monthly-updates', ['clean-dist','less'], function () {
                                 .pipe(gulp.dest('./dist/pim/serenity/updates'));
     }));
 
-    return indexCreationStream.on('end', function(){                                      
+    return indexCreationStream.on('end', function(){
         return gulp.src('content/updates/**/*.md')
+            .pipe(frontMatter({property: 'fm',remove: true}))
             .pipe(flatmap(function(stream, file){
                 var month = path.basename(path.dirname(file.path));
                 var stream = gulp.src(file.path)
@@ -259,10 +259,10 @@ gulp.task('build-monthly-updates', ['clean-dist','less'], function () {
                                 .pipe(rename(month + '.html'))
                                 .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
                                 .pipe(gulp.dest('./dist/pim/serenity/updates'));
-                        }); 
+                        });
                     });
                 }));
     });
-                
+
 
 });
