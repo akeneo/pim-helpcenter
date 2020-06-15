@@ -38,9 +38,9 @@
             "notificationDuration": 14, 
             "tags": ["new","updates"],
             "editions": ["CE","EE"],
-            "title": "More visibility on all the jobs",
+            "title": "More visibility on PIM jobs",
             "description": "To give you more visibility and control on all PIM jobs, we added a new permission: `View all jobs in the Process Tracker` to see all jobs of any status under the Process Tracker.",
-            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#more-visibility-on-all-the-jobs"
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#more-visibility-on-pim-jobs"
         },
         {
             "startDate": "June, 4th 2020",
@@ -49,7 +49,7 @@
             "editions": ["EE"],
             "title": "Rules engine improvements",
             "description": "Small UI enhancements and a new parameter for your calculation action, check out the last improvements of the rules engine!",
-            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#rule-engine-improvements"
+            "link": "https://help.akeneo.com/pim/serenity/updates/2020-05.html#rules-engine-improvements"
         },
         {
             "startDate": "May, 7th 2020",
@@ -137,7 +137,7 @@
             "tags": ["updates"],
             "editions": ["CE","EE"],
             "title": "New measurement units and families",
-            "description": "We added four new measurement families: `Force`, `Angle`,`Capacitance` and `Volume Flow` to better fit your needs in terms of product modeling.",
+            "description": "We added four new measurement families: `Force`, `Angle`, `Capacitance` and `Volume Flow` to better fit your needs in terms of product modeling.",
             "link": "https://help.akeneo.com/pim/serenity/updates/2020-03.html#new-measurement-units-and-families"
         },
         {
