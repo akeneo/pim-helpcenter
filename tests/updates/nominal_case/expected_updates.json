@@ -1,0 +1,31 @@
+[{
+  "startDate": "2020/02/05",
+  "description": "Before applying transformations on your assets, we first convert your files into png to avoid any image quality loss. This conversion can increase the size of your media files. If you need to reduce the size of your images, you can now use a new operation `optimize_jpeg`. This transformation operation will compress your file to a jpeg. Thanks to this new feature, you can easily optimize the weight of your new images and thus save asset storage space.",
+  "img": "../img/Optimize_jpeg_transformation.png",
+  "imgAlt": "this is alt img",
+  "version": ["EE"],
+  "notificationDuration": 7,
+  "tags": ["updates"],
+  "title": "Optimize the weight of your assets",
+  "link": "https://help.akeneo.com/pim/serenity/updates/2020-02.html#optimize-the-weight-of-your-assets"
+}, {
+  "startDate": "2020/02/05",
+  "description": "Whenever one of your connectors is not using the dedicated connection username, we display a warning message in the main Connections screen as well as in the Connection form.     \nThis warning message mentions which usernames were wrongly used for this connection and when they were used for the last time.    \nThanks to this improvement, we ensure the API connection security and accesses.",
+  "img": null,
+  "imgAlt": null,
+  "version": ["CE", "EE"],
+  "notificationDuration": 7,
+  "tags": ["updates"],
+  "title": "New warning message on connection usernames",
+  "link": "https://help.akeneo.com/pim/serenity/updates/2020-02.html#new-warning-message-on-connection-usernames"
+}, {
+  "startDate": "2020/03/05",
+  "description": "This is a data quality improvement description.",
+  "img": "../img/dqi_variant_products.png",
+  "imgAlt": "this is DQI alt img",
+  "version": ["CE", "EE"],
+  "notificationDuration": 7,
+  "tags": ["updates"],
+  "title": "Data quality improvements",
+  "link": "https://help.akeneo.com/pim/serenity/updates/2020-03.html#data-quality-improvements"
+}]

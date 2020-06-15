@@ -6,6 +6,7 @@ jobs:
         steps:
             - checkout
             - run: make build
+            - run: make test
 
     deploy_staging:
         machine:
