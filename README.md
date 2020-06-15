@@ -49,9 +49,12 @@ When you create a new branch from master, such as `v5`, don't forget to remove t
 
 ## Create a branch for a new major version
 
-When you want to create a new major branch from the `master` branch, you have some modifications to do. Actually, all these operations have already been done to create the branch v4 from the master branch in this PR: https://github.com/akeneo/pim-helpcenter/pull/479.
+When you want to create a new major branch from the `master` branch, you have some modifications to do. Actually, all these operations have already been done to create the branch v4 from the master branch in this PR: https://github.com/akeneo/pim-helpcenter/pull/479.  
+You have to do the same to make it work correctly.  
+Note that this PR makes some changes in the navigation menu to switch versions (in the following files: src/partials/navbar-with-search.handlebars and src/index.handlebars). We changed this navigation menu since so it's normal if the handlebars changed a bit. You'll still have to update the version name inside it.
 
-You have to do the same to make it work correctly.
+In this PR, we forgot to update the solution name to reduce Algolia's search to the version the user is browsing. You'll find an example of the lines you'll need to change in the following PR: https://github.com/akeneo/pim-helpcenter/pull/563. For example, replace `pimSerenity` by `pimv5` if you are creating the v5 new major.
+
 
 ## Documentation contribution
 
