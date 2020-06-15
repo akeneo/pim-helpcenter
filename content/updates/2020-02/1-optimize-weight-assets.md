@@ -12,7 +12,3 @@ Indeed, before applying transformations on your assets, we first convert your fi
 [What is a transformation?](../articles/assets-transformation.html)  
 [What are the available asset transformation operations?](/articles/assets-transformation.html#transformation-operations)
 :::
-
-## test2
-
-dededededede
