@@ -217,7 +217,7 @@ gulp.task('build-monthly-updates', ['clean-dist','less'], function () {
                                     monthlyUpdates = data;
                                     return gulp.src('src/monthly-updates-index.handlebars')
                                 .pipe(gulpHandlebars({
-                                        title: 'What\'s new in Serenity',
+                                        title: 'What\'s new in Akeneo PIM Serenity', 
                                         monthlyUpdates: monthlyUpdates,
                                         majorVersion: majorVersion
                                     }, {
