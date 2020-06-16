@@ -917,7 +917,7 @@ value: ../../../
  src/PimEnterprise/Bundle/InstallerBundle/Resources/fixtures/icecat_demo/images/AKNTS_PB.jpg
 ```
 
-We expect a **text** as `value`.
+We expect a **text** as `value` (it corresponds to the filename).
 
 ## Asset collection
 
