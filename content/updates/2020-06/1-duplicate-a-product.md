@@ -3,7 +3,10 @@
 :::
 
 You want to easily create a new product based on an existing one? You can now duplicate a simple product in your user interface in a single click! What a time-saver! :wink:  
-Find this new action under the `...` button in the top right corner of each of your product edit forms. 
+
+Find this new action under the `...` button in the top right corner of each of your product edit forms.
+
+![Duplicate action in the `...` menu](../img/duplicate-action.png) 
 
 This new feature also comes with dedicated permission, so you can decide which group(s) of users can perform this action.
 
