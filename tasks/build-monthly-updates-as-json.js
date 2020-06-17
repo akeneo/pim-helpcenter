@@ -20,7 +20,12 @@ gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
     return updatesAsJson('content/updates/20*/*.md', './dist/', 'test.json');
 });
 
-
+/**
+ * @param filePattern file pattern to read the markdown
+ * @param fileDirectoryDestination directory to write the generated json file
+ * @param fileNameDestination name of the generated json file
+ * @returns {*}
+ */
 function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination) {
     return gulp.src(filePattern)
         .pipe(frontMatter({property: 'fm',remove: true}))
