@@ -583,7 +583,7 @@ The possible operators for the `completeness` field are:
 - 'LOWER THAN ON AT LEAST ONE LOCALE'
 
 :::warning
-The operators below are now deprecated as they were not clear enough. If you used them, please take a look at the following matching table to know which operator you should use now.
+You probably used different operators (i.e: '!=', '=', '>', '>=', '<=', '<'). These operators are now deprecated as they were not clear enough. If you used them, please take a look at the following matching table to know which operator you should use now.
 :::
 
 | Deprecated operators | Operators to use  |
