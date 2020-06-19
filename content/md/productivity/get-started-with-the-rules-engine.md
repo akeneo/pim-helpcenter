@@ -575,15 +575,15 @@ If you want to select the activated products, set the value to "true". If you wa
 ## Completeness
 
 The possible operators for the `completeness` field are:  
-- !=
-- =
-- >
-- >=
-- <=
-- <
+- 'NOT EQUALS ON AT LEAST ONE LOCALE'
+- 'EQUALS ON AT LEAST ONE LOCALE'
+- 'GREATER THAN ON AT LEAST ONE LOCALE'
+- 'GREATER OR EQUALS THAN ON AT LEAST ONE LOCALE'
+- 'LOWER OR EQUALS THAN ON AT LEAST ONE LOCALE'
+- 'LOWER THAN ON AT LEAST ONE LOCALE'
 
 :::warning
-These operators are now deprecated. Please take a look at the following matching table to know the new operators to use.
+The operators below are now deprecated as they were not clear enough. If you used them, please take a look at the following matching table to know which operator you should use now.
 :::
 
 | Deprecated operators | Operators to use  |
