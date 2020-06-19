@@ -9,8 +9,47 @@ related: what-is-a-rule
 
 # Overview
 
-A rule allows you to automatically enrich some of your product information. It relies on automatic actions based on conditions. You can use it on attributes, categories, system attributes (status, completeness...).  
+A rule allows you to automatically enrich some of your product information. It relies on automatic actions based on conditions. A rule is composed by one or several conditions, that allow you to filter products/product models, and then one or several actions to update these products/product models.  
 For more details, please refer to [the dedicated article](get-started-with-the-rules-engine.html).
+
+# Create a rule
+
+To create a rule, two choices. Either you create it via the UI, or via a YML import job.
+
+## Create a rule in the PIM UI
+
+To create a rule via the UI, go to `Settings/Rules` and click on `Create`. A creation popin appears. Choose a **code** and a **label** to name your rule, then validate. You rule is created! You can now define you product selection and the action(s) you want to apply to your selection. Let's go!
+
+Once your rule is created, the rule edit screen appears. In this screen, you can see two tabs: the `rule builder` and `properties`.
+
+### The Properties tab
+In this tab, you can define the **priority** of your rule, but also its label translations. This fields can be updated afterward. Only the code is immutable.
+
+### The Rule builder tab
+This screen is the more important screen in the rules menu as this is where you can manage your conditions and actions.
+
+:::warning
+This screen is still under development, mind you! All the filters and actions are not yet available in the UI but don't worry, you can still use the [import job](##Create-rules-via-a-YML-import) to create rules based on filters/actions that are not yet managed in the UI. When the filters/actions are not ready yet in the PIM UI, we display a mini-helper to inform you.
+:::
+
+The first thing to do is to filter the products you want to update with this rule. To do so, there are a bunch of filters available under the `Add condition` button.
+
+#### Add conditions
+In the `Conditions` part, you can define attributes or system fields you want to use to filter your products/product models. The entire list of attributes/system fields 
+
+#### Add actions
+
+## Create rules via a YML import
+To create rules using a YML file, you need to create it like explained in [this](get-started-with-the-rules-engine.html) article and import it in the PIM using the `Rule import in YML` import job.
+
+::: info
+For more details about how to execute an import, please refer to [Import your data](imports.html).
+:::
+
+:::tips
+You can also export your rules. For that, execute the `Rule export in YML` export job. For more details about how to execute an export, please refer to [Export your data](exports.html).
+:::
+
 
 # View all rules
 
@@ -81,21 +120,6 @@ You can also execute several rules at the same time:
 1.  A flash message confirming the action will be displayed and you will be notified once the execution is done
 
 ![image](../img/Settings_RulesExecutionNotif.png)
-
-# Create a rule
-
-Rules are exclusively created by YML imports. You need to create your YML file like explained on our online technical documentation: [General information about rule format](https://docs.akeneo.com/latest/manipulate_pim_data/rule/general_information_on_rule_format.html#enrichment-rule-structure) and import it in the PIM using the `Rule import in YML` import job.  
-We also detail in [this article](get-started-with-the-rules-engine.html), how to select products and the list of available actions.
-
-::: info
-For more details about how to execute an import, please refer to [Import your data](imports.html).
-:::
-
-You can also export your rules. For that, execute the `Rule export in YML` export job.
-
-::: info
-For more details about how to execute an export, please refer to [Export your data](exports.html).
-:::
 
 # Delete rules
 
