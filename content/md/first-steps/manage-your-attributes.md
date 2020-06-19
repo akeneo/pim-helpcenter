@@ -187,27 +187,28 @@ To manage your simple and multi selects attribute options, remove an option or a
 
 1. Click on `Add an option` button
 1. Give a unique code to the new option
-1. Click on the green checkmark at the end of the option line to confirm the creation or on the cross to cancel the option's creation.
+1. Click on the `Done` button
 
-![image](../img/Settings-AttributesAddOption.gif)
+![image](../img/Settings_Attributes_NewOption.png)
 
 The option is instantly created.
 
 ::: warning
-You can **add and update many lines at once but you will have to save each line before leaving the page**.
 You cannot use the main `Save` button to record your new options.
 :::
 
 ## Edit option labels
 
-1.  Click on the small pencil icon change the option label(s) or code
-1.  Click on the green checkmark to confirm or on the cross to cancel
+1.  Click on the option name in the left column of the screen
+1.  Edit the labels you wish to updated
+1.  Click on the `Done` button
 
 ![image](../img/Settings_Attributes_OptionsEdit.png)
 
 ## Delete an option
 
-Click on the `Delete` button to remove an option
+1.  Roll-over the option name in the left column of the screen  
+1.  Click on the cross at the end of the blue line
 
 ![image](../img/Settings_Attributes_OptionsDelete.png)
 
