@@ -1,15 +1,15 @@
-# Easily monitor errors on your connections
-::: meta-data type="New" features="Connections, Productivity" available="mid-May" link-to-doc="../articles/connection-dashboard.html#in-the-connection-monitoring-page"
+# Avoid spelling mistakes in your product data
+::: meta-data type="Improvement" features="Data quality insights" available="early-July" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
 :::
 
-For each of your connections, a new `Monitoring` page now lists the last integration errors that may have occurred.
+We keep on adding new features to help you improve your data quality. To garantee consistency on your customer-facing product data, we introduced spell-check in category names, attribute and options labels.
+You can now check spelling mistakes and correct them in your categories and attributes data quality in the `Settings`. 
+This improvement is also available in the `Product Edit Form`. New recommendations are listed should we find errors. The better the content, the higher the consistency grade :wink:
 
-From this page, you can now easily track and fix any error on product creation, update, or deletion for each of your connections.
 
-![Connection monitoring page](../img/new-connection-monitoring-page.png)
+![dqi-tab-consistency-in-structure](../img/dqi-tab-consistency-in-structure.png)
 
 ::: more
-[What is a connection?](../articles/what-is-a-connection.html)   
-[How to monitor your third-party connections?](../articles/connection-dashboard.html)  
-[How to manage your connections?](../articles/manage-your-connections.html)
+[What is data quality](../articles/understand-data-quality.html)   
+[How to improve data quality?](../articles/improve-data-quality.html)
 :::
