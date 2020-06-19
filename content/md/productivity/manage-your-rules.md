@@ -25,19 +25,61 @@ Once your rule is created, the rule edit screen appears. In this screen, you can
 This screen is the more important screen in the rules menu as this is where you can manage your conditions and actions.
 
 :::warning
-This screen is still under development, mind you! All the filters and actions are not yet available in the UI but don't worry, you can still use the [import job](##Create-rules-via-a-YML-import) to create rules based on filters/actions that are not yet managed in the UI. When the filters/actions are not ready yet in the PIM UI, we display a mini-helper to inform you.
+This screen is still under development, mind you! All the filters and actions are not yet available in the UI but don't worry, you can still use the [import job](##Create-rules-via-a-YML-import) to create rules based on filters/actions that are not managed yet in the UI. When the filters/actions are not ready yet in the PIM UI, we display a mini-helper to inform you.
 :::
 
 The first thing to do is to filter the products you want to update with this rule. To do so, there are a bunch of filters available under the `Add condition` button.
 
-### Add conditions
-In the `Conditions` part, you can define attributes or system fields you want to use to filter your products/product models.
+### Product selection
+In the `Product selection` part, you can define attributes or system fields you want to use to filter your products/product models. We also name this part, the `Conditions`.
 
 :::info
 Retrieve the entire list of attributes/system fields in [this](get-started-with-the-rules-engine.html) article.
 :::
 
+:::warning
+By default, when there is no condition, all your product catalog is selected. It means that, if you don't filter your products/product models (meaning that you don't add any condition) but you add one or several actions, all your catalog will be updated!
+:::
+
+The system fields are displayed first in the list, and then all the attributes are gathered by attribute groups. There is a search bar to help you find the attributes. Each time you choose a filter, its color turns to purple to inform you that it is already used, and a new line is created.
+
+Let's see how a line is sliced.
+
+On the left, you retrieve the system field or attribute chosen. It is written in purple.
+Then, you have to choose an operator. Depending on the filter, the operator list changes. If you don't remember which operator is available for each filter, you can refer to [this](get-started-with-the-rules-engine.html) article.
+Then, you have the value field, where you can put the value you want to filter on. For example, if you filter is a multi-select attribute type, you can choose which options you want to filter on.
+
+If your filter has a value per channel and/or per locale, the `channel` and `locale` fields appear, in order to let you choose on which locale/channel you want to filter.
+
+If you want to remove a condition, just click on the cross at the end of the line.
+
+As you can see just next to the `Add condition` button, there is a counter that inform you how many products/product models will be updated by this rule. It means that these conditions match with X products/product models.
+This count automatically changes as soon as you add/remove a condition.
+
 ### Add actions
+
+Now that you have filtered your products/product models, you can add one or several actions to apply on!
+
+To do so:
+1. Click on `Add action` on top of the screen
+1. Select the action you want to add. There is a search bar and a scroll bar to choose action among the list.
+1. A new section appears under the `Product selection` part.
+
+:::info
+As for the `Product Selection`, all the actions are not yet available in the UI. If you need to apply an action that is not managed for now, you can still import your YML file, and retrieve your rule in the PIM UI.
+:::
+
+[Here](get-started-with-the-rules-engine.html) is the list of all the actions you can do with the rules engine.
+
+Depending on the action you choose, the template changes. The table below lists all the actions that you can add via the PIM interface.
+
+| Actions  | What they do |
+|---|---|
+| Set categories  | Classify your products/product models in the categories you choose, and **declassify** them from their "old" categories.  |
+| Add categories  | Add your products to new categories, **without declassifying** them from their "old" categories.  |
+| Set family  | Replace your products/product models family |
+| Clear attribute value  | Delete values from an attribute on your products/product models selection  |
+
 
 # Create rules via a YML import
 To create rules using a YML file, you need to create it like explained in [this](get-started-with-the-rules-engine.html) article and import it in the PIM using the `Rule import in YML` import job.
