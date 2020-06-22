@@ -16,7 +16,7 @@ jobs:
             - add_ssh_keys
             - run:
                   name: Deploy on staging server
-                  command: HOSTNAME=$STAGING_HOSTNAME PORT=$STAGING_PORT make deploy
+                  command: HOSTNAME=$STAGING_HOSTNAME PORT=$STAGING_PORT HELP_CENTER_URL="https://${STAGING_HOSTNAME}/" make deploy
 
     deploy_production:
         machine:
@@ -41,6 +41,10 @@ workflows:
     deployment:
         jobs:
             - deploy_production:
+                  filters:
+                      branches:
+                          only: master
+            - deploy_staging:
                   filters:
                       branches:
                           only: master

@@ -7,6 +7,8 @@ const through = require('through2').obj;
 const jsonCombine = require('gulp-jsoncombine');
 const path = require('path');
 
+const HELP_CENTER_PRODUCTION_URL = 'https://help.akeneo.com/';
+
 module.exports = updatesAsJson;
 
 const md = new markdownIt('default', {html: true, xhtmlOut: true });
@@ -17,7 +19,7 @@ md.renderer.rules.heading_open = function(...args) {
 md.use(markdownToc);
 
 gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
-    return updatesAsJson('content/updates/20*/*.md', './dist/', 'test.json');
+    return updatesAsJson('content/updates/20*/*.md', './dist/', 'updates.json');
 });
 
 /**
@@ -93,11 +95,13 @@ function parseDescriptionFromMarkdown(...args) {
 
 
 function generateJson() {
+    const helpCenterUrl = process.env.HELP_CENTER_URL ? process.env.HELP_CENTER_URL : HELP_CENTER_PRODUCTION_URL;
+
     return through((file, enc, cb) => {
         // hardcoded to the 5th day of the month
         let directoryName = path.basename(path.dirname(file.path));
         let startDate = directoryName.replace('-', '/') + '/05';
-        let link = 'https://help.akeneo.com/pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
+        let link = helpCenterUrl + 'pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
 
         let defaultValues = {
             'pim_announcement_img': null,
@@ -113,6 +117,7 @@ function generateJson() {
             'img': data['pim_announcement_img'],
             'imgAlt': data['pim_announcement_alt_img'],
             'version': data['pim_announcement_audience'],
+            'filename': path.basename(file.path),
             'notificationDuration': 7,
             'tags': ['updates'],
             'title': file.title,
