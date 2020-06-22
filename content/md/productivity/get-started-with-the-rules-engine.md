@@ -503,7 +503,7 @@ As of today, 7 fields are supported in the rules engine, and each of them has it
 The possible operators for the `created` field are:
 - =
 - !=
-- “>”
+- >
 - <
 - BETWEEN
 - NOT BETWEEN
@@ -511,47 +511,74 @@ The possible operators for the `created` field are:
 - NOT EMPTY
 
 ::: info
-The format of the date is: yyyy-mm-dd H:i:s.
+The format of the date is:
+- "yyyy-mm-dd HH:MM:SS" (UTC time)
+- "now"
+- "<relative date format>" (see below)
+
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
+:::warning
+The "relative date format" only works with the `<`, `>`, `=` and `!`
 :::
 
 ### Example
 
 ```YML
-field: created
-operator: =
-value: "2015-01-23"
+- field: created
+  operator: =
+  value: "2015-01-23 00:00:00"
+- field: created
+  operator: <
+  value: "-10 days"
 ```
-
-:::info
-If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
-:::
 
 ## Updated
 
 The possible operators for the `updated` field are:  
 - =
 - !=
-- “>”
+- >
 - <
 - BETWEEN
 - NOT BETWEEN
 - EMPTY
 - NOT EMPTY
 
-### Example
+::: info
+The format of the date is:
+- "yyyy-mm-dd HH:MM:SS" (UTC time)
+- "now"
+- "<relative date format>" (see below)
 
-```YML
-field: updated
-operator: =
-value: "2015-01-23"
-```
-
-:::info
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
-::: info
-The format of the date is: yyyy-mm-dd H:i:s.
+### Example
+
+```YML
+- field: updated
+  operator: =
+  value: "2015-01-23 00:00:00"
+- field: updated
+  operator: >
+  value: "-1 year"
+```
+
+#### Focus on the "relative date format"
+The *relative date format* allows to specify dates that are relative to the rule execution date, it is formatted as follows:
+
+**<+/-><count> <unit>**, with:
+
+- **"+"** means a date in the future, **"-"** a date in the past
+- **count** is an integer
+- **unit** is one of the following values: *minute*, *hour*, *day*, *week*, *month* or *year* with an optional final *s*
+
+For instance, **+1 month** means *in one month*, and **-2 days** means *2 days ago*
+
+:::warning
+Obviously, for the "created" and "updated" properties, the only relevant relative date format is the "past" relative date
 :::
 
 ## Enabled (status)
@@ -714,8 +741,8 @@ The possible operators for the `measurement` attribute type are:
 - <=
 - =
 - !=
-- “>”
-- “>=”
+- >
+- >=
 - EMPTY
 - NOT EMPTY
 
@@ -810,8 +837,8 @@ The possible operators for the `Number` attribute type are:
 - <=
 - =
 - !=
-- ">"
-- ">="
+- >
+- >=
 - EMPTY
 - NOT EMPTY
 
@@ -832,7 +859,7 @@ We expect **a number** as `value`.
 
 The possible operators for the `Date` attribute type are:  
 - <
-- ">"
+- >
 - =
 - !=
 - BETWEEN
@@ -862,8 +889,8 @@ The possible operators for the `Price collection` attribute type are:
 - <=
 - =
 - !=
-- ">"
-- ">="
+- >
+- >=
 - EMPTY
 - NOT EMPTY
 
