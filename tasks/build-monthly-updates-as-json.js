@@ -117,6 +117,7 @@ function generateJson() {
             'img': data['pim_announcement_img'],
             'imgAlt': data['pim_announcement_alt_img'],
             'version': data['pim_announcement_audience'],
+            'filename': path.basename(file.path),
             'notificationDuration': 7,
             'tags': ['updates'],
             'title': file.title,
