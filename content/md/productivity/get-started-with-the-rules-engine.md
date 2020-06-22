@@ -503,7 +503,7 @@ As of today, 7 fields are supported in the rules engine, and each of them has it
 The possible operators for the `created` field are:
 - =
 - !=
-- >
+- ">"
 - <
 - BETWEEN
 - NOT BETWEEN
@@ -539,7 +539,7 @@ The "relative date format" only works with the `<`, `>`, `=` and `!`
 The possible operators for the `updated` field are:  
 - =
 - !=
-- >
+- ">"
 - <
 - BETWEEN
 - NOT BETWEEN
@@ -741,8 +741,8 @@ The possible operators for the `measurement` attribute type are:
 - <=
 - =
 - !=
-- >
-- >=
+- ">"
+- ">="
 - EMPTY
 - NOT EMPTY
 
