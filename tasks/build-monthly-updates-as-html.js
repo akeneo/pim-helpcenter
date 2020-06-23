@@ -65,9 +65,11 @@ md
 gulp.task('build-monthly-updates-as-html', ['clean-dist','less'], function() {
     const fileDirectorySource = 'content/updates';
     const fileDirectoryDestination = './dist/pim/serenity/updates';
+    // by default, we generate all updates except if env variable ONLY_PREVIOUS_MONTH_UPDATES=true
+    const generateAllUpdates = !(process.env.ONLY_PREVIOUS_MONTH_UPDATES && process.env.ONLY_PREVIOUS_MONTH_UPDATES === 'true');
 
     return merge(
-        generateUpdates(fileDirectorySource, fileDirectoryDestination),
+        generateUpdates(fileDirectorySource, fileDirectoryDestination, generateAllUpdates),
         generateIndex(fileDirectorySource, fileDirectoryDestination)
     );
 });
@@ -89,14 +91,24 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
         .pipe(gulp.dest(fileDirectoryDestination));
 };
 
-function generateUpdates(fileDirectorySource, fileDirectoryDestination) {
+function generateUpdates(fileDirectorySource, fileDirectoryDestination, generateAllUpdates) {
 
     const rawData = fs.readFileSync(fileDirectorySource + '/index.json');
     const monthlyUpdates = JSON.parse(rawData);
 
-    var folders = getFolders(fileDirectorySource);
+    const folders = getFolders(fileDirectorySource).filter((folder) => {
+        const currentDate = new Date(Date.now());
+        const dayOfMonth = currentDate.getDate();
+        const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setMonth(currentDate.getMonth() - 1));
 
-    var tasks = folders.map(function (folder) {
+        const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(previousMonthDate);
+        const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);
+        const maxDate = year + '-' + month;
+
+        return folder <= maxDate || generateAllUpdates;
+    });
+
+    const tasks = folders.map(function (folder) {
         return gulp.src(path.join(fileDirectorySource, folder, '/**/*.md'))
             .pipe(frontMatter({property: 'fm', remove: true}))
             .pipe(concat(folder + '-copy.html'))

@@ -26,7 +26,7 @@ jobs:
             - add_ssh_keys
             - run:
                   name: Deploy on production server
-                  command: HOSTNAME=$PROD_HOSTNAME PORT=$PROD_PORT make deploy
+                  command: HOSTNAME=$PROD_HOSTNAME PORT=$PROD_PORT ONLY_PREVIOUS_MONTH_UPDATES=true make deploy
 
 workflows:
     version: 2
@@ -48,3 +48,16 @@ workflows:
                   filters:
                       branches:
                           only: master
+
+    # deploy every night in production to deploy new feature updates of the previous month automatically (5th day of the month)
+    # for the staging server, it deploys all updates for all PRs merged in master so it's not needed
+    nightly:
+        triggers:
+            - schedule:
+                  cron: "0 2 * * *"
+                  filters:
+                      branches:
+                          only:
+                              - master
+        jobs:
+            - deploy_production
