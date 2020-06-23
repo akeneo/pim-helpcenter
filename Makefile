@@ -16,7 +16,7 @@ watch: yarn-install
 build: yarn-install
 	 # default value of HELP_CENTER_URL is 'https://help.akeneo.com/'
 	 # it allows to generate the correct links of the updates for the communication panel into the PIM
-	 $(DOCKER_RUN) -e HELP_CENTER_URL=$(HELP_CENTER_URL) $(DOCKER_IMAGE_TAG) yarn gulp create-dist
+	 $(DOCKER_RUN) -e HELP_CENTER_URL=$(HELP_CENTER_URL) -e ONLY_PREVIOUS_MONTH_UPDATES=$(ONLY_PREVIOUS_MONTH_UPDATES) $(DOCKER_IMAGE_TAG) yarn gulp create-dist
 
 test: yarn-install
 	$(DOCKER_RUN) $(DOCKER_IMAGE_TAG) yarn test
