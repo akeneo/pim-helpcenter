@@ -1,3 +1,4 @@
+const fs = require('fs');
 const gulp = require('gulp');
 const tap = require('gulp-tap');
 const markdownIt = require('markdown-it');
@@ -110,11 +111,12 @@ function generateJson() {
         };
 
         let data = {...defaultValues, ...file.fm };
+        const imgContent = data['pim_announcement_img'] ? fs.readFileSync(path.dirname(file.path) + '/' + data['pim_announcement_img'], { encoding: 'base64' }) : null;
 
         let content = JSON.stringify({
             'startDate': startDate,
             'description': file.description,
-            'img': data['pim_announcement_img'],
+            'img': imgContent,
             'imgAlt': data['pim_announcement_alt_img'],
             'version': data['pim_announcement_audience'],
             'filename': path.basename(file.path),

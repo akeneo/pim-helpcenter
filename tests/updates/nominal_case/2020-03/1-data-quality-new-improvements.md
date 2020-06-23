@@ -1,5 +1,5 @@
 ---
-pim_announcement_img: ../img/dqi_variant_products.png
+pim_announcement_img: ./img/dqi_variant_products.png
 pim_announcement_alt_img: "this is DQI alt img"
 pim_announcement_audience:
 - CE
