@@ -10,6 +10,6 @@ This improvement is also available in the `Product Edit Form`. New recommendatio
 ![dqi-tab-consistency-in-structure](../img/dqi-tab-consistency-in-structure.png)
 
 ::: more
-[What is data quality](../articles/understand-data-quality.html)   
+[What is data quality?](../articles/understand-data-quality.html)   
 [How to improve data quality?](../articles/improve-data-quality.html)
 :::
