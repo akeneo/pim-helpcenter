@@ -503,7 +503,7 @@ As of today, 7 fields are supported in the rules engine, and each of them has it
 The possible operators for the `created` field are:
 - =
 - !=
-- ">"
+- \>
 - <
 - BETWEEN
 - NOT BETWEEN
@@ -539,7 +539,7 @@ The "relative date format" only works with the `<`, `>`, `=` and `!`
 The possible operators for the `updated` field are:  
 - =
 - !=
-- ">"
+- \>
 - <
 - BETWEEN
 - NOT BETWEEN
@@ -606,7 +606,7 @@ If you want to select the activated products, set the value to "true". If you wa
 The possible operators for the `completeness` field are:  
 - =
 - !=
-- “>”
+- \>
 - <
 
 ### Example
@@ -743,8 +743,8 @@ The possible operators for the `measurement` attribute type are:
 - <=
 - =
 - !=
-- ">"
-- ">="
+- \>
+- \>=
 - EMPTY
 - NOT EMPTY
 
@@ -839,8 +839,8 @@ The possible operators for the `Number` attribute type are:
 - <=
 - =
 - !=
-- >
-- >=
+- \>
+- \>=
 - EMPTY
 - NOT EMPTY
 
@@ -861,7 +861,7 @@ We expect **a number** as `value`.
 
 The possible operators for the `Date` attribute type are:  
 - <
-- >
+- \>
 - =
 - !=
 - BETWEEN
@@ -891,8 +891,8 @@ The possible operators for the `Price collection` attribute type are:
 - <=
 - =
 - !=
-- >
-- >=
+- \>
+- \>=
 - EMPTY
 - NOT EMPTY
 
