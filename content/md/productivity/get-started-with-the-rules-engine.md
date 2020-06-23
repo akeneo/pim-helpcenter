@@ -514,7 +514,7 @@ The possible operators for the `created` field are:
 The format of the date is:
 - "yyyy-mm-dd HH:MM:SS" (UTC time)
 - "now"
-- "<relative date format>" (see [below](#focus-on-the-relative-date-format))
+- "\<relative date format\>" (see [below](#focus-on-the-relative-date-format))
 
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
