@@ -20,7 +20,7 @@ md.renderer.rules.heading_open = function(...args) {
 md.use(markdownToc);
 
 gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
-    return updatesAsJson('content/updates/20*/*.md', './dist/', 'updates.json');
+    return updatesAsJson('content/updates/20*/*.md', './dist/pim', 'updates.json');
 });
 
 /**
@@ -101,7 +101,7 @@ function generateJson() {
     return through((file, enc, cb) => {
         // hardcoded to the 5th day of the month
         let directoryName = path.basename(path.dirname(file.path));
-        let startDate = directoryName.replace('-', '/') + '/05';
+        let startDate = directoryName + '-05';
         let link = helpCenterUrl + 'pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
 
         let defaultValues = {
@@ -114,6 +114,7 @@ function generateJson() {
         const imgContent = data['pim_announcement_img'] ? fs.readFileSync(path.dirname(file.path) + '/' + data['pim_announcement_img'], { encoding: 'base64' }) : null;
 
         let content = JSON.stringify({
+            'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
             'startDate': startDate,
             'description': file.description,
             'img': imgContent,
