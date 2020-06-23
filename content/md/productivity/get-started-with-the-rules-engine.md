@@ -558,10 +558,12 @@ If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 ### Example
 
 ```YML
-- field: updated
+-
+  field: updated
   operator: =
   value: "2015-01-23 00:00:00"
-- field: updated
+-
+  field: updated
   operator: >
   value: "-1 year"
 ```
