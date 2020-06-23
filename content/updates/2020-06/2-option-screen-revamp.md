@@ -1,5 +1,5 @@
 # New: option screen revamp
-::: meta-data type="Improvement" features="Data Governance" available="end-June" link-to-doc="../articles/manage-simple-and-multi-selects-attribute-options.html"
+::: meta-data type="Improvement" features="Attribute options, Data Governance" available="late June" link-to-doc="../articles/manage-simple-and-multi-selects-attribute-options.html"
 :::
 
 Because single and multi-select attributes are in the top 5, we improved the 'option screen' user experience to ease creating or editing attribute options.
