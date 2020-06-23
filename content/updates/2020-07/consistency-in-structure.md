@@ -1,5 +1,5 @@
 # Avoid spelling mistakes in your product data
-::: meta-data type="Improvement" features="Data quality insights" available="early-July" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
+::: meta-data type="Improvement" features="Data Quality Insights" available="early July" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
 :::
 
 We keep on adding new features to help you improve your data quality. To garantee consistency on your customer-facing product data, we introduced spell-check in category names, attribute and options labels.
