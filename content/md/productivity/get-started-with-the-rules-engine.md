@@ -514,7 +514,7 @@ The possible operators for the `created` field are:
 The format of the date is:
 - "yyyy-mm-dd HH:MM:SS" (UTC time)
 - "now"
-- "<relative date format>" (see below)
+- "\<relative date format\>" (see below)
 
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
@@ -534,6 +534,21 @@ The "relative date format" only works with the `<`, `>`, `=` and `!`
   value: "-10 days"
 ```
 
+#### Focus on the "relative date format"
+The *relative date format* allows to specify dates that are relative to the rule execution date, it is formatted as follows:
+
+**<+/->\<count\> \<unit\>**, with:
+
+- **"+"** means a date in the future, **"-"** a date in the past
+- **count** is an integer
+- **unit** is one of the following values: *minute*, *hour*, *day*, *week*, *month* or *year* with an optional final *s*
+
+For instance, **+1 month** means *in one month*, and **-2 days** means *2 days ago*
+
+:::warning
+Obviously, for the `created` and `updated` properties, the only relevant relative date format is the "past" relative date.
+:::
+
 ## Updated
 
 The possible operators for the `updated` field are:  
@@ -550,7 +565,7 @@ The possible operators for the `updated` field are:
 The format of the date is:
 - "yyyy-mm-dd HH:MM:SS" (UTC time)
 - "now"
-- "<relative date format>" (see below)
+- "\<relative date format\>" (see below)
 
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
@@ -571,7 +586,7 @@ If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 #### Focus on the "relative date format"
 The *relative date format* allows to specify dates that are relative to the rule execution date, it is formatted as follows:
 
-**<+/-><count> <unit>**, with:
+**<+/->\<count\> \<unit\>**, with:
 
 - **"+"** means a date in the future, **"-"** a date in the past
 - **count** is an integer
@@ -580,7 +595,7 @@ The *relative date format* allows to specify dates that are relative to the rule
 For instance, **+1 month** means *in one month*, and **-2 days** means *2 days ago*
 
 :::warning
-Obviously, for the "created" and "updated" properties, the only relevant relative date format is the "past" relative date
+Obviously, for the `created` and `updated` properties, the only relevant relative date format is the "past" relative date.
 :::
 
 ## Enabled (status)
