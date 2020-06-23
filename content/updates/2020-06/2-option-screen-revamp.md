@@ -8,7 +8,7 @@ Apart from a great design and improved visibility on content, nothing has change
 
 ![Duplicate action in the `...` menu](../img/new-option-screen.png)
 
-We felt we could do more to help you ensure data quality and ease your way to a great PX Score... so we are planning new improvements for next month. Stay tuned :wink:
+We felt we could do more to help you ensure data quality and ease your way to a great PX Score... so we are planning new improvements for next month. Stay tuned! :wink:
 
 ::: more
 [Manage simple and multi selects attribute options](../articles/manage-simple-and-multi-selects-attribute-options)  
