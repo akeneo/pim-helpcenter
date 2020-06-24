@@ -1,4 +1,5 @@
 # Rules engine new actions and improvements
+Discover the latest enhancements on the rules engine: we added two new actions and the possibility to name your rules. We also improved the rules format for associations.
 
 ## Calculate attribute values
 ::: meta-data type="New" features="Rules engine, Productivity, Automation" available="early April" link-to-doc="../articles/get-started-with-the-rules-engine.html#calculate"

@@ -1,15 +1,24 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="/">
                 <img height="20" src="/pim/{{majorVersion}}/img/akeneo.svg"></img>
             </a>
         </div>
-        <form class="navbar-form navbar-left">
-            <div class="form-group form-search">
-                <input id="docSearch-input" type="text" class="form-control" placeholder="Search for PIM help...">
-            </div>
-        </form>
-        {{> version-navigation}}
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            <form class="navbar-form navbar-left">
+                <div class="form-group form-search">
+                    <input id="docSearch-input" type="text" class="form-control" placeholder="Search for PIM help...">
+                </div>
+            </form>
+            {{> version-navigation}}
+        </div>
     </div>
 </nav>

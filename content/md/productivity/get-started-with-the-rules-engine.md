@@ -390,14 +390,14 @@ This action allows calculating numeric attribute values, with simple mathematica
 
 This action only accepts number, measurement or price collection attributes for both the source and the destination.
 
-The action is split into 3 different parts:
+The action is split into 3 required steps, and 1 optional:
 
 **destination**: the value you want to update. It is composed of:
 
 - `field`: the attribute code *(required)*
 - `locale`: locale code if the attribute is localizable *(optional)*
 - `scope`: channel code if the attribute is scopable *(optional)*
-- `currency`: currency code if the attribute is a price collection *(optional)*
+- `currency`: currency code if the attribute is a price collection *(required if the destination attribute type is a price collection)*
 - `unit`: unit code if the attribute is a measurement *(optional, the default measurement unit of the attribute will be used if not set)*
 
 **source**: the first operand of the operation. It requires at least either a value or a field and additional items. For instance, you can have:
@@ -409,7 +409,7 @@ OR:
 - `field`: attribute code of the source value *(required)*
 - `locale`: locale code if the attribute is localizable *(optional)*
 - `scope`: channel code if the attribute is scopable *(optional)*
-- `currency`: currency code if the attribute is a price collection *(optional)*
+- `currency`: currency code if the attribute is a price collection *(required if the source attribute type is a price collection)*
 
 **operation_list**: the list of operations to execute *(at least one operation is required)*
 
@@ -423,6 +423,18 @@ For instance, 5 - 3 + 2 x 5 will result in ((5 - 3) + 2) x 5) = 20
 :::
 
 If a product value required in an operation is empty, or if a division by zero occurs, the product won't be updated.
+
+**round_precision** (optional): rounds the final result of the operation(s)
+
+If this parameter is not specified or if the value is null, the final result will not be rounded.
+The round precision can be:
+
+- a positive number: it represents the number of decimals to keep
+- 0: rounded with no decimal
+- a negative number: the rounding will occur before the decimal point (example with precision of `-1`: `81` becomes `80`, with precision of `-2`: `81` becomes `100`)
+
+If the destination attribute does not allow decimals, the action can be applied only when the result is an integer.
+This behavior can be changed by setting up the *round_precision* to 0: the result will be rounded and the action will be applied.
 
 ### Examples
 
@@ -447,11 +459,12 @@ For instance, in order to calculate the volume of a cone (volume = (π x R² x h
             value: 3
 ```
 
-The following action will calculate a price in euros, based on the price in dollars and a ratio:
+The following action will calculate a price in euros, based on the price in dollars and a ratio, and round the result to the nearest integer value:
 
 ```YML
   actions:
       - type: calculate
+        round_precision: 0
         destination:
           field: price
           scope: ecommerce
@@ -498,7 +511,7 @@ The possible operators for the `created` field are:
 - NOT EMPTY
 
 ::: info
-The format of the date is: yyyy-mm-dd.
+The format of the date is: yyyy-mm-dd H:i:s.
 :::
 
 ### Example
@@ -538,7 +551,7 @@ If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
 ::: info
-The format of the date is: yyyy-mm-dd.
+The format of the date is: yyyy-mm-dd H:i:s.
 :::
 
 ## Enabled (status)
@@ -636,7 +649,7 @@ value:
 ```
 
 ::: info
-The `field` expects the group code.
+The `value` field expects the group codes.
 :::
 
 ## Categories
@@ -827,7 +840,7 @@ The possible operators for the `Date` attribute type are:
 - EMPTY
 - NOT EMPTY
 
-The expected date format is: **yyyy-mm-dd**
+The expected date format is: **yyyy-mm-dd H:i:s**
 
 :::info
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.

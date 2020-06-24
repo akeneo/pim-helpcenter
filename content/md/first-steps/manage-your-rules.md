@@ -52,6 +52,18 @@ But you can also execute rules on your own. You can execute:
 The rules support [product models](what-about-products-variants.html#what-is-a-product-model), so rules can be defined also on attributes at the product model level (or sub product model level).
 :::
 
+The rules execution summary is accessible via the `process tracker`.
+
+![image](../img/Rules_ProcessTracker.png)
+
+In this summary, you can easily access the details of the execution: how many rules were executed, how many products/product models were updated, warnings...
+
+![image](../img/Rules_Summary.png)
+
+:::tips
+In order to access the summary of nightly scheduled rules (by cron), you need to have the right to `View all jobs in process tracker` in the `Roles` permissions to be able to see them the process tracker :wink:.
+:::
+
 ## Execute a single rule
 
 To execute a rule, click on the `Execute` button at the end of each line in the grid.  

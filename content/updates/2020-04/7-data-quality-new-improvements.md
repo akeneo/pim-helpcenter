@@ -1,4 +1,5 @@
-# Data quality improvements
+# Data Quality Insights made even more powerful
+Data Quality Insights recommendations and grades are now also available for product models to help you ensure that all your products have enriched and consistent content. Also, our spell-check feature now supports additional languages.
 
 ## Data Quality Insights on product models
 ::: meta-data type="Improvement" features="Quality, Data Quality Insights" available="mid-April" link-to-doc="../articles/articles/understand-data-quality.html"
@@ -8,7 +9,7 @@ Following last month improvements on product variants, the data quality insights
 
 This improvement now enables you to easily monitor **your data quality and accuracy for all your products**.
 
-![Data Quality Insights on variant products](../img/data-quality-product-models.png)
+![Data Quality Insights on product models](../img/data-quality-product-models.png)
 
 ## Spell-check: new languages supported!
 ::: meta-data type="Improvement" features="Quality, Data Quality Insights" available="late April"

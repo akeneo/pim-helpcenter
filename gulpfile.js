@@ -42,7 +42,7 @@ gulp.task('create-dist', [
   'copy-assets',
   'landings',
   'build-articles',
-  'build-monthly-updates'
+  'build-monthly-updates-as-html'
 ]);
 
 // Main task that should be used for development purpose

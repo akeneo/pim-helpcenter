@@ -1,14 +1,28 @@
 {{!-- Homepage --}}
 {{#> layout  title="Akeneo Help center"}}
 {{> serenity-updates-button}}
+<div class="hidden">
+    <a href="/pim/v4/">v4 EE/CE</a>
+    <a href="/pim/v3/">v3 EE/CE</a>
+    <a href="/pim/v2/">v2 EE/CE</a>
+</div>
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
             <a class="navbar-brand" href="/">
                 <img height="20" src="./img/akeneo.svg"></img>
             </a>
         </div>
-        {{> version-navigation}}
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+            {{> version-navigation}}
+        </div>
     </div>
 </nav>
 <div class="jumbotron jumbotron-search">

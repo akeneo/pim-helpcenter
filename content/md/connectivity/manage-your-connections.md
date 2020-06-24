@@ -266,24 +266,6 @@ By default, the user group you've just created does not give any rights to the c
 To be able to view the catalog, you will need to give permissions to your connection user group. [Here is the documentation to help you in this task.](access-rights-on-products.html)
 :::
 
-# Monitor a connection
-
-Once your connection is set, you'll probably want to monitor its activity. 
-
-In other words, how many products have been created or updated thanks to your source connection? **Or, on the contrary, why a product hasn't been created or updated by your source connection?**
-
-To do so, click on the monitoring page directly in the connection navigation menu. From this page, you'll see the details of the last 100 business errors. You can also search among them thanks to the search bar on top of the list. 
-
-::: info
-Information about created, updated and sent products are in the [connection dashboard](connection-dashboard.html).
-:::
-
-![Connection monitoring page](../img/connection-monitoring-page.png)
-
-::: tips
-Stay tuned! We are developing more features to monitor your connections.
-:::
-
 # Delete a connection
 
 If you created a connection you don't want to use anymore, you can delete it.
