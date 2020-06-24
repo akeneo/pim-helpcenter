@@ -189,8 +189,6 @@ To manage your simple and multi selects attribute options, remove an option or a
 1. Give a unique code to the new option
 1. Click on the `Done` button
 
-![image](../img/Settings_Attributes_NewOption.png)
-
 The option is instantly created.
 
 ::: warning
@@ -203,14 +201,12 @@ You cannot use the main `Save` button to record your new options.
 1.  Edit the labels you wish to updated
 1.  Click on the `Done` button
 
-![image](../img/Settings_Attributes_OptionsEdit.png)
 
 ## Delete an option
 
 1.  Roll-over the option name in the left column of the screen  
 1.  Click on the cross at the end of the blue line
 
-![image](../img/Settings_Attributes_OptionsDelete.png)
 
 ::: warning
 A deleted option can no longer be used as a value for the attribute of a product. If a product had this value, it will be removed from the product's attribute.
@@ -228,8 +224,6 @@ An option that is used by a published product cannot be deleted. Unpublish the p
 
 Options can be **automatically sorted by alphabetical order** using the toggle button `Sort automatically options by alphabetical order` on the top of the attribute's options page.    
 If you want to define your own sort, you **can drag and drop option rows to reorder options manually**.
-
-![image](../img/Settings_AttributesDraganddropOption.gif)
 
 # Manage rules on attributes _(EE only)_
 
