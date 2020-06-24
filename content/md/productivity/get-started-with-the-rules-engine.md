@@ -520,7 +520,7 @@ If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
 :::warning
-The "relative date format" only works with the `<`, `>`, `=` and `!`
+The "relative date format" only works with the `<`, `>`, `=` and `!=` operators
 :::
 
 ### Example
