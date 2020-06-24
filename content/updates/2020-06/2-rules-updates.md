@@ -5,7 +5,7 @@ The following improvements will radically help you to understand errors in the r
 
 ## Rules execution commands become jobs
 
-::: meta-data type="Improvement" features="Rules engine", "Productivity" available="mid-June" link-to-doc="../articles/manage-your-rules.html#execute-rules.html"
+::: meta-data type="Improvement" features="Rules engine, Productivity" available="mid-June" link-to-doc="../articles/manage-your-rules.html#execute-rules.html"
 :::
 
 Before, the rules were executed by a **background process**. The issue was that you could not be aware of errors during the rules execution.
@@ -18,7 +18,7 @@ If the rules are automatically launched (by a cron), the user must be granted th
 
 ## Improvement of error messages during YML file import
 
-::: meta-data type="Improvement" features="Rules engine", "Productivity" available="early-June"
+::: meta-data type="Improvement" features="Rules engine, Productivity" available="early-June"
 :::
 
 We know that understanding errors when importing YML files containing the rules can be sometimes a bit "complicated" for you. Why? Because errors/warnings are not very clear and precise.
