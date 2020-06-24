@@ -520,7 +520,7 @@ If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
 :::warning
-The "relative date format" only works with the `<`, `>`, `=` and `!=` operators
+The "relative date format" only works with the `<`, `>`, `=` and `!=` operators.
 :::
 
 ### Example
@@ -553,6 +553,10 @@ The format of the date is:
 - "\<relative date format\>" (see [below](#focus-on-the-relative-date-format))
 
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
+:::warning
+The "relative date format" only works with the `<`, `>`, `=` and `!=` operators.
 :::
 
 ### Example
@@ -876,6 +880,10 @@ The format of the date is:
 - "\<relative date format\>" (see [below](#focus-on-the-relative-date-format-2))
 
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
+:::warning
+The "relative date format" only works with the `<`, `>`, `=` and `!=` operators.
 :::
 
 ### Example
