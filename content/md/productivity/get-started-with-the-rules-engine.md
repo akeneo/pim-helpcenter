@@ -919,7 +919,7 @@ value: "2016-05-12"
 ```
 
 :::warning
-The "relative date format" is based on the UTC timezone. It means that if you are located in Australia (UTC +11) and using the PIM on the 06/22/20 at 5:00pm, the "relative date" will be based on the 06/22/20, at 6:00am.
+The "relative date format" is based on the UTC timezone. It means that if you are located in Eastern Australia (UTC +10) and the rules are executed on the 06/22/20 at 8:00am, the "relative date" will be based on the 06/21/20
 :::
 
 ## Price collection
