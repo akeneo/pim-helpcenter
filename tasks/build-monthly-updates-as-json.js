@@ -111,7 +111,7 @@ function generateJson() {
         };
 
         let data = {...defaultValues, ...file.fm };
-        const imgContent = data['pim_announcement_img'] ? fs.readFileSync(path.dirname(file.path) + '/' + data['pim_announcement_img'], { encoding: 'base64' }) : null;
+        const imgContent = getBase64Content(file, data['pim_announcement_img']);
 
         let content = JSON.stringify({
             'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
@@ -131,4 +131,21 @@ function generateJson() {
 
         cb(null, file);
     });
+}
+
+function getBase64Content(file, imageRelativePath) {
+    if (!imageRelativePath) {
+        return null;
+    }
+
+    const imageFullPath = path.dirname(file.path) + '/' + imageRelativePath;
+    var extension = path.extname(imageFullPath).replace('.', '');
+    if (extension === 'jpg') {
+        extension = 'jpeg';
+    }
+
+    const content = fs.readFileSync(imageFullPath, { encoding: 'base64' });
+    const base64 = 'data:image/' + extension +';base64, ' +content;
+
+    return base64;
 }
