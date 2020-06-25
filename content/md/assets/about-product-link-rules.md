@@ -47,7 +47,6 @@ These actions are available by clicking on `...`.
 
 #### In the product link rules tab
 ![Asset Family Naming Convention](../img/Assets_ManuallyExecuteNamingConventionInAsset.png)
-.png)
 
 
 ### Should I split the asset code or the filename?
