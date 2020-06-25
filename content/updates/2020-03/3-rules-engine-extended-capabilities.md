@@ -1,3 +1,8 @@
+---
+pim_announcement_audience:
+- EE
+---
+
 # Rules engine extended capabilities
 A new action and enhancements made on the `copy` action: easily and automatically concatenate your attributes, and now copy values from an attribute type to another attribute type.
 
