@@ -21,7 +21,7 @@ And also, don't hesitate to fill in the survey at the bottom of the dashboard pa
 In this dashboard, for now, you can monitor both your source and destination connections.
 
 ::: tips
-Empty charts? Have you ticked the `Track this connection in the dashboard` checkbox in your connections settings?
+Empty charts? Have you ticked the `Track this connection in the dashboard` checkbox in your connections settings? Do you use the connection user to call the PIM through the API?
 :::
 
 # Source connection monitoring
@@ -57,7 +57,7 @@ In this dashboard, you can easily track **product errors** that occurred over th
 ::: info
 Julia could solve **business errors** from the PIM or in the connected application. On the contrary, **technical errors** can't be resolved without a developer or a technical profile intervention.
 
-For example, a `This value is too long. It should have 7 characters or less.` error is considered as a business error because Julia could solve it by changing the value of the related attribute. But a `Property does not exist` error is regarded as a technical error because it can't be solved without modifying the connector.
+For example, a `The title attribute must not contain more than 250 characters. The submitted value is too long.` error is considered as a business error because Julia could solve it by changing the value of the related attribute. But a `Property does not exist` error is regarded as a technical error because it can't be solved without modifying the connector.
 :::
 
 ![Connection dashboard - error monitoring](../img/error-monitoring-connection-dashboard.png)
@@ -66,13 +66,23 @@ For example, a `This value is too long. It should have 7 characters or less.` er
 
 You can access the `Monitoring` page by clicking directly on a connection card in the `Connection dashboard` or in the `System` menu, then `Connections`, and on your connection card. 
 
-It displays information about **the last 100 business errors**:
-- the date and time of the error,
-- the error message with details,
-- and, on top, a search bar to filter the list. 🔍
+This page displays information about **the last 100 business errors**. 
 
-![Connection monitoring page](../img/connection-monitoring-page.png)
+Each message contains 3 parts:
+- the message: to explain what went wrong during the connection synchronisation,
+- internal links: to help you to check the right data inside your PIM,
+- external links: to access directly the right pages in our help center.
+
+Moreover, we display some information about the related product: 
+- its label and identifier,
+- its family,
+- and when this is relevant, the attribute channel and locale.
+
+Finally, on top of the list, you will find a search bar to filter messages. 🔍
+
+//TODO UPDATE SCREENSHOT
+![Connection monitoring page](../img/connection-monitoring-page.png) 
 
 ::: info
-For now, we only track errors on **products creation, update, or deletion**. But, we'll add more in the future. Stay tuned! 🙂
+For now, we only track errors on **products creation, update, or deletion**. 
 :::
