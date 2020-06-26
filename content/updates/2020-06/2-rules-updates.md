@@ -19,7 +19,7 @@ If the rules are automatically launched (by a cron), the user must be granted th
 
 ## Improvement of error messages during YML file import
 
-::: meta-data type="Improvement" features="Rules engine, Productivity" available="early-June"
+::: meta-data type="Improvement" features="Rules engine, Productivity" available="early June"
 :::
 
 We know that understanding errors when importing YML files containing the rules can be sometimes a bit "complicated" for you. Why? Because errors/warnings are not very clear and precise.
