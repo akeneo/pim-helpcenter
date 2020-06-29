@@ -1,6 +1,6 @@
 # Rules engine updates
 
-At Akeneo, we aim at delivering the best user experience. And a good experience of our PIM comes with a good understanding of what is happening, especially when there are errors that you have to fix.
+At Akeneo, we aim at delivering the best user experience. A good experience with our PIM goes with a good understanding of what is going on, especially when there are errors that you have to correct.
 
 The following improvements will radically help you to understand errors in the rules engine, either during a YML file import or during the rules execution.
 
