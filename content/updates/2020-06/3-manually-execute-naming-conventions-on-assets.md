@@ -1,4 +1,4 @@
-# Manually execute naming conventions on assets
+# New: execute asset naming conventions manually
 ::: meta-data type="New" features="Asset Manager" available="late June" link-to-doc="../articles/assets-product-link-rules.html#focus-on-the-naming-convention.html"
 :::
 
