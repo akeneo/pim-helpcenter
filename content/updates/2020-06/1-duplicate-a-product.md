@@ -1,5 +1,5 @@
 # New: duplicate a product
-::: meta-data type="New" features="Enrichment, Product creation" available="early-June" link-to-doc="../articles/duplicate-a-product.html"
+::: meta-data type="New" features="Enrichment, Product creation" available="early June" link-to-doc="../articles/duplicate-a-product.html"
 :::
 
 You want to easily create a new product based on an existing one? You can now duplicate a simple product in your user interface in a single click! What a time-saver! :wink:  
