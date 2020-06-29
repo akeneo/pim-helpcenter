@@ -9,7 +9,8 @@ The following improvements will help you better monitor rule executions, and hel
 ::: meta-data type="Improvement" features="Rules engine, Productivity" available="mid-June" link-to-doc="../articles/manage-your-rules.html#execute-rules.html"
 :::
 
-Before, the rules were executed by a **background process**. The issue was that you could not be aware of errors during the rules execution.
+From now on, every time you run a rule, a rule execution operation line will appear in your dashboard under the last operations and also in the process tracker. 
+From those pages, you can access a detailed execution page with a click, like for any other PIM job or operation. This execution page will inform you if the rule went fine or if it raised any errors or warnings.
 
 From now on, rules are executed by a **job**. The advantage is that you can **benefit from the job tracker** where you will be able to **see the errors/warnings** that occurred during the execution.
 
