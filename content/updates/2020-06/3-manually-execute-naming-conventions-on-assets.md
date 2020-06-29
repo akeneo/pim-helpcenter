@@ -6,7 +6,7 @@ In the Asset Manager, it is possible to define a naming convention in order to a
 
 From now on, you can manually re-execute this naming convention afterward. It can be very useful if your naming convention changes after the asset upload/creation for instance.
 
-You have 2 ways to manually execute the naming convention:
+You have two ways to manually execute a naming convention:
 - for one specific asset, directly in the asset edit form. The action is visible under the `...`
 
 ![Unitary execution](../img/unitary-execution.png)
