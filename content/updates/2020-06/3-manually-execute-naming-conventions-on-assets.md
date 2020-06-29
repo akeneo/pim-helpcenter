@@ -1,5 +1,5 @@
 # Manually execute naming conventions on assets
-::: meta-data type="New" features="Asset Manager" available="late-June" link-to-doc="../articles/assets-product-link-rules.html#focus-on-the-naming-convention.html"
+::: meta-data type="New" features="Asset Manager" available="late June" link-to-doc="../articles/assets-product-link-rules.html#focus-on-the-naming-convention.html"
 :::
 
 In the Asset Manager, it is possible to define a naming convention in order to automatically populate asset attributes with values contained in the asset filename or asset code. This naming convention is executed at the asset creation.
