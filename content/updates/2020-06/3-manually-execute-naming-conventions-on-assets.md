@@ -11,7 +11,7 @@ You have 2 ways to manually execute the naming convention:
 
 ![Unitary execution](../img/unitary-execution.png)
 
-- or in the `product link rules` tab of your asset family (it's a mass action that executes the naming convention on all the assets of this asset family).
+- for an asset family, under the `product link rules` tab of your asset family - the naming convention will be applied to all assets belonging to this family.
 
 ![Mass execution](../img/mass-execution.png)
 
