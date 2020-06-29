@@ -27,7 +27,9 @@ jobs:
             - run:
                   name: Deploy on production server
                   command: HOSTNAME=$PROD_HOSTNAME PORT=$PROD_PORT ONLY_PREVIOUS_MONTH_UPDATES=true make deploy
-
+            - run:
+                  name: Push announcements for the communication pannel of the PIM
+                  command: make push-announcements
 workflows:
     version: 2
     pull_request:
@@ -49,8 +51,9 @@ workflows:
                       branches:
                           only: master
 
-    # deploy every night in production to deploy new feature updates of the previous month automatically (5th day of the month)
-    # for the staging server, it deploys all updates for all PRs merged in master so it's not needed
+    # feature announcements of the previous months should be deployed automatically the 5th day of the month in the helpcenter
+    # before this date, the announcements are not generated and so not pushed in production
+    # in staging, all announcements are published as soon as a PR is merged, so there is no need to redeploy it every night
     nightly:
         triggers:
             - schedule:
