@@ -15,7 +15,7 @@ From now on, rules are executed by a **job**. The advantage is that you can **be
 
 If the rules are launched via the UI, the user who launched the rule(s) can directly access the job execution summary.
 
-If the rules are automatically launched (by a cron), the user must be granted the `view all jobs in process tracker` permission (ACL - role permissions).
+If the rules are automatically launched, you'll need to be granted the `View all jobs in process tracker` [permission](../articles/manage-the-interface-and-actions-accesses.html).
 
 ## Improvement of error messages during YML file import
 
