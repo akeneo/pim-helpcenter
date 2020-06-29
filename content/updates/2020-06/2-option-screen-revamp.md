@@ -2,7 +2,7 @@
 ::: meta-data type="Improvement" features="Attribute Options, Data Governance" available="late June" link-to-doc="../articles/manage-simple-and-multi-selects-attribute-options.html"
 :::
 
-Because single and multi-select are among the most used attributes, we improved the `Option screen` user experience to ease creating or editing attribute options.
+We improved the `Option screen` user experience to ease creating or editing attribute options, as the single and multi-select attributes are among the attributes you use the most.
 
 Apart from a great design and improved visibility on content, nothing has changed: you can still create and edit options for all your activated locales.
 
