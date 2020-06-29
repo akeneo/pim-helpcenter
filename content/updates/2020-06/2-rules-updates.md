@@ -14,7 +14,6 @@ From those pages, you can access a detailed execution page with a click, like fo
 
 From now on, rules are executed by a **job**. The advantage is that you can **benefit from the job tracker** where you will be able to **see the errors/warnings** that occurred during the execution.
 
-If the rules are launched via the UI, the user who launched the rule(s) can directly access the job execution summary.
 
 If the rules are automatically launched, you'll need to be granted the `View all jobs in process tracker` [permission](../articles/manage-the-interface-and-actions-accesses.html).
 
