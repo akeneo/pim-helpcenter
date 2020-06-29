@@ -2,7 +2,7 @@
 
 At Akeneo, we aim at delivering the best user experience. A good experience with our PIM goes with a good understanding of what is going on, especially when there are errors that you have to correct.
 
-The following improvements will radically help you to understand errors in the rules engine, either during a YML file import or during the rules execution.
+The following improvements will help you better monitor rule executions, and help you correct errors in the rules engine that can occur when importing a YML file or when executing rules.
 
 ## Monitor rules execution under the process tracker
 
