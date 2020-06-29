@@ -17,7 +17,7 @@ If the rules are launched via the UI, the user who launched the rule(s) can dire
 
 If the rules are automatically launched, you'll need to be granted the `View all jobs in process tracker` [permission](../articles/manage-the-interface-and-actions-accesses.html).
 
-## Improvement of error messages during YML file import
+## Improved error messages after a rule import
 
 ::: meta-data type="Improvement" features="Rules engine, Productivity" available="early June"
 :::
