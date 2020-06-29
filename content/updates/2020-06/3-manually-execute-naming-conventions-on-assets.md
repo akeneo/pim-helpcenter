@@ -16,7 +16,7 @@ You have 2 ways to manually execute the naming convention:
 ![Mass execution](../img/mass-execution.png)
 
 ::: more
-[About the product link rules](../articles/assets-product-link-rules.html)  
+[What is a product link rule?](../articles/assets-product-link-rules.html)  
 [How to create and display assets?](../articles/create-and-display-assets.html)  
 [How to manage your asset families?](../articles/manage-asset-families.html)
 :::
