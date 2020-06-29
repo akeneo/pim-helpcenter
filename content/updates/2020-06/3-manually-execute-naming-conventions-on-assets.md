@@ -2,7 +2,9 @@
 ::: meta-data type="New" features="Asset Manager" available="late June" link-to-doc="../articles/assets-product-link-rules.html#focus-on-the-naming-convention.html"
 :::
 
-In the Asset Manager, it is possible to define a naming convention in order to automatically populate asset attributes with values contained in the asset filename or asset code. This naming convention is executed at the asset creation.
+You can now manually execute naming conventions from the user interface whenever you need it. This new feature can be very useful if your naming convention has changed after asset uploads or creations.
+
+Asset naming conventions populate asset attributes with values contained in the asset filename or asset code, prior to this improvement, naming conventions were executed once at the asset creation. 
 
 
 You have two ways to manually execute a naming convention:
