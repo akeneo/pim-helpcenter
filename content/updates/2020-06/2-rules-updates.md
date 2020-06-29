@@ -1,16 +1,13 @@
 # Rules engine updates
 
-At Akeneo, we aim at delivering the best user experience. A good experience with our PIM goes with a good understanding of what is going on, especially when there are errors that you have to correct.
-
-The following improvements will help you better monitor rule executions, and help you correct errors in the rules engine that can occur when importing a YML file or when executing rules.
+At Akeneo, we aim at delivering the best user experience. A good experience with our PIM goes with a good understanding of what is going on, especially when there are errors that you have to correct. The following improvements will enable you to better monitor rule executions, and easily correct errors in the rules engine that can occur when importing a YML file or when executing rules.
 
 ## Monitor rules execution under the process tracker
 
 ::: meta-data type="Improvement" features="Rules engine, Productivity" available="mid-June" link-to-doc="../articles/manage-your-rules.html#execute-rules.html"
 :::
 
-From now on, every time you run a rule, a rule execution operation line will appear in your dashboard under the last operations and also in the process tracker.
-From those pages, you can access a detailed execution page with a click, like for any other PIM job or operation. This execution page will inform you if the rule went fine or if it raised any errors or warnings.
+From now on, every time you run a rule, a rule execution operation line will appear in your dashboard under the last operations and also in the process tracker. Like for any other PIM job or operation, you can access the detailed execution page with a click. This execution page will inform you if the rule went fine or if it raised any errors or warnings, and give you guidance on how to fix them.
 
 ## Improved error messages after a rule import
 
