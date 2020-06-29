@@ -4,7 +4,7 @@
 
 You can now manually execute naming conventions from the user interface whenever you need it. This new feature can be very useful if your naming convention has changed after asset uploads or creations.
 
-Asset naming conventions populate asset attributes with values contained in the asset filename or asset code, prior to this improvement, naming conventions were executed once at the asset creation step. 
+Asset naming conventions populate asset attributes with values contained in the asset filename or asset code. Prior to this improvement, naming conventions were executed once at the asset creation step. 
 
 
 There are two ways to manually execute a naming convention:
