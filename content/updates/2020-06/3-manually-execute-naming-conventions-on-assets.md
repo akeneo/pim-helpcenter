@@ -18,5 +18,5 @@ You have 2 ways to manually execute the naming convention:
 ::: more
 [About the product link rules](../articles/assets-product-link-rules.html)  
 [Create and display assets](../articles/create-and-display-assets.html)  
-[Manage your asset families](../articles/manage-asset-families.html)
+[How to manage your asset families?](../articles/manage-asset-families.html)
 :::
