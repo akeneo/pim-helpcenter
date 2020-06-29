@@ -22,7 +22,7 @@ If the rules are automatically launched, you'll need to be granted the `View all
 ::: meta-data type="Improvement" features="Rules engine, Productivity" available="early June"
 :::
 
-We know that understanding errors when importing YML files containing the rules can be sometimes a bit "complicated" for you. Why? Because errors/warnings are not very clear and precise.
+We know that understanding errors when importing YML files containing the rules can be sometimes a bit "complicated" for you. Why? Because errors/warnings are not very clear and precise.  
 In order to improve your understanding and help you fix errors, some error messages have been improved in the process tracker after a rules import.
 From now on, you know in which rule is the error, and what is the error.
 
