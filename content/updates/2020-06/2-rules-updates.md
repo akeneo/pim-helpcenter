@@ -4,7 +4,7 @@ At Akeneo, we aim at delivering the best user experience. A good experience with
 
 The following improvements will radically help you to understand errors in the rules engine, either during a YML file import or during the rules execution.
 
-## Rules execution commands become jobs
+## Monitor rules execution under the process tracker
 
 ::: meta-data type="Improvement" features="Rules engine, Productivity" available="mid-June" link-to-doc="../articles/manage-your-rules.html#execute-rules.html"
 :::
