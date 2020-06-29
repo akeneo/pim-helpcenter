@@ -27,7 +27,7 @@ In order to improve your understanding and help you fix errors, some error messa
 From now on, you know in which rule is the error, and what is the error.
 
 ::: more
-[What is a rule?](../articles//what-is-a-rule.html)  
+[What is a rule?](../articles/what-is-a-rule.html)  
 [What is the rules engine?](../articles/get-started-with-the-rules-engine.html)   
 [How to manage my rules?](../articles/manage-your-rules.html)
 :::
