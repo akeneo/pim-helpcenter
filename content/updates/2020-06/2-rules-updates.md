@@ -23,7 +23,7 @@ If the rules are automatically launched, you'll need to be granted the `View all
 :::
 
 We know that understanding errors when importing YML files containing the rules can be sometimes a bit "complicated" for you. Why? Because errors/warnings are not very clear and precise.  
-In order to improve your understanding and help you fix errors, some error messages have been improved in the process tracker after a rules import.
+Being able to quickly understand what happened after an import to fix errors easily is essential, so we improved some of our error messages to make sure that they helped you figure out how to fix errors.
 From now on, you know in which rule is the error, and what is the error.
 
 ::: more
