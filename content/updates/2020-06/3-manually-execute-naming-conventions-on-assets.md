@@ -1,5 +1,5 @@
 # New: execute asset naming conventions manually
-::: meta-data type="New" features="Asset Manager" available="late June" link-to-doc="../articles/assets-product-link-rules.html#focus-on-the-naming-convention.html"
+::: meta-data type="New" features="Asset Manager" available="late June" link-to-doc="../articles/assets-product-link-rules.html#focus-on-the-naming-convention"
 :::
 
 You can now manually execute naming conventions from the user interface whenever you need it. This new feature can be very useful if your naming convention has changed after asset uploads or creations.
@@ -17,6 +17,7 @@ There are two ways to manually execute a naming convention:
 ![Mass execution](../img/mass-execution.png)
 
 ::: more
+[What is an asset naming convention?](../articles/assets-product-link-rules.html#focus-on-the-naming-convention)  
 [What is a product link rule?](../articles/assets-product-link-rules.html)  
 [How to create and display assets?](../articles/create-and-display-assets.html)  
 [How to manage your asset families?](../articles/manage-asset-families.html)
