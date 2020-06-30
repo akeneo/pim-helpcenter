@@ -1,4 +1,6 @@
+OO
 # Akeneo Help center
+
 This repository holds the sources for our help center, made by hand with love.
 
 **Install/preview the help center**
