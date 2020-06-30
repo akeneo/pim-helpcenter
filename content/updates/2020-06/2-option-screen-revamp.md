@@ -6,9 +6,7 @@ The attribute options screen for single and multiple-select attributes has been 
 
 Navigate more easily between your option codes and their translations, and manage your attribute options more efficiently! 
 
-
 ![New option screen](../img/new-option-screen.png)
-
 
 ::: more
 [What are attributes?](../articles/what-is-an-attribute.html)  
