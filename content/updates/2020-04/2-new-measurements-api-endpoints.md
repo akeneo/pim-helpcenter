@@ -1,3 +1,11 @@
+---
+pim_announcement_img: ./img/measurements-api_in_app.png
+pim_announcement_alt_img: "Measurement endpoints"
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # New endpoints to manage measurements
 ::: meta-data type="New" features="Measurements, Data Governance" available="mid-April" link-to-doc="https://api.akeneo.com/api-reference-index.html#Measurementfamily"
 :::

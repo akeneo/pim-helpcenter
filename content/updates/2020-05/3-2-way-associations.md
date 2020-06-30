@@ -1,3 +1,11 @@
+---
+pim_announcement_img: ./img/Associations_2-way-association-type_in_app.png
+pim_announcement_alt_img: "Create a new two-way association type"
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # New association type: the two-way association
 
 ::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-May" link-to-doc="../articles/manage-your-association-types.html#create-a-2-way-association-type"

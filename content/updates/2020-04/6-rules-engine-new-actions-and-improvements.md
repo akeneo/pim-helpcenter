@@ -1,3 +1,8 @@
+---
+pim_announcement_audience:
+- EE
+---
+
 # Rules engine new actions and improvements
 Discover the latest enhancements on the rules engine: we added two new actions and the possibility to name your rules. We also improved the rules format for associations.
 
