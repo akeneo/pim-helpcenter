@@ -1,3 +1,10 @@
+---
+pim_announcement_img: ./img/mass-execution.png
+pim_announcement_alt_img: "The execute naming convention button"
+pim_announcement_audience:
+- EE
+---
+
 # New: execute asset naming conventions manually
 ::: meta-data type="New" features="Asset Manager" available="late June" link-to-doc="../articles/assets-product-link-rules.html#focus-on-the-naming-convention"
 :::

@@ -1,3 +1,8 @@
+---
+pim_announcement_audience:
+- EE
+---
+
 # Rules engine updates
 
 At Akeneo, we aim at delivering the best user experience. A good experience with our PIM goes with a good understanding of what is going on, especially when there are errors that you have to correct. The following improvements will enable you to better monitor rule executions, and easily correct errors that can occur in the rules engine when importing a YML file or when executing rules.

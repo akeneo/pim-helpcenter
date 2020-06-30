@@ -1,3 +1,10 @@
+---
+pim_announcement_img: ./img/zoom-on-duplicate-action.png
+pim_announcement_alt_img: "New duplicate action"
+pim_announcement_audience:
+- EE
+---
+
 # New: duplicate a product
 ::: meta-data type="New" features="Enrichment, Product creation" available="early June" link-to-doc="../articles/duplicate-a-product.html"
 :::
