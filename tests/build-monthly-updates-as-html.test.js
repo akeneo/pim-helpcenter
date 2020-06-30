@@ -97,10 +97,14 @@ test('it generate all updates by default to deploy everything in staging or in l
     });
 });
 
-test('Generate the static html about the index of the PIM', done => {
+test('When we are from 05 to 30 March 2020, generate the index of the updates until February 2020', done => {
     del(['tmp/*']);
-
-    const stream = generateIndex('./tests/updates/nominal_case/', './tmp');
+    jest
+        .spyOn(global.Date, 'now')
+        .mockImplementation(() =>
+            new Date('2020-03-05T00:00:00.000Z').valueOf()
+        );
+    const stream = generateIndex('./tests/updates/nominal_case/', './tmp', false);
 
     stream.on('end', () => {
         const data = fs.readFileSync('./tmp/index.html');
