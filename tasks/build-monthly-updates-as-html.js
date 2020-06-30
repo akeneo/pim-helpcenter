@@ -70,13 +70,16 @@ gulp.task('build-monthly-updates-as-html', ['clean-dist','less'], function() {
 
     return merge(
         generateUpdates(fileDirectorySource, fileDirectoryDestination, generateAllUpdates),
-        generateIndex(fileDirectorySource, fileDirectoryDestination)
+        generateIndex(fileDirectorySource, fileDirectoryDestination, generateAllUpdates)
     );
 });
 
-function generateIndex(fileDirectorySource, fileDirectoryDestination) {
+function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAllUpdates) {
     const data = fs.readFileSync(fileDirectorySource + '/index.json');
-    const monthlyUpdates = JSON.parse(data);
+
+    const monthlyUpdates = _.pickBy(JSON.parse(data), (data, folder) => {
+        return keepUpdatesFromPreviousMonths(folder, generateAllUpdates);
+    });
 
     return gulp.src('src/monthly-updates-index.handlebars')
         .pipe(gulpHandlebars({
@@ -97,15 +100,7 @@ function generateUpdates(fileDirectorySource, fileDirectoryDestination, generate
     const monthlyUpdates = JSON.parse(rawData);
 
     const folders = getFolders(fileDirectorySource).filter((folder) => {
-        const currentDate = new Date(Date.now());
-        const dayOfMonth = currentDate.getDate();
-        const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setMonth(currentDate.getMonth() - 1));
-
-        const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(previousMonthDate);
-        const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);
-        const maxDate = year + '-' + month;
-
-        return folder <= maxDate || generateAllUpdates;
+        return keepUpdatesFromPreviousMonths(folder, generateAllUpdates);
     });
 
     const tasks = folders.map(function (folder) {
@@ -143,4 +138,22 @@ function getFolders(dir) {
 
 function getTocMarkdown() {
     return "\n\n:::: toc\n@[toc]\n\n::::\n\n";
+}
+
+/**
+ *
+ * @param array update array of string ["2020-06", "2020-07"]
+ * @param generateAllUpdates boolean to generate all updates (staging) or not
+ * @returns {boolean|*}
+ */
+function keepUpdatesFromPreviousMonths(update, generateAllUpdates) {
+    const currentDate = new Date(Date.now());
+    const dayOfMonth = currentDate.getDate();
+    const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setMonth(currentDate.getMonth() - 1));
+
+    const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(previousMonthDate);
+    const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);
+    const maxDate = year + '-' + month;
+
+    return update <= maxDate || generateAllUpdates;
 }
