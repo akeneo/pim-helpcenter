@@ -9,8 +9,8 @@ Navigate more easily between your option codes and their translations, and manag
 
 ![New option screen](../img/new-option-screen.png)
 
-We felt we could do more to help you ensure data quality and ease your way to a great PX Score... so we are planning new improvements for next month. Stay tuned! :wink:
 
 ::: more
-[Manage simple and multi selects attribute options](../articles/manage-simple-and-multi-selects-attribute-options.html)  
+[What are attributes?](../articles/what-is-an-attribute.html)  
+[How to manage simple and multi-select attributes?](../articles/manage-your-attributes.html#manage-simple-and-multi-selects-attribute-options)
 :::
