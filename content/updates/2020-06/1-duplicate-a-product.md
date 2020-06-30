@@ -2,7 +2,7 @@
 ::: meta-data type="New" features="Enrichment, Product creation" available="early-June" link-to-doc="../articles/duplicate-a-product.html"
 :::
 
-You want to easily create a new product based on an existing one? You can now duplicate a simple product in your user interface in a single click! What a time-saver! :wink:  
+You want to easily create a new product based on an existing one? Use our brand new duplicate feature to copy a product in your user interface in one single click! 
 
 Find this new action under the `...` button in the top right corner of each of your product edit forms.
 
