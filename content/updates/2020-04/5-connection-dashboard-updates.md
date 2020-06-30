@@ -1,3 +1,9 @@
+---
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # Connection dashboard updates
 
 The Connection dashboard has been improved with a new layout as well as the possibility to choose which connection you want to track.
