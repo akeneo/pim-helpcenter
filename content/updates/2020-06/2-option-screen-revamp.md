@@ -1,3 +1,11 @@
+---
+pim_announcement_img: ./img/new-option-screen.png
+pim_announcement_alt_img: "New option screen"
+pim_announcement_audience:
+- EE
+- CE
+---
+
 # Better manage your attribute options
 ::: meta-data type="Improvement" features="Attribute Options, Productivity, Data Governance" available="late June" link-to-doc="../articles/manage-your-attributes.html#manage-simple-and-multi-selects-attribute-options"
 :::
