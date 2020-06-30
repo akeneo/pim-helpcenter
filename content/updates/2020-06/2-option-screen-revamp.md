@@ -1,4 +1,4 @@
-# New: option screen revamp
+# Better manage your attribute options
 ::: meta-data type="Improvement" features="Attribute Options, Data Governance" available="late June" link-to-doc="../articles/manage-your-attributes.html#manage-simple-and-multi-selects-attribute-options"
 :::
 
