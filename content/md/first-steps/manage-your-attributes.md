@@ -198,7 +198,7 @@ You cannot use the main `Save` button to record your new options.
 ## Edit option labels
 
 1.  Click on the option name in the left column of the screen
-1.  Edit the labels you wish to updated
+1.  Edit the labels you wish to update
 1.  Click on the `Done` button
 
 
