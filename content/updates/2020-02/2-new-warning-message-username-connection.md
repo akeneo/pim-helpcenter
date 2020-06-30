@@ -1,3 +1,11 @@
+---
+pim_announcement_img: ./img/connection_user_warning_message.png
+pim_announcement_alt_img: "Connection user warning"
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # New warning message on connection usernames
 ::: meta-data type="Improvement" features="Connections" available="late February" link-to-doc="../articles/manage-your-connections.html#why-should-you-use-the-connection-username"
 :::

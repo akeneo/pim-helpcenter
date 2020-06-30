@@ -1,3 +1,11 @@
+---
+pim_announcement_img: ./img/new-connection-monitoring-page_in_app.png
+pim_announcement_alt_img: "Connection monitoring page"
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # Easily monitor errors on your connections 
 ::: meta-data type="New" features="Connections, Productivity" available="mid-May" link-to-doc="../articles/connection-dashboard.html#in-the-connection-monitoring-page"
 :::

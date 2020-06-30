@@ -1,3 +1,11 @@
+---
+pim_announcement_img: ./img/associations-number_in_app.png
+pim_announcement_alt_img: "Display of the number of associations"
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # Product associations update
 Starting now, enjoy some small improvements to make your life easier when you work with product associations.
 

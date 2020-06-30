@@ -1,3 +1,4 @@
+const fs = require('fs');
 const gulp = require('gulp');
 const tap = require('gulp-tap');
 const markdownIt = require('markdown-it');
@@ -6,6 +7,8 @@ const frontMatter = require('gulp-front-matter');
 const through = require('through2').obj;
 const jsonCombine = require('gulp-jsoncombine');
 const path = require('path');
+
+const HELP_CENTER_PRODUCTION_URL = 'https://help.akeneo.com/';
 
 module.exports = updatesAsJson;
 
@@ -17,7 +20,7 @@ md.renderer.rules.heading_open = function(...args) {
 md.use(markdownToc);
 
 gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
-    return updatesAsJson('content/updates/20*/*.md', './dist/', 'test.json');
+    return updatesAsJson('content/updates/20*/*.md', './dist/pim', 'updates.json');
 });
 
 /**
@@ -93,11 +96,13 @@ function parseDescriptionFromMarkdown(...args) {
 
 
 function generateJson() {
+    const helpCenterUrl = process.env.HELP_CENTER_URL ? process.env.HELP_CENTER_URL : HELP_CENTER_PRODUCTION_URL;
+
     return through((file, enc, cb) => {
         // hardcoded to the 5th day of the month
         let directoryName = path.basename(path.dirname(file.path));
-        let startDate = directoryName.replace('-', '/') + '/05';
-        let link = 'https://help.akeneo.com/pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
+        let startDate = directoryName + '-05';
+        let link = helpCenterUrl + 'pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
 
         let defaultValues = {
             'pim_announcement_img': null,
@@ -106,13 +111,16 @@ function generateJson() {
         };
 
         let data = {...defaultValues, ...file.fm };
+        const imgContent = getBase64Content(file, data['pim_announcement_img']);
 
         let content = JSON.stringify({
+            'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
             'startDate': startDate,
             'description': file.description,
-            'img': data['pim_announcement_img'],
+            'img': imgContent,
             'imgAlt': data['pim_announcement_alt_img'],
             'version': data['pim_announcement_audience'],
+            'filename': path.basename(file.path),
             'notificationDuration': 7,
             'tags': ['updates'],
             'title': file.title,
@@ -123,4 +131,21 @@ function generateJson() {
 
         cb(null, file);
     });
+}
+
+function getBase64Content(file, imageRelativePath) {
+    if (!imageRelativePath) {
+        return null;
+    }
+
+    const imageFullPath = path.dirname(file.path) + '/' + imageRelativePath;
+    var extension = path.extname(imageFullPath).replace('.', '');
+    if (extension === 'jpg') {
+        extension = 'jpeg';
+    }
+
+    const content = fs.readFileSync(imageFullPath, { encoding: 'base64' });
+    const base64 = 'data:image/' + extension +';base64, ' +content;
+
+    return base64;
 }

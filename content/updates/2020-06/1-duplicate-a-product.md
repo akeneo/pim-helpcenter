@@ -1,8 +1,15 @@
+---
+pim_announcement_img: ./img/zoom-on-duplicate-action.png
+pim_announcement_alt_img: "New duplicate action"
+pim_announcement_audience:
+- EE
+---
+
 # New: duplicate a product
-::: meta-data type="New" features="Enrichment, Product creation" available="early-June" link-to-doc="../articles/duplicate-a-product.html"
+::: meta-data type="New" features="Enrichment, Product creation" available="early June" link-to-doc="../articles/duplicate-a-product.html"
 :::
 
-You want to easily create a new product based on an existing one? Use our brand new duplicate feature to copy a product in your user interface in one single click! 
+You want to easily create a new product based on an existing one? Use our brand new duplicate feature to copy a product in your user interface in one single click!
 
 Find this new action under the `...` button in the top right corner of each of your product edit forms.
 

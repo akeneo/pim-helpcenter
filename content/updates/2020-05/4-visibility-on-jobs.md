@@ -1,3 +1,9 @@
+---
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # More visibility on PIM jobs
 ::: meta-data type="Improvement" features="Productivity, Permissions, Process tracker" available="mid-May" link-to-doc="../articles/monitor-jobs.html#how-to-monitor"
 :::

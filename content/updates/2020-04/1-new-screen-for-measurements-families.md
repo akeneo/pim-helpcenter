@@ -1,3 +1,11 @@
+---
+pim_announcement_img: ./img/Settings_Measurement_Families-updates_in_app.png
+pim_announcement_alt_img: "Measurement families list screen"
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # A new screen to add your own measurement units
 ::: meta-data type="New" features="Measurements, Data Governance" available="mid-April" link-to-doc="../articles/manage-your-measurements.html"
 :::

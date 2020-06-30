@@ -1,3 +1,8 @@
+---
+pim_announcement_audience:
+- EE
+---
+
 # Rules engine improvements
 
 Small UI enhancements and a new parameter for your calculation action, those are the last improvements of the rules engine!

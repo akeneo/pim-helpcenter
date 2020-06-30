@@ -1,3 +1,8 @@
+---
+pim_announcement_audience:
+- EE
+---
+
 # Data Quality Insights made even more powerful
 Data Quality Insights recommendations and grades are now also available for product models to help you ensure that all your products have enriched and consistent content. Also, our spell-check feature now supports additional languages.
 

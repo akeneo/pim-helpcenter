@@ -14,13 +14,12 @@ watch: yarn-install
 	$(DOCKER_RUN) --expose=8000 -p=8000:8000 $(DOCKER_IMAGE_TAG) yarn gulp serve
 
 build: yarn-install
-	$(DOCKER_RUN) $(DOCKER_IMAGE_TAG) yarn gulp create-dist
+	 # default value of HELP_CENTER_URL is 'https://help.akeneo.com/'
+	 # it allows to generate the correct links of the updates for the communication panel into the PIM
+	 $(DOCKER_RUN) -e HELP_CENTER_URL=$(HELP_CENTER_URL) -e ONLY_PREVIOUS_MONTH_UPDATES=$(ONLY_PREVIOUS_MONTH_UPDATES) $(DOCKER_IMAGE_TAG) yarn gulp create-dist
 
 test: yarn-install
 	$(DOCKER_RUN) $(DOCKER_IMAGE_TAG) yarn test
-
-json: yarn-install
-	$(DOCKER_RUN) $(DOCKER_IMAGE_TAG) yarn gulp build-monthly-updates-to-json
 
 deploy: build
 	$(DOCKER_RUN) -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/pim/serenity/ akeneo@$${HOSTNAME}:/home/akeneo/pim/serenity

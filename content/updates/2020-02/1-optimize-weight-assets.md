@@ -1,3 +1,10 @@
+---
+pim_announcement_img: ./img/Optimize_jpeg_transformation_in_app.png
+pim_announcement_alt_img: "Optimize jpeg transformation"
+pim_announcement_audience:
+- EE
+---
+
 # Optimize the weight of your assets
 ::: meta-data type="Improvement" features="Asset Manager" available="late February" link-to-doc="../articles/assets-transformation.html#optimize-jpeg"
 :::

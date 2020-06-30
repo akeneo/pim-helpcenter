@@ -14,10 +14,24 @@ test('Generate the json about the updates of the PIM', done => {
         const expectedData = JSON.parse(expectedRawData);
 
         try {
-            expect(data).toStrictEqual(expectedData);
+            expect(data.sort(sortJson)).toStrictEqual(expectedData.sort(sortJson));
             done();
         } catch (error) {
             done(error);
         }
     });
 });
+
+function sortJson(update1, update2) {
+    if (update1.startDate < update2.startDate) {
+        return -1;
+    } else if (update1.startDate > update2.startDate) {
+        return 1;
+    } else if (update1.startDate === update2.startDate && update1.filename < update2.filename) {
+        return -1;
+    } else if (update1.startDate === update2.startDate && update1.filename === update2.filename) {
+        return 0;
+    } else if (update1.startDate === update2.startDate && update1.filename > update2.filename) {
+        return 1;
+    }
+}

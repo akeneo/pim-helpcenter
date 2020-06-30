@@ -1,11 +1,17 @@
 {{!-- Homepage --}}
 {{#> layout  title="Akeneo Help center"}}
 {{> serenity-updates-button}}
+
+{{!--
+    Generate statically hidden links for algolia indexation, as the dropdown is loaded in JS,
+    which prevents to correctly scan the website by Algolia
+ --}}
 <div class="hidden">
-    <a href="/pim/v4/">v4 EE/CE</a>
-    <a href="/pim/v3/">v3 EE/CE</a>
-    <a href="/pim/v2/">v2 EE/CE</a>
+{{#each versions}}
+    <a href="{{url}}">{{label}}</a>
+{{/each}}
 </div>
+
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <div class="navbar-header">
