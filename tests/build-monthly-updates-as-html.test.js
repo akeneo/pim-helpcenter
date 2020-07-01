@@ -24,12 +24,12 @@ test('Generate the static html about the updates of the PIM', done => {
  * The March month is not finished, so the updates are still written by the PM and not ready to be published *in production*.
  * Before the 05, it does not generate the update for february, as it's waiting for validation.
  */
-test('When we are from 05 to 30 March 2020, generate the updates until February 2020', done => {
+test('When we are from 02 to 30 March 2020, generate the updates until February 2020', done => {
     del(['tmp/*']);
     jest
         .spyOn(global.Date, 'now')
         .mockImplementation(() =>
-            new Date('2020-03-05T00:00:00.000Z').valueOf()
+            new Date('2020-03-02T00:00:00.000Z').valueOf()
         );
 
     const stream = generateUpdates('./tests/updates/nominal_case/', './tmp', false);
@@ -48,12 +48,12 @@ test('When we are from 05 to 30 March 2020, generate the updates until February 
 /**
  * The March month is finished, but it needs validation from the product marketing before publishing it *in production* automatically the 5th of the month.
  */
-test('When we are from 01 to 04 April 2020, generate the updates until February 2020', done => {
+test('When we are from 01 to 02 April 2020, generate the updates until February 2020', done => {
     del(['tmp/*']);
     jest
         .spyOn(global.Date, 'now')
         .mockImplementation(() =>
-            new Date('2020-04-04T00:00:00.000Z').valueOf()
+            new Date('2020-04-01T00:00:00.000Z').valueOf()
         );
 
     const stream = generateUpdates('./tests/updates/nominal_case/', './tmp', false);
@@ -80,7 +80,7 @@ test('it generate all updates by default to deploy everything in staging or in l
     jest
         .spyOn(global.Date, 'now')
         .mockImplementation(() =>
-            new Date('2020-04-04T00:00:00.000Z').valueOf()
+            new Date('2020-04-01T00:00:00.000Z').valueOf()
         );
 
     const generateAllUpdates = true;
@@ -97,12 +97,12 @@ test('it generate all updates by default to deploy everything in staging or in l
     });
 });
 
-test('When we are from 05 to 30 March 2020, generate the index of the updates until February 2020', done => {
+test('When we are from 02 to 30 March 2020, generate the index of the updates until February 2020', done => {
     del(['tmp/*']);
     jest
         .spyOn(global.Date, 'now')
         .mockImplementation(() =>
-            new Date('2020-03-05T00:00:00.000Z').valueOf()
+            new Date('2020-03-02T00:00:00.000Z').valueOf()
         );
     const stream = generateIndex('./tests/updates/nominal_case/', './tmp', false);
 
