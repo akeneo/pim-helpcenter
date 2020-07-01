@@ -649,7 +649,7 @@ value:
 ```
 
 ::: info
-The `field` expects the group code.
+The `value` field expects the group codes.
 :::
 
 ## Categories

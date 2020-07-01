@@ -1,5 +1,5 @@
 ---
-pim_announcement_img: ../img/Optimize_jpeg_transformation.png
+pim_announcement_img: ./img/Optimize_jpeg_transformation.png
 pim_announcement_alt_img: "this is alt img"
 pim_announcement_audience:
 - EE

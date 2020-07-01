@@ -1,3 +1,11 @@
+---
+pim_announcement_img: ./img/error-monitoring-connection-dashboard_in_app.png
+pim_announcement_alt_img: "Error monitoring on connection dashboard"
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # New metrics on the Connection dashboard
 ::: meta-data type="New" features="Connections, Productivity" available="late-May" link-to-doc="../articles/connection-dashboard.html#in-the-connection-dashboard"
 :::

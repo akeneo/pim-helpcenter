@@ -1,6 +1,7 @@
 /**
  * Compile the homepage with Handlebars
  */
+var fs = require('fs');
 var gulp = require('gulp');
 var hbs = require('handlebars');
 var gulpHandlebars = require('gulp-handlebars-html')(hbs);
@@ -33,6 +34,9 @@ gulp.task('grab-related-articles', function(){
 
 // This task builds the homepage
 gulp.task('landings', ['clean-dist','less', 'grab-related-articles'], function() {
+    const rawVersions = fs.readFileSync('src/versions.json');
+    const versions = JSON.parse(rawVersions);
+
     // When all information about the popular articles are gathered,
     // we inject this data into the Handlebars template of the homepage.
     // Finally, the resulting HTML is saved into "dist".
@@ -41,7 +45,8 @@ gulp.task('landings', ['clean-dist','less', 'grab-related-articles'], function()
                 return gulp.src(file.path)
                         .pipe(gulpHandlebars({
                             popularArticles: popularArticles,
-                            majorVersion: majorVersion
+                            majorVersion: majorVersion,
+                            versions: versions
                         }, {
                             partialsDirectory: ['./src/partials']
                         }))
