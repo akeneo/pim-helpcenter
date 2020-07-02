@@ -80,7 +80,6 @@ Moreover, we display some information about the related product:
 
 Finally, on top of the list, you will find a search bar to filter messages. 🔍
 
-//TODO UPDATE SCREENSHOT
 ![Connection monitoring page](../img/connection-monitoring-page.png) 
 
 ::: info
