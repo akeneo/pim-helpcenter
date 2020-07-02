@@ -2,7 +2,7 @@
 ::: meta-data type="Improvement" features="Connections, Productivity" available="early July" link-to-doc="../articles/connection-dashboard.html#in-the-connection-monitoring-page"
 :::
 
-We improved the connection error messages by adding several information that should help you to fix them.
+We improved the connection error messages by adding information that will help you to fix them.
 
 In the `Monitoring` page, you will now find links to other PIM page or help center pages, and some data about the related product.  
 
