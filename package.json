@@ -3,6 +3,7 @@
   "dependencies": {
     "bootstrap": "3.4.1",
     "docsearch.js": "2.4.1",
+    "firebase-admin": "^8.12.1",
     "jquery": "3.4.0",
     "lato-font": "3.0.0",
     "typeface-comfortaa": "0.0.35"
