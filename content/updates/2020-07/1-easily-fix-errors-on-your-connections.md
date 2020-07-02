@@ -1,5 +1,5 @@
 # Easily fix errors on your connections 
-::: meta-data type="Improvement" features="Connections, Productivity" available="early-July" link-to-doc="../articles/connection-dashboard.html#in-the-connection-monitoring-page"
+::: meta-data type="Improvement" features="Connections, Productivity" available="early July" link-to-doc="../articles/connection-dashboard.html#in-the-connection-monitoring-page"
 :::
 
 We improved the connection error messages by adding several information that should help you to fix them.
