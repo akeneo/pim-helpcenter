@@ -41,7 +41,7 @@ You must have the permission to create an association type from the PIM. Associa
 
 To create a 1-way association type:
 1.  Click on `Create association type`
-1.  Select the code of the association type you want to create
+1.  Fill in the code of the association type you want to create
 1.  Click on Save
 
 ::: success
@@ -53,7 +53,7 @@ Only the labels can be changed.
 
 To create a 2-way association type:
 1.  Click on `Create association type`
-1.  Select the code of the association type you want to create
+1.  Fill in the code of the association type you want to create
 1.  Set the "2-way association" button to "Yes"
 1.  Click on Save
 
@@ -73,7 +73,7 @@ The 2-way association property cannot be updated once the association type is cr
 To create an association type with quantities:
 1.  Click on `Create association type`
 1.  Select the code of the association type you want to create
-1.  Set the "Association with quantity" button to "Yes"
+1.  Set the "Association with quantity" switch to "Yes"
 1.  Click on Save
 
 ::: success
@@ -96,7 +96,7 @@ To edit an association type:
 
 ::: warning
 You cannot change the code once you created the association type.    
-Neither will you be able to update the 2-way association nor the association with quantities.
+Neither will you be able to change it to a 2-way association nor to an association with quantities.
 :::
 
 # Delete an association type

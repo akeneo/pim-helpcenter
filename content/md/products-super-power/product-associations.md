@@ -74,7 +74,7 @@ To add associations, there is a picker to select products or [product models](wh
 A product can also be associated to a [product model](what-about-products-variants.html#what-is-a-product-model).
 :::
 
-## 2nd way: add associations to a product using the association type with quantities
+## 2nd way: add associations to a product using an association type with quantities
 
 1.  Create a product model that will be the base for your product set
 1.  Open the product form
