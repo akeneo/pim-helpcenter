@@ -30,7 +30,6 @@
                 <p>Finally, Akeneo PIM 4.0 also offers a new <b>Connections</b> functionality that simplifies the ability to connect Akeneo PIM to other applications from the user interface.</p>
                 <p>This new release also delivers improvements to <b>Franklin Insights</b>, along with additional <b>performance improvements</b> for CSV/XLSX and API-based import and export.</p>
                 <p>Akeneo PIM 4.0 is a Long-Term Support (LTS) version. It will be supported for <b>18 months</b> until the end of August 2021.</p>
-                <p>Unless otherwise noted, the enhancements in version 4.0 apply to both Community Edition and Enterprise Edition.</p>
                 <p>For questions about upgrades, please contact your Akeneo Customer Success Manager or Akeneo Partner Manager.</p>
             </div>
             <div class="col-xs-12 col-md-7">
@@ -38,7 +37,11 @@
                 <div class="row">
                     {{#each updates as |update id|}}
                         <div class="col-xs-12 col-sm-6">
-                            <div class="persona persona-updates">
+                            {{#if eeOnly}}
+                                <div class="persona persona-updates persona-updates-ee-only">
+                            {{else}}
+                                <div class="persona persona-updates persona-updates-ce-and-ee">
+                            {{/if}}
                                 <a href="{{id}}.html">
                                     <h3 class="text-center">{{title}}</h3>
                                     <div class="row">
