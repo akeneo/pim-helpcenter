@@ -1,12 +1,8 @@
 {
-  "2020-03": {
-    "title": "🌱 March Serenity updates",
-    "description": "This month, enhance your productivity thanks to new rules engine capabilities, better model your catalog with new measurement units and families, and finally keep on improving your product information with data quality extended features.",
-    "img": "illus-march-20.svg"
-  },
-  "2020-02": {
-    "title": "❄️ February Serenity updates",
-    "description": "This month Serenity updates include two new improvements: a new asset management operation to optimize the weight of your transformed files and new warning messages on usernames for the Connections.",
-    "img": "illus-february-20.svg"
+  "asset-manager": {
+    "title": "The Asset Manager",
+    "description": "Digital assets are a critical element in Product Experience Management. By providing additional information about the product, they help brands tell a story to the customer, increasing emotional impact. In Akeneo PIM 4.0, we have enhanced the ability to manage digital assets with a new feature, known as the Asset Manager, designed to support the unique needs of B2C and B2B enterprises alike. The new Asset Manager delivers a significantly better user experience and offers greater flexibility and more connectivity.",
+    "img": "illus-asset-manager.svg",
+    "editions":["EE"]
   }
 }
