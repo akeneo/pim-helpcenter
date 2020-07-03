@@ -78,10 +78,10 @@ Moreover, we display some information about the related product:
 - its family,
 - and when this is relevant, the attribute channel and locale.
 
-Finally, on top of the list, you will find a search bar to filter messages. 🔍
+Finally, above the list, you will find a search bar to filter messages. 🔍
 
 ![Connection monitoring page](../img/connection-monitoring-page.png) 
 
 ::: info
-For now, we only track errors on **products creation, update, or deletion**. 
+For now, we only track errors on **product creation, update, or deletion**. 
 :::
