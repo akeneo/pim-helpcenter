@@ -1,4 +1,4 @@
-const {generateIndex, generateUpdates}  = require('../tasks/build-monthly-updates-as-html.js');
+const {generateIndex, generateUpdates}  = require('../../tasks/build-monthly-updates-as-html.js');
 const del = require('del');
 const fs = require('fs');
 

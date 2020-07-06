@@ -1,20 +1,27 @@
 const gulp = require('gulp');
 const admin = require("firebase-admin");
 const fs = require('fs');
-const collectionName = "announcements";
+
+module.exports = pushAnnouncements;
 
 gulp.task('push-announcements', [], async () => {
+    await pushAnnouncements('./dist/pim/updates.json', 'announcements');
+});
+
+
+async function pushAnnouncements(updateFilePath, collectionName) {
     admin.initializeApp({
         credential: admin.credential.applicationDefault(),
         databaseURL: process.env.FIRESTORE_URL,
     });
 
-    const updateFilePath = './dist/pim/updates.json';
-    await deleteAnnouncements(updateFilePath);
-    await pushAnnouncements(updateFilePath);
-});
+    await deleteAnnouncements(updateFilePath, collectionName);
+    await writeAnnouncements(updateFilePath, collectionName);
 
-async function pushAnnouncements(updateFilepath) {
+    await admin.app().delete();
+}
+
+async function writeAnnouncements(updateFilepath, collectionName) {
     const announcements = admin.firestore().collection(collectionName);
 
     const rawData = fs.readFileSync(updateFilepath);
@@ -35,8 +42,8 @@ async function pushAnnouncements(updateFilepath) {
  * it would be possible during a small amount of time to have inconsistent data when it pushes the announcements.
  * It could impact negatively the experience in the PIM and that's why it does delta delete instead.
  */
-async function deleteAnnouncements(updateFilepath) {
-    const idsInFirestore = await getIdsInFirestore();
+async function deleteAnnouncements(updateFilepath, collectionName) {
+    const idsInFirestore = await getIdsInFirestore(collectionName);
     const idsInFile = getIdsInFile(updateFilepath);
 
     const deletedIds = idsInFirestore.filter(id => !idsInFile.includes(id));
@@ -47,7 +54,7 @@ async function deleteAnnouncements(updateFilepath) {
     }));
 }
 
-async function getIdsInFirestore() {
+async function getIdsInFirestore(collectionName) {
     const announcements = await admin.firestore().collection(collectionName).get();
     const ids = [];
 
