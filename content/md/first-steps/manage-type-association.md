@@ -34,7 +34,7 @@ Read our [Association types](manage-your-association-types.html) section to find
 # Create an association type
 
 :::info
-You must have the permission to create an association type from the PIM. Association type must contain at least one letter.
+You must have permission to create an association type from the PIM. Association types must contain at least one letter.
 :::
 
 ## Create a 1-way association type
@@ -46,7 +46,7 @@ To create a 1-way association type:
 
 ::: success
 The association type has now been created and the edit page is displayed.  
-Only the labels can be changed.
+You can only edit the labels. 
 :::
 
 ## Create a 2-way association type
@@ -61,7 +61,7 @@ To create a 2-way association type:
 
 ::: success
 The association type has now been created and the edit page is displayed.  
-Only the labels can be changed.
+You can only edit the labels. 
 :::
 
 :::warning
@@ -78,7 +78,7 @@ To create an association type with quantities:
 
 ::: success
 The association type has now been created and the edit page is displayed.  
-Only the labels can be changed.
+You can only edit the labels.
 :::
 
 :::warning
@@ -96,7 +96,7 @@ To edit an association type:
 
 ::: warning
 You cannot change the code once you created the association type.    
-Neither will you be able to change it to a 2-way association nor to an association with quantities.
+The association type is unmodifiable. It is not possible to change it to a 2-way association or to an association with quantities.
 :::
 
 # Delete an association type

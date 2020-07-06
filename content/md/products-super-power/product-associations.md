@@ -11,10 +11,10 @@ related: manage-your-association-types
 
 A product may be associated with none or several other products or product groups. This type of link has a direction: 1-way or 2-way. Please read our [Association Types documentation](manage-your-association-types.html#Overview) for more information.
 
-These types of associations enables you to define relationships, for example like an alternative product, a substitution between products, a cross-sell/up-sell option or even a product set composed with different quantities of products.
+These types of associations enable you to define relationships, such as an alternative product, a substitution between products, a cross-sell/up-sell option or even a product set composed of different quantities of products.
 
 :::infos
-Please note that you cannot associate more than 100 products/product models for one product/product model.
+Please note that you cannot associate more than 100 products/product models per one product/product model.
 :::
 
 # View the product’s associations
@@ -52,9 +52,9 @@ By default, if the product has no association for the selected association type,
 
 # Add/remove associations to/from a product
 
-To add associations, there is a picker to select products or [product models](what-about-products-variants.html#what-is-a-product-model) to associate. Depending on the association type selected, there are two different ways to do so:
+To add associations, there is a picker to select the products or [product models](what-about-products-variants.html#what-is-a-product-model) you want to associate. Depending on the association type selected, there are two different ways to do so:
 
-## 1st way: add associations to a product
+## A: add associations to a product
 
 1.  Open the Product Form
 1.  Click on the `Associations` tab
@@ -74,25 +74,25 @@ To add associations, there is a picker to select products or [product models](wh
 A product can also be associated to a [product model](what-about-products-variants.html#what-is-a-product-model).
 :::
 
-## 2nd way: add associations to a product using an association type with quantities
+## B: add associations to a product using an association type with quantities
 
-1.  Create a product model that will be the base for your product set
+1.  Create a product model that will be the base of your product set
 1.  Open the product form
 1.  Click on the `Associations` tab
 1.  Select the association type with quantities
   ![Select an association type](../img/Products_Products_Associations_Select_Association_type.png)
-1.  Click on the `Add associations` button
+1.  Click on `Add associations`
 1.  The picker to select product or product models opens
   ![Associations products picker](../img/Products_Products_Associations_Picker.png)
-1.  Filter on the categories, on the label or identifier or add filters to find the products or product models to associate
-1.  Tick in the grid the products or product models to associate, they are displayed in the basket
+1.  Filter on the categories, on the label or identifier or add filters to find the products or product models you want to associate
+1. In the grid, tick the products or product models to associate. They are displayed in the basket
   ![Tick products to associate](../img/Products_Products_Associations_Basket.png)
-1.  Click on the `Confirm` button
+1.  Click on `Confirm`
 1.  The products or product models you associate to the current product are displayed in the `Associations` tab
   ![View the associated products](../img/Products_Products_Associations_associations_results.png)
 1.  Adjust the quantities for each associated product/product model
   ![Adjust associated products quantities](../img/Products_Products_Associations_Quantities.png)
-1.  Click on the `Save` button
+1.  Click on `Save`
 
 :::info
 Quantities must be positive integers, between 1 and 2,147,483,647.

@@ -213,7 +213,7 @@ You can add associations on the products for this product model but on a product
 
 ## Associate with quantities
 
-If you created an association type with quantities, it is possible to create a product set based on a product model with different quantities between the product model and its product variants. In that case, a message in the helper section will indicate you a synchronisation warning.
+If you created an association type with quantities, it is possible to create a product set based on a product model with different quantities between the product model and its product variants. In that case, a message in the helper section will give you a synchronization warning.
   ![Synchronisation warning between the quantities of a product model and of its product variants](../img/Products_ProductModel_Associations_Quantities-Warning.png)
 
 Please read our [Association types](manage-your-association-types.html#Create-an-association-type-with-quantities) documentation for more information.
