@@ -16,16 +16,16 @@ To create a rule, two choices. Either you create it via the UI, or via a YML imp
 
 # Create a rule in the PIM UI
 
-To create a rule via the UI, go to `Settings/Rules` and click on `Create`. A creation popin appears. Choose a **code** and a **label** to name your rule, then validate. You rule is created! You can now define you product selection and the action(s) you want to apply to your selection. Let's go!
+To create a rule via the UI, go to `Settings/Rules` and click on `Create`. A creation popin appears. Choose a **code** and a **label** to name your rule, then validate. You rule is created! You can now define your product selection and the action.s you want to apply to your selection. Let's go!
 
-Once your rule is created, the rule edit screen appears. In this screen, you can see two tabs: the `rule builder` and `properties`. In the `Properties` tab, you can define the **priority** of your rule, but also its label translations. This fields can be updated afterward. Only the code is immutable.
+Once your rule is created, the rule edit screen appears. In this screen, you can see two tabs: the `rule builder` and `properties`. In the `Properties` tab, you can define the [priority](what-is-a-rule.html/definition-of-a-rule) of your rule, but also its label translations. This fields can be updated afterward. Only the code is immutable.
 
 ## The Rule builder tab
 
 This screen is the more important screen in the rules menu as this is where you can manage your conditions and actions.
 
 :::warning
-This screen is still under development, mind you! All the filters and actions are not yet available in the UI but don't worry, you can still use the [import job](##Create-rules-via-a-YML-import) to create rules based on filters/actions that are not managed yet in the UI. When the filters/actions are not ready yet in the PIM UI, we display a mini-helper to inform you.
+This screen is still under development, mind you! All the filters and actions are not available yet in the UI but don't worry, you can still use the [import job](##create-rules-via-a-YML-import) to create rules based on filters/actions that are not managed yet in the UI. When the filters/actions are not ready yet in the PIM UI, we display a mini-helper to inform you.
 :::
 
 The first thing to do is to filter the products you want to update with this rule. To do so, there are a bunch of filters available under the `Add condition` button.
@@ -45,11 +45,11 @@ The system fields are displayed first in the list, and then all the attributes a
 
 Let's see how a line is sliced.
 
-On the left, you retrieve the system field or attribute chosen. It is written in purple.
-Then, you have to choose an operator. Depending on the filter, the operator list changes. If you don't remember which operator is available for each filter, you can refer to [this](get-started-with-the-rules-engine.html) article.
-Then, you have the value field, where you can put the value you want to filter on. For example, if you filter is a multi-select attribute type, you can choose which options you want to filter on.
+On the left, you retrieve the **system** or **attribute** chosen. It is written in purple.
+Then, you have to choose an **operator**. Depending on the filter, the operator list changes.
+Then, you have the **value** field, where you can put the value you want to filter on. For example, if your filter is a multi-select attribute type, you can choose which options you want to filter on.
 
-If your filter has a value per channel and/or per locale, the `channel` and `locale` fields appear, in order to let you choose on which locale/channel you want to filter.
+If your filter has a value per channel and/or per locale, the `channel` and `locale` fields appear, in order to let you choose which locale/channel you want to filter on.
 
 If you want to remove a condition, just click on the cross at the end of the line.
 
@@ -66,10 +66,10 @@ To do so:
 1. A new section appears under the `Product selection` part.
 
 :::info
-As for the `Product Selection`, all the actions are not yet available in the UI. If you need to apply an action that is not managed for now, you can still import your YML file, and retrieve your rule in the PIM UI.
+As for the `Product Selection`, all the actions are not available yet in the UI. If you need to apply an action that is not managed for now, you can still import your YML file, and retrieve your rule in the PIM UI.
 :::
 
-[Here](get-started-with-the-rules-engine.html) is the list of all the actions you can do with the rules engine.
+[Here](get-started-with-the-rules-engine.html) is the list of all the actions you can do with the rules engine if you use the YML file import.
 
 Depending on the action you choose, the template changes. The table below lists all the actions that you can add via the PIM interface.
 
@@ -102,20 +102,20 @@ You can search on the rule code or label.
 
 In the last column, there is a tag. Thanks to these tags, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) :wink:
 
-# Calculate the number of affected products for rules
+# Calculate the number of impacted products for rules
 
 To help you define the conditions for your rules and validate them, you can calculate the number of matching products that the rule will process.
 
-The first time a rule is executed, it can match many products. The following time, you might have zero `Affected products` or only a few.
+The first time a rule is executed, it can match many products. The following time, you might have zero `Impacted products` or only a few.
 
 1.  To use this action, select one or several rules by ticking them on the left side of the screen
-1.  Click on `Calculate the affected products`
+1.  Click on `Calculate the impacted products`
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the calculation is done.
 
 ![image](../img/Settings_RulesCalculate.png)
 
-The number of affected products will appear on the right side of your screen in the `Affected products` column.
+The number of impacted products will appear on the right side of your screen in the `Impacted products` column.
 
 
 # Execute rules
