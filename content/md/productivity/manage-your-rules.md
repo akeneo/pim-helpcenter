@@ -10,31 +10,31 @@ related: what-is-a-rule
 # Overview
 
 A rule allows you to automatically enrich some of your product information. It relies on automatic actions based on conditions. A rule is composed of one or several conditions, that allow you to filter products/product models, and then one or several actions to update these products/product models.  
-For more details, please refer to [the dedicated article](get-started-with-the-rules-engine.html).
+For more details, please refer to our dedicated article about [the rules engine](get-started-with-the-rules-engine.html).
 
-To create a rule, two choices. Either you create it via the UI, or via a YML import job.
+To create a rule, there are two options. Either you create it via the UI, or via a YML import job.
 
 # Create a rule in the PIM UI
 
 To create a rule via the UI, go to `Settings/Rules` and click on `Create`. A creation popin appears. Choose a **code** and a **label** to name your rule, then validate. You rule is created! You can now define your product selection and the action.s you want to apply to your selection. Let's go!
 
-Once your rule is created, the rule edit screen appears. In this screen, you can see two tabs: the `rule builder` and `properties`. In the `Properties` tab, you can define the [priority](what-is-a-rule.html/definition-of-a-rule) of your rule, but also its label translations. This fields can be updated afterward. Only the code is immutable.
+Once your rule is created, the rule edit screen appears. On this screen, you can see two tabs: the `rule builder` and `properties`. In the `Properties` tab, you can define the [priority](what-is-a-rule.html/definition-of-a-rule) of your rule, but also its label translations. These fields can be updated afterward. The code is the only part that is immutable.
 
 ## The Rule builder tab
 
-This screen is the more important screen in the rules menu as this is where you can manage your conditions and actions.
+This screen is the most important one as this is where you can manage your conditions and actions.
 
 :::warning
-This screen is still under development, mind you! All the filters and actions are not available yet in the UI but don't worry, you can still use the [import job](##create-rules-via-a-YML-import) to create rules based on filters/actions that are not managed yet in the UI. When the filters/actions are not ready yet in the PIM UI, we display a mini-helper to inform you.
+This screen is still under development, mind you! All the filters and actions are not available in the UI yet. Don't worry, you can still use the [import job](##create-rules-via-a-YML-import) to create rules based on filters/actions that you can't find in the UI for now. When the filters/actions are not available, we display a mini-helper to inform you.
 :::
 
 The first thing to do is to filter the products you want to update with this rule. To do so, there are a bunch of filters available under the `Add condition` button.
 
 ### Product selection
-In the `Product selection` part, you can define attributes or system fields you want to use to filter your products/product models. We also name this part, the `Conditions`.
+In the `Product selection` part, you can define the 'Conditions'. They are the attributes or system fields you want to use to filter your products/product models. Altogether, your `Conditions` will create your 'Product selection'.
 
 :::info
-Retrieve the entire list of attributes/system fields in [this](get-started-with-the-rules-engine.html) article.
+If you want to know what is the entire [list of attributes/system fields] (get-started-with-the-rules-engine.html) take a look at our article.
 :::
 
 :::warning
