@@ -79,7 +79,30 @@ Depending on the action you choose, the template changes. The table below lists 
 | Add categories  | Add your products to new categories, **without declassifying** them from their "old" categories.  |
 | Set family  | Replace your products/product models family |
 | Clear attribute value  | Delete values from an attribute on your products/product models selection  |
+| Clear associations  | Delete all the associations of your products/product models selection  |
+| Clear groups  | Delete all the groups of your products selection (product models don't have groups) |
+| Clear categories  | Delete all the categories of your products/product models selection  |
+| Set attribute value  | Replace the attribute value of your products/product models selection  |
 
+## Different use cases
+As explained earlier, some conditions/actions are not available yet in the UI. It means that you would not be able to build all the rules you want via the PIM, and you will need to use the YML file import.
+
+### All the conditions/actions you need are available in the UI
+The conditions/actions that are available right now cover cover 80% of our clients use cases. It means that 80% of our clients' rules can be managed directly in the UI.
+For example, you can **categorize** all the products/product models that are in the **"accessories" family**, with the **enabled** status and
+
+### Some conditions/actions are missing yet in the UI
+If you need to build a rule using filters/actions that are not available yet in the UI, you must use the YML file import to create the rule. Then, when you import this file, your rule appears in the rules grid. You can open it and edit the conditions/actions that are available in the UI.
+Let's see how it is displayed in the UI after a YML import.
+
+#### If your condition is not available yet in the UI
+The action will be displayed in a read only mode.
+
+#### If your action is not available yet in the UI
+The action will be displayed in a read only mode.
+
+#### If your action is available in the UI, but not the attribute used in this action
+For example, it's a `set attribute value` action, and the target attribute is an attribute type that is not supported yet such as an `asset collection`): then you will be able to edit **only the attributes types that are available in the UI**. You won't see the other attribute types. 
 
 # Create rules via a YML import
 To create rules using a YML file, you need to create it like explained in [this](get-started-with-the-rules-engine.html) article and import it in the PIM using the `Rule import in YML` import job.
