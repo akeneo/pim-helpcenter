@@ -1,4 +1,4 @@
-const updatesAsJson = require('../tasks/build-monthly-updates-as-json.js');
+const updatesAsJson = require('../../tasks/build-monthly-updates-as-json.js');
 const del = require('del');
 const fs = require('fs');
 

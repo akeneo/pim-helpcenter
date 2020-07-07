@@ -11,11 +11,12 @@ exports.announcements = functions.region('europe-west1').https.onRequest((reques
                 announcements.push(doc.data());
             });
 
-            response.send(announcements);
+            response.status(200).send(announcements);
             return null;
         })
         .catch(err => {
-            response.status(500).send('An error occured when fetching data.');
+            console.log(err);
+            response.status(500).send('An error occurred when fetching data.');
             console.error('An error occured when fetching data.', err);
         });
 });

@@ -6,7 +6,9 @@ jobs:
         steps:
             - checkout
             - run: make build
-            - run: make test
+            - run: make test-helpcenter
+            - run: make test-push-announcements
+            - run: make test-firebase-functions
 
     deploy_staging:
         machine:
@@ -28,8 +30,12 @@ jobs:
                   name: Deploy on production server
                   command: HOSTNAME=$PROD_HOSTNAME PORT=$PROD_PORT ONLY_PREVIOUS_MONTH_UPDATES=true make deploy
             - run:
-                  name: Push announcements for the communication pannel of the PIM
+                  name: Push announcements of communication pannel of the PIM into firestore
                   command: make push-announcements
+            - run:
+                  name: Push serverless functions into firebase to expose communication panel API
+                  command: make deploy-firebase-functions
+
 workflows:
     version: 2
     pull_request:
