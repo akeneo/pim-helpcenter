@@ -34,11 +34,11 @@ The first thing to do is to filter the products you want to update with this rul
 In the `Product selection` part, you can define the 'Conditions'. They are the attributes or system fields you want to use to filter your products/product models. Altogether, your `Conditions` will create your 'Product selection'.
 
 :::info
-If you want to know what is the entire [list of attributes/system fields] (get-started-with-the-rules-engine.html) take a look at our article.
+If you want to know what is the entire [list of attributes/system fields](get-started-with-the-rules-engine.html) take a look at our article.
 :::
 
 :::warning
-By default, when there is no condition, all your product catalog is selected. It means that, if you don't filter your products/product models (meaning that you don't add any condition) but you add one or several actions, all your catalog will be updated!
+By default, when there is no condition, all your product catalog is selected. So if you add one or several actions, all your catalog will be updated!
 :::
 
 The system fields are displayed first in the list, and then all the attributes are gathered by attribute groups. There is a search bar to help you find the attributes. Each time you choose a filter, its color turns to purple to inform you that it is already used, and a new line is created.
@@ -54,7 +54,7 @@ If your filter has a value per channel and/or per locale, the `channel` and `loc
 If you want to remove a condition, just click on the cross at the end of the line.
 
 As you can see just next to the `Add condition` button, there is a counter that inform you how many products/product models will be updated by this rule. It means that these conditions match with X products/product models.
-This count automatically changes as soon as you add/remove a condition.
+This count automatically changes as soon as you change a condition.
 
 ### Add actions
 
@@ -66,7 +66,7 @@ To do so:
 1. A new section appears under the `Product selection` part.
 
 :::info
-As for the `Product Selection`, all the actions are not available yet in the UI. If you need to apply an action that is not managed for now, you can still import your YML file, and retrieve your rule in the PIM UI.
+As for the `Product Selection`, all the actions are not available in the UI yet. If you need to apply an action that is not managed for now, you can still import your YML file, and retrieve your rule in the PIM UI.
 :::
 
 [Here](get-started-with-the-rules-engine.html) is the list of all the actions you can do with the rules engine if you use the YML file import.
@@ -85,24 +85,36 @@ Depending on the action you choose, the template changes. The table below lists 
 | Set attribute value  | Replace the attribute value of your products/product models selection  |
 
 ## Different use cases
-As explained earlier, some conditions/actions are not available yet in the UI. It means that you would not be able to build all the rules you want via the PIM, and you will need to use the YML file import.
+As explained earlier, some conditions/actions are not available in the UI yet. It means that you are not able to build all the rules you want via the PIM, and you may need to use the YML file import to do so. Let's see what happens depending on different situations.
 
 ### All the conditions/actions you need are available in the UI
-The conditions/actions that are available right now cover cover 80% of our clients use cases. It means that 80% of our clients' rules can be managed directly in the UI.
-For example, you can **categorize** all the products/product models that are in the **"accessories" family**, with the **enabled** status and
+The conditions/actions that are available right now cover 80% of our clients use cases. It means that 80% of our clients' rules can be managed directly in the UI.
+For example, you can **categorize** all the products/product models that are in the **"accessories" family**, and which has an empty `description` attribute.
+To do so, you must add two conditions. One on family, and another one on the description attribute.
+Then, add the `Set category` action, and choose the category tree and the category.
+
+SCREENSHOT
 
 ### Some conditions/actions are missing yet in the UI
-If you need to build a rule using filters/actions that are not available yet in the UI, you must use the YML file import to create the rule. Then, when you import this file, your rule appears in the rules grid. You can open it and edit the conditions/actions that are available in the UI.
+If you need to build a rule using filters/actions that are not available in the UI yet, you must use the YML file import to create the rule. Then, when you import this file, your rule appears in the rules grid. You can open it and edit the conditions/actions that are available in the UI.
 Let's see how it is displayed in the UI after a YML import.
 
-#### If your condition is not available yet in the UI
+#### If your condition is not available in the UI yet
+If your conditions are composed of system fields (for instance: `status`) or attribute types (for instance: `asset collection`) that we don't manage in the UI, these conditions will be displayed in a read only mode.
+
+SCREENSHOT
+
+#### If your action is not available in the UI yet
 The action will be displayed in a read only mode.
 
-#### If your action is not available yet in the UI
-The action will be displayed in a read only mode.
+If your action is composed of system fields (for instance: `status`) or attribute types (for instance: `asset collection`) that we don't manage in the UI, these actions will be displayed in a read only mode.
+
+SCREENSHOT
 
 #### If your action is available in the UI, but not the attribute used in this action
-For example, it's a `set attribute value` action, and the target attribute is an attribute type that is not supported yet such as an `asset collection`): then you will be able to edit **only the attributes types that are available in the UI**. You won't see the other attribute types. 
+For example, it's a `set attribute value` action (already available), and the target attribute is an attribute type that is not supported yet such as an `asset collection`): then you will be able to edit **only the attributes types that are available in the UI**. You won't see the other attribute types.
+
+SCREENSHOT
 
 # Create rules via a YML import
 To create rules using a YML file, you need to create it like explained in [this](get-started-with-the-rules-engine.html) article and import it in the PIM using the `Rule import in YML` import job.
