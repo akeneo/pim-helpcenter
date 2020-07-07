@@ -32,6 +32,7 @@ test-push-announcements: yarn-install
 	$(DOCKER_RUN) -e GOOGLE_APPLICATION_CREDENTIALS="/opt/workdir/service-account-file.json" -e FIRESTORE_URL="https://$(FIREBASE_PROJECT).firebaseio.com" pim-helpcenter:master yarn test tests/firebase/
 
 test-firebase-functions: firebase-install
+	bash -c 'echo -E $$GOOGLE_APPLICATION_CREDENTIALS > ./service-account-file.json' # use bash version of echo to print correctly \n
 	$(DOCKER_RUN) -e GOOGLE_APPLICATION_CREDENTIALS="/opt/workdir/service-account-file.json" -e FIRESTORE_URL="https://$(FIREBASE_PROJECT).firebaseio.com" -w /opt/workdir/src/firebase/functions  $(DOCKER_IMAGE_TAG) npm run test
 
 deploy: build

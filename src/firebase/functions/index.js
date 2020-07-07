@@ -3,7 +3,15 @@ const admin = require('firebase-admin');
 admin.initializeApp();
 
 exports.announcements = functions.region('europe-west1').https.onRequest((request, response) => {
-    admin.firestore().collection('announcements').get()
+    // if (request.query.pim_edition === undefined) {
+    //     response.status(400).send('Missing "pim_edition" query parameter.');
+    // }
+    //
+    if (request.query.limit === undefined) {
+        response.status(400).send('Missing "limit" query parameter.');
+    }
+
+    admin.firestore().collection('announcements').orderBy('startDate', 'desc').limit(request.query.limit).get()
         .then(snapshot => {
             const announcements = [];
 
