@@ -9,7 +9,7 @@ related: what-is-a-rule
 
 # Overview
 
-A rule allows you to automatically enrich some of your product information. It relies on automatic actions based on conditions. A rule is composed by one or several conditions, that allow you to filter products/product models, and then one or several actions to update these products/product models.  
+A rule allows you to automatically enrich some of your product information. It relies on automatic actions based on conditions. A rule is composed of one or several conditions, that allow you to filter products/product models, and then one or several actions to update these products/product models.  
 For more details, please refer to [the dedicated article](get-started-with-the-rules-engine.html).
 
 To create a rule, two choices. Either you create it via the UI, or via a YML import job.
