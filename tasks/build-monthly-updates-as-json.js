@@ -94,7 +94,6 @@ function parseDescriptionFromMarkdown(...args) {
     return self.renderToken(...args);
 };
 
-
 function generateJson() {
     const helpCenterUrl = process.env.HELP_CENTER_URL ? process.env.HELP_CENTER_URL : HELP_CENTER_PRODUCTION_URL;
 
@@ -113,13 +112,16 @@ function generateJson() {
         let data = {...defaultValues, ...file.fm };
         const imgContent = getBase64Content(file, data['pim_announcement_img']);
 
+        const editions = transformToPimEditions(data['pim_announcement_audience']);
+
+
         let content = JSON.stringify({
             'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
             'startDate': startDate,
             'description': file.description,
             'img': imgContent,
             'imgAlt': data['pim_announcement_alt_img'],
-            'version': data['pim_announcement_audience'],
+            'editions': editions,
             'filename': path.basename(file.path),
             'notificationDuration': 7,
             'tags': ['updates'],
@@ -148,4 +150,15 @@ function getBase64Content(file, imageRelativePath) {
     const base64 = 'data:image/' + extension +';base64, ' +content;
 
     return base64;
+}
+
+/**
+ * Transform EE into Serenity to match PIM version.
+ *
+ * @param editions
+ */
+function transformToPimEditions(editions) {
+    return editions.map(edition => {
+        return edition === 'EE' ? 'Serenity' : edition;
+    });
 }
