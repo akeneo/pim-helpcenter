@@ -1,4 +1,4 @@
-# All your connections in one place
+# All your connections in one single place
 
 Any new source or destination connection will be visible in the Connections page. You can easily create or update any connection from this screen.
 

@@ -1,4 +1,4 @@
-# Suggested mapping
+# New suggested mapping feature
 
 Franklin’s product data can be used in Akeneo PIM via the Franklin
 Insights feature. In addition to the “Exact Attribute Matches” feature that automatically maps attributes, we introduce the “Suggested Mapping” feature, which eases and accelerates attribute mapping in 4.0.

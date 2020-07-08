@@ -1,4 +1,4 @@
-# Other notable features
+# Additional Asset Manager features
 
 ## Permissions & completeness
 Assets are governed with permissions, and have dedicated completeness.
