@@ -1,7 +1,6 @@
 # With greater flexibility come greater possibilities
 
-**Assets are now much more flexible**: they can be **managed and structured** in the same ways as products and reference entities. They now **belong to asset families and have attributes**, and just like products, assets belonging
-to an asset family inherit its attributes.
+**Assets are now much more flexible**: they can be **managed and structured** in the same ways as products and reference entities. They now **belong to asset families and have attributes**, and just like products, assets belonging to an asset family inherit its attributes.
 
 ![The new asset form](../img/Asset_form.png)
 
