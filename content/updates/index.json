@@ -1,0 +1,37 @@
+{
+  "asset-manager": {
+    "title": "The Asset Manager",
+    "description": "Digital assets are a critical element in Product Experience Management. By providing additional information about the product, they help brands tell a story to the customer, increasing emotional impact. In Akeneo PIM 4.0, we have enhanced the ability to manage digital assets with a new feature, known as the Asset Manager, designed to support the unique needs of B2C and B2B enterprises alike. The new Asset Manager delivers a significantly better user experience and offers greater flexibility and more connectivity.",
+    "img": "illus-asset-manager.svg",
+    "featureType": "New feature",
+    "eeOnly": true
+  },
+  "data-quality-insights": {
+    "title": "Data Quality Insights",
+    "description": "Data quality is always a big concern. Spelling mistakes, inconsistencies, and formatting issues are easy to overlook, but can have a negative impact on product experience. Identifying products that have poor quality data and manually improving data quality is a huge challenge and reduces productivity, but is essential for success in the omnichannel age. This is where the new Data Quality Insights feature comes in!",
+    "img": "illus-dqi.svg",
+    "featureType": "New feature",
+    "eeOnly": true
+  },
+  "connections": {
+    "title": "The Connections",
+    "description": "The more connected your PIM is, the more powerful it will be! The new Connections feature allows you to declare your connectors linking your Akeneo PIM to other applications.",
+    "img": "illus-connections.svg",
+    "featureType": "New feature",
+    "eeOnly": false
+  },
+  "franklin-insights": {
+    "title": "Franklin Insights",
+    "description": "Franklin Insights is an AI and machine-learning-powered product data intelligence platform. It automates the process of product information curation and enrichment, addressing a key pain point for retailers.",
+    "img": "illus-franklin-insights.svg",
+    "featureType": "Improvement",
+    "eeOnly": true
+  },
+  "performance": {
+    "title": "Performance",
+    "description": "Ensuring great performance for our products is a top priority. Akeneo PIM 4.0 delivers additional incremental performance improvements for API-based and CSV/XLSX imports and exports compared to version 3.2.",
+    "img": "illus-performance.svg",
+    "featureType": "Improvement",
+    "eeOnly": false
+  }
+}

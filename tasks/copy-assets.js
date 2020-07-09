@@ -41,6 +41,12 @@ gulp.task('copy-assets', ['clean-dist'], function(){
     var articleImg = gulp.src('content/md/*/img/*')
         .pipe(rename({dirname: ''}))
         .pipe(gulp.dest('dist/pim/' + majorVersion + '/img/'));
+    var updatesImg = gulp.src('content/updates/img/*')
+        .pipe(rename({dirname: ''}))
+        .pipe(gulp.dest('dist/pim/' + majorVersion + '/img/'));
+    var updateArticlesImg = gulp.src('content/updates/*/img/*')
+        .pipe(rename({dirname: ''}))
+        .pipe(gulp.dest('dist/pim/' + majorVersion + '/img/'));
 
     return merge(lib, css, fonts, img, articleImg, versions);
 });

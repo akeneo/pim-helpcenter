@@ -1,0 +1,30 @@
+{{!-- Shared template for all the monthly update pages --}}
+{{#> layout }}
+{{> navbar-with-search }}
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <img class="hidden-xs img-responsive center-block" src="../img/{{img}}"></img>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-9">
+                    <h1 class="emphasis hidden-xs" style="margin-top: 30px;">{{title}}</h1>
+                    <h1 class="emphasis text-center visible-xs">{{title}}</h1>
+                    <p>
+                        <span class="label label-success">{{featureType}}</span>
+                        {{#if eeOnly}}<span class="label label-primary">Enterprise Edition only{{else}}<span class="label label-primary">Enterprise Edition</span> <span class="label label-info">Community Edition{{/if}}</span>
+                    </p>
+                    <p class="hidden-xs"><em>{{description}}</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container updates">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/v4">PIM help center</a> / <a href="/pim/v4/updates/index.html"> What's new in Akeneo PIM 4.0?</a> / {{title}}</p>
+            </div>
+            {{{mainContent}}}
+        </div>
+    </div>
+{{/layout}}

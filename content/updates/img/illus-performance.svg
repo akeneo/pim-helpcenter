@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="455px" height="473px" viewBox="0 0 455 473" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>performance</title>
+    <defs>
+        <linearGradient x1="0.00491206837%" y1="50.0240943%" x2="99.9950879%" y2="50.0240943%" id="linearGradient-1">
+            <stop stop-color="#FCCE76" offset="0%"></stop>
+            <stop stop-color="#81CCCC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="performance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="akeneo-ico-performance" transform="translate(0.000000, 25.000000)">
+            <line x1="361.6" y1="9.94" x2="361.71" y2="0.43" id="Path" stroke="#B0B0DB" stroke-width="2.68066896" stroke-linecap="round"></line>
+            <line x1="356.9" y1="5.13" x2="366.41" y2="5.24" id="Path" stroke="#B0B0DB" stroke-width="2.68066896" stroke-linecap="round"></line>
+            <line x1="10.09" y1="381.8" x2="10.21" y2="372.29" id="Path" stroke="#B0B0DB" stroke-width="2.68066896" stroke-linecap="round"></line>
+            <line x1="5.39" y1="376.99" x2="14.91" y2="377.1" id="Path" stroke="#B0B0DB" stroke-width="2.68066896" stroke-linecap="round"></line>
+            <path d="M180.6,417.58 C137.39,409.83 77.21,392.84 35.51,317.87 C-2.31,249.9 -24.72,146 46.46,80.66 C117.64,15.32 333.9,-5.29 416.03,80.66 C498.16,166.61 435.76,463.29 180.6,417.58 Z" id="Path" fill="#EFEFF8" fill-rule="nonzero"></path>
+            <line x1="399.65" y1="408.84" x2="399.76" y2="399.33" id="Path" stroke="#B0B0DB" stroke-width="2.68066896" stroke-linecap="round"></line>
+            <line x1="394.95" y1="404.03" x2="404.46" y2="404.14" id="Path" stroke="#B0B0DB" stroke-width="2.68066896" stroke-linecap="round"></line>
+            <circle id="Oval" fill="#DFE1F0" fill-rule="nonzero" cx="231.92" cy="229.92" r="129.74"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="218.08" cy="216.08" r="129.74"></circle>
+            <path d="M149.88,244.16 C138.078245,213.682525 147.9289,179.074277 174.011235,159.379869 C200.09357,139.685461 236.07643,139.685461 262.158765,159.379869 C288.2411,179.074277 298.091755,213.682525 286.29,244.16 L313.75,272.16 C340.095438,225.880726 329.535248,167.378728 288.671991,133.23129 C247.808734,99.0838513 188.361266,99.0838513 147.498009,133.23129 C106.634752,167.378728 96.0745616,225.880726 122.42,272.16 L149.88,244.16 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+            <circle id="Oval" fill="#DFE1F0" fill-rule="nonzero" cx="218.08" cy="216.08" r="35.6"></circle>
+            <path d="M218.08,261.77 C243.31389,261.77 263.77,241.31389 263.77,216.08 C263.77,190.84611 243.31389,170.39 218.08,170.39 C192.84611,170.39 172.39,190.84611 172.39,216.08 C172.39,241.31389 192.84611,261.77 218.08,261.77 Z" id="Oval" stroke="#DFE1F0" stroke-width="1.38323399" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="41.49702072143555"></path>
+            <path d="M215,236 C236,235.31 290.14,227.2 311,224 C311.867343,223.870684 312.526542,223.153125 312.581994,222.27795 C312.637446,221.402775 312.074085,220.607753 311.23,220.37 C290.91,214.62 238.23,199.96 217.4,196.71 C206.66,195.03 197.2,204.31 196.54,215.17 L196.54,215.17 C195.92,225.94 204.17,236.31 215,236 Z M209.3,215.92 C209.479401,212.936123 211.438747,210.354197 214.264248,209.378365 C217.089749,208.402533 220.224859,209.225009 222.207442,211.462209 C224.190025,213.69941 224.629567,216.910669 223.321076,219.598336 C222.012586,222.286004 219.213799,223.920682 216.23,223.74 C214.272085,223.611666 212.44558,222.709968 211.153119,221.233673 C209.860658,219.757379 209.208354,217.827695 209.34,215.87 L209.3,215.92 Z" id="Shape" fill="#5E63B6" fill-rule="nonzero"></path>
+            <circle id="Oval" fill="#B0B0DB" fill-rule="nonzero" cx="216.77" cy="216.57" r="7.4"></circle>
+            <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="216.89" cy="214.55" r="7.4"></circle>
+            <text id="Performance" fill="#B0B0DB" fill-rule="nonzero" font-family="ZiggyPawritingRegular, Ziggy Pawriting" font-size="11.0658703" font-weight="normal">
+                <tspan x="162.1" y="298.93">Performance</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

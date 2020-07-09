@@ -29,4 +29,40 @@
     a:focus{
         outline: none;
     }
+    &.persona-updates{
+        margin: 0 0 @spacing-base*2/3 0;
+        &.persona-updates-ee-only::after{
+            content: "EE only";
+            position: absolute;
+            top: @spacing-base/4;
+            right: 18px;
+            padding: 1px @spacing-base/6;
+            background-color: @brand-primary;
+            color: white;
+            border-radius: @border-radius-base;
+            font-size: @font-size-small;
+        }
+        &.persona-updates-ce-and-ee::before{
+            content: "EE";
+            position: absolute;
+            top: @spacing-base/4;
+            right: 18px;
+            padding: 1px @spacing-base/6;
+            background-color: @brand-primary;
+            color: white;
+            border-radius: @border-radius-base;
+            font-size: @font-size-small;
+        }
+        &.persona-updates-ce-and-ee::after{
+            content: "CE";
+            position: absolute;
+            top: @spacing-base/1.2;
+            right: 18px;
+            padding: 1px @spacing-base/6;
+            background-color: @brand-info;
+            color: white;
+            border-radius: @border-radius-base;
+            font-size: @font-size-small;
+        }
+    }
 }
