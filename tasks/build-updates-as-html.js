@@ -18,7 +18,7 @@ const tap = require('gulp-tap');
 const merge = require('merge-stream');
 const HelpcenterMarkdownIt = require('./common/markdown-it.js');
 
-const majorVersion = 'v4';
+const majorVersion = 'v3';
 
 module.exports = {generateIndex, generateUpdates};
 
