@@ -4,14 +4,14 @@ const firebaseFunctionTest = require('firebase-functions-test');
 let firebaseTest;
 let firebase;
 
-let collectionName = 'announcements-test';
+let collectionNameSuffix = '-test';
 beforeEach(async () => {
     firebase = firebaseFunctionTest({
         databaseURL: process.env.FIRESTORE_URL,
         projectId: process.env.FIRESTORE_OBJECT
     }, '/opt/workdir/service-account-file.json');
     firebaseTest = admin.initializeApp({}, 'test');
-    await removeAllDocuments(firebaseTest, collectionName);
+    await removeAllDocuments(firebaseTest, 'announcements-test');
 
     const collection = firebaseTest.firestore().collection('announcements-test');
     await collection.doc('id_1').set({
@@ -44,7 +44,7 @@ test('It returns true when there are new announcements to notify with end date i
     const req = {
         query: {
             pim_edition: 'Serenity',
-            collection_name: collectionName
+            collection_name_suffix: collectionNameSuffix
         }
     };
     const res = {
@@ -72,7 +72,7 @@ test('It returns true when there are new announcements to notify with start date
     const req = {
         query: {
             pim_edition: 'Serenity',
-            collection_name: collectionName
+            collection_name_suffix: collectionNameSuffix
         }
     };
     const res = {
@@ -100,7 +100,7 @@ test('It returns false when there are not any new announcements to notify.', asy
     const req = {
         query: {
             pim_edition: 'Serenity',
-            collection_name: collectionName
+            collection_name_suffix: collectionNameSuffix
         }
     };
     const res = {

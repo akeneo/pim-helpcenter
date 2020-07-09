@@ -4,14 +4,14 @@ const firebaseFunctionTest = require('firebase-functions-test');
 let firebaseTest;
 let firebase;
 
-let collectionName = 'announcements-test';
+let collectionNameSuffix = '-test';
 beforeEach(async () => {
     firebase = firebaseFunctionTest({
         databaseURL: process.env.FIRESTORE_URL,
         projectId: process.env.FIRESTORE_OBJECT
     }, '/opt/workdir/service-account-file.json');
     firebaseTest = admin.initializeApp({}, 'test');
-    await removeAllDocuments(firebaseTest, collectionName);
+    await removeAllDocuments(firebaseTest, 'announcements-test');
 
     const collection = firebaseTest.firestore().collection('announcements-test');
     // id 2 first to test the order by
@@ -80,7 +80,7 @@ test('It lists the announcement into firestore in the correct order.', async don
         query: {
             limit: 4,
             pim_edition: 'Serenity',
-            collection_name: collectionName
+            collection_name_suffix: collectionNameSuffix
         }
     };
     const res = {
@@ -104,7 +104,7 @@ test('It filters on the edition the announcement into firestore.', async done =>
         query: {
             limit: 4,
             pim_edition: 'CE',
-            collection_name: collectionName
+            collection_name_suffix: collectionNameSuffix
         }
     };
     const res = {
@@ -128,7 +128,7 @@ test('It limits the results.', async done => {
         query: {
             limit: 2,
             pim_edition: 'Serenity',
-            collection_name: collectionName
+            collection_name_suffix: collectionNameSuffix
         }
     };
     const res = {
@@ -152,7 +152,7 @@ test('It returns the correct format of the announcements.', async done => {
         query: {
             limit: 1,
             pim_edition: 'Serenity',
-            collection_name: collectionName
+            collection_name_suffix: collectionNameSuffix
         }
     };
     const res = {
@@ -187,7 +187,7 @@ test("It searches after an id when search_after is provided.", async done => {
         query: {
             limit: 2,
             pim_edition: 'Serenity',
-            collection_name: collectionName,
+            collection_name_suffix: collectionNameSuffix,
             search_after: 'id_1'
         }
     };
@@ -212,7 +212,7 @@ test("It returns nothing when there is nothing after the search_after document."
         query: {
             limit: 2,
             pim_edition: 'Serenity',
-            collection_name: collectionName,
+            collection_name_suffix: collectionNameSuffix,
             search_after: 'id_4'
         }
     };
@@ -237,7 +237,7 @@ test("It returns an error when the search after document does not exist.", async
         query: {
             limit: 2,
             pim_edition: 'Serenity',
-            collection_name: collectionName,
+            collection_name_suffix: collectionNameSuffix,
             search_after: 'id_not_existing'
         }
     };
@@ -260,7 +260,7 @@ test("It returns an error code 400 if it's missing a limit.", async done => {
     const req = {
         query: {
             pim_edition: 'Serenity',
-            collection_name: collectionName
+            collection_name_suffix: collectionNameSuffix
         }
     };
     const res = {
@@ -282,7 +282,7 @@ test("It returns an error code 400 if it's missing PIM edition.", async done => 
     const req = {
         query: {
             limit: 2,
-            collection_name: collectionName
+            collection_name_suffix: collectionNameSuffix
         }
     };
     const res = {

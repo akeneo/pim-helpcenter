@@ -17,7 +17,7 @@ exports.announcements = functions.region('europe-west1').https.onRequest(async (
     }
 
     // Allow to request on another collection for the tests
-    const collectionName = request.query.collection_name === undefined ? defaultCollectionName : request.query.collection_name;
+    const collectionName = request.query.collection_name_suffix === undefined ? defaultCollectionName : defaultCollectionName + request.query.collection_name_suffix;
     const collection = admin.firestore().collection(collectionName);
 
     let query = collection
@@ -60,7 +60,6 @@ exports.announcements = functions.region('europe-west1').https.onRequest(async (
             return;
         })
         .catch(err => {
-            console.log(err);
             response.status(500).send('An error occurred when fetching data.');
             console.error('An error occurred when fetching data.', err);
         });
@@ -74,7 +73,7 @@ exports['has-new-announcements'] = functions.region('europe-west1').https.onRequ
     }
 
     // Allow to request on another collection for the tests
-    const collectionName = request.query.collection_name === undefined ? defaultCollectionName : request.query.collection_name;
+    const collectionName = request.query.collection_name_suffix === undefined ? defaultCollectionName : defaultCollectionName + request.query.collection_name_suffix;
     const collection = admin.firestore().collection(collectionName);
 
     const currentDate = new Date(Date.now());
@@ -101,7 +100,6 @@ exports['has-new-announcements'] = functions.region('europe-west1').https.onRequ
             return response.status(200).send({'status': hasNew})
         })
         .catch(err => {
-            console.log(err);
             response.status(500).send('An error occurred when requesting to know if there are new announcements.');
             console.error('An error occurred when requesting to know if there are new announcements.', err);
         });
