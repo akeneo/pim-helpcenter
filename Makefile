@@ -14,7 +14,7 @@ yarn-install: docker-build
 	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro $(DOCKER_IMAGE_TAG) yarn install
 
 firebase-install: docker-build
-	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro -w /opt/workdir/src/firebase/functions pim-helpcenter:master npm install
+	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro -w /opt/workdir/src/firebase/functions pim-helpcenter:master npm ci
 
 watch: yarn-install
 	$(DOCKER_RUN) --expose=8000 -p=8000:8000 $(DOCKER_IMAGE_TAG) yarn gulp serve

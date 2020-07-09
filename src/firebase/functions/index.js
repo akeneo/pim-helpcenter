@@ -50,7 +50,7 @@ exports.announcements = functions.region('europe-west1').https.onRequest(async (
                         'description': doc.data().description,
                         'img': doc.data().img,
                         'imgAlt': doc.data().imgAlt,
-                        'notificationDuration': doc.data().notificationDuration,
+                        'notificationEndDate': doc.data().notificationEndDate,
                         'tags': doc.data().tags,
                         'link': doc.data().link,
                     });

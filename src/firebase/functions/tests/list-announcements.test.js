@@ -23,7 +23,7 @@ beforeEach(async () => {
         "imgAlt": "this is alt img",
         "editions": ["Serenity", "CE"],
         "filename": "1-optimize-weight-assets.md",
-        "notificationDuration": 7,
+        "notificationEndDate": "2020-01-12",
         "tags": ["updates"],
         "title": "Optimize the weight of your assets",
         "link": "https://example.com"
@@ -37,7 +37,7 @@ beforeEach(async () => {
         "imgAlt": "this is alt img",
         "editions": ["Serenity"],
         "filename": "2-filename.md",
-        "notificationDuration": 7,
+        "notificationEndDate": "2020-02-12",
         "tags": ["updates"],
         "title": "Optimize the weight of your assets",
         "link": "https://example.com"
@@ -50,7 +50,7 @@ beforeEach(async () => {
         "imgAlt": "this is alt img",
         "editions": ["Serenity"],
         "filename": "1-filename.md",
-        "notificationDuration": 7,
+        "notificationEndDate": "2020-02-12",
         "tags": ["updates"],
         "title": "Optimize the weight of your assets",
         "link": "https://example.com"
@@ -63,7 +63,7 @@ beforeEach(async () => {
         "imgAlt": "this is alt img",
         "editions": ["Serenity", 'CE'],
         "filename": "3-filename.md",
-        "notificationDuration": 7,
+        "notificationEndDate": "2020-02-12",
         "tags": ["updates"],
         "title": "Optimize the weight of your assets",
         "link": "https://example.com"
@@ -169,7 +169,7 @@ test('It returns the correct format of the announcements.', async done => {
                     "description": "Description",
                     "img": "base64",
                     "imgAlt": "this is alt img",
-                    "notificationDuration": 7,
+                    "notificationEndDate": "2020-02-12",
                     "tags": ["updates"],
                     "title": "Optimize the weight of your assets",
                     "link": "https://example.com"
