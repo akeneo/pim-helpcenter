@@ -42,6 +42,6 @@
     "require-dir": "0.3.2"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --runInBand --detectOpenHandles"
   }
 }

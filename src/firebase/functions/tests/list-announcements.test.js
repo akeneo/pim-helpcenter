@@ -14,7 +14,7 @@ beforeEach(async () => {
     await removeAllDocuments(firebaseTest, 'announcements-test');
 
     const collection = firebaseTest.firestore().collection('announcements-test');
-    // id 2 first to test the order by
+    // id 4 and 2 first to test the order by
     await collection.doc('id_4').set({
         "id": "id_4",
         "startDate": "2020-01-05",

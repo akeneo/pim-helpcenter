@@ -60,8 +60,8 @@ exports.announcements = functions.region('europe-west1').https.onRequest(async (
             return;
         })
         .catch(err => {
-            response.status(500).send('An error occurred when fetching data.');
             console.error('An error occurred when fetching data.', err);
+            response.status(500).send('An error occurred when fetching data.');
         });
 });
 
@@ -100,7 +100,7 @@ exports['has-new-announcements'] = functions.region('europe-west1').https.onRequ
             return response.status(200).send({'status': hasNew})
         })
         .catch(err => {
-            response.status(500).send('An error occurred when requesting to know if there are new announcements.');
             console.error('An error occurred when requesting to know if there are new announcements.', err);
+            response.status(500).send('An error occurred when requesting to know if there are new announcements.');
         });
 });
