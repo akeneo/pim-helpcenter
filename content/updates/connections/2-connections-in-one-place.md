@@ -2,7 +2,7 @@
 
 Any new source or destination connection will be visible in the Connections page. You can easily create or update any connection from this screen.
 
-![The Connections page](../img/Connections_Page.png)
+![The Connections page](../img/Connections_page.png)
 
 Connections are categorized depending on their flow types (source, destination or other), so you can quickly differentiate between source and destination connections.
 
