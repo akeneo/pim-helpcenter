@@ -65,3 +65,44 @@ exports.announcements = functions.region('europe-west1').https.onRequest(async (
             console.error('An error occurred when fetching data.', err);
         });
 });
+
+exports['has-new-announcements'] = functions.region('europe-west1').https.onRequest(async (request, response) => {
+    if (request.query.pim_edition === undefined) {
+        response.status(400).send('Missing "pim_edition" query parameter.');
+
+        return;
+    }
+
+    // Allow to request on another collection for the tests
+    const collectionName = request.query.collection_name === undefined ? defaultCollectionName : request.query.collection_name;
+    const collection = admin.firestore().collection(collectionName);
+
+    const currentDate = new Date(Date.now());
+    const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(currentDate);
+    const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(currentDate);
+    const day = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(currentDate);
+    const formattedCurrentDate = year + '-' + month + '-' + day;
+
+    collection
+        .where('editions', 'array-contains', request.query.pim_edition)
+        .where('notificationEndDate', '>=', formattedCurrentDate)
+        .limit(1)
+        .get()
+        .then(snapshot => {
+            let hasNew = false;
+
+            // it is not possible to filter with two range operators in firebase, so it simulates it
+            snapshot.forEach(announcement => {
+                if (announcement.data().startDate <= formattedCurrentDate  ) {
+                    hasNew = true;
+                }
+            });
+
+            return response.status(200).send({'status': hasNew})
+        })
+        .catch(err => {
+            console.log(err);
+            response.status(500).send('An error occurred when requesting to know if there are new announcements.');
+            console.error('An error occurred when requesting to know if there are new announcements.', err);
+        });
+});
