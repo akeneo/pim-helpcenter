@@ -99,9 +99,10 @@ function generateJson() {
 
     return through((file, enc, cb) => {
         // hardcoded to the 5th day of the month
-        let directoryName = path.basename(path.dirname(file.path));
-        let startDate = directoryName + '-05';
-        let link = helpCenterUrl + 'pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
+        const directoryName = path.basename(path.dirname(file.path));
+        const link = helpCenterUrl + 'pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
+        const startDate = directoryName + '-05';
+        const endDate = directoryName + '-05';
 
         let defaultValues = {
             'pim_announcement_img': null,
@@ -116,7 +117,7 @@ function generateJson() {
 
 
         let content = JSON.stringify({
-            'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
+            'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + directoryName,
             'startDate': startDate,
             'description': file.description,
             'img': imgContent,

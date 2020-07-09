@@ -77,8 +77,8 @@ gulp.task('build-monthly-updates-as-html', ['clean-dist','less'], function() {
 function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAllUpdates) {
     const data = fs.readFileSync(fileDirectorySource + '/index.json');
 
-    const monthlyUpdates = _.pickBy(JSON.parse(data), (data, folder) => {
-        return keepUpdatesFromPreviousMonths(folder, generateAllUpdates);
+    const monthlyUpdates = _.pickBy(JSON.parse(data), (update, folderName) => {
+        return keepUpdatesFromPreviousMonths(folderName, generateAllUpdates);
     });
 
     return gulp.src('src/monthly-updates-index.handlebars')
@@ -146,7 +146,7 @@ function getTocMarkdown() {
  * @param generateAllUpdates boolean to generate all updates (staging) or not
  * @returns {boolean|*}
  */
-function keepUpdatesFromPreviousMonths(update, generateAllUpdates) {
+function keepUpdatesFromPreviousMonths(folderName, generateAllUpdates) {
     const currentDate = new Date(Date.now());
     const dayOfMonth = currentDate.getDate();
     const previousMonthDate = dayOfMonth < 2 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setMonth(currentDate.getMonth() - 1));
@@ -155,5 +155,5 @@ function keepUpdatesFromPreviousMonths(update, generateAllUpdates) {
     const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);
     const maxDate = year + '-' + month;
 
-    return update <= maxDate || generateAllUpdates;
+    return folderName <= maxDate || generateAllUpdates;
 }
