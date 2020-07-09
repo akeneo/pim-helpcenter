@@ -79,7 +79,7 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
 
     return gulp.src('src/updates-index.handlebars')
         .pipe(gulpHandlebars({
-            title: 'What\'s new in v4',
+            title: 'What\'s new in Akeneo PIM 4.0',
             updates: updates,
             majorVersion: majorVersion
         }, {
