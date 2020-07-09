@@ -6,7 +6,7 @@
   "imgAlt": "this is alt img",
   "editions": ["Serenity"],
   "filename": "1-optimize-weight-assets.md",
-  "notificationDuration": 7,
+  "notificationEndDate": "2020-02-12",
   "tags": ["updates"],
   "title": "Optimize the weight of your assets",
   "link": "https://help.akeneo.com/pim/serenity/updates/2020-02.html#optimize-the-weight-of-your-assets"
@@ -18,7 +18,7 @@
   "imgAlt": null,
   "editions": ["CE", "Serenity"],
   "filename": "2-new-warning-message-username-connection.md",
-  "notificationDuration": 7,
+  "notificationEndDate": "2020-02-12",
   "tags": ["updates"],
   "title": "New warning message on connection usernames",
   "link": "https://help.akeneo.com/pim/serenity/updates/2020-02.html#new-warning-message-on-connection-usernames"
@@ -30,7 +30,7 @@
   "imgAlt": "this is DQI alt img",
   "editions": ["CE", "Serenity"],
   "filename": "1-data-quality-new-improvements.md",
-  "notificationDuration": 7,
+  "notificationEndDate": "2020-03-12",
   "tags": ["updates"],
   "title": "Data quality improvements",
   "link": "https://help.akeneo.com/pim/serenity/updates/2020-03.html#data-quality-improvements"

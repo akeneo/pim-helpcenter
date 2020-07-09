@@ -102,7 +102,7 @@ function generateJson() {
         const directoryName = path.basename(path.dirname(file.path));
         const link = helpCenterUrl + 'pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
         const startDate = directoryName + '-05';
-        const endDate = directoryName + '-05';
+        const notificationEndDate = getNotificationEndDate(startDate);
 
         let defaultValues = {
             'pim_announcement_img': null,
@@ -124,7 +124,7 @@ function generateJson() {
             'imgAlt': data['pim_announcement_alt_img'],
             'editions': editions,
             'filename': path.basename(file.path),
-            'notificationDuration': 7,
+            'notificationEndDate': notificationEndDate,
             'tags': ['updates'],
             'title': file.title,
             'link': link
@@ -162,4 +162,15 @@ function transformToPimEditions(editions) {
     return editions.map(edition => {
         return edition === 'EE' ? 'Serenity' : edition;
     });
+}
+
+function getNotificationEndDate(starDateString) {
+    let startDate = new Date(starDateString);
+    startDate.setDate(startDate.getDate() + 7);
+
+    const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(startDate);
+    const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(startDate);
+    const day = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(startDate);
+
+    return year + '-' + month + '-' + day;
 }
