@@ -14,6 +14,7 @@
     "gulp": "3.9.1",
     "gulp-base64-inline": "1.0.6",
     "gulp-concat": "2.6.1",
+    "gulp-filter": "^6.0.0",
     "gulp-flatmap": "1.0.0",
     "gulp-front-matter": "1.3.0",
     "gulp-handlebars-html": "0.0.2",

@@ -31,7 +31,7 @@ jobs:
                   command: HOSTNAME=$PROD_HOSTNAME PORT=$PROD_PORT ONLY_PREVIOUS_MONTH_UPDATES=true make deploy
             - run:
                   name: Push announcements of communication pannel of the PIM into firestore
-                  command: make push-announcements
+                  command: ONLY_PREVIOUS_MONTH_UPDATES=true make push-announcements
             - run:
                   name: Push serverless functions into firebase to expose communication panel API
                   command: make deploy-firebase-functions
