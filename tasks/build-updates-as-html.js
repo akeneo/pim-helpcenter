@@ -64,7 +64,7 @@ md
 
 gulp.task('build-updates-as-html', ['clean-dist','less'], function() {
     const fileDirectorySource = 'content/updates';
-    const fileDirectoryDestination = './dist/pim/v4/updates';
+    const fileDirectoryDestination = './dist/pim/v3/updates';
     
     return merge(
         generateUpdates(fileDirectorySource, fileDirectoryDestination),
@@ -79,7 +79,7 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
 
     return gulp.src('src/updates-index.handlebars')
         .pipe(gulpHandlebars({
-            title: 'What\'s new in v4',
+            title: 'What\'s new in 3.x',
             updates: updates,
             majorVersion: majorVersion
         }, {
