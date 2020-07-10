@@ -56,7 +56,7 @@ Now that you know how to measure your catalog’s data quality, it’s easier to
 To help you improve your products **enrichment** and **consistency**, simply follow the **recommendations** that can be found in the **data quality insights** panel in your product edit form.
 
 ![Image data quality panel](../img/data-quality-panel.png)
-From this panel, you will know which attributes need to be improved and how to improve them.
+From the `data quality panel`, you will know which attributes need to be improved and how to improve them.
 
 ::: info
 From the `data quality panel`, links on attribute names can take you to a specific attribute. By clicking on the `Display all improvable attributes`, you can easily access a product edit form filtered on all the attributes that need to be checked for consistency.
@@ -69,15 +69,17 @@ To help you even further, in the `Attributes` panel, you can select spelling cor
 ::: info
 Spell check is available for the English, French, German, Spanish, Italian, Dutch, Danish, Swedish, Norwegian and Portuguese (Brazilian) locales.
 Spell check is usable with localizable text and text area attributes.
-:::
+If you use a single locale, then spell-check are usable on text and text area attributes.
 
-::: info
 Title formatting suggestion is available for English locales.
-:::
 
-::: info
 Even if they don't have permission to edit, all PIM users will be able to read data quality insights on all attributes.
 :::
+
+From the `data quality panel`, you can view attribute labels and options with spelling mistakes. By clicking on the link, you are led to the **settings** screen from which you can correct these mistakes hence improving your consistency grade.
+
+![Image data quality spellcheck on attribute](../img/data-quality-attribue-spelling.gif)
+
 
 # Improve data quality on variant products
 

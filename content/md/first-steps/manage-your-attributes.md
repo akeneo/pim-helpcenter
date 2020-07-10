@@ -152,9 +152,11 @@ You can filter on the following attribute information:
 - The attribute code
 - The attribute type
 - The attribute group it belongs to
+- The family it belongs to
 - The `scopable` property (one value per channel)
 - The `localizable` property (one value per locale)
 - The `smart` property (Yes/No) if there is a rule impacting this attribute _(Enterprise Edition only)_
+- The `quality` status (Good/To improve) if there are spelling typos to correct _(Enterprise Edition only)_
 
 ::: info
 By default, attributes will be displayed in the catalog locale selected in the product grid. If an attribute code appears into brackets like *[color]*, it means it has not been translated into the current locale.
