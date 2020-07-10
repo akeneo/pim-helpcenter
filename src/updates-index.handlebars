@@ -1,4 +1,4 @@
-{{!-- The index of the monthly updates --}}
+{{!-- The index of the v3 updates --}}
 {{#> layout }}
 {{> navbar-with-search }}
     <div class="jumbotron">
@@ -27,7 +27,11 @@
                 <div class="row">
                     {{#each updates as |update id|}}
                         <div class="col-xs-12 col-sm-4">
-                            <div class="persona persona-updates">
+                            {{#if eeOnly}}
+                                <div class="persona persona-updates persona-updates-ee-only">
+                            {{else}}
+                                <div class="persona persona-updates persona-updates-ce-and-ee">
+                            {{/if}}
                                 <a href="{{id}}.html">
                                     <h3 class="text-center">{{title}}</h3>
                                     <div class="row">

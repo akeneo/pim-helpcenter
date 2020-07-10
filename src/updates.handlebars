@@ -1,4 +1,4 @@
-{{!-- Shared template for all the monthly update pages --}}
+{{!-- Shared template for all the v3 updates pages --}}
 {{#> layout }}
 {{> navbar-with-search }}
     <div class="jumbotron">
@@ -10,6 +10,10 @@
                 <div class="col-xs-12 col-sm-8 col-md-9">
                     <h1 class="emphasis hidden-xs" style="margin-top: 30px;">{{title}}</h1>
                     <h1 class="emphasis text-center visible-xs">{{title}}</h1>
+                    <p>
+                        <span class="label label-success">{{featureType}}</span>
+                        {{#if eeOnly}}<span class="label label-primary">Enterprise Edition only{{else}}<span class="label label-primary">Enterprise Edition</span> <span class="label label-info">Community Edition{{/if}}</span>
+                    </p>
                     <p class="hidden-xs"><em>{{description}}</em></p>
                 </div>
             </div>

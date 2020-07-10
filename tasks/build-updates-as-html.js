@@ -1,5 +1,5 @@
 /**
- * Transform Markdown monthly updates into HTML monthly updates article
+ * Transform Markdown v3 updates into HTML v3 updates article
  */
 const gulp = require('gulp');
 const insert = require('gulp-insert');
@@ -110,6 +110,8 @@ function generateUpdates(fileDirectorySource, fileDirectoryDestination) {
                         title: updates[folder].title,
                         description: updates[folder].description,
                         img: updates[folder].img,
+                        eeOnly: updates[folder].eeOnly,
+                        featureType: updates[folder].featureType,
                         mainContent: file.contents,
                         filePath: 'updates/' + folder + '.html',
                         majorVersion: majorVersion
