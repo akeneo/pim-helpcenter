@@ -14,7 +14,7 @@ yarn-install: docker-build
 	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro $(DOCKER_IMAGE_TAG) yarn install
 
 firebase-install: docker-build
-	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro -w /opt/workdir/src/firebase/functions pim-helpcenter:master npm install
+	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro -w /opt/workdir/src/firebase/functions pim-helpcenter:master npm ci
 
 watch: yarn-install
 	$(DOCKER_RUN) --expose=8000 -p=8000:8000 $(DOCKER_IMAGE_TAG) yarn gulp serve
@@ -32,6 +32,7 @@ test-push-announcements: yarn-install
 	$(DOCKER_RUN) -e GOOGLE_APPLICATION_CREDENTIALS="/opt/workdir/service-account-file.json" -e FIRESTORE_URL="https://$(FIREBASE_PROJECT).firebaseio.com" pim-helpcenter:master yarn test tests/firebase/
 
 test-firebase-functions: firebase-install
+	bash -c 'echo -E $$GOOGLE_APPLICATION_CREDENTIALS > ./service-account-file.json' # use bash version of echo to print correctly \n
 	$(DOCKER_RUN) -e GOOGLE_APPLICATION_CREDENTIALS="/opt/workdir/service-account-file.json" -e FIRESTORE_URL="https://$(FIREBASE_PROJECT).firebaseio.com" -w /opt/workdir/src/firebase/functions  $(DOCKER_IMAGE_TAG) npm run test
 
 deploy: build

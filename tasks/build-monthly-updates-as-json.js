@@ -94,15 +94,17 @@ function parseDescriptionFromMarkdown(...args) {
     return self.renderToken(...args);
 };
 
-
 function generateJson() {
     const helpCenterUrl = process.env.HELP_CENTER_URL ? process.env.HELP_CENTER_URL : HELP_CENTER_PRODUCTION_URL;
 
     return through((file, enc, cb) => {
-        // hardcoded to the 5th day of the month
-        let directoryName = path.basename(path.dirname(file.path));
-        let startDate = directoryName + '-05';
-        let link = helpCenterUrl + 'pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
+        const directoryName = path.basename(path.dirname(file.path));
+        const link = helpCenterUrl + 'pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
+
+        const startDate = getStartDate(directoryName);
+        // hardcoded to the 5th day of the month as we publish this day
+        const startDateWithDay = startDate + '-05';
+        const notificationEndDate = getNotificationEndDate(startDateWithDay);
 
         let defaultValues = {
             'pim_announcement_img': null,
@@ -112,16 +114,17 @@ function generateJson() {
 
         let data = {...defaultValues, ...file.fm };
         const imgContent = getBase64Content(file, data['pim_announcement_img']);
+        const editions = transformToPimEditions(data['pim_announcement_audience']);
 
         let content = JSON.stringify({
             'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
-            'startDate': startDate,
+            'startDate': startDateWithDay,
             'description': file.description,
             'img': imgContent,
             'imgAlt': data['pim_announcement_alt_img'],
-            'version': data['pim_announcement_audience'],
+            'editions': editions,
             'filename': path.basename(file.path),
-            'notificationDuration': 7,
+            'notificationEndDate': notificationEndDate,
             'tags': ['updates'],
             'title': file.title,
             'link': link
@@ -148,4 +151,39 @@ function getBase64Content(file, imageRelativePath) {
     const base64 = 'data:image/' + extension +';base64, ' +content;
 
     return base64;
+}
+
+/**
+ * Transform EE into Serenity to match PIM version.
+ *
+ * @param editions
+ */
+function transformToPimEditions(editions) {
+    return editions.map(edition => {
+        return edition === 'EE' ? 'Serenity' : edition;
+    });
+}
+
+function getNotificationEndDate(starDateString) {
+    let startDate = new Date(starDateString);
+    startDate.setDate(startDate.getDate() + 7);
+
+    const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(startDate);
+    const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(startDate);
+    const day = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(startDate);
+
+    return year + '-' + month + '-' + day;
+}
+
+/**
+ * This is the date of the publishment of the news. It's a feature in February 2020, it will be 2020-03.
+ */
+function getStartDate(directoryName) {
+    let startDate = new Date(directoryName + '-01');
+    startDate.setMonth(startDate.getMonth() + 1);
+
+    const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(startDate);
+    const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(startDate);
+
+    return year + '-' + month;
 }
