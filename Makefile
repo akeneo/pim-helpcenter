@@ -11,7 +11,7 @@ docker-build:
 	docker build -t $(DOCKER_IMAGE_TAG) - < Dockerfile
 
 yarn-install: docker-build
-	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro $(DOCKER_IMAGE_TAG) yarn install
+	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro $(DOCKER_IMAGE_TAG) yarn install --frozen-lockfile
 
 firebase-install: docker-build
 	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro -w /opt/workdir/src/firebase/functions pim-helpcenter:master npm ci

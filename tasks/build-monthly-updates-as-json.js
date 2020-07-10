@@ -6,6 +6,8 @@ const markdownToc = require('markdown-it-toc-and-anchor').default;
 const frontMatter = require('gulp-front-matter');
 const through = require('through2').obj;
 const jsonCombine = require('gulp-jsoncombine');
+const filter = require('gulp-filter');
+
 const path = require('path');
 
 const HELP_CENTER_PRODUCTION_URL = 'https://help.akeneo.com/';
@@ -20,17 +22,22 @@ md.renderer.rules.heading_open = function(...args) {
 md.use(markdownToc);
 
 gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
-    return updatesAsJson('content/updates/20*/*.md', './dist/pim', 'updates.json');
+    // by default, we generate all updates except if env variable ONLY_PREVIOUS_MONTH_UPDATES=true
+    const generateAllUpdates = !(process.env.ONLY_PREVIOUS_MONTH_UPDATES && process.env.ONLY_PREVIOUS_MONTH_UPDATES === 'true');
+
+    return updatesAsJson('content/updates/20*/*.md', './dist/pim', 'updates.json', generateAllUpdates);
 });
 
 /**
  * @param filePattern file pattern to read the markdown
  * @param fileDirectoryDestination directory to write the generated json file
  * @param fileNameDestination name of the generated json file
+ * @param generateAllUpdates if we generate all updates or we generate only released feature
  * @returns {*}
  */
-function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination) {
+function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination, generateAllUpdates) {
     return gulp.src(filePattern)
+        .pipe(filter(keepUpdatesFromPreviousMonths(generateAllUpdates)))
         .pipe(frontMatter({property: 'fm',remove: true}))
         .pipe(tap(parseMarkdown))
         .pipe(generateJson())
@@ -186,4 +193,23 @@ function getStartDate(directoryName) {
     const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(startDate);
 
     return year + '-' + month;
+}
+
+/**
+ * Do not generate updates that are not published yet, except if generateAllUpdates = true (only for staging env).
+ */
+function keepUpdatesFromPreviousMonths(generateAllUpdates) {
+    return (file) => {
+        const folderName = path.basename(path.dirname(file.path));
+
+        const currentDate = new Date(Date.now());
+        const dayOfMonth = currentDate.getDate();
+        const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setMonth(currentDate.getMonth() - 1));
+
+        const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(previousMonthDate);
+        const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);
+        const maxDate = year + '-' + month;
+
+        return folderName <= maxDate || generateAllUpdates;
+    }
 }
