@@ -1,15 +1,6 @@
-# New improvements in 3.2
+# Find which products are linked to a given reference entity
+::: meta-data eeOnly="true" since-version="3.2"
 
-The reference entities feature includes two new improvements that make managing reference entities more robust.
-
-## New number attribute type
-This new capability enables reference entities to have attribute types with numeric values. 
-
-In the example below, a new `Creation Year` attribute uses a numeric attribute type. Values can optionally be specified as decimals, and minimum and maximum values are also supported to help ensure high quality product data.
-
-![Creation of a new number attribute in a reference entity](../img/number_attribute_type.png)
-
-## Find which products are linked to a given reference entity
 Version 3.2 introduces a new Products tab so you can easily access products directly from the reference entity record.  
 By default, the first 20 products are listed. Above the grid the total number of linked products are noted. 
 

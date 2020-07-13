@@ -29,21 +29,20 @@ md
             return params.trim().match(/^meta-data(.*)$/);
         },
         render: function (tokens, idx) {
-            var metaData = tokens[idx].info.trim().match(/^meta-data\stype="(.*)"\sfeatures="(.*)"\savailable="(.*)"\slink-to-doc="(.*)"$/);
+            var metaData = tokens[idx].info.trim().match(/^meta-data\seeOnly="(.*)"\ssince-version="(.*)"\slink-to-doc="(.*)"$/);
             if(!metaData){
-                metaData = tokens[idx].info.trim().match(/^meta-data\stype="(.*)"\sfeatures="(.*)"\savailable="(.*)"$/)
+                metaData = tokens[idx].info.trim().match(/^meta-data\seeOnly="(.*)"\ssince-version="(.*)"$/)
             }
             var html = '';
             if(tokens[idx].nesting === 1) {
-                var type = metaData[1];
-                html += '<p><em class="small text-primary">Type:</em> <span class="label label-version">' + type + '</span>';
-                var features = metaData[2].split(',');
-                html += _.reduce(features, function(res, feature) {
-                    return res + ' <span class="label label-info">' + feature + '</span>';
-                }, '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Feature' + ((features.length > 1) ? 's:</em>' : ':</em>'));
-                var availability = metaData[3];
-                html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;In Serenity since ' + availability + '</em>';
-                var linkToDoc = metaData[4];
+                var eeOnly = metaData[1];
+                var sinceVersion = metaData[2];
+                if(eeOnly){
+                    html += '<p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">' + sinceVersion + '</span>';
+                } else {
+                    html += '<p><em class="small text-primary">In Enterprise & Community Editions since </em> <span class="label label-version">' + sinceVersion + '</span>';
+                }
+                var linkToDoc = metaData[3];
                 if(linkToDoc) {
                     html += '<em>&nbsp;&nbsp;|&nbsp;&nbsp;</em><a href="' + linkToDoc + '" target="_blank">📖 Read the doc</a>';
                 }
@@ -51,14 +50,6 @@ md
                 html = '</p>';
             }
             return html;
-        }
-    })
-    .use(require('markdown-it-container'), 'more', {
-        validate: function(params) {
-            return params.trim().match(/^more(.*)$/);
-        },
-        render: function (tokens, idx) {
-            return (tokens[idx].nesting === 1) ? '<div class="alert alert-info"><b>Not familiar with the context?</b><br><em>Here is a selection from our help center:</em>' : '</div>\n'
         }
     });
 
@@ -79,7 +70,7 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
 
     return gulp.src('src/updates-index.handlebars')
         .pipe(gulpHandlebars({
-            title: 'What\'s new in 3.x',
+            title: 'What\'s new in 3.0, 3.1 and 3.2',
             updates: updates,
             majorVersion: majorVersion
         }, {

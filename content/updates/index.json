@@ -8,14 +8,14 @@
   },
   "franklin-insights": {
     "title": "Franklin Insights",
-    "description": "Franklin Insights is a new Enterprise Edition feature that provides access from Akeneo PIM to Franklin, our new curated library of technical product information.",
+    "description": "Franklin Insights is a new Enterprise Edition feature that provides access from Akeneo PIM to Franklin, our new curated library of technical product information. Discover its magic and what is new in our 3.x versions.",
     "img": "illus-franklin-insights.svg",
     "featureType": "New feature",
     "eeOnly": true
   },
   "performance": {
     "title": "Performance",
-    "description": "In Akeneo PIM 3.x, we focus our efforts on the performance to unlock your productivity.",
+    "description": "Performance and scalability are key to a streamlined and great product enrichement. 3.x versions of our dear PIM include several additional user interface performance improvements to unlock your productivity.",
     "img": "illus-performance.svg",
     "featureType": "Improvement",
     "eeOnly": false
@@ -29,7 +29,7 @@
   },
   "connectivity": {
     "title": "Connectivity",
-    "description": "The API is the cornerstone of a great PIM connectivity. Discover the last new API enhancements that will make your life way easier when it comes to build new API-based connectors.",
+    "description": "The API is the cornerstone of a great PIM connectivity. Discover the last new API enhancements that will make your life way easier when it comes to building new API-based connectors: two new API features that simplify development with product models.",
     "img": "illus-connections.svg",
     "featureType": "Improvement",
     "eeOnly": false

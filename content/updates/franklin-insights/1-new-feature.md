@@ -1,8 +1,10 @@
-# A brand new feature in 3.0
+# Welcome to Franklin Insights!
+::: meta-data eeOnly="true" since-version="3.0"
+
+## How does it work?
 
 Franklin Insights offers an interface to visually map the attributes from the subscribed product data in Franklin to the product attributes in your Akeneo PIM catalog.
 
-## How does it work?
 Once you have subscribed to a product identifier, Franklin generates and suggests a “golden record” of the highest quality technical data for the PIM. You map the Franklin attributes to the PIM attributes, and then Franklin generates a proposal for you to review.
 
 ![Frankling Insights mapping screen](../img/FI_mapping_screen.png)
