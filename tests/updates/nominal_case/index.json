@@ -1,12 +1,9 @@
 {
-  "2020-03": {
-    "title": "🌱 March Serenity updates",
-    "description": "This month, enhance your productivity thanks to new rules engine capabilities, better model your catalog with new measurement units and families, and finally keep on improving your product information with data quality extended features.",
-    "img": "illus-march-20.svg"
-  },
-  "2020-02": {
-    "title": "❄️ February Serenity updates",
-    "description": "This month Serenity updates include two new improvements: a new asset management operation to optimize the weight of your transformed files and new warning messages on usernames for the Connections.",
-    "img": "illus-february-20.svg"
+  "reference-entities": {
+    "title": "Reference entities",
+    "description": "Reference entities enable you to create and enrich entities related to products in the PIM. The new feature lets your team manage commonly used information related to products -- colors, sizes, ingredients, care instructions, etc. -- as well as non-product “entities” such as brands, designers, looks, rooms, cities, countries, and other descriptive entities.",
+    "img": "illus-reference-entities.svg",
+    "featureType": "New feature",
+    "eeOnly": true
   }
 }

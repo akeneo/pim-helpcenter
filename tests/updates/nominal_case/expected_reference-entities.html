@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reference entities</title>
+    <meta name="description" content="Help center">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="docsearch:solution" content="pimv3">
+    <script src="/pim/v3/js/jquery.min.js"></script>
+    <script src='/pim/v3/js/bootstrap.min.js'></script>
+    <script src='/pim/v3/js/docsearch.min.js'></script>
+    <script src='/pim/v3/js/versions.js'></script>
+    <link rel="icon" type="image/png" href="/pim/v3/img/akene36.png">
+    <link rel="stylesheet" href="/pim/v3/css/docsearch.min.css">
+    <link rel="stylesheet" href="/pim/v3/css/variables.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+</head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35417741-7"></script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-35417741-7', 'auto');
+    ga('send', 'pageview');
+</script>
+<body data-spy="scroll" data-target="#navbar">
+
+    <div id="mainContent">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <img height="20" src="/pim/v3/img/akeneo.svg"></img>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group form-search">
+                            <input id="docSearch-input" type="text" class="form-control" placeholder="Search for PIM help...">
+                        </div>
+                    </form>
+                    <div class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/pim/serenity/index.html">Serenity</a>
+                        </li>
+                        <li id="last-EE-version" data-filepath="updates/reference-entities.html" data-current-doc-version="v3"></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">v3 EE/CE <span class="caret"></span></a>
+                            <ul class="dropdown-menu" id="version-dropdown" data-filepath="updates/reference-entities.html" data-current-doc-version="v3">
+                                <li class="dropdown-title">Switch to</li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+            <div class="jumbotron">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-3">
+                            <img class="hidden-xs img-responsive center-block" src="../img/illus-reference-entities.svg"></img>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-9">
+                            <h1 class="emphasis hidden-xs" style="margin-top: 30px;">Reference entities</h1>
+                            <h1 class="emphasis text-center visible-xs">Reference entities</h1>
+                            <p>
+                                <span class="label label-success">New feature</span>
+                                <span class="label label-primary">Enterprise Edition only</span>
+                            </p>
+                            <p class="hidden-xs"><em>Reference entities enable you to create and enrich entities related to products in the PIM. The new feature lets your team manage commonly used information related to products -- colors, sizes, ingredients, care instructions, etc. -- as well as non-product “entities” such as brands, designers, looks, rooms, cities, countries, and other descriptive entities.</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container updates">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/v3">PIM help center</a> / <a href="/pim/v3/updates/index.html"> What's new in Akeneo PIM 3.0, 3.1 and 3.2?</a> / Reference entities</p>
+                    </div>
+                    <div id="navbar" class="col-sm-3 hidden-xs sticky"><nav role="tablist" id="navbar-nav"><ul class="nav nav-stacked"><p class="pre-nav">Summary</p><p><ul class="nav">
+        <li><a href="#the-reference-entity-a-new-notion-in-the-pim">The reference entity: a new notion in the PIM</a></li>
+        <li><a href="#permissions-completeness">Permissions &amp; completeness</a></li>
+        <li><a href="#link-to-products">Link to products</a></li>
+        <li><a href="#link-between-reference-entities">Link between reference entities</a></li>
+        <li><a href="#import-and-export">Import and export</a></li>
+        <li><a href="#new-filters-in-the-record-grid">New filters in the record grid</a></li>
+        <li><a href="#new-display-in-the-reference-entity-grid">New display in the reference entity grid</a></li>
+        <li><a href="#record-completeness-added-to-reference-entity-links">Record completeness added to reference entity links</a></li>
+        <li><a href="#new-number-attribute-type">New number attribute type</a></li>
+        <li><a href="#find-which-products-are-linked-to-a-given-reference-entity">Find which products are linked to a given reference entity</a></li>
+        </ul>
+        </p>
+        </ul></nav></div>
+        <div class="col-xs-12 col-sm-9 docSearch-content"><a class="anchor" id="the-reference-entity-a-new-notion-in-the-pim"></a><h1 title-id="the-reference-entity-a-new-notion-in-the-pim"><a class="markdownIt-Anchor" href="#the-reference-entity-a-new-notion-in-the-pim">#</a>The reference entity: a new notion in the PIM</h1>
+        <p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">3.0</span><em>&nbsp;&nbsp;|&nbsp;&nbsp;</em><a href="../articles/what-about-reference-entities.html" target="_blank">📖 Read the doc</a><p>Reference entities have their own attributes, their own lifecycle, and can be linked to products. These entities may have dedicated pages on the e-commerce website or their information may enrich each product page.</p>
+        <p>In the example below, three reference entities enrich our awesome pair of socks:</p>
+        <ul>
+        <li>the <code>Care instructions</code> reference entity,</li>
+        <li>the <code>Colors</code> reference entity,</li>
+        <li>the <code>Brand</code> reference entity.</li>
+        </ul>
+        <p><img class="img-responsive in-article" alt="Reference entities notion scheme" src="../img/what-about-reference-entities.png"/></p>
+        <p>Reference entities are created, enriched, and managed in a new section in the PIM from a dedicated <code>Entities</code> menu.</p>
+        <p><img class="img-responsive in-article" alt="Reference entities screen" src="../img/ref_entities_list.png"/></p>
+        <p>In the screenshot below, <code>Brand</code> is a reference entity and it includes a list of brands - Fatboy, Kartell, Muuto, etc. A brand is described by an image, a label, a code, a country, a designer, a founded date, a photo, and a description.</p>
+        <p><img class="img-responsive in-article" alt="Record list of the `Brand` reference entity" src="../img/ref_entities_record_list.png"/></p>
+        <a class="anchor" id="permissions-completeness"></a><h1 title-id="permissions-completeness"><a class="markdownIt-Anchor" href="#permissions-completeness">#</a>Permissions &amp; completeness</h1>
+        <p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">3.0</span><p>Reference entities are subject to permissions, and completeness can be calculated for each record in a reference entity.</p>
+        <p><img class="img-responsive in-article" alt="Completeness by record" src="../img/completeness_by_record.jpg"/></p>
+        <a class="anchor" id="link-to-products"></a><h1 title-id="link-to-products"><a class="markdownIt-Anchor" href="#link-to-products">#</a>Link to products</h1>
+        <p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">3.0</span><p>You can link your new reference entity records to products through two new product attributes types:</p>
+        <ul>
+        <li>Reference entity single link (for example: linking one brand to
+        a product),</li>
+        <li>Reference entity multiple links (for example: linking several care
+        instructions to a product).</li>
+        </ul>
+        <p><img class="img-responsive in-article" alt="The two new product attributes types in the Attribute creation popin" src="../img/two-new-product-attributes-types.png"/></p>
+        <a class="anchor" id="link-between-reference-entities"></a><h1 title-id="link-between-reference-entities"><a class="markdownIt-Anchor" href="#link-between-reference-entities">#</a>Link between reference entities</h1>
+        <p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">3.0</span><p>It is also possible to link reference entities together, such as designers to a brand, and cities to countries.<br />
+        As you can see in the screenshot below, we can link the <code>Starck</code> designer to the <code>Kartell</code> brand.</p>
+        <p><img class="img-responsive in-article" alt="Link between the Kartell and Starck reference entities" src="../img/Records_link_entity.png"/></p>
+        <a class="anchor" id="import-and-export"></a><h1 title-id="import-and-export"><a class="markdownIt-Anchor" href="#import-and-export">#</a>Import and export</h1>
+        <p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">3.0</span><p>Reference entities and their records can be imported and exported via the API. This is useful if you already have reference entity data stored elsewhere in your IT landscape.</p>
+        <p><img class="img-responsive in-article" alt="Reference entities API endpoints listing" src="../img/ref_entities_endpoints.png"/></p>
+        <p>The <a href="https://api.akeneo.com/api-reference-index.html#Referenceentities">API endpoints</a> we crafted for you, will help you easily import reference entities and their corresponding records from those external systems into the PIM - as well as to export records to distribute to your various channels such as marketplaces and ecommerce platforms.</p>
+        <a class="anchor" id="new-filters-in-the-record-grid"></a><h1 title-id="new-filters-in-the-record-grid"><a class="markdownIt-Anchor" href="#new-filters-in-the-record-grid">#</a>New filters in the record grid</h1>
+        <p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">3.1</span><p>This new enhancement extends the full text search implemented in 3.0 so that you can search for other attribute types that have single/multiple options and reference entity single/multiple links. For these attribute types, an exact search is useful to find the records with a specific value. This capability means you can filter on these attribute types in the records grid.</p>
+        <p>How can you use this? Here are some examples:</p>
+        <ul>
+        <li>If a <code>Brand</code> reference entity has a <code>Designers</code> attribute linked to a
+        <code>Designer</code> reference entity, you can search for all brands where the designer is <code>Ron Arad</code>.
+        <img class="img-responsive in-article" alt="The `Designer` filter in the record grid" src="../img/new_filters_in_the_record_grid.png"/></li>
+        <li>If a <code>Brand</code> reference entity has a <code>Country</code> attribute with a list of options, you can search for brands with the <code>Italy</code> country.</li>
+        <li>If a <code>Recipe</code> reference entity has an <code>Ingredients</code> attribute linked to an <code>Ingredient</code> reference entity, you can search all recipes with the <code>Tomato</code>ingredient.</li>
+        </ul>
+        <p>Furthermore, you can combine filters to search for <code>Ron Arad</code> AND <code>Italy</code>making working with reference entities simpler and more productive.</p>
+        <a class="anchor" id="new-display-in-the-reference-entity-grid"></a><h1 title-id="new-display-in-the-reference-entity-grid"><a class="markdownIt-Anchor" href="#new-display-in-the-reference-entity-grid">#</a>New display in the reference entity grid</h1>
+        <p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">3.1</span><p>The values of the single/multiple options and reference entity single/multiple links are now displayed in the records grid.</p>
+        <p>Options or records links labels are displayed in the selected locale.</p>
+        <p><img class="img-responsive in-article" alt="Option labels displayed in the record grid" src="../img/option_labels_displayed_in_the_grid.png"/></p>
+        <a class="anchor" id="record-completeness-added-to-reference-entity-links"></a><h1 title-id="record-completeness-added-to-reference-entity-links"><a class="markdownIt-Anchor" href="#record-completeness-added-to-reference-entity-links">#</a>Record completeness added to reference entity links</h1>
+        <p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">3.1</span><p>When working within products, it can be useful to know whether all the reference entities records are complete. In 3.1 this is now possible, and appears for the product or the record when a reference entity record is linked to it.</p>
+        <p><img class="img-responsive in-article" alt="Completeness in the reference entity links" src="../img/ref_entities_completeness_in_links.png"/></p>
+        <a class="anchor" id="new-number-attribute-type"></a><h1 title-id="new-number-attribute-type"><a class="markdownIt-Anchor" href="#new-number-attribute-type">#</a>New number attribute type</h1>
+        <p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">3.2</span><p>This new capability enables reference entities to have attribute types with numeric values.</p>
+        <p>In the example below, a new <code>Creation Year</code> attribute uses a numeric attribute type. Values can optionally be specified as decimals, and minimum and maximum values are also supported to help ensure high quality product data.</p>
+        <p><img class="img-responsive in-article" alt="Creation of a new number attribute in a reference entity" src="../img/number_attribute_type.png"/></p>
+        <a class="anchor" id="find-which-products-are-linked-to-a-given-reference-entity"></a><h1 title-id="find-which-products-are-linked-to-a-given-reference-entity"><a class="markdownIt-Anchor" href="#find-which-products-are-linked-to-a-given-reference-entity">#</a>Find which products are linked to a given reference entity</h1>
+        <p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">3.2</span><p>Version 3.2 introduces a new Products tab so you can easily access products directly from the reference entity record.<br />
+        By default, the first 20 products are listed. Above the grid the total number of linked products are noted.</p>
+        <p><img class="img-responsive in-article" alt="Products linked to a reference entity" src="../img/Records_display_products.jpg"/></p>
+        <p>To see all products, simply click <code>View all products</code>. To view or edit a linked product, simply click on it and it will open its product form.</p>
+        <p>The advantage of this feature is that PIM users can see at a glance what products are linked to a given reference entity, and rapidly access a product directly from the reference entities screen, saving clicks, enhancing productivity, and delivering a better user experience.</p>
+        </p></p></p></p></p></p></p></p></p></p></div>
+                </div>
+            </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="text-muted text-right">
+                        <em>Found a typo or a hole in the documentation and feel like contributing?</em><br>
+                        <a href="https://github.com/akeneo/pim-helpcenter" onclick="ga('send', 'event', 'github', 'contribute')">Join us on Github!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container social-icon">
+            <a href="https://twitter.com/akeneopim">
+                <img src="/pim/v3/img/icon--twitter.svg" />
+            </a>
+            <a href="https://www.facebook.com/akeneopim/">
+                <img src="/pim/v3/img/icon--facebook.svg" />
+            </a>
+            <a href="https://fr.linkedin.com/company/akeneo">
+                <img src="/pim/v3/img/icon--linkedin.svg" />
+            </a>
+            <a href="https://www.youtube.com/channel/UCFFKXJdZLX5igCbitT-b6lA">
+                <img src="/pim/v3/img/icon--youtube.svg" />
+            </a>
+        </div>
+    </footer>
+
+</body>
+<script type="text/javascript">
+    if($('#docSearch-input').length){
+      docsearch({
+          apiKey: '383063c398d4eb9df08945560d3d26fc',
+          indexName: 'akeneo-help',
+          inputSelector: '#docSearch-input',
+          debug: false, // Set debug to true if you want to inspect the dropdown
+          algoliaOptions: {
+            'facetFilters': ["solution:pimv3"]
+          }
+      });
+    }
+</script>
+<script>
+    $(function(){
+        var navbar = $('.navbar');
+        $(window).scroll(function(){
+            if($(window).scrollTop() <= 40){
+                navbar.removeClass('scroll');
+            } else {
+              navbar.addClass('scroll');
+            }
+        });
+    });
+
+    updateVersions();
+</script>
+</html>
