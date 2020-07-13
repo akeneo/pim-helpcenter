@@ -48,8 +48,6 @@ By default, if the product has no association for the selected association type,
 1.  Click on an associated product or product model
 1.  The associated product or product model opens in a new tab
 
-![Open the associated products](../img/Products_ProductsOpenAssociated.png)
-
 # Add/remove associations to/from a product
 
 To add associations, there is a picker to select the products or [product models](what-about-products-variants.html#what-is-a-product-model) you want to associate. Depending on the association type selected, there are two different ways to do so:
@@ -62,10 +60,10 @@ To add associations, there is a picker to select the products or [product models
 1.  Click on the `Add associations` button
   ![Add association](../img/Products_ProductsAddAssociation.png)
 1.  The picker to select product or product models opens
-  ![Add association](../img/Products_ProductsPickerAssociation.png)
+  ![Add association product picker](../img/Products_ProductsPickerAssociation.png)
 1.  Filter on the categories, on the label or identifier or add filters to find the products or product models to associate
 1.  Tick in the grid the products or product models to associate, they are displayed in the basket
-  ![Add association](../img/Products_ProductsBasketAssociation.png)
+  ![Tick products to associate](../img/Products_ProductsBasketAssociation.png)
 1.  Click on the `Confirm` button
 1.  The products or product models you associate to the current product are displayed in the `Associations` tab
   ![View the associated products](../img/Products_ProductsAssociated21.png)
@@ -110,6 +108,10 @@ To remove an association:
 
 ![Remove associations](../img/Products_ProductsRemoveAssociation.png)
 
+:::warning
+If you wish to remove associations with quantities, the step 4 won't be available as the associated products will be displayed as a list. In that case, please jump directly to step 5.
+:::
+
 :::info
-A product that has been associated using a 2-way association will be removed on both sides. Please read our [Association Types](manage-your-association-types.html#Overview) documentation for more information.
+A product that has been associated using a 2-way association will be removed on both sides.  Please read our [Association Types](manage-your-association-types.html#Overview) documentation for more information.
 :::
