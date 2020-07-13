@@ -58,12 +58,12 @@ To add associations, there is a picker to select the products or [product models
 1.  Click on the `Associations` tab
 1.  Select the association type
 1.  Click on the `Add associations` button
-  ![Add association](../img/Products_ProductsAddAssociation.png)
+  ![Add association](../img/Products_Products_Add_Associations.png)
 1.  The picker to select product or product models opens
-  ![Add association product picker](../img/Products_ProductsPickerAssociation.png)
+  ![Add association product picker](../img/Products_Products_Associations_Picker2.png)
 1.  Filter on the categories, on the label or identifier or add filters to find the products or product models to associate
 1.  Tick in the grid the products or product models to associate, they are displayed in the basket
-  ![Tick products to associate](../img/Products_ProductsBasketAssociation.png)
+  ![Tick products to associate](../img/Products_Products_Associations_Basket2.png)
 1.  Click on the `Confirm` button
 1.  The products or product models you associate to the current product are displayed in the `Associations` tab
   ![View the associated products](../img/Products_ProductsAssociated21.png)
@@ -83,7 +83,7 @@ A product can also be associated to a [product model](what-about-products-varian
 1.  The picker to select product or product models opens
   ![Associations products picker](../img/Products_Products_Associations_Picker.png)
 1.  Filter on the categories, on the label or identifier or add filters to find the products or product models you want to associate
-1. In the grid, tick the products or product models to associate. They are displayed in the basket
+1. In the grid, tick the products or product models to associate. They are displayed in the basket:
   ![Tick products to associate](../img/Products_Products_Associations_Basket.png)
 1.  Click on `Confirm`
 1.  The products or product models you associate to the current product are displayed in the `Associations` tab
@@ -104,12 +104,12 @@ To remove an association:
 1.  Select the association type
 1.  Hover a product or product model associated
 1.  Click on the cross to remove the association
-1.  Click on the `Save` button
+1.  Click on `Save`
 
-![Remove associations](../img/Products_ProductsRemoveAssociation.png)
+![Remove associations](../img/Products_Products_Remove_Association.png)
 
 :::warning
-If you wish to remove associations with quantities, the step 4 won't be available as the associated products will be displayed as a list. In that case, please jump directly to step 5.
+If you wish to remove associations with quantities, the step 4 won't be available as the associated products will be displayed as a list, not as a gallery. In that case, please skip to step 5.
 :::
 
 :::info

@@ -21,11 +21,9 @@ There are three different association types:
 The association types are mandatory to create a link between two products. There is no default association types.
 :::
 
-![image](../img/Settings_AssociationsTypes.png)
+![Association types list](../img/Settings_Associations_Types.png)
 
 Once you have created an association type between products, it can be used while editing a product (in the tab `Associations`).
-
-![image](../img/Products_PEF7.png)
 
 # View the association types
 
