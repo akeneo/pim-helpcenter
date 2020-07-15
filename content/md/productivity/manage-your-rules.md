@@ -38,65 +38,65 @@ If you want to know what is the entire [list of attributes/system fields](get-st
 :::
 
 :::warning
-By default, when there is no condition, all your product catalog is selected. So if you add one or several actions, all your catalog will be updated!
+By default, when there is no condition, your whole product catalog is selected. So if you add one or several actions, your whole catalog will be updated!
 :::
 
-The system fields are displayed first in the list, and then all the attributes are gathered by attribute groups. There is a search bar to help you find the attributes. Each time you choose a filter, its color turns to purple to inform you that it is already used, and a new line is created.
+At the top of the list, you will find the system fields and below, all the attributes gathered by attribute groups. There is a search bar to help you find the attributes. Each time you add a condition, its color turns to purple to inform you that it is already used. A new line appears in the product selection.
 
-Let's see how a line is sliced.
+Let's see how a line is organized.
 
-On the left, you retrieve the **system** or **attribute** chosen. It is written in purple.
+On the left, you will find the **system** or **attribute** you chose. It is written in purple.
 Then, you have to choose an **operator**. Depending on the filter, the operator list changes.
-Then, you have the **value** field, where you can put the value you want to filter on. For example, if your filter is a multi-select attribute type, you can choose which options you want to filter on.
+The next fields vary depending on your filter. There can be up to 3 types of fields. You can have the **value** field. For example, if your filter is a multi-select attribute type, you can choose which options you want to filter on.
 
 If your filter has a value per channel and/or per locale, the `channel` and `locale` fields appear, in order to let you choose which locale/channel you want to filter on.
 
 If you want to remove a condition, just click on the cross at the end of the line.
 
-As you can see just next to the `Add condition` button, there is a counter that inform you how many products/product models will be updated by this rule. It means that these conditions match with X products/product models.
-This count automatically changes as soon as you change a condition.
+As you can see on the left side of the `Add condition` button, there is a counter that tells you how many products/product models will be updated by this rule. It means that these conditions will impact X products/product models.
+This count is automatically updated as soon as you change a condition.
 
 ### Add actions
 
-Now that you have filtered your products/product models, you can add one or several actions to apply on!
+Now that you have filtered your products/product models, you can add one or several actions you'll apply to them!
 
 To do so:
-1. Click on `Add action` on top of the screen
-1. Select the action you want to add. There is a search bar and a scroll bar to choose action among the list.
+1. Click on `Add action` at the top of the screen
+1. Select the action you want to add. There is a search bar and a scroll bar to choose the action from a list.
 1. A new section appears under the `Product selection` part.
 
 :::info
-As for the `Product Selection`, all the actions are not available in the UI yet. If you need to apply an action that is not managed for now, you can still import your YML file, and retrieve your rule in the PIM UI.
+Just like for the `Product Selection`, all the actions are not available in the UI yet. If you need to apply an action that is not managed for now, you can still import your YML file, and retrieve your rule in the PIM UI.
 :::
 
-[Here](get-started-with-the-rules-engine.html) is the list of all the actions you can do with the rules engine if you use the YML file import.
+Here is the [list of all the actions](get-started-with-the-rules-engine.html) you can do with the rules engine if you use the YML file import.
 
 Depending on the action you choose, the template changes. The table below lists all the actions that you can add via the PIM interface.
 
 | Actions  | What they do |
 |---|---|
-| Set categories  | Classify your products/product models in the categories you choose, and **declassify** them from their "old" categories.  |
-| Add categories  | Add your products to new categories, **without declassifying** them from their "old" categories.  |
+| Set categories  | Classify your products/product models in the categories you choose, and **remove** them from their former categories.  |
+| Add categories  | Add your products/product models to new categories, **without removing** them from their former categories.  |
 | Set family  | Replace your products/product models family |
 | Clear attribute value  | Delete values from an attribute on your products/product models selection  |
 | Clear associations  | Delete all the associations of your products/product models selection  |
-| Clear groups  | Delete all the groups of your products selection (product models don't have groups) |
-| Clear categories  | Delete all the categories of your products/product models selection  |
+| Clear groups  | Delete all the groups of your product selection (product models don't have groups) |
+| Clear categories  | Delete all the categories of your product/product model selection  |
 | Set attribute value  | Replace the attribute value of your products/product models selection  |
 
 ## Different use cases
-As explained earlier, some conditions/actions are not available in the UI yet. It means that you are not able to build all the rules you want via the PIM, and you may need to use the YML file import to do so. Let's see what happens depending on different situations.
+As explained earlier, some conditions/actions are not available in the UI yet. It means that you are not able to build all the rules you want via the PIM, and you may need to use the YML file import to do so. Let's see what happens in the following scenarios.
 
 ### All the conditions/actions you need are available in the UI
 The conditions/actions that are available right now cover 80% of our clients use cases. It means that 80% of our clients' rules can be managed directly in the UI.
-For example, you can **categorize** all the products/product models that are in the **"accessories" family**, and which has an empty `description` attribute.
+For example, you can **categorize** all the products/product models that are in the **"accessories" family**, and which have an empty `description` attribute.
 To do so, you must add two conditions. One on family, and another one on the description attribute.
 Then, add the `Set category` action, and choose the category tree and the category.
 
 SCREENSHOT
 
-### Some conditions/actions are missing yet in the UI
-If you need to build a rule using filters/actions that are not available in the UI yet, you must use the YML file import to create the rule. Then, when you import this file, your rule appears in the rules grid. You can open it and edit the conditions/actions that are available in the UI.
+### Some conditions/actions are missing in the UI for now
+If you need to build a rule using filters/actions that are not available in the UI yet, you must use the YML file import to create the rule. Then, when you import this file, your rule appears in the rules grid. You can open it and from the UI, you will be able to edit the conditions/actions that were available but not the ones you just added via your YML import.
 Let's see how it is displayed in the UI after a YML import.
 
 #### If your condition is not available in the UI yet
@@ -111,8 +111,8 @@ If your action is composed of system fields (for instance: `status`) or attribut
 
 SCREENSHOT
 
-#### If your action is available in the UI, but not the attribute used in this action
-For example, it's a `set attribute value` action (already available), and the target attribute is an attribute type that is not supported yet such as an `asset collection`): then you will be able to edit **only the attributes types that are available in the UI**. You won't see the other attribute types.
+#### If in the UI, your action is available but the attribute used in this action isn't
+For example, you needed to use a `set attribute value` action (already available), and a target attribute that is not supported yet such as an `asset collection`. Therefore you previously imported your rule via YML. In this case, you will only be able to edit **the attribute types that were already available in the UI**. You won't see the other attribute types, such as the asset collection in our example.
 
 SCREENSHOT
 
@@ -212,7 +212,7 @@ A confirmation message validates the action of deleting a rule.
 ![image](../img/Settings_RulesDeleteHover.png)
 
 ::: info  
-If you do not see the `Delete` button, it might be because you do not have the relevant rights. Please refer to [Manage your user roles](build-your-user-roles.html).
+If you do not see the `Delete` button, it might be because you do not have the right permissions. Please refer to [Manage your user roles](build-your-user-roles.html).
 :::
 
 ## Delete a selection of rules
