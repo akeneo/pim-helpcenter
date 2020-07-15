@@ -78,7 +78,7 @@ afterEach(async () => {
 test('It lists the announcement into firestore in the correct order.', async done => {
     const req = {
         query: {
-            limit: 4,
+            limit: '4',
             pim_edition: 'Serenity',
             collection_name_suffix: collectionNameSuffix
         }
@@ -102,7 +102,7 @@ test('It lists the announcement into firestore in the correct order.', async don
 test('It filters on the edition the announcement into firestore.', async done => {
     const req = {
         query: {
-            limit: 4,
+            limit: '4',
             pim_edition: 'CE',
             collection_name_suffix: collectionNameSuffix
         }
@@ -126,7 +126,7 @@ test('It filters on the edition the announcement into firestore.', async done =>
 test('It limits the results.', async done => {
     const req = {
         query: {
-            limit: 2,
+            limit: '2',
             pim_edition: 'Serenity',
             collection_name_suffix: collectionNameSuffix
         }
@@ -150,7 +150,7 @@ test('It limits the results.', async done => {
 test('It returns the correct format of the announcements.', async done => {
     const req = {
         query: {
-            limit: 1,
+            limit: '1',
             pim_edition: 'Serenity',
             collection_name_suffix: collectionNameSuffix
         }
@@ -185,7 +185,7 @@ test('It returns the correct format of the announcements.', async done => {
 test("It searches after an id when search_after is provided.", async done => {
     const req = {
         query: {
-            limit: 2,
+            limit: '2',
             pim_edition: 'Serenity',
             collection_name_suffix: collectionNameSuffix,
             search_after: 'id_1'
@@ -210,7 +210,7 @@ test("It searches after an id when search_after is provided.", async done => {
 test("It returns nothing when there is nothing after the search_after document.", async done => {
     const req = {
         query: {
-            limit: 2,
+            limit: '2',
             pim_edition: 'Serenity',
             collection_name_suffix: collectionNameSuffix,
             search_after: 'id_4'
@@ -235,7 +235,7 @@ test("It returns nothing when there is nothing after the search_after document."
 test("It returns an error when the search after document does not exist.", async done => {
     const req = {
         query: {
-            limit: 2,
+            limit: '2',
             pim_edition: 'Serenity',
             collection_name_suffix: collectionNameSuffix,
             search_after: 'id_not_existing'
@@ -256,7 +256,7 @@ test("It returns an error when the search after document does not exist.", async
     functions.announcements(req, res);
 });
 
-test("It returns an error code 400 if it's missing a limit.", async done => {
+test("It uses default limit if it's missing a limit query parameter.", async done => {
     const req = {
         query: {
             pim_edition: 'Serenity',
@@ -265,12 +265,11 @@ test("It returns an error code 400 if it's missing a limit.", async done => {
     };
     const res = {
         status: (status) => {
-            expect(status).toStrictEqual(400);
+            expect(status).toStrictEqual(200);
 
             return res;
         },
         send: (body) => {
-            expect(body).toStrictEqual('Missing "limit" query parameter.');
             done();
         }
     };
@@ -281,7 +280,7 @@ test("It returns an error code 400 if it's missing a limit.", async done => {
 test("It returns an error code 400 if it's missing PIM edition.", async done => {
     const req = {
         query: {
-            limit: 2,
+            limit: '2',
             collection_name_suffix: collectionNameSuffix
         }
     };
