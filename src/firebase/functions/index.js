@@ -2,6 +2,7 @@ const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 admin.initializeApp();
 const defaultCollectionName = 'announcements';
+const defaultLimit = 10;
 
 exports.announcements = functions.region('europe-west1').https.onRequest(async (request, response) => {
     if (request.query.pim_edition === undefined) {
@@ -10,11 +11,7 @@ exports.announcements = functions.region('europe-west1').https.onRequest(async (
         return;
     }
 
-    if (request.query.limit === undefined) {
-        response.status(400).send('Missing "limit" query parameter.');
-
-        return;
-    }
+    const limit = request.query.limit !== undefined && !isNaN(parseInt(request.query.limit)) && parseInt(request.query.limit) < 20 ? parseInt(request.query.limit) : defaultLimit;
 
     // Allow to request on another collection for the tests
     const collectionName = request.query.collection_name_suffix === undefined ? defaultCollectionName : defaultCollectionName + request.query.collection_name_suffix;
@@ -24,7 +21,7 @@ exports.announcements = functions.region('europe-west1').https.onRequest(async (
         .where('editions', 'array-contains', request.query.pim_edition)
         .orderBy('startDate', 'desc')
         .orderBy('filename', 'asc')
-        .limit(request.query.limit);
+        .limit(limit);
 
         if (request.query.search_after !== undefined) {
             const searchAfterDoc = await collection.doc(request.query.search_after).get();
