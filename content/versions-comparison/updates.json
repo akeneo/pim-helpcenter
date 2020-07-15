@@ -1,0 +1,79 @@
+{
+  "asset-family":{
+    "title":"Asset family",
+    "domains": ["Asset","Governance"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": ""
+  },
+  "media-link-asset":{
+    "title":"Media link asset",
+    "domains": ["Asset","Governance"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": ""
+  },
+  "asset-completeness":{
+    "title":"Asset completeness",
+    "domains": ["Asset","Quality"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": ""
+  },
+  "product-link-rule":{
+    "title":"Automatic asset/product link",
+    "domains": ["Asset","Productivity"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": ""
+  },
+  "data-quality-dashboard":{
+    "title":"Data Quality dashboard",
+    "domains": ["Quality"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": ""
+  },
+  "warning-message-on-connection-usernames":{
+    "title":"Warning message on connection usernames",
+    "domains": ["Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-02.html#new-warning-message-on-connection-usernames"
+  },
+  "optimize-the-weight-of-your-assets":{
+    "title":"Transformation operation to optimize asset weight",
+    "domains": ["Asset","Scalability"],
+    "editions": ["EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-02.html#optimize-the-weight-of-your-assets"
+  },
+  "number-attribute-type-in-ref-entities":{
+    "title":"Reference entities number attribute",
+    "domains": ["Reference entities","Governance"],
+    "editions": ["EE"],
+    "since-version": "3.2",
+    "link": ""
+  },
+  "yolo":{
+    "title":"YOLO 2.0",
+    "domains": ["Reference entities","Governance"],
+    "editions": ["EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  "yolo21":{
+    "title":"YOLO 2.1",
+    "domains": ["Reference entities","Governance"],
+    "editions": ["EE"],
+    "since-version": "2.1",
+    "link": ""
+  },
+  "yolo23":{
+    "title":"YOLO 2.3",
+    "domains": ["Reference entities","Governance"],
+    "editions": ["EE"],
+    "since-version": "2.3",
+    "link": ""
+  }
+}

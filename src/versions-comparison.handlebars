@@ -1,0 +1,117 @@
+{{!-- The index of the version comparison page --}}
+{{#> layout }}
+{{> navbar-with-search }}
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <img class="hidden-xs img-responsive center-block" src="../img/illus-gift.svg"></img>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-9">
+                    <h1 class="emphasis hidden-xs" style="margin-top: 30px;">Compare your version to newer!</h1>
+                    <h1 class="emphasis text-center visible-xs">Compare your version to newer!</h1>
+                    <p class="hidden-xs"><em>Eager to know what's new in more recent version of the PIM? You came to the right place!</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid versions-comparison">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Compare your version to newer!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Choose your filters!</h3>
+                <form>
+                    <div class="form-group">
+                        <label>Your PIM version is:</label>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Version filter">
+                            <button onclick="filterVersion('.17')" type="button" class="btn btn-default">1.7</button>
+                            <button onclick="filterVersion('.20')" type="button" class="btn btn-default">2.0</button>
+                            <button onclick="filterVersion('.21')" type="button" class="btn btn-default">2.1</button>
+                            <button onclick="filterVersion('.22')" type="button" class="btn btn-default">2.2</button>
+                            <button onclick="filterVersion('.23')" type="button" class="btn btn-default">2.3</button>
+                            <button onclick="filterVersion('.30')" type="button" class="btn btn-default">3.0</button>
+                            <button onclick="filterVersion('.31')" type="button" class="btn btn-default">3.1</button>
+                            <button onclick="filterVersion('.32')" type="button" class="btn btn-default">3.2</button>
+                            <button onclick="filterVersion('.40')" type="button" class="btn btn-default">4.0</button>
+                        </div>
+                    </div>
+                </form>
+                <form>
+                    <div class="form-group">
+                        <label>Select a PIM edition:</label>
+                        <div class="btn-group btn-group-sm" role="group" aria-label="Edition filter">
+                            <button onclick="filterEdition('.CE')" type="button" class="btn btn-default">Community</button>
+                            <button onclick="filterEdition('.EE')" type="button" class="btn btn-default">Enterprise</button>
+                        </div>
+                    </div>
+                </form>
+                <form>
+                    <div class="form-group">
+                        <label>You want to check what's new in the following PIM domains:</label>
+                        {{#each domains as |domain key|}}
+                            <label>
+                                <input onclick="filterDomains('.{{key}}', this)" type="checkbox" checked value=".{{key}}" /> 
+                                <span class="label label-{{domain.color}}">{{domain.label}}</span>
+                            </label>
+                        {{/each}}
+                    </div>
+                </form>
+                <p>Here is the list of the PIM features that were released after the v3.2.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="grid">
+                    {{#each updates as |update id|}}
+                        <div class="versions-comparison-updates {{sinceVersions}} {{#each domainCodes as |domain|}}{{domain}} {{/each}} {{#each editions as |edition|}}{{edition}} {{/each}}">
+                            <p>{{#each coloredDomains as |domain color|}}<span class="label label-{{color}}">{{domain}}</span> {{/each}}</p>
+                            <p class="title">{{title}}</p>
+                            <p><em>Available since {{since-version}}</em>
+                            <p><a class="link text-right" href="{{link}}">Read more... ></a></p>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+    var $grid = $('.grid').isotope({itemSelector: '.versions-comparison-updates',layoutMode: 'fitRows'});
+    var checkedVersion = '.17';
+    var checkedEdition = '.EE';
+    var checkedDomains = ['.governance', '.asset', '.quality', '.connectivity', '.scalability', '.productivity', '.refererenceentities'];
+    $grid.isotope({ filter: computeFilters() });
+
+    // filter news based on their version
+    function filterVersion(version) {
+        checkedVersion = version;
+        $grid.isotope({ filter: computeFilters() });
+    }
+
+    // filter news based on their edition
+    function filterEdition(edition) {
+        checkedEdition = edition;
+        $grid.isotope({ filter: computeFilters() });
+    }
+
+    // filter news based on their domains
+    function filterDomains(domain, elm) {
+        if(elm.checked){
+            checkedDomains.push(domain);
+        } else {
+            _.pull(checkedDomains, domain);
+        }
+        $grid.isotope({ filter: computeFilters() });
+    }
+
+    function computeFilters() {
+        var filters = _.reduce(checkedDomains,function(prevFilters, domain){
+            return prevFilters + domain + checkedEdition + checkedVersion + ', ';
+        },'');
+        return filters.substring(0, filters.length - 2);
+    }
+</script>
+{{/layout}}

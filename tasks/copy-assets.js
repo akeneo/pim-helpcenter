@@ -13,6 +13,8 @@ gulp.task('copy-assets', ['clean-dist'], function(){
             'node_modules/handlebars/handlebars.min.js',
             'node_modules/bootstrap/dist/js/bootstrap.min.js',
             'node_modules/docsearch.js/dist/cdn/docsearch.min.js',
+            'node_modules/lodash/lodash.min.js',
+            'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
             'src/js/versions.js'])
         .pipe(gulp.dest('dist/pim/' + majorVersion + '/js/'));
 

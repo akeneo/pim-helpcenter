@@ -44,6 +44,7 @@ gulp.task('create-dist', [
   'build-articles',
   'build-monthly-updates-as-html',
   'build-monthly-updates-as-json',
+  'build-versions-comparison-page'
 ]);
 
 // Main task that should be used for development purpose
