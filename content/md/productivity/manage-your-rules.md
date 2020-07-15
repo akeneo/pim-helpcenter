@@ -154,7 +154,7 @@ The first time a rule is executed, it can match many products. The following tim
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the calculation is done.
 
-![image](../img/Settings_RulesCalculate.png)
+![image](../img/Rules_CalculateImpactedProducts.png)
 
 The number of impacted products will appear on the right side of your screen in the `Impacted products` column.
 
@@ -191,7 +191,7 @@ In order to access the summary of nightly scheduled rules (by cron), you need to
 To execute a rule, click on the `Execute` button at the end of each line in the grid.  
 A confirmation message validates the action of executing a rule.
 
-![image](../img/Settings_RulesExecution1.png)
+![image](../img/Rules_Execute.png)
 
 
 ## Execute a selection of rules
@@ -202,7 +202,7 @@ You can also execute several rules at the same time:
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the execution is done
 
-![image](../img/Settings_RulesExecutionNotif.png)
+![image](../img/RulesExecutionNotif.png)
 
 # Delete rules
 
@@ -215,7 +215,7 @@ A deleted rule can no longer be executed by the rules engine. The products keep 
 To delete a rule, click on `Delete` at the end of each line in the grid.  
 A confirmation message validates the action of deleting a rule.
 
-![image](../img/Settings_RulesDeleteHover.png)
+![image](../img/Rules_Delete.png)
 
 ::: info  
 If you do not see the `Delete` button, it might be because you do not have the right permissions. Please refer to [Manage your user roles](build-your-user-roles.html).
@@ -228,4 +228,4 @@ You can also delete several rules at the same time:
 1.  Click on `Delete`
 1.  Then, confirm the action in the pop in.
 
-![image](../img/Settings_RulesBulkActionDelete.png)
+![image](../img/Rules_MassDelete.png)
