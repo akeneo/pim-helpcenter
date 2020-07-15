@@ -16,6 +16,10 @@ To create a rule, there are two options. Either you create it via the UI, or via
 
 # Create a rule in the PIM UI
 
+:::warning
+To be able to create/edit rules, you need to have the right permissions. To manage your permissions, please go to `System/Roles`, select the appropriate role and then, click on `Permissions/Rules`, and tick `Create rules` and/or `Edit rules`.
+:::
+
 To create a rule via the UI, go to `Settings/Rules` and click on `Create`. A creation popin appears. Choose a **code** and a **label** to name your rule, then validate. You rule is created! You can now define your product selection and the action.s you want to apply to your selection. Let's go!
 
 Once your rule is created, the rule edit screen appears. On this screen, you can see two tabs: the `rule builder` and `properties`. In the `Properties` tab, you can define the [priority](what-is-a-rule.html/definition-of-a-rule) of your rule, but also its label translations. These fields can be updated afterward. The code is the only part that is immutable.
@@ -45,7 +49,7 @@ At the top of the list, you will find the system fields and below, all the attri
 
 Let's see how a line is organized.
 
-On the left, you will find the **system** or **attribute** you chose. It is written in purple.
+On the left, you will find the **system** fields or **attribute** you chose. It is written in purple.
 Then, you have to choose an **operator**. Depending on the filter, the operator list changes.
 The next fields vary depending on your filter. There can be up to 3 types of fields. You can have the **value** field. For example, if your filter is a multi-select attribute type, you can choose which options you want to filter on.
 
@@ -78,22 +82,24 @@ Depending on the action you choose, the template changes. The table below lists 
 | Set categories  | Classify your products/product models in the categories you choose, and **remove** them from their former categories.  |
 | Add categories  | Add your products/product models to new categories, **without removing** them from their former categories.  |
 | Set family  | Replace your products/product models family |
-| Clear attribute value  | Delete values from an attribute on your products/product models selection  |
-| Clear associations  | Delete all the associations of your products/product models selection  |
+| Clear attribute value  | Delete values from an attribute on your product/product models selection  |
+| Clear associations  | Delete all the associations of your product/product models selection  |
 | Clear groups  | Delete all the groups of your product selection (product models don't have groups) |
 | Clear categories  | Delete all the categories of your product/product model selection  |
-| Set attribute value  | Replace the attribute value of your products/product models selection  |
+| Set attribute value  | Replace the attribute value of your product/product models selection  |
+| Copy attribute value  | Copy the value from an attribute to another one  |
+| Remove categories  | Remove the categories of your product/product model selection  |
 
 ## Different use cases
 As explained earlier, some conditions/actions are not available in the UI yet. It means that you are not able to build all the rules you want via the PIM, and you may need to use the YML file import to do so. Let's see what happens in the following scenarios.
 
 ### All the conditions/actions you need are available in the UI
 The conditions/actions that are available right now cover 80% of our clients use cases. It means that 80% of our clients' rules can be managed directly in the UI.
-For example, you can **categorize** all the products/product models that are in the **"accessories" family**, and which have an empty `description` attribute.
-To do so, you must add two conditions. One on family, and another one on the description attribute.
+For example, you can **categorize** all the products/product models that are in the **"accessories" family**, and which have an empty `marketing_description` attribute in the `en_US` locale and `ecommerce` channel.
+To do so, you must add two conditions. One on `family`, and another one on the `marketing_description` attribute.
 Then, add the `Set category` action, and choose the category tree and the category.
 
-SCREENSHOT
+![image](../img/Rules_UsecaseFullUI.png)
 
 ### Some conditions/actions are missing in the UI for now
 If you need to build a rule using filters/actions that are not available in the UI yet, you must use the YML file import to create the rule. Then, when you import this file, your rule appears in the rules grid. You can open it and from the UI, you will be able to edit the conditions/actions that were available but not the ones you just added via your YML import.
@@ -102,22 +108,22 @@ Let's see how it is displayed in the UI after a YML import.
 #### If your condition is not available in the UI yet
 If your conditions are composed of system fields (for instance: `status`) or attribute types (for instance: `asset collection`) that we don't manage in the UI, these conditions will be displayed in a read only mode.
 
-SCREENSHOT
+![image](../img/Rules_UsecaseConditionsYML.png)
 
 #### If your action is not available in the UI yet
 The action will be displayed in a read only mode.
 
-If your action is composed of system fields (for instance: `status`) or attribute types (for instance: `asset collection`) that we don't manage in the UI, these actions will be displayed in a read only mode.
-
-SCREENSHOT
+![image](../img/Rules_UsecaseActionYML.png)
 
 #### If in the UI, your action is available but the attribute used in this action isn't
-For example, you needed to use a `set attribute value` action (already available), and a target attribute that is not supported yet such as an `asset collection`. Therefore you previously imported your rule via YML. In this case, you will only be able to edit **the attribute types that were already available in the UI**. You won't see the other attribute types, such as the asset collection in our example.
+If your action is composed of system fields or attribute types that we don't manage in the UI for now, these actions will be displayed in a read only mode.
 
-SCREENSHOT
+For example, you needed to use a `set attribute value` action (already available), and a target attribute that is not supported yet such as a `boolean`. Therefore you previously imported your rule via YML.
+
+![image](../img/Rules_UsecaseAttributeNotManaged.png)
 
 # Create rules via a YML import
-To create rules using a YML file, you need to create it like explained in [this](get-started-with-the-rules-engine.html) article and import it in the PIM using the `Rule import in YML` import job.
+To create rules using a YML file, you need to [create](get-started-with-the-rules-engine.html) it and import it in the PIM using the `Rule import in YML` import job.
 
 ::: info
 For more details about how to execute an import, please refer to [Import your data](imports.html).
