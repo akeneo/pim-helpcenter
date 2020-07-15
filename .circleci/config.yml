@@ -17,11 +17,10 @@ jobs:
                   command: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT FIREBASE_TOKEN=$FIREBASE_TOKEN make deploy-firebase-functions
             - run:
                   name: Push announcements of communication pannel of the PIM into firestore
-                  command: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS="$STAGING_GOOGLE_APPLICATION_CREDENTIALS" ONLY_PREVIOUS_MONTH_UPDATES=true make push-announcements
+                  command: FIREBASE_PROJECT=$PROD_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS="$PROD_GOOGLE_APPLICATION_CREDENTIALS" ONLY_PREVIOUS_MONTH_UPDATES=true make push-announcements
             - run:
                   name: Push serverless functions into firebase to expose communication panel API
-                  command: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT FIREBASE_TOKEN=$FIREBASE_TOKEN make deploy-firebase-functions
-
+                  command: FIREBASE_PROJECT=$PROD_FIREBASE_PROJECT FIREBASE_TOKEN=$FIREBASE_TOKEN make deploy-firebase-functions
     deploy_staging:
         machine:
             image: ubuntu-1604:201903-01

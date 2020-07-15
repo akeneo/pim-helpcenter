@@ -59,7 +59,7 @@ test('It returns true when there are new announcements to notify with end date i
         }
     };
 
-    functions['has-new-announcements'](req, res);
+    functions.hasNewAnnouncements(req, res);
 });
 
 test('It returns true when there are new announcements to notify with start date included.', async done => {
@@ -87,7 +87,7 @@ test('It returns true when there are new announcements to notify with start date
         }
     };
 
-    functions['has-new-announcements'](req, res);
+    functions.hasNewAnnouncements(req, res);
 });
 
 test('It returns false when there are not any new announcements to notify.', async done => {
@@ -115,7 +115,7 @@ test('It returns false when there are not any new announcements to notify.', asy
         }
     };
 
-    functions['has-new-announcements'](req, res);
+    functions.hasNewAnnouncements(req, res);
 });
 
 async function getIdsInFirestore(firebase, collectionName) {
