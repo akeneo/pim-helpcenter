@@ -65,7 +65,7 @@ exports.announcements = functions.region('europe-west1').https.onRequest(async (
         });
 });
 
-exports['has-new-announcements'] = functions.region('europe-west1').https.onRequest(async (request, response) => {
+exports.hasNewAnnouncements = functions.region('europe-west1').https.onRequest(async (request, response) => {
     if (request.query.pim_edition === undefined) {
         response.status(400).send('Missing "pim_edition" query parameter.');
 
