@@ -22,7 +22,7 @@ To be able to create/edit rules, you need to have the right permissions. To mana
 
 To create a rule via the UI, go to `Settings/Rules` and click on `Create`. A creation popin appears. Choose a **code** and a **label** to name your rule, then validate. You rule is created! You can now define your product selection and the action.s you want to apply to your selection. Let's go!
 
-Once your rule is created, the rule edit screen appears. On this screen, you can see two tabs: the `rule builder` and `properties`. In the `Properties` tab, you can define the [priority](what-is-a-rule.html/definition-of-a-rule) of your rule, but also its label translations. These fields can be updated afterward. The code is the only part that is immutable.
+Once your rule is created, the rule edit screen appears. On this screen, you can see two tabs: the `rule builder` and `properties`. In the `Properties` tab, you can define the [priority](what-is-a-rule.html#definition-of-a-rule) of your rule, but also its label translations. These fields can be updated afterward. The code is the only part that is immutable.
 
 ## The Rule builder tab
 
