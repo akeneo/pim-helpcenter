@@ -55,7 +55,7 @@ To create a 2-way association type:
 1.  Set the "2-way association" switch to "Yes"
 1.  Click on `Save`
 
-![image](../img/Settings_Associations_2-way-association-type.png)
+![2-way association type](../img/Settings_Associations_2-way-association-type.png)
 
 ::: success
 The association type has now been created and the edit page is displayed.  
@@ -73,6 +73,8 @@ To create an association type with quantities:
 1.  Select the code of the association type you want to create
 1.  Set the "Association with quantity" switch to "Yes"
 1.  Click on `Save`
+
+![Association type with quantities](../img/Settings_Associations_Association-type-with-quantities.png)
 
 ::: success
 The association type has now been created and the edit page is displayed.  
