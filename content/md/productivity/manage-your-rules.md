@@ -137,7 +137,7 @@ You can search on the rule code or label.
 
 In the last column, there is a tag. Thanks to these tags, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) :wink:
 
-# Calculate the number of impacted products for rules
+# Calculate the number of impacted products per rule
 
 To help you define the conditions for your rules and validate them, you can calculate the number of matching products that the rule will process.
 
@@ -206,7 +206,7 @@ A deleted rule can no longer be executed by the rules engine. The products keep 
 
 ## Delete a single rule
 
-To delete a rule, click on the `Delete` button at the end of each line in the grid.  
+To delete a rule, click on `Delete` at the end of each line in the grid.  
 A confirmation message validates the action of deleting a rule.
 
 ![image](../img/Settings_RulesDeleteHover.png)
