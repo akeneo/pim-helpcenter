@@ -29,7 +29,7 @@ Once your rule is created, the rule edit screen appears. On this screen, you can
 This screen is the most important one as this is where you can manage your conditions and actions.
 
 :::warning
-This screen is still under development, mind you! All the filters and actions are not available in the UI yet. Don't worry, you can still use the [import job](##create-rules-via-a-YML-import) to create rules based on filters/actions that you can't find in the UI for now. When the filters/actions are not available, we display a mini-helper to inform you.
+This screen is still under development, mind you! All the filters and actions are not available in the UI yet. Don't worry, you can still use the [import job](manage-your-rules.html#create-rules-via-a-yml-import) to create rules based on filters/actions that you can't find in the UI for now. When the filters/actions are not available, we display a mini-helper to inform you.
 :::
 
 The first thing to do is to filter the products you want to update with this rule. To do so, there are a bunch of filters available under the `Add condition` button.
