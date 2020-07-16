@@ -99,3 +99,26 @@ For **variant products**:
 ![Image data quality variant panel](../img/data-quality-variant-panel.png)
 - Data quality grades are calculated on the attributes that can be improved at all levels hence reflecting the data quality of the product that will be published. Data quality grades are therefore displayed in the left side bar only for product variant.
 - Recommendations are given for all attributes by clicking on an attribute name, you can go and improve an attribute in the product model, the sub-product model or the variant product.
+
+# Improve data quality on attribute labels and Options
+
+From the `Settings` you can check and improve the data quality of your attribute labels and options.
+
+![Image data quality attribute grid](../img/data-quality-attribute-grid.png)
+
+In the 'quality' column, you can view whether the data quality for your attribute is "Good" or "To improve".
+If the status is "To improve", you may need to correct either attribute labels for one or several locales and/or attribute options for one or several locales.
+
+![Image data quality spell-check in attribute option](../img/data-quality-spelling-option.png)
+
+To do so, it’s very easy:
+1. Click on the attribute with the "To improve status"
+2. View the number of errors you need to correct in the `òptions` and `labels` tabs of the attribute screen
+3. Use the spell-check suggestions to correct them
+4. Save your changes
+
+![Image data quality spell-check in attribute option](../img/data-quality-attribute-helper.png)
+
+::: info
+A helper indicates you how many products are impacted by the errors you are about to correct.
+:::
