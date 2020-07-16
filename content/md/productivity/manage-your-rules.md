@@ -202,7 +202,7 @@ You can also execute several rules at the same time:
 1.  Then confirm the action in the pop in
 1.  A flash message confirming the action will be displayed and you will be notified once the execution is done
 
-![image](../img/RulesExecutionNotif.png)
+![image](../img/Rules_BulkExecution.png)
 
 # Delete rules
 
