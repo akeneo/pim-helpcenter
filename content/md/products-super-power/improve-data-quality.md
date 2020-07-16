@@ -76,7 +76,7 @@ Title formatting suggestion is available for English locales.
 Even if they don't have permission to edit, all PIM users will be able to read data quality insights on all attributes.
 :::
 
-From the `data quality panel`, you can view attribute labels and options with spelling mistakes. By clicking on the link, you are led to the **settings** screen from which you can correct these mistakes hence improving your consistency grade.
+From the `data quality panel`, you can view attribute labels and options with spelling mistakes. By clicking on the link, you land on the **settings** screen from which you can correct these mistakes hence improving your consistency grade.
 
 ![Image data quality spellcheck on attribute](../img/data-quality-attribue-spelling.gif)
 
