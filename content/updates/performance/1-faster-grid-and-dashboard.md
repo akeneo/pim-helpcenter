@@ -1,5 +1,5 @@
 # Faster grid and dashboard
-::: meta-data eeOnly="true" since-version="3.0"
+::: meta-data eeOnly="false" since-version="3.0"
 
 The product grid is the most used screen by our dear Julias. This crucial screen will now be able to scale to more categories, more products and product data. The product grid now loads in less than 2 seconds with 1,000,000
 products and 20,000 categories.

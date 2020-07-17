@@ -1,5 +1,5 @@
 # Family in the product model endpoints
-::: meta-data eeOnly="true" since-version="3.2"
+::: meta-data eeOnly="false" since-version="3.2"
 
 The API now includes the product model family in the product model format. You'll find it in the `family` property.
 
