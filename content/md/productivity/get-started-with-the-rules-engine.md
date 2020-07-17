@@ -225,7 +225,7 @@ For instance, the following actions will **disable** the product and set its **f
 #### Set associations
 
 Just like for the add action, you can choose to associate any combination of **products**, **product_models** or **groups** for each association type.
-You can decide which associated **products**, **product_model** or **groups** you want to update. The other ones will not be updated.
+You can decide which associated **products**, **product_models** or **groups** you want to update. The other ones will not be updated.
 
 In the example below, you can see that the following action will **replace the associated products** for the `X_SELL` association, but **won't replace associated product models or groups**.  
 And for the `UPSELL` association, it will **replace the associated product models and groups but not the associated products**.
@@ -325,9 +325,20 @@ The expected values are:
 - `field`: the attribute code.
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
-- For the `date` attribute: the format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
-- For the `price collection` attribute: the currency code for which the price is assigned (optional). By default, all the prices in the collection are displayed, separated by a comma.
-- For `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes: in *label_locale*, the expected value is the locale code for the label of the option or record (optional). By default, the code of the option is used.
+- `format`: format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (optional, only relevant for `date` attributes). By default, it is *Y-m-d* (e.g. *2020-01-31*)
+- `currency`: the currency code for which the price is assigned (optional, only relevant for `price_collection` attributes). By default, all the prices in the collection are displayed, separated by a comma.
+- `label_locale`: the locale code for the label of the option or record (optional, only relevant for `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes). By default, the code of the option is used. Here is an example:
+```YML
+  actions:
+    - type: concatenate
+      from:
+          - field: brand
+          - field: color
+            label_locale: en_US
+          - field: name
+            scope: ecommerce
+            locale: en_US
+```
 
 **`to`**
 - `field`: the attribute code.
@@ -359,7 +370,7 @@ The expected values are:
 
 ### Examples
 
-To clear the model in `en_US` locale, the action will be as follows:
+To clear the brand in `en_US` locale, the action will be as follows:
 
 ```YML
   actions:
