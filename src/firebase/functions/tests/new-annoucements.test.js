@@ -34,7 +34,7 @@ afterEach(async () => {
     firebaseTest.delete();
 });
 
-test('It returns true when there are new announcements to notify with end date included.', async done => {
+test('It returns the id of the announcements when the current date equals the end date.', async done => {
     jest
         .spyOn(global.Date, 'now')
         .mockImplementation(() =>
@@ -54,15 +54,15 @@ test('It returns true when there are new announcements to notify with end date i
             return res;
         },
         send: (body) => {
-            expect(body).toStrictEqual({'status': true});
+            expect(body).toStrictEqual(['id_1']);
             done();
         }
     };
 
-    functions.hasNewAnnouncements(req, res);
+    functions.new_announcements(req, res);
 });
 
-test('It returns true when there are new announcements to notify with start date included.', async done => {
+test('It returns the id of the announcements when the current date equals the start date.', async done => {
     jest
         .spyOn(global.Date, 'now')
         .mockImplementation(() =>
@@ -82,15 +82,15 @@ test('It returns true when there are new announcements to notify with start date
             return res;
         },
         send: (body) => {
-            expect(body).toStrictEqual({'status': true});
+            expect(body).toStrictEqual(['id_1']);
             done();
         }
     };
 
-    functions.hasNewAnnouncements(req, res);
+    functions.new_announcements(req, res);
 });
 
-test('It returns false when there are not any new announcements to notify.', async done => {
+test('It returns nothing when there are no new announcement between the start date and the end date.', async done => {
     jest
         .spyOn(global.Date, 'now')
         .mockImplementation(() =>
@@ -110,12 +110,12 @@ test('It returns false when there are not any new announcements to notify.', asy
             return res;
         },
         send: (body) => {
-            expect(body).toStrictEqual({'status': false});
+            expect(body).toStrictEqual([]);
             done();
         }
     };
 
-    functions.hasNewAnnouncements(req, res);
+    functions.new_announcements(req, res);
 });
 
 async function getIdsInFirestore(firebase, collectionName) {
