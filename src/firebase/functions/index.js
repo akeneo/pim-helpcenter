@@ -62,7 +62,7 @@ exports.announcements = functions.region('europe-west1').https.onRequest(async (
         });
 });
 
-exports.hasNewAnnouncements = functions.region('europe-west1').https.onRequest(async (request, response) => {
+exports.new_announcements = functions.region('europe-west1').https.onRequest(async (request, response) => {
     if (request.query.pim_edition === undefined) {
         response.status(400).send('Missing "pim_edition" query parameter.');
 
@@ -85,16 +85,16 @@ exports.hasNewAnnouncements = functions.region('europe-west1').https.onRequest(a
         .limit(1)
         .get()
         .then(snapshot => {
-            let hasNew = false;
+            let newAnnouncements = [];
 
             // it is not possible to filter with two range operators in firebase, so it simulates it
             snapshot.forEach(announcement => {
                 if (announcement.data().startDate <= formattedCurrentDate  ) {
-                    hasNew = true;
+                    newAnnouncements.push(announcement.data().id);
                 }
             });
 
-            return response.status(200).send({'status': hasNew})
+            return response.status(200).send(newAnnouncements)
         })
         .catch(err => {
             console.error('An error occurred when requesting to know if there are new announcements.', err);
