@@ -325,9 +325,9 @@ The expected values are:
 - `field`: the attribute code.
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
-- For the `date` attribute: the format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
-- For the `price collection` attribute: the currency code for which the price is assigned (optional). By default, all the prices in the collection are displayed, separated by a comma.
-- For `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes: in *label_locale*, the expected value is the locale code for the label of the option or record (optional). By default, the code of the option is used. Here is an example:
+- `format`: format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (optional, only relevant for `date` attributes). By default, it is *Y-m-d* (e.g. *2020-01-31*)
+- `currency`: the currency code for which the price is assigned (optional, only relevant for `price_collection` attributes). By default, all the prices in the collection are displayed, separated by a comma.
+- `label_locale`: the locale code for the label of the option or record (optional, only relevant for `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes). By default, the code of the option is used. Here is an example:
 ```YML
   actions:
     - type: concatenate
