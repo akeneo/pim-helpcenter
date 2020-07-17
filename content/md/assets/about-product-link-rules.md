@@ -144,7 +144,7 @@ If your product link rule happened to change afterward, you could easily execute
 You can define the product link rules via the [API](#https://api.akeneo.com/documentation/asset-manager.html#introduction) or directly in the PIM user interface, by editing a JSON field. The format is exactly the same in the API and in the PIM interface.
 
 ::: warning
-To use the product link rules on product models, you should use the "identifier" of the model in the `field` of the product selections part.
+To use the product link rules on product models, you should use `identifier` as value for the `field` key of the product selections part.
 :::
 
 ::: info

@@ -97,7 +97,7 @@ If you do not see `+` icon, you might not have the appropriate rights to add an 
 
 ## Work with assets in an asset collection attribute _(EE only)_
 
-In the product form, there is a new "Assets" tab in which you will retrieve all the asset collections of your product. It means that the assets will not be mixed with other values of the product. The asset collections also have a brand new design, here is how it looks:
+In the product form, there is a new "Assets" tab in which you will retrieve all the asset collections of your product. It means that the assets will not be mixed with other values of the product. Here is how the asset collection attribute looks:
 
 ![asset_collection_attribute](../img/Assets_AssetCollectionAttribute.png)
 
@@ -105,6 +105,10 @@ To know how to add an Asset Collection attribute type, you can read [this articl
 
 :::info
 When you create an Asset Collection, you must choose the asset family linked to this attribute. It means that, for each Asset Collection, you will use assets that come from one and only asset family.
+:::
+
+:::warning
+You can't add more than 50 assets in each asset collection.
 :::
 
 In the following section, you will discover all the features that are available around this attribute.  
