@@ -35,11 +35,11 @@ Only the associated products or [product models](what-about-products-variants.ht
 ![View the associated products](../img/Products_ProductsAssociated21.png)
 
 The total number of associations is displayed per product or product model (the figure is visible after the `Associations` tab label) and per association type (figure visible in the `Association type` list).
-![View the number of associations](../img/Products_ProductsAssociatedNumber.png)
+![View the number of associations](../img/Products_Products_Associated_Figures.png)
 
 By default, if the product has no association for the selected association type, nothing is displayed in the `Associations` tab.
 
-![No association](../img/Products_ProductsNoAssociation.png)
+![No association](../img/Products_Products_No_Association.png)
 
 # Open an associated product
 1.  Open the relevant product edit form
