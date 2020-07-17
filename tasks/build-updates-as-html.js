@@ -37,7 +37,7 @@ md
             if(tokens[idx].nesting === 1) {
                 var eeOnly = metaData[1];
                 var sinceVersion = metaData[2];
-                if(eeOnly){
+                if(eeOnly === "true"){
                     html += '<p><em class="small text-primary">In Enterprise Edition only since </em> <span class="label label-version">' + sinceVersion + '</span>';
                 } else {
                     html += '<p><em class="small text-primary">In Enterprise & Community Editions since </em> <span class="label label-version">' + sinceVersion + '</span>';
