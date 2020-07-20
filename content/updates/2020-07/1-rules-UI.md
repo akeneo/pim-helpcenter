@@ -1,5 +1,5 @@
 ---
-pim_announcement_img: 
+pim_announcement_img:
 pim_announcement_alt_img: "The UI to manage the rules"
 pim_announcement_audience:
 - EE
@@ -15,7 +15,7 @@ Indeed, this feature allows you to automate actions on a selection of products/p
 Thanks to this brand new user interface, you'll be able to create/update your rules with only some clicks :wink:.
 
 ::: more
-[How to manage my rules?](../articles/manage-your-rules.html)
+[How to manage my rules?](../articles/manage-your-rules.html)  
 [What is a rule?](../articles/what-is-a-rule.html)  
 [What is the rules engine?](../articles/get-started-with-the-rules-engine.html)   
 :::
