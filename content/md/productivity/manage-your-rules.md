@@ -103,7 +103,7 @@ Depending on the action you choose, the template changes. The table below lists 
 | Set attribute value  | Replace the attribute value of your product/product models selection  |
 | Copy attribute value  | Copy the value from an attribute to another one  |
 | Remove categories  | Remove the categories of your product/product model selection  |
-| Set attribute values  | Set options to a multi select, number or boolean attribute. It will remove the former ones |
+| Set attribute values  | Set values to a multi select, number or boolean attribute. It will remove the former values |
 | Remove attribute values  | Remove values from a multi select attribute  |
 
 
