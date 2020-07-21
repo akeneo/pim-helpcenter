@@ -1,5 +1,5 @@
 ---
-pim_announcement_img:
+pim_announcement_img: ./img/Rules_UI.png
 pim_announcement_alt_img: "The UI to manage the rules"
 pim_announcement_audience:
 - EE
