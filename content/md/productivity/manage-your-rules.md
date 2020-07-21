@@ -66,7 +66,7 @@ You can use the following system fields and attribute types as `conditions` to s
 
 - Categories
 - Family
-- Multi-select attribute
+- Multi select attribute
 - Simple select attribute
 - Text attribute
 - Number attribute
@@ -103,8 +103,8 @@ Depending on the action you choose, the template changes. The table below lists 
 | Set attribute value  | Replace the attribute value of your product/product models selection  |
 | Copy attribute value  | Copy the value from an attribute to another one  |
 | Remove categories  | Remove the categories of your product/product model selection  |
-| Set attribute values  | Set options to a multi-select attribute, set value to a number attribute, set value to a boolean attribute. It will remove the former ones |
-| Remove attribute values  | Remove values from a multi-select attribute  |
+| Set attribute values  | Set options to a multi select, number or boolean attribute. It will remove the former ones |
+| Remove attribute values  | Remove values from a multi select attribute  |
 
 
 ## Different use cases
