@@ -2,16 +2,23 @@ const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 admin.initializeApp();
 const defaultCollectionName = 'announcements';
-const defaultLimit = 10;
+const defaultLimit = 5;
 
-exports.announcements = functions.region('europe-west1').https.onRequest(async (request, response) => {
+/**
+ * Configuration is set with us-central1 because it's the only supported version for now.
+ *
+ * @see https://firebase.google.com/docs/hosting/full-config#direct_requests_to_a_function
+ *
+ * @type {TriggerAnnotated & ((req: e.Request, resp: e.Response) => (void | Promise<void>))}
+ */
+exports.announcements = functions.region('us-central1').https.onRequest(async (request, response) => {
     if (request.query.pim_edition === undefined) {
         response.status(400).send('Missing "pim_edition" query parameter.');
 
         return;
     }
 
-    const limit = request.query.limit !== undefined && !isNaN(parseInt(request.query.limit)) && parseInt(request.query.limit) < 20 ? parseInt(request.query.limit) : defaultLimit;
+    const limit = request.query.limit !== undefined && !isNaN(parseInt(request.query.limit)) && parseInt(request.query.limit) < 10 ? parseInt(request.query.limit) : defaultLimit;
 
     // Allow to request on another collection for the tests
     const collectionName = request.query.collection_name_suffix === undefined ? defaultCollectionName : defaultCollectionName + request.query.collection_name_suffix;
@@ -62,7 +69,12 @@ exports.announcements = functions.region('europe-west1').https.onRequest(async (
         });
 });
 
-exports.new_announcements = functions.region('europe-west1').https.onRequest(async (request, response) => {
+/**
+ * Configuration is set with us-central1 because it's the only supported version for now.
+ *
+ * @see https://firebase.google.com/docs/hosting/full-config#direct_requests_to_a_function
+ */
+exports.new_announcements = functions.region('us-central1').https.onRequest(async (request, response) => {
     if (request.query.pim_edition === undefined) {
         response.status(400).send('Missing "pim_edition" query parameter.');
 
