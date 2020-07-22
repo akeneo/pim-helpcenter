@@ -2,7 +2,8 @@
 ::: meta-data type="Improvement" features="Data Quality Insights" available="early July" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
 :::
 
-We keep on adding new features to help you improve your data quality. To garantee consistency on your customer-facing product data, we introduced spell-check in category names, attribute and options labels.
+You can now benefit from spell-checking on category names, attributes and option labels to guarantee consistency on your customer-facing product data.
+
 You can now check spelling mistakes and correct them in your categories and attributes data quality in the `Settings`. 
 This improvement is also available in the `Product Edit Form`. New recommendations are listed should we find errors. The better the content, the higher the consistency grade :wink:
 
