@@ -29,7 +29,7 @@ From the `data quality insights` panel, by clicking on the "Display all missing 
 # How is consistency calculated?
 
 The **consistency grade** is calculated on several criteria. The mix of the following criteria helps the PIM determine the grade for consistency:
-- Spell check: localizable text and text areas are checked for spelling mistakes.
+- Spell check: localizable text and text areas, attribute labels and attribute options are checked for spelling mistakes.
 - Title formatting: the attribute used as **main label** is checked to optimize writing.
 - Uppercases formatting: the PIM checks whether text area attributes are correctly formatted for upper cases.
 - Lowercases formatting: the PIM checks whether text area attributes are correctly formatted for lower cases.
@@ -37,6 +37,7 @@ The **consistency grade** is calculated on several criteria. The mix of the foll
 ::: info
 Spell check is available for the English, French, German, Spanish, Italian, Dutch, Danish, Swedish, Norwegian and Portuguese (Brazilian) locales.
 Spell check is usable with localizable text and text area attributes.
+If you use a single locale, then spell check is usable on text and text area attributes.
 :::
 
 ::: info
