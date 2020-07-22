@@ -30,7 +30,6 @@ From the `data quality insights` panel, by clicking on the "Display all missing 
 
 The **consistency grade** is calculated on several criteria. The mix of the following criteria helps the PIM determine the grade for consistency:
 - Spell check: localizable text and text areas, attribute labels and attribute options are checked for spelling mistakes.
-- Title formatting: the attribute used as **main label** is checked to optimize writing.
 - Uppercases formatting: the PIM checks whether text area attributes are correctly formatted for upper cases.
 - Lowercases formatting: the PIM checks whether text area attributes are correctly formatted for lower cases.
 
@@ -40,16 +39,8 @@ Spell check is usable with localizable text and text area attributes.
 If you use a single locale, then spell check is usable on text and text area attributes.
 :::
 
-::: info
-Title formatting suggestions are available for English locales. In order to check title formatting, the attribute must be a localisable text attribute.
-:::
-
 ::: tips
 From the `data quality insights` panel, by clicking on the "Display all improvable attributes", you can easily access a product edit form filtered on all the attributes that need to be checked for consistency.
-:::
-
-::: success
-To take full advantage of the Title formatting criteria, set your product title attribute as the **main label**.
 :::
 
 # Where to see data quality grades?
@@ -80,13 +71,6 @@ There are several types of recommendations:
 - "Attribute label": attribute labels are clickable so you can improve them easily.
 - "N/A": if the recommendation is "N/A" (Not Applicable) it means that the criteria is not relevant for the given product. For example, "N/A" will be displayed for spell-check if you don't have any localizable text or text area attributes.
 - "In progress": the criteria is being checked.
-
-![Image data quality panel](../img/data-quality-panel_inprogress.png)
-
-
-::: info
-Checking the quality of the **Title formatting** attribute can take up to 30 minutes. A global consistency grade is given during the process to give immediate feedback on the other criteria.
-:::
 
 # How often are the data quality grades refreshed?
 The grades are updated:
