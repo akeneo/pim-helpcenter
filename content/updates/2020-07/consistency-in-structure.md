@@ -4,7 +4,7 @@
 
 You can now benefit from spell-checking on category names, attributes and option labels to guarantee consistency on your customer-facing product data.
 
-You can now check spelling mistakes and correct them in your categories and attributes data quality in the `Settings`. 
+You can now check spelling mistakes and correct them in your categories and attributes data quality in the `Settings` pages. 
 This improvement is also available in the `Product Edit Form`. New recommendations are listed should we find errors. The better the content, the higher the consistency grade :wink:
 
 
