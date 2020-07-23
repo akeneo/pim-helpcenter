@@ -36,8 +36,8 @@ test-firebase-functions: firebase-install
 	$(DOCKER_RUN) -e GOOGLE_APPLICATION_CREDENTIALS="/opt/workdir/service-account-file.json" -e FIRESTORE_URL="https://$(FIREBASE_PROJECT).firebaseio.com" -w /opt/workdir/src/firebase/functions  $(DOCKER_IMAGE_TAG) npm run test
 
 deploy: build
-	$(DOCKER_RUN) -v /etc/passwd:/etc/passwd:ro -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/pim/serenity/ akeneo@$${HOSTNAME}:/home/akeneo/pim/serenity
-	$(DOCKER_RUN) -v /etc/passwd:/etc/passwd:ro -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az dist/pim/versions.json akeneo@$${HOSTNAME}:/home/akeneo/pim/versions.json
+	$(DOCKER_RUN) -v /etc/passwd:/etc/passwd:ro -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/pim/serenity/ akeneo@$${HOSTNAME}:/var/www/html/pim/serenity
+	$(DOCKER_RUN) -v /etc/passwd:/etc/passwd:ro -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az dist/pim/versions.json akeneo@$${HOSTNAME}:/var/www/html/pim/versions.json
 
 push-announcements: build
 	bash -c 'echo -E $$GOOGLE_APPLICATION_CREDENTIALS > ./service-account-file.json' # use bash version of echo to print correctly \n
