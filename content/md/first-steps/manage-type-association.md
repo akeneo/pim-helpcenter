@@ -12,19 +12,18 @@ Associations types are used to link products together.
 
 For example, you can link a product to its accessories. The code for this association type could be “ACCESSORIES”.
 
-There are two different association types:
-*   The 1-way association (product A is associated with product B).
+There are three different association types:
+*   The 1-way association (when product A is associated with product B).
 *   The 2-way association (when product A is associated with product B, then product B will be automatically associated with product A).
+*   The association with quantities (when product A is associated with 2 quantities of product B and with 3 quantities of product C).
 
 :::info
 The association types are mandatory to create a link between two products. There is no default association types.
 :::
 
-![image](../img/Settings_AssociationsTypes.png)
+![Association types list](../img/Settings_Associations_Types.png)
 
 Once you have created an association type between products, it can be used while editing a product (in the tab `Associations`).
-
-![image](../img/Products_PEF7.png)
 
 # View the association types
 
@@ -33,7 +32,7 @@ Read our [Association types](manage-your-association-types.html) section to find
 # Create an association type
 
 :::info
-You must have the permission to create an association type from the PIM.
+You must have permission to create an association type from the PIM.
 :::
 
 ## Create a 1-way association type
@@ -41,30 +40,49 @@ You must have the permission to create an association type from the PIM.
 To create a 1-way association type:
 1.  Click on `Create association type`
 1.  Fill in the code of the association type you want to create
-1.  Click on Save
+1.  Click on `Save`
 
 ::: success
 The association type has now been created and the edit page is displayed.  
-The labels can be changed.
+You can only edit the labels.
 :::
 
 ## Create a 2-way association type
 
 To create a 2-way association type:
 1.  Click on `Create association type`
-1.  Select the code of the association type you want to create
-1.  Set the "2-way association" button to "Yes"
-1.  Click on Save
+1.  Fill in the code of the association type you want to create
+1.  Set the "2-way association" switch to "Yes"
+1.  Click on `Save`
 
-![image](../img/Settings_Associations_2-way-association-type.png)
+![2-way association type](../img/Settings_Associations_2-way-association-type.png)
 
 ::: success
 The association type has now been created and the edit page is displayed.  
-The labels can be changed.
+You can only edit the labels.
 :::
 
 :::warning
 The 2-way association property cannot be updated once the association type is created.
+:::
+
+## Create an association type with quantities
+
+To create an association type with quantities:
+1.  Click on `Create association type`
+1.  Select the code of the association type you want to create
+1.  Set the "Association with quantity" switch to "Yes"
+1.  Click on `Save`
+
+![Association type with quantities](../img/Settings_Associations_Association-type-with-quantities.png)
+
+::: success
+The association type has now been created and the edit page is displayed.  
+You can only edit the labels.
+:::
+
+:::warning
+The association with quantities property cannot be updated once the association type is created.
 :::
 
 # Edit an association type
@@ -74,11 +92,11 @@ To edit an association type:
 1.  Click on the association type you want to edit in the grid
 1.  The edit form appears
 1.  Only the labels can be edited for a type of association  
-1.  Click on the `Save` button to save your changes
+1.  Click on `Save`
 
 ::: warning
 You cannot change the code once you created the association type.    
-Neither will you be able to update the 2-way association. 
+The association type is unmodifiable. It is not possible to change it to a 2-way association or to an association with quantities.
 :::
 
 # Delete an association type

@@ -5,3 +5,5 @@
 .DS_Store
 /tmp/
 .env
+service-account-file.json
+package-lock.json

@@ -152,9 +152,11 @@ You can filter on the following attribute information:
 - The attribute code
 - The attribute type
 - The attribute group it belongs to
+- The family it belongs to
 - The `scopable` property (one value per channel)
 - The `localizable` property (one value per locale)
 - The `smart` property (Yes/No) if there is a rule impacting this attribute _(Enterprise Edition only)_
+- The `quality` status (Good/To improve) if there are spelling typos to correct _(Enterprise Edition only)_
 
 ::: info
 By default, attributes will be displayed in the catalog locale selected in the product grid. If an attribute code appears into brackets like *[color]*, it means it has not been translated into the current locale.
@@ -187,29 +189,26 @@ To manage your simple and multi selects attribute options, remove an option or a
 
 1. Click on `Add an option` button
 1. Give a unique code to the new option
-1. Click on the green checkmark at the end of the option line to confirm the creation or on the cross to cancel the option's creation.
-
-![image](../img/Settings-AttributesAddOption.gif)
+1. Click on the `Done` button
 
 The option is instantly created.
 
 ::: warning
-You can **add and update many lines at once but you will have to save each line before leaving the page**.
 You cannot use the main `Save` button to record your new options.
 :::
 
 ## Edit option labels
 
-1.  Click on the small pencil icon change the option label(s) or code
-1.  Click on the green checkmark to confirm or on the cross to cancel
+1.  Click on the option name in the left column of the screen
+1.  Edit the labels you wish to update
+1.  Click on the `Done` button
 
-![image](../img/Settings_Attributes_OptionsEdit.png)
 
 ## Delete an option
 
-Click on the `Delete` button to remove an option
+1.  Roll-over the option name in the left column of the screen  
+1.  Click on the cross at the end of the blue line
 
-![image](../img/Settings_Attributes_OptionsDelete.png)
 
 ::: warning
 A deleted option can no longer be used as a value for the attribute of a product. If a product had this value, it will be removed from the product's attribute.
@@ -227,8 +226,6 @@ An option that is used by a published product cannot be deleted. Unpublish the p
 
 Options can be **automatically sorted by alphabetical order** using the toggle button `Sort automatically options by alphabetical order` on the top of the attribute's options page.    
 If you want to define your own sort, you **can drag and drop option rows to reorder options manually**.
-
-![image](../img/Settings_AttributesDraganddropOption.gif)
 
 # Manage rules on attributes _(EE only)_
 

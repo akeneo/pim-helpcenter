@@ -1,3 +1,9 @@
+---
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # New measurement units and families
 ::: meta-data type="Improvement" features="Measurements, Data Governance" available="mid-March"
 :::

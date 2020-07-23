@@ -1,3 +1,8 @@
+---
+pim_announcement_audience:
+- EE
+---
+
 # Data quality improvements
 To help you craft the best product information ever, Data Quality Insights recommendations and grades are now available for variant products and our spell-check feature supports additional languages!
 

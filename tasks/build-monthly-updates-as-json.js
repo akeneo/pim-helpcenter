@@ -1,3 +1,4 @@
+const fs = require('fs');
 const gulp = require('gulp');
 const tap = require('gulp-tap');
 const markdownIt = require('markdown-it');
@@ -5,7 +6,11 @@ const markdownToc = require('markdown-it-toc-and-anchor').default;
 const frontMatter = require('gulp-front-matter');
 const through = require('through2').obj;
 const jsonCombine = require('gulp-jsoncombine');
+const filter = require('gulp-filter');
+
 const path = require('path');
+
+const HELP_CENTER_PRODUCTION_URL = 'https://help.akeneo.com/';
 
 module.exports = updatesAsJson;
 
@@ -17,12 +22,22 @@ md.renderer.rules.heading_open = function(...args) {
 md.use(markdownToc);
 
 gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
-    return updatesAsJson('content/updates/20*/*.md', './dist/', 'test.json');
+    // by default, we generate all updates except if env variable ONLY_PREVIOUS_MONTH_UPDATES=true
+    const generateAllUpdates = !(process.env.ONLY_PREVIOUS_MONTH_UPDATES && process.env.ONLY_PREVIOUS_MONTH_UPDATES === 'true');
+
+    return updatesAsJson('content/updates/20*/*.md', './dist/pim', 'updates.json', generateAllUpdates);
 });
 
-
-function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination) {
+/**
+ * @param filePattern file pattern to read the markdown
+ * @param fileDirectoryDestination directory to write the generated json file
+ * @param fileNameDestination name of the generated json file
+ * @param generateAllUpdates if we generate all updates or we generate only released feature
+ * @returns {*}
+ */
+function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination, generateAllUpdates) {
     return gulp.src(filePattern)
+        .pipe(filter(keepUpdatesFromPreviousMonths(generateAllUpdates)))
         .pipe(frontMatter({property: 'fm',remove: true}))
         .pipe(tap(parseMarkdown))
         .pipe(generateJson())
@@ -86,13 +101,17 @@ function parseDescriptionFromMarkdown(...args) {
     return self.renderToken(...args);
 };
 
-
 function generateJson() {
+    const helpCenterUrl = process.env.HELP_CENTER_URL ? process.env.HELP_CENTER_URL : HELP_CENTER_PRODUCTION_URL;
+
     return through((file, enc, cb) => {
-        // hardcoded to the 5th day of the month
-        let directoryName = path.basename(path.dirname(file.path));
-        let startDate = directoryName.replace('-', '/') + '/05';
-        let link = 'https://help.akeneo.com/pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
+        const directoryName = path.basename(path.dirname(file.path));
+        const link = helpCenterUrl + 'pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
+
+        const startDate = getStartDate(directoryName);
+        // hardcoded to the 5th day of the month as we publish this day
+        const startDateWithDay = startDate + '-05';
+        const notificationEndDate = getNotificationEndDate(startDateWithDay);
 
         let defaultValues = {
             'pim_announcement_img': null,
@@ -101,14 +120,18 @@ function generateJson() {
         };
 
         let data = {...defaultValues, ...file.fm };
+        const imgContent = getBase64Content(file, data['pim_announcement_img']);
+        const editions = transformToPimEditions(data['pim_announcement_audience']);
 
         let content = JSON.stringify({
-            'startDate': startDate,
+            'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
+            'startDate': startDateWithDay,
             'description': file.description,
-            'img': data['pim_announcement_img'],
+            'img': imgContent,
             'imgAlt': data['pim_announcement_alt_img'],
-            'version': data['pim_announcement_audience'],
-            'notificationDuration': 7,
+            'editions': editions,
+            'filename': path.basename(file.path),
+            'notificationEndDate': notificationEndDate,
             'tags': ['updates'],
             'title': file.title,
             'link': link
@@ -118,4 +141,75 @@ function generateJson() {
 
         cb(null, file);
     });
+}
+
+function getBase64Content(file, imageRelativePath) {
+    if (!imageRelativePath) {
+        return null;
+    }
+
+    const imageFullPath = path.dirname(file.path) + '/' + imageRelativePath;
+    var extension = path.extname(imageFullPath).replace('.', '');
+    if (extension === 'jpg') {
+        extension = 'jpeg';
+    }
+
+    const content = fs.readFileSync(imageFullPath, { encoding: 'base64' });
+    const base64 = 'data:image/' + extension +';base64, ' +content;
+
+    return base64;
+}
+
+/**
+ * Transform EE into Serenity to match PIM version.
+ *
+ * @param editions
+ */
+function transformToPimEditions(editions) {
+    return editions.map(edition => {
+        return edition === 'EE' ? 'Serenity' : edition;
+    });
+}
+
+function getNotificationEndDate(starDateString) {
+    let startDate = new Date(starDateString);
+    startDate.setDate(startDate.getDate() + 7);
+
+    const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(startDate);
+    const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(startDate);
+    const day = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(startDate);
+
+    return year + '-' + month + '-' + day;
+}
+
+/**
+ * This is the date of the publishment of the news. It's a feature in February 2020, it will be 2020-03.
+ */
+function getStartDate(directoryName) {
+    let startDate = new Date(directoryName + '-01');
+    startDate.setMonth(startDate.getMonth() + 1);
+
+    const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(startDate);
+    const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(startDate);
+
+    return year + '-' + month;
+}
+
+/**
+ * Do not generate updates that are not published yet, except if generateAllUpdates = true (only for staging env).
+ */
+function keepUpdatesFromPreviousMonths(generateAllUpdates) {
+    return (file) => {
+        const folderName = path.basename(path.dirname(file.path));
+
+        const currentDate = new Date(Date.now());
+        const dayOfMonth = currentDate.getDate();
+        const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setMonth(currentDate.getMonth() - 1));
+
+        const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(previousMonthDate);
+        const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);
+        const maxDate = year + '-' + month;
+
+        return folderName <= maxDate || generateAllUpdates;
+    }
 }

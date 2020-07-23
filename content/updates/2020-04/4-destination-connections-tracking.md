@@ -1,3 +1,11 @@
+---
+pim_announcement_img: ./img/number-of-products-sent.png
+pim_announcement_alt_img: "Destination connection chart"
+pim_announcement_audience:
+- CE
+- EE
+---
+
 # Track your destination connections
 ::: meta-data type="New" features="Connections, Connectivity" available="early April" link-to-doc="../articles/connection-dashboard.html#destination-connection-monitoring"
 :::

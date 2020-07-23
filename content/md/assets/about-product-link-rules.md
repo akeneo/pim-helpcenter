@@ -29,15 +29,25 @@ Just a reminder but an important one for you to better understand what is coming
 
 Defining a naming convention for each [asset family](what-about-assets.html#what-is-an-asset-family) will enable the PIM to split your **asset code** or your **main media filename** to extract the information you want and use it to populate asset attributes.
 
-This operation is automatically **run by the PIM during each asset creation**.
-
 ::: info
 This naming convention is defined at the asset family level.
 :::
 
 The naming convention can be defined via the API or directly in the PIM UI, in the `Product Link Rules` tab of each asset family.
 
-![Assets Naming Convention](../img/Assets_NamingConventionNew.png)
+![Naming Convention](../img/Assets_NamingConventionNew.png)
+
+This operation is automatically **run by the PIM during each asset creation**.
+
+You can **manually execute** naming conventions as well, both in the asset edit form (you will execute the naming convention for this asset only), and in the `Product link rules` tab of your asset family (you will execute naming convention for all the assets of this family).
+These actions are available by clicking on `...`.
+
+#### In the asset edit form
+![Asset edit form Naming Convention](../img/Assets_ManuallyExecuteNamingConventionInAssetFamily.png)
+
+#### In the product link rules tab
+![Asset Family Naming Convention](../img/Assets_ManuallyExecuteNamingConventionInAsset.png)
+
 
 ### Should I split the asset code or the filename?
 

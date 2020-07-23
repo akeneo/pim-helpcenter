@@ -225,7 +225,7 @@ For instance, the following actions will **disable** the product and set its **f
 #### Set associations
 
 Just like for the add action, you can choose to associate any combination of **products**, **product_models** or **groups** for each association type.
-You can decide which associated **products**, **product_model** or **groups** you want to update. The other ones will not be updated.
+You can decide which associated **products**, **product_models** or **groups** you want to update. The other ones will not be updated.
 
 In the example below, you can see that the following action will **replace the associated products** for the `X_SELL` association, but **won't replace associated product models or groups**.  
 And for the `UPSELL` association, it will **replace the associated product models and groups but not the associated products**.
@@ -325,9 +325,20 @@ The expected values are:
 - `field`: the attribute code.
 - `locale`: the locale code for which the value is assigned (optional)
 - `scope`: the channel code for which the value is assigned (optional)
-- For the `date` attribute: the format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (Optional). By default, it is *Y-m-d* (e.g. *2020-01-31*)
-- For the `price collection` attribute: the currency code for which the price is assigned (optional). By default, all the prices in the collection are displayed, separated by a comma.
-- For `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes: in *label_locale*, the expected value is the locale code for the label of the option or record (optional). By default, the code of the option is used.
+- `format`: format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (optional, only relevant for `date` attributes). By default, it is *Y-m-d* (e.g. *2020-01-31*)
+- `currency`: the currency code for which the price is assigned (optional, only relevant for `price_collection` attributes). By default, all the prices in the collection are displayed, separated by a comma.
+- `label_locale`: the locale code for the label of the option or record (optional, only relevant for `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes). By default, the code of the option is used. Here is an example:
+```YML
+  actions:
+    - type: concatenate
+      from:
+          - field: brand
+          - field: color
+            label_locale: en_US
+          - field: name
+            scope: ecommerce
+            locale: en_US
+```
 
 **`to`**
 - `field`: the attribute code.
@@ -359,7 +370,7 @@ The expected values are:
 
 ### Examples
 
-To clear the model in `en_US` locale, the action will be as follows:
+To clear the brand in `en_US` locale, the action will be as follows:
 
 ```YML
   actions:
@@ -503,7 +514,7 @@ As of today, 7 fields are supported in the rules engine, and each of them has it
 The possible operators for the `created` field are:
 - =
 - !=
-- “>”
+- '>'
 - <
 - BETWEEN
 - NOT BETWEEN
@@ -511,47 +522,80 @@ The possible operators for the `created` field are:
 - NOT EMPTY
 
 ::: info
-The format of the date is: yyyy-mm-dd H:i:s.
+The format of the date is:
+- "yyyy-mm-dd HH:MM:SS" (UTC time)
+- "now"
+- "\<relative date format\>" (see [below](#focus-on-the-relative-date-format))
+
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
+:::warning
+The "relative date format" only works with the `<`, `>`, `=` and `!=` operators.
 :::
 
 ### Example
 
 ```YML
-field: created
-operator: =
-value: "2015-01-23"
+- field: created
+  operator: =
+  value: "2015-01-23 00:00:00"
+- field: created
+  operator: <
+  value: "-10 days"
 ```
-
-:::info
-If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
-:::
 
 ## Updated
 
 The possible operators for the `updated` field are:  
 - =
 - !=
-- “>”
+- '>'
 - <
 - BETWEEN
 - NOT BETWEEN
 - EMPTY
 - NOT EMPTY
 
-### Example
+::: info
+The format of the date is:
+- "yyyy-mm-dd HH:MM:SS" (UTC time)
+- "now"
+- "\<relative date format\>" (see [below](#focus-on-the-relative-date-format))
 
-```YML
-field: updated
-operator: =
-value: "2015-01-23"
-```
-
-:::info
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
-::: info
-The format of the date is: yyyy-mm-dd H:i:s.
+:::warning
+The "relative date format" only works with the `<`, `>`, `=` and `!=` operators.
+:::
+
+### Example
+
+```YML
+-
+  field: updated
+  operator: =
+  value: "2015-01-23 00:00:00"
+-
+  field: updated
+  operator: '>'
+  value: "-1 year"
+```
+
+#### Focus on the "relative date format"
+The *relative date format* allows to specify dates that are relative to the rule execution date, it is formatted as follows:
+
+**<+/->\<count\> \<unit\>**, with:
+
+- **"+"** means a date in the future, **"-"** a date in the past
+- **count** is an integer
+- **unit** is one of the following values: *minute*, *hour*, *day*, *week*, *month* or *year* with an optional final *s*
+
+For instance, **+1 month** means *in one month*, and **-2 days** means *2 days ago*
+
+:::warning
+Obviously, for the `created` and `updated` properties, the only relevant relative date format is the "past" relative date.
 :::
 
 ## Enabled (status)
@@ -729,8 +773,8 @@ The possible operators for the `measurement` attribute type are:
 - <=
 - =
 - !=
-- “>”
-- “>=”
+- '>'
+- '>='
 - EMPTY
 - NOT EMPTY
 
@@ -825,8 +869,8 @@ The possible operators for the `Number` attribute type are:
 - <=
 - =
 - !=
-- ">"
-- ">="
+- '>'
+- '>='
 - EMPTY
 - NOT EMPTY
 
@@ -847,7 +891,7 @@ We expect **a number** as `value`.
 
 The possible operators for the `Date` attribute type are:  
 - <
-- ">"
+- '>'
 - =
 - !=
 - BETWEEN
@@ -855,20 +899,54 @@ The possible operators for the `Date` attribute type are:
 - EMPTY
 - NOT EMPTY
 
-The expected date format is: **yyyy-mm-dd H:i:s**
+::: info
+The format of the date is:
+- "yyyy-mm-dd"
+- "now"
+- "\<relative date format\>" (see [below](#focus-on-the-relative-date-format-2))
 
-:::info
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
+:::warning
+The "relative date format" only works with the `<`, `>`, `=` and `!=` operators.
+:::
+
+### Example
+
+```YML
+-
+  field: release_date
+  operator: =
+  value: "2015-01-23"
+-
+  field: creation_date
+  operator: '>'
+  value: "-1 year"
+```
+
+#### Focus on the "relative date format"
+The *relative date format* allows to specify dates that are relative to the rule execution date, it is formatted as follows:
+
+**<+/->\<count\> \<unit\>**, with:
+
+- **"+"** means a date in the future, **"-"** a date in the past
+- **count** is an integer
+- **unit** is one of the following values: *day*, *week*, *month* or *year* with an optional final *s*
+
+For instance, **+1 month** means *in one month*, and **-2 days** means *2 days ago*
 
 ### Example
 
 ```YML
 field: created_date
-operator: ">"
+operator: '>'
 value: "2016-05-12"
 ```
+
+:::warning
+The "relative date format" is based on the UTC timezone. It means that if you are located in Eastern Australia (UTC +10) and the rules are executed on the 06/22/20 at 8:00am, the "relative date" will be based on the 06/21/20
+:::
 
 ## Price collection
 
@@ -877,8 +955,8 @@ The possible operators for the `Price collection` attribute type are:
 - <=
 - =
 - !=
-- ">"
-- ">="
+- '>'
+- '>='
 - EMPTY
 - NOT EMPTY
 
