@@ -60,6 +60,18 @@ If you want to remove a condition, just click on the cross at the end of the lin
 As you can see on the left side of the `Add condition` button, there is a counter that tells you how many products/product models will be updated by this rule. It means that these conditions will impact X products/product models.
 This count is automatically updated as soon as you change a condition.
 
+#### Available conditions in the UI
+
+You can use the following system fields and attribute types as `conditions` to select your products/product models via the PIM interface:
+
+- Categories
+- Family
+- Multi select attribute
+- Simple select attribute
+- Text attribute
+- Number attribute
+
+
 ### Add actions
 
 Now that you have filtered your products/product models, you can add one or several actions you'll apply to them!
@@ -77,6 +89,8 @@ Here is the [list of all the actions](get-started-with-the-rules-engine.html) yo
 
 Depending on the action you choose, the template changes. The table below lists all the actions that you can add via the PIM interface.
 
+#### Available actions in the UI
+
 | Actions  | What they do |
 |---|---|
 | Set categories  | Classify your products/product models in the categories you choose, and **remove** them from their former categories.  |
@@ -89,6 +103,9 @@ Depending on the action you choose, the template changes. The table below lists 
 | Set attribute value  | Replace the attribute value of your product/product models selection  |
 | Copy attribute value  | Copy the value from an attribute to another one  |
 | Remove categories  | Remove the categories of your product/product model selection  |
+| Set attribute values  | Set values to a multi select, number or boolean attribute. It will remove the former values |
+| Remove attribute values  | Remove values from a multi select attribute  |
+
 
 ## Different use cases
 As explained earlier, some conditions/actions are not available in the UI yet. It means that you are not able to build all the rules you want via the PIM, and you may need to use the YML file import to do so. Let's see what happens in the following scenarios.
