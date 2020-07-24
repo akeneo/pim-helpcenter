@@ -16,7 +16,7 @@ For example, it is now possible to create a dining table set composed of 1 table
 
 ![This is a product set composed of different associated products with quantities](../img/ryland-extending-dining-table-and-4-chairs-set-walnut-and-black_made.com.png)
 
-This new feature was highly requested, why not giving it a try right now ? :)
+This new feature was highly requested, why not giving it a try right now? :)
 
 ::: more
 [What are association types?](../articles/manage-your-association-types.html)    
