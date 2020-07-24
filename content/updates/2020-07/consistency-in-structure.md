@@ -19,6 +19,6 @@ This improvement is also available in the product form. New recommendations are 
 
 ::: more
 [What is data quality?](../articles/understand-data-quality.html)  
-[What is the consistency grade?](../articles/understand-data-quality.html#how-is-consistency-calculated)  
+[What is the consistency grade?](../articles/understand-data-quality.html#how-is-consistency-calculated)   
 [How to improve data quality?](../articles/improve-data-quality.html)
 :::
