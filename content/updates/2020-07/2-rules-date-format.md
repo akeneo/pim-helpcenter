@@ -3,7 +3,7 @@ pim_announcement_audience:
 - EE
 ---
 
-# A new relative date format
+# New rules condition on relative dates
 ::: meta-data type="Improvement" features="Rules engine, Productivity" available="mid-July" link-to-doc="../articles/get-started-with-the-rules-engine.html#created.html"
 :::
 
