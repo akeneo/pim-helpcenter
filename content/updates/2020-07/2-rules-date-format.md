@@ -4,6 +4,8 @@ pim_announcement_audience:
 ---
 
 # A new relative date format
+::: meta-data type="Improvement" features="Rules engine, Productivity" available="early July" link-to-doc="../articles/get-started-with-the-rules-engine.html#created.html"
+:::
 
 This is now possible to filter products/product models based on a **relative date** in the rules engine. This new format is available via YML import only for now, and for these 3 filters: `updated`, `created`, and `date` attribute type.
 
