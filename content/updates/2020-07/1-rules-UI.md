@@ -13,7 +13,7 @@ To ease the use of the rules engine and boost your productivity, we created a br
 
 ![New screen to manage your rules](../img/Rules_UI.png)
 
-Our rules engine enables you to automate enrichment actions on specific product selections. This new screen allows you to create, update and delete rules in a few clicks, it will definitely ease and faster the rules management.
+Our rules engine enables you to automate enrichment actions on specific product selections. This new screen allows you to create, update and delete rules in a few clicks, it will definitely ease and faster the rules management.  
 The imports of YML files to create or update rules remains available.
 
 :::warning
