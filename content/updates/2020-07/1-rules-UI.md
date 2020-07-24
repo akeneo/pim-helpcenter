@@ -5,14 +5,13 @@ pim_announcement_audience:
 - EE
 ---
 
-# A brand new UI to manage your rules
+# New! Create and update rules from the PIM!
 
-In order to let everyone use the rules engine and boost your productivity, we have created a user interface to manage your rules directly in the PIM.  
+To ease the use of the rules engine and boost your productivity, we created a brand new user interface to directly manage your rules in the PIM.  
 
-We know that your time is precious and that you always need to work efficiently. That's why we built the rules engine a few years ago.
-Indeed, this feature allows you to automate actions on a selection of products/product models. But until now, the only way to create/update rules was via a YML file import, which was not simple enough for our non-technical users.  
+Our rules engine enables you to automate enrichment actions on specific product selections. This new screen allows you to create, update and delete rules in a few clicks, it will definitely ease and faster the rules management. 
+The imports of YML files to create or update rules remains available.
 
-Thanks to this brand new user interface, you'll be able to create/update your rules with only some clicks :wink:.
 
 ::: more
 [How to manage my rules?](../articles/manage-your-rules.html)  
