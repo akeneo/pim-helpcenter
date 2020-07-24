@@ -11,7 +11,7 @@ pim_announcement_audience:
 
 You can now benefit from spell-checking on attributes and option labels to guarantee consistency on your customer-facing product data.
 
-You can now check and correct spelling mistakes in attributes in the `Settings` pages.
+You can now check and correct spelling mistakes in attributes in the `Settings` pages.  
 This improvement is also available in the product form. New recommendations are listed should we find errors. The better the content, the higher the consistency grade! :wink:
 
 
