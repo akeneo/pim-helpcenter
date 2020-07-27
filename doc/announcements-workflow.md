@@ -31,7 +31,7 @@ In staging, all announcements are deployed. The content of the `content/updates/
 
 ### On the help center
 
-It generates the HTML content from the markdown. The content of the current month or future month is not generated if the environment variable `ONLY_PREVIOUS_MONTH_UPDATES` equals `true`. Otherwise, it generates all updates.
+It generates the HTML content from the markdown. The content of the current month or future month is not generated if the `ONLY_PREVIOUS_MONTH_UPDATES` environment variable is equal to `true`. Otherwise, it generates all updates.
 
 It deploys the help center website on each PR merged on master.
 Also, in order to deploy automatically the 5th of the month the released features, there is a daily deployment of the help center website.
