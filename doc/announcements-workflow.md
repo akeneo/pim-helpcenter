@@ -45,7 +45,7 @@ It generates the JSON content from the markdown. The content of the current mont
 It pushes the JSON announcements on each PR merged on master, into Firestore storage.
 Also, in order to deploy automatically the 5th of the month the released features, it pushes the announcements into Firestore.
 
-To push the announcements, it uses an environment variable containing the credentials: GOOGLE_APPLICATION_CREDENTIALS. The credentials are directly created in Firebase project settings -> Service Accounts -> Generate new private key.
+To push the announcements, it uses an environment variable containing the credentials: `GOOGLE_APPLICATION_CREDENTIALS`. The credentials are directly created in Firebase project settings -> Service Accounts -> Generate new private key.
 
 Also, it uses a `FIREBASE_PROJECT` environment variable which is the name of the Firebase project.
 
