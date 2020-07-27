@@ -1,73 +1,63 @@
 {{!-- The index of the version comparison page --}}
 {{#> layout }}
 {{> navbar-with-search }}
-    <div class="jumbotron">
+{{!--     <div class="jumbotron">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3">
                     <img class="hidden-xs img-responsive center-block" src="../img/illus-gift.svg"></img>
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-9">
-                    <h1 class="emphasis hidden-xs" style="margin-top: 30px;">Compare your version to newer!</h1>
-                    <h1 class="emphasis text-center visible-xs">Compare your version to newer!</h1>
+                    <h1 class="emphasis hidden-xs" style="margin-top: 30px;">What's new in the PIM since your version?</h1>
+                    <h1 class="emphasis text-center visible-xs">What's new in the PIM since your version?</h1>
                     <p class="hidden-xs"><em>Eager to know what's new in more recent version of the PIM? You came to the right place!</em></p>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="container-fluid versions-comparison">
         <div class="row">
             <div class="col-xs-12">
-                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Compare your version to newer!</p>
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / What's new in the PIM since your version?</p>
+                <h1>What's new in the PIM since your version?</h1>
             </div>
         </div>
         <div class="row">
+            <div class="col-xs-12 col-md-8">
+                <h3>PIM versions</h3>
+                {{#each versions as |version key|}}
+                    <label class="version-checkbox">
+                        <input onclick="filterVersions('.{{key}}', this)" type="checkbox" checked value=".{{key}}" />
+                        <span class="label label-default">{{version}}</span>
+                    </label>
+                {{/each}}
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <h3>PIM editions</h3>
+                <label class="edition-radio">
+                    <input onclick="filterEdition('.CE')" name="editionFilter" type="radio" />
+                    <span class="label label-default">Community</span>
+                </label>
+                <label class="edition-radio">
+                    <input onclick="filterEdition('.EE')" name="editionFilter" type="radio" checked />
+                    <span class="label label-default">Enterprise</span>
+                </label>
+            </div>
             <div class="col-xs-12">
-                <h3>Choose your filters!</h3>
-                <form>
-                    <div class="form-group">
-                        <label>Your PIM version is:</label>
-                        <div class="btn-group btn-group-sm" role="group" aria-label="Version filter">
-                            <button onclick="filterVersion('.17')" type="button" class="btn btn-default">1.7</button>
-                            <button onclick="filterVersion('.20')" type="button" class="btn btn-default">2.0</button>
-                            <button onclick="filterVersion('.21')" type="button" class="btn btn-default">2.1</button>
-                            <button onclick="filterVersion('.22')" type="button" class="btn btn-default">2.2</button>
-                            <button onclick="filterVersion('.23')" type="button" class="btn btn-default">2.3</button>
-                            <button onclick="filterVersion('.30')" type="button" class="btn btn-default">3.0</button>
-                            <button onclick="filterVersion('.31')" type="button" class="btn btn-default">3.1</button>
-                            <button onclick="filterVersion('.32')" type="button" class="btn btn-default">3.2</button>
-                            <button onclick="filterVersion('.40')" type="button" class="btn btn-default">4.0</button>
-                        </div>
-                    </div>
-                </form>
-                <form>
-                    <div class="form-group">
-                        <label>Select a PIM edition:</label>
-                        <div class="btn-group btn-group-sm" role="group" aria-label="Edition filter">
-                            <button onclick="filterEdition('.CE')" type="button" class="btn btn-default">Community</button>
-                            <button onclick="filterEdition('.EE')" type="button" class="btn btn-default">Enterprise</button>
-                        </div>
-                    </div>
-                </form>
-                <form>
-                    <div class="form-group">
-                        <label>You want to check what's new in the following PIM domains:</label>
-                        {{#each domains as |domain key|}}
-                            <label>
-                                <input onclick="filterDomains('.{{key}}', this)" type="checkbox" checked value=".{{key}}" /> 
-                                <span class="label label-{{domain.color}}">{{domain.label}}</span>
-                            </label>
-                        {{/each}}
-                    </div>
-                </form>
-                <p>Here is the list of the PIM features that were released after the v3.2.</p>
+                <h3>PXM domains/features</h3>
+                {{#each domains as |domain key|}}
+                    <label class="domain-checkbox">
+                        <input onclick="filterDomains('.{{key}}', this)" type="checkbox" checked value=".{{key}}" /> 
+                        <span class="label label-{{domain.color}}">{{domain.label}}</span>
+                    </label>
+                {{/each}}
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12">
                 <div class="grid">
                     {{#each updates as |update id|}}
-                        <div class="versions-comparison-updates {{sinceVersions}} {{#each domainCodes as |domain|}}{{domain}} {{/each}} {{#each editions as |edition|}}{{edition}} {{/each}}">
+                        <div class="versions-comparison-updates {{version}} {{#each domainCodes as |domain|}}{{domain}} {{/each}} {{#each editions as |edition|}}{{edition}} {{/each}}">
                             <p>{{#each coloredDomains as |domain color|}}<span class="label label-{{color}}">{{domain}}</span> {{/each}}</p>
                             <p class="title">{{title}}</p>
                             <p><em>Available since {{since-version}}</em>
@@ -80,14 +70,18 @@
     </div>
 <script type="text/javascript">
     var $grid = $('.grid').isotope({itemSelector: '.versions-comparison-updates',layoutMode: 'fitRows'});
-    var checkedVersion = '.17';
+    var checkedVersions = ['.17','.20','.21','.22','.30','.31','.32','.40','.serenity'];
     var checkedEdition = '.EE';
-    var checkedDomains = ['.governance', '.asset', '.quality', '.connectivity', '.scalability', '.productivity', '.refererenceentities'];
+    var checkedDomains = ['.governance', '.quality', '.connectivity', '.scalability', '.productivity', '.reporting', '.asset', '.refererenceentities', '.rulesengine'];
     $grid.isotope({ filter: computeFilters() });
 
     // filter news based on their version
-    function filterVersion(version) {
-        checkedVersion = version;
+    function filterVersions(version, elm) {
+        if(elm.checked){
+            checkedVersions.push(version);
+        } else {
+            _.pull(checkedVersions, version);
+        }
         $grid.isotope({ filter: computeFilters() });
     }
 
@@ -108,10 +102,14 @@
     }
 
     function computeFilters() {
-        var filters = _.reduce(checkedDomains,function(prevFilters, domain){
-            return prevFilters + domain + checkedEdition + checkedVersion + ', ';
-        },'');
-        return filters.substring(0, filters.length - 2);
+        var combinationOfVersionsDomains = [];
+        _.each(checkedVersions, function(version){
+            _.each(checkedDomains, function(domain){
+                combinationOfVersionsDomains.push(domain + version);
+            });
+        });
+        console.log(combinationOfVersionsDomains);
+        return combinationOfVersionsDomains.join(checkedEdition + ', ');
     }
 </script>
 {{/layout}}

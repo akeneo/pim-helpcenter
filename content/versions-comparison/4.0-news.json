@@ -1,0 +1,156 @@
+[
+  {
+    "title":"Assets structuration with families and attributes",
+    "domains": ["Asset","Governance"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
+  },
+  {
+    "title":"Asset data enrichment",
+    "domains": ["Asset","Quality"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
+  },
+  {
+    "title":"Asset data contextualisation by locale and channel",
+    "domains": ["Asset","Quality"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/asset-manager.html#contextualize-your-asset-information"
+  },
+  {
+    "title":"External media used as product asset",
+    "domains": ["Asset","Governance"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
+  },
+  {
+    "title":"External and internal media centralization",
+    "domains": ["Asset","Governance"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/asset-manager.html#new-api-endpoints-to-easily-retrieve-3rd-party-media"
+  },
+  {
+    "title":"Asset completeness",
+    "domains": ["Asset","Quality"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/asset-manager.html#permissions-completeness"
+  },
+  {
+    "title":"Flexible and automatized asset transformations",
+    "domains": ["Asset","Productivity"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/asset-manager.html#improved-asset-transformation-rules"
+  },
+  {
+    "title":"Efficient mass asset upload",
+    "domains": ["Asset","Productivity"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/asset-manager.html#mass-upload"
+  },
+  {
+    "title":"Automatic asset/product link",
+    "domains": ["Asset","Productivity"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/asset-manager.html#automatically-link-assets-to-products-with-product-link-rules"
+  },
+  {
+    "title":"Data quality monitoring in a dashboard",
+    "domains": ["Quality", "Reporting"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/data-quality-insights.html#monitor-your-data-quality-in-a-dashboard"
+  },
+  {
+    "title":"Spell-check on text area and text attributes in French 🇫🇷",
+    "domains": ["Quality"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/data-quality-insights.html#how-does-it-work"
+  },
+  {
+    "title":"Spell-check on text area and text attributes in English 🇬🇧",
+    "domains": ["Quality"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/data-quality-insights.html#how-does-it-work"
+  },
+  {
+    "title":"Spell-check on text area and text attributes in German 🇩🇪",
+    "domains": ["Quality"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/data-quality-insights.html#how-does-it-work"
+  },
+  {
+    "title":"Spell-check on text area and text attributes in Spanish 🇪🇸",
+    "domains": ["Quality"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/data-quality-insights.html#how-does-it-work"
+  },
+  {
+    "title":"Streamlined connector configuration with the Connections",
+    "domains": ["Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/connections.html#a-new-streamlined-way-to-configure-connectors-from-within-the-pim"
+  },
+  {
+    "title":"Product import monitoring",
+    "domains": ["Connectivity","Reporting"],
+    "editions": ["EE","CE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/connections.html#a-new-dashboard-to-monitor-all-your-connections"
+  },
+  {
+    "title":"API product import performance improved from 2x to 4x",
+    "domains": ["Connectivity","Scalability"],
+    "editions": ["EE","CE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/performance.html#better-import-performance"
+  },
+  {
+    "title":"API product model import performance improved from 3x to 6x",
+    "domains": ["Connectivity","Scalability"],
+    "editions": ["EE","CE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/performance.html#better-import-performance"
+  },
+  {
+    "title":"CSV product import performance improved from 1.5x to 9x",
+    "domains": ["Connectivity","Scalability"],
+    "editions": ["EE","CE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/performance.html#better-import-performance"
+  },
+  {
+    "title":"CSV product model import performance improved from 6x to 12x",
+    "domains": ["Connectivity","Scalability"],
+    "editions": ["EE","CE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/performance.html#better-import-performance"
+  },
+  {
+    "title":"API product export performance improved by 30%",
+    "domains": ["Connectivity","Scalability"],
+    "editions": ["EE","CE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/performance.html#better-export-performance"
+  },
+  {
+    "title":"CSV product export performance improved by 2x",
+    "domains": ["Connectivity","Scalability"],
+    "editions": ["EE","CE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/performance.html#better-export-performance"
+  }
+]

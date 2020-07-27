@@ -12,12 +12,14 @@ const _ = require('lodash');
 const majorVersion = 'serenity';
 const domainColors = {
     'Asset': 'primary',
+    'Reference entities': 'primary',
+    'Rules engine': 'primary',
     'Productivity': 'info',
     'Quality': 'success',
     'Governance': 'warning',
     'Scalability': 'danger',
     'Connectivity': 'akeneo',
-    'Reference entities': 'info'
+    'Reporting': 'dark-akeneo',
 }
 const orderedVersions = ['1.7','2.0','2.1','2.2','2.3','3.0','3.1','3.2','4.0','Serenity'];
 
@@ -31,17 +33,17 @@ gulp.task('build-versions-comparison-page', ['clean-dist','less'], function() {
 });
 
 function generateIndex(fileDirectorySource, fileDirectoryDestination) {
-    const data = fs.readFileSync(fileDirectorySource + '/updates.json');
-
-    const updates = JSON.parse(data);
+    const updates = _.reduce(orderedVersions, function(concatUpdates, version){
+        return concatUpdates.concat(JSON.parse(fs.readFileSync(fileDirectorySource + '/' + version + '-news.json')));
+    }, []);
 
     const domains = {};
     _.each(domainColors,function(color,domain){
         domains[domain.replace(/\s/g, '').toLowerCase()] = {'color': color, 'label': domain};
     });
     const versions = {};
-    _.each(versions, function(version){
-        versions[version.split('.').join('')] = version;
+    _.each(orderedVersions, function(version){
+        versions[version.split('.').join('').toLowerCase()] = version;
     });
 
     _.each(updates, function(update){
@@ -50,12 +52,8 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
         });
         update.domainCodes = _.map(update.domains, function(domain){
             return domain.replace(/\s/g, '').toLowerCase();
-        });
-        update.sinceVersions = _.reduce(_.takeWhile(orderedVersions, function(version){
-            return version != update['since-version'];
-        }), function(concatVersions, version){
-            return concatVersions + ' ' + version.split('.').join("");
-        }, '');
+        }); 
+        update.version = update['since-version'].split('.').join('').toLowerCase();
     });
 
     return gulp.src('src/versions-comparison.handlebars')
