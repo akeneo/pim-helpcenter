@@ -9,10 +9,10 @@ pim_announcement_audience:
 ::: meta-data type="Improvement" features="Data Quality Insights" available="late July" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
 :::
 
-You can now benefit from spell-checking on attributes and option labels to guarantee consistency on your customer-facing product data.
+You can now benefit from spell-checking on attributes and option labels to guarantee the consistency on your customer-facing product data.
 
 You can now check and correct spelling mistakes in attributes in the `Settings` pages.  
-This improvement is also available in the product form. New recommendations are listed should we find errors. The better the content, the higher the consistency grade! :wink:
+This improvement is also available in the product form. New recommendations are listed, should we find errors. The better the content, the higher the consistency grade! :wink:
 
 
 ![dqi-tab-consistency-in-structure](../img/data-quality-spelling-option.png)
