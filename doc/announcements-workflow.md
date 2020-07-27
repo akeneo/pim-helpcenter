@@ -2,7 +2,7 @@
 
 An announcement is a marketing message delivered into the PIM through the communication panel. It can be: 
 - either the announcement of a new feature. In that case we call it an "update".
-- or any marketing message (not implemented yet)
+- or any product marketing message (not implemented yet)
 
 For now, only "updates" are pushed into the PIM, for CE and EE.
 
@@ -21,7 +21,7 @@ The updates are deployed:
 
 ## When are deployed the content of the updates?
 
-The new features are released the 5th of each month, in the PIM and on the helpcenter website. For example, the new features of February 5th 2020 are released the March 5th 2020.
+The updates are deployed the 5th of each month, in the PIM and on the help center website. For example, the new features of February 2020 are released on the 5th of March 2020.
 
 The content of the directory `content/updates/2020-02` that is on `master` branch is not deployed in production before March 5th 2020.
 
@@ -29,7 +29,7 @@ In staging, all announcements are deployed. The content of the directory `conten
 
 ## How the updates are deployed?
 
-### On the helpcenter
+### On the help center
 
 It generates the HTML content from the markdown. The content of the current month or future month is not generated if  the environment variable ONLY_PREVIOUS_MONTH_UPDATES equals `true`. Otherwise, it generates all updates.
 
