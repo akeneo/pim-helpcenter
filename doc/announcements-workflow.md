@@ -52,7 +52,7 @@ Also, it uses a `FIREBASE_PROJECT` environment variable which is the name of the
 
 #### Deployment of the serverless functions
 
-The PIM requests an external API to get the announcements. This external API is hosted on firebase. The content is  actually provided by serverless functions.
+The PIM requests an external API to get the announcements. This external API is hosted on Firebase. The content is actually provided by serverless functions.
 
 It deploys the functions at each merged into master. To deploy a firebase project, it's mandatory to create a firebase token first. You can do it in local by running `firebase login:ci` (you need to install firebase in local first, see documentation).
 
