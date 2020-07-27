@@ -1,6 +1,6 @@
 # Announcements workflow
 
-An announcement is a marketing message delivered into the PIM through the communication panel. It can be: 
+An announcement is a product marketing message delivered into the PIM through the communication panel. It can be: 
 - either the announcement of a new feature. In that case we call it an "update".
 - or any product marketing message (not implemented yet)
 
