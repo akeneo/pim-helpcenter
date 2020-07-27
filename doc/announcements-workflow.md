@@ -25,7 +25,7 @@ The updates are deployed the 5th of each month, in the PIM and on the help cente
 
 The content of the `content/updates/2020-02` directory that is in the `master` branch is not deployed in production before the 5th of March 2020.
 
-In staging, all announcements are deployed. The content of the directory `content/updates/2020-02` that is on `master` branch is deployed in staging, even if it's not yet March 5th 2020. It allows the Product Managers and the Product Marketing Managers to check the display of the new announcements before releasing it in production. 
+In staging, all announcements are deployed. The content of the `content/updates/2020-02` directory that is in the `master` branch is deployed in staging, even if it's not yet the 5th of March 2020. It allows the Product Managers and the Product Marketing Managers to check the display of the new announcements before releasing it in production. 
 
 ## How the updates are deployed?
 
