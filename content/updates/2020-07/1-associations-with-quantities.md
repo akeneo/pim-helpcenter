@@ -1,5 +1,5 @@
 ---
-pim_announcement_img: ./img/Indoor-Lounge-Set_Avi-Waxman.jpg
+pim_announcement_img: ./img/Dining-set_Felix.jpg
 pim_announcement_alt_img: "New association type with quantities"
 pim_announcement_audience:
 - CE
@@ -12,9 +12,13 @@ pim_announcement_audience:
 
 With the new association type with quantities, you are now able to create a product set composed of other products that are associated with different quantities for each one.
 
-For example, it is now possible to create a dining table set composed of 1 table, 1 stool and 2 chairs, just like this one:
+For example, it is now possible to create a dining table set composed of 1 table and 4 chairs, just like this one:
 
-![This is a product set composed of different associated products with quantities](../img/Indoor-Lounge-Set_Avi-Waxman.jpg)
+![This is a product set composed of different associated products with quantities](../img/Dining-set_Felix.jpg)
+
+In the PIM, it would look like this:
+
+![This is a product set composed of different associated products with quantities in the PIM](../img/Dining-set_Felix_PIM.png)
 
 This new feature was highly requested, why not giving it a try right now? :wink:
 
