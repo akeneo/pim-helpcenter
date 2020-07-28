@@ -6,21 +6,21 @@ pim_announcement_audience:
 - EE
 ---
 
-# New: association type with quantities
+# New association type with quantities
 ::: meta-data type="New" features="Product Associations" available="early July" link-to-doc="../articles/manage-your-association-types.html#create-an-association-type-with-quantities"
 :::
 
-With the new association type with quantities, you are now able to create a product set composed of other products that are associated with different quantities for each one.
+The new association type with quantities enables you to create product sets, you can associate several products together and define quantities for each one. 
 
-For example, it is now possible to create a dining table set composed of 1 table and 4 chairs, just like this one:
+For instance, you can easily create a dining table set composed of 1 table and 4 chairs, just like this one:
 
 ![This is a product set composed of different associated products with quantities](../img/Dining-set_Felix.jpg)
 
-In the PIM, it would look like this:
+Once you have created the right association type, and associated your products in the PIM, it will look like this:
 
 ![This is a product set composed of different associated products with quantities in the PIM](../img/Dining-set_Felix_PIM.png)
 
-This new feature was highly requested, why not giving it a try right now? :wink:
+Association with quantities was one of the most requested features, so why not giving it a try right now? :wink:
 
 ::: more
 [What are association types?](../articles/manage-your-association-types.html)    
