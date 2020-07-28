@@ -77,7 +77,7 @@ A product can also be associated to a [product model](what-about-products-varian
 1.  Create a product model that will be the base of your product set
 1.  Open the product form
 1.  Click on the `Associations` tab
-1.  Select the association type with quantities
+1.  Select the association type with quantities you created (please read our [Association Types](manage-your-association-types.html#create-an-association-type-with-quantities) documentation for more information.)
   ![Select an association type](../img/Products_Products_Associations_Select_Association_type.png)
 1.  Click on `Add associations`
 1.  The picker to select product or product models opens
@@ -109,7 +109,7 @@ To remove an association:
 ![Remove associations](../img/Products_Products_Remove_Association.png)
 
 :::warning
-If you wish to remove associations with quantities, the step 4 won't be available as the associated products will be displayed as a list, not as a gallery. In that case, please skip to step 5.
+If you wish to remove associations with quantities, the step 4 won't be available as the associated products will be displayed as a list, not as a gallery. In that case, please skip it to the step 5.
 :::
 
 :::info
