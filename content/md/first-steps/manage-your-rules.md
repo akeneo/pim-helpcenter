@@ -38,7 +38,8 @@ The number of affected products will appear on the right side of your screen in 
 # Execute rules
 
 :::info
-Rules are regularly executed after a bulk action or after imports with rules.
+Rules are automatically executed according to your cron configuration. By default, they are executed daily at 5 am UTC.  
+Rules are also regularly executed after a bulk action or after imports with rules.
 :::
 
 But you can also execute rules on your own, you can execute:
