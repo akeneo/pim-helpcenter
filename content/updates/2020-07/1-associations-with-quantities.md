@@ -10,7 +10,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Product Associations" available="early July" link-to-doc="../articles/manage-your-association-types.html#create-an-association-type-with-quantities"
 :::
 
-The new association type with quantities enables you to create product sets, you can associate several products together and define quantities for each one. 
+The new association type with quantities enables you to create product sets. You can associate several products together and define quantities for each of them. 
 
 For instance, you can easily create a dining table set composed of 1 table and 4 chairs, just like this one:
 
