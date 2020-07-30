@@ -65,6 +65,7 @@ This count is automatically updated as soon as you change a condition.
 You can use the following system fields and attribute types as `conditions` to select your products/product models via the PIM interface:
 
 - Categories
+- Completeness
 - Family
 - Multi select attribute
 - Simple select attribute
@@ -102,8 +103,10 @@ Depending on the action you choose, the template changes. The table below lists 
 | Clear categories  | Delete all the categories of your product/product model selection  |
 | Copy attribute value  | Copy the value from an attribute to another one  |
 | Remove categories  | Remove the categories of your product/product model selection  |
-| Set attribute value  | Set value to a multi select, number or boolean attribute. It will remove the former values |
+| Add attribute value  | Add values to a multi select, simple select, number, text, price collection or boolean attribute. It will keep the former values |
+| Set attribute value  | Set values to a multi select, simple select, number, text, price collection or boolean attribute. It will remove the former values |
 | Remove attribute values  | Remove values from a multi select attribute  |
+| Add groups  | Add groups to your product selection (product models don't have groups)  |
 
 
 ## Different use cases
