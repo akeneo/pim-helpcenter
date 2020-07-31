@@ -10,17 +10,19 @@ const revReplace = require('gulp-rev-replace');
 const _ = require('lodash');
 
 const majorVersion = 'serenity';
+const features = [
+    'Asset',
+    'Reference entities',
+    'Rules engine'
+];
 const domainColors = {
-    'Asset': 'primary',
-    'Reference entities': 'primary',
-    'Rules engine': 'primary',
     'Productivity': 'info',
     'Quality': 'success',
     'Governance': 'warning',
     'Scalability': 'danger',
     'Connectivity': 'akeneo',
     'Reporting': 'dark-akeneo',
-}
+};
 const orderedVersions = ['1.7','2.0','2.1','2.2','2.3','3.0','3.1','3.2','4.0','Serenity'];
 
 module.exports = {generateIndex};
@@ -37,18 +39,25 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
         return concatUpdates.concat(JSON.parse(fs.readFileSync(fileDirectorySource + '/' + version + '-news.json')));
     }, []);
 
-    const domains = {};
+    const coloredDomains = {};
     _.each(domainColors,function(color,domain){
-        domains[domain.replace(/\s/g, '').toLowerCase()] = {'color': color, 'label': domain};
+        coloredDomains[domain.replace(/\s/g, '').toLowerCase()] = {'color': color, 'label': domain};
     });
+    const coloredFeatures = {};
+    _.each(features, function(feature){
+        coloredFeatures[feature.replace(/\s/g, '').toLowerCase()] = {'color': 'primary', 'label': feature};
+    });
+    const domainsAndFeatures = Object.assign({}, coloredDomains, coloredFeatures);
+
     const versions = {};
     _.each(orderedVersions, function(version){
         versions[version.split('.').join('').toLowerCase()] = version;
     });
 
+
     _.each(updates, function(update){
         update.coloredDomains = _.keyBy(update.domains, function(domain){
-            return domainColors[domain] || 'default';
+            return domainsAndFeatures[domain.replace(/\s/g, '').toLowerCase()].color || 'default';
         });
         update.domainCodes = _.map(update.domains, function(domain){
             return domain.replace(/\s/g, '').toLowerCase();
@@ -60,7 +69,9 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
         .pipe(gulpHandlebars({
             title: 'What\'s new in Serenity',
             updates: updates,
-            domains: domains,
+            domains: coloredDomains,
+            features: coloredFeatures,
+            domainsAndFeatures: domainsAndFeatures,
             versions: versions,
             majorVersion: majorVersion
         }, {
