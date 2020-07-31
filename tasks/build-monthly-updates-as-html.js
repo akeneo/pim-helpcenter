@@ -149,7 +149,7 @@ function getTocMarkdown() {
 function keepUpdatesFromPreviousMonths(folderName, generateAllUpdates) {
     const currentDate = new Date(Date.now());
     const dayOfMonth = currentDate.getDate();
-    const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setMonth(currentDate.getMonth() - 1));
+    const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setDate(0));
 
     const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(previousMonthDate);
     const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);
