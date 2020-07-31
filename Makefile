@@ -17,4 +17,4 @@ build: yarn-install
 	$(DOCKER_RUN) $(DOCKER_IMAGE_TAG) yarn gulp create-dist
 
 deploy: build
-	$(DOCKER_RUN) -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/pim/v3/ akeneo@$${HOSTNAME}:/home/akeneo/pim/v3
+	$(DOCKER_RUN) -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/pim/v3/ akeneo@$${HOSTNAME}:/var/www/html/pim/v3
