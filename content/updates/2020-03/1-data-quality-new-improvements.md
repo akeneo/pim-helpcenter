@@ -25,7 +25,7 @@ If you have any improvement recommendations under the Data Quality Insights tab,
 ![Ease data quality improvements in the PEF](../img/ease_data_quality_improvements_in_pef.png)
 
 ## Spell-check improvements
-::: meta-data type="Improvement" features="Data Quality Insights, Spell-check, Data Quality" available="early March" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
+::: meta-data type="Improvement" features="Data Quality Insights, Data Quality" available="early March" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
 :::
 
 To help reach a higher data quality content yet, **spell-check and suggestions are now available on text area attributes with rich text editor enabled** (WYSIWYG).
