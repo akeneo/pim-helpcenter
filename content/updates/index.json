@@ -20,13 +20,6 @@
     "featureType": "New feature",
     "eeOnly": false
   },
-  "franklin-insights": {
-    "title": "Franklin Insights",
-    "description": "Franklin Insights is an AI and machine-learning-powered product data intelligence platform. It automates the process of product information curation and enrichment, addressing a key pain point for retailers.",
-    "img": "illus-franklin-insights.svg",
-    "featureType": "Improvement",
-    "eeOnly": true
-  },
   "performance": {
     "title": "Performance",
     "description": "Ensuring great performance for our products is a top priority. Akeneo PIM 4.0 delivers additional incremental performance improvements for API-based and CSV/XLSX imports and exports compared to version 3.2.",
