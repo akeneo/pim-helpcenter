@@ -1,6 +1,8 @@
-# The reference entity: a new notion in the PIM
+# Reference entities: a new Akeneo PIM feature
 ::: meta-data eeOnly="true" since-version="3.0" link-to-doc="../articles/what-about-reference-entities.html"
 
+Reference entities are meant to manage additional data in the PIM. Use them to manage product-related information such as product colors, sizes, ingredients, care instructions, and more -- or leverage them to provide additional non product-related data like information on brands, designers, looks, rooms, countries, and much more.
+ 
 Reference entities have their own attributes, their own lifecycle, and can be linked to products. These entities may have dedicated pages on the e-commerce website or their information may enrich each product page.
 
 In the example below, three reference entities enrich our awesome pair of socks:
