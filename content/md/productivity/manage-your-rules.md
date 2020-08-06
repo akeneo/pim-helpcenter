@@ -67,6 +67,8 @@ You can use the following system fields and attribute types as `conditions` to s
 - Categories
 - Completeness
 - Family
+- Status
+- Groups
 - Multi select attribute
 - Simple select attribute
 - Text attribute
@@ -107,6 +109,7 @@ Depending on the action you choose, the template changes. The table below lists 
 | Set attribute value  | Set values to a multi select, simple select, number, text, price collection or boolean attribute. It will remove the former values |
 | Remove attribute values  | Remove values from a multi select attribute  |
 | Add groups  | Add groups to your product selection (product models don't have groups)  |
+| Remove groups  | Remove groups from your product selection (product models don't have groups)  |
 
 
 ## Different use cases
