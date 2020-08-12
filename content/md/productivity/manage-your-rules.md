@@ -99,30 +99,35 @@ Depending on the action you choose, the template changes. The table below lists 
 
 #### Available actions in the UI
 
-| Actions  | What they do |
+| Set actions  | What they do |
 |---|---|
-
 | Set categories  | Classify your products/product models in the categories you choose, and **remove** them from their former categories.  |
 | Set family  | Replace your products/product models family |
 | Set attribute value  | Set values to a multi select, simple select, number, text, textarea, date, price collection, asset collection or boolean attribute. It will remove the former values |
-| Set groups  | Set your product selection into groups (product models don't have groups)  |
+| Set groups  | Set groups to your product selection (product models don't have groups)  |
 
+| Add actions     | What they do |
+|---|---|
 | Add categories  | Add your products/product models to new categories, **without removing** them from their former categories.  |
 | Add groups  | Add groups to your product selection (product models don't have groups)  |
 | Add attribute value  | Add values to a multi select, a price collection, a reference entity multiple link or an asset collection attribute. It will keep the former values |
 
+| Remove actions  | What they do |
+|---|---|
 | Remove categories  | Remove the categories of your product/product model selection  |
 | Remove groups  | Remove groups from your product selection (product models don't have groups)  |
 | Remove attribute values  | Remove values from a multi select, a reference entity multiple link or an asset collection attribute  |
 
-
+| Clear actions   | What they do |
+|---|---|
 | Clear attribute value  | Delete values from an attribute on your product/product models selection  |
 | Clear associations  | Delete all the associations of your product/product models selection  |
 | Clear groups  | Delete all the groups of your product selection (product models don't have groups) |
 | Clear categories  | Delete all the categories of your product/product model selection  |
+
+| Copy action     | What it does |
+|---|---|
 | Copy attribute value  | Copy the value from an attribute to another one  |
-
-
 
 
 ## Different use cases
