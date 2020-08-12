@@ -103,18 +103,18 @@ Depending on the action you choose, the template changes. The table below lists 
 |---|---|
 | Set categories  | Classify your products/product models in the categories you choose, and **remove** them from their former categories.  |
 | Set family  | Replace your products/product models family |
-| Set attribute value  | Set values to a multi select, simple select, number, text, textarea, date, price collection, asset collection or boolean attribute. It will remove the former values |
+| Set attribute value  | Set values to a multi select, simple select, number, text, textarea, date, price collection, asset collection or boolean attribute. It will replace the former values |
 | Set groups  | Set groups to your product selection (product models don't have groups)  |
 
 | Add actions     | What they do |
 |---|---|
-| Add categories  | Add your products/product models to new categories, **without removing** them from their former categories.  |
+| Add categories  | Classify your products/product models in new categories, **without removing** them from their former categories.  |
 | Add groups  | Add groups to your product selection (product models don't have groups)  |
 | Add attribute value  | Add values to a multi select, a price collection, a reference entity multiple link or an asset collection attribute. It will keep the former values |
 
 | Remove actions  | What they do |
 |---|---|
-| Remove categories  | Remove the categories of your product/product model selection  |
+| Remove categories  | Unclassify your product/product model selection from the chosen categories |
 | Remove groups  | Remove groups from your product selection (product models don't have groups)  |
 | Remove attribute values  | Remove values from a multi select, a reference entity multiple link or an asset collection attribute  |
 
@@ -123,7 +123,7 @@ Depending on the action you choose, the template changes. The table below lists 
 | Clear attribute value  | Delete values from an attribute on your product/product models selection  |
 | Clear associations  | Delete all the associations of your product/product models selection  |
 | Clear groups  | Delete all the groups of your product selection (product models don't have groups) |
-| Clear categories  | Delete all the categories of your product/product model selection  |
+| Clear categories  | Unclassify your product/product model selection from every category |
 
 | Copy action     | What it does |
 |---|---|
