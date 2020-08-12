@@ -1,13 +1,41 @@
 [
- {
-    "title":"Quality grades on variant products",
+  {
+    "title":"Product duplication",
+    "domains": ["Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-06.html#new-duplicate-a-product"
+  },
+  {
+    "title":"Two-way product association 🔗",
+    "domains": ["Governance","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-05.html#new-association-type-the-two-way-association"
+  },
+  {
+    "title":"Job tracker full visibility 👁️",
+    "domains": ["Reporting"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-05.html#more-visibility-on-pim-jobs"
+  },
+  {
+    "title":"Measurements creation 📏",
+    "domains": ["Governance"],
+    "editions": ["EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-04.html#a-new-screen-to-add-your-own-measurement-units"
+  },
+  {
+    "title":"Quality grades on variant products 💯",
     "domains": ["Quality"],
     "editions": ["EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#data-quality-insights-now-available-for-variant-products"
   },
- {
-    "title":"Quality grades on product models",
+  {
+    "title":"Quality grades on product models 💯",
     "domains": ["Quality"],
     "editions": ["EE"],
     "since-version": "Serenity",
@@ -56,87 +84,52 @@
     "link": "/pim/serenity/updates/2020-04.html#spell-check-new-languages-supported"
   },
   {
-    "title":"Force, angle, capacitance and volume flow measurements",
+    "title":"Force, angle, capacitance and volume flow measurements 📏",
     "domains": ["Governance"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#new-measurement-units-and-families"
   },
   {
-    "title":"Automatized attributes concatenation",
+    "title":"Automatized attributes concatenation 🤖",
     "domains": ["Rules engine", "Productivity"],
     "editions": ["EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#a-new-rule-action-to-concatenate-attributes"
   },
   {
-    "title":"Own measurements creation",
-    "domains": ["Governance"],
-    "editions": ["EE"],
-    "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2020-04.html#a-new-screen-to-add-your-own-measurement-units"
-  },
-  {
-    "title":"Measurements API endpoints",
+    "title":"Measurements API 🔌",
     "domains": ["Governance","Connectivity"],
     "editions": ["EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#new-endpoints-to-manage-measurements"
   },
   {
-    "title":"Product export monitoring",
+    "title":"Product export monitoring 📊",
     "domains": ["Connectivity","Reporting"],
-    "editions": ["EE","CE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#track-your-destination-connections"
   },
   {
-    "title":"Automatized attribute computation",
+    "title":"Automatized attribute computation 🤖",
     "domains": ["Rules engine","Productivity"],
     "editions": ["EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#calculate-attribute-values"
   },
   {
-    "title":"Error monitoring on product import",
+    "title":"Error monitoring on product import 📊",
     "domains": ["Connectivity","Reporting"],
-    "editions": ["EE","CE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-05.html#easily-monitor-errors-on-your-connections"
   },
   {
-    "title":"Two-way product association",
-    "domains": ["Governance","Productivity"],
-    "editions": ["EE","CE"],
-    "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2020-05.html#new-association-type-the-two-way-association"
-  },
-  {
-    "title":"Job tracker full visibility",
-    "domains": ["Reporting"],
-    "editions": ["EE","CE"],
-    "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2020-05.html#more-visibility-on-pim-jobs"
-  },
-  {
-    "title":"Product duplication",
-    "domains": ["Productivity"],
-    "editions": ["EE","CE"],
-    "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2020-06.html#new-duplicate-a-product"
-  },
-  {
     "title":"Attribute options easy management",
     "domains": ["Productivity", "Governance"],
-    "editions": ["EE","CE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-06.html#better-manage-your-attribute-options"
-  },
-  {
-    "title":"Manual execution of asset naming convention",
-    "domains": ["Asset","Governance"],
-    "editions": ["EE"],
-    "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2020-06.html#new-execute-asset-naming-conventions-manually"
   }
 ]

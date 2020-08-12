@@ -1,8 +1,29 @@
 [
   {
-    "title":"Reference entities number attribute",
+    "title":"Number attribute in reference entities",
     "domains": ["Reference entities","Governance"],
     "editions": ["EE"],
+    "since-version": "3.2",
+    "link": ""
+  },
+  {
+    "title":"Product linked to a reference entity record",
+    "domains": ["Reference entities","Productivity"],
+    "editions": ["EE"],
+    "since-version": "3.2",
+    "link": ""
+  },
+  {
+    "title":"Bulk proposals sent for approval",
+    "domains": ["Productivity"],
+    "editions": ["EE"],
+    "since-version": "3.2",
+    "link": ""
+  },
+  {
+    "title":"API product export performance improved 🚀",
+    "domains": ["Connectivity", "Scalability"],
+    "editions": ["CE", "EE"],
     "since-version": "3.2",
     "link": ""
   }

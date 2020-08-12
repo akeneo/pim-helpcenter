@@ -1,1 +1,79 @@
-[]
+[
+  {
+    "title":"Product models and variants modeling",
+    "domains": ["Governance", "Productivity"],
+    "editions": ["CE", "EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  {
+    "title":"Product models API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE", "EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  {
+    "title":"Family variants API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE", "EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  {
+    "title":"User group permissions on CSV import and export 🔒",
+    "domains": ["Connectivity"],
+    "editions": ["EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  {
+    "title":"Brand new UX/UI 🖌️",
+    "domains": ["Productivity"],
+    "editions": ["CE", "EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  {
+    "title":"Attribute groups API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE", "EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  {
+    "title":"Association types API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE", "EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  {
+    "title":"Currencies API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE", "EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  {
+    "title":"Publish products API 🔌",
+    "domains": ["Connectivity"],
+    "editions": ["EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  {
+    "title":"Product draft creation via API 🔌",
+    "domains": ["Connectivity"],
+    "editions": ["EE"],
+    "since-version": "2.0",
+    "link": ""
+  },
+  {
+    "title":"API connection management 🔌",
+    "domains": ["Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "2.0",
+    "link": ""
+  }
+]

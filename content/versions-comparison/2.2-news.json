@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "title":"Rules on product models 🤖",
+    "domains": ["Rules engine", "Productivity"],
+    "editions": ["EE"],
+    "since-version": "2.2",
+    "link": ""
+  },
+  {
+    "title":"Search in the proposal grid 🔍",
+    "domains": ["Productivity"],
+    "editions": ["EE"],
+    "since-version": "2.2",
+    "link": ""
+  },
+  {
+    "title":"Bulk add attribute values to products",
+    "domains": ["Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "2.2",
+    "link": ""
+  },
+  {
+    "title":"Rule to decategorize products 🤖",
+    "domains": ["Rules engine", "Productivity"],
+    "editions": ["EE"],
+    "since-version": "2.2",
+    "link": ""
+  }
+]

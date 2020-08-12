@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "title":"Powerful search bar in the product grid 🔍",
+    "domains": ["Productivity"],
+    "editions": ["CE", "EE"],
+    "since-version": "2.1",
+    "link": ""
+  },
+  {
+    "title":"Bulk categorize product models 📂",
+    "domains": ["Productivity"],
+    "editions": ["CE", "EE"],
+    "since-version": "2.1",
+    "link": ""
+  },
+  {
+    "title":"Assets API 🔌",
+    "domains": ["Asset","Connectivity"],
+    "editions": ["EE"],
+    "since-version": "2.1",
+    "link": ""
+  },
+  {
+    "title":"Gallery view in the product grid 🖼️",
+    "domains": ["Productivity"],
+    "editions": ["CE", "EE"],
+    "since-version": "2.1",
+    "link": ""
+  }
+]

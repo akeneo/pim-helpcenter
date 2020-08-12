@@ -1,1 +1,65 @@
-[]
+[
+  {
+    "title":"Teamwork Assistant",
+    "domains": ["Productivity"],
+    "editions": ["EE"],
+    "since-version": "1.7",
+    "link": ""
+  },
+  {
+    "title":"Products API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "1.7",
+    "link": ""
+  },
+  {
+    "title":"Categories API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "1.7",
+    "link": ""
+  },
+  {
+    "title":"Families API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "1.7",
+    "link": ""
+  },
+  {
+    "title":"Attributes API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "1.7",
+    "link": ""
+  },
+  {
+    "title":"Channels API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "1.7",
+    "link": ""
+  },
+  {
+    "title":"Locales API 🔌",
+    "domains": ["Governance", "Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "1.7",
+    "link": ""
+  },
+  {
+    "title":"User groups permissions on the dashboard 🔒",
+    "domains": ["Governance", "Reporting"],
+    "editions": ["EE"],
+    "since-version": "1.7",
+    "link": ""
+  },
+  {
+    "title":"Warnings in CSV import and export",
+    "domains": ["Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "1.7",
+    "link": ""
+  }
+]

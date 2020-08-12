@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "title":"Option filter in the reference entities grid",
+    "domains": ["Reference entities","Productivity"],
+    "editions": ["EE"],
+    "since-version": "3.1",
+    "link": ""
+  }
+]

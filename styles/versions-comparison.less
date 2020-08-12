@@ -29,12 +29,24 @@
         &.label-dark-akeneo{
             border-left: 5px solid #52267D;
         }
+        &.label-orange{
+            border-left: 5px solid #FCAC76;
+        }
     }
     .edition-radio {
         cursor: pointer;
         input[type="radio"] {
             margin-left: 13px;
         }
+    }
+    span.label.label-supported-version:before,
+    p.label-supported-version:before {
+        content: "•";
+        font-size: 20px;
+        color: @brand-success;
+        margin-right: 5px;
+        vertical-align: -2px;
+        font-weight: bold;
     }
     .version-checkbox, .domain-checkbox {
         position: relative;
@@ -166,14 +178,15 @@
             width: 250px;
             border-radius: @border-radius-base;
             margin: @spacing-base/5 @spacing-base/5 0 0;
-            .transition(all 0.25s);
             background-color: #fff;
             border: 1px solid @gray-lighter;
             padding: @spacing-base/4;
             p {
                 color: @text-color;
                 &.title{
-                    font-size: @font-size-large;
+                    font-size: ceil(@font-size-base * 1.15);
+                    font-weight: normal;
+                    color: @brand-primary;
                     height: 1.2*@spacing-base;
                     line-height: normal;
                     overflow: hidden;

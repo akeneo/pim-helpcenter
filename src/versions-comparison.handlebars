@@ -1,6 +1,6 @@
 {{!-- The index of the version comparison page --}}
-{{#> layout }}
-{{> navbar-with-search }}
+{{#> layout title="What's new in the PIM since your version?"}}
+{{> navbar-only-logo }}
     <div class="container-fluid versions-comparison">
         <div class="row">
             <div class="col-xs-12">
@@ -14,9 +14,10 @@
                 {{#each versions as |version key|}}
                     <label class="version-checkbox">
                         <input onclick="filterVersions('.{{key}}', this)" type="checkbox" checked value=".{{key}}" />
-                        <span class="label label-default">{{version}}</span>
+                        <span class="label label-default{{#if isSupported}} label-supported-version{{/if}}">{{name}}</span>
                     </label>
                 {{/each}}
+                <p class="small label-supported-version"><em>This green dot means that this is a version for which we offer support if you are an Enterprise or a Cloud user.</em></p>
             </div>
             <div class="col-xs-12 col-md-5">
                 <h3>PIM editions</h3>
@@ -53,10 +54,10 @@
                 <div class="grid">
                     {{#each updates as |update id|}}
                         <div class="versions-comparison-updates {{version}} {{#each domainCodes as |domain|}}{{domain}} {{/each}} {{#each editions as |edition|}}{{edition}} {{/each}}">
-                            <p>{{#each coloredDomains as |domain color|}}<span class="label label-{{color}}">{{domain}}</span> {{/each}}</p>
                             <p class="title">{{title}}</p>
-                            <p><em>Available since {{since-version}} in {{#each editions as |edition|}} {{#if @last}} & {{/if}}{{edition}}{{/each}}</em>
-                            <p><a class="link text-right" href="{{link}}">Read more... ></a></p>
+                            <p><em>Available {{#if isSerenityOnly}} in <b>Serenity</b>{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em>
+                            <p>{{#each coloredDomains as |domain color|}}<span class="label label-{{color}}">{{domain}}</span> {{/each}}</p>
+                            <p class="text-right"><a class="link" href="{{link}}">Read more... ></a></p>
                         </div>
                     {{/each}}
                 </div>
@@ -72,6 +73,7 @@
 
     // filter news based on their version
     function filterVersions(version, elm) {
+        console.log(version);
         if(elm.checked){
             checkedVersions.push(version);
         } else {
@@ -88,10 +90,14 @@
 
     // filter news based on their domains
     function filterDomains(domain, elm) {
+         _.pull(checkedDomains, '.none');
         if(elm.checked){
             checkedDomains.push(domain);
         } else {
             _.pull(checkedDomains, domain);
+        }
+        if(checkedDomains.length === 0){
+            checkedDomains.push('.none');
         }
         $grid.isotope({ filter: computeFilters() });
     }
@@ -100,11 +106,10 @@
         var combinationOfVersionsDomains = [];
         _.each(checkedVersions, function(version){
             _.each(checkedDomains, function(domain){
-                combinationOfVersionsDomains.push(domain + version);
+                combinationOfVersionsDomains.push(domain + version); 
             });
         });
         var yolo = combinationOfVersionsDomains.join(checkedEdition + ', ') + checkedEdition;
-        console.log(yolo);
         return yolo;
     }
 </script>

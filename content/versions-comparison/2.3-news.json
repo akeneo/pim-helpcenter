@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "title":"Associations on product models",
+    "domains": ["Governance"],
+    "editions": ["CE","EE"],
+    "since-version": "2.3",
+    "link": ""
+  },
+  {
+    "title":"Proposals on product models",
+    "domains": ["Governance","Productivity"],
+    "editions": ["EE"],
+    "since-version": "2.3",
+    "link": ""
+  },
+  {
+    "title":"Product model and variant product parent change",
+    "domains": ["Governance","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "2.3",
+    "link": ""
+  },
+  {
+    "title":"Upload asset in the product form",
+    "domains": ["Productivity"],
+    "editions": ["EE"],
+    "since-version": "2.3",
+    "link": ""
+  }
+]

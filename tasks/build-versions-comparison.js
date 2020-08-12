@@ -21,9 +21,20 @@ const domainColors = {
     'Governance': 'warning',
     'Scalability': 'danger',
     'Connectivity': 'akeneo',
-    'Reporting': 'dark-akeneo',
+    'Reporting': 'orange',
 };
-const orderedVersions = ['1.7','2.0','2.1','2.2','2.3','3.0','3.1','3.2','4.0','Serenity'];
+const orderedVersions = [
+    {'name': '1.7', 'isSupported': false },
+    {'name': '2.0', 'isSupported': false },
+    {'name': '2.1', 'isSupported': false },
+    {'name': '2.2', 'isSupported': false },
+    {'name': '2.3', 'isSupported': false },
+    {'name': '3.0', 'isSupported': true },
+    {'name': '3.1', 'isSupported': false },
+    {'name': '3.2', 'isSupported': true },
+    {'name': '4.0', 'isSupported': true },
+    {'name': 'Serenity', 'isSupported': true }
+];
 
 module.exports = {generateIndex};
 
@@ -35,8 +46,12 @@ gulp.task('build-versions-comparison-page', ['clean-dist','less'], function() {
 });
 
 function generateIndex(fileDirectorySource, fileDirectoryDestination) {
-    const updates = _.reduce(orderedVersions, function(concatUpdates, version){
-        return concatUpdates.concat(JSON.parse(fs.readFileSync(fileDirectorySource + '/' + version + '-news.json')));
+    const versions = {};
+    _.each(orderedVersions, function(version){
+        versions[version.name.split('.').join('').toLowerCase()] = version;
+    });
+    const updates = _.reduce(_.reverse(orderedVersions), function(concatUpdates, version){
+        return concatUpdates.concat(JSON.parse(fs.readFileSync(fileDirectorySource + '/' + version.name + '-news.json')));
     }, []);
 
     const coloredDomains = {};
@@ -49,12 +64,6 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
     });
     const domainsAndFeatures = Object.assign({}, coloredDomains, coloredFeatures);
 
-    const versions = {};
-    _.each(orderedVersions, function(version){
-        versions[version.split('.').join('').toLowerCase()] = version;
-    });
-
-
     _.each(updates, function(update){
         update.coloredDomains = _.keyBy(update.domains, function(domain){
             return domainsAndFeatures[domain.replace(/\s/g, '').toLowerCase()].color || 'default';
@@ -63,6 +72,7 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
             return domain.replace(/\s/g, '').toLowerCase();
         }); 
         update.version = update['since-version'].split('.').join('').toLowerCase();
+        update.isSerenityOnly = update['since-version'] === 'Serenity';
     });
 
     return gulp.src('src/versions-comparison.handlebars')

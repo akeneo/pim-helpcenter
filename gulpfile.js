@@ -21,6 +21,7 @@ gulp.task('watch', ['create-dist'], function() {
   gulp.watch('content/img/*', ['create-dist']);
   gulp.watch('content/updates/*', ['create-dist']);
   gulp.watch('content/updates/**/*.md', ['create-dist']);
+  gulp.watch('content/versions-comparison/*.json', ['create-dist']);
 });
 
 // Launch a server with dist directory exposed on it

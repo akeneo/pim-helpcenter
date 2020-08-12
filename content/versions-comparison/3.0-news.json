@@ -1,1 +1,51 @@
-[]
+[
+  {
+    "title":"Product-related enriched entities: the Reference entities",
+    "domains": ["Reference entities","Governance"],
+    "editions": ["EE"],
+    "since-version": "3.0",
+    "link": ""
+  },
+  {
+    "title":"Reference entities completeness",
+    "domains": ["Reference entities","Quality"],
+    "editions": ["EE"],
+    "since-version": "3.0",
+    "link": ""
+  },
+  {
+    "title":"Reference entities permissions 🔒",
+    "domains": ["Reference entities","Governance"],
+    "editions": ["EE"],
+    "since-version": "3.0",
+    "link": ""
+  },
+  {
+    "title":"Reference entities links",
+    "domains": ["Reference entities","Governance"],
+    "editions": ["EE"],
+    "since-version": "3.0",
+    "link": ""
+  },
+  {
+    "title":"Reference entities API 🔌",
+    "domains": ["Reference entities","Connectivity"],
+    "editions": ["EE"],
+    "since-version": "3.0",
+    "link": ""
+  },
+  {
+    "title":"Faster product grid 🚀",
+    "domains": ["Productivity","Scalability"],
+    "editions": ["CE", "EE"],
+    "since-version": "3.0",
+    "link": ""
+  },
+  {
+    "title":"Faster dashboard 🚀",
+    "domains": ["Reporting","Scalability"],
+    "editions": ["CE", "EE"],
+    "since-version": "3.0",
+    "link": ""
+  }
+]
