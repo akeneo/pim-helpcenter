@@ -1,6 +1,7 @@
 const updatesAsJson = require('../../tasks/build-monthly-updates-as-json.js');
 const del = require('del');
 const fs = require('fs');
+const errorHandler = () => {};
 
 test('It generates all updates in the json file by default to deploy everything in staging or in local environment', done => {
     del(['tmp/*']);
@@ -10,7 +11,7 @@ test('It generates all updates in the json file by default to deploy everything 
             new Date('2020-03-04T00:00:00.000Z').valueOf()
         );
 
-    const stream = updatesAsJson('./tests/updates/nominal_case/**/*.md', './tmp/', 'test.json', true);
+    const stream = updatesAsJson('./tests/updates/nominal_case/**/*.md', './tmp/', 'test.json', true, errorHandler);
 
     stream.on('end', () => {
         const rawData = fs.readFileSync('./tmp/test.json');
@@ -41,7 +42,7 @@ test('When we are from 05 to 31 March 2020, generate the updates until February 
             new Date('2020-03-05T00:00:00.000Z').valueOf()
         );
 
-    const stream = updatesAsJson('./tests/updates/nominal_case/**/*.md', './tmp/', 'test.json', false);
+    const stream = updatesAsJson('./tests/updates/nominal_case/**/*.md', './tmp/', 'test.json', false, errorHandler);
 
     stream.on('end', () => {
         const rawData = fs.readFileSync('./tmp/test.json');
@@ -73,7 +74,7 @@ test('When we are in March 31th 2020, generate the updates until February 2020',
             new Date('2020-03-31T00:00:00.000Z').valueOf()
         );
 
-    const stream = updatesAsJson('./tests/updates/nominal_case/**/*.md', './tmp/', 'test.json', false);
+    const stream = updatesAsJson('./tests/updates/nominal_case/**/*.md', './tmp/', 'test.json', false, errorHandler);
 
     stream.on('end', () => {
         const rawData = fs.readFileSync('./tmp/test.json');
@@ -99,7 +100,7 @@ test('When we are from 01 to 04 April 2020, generate the updates until February 
             new Date('2020-04-04T00:00:00.000Z').valueOf()
         );
 
-    const stream = updatesAsJson('./tests/updates/nominal_case/**/*.md', './tmp/', 'test.json', false);
+    const stream = updatesAsJson('./tests/updates/nominal_case/**/*.md', './tmp/', 'test.json', false, errorHandler);
 
     stream.on('end', () => {
         const rawData = fs.readFileSync('./tmp/test.json');
@@ -125,7 +126,7 @@ test('When we are from 05 to April to 04 May 2020, generate the updates until Ma
             new Date('2020-04-05T00:00:00.000Z').valueOf()
         );
 
-    const stream = updatesAsJson('./tests/updates/nominal_case/**/*.md', './tmp/', 'test.json', false);
+    const stream = updatesAsJson('./tests/updates/nominal_case/**/*.md', './tmp/', 'test.json', false, errorHandler);
 
     stream.on('end', () => {
         const rawData = fs.readFileSync('./tmp/test.json');
