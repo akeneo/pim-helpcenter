@@ -17,8 +17,6 @@ afterEach(async () => {
 });
 
 test('It adds new announcements into firestore.', async () => {
-    await firebaseTest.firestore().collection('announcements-test').doc('update_1-optimize-weight-assets_2020-03').delete();
-
     await pushAnnouncements('./tests/updates/nominal_case/expected_updates.json', 'announcements-test');
 
     const ids = await getIdsInFirestore(firebaseTest, collectionName);
@@ -29,15 +27,18 @@ test('It adds new announcements into firestore.', async () => {
     ]);
 });
 
-test('It removes deleted announcements from firestore.', async () => {
-    await firebaseTest.firestore().collection('announcements-test').doc('to_remove_document').set({'test': 'foo'});
+test('It removes deleted update announcements from firestore without deleting product marketing announcements.', async () => {
+    await firebaseTest.firestore().collection('announcements-test').doc('to_remove_document').set({'test': 'foo', 'type': 'update'});
+    await firebaseTest.firestore().collection('announcements-test').doc('product_marketing_announcement').set({'test': 'foo', 'type': 'product_marketing'});
+
     const beforeTestIds = await getIdsInFirestore(firebaseTest, collectionName);
-    expect(beforeTestIds).toStrictEqual(['to_remove_document',]);
+    expect(beforeTestIds).toStrictEqual(['product_marketing_announcement', 'to_remove_document']);
 
     await pushAnnouncements('./tests/updates/nominal_case/expected_updates.json', 'announcements-test');
 
     const ids = await getIdsInFirestore(firebaseTest, collectionName);
     expect(ids).toStrictEqual([
+        'product_marketing_announcement',
         'update_1-data-quality-new-improvements_2020-04',
         'update_1-optimize-weight-assets_2020-03',
         'update_2-new-warning-message-username-connection_2020-03'
