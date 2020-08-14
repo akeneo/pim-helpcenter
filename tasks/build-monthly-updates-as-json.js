@@ -182,6 +182,7 @@ function generateJson() {
         let content = JSON.stringify({
             'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
             'startDate': startDateWithDay,
+            'type': 'update',
             'description': file.description,
             'img': imgContent,
             'imgAlt': data['pim_announcement_alt_img'],
