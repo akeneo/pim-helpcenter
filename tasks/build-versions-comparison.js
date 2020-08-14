@@ -81,8 +81,9 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
             updates: updates,
             domains: coloredDomains,
             features: coloredFeatures,
-            domainsAndFeatures: domainsAndFeatures,
+            defaultDomainsAndFeatures: Object.keys(domainsAndFeatures),
             versions: versions,
+            defaultVersions: Object.keys(versions),
             majorVersion: majorVersion
         }, {
             partialsDirectory: ['./src/partials']

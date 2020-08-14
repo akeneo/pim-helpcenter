@@ -171,35 +171,36 @@
             transform: rotate(45deg);
         }
     }
-
-    .grid {
+    .versions-comparison-results {
         margin-top: @spacing-base;
-        .versions-comparison-updates {
-            width: 250px;
-            border-radius: @border-radius-base;
-            margin: @spacing-base/5 @spacing-base/5 0 0;
-            background-color: #fff;
-            border: 1px solid @gray-lighter;
-            padding: @spacing-base/4;
-            p {
-                color: @text-color;
-                &.title{
-                    font-size: ceil(@font-size-base * 1.15);
-                    font-weight: normal;
-                    color: @brand-primary;
-                    height: 1.2*@spacing-base;
-                    line-height: normal;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    white-space: initial;
-                    display: -webkit-box;
-                    -webkit-line-clamp: 3;
-                    -webkit-box-orient: vertical;
+        .grid {
+            .versions-comparison-updates {
+                width: 250px;
+                border-radius: @border-radius-base;
+                margin: @spacing-base/5 @spacing-base/5 0 0;
+                background-color: #fff;
+                border: 1px solid @gray-lighter;
+                padding: @spacing-base/4;
+                p {
+                    color: @text-color;
+                    &.title{
+                        font-size: ceil(@font-size-base * 1.15);
+                        font-weight: normal;
+                        color: @brand-primary;
+                        height: 1.2*@spacing-base;
+                        line-height: normal;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: initial;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                    }
+                    &:last-of-type {
+                        margin-bottom: 0px;
+                    }
                 }
-                &:last-of-type {
-                    margin-bottom: 0px;
-                }
-            }
-        } 
+            } 
+        }
     }
 }
