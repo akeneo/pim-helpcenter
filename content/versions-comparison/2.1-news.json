@@ -4,27 +4,20 @@
     "domains": ["Productivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.1",
-    "link": ""
+    "link": "/pim/v2/articles/products-grid.html#search-by-label-and-identifier-since-21"
   },
   {
     "title":"Bulk categorize product models 📂",
     "domains": ["Productivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.1",
-    "link": ""
-  },
-  {
-    "title":"Assets API 🔌",
-    "domains": ["Asset","Connectivity"],
-    "editions": ["EE"],
-    "since-version": "2.1",
-    "link": ""
+    "link": "/pim/v2/articles/product-mass-actions.html#categorize-move-or-remove-products"
   },
   {
     "title":"Gallery view in the product grid 🖼️",
     "domains": ["Productivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.1",
-    "link": ""
+    "link": "/pim/v2/articles/products-grid.html#product-grid-display-since-21"
   }
 ]

@@ -4,27 +4,27 @@
     "domains": ["Governance"],
     "editions": ["CE","EE"],
     "since-version": "2.3",
-    "link": ""
+    "link": "/pim/v2/articles/product-mass-actions.html#associate-products-since-21"
   },
   {
     "title":"Proposals on product models",
     "domains": ["Governance","Productivity"],
     "editions": ["EE"],
     "since-version": "2.3",
-    "link": ""
+    "link": "/pim/v2/articles/proposals-workflow.html#overview"
   },
   {
     "title":"Product model and variant product parent change",
     "domains": ["Governance","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "2.3",
-    "link": ""
+    "link": "/pim/v2/articles/product-mass-actions.html#change-the-parent-product-model-since-23"
   },
   {
     "title":"Upload asset in the product form",
     "domains": ["Productivity"],
     "editions": ["EE"],
     "since-version": "2.3",
-    "link": ""
+    "link": "/pim/v2/articles/work-on-a-product.html#upload-assets-directly-from-the-product-form"
   }
 ]

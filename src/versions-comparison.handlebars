@@ -60,7 +60,7 @@
                             <p class="title">{{title}}</p>
                             <p><em>Available {{#if isSerenityOnly}} in <b>Serenity</b>{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em>
                             <p>{{#each coloredDomains as |domain color|}}<span class="label label-{{color}}">{{domain}}</span> {{/each}}</p>
-                            <p class="text-right"><a class="link" href="{{link}}">Read more... ></a></p>
+                            {{#if link}}<p class="text-right"><a class="link" href="{{link}}" target="_blank">Read more... ></a></p>{{/if}}
                         </div>
                     {{/each}}
                 </div>

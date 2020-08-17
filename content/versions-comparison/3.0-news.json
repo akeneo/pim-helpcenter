@@ -4,48 +4,46 @@
     "domains": ["Reference entities","Governance"],
     "editions": ["EE"],
     "since-version": "3.0",
-    "link": ""
+    "link": "/pim/v3/articles/what-about-reference-entities.html"
   },
   {
     "title":"Reference entities completeness",
     "domains": ["Reference entities","Quality"],
     "editions": ["EE"],
     "since-version": "3.0",
-    "link": ""
+    "link": "/pim/v3/articles/manage-reference-entities.html#define-the-completeness"
   },
   {
     "title":"Reference entities permissions 🔒",
     "domains": ["Reference entities","Governance"],
     "editions": ["EE"],
     "since-version": "3.0",
-    "link": ""
+    "link": "/pim/v3/articles/access-rights-on-entities.html"
   },
   {
     "title":"Reference entities records links 🔗",
     "domains": ["Reference entities","Governance"],
     "editions": ["EE"],
     "since-version": "3.0",
-    "link": ""
+    "link": "/pim/v3/articles/enrich-your-reference-entity-records.html#link-a-record-to-another-record"
   },
   {
     "title":"Reference entities API 🔌",
     "domains": ["Reference entities","Connectivity"],
     "editions": ["EE"],
     "since-version": "3.0",
-    "link": ""
+    "link": "https://api.akeneo.com/api-reference-index.html#Referenceentities"
   },
   {
     "title":"Faster product grid 🚀",
     "domains": ["Productivity","Scalability"],
     "editions": ["CE", "EE"],
-    "since-version": "3.0",
-    "link": ""
+    "since-version": "3.0"
   },
   {
     "title":"Faster dashboard 🚀",
     "domains": ["Reporting","Scalability"],
     "editions": ["CE", "EE"],
-    "since-version": "3.0",
-    "link": ""
+    "since-version": "3.0"
   }
 ]

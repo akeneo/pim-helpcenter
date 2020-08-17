@@ -4,27 +4,20 @@
     "domains": ["Rules engine", "Productivity"],
     "editions": ["EE"],
     "since-version": "2.2",
-    "link": ""
+    "link": "/pim/v2/articles/manage-your-rules.html#execute-rules"
   },
   {
     "title":"Search in the proposal grid 🔍",
     "domains": ["Productivity"],
     "editions": ["EE"],
     "since-version": "2.2",
-    "link": ""
+    "link": "/pim/v2/articles/review-products-proposals.html#filter-the-proposals-since-22"
   },
   {
     "title":"Bulk add attribute values to products",
     "domains": ["Productivity"],
     "editions": ["CE","EE"],
     "since-version": "2.2",
-    "link": ""
-  },
-  {
-    "title":"Rule to decategorize products 🤖",
-    "domains": ["Rules engine", "Productivity"],
-    "editions": ["EE"],
-    "since-version": "2.2",
-    "link": ""
+    "link": "/pim/v2/articles/product-mass-actions.html#add-new-values-to-attributes-since-22"
   }
 ]
