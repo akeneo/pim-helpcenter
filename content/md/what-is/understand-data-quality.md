@@ -30,7 +30,6 @@ From the `data quality insights` panel, by clicking on the "Display all missing 
 
 The **consistency grade** is calculated on several criteria. The mix of the following criteria helps the PIM determine the grade for consistency:
 - Spell check: text and text areas are checked for spelling mistakes.
-- Title formatting: the attribute as **main label** is checked for optimised writing.
 - Uppercases formatting: the PIM checks whether text area attributes are correctly formatted for upper cases.
 - Lowercases formatting: the PIM checks whether text area attributes are correctly formatted for lower cases.
 
@@ -39,16 +38,8 @@ Spell check is available for English, French, German and Spanish locales.
 Spell check is usable with text and simple text area attributes.
 :::
 
-::: info
-Title formatting suggestions are available for English locales.
-:::
-
 ::: tips
 From the `data quality insights` panel, by clicking on the "Display all improvable attributes", you can easily access a product edit form filtered on all the attributes that need to be checked for consistency.
-:::
-
-::: success
-To take full advantage of the Title formatting criteria, set your product title attribute as the **main label**.
 :::
 
 # Where to see data quality grades?
