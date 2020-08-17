@@ -7,6 +7,20 @@
     "link": "/pim/serenity/updates/2020-06.html#new-duplicate-a-product"
   },
   {
+    "title":"Rules creation and update interface 🤖",
+    "domains": ["Rules engine","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-07.html#new-create-and-update-rules-from-the-pim"
+  },
+  {
+    "title":"Quantities in product association 🔗",
+    "domains": ["Governance","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "pim/serenity/updates/2020-07.html#new-association-type-with-quantities"
+  },
+  {
     "title":"Two-way product association 🔗",
     "domains": ["Governance","Productivity"],
     "editions": ["CE","EE"],
@@ -23,63 +37,70 @@
   {
     "title":"Measurements creation 📏",
     "domains": ["Governance"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#a-new-screen-to-add-your-own-measurement-units"
   },
   {
+    "title":"Measurements API 🔌",
+    "domains": ["Governance","Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-04.html#new-endpoints-to-manage-measurements"
+  },
+  {
     "title":"Quality grades on variant products 💯",
     "domains": ["Quality"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#data-quality-insights-now-available-for-variant-products"
   },
   {
     "title":"Quality grades on product models 💯",
     "domains": ["Quality"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#data-quality-insights-on-product-models"
   },
   {
     "title":"Spell-check on text area and text attributes in Italian 🇮🇹",
     "domains": ["Quality"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
   },
   {
     "title":"Spell-check on text area and text attributes in Swedish 🇸🇪",
     "domains": ["Quality"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
   },
   {
     "title":"Spell-check on text area and text attributes in Danish 🇩🇰",
     "domains": ["Quality"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
   },
   {
     "title":"Spell-check on text area and text attributes in Dutch 🇳🇱",
     "domains": ["Quality"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
   },
   {
     "title":"Spell-check on text area and text attributes in Norwegian 🇳🇴",
     "domains": ["Quality"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#spell-check-new-languages-supported"
   },
   {
     "title":"Spell-check on text area and text attributes in Brazilian 🇧🇷",
     "domains": ["Quality"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#spell-check-new-languages-supported"
   },
@@ -93,16 +114,9 @@
   {
     "title":"Automatized attributes concatenation 🤖",
     "domains": ["Rules engine", "Productivity"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#a-new-rule-action-to-concatenate-attributes"
-  },
-  {
-    "title":"Measurements API 🔌",
-    "domains": ["Governance","Connectivity"],
-    "editions": ["EE"],
-    "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2020-04.html#new-endpoints-to-manage-measurements"
   },
   {
     "title":"Product export monitoring 📊",
@@ -112,9 +126,16 @@
     "link": "/pim/serenity/updates/2020-04.html#track-your-destination-connections"
   },
   {
+    "title":"Connection errors easy fixing",
+    "domains": ["Connectivity","Reporting"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-07.html#easily-fix-errors-on-your-connections"
+  },
+  {
     "title":"Automatized attribute computation 🤖",
     "domains": ["Rules engine","Productivity"],
-    "editions": ["EE"],
+    "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#calculate-attribute-values"
   },
@@ -124,6 +145,13 @@
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-05.html#easily-monitor-errors-on-your-connections"
+  },
+  {
+    "title":"Spell-check on attribute options",
+    "domains": ["Quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-07.html#avoid-spelling-mistakes-in-your-product-data"
   },
   {
     "title":"Attribute options easy management",

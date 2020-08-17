@@ -1,6 +1,6 @@
 [
   {
-    "title":"Associations on product models",
+    "title":"Associations on product models 🔗",
     "domains": ["Governance"],
     "editions": ["CE","EE"],
     "since-version": "2.3",
@@ -21,7 +21,7 @@
     "link": "/pim/v2/articles/product-mass-actions.html#change-the-parent-product-model-since-23"
   },
   {
-    "title":"Upload asset in the product form",
+    "title":"Upload asset in the product form 🖼️",
     "domains": ["Productivity"],
     "editions": ["EE"],
     "since-version": "2.3",
