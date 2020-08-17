@@ -86,8 +86,8 @@ Note that there is no preview for the `other` media type.
 :::
 
 ### Edit a media link attribute
- - *Prefix*: to put a prefix on all the media link (for example: `mydam`)
- - *Suffix*: to put a suffix on all the media link (for example: `.thumbnail.jpg`)
+ - *Prefix*: to put a prefix on all the media links (for example: `http://mydam.com/pictures/`)
+ - *Suffix*: to put a suffix on all the media links (for example: `?width=800&format=jpg`)
  - *Media type*: choose either `image`, `pdf`, `youtube`, `vimeo` or `other`
 
 :::info
