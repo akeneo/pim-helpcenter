@@ -72,10 +72,6 @@ Spell check is available for English, French, German and Spanish locales.
 Spell check is usable with text and simple text area attributes.
 :::
 
-::: info
-Title formatting suggestion is available for English locales.
-:::
-
 ::: tips
 From the `data quality insights` panel, by clicking on the "Display all improvable attributes", you can easily access a product edit form filtered on all the attributes that need to be checked for consistency.
 :::
