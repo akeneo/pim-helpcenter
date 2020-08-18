@@ -10,7 +10,8 @@ pim_announcement_audience:
 
 As you may know, we introduced last month a brand new UI to manage your rules directly in the PIM.
 
-We are still adding new filters (aka the `conditions`) and actions to make it more powerful!
+We are still adding new filters (aka the `conditions`) and `actions` to make it more powerful!
+
 The whole conditions and actions will be ready soon, stay tuned!
 
 ::: more
