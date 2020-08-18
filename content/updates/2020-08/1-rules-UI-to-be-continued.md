@@ -1,5 +1,4 @@
 ---
-pim_announcement_img: ./img/Rules_UI_2.png
 pim_announcement_alt_img: "The UI to manage the rules"
 pim_announcement_audience:
 - EE
@@ -10,8 +9,6 @@ pim_announcement_audience:
 :::
 
 As you may know, we introduced last month a brand new UI to manage your rules directly in the PIM.
-
-![New screen to manage your rules](../img/Rules_UI_2.png)
 
 We are still adding new filters (aka the `conditions`) and actions to make it more powerful!
 The whole conditions and actions will be ready soon, stay tuned!
