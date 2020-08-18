@@ -751,6 +751,26 @@ value: "Awesome product"
 ```
 **text** can be written with or without quotation marks.
 
+## Identifier
+
+The possible operators for the `identifier` attribute type are:  
+
+- STARTS_WITH
+- CONTAINS
+- DOES_NOT_CONTAIN
+- EQUALS
+- NOT_EQUAL
+- IN_LIST
+- NOT_IN_LIST
+
+### Example
+
+```YML
+field: sku
+operator: CONTAINS
+value: AKNTS_PB
+```
+
 ## Measurement
 
 The possible operators for the `measurement` attribute type are:  
