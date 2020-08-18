@@ -79,6 +79,7 @@ You can use the following system fields and attribute types as `conditions` to s
 - Text area attribute
 - Reference entity single link & multiple link attributes
 - Date attribute
+- Asset collection attribute
 
 ### Add actions
 
