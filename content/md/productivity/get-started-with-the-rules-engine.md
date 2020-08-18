@@ -755,13 +755,13 @@ value: "Awesome product"
 
 The possible operators for the `identifier` attribute type are:  
 
-- STARTS_WITH
+- STARTS WITH
 - CONTAINS
-- DOES_NOT_CONTAIN
-- EQUALS
-- NOT_EQUAL
-- IN_LIST
-- NOT_IN_LIST
+- DOES NOT CONTAIN
+- =
+- "!="
+- IN
+- NOT IN
 
 ### Example
 
