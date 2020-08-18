@@ -10,7 +10,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="API, Productivity" available="late-August" link-to-doc="https://api.akeneo.com/documentation/filter.html#"
 :::
 
-With the new `search` parameter, you can now add filters on product structure endpoints: attributes, attribute groups, categories, and families.
+With the new `search` parameter, you can now add filters on product structure endpoints: attributes, attribute groups, categories, and families.  
 For example, you can retrieve data for all attributes that have been updated since a specific date, or you can get the data from all the sub-categories of a specific tree.
 
 ::: more
