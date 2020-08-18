@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # New filters on product structure API endpoints
-::: meta-data type="New" features="API, Productivity" available="late-August" link-to-doc="https://api.akeneo.com/documentation/filter.html#"
+::: meta-data type="New" features="API, Productivity" available="late August" link-to-doc="https://api.akeneo.com/documentation/filter.html"
 :::
 
 With the new `search` parameter, you can now add filters on product structure endpoints: attributes, attribute groups, categories, and families.  
