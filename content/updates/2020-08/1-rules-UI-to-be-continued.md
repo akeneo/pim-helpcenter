@@ -4,7 +4,7 @@ pim_announcement_audience:
 - EE
 ---
 
-# More and more capabilities in your rules builder!
+# More and more capabilities in your rules builder interface!
 ::: meta-data type="New" features="Rules engine, Productivity" available="mid-August" link-to-doc="../articles/manage-your-rules.html#the-rule-builder-tab"
 :::
 
