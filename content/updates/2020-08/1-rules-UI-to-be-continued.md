@@ -1,5 +1,4 @@
 ---
-pim_announcement_alt_img: "The UI to manage the rules"
 pim_announcement_audience:
 - EE
 ---
