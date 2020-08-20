@@ -14,7 +14,7 @@
     "link": "/pim/serenity/updates/2020-07.html#new-create-and-update-rules-from-the-pim"
   },
   {
-    "title":"Quantities in product association 🔗",
+    "title":"Association with quantities 🔗",
     "domains": ["Governance","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
@@ -28,14 +28,14 @@
     "link": "/pim/serenity/updates/2020-05.html#new-association-type-the-two-way-association"
   },
   {
-    "title":"Job tracker full visibility 👁️",
+    "title":"Jobs visibility on the process tracker 👁️",
     "domains": ["Reporting"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-05.html#more-visibility-on-pim-jobs"
   },
   {
-    "title":"Measurements creation 📏",
+    "title":"Measurement families 📏",
     "domains": ["Governance"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
@@ -49,14 +49,14 @@
     "link": "/pim/serenity/updates/2020-04.html#new-endpoints-to-manage-measurements"
   },
   {
-    "title":"Quality grades on variant products 💯",
+    "title":"Data quality grades on variant products 💯",
     "domains": ["Quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#data-quality-insights-now-available-for-variant-products"
   },
   {
-    "title":"Quality grades on product models 💯",
+    "title":"Data quality grades on product models 💯",
     "domains": ["Quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
@@ -112,49 +112,49 @@
     "link": "/pim/serenity/updates/2020-03.html#new-measurement-units-and-families"
   },
   {
-    "title":"Automatized attributes concatenation 🤖",
+    "title":"Concatenate attributes with the rules engine 🤖",
     "domains": ["Rules engine", "Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#a-new-rule-action-to-concatenate-attributes"
   },
   {
-    "title":"Product export monitoring 📊",
+    "title":"Monitor your destination connections 📊",
     "domains": ["Connectivity","Reporting"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#track-your-destination-connections"
   },
   {
-    "title":"Connection errors easy fixing",
+    "title":"Improved error management on connections",
     "domains": ["Connectivity","Reporting"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-07.html#easily-fix-errors-on-your-connections"
   },
   {
-    "title":"Automatized attribute computation 🤖",
+    "title":"Calculate attribute values with the rules engine 🤖",
     "domains": ["Rules engine","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#calculate-attribute-values"
   },
   {
-    "title":"Error monitoring on product import 📊",
+    "title":"Improved error monitoring on connections 📊",
     "domains": ["Connectivity","Reporting"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-05.html#easily-monitor-errors-on-your-connections"
   },
   {
-    "title":"Spell-check on attribute options",
+    "title":"Spell-check on attribute options and labels",
     "domains": ["Quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-07.html#avoid-spelling-mistakes-in-your-product-data"
   },
   {
-    "title":"Attribute options easy management",
+    "title":"Attribute options screen revamp",
     "domains": ["Productivity", "Governance"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",

@@ -1,55 +1,48 @@
 [
   {
-    "title":"Assets structuration with families and attributes 🖼️",
+    "title":"Asset Manager for your digital assets 🖼️",
     "domains": ["Asset","Governance"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
   },
   {
-    "title":"Asset data enrichment 🖼️",
-    "domains": ["Asset","Quality"],
-    "editions": ["EE"],
-    "since-version": "4.0",
-    "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
-  },
-  {
-    "title":"Asset data contextualization by locale and channel",
+    "title":"Contextualize asset content by locale and channel",
     "domains": ["Asset","Quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#contextualize-your-asset-information"
   },
   {
-    "title":"External media used as product asset 🖼️",
+    "title":"Easily retrieve 3rd-party assets 🖼️",
     "domains": ["Asset","Governance"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
   },
   {
-    "title":"Asset completeness 🖼️",
+    "title":"Completeness on assets 🖼️",
     "domains": ["Asset","Quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#permissions-completeness"
   },
   {
-    "title":"Flexible and automatized asset transformations 🤖",
+    "title":"New asset transformations 🤖",
     "domains": ["Asset","Productivity"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#improved-asset-transformation-rules"
   },
   {
-    "title":"Efficient mass asset upload",
+    "title":"Improved mass asset upload",
     "domains": ["Asset","Productivity"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#mass-upload"
   },
   {
-    "title":"Automatic asset/product link 🤖",
+    "title":"Asset product link rules 🤖",
     "domains": ["Asset","Productivity"],
     "editions": ["EE"],
     "since-version": "4.0",
@@ -63,14 +56,14 @@
     "link": "https://api.akeneo.com/api-reference-index.html#AssetManager"
   },
   {
-    "title":"Quality grades on simple product 💯",
+    "title":"Data quality grades on products 💯",
     "domains": ["Quality", "Reporting"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/data-quality-insights.html#monitor-your-data-quality-in-a-dashboard"
   },
   {
-    "title":"Data quality monitoring in a dashboard 📊",
+    "title":"Data Quality Insights dashboard 📊",
     "domains": ["Quality", "Reporting"],
     "editions": ["EE"],
     "since-version": "4.0",
@@ -105,21 +98,21 @@
     "link": "/pim/v4/updates/data-quality-insights.html#how-does-it-work"
   },
   {
-    "title":"API connection management 🔌",
+    "title":"API connections management 🔌",
     "domains": ["Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/articles/manage-your-connections.html"
   },
   {
-    "title":"Streamlined connector configuration with the Connections 🔌",
+    "title":"Streamlined connector configuration with Connections 🔌",
     "domains": ["Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/connections.html#a-new-streamlined-way-to-configure-connectors-from-within-the-pim"
   },
   {
-    "title":"Product import monitoring 📊",
+    "title":"Monitor your source connections 📊",
     "domains": ["Connectivity","Reporting"],
     "editions": ["CE","EE"],
     "since-version": "4.0",

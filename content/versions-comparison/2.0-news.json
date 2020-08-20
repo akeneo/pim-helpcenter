@@ -1,6 +1,6 @@
 [
   {
-    "title":"Product models and variants modeling",
+    "title":"New modeling with product with variants",
     "domains": ["Governance", "Productivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.0",
@@ -21,7 +21,7 @@
     "link": "https://api.akeneo.com/api-reference-index.html#Familyvariant"
   },
   {
-    "title":"User group permissions on CSV import and export 🔒",
+    "title":"Additional user permissions on native imports/exports 🔒",
     "domains": ["Connectivity"],
     "editions": ["EE"],
     "since-version": "2.0",
@@ -62,7 +62,7 @@
     "link": "https://api.akeneo.com/api-reference-index.html#Publishedproduct"
   },
   {
-    "title":"Product draft management via API 🔌",
+    "title":"Product drafts management via API 🔌",
     "domains": ["Connectivity"],
     "editions": ["EE"],
     "since-version": "2.0",

@@ -1,27 +1,27 @@
 [
   {
-    "title":"Product-related enriched entities: the Reference entities",
+    "title":"Reference entities to manage additional product data",
     "domains": ["Reference entities","Governance"],
     "editions": ["EE"],
     "since-version": "3.0",
     "link": "/pim/v3/articles/what-about-reference-entities.html"
   },
   {
-    "title":"Reference entities completeness",
+    "title":"Completeness on reference entities",
     "domains": ["Reference entities","Quality"],
     "editions": ["EE"],
     "since-version": "3.0",
     "link": "/pim/v3/articles/manage-reference-entities.html#define-the-completeness"
   },
   {
-    "title":"Reference entities permissions 🔒",
+    "title":"Permissions on Reference entities 🔒",
     "domains": ["Reference entities","Governance"],
     "editions": ["EE"],
     "since-version": "3.0",
     "link": "/pim/v3/articles/access-rights-on-entities.html"
   },
   {
-    "title":"Reference entities records links 🔗",
+    "title":"Link a reference entity to another one 🔗",
     "domains": ["Reference entities","Governance"],
     "editions": ["EE"],
     "since-version": "3.0",
@@ -41,7 +41,7 @@
     "since-version": "3.0"
   },
   {
-    "title":"Faster dashboard 🚀",
+    "title":"Faster user dashboard 🚀",
     "domains": ["Reporting","Scalability"],
     "editions": ["CE", "EE"],
     "since-version": "3.0"
