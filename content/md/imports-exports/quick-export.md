@@ -14,22 +14,28 @@ Akeneo allows you to export your search result or a selection of products from t
 To start the export of product information from the products' grid:
 1. Search for products in the grid with the appropriate filters
 1. Select the products on which you want to perform the operation via the selection tool: all the products recorded, all visible products from the ongoing page, none of the products and the products for which you have ticked the 1st column
-![image](../img/Products_BulkActions.png)
-1.  Click on the `Quick Export` displayed in at the bottom of the screen and select:
-    - `Excel (Grid context)` to generate Excel files according to your current view
-    - `Excel (All attributes)` to generate Excel files with all products’ attributes
-    - `CSV (Grid context)` to generate CSV files according to your current view
-    - `CSV (All attributes)` to generate CSV files with all products’ attributes
+![Bulk action](../img/Products_BulkActions.png)
+1.  Click on `Quick Export` displayed in the bar at the bottom of the screen. It will open a pop-up and you can select relevant options:
+    - `CSV` to generate CSV (comma-separated values) files
+    - `XLSX` to generate XLSX (Microsoft Excel) files
+    - `Grid context` to generate files according to your current view
+    - `All attributes` to generate files with all your products’ attributes
+    - `With codes` to define if the data in your file contains the **codes** of the headers and values
+    - `With labels` to define if the data in your file contains the **labels** of the headers and values
+    ![Quick Export checkboxes](../img/Exports_Quick-Export-checkboxes.png)
+1.  On the top-right corner, click on `Export`
 
-![image](../img/Products_QuickExportDropdown.png)
+::: tips
+To save you time, the selections you've made are stored in your local session. It means the next time you will click on Quick Export, the same options will be already selected.
+:::
 
-The action is processed as a back end task, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified. Then, when you click on the notification, you access the report page of the action.
+The action is processed as a back-end task, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified. Then, when you click on the notification, you access the report page of the action.
 
-![image](../img/Products_QuickExportNotification.gif)
+![Quick Export notification](../img/Products_QuickExportNotification.gif)
 
 On the report page, you can download the generated files.
 
-![image](../img/Products_QuickExportDownload.png)
+![Quick Export download](../img/Products_QuickExportDownload.png)
 
 Two files are created:
 1. A file with the selected products named `products_export_<Working Locale Code>_<Working channel Code>_Date_Heure.xlsx` or with `.csv` extension
@@ -37,7 +43,7 @@ Two files are created:
 
 The created files enclose one line per product or product model exported, and a column for each product information available. The format of the generated file is the same as for the product import and export in CSV or XLSX  format with the Akeneo connector.
 
-![image](../img/Exports_XLSXexample.png)
+![XLSX file example](../img/Exports_XLSXexample.png)
 
 Only the working channel is taken into account, and thus all the locale information required for the channel is exported. The working locale is not taken into account.
 

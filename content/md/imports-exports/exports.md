@@ -82,6 +82,9 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 | Delimiter     | Defines the character to delimit the fields in the CSV file |
 | Enclosure   | Defines the character for the field enclosure in the CSV file |
 | With header             | Defines if the first line of the exported file contains the columns names     |
+| Export with labels       | Defines if the data in your file contains the labels of the values instead of their codes |
+| Headers with labels       | Defines if the data in your file contains the labels of the headers instead of their codes |
+| File locale       | Defines into which language the labels will be displayed |
 | Export files and images | Disable the media archiving of images, images will not be exported in the file and the image column will not be present in the export |
 | Number of lines per file | Defines the limit number of lines per file for XSLX export |
 
