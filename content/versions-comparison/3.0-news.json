@@ -14,7 +14,7 @@
     "link": "/pim/v3/articles/manage-reference-entities.html#define-the-completeness"
   },
   {
-    "title":"Permissions on Reference entities 🔒",
+    "title":"Permissions on reference entities 🔒",
     "domains": ["Reference entities","Governance"],
     "editions": ["EE"],
     "since-version": "3.0",
@@ -41,7 +41,7 @@
     "since-version": "3.0"
   },
   {
-    "title":"Faster user dashboard 🚀",
+    "title":"Faster dashboard 🚀",
     "domains": ["Reporting","Scalability"],
     "editions": ["CE", "EE"],
     "since-version": "3.0"

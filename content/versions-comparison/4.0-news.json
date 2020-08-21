@@ -1,20 +1,27 @@
 [
   {
-    "title":"Asset Manager for your digital assets 🖼️",
+    "title":"Asset modeling thanks to asset families 🖼️",
     "domains": ["Asset","Governance"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
   },
   {
-    "title":"Contextualize asset content by locale and channel",
+    "title":"Asset enrichment thanks to asset attributes 🖼️",
+    "domains": ["Asset","Quality"],
+    "editions": ["EE"],
+    "since-version": "4.0",
+    "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
+  },
+  {
+    "title":"Contextualized asset data by locale and channel",
     "domains": ["Asset","Quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#contextualize-your-asset-information"
   },
   {
-    "title":"Easily retrieve 3rd-party assets 🖼️",
+    "title":"Easy 3rd-party assets retrieval 🖼️",
     "domains": ["Asset","Governance"],
     "editions": ["EE"],
     "since-version": "4.0",
@@ -28,7 +35,7 @@
     "link": "/pim/v4/updates/asset-manager.html#permissions-completeness"
   },
   {
-    "title":"New asset transformations 🤖",
+    "title":"Flexible asset transformations 🤖",
     "domains": ["Asset","Productivity"],
     "editions": ["EE"],
     "since-version": "4.0",
@@ -42,7 +49,7 @@
     "link": "/pim/v4/updates/asset-manager.html#mass-upload"
   },
   {
-    "title":"Asset product link rules 🤖",
+    "title":"Asset automatically linked to products 🤖",
     "domains": ["Asset","Productivity"],
     "editions": ["EE"],
     "since-version": "4.0",
@@ -63,7 +70,7 @@
     "link": "/pim/v4/updates/data-quality-insights.html#monitor-your-data-quality-in-a-dashboard"
   },
   {
-    "title":"Data Quality Insights dashboard 📊",
+    "title":"Data quality monitoring dashboard 📊",
     "domains": ["Quality", "Reporting"],
     "editions": ["EE"],
     "since-version": "4.0",
@@ -105,14 +112,14 @@
     "link": "/pim/v4/articles/manage-your-connections.html"
   },
   {
-    "title":"Streamlined connector configuration with Connections 🔌",
+    "title":"Streamlined API connectors configuration 🔌",
     "domains": ["Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/connections.html#a-new-streamlined-way-to-configure-connectors-from-within-the-pim"
   },
   {
-    "title":"Monitor your source connections 📊",
+    "title":"API product import monitoring 📊",
     "domains": ["Connectivity","Reporting"],
     "editions": ["CE","EE"],
     "since-version": "4.0",

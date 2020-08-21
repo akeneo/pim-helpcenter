@@ -21,7 +21,7 @@
     "link": "https://api.akeneo.com/api-reference-index.html#Familyvariant"
   },
   {
-    "title":"Additional user permissions on native imports/exports 🔒",
+    "title":"Permissions on product data on imports/exports 🔒",
     "domains": ["Connectivity"],
     "editions": ["EE"],
     "since-version": "2.0",

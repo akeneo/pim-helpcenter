@@ -14,7 +14,7 @@
     "link": "/pim/v2/articles/review-products-proposals.html#filter-the-proposals-since-22"
   },
   {
-    "title":"Add attribute values to products in bulk",
+    "title":"Bulk addition of product attribute values",
     "domains": ["Productivity"],
     "editions": ["CE","EE"],
     "since-version": "2.2",

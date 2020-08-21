@@ -14,7 +14,7 @@
     "link": "/pim/serenity/updates/2020-07.html#new-create-and-update-rules-from-the-pim"
   },
   {
-    "title":"Association with quantities 🔗",
+    "title":"Product associations with quantities 🔗",
     "domains": ["Governance","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
@@ -28,7 +28,7 @@
     "link": "/pim/serenity/updates/2020-05.html#new-association-type-the-two-way-association"
   },
   {
-    "title":"Jobs visibility on the process tracker 👁️",
+    "title":"Full visibility on jobs 👁️",
     "domains": ["Reporting"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
@@ -112,35 +112,35 @@
     "link": "/pim/serenity/updates/2020-03.html#new-measurement-units-and-families"
   },
   {
-    "title":"Concatenate attributes with the rules engine 🤖",
+    "title":"Attributes concatenation automatized with rules 🤖",
     "domains": ["Rules engine", "Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#a-new-rule-action-to-concatenate-attributes"
   },
   {
-    "title":"Monitor your destination connections 📊",
+    "title":"API product export monitoring 📊",
     "domains": ["Connectivity","Reporting"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#track-your-destination-connections"
   },
   {
-    "title":"Improved error management on connections",
+    "title":"Improved error management on API connections",
     "domains": ["Connectivity","Reporting"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-07.html#easily-fix-errors-on-your-connections"
   },
   {
-    "title":"Calculate attribute values with the rules engine 🤖",
+    "title":"Attribute values automatically computed with rules 🤖",
     "domains": ["Rules engine","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#calculate-attribute-values"
   },
   {
-    "title":"Improved error monitoring on connections 📊",
+    "title":"Error monitoring on API connections 📊",
     "domains": ["Connectivity","Reporting"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
@@ -154,7 +154,7 @@
     "link": "/pim/serenity/updates/2020-07.html#avoid-spelling-mistakes-in-your-product-data"
   },
   {
-    "title":"Attribute options screen revamp",
+    "title":"Improved attribute options management",
     "domains": ["Productivity", "Governance"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",

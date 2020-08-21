@@ -14,14 +14,14 @@
     "link": "/pim/v2/articles/proposals-workflow.html#overview"
   },
   {
-    "title":"Change the product model of a variant",
+    "title":"Parent change for sub-product model or variant product",
     "domains": ["Governance","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "2.3",
     "link": "/pim/v2/articles/product-mass-actions.html#change-the-parent-product-model-since-23"
   },
   {
-    "title":"Upload assets directly in the product form 🖼️",
+    "title":"Assets upload in the product form 🖼️",
     "domains": ["Productivity"],
     "editions": ["EE"],
     "since-version": "2.3",
