@@ -1,35 +1,35 @@
 [
   {
     "title":"Reference entities to manage product-related data",
-    "domains": ["Reference entities","Governance"],
+    "domains": ["Governance"],
     "editions": ["EE"],
     "since-version": "3.0",
     "link": "/pim/v3/articles/what-about-reference-entities.html"
   },
   {
     "title":"Completeness on reference entities",
-    "domains": ["Reference entities","Quality"],
+    "domains": ["Quality"],
     "editions": ["EE"],
     "since-version": "3.0",
     "link": "/pim/v3/articles/manage-reference-entities.html#define-the-completeness"
   },
   {
     "title":"Permissions on reference entities 🔒",
-    "domains": ["Reference entities","Governance"],
+    "domains": ["Governance","Collaboration"],
     "editions": ["EE"],
     "since-version": "3.0",
     "link": "/pim/v3/articles/access-rights-on-entities.html"
   },
   {
     "title":"Link a reference entity to another one 🔗",
-    "domains": ["Reference entities","Governance"],
+    "domains": ["Governance"],
     "editions": ["EE"],
     "since-version": "3.0",
     "link": "/pim/v3/articles/enrich-your-reference-entity-records.html#link-a-record-to-another-record"
   },
   {
     "title":"Reference entities API 🔌",
-    "domains": ["Reference entities","Connectivity"],
+    "domains": ["Connectivity"],
     "editions": ["EE"],
     "since-version": "3.0",
     "link": "https://api.akeneo.com/api-reference-index.html#Referenceentities"

@@ -16,12 +16,9 @@ const coloredDomains = {
     'governance': { 'label': 'Governance', 'color': 'warning' },
     'scalability': { 'label': 'Scalability', 'color': 'danger' },
     'connectivity': { 'label': 'Connectivity', 'color': 'akeneo' },
-    'reporting': { 'label': 'Reporting', 'color': 'orange' }
-};
-const coloredFeatures = {
-    'assets': { 'label': 'Assets', 'color': 'primary' },
-    'referenceentities': { 'label': 'Reference entities', 'color': 'primary' },
-    'rulesengine': { 'label': 'Rules engine', 'color': 'primary' }
+    'reporting': { 'label': 'Reporting', 'color': 'orange' },
+    'collaboration': { 'label': 'Collaboration', 'color': 'primary' },
+    'automation': { 'label': 'Automation', 'color': 'pink' }
 };
 const orderedVersions = {
     '17': { 'name': '1.7', 'isSupported': false },
@@ -54,11 +51,9 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
         return concatUpdates.concat(JSON.parse(fs.readFileSync(fileDirectorySource + '/' + version.name + '-news.json')));
     }, []);
 
-    const domainsAndFeatures = Object.assign({}, coloredDomains, coloredFeatures);
-
     _.each(updates, function(update){
         update.coloredDomains = _.keyBy(update.domains, function(domain){
-            var coloredDomain = domainsAndFeatures[domain.replace(/\s/g, '').toLowerCase()];
+            var coloredDomain = coloredDomains[domain.replace(/\s/g, '').toLowerCase()];
             return coloredDomain ? coloredDomain.color : 'default';
         });
         update.domainCodes = _.map(update.domains, function(domain){
@@ -73,8 +68,7 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
             title: 'What\'s new since your version?',
             updates: updates,
             domains: coloredDomains,
-            features: coloredFeatures,
-            defaultDomainsAndFeatures: Object.keys(domainsAndFeatures),
+            defaultDomains: Object.keys(coloredDomains),
             versions: orderedVersions,
             defaultVersions: Object.keys(orderedVersions),
             majorVersion: majorVersion

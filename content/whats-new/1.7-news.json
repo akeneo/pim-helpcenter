@@ -1,7 +1,7 @@
 [
   {
     "title":"Teamwork Assistant",
-    "domains": ["Productivity"],
+    "domains": ["Productivity", "Collaboration"],
     "editions": ["EE"],
     "since-version": "1.7",
     "link": "/pim/v2/articles/what-is-a-project.html"

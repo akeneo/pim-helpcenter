@@ -1,7 +1,7 @@
 {{!-- The index of the version comparison page --}}
 {{#> layout title="What's new in the PIM since your version?"}}
 {{> navbar-only-logo }}
-    <div id="whats-new" class="container-fluid whats-new" data-init-versions="{{defaultVersions}}" data-init-domains="{{defaultDomainsAndFeatures}}">
+    <div id="whats-new" class="container-fluid whats-new" data-init-versions="{{defaultVersions}}" data-init-domains="{{defaultDomains}}">
         <div class="row">
             <div class="col-xs-12">
                 <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover all the new features we released in our versions</p>
@@ -31,21 +31,12 @@
                 </label>
                 <p class="small"><em>Filter ignored for Serenity-only features.</em></p>
             </div>
-            <div class="col-xs-12 col-md-7">
+            <div class="col-xs-12">
                 <h3>PXM domains</h3>
                 {{#each domains as |domain key|}}
                     <label class="domain-checkbox">
                         <input id=".{{key}}" onclick="filterDomains('.{{key}}', this)" type="checkbox" value=".{{key}}" /> 
                         <span class="label label-{{domain.color}}">{{domain.label}}</span>
-                    </label>
-                {{/each}}
-            </div>
-            <div class="col-xs-12 col-md-5">
-                <h3>PIM key capabilities</h3>
-                {{#each features as |feature key|}}
-                    <label class="domain-checkbox">
-                        <input id=".{{key}}" onclick="filterDomains('.{{key}}', this)" type="checkbox" value=".{{key}}" /> 
-                        <span class="label label-{{feature.color}}">{{feature.label}}</span>
                     </label>
                 {{/each}}
             </div>
@@ -133,7 +124,7 @@
 
     function countNews(){
         var newsCount = $grid.data('isotope').filteredItems.length;
-        document.getElementById('news-count').innerHTML = newsCount ? 'There were <b>' + newsCount + '</b> new key features delivered in the PIM for the versions, edition and domains/features you selected. 💪' :  'Uh oh! There were <b>' + newsCount + '</b> new key feature delivered in the PIM for the versions, edition and domain/features you selected.<br/><b>Don\'t hesitate to change the above filters to see more new features!</b> 😉';
+        document.getElementById('news-count').innerHTML = newsCount ? 'There were <b>' + newsCount + '</b> new key features delivered in the PIM for the versions, edition and domains you selected. 💪' :  'Uh oh! There were <b>' + newsCount + '</b> new key feature delivered in the PIM for the versions, edition and domains you selected.<br/><b>Don\'t hesitate to change the above filters to see more new features!</b> 😉';
     }
 
     function filterVersions(version, elm) {

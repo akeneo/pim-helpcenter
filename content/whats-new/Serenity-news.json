@@ -8,7 +8,7 @@
   },
   {
     "title":"Rules creation and update interface 🤖",
-    "domains": ["Rules engine","Productivity"],
+    "domains": ["Automation","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-07.html#new-create-and-update-rules-from-the-pim"
@@ -29,7 +29,7 @@
   },
   {
     "title":"Full visibility on jobs 👁️",
-    "domains": ["Reporting"],
+    "domains": ["Reporting","Collaboration"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-05.html#more-visibility-on-pim-jobs"
@@ -113,7 +113,7 @@
   },
   {
     "title":"Attributes concatenation automatized with rules 🤖",
-    "domains": ["Rules engine", "Productivity"],
+    "domains": ["Automation", "Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#a-new-rule-action-to-concatenate-attributes"
@@ -134,7 +134,7 @@
   },
   {
     "title":"Attribute values automatically computed with rules 🤖",
-    "domains": ["Rules engine","Productivity"],
+    "domains": ["Automation","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#calculate-attribute-values"

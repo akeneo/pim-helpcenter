@@ -8,7 +8,7 @@
   },
   {
     "title":"Proposals compatible with product models",
-    "domains": ["Governance","Productivity"],
+    "domains": ["Productivity","Collaboration"],
     "editions": ["EE"],
     "since-version": "2.3",
     "link": "/pim/v2/articles/proposals-workflow.html#overview"

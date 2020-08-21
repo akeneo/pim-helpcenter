@@ -1,21 +1,21 @@
 [
   {
     "title":"Number attribute type available in reference entities",
-    "domains": ["Reference entities","Governance"],
+    "domains": ["Governance"],
     "editions": ["EE"],
     "since-version": "3.2",
     "link": "/pim/v3/articles/manage-reference-entities.html#add-an-attribute"
   },
   {
     "title":"Display of products linked to a reference entity record 🔗",
-    "domains": ["Reference entities","Productivity"],
+    "domains": ["Productivity"],
     "editions": ["EE"],
     "since-version": "3.2",
     "link": "/pim/v3/articles/enrich-your-reference-entity-records.html#display-the-products-linked-to-a-record-since-32"
   },
   {
     "title":"Proposals sent for approval in bulk",
-    "domains": ["Productivity"],
+    "domains": ["Productivity","Collaboration"],
     "editions": ["EE"],
     "since-version": "3.2",
     "link": "/pim/v3/articles/proposals-workflow.html#via-a-bulk-actions"

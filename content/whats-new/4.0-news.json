@@ -1,63 +1,63 @@
 [
   {
     "title":"Asset modeling thanks to asset families 🖼️",
-    "domains": ["Assets","Governance"],
+    "domains": ["Governance"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
   },
   {
     "title":"Asset enrichment thanks to asset attributes 🖼️",
-    "domains": ["Assets","Quality"],
+    "domains": ["Governance","Quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
   },
   {
     "title":"Contextualized asset data by locale and channel",
-    "domains": ["Assets","Quality"],
+    "domains": ["Governance","Quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#contextualize-your-asset-information"
   },
   {
     "title":"Easy 3rd-party assets retrieval 🖼️",
-    "domains": ["Assets","Governance"],
+    "domains": ["Governance","Connectivity"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
   },
   {
     "title":"Completeness on assets 🖼️",
-    "domains": ["Assets","Quality"],
+    "domains": ["Quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#permissions-completeness"
   },
   {
     "title":"Flexible asset transformations 🤖",
-    "domains": ["Assets","Productivity"],
+    "domains": ["Productivity","Automation"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#improved-asset-transformation-rules"
   },
   {
     "title":"Improved mass asset upload",
-    "domains": ["Assets","Productivity"],
+    "domains": ["Productivity"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#mass-upload"
   },
   {
     "title":"Asset automatically linked to products 🤖",
-    "domains": ["Assets","Productivity"],
+    "domains": ["Productivity","Automation"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#automatically-link-assets-to-products-with-product-link-rules"
   },
   {
     "title":"Assets API 🔌",
-    "domains": ["Assets","Connectivity"],
+    "domains": ["Connectivity"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "https://api.akeneo.com/api-reference-index.html#AssetManager"

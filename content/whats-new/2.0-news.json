@@ -63,7 +63,7 @@
   },
   {
     "title":"Product drafts management via API 🔌",
-    "domains": ["Connectivity"],
+    "domains": ["Connectivity","Collaboration"],
     "editions": ["EE"],
     "since-version": "2.0",
     "link": "https://api.akeneo.com/api-reference.html#get_draft__code_"
