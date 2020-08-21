@@ -1,27 +1,27 @@
 [
   {
-    "title":"Associations on product models 🔗",
+    "title":"Associations compatible with product models 🔗",
     "domains": ["Governance"],
     "editions": ["CE","EE"],
     "since-version": "2.3",
     "link": "/pim/v2/articles/product-mass-actions.html#associate-products-since-21"
   },
   {
-    "title":"Proposals on product models",
+    "title":"Proposals compatible with product models",
     "domains": ["Governance","Productivity"],
     "editions": ["EE"],
     "since-version": "2.3",
     "link": "/pim/v2/articles/proposals-workflow.html#overview"
   },
   {
-    "title":"Product model and variant product parent change",
+    "title":"Parent change for sub-product model or variant product",
     "domains": ["Governance","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "2.3",
     "link": "/pim/v2/articles/product-mass-actions.html#change-the-parent-product-model-since-23"
   },
   {
-    "title":"Upload asset in the product form 🖼️",
+    "title":"Assets upload in the product form 🖼️",
     "domains": ["Productivity"],
     "editions": ["EE"],
     "since-version": "2.3",
