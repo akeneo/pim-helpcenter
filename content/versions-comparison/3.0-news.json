@@ -1,6 +1,6 @@
 [
   {
-    "title":"Reference entities to manage additional product data",
+    "title":"Reference entities to manage product-related data",
     "domains": ["Reference entities","Governance"],
     "editions": ["EE"],
     "since-version": "3.0",
