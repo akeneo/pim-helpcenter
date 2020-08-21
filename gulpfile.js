@@ -21,7 +21,7 @@ gulp.task('watch', ['create-dist'], function() {
   gulp.watch('content/img/*', ['create-dist']);
   gulp.watch('content/updates/*', ['create-dist']);
   gulp.watch('content/updates/**/*.md', ['create-dist']);
-  gulp.watch('content/versions-comparison/*.json', ['create-dist']);
+  gulp.watch('content/whats-new/*.json', ['create-dist']);
 });
 
 // Launch a server with dist directory exposed on it
@@ -45,7 +45,7 @@ gulp.task('create-dist', [
   'build-articles',
   'build-monthly-updates-as-html',
   'build-monthly-updates-as-json',
-  'build-versions-comparison-page'
+  'build-whats-new-page'
 ]);
 
 // Main task that should be used for development purpose

@@ -1,26 +1,26 @@
 {{!-- The index of the version comparison page --}}
 {{#> layout title="What's new in the PIM since your version?"}}
 {{> navbar-only-logo }}
-    <div id="versions-comparison" class="container-fluid versions-comparison" data-init-versions="{{defaultVersions}}" data-init-domains="{{defaultDomainsAndFeatures}}">
+    <div id="whats-new" class="container-fluid whats-new" data-init-versions="{{defaultVersions}}" data-init-domains="{{defaultDomainsAndFeatures}}">
         <div class="row">
             <div class="col-xs-12">
-                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / What's new in the PIM since your version?</p>
-                <h1>What's new in the PIM since your version?</h1>
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover all the new features we released in our versions</p>
+                <h1>Discover all the new features we released in our versions</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 col-md-7">
-                <h3>PIM versions</h3>
+                <h3>PIM versions (from the oldest to the latest)</h3>
                 {{#each versions as |version key|}}
                     <label class="version-checkbox">
                         <input id=".{{key}}" onclick="filterVersions('.{{key}}', this)" type="checkbox" value=".{{key}}" />
                         <span class="label label-default{{#if isSupported}} label-supported-version{{/if}}">{{name}}</span>
                     </label>
                 {{/each}}
-                <p class="small label-supported-version"><em>This green dot means that this is a version for which we offer support if you are an Enterprise or a Cloud user.</em></p>
+                <p class="small label-supported-version"><em>Currently supported versions if you are an Enterprise user.</em></p>
             </div>
             <div class="col-xs-12 col-md-5">
-                <h3>PIM editions</h3>
+                <h3>PIM edition</h3>
                 <label class="edition-radio">
                     <input id=".CE" onclick="filterEdition('.CE')" name="editionFilter" type="radio" />
                     <span class="label label-default">Community</span>
@@ -29,7 +29,7 @@
                     <input id=".EE" onclick="filterEdition('.EE')" name="editionFilter" type="radio" />
                     <span class="label label-default">Enterprise</span>
                 </label>
-                <p class="small"><em>Note that this filter is ignored for Serenity new features.</em></p>
+                <p class="small"><em>Filter ignored for Serenity-only features.</em></p>
             </div>
             <div class="col-xs-12 col-md-7">
                 <h3>PXM domains</h3>
@@ -41,7 +41,7 @@
                 {{/each}}
             </div>
             <div class="col-xs-12 col-md-5">
-                <h3>PIM features</h3>
+                <h3>PIM key capabilities</h3>
                 {{#each features as |feature key|}}
                     <label class="domain-checkbox">
                         <input id=".{{key}}" onclick="filterDomains('.{{key}}', this)" type="checkbox" value=".{{key}}" /> 
@@ -50,14 +50,14 @@
                 {{/each}}
             </div>
         </div>
-        <div class="row versions-comparison-results">
+        <div class="row whats-new-results">
             <div class="col-xs-12">
                 <p id="news-count"></p>
             </div>
             <div class="col-xs-12">
                 <div class="grid">
                     {{#each updates as |update id|}}
-                        <div class="versions-comparison-updates {{version}} {{#each domainCodes as |domain|}}{{domain}} {{/each}} {{#each editions as |edition|}}{{edition}} {{/each}}" data-version="{{version}}">
+                        <div class="whats-new-updates {{version}} {{#each domainCodes as |domain|}}{{domain}} {{/each}} {{#each editions as |edition|}}{{edition}} {{/each}}" data-version="{{version}}">
                             <p class="title">{{title}}</p>
                             <p><em>Available {{#if isSerenityOnly}} in <b>Serenity</b>{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em>
                             <p>{{#each coloredDomains as |domain color|}}<span class="label label-{{color}}">{{domain}}</span> {{/each}}</p>
@@ -70,12 +70,12 @@
     </div>
 <script type="text/javascript">
     // Init the news grid. They will be sorted by versions in descending order
-    var $grid = $('.grid').isotope({itemSelector: '.versions-comparison-updates',layoutMode: 'fitRows',getSortData: {version: '[data-version]'},sortBy: 'version',sortAscending: false});
+    var $grid = $('.grid').isotope({itemSelector: '.whats-new-updates',layoutMode: 'fitRows',getSortData: {version: '[data-version]'},sortBy: 'version',sortAscending: false});
     // Get the available list of versions and domains/features
-    var versions = _.map(document.getElementById('versions-comparison').dataset.initVersions.split(','), function(version){return '.' + version});
-    var domains = _.map(document.getElementById('versions-comparison').dataset.initDomains.split(','), function(domain){return '.' + domain});
+    var versions = _.map(document.getElementById('whats-new').dataset.initVersions.split(','), function(version){return '.' + version});
+    var domains = _.map(document.getElementById('whats-new').dataset.initDomains.split(','), function(domain){return '.' + domain});
     // By default, we select the following filters: all versions, the Enterprise Edition and all domains/features
-    var checkedVersions = [...versions];
+    var checkedVersions = _.takeRight([...versions],2);
     var checkedEdition = '.EE';
     var checkedDomains = [...domains];
     // Only in the case there is no hash in the URL, we set up the hash to take into account the default filters set above.

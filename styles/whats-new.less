@@ -1,4 +1,4 @@
-.versions-comparison {
+.whats-new {
     h3 {
         margin-top: @spacing-base/3;
     }
@@ -160,7 +160,7 @@
             content: "";
             position: absolute;
             display: none;
-            left: 11px;
+            left: 18px;
             top: 7px;
             width: 5px;
             height: 10px;
@@ -171,15 +171,17 @@
             transform: rotate(45deg);
         }
     }
-    .versions-comparison-results {
+    .whats-new-results {
         margin-top: @spacing-base;
+        padding: @spacing-base/3 0;
+        background-color: lighten(@gray-lighter,1%);
         .grid {
-            .versions-comparison-updates {
+            .whats-new-updates {
                 width: 250px;
                 border-radius: @border-radius-base;
                 margin: @spacing-base/5 @spacing-base/5 0 0;
                 background-color: #fff;
-                border: 1px solid @gray-lighter;
+                border: 1px solid lighten(@brand-primary, 40%);
                 padding: @spacing-base/4;
                 p {
                     color: @text-color;
