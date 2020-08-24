@@ -154,7 +154,7 @@
     "link": "/pim/serenity/updates/2020-07.html#avoid-spelling-mistakes-in-your-product-data"
   },
   {
-    "title":"Improved attribute options management",
+    "title":"Improved attribute option management",
     "domains": ["Productivity", "Governance"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",

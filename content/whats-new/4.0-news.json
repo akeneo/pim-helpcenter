@@ -21,7 +21,7 @@
     "link": "/pim/v4/updates/asset-manager.html#contextualize-your-asset-information"
   },
   {
-    "title":"Easy 3rd-party assets retrieval 🖼️",
+    "title":"Easy 3rd-party asset retrieval 🖼️",
     "domains": ["Governance","Connectivity"],
     "editions": ["EE"],
     "since-version": "4.0",
@@ -126,42 +126,42 @@
     "link": "/pim/v4/updates/connections.html#a-new-dashboard-to-monitor-all-your-connections"
   },
   {
-    "title":"API product import performance improved from 2x to 4x 🚀",
+    "title":"2x to 4x faster API product import 🚀",
     "domains": ["Connectivity","Scalability"],
     "editions": ["CE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-import-performance"
   },
   {
-    "title":"API product model import performance improved from 3x to 6x 🚀",
+    "title":"3x to 6x faster API product model import 🚀",
     "domains": ["Connectivity","Scalability"],
     "editions": ["CE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-import-performance"
   },
   {
-    "title":"CSV product import performance improved from 1.5x to 9x 🚀",
+    "title":"1.5x to 9x faster CSV product import 🚀",
     "domains": ["Connectivity","Scalability"],
     "editions": ["CE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-import-performance"
   },
   {
-    "title":"CSV product model import performance improved from 6x to 12x 🚀",
+    "title":"6x to 12x faster CSV product model import 🚀",
     "domains": ["Connectivity","Scalability"],
     "editions": ["CE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-import-performance"
   },
   {
-    "title":"API product export performance improved by 30% 🚀",
+    "title":"30% faster API product export 🚀",
     "domains": ["Connectivity","Scalability"],
     "editions": ["CE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-export-performance"
   },
   {
-    "title":"CSV product export performance improved by 2x 🚀",
+    "title":"CSV product export performance twice faster 🚀",
     "domains": ["Connectivity","Scalability"],
     "editions": ["CE","EE"],
     "since-version": "4.0",

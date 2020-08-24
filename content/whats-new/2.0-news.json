@@ -62,7 +62,7 @@
     "link": "https://api.akeneo.com/api-reference-index.html#Publishedproduct"
   },
   {
-    "title":"Product drafts management via API 🔌",
+    "title":"Product draft management via API 🔌",
     "domains": ["Connectivity","Collaboration"],
     "editions": ["EE"],
     "since-version": "2.0",
