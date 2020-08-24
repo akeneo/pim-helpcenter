@@ -25,7 +25,7 @@ gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
     // by default, we generate all updates except if env variable ONLY_PREVIOUS_MONTH_UPDATES=true
     const generateAllUpdates = !(process.env.ONLY_PREVIOUS_MONTH_UPDATES && process.env.ONLY_PREVIOUS_MONTH_UPDATES === 'true');
 
-    return updatesAsJson('content/updates/20*/*.md', './dist/pim', 'updates.json', generateAllUpdates);
+    return updatesAsJson('content/updates/20*/*.md', './dist/pim', 'updates.json', generateAllUpdates, (error) => {console.log(error.message); process.exit(1)});
 });
 
 /**
@@ -35,11 +35,13 @@ gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
  * @param generateAllUpdates if we generate all updates or we generate only released feature
  * @returns {*}
  */
-function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination, generateAllUpdates) {
+function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination, generateAllUpdates, errorHandler) {
     return gulp.src(filePattern)
         .pipe(filter(keepUpdatesFromPreviousMonths(generateAllUpdates)))
         .pipe(frontMatter({property: 'fm',remove: true}))
         .pipe(tap(parseMarkdown))
+        .pipe(validateData())
+        .on('error', errorHandler)
         .pipe(generateJson())
         .pipe(jsonCombine(fileNameDestination, data => { return new Buffer.from(JSON.stringify(Object.values(data))); }))
         .pipe(gulp.dest(fileDirectoryDestination));
@@ -62,7 +64,7 @@ function parseMarkdown(file) {
  */
 function parseTitleFromMarkdown(...args) {
     const [ tokens, idx, , env, self ] = args;
-    let filteredTokens = tokens.filter(t => t.content.indexOf(':::') === -1);
+    const filteredTokens = tokens.filter(t => t.content.indexOf(':::') === -1);
 
     if (!env.title && filteredTokens[idx].tag === 'h1') {
         env.title = filteredTokens[idx + 1].content;
@@ -80,7 +82,7 @@ function parseTitleFromMarkdown(...args) {
  */
 function parseDescriptionFromMarkdown(...args) {
     const [ tokens, idx, , env, self ] = args;
-    let filteredTokens = tokens.filter(t => t.content.indexOf(':::') === -1);
+    const filteredTokens = tokens.filter(t => t.content.indexOf(':::') === -1);
 
     const firsth1TitleIndex =  filteredTokens.findIndex((token) => token.tag === 'h1' && token.type === 'heading_close');
     const tokensWithouth1 = filteredTokens.slice(firsth1TitleIndex);
@@ -101,6 +103,60 @@ function parseDescriptionFromMarkdown(...args) {
     return self.renderToken(...args);
 };
 
+function validateData() {
+    let defaultValues = {
+        'pim_announcement_img': null,
+        'pim_announcement_alt_img': null,
+        'pim_announcement_audience': [],
+    };
+
+    return through((file, enc, cb) => {
+        const data = {...defaultValues, ...file.fm };
+        const imageRelativePath = data['pim_announcement_img'];
+        const directoryName = path.basename(path.dirname(file.path));
+        const filename = path.basename(file.path);
+        let error = null;
+
+        if (null !== imageRelativePath) {
+            const imageFullPath = path.dirname(file.path) + '/' + imageRelativePath;
+
+            try {
+                fs.readFileSync(imageFullPath);
+            } catch (err) {
+                error = Error(`The image ${imageRelativePath} does not exist in update ${directoryName}/${filename}`);
+                return cb(error);
+            }
+
+            if (null === data['pim_announcement_alt_img']) {
+                error = new Error(`Please specify an alternative text for the image ${imageRelativePath} in ${directoryName}/${filename}`);
+                return cb(error);
+            }
+        }
+
+        if (data['pim_announcement_audience'].length === 0) {
+            error = new Error(`Please specify at least an audience target in ${directoryName}/${filename}`);
+            return cb(error);
+        }
+
+        if (undefined === file.title) {
+            error = new Error(`The title is missing in ${directoryName}/${filename}`);
+            return cb(error);
+        }
+
+        if (file.title.length > 60) {
+            error = new Error(`The title should be max 60 characters in ${directoryName}/${filename}`);
+            return cb(error);
+        }
+
+        if (file.description === null) {
+            error = new Error(`The description is missing in ${directoryName}/${filename}`);
+            return cb(error);
+        }
+
+        return cb(null, file);
+    })
+}
+
 function generateJson() {
     const helpCenterUrl = process.env.HELP_CENTER_URL ? process.env.HELP_CENTER_URL : HELP_CENTER_PRODUCTION_URL;
 
@@ -113,19 +169,20 @@ function generateJson() {
         const startDateWithDay = startDate + '-05';
         const notificationEndDate = getNotificationEndDate(startDateWithDay);
 
-        let defaultValues = {
+        const defaultValues = {
             'pim_announcement_img': null,
             'pim_announcement_alt_img': null,
             'pim_announcement_audience': [],
         };
 
-        let data = {...defaultValues, ...file.fm };
+        const data = {...defaultValues, ...file.fm };
         const imgContent = getBase64Content(file, data['pim_announcement_img']);
         const editions = transformToPimEditions(data['pim_announcement_audience']);
 
         let content = JSON.stringify({
             'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
             'startDate': startDateWithDay,
+            'type': 'update',
             'description': file.description,
             'img': imgContent,
             'imgAlt': data['pim_announcement_alt_img'],
@@ -138,7 +195,6 @@ function generateJson() {
         });
 
         file.contents = Buffer.from(content);
-
         cb(null, file);
     });
 }
@@ -149,7 +205,7 @@ function getBase64Content(file, imageRelativePath) {
     }
 
     const imageFullPath = path.dirname(file.path) + '/' + imageRelativePath;
-    var extension = path.extname(imageFullPath).replace('.', '');
+    let extension = path.extname(imageFullPath).replace('.', '');
     if (extension === 'jpg') {
         extension = 'jpeg';
     }
@@ -204,7 +260,8 @@ function keepUpdatesFromPreviousMonths(generateAllUpdates) {
 
         const currentDate = new Date(Date.now());
         const dayOfMonth = currentDate.getDate();
-        const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setMonth(currentDate.getMonth() - 1));
+
+        const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setDate(0));
 
         const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(previousMonthDate);
         const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);

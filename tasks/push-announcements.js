@@ -55,7 +55,7 @@ async function deleteAnnouncements(updateFilepath, collectionName) {
 }
 
 async function getIdsInFirestore(collectionName) {
-    const announcements = await admin.firestore().collection(collectionName).get();
+    const announcements = await admin.firestore().collection(collectionName).where('type', '==', 'update').get();
     const ids = [];
 
     announcements.forEach(announcement => {

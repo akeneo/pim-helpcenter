@@ -1,7 +1,17 @@
 {
+  "2020-09": {
+    "title": "🐿️ September Serenity updates",
+    "description": "New Serenity updates of September",
+    "img": "illus-september-20.svg"
+  },
+  "2020-08": {
+    "title": "⛺ August Serenity updates",
+    "description": "New Serenity updates of August",
+    "img": "illus-august-20.svg"
+  },
   "2020-07": {
     "title": "🍦 July Serenity updates",
-    "description": "These are the updates that happened in July.",
+    "description": "In July, the rules engine started a makeover to offer you a new screen to more easily create or update rules; but also check out our new association type, as well as other improvements on the Connection messages, the spell-check feature and date rules condition!",
     "img": "illus-july-20.svg"
   },
   "2020-06": {

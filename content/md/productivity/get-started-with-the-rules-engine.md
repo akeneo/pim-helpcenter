@@ -730,7 +730,6 @@ Now that the actions and the fields don't have any secret for you anymore, you c
 The possible operators for the `text/textarea` attribute types are:  
 
 - STARTS WITH
-- ENDS WITH
 - CONTAINS
 - DOES NOT CONTAIN
 - =
@@ -974,7 +973,6 @@ We expect **numeric value** and **currency code** in the following format:
 
 The possible operators for the `Picture` or `File` attribute types are:  
 - STARTS WITH
-- ENDS WITH
 - CONTAINS
 - DOES NOT CONTAIN
 - =

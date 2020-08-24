@@ -65,12 +65,21 @@ This count is automatically updated as soon as you change a condition.
 You can use the following system fields and attribute types as `conditions` to select your products/product models via the PIM interface:
 
 - Categories
+- Completeness
 - Family
+- Status
+- Creation date
+- Update date
+- Groups
 - Multi select attribute
 - Simple select attribute
 - Text attribute
 - Number attribute
-
+- Boolean attribute
+- Text area attribute
+- Reference entity single link & multiple link attributes
+- Date attribute
+- Asset collection attribute
 
 ### Add actions
 
@@ -91,19 +100,35 @@ Depending on the action you choose, the template changes. The table below lists 
 
 #### Available actions in the UI
 
-| Actions  | What they do |
+| Set actions  | What they do |
 |---|---|
 | Set categories  | Classify your products/product models in the categories you choose, and **remove** them from their former categories.  |
-| Add categories  | Add your products/product models to new categories, **without removing** them from their former categories.  |
 | Set family  | Replace your products/product models family |
+| Set attribute value  | Set values to a multi select, simple select, number, text, textarea, date, price collection, asset collection or boolean attribute. It will replace the former values |
+| Set groups  | Set groups to your product selection (product models don't have groups)  |
+
+| Add actions     | What they do |
+|---|---|
+| Add categories  | Classify your products/product models in new categories, **without removing** them from their former categories.  |
+| Add groups  | Add groups to your product selection (product models don't have groups)  |
+| Add attribute value  | Add values to a multi select, a price collection, a reference entity multiple link or an asset collection attribute. It will keep the former values |
+
+| Remove actions  | What they do |
+|---|---|
+| Remove categories  | Unclassify your product/product model selection from the chosen categories |
+| Remove groups  | Remove groups from your product selection (product models don't have groups)  |
+| Remove attribute values  | Remove values from a multi select, a reference entity multiple link or an asset collection attribute  |
+
+| Clear actions   | What they do |
+|---|---|
 | Clear attribute value  | Delete values from an attribute on your product/product models selection  |
 | Clear associations  | Delete all the associations of your product/product models selection  |
 | Clear groups  | Delete all the groups of your product selection (product models don't have groups) |
-| Clear categories  | Delete all the categories of your product/product model selection  |
+| Clear categories  | Unclassify your product/product model selection from every category |
+
+| Copy action     | What it does |
+|---|---|
 | Copy attribute value  | Copy the value from an attribute to another one  |
-| Remove categories  | Remove the categories of your product/product model selection  |
-| Set attribute value  | Set value to a multi select, number or boolean attribute. It will remove the former values |
-| Remove attribute values  | Remove values from a multi select attribute  |
 
 
 ## Different use cases
@@ -178,7 +203,8 @@ The number of impacted products will appear on the right side of your screen in 
 # Execute rules
 
 :::info
-Rules are regularly executed after a bulk action or after imports with rules.
+Rules are automatically executed daily at 5 am UTC.  
+Rules are also regularly executed after a bulk action or after imports with rules.
 :::
 
 But you can also execute rules on your own. You can execute:

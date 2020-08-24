@@ -11,7 +11,7 @@ Install [Docker Engine](https://docs.docker.com/engine/installation/)
 make build
 ```
 
-This is only building the documentation. The documentation is not available with this command, as it does not launch the HTTP server. 
+This is only building the documentation. The documentation is not available with this command, as it does not launch the HTTP server.
 
 ### Build and launch HTTP server with docker
 
@@ -43,7 +43,7 @@ Then click on _Rerun_.
 
 ## Dropdown to choose the documentation version
 
-The dropdown to choose the version of the documentation  is configured from a single file for every branches. The configuration of this dropdown is done in this [file](https://github.com/akeneo/pim-helpcenter/blob/master/src/versions.json). **Only the configuration file `src/versions.json` of the `master` branch is deployed.** 
+The dropdown to choose the version of the documentation  is configured from a single file for every branches. The configuration of this dropdown is done in this [file](https://github.com/akeneo/pim-helpcenter/blob/master/src/versions.json). **Only the configuration file `src/versions.json` of the `master` branch is deployed.**
 
 When you create a new branch from master, such as `v5`, don't forget to remove the deployment of this configuration file in the `v5` version. It is just one line to remove in the `deploy` step of the `Makefile`.
 
@@ -59,3 +59,4 @@ In this PR, we forgot to update the solution name to reduce Algolia's search to 
 ## Documentation contribution
 
 It's right [here](https://github.com/akeneo/pim-helpcenter/wiki).
+TEST

@@ -2,7 +2,7 @@ const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 admin.initializeApp();
 const defaultCollectionName = 'announcements';
-const defaultLimit = 5;
+const defaultLimit = 10;
 
 /**
  * Configuration is set with us-central1 because it's the only supported version for now.
