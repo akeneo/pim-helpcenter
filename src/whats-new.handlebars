@@ -10,14 +10,14 @@
         </div>
         <div class="row">
             <div class="col-xs-12 col-md-7">
-                <h3>PIM versions (from the oldest to the latest)</h3>
+                <h3>PIM versions</h3>
                 {{#each versions as |version key|}}
                     <label class="version-checkbox">
                         <input id=".{{key}}" onclick="filterVersions('.{{key}}', this)" type="checkbox" value=".{{key}}" />
                         <span class="label label-default{{#if isSupported}} label-supported-version{{/if}}">{{name}}</span>
                     </label>
                 {{/each}}
-                <p class="small label-supported-version"><em>Currently supported versions if you are an Enterprise user.</em></p>
+                <p class="small"><em>Versions are ranked from the oldest to the latest. Don't hesitate to migrate to newer versions to benefit from the features listed below!</em><br/><em class="label-supported-version">Currently supported versions if you are an Enterprise user.</em></p>
             </div>
             <div class="col-xs-12 col-md-5">
                 <h3>PIM edition</h3>
