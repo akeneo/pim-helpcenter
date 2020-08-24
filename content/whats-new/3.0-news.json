@@ -8,7 +8,7 @@
   },
   {
     "title":"Completeness on reference entities",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["EE"],
     "since-version": "3.0",
     "link": "/pim/v3/articles/manage-reference-entities.html#define-the-completeness"

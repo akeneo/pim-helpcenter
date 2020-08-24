@@ -50,56 +50,56 @@
   },
   {
     "title":"Data quality grades on variant products 💯",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#data-quality-insights-now-available-for-variant-products"
   },
   {
     "title":"Data quality grades on product models 💯",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#data-quality-insights-on-product-models"
   },
   {
     "title":"Spell-check on text area and text attributes in Italian 🇮🇹",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
   },
   {
     "title":"Spell-check on text area and text attributes in Swedish 🇸🇪",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
   },
   {
     "title":"Spell-check on text area and text attributes in Danish 🇩🇰",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
   },
   {
     "title":"Spell-check on text area and text attributes in Dutch 🇳🇱",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
   },
   {
     "title":"Spell-check on text area and text attributes in Norwegian 🇳🇴",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#spell-check-new-languages-supported"
   },
   {
     "title":"Spell-check on text area and text attributes in Brazilian 🇧🇷",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#spell-check-new-languages-supported"
@@ -148,7 +148,7 @@
   },
   {
     "title":"Spell-check on attribute options and labels",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-07.html#avoid-spelling-mistakes-in-your-product-data"

@@ -8,14 +8,14 @@
   },
   {
     "title":"Asset enrichment thanks to asset attributes 🖼️",
-    "domains": ["Governance","Quality"],
+    "domains": ["Governance","Data quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#more-flexibility-to-manage-your-assets"
   },
   {
     "title":"Contextualized asset data by locale and channel",
-    "domains": ["Governance","Quality"],
+    "domains": ["Governance","Data quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#contextualize-your-asset-information"
@@ -29,7 +29,7 @@
   },
   {
     "title":"Completeness on assets 🖼️",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/asset-manager.html#permissions-completeness"
@@ -64,42 +64,42 @@
   },
   {
     "title":"Data quality grades on products 💯",
-    "domains": ["Quality", "Reporting"],
+    "domains": ["Data quality", "Reporting"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/data-quality-insights.html#monitor-your-data-quality-in-a-dashboard"
   },
   {
     "title":"Data quality monitoring dashboard 📊",
-    "domains": ["Quality", "Reporting"],
+    "domains": ["Data quality", "Reporting"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/data-quality-insights.html#monitor-your-data-quality-in-a-dashboard"
   },
   {
     "title":"Spell-check on text area and text attributes in French 🇫🇷",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/data-quality-insights.html#how-does-it-work"
   },
   {
     "title":"Spell-check on text area and text attributes in English 🇬🇧",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/data-quality-insights.html#how-does-it-work"
   },
   {
     "title":"Spell-check on text area and text attributes in German 🇩🇪",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/data-quality-insights.html#how-does-it-work"
   },
   {
     "title":"Spell-check on text area and text attributes in Spanish 🇪🇸",
-    "domains": ["Quality"],
+    "domains": ["Data quality"],
     "editions": ["EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/data-quality-insights.html#how-does-it-work"

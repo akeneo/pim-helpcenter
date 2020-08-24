@@ -11,14 +11,14 @@ const _ = require('lodash');
 
 const majorVersion = 'serenity';
 const coloredDomains = {
-    'productivity': { 'label': 'Productivity', 'color': 'info' },
-    'quality': { 'label': 'Quality', 'color': 'success' },
     'governance': { 'label': 'Governance', 'color': 'warning' },
-    'scalability': { 'label': 'Scalability', 'color': 'danger' },
-    'connectivity': { 'label': 'Connectivity', 'color': 'akeneo' },
-    'reporting': { 'label': 'Reporting', 'color': 'orange' },
+    'productivity': { 'label': 'Productivity', 'color': 'info' },
     'collaboration': { 'label': 'Collaboration', 'color': 'primary' },
-    'automation': { 'label': 'Automation', 'color': 'pink' }
+    'connectivity': { 'label': 'Connectivity', 'color': 'akeneo' },
+    'dataquality': { 'label': 'Data quality', 'color': 'success' },
+    'automation': { 'label': 'Automation', 'color': 'pink' },
+    'reporting': { 'label': 'Reporting', 'color': 'orange' },
+    'scalability': { 'label': 'Scalability', 'color': 'danger' }
 };
 const orderedVersions = {
     '17': { 'name': '1.7', 'isSupported': false },
