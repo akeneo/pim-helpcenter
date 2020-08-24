@@ -1,25 +1,32 @@
 ---
-pim_announcement_img: ./img/api-filter-attributes.png
+pim_announcement_img: ./img/api-filters.png
 pim_announcement_alt_img: "API documentation about attribute filters"
 pim_announcement_audience:
 - CE
 - EE
 ---
 
-# New API filters and options labels inside the get products
+# Only get what you need thanks to our new API filter
 ::: meta-data type="New" features="API, Connectivity" available="late August" link-to-doc="https://api.akeneo.com/documentation/filter.html"
 :::
 
-We improved our API to decrease the number of data to process and help you reducing the number of API calls needed to synchronize product data.
-To do so, we added option labels inside the product endpoint and a new `search` parameter. 
+We added a new `search` parameter to reduce the number of data to process and the size of the API call responses.
+You can now add filters on product structure endpoints. 
 
-You can now add filters on product structure endpoints: attributes, attribute groups, categories, and families.  
-For example, you can retrieve data for all attributes that have been updated since a specific date, or you can get the data from all the sub-categories of a specific tree.
+Here is the list of the available filters:
+- updated date, 
+- code, 
+- type: only available for attributes. It allows you to filter all attributes of a specific type. 
+- parent: only available for categories. Thanks to this filter, you can retrieve all sub-categories of a parent category. 
+
+For example, the following filter will help you to retrieve all the simple select attributes that are mentionned in the `code` list, and have been updated since the 2020-07-23 at 15:19.
+
+![Example of combined filters](../img/api-filters.png)
+
 
 ::: more
 [How to filter attributes?](https://api.akeneo.com/documentation/filter.html#filter-attributes)  
 [How to filter attribute groups?](https://api.akeneo.com/documentation/filter.html#filter-attribute-groups)  
 [How to filter families?](https://api.akeneo.com/documentation/filter.html#filter-families)  
 [How to filter categories?](https://api.akeneo.com/documentation/filter.html#filter-categories)  
-[How to get product data with the Akeneo API?](https://api.akeneo.com/api-reference.html#get_products)  
 :::
