@@ -80,6 +80,8 @@ You can use the following system fields and attribute types as `conditions` to s
 - Reference entity single link & multiple link attributes
 - Date attribute
 - Asset collection attribute
+- Image attribute
+- File attribute
 
 ### Add actions
 
