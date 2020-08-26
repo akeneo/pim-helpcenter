@@ -130,6 +130,13 @@ Depending on the action you choose, the template changes. The table below lists 
 |---|---|
 | Copy attribute value  | Copy the value from an attribute to another one  |
 
+| Concatenate action     | What it does |
+|---|---|
+| Concatenate attribute values  | Concatenate at least two values into a single value.  |
+
+| Calculate action     | What it does |
+|---|---|
+| Calculate attribute values  | Calculate numeric attribute values with simple mathematical operations (addition, subtraction, multiplication, and division).  |
 
 ## Different use cases
 As explained earlier, some conditions/actions are not available in the UI yet. It means that you are not able to build all the rules you want via the PIM, and you may need to use the YML file import to do so. Let's see what happens in the following scenarios.
@@ -162,6 +169,10 @@ If your action is composed of system fields or attribute types that we don't man
 For example, you needed to use a `set attribute value` action (already available), and a target attribute that is not supported yet such as a `boolean`. Therefore you previously imported your rule via YML.
 
 ![image](../img/Rules_UsecaseAttributeNotManaged.png)
+
+:::tips
+Once your rule is correctly set up, you can execute it directly in the rule edit form, clicking on `...` then `save and execute`.
+:::
 
 # Create rules via a YML import
 To create rules using a YML file, you need to [create](get-started-with-the-rules-engine.html) it and import it in the PIM using the `Rule import in YML` import job.
