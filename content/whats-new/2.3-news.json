@@ -1,0 +1,30 @@
+[
+  {
+    "title":"Associations compatible with product models 🔗",
+    "domains": ["Governance"],
+    "editions": ["CE","EE"],
+    "since-version": "2.3",
+    "link": "/pim/v2/articles/product-mass-actions.html#associate-products-since-21"
+  },
+  {
+    "title":"Proposals compatible with product models",
+    "domains": ["Productivity","Collaboration"],
+    "editions": ["EE"],
+    "since-version": "2.3",
+    "link": "/pim/v2/articles/proposals-workflow.html#overview"
+  },
+  {
+    "title":"Parent change for sub-product model or variant product",
+    "domains": ["Governance","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "2.3",
+    "link": "/pim/v2/articles/product-mass-actions.html#change-the-parent-product-model-since-23"
+  },
+  {
+    "title":"Assets upload in the product form 🖼️",
+    "domains": ["Productivity"],
+    "editions": ["EE"],
+    "since-version": "2.3",
+    "link": "/pim/v2/articles/work-on-a-product.html#upload-assets-directly-from-the-product-form"
+  }
+]
