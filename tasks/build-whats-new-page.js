@@ -48,7 +48,13 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination) {
         versions[version.name.split('.').join('').toLowerCase()] = version;
     });
     const updates = _.reduce(_.reverse(orderedVersions), function(concatUpdates, version){
-        return concatUpdates.concat(JSON.parse(fs.readFileSync(fileDirectorySource + '/' + version.name + '-news.json')));
+        var updatesByVersion = JSON.parse(fs.readFileSync(fileDirectorySource + '/' + version.name + '-news.json'));
+        var order = 0; 
+        _.eachRight(updatesByVersion, function(update){
+            update.order = order;
+            order ++;
+        });
+        return concatUpdates.concat(updatesByVersion);
     }, []);
 
     _.each(updates, function(update){

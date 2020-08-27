@@ -48,7 +48,7 @@
             <div class="col-xs-12">
                 <div class="grid">
                     {{#each updates as |update id|}}
-                        <div class="whats-new-updates {{version}} {{#each domainCodes as |domain|}}{{domain}} {{/each}} {{#each editions as |edition|}}{{edition}} {{/each}}" data-version="{{version}}">
+                        <div class="whats-new-updates {{version}} {{#each domainCodes as |domain|}}{{domain}} {{/each}} {{#each editions as |edition|}}{{edition}} {{/each}}" data-version="{{version}}" data-order="{{order}}">
                             <p class="title">{{title}}</p>
                             <p><em>Available {{#if isSerenityOnly}} in <b>Serenity</b>{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em>
                             <p>{{#each coloredDomains as |domain color|}}<span class="label label-{{color}}">{{domain}}</span> {{/each}}</p>
@@ -61,7 +61,7 @@
     </div>
 <script type="text/javascript">
     // Init the news grid. They will be sorted by versions in descending order
-    var $grid = $('.grid').isotope({itemSelector: '.whats-new-updates',layoutMode: 'fitRows',getSortData: {version: '[data-version]'},sortBy: 'version',sortAscending: false});
+    var $grid = $('.grid').isotope({itemSelector: '.whats-new-updates',layoutMode: 'fitRows',getSortData: {version: '[data-version]', order:'[data-order] parseInt'},sortBy: ['version','order'],sortAscending: false});
     // Get the available list of versions and domains/features
     var versions = _.map(document.getElementById('whats-new').dataset.initVersions.split(','), function(version){return '.' + version});
     var domains = _.map(document.getElementById('whats-new').dataset.initDomains.split(','), function(domain){return '.' + domain});
