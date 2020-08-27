@@ -10,19 +10,23 @@ pim_announcement_audience:
 ::: meta-data type="New" features="API, Connectivity" available="late August" link-to-doc="https://api.akeneo.com/documentation/filter.html"
 :::
 
-We added a new `search` parameter to reduce the number of data to process and the size of the API call responses.
-You can now add filters on product structure endpoints. 
+A new `search` parameter enables you to add filters to catalog structure endpoints. It will help reduce the number of data to process and the size of the API call responses.
 
 Here is the list of the available filters:
-- updated date, 
-- code, 
-- type: only available for attributes. It allows you to filter all attributes of a specific type. 
-- parent: only available for categories. Thanks to this filter, you can retrieve all sub-categories of a parent category. 
+- **updated date**: allows you to retrieve only data that have been updated since a specific date and hour (available for attribute groups, attributes, and families), 
+- **code**: allows you to filter on specific codes (available for attribute groups, attributes, categories and families), 
+- **type**: allows you to filter on attributes from a specific type (only available for attributes),
+- **parent**: retrieves all sub-categories of a parent category (only available for categories).  
 
-For example, the following filter will help you to retrieve all the simple select attributes that are mentionned in the `code` list, and have been updated since the 2020-07-23 at 15:19.
+You can combine filters to achieve powerful results!
 
-![Example of combined filters](../img/api-filters.png)
+Let's take an example: you have an e-commerce website that uses your PIM data. You know the list of all the attributes you need, and your application synchronises the catalog structure every day at 3PM.  
 
+The following filter will help you retrieve all the attributes mentioned in the `code` list that have been updated since the 2020-08-26 at 15:00:
+
+```
+/api/rest/v1/attributes?search={"updated": [{ "operator": ">", "value": "2020-08-26T15:00:00Z"}],"code": [{ "operator": "IN", "value": ["brand", "size", "description","name","picture","color","secondary_color"]}]
+```
 
 ::: more
 [How to filter attributes?](https://api.akeneo.com/documentation/filter.html#filter-attributes)  
