@@ -8,7 +8,7 @@ pim_announcement_audience:
 Small UI enhancements and a new parameter for your calculation action, those are the last improvements of the rules engine!
 
 ## New action tags for your rules
-::: meta-data type="Improvement" features="Rules Engine, Productivity" available="early May" link-to-doc="../articles/manage-your-rules.html#view-all-rules"
+::: meta-data type="Improvement" features="Automation, Productivity" available="early May" link-to-doc="../articles/manage-your-rules.html#view-all-rules"
 :::
 
 From now on, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) in the rules grid. To ease your readability, each action type has its own color. :wink:
