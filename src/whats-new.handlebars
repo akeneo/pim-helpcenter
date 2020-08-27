@@ -4,8 +4,8 @@
     <div id="whats-new" class="container whats-new" data-init-versions="{{defaultVersions}}" data-init-domains="{{defaultDomains}}">
         <div class="row">
             <div class="col-xs-12">
-                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover all the new features we released in our versions</p>
-                <h1>Discover all the new features we released in our versions</h1>
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover the new key features released in our versions</p>
+                <h1>Discover the new key features released in our versions</h1>
             </div>
         </div>
         <div class="row">
@@ -124,7 +124,7 @@
 
     function countNews(){
         var newsCount = $grid.data('isotope').filteredItems.length;
-        document.getElementById('news-count').innerHTML = newsCount ? 'There were <b class="counter">' + newsCount + '</b> new key features delivered in the PIM for the versions, edition and domains you selected. 💪' :  'Uh oh! There were no new features delivered in the PIM for the versions, edition and domains you selected.<br/><b>Don\'t hesitate to play around with the filters to see more new features!</b> 😉';
+        document.getElementById('news-count').innerHTML = newsCount ? 'Here are the <b class="counter">' + newsCount + '</b> new key features delivered in the PIM for the versions, edition and domains you selected. 💪' :  'Uh oh! There were no new features delivered in the PIM for the versions, edition and domains you selected.<br/><b>Don\'t hesitate to play around with the filters to see more new features!</b> 😉';
     }
 
     function filterVersions(version, elm) {
