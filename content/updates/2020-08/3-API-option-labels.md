@@ -6,13 +6,15 @@ pim_announcement_audience:
 - EE
 ---
 
-# Get options labels directly inside the products endpoint
+# Get options labels directly inside the product endpoints
 ::: meta-data type="Improvement" features="API, Connectivity" available="late August" link-to-doc="https://api.akeneo.com/api-reference.html#get_products"
 :::
 
-To help you reduce the number of API calls needed to synchronize your product data, we also added option labels inside the product endpoint.
+To help you reduce the number of API calls needed to synchronize your product data, we added option labels inside the product endpoints.
 
-Let's take the PDF generation example. Before this update, the PDF generator needed to retrieve product attribute values by calling the `GET /products` endpoint. Then, for each attribute with a list of options, a `GET /attributes` was required to get the related labels. 
+Let's take an example! 
+
+If you use our API to display product content on a website, or to create marketing/sales materials, before this update, your connector needed to retrieve product attribute values by calling the `GET /products` endpoint. Then, for each attribute with a list of options, a `GET /attributes` was required to get the related labels. 
 
 Before the generator was receiving codes only:
 
