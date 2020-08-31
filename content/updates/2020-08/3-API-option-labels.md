@@ -16,7 +16,7 @@ Let's take an example!
 
 If you use our API to display product content on a website, or to create marketing/sales materials, before this update, your connector needed to retrieve product attribute values by calling the `GET /products` endpoint. Then, for each attribute with a list of options, a `GET /attributes` was required to get the related labels. 
 
-Before the generator was receiving codes only:
+Before the generator was only receiving codes:
 
 ```
     "values": {
@@ -73,7 +73,7 @@ Before the generator was receiving codes only:
     }
 ```
 
-Now it receives code and labels:
+Now it receives codes and labels:
 
 ```
     "values": {
