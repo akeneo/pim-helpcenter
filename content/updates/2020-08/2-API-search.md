@@ -6,7 +6,7 @@ pim_announcement_audience:
 - EE
 ---
 
-# Only get what you need thanks to our new API filter
+# New filters to simplify API catalog structure exports
 ::: meta-data type="New" features="API, Connectivity" available="late August" link-to-doc="https://api.akeneo.com/documentation/filter.html"
 :::
 

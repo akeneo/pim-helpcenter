@@ -6,7 +6,7 @@ pim_announcement_audience:
 - EE
 ---
 
-# Get options labels directly inside the product endpoints
+# Options labels in product export via API
 ::: meta-data type="Improvement" features="API, Connectivity" available="late August" link-to-doc="https://api.akeneo.com/api-reference.html#get_products"
 :::
 
