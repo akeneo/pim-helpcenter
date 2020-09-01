@@ -14,7 +14,7 @@
                 {{#each versions as |version key|}}
                     <label class="version-checkbox">
                         <input id=".{{key}}" onclick="filterVersions('.{{key}}', this)" type="checkbox" value=".{{key}}" />
-                        <span class="label label-default{{#if isSupported}} label-supported-version{{/if}}">{{name}}</span>
+                        <span class="label label-default whats-new-updates-label {{#if isSupported}} label-supported-version{{/if}}">{{name}}</span>
                     </label>
                 {{/each}}
                 <p class="small"><em>Versions are ranked from the oldest to the latest. Don't hesitate to migrate to newer versions to benefit from the features listed below!</em><br/><em class="label-supported-version">Currently supported versions if you are an Enterprise user.</em></p>
@@ -23,11 +23,11 @@
                 <h3>PIM edition</h3>
                 <label class="edition-radio">
                     <input id=".CE" onclick="filterEdition('.CE')" name="editionFilter" type="radio" />
-                    <span class="label label-default">Community</span>
+                    <span class="label label-default whats-new-updates-label">Community</span>
                 </label>
                 <label class="edition-radio">
                     <input id=".EE" onclick="filterEdition('.EE')" name="editionFilter" type="radio" />
-                    <span class="label label-default">Enterprise</span>
+                    <span class="label label-default whats-new-updates-label">Enterprise</span>
                 </label>
                 <p class="small"><em>Filter ignored for Serenity-only features.</em></p>
             </div>
@@ -36,7 +36,7 @@
                 {{#each domains as |domain key|}}
                     <label class="domain-checkbox">
                         <input id=".{{key}}" onclick="filterDomains('.{{key}}', this)" type="checkbox" value=".{{key}}" /> 
-                        <span class="label label-{{domain.color}}">{{domain.label}}</span>
+                        <span class="label label-{{domain.color}} whats-new-updates-label">{{domain.label}}</span>
                     </label>
                 {{/each}}
             </div>
@@ -51,7 +51,7 @@
                         <div class="whats-new-updates {{version}} {{#each domainCodes as |domain|}}{{domain}} {{/each}} {{#each editions as |edition|}}{{edition}} {{/each}}" data-version="{{version}}" data-order="{{order}}">
                             <p class="title">{{title}}</p>
                             <p><em>Available {{#if isSerenityOnly}} in <b>Serenity</b>{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em>
-                            <p>{{#each coloredDomains as |domain color|}}<span class="label label-{{color}}">{{domain}}</span> {{/each}}</p>
+                            <p>{{#each coloredDomains as |domain color|}}<span class="label label-{{color}} whats-new-updates-label">{{domain}}</span> {{/each}}</p>
                             {{#if link}}<p class="text-right"><a class="link" href="{{link}}" target="_blank">Read more... ></a></p>{{/if}}
                         </div>
                     {{/each}}

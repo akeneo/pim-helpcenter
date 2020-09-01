@@ -1,0 +1,179 @@
+{{!-- The index of the versions page --}}
+{{#> layout title="Discover our versions!"}}
+{{> navbar-only-logo }}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover our versions</p>
+                <h1>Discover our versions</h1>
+                <p>Ranked from the most recent to the oldest</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-version row-serenity-version">
+            <div class="hidden-xs col-sm-3 col-md-2">
+                <a class="anchor" id="serenity"></a>
+                <h2 class="text-right">Serenity</h2>
+                <p class="text-right">
+                    <span class="label label-primary">Cloud version</span>
+                    <span class="label label-success">Supported</span>
+                </p>
+                <p class="small text-right"><em>Available for Enterprise users only</em></p>
+            </div>
+            <div class="visible-xs">
+                <a class="anchor" id="serenity"></a>
+                <h2 class="text-right">Serenity</h2>
+                <p class="text-right">
+                    <span class="label label-primary">Cloud version</span>
+                    <span class="label label-success">Supported</span>
+                    | <em class="small">Available for Enterprise users only</em>
+                </p>
+            </div>
+            <div class="col-version col-xs-12 col-sm-9 col-md-10">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8">
+                        <h3>Continuous delivery & automatic migrations</h3>
+                        <p><b>Each month, we release new and exclusive features for our dear Serenity customers.</b><br>No need to worry about migrations! Those new features are automatically delivered.</p>
+                        <p>Don't hesitate, be curious and discover what's new!</p>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <a href="/pim/serenity/updates/index.html" class="btn btn-primary btn-ghost btn-sm">Read the detailed release note</a>
+                            </div>
+                        </div>
+                        <h3>Exclusive features</h3>
+                        <p>Interested in exclusive features? Here is a sample of the most wanted features we delivered lately for our Serenity users. 💪</p>
+                        <div class="row">
+                            {{#each serenityLastNewUpdates}}
+                                <div class="col-xs-12">
+                                    <div class="serenity-update">
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                <p><b class="text-primary">{{title}}</b><br>
+                                                {{#each coloredDomains as |domain color|}}<span class="small label label-{{color}} whats-new-updates-label">{{domain}}</span> {{/each}} | <em class="small">Available in Serenity only</em></p>    
+                                            </div>
+                                            <div class="col-sm-4">
+                                                {{#if link}}<p class="text-right"><a class="link" href="{{link}}" target="_blank">Read more... ></a></p>{{/if}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {{/each}}
+                            <div class="col-xs-12">
+                                <a href="/pim/serenity/updates/whats-new.html" class="btn btn-primary btn-sm">Check out all the other exclusive features</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <h3>Documentation</h3>
+                        <p>You are a Serenity user? We crafted some docs with ❤️ for you!</p>
+                        <p><a href="/pim/serenity">> Browse our user guides</a><br>
+                        <a href="https://api.akeneo.com/api-reference-index.html">> Check out our API doc</a></p>
+                        <h3>Support</h3>
+                        <p>The Serenity version will always be supported by our teams.<br>
+                        <em class="small">Our Serenity users benefit from security & bug patches, as well as a SLA-backed support.</em></p>
+                        <p>If you are a Serenity user and need help with your PIM, you can open a <a href="https://helpdesk.akeneo.com">ticket on our helpdesk</a>.</p>
+                        <h3>Interested in this version?</h3>
+                        <p>Don't hesitate to reach out to your Customer Success Manager if you want to learn more about this version.</p>
+                        <p>Not an Enterprise customer yet? Contact us to get a demo of our most powerful version.</p>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <a href="https://www.akeneo.com/contact/" class="btn btn-primary btn-ghost btn-sm">Contact us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </div>
+        {{#each versions as |version id|}}
+            <div class="row row-version">
+                <div class="hidden-xs col-sm-3 col-md-2">
+                    <a class="anchor" id="{{code}}"></a>
+                    <h2 class="text-right">v{{label}}</h2>
+                    <p class="text-right">
+                        {{#if isLatest}}<span class="label label-primary">Latest GA</span>{{/if}}
+                        {{#if isSupported}}<span class="label label-success">Supported</span>
+                        {{else}}<span class="label label-danger">Not supported</span>{{/if}}
+                    </p>
+                    <p class="text-right">{{releaseDateShortLabel}} - {{supportEndDateShortLabel}}</p>
+                    <p class="small text-right"><em>Available for both Community and Enterprise users</em></p>
+                </div>
+                <div class="visible-xs">
+                    <a class="anchor" id="{{code}}"></a>
+                    <h2>v{{label}}</h2>
+                    <p>
+                        {{#if isLatest}}<span class="label label-primary">Latest GA</span>{{/if}}
+                        {{#if isSupported}}<span class="label label-success">Supported</span>
+                        {{else}}<span class="label label-danger">Not supported</span>{{/if}}
+                         | {{releaseDateShortLabel}} - {{supportEndDateShortLabel}} | <em class="small">Available for both Community and Enterprise users</em>
+                    </p>
+                </div>
+                <div class="col-version col-xs-12 col-sm-9 col-md-10">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <h3>Release</h3>
+                            <p>The {{label}} was released on {{releaseDateLongLabel}}.<br><em class="small">The Community Edition is named <span class="version-code-names">{{name.CE}}</span> and the Enterprise Edition <span class="version-code-names">{{name.EE}}</span>.</em></p>
+                            <a href="{{releaseNoteLink}}">> Read the release note</a>
+                            {{#if newKeyFeaturesIn}}
+                                <h3>What's new?</h3>
+                                <p>Discover the new key features that come with the {{label}}.</p>
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-12 col-md-6">
+                                        <a href="{{newKeyFeaturesIn.CE}}">
+                                            <img class="center-block" src="./img/illus-ce-flavour.svg">
+                                            <p class="text-center">In Community Edition</p>
+                                        </a> 
+                                    </div>
+                                    <div class="col-xs-6 col-sm-12 col-md-6">
+                                        <a href="{{newKeyFeaturesIn.EE}}">
+                                            <img class="center-block" src="./img/illus-ee-flavour.svg">
+                                            <p class="text-center">In Enterprise Edition</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            {{/if}}
+                            <h3>Documentation</h3>
+                            <p>You are a {{label}} user? We crafted some docs with ❤️ for you!</p>
+                            <p><a href="{{doc.functional}}">> Browse our user guides</a>{{#if doc.api}}<br>
+                            <a href="{{doc.api}}">> Check out our API doc</a>{{/if}}</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-8">
+                            <h3>Support</h3>
+                            {{#if isSupported}}
+                                <p>The {{label}} version is currently supported by our teams.<br>
+                                <em class="small">This version is supported until <b>{{supportEndDateLongLabel}}</b>. It means that for the next {{timeLeftBeforeSupportEnd}}:<br>
+                                    &nbsp;&nbsp;- our CE users will benefit from security & bug patches on Community features,<br>
+                                    &nbsp;&nbsp;- our EE users will benefit from security & bug patches on both Community and Enterprise features, as well as a SLA-backed support.</em></p>
+                                <p>If you are an Enterprise Edition customer and need help with your PIM, you can open a <a href="https://helpdesk.akeneo.com">ticket on our helpdesk</a>.</p>
+                            {{else}}
+                                <p>The {{label}} version is not supported anymore by our teams.<br><em class="small">Its support ended on <b>{{supportEndDateLongLabel}}</b>, {{timeAfterSupportEnd}}.</em></p>
+                            {{/if}}
+                            {{#if isLatest}}
+                                <h3>Want exclusive features?</h3>
+                                <p>The {{label}} is our latest GA version.</p>
+                                <p>But did you know that, in our <b>Serenity offer</b>, you can benefit from new exclusive features? <a href="{{newKeyFeaturesIfIMigrateToSernity}}">> Check out the exclusive Serenity features available so far</a><br>And in Serenity, you don't need to bother about migration anymore. We handle it for you. Convinced? Don't hesitate to <a href="https://www.akeneo.com/contact/">contact us</a> or your Customer Success Manager! </p>
+                                <a href="#serenity" class="btn btn-primary btn-ghost btn-sm"> Learn more about Serenity</a>
+                            {{else}}
+                                <h3>A newer version is out!</h3>
+                                <p>Don't hesitate to migrate to our latest version: <b>the {{../latestVersion.label}}</b>. You will benefit from a whole new set of features{{#unless isSupported}}, as well as the serenity of being on a supported version{{/unless}}! <a href="{{newKeyFeaturesIfIMigrateToLatest}}">> Discover these features!</a><br>
+                                Interested in the {{../latestVersion.label}}? Don't hesitate to <a href="https://www.akeneo.com/contact/">contact us</a> or your Customer Success Manager!</p>
+                                <div class="row">
+                                    <div class="col-xs-12 col-lg-6" style="margin-bottom: 10px;">
+                                        <a href="#{{../latestVersion.code}}" class="btn btn-primary btn-ghost btn-sm">Learn more about the {{../latestVersion.label}}</a>
+                                    </div>
+                                    <div class="col-xs-12 col-lg-6">
+                                        <a href="{{migrationGuideToLatest}}" class="btn btn-primary btn-ghost btn-sm">Follow our migration guide</a>
+                                    </div>
+                                </div>
+                                <h3>Tired of migrations? Want exclusive features?</h3>
+                                <p>Did you know that, in our <b>Serenity offer</b>, you can benefit from new exclusive features, as well as saving time and money by letting us handle your migrations? <a href="{{newKeyFeaturesIfIMigrateToSerenity}}">> Check out those features!</a><br>
+                                Convinced by the Serenity? <a href="https://www.akeneo.com/contact/">Contact us</a> or your Customer Success Manager!</p></p>
+                                <a href="#serenity" class="btn btn-primary btn-ghost btn-sm"> Learn more about Serenity</a>
+                            {{/if}}
+                        </div>
+                    </div>      
+                </div>
+            </div>
+        {{/each}}
+    </div>
+{{/layout}}

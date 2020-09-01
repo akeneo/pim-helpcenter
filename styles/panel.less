@@ -23,22 +23,6 @@
             }
         }
     }
-    &.panel-slack{
-        background: url(../img/icon--slack.svg);
-        background-repeat: no-repeat;
-    }
-    &.panel-badger{
-        background: url(../img/icon--badger.svg);
-        background-repeat: no-repeat;
-    }
-    &.panel-crowdin{
-        background: url(../img/icon--crowdin.svg);
-        background-repeat: no-repeat;
-    }
-    &.panel-stack-overflow{
-        background: url(../img/icon--soverflow.svg);
-        background-repeat: no-repeat;
-    }
     .panel-heading {
         padding: @spacing-base / 4;
         border-bottom: none;
@@ -58,6 +42,9 @@
             & + p {
                 margin-bottom: 0;
             }
+        }
+        p:last-of-type {
+            margin-bottom: 0;
         }
     }
     .panel-footer {

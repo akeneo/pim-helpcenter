@@ -7,6 +7,15 @@ a.btn {
     &.btn-default{
         border: 1px solid @gray-lighter;
     }
+    &.btn-ghost.btn-primary{
+        .button-variant(@brand-primary;
+        transparent;
+        @brand-primary);
+        border: 2px solid;
+        &:hover{
+            background-color: lighten(@brand-primary, 50%);
+        }
+    }
 }
 
 .btn-akeneo {

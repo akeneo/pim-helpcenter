@@ -8,18 +8,9 @@ const fs = require('fs');
 const rename = require('gulp-rename');
 const revReplace = require('gulp-rev-replace');
 const _ = require('lodash');
+const coloredDomains = require('./common/colored-domains.js');
 
 const majorVersion = 'serenity';
-const coloredDomains = {
-    'governance': { 'label': 'Governance', 'color': 'warning' },
-    'productivity': { 'label': 'Productivity', 'color': 'info' },
-    'collaboration': { 'label': 'Collaboration', 'color': 'primary' },
-    'connectivity': { 'label': 'Connectivity', 'color': 'akeneo' },
-    'dataquality': { 'label': 'Data quality', 'color': 'success' },
-    'automation': { 'label': 'Automation', 'color': 'pink' },
-    'reporting': { 'label': 'Reporting', 'color': 'orange' },
-    'scalability': { 'label': 'Scalability', 'color': 'danger' }
-};
 const orderedVersions = {
     '17': { 'name': '1.7', 'isSupported': false },
     '20': { 'name': '2.0', 'isSupported': false },
@@ -33,16 +24,16 @@ const orderedVersions = {
     'serenity': { 'name': 'Serenity', 'isSupported': true }
 };
 
-module.exports = {generateIndex};
+module.exports = {generateWhatsNew};
 
 gulp.task('build-whats-new-page', ['clean-dist','less'], function() {
     const fileDirectorySource = 'content/whats-new';
     const fileDirectoryDestination = './dist/pim/serenity';
 
-    return generateIndex(fileDirectorySource, fileDirectoryDestination);
+    return generateWhatsNew(fileDirectorySource, fileDirectoryDestination);
 });
 
-function generateIndex(fileDirectorySource, fileDirectoryDestination) {
+function generateWhatsNew(fileDirectorySource, fileDirectoryDestination) {
     const versions = {};
     _.each(orderedVersions, function(version){
         versions[version.name.split('.').join('').toLowerCase()] = version;
