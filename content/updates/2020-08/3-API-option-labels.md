@@ -16,7 +16,7 @@ Let's take an example!
 
 If you use our API to display product content on a website, or to create marketing/sales materials, before this update, your connector needed to retrieve product attribute values by calling the `GET /products` endpoint. Then, for each attribute with a list of options, a `GET /attributes` was required to get the related labels. 
 
-Before the generator was only receiving codes:
+Before the connector was only receiving codes:
 
 ```
     "values": {
@@ -197,7 +197,7 @@ Now it receives codes and labels:
     }
 ```
 
-In that really simple example, we **avoid 5 API calls per product**. Imagine this improvement for a catalog which contains thousands of products! 
+In this example, we **avoid 5 API calls per product**. Imagine this improvement for a catalog which contains thousands of products! 
 
 ::: more
 [How to get product data with the Akeneo API?](https://api.akeneo.com/api-reference.html#get_products)  
