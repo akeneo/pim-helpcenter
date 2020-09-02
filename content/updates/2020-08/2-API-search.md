@@ -33,7 +33,7 @@ The following filter enables you to retrieve all attributes updated since the 20
  
 ## Attribute group labels inside the attribute endpoints  
 Let's take an example! You want to share your product data thanks to your online catalog.  
-Before our modification, your catalog should have:
+Before our modification, your catalog application should have:
 - retrieved the attributes data, 
 - gotten back the attribute groups data, 
 - then re-created the attribute organization.  
