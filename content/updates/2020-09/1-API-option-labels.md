@@ -6,7 +6,7 @@ pim_announcement_audience:
 - EE
 ---
 
-# Options labels in product export via API
+# Options labels in product API synchronization  
 ::: meta-data type="Improvement" features="API, Connectivity" available="early September" link-to-doc="https://api.akeneo.com/api-reference.html#get_products"
 :::
 
