@@ -47,11 +47,6 @@ GET `/api/rest/v1/attributes` example:
     "_embedded": {
         "items": [
             {
-                "_links": {
-                    "self": {
-                        "href": "http://test-dev-feature-octopus.core.akeneo.com/api/rest/v1/attributes/auto_exposure"
-                    }
-                },
                 "code": "auto_exposure",
                 "type": "pim_catalog_boolean",
                 "group": "marketing",
@@ -90,11 +85,6 @@ GET `/api/rest/v1/attributes` example:
                 }
             },
             {
-                "_links": {
-                    "self": {
-                        "href": "http://test-dev-feature-octopus.core.akeneo.com/api/rest/v1/attributes/auto_focus_lock"
-                    }
-                },
                 "code": "auto_focus_lock",
                 "type": "pim_catalog_boolean",
                 "group": "technical",
@@ -133,49 +123,6 @@ GET `/api/rest/v1/attributes` example:
                 }
             },
             [...]
-            {
-                "_links": {
-                    "self": {
-                        "href": "http://test-dev-feature-octopus.core.akeneo.com/api/rest/v1/attributes/care_instructions"
-                    }
-                },
-                "code": "care_instructions",
-                "type": "pim_catalog_textarea",
-                "group": "product",
-                "unique": false,
-                "useable_as_grid_filter": true,
-                "allowed_extensions": [],
-                "metric_family": null,
-                "default_metric_unit": null,
-                "reference_data_name": null,
-                "available_locales": [],
-                "max_characters": null,
-                "validation_rule": null,
-                "validation_regexp": null,
-                "wysiwyg_enabled": null,
-                "number_min": null,
-                "number_max": null,
-                "decimals_allowed": null,
-                "negative_allowed": null,
-                "date_min": null,
-                "date_max": null,
-                "max_file_size": null,
-                "minimum_input_length": null,
-                "sort_order": 7,
-                "localizable": false,
-                "scopable": false,
-                "labels": {
-                    "de_DE": "Care instructions",
-                    "en_US": "Care instructions",
-                    "fr_FR": "Instructions d'entretien"
-                },
-                "auto_option_sorting": null,
-                "group_labels": {
-                    "en_US": "Product",
-                    "fr_FR": "Produit",
-                    "de_DE": "Product"
-                }
-            }
         ]
     }
 }
