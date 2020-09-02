@@ -1,4 +1,4 @@
-# Akeneo Help center
+# Akeneo PIM Help center
 This repository holds the sources for our help center, made by hand with love.
 
 **Install/preview the help center**
@@ -28,7 +28,7 @@ Files located in the content and src directories are watched for changes, so whe
 
 Master branch is the Serenity version.
 
-Once you merge a PR into the `Serenity` branch, it is automatically deployed on the production server. You have nothing to do.
+Once you merge a PR into the `master` branch, it is automatically deployed on the production server. You have nothing to do.
 
 ### Manual
 
@@ -59,4 +59,3 @@ In this PR, we forgot to update the solution name to reduce Algolia's search to 
 ## Documentation contribution
 
 It's right [here](https://github.com/akeneo/pim-helpcenter/wiki).
-TEST
