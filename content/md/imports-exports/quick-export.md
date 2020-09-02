@@ -15,13 +15,14 @@ To start the export of product information from the products' grid:
 1. Search for products in the grid with the appropriate filters
 1. Select the products on which you want to perform the operation via the selection tool: all the products recorded, all visible products from the ongoing page, none of the products and the products for which you have ticked the 1st column
 ![Bulk action](../img/Products_BulkActions.png)
-1.  Click on `Quick Export` displayed in the bar at the bottom of the screen. It will open a pop-up and you can select relevant options:
+1.  Click on `Quick Export` displayed in the bar at the bottom of the screen.
+1.  On the pop-up that opened, select the relevant options:
     - `CSV` to generate CSV (comma-separated values) files
     - `XLSX` to generate XLSX (Microsoft Excel) files
     - `Grid context` to generate files according to your current view
     - `All attributes` to generate files with all your products’ attributes
-    - `With codes` to define if the data in your file contains the **codes** of the headers and values
-    - `With labels` to define if the data in your file contains the **labels** of the headers and values
+    - `With codes` to define if the export file displays values' **codes** instead of values' labels.
+    - `With labels` to define if the export file displays values' **labels** instead of values' codes.
     ![Quick Export checkboxes](../img/Exports_Quick-Export-checkboxes.png)
 1.  On the top-right corner, click on `Export`
 
@@ -29,7 +30,7 @@ To start the export of product information from the products' grid:
 To save you time, the selections you've made are stored in your local session. It means the next time you will click on Quick Export, the same options will be already selected.
 :::
 
-The action is processed as a back-end task, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified. Then, when you click on the notification, you access the report page of the action.
+The action is processed as a back-end task, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified. Then, when you click on the notification, you access the report page of the task.
 
 ![Quick Export notification](../img/Products_QuickExportNotification.gif)
 
@@ -38,8 +39,8 @@ On the report page, you can download the generated files.
 ![Quick Export download](../img/Products_QuickExportDownload.png)
 
 Two files are created:
-1. A file with the selected products named `products_export_<Working Locale Code>_<Working channel Code>_Date_Heure.xlsx` or with `.csv` extension
-2. A file with the selected product models named `product_models_export_<Working Locale Code>_<Working channel Code>_Date_Heure.xlsx` or with `.csv` extension
+1. A file with the selected products named `products_export_<Working Locale Code>_<Working channel Code>_Date_Hour.xlsx` or with `.csv` extension
+2. A file with the selected product models named `product_models_export_<Working Locale Code>_<Working channel Code>_Date_Hour.xlsx` or with `.csv` extension
 
 The created files enclose one line per product or product model exported, and a column for each product information available. The format of the generated file is the same as for the product import and export in CSV or XLSX  format with the Akeneo connector.
 
