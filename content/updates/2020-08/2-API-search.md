@@ -131,8 +131,5 @@ GET `/api/rest/v1/attributes` example:
 
 ::: more
 [How to filter attributes?](https://api.akeneo.com/documentation/filter.html#filter-attributes)  
-[How to filter attribute groups?](https://api.akeneo.com/documentation/filter.html#filter-attribute-groups)  
-[How to filter families?](https://api.akeneo.com/documentation/filter.html#filter-families)  
-[How to filter categories?](https://api.akeneo.com/documentation/filter.html#filter-categories)  
 [How to get back attributes data?](https://api.akeneo.com/api-reference.html#get_attributes)
 :::
