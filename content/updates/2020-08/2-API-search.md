@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # New updates to ease API catalog structure synchronization 
-::: meta-data type="New" features="API, Connectivity" available="late August" link-to-doc="https://api.akeneo.com/documentation/filter.html"
+::: meta-data type="New" features="API, Connectivity" available="early August" link-to-doc="https://api.akeneo.com/documentation/filter.html"
 :::
 
 A **new `search` parameter** enables you to add filters when retrieving attributes or families. Moreover, we added **attribute group labels** inside the attribute endpoints.
