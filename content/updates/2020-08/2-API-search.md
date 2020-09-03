@@ -10,7 +10,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="API, Connectivity" available="early August" link-to-doc="https://api.akeneo.com/documentation/filter.html"
 :::
 
-A **new `search` parameter** enables you to add filters when retrieving attributes or families. Moreover, we added **attribute group labels** inside the attribute endpoints.
+A **new `search` parameter** enables you to add filters when retrieving attributes or families.
 
 Those two enhancements will help reduce the number of data to process, the size of the API call responses, and the number of API calls needed to synchronize your catalog structure. 
 
