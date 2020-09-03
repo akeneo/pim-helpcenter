@@ -6,19 +6,20 @@ pim_announcement_audience:
 - EE
 ---
 
-# New updates to ease API catalog structure synchronization
+# New updates to ease attribute synchronization with the API
 ::: meta-data type="New" features="API, Connectivity" available="late August" link-to-doc="https://api.akeneo.com/documentation/filter.html"
 :::
 
-A **new `search` parameter** enables you to add filters to catalog structure endpoints. It will help reduce the number of data to process and the size of the API call responses. Moreover, we added **attribute group labels** inside the attribute endpoints to help you reduce the number of API calls needed to synchronize your catalog structure. 
+A **new `search` parameter** enables you to add filters when retrieving attributes. Moreover, we added **attribute group labels** inside the attribute endpoints.
+
+Those two enhancements will help reduce the number of data to process, the size of the API call responses, and the number of API calls needed to synchronize your catalog structure. 
 
 ## The `search` parameter  
 
 Here are the available filters:
-- **updated date**: allows you to retrieve only data updated since a specific date and hour (available for attribute groups, attributes, and families), 
-- **code**: allows you to filter on specific codes (available for attribute groups, attributes, categories and families), 
-- **type**: allows you to filter on attributes from a specific type (only available for attributes),
-- **parent**: allows you to retrieve all sub-categories of a parent category (only available for categories).  
+- **updated date**: allows you to retrieve only data updated since a specific date and hour,
+- **code**: allows you to filter on specific codes, 
+- **type**: allows you to filter on attributes from a specific type.
 
 You can combine filters to achieve powerful results!
 
