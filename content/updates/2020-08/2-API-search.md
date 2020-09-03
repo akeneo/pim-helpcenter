@@ -12,7 +12,7 @@ pim_announcement_audience:
 
 A **new `search` parameter** enables you to add filters when retrieving attributes or families.
 
-Those two enhancements will help reduce the number of data to process, the size of the API call responses, and the number of API calls needed to synchronize your catalog structure. 
+Those filters will help reduce the number of data to process and the size of the API call responses. 
 
 Here are the available filters:
 - **updated date**: allows you to retrieve only data updated since a specific date and hour,
