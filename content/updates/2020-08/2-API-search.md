@@ -31,6 +31,5 @@ The following filter enables you to retrieve all attributes updated since the 20
 
 ::: more
 [How to filter attributes?](https://api.akeneo.com/documentation/filter.html#filter-attributes)  
-[How to filter families?](https://api.akeneo.com/documentation/filter.html#filter-families)  
-[How to get back attributes data?](https://api.akeneo.com/api-reference.html#get_attributes)
+[How to filter families?](https://api.akeneo.com/documentation/filter.html#filter-families)
 :::
