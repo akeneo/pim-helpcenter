@@ -6,7 +6,7 @@ pim_announcement_audience:
 - EE
 ---
 
-# New updates to ease the API catalog structure synchronization
+# Synchronize the API catalog structure more easily
 ::: meta-data type="New" features="API, Connectivity" available="early August" link-to-doc="https://api.akeneo.com/documentation/filter.html"
 :::
 
