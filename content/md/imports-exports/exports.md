@@ -89,7 +89,7 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 | Number of lines per file | Defines the limit number of lines per file for XSLX export |
 
 ::: warning
-If you decided to export your file with labels, you won't be able to import back the file into the PIM.
+If you decided to export your file with labels, it won't be possible to import back the file into the PIM.
 :::
 
 In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which product or published product data you want to export. To find out more about this feature called `Product export builder`, take a look at this [article about Product Export Builder](product-export-builder.html).

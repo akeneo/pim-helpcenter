@@ -24,17 +24,15 @@ To start the export of product information from the products' grid:
     - `With codes` to define if the export file displays values' **codes** instead of values' labels.
     - `With labels` to define if the export file displays values' **labels** instead of values' codes.
     ![Quick Export checkboxes](../img/Exports_Quick-Export-checkboxes.png)
-1.  On the top-right corner, click on `Export`
+1.  In the top-right corner, click on `Export`
 
 ::: tips
 To save you time, the selections you've made are stored in your local session. It means the next time you will click on Quick Export, the same options will be already selected.
 :::
 
-The action is processed as a back-end task, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified. Then, when you click on the notification, you access the report page of the task.
+The action is processed as a back-end task, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified. To download your file, click on the notification you received in the bottom-right corner or go to `Activity` then click on `Process tracker` and on the desired job.
 
-![Quick Export notification](../img/Products_QuickExportNotification.gif)
-
-On the report page, you can download the generated files.
+On the report page, you can download your selection by clicking on `Download generated files` in the top-right button.
 
 ![Quick Export download](../img/Products_QuickExportDownload.png)
 
