@@ -37,8 +37,8 @@ On the report page, you can download your selection by clicking on `Download gen
 ![Quick Export download](../img/Products_QuickExportDownload.png)
 
 Two files are created:
-1. A file with the selected products named `products_export_<Working Locale Code>_<Working channel Code>_Date_Hour.xlsx` or with `.csv` extension
-2. A file with the selected product models named `product_models_export_<Working Locale Code>_<Working channel Code>_Date_Hour.xlsx` or with `.csv` extension
+1. A file with the selected products named `<NUMBER>_products_export_grid_context_<LOCALE>_<CHANNEL>_<YYYY-MM-DD>_<HH_MM_SS>` with `.csv` or `.xlsx` extension
+2. A file with the selected product models named `<NUMBER>_product_models_export_grid_context_<LOCALE>_<CHANNEL>_<YYYY-MM-DD>_<HH_MM_SS>` with `.csv` or `.xlsx` extension
 
 The created files enclose one line per product or product model exported, and a column for each product information available. The format of the generated file is the same as for the product import and export in CSV or XLSX  format with the Akeneo connector.
 

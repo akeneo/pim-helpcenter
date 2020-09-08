@@ -81,15 +81,17 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 | Date format        | Defines the format used for dates in the exported file |
 | Delimiter     | Defines the character to delimit the fields in the CSV file |
 | Enclosure   | Defines the character for the field enclosure in the CSV file |
-| With header             | Defines if the first line of the exported file contains the columns names     |
+| With header             | Defines if the first line of the exported file contains the columns names |
 | Export with labels       | Define if the export file displays values' labels instead of values' codes |
-| Headers with labels       | Define if the export file displays headers' labels instead of headers' codes |
-| File locale       | Define the locale in which labels are displayed |
+| Headers with labels       | Define if the export file displays headers' labels instead of headers' codes* |
+| File locale       | Define the locale in which labels are displayed* |
 | Export files and images | Disable the media archiving of images, images will not be exported in the file and the image column will not be present in the export |
 | Number of lines per file | Defines the limit number of lines per file for XSLX export |
 
+*Only visible if the option `Export with labels` has been turned on.
+
 ::: warning
-If you decided to export your file with labels, it won't be possible to import back the file into the PIM.
+If you decided to export your file with labels, it won't be possible to import the file back into the PIM.
 :::
 
 In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which product or published product data you want to export. To find out more about this feature called `Product export builder`, take a look at this [article about Product Export Builder](product-export-builder.html).
