@@ -82,19 +82,19 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 | Delimiter     | Defines the character to delimit the fields in the CSV file |
 | Enclosure   | Defines the character for the field enclosure in the CSV file |
 | With header             | Defines if the first line of the exported file contains the columns names |
-| Export with labels       | Define if the export file displays values' labels instead of values' codes |
-| Headers with labels       | Define if the export file displays headers' labels instead of headers' codes* |
-| File locale       | Define the locale in which labels are displayed* |
+| Export with labels       | Defines if the export file displays values' labels instead of values' codes |
+| Headers with labels       | Defines if the export file displays headers' labels instead of headers' codes* |
+| File locale       | Defines the locale in which labels are displayed* |
 | Export files and images | Disable the media archiving of images, images will not be exported in the file and the image column will not be present in the export |
 | Number of lines per file | Defines the limit number of lines per file for XSLX export |
 
-*Only visible if the option `Export with labels` has been turned on.
+*Only visible if the option `Export with labels` has been activated.
 
 ::: warning
-If you decided to export your file with labels, it won't be possible to import the file back into the PIM.
+Once you export your file with labels, it is no longer possible to import it back in the PIM.
 :::
 
-In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which product or published product data you want to export. To find out more about this feature called `Product export builder`, take a look at this [article about Product Export Builder](product-export-builder.html).
+In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which products or published products data you want to export. To find out more about this feature called `Product export builder`, take a look at this article about [Product Export Builder](product-export-builder.html).
 
 ::: ee
 If a user has no rights granted to modify an export profile due to his role, then the permissions which he may benefit due to his user group(s) _(EE only)_ will not be applied. For instance, if a user does not have the `Edit profiles of exports` permission, his Enterprise Edition rights to edit a specific export profile is ignored.

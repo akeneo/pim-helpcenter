@@ -15,24 +15,24 @@ To start the export of product information from the products' grid:
 1. Search for products in the grid with the appropriate filters
 1. Select the products on which you want to perform the operation via the selection tool: all the products recorded, all visible products from the ongoing page, none of the products and the products for which you have ticked the 1st column
 ![Bulk action](../img/Products_BulkActions.png)
-1.  Click on `Quick Export` displayed in the bar at the bottom of the screen.
+1.  Click on `Quick Export` at the bottom of the screen.
 1.  On the pop-up that opened, select the relevant options:
     - `CSV` to generate CSV (comma-separated values) files
     - `XLSX` to generate XLSX (Microsoft Excel) files
     - `Grid context` to generate files according to your current view
-    - `All attributes` to generate files with all your products’ attributes
+    - `All attributes` to generate files with all your product attributes
     - `With codes` to define if the export file displays values' **codes** instead of values' labels.
     - `With labels` to define if the export file displays values' **labels** instead of values' codes.
     ![Quick Export checkboxes](../img/Exports_Quick-Export-checkboxes.png)
 1.  In the top-right corner, click on `Export`
 
 ::: tips
-To save you time, the selections you've made are stored in your local session. It means the next time you will click on Quick Export, the same options will be already selected.
+To save time, your selections are stored in your local session. It means the next time you click on Quick Export, the same options will already be selected.
 :::
 
 The action is processed as a back-end task, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified. To download your file, click on the notification you received in the bottom-right corner or go to `Activity` then click on `Process tracker` and on the desired job.
 
-On the report page, you can download your selection by clicking on `Download generated files` in the top-right button.
+On the report page, you can download your selection by clicking on `Download generated files` in the top-right corner.
 
 ![Quick Export download](../img/Products_QuickExportDownload.png)
 
