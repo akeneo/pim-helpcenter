@@ -18,7 +18,7 @@
     "domains": ["Governance","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
-    "link": "pim/serenity/updates/2020-07.html#new-association-type-with-quantities"
+    "link": "/pim/serenity/updates/2020-07.html#new-association-type-with-quantities"
   },
   {
     "title":"Two-way product association 🔗",
