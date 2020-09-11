@@ -1,6 +1,6 @@
 # Akeneo PIM Help center
 This repository holds the sources for our help center, made by hand with love.
-test
+
 **Install/preview the help center**
 
 Install [Docker Engine](https://docs.docker.com/engine/installation/)
