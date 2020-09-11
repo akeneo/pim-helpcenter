@@ -154,7 +154,7 @@ Here are the 2 main reasons why:
 - First, all the [permissions](#set-the-permissions) set on your connection are based on the connection username. So if you don't use it, your permission connection won't be enforced.
 - The [connection monitoring in the dashboard](connection-dashboard.html) is also based on the connection username. So if you want to benefit from this feature, use this username to authenticate your API calls.
 
-# Revoke/regenerate your connection secret
+## Revoke/regenerate your connection secret
 
 In some cases, your connection secret may have leaked and fallen into the wrong hands. So you want to revoke this secret, to avoid enabling these "wrong hands" to access your PIM via the API.
 
@@ -182,7 +182,7 @@ To be authenticated again, launch a new [authentication request](https://api.ake
 Don't really know how the authentication via API works? [Don't worry, there is documentation to help you! It's right here!](https://api.akeneo.com/documentation/authentication.html)
 :::
 
-# Regenerate your connection password
+## Regenerate your connection password
 
 The PIM shows you the connection password only once, at the connection creation. In case you may have forgotten it, you can regenerate a new one.  
 
@@ -265,6 +265,57 @@ To create a user group and link it to your connection:
 By default, the user group you've just created does not give any rights to the catalog. So it's perfectly normal if you receive no products when you ask for products via the API using the connection credentials.  
 To be able to view the catalog, you will need to give permissions to your connection user group. [Here is the documentation to help you in this task.](access-rights-on-products.html)
 :::
+
+# Subscribe to events
+
+::: warning
+Event subscription is a BETA feature. 
+**// TODO add some information about beta version**
+:::
+
+**//TODO write something about what are events**
+
+## Event subscription activation
+To activate the event subscription, you need to fill the URL to allow the PIM to know where to send events. 
+After entering the URL, you can test it thanks to the `Test` button. The PIM will test the address and display the HTTP response code and message under the URL field, as shown in the following screenshot. 
+
+**// TODO screenshot URL + test message**
+
+As soon as the URL is tested or saved, the PIM will automatically generate a secret. This secret is necessary to ... 
+Don't hesitate to learn more about the authentication over the API on our dedicated API website. 
+**// TODO complete and add a link to the API documentation**
+
+Now, all you have to do is select the events you wish to subscribe to in the `Event types` field. If you want to subscribe to all available event types, please keep the default value. 
+
+## Revoke/regenerate your event subscription secret
+In some cases, your event subscription secret may have leaked and fallen into the wrong hands. So you want to revoke this secret to avoid enabling these "wrong hands" to listen to your PIM events. 
+
+::: info
+As for the connection secret, the PIM will automatically regenerate a new secret for you.
+:::
+
+Here are the simple steps to go through to revoke your secret:
+1. Click on the `System` menu.
+2. Click on the `Connections` submenu.
+3. Click on the connection for which you want to revoke the event subscription secret.
+4. Click on the `Event subscription` submenu then on the right side of the `Secret` line, click on the regenerate icon button.
+![Revoke/Regenerate icon button](../img/regenerate-icon-button.png)
+5. A popin asks you for confirmation. Click on the `Regenerate` button.
+ 
+The current secret will be revoked. It means that no one will be able to use it anymore to authenticate their event subscription.  
+Also, a new secret has been generated. Be sure to use this new one in your third-party application to be able to catch PIM events again. 
+
+::: warning
+**// TO BE UPDATED**
+As you may have understood, revoking a secret can impact the third-party application linked to your connection. Indeed, when you revoke a secret used by one of your third parties, all its API calls will automatically stop working and send 401 errors instead. You won't be authenticated anymore.  
+To be authenticated again, launch a new [authentication request](https://api.akeneo.com/api-reference.html#post_token) using the newly generated secret.
+:::
+
+::: tips
+**// TO BE UPDATED**
+Don't really know how the authentication via API works? [Don't worry, there is documentation to help you! It's right here!](https://api.akeneo.com/documentation/authentication.html)
+:::
+
 
 # Delete a connection
 
