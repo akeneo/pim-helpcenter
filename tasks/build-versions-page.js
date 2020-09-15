@@ -34,16 +34,16 @@ function generateDetailedVersionsPage(fileDirectoryDestination) {
         }
         var releaseDate = moment.utc(version.releaseDate);
         var supportEndDate = moment.utc(version.supportEndDate);
-        version.releaseDateShortLabel = releaseDate.format('MMM YY');
+        version.releaseDateShortLabel = releaseDate.format('ll');
         version.releaseDateLongLabel = releaseDate.format('LL');
-        version.supportEndDateShortLabel = supportEndDate.format('MMM YY');
+        version.supportEndDateShortLabel = supportEndDate.format('ll');
         version.supportEndDateLongLabel = supportEndDate.format('LL');
         var timeLeftBeforeSupportEndInMonths = supportEndDate.diff(moment(), 'months');
         version.timeLeftBeforeSupportEnd = (timeLeftBeforeSupportEndInMonths > 1) ? timeLeftBeforeSupportEndInMonths + ' months' : supportEndDate.diff(moment(), 'days') + ' days';
         version.timeAfterSupportEnd = supportEndDate.fromNow();
     });
 
-    var serenityLastNewUpdates = _.take(JSON.parse(fs.readFileSync('content/whats-new/Serenity-news.json')),3);
+    var serenityLastNewUpdates = _.take(JSON.parse(fs.readFileSync('content/whats-new/Serenity-news.json')), 4);
     _.each(serenityLastNewUpdates, function(update){
         update.coloredDomains = _.keyBy(update.domains, function(domain){
             var coloredDomain = coloredDomains[domain.replace(/\s/g, '').toLowerCase()];

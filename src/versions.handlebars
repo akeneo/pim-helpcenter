@@ -19,7 +19,7 @@
                     <span class="label label-primary">Cloud version</span>
                     <span class="label label-success">Supported</span>
                 </p>
-                <p class="small text-right"><em>Available for Enterprise users only</em></p>
+                <p class="small text-right"><em>Available for Enterprise customers only</em></p>
             </div>
             <div class="visible-xs">
                 <a class="anchor" id="serenity"></a>
@@ -27,18 +27,18 @@
                 <p class="text-right">
                     <span class="label label-primary">Cloud version</span>
                     <span class="label label-success">Supported</span>
-                    | <em class="small">Available for Enterprise users only</em>
+                    | <em class="small">Available for Enterprise customers only</em>
                 </p>
             </div>
             <div class="col-version col-xs-12 col-sm-9 col-md-10">
                 <div class="row">
                     <div class="col-xs-12 col-md-8">
-                        <h3>Continuous delivery & automatic migrations</h3>
-                        <p><b>Each month, we release new and exclusive features for our dear Serenity customers.</b><br>No need to worry about migrations! Those new features are automatically delivered.</p>
-                        <p>Don't hesitate, be curious and discover what's new!</p>
+                        <h3>What is the Serenity version?</h3>
+                        <p>This version is designed for customers who want exclusive access to Akeneo PIM latest features and improvements, and who don't want worry about migrations.
+                        <p>With this version, benefit from new and exclusive features <b>each month.</b><br>And no need to worry about migrations! Those new features are automatically delivered in your PIM.</p>
                         <div class="row">
                             <div class="col-xs-12">
-                                <a href="/pim/serenity/updates/index.html" class="btn btn-primary btn-ghost btn-sm">Read the detailed release note</a>
+                                <a href="/pim/serenity/updates/index.html" class="btn btn-primary btn-ghost btn-sm">Discover our latest monthly updates</a>
                             </div>
                         </div>
                         <h3>Exclusive features</h3>
@@ -60,7 +60,7 @@
                                 </div>
                             {{/each}}
                             <div class="col-xs-12">
-                                <a href="/pim/serenity/updates/whats-new.html" class="btn btn-primary btn-sm">Check out all the other exclusive features</a>
+                                <a href="/pim/serenity/updates/whats-new.html" class="btn btn-primary btn-sm btn-ghost">Check out all the other exclusive features</a>
                             </div>
                         </div>
                     </div>
@@ -70,12 +70,12 @@
                         <p><a href="/pim/serenity">> Browse our user guides</a><br>
                         <a href="https://api.akeneo.com/api-reference-index.html">> Check out our API doc</a></p>
                         <h3>Support</h3>
-                        <p>The Serenity version will always be supported by our teams.<br>
-                        <em class="small">Our Serenity users benefit from security & bug patches, as well as a SLA-backed support.</em></p>
+                        <p>The Serenity version comes with <b>SLA-backed support</b>.<br>
+                        <em class="small">Don't worry about maintenance! As a Serenity client, all security and bug fixes are automatically applied on your PIM.</em></p>
                         <p>If you are a Serenity user and need help with your PIM, you can open a <a href="https://helpdesk.akeneo.com">ticket on our helpdesk</a>.</p>
                         <h3>Interested in this version?</h3>
-                        <p>Don't hesitate to reach out to your Customer Success Manager if you want to learn more about this version.</p>
-                        <p>Not an Enterprise customer yet? Contact us to get a demo of our most powerful version.</p>
+                        <p>As an Enterprise client, you can directly contact your Customer Success Manager to get more information about this version.</p>
+                        <p>Not an Enterprise client yet? Contact us to get a guided demo of our most serene version. 😉</p>
                         <div class="row">
                             <div class="col-xs-12">
                                 <a href="https://www.akeneo.com/contact/" class="btn btn-primary btn-ghost btn-sm">Contact us</a>
@@ -95,8 +95,8 @@
                         {{#if isSupported}}<span class="label label-success">Supported</span>
                         {{else}}<span class="label label-danger">Not supported</span>{{/if}}
                     </p>
-                    <p class="text-right">{{releaseDateShortLabel}} - {{supportEndDateShortLabel}}</p>
-                    <p class="small text-right"><em>Available for both Community and Enterprise users</em></p>
+                    <p class="text-right">{{releaseDateShortLabel}} -<br>{{supportEndDateShortLabel}}</p>
+                    <p class="small text-right"><em>Available for both Community and Enterprise customers</em></p>
                 </div>
                 <div class="visible-xs">
                     <a class="anchor" id="{{code}}"></a>
@@ -105,7 +105,7 @@
                         {{#if isLatest}}<span class="label label-primary">Latest GA</span>{{/if}}
                         {{#if isSupported}}<span class="label label-success">Supported</span>
                         {{else}}<span class="label label-danger">Not supported</span>{{/if}}
-                         | {{releaseDateShortLabel}} - {{supportEndDateShortLabel}} | <em class="small">Available for both Community and Enterprise users</em>
+                         | {{releaseDateShortLabel}} - {{supportEndDateShortLabel}} | <em class="small">Available for both Community and Enterprise customers</em>
                     </p>
                 </div>
                 <div class="col-version col-xs-12 col-sm-9 col-md-10">
@@ -155,15 +155,15 @@
                                 <a href="#serenity" class="btn btn-primary btn-ghost btn-sm"> Learn more about Serenity</a>
                             {{else}}
                                 <h3>A newer version is out!</h3>
-                                <p>Don't hesitate to migrate to our latest version: <b>the {{../latestVersion.label}}</b>. You will benefit from a whole new set of features{{#unless isSupported}}, as well as the serenity of being on a supported version{{/unless}}! <a href="{{newKeyFeaturesIfIMigrateToLatest}}">> Discover these features!</a><br>
+                                <p>Don't hesitate to migrate to our latest GA version: <b>the {{../latestVersion.label}}</b>. You will benefit from a whole new set of features{{#unless isSupported}}, as well as the serenity of being on a supported version{{/unless}}! <a href="{{newKeyFeaturesIfIMigrateToLatest}}">> Discover these features!</a><br>
                                 Interested in the {{../latestVersion.label}}? Don't hesitate to <a href="https://www.akeneo.com/contact/">contact us</a> or your Customer Success Manager!</p>
                                 <div class="row">
                                     <div class="col-xs-12 col-lg-6" style="margin-bottom: 10px;">
                                         <a href="#{{../latestVersion.code}}" class="btn btn-primary btn-ghost btn-sm">Learn more about the {{../latestVersion.label}}</a>
                                     </div>
-                                    <div class="col-xs-12 col-lg-6">
+                                    <!--<div class="col-xs-12 col-lg-6">
                                         <a href="{{migrationGuideToLatest}}" class="btn btn-primary btn-ghost btn-sm">Follow our migration guide</a>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <h3>Tired of migrations? Want exclusive features?</h3>
                                 <p>Did you know that, in our <b>Serenity offer</b>, you can benefit from new exclusive features, as well as saving time and money by letting us handle your migrations? <a href="{{newKeyFeaturesIfIMigrateToSerenity}}">> Check out those features!</a><br>
