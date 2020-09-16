@@ -24,14 +24,7 @@ gulp.task('build-versions-page', ['clean-dist','less'], function() {
 function generateDetailedVersionsPage(fileDirectoryDestination) {
     var versions = JSON.parse(fs.readFileSync('content/versions/versions.json'));
 
-    var latestVersion;
     _.each(versions, function(version){
-        if(version.isLatest){
-            latestVersion = {
-                code: version.code,
-                label: version.label
-            };
-        }
         var releaseDate = moment.utc(version.releaseDate);
         var supportEndDate = moment.utc(version.supportEndDate);
         version.releaseDateShortLabel = releaseDate.format('ll');
@@ -41,7 +34,13 @@ function generateDetailedVersionsPage(fileDirectoryDestination) {
         var timeLeftBeforeSupportEndInMonths = supportEndDate.diff(moment(), 'months');
         version.timeLeftBeforeSupportEnd = (timeLeftBeforeSupportEndInMonths > 1) ? timeLeftBeforeSupportEndInMonths + ' months' : supportEndDate.diff(moment(), 'days') + ' days';
         version.timeAfterSupportEnd = supportEndDate.fromNow();
+        version.isSupported = supportEndDate.isSameOrAfter(moment(),'day');
     });
+
+    var latestGAVersion = {
+        code: versions[0].code,
+        label: versions[0].label
+    };
 
     var serenityLastNewUpdates = _.take(JSON.parse(fs.readFileSync('content/whats-new/Serenity-news.json')), 4);
     _.each(serenityLastNewUpdates, function(update){
@@ -55,7 +54,7 @@ function generateDetailedVersionsPage(fileDirectoryDestination) {
         .pipe(gulpHandlebars({
             title: 'Discover our PIM versions',
             versions: versions,
-            latestVersion: latestVersion,
+            latestGAVersion: latestGAVersion,
             serenityLastNewUpdates: serenityLastNewUpdates,
             majorVersion: majorVersion
         }, {

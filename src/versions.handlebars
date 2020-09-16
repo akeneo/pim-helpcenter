@@ -91,7 +91,7 @@
                     <a class="anchor" id="{{code}}"></a>
                     <h2 class="text-right">v{{label}}</h2>
                     <p class="text-right">
-                        {{#if isLatest}}<span class="label label-primary">Latest GA</span>{{/if}}
+                        {{#if @first}}<span class="label label-primary">Latest GA</span>{{/if}}
                         {{#if isSupported}}<span class="label label-success">Supported</span>
                         {{else}}<span class="label label-danger">Not supported</span>{{/if}}
                     </p>
@@ -102,7 +102,7 @@
                     <a class="anchor" id="{{code}}"></a>
                     <h2>v{{label}}</h2>
                     <p>
-                        {{#if isLatest}}<span class="label label-primary">Latest GA</span>{{/if}}
+                        {{#if @first}}<span class="label label-primary">Latest GA</span>{{/if}}
                         {{#if isSupported}}<span class="label label-success">Supported</span>
                         {{else}}<span class="label label-danger">Not supported</span>{{/if}}
                          | {{releaseDateShortLabel}} - {{supportEndDateShortLabel}} | <em class="small">Available for both Community and Enterprise customers</em>
@@ -148,18 +148,18 @@
                             {{else}}
                                 <p>The {{label}} version is not supported anymore by our teams.<br><em class="small">Its support ended on <b>{{supportEndDateLongLabel}}</b>, {{timeAfterSupportEnd}}.</em></p>
                             {{/if}}
-                            {{#if isLatest}}
+                            {{#if @first}}
                                 <h3>Want exclusive features?</h3>
                                 <p>The {{label}} is our latest GA version.</p>
                                 <p>But did you know that, in our <b>Serenity offer</b>, you can benefit from new exclusive features? <a href="{{newKeyFeaturesIfIMigrateToSernity}}">> Check out the exclusive Serenity features available so far</a><br>And in Serenity, you don't need to bother about migration anymore. We handle it for you. Convinced? Don't hesitate to <a href="https://www.akeneo.com/contact/">contact us</a> or your Customer Success Manager! </p>
                                 <a href="#serenity" class="btn btn-primary btn-ghost btn-sm"> Learn more about Serenity</a>
                             {{else}}
                                 <h3>A newer version is out!</h3>
-                                <p>Don't hesitate to migrate to our latest GA version: <b>the {{../latestVersion.label}}</b>. You will benefit from a whole new set of features{{#unless isSupported}}, as well as the serenity of being on a supported version{{/unless}}! <a href="{{newKeyFeaturesIfIMigrateToLatest}}">> Discover these features!</a><br>
-                                Interested in the {{../latestVersion.label}}? Don't hesitate to <a href="https://www.akeneo.com/contact/">contact us</a> or your Customer Success Manager!</p>
+                                <p>Don't hesitate to migrate to our latest GA version: <b>the {{../latestGAVersion.label}}</b>. You will benefit from a whole new set of features{{#unless isSupported}}, as well as the serenity of being on a supported version{{/unless}}! <a href="{{newKeyFeaturesIfIMigrateToLatest}}">> Discover these features!</a><br>
+                                Interested in the {{../latestGAVersion.label}}? Don't hesitate to <a href="https://www.akeneo.com/contact/">contact us</a> or your Customer Success Manager!</p>
                                 <div class="row">
                                     <div class="col-xs-12 col-lg-6" style="margin-bottom: 10px;">
-                                        <a href="#{{../latestVersion.code}}" class="btn btn-primary btn-ghost btn-sm">Learn more about the {{../latestVersion.label}}</a>
+                                        <a href="#{{../latestGAVersion.code}}" class="btn btn-primary btn-ghost btn-sm">Learn more about the {{../latestGAVersion.label}}</a>
                                     </div>
                                     <!--<div class="col-xs-12 col-lg-6">
                                         <a href="{{migrationGuideToLatest}}" class="btn btn-primary btn-ghost btn-sm">Follow our migration guide</a>
