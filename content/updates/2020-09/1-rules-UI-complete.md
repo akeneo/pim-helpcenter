@@ -3,7 +3,7 @@ pim_announcement_audience:
 - EE
 ---
 
-# The rules builder interface 100% complete!
+# The rules engine UI 100% complete!
 ::: meta-data type="New" features="Rules engine, Productivity" available="late September" link-to-doc="../articles/manage-your-rules.html#the-rule-builder-tab"
 :::
 
