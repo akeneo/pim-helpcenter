@@ -12,7 +12,8 @@ pim_announcement_audience:
 
 Discover a fresh UI for the Quick Export!
 This new UI makes it more easy for you to select amongst the existing choices.
-To save you time, the selections you will make will be stored in your computer's local cache, which means every time you will open the Quick Export, the selections will be already checked.
+
+To save you time, the selections you've made are stored in your local session. It means the next time you will click on `Quick Export`, the same options will be already selected.
 
 
 ::: more
