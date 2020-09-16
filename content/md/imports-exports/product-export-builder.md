@@ -33,37 +33,37 @@ The PIM opens the export profile in edition mode so you can customise it and sel
 
 From an existing product export profile:
 1. Go to `Exports`
-1. Click on the product export profile line to edit
-1. Click on the `Edit` button located on the top right corner of the screen
-1. Once the export profile is displayed, click on the `Content` tab to edit the exported product information
+1. Click on the product export profile line you want to edit
+1. Click on `Edit` located in the top right corner of the screen
+1. Once the export profile is displayed, click on `Content` to edit the exported product information
 
-From a newly created product export profile, click on the `Content` tab.
+From a newly created product export profile, click on `Content`.
 
-Then, you will land on a page divided in two sections:
+Then, you will land on a page divided into two sections:
 
 ![Edit a product export profile](../img/Exports_EditContent.png)
 
-`Filter the data`: this part allows you to define the data of the exported file, namely its columns: you will have to specify a channel and one or more locales to export (required fields). The last field `Attributes` will allow you to select the attributes to be used as file columns.
+`Filter the data`: this part allows you to define the data of the exported file, namely its columns: you will have to specify a channel and one or more locales to export. Those are required fields. The last field `Attributes` will allow you to select the attributes that will be used as file columns.
 
-`Filter the products`: this part allows you to filter your products on several product and system attributes such as the family, category, status, completeness or even insert a list of identifiers, you can also add new attributes to use them to filter your products.
+`Filter the products`: this part allows you to filter your products on several product and system attributes such as family, category, status, completeness or even insert a list of identifiers. You can also add new attributes to use them to filter your products.
 
 ## Filter the data
 
 ### Select a channel
 
-Each export can only be linked to one channel, please select the relevant channel of products to export.
+Each export can only be linked to one channel, please select the relevant channel containing the products you want to export.
 
 ![Choose a channel](../img/Exports_EditManageChannels.png)
 
 ### Select one or more locales
 
-By default, all activated locales for the channel previously selected are exported. You can export product information for one or more locales depending on your needs.
+By default, all activated locales for the channel you previously selected are exported. You can export product information for one or more locales depending on your needs.
 
 For instance, Peter needs an export for his Spanish translator: he selects French and Spanish locales, the exported file the translator can enrich the product information for the Spanish locale based on the French product information.
 
 ### Remove a locale
 
-Click on the small cross nearby the locale code.
+Click on the small cross next to the locale code.
 
 ### Add a locale
 
@@ -73,17 +73,17 @@ Start typing your locale code in the field, the PIM will automatically propose y
 
 ### Select attributes as file columns
 
-Click on the `Edit` button in the field to open the Attributes Selection popin:
+Click on the `Edit` button in the field to open the Attribute Selection pop-in:
 
 ![Select attributes as file columns](../img/Exports_AttributesEditContent.png)
 
-The popin is divided in three parts: the left part shows the attribute groups, the middle part displays the attributes belonging to the selected group, and on the right side, you will find your attribute selection. By default, note that all attributes are exported.
+The pop-in is divided into three parts: the left part shows the attribute groups, the middle part displays the attributes belonging to the selected group, and on the right side, you will find your attribute selection. By default, note that all attributes are exported.
 
-To make your own attribute selection, click on left side to select a specific attribute group (or `All groups` to display all attributes). Place your mouse on your attribute and drag and drop it into the right-most column. The selected attributes will be displayed as columns in your export file.
+To make your own attribute selection, click on the left side to select a specific attribute group (or `All groups` to display all attributes). Place your mouse on your attribute and drag and drop it into the far right column. The selected attributes will be displayed as columns in your export file.
 
 ![Drag and drop attributes](../img/Exports_DragandDropAttributes.gif)
 
-You can reorder your attributes by dragging them up and down. To clear your selection, click on the `Clear` button. To save your attribute selection, click on `Apply`.
+You can reorder your attributes by dragging them up and down. To clear your selection, click on `Clear`. To save your attribute selection, click on `Apply`.
 
 The `Attributes` field will display the number of attributes selected for the export.
 
@@ -97,25 +97,25 @@ By default, the `Identifier` field is exported in the product export.
 By default, this filter is empty meaning that all products will be exported regardless of the family they belong to, products without families will also be exported.
 
 ### Add a family
-If you want to export products belonging to specific families, click on the drop down list and click on the families to add in the field.
+If you want to export products belonging to specific families, click on the drop down list and click on the families you want to add in the field.
 
 ![Add a family](../img/Exports_EditFamilyManagement.png)
 
 ### Remove a family
-Click on the cross nearby the family label to remove it from the field. Products belonging to this family will not be exported anymore.
+Click on the cross next to the family label to remove it from the field. Products belonging to this family will no longer be exported.
 
-### Filter on products’ statuses
+### Filter on product status
 
-You can also filter on the status of your products, three options available:
-- `All`: to export all products whatever their status is
+You can also filter on the status of your products, three options are available:
+- `All`: to export all products regardless of their status
 - `Enabled` (default option): to only export enabled products
-- `Disabled`: to only export enabled products
+- `Disabled`: to only export disabled products
 
 ### Use the completeness filter for product export
 
-The following drop down enables you to filter on completeness of selected locales. Four options on completeness are proposed:
-- `No condition on completeness`: all products will be exported whatever their completeness is.
-- `Complete on at least one selected locale` (default option): products must be complete on at least one locale
+The following drop-down enables you to filter on the completeness of selected locales. Four options on completeness are proposed:
+- `No condition on completeness`: all products will be exported regardless of their completeness.
+- `Complete on at least one selected locale` (default option): products must be complete in at least one locale
 - `Complete on all selected locales`: products must be complete on all locales (if you have selected more than
 one locale).
 - `Not complete on all selected locales`: products must not be complete on all locales (if you have selected
@@ -123,10 +123,10 @@ more than one locale).
 
 For instance, with 4 products and 2 exported locales fr_FR and en_US:
 
-- Product A: complete on fr_FR, uncomplete on en_US  
-- Product B: uncomplete on fr_FR, complete on en_US  
-- Product C: complete on fr_FR, complete on en_US  
-- Product D: uncomplete on fr_FR, uncomplete on en_US  
+- Product A: complete in fr_FR, incomplete in en_US  
+- Product B: incomplete in fr_FR, complete in en_US  
+- Product C: complete in fr_FR, complete in en_US  
+- Product D: incomplete in fr_FR, incomplete in en_US  
 
 Exported products according to each completeness option for the locales fr_FR and en_US:
 
@@ -137,32 +137,32 @@ Exported products according to each completeness option for the locales fr_FR an
 
 ### Use the completeness filter for product model export
 
-The following drop down enables you to filter on the completeness of the product models children products for the selected locales. Three options on completeness are proposed:
-- `No condition on completeness`: all products models are exported whatever the completeness of their children products for the channel and locales selected
-- `At least one child product complete on one selected locale` (default option): a product model is exported if at least one of its child product is complete for the channel selected on one of the selected local
-- `All children products complete on all selected locales`: a product model is exported if all its products are complete for the channel selected on all selected locales.
+The following drop-down enables you to filter on the completeness of the product model children products for the selected locales. Three options on completeness are proposed:
+- `No condition on completeness`: all products models are exported regardless of the completeness of their children products for the selected channel and locales
+- `At least one child product complete on one selected locale` (default option): a product model is exported if at least one of its children products is complete for the selected channel on one of the selected locales
+- `All children products complete on all selected locales`: a product model is exported if all its products are complete for the selected channel on all selected locales.
 
 ### Filter on date
 
 You can now export your products based on a specific time condition:
 - `No date condition` (default option): no time condition will be taken into account for your product export
-- `Updated products over the last n days (e.g. 6)`: you only want to export the products that have been updated since the last ‘n’ days
+- `Updated products over the last n days (e.g. 6)`: you only want to export the products that have been updated in the past ‘n’ days
 - `Updated products since this date`: you only want to export the products that have been updated since a specific date
 - `Updated products since last export`: you only want to export the products that have been updated since the last export
 
-If you select `Updated products over the last n days (e.g. 6)`, a field will be displayed nearby the drop down menu. Specify a number of days (please only use numbers) in this field.
+If you select `Updated products over the last n days (e.g. 6)`, a field will be displayed near the drop-down menu. You can use it to specify a number of days (please only use numbers).
 
-If you select `Updated products since this date`, click the empty field to display the date picker and choose a date. To change the date, click again on the date picker. To completely remove a date, select another time condition.
+If you select `Updated products since this date`, click on the empty field to display the date picker and choose a date. To change the date, click again on the date picker. To completely remove a date, select another time condition.
 
 ::: tips
-Save export time and used this filter to only export edited products
+Save export time and use this filter to only export edited products
 :::
 
 ### Filter on categories
 
 In the export builder, you can also select the category(ies) of the tree you want to export.
 
-For example, you want to export the clothing products (categories `Clothing` in the tree) to mass update families because they have been refined and new families have been created for clothing.
+For example, you want to export the clothing products (category `Clothing` in the tree) to mass update families because they have been refined and new families have been created for clothing.
 
 By default all categories are exported. To select a category, click on the `Edit` button. The categories of the channel tree are displayed:
 
@@ -179,38 +179,38 @@ Clicking on `All products` allows you to export all categories by erasing the ab
 :::
 
 ::: warning
-The category tree available in the export builder, will be the tree linked to the channel selected above. If you want to export products belonging to another category tree, change the channel selected or edit the Channel settings. Check the [Manage your Channels](manage-your-channels.html#mainContent) article for more information about channels.
+The category tree available in the export builder will be the tree linked to the channel selected above. If you want to export products belonging to another category tree, change the selected channel or edit the channel settings. Check the [Manage your Channels](manage-your-channels.html#mainContent) article for more information about channels.
 :::
 
 #### Filter on product identifiers
 
-You can make a selection of identifiers to export by adding them in the `Identifier` field. You can copy and paste a list of identifiers. They must be separated by comma, space or line breaks.
+You can make a selection of the identifiers you want to export by adding them in the `Identifier` field. You can copy and paste a list of identifiers. They must be separated by a comma, a space or line breaks.
 
 ![Filter on product identifiers](../img/Exports-EditContentIdentifiers.png)
 
 ::: info
-You can easily copy a list of identifiers from a csv or xlsx file and paste it in the identifier text area.
+You can easily copy a list of identifiers from a .csv or .xlsx file and paste it in the identifier text area.
 :::
 
 ::: info
-You can also ask for a selection of product models. Simply give their codes in the `Identifier` text area.
+You can also ask for a selection of product models. Simply input their codes in the `Identifier` text area.
 :::
 
 #### Filter on attributes
 
-An additional filter `Add attributes` is available on the right side of the page. This drop down menu allows you to add attributes as filters for the export.
+An additional `Add attributes` filter is available on the right side of the page. This drop-down menu allows you to add attributes as filters for the export.
 
 ![Add attributes](../img/Exports_AddAttributes.png)
 
 Select the attributes you’d like to use as filters. Once selected, they will be displayed in the Data filters area, above the identifier field.
 
-For instance, you are working with a German translator, he needs to only work on products that are missing their German descriptions. You can make a filter on the description field saying:
+For instance, you are working with a German translator, he needs to only work on products missing their German descriptions. You can create a filter on the description field saying:
 
-Only export the products having no description for German locale and e-commerce channel.
+Only export the products having no description for the German locale and e-commerce channel.
 
 ![Filter on attributes](../img/Exports_GermanExample.png)
 
-Each attribute comes with a list of operators, for instance for text area fields, you will have the following operators available:
+Each attribute comes with a list of operators, for instance for text area fields, the following operators are available:
 
 ![List of operators](../img/Exports_Operators.png)
 
