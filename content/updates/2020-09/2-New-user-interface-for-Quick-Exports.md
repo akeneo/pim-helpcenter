@@ -1,6 +1,6 @@
 ---
 pim_announcement_img: ./img/Quick-export-new-UI_Export-with-labels.png
-pim_announcement_alt_img: "Quick Export revamped UI"
+pim_announcement_alt_img: "A new user interface for Quick Exports"
 pim_announcement_audience:
 - CE
 - EE
