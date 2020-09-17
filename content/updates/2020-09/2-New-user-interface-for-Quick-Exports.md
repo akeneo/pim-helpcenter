@@ -10,7 +10,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Collaboration, Productivity" available="mid-September" link-to-doc="../articles/quick-export.html"
 :::
 
-For a better user experience, we created a new user interface to make it easier for you to generate a quick export from the product grid. This improvement follows the addition of a new option for all product exports, a new button called  "With labels" (see announcement [here](2020-09.html#export-flat-files-with-labels)).
+For a better user experience, we created a new user interface to make it easier for you to generate a quick export from the product grid. This improvement follows the addition of a new option for all product exports, a new button called  "With labels" (see announcement [here](2020-09.html#display-labels-in-your-product-exports)).
 
 To save you time, the custom choices you make for your XLSX or CSV quick export are saved. So next time you click on `Quick Export`, the last export configuration will be displayed.  
 
