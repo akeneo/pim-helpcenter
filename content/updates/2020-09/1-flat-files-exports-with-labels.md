@@ -6,21 +6,18 @@ pim_announcement_audience:
 - EE
 ---
 
-# Export flat files with labels
+# Display labels instead of codes in your product exports
 ::: meta-data type="New" features="Collaboration, Productivity" available="mid-September" link-to-doc="../articles/exports.html#update-an-export-profile"
 :::
 
-To save you time, it is now possible to export your product data in flat files with labels and without codes.  
-This improvement has been added to both existing features: `Quick export` and `Product export profiles`.  
-You will notice an optional button named `With label`, helping you to export your product data with labels.  
-When activated, the **headers** (properties & attributes) and the **values** in your exported flat file will be displayed in the locale you will choose instead of displaying their codes.
+To save time and improve the reading of exported files, we added an option in our XLSX and CSV export functionalities to display attribute labels instead of codes in the exported files.
+Under your product export profiles and also in the quick export, you will see a new button called `With labels`. If enabled, this button will allow you to export labels for your product data. You can choose to display **readable column's headers** instead of attribute and property codes. In the file's content, you can now display the **attribute values** in a chosen locale instead of their codes.
 
 For instance, if you have a multi-select attribute named `TS_STYLE032`, it will be exported as a label, `Tee-shirt style 032`.
 Same thing with the values of this attribute `T_NECK` and `L_SLEEVES` would be displayed a labels `Turtleneck` and `Long sleeves`.
 
-Please note that this improvement is optional.
+If you prefer to stick with the previous format of the export files, no problem, simply keep the button disabled.
 
-If you choose to export with labels, you won't be able to import your file back into your PIM.
 
 ![New Export Profile option](../img/Product-export-profile.png)
 
