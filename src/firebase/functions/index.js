@@ -18,6 +18,12 @@ exports.announcements = functions.region('us-central1').https.onRequest(async (r
         return;
     }
 
+    if (request.query.pim_version === undefined) {
+        response.status(400).send('Missing "pim_version" query parameter.');
+
+        return;
+    }
+
     const limit = request.query.limit !== undefined && !isNaN(parseInt(request.query.limit)) && parseInt(request.query.limit) < 10 ? parseInt(request.query.limit) : defaultLimit;
 
     // Allow to request on another collection for the tests
@@ -26,9 +32,14 @@ exports.announcements = functions.region('us-central1').https.onRequest(async (r
 
     let query = collection
         .where('editions', 'array-contains', request.query.pim_edition)
-        .orderBy('startDate', 'desc')
+        .where('versions', 'array-contains', request.query.pim_version)
+.orderBy('startDate', 'desc')
         .orderBy('filename', 'asc')
         .limit(limit);
+
+    // if (request.query.pim_edition !== 'Serenity') {
+    //     query.where('versions', 'array-contains', request.query.pim_version);
+    // }
 
         if (request.query.search_after !== undefined) {
             const searchAfterDoc = await collection.doc(request.query.search_after).get();
