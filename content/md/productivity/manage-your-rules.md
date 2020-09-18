@@ -28,10 +28,6 @@ Once your rule is created, the rule edit screen appears. On this screen, you can
 
 This screen is the most important one as this is where you can manage your conditions and actions.
 
-:::warning
-This screen is still under development, mind you! All the filters and actions are not available in the UI yet. Don't worry, you can still use the [import job](manage-your-rules.html#create-rules-via-a-yml-import) to create rules based on filters/actions that you can't find in the UI for now. When the filters/actions are not available, we display a mini-helper to inform you.
-:::
-
 The first thing to do is to filter the products you want to update with this rule. To do so, there are a bunch of filters available under the `Add condition` button.
 
 ### Product selection
@@ -60,26 +56,35 @@ If you want to remove a condition, just click on the cross at the end of the lin
 As you can see on the left side of the `Add condition` button, there is a counter that tells you how many products/product models will be updated by this rule. It means that these conditions will impact X products/product models.
 This count is automatically updated as soon as you change a condition.
 
-#### Available conditions in the UI
+#### Available conditions
 
-You can use the following system fields and attribute types as `conditions` to select your products/product models via the PIM interface:
+To select your products/product models, you can use all the system fields and attribute types of the PIM as `conditions`:
 
 - Categories
-- Completeness
 - Family
+- Family variant
+- Groups
 - Status
+- Entity type (product or product model)
+- Identifier
+- Completeness
+- Parent
 - Creation date
 - Update date
-- Groups
+- Asset collection attribute
+- Date attribute
+- File attribute
+- Image attribute
+- Measurement attribute
 - Multi select attribute
 - Simple select attribute
-- Text attribute
 - Number attribute
+- Text attribute
 - Boolean attribute
 - Text area attribute
 - Reference entity single link & multiple link attributes
-- Date attribute
-- Asset collection attribute
+- Price attribute
+- Reference data simple select & multiple select
 
 ### Add actions
 
@@ -90,39 +95,40 @@ To do so:
 1. Select the action you want to add. There is a search bar and a scroll bar to choose the action from a list.
 1. A new section appears under the `Product selection` part.
 
-:::info
-Just like for the `Product Selection`, all the actions are not available in the UI yet. If you need to apply an action that is not managed for now, you can still import your YML file, and retrieve your rule in the PIM UI.
-:::
-
 Here is the [list of all the actions](get-started-with-the-rules-engine.html) you can do with the rules engine if you use the YML file import.
 
 Depending on the action you choose, the template changes. The table below lists all the actions that you can add via the PIM interface.
 
-#### Available actions in the UI
+#### Available actions
 
 | Set actions  | What they do |
 |---|---|
 | Set categories  | Classify your products/product models in the categories you choose, and **remove** them from their former categories.  |
 | Set family  | Replace your products/product models family |
-| Set attribute value  | Set values to a multi select, simple select, number, text, textarea, date, price collection, asset collection or boolean attribute. It will replace the former values |
+| Set attribute value  | Set values to any attribute type. It will replace the former values |
 | Set groups  | Set groups to your product selection (product models don't have groups)  |
+| Set associations  | Set associations to your product/product model selection (you will be able to choose the association type and the entity you want to associate : products, product models or groups)  |
+| Set quantified associations  | Set quantified associations to your product/product model selection (you will be able to choose the association type and the entity you want to associate : products, product models or groups, and the quantity for each)|
+| Set status  | Set a status to your product/product model selection  |
 
 | Add actions     | What they do |
 |---|---|
 | Add categories  | Classify your products/product models in new categories, **without removing** them from their former categories.  |
 | Add groups  | Add groups to your product selection (product models don't have groups)  |
 | Add attribute value  | Add values to a multi select, a price collection, a reference entity multiple link or an asset collection attribute. It will keep the former values |
+| Add associations  | Add associations to your product/product model selection (you will be able to choose the association type and the entity you want to associate : products, product models or groups)  |
 
 | Remove actions  | What they do |
 |---|---|
 | Remove categories  | Unclassify your product/product model selection from the chosen categories |
-| Remove groups  | Remove groups from your product selection (product models don't have groups)  |
+| Remove products from groups  | Remove your product selection from groups (product models don't have groups)  |
 | Remove attribute values  | Remove values from a multi select, a reference entity multiple link or an asset collection attribute  |
 
 | Clear actions   | What they do |
 |---|---|
 | Clear attribute value  | Delete values from an attribute on your product/product models selection  |
 | Clear associations  | Delete all the associations of your product/product models selection  |
+| Clear quantified associations  | Delete all the quantifies associations of your product selection  |
 | Clear groups  | Delete all the groups of your product selection (product models don't have groups) |
 | Clear categories  | Unclassify your product/product model selection from every category |
 
@@ -130,38 +136,14 @@ Depending on the action you choose, the template changes. The table below lists 
 |---|---|
 | Copy attribute value  | Copy the value from an attribute to another one  |
 
+| Calculate action     | What it does |
+|---|---|
+| Calculate attribute value  | Calculate numeric attribute values, with simple mathematical operations  |
 
-## Different use cases
-As explained earlier, some conditions/actions are not available in the UI yet. It means that you are not able to build all the rules you want via the PIM, and you may need to use the YML file import to do so. Let's see what happens in the following scenarios.
+| Concatenate action     | What it does |
+|---|---|
+| Concatenate attribute value  | Concatenate at least two values into a single value. You can use this action to create a description for instance, using free text fields, attribute fields and line breaks. |
 
-### All the conditions/actions you need are available in the UI
-The conditions/actions that are available right now cover 80% of our clients use cases. It means that 80% of our clients' rules can be managed directly in the UI.
-For example, you can **categorize** all the products/product models that are in the **"accessories" family**, and which have an empty `marketing_description` attribute in the `en_US` locale and `ecommerce` channel.
-To do so, you must add two conditions. One on `family`, and another one on the `marketing_description` attribute.
-Then, add the `Set category` action, and choose the category tree and the category.
-
-![image](../img/Rules_UsecaseFullUI.png)
-
-### Some conditions/actions are missing in the UI for now
-If you need to build a rule using filters/actions that are not available in the UI yet, you must use the YML file import to create the rule. Then, when you import this file, your rule appears in the rules grid. You can open it and from the UI, you will be able to edit the conditions/actions that were available but not the ones you just added via your YML import.
-Let's see how it is displayed in the UI after a YML import.
-
-#### If your condition is not available in the UI yet
-If your conditions are composed of system fields (for instance: `status`) or attribute types (for instance: `asset collection`) that we don't manage in the UI, these conditions will be displayed in a read only mode.
-
-![image](../img/Rules_UsecaseConditionsYML.png)
-
-#### If your action is not available in the UI yet
-The action will be displayed in a read only mode.
-
-![image](../img/Rules_UsecaseActionYML.png)
-
-#### If in the UI, your action is available but the attribute used in this action isn't
-If your action is composed of system fields or attribute types that we don't manage in the UI for now, these actions will be displayed in a read only mode.
-
-For example, you needed to use a `set attribute value` action (already available), and a target attribute that is not supported yet such as a `boolean`. Therefore you previously imported your rule via YML.
-
-![image](../img/Rules_UsecaseAttributeNotManaged.png)
 
 # Create rules via a YML import
 To create rules using a YML file, you need to [create](get-started-with-the-rules-engine.html) it and import it in the PIM using the `Rule import in YML` import job.
@@ -183,6 +165,8 @@ You can search on the rule code or label.
 ![image](../img/Settings_Rules.png)
 
 In the last column, there is a tag. Thanks to these tags, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) :wink:
+
+You can order your rules by priority.
 
 # Calculate the number of impacted products per rule
 
@@ -235,6 +219,7 @@ A confirmation message validates the action of executing a rule.
 
 ![image](../img/Rules_Execute.png)
 
+If you are editing/creating a rule in the rule edit form, you can execute it as well, clicking on `...` then `save and execute`.
 
 ## Execute a selection of rules
 
@@ -245,6 +230,22 @@ You can also execute several rules at the same time:
 1.  A flash message confirming the action will be displayed and you will be notified once the execution is done
 
 ![image](../img/Rules_BulkExecution.png)
+
+# Duplicate a rule
+
+To duplicate a rule, just access the edit form of the rule you want to duplicate, then click on `...` and `Save and execute`. The creation popin opens and you can choose a code and a label for your new rule.
+
+# Define a status to a rule
+
+Sometimes, you may need to create/update a rule, save it, but ***not*** execute it automatically, because you have to refine it for instance. To do so, you can use the `Status` property.
+
+To enable/disable a rule, access the `Property` tab in the rule edit form.
+
+You can see at a glance the status of each rule in the rules grid. 
+
+:::info
+By default, each new rule you create via the UI is disabled.
+:::
 
 # Delete rules
 
