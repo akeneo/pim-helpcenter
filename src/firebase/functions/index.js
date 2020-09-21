@@ -30,16 +30,13 @@ exports.announcements = functions.region('us-central1').https.onRequest(async (r
     const collectionName = request.query.collection_name_suffix === undefined ? defaultCollectionName : defaultCollectionName + request.query.collection_name_suffix;
     const collection = admin.firestore().collection(collectionName);
 
+    const audience = request.query.pim_edition === 'Serenity' ? request.query.pim_edition : request.query.pim_edition + '-' + request.query.pim_version;
+
     let query = collection
-        .where('editions', 'array-contains', request.query.pim_edition)
-        .where('versions', 'array-contains', request.query.pim_version)
+        .where('audience', 'array-contains', audience)
 .orderBy('startDate', 'desc')
         .orderBy('filename', 'asc')
         .limit(limit);
-
-    // if (request.query.pim_edition !== 'Serenity') {
-    //     query.where('versions', 'array-contains', request.query.pim_version);
-    // }
 
         if (request.query.search_after !== undefined) {
             const searchAfterDoc = await collection.doc(request.query.search_after).get();
@@ -92,6 +89,12 @@ exports.new_announcements = functions.region('us-central1').https.onRequest(asyn
         return;
     }
 
+    if (request.query.pim_version === undefined) {
+        response.status(400).send('Missing "pim_version" query parameter.');
+
+        return;
+    }
+
     // Allow to request on another collection for the tests
     const collectionName = request.query.collection_name_suffix === undefined ? defaultCollectionName : defaultCollectionName + request.query.collection_name_suffix;
     const collection = admin.firestore().collection(collectionName);
@@ -102,8 +105,10 @@ exports.new_announcements = functions.region('us-central1').https.onRequest(asyn
     const day = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(currentDate);
     const formattedCurrentDate = year + '-' + month + '-' + day;
 
+    const audience = request.query.pim_edition === 'Serenity' ? request.query.pim_edition : request.query.pim_edition + '-' + request.query.pim_version;
+
     collection
-        .where('editions', 'array-contains', request.query.pim_edition)
+        .where('audience', 'array-contains', audience)
         .where('notificationEndDate', '>=', formattedCurrentDate)
         .limit(1)
         .get()

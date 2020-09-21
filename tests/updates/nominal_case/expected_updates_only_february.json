@@ -18,7 +18,7 @@
   "description": "Whenever one of your connectors is not using the dedicated connection username, we display a warning message in the main Connections screen as well as in the Connection form.     \nThis warning message mentions which usernames were wrongly used for this connection and when they were used for the last time.    \nThanks to this improvement, we ensure the API connection security and accesses.",
   "img": null,
   "imgAlt": null,
-  "audience": ["CE", "Serenity"],
+  "audience": ["CE-master", "Serenity"],
   "filename": "2-new-warning-message-username-connection.md",
   "notificationEndDate": "2020-03-12",
   "tags": ["updates"],

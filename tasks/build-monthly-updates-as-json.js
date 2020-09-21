@@ -223,7 +223,16 @@ function getBase64Content(file, imageRelativePath) {
  */
 function getAudience(editions) {
     return editions.map(edition => {
-        return edition === 'EE' ? 'Serenity' : edition;
+        switch (edition) {
+            case 'EE':
+                return 'Serenity';
+                break;
+            case 'CE':
+                return 'CE-master';
+                break;
+            default:
+                throw new Error('Edition is not supported.');
+        }
     });
 }
 
