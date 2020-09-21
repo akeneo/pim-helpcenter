@@ -1,19 +1,24 @@
 {{!-- The index of the versions page --}}
-{{#> layout title="Discover our versions!"}}
+{{#> layout title="Discover our PIM versions!"}}
 {{> navbar-only-logo }}
+{{> whats-new-button}}
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Everything you need to know about our versions</p>
-                <h1>Everything you need to know about our versions</h1>
-                <p>Ranked from the most recent to the oldest</p>
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Everything you need to know about our PIM versions</p>
+                <h1>Everything you need to know about our PIM versions</h1>
+                <p>Here you'll find everything you may want to know about your PIM version. <em>Is it still supported by our teams? Where can you find the documentation? What are the new features of your version ? To which version should you migrate?</em></p>
+                <p>In this page, you can also discover what are our latest versions and the scope of new features they introduce.</p>
+                <h3>Easily jump to your PIM version</h3>
+                <a href="#serenity" class="btn btn-primary btn-sm btn-ghost" style="margin-bottom: 5px; margin-right: 5px;">Serenity</a>{{#each versions as |version id|}}<a href="#{{code}}" class="btn btn-primary btn-sm btn-ghost" style="margin-bottom: 5px; margin-right: 5px;">{{label}}</a>{{/each}}
+                <p class="small"><em>Versions are ranked from the latest to the oldest. Don't hesitate to migrate to newer versions to benefit from great new features!</em></p>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row row-version row-serenity-version">
+            <a class="anchor" id="serenity"></a>
             <div class="hidden-xs col-sm-3 col-md-2">
-                <a class="anchor" id="serenity"></a>
                 <h2 class="text-right">Serenity</h2>
                 <p class="text-right">
                     <span class="label label-primary">Cloud version</span>
@@ -21,10 +26,9 @@
                 </p>
                 <p class="small text-right"><em>Available for Enterprise customers only</em></p>
             </div>
-            <div class="visible-xs">
-                <a class="anchor" id="serenity"></a>
-                <h2 class="text-right">Serenity</h2>
-                <p class="text-right">
+            <div class="visible-xs col-xs-12">
+                <h2>Serenity</h2>
+                <p>
                     <span class="label label-primary">Cloud version</span>
                     <span class="label label-success">Supported</span>
                     | <em class="small">Available for Enterprise customers only</em>
@@ -87,8 +91,8 @@
         </div>
         {{#each versions as |version id|}}
             <div class="row row-version">
+                <a class="anchor" id="{{code}}"></a>
                 <div class="hidden-xs col-sm-3 col-md-2">
-                    <a class="anchor" id="{{code}}"></a>
                     <h2 class="text-right">v{{label}}</h2>
                     <p class="text-right">
                         {{#if @first}}<span class="label label-primary">Latest GA</span>{{/if}}
@@ -98,14 +102,13 @@
                     <p class="text-right">{{releaseDateShortLabel}} -<br>{{supportEndDateShortLabel}}</p>
                     <p class="small text-right"><em>Available for both Community and Enterprise customers</em></p>
                 </div>
-                <div class="visible-xs">
-                    <a class="anchor" id="{{code}}"></a>
+                <div class="visible-xs col-xs-12">
                     <h2>v{{label}}</h2>
                     <p>
                         {{#if @first}}<span class="label label-primary">Latest GA</span>{{/if}}
                         {{#if isSupported}}<span class="label label-success">Supported</span>
                         {{else}}<span class="label label-danger">Not supported</span>{{/if}}
-                         | {{releaseDateShortLabel}} - {{supportEndDateShortLabel}} | <em class="small">Available for both Community and Enterprise customers</em>
+                         {{releaseDateShortLabel}} - {{supportEndDateShortLabel}}<br><em class="small">Available for both Community and Enterprise customers</em>
                     </p>
                 </div>
                 <div class="col-version col-xs-12 col-sm-9 col-md-10">
