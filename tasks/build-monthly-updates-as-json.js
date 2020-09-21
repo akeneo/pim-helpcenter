@@ -177,7 +177,7 @@ function generateJson() {
 
         const data = {...defaultValues, ...file.fm };
         const imgContent = getBase64Content(file, data['pim_announcement_img']);
-        const editions = transformToPimEditions(data['pim_announcement_audience']);
+        const audience = getAudience(data['pim_announcement_audience']);
 
         let content = JSON.stringify({
             'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
@@ -186,7 +186,7 @@ function generateJson() {
             'description': file.description,
             'img': imgContent,
             'imgAlt': data['pim_announcement_alt_img'],
-            'editions': editions,
+            'audience': audience,
             'filename': path.basename(file.path),
             'notificationEndDate': notificationEndDate,
             'tags': ['updates'],
@@ -221,9 +221,18 @@ function getBase64Content(file, imageRelativePath) {
  *
  * @param editions
  */
-function transformToPimEditions(editions) {
+function getAudience(editions) {
     return editions.map(edition => {
-        return edition === 'EE' ? 'Serenity' : edition;
+        switch (edition) {
+            case 'EE':
+                return 'Serenity';
+                break;
+            case 'CE':
+                return 'CE-master';
+                break;
+            default:
+                throw new Error('Edition is not supported.');
+        }
     });
 }
 
