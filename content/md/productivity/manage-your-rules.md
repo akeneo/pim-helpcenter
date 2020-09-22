@@ -128,7 +128,7 @@ Depending on the action you choose, the template changes. The table below lists 
 |---|---|
 | Clear attribute value  | Delete values from an attribute on your product/product models selection  |
 | Clear associations  | Delete all the associations of your product/product models selection  |
-| Clear quantified associations  | Delete all the quantifies associations of your product selection  |
+| Clear quantified associations  | Delete all the quantified associations of your product selection  |
 | Clear groups  | Delete all the groups of your product selection (product models don't have groups) |
 | Clear categories  | Unclassify your product/product model selection from every category |
 
