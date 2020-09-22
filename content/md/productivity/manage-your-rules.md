@@ -235,7 +235,7 @@ You can also execute several rules at the same time:
 
 To duplicate a rule, just access the edit form of the rule you want to duplicate, then click on `...` and `Duplicate`. The creation popin opens and you can choose a code and a label for your new rule.
 
-# Define a status to a rule
+# Define a status for a rule
 
 Sometimes, you may need to create/update a rule, save it, but ***not*** execute it automatically, because you have to refine it for instance. To do so, you can use the `Status` property.
 
