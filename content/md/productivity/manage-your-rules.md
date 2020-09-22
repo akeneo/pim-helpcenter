@@ -239,7 +239,9 @@ To duplicate a rule, just access the edit form of the rule you want to duplicate
 
 Sometimes, you may need to create/update a rule, save it, but ***not*** execute it automatically, because you will need to finetune it later for instance. To do so, you can use the `Status` property.
 
-To enable/disable a rule, access the `Property` tab in the rule edit form.
+To change the status, two possibilities:
+- either in the rule edit form, in the `properties` tab.
+- or directly in the rules grid, clicking on the toggle icon that appears when hovering over the rule's line.
 
 You can see at a glance the status of each rule in the rules grid.
 
