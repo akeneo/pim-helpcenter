@@ -233,7 +233,7 @@ You can also execute several rules at the same time:
 
 # Duplicate a rule
 
-To duplicate a rule, just access the edit form of the rule you want to duplicate, then click on `...` and `Save and execute`. The creation popin opens and you can choose a code and a label for your new rule.
+To duplicate a rule, just access the edit form of the rule you want to duplicate, then click on `...` and `Duplicate`. The creation popin opens and you can choose a code and a label for your new rule.
 
 # Define a status to a rule
 
