@@ -9,9 +9,8 @@ pim_announcement_audience:
 
 In order to avoid re-writing the whole rule, you are now able to duplicate it in two clicks! Indeed, sometimes, you may have very similar rules with only one condition that is different, for instance. What a time saver, isn't it? :wink:
 
-
 # Define a status for your rules
-::: meta-data type="New" features="Rules engine, Productivity" available="mid-August" link-to-doc="../articles/manage-your-rules.html#define-a-status-for-a-rule"
+::: meta-data type="New" features="Rules engine, Productivity" available="late September" link-to-doc="../articles/manage-your-rules.html#define-a-status-for-a-rule"
 :::
 
 This new status enables you to activate or deactivate your rules.
