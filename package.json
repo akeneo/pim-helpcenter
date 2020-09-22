@@ -33,7 +33,7 @@
     "gulp-tap": "1.0.1",
     "gulp-util": "3.0.8",
     "gulp-webserver": "0.9.1",
-    "handlebars": "4.3.0",
+    "handlebars": "4.5.3",
     "highlightjs": "9.10.0",
     "jest-cli": "^26.0.1",
     "markdown-it": "8.2.2",
