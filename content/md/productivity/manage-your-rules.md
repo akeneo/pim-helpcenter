@@ -237,7 +237,7 @@ To duplicate a rule, just access the edit form of the rule you want to duplicate
 
 # Define a status for a rule
 
-Sometimes, you may need to create/update a rule, save it, but ***not*** execute it automatically, because you have to refine it for instance. To do so, you can use the `Status` property.
+Sometimes, you may need to create/update a rule, save it, but ***not*** execute it automatically, because you will need to finetune it later for instance. To do so, you can use the `Status` property.
 
 To enable/disable a rule, access the `Property` tab in the rule edit form.
 
