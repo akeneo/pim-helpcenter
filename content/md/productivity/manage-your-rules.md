@@ -107,7 +107,7 @@ Depending on the action you choose, the template changes. The table below lists 
 | Set family  | Replace your products/product models family |
 | Set attribute value  | Set values to any attribute type. It will replace the former values |
 | Set groups  | Set groups to your product selection (product models don't have groups)  |
-| Set associations  | Set associations to your product/product model selection (you will be able to choose the association type and the entity you want to associate : products, product models or groups)  |
+| Set associations  | Set associations to your product/product model selection (you will be able to choose the association type and the entity you want to associate: products, product models or groups)  |
 | Set quantified associations  | Set quantified associations to your product/product model selection (you will be able to choose the association type and the entity you want to associate : products, product models or groups, and the quantity for each)|
 | Set status  | Set a status to your product/product model selection  |
 
