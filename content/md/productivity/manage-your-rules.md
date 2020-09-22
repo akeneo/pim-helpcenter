@@ -109,7 +109,7 @@ Depending on the action you choose, the template changes. The table below lists 
 | Set groups  | Set groups to your product selection (product models don't have groups)  |
 | Set associations  | Set associations to your product/product model selection (you will be able to choose the association type and the entity you want to associate: products, product models or groups)  |
 | Set quantified associations  | Set quantified associations to your product/product model selection (you will be able to choose the association type and the entity you want to associate: products, product models or groups, and finally, their quantity)|
-| Set status  | Set a status to your product/product model selection  |
+| Set status  | Set a status to your product selection  |
 
 | Add actions     | What they do |
 |---|---|
@@ -241,7 +241,7 @@ Sometimes, you may need to create/update a rule, save it, but ***not*** execute 
 
 To enable/disable a rule, access the `Property` tab in the rule edit form.
 
-You can see at a glance the status of each rule in the rules grid. 
+You can see at a glance the status of each rule in the rules grid.
 
 :::info
 By default, each new rule you create via the UI is disabled.
