@@ -116,7 +116,7 @@ Depending on the action you choose, the template changes. The table below lists 
 | Add categories  | Classify your products/product models in new categories, **without removing** them from their former categories.  |
 | Add groups  | Add groups to your product selection (product models don't have groups)  |
 | Add attribute value  | Add values to a multi select, a price collection, a reference entity multiple link or an asset collection attribute. It will keep the former values |
-| Add associations  | Add associations to your product/product model selection (you will be able to choose the association type and the entity you want to associate : products, product models or groups)  |
+| Add associations  | Add associations to your product/product model selection (you will be able to choose the association type and the entity you want to associate: products, product models or groups)  |
 
 | Remove actions  | What they do |
 |---|---|
