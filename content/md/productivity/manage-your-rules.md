@@ -219,7 +219,7 @@ A confirmation message validates the action of executing a rule.
 
 ![image](../img/Rules_Execute.png)
 
-If you are editing/creating a rule in the rule edit form, you can execute it as well, clicking on `...` then `save and execute`.
+If you are editing/creating a rule in the rule edit form, you can execute it as well, just click on `...` then `Save and execute`.
 
 ## Execute a selection of rules
 
