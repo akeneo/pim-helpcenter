@@ -3,13 +3,17 @@ pim_announcement_audience:
 - EE
 ---
 
-# Duplicate your rules
+# Be more and more productive when using rules
+
+Two new improvements will help you be more and more productive when using the rules engine: you can now duplicate your rules and define a status for them!
+
+## Duplicate your rules
 ::: meta-data type="New" features="Rules engine, Productivity" available="late September" link-to-doc="../articles/manage-your-rules.html#duplicate-a-rule"
 :::
 
 In order to avoid re-writing the whole rule, you are now able to duplicate it in two clicks! Indeed, sometimes, you may have very similar rules with only one condition that is different, for instance. What a time saver, isn't it? :wink:
 
-# Define a status for your rules
+## Define a status for your rules
 ::: meta-data type="New" features="Rules engine, Productivity" available="late September" link-to-doc="../articles/manage-your-rules.html#define-a-status-for-a-rule"
 :::
 
