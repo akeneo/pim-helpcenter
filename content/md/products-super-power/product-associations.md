@@ -74,7 +74,7 @@ A product can also be associated to a [product model](what-about-products-varian
 
 ## B: add associations to a product using an association type with quantities
 
-1.  Create a product model that will be the base of your product set
+1.  We strongly recommend to **create a product model** that will be the base of your product set (please read our [product model](create-a-product.html#create-a-product-model) documentation to know how to create it.)
 1.  Open the product form
 1.  Click on the `Associations` tab
 1.  Select the association type with quantities you created (please read our [Association Types](manage-your-association-types.html#create-an-association-type-with-quantities) documentation for more information.)
