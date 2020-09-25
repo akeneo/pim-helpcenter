@@ -49,6 +49,33 @@ If no label is set, the rule code will appear into brackets [ ] in the PIM user 
 
 You will also be able to search on your rule labels under `Settings`/`Rules`.
 
+# Define a status for your rule
+
+Thanks to the status, you can define if the rule must be automatically executed or not.  
+A status can be defined with the `enabled` key. When the value is `false`, the rule cannot be executed from cronjob or manually.  
+In the rule import, this key is **not mandatory**. If it's not specified, the rule is **enabled**, set to `true`, by default.  
+To define the rule status, please follow this format:
+
+```YML
+  camera_copy_name_to_model:
+        priority: 0
+        enabled: true
+        conditions:
+            - field: family
+              operator: IN
+              value:
+                - camcorders
+            - field: camera_model_name
+              operator: EMPTY
+        actions:
+            - type: copy
+              from_field: name
+              to_field: camera_model_name
+        labels:
+            en_US: 'Copy name to model'
+            fr_FR: 'Copie nom vers modèle'
+```
+
 # Available actions
 
 As of today, 7 actions are available in the rules engine:
@@ -1057,6 +1084,8 @@ To do so, follow these steps:
 
 ```YML
 my_rule:
+  priority: 90
+  enabled: true
   conditions:
     - field: basic_price
       operator: NOT EMPTY
@@ -1067,6 +1096,9 @@ my_rule:
     - field: ecommerce_ready
       value: true
       type: set
+  labels:
+      en_US: 'Set ecommerce_ready'
+      fr_FR: 'Définir ecommerce_ready'
 ```
 
 And finally, import your YML file using the Akeneo rules import job.
