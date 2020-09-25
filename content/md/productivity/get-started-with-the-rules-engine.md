@@ -51,10 +51,9 @@ You will also be able to search on your rule labels under `Settings`/`Rules`.
 
 # Define a status for your rule
 
-Thanks to the status, you can define if the rule must be automatically executed or not.
-A status can be defined through the `enabled` key. When the value is `false` the rule cannot be executed neither from cronjob nor manually.
-In the rule import this key is **not mandatory**, the rule is **enabled** by default if it's not specified.
-
+Thanks to the status, you can define if the rule must be automatically executed or not.  
+A status can be defined with the `enabled` key. When the value is `false`, the rule cannot be executed from cronjob or manually.  
+In the rule import, this key is **not mandatory**. If it's not specified, the rule is **enabled**, set to `true`, by default.
 To define the rule status, please follow this format:
 
 ```YML
