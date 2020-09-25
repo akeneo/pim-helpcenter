@@ -9,11 +9,15 @@ related: what-about-products-variants, manage-your-families, create-a-product, w
 
 # Display products with variants
 
-Products with variants are displayed in the grid, they can be managed and enriched in the same way as other products.
+Products with variants are displayed in the grid, they can be managed and enriched in the same way as other products.  
 
-By default, the [product model](what-about-products-variants.html#what-is-a-product-model) is displayed in the grid.
+Thanks to the `variant` display option, you can choose how your product models/variant products appear in the product grid. You have two options: `variant: grouped` and `variant: ungrouped`.  
 
-![Grid with product models](../img/Products_ProductModel_grid.png)
+When selecting `grouped`, [product models](what-about-products-variants.html#what-is-a-product-model) and simple products are displayed in the grid.  
+
+When selecting `ungrouped`, variant products and simple products are displayed in the grid. This view can be very useful to mass edit products, as you can directly select the variant products you need to work on.
+
+![Variant display option](../img/Products_VariantDisplay.png)
 
 ::: tips
 To recognize a product model in the grid, it's displayed with a pile of pictures which means that some variant products are behind this model.
