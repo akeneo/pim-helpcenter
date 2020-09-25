@@ -44,6 +44,10 @@ It can be very useful if you have to mass edit different variant products in dif
 You can combine this `product typology` filter with the `Variant: Grouped` display option of the grid.  
 Let's take an example: you need to work on **variant products only** (not simple products, not product models). You can easily display them by using the `product typology` filter (filtering on `Variant`) plus by setting the `Variant` display option to `Ungrouped`.
 
+## Filter on the identifier
+
+You can filter your products/product models on their **identifier**. This filter enables you to easily and quickly search for several product models for instance. 
+
 ## Filter on your attributes
 
 To easily manage up to 3 levels of enrichment for the products with variants, we added a **smart** search in the grid to automatically display what you are looking for. Either a [product model](what-about-products-variants.html#what-is-a-product-model), or a product.
