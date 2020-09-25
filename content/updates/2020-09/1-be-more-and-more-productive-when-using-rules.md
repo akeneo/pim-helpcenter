@@ -1,4 +1,6 @@
 ---
+pim_announcement_img: ./img/Rules_grid.png
+pim_announcement_alt_img: "The new rules grid"
 pim_announcement_audience:
 - EE
 ---
@@ -13,13 +15,17 @@ Two new improvements will help you be more and more productive when using the ru
 
 In order to avoid re-writing the whole rule, you are now able to duplicate it in two clicks! Indeed, sometimes, you may have very similar rules with only one condition that is different, for instance. What a time saver, isn't it? :wink:
 
+![Duplicate your rule](../img/Rules_Duplicate.png)
+
 ## Define a status for your rules
 ::: meta-data type="New" features="Rules engine, Productivity" available="late September" link-to-doc="../articles/manage-your-rules.html#define-a-status-for-a-rule"
 :::
 
-This new status enables you to activate or deactivate your rules.
-For example, if the creation/edition of the rule is not finished yet, setting its status to "disabled" will pause the automatic execution of the rule.
+This new status enables you to activate or deactivate your rules.  
+For example, if the creation/edition of the rule is not finished yet, setting its status to "disabled" will pause the automatic execution of the rule.  
 Once the rule is ready, you just have to enable it to let it be executed!
+
+![Define a status for your rules](../img/Rules_Status.png)
 
 ::: more
 [How to manage my rules?](../articles/manage-your-rules.html)  
