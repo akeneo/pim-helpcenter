@@ -36,6 +36,14 @@ If the background of the `Variant products` is:
 
 # Search for products with variants
 
+## Filter on product typology
+
+You can filter on `product typology` in order to display only the simple products or only the variant products in the grid.  
+It can be very useful if you have to mass edit different variant products in different product models, for instance.
+
+You can combine this `product typology` filter with the `Variant: Grouped` display option of the grid.  
+Let's take an example: you need to work on **variant products only** (not simple products, not product models). You can easily display them by using the `product typology` filter (filtering on `Variant`) plus by setting the `Variant` display option to `Ungrouped`.
+
 ## Filter on your attributes
 
 To easily manage up to 3 levels of enrichment for the products with variants, we added a **smart** search in the grid to automatically display what you are looking for. Either a [product model](what-about-products-variants.html#what-is-a-product-model), or a product.
@@ -61,9 +69,6 @@ So in our example, you keep the filter on the `color` attribute with the `red` o
 
 ![Search results with color red and size S](../img/Products_ProductModel_Search3.png)
 
-:::tips
-If you would like to display only products in the grid, you just have to filter on an attribute that is always at the product level, whatever the [family variant](what-about-products-variants.html#what-is-a-family-variant), for example the identifier ("SKU").
-:::
 
 ## Filter on the categories
 
