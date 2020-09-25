@@ -84,7 +84,6 @@ To select your products/product models, you can use all the system fields and at
 - Text area attribute
 - Reference entity single link & multiple link attributes
 - Price attribute
-- Reference data simple select & multiple select
 
 ### Add actions
 
@@ -231,17 +230,11 @@ You can also execute several rules at the same time:
 
 ![image](../img/Rules_BulkExecution.png)
 
-# Duplicate a rule
-
-To duplicate a rule, just access the edit form of the rule you want to duplicate, then click on `...` and `Duplicate`. The creation popin opens and you can choose a code and a label for your new rule.
-
 # Define a status for a rule
 
 Sometimes, you may need to create/update a rule, save it, but ***not*** execute it automatically, because you will need to finetune it later for instance. To do so, you can use the `Status` property.
 
-To change the status, two possibilities:
-- either in the rule edit form, in the `properties` tab.
-- or directly in the rules grid, clicking on the toggle icon that appears when hovering over the rule's line.
+To change the status, just click on the `Properties` tab of a rule and choose between `Enabled` or `Disabled`.
 
 You can see at a glance the status of each rule in the rules grid.
 
