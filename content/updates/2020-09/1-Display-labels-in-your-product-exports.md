@@ -10,7 +10,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Collaboration, Productivity" available="mid-September" link-to-doc="../articles/exports.html#update-an-export-profile"
 :::
 
-To save time and improve the reading of exported files, we added an option in our XLSX and CSV export functionalities to display attribute labels instead of codes in the exported files. Under your product export profiles and also in the quick export, you now see a new button called `With labels`. If enabled, this button will allow you to export labels for your product data. You can choose to display **readable column's headers** instead of attribute and property codes. In the file's content, you can now display the **attribute values** in a chosen locale instead of their codes.  
+To save time and improve the reading of exported files, we added an **option in our XLSX and CSV export functionalities to display attribute labels instead of codes in the export files**. Under your product export profiles and also in the quick export, there is now a new button called `With labels`. If enabled, this button will allow you to export product data labels (e.g. attribute labels and values, etc.). This will apply to the **column's headers and file's content**, so instead of displaying attribute and property codes in your files, you can choose to display **attribute values** to make your file more readable if you need to share it with one of your colleague. For the export files, you can even choose to display the content in a specific locale.  
 ![New Export Profile option](../img/Product-export-profile.png)
 
 For instance, if you have a multi-select attribute named `TS_STYLE032`, it will be exported as a label, `Tee-shirt style 032`.
