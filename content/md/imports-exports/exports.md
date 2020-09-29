@@ -78,22 +78,22 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 
 | Property            | Details   |
 |:--------------------|:----------|
-| File path       | Defines where to generate the exported file _(not available in Serenity offer)_ |
+| File path       | Defines where to export the generated file _(not available in Serenity offer)_ |
 | Decimal separator  | Defines the character used as decimal separator in the exported file |
 | Date format        | Defines the format used for dates in the exported file |
 | Delimiter     | Defines the character to delimit the fields in the CSV file _(not available in Serenity offer)_ |
 | Enclosure   | Defines the character for the field enclosure in the CSV file _(not available in Serenity offer)_ |
 | Number of lines per file | Defines the limit number of lines per file for XSLX export |
 | With header             | Defines if the first line of the exported file contains the columns names |
-| Export files and images | Disable the media archiving of images, images will not be exported in the file and the image column will not be present in the export |
+| Export files and images | Disables the media archiving of images, images will not be exported in the file and the image column will not be visible in the export |
 | Export with labels       | Defines if the export file displays values' labels instead of values' codes |
-| Headers with labels       | Defines if the export file displays headers' labels instead of headers' codes* |
-| File locale       | Defines the locale in which labels are displayed* |
+| Headers with labels*      | Defines if the export file displays headers' labels instead of headers' codes |
+| File locale*      | Defines the locale in which labels are displayed* |
 
 *Only visible if the option `Export with labels` has been activated.
 
 ::: warning
-Once you export your file with labels, it is no longer possible to import it back in the PIM.
+If you export a file with labels and not codes you won't be able to re-upload it in the PIM afterwards.
 :::
 
 In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which products or published products data you want to export. To find out more about this feature called `Product export builder`, take a look at this article about [Product Export Builder](product-export-builder.html).
