@@ -9,7 +9,7 @@ pim_announcement_audience:
 
 Two new improvements will help you be more and more productive when using the rules engine: you can now duplicate your rules and define a status for them!
 
-## Duplicate your rules
+## Quickly duplicate your rules
 ::: meta-data type="New" features="Rules engine, Productivity" available="late September" link-to-doc="../articles/manage-your-rules.html#duplicate-a-rule"
 :::
 
@@ -21,7 +21,7 @@ In order to avoid re-writing the whole rule, you are now able to duplicate it in
 ::: meta-data type="New" features="Rules engine, Productivity" available="late September" link-to-doc="../articles/manage-your-rules.html#define-a-status-for-a-rule"
 :::
 
-This new status enables you to activate or deactivate your rules.  
+We introduced a new property for rules: an enabled/disabled status. This new status allows you to easily activate or deactivate your rules.  
 For example, if the creation/edition of the rule is not finished yet, setting its status to "disabled" will pause the automatic execution of the rule.  
 Once the rule is ready, you just have to enable it to let it be executed!
 
