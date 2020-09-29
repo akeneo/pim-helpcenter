@@ -3,13 +3,13 @@ pim_announcement_audience:
 - EE
 ---
 
-# The Rules Builder 100% complete!
+# The rules engine user interface 100% complete!
 ::: meta-data type="New" features="Rules engine, Productivity" available="late September" link-to-doc="../articles/manage-your-rules.html#the-rule-builder-tab"
 :::
 
-You can now **entirely** create your rules from our PIM interface. Indeed, the rules builder has been updated with all the actions and conditions available to build a rule.
+The Rules Builder is now compatible with all the rules engine's conditions and actions, so you can now **entirely** create your rules from your PIM user interface. 
 
-It means that you don't need to use your old YAML files anymore. You can very easily build and maintain all your rules directly from within this powerful interface.
+If you were not comfortable with YML files, the rules builder screen will allow you to easily create and manage your rules directly from your PIM! 
 
 Don't hesitate to try it and you'll see: it'll save you a tremendous amount of time.
 
