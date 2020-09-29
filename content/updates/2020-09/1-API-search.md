@@ -34,7 +34,8 @@ You can combine filters to achieve powerful results!
 :::
  
 ## Attribute group labels inside the attribute endpoints  
-Imagine you want to share your product data thanks to your online catalog.  
+
+Let's say you have an online catalog on your website, your visitors can easily browse and find your product information in it.
 
 Before our modification, your catalog should have:
 - retrieved the attributes data, 
