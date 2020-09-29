@@ -74,6 +74,8 @@ To update an export profile:
 In the tab `General properties`, you can edit the label of your profile.  
 In the `Global settings` tab, properties depend on the export job. For example, for the CSV product export, you will find the following properties:
 
+![Product export global settings](../img/Exports_Product-Export_global-settings.png)
+
 | Property            | Details   |
 |:--------------------|:----------|
 | File path       | Defines where to generate the exported file _(not available in Serenity offer)_ |
