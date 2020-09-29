@@ -9,7 +9,7 @@ pim_announcement_audience:
 
 The Rules Builder is now compatible with all the rules engine's conditions and actions, so you can now **entirely** create your rules from your PIM user interface. 
 
-If you were not comfortable with YML files, the rules builder screen will allow you to easily create and manage your rules directly from your PIM! 
+If you were not comfortable with YAML files, the rules builder screen will allow you to easily create and manage your rules directly from your PIM! 
 
 Don't hesitate to try it and you'll see: it'll save you a tremendous amount of time.
 
