@@ -88,7 +88,7 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 | Export files and images | Disables the media archiving of images, images will not be exported in the file and the image column will not be visible in the export |
 | Export with labels       | Defines if the export file displays values' labels instead of values' codes |
 | Headers with labels*      | Defines if the export file displays headers' labels instead of headers' codes |
-| File locale*      | Defines the locale in which labels are displayed* |
+| File locale*      | Defines the locale in which labels are displayed |
 
 *Only visible if the option `Export with labels` has been activated.
 
