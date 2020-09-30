@@ -1,4 +1,9 @@
 {
+  "2020-10": {
+    "title": "🎃 October Serenity updates",
+    "description": "New Serenity updates of October",
+    "img": "illus-october-20.svg"
+  },
   "2020-09": {
     "title": "🐿️ September Serenity updates",
     "description": "New Serenity updates of September",
@@ -6,7 +11,7 @@
   },
   "2020-08": {
     "title": "⛺ August Serenity updates",
-    "description": "New Serenity updates of August",
+    "description": "No vacation for new features! This summer, our teams continued to work on the rules engine user interface: it's boosted with new actions and conditions. We also improved our API usability by adding search filters when retrieving attributes and families.",
     "img": "illus-august-20.svg"
   },
   "2020-07": {

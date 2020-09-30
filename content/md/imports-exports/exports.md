@@ -24,11 +24,11 @@ The exports can be done in two formats: CSV and XSLX.
 You can export product data, of course, but also catalog entities such as the families, the categories, the attributes...
 
 ## Steps of an export
-File export process is really simple. It consists of:
+File export process is really simple. It consists in:
 1.  Creating an export profile (see below for more information about it)
 1.  Launching the CSV or XLSX file export
 
-## What is a export profile?
+## What is an export profile?
 An export profile allows to perform exports from the PIM. This profile format is based on:
 - A code to identify the export profile
 - A job to define what will do the export when executing. For instance, a category export in XLSX file or a product export in CSV to a Magento platform
@@ -74,18 +74,29 @@ To update an export profile:
 In the tab `General properties`, you can edit the label of your profile.  
 In the `Global settings` tab, properties depend on the export job. For example, for the CSV product export, you will find the following properties:
 
+![Product export global settings](../img/Exports_Product-Export_global-settings.png)
+
 | Property            | Details   |
 |:--------------------|:----------|
-| File path       | Defines where to generate the exported file _(Not available in Serenity offer)_ |
+| File path       | Defines where to export the generated file _(not available in Serenity offer)_ |
 | Decimal separator  | Defines the character used as decimal separator in the exported file |
 | Date format        | Defines the format used for dates in the exported file |
-| Delimiter     | Defines the character to delimit the fields in the CSV file |
-| Enclosure   | Defines the character for the field enclosure in the CSV file |
-| With header             | Defines if the first line of the exported file contains the columns names     |
-| Export files and images | Disable the media archiving of images, images will not be exported in the file and the image column will not be present in the export |
+| Delimiter     | Defines the character to delimit the fields in the CSV file _(not available in Serenity offer)_ |
+| Enclosure   | Defines the character for the field enclosure in the CSV file _(not available in Serenity offer)_ |
 | Number of lines per file | Defines the limit number of lines per file for XSLX export |
+| With header             | Defines if the first line of the exported file contains the columns names |
+| Export files and images | Disables the media archiving of images, images will not be exported in the file and the image column will not be visible in the export |
+| Export with labels       | Defines if the export file displays values' labels instead of values' codes |
+| Headers with labels*      | Defines if the export file displays headers' labels instead of headers' codes |
+| File locale*      | Defines the locale in which labels are displayed |
 
-In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which product or published product data you want to export. To find out more about this feature called `Product export builder`, take a look at this [article](product-export-builder.html).
+*Only visible if the option `Export with labels` has been activated.
+
+::: warning
+If you export a file with labels and not codes you won't be able to re-upload it in the PIM afterwards.
+:::
+
+In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which products or published products data you want to export. To find out more about this feature called `Product export builder`, take a look at this article about [Product Export Builder](product-export-builder.html).
 
 ::: ee
 If a user has no rights granted to modify an export profile due to his role, then the permissions which he may benefit due to his user group(s) _(EE only)_ will not be applied. For instance, if a user does not have the `Edit profiles of exports` permission, his Enterprise Edition rights to edit a specific export profile is ignored.

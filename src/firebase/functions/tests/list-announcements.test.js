@@ -21,12 +21,13 @@ beforeEach(async () => {
         "description": "Description",
         "img": "base64",
         "imgAlt": "this is alt img",
-        "editions": ["Serenity", "CE"],
+        "audience": ["Serenity", "CE-master"],
         "filename": "1-optimize-weight-assets.md",
         "notificationEndDate": "2020-01-12",
         "tags": ["updates"],
         "title": "Optimize the weight of your assets",
-        "link": "https://example.com"
+        "link": "https://example.com",
+        "type": "update"
     });
 
     await collection.doc('id_2').set({
@@ -35,12 +36,13 @@ beforeEach(async () => {
         "description": "Description",
         "img": "base64",
         "imgAlt": "this is alt img",
-        "editions": ["Serenity"],
+        "audience": ["Serenity"],
         "filename": "2-filename.md",
         "notificationEndDate": "2020-02-12",
         "tags": ["updates"],
         "title": "Optimize the weight of your assets",
-        "link": "https://example.com"
+        "link": "https://example.com",
+        "type": "update"
     });
     await collection.doc('id_1').set({
         "id": "id_1",
@@ -48,12 +50,13 @@ beforeEach(async () => {
         "description": "Description",
         "img": "base64",
         "imgAlt": "this is alt img",
-        "editions": ["Serenity"],
+        "audience": ["Serenity"],
         "filename": "1-filename.md",
         "notificationEndDate": "2020-02-12",
         "tags": ["updates"],
         "title": "Optimize the weight of your assets",
-        "link": "https://example.com"
+        "link": "https://example.com",
+        "type": "update"
     });
     await collection.doc('id_3').set({
         "id": "id_3",
@@ -61,12 +64,13 @@ beforeEach(async () => {
         "description": "Description",
         "img": "base64",
         "imgAlt": "this is alt img",
-        "editions": ["Serenity", 'CE'],
+        "audience": ["Serenity", "CE-master"],
         "filename": "3-filename.md",
         "notificationEndDate": "2020-02-12",
         "tags": ["updates"],
         "title": "Optimize the weight of your assets",
-        "link": "https://example.com"
+        "link": "https://example.com",
+        "type": "update"
     });
 });
 
@@ -80,6 +84,7 @@ test('It lists the announcement into firestore in the correct order.', async don
         query: {
             limit: '4',
             pim_edition: 'Serenity',
+            pim_version: '20200214152234',
             collection_name_suffix: collectionNameSuffix
         }
     };
@@ -104,6 +109,7 @@ test('It filters on the edition the announcement into firestore.', async done =>
         query: {
             limit: '4',
             pim_edition: 'CE',
+            pim_version: 'master',
             collection_name_suffix: collectionNameSuffix
         }
     };
@@ -123,11 +129,53 @@ test('It filters on the edition the announcement into firestore.', async done =>
     functions.announcements(req, res);
 });
 
+test.only('It also returns product marketing announcements from CE edition and version 4.0.', async done => {
+    const req = {
+        query: {
+            limit: '4',
+            pim_edition: 'CE',
+            pim_version: '4.0',
+            collection_name_suffix: collectionNameSuffix
+        }
+    };
+    const collection = firebaseTest.firestore().collection('announcements-test');
+    await collection.doc('product_marketing').set({
+        "id": "product_marketing",
+        "startDate": "2020-02-12",
+        "description": "Description",
+        "img": "base64",
+        "imgAlt": "this is alt img",
+        "audience": ["Serenity", 'EE-3.2', 'CE-3.2', 'EE-4.0', 'CE-4.0'],
+        "filename": "3-filename.md",
+        "notificationEndDate": "2020-02-19",
+        "tags": ["product_marketing"],
+        "title": "Optimize the weight of your assets",
+        "link": "https://example.com",
+        "type": "product_marketing"
+    });
+
+    const res = {
+        status: (status) => {
+            expect(status).toStrictEqual(200);
+
+            return res;
+        },
+        send: (body) => {
+            const ids = body.data.map(doc => {return doc.id;});
+            expect(ids).toStrictEqual(['product_marketing']);
+            done();
+        }
+    };
+
+    functions.announcements(req, res);
+});
+
 test('It limits the results.', async done => {
     const req = {
         query: {
             limit: '2',
             pim_edition: 'Serenity',
+            pim_version: '20200214152234',
             collection_name_suffix: collectionNameSuffix
         }
     };
@@ -152,6 +200,7 @@ test('It returns the correct format of the announcements.', async done => {
         query: {
             limit: '1',
             pim_edition: 'Serenity',
+            pim_version: '20200214152234',
             collection_name_suffix: collectionNameSuffix
         }
     };
@@ -187,6 +236,7 @@ test("It searches after an id when search_after is provided.", async done => {
         query: {
             limit: '2',
             pim_edition: 'Serenity',
+            pim_version: '20200214152234',
             collection_name_suffix: collectionNameSuffix,
             search_after: 'id_1'
         }
@@ -212,6 +262,7 @@ test("It returns nothing when there is nothing after the search_after document."
         query: {
             limit: '2',
             pim_edition: 'Serenity',
+            pim_version: '20200214152234',
             collection_name_suffix: collectionNameSuffix,
             search_after: 'id_4'
         }
@@ -237,6 +288,7 @@ test("It returns an error when the search after document does not exist.", async
         query: {
             limit: '2',
             pim_edition: 'Serenity',
+            pim_version: '20200214152234',
             collection_name_suffix: collectionNameSuffix,
             search_after: 'id_not_existing'
         }
@@ -260,6 +312,7 @@ test("It uses default limit if it's missing a limit query parameter.", async don
     const req = {
         query: {
             pim_edition: 'Serenity',
+            pim_version: '20200214152234',
             collection_name_suffix: collectionNameSuffix
         }
     };
@@ -281,6 +334,7 @@ test("It returns an error code 400 if it's missing PIM edition.", async done => 
     const req = {
         query: {
             limit: '2',
+            pim_version: '20200214152234',
             collection_name_suffix: collectionNameSuffix
         }
     };
@@ -292,6 +346,29 @@ test("It returns an error code 400 if it's missing PIM edition.", async done => 
         },
         send: (body) => {
             expect(body).toStrictEqual('Missing "pim_edition" query parameter.');
+            done();
+        }
+    };
+
+    functions.announcements(req, res);
+});
+
+test("It returns an error code 400 if it's missing PIM version.", async done => {
+    const req = {
+        query: {
+            limit: '2',
+            pim_edition: 'Serenity',
+            collection_name_suffix: collectionNameSuffix
+        }
+    };
+    const res = {
+        status: (status) => {
+            expect(status).toStrictEqual(400);
+
+            return res;
+        },
+        send: (body) => {
+            expect(body).toStrictEqual('Missing "pim_version" query parameter.');
             done();
         }
     };

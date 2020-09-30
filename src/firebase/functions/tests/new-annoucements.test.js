@@ -20,7 +20,7 @@ beforeEach(async () => {
         "description": "Description",
         "img": "base64",
         "imgAlt": "this is alt img",
-        "editions": ["Serenity", "CE"],
+        "audience": ["Serenity", "CE-master"],
         "filename": "1-optimize-weight-assets.md",
         "notificationEndDate": "2020-01-12",
         "tags": ["updates"],
@@ -44,6 +44,36 @@ test('It returns the id of the announcements when the current date equals the en
     const req = {
         query: {
             pim_edition: 'Serenity',
+            pim_version: '20200214152234',
+            collection_name_suffix: collectionNameSuffix
+        }
+    };
+    const res = {
+        status: (status) => {
+            expect(status).toStrictEqual(200);
+
+            return res;
+        },
+        send: (body) => {
+            expect(body).toStrictEqual(['id_1']);
+            done();
+        }
+    };
+
+    functions.new_announcements(req, res);
+});
+
+test('It returns the id of the announcements when it is takes in account the version.', async done => {
+    jest
+        .spyOn(global.Date, 'now')
+        .mockImplementation(() =>
+            new Date('2020-01-11T00:00:00.000Z').valueOf()
+        );
+
+    const req = {
+        query: {
+            pim_edition: 'CE',
+            pim_version: 'master',
             collection_name_suffix: collectionNameSuffix
         }
     };
@@ -72,6 +102,7 @@ test('It returns the id of the announcements when the current date equals the st
     const req = {
         query: {
             pim_edition: 'Serenity',
+            pim_version: '20200214152234',
             collection_name_suffix: collectionNameSuffix
         }
     };
@@ -100,6 +131,7 @@ test('It returns nothing when there are no new announcement between the start da
     const req = {
         query: {
             pim_edition: 'Serenity',
+            pim_version: '20200214152234',
             collection_name_suffix: collectionNameSuffix
         }
     };

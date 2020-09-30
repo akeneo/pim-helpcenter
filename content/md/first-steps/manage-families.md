@@ -39,7 +39,12 @@ Once a family is created, you can configure your family:
 *   Edit these attributes’ completeness
 
 :::info
-**Supported extensions for thumbnails** for `image` or `assets collection` attributes are the following: jpg, jpeg, png and gif.
+The PIM supports many formats for the `Image` and `Asset Collection` thumbnail generation. You’ll find [here](https://imagemagick.org/script/formats.php) the whole list of supported extensions (such as jpg, jpeg, png, gif, psd, tiff...). If you use asset collections, you can also preview PDF and Youtube & Vimeo media links.
+:::
+
+:::warning
+The formats mentioned in the ImageMagick documentation are supported if they don’t require any other extension, with the exception of the ones requiring Ghostcript, which are supported (for example: the PIM is capable to read **EPS** images but not **FIG** since FIG requires TransFig, which has not been configured.)
+Please note that this list might evolve on ImageMagick side without notice.
 :::
 
 :::info

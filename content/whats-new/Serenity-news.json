@@ -1,0 +1,163 @@
+[
+  {
+    "title":"Product duplication",
+    "domains": ["Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-06.html#new-duplicate-a-product"
+  },
+  {
+    "title":"Rules creation and update interface 🤖",
+    "domains": ["Automation","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-07.html#new-create-and-update-rules-from-the-pim"
+  },
+  {
+    "title":"Product associations with quantities 🔗",
+    "domains": ["Governance","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-07.html#new-association-type-with-quantities"
+  },
+  {
+    "title":"Two-way product association 🔗",
+    "domains": ["Governance","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-05.html#new-association-type-the-two-way-association"
+  },
+  {
+    "title":"Full visibility on jobs 👁️",
+    "domains": ["Reporting","Collaboration"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-05.html#more-visibility-on-pim-jobs"
+  },
+  {
+    "title":"Measurement families and units creation 📏",
+    "domains": ["Governance"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-04.html#a-new-screen-to-add-your-own-measurement-units"
+  },
+  {
+    "title":"Measurements API 🔌",
+    "domains": ["Governance","Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-04.html#new-endpoints-to-manage-measurements"
+  },
+  {
+    "title":"Data quality grades on variant products 💯",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-03.html#data-quality-insights-now-available-for-variant-products"
+  },
+  {
+    "title":"Data quality grades on product models 💯",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-04.html#data-quality-insights-on-product-models"
+  },
+  {
+    "title":"Spell-check on text area and text attributes in Italian 🇮🇹",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
+  },
+  {
+    "title":"Spell-check on text area and text attributes in Swedish 🇸🇪",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
+  },
+  {
+    "title":"Spell-check on text area and text attributes in Danish 🇩🇰",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
+  },
+  {
+    "title":"Spell-check on text area and text attributes in Dutch 🇳🇱",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-03.html#spell-check-improvements"
+  },
+  {
+    "title":"Spell-check on text area and text attributes in Norwegian 🇳🇴",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-04.html#spell-check-new-languages-supported"
+  },
+  {
+    "title":"Spell-check on text area and text attributes in Brazilian 🇧🇷",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-04.html#spell-check-new-languages-supported"
+  },
+  {
+    "title":"Force, angle, capacitance and volume flow measurements 📏",
+    "domains": ["Governance"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-03.html#new-measurement-units-and-families"
+  },
+  {
+    "title":"Attributes concatenation automatized with rules 🤖",
+    "domains": ["Automation", "Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-03.html#a-new-rule-action-to-concatenate-attributes"
+  },
+  {
+    "title":"API product export monitoring 📊",
+    "domains": ["Connectivity","Reporting"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-04.html#track-your-destination-connections"
+  },
+  {
+    "title":"Improved error management on API connections",
+    "domains": ["Connectivity","Reporting"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-07.html#easily-fix-errors-on-your-connections"
+  },
+  {
+    "title":"Attribute values automatically computed with rules 🤖",
+    "domains": ["Automation","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-04.html#calculate-attribute-values"
+  },
+  {
+    "title":"Error monitoring on API connections 📊",
+    "domains": ["Connectivity","Reporting"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-05.html#easily-monitor-errors-on-your-connections"
+  },
+  {
+    "title":"Spell-check on attribute options and labels",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-07.html#avoid-spelling-mistakes-in-your-product-data"
+  },
+  {
+    "title":"Improved attribute option management",
+    "domains": ["Productivity", "Governance"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-06.html#better-manage-your-attribute-options"
+  }
+]
