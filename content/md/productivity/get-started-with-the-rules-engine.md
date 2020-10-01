@@ -530,11 +530,11 @@ Also, no consistency check is performed regarding the units, you can perfectly m
 
 Now that you have discovered all the [available actions](#available-actions), you can easily see which ones can be useful in your daily work :wink:. But, to write a rule, you have to define your product selection. To do so, you need to know what are the available **fields** and their **operators**.
 
-:::info
-Keep in mind that the filters (or "fields") that are used in the rules, are the same than in the product grid.
+::: info
+Keep in mind that the filters (or "fields") that are used in the rules, are the same as in the product grid.
 :::
 
-As of today, 7 fields are supported in the rules engine, and each of them has it's own business rules. Here we go!
+As of today, the following fields are supported in the rules engine, and each of them has its own business rules. Here we go!
 
 ## Created
 
@@ -593,7 +593,7 @@ The format of the date is:
 If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
 :::
 
-:::warning
+::: warning
 The "relative date format" only works with the `<`, `>`, `=` and `!=` operators.
 :::
 
@@ -692,13 +692,106 @@ value:
 ```
 
 ::: info
-The `field` expects the family code.
+The `value` expects family codes.
 :::
 
+## Family variant
+
+The possible operators for the `family_variant` field are:  
+- IN
+- NOT IN
+- EMPTY
+- NOT EMPTY
+
+::: warning
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
+### Example
+
+```YML
+field: family_variant
+operator: IN
+value:
+ - shoes_by_size
+ - clothing_by_color
+```
+
+::: info
+The `value` expects family variant codes.
+:::
+
+## Parent
+
+The possible operators for the `parent` field are:  
+- IN
+- EMPTY
+- NOT EMPTY
+
+::: warning
+If the operator is EMPTY or NOT EMPTY, the value element will be ignored.
+:::
+
+### Example
+
+```YML
+field: parent
+operator: IN
+value:
+ - model_tshirt_red
+ - model_pants_blue
+```
+
+::: info
+The `value` expects product model codes.
+:::
+
+## Identifier
+
+The possible operators for the `identifier` field are:  
+- STARTS WITH
+- CONTAINS
+- DOES NOT CONTAIN
+- =
+- "!="
+- IN
+- NOT IN
+
+### Example
+
+```YML
+field: identifier
+operator: IN
+value:
+ - model_tshirt_red
+ - tshirt_red_xxl
+```
+
+::: info
+The `value` expects product identifiers or product model codes.
+:::
+
+## Entity type
+
+The only accepted operator for the `entity_type` field is:  
+
+- =
+
+### Example
+
+```YML
+field: entity_type
+operator: =
+value: Akeneo\Pim\Enrichment\Component\Product\Model\ProductModelInterface
+```
+
+::: info
+The `value` field expects either `Akeneo\Pim\Enrichment\Component\Product\Model\ProductInterface` for products, or `Akeneo\Pim\Enrichment\Component\Product\Model\ProductInterface` for product models.
+:::
 
 ## Groups
 
-The possible operators for the `groups` field are:  
+The possible operators for the `groups` field are:
 
 - IN
 - NOT IN
@@ -794,7 +887,7 @@ The possible operators for the `identifier` attribute type are:
 ```YML
 field: sku
 operator: CONTAINS
-value: AKNTS_PB
+value: "AKNTS_PB"
 ```
 
 ## Measurement
