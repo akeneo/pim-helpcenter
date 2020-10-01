@@ -18,7 +18,7 @@ Let's take an example!
 
 If you use our API to display product content on a website, or to create marketing/sales materials, before this update, your connector needed to retrieve product attribute values by calling the `GET /products` endpoint. Then, for each attribute with a list of options, a `GET /attributes` was required to get the related labels. 
 
-Before the connector was only receiving codes in your product value:
+Before the connector was only receiving codes inside the product values.
 
 ```json
 {
