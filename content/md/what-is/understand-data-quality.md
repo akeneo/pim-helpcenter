@@ -16,9 +16,14 @@ Because rich, coherent and consistent product data is important in order to deli
 This new capability helps you measure your data quality along two axes: **enrichment** and **consistency**.  
 Each of these two axes has a score from A to E. The scores can be seen on several PIM screens.
 
+::: tips
+By disabling chosen `attribute groups` in Akeneo `settings` , you can rate your enrichment and consistency status and progress on the most relevant product data for your end-customer needs. Therefore, you will get insights on what’s truly important to improve your Product Experience.
+:::
 
 # How is enrichment calculated?
 The **enrichment grade** is calculated as the percentage of attributes with values in your product edit form (whether the attributes are required for completeness or not).
+
+We now know that an image is a must-have for a compelling product description. Our enrichment grade ensures that all your products have at least one image for your customers to see.
 
 Checking the `data quality insights` panel in the product edit form allows you to quickly see which attributes need to be filled in to improve your data quality grade for enrichment.
 
