@@ -13,7 +13,7 @@ pim_announcement_audience:
 For a better user experience, we created a new user interface to make it easier for you to generate a quick export from the product grid. This improvement follows the addition of a new option for all product exports, a new button called  "With labels" (see announcement [here](2020-09.html#display-labels-in-your-product-exports)).  
 ![New Export Profile option](../img/Quick-export-new-UI_Export-with-labels.png)
 
-To save you time, the custom choices you make for your XLSX or CSV quick export are saved. So next time you click on `Quick Export`, the last export configuration will be displayed.  
+To help you save time, the custom choices you make for your XLSX or CSV quick export are saved. So next time you click on `Quick Export`, the last export configuration will be displayed.  
 
 We hope you will enjoy it :wink:
 

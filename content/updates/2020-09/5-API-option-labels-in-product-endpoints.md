@@ -14,11 +14,11 @@ You can now find the option labels directly inside your product values, in a new
 
 ![The new `linked_data` property in the product value](../img/linked_data_new_property.png)
 
-Let's take an example! 
+Let's take an example!
 
-If you use our API to display product content on a website, or to create marketing/sales materials, before this update, your connector needed to retrieve product attribute values by calling the `GET /products` endpoint. Then, for each attribute with a list of options, a `GET /attributes` was required to get the related labels. 
+If you use our API to display product content on a website, or to create marketing/sales materials, before this update, your connector needed to retrieve product attribute values by calling the `GET /products` endpoint. Then, for each attribute with a list of options, a `GET /attributes` was required to get the related labels.
 
-Before the connector was only receiving codes inside the product values.
+Before the connector only received codes inside the product values.
 
 ```json
 {
@@ -72,7 +72,7 @@ Now, it receives codes and labels:
 }
 ```
 
-In this example, we **avoid 5 API calls per product**. Imagine this improvement for a catalog which contains thousands of products! 
+In this example, we **avoid 5 API calls per product**. Can you imagine the impact for a catalog which contains thousands of products! 
 
 ::: more
 [How to get product data with the Akeneo API?](https://api.akeneo.com/api-reference.html#get_products)  

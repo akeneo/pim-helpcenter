@@ -13,7 +13,7 @@ Two new improvements will help you be more and more productive when using the ru
 ::: meta-data type="New" features="Rules engine, Productivity" available="late September" link-to-doc="../articles/manage-your-rules.html#duplicate-a-rule"
 :::
 
-In order to avoid re-writing the whole rule, you are now able to duplicate it in two clicks! Indeed, sometimes, you may have very similar rules with only one condition that is different, for instance. What a time saver, isn't it? :wink:
+In order to avoid re-writing a whole rule, you are now able to duplicate it in two clicks! Indeed, sometimes, you may have very similar rules with only one condition that is different. What a time saver, isn't it? :wink:
 
 ![Duplicate your rule](../img/Rules_Duplicate.png)
 
@@ -23,7 +23,7 @@ In order to avoid re-writing the whole rule, you are now able to duplicate it in
 
 We introduced a new property for rules: an enabled/disabled status. This new status allows you to easily activate or deactivate your rules.  
 For example, if the creation/edition of the rule is not finished yet, setting its status to "disabled" will pause the automatic execution of the rule.  
-Once the rule is ready, you just have to enable it to let it be executed!
+Once the rule is ready, you just have to enable it to let it run!
 
 ![Define a status for your rules](../img/Rules_Status.png)
 
