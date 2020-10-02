@@ -250,7 +250,7 @@ Let's say that you have very similar rules with only one different condition for
 
 To duplicate a rule, just access the rule edit form, click on `...` then `Save and duplicate`. The creation popin opens and you can choose a code and a label for your new rule.
 
-![image](../img/Rules_Duplicate.png)
+![Duplicate a rule](../img/Rules_Duplicate.png)
 
 :::warning
 By default, when you duplicate a rule, it is disabled. To execute it, you have to change its status, under the `Properties` tab of the rule.
