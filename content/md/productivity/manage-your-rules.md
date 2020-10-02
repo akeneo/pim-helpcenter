@@ -236,7 +236,7 @@ Sometimes, you may need to create/update a rule, save it, but ***not*** execute 
 
 To change the status, just click on the `Properties` tab of a rule and choose between `Enabled` or `Disabled`.
 
-![image](../img/Rules_Status.png)
+![Status of a rule](../img/Rules_Status.png)
 
 You can see at a glance the status of each rule in the rules grid.
 
