@@ -72,7 +72,7 @@ Now, it receives codes and labels:
 }
 ```
 
-In this example, we **avoid 5 API calls per product**. Can you imagine the impact for a catalog which contains thousands of products! 
+In this example, we **avoid 5 API calls per product**. Can you imagine the impact for a catalog which contains thousands of products?
 
 ::: more
 [How to get product data with the Akeneo API?](https://api.akeneo.com/api-reference.html#get_products)  
