@@ -236,10 +236,22 @@ Sometimes, you may need to create/update a rule, save it, but ***not*** execute 
 
 To change the status, just click on the `Properties` tab of a rule and choose between `Enabled` or `Disabled`.
 
+![image](../img/Rules_Status.png)
+
 You can see at a glance the status of each rule in the rules grid.
 
 :::info
 By default, each new rule you create via the UI is disabled.
+:::
+
+# Duplicate a rule
+
+Let's say that you have very similar rules with only one different condition for instance. In order to avoid re-writing the whole rule, you can **duplicate** it.  
+
+To duplicate a rule, just access the rule edit form, click on `...` then `Save and duplicate`. The creation popin opens and you can choose a code and a label for your new rule.
+
+:::warning
+By default, when you duplicate a rule, it is disabled. To execute it, you have to change its status, under the `Properties` tab of the rule.
 :::
 
 # Delete rules
