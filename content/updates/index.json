@@ -6,7 +6,7 @@
   },
   "2020-09": {
     "title": "🐿️ September Serenity updates",
-    "description": "New Serenity updates of September",
+    "description": "This month, we completed the Rules Builder, our new rules engine user interface, and enriched it with additional rules features. We extended the capabilities of product exports to offer you more flexibility and we added new API filters to ease data synchronization.",
     "img": "illus-september-20.svg"
   },
   "2020-08": {

@@ -5,7 +5,7 @@ pim_announcement_audience:
 - EE
 ---
 
-# Be more and more productive when using rules
+# New features for the rules engine
 
 Two new improvements will help you be more and more productive when using the rules engine: you can now duplicate your rules and define a status for them!
 
