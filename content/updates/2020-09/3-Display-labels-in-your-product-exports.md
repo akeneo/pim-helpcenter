@@ -12,13 +12,13 @@ pim_announcement_audience:
 
 To save time and improve the reading of exported files, we added an option in our XLSX and CSV export functionalities to display attribute labels instead of codes in the export files.
 
-Under your product export profiles and also in the quick export, there is now a new button called `With labels`. If enabled, this button will allow you to export product data labels (e.g. attribute labels and values, etc.). This will apply to the **column's headers and file's content**, so instead of displaying attribute and property codes in your files, you can choose to display **attribute values** to make your file more readable if you need to share it with one of your colleague. For the export files, you can even choose to display the content in a specific locale.  
+Under your product export profiles and also in the quick export, there is now a new button called `With labels`. If enabled, this button will allow you to export product data labels (e.g. attribute labels and values, etc.). So instead of displaying attribute and property codes in your **columns' headers and files' content**, you can choose to display **attribute values** to make your file more readable if you need to share it with one of your colleagues. For the export files, you can even choose to display the content in a specific locale.  
 ![New Export Profile option](../img/Product-export-profile.png)
 
 For instance, if you have a multi-select attribute named `TS_STYLE032`, it will be exported as a label, `Tee-shirt style 032`.
-Same thing with the values of this attribute `T_NECK` and `L_SLEEVES` would be displayed as labels `Turtleneck` and `Long sleeves`.
+Same thing with the values of this attribute: `T_NECK` and `L_SLEEVES` would be displayed as labels `Turtleneck` and `Long sleeves`.
 
-If you prefer to stick with the previous format of the export files, no problem, simply keep the button disabled.
+If you prefer to stick to the previous format of the export files, no problem, simply leave the button disabled.
 
 ::: more
 [How to export your data?](../articles/exports.html)  
