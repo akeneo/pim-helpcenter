@@ -14,7 +14,7 @@
     "link": "/pim/serenity/updates/2020-07.html#new-create-and-update-rules-from-the-pim"
   },
   {
-    "title":"Attribute and option labels in product XLSX and CSV exports",
+    "title":"Labels displayed in XLSX and CSV product exports",
     "domains": ["Collaboration","Productivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
