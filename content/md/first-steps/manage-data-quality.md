@@ -14,13 +14,11 @@ By doing so, you will be able to highlight the quality of the attributes that ar
 
 # Data quality insights activation and deactivation
 
-To deactivate data quality insights from an attribute group:
-
 :::info
 You must be granted a specific permission to be able to edit attribute groups.
 :::
 
-To create a channel:
+To deactivate data quality insights from an attribute group:
 1.  Go to `Settings/Attribute groups`
 2.  Click on an `Attribute group` name
 3.  Turn `Data Quality activation` button to No
