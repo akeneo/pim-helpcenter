@@ -15,7 +15,7 @@ By doing so, you will be able to highlight the quality of the attributes that ar
 # Data quality insights activation and deactivation
 
 :::info
-You must be granted a specific permission to be able to edit attribute groups.
+You must be granted a specific permission by the administrator to be able to edit attribute groups.
 :::
 
 To deactivate data quality insights from an attribute group:
