@@ -14,6 +14,13 @@
     "link": "/pim/serenity/updates/2020-07.html#new-create-and-update-rules-from-the-pim"
   },
   {
+    "title":"Labels displayed in XLSX and CSV product exports",
+    "domains": ["Collaboration","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-09.html#display-labels-instead-of-codes-in-your-product-exports"
+  },
+  {
     "title":"Product associations with quantities 🔗",
     "domains": ["Governance","Productivity"],
     "editions": ["CE","EE"],
@@ -131,6 +138,13 @@
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-07.html#easily-fix-errors-on-your-connections"
+  },
+  {
+    "title":"Rule duplication 🤖",
+    "domains": ["Automation","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-09.html#quickly-duplicate-your-rules"
   },
   {
     "title":"Attribute values automatically computed with rules 🤖",
