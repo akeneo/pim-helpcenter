@@ -17,7 +17,7 @@ This new capability helps you measure your data quality along two axes: **enrich
 Each of these two axes has a score from A to E. The scores can be seen on several PIM screens.
 
 ::: tips
-By disabling specific `attribute groups` in Akeneo `settings`, you can focus your enrichment and consistency status and progress on the most relevant product data for your end-customer needs. Therefore, you will get insights on what’s truly important to improve your Product Experience.
+By disabling specific attribute groups in Akeneo settings, you can focus your enrichment and consistency status and progress on the most relevant product data for your end-customer needs. Therefore, you will get insights on what’s truly important to improve your Product Experience.
 :::
 
 # How is enrichment calculated?
