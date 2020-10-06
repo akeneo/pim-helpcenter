@@ -20,7 +20,7 @@ You must be granted a specific permission by the administrator to be able to edi
 
 To deactivate data quality insights from an attribute group:
 1.  Go to `Settings/Attribute groups`
-2.  Click on an `Attribute group` name
+2.  Click on an attribute group name
 3.  Set `Data Quality activation` to No
 
  [disable attribute group from dqi](dqi-disablement-attribute-group.html)
