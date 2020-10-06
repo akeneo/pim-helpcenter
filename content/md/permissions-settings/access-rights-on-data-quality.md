@@ -17,7 +17,7 @@ By default, all users with the right to edit an attribute group, have the right 
 To set rights:
 1. Go to `System`  
 2. Click on `Roles`
-3. Select a `Role`
+3. Select a role
 4. Click on `Permissions`
 4. Click on `Data quality insights`
 5. Choose the status for `Edit Data quality insights activation`
