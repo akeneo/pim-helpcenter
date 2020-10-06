@@ -9,7 +9,7 @@ related: understand-data-quality, improve-data-quality
 
 # Overview
 
-In order to check, score and get recommendations on the product data that truly matters to craft a great product experience,  you can disable Data Quality Insights calculation for non relevant attribute groups (ie. ERP, internal…)
+In order to check, score and get recommendations on the product data that truly matters to craft a great product experience, you can disable Data Quality Insights calculation for non relevant attribute groups (ie. ERP, internal…).  
 By doing so, you will be able to highlight the quality of the attributes that are the most valuable for your customers.
 
 # Data quality insights activation and deactivation
