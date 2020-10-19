@@ -20,7 +20,7 @@ To set rights:
 3. Select a role
 4. Click on `Permissions`
 4. Click on `Data quality insights`
-5. Choose the status for `Edit Data quality insights activation`
+5. Choose the status for `Edit data quality insights activation`
 6. Click on `Save`
 
 ![rights on data quality](../img/rights-on-data-quality.png)
