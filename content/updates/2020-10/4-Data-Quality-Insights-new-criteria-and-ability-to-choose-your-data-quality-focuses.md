@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 # Data Quality Insights new criteria and ability to choose your quality focuses
 
-## The image criteria
+## The "missing image" criteria
 ::: meta-data type="New" features="Data quality" available="late October" link-to-doc="../articles/.html"
 :::
 
