@@ -6,7 +6,7 @@ pim_announcement_audience:
 - EE
 ---
 
-# A better product grid for product models and variants
+# Better manage product models and variants in the grid
 
 ## Filter on the product typology
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/.html"

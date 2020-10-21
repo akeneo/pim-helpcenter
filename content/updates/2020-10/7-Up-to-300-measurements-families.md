@@ -6,6 +6,6 @@ pim_announcement_audience:
 - CE
 ---
 
-# Up to 300 measurements families
+# Measurement families limit increased to 300
 ::: meta-data type="New" features="Governance" available="mid-October" link-to-doc="../articles/.html"
 :::
