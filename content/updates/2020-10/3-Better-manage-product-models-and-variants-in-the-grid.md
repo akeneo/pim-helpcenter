@@ -1,5 +1,4 @@
 ---
-pim_announcement_img: ./img/.png
 pim_announcement_alt_img: ""
 pim_announcement_audience:
 - CE
