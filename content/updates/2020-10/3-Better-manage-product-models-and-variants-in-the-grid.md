@@ -7,6 +7,7 @@ pim_announcement_audience:
 
 # Better manage product models and variants in the grid
 
+TODO
 ## Filter on the product typology
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/.html"
 :::
