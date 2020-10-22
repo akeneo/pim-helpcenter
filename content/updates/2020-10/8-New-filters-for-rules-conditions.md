@@ -14,7 +14,7 @@ In the Rules engine, create more efficient rules conditions thanks to these 4 ne
 - On product or product model parents,
 - On identifiers.
 
-![The new filters in action](../img/TODO.png)
+![The new filters in action](../img/new-filters-for-rules-conditions.png)
 
 Remember that the more precise your rule condition is, the more performant your rule will be. So don't hesitate to overuse those new filters. 😉
 

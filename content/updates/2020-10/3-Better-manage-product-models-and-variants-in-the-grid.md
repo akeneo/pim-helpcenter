@@ -1,4 +1,5 @@
 ---
+pim_announcement_img: ./img/better-manage-product-models-and-variants-in-the-grid.png
 pim_announcement_alt_img: "TODO"
 pim_announcement_audience:
 - CE
@@ -15,7 +16,7 @@ You work a lot with product models and their variants? You will enjoy these simp
 
 The new `Product typology` filter in the product grid allows you to choose whether to display only the simple products or only the variant products. Pretty useful when you want to quickly find different variant products in different product models, for instance.
 
-![](../img/TODO.png)
+![Product typology filter](../img/product-typology-filter.png)
 
 ## Product variant display option
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/TODO.html"
@@ -23,7 +24,7 @@ The new `Product typology` filter in the product grid allows you to choose wheth
 
 The product grid also benefits from a new display option: the `Variant` display option. It allows you to show your models' product variants, instead of only these product models. This way, you can easily find and work at your product variant level. What a time saver!
 
-![](../img/TODO.png)
+![Product variant display option](../img/product-variant-display-option.png)
 
 ## Filter on the product identifier
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/TODO.html"
@@ -31,15 +32,15 @@ The product grid also benefits from a new display option: the `Variant` display 
 
 Filtering on your product model identifiers has now arrived in your product grid! So neat!
 
-![](../img/TODO.png)
+![Product identifier filter](../img/product-identifier-filter.png)
 
 ## Products and product models counters
 ::: meta-data type="Improvement" features="Productivity" available="late October" link-to-doc="../articles/TODO.html"
 :::
 
-We also revamped the product grid counter at the top of the page to be more intelligible. We now show you the number of products and the number of product models. Crystal clear!
+The product grid counter at the top of the page is also revamped to be more intelligible. We now show you the number of products and the number of product models. Crystal clear!
 
-![](../img/TODO.png)
+![New counters](../img/products-and-product-models-counters.png)
 
 ::: more
 [TODO?](../articles/TODO.html)

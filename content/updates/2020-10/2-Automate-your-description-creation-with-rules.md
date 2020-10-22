@@ -10,7 +10,7 @@ pim_announcement_audience:
 
 The `concatenate` action in the rules engine is now more powerful than ever. Combine free text fields and line breaks to create fully automated and engaging product descriptions, as shown in the example below.
 
-![Example of an automated product description creation](../img/TODO.png)
+![Example of an automated product description creation](../img/automated-product-description-with-rules.png)
 
 ::: more
 [TODO?](../articles/TODO.html)
