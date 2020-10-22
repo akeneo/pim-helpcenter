@@ -13,7 +13,7 @@ A brand new `Stop` button is now displayed in your process tracker. It allows yo
 
 ![The new `Stop` button in the process tracker](../img/TODO.png)
 
-A new `TODO` permission allows you to fine-tune which user roles will be able to see this new action.
+A new `Allowed to stop a job` permission allows you to fine-tune which user roles will be able to see this new action.
 
 ::: more
 [TODO?](../articles/TODO.html)
