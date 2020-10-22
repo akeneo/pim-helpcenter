@@ -1,5 +1,6 @@
 ---
-pim_announcement_alt_img: "TODO"
+pim_announcement_img: ./img/automated-product-description-with-rules.png
+pim_announcement_alt_img: "Example of an automated product description creation"
 pim_announcement_audience:
 - EE
 ---

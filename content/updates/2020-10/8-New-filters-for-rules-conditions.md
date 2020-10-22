@@ -1,5 +1,6 @@
 ---
-pim_announcement_alt_img: ""
+pim_announcement_img: ./img/new-filters-for-rules-conditions.png
+pim_announcement_alt_img: "The new filters in action"
 pim_announcement_audience:
 - EE
 ---

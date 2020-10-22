@@ -1,6 +1,6 @@
 ---
 pim_announcement_img: ./img/better-manage-product-models-and-variants-in-the-grid.png
-pim_announcement_alt_img: "TODO"
+pim_announcement_alt_img: "New counters and display option in the product grid"
 pim_announcement_audience:
 - CE
 - EE
