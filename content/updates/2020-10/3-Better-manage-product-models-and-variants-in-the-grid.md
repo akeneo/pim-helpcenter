@@ -14,7 +14,7 @@ You work a lot with product models and their variants? You will enjoy these simp
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#filter-on-product-typology"
 :::
 
-The new `Product typology` filter in the product grid allows you to choose whether to display only the simple products or only the variant products. Pretty useful when you want to quickly find different variant products in different product models, for instance.
+The new `Product typology` filter in the product grid allows you to choose to display only the simple products or only the variant products. It's pretty useful if you need to quickly find different variant products in different product models, for instance.
 
 ![Product typology filter](../img/product-typology-filter.png)
 
@@ -22,7 +22,7 @@ The new `Product typology` filter in the product grid allows you to choose wheth
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/TODO.html"
 :::
 
-The product grid also benefits from a new display option: the `Variant` display option. It allows you to show your models' product variants, instead of only these product models. This way, you can easily find and work at your product variant level. What a time saver!
+The product grid also benefits from a new display option: the `Variant` display option. Use it if you want to list your product variants in the grid, instead of listing their product models. Thanks to this new option, you do not need anymore to first click on a product model to access its variants. What a time saver!
 
 ![Product variant display option](../img/product-variant-display-option.png)
 
