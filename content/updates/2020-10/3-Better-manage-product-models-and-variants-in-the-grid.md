@@ -8,7 +8,7 @@ pim_announcement_audience:
 
 # Better manage product models and variants in the grid
 
-You work a lot with product models and their variants? You will enjoy these simple yet efficient new improvements we delivered in the product grid.
+Do you work a lot with product models and variants? If yes, you will surely enjoy these simple but yet efficient improvements we made in the product grid: a new filter on the product type, a new display option...
 
 ## Filter on the product typology
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#filter-on-product-typology"
