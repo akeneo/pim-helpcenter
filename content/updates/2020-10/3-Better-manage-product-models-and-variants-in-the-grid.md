@@ -22,9 +22,9 @@ The new `Product typology` filter in the product grid allows you to choose to di
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#display-products-with-variants"
 :::
 
-The product grid also benefits from a new display option: the `Variant` display option. Use it if you want to list your product variants in the grid, instead of listing their product models. Thanks to this new option, you do not need anymore to first click on a product model to access its variants. What a time saver!
+The product grid also benefits from a new display option: the `Variant` display option. Use it if you want to list your variant products in the grid, instead of listing their product models. Thanks to this new option, you do not need anymore to first click on a product model to access its variants. What a time saver!
 
-![Product variant display option](../img/product-variant-display-option.png)
+![Variant display option](../img/variant-product-display-option.png)
 
 ## Filter on the product identifier
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#filter-on-the-identifier"
