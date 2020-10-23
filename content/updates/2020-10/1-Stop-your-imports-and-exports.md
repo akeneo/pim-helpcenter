@@ -16,5 +16,7 @@ A brand new `Stop` button is now displayed in your process tracker. It enables y
 This button comes with a dedicated permission `Allowed to stop a job`. If you need it, ask your PIM admin to give you the right to do so.
 
 ::: more
-[TODO?](../articles/TODO.html)
+[What is an import?](../articles/imports.html)  
+[What is an export?](../articles/exports.html)  
+[How to follow the progress of your imports and exports?](../articles/monitor-jobs.html#imports-exports-reports)
 :::

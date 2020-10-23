@@ -36,5 +36,6 @@ Quickly find a launched job thanks to the new `User` filter we introduced in the
 On a side note, you will also notice that you can order the process tracker grid jobs by the user who launched it.
 
 ::: more
-[TODO?](../articles/TODO.html)
+[What is a job?](../articles/monitor-jobs.html#what-is-a-job)  
+[How to follow the progress of your jobs?](../articles/monitor-jobs.html#how-to-monitor)
 :::
