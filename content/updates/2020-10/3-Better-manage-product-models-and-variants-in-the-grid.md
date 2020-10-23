@@ -19,7 +19,7 @@ The new `Product typology` filter in the product grid allows you to choose to di
 ![Product typology filter](../img/product-typology-filter.png)
 
 ## Product variant display option
-::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/TODO.html"
+::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#display-products-with-variants"
 :::
 
 The product grid also benefits from a new display option: the `Variant` display option. Use it if you want to list your product variants in the grid, instead of listing their product models. Thanks to this new option, you do not need anymore to first click on a product model to access its variants. What a time saver!
@@ -27,7 +27,7 @@ The product grid also benefits from a new display option: the `Variant` display 
 ![Product variant display option](../img/product-variant-display-option.png)
 
 ## Filter on the product identifier
-::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/TODO.html"
+::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#filter-on-the-identifier"
 :::
 
 Filtering on your product model identifiers has now arrived in your product grid! So neat!
@@ -35,7 +35,7 @@ Filtering on your product model identifiers has now arrived in your product grid
 ![Product identifier filter](../img/product-identifier-filter.png)
 
 ## Products and product models counters
-::: meta-data type="Improvement" features="Productivity" available="late October" link-to-doc="../articles/TODO.html"
+::: meta-data type="Improvement" features="Productivity" available="late October"
 :::
 
 The product grid counter at the top of the page is also revamped to be more intelligible. We now show you the number of products and the number of product models. Crystal clear!
@@ -43,5 +43,7 @@ The product grid counter at the top of the page is also revamped to be more inte
 ![New counters](../img/products-and-product-models-counters.png)
 
 ::: more
-[TODO?](../articles/TODO.html)
+[What are variant products?](../articles/what-about-products-variants.html)  
+[What is the product grid?](../articles/products-grid.html)  
+[How to enrich your variant products?](../articles/enrich-products-variants.html)
 :::

@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # New filters for rules conditions
-::: meta-data type="New" features="Automation, Productivity" available="early October" link-to-doc="../articles/.html"
+::: meta-data type="New" features="Automation, Productivity" available="early October" link-to-doc="../articles/manage-your-rules.html#available-conditions"
 :::
 
 We added new filters in the rules engine to help you better define your conditions. You can now filter on:
@@ -20,5 +20,5 @@ We added new filters in the rules engine to help you better define your conditio
 Condition filters enable you to narrow the product selection to apply the rules on, so the more precise your rule conditions are, the faster your rule will be run. So don't hesitate to use those new filters.
 
 ::: more
-[TODO?](../articles/TODO.html)
+[How to manage your rules?](../articles/manage-your-rules.html)
 :::
