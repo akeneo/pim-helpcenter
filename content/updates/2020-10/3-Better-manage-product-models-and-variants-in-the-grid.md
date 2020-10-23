@@ -18,7 +18,7 @@ The new `Product typology` filter in the product grid allows you to choose to di
 
 ![Product typology filter](../img/product-typology-filter.png)
 
-## Product variant display option
+## Variant product display option
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#display-products-with-variants"
 :::
 
