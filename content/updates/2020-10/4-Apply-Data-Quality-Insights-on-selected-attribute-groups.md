@@ -8,7 +8,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Data quality" available="mid-October" link-to-doc="../articles/.html"
 :::
 
-Tired of having recommendations to improve quality attributes that are not relevant for your end-customers? You can now turn-off the feature on selected attribute groups… and choose the ones for which no typos are allowed!
+Data Quality Insights evolves to help you better prioritize your data quality focus areas. You can now enable/disable the feature at the attribute group level.
 
 Find this fine-tuning in the attribute groups settings page. 😉
 
