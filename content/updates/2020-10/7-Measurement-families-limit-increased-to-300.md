@@ -11,6 +11,6 @@ pim_announcement_audience:
 You can now create up to 300 measurement families to satisfy all your catalog modeling needs, especially when it comes to having many different measurement units.
 
 ::: more
-[What is a measurement family?](../articles/what-about-measurements.html#what-is-a-measurement-family)
-[Ho to manage your measurement families?](../articles/manage-your-measurements.html)
+[What is a measurement family?](../articles/what-about-measurements.html#what-is-a-measurement-family)  
+[How to manage your measurement families?](../articles/manage-your-measurements.html)
 :::
