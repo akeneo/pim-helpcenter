@@ -7,15 +7,7 @@ pim_announcement_audience:
 
 # Jobs and process tracker improvements
 
-Check our latest process tracker enhancements: a progress bar and the estimated remaining time for your ongoing jobs, a shortcut for a rapid access to quick exports job details, and a new sorting option in the process tracker grid.
-
-## Progress bar and time left for your ongoing jobs
-::: meta-data type="New" features="Productivity" available="late October" link-to-doc="../articles/TODO.html"
-:::
-
-In the process tracker, in the detail of each ongoing job, we now compute an estimation of the time left for each job step. A progress bar is also displayed.
-
-![Estimation of the time left and progress bar](../img/TODO.png)
+Check our latest process tracker enhancements: a shortcut for a rapid access to quick exports job details, and a new sorting option in the process tracker grid.
 
 ## Easy access to the detail of your quick export once launched
 ::: meta-data type="Improvement" features="Productivity" available="mid-October" link-to-doc="../articles/TODO.html"
