@@ -30,7 +30,7 @@ The product grid also benefits from a new display option: the `Variant` display 
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#filter-on-the-identifier"
 :::
 
-Filtering on your product model identifiers has now arrived in your product grid! So neat!
+You can now search on your product model (and sub-product model) identifiers in your product grid! Enter your product model ID in our search bar or in the `Identifier` filter et voilà!
 
 ![Product identifier filter](../img/product-identifier-filter.png)
 
