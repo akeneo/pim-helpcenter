@@ -26,7 +26,7 @@ The product grid also benefits from a new display option: the `Variant` display 
 
 ![Variant display option](../img/variant-product-display-option.png)
 
-## Filter on the product identifier
+## Search product models using their identifier
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#filter-on-the-identifier"
 :::
 
