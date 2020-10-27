@@ -38,10 +38,6 @@ The first thing to do is to filter the products you want to update with this rul
 ## Product selection
 In the `Product selection` part, you can define the 'Conditions'. They are the attributes or system fields you want to use to filter your products/product models. Altogether, your `Conditions` will create your 'Product selection'.
 
-:::info
-If you want to know what is the entire [list of attributes/system fields](use-YML-file-to-create-and-edit-rules.html) take a look at our article.
-:::
-
 :::warning
 By default, when there is no condition, your whole product catalog is selected. So if you add one or several actions, your whole catalog will be updated!
 :::
