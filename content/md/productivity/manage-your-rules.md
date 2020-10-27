@@ -29,7 +29,7 @@ In the `Properties` tab, you can define:
 
 These fields can be updated afterward. The code is the only part that is immutable.
 
-# The Rule builder
+# The Rules builder
 
 This screen is the most important one as this is where you can manage your conditions and actions.
 
