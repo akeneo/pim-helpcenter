@@ -25,11 +25,11 @@ Once your rule is created, the rule edit screen appears. On this screen, you can
 In the `Properties` tab, you can define:
 - the [priority](what-is-a-rule.html#definition-of-a-rule) of your rule,
 - its label translations
-- its [status](define-a-status-for-a-rule.html).
+- its [status](what-is-a-rule.html#define-a-status-for-a-rule).
 
 These fields can be updated afterward. The code is the only part that is immutable.
 
-# The Rule builder tab
+# The Rule builder
 
 This screen is the most important one as this is where you can manage your conditions and actions.
 
