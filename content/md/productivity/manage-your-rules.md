@@ -46,6 +46,8 @@ At the top of the list, you will find the system fields and below, all the attri
 
 Let's see how a line is organized.
 
+![image](../img/Rules_ProductSelection.png)
+
 On the left, you will find the **system** fields or **attribute** you chose. It is written in purple.
 Then, you have to choose an **operator**. Depending on the filter, the operator list changes.
 The next fields vary depending on your filter. There can be up to 3 types of fields. You can have the **value** field. For example, if your filter is a multi-select attribute type, you can choose which options you want to filter on.
@@ -94,6 +96,8 @@ To do so:
 1. Click on `Add action` at the top of the screen
 1. Select the action you want to add. There is a search bar and a scroll bar to choose the action from a list.
 1. A new section appears under the `Product selection` part.
+
+![image](../img/Rules_Actions.png)
 
 Depending on the action you choose, the template changes. The table below lists all the actions that you can add via the PIM interface.
 
