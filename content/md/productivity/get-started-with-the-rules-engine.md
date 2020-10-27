@@ -1,6 +1,5 @@
 ---
 id: use-YML-file-to-create-and-edit-rules
-themes: boost-your-productivity, catalog-settings
 title: Use a YML file to create and edit your rules
 popular: false
 ee-only: true
