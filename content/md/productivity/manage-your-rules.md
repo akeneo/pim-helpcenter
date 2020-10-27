@@ -10,27 +10,32 @@ related: what-is-a-rule
 # Overview
 
 A rule allows you to automatically enrich some of your product information. It relies on automatic actions based on conditions. A rule is composed of one or several conditions, that allow you to filter products/product models, and then one or several actions to update these products/product models.  
-For more details, please refer to our dedicated article about [the rules engine](get-started-with-the-rules-engine.html).
 
-To create a rule, there are two options. Either you create it via the UI, or via a YML import job.
-
-# Create a rule in the PIM UI
+To create a rule, there are two options. Either you create it via the UI, or via a [YML import job](get-started-with-the-rules-engine.html).
+In this article, we will focus on the UI :wink:
 
 :::warning
-To be able to create/edit rules, you need to have the right permissions. To manage your permissions, please go to `System/Roles`, select the appropriate role and then, click on `Permissions/Rules`, and tick `Create rules` and/or `Edit rules`.
+**To be able to create/edit rules, you need to have the right permissions.** To manage your permissions, please go to `System/Roles`, select the appropriate role and then, click on `Permissions/Rules`, and tick `Create rules` and/or `Edit rules`.
 :::
 
 To create a rule via the UI, go to `Settings/Rules` and click on `Create`. A creation popin appears. Choose a **code** and a **label** to name your rule, then validate. You rule is created! You can now define your product selection and the action.s you want to apply to your selection. Let's go!
 
-Once your rule is created, the rule edit screen appears. On this screen, you can see two tabs: the `rule builder` and `properties`. In the `Properties` tab, you can define the [priority](what-is-a-rule.html#definition-of-a-rule) of your rule, but also its label translations. These fields can be updated afterward. The code is the only part that is immutable.
+Once your rule is created, the rule edit screen appears. On this screen, you can see two tabs: the `rule builder` and `properties`.  
 
-## The Rule builder tab
+In the `Properties` tab, you can define:
+- the [priority](what-is-a-rule.html#definition-of-a-rule) of your rule,
+- its label translations
+- its [status](define-a-status-for-a-rule.html).
+
+These fields can be updated afterward. The code is the only part that is immutable.
+
+# The Rule builder tab
 
 This screen is the most important one as this is where you can manage your conditions and actions.
 
 The first thing to do is to filter the products you want to update with this rule. To do so, there are a bunch of filters available under the `Add condition` button.
 
-### Product selection
+## Product selection
 In the `Product selection` part, you can define the 'Conditions'. They are the attributes or system fields you want to use to filter your products/product models. Altogether, your `Conditions` will create your 'Product selection'.
 
 :::info
@@ -56,7 +61,7 @@ If you want to remove a condition, just click on the cross at the end of the lin
 As you can see on the left side of the `Add condition` button, there is a counter that tells you how many products/product models will be updated by this rule. It means that these conditions will impact X products/product models.
 This count is automatically updated as soon as you change a condition.
 
-#### Available conditions
+### Available conditions
 
 To select your products/product models, you can use all the system fields and attribute types of the PIM as `conditions`:
 
@@ -85,7 +90,7 @@ To select your products/product models, you can use all the system fields and at
 - Reference entity single link & multiple link attributes
 - Price attribute
 
-### Add actions
+## Add actions
 
 Now that you have filtered your products/product models, you can add one or several actions you'll apply to them!
 
@@ -98,7 +103,7 @@ Here is the [list of all the actions](get-started-with-the-rules-engine.html) yo
 
 Depending on the action you choose, the template changes. The table below lists all the actions that you can add via the PIM interface.
 
-#### Available actions
+### Available actions
 
 | Set actions  | What they do |
 |---|---|
