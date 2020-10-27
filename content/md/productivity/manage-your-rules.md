@@ -2,16 +2,16 @@
 id: manage-your-rules
 themes: boost-your-productivity, catalog-settings
 title: Manage your **rules**
-popular: false
+popular: true
 ee-only: true
-related: what-is-a-rule
+related: what-is-a-rule, use-YML-file-to-create-and-edit-rules
 ---
 
 # Overview
 
 A rule allows you to automatically enrich some of your product information. It relies on automatic actions based on conditions. A rule is composed of one or several conditions, that allow you to filter products/product models, and then one or several actions to update these products/product models.  
 
-To create a rule, there are two options. Either you create it via the UI, or via a [YML import job](get-started-with-the-rules-engine.html).
+To create a rule, there are two options. Either you create it via the UI, or via a [YML import job](use-YML-file-to-create-and-edit-rules.html).
 In this article, we will focus on the UI :wink:
 
 :::warning
@@ -23,9 +23,9 @@ To create a rule via the UI, go to `Settings/Rules` and click on `Create`. A cre
 Once your rule is created, the rule edit screen appears. On this screen, you can see two tabs: the `rule builder` and `properties`.  
 
 In the `Properties` tab, you can define:
-- the [priority](what-is-a-rule.html#definition-of-a-rule) of your rule,
-- its label translations
-- its [status](what-is-a-rule.html#define-a-status-for-a-rule).
+- the priority of your rule (should be between 0 and 100),
+- its label translations,
+- its [status](#define-a-status-for-a-rule).
 
 These fields can be updated afterward. The code is the only part that is immutable.
 
@@ -39,7 +39,7 @@ The first thing to do is to filter the products you want to update with this rul
 In the `Product selection` part, you can define the 'Conditions'. They are the attributes or system fields you want to use to filter your products/product models. Altogether, your `Conditions` will create your 'Product selection'.
 
 :::info
-If you want to know what is the entire [list of attributes/system fields](get-started-with-the-rules-engine.html) take a look at our article.
+If you want to know what is the entire [list of attributes/system fields](use-YML-file-to-create-and-edit-rules.html) take a look at our article.
 :::
 
 :::warning
@@ -99,8 +99,6 @@ To do so:
 1. Select the action you want to add. There is a search bar and a scroll bar to choose the action from a list.
 1. A new section appears under the `Product selection` part.
 
-Here is the [list of all the actions](get-started-with-the-rules-engine.html) you can do with the rules engine if you use the YML file import.
-
 Depending on the action you choose, the template changes. The table below lists all the actions that you can add via the PIM interface.
 
 ### Available actions
@@ -150,7 +148,7 @@ Depending on the action you choose, the template changes. The table below lists 
 
 
 # Create rules via a YML import
-To create rules using a YML file, you need to [create](get-started-with-the-rules-engine.html) it and import it in the PIM using the `Rule import in YML` import job.
+To create rules using a YML file, you need to [create](use-YML-file-to-create-and-edit-rules.html) it and import it in the PIM using the `Rule import in YML` import job.
 
 ::: info
 For more details about how to execute an import, please refer to [Import your data](imports.html).
