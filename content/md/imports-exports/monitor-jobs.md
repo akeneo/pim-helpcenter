@@ -53,3 +53,13 @@ You can also have more details when you executed a mass action. To review their 
 1.  The page of the report is then displayed: the details of the executing bulk action are shown on the page
 
 ![image](../img/Dashboard_Calculation6.png)
+
+## Searching for a job
+
+If you want to find a specific job amongst all those listed in the process tracker, you can use the following search filters:
+- By job name
+- By type
+- By user
+- By status
+
+![Process tracker search filters](../img/Exports_Process-Tracker-search-filters.png)
