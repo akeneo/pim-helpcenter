@@ -12,7 +12,7 @@ related: what-is-a-rule, use-YML-file-to-create-and-edit-rules
 A rule allows you to automatically enrich some of your product information. It relies on automatic actions based on conditions. A rule is composed of one or several conditions, that allow you to filter products/product models, and then one or several actions to update these products/product models.  
 
 To create a rule, there are two options. Either you create it via the UI, or via a [YML import job](use-YML-file-to-create-and-edit-rules.html).
-In this article, we will focus on the UI :wink:
+In this article, we will focus on the UI. :wink:
 
 :::warning
 **To be able to create/edit rules, you need to have the right permissions.** To manage your permissions, please go to `System/Roles`, select the appropriate role and then, click on `Permissions/Rules`, and tick `Create rules` and/or `Edit rules`.
