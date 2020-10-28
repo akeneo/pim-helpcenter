@@ -30,6 +30,9 @@ To start the export of product information from the products' grid:
 To save time, your selections are stored in your local session. It means the next time you click on Quick Export, the same options will already be selected.
 :::
 
+After you've launched a quick product export from the product grid, you can easily jump to this task's progress details in the process tracker. Indeed, you just need to click on the link to the job detail directly embedded in the flash message that confirms the quick export launch.
+![Quick Export flash message](../img/Exports_Quick-Export-direct-link.png)
+
 The action is processed as a back-end task, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified. To download your file, click on the notification you received in the bottom-right corner or go to `Activity` then click on `Process tracker` and on the desired job.
 
 On the report page, you can download your selection by clicking on `Download generated files` in the top-right corner.
