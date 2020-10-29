@@ -241,7 +241,7 @@ To create a user role and link it to your connection:
 
 ## Configure the connection user group
 
-For each connection, you can define a [user group](what-is-a-user-group.html). This user group should be first [created in the `User role` screens](build-your-user-groups.html#create-a-user-group).
+For each connection, you can define a [user group](what-is-a-user-group.html). This user group should be first [created in the `User group` screens](build-your-user-groups.html#create-a-user-group).
 
 ::: warning
 By default, your connection is created with the `All` user group. You may want to change that as this user group is quite generic and may not assign the desired permissions to your connection.
