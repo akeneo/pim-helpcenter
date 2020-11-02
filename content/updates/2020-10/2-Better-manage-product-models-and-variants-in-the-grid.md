@@ -8,7 +8,7 @@ pim_announcement_audience:
 
 # Better manage product models and variants in the grid
 
-Do you work a lot with product models and variants? If yes, you will surely enjoy these simple but yet efficient improvements we made in the product grid: a new filter on the product type, a new display option...
+You work a lot with product models and variants? You will definitely enjoy these simple yet efficient improvements in the product grid: a new filter on the product type, a new display option...
 
 ## Filter on the product typology
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#filter-on-product-typology"
@@ -22,7 +22,7 @@ The new `Product typology` filter in the product grid allows you to choose to di
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#display-products-with-variants"
 :::
 
-The product grid also benefits from a new `Variant` display option at the top of the grid. Use it if you want to list your variant products in the grid, or keep them grouped by product models. Thanks to this new option, you do not need anymore to first click on a product model to access its variants. What a time saver!
+The product grid also benefits from a new `Variant` display option above the grid. Use it if you want to see your variant products individually in the grid, or keep them grouped by product models. Thanks to this new option, you no longer need to click on a product model to access its variants. What a time saver!
 
 ![Variant display option](../img/variant-product-display-option.png)
 
@@ -30,7 +30,7 @@ The product grid also benefits from a new `Variant` display option at the top of
 ::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#filter-on-the-identifier"
 :::
 
-You can now search on your product model (and sub-product model) identifiers in your product grid! Enter your product model ID in our search bar or in the `Identifier` filter et voilà!
+In your product grid, you can now search by product model (and sub-product model) identifiers. Enter your product model ID in our search bar or in the `Identifier` filter et voilà!
 
 ![Product identifier filter](../img/product-identifier-filter.png)
 
