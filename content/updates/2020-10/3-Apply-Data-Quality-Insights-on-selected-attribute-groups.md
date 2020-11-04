@@ -11,7 +11,7 @@ pim_announcement_audience:
 
 Data Quality Insights evolves to help you better prioritize your data quality focus areas. You can now enable/disable the feature at the attribute group level.
 
-Find this fine-tuning in the attribute groups settings page. 😉
+Find this fine-tuning in the attribute group setting page. 😉
 
 ![Toggle Data Quality Insights in the attribute groups setting page](../img/toggle-dqi-in-the-attribute-groups-settings.png)
 
