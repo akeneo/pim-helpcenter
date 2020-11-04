@@ -17,7 +17,7 @@ New filters are available in the rules engine to help you better define your con
 
 ![The new filters in action](../img/new-filters-for-rules-conditions.png)
 
-Condition filters enable you to narrow down the product selection for a given rule. The more precise your rule conditions, the faster it will be run. So don't hesitate to use those new filters.
+Condition filters enable you to narrow down the targeted products for a rule. The more precise your rule conditions, the faster it will be run. So don't hesitate to use those new filters.
 
 ::: more
 [How to manage your rules?](../articles/manage-your-rules.html)
