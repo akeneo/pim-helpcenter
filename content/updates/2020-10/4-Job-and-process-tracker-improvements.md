@@ -26,7 +26,7 @@ Quickly find a launched job thanks to the new `User` filter we introduce in the 
 
 ![User filter](../img/user-filter-in-the-process-tracker.png)
 
-On a side note, you will also notice that you can organize the process tracker grid jobs by users.
+On a side note, you will also notice that you can sort the process tracker grid jobs by users.
 
 ![User sorting capability](../img/user-sorting-capability-in-the-process-tracker.png)
 
