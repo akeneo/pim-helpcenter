@@ -62,18 +62,15 @@ The JSON format of the naming convention contains several parts:
 
 ```json
 {
-  "naming_convention": {
     "source": {...},
     "pattern": A_REGEXP,
     "abort_asset_creation_on_error": A_BOOLEAN
-  }
 }
 ```
 
 #### Examples
 ```json
-{
-  "naming_convention": {
+ {
     "source": {
         "property": "main_asset_image",
         "channel": null,
@@ -81,8 +78,7 @@ The JSON format of the naming convention contains several parts:
     },
     "pattern": "/(?P<product_ref>.*)\\_(?P<attribute_ref>.*)\\.jpg/",
     "abort_asset_creation_on_error": true
-  }
-}
+ }
 ```
 
 Still not comfortable with the naming convention? Don't hesitate to go through the complete [API article](https://api.akeneo.com/concepts/asset-manager.html#focus-on-the-naming-convention) where we detail each part of the naming convention format.
