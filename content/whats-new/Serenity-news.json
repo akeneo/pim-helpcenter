@@ -70,6 +70,13 @@
     "link": "/pim/serenity/updates/2020-04.html#data-quality-insights-on-product-models"
   },
   {
+    "title":"Automated description creation 🤖",
+    "domains": ["Automation","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-10.html#automate-your-description-creation-thanks-to-rules"
+  },
+  {
     "title":"Spell-check on text area and text attributes in Italian 🇮🇹",
     "domains": ["Data quality"],
     "editions": ["CE","EE"],
