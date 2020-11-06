@@ -133,10 +133,12 @@
                                     </div>
                                 </div>
                             {{/if}}
-                            <h3>Documentation</h3>
-                            <p>You are a {{label}} user? We crafted some docs with ❤️ for you!</p>
-                            <p><a href="{{doc.functional}}">> Browse our user guides</a>{{#if doc.api}}<br>
-                            <a href="{{doc.api}}">> Check out our API doc</a>{{/if}}</p>
+                            {{#if doc}}
+                                <h3>Documentation</h3>
+                                <p>You are a {{label}} user? We crafted some docs with ❤️ for you!</p>
+                                <p><a href="{{doc.functional}}">> Browse our user guides</a>{{#if doc.api}}<br>
+                                <a href="{{doc.api}}">> Check out our API doc</a>{{/if}}</p>
+                            {{/if}}
                         </div>
                         <div class="col-xs-12 col-sm-8">
                             <h3>Support</h3>

@@ -247,5 +247,19 @@
     "newKeyFeaturesIn": null,
     "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
     "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+  },
+  {
+    "code": "10",
+    "label": "1.0",
+    "name": {
+      "CE": "Hare We Go",
+      "EE": "Dandelion"
+    },
+    "releaseDate": "2014-09-15",
+    "supportEndDate": "2016-03-31",
+    "doc": null,
+    "newKeyFeaturesIn": null,
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   }
 ]
