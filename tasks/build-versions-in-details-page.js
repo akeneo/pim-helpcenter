@@ -54,6 +54,7 @@ function generateVersionsInDetailsPage(fileDirectoryDestination) {
         .pipe(gulpHandlebars({
             title: 'Discover our PIM versions',
             versions: versions,
+            reversedVersions: versions.slice().reverse(),
             latestGAVersion: latestGAVersion,
             serenityLastNewUpdates: serenityLastNewUpdates,
             majorVersion: majorVersion

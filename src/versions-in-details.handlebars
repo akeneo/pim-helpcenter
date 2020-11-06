@@ -9,9 +9,7 @@
                 <h1>Everything you need to know about our PIM versions</h1>
                 <p>Here you'll learn everything you've ever needed about your PIM version. <em>Is it still supported by our teams? Where can you find the documentation? What are the new features of your version? To which version should you migrate?</em></p>
                 <p>In this page, you can also discover what are our latest versions and the scope of new features they introduce.</p>
-                <h3>Easily jump to your PIM version</h3>
-                <a href="#serenity" class="btn btn-primary btn-sm btn-ghost" style="margin-bottom: 5px; margin-right: 5px;">Serenity</a>{{#each versions as |version id|}}<a href="#{{code}}" class="btn btn-primary btn-sm btn-ghost" style="margin-bottom: 5px; margin-right: 5px;">{{label}}</a>{{/each}}
-                <p class="small"><em>Versions are ranked from the latest to the oldest. Don't hesitate to migrate to newer versions to benefit from great new features!</em></p>
+                <p>Don't hesitate to jump to your PIM version:  {{#each reversedVersions as |version id|}}<a href="#{{code}}">{{label}}</a> | {{/each}}<a href="#serenity">Serenity</a><br/><span class="small"><em>Versions are ranked from the oldest to the latest. Don't hesitate to migrate to newer versions to benefit from great new features!</em></span></p>
             </div>
         </div>
     </div>
