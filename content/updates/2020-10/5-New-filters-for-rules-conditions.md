@@ -9,7 +9,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Automation, Productivity" available="early October" link-to-doc="../articles/manage-your-rules.html#available-conditions"
 :::
 
-New condition filters are available in the rules engine in the rules engine to help you better narrow down your product selection for a rule. For instance, you can now target specific product models or variants, or a list of product identifiers.
+New condition filters are available in the rules engine to help you better narrow down your product selection for a rule. For instance, you can now target specific product models or variants, or a list of product identifiers.
 
 You can now filter on:
 - the entity type: to target product models or products and variant products,
