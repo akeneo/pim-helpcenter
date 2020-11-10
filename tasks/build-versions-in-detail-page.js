@@ -13,16 +13,16 @@ const coloredDomains = require('./common/colored-domains.js');
 
 const majorVersion = 'serenity';
 
-module.exports = {generateVersionsInDetailsPage};
+module.exports = {generateVersionsInDetailPage};
 
-gulp.task('build-versions-in-details-page', ['clean-dist','less'], function() {
+gulp.task('build-versions-in-detail-page', ['clean-dist','less'], function() {
     const fileDirectoryDestination = './dist/pim/serenity';
 
-    return generateVersionsInDetailsPage(fileDirectoryDestination);
+    return generateVersionsInDetailPage(fileDirectoryDestination);
 });
 
-function generateVersionsInDetailsPage(fileDirectoryDestination) {
-    var versions = JSON.parse(fs.readFileSync('content/versions-in-details/versions.json'));
+function generateVersionsInDetailPage(fileDirectoryDestination) {
+    var versions = JSON.parse(fs.readFileSync('content/versions-in-detail/versions-in-detail.json'));
 
     _.each(versions, function(version){
         var releaseDate = moment.utc(version.releaseDate);
@@ -50,7 +50,7 @@ function generateVersionsInDetailsPage(fileDirectoryDestination) {
         });
     });
 
-    return gulp.src('src/versions-in-details.handlebars')
+    return gulp.src('src/versions-in-detail.handlebars')
         .pipe(gulpHandlebars({
             title: 'Discover our PIM versions',
             versions: versions,
@@ -61,7 +61,7 @@ function generateVersionsInDetailsPage(fileDirectoryDestination) {
         }, {
             partialsDirectory: ['./src/partials']
         }))
-        .pipe(rename('versions-in-details.html'))
+        .pipe(rename('versions-in-detail.html'))
         .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
         .pipe(gulp.dest(fileDirectoryDestination));
 };

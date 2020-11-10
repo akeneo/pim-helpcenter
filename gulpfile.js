@@ -22,7 +22,7 @@ gulp.task('watch', ['create-dist'], function() {
   gulp.watch('content/updates/*', ['create-dist']);
   gulp.watch('content/updates/**/*.md', ['create-dist']);
   gulp.watch('content/whats-new/*.json', ['create-dist']);
-  gulp.watch('content/versions-in-details/*.json', ['create-dist']);
+  gulp.watch('content/versions-in-detail/*.json', ['create-dist']);
 });
 
 // Launch a server with dist directory exposed on it
@@ -47,7 +47,7 @@ gulp.task('create-dist', [
   'build-monthly-updates-as-html',
   'build-monthly-updates-as-json',
   'build-whats-new-page',
-  'build-versions-in-details-page'
+  'build-versions-in-detail-page'
 ]);
 
 // Main task that should be used for development purpose
