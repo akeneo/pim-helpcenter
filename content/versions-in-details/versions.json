@@ -28,7 +28,7 @@
       "EE": "Edelweiss"
     },
     "releaseDate": "2019-07-31",
-    "supportEndDate": "2021-01-31",
+    "supportEndDate": "2021-02-28",
     "doc": {
       "functional": "/pim/v3",
       "api": "https://api.akeneo.com/api-reference-index-32.html"
