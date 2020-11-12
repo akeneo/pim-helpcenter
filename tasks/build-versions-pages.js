@@ -71,7 +71,7 @@ function generateVersionsInDetailPage(fileDirectoryDestination) {
 };
 
 function generateVersionsSupportedTable(fileDirectoryDestination) {
-    var versions = JSON.parse(fs.readFileSync('content/versions-in-details/versions.json'));
+    var versions = JSON.parse(fs.readFileSync('content/versions-in-detail/versions-in-detail.json'));
 
     _.each(versions, function(version){
         var releaseDate = moment.utc(version.releaseDate);
