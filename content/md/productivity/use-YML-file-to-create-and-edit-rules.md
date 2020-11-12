@@ -1,15 +1,14 @@
 ---
-id: get-started-with-the-rules-engine
-themes: boost-your-productivity, catalog-settings
-title: Get started with the **rules engine**
+id: use-YML-file-to-create-and-edit-rules
+title: Use a YML file to create and edit your rules
 popular: false
 ee-only: true
-related: what-is-a-rule
+related: what-is-a-rule, manage-your-rules
 ---
 
 The rules engine can radically boost your productivity in the PIM by automating actions. As explained in [this article](what-is-a-rule.html), a rule enables you to automatically apply **one or several actions** to a specific **list of products and product models**. To set the targeted products, you have to define `conditions` (that are composed by fields and operators).  
 
-The rules are defined in a YML file that you can import in the PIM, using a dedicated job profile.   
+You can [manage your rules](manage-your-rules.html) directly in the PIM UI, but they can also be defined in a YML file that you can import in the PIM, using a dedicated job profile.   
 
 This feature is very, like, really powerful, and the use cases are countless. In order to guide you in the rules engine usage, we wrote this article where you will find out what you can use it for and how it works.
 
