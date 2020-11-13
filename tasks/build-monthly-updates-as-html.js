@@ -81,6 +81,7 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAl
         return keepUpdatesFromPreviousMonths(folderName, generateAllUpdates);
     });
 
+    // Classify all monthly updates by year
     var yearlyUpdates = [];
     _.each(monthlyUpdates, function(update, key) {
         var year = key.substring(0,4);
@@ -91,7 +92,6 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAl
         yearlyUpdate = _.find(yearlyUpdates, ['year', year]);
         yearlyUpdate.monthlyUpdates[key] = update;
     });
-    console.log(yearlyUpdates);
 
     return gulp.src('src/monthly-updates-index.handlebars')
         .pipe(gulpHandlebars({
