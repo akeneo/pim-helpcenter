@@ -90,7 +90,7 @@ A product can also be associated to a [product model](what-about-products-varian
 
 :::warning
 Quantities must be positive integers, between 1 and 2,147,483,647.  
-Using associations with quantities, please note that you cannot associate more than 100 products/product models per one product/product model.
+Association type with quantities only: please note that you cannot associate more than 100 products/product models per one product/product model.
 :::
 
 ## Remove associations from a product
