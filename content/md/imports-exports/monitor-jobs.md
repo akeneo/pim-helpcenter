@@ -15,7 +15,7 @@ Everytime you perform certain actions, a back-end process called a "job" starts.
 - a [mass edit](product-mass-actions.html),
 - a calculation of [project](what-is-a-project.html)
 - a [rules](what-is-a-rule.html) execution _(EE only)_
-- the approval/rejection of a [approvals](proposals-workflow.html) _(EE only)_
+- the approval/rejection of [approvals](proposals-workflow.html) _(EE only)_
 
 The steps when a job starts is (mostly) the following:
 
