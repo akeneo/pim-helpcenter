@@ -75,22 +75,22 @@ The ability to stop a job is defined at the role-level. Please read our [Interfa
 
 ## Stoppping a job from the Dashboard
 
-1.  Go to `Activity`/`Dashboard`
-1.  Click on "STOP" next to the ongoing job you would like to stop
+1.  Go to `Activity` then `Dashboard`
+1.  Click on `STOP` next to the ongoing job you would like to stop
 
 ## Stoppping a job from the Process Tracker
 
-1.  Go to `Activity`/`Process Tracker`
-1.  Click on "STOP" next to the ongoing job you would like to stop
+1.  Go to `Activity` then `Process Tracker`
+1.  Click on `STOP` next to the ongoing job you would like to stop
 
 ## Stoppping a job from the job details itself
 
-1.  Go to `Activity`/`Process Tracker`
+1.  Go to `Activity` then `Process Tracker`
 1.  Select the job you would like to stop
-1.  Click on STOP
+1.  Click on `STOP`
 
 ## Stoppping a job from an export/import profile
 
-1.  Go to `Imports` or `Exports` depending on the job you would like to stop
+1.  Go to `Imports` or `Exports`
 1.  Select the appropriated import or export profile
-1.  Under `Last execution`, click on STOP
+1.  Under `Last execution`, click on `STOP`
