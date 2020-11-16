@@ -88,8 +88,9 @@ A product can also be associated to a [product model](what-about-products-varian
   ![Adjust associated products quantities](../img/Products_Products_Associations_Quantities.png)
 1.  Click on `Save`
 
-:::info
-Quantities must be positive integers, between 1 and 2,147,483,647.  Using associations with quantities, please note that you cannot associate more than 100 products/product models per one product/product model.
+:::warning
+Quantities must be positive integers, between 1 and 2,147,483,647.  
+Using associations with quantities, please note that you cannot associate more than 100 products/product models per one product/product model.
 :::
 
 ## Remove associations from a product
