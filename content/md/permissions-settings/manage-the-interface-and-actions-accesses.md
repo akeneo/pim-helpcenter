@@ -282,3 +282,4 @@ Only give UI permissions to user roles that are related to real users, not to [c
 | Manage the API connections | User can access the page `System`/`API connections`  |
 | View process tracker | User can access the page `System`/`Process tracker` and view his own jobs |
 | View all jobs in process tracker | User can view the jobs of *all users* from the page `System`/`Process tracker`  |
+| Stop an ongoing job | User can stop the ongoing jobs of *all users* from the page `System`/`Process tracker`  |

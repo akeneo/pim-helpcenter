@@ -63,3 +63,34 @@ If you want to find a specific job amongst all those listed in the process track
 - By status
 
 ![Process tracker search filters](../img/Exports_Process-Tracker-search-filters.png)
+
+# How to stop a job?
+
+If you launched a job by error, or for any other reason, it is possible to stop an ongoing job.
+To do so, there is different ways.
+
+:::info
+The ability to stop a job is defined at the role-level. Please read our [Interface and actions accesses](manage-the-interface-and-actions-accesses.html) documentation for more information.
+:::
+
+## Stoppping a job from the Dashboard
+
+1.  Go to `Activity`/`Dashboard`
+1.  Click on "STOP" next to the ongoing job you would like to stop
+
+## Stoppping a job from the Process Tracker
+
+1.  Go to `Activity`/`Process Tracker`
+1.  Click on "STOP" next to the ongoing job you would like to stop
+
+## Stoppping a job from the job details itself
+
+1.  Go to `Activity`/`Process Tracker`
+1.  Select on the job you would like to stop
+1.  Click on STOP
+
+## Stoppping a job from an export/import profile
+
+1.  Go to `Imports` or `Exports` depending on the job you would like to stop
+1.  Select the appropriated import or export profile
+1.  Under `Last execution`, click on STOP
