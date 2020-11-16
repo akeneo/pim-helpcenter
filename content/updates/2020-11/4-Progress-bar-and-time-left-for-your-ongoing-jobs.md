@@ -15,5 +15,5 @@ You are now able to see an estimation of the remaining time and a progress bar f
 
 ::: more 
 [What is a job?](../articles/monitor-jobs.html#what-is-a-job)  
-[How to follow the progress of your imports and exports?](../articles/monitor-jobs.html#how-to-monitor)
+[How to follow the progress of your jobs?](../articles/monitor-jobs.html#how-to-monitor)
 :::
