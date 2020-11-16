@@ -13,10 +13,6 @@ A product may be associated with none or several other products or product group
 
 These types of associations enable you to define relationships, such as an alternative product, a substitution between products, a cross-sell/up-sell option or even a product set composed of different quantities of products.
 
-:::infos
-Please note that you cannot associate more than 100 products/product models per one product/product model.
-:::
-
 # View the product’s associations
 
 To check the association types:
@@ -93,7 +89,7 @@ A product can also be associated to a [product model](what-about-products-varian
 1.  Click on `Save`
 
 :::info
-Quantities must be positive integers, between 1 and 2,147,483,647.
+Quantities must be positive integers, between 1 and 2,147,483,647.  Using associations with quantities, please note that you cannot associate more than 100 products/product models per one product/product model.
 :::
 
 ## Remove associations from a product
