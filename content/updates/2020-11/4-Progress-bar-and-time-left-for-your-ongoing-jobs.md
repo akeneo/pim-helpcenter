@@ -5,11 +5,11 @@ pim_announcement_audience:
 - CE
 ---
 
-# Progress bar and time left for your ongoing jobs
+# Monitor ongoing jobs progress and time left
 ::: meta-data type="New" features="Productivity" available="mid-November" link-to-doc="../articles/TODO.html"
 :::
 
-You are now able to see an estimation of the remaining time and a progress bar for all your ongoing jobs. So don't hesitate to have a look at your process tracker!
+Whenever you launch a job, a progress bar and an estimation of the remaining time before the job is completed, are now displayed in the process tracker. You can now easily see how long it will take to process a job, to help you better organize your daily tasks. 
 
 ![Estimation of the time left and progress bar](../img/TODO.png)
 
