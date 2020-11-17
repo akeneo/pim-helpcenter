@@ -5,7 +5,7 @@ pim_announcement_audience:
 - CE
 ---
 
-# Stop your imports and exports
+# Easily stop ongoing jobs
 ::: meta-data type="New" features="Productivity" available="mid-November" link-to-doc="../articles/TODO.html"
 :::
 
@@ -15,7 +15,6 @@ A brand new `Stop` button is now displayed in your process tracker. It enables y
 
 This button comes with a dedicated permission `Stop an ongoing job`. If you need it, ask your PIM admin to give you the right to do so.
 
-On a side note, some other jobs such as mass actions or rule executions can also be stopped at any time in the process tracker. So neat!
 
 ::: more
 [What is an import?](../articles/imports.html)  
