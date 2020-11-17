@@ -9,7 +9,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Productivity" available="mid-November" link-to-doc="../articles/TODO.html"
 :::
 
-A brand new `Stop` button is now displayed in your process tracker. It enables you to stop the Excel and CSV imports/exports you launched. Super helpful whenever you launch a job by mistake and don't want to wait for it to execute until the end. 😉
+A brand new `Stop` button is now displayed in your process tracker. It enables you to stop jobs: imports, exports but also ongoing mass actions or rule executions. Super helpful whenever you launch a job by mistake (we're all humans after all) and don't want to wait for it to execute until the end. 😉
 
 ![The new `Stop` button in the process tracker](../img/TODO.png)
 
