@@ -32,13 +32,27 @@ Note that the dashboard will also give you the status of your launched jobs. To 
 If you want to view the jobs of all the users of your PIM (and not only yours), adding the [permission on action](manage-the-interface-and-actions-accesses.html#rights-on-system-pages) `View all jobs in Process Tracker` on your user role will grant you that privilege.
 :::
 
+# What's jobs' details?
+
+Jobs' details are reports of your jobs.
+In each job detail, you'll find information about the status of your job, and they may vary depending if they're started, stopped, failed or completed. These information are:
+* Number of steps
+* Time estimation above each step
+* A table with the details of all actions performed under each step
+
+
+To access a specific job's detail:
+1.  Go to `Activity`/`Process Tracker`
+1.  Search for the job you would like know more about
+1.  Click on the desired job
+
 # How to monitor your jobs?
 ## Imports & exports jobs
 
 You can have more details when you execute an import or an export. To review their report:
 1.  Go to `Imports` or `Exports`
 2.  Select in the list the profile job for which you want to view the report
-2.  You can clearly see the status of your import: `Completed`, `Started` or `Failed` thanks to a color code
+2.  You can clearly see the status of your import: `Started`, `Completed`, `Failed` or `Stopped` thanks to a color code
 1.  Click on your import/export
 1.  The import/export job details appear
 
@@ -66,8 +80,16 @@ If you want to find a specific job amongst all those listed in the process track
 
 # How to stop your jobs?
 
-If you launched a job by error, or for any other reason, it is possible to stop an ongoing job.
-To do so, there is different ways described below.
+If you launched a job by error, or for any other reason, it is possible to stop an ongoing job. The jobs that can be stopped are the following:
+* All export jobs
+* All import jobs (except **families** and **family variants**)
+* Mass actions (mass delete products, mass publish products, mass unpublish products)
+* Rules (rules execution, calculation of impacted products)
+* Proposals (approve all, reject all)
+
+Note that **stopping a job won't revert the actions already performed**: for instance, if you launched a mass action about an attribute for a selection of products and you realise a few minutes after that you selected the wrong products, if you stop the ongoing job, the modifications done before you stopped the job won't be reverted. You will have to mass edit back the modifications.
+
+To stop a job, there are different ways described in the sections below.
 
 :::info
 The ability to stop a job is defined at the role-level. Please read our [Interface and actions accesses](manage-the-interface-and-actions-accesses.html#rights-on-system-pages) documentation for more information.
@@ -76,21 +98,25 @@ The ability to stop a job is defined at the role-level. Please read our [Interfa
 ## Stoppping a job from the Dashboard
 
 1.  Go to `Activity` then `Dashboard`
-1.  Click on `STOP` next to the ongoing job you would like to stop
+1.  Under `Last operations`, look for the ongoing job you would like to stop
+1.  Click on `STOP` at the end of the job's line
 
 ## Stoppping a job from the Process Tracker
 
 1.  Go to `Activity` then `Process Tracker`
-1.  Click on `STOP` next to the ongoing job you would like to stop
+1.  Search for the ongoing job you would like to stop
+1.  Click on `STOP` at the end of the job's line
 
 ## Stoppping a job from the job details itself
 
 1.  Go to `Activity` then `Process Tracker`
-1.  Select the job you would like to stop
-1.  Click on `STOP`
+1.  Search for the ongoing job you would like to stop
+1.  Click on the desired job
+1.  In the top right corner, click on `STOP`
 
 ## Stoppping a job from an export/import profile
 
 1.  Go to `Imports` or `Exports`
-1.  Select the appropriated import or export profile
-1.  Under `Last execution`, click on `STOP`
+1.  Click on the desired import or export profile
+1.  Under `Last execution`, look for the ongoing job you would like to stopped
+1.  Click on `STOP` at the end of the job's line
