@@ -7,24 +7,36 @@ ee-only: right
 related:
 ---
 
-# Add a record
+# Create records
+## Create a record
 Once you have created a reference entity, you can add **records**.
-Let’s say that you just have created the reference entity `Brand`, you have defined its records attributes and now it is time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
+Let’s say that you just have created the `Brand` reference entity, you have defined its records attributes and now it is time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
 
-To add a new brand to the reference entity `Brand`:
+To add a new brand to the `Brand` reference entity:
 1. Go to your `Brand` entity (you will automatically land on the records grid)
-1. Then click on the `Add new` button, choose a label for the record (the PIM will automatically take its label to generate your record's code, but you can change it if needed).
+1. Then click `Add new`, choose a label for the record (the PIM will automatically take its label to generate your record's code, but you can change it if needed).
 
 ![Create a record](../img/Records_creation.png)
 
-::: tips
-If you have several records to add, you can stay in the creation pop-in to add quickly as many records as needed:
+## Create several records
+
+### Via the UI
+If you have several records to add to your reference entity, you can stay in the creation pop-in to add quickly as many records as needed:
 1. Input the first record label
 1. Tick `Create another record`
 1. Press `Enter`
 1. Add the label for each record
 1. Once you've done, press `Esc` or `Echap`   
+
+### Via the record import profile
+It is also possible to create and edit a list of records in an excel or csv file, and then import it in the PIM. To do so, you have to [create a new import profile](create-a-new-import-profile.html) in the `Imports` menu, and select the `Reference entity record import in CSV` or `Reference entity record import in XLSX` job.
+
+:::tips
+In order to retrieve the structure of your records in your file, you can first export them using the dedicated export profile. But mind you! You can only export records coming from one reference entity.
 :::
+
+### Via the API
+Check out our dedicated documentation to learn how to [create several records via the API](https://api.akeneo.com/api-reference.html#Referenceentityrecord) :wink:.
 
 ::: info
 Note that we have defined a limitation of 1 million records per reference entity to guarantee that the PIM is functional and runs smoothly.
@@ -174,6 +186,14 @@ We added the completeness of a record in the selector.
 ::: tips
 Click on the `link` icon on each record line in the selector to preview the record! It will automatically open a new tab in your browser.
 :::
+
+# Export records
+As explained earlier, you can export a set of records belonging to the same reference entity. To do so:
+- Go to the `Exports` tab of your PIM
+- Create a new export profile and define its code, label, and choose the `Reference entity record export in CSV` or `Reference entity record export in XLSX` job
+- Don't forget to select a reference entity in the `Global settings` tab.
+
+![Export records](../img/ReferenceEntity_ExportRecords.png)
 
 # Delete records
 
