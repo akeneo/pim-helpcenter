@@ -19,7 +19,7 @@ Some actions trigger a back-end process called a "job". These actions can be:
 
 Here is what happens when you launch a job:
 
-1.  First, you are notified by a flash message when a job starts. Friendly warning, the approval/rejection of proposals don't trigger flash messages. 
+1.  First, you are notified by a flash message when a job starts. Friendly warning, the approval/rejection of proposals don't trigger flash messages.
 ![image](../img/Settings_Calculation1.png)
 1. Then, while the job is running, it will be listed in the Process Tracker amongst all the other jobs you launched. To access it, go to `Activity` and click on `Process tracker`.
 ![image](../img/Settings_Calculation3.png)  
@@ -29,7 +29,7 @@ Note that you can also check the status of your launched jobs on the dashboard. 
 ![image](../img/Settings_Calculation2.png)
 
 ::: tips
-Please note it is possible to use the 'View all jobs in Process Tracker' permission in the 'Roles' page to access all the jobs launched by all the users of your PIM. To find out more, check our article on [permissions] in our help center. 
+Please note it is possible to use the 'View all jobs in Process Tracker' permission in the 'Roles' page to access all the jobs launched by all the users of your PIM. To find out more, check our article on [permissions] in our help center.
 :::
 
 # What can you find in a job detail?
@@ -40,6 +40,7 @@ In each job detail, you'll find information about the status of your job, which 
 * Time estimation above each step
 * A table with the details of all the actions performed under each step
 
+![Job detail example](../img/Jobs_job-detail.png)
 
 To access a specific job detail:
 1.  Go to `Activity`/`Process Tracker`
@@ -95,17 +96,13 @@ To stop a job, there are different ways that you will find in the sections below
 The ability to stop a job is defined at the role-level. Please read our [Interface and actions accesses](manage-the-interface-and-actions-accesses.html#rights-on-system-pages) documentation for more information.
 :::
 
-## Stopping a job from the Dashboard
-
-1.  Go to `Activity` then `Dashboard`
-1.  Under `Last operations`, look for the ongoing job you would like to stop
-1.  Click on `STOP` at the end of the job's line
-
 ## Stopping a job from the Process Tracker
 
 1.  Go to `Activity` then `Process Tracker`
 1.  Search for the ongoing job you would like to stop
 1.  Click on `STOP` at the end of the job's line
+
+![Stopping a job from the process tracker](../img/Jobs_stop-job-process-tracker.png)
 
 ## Stopping a job from the job detail itself
 
@@ -114,9 +111,13 @@ The ability to stop a job is defined at the role-level. Please read our [Interfa
 1.  Click on the job you'd like to stop
 1.  In the top right corner, click on `STOP`
 
+![Stopping a job from the job detail](../img/Jobs_stop-job-detail.png)
+
 ## Stopping a job from an export/import profile
 
 1.  Go to `Imports` or `Exports`
 1.  Click on the right import or export profile
 1.  Under `Last execution`, look for the ongoing job you would like to stop
 1.  Click on `STOP` at the end of the job's line
+
+![Stopping a job from the job detail](../img/Jobs_stop-job-export-profile.png)
