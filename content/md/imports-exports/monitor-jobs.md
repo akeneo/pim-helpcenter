@@ -51,19 +51,20 @@ To access a specific job detail:
 
 You can get more details when you execute an import or an export job. To access the job detail:
 1.  Go to `Imports` or `Exports`
-1. In the list, select the profile job you need
+1.  In the list, select the profile job you need
 1.  Click on your import/export job
 1.  The import/export job detail appear
-![image](../img/Jobs_export-import-profiles.png)
+![Jobs export/import profiles](../img/Jobs_export-import-profiles.png)
 
 The details of the executed import/export job are displayed and related to individual import/export profiles.
 
-## Mass action execution jobs
+## Mass actions jobs
 
 You can have more details about executing a mass action. To check the report:
-1.  Go to `Activity`/`Process Tracker` or click on the notification of the completed mass action
-1.  The page of the report is displayed, it contains all the details about the executed mass action.
-![image](../img/Dashboard_Calculation6.png)
+1.  Go to `Activity`/`Process Tracker`
+1.  Search for the job you would like to know more about
+1.  Click on the job to get more details
+![Jobs mass execution details](../img/Jobs_mass-actions.png)
 
 ## Searching for a job
 
