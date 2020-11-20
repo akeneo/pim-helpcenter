@@ -15,7 +15,7 @@ Some actions trigger a back-end process called a "job". These actions can be:
 - a [mass actions](product-mass-actions.html),
 - a calculation of [project](what-is-a-project.html)
 - a [rule](what-is-a-rule.html) execution _(EE only)_
-- the approval/rejection of [approvals](proposals-workflow.html) _(EE only)_
+- the approval/rejection of [proposals](proposals-workflow.html) _(EE only)_
 
 Here is what happens when you launch a job:
 
