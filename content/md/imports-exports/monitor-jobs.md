@@ -10,12 +10,12 @@ related: imports, exports, product-export-builder, discover-the-dashboard, what-
 # What is a job?
 
 Some actions trigger a back-end process called a "job". These actions can be:
-- an [import](imports.html),
-- an [export](exports.html),
-- a [mass action](product-mass-actions.html),
-- a calculation of [project](what-is-a-project.html) _(EE only)_
-- a [rule](what-is-a-rule.html) execution _(EE only)_
-- the approval/rejection of [proposals](proposals-workflow.html) _(EE only)_
+* an [import](imports.html),
+* an [export](exports.html),
+* a [mass action](product-mass-actions.html),
+* a calculation of [project](what-is-a-project.html) _(EE only)_
+* a [rule](what-is-a-rule.html) execution _(EE only)_
+* the approval/rejection of [proposals](proposals-workflow.html) _(EE only)_
 
 Here is what happens when you launch a job:
 
@@ -40,12 +40,6 @@ In each job detail, you'll find information about the status of your job, which 
 * A time estimation above each step
 * A table with the details of all the actions performed under each step
 
-To access a specific job detail:
-1.  Go to `Activity`/`Process Tracker`
-1.  Search for the job you would like to know more about
-1.  Click on the job
-![Job detail example](../img/Jobs_job-detail.png)
-
 # How to monitor your jobs?
 ## Job details
 
@@ -54,15 +48,15 @@ You can get more details when you execute a job. To access the job detail:
 1.  Search for the job you would like to know more about
 1.  Click on the job to get more details
 1.  The job detail appear
-![Quick export job detail](../img/Jobs_quick-export.png)
+![Job detail example](../img/Jobs_job-detail.png)
 
 ## Searching for a job
 
 If you want to find a specific job amongst all those listed in the process tracker, you can use the following search filters:
-- By job name
-- By type
-- By user
-- By status
+* By job name
+* By type
+* By user
+* By status
 ![Process tracker search filters](../img/Exports_Process-Tracker-search-filters.png)
 
 # How to stop your jobs?
