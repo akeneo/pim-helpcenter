@@ -11,7 +11,7 @@ pim_announcement_audience:
 
 You all know the expression _a picture is worth a thousand words_, don't you?  Images are a critical element in designing compelling product experiences. Data Quality Insights now checks whether your products have an image or not. 
 
-Don’t forget them, otherwise, it will decrease your enrichment grade!
+Don’t forget them, otherwise, it will reduce your enrichment grade!
 
 ![The "Missing image" criteria](../img/TODO.png)
 
