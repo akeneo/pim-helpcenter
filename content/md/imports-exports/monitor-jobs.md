@@ -40,17 +40,14 @@ In each job detail, you'll find information about the status of your job, which 
 * A time estimation above each step
 * A table with the details of all the actions performed under each step
 
-# How to monitor your jobs?
-## Job details
-
-You can get more details when you execute a job. To access the job detail:
+To access a job detail:
 1.  Go to `Activity`/`Process Tracker`
 1.  Search for the job you would like to know more about
 1.  Click on the job to get more details
 1.  The job detail appear
 ![Job detail example](../img/Jobs_job-detail.png)
 
-## Searching for a job
+# Searching for a job
 
 If you want to find a specific job amongst all those listed in the process tracker, you can use the following search filters:
 * By job name
