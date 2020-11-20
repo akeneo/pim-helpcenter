@@ -47,24 +47,14 @@ To access a specific job detail:
 ![Job detail example](../img/Jobs_job-detail.png)
 
 # How to monitor your jobs?
-## Import & export jobs
+## Job details
 
-You can get more details when you execute an import or an export job. To access the job detail:
-1.  Go to `Imports` or `Exports`
-1.  In the list, select the profile job you need
-1.  Click on your import/export job
-1.  The import/export job detail appear
-![Jobs export/import profiles](../img/Jobs_export-import-profiles.png)
-
-The details of the executed import/export job are displayed and related to individual import/export profiles.
-
-## Mass actions jobs
-
-You can have more details about executing a mass action. To check the report:
+You can get more details when you execute a job. To access the job detail:
 1.  Go to `Activity`/`Process Tracker`
 1.  Search for the job you would like to know more about
 1.  Click on the job to get more details
-![Jobs mass execution details](../img/Jobs_mass-actions.png)
+1.  The job detail appear
+![Quick export job detail](../img/Jobs_quick-export.png)
 
 ## Searching for a job
 
