@@ -1,6 +1,7 @@
 ---
 pim_announcement_alt_img: "TODO"
 pim_announcement_audience:
+- CE
 - EE
 ---
 
