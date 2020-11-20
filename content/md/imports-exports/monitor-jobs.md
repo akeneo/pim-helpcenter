@@ -12,8 +12,8 @@ related: imports, exports, product-export-builder, discover-the-dashboard, what-
 Some actions trigger a back-end process called a "job". These actions can be:
 - an [import](imports.html),
 - an [export](exports.html),
-- a [mass actions](product-mass-actions.html),
-- a calculation of [project](what-is-a-project.html)
+- a [mass action](product-mass-actions.html),
+- a calculation of [project](what-is-a-project.html) _(EE only)_
 - a [rule](what-is-a-rule.html) execution _(EE only)_
 - the approval/rejection of [proposals](proposals-workflow.html) _(EE only)_
 
@@ -84,7 +84,9 @@ It is possible to stop a running job if it was launched by mistake or if you nee
 * Rules (rules execution, calculation of impacted products)
 * Proposals (approve all, reject all)
 
+:::warning
 Note that **stopping a job won't revert the actions already performed**: for instance, if you launched a mass action about an attribute for a selection of products and you realize a few minutes later that you selected the wrong products, if you stop the ongoing job, the modifications done before you stopped the job won't be reverted. You will have to mass edit the modifications back.
+:::
 
 To stop a job, there are different ways that you will find in the sections below.
 
@@ -92,25 +94,25 @@ To stop a job, there are different ways that you will find in the sections below
 The ability to stop a job is defined at the role-level. Please read our [Interface and actions accesses](manage-the-interface-and-actions-accesses.html#rights-on-system-pages) documentation for more information.
 :::
 
-## Stopping a job from the Process Tracker
+## Stop a job from the Process Tracker
 
 1.  Go to `Activity` then `Process Tracker`
 1.  Search for the ongoing job you would like to stop
-1.  Click on `STOP` at the end of the job's line
+1.  Click on `Stop` at the end of the job's line
 ![Stopping a job from the process tracker](../img/Jobs_stop-job-process-tracker.png)
 
-## Stopping a job from the job detail itself
+## Stop a job from the job detail itself
 
 1.  Go to `Activity` then `Process Tracker`
 1.  Search for the ongoing job you would like to stop
 1.  Click on the job you'd like to stop
-1.  In the top right corner, click on `STOP`
+1.  In the top right corner, click on `Stop`
 ![Stopping a job from the job detail](../img/Jobs_stop-job-detail.png)
 
-## Stopping a job from an export/import profile
+## Stop a job from an export/import profile
 
 1.  Go to `Imports` or `Exports`
 1.  Click on the right import or export profile
 1.  Under `Last execution`, look for the ongoing job you would like to stop
-1.  Click on `STOP` at the end of the job's line
+1.  Click on `Stop` at the end of the job's line
 ![Stopping a job from the job detail](../img/Jobs_stop-job-export-profile.png)
