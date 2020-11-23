@@ -32,5 +32,5 @@ On a side note, you will also notice that you can sort the process tracker grid 
 
 ::: more
 [What is a job?](../articles/monitor-jobs.html#what-is-a-job)  
-[How to follow the progress of your jobs?](../articles/monitor-jobs.html#how-to-monitor)
+[How to follow the progress of your jobs?](../articles/monitor-jobs.html)
 :::

@@ -9,57 +9,91 @@ related: imports, exports, product-export-builder, discover-the-dashboard, what-
 
 # What is a job?
 
-You have several ways to follow the status of a job. A job can be:
-- an [import](imports.html),
-- an [export](exports.html),
-- a [mass edit](product-mass-actions.html),
-- a [rules](what-is-a-rule.html) execution _(EE only)_
-- a calculation of [project](what-is-a-project.html).
+Some actions trigger a back-end process called a "job". These actions can be:
+* an [import](imports.html),
+* an [export](exports.html),
+* a [mass action](product-mass-actions.html),
+* a calculation of [project](what-is-a-project.html) _(EE only)_
+* a [rule](what-is-a-rule.html) execution _(EE only)_
+* the approval/rejection of [proposals](proposals-workflow.html) _(EE only)_
 
-# How to monitor?
-First, you are notified by a flash message when the job starts.
-![image](../img/Settings_Calculation1.png)
+Here is what happens when you launch a job:
 
-Then, when the job is completed, a notification appears on the top of your screen.
-![image](../img/Settings_Calculation2.png)
-
-There is a Process Tracker page which will give you the full list of all jobs you launched. To access it, go to `Activity` and click on the `Process tracker` menu entry.
-![image](../img/Settings_Calculation3.png)
-
-The `Last operations` widget on Akeneo dashboard will also give you the status of your launched jobs.
-![image](../img/Dashboard_Calculation4.png)
+1.  First, you are notified by a flash message when a job starts. Friendly warning, the approval/rejection of proposals don't trigger flash messages.
+![Jobs flash message](../img/Jobs_flash-message.png)
+1. Then, while the job is running, it will be listed in the Process Tracker amongst all the other jobs you launched. To access it, go to `Activity` and click on `Process tracker`.
+![List of jobs in process tracker](../img/Jobs_process-tracker.png)  
+Note that you can also check the status of your launched jobs on the dashboard. To access it, go to `Activity` and click on `Dashboard`.
+![List of jobs in dashboard](../img/Jobs_dashboard.png)
+1.  Finally, when the job is complete, a notification appears at the top of your screen. You can always go back to the job itself if you need more details.
+![Notification of a job complete](../img/Jobs_notification.png)
 
 ::: tips
-If you want to view the jobs of all the users of your PIM (and not only yours), adding the [permission on action](manage-the-interface-and-actions-accesses.html#rights-on-system-pages) `View all jobs in Process Tracker` on your user role will grant you that privilege.
+Please note it is possible to use the `View all jobs in Process Tracker` permission in the `Roles` page to access all the jobs launched by all the users of your PIM. To find out more, check our article on [permissions](manage-the-interface-and-actions-accesses.html#rights-on-system-pages) in our help center.
 :::
 
-## Imports & exports reports
+# What can you find in a job detail?
 
-You can also have more details when you executed an import or an export. To review their report:
-1.  Go to `Imports`
-2.  Select in the list the profile job for which you want to view the report
-2.  You can clearly see the status of your import: `Completed`, `Started` or `Failed` thanks to a color code
-1.  Click on your import/export
-1.  The page of the import/export job detail should appear
+A job detail is a report of a specific job.
+In each job detail, you'll find information about the status of your job, which may vary depending on their status: `Started`, `Completed`, `Failed` or `Stopped` with a specific color code. You will see:
+* The number of steps
+* A time estimation above each step
+* A table with the details of all the actions performed under each step
 
-![image](../img/Exports_Calculation5.png)
+To access a job detail:
+1.  Go to `Activity`/`Process Tracker`
+1.  Search for the job you would like to know more about
+1.  Click on the job to get more details
+1.  The job detail appear
+![Job detail example](../img/Jobs_job-detail.png)
 
-The details of the executing import/export job are shown on the page. The details are related to each executed import/export profile.
-
-## Mass actions execution reports
-
-You can also have more details when you executed a mass action. To review their report:
-1.  Go to `Activity`/`Process Tracker` or click on the notification of the completed mass action
-1.  The page of the report is then displayed: the details of the executing bulk action are shown on the page
-
-![image](../img/Dashboard_Calculation6.png)
-
-## Searching for a job
+# Searching for a job
 
 If you want to find a specific job amongst all those listed in the process tracker, you can use the following search filters:
-- By job name
-- By type
-- By user
-- By status
-
+* By job name
+* By type
+* By user
+* By status
 ![Process tracker search filters](../img/Exports_Process-Tracker-search-filters.png)
+
+# How to stop your jobs?
+
+It is possible to stop a running job if it was launched by mistake or if you need to review a product selection for instance. The jobs that can be stopped are the following:
+* Export jobs
+* Import jobs (except **families** and **family variants**)
+* Mass actions (mass delete products, mass publish products, mass unpublish products)
+* Rules (rules execution, calculation of impacted products)
+* Proposals (approve all, reject all)
+
+:::warning
+Note that **stopping a job won't revert the actions already performed**: for instance, if you launched a mass action about an attribute for a selection of products and you realize a few minutes later that you selected the wrong products, if you stop the ongoing job, the modifications done before you stopped the job won't be reverted. You will have to mass edit the modifications back.
+:::
+
+To stop a job, there are different ways that you will find in the sections below.
+
+:::info
+The ability to stop a job is defined at the role-level. Please read our [Interface and actions accesses](manage-the-interface-and-actions-accesses.html#rights-on-system-pages) documentation for more information.
+:::
+
+## Stop a job from the Process Tracker
+
+1.  Go to `Activity` then `Process Tracker`
+1.  Search for the ongoing job you would like to stop
+1.  Click on `Stop` at the end of the job's line
+![Stopping a job from the process tracker](../img/Jobs_stop-job-process-tracker.png)
+
+## Stop a job from the job detail itself
+
+1.  Go to `Activity` then `Process Tracker`
+1.  Search for the ongoing job you would like to stop
+1.  Click on the job you'd like to stop
+1.  In the top right corner, click on `Stop`
+![Stopping a job from the job detail](../img/Jobs_stop-job-detail.png)
+
+## Stop a job from an export/import profile
+
+1.  Go to `Imports` or `Exports`
+1.  Click on the right import or export profile
+1.  Under `Last execution`, look for the ongoing job you would like to stop
+1.  Click on `Stop` at the end of the job's line
+![Stopping a job from the job detail](../img/Jobs_stop-job-export-profile.png)

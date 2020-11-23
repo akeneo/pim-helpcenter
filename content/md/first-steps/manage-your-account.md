@@ -96,7 +96,7 @@ Still in edition mode in your profile account:
 2.  Select the default language for your account (`Time zone` field)
 3.  Click on `Save` to save your changes
 
-This time zone is used all over the PIM interface: Product Form meta data and `History` panel, product grid, [last operations widget](discover-the-dashboard.html#last-operations) of the dashboard, [process tracker](monitor-jobs.html#how-to-monitor), [published products grid](how-to-manage-my-publications.html#view-the-published-products) (EE only).
+This time zone is used all over the PIM interface: Product Form meta data and `History` panel, product grid, [last operations widget](discover-the-dashboard.html#last-operations) of the dashboard, [process tracker](monitor-jobs.html#what-can-you-find-in-a-job-detail), [published products grid](how-to-manage-my-publications.html#view-the-published-products) (EE only).
 
 ## Your notifications preferences _(EE only)_
 
