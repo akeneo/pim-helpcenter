@@ -16,6 +16,8 @@ Discover this new feature in your `Import` and `Export` menus, under the followi
 
 ![TODO](../img/TODO.png)
 
+This new feature can also help you bulk update your records or easily duplicate them.
+
 ::: more
 [What is a reference entity?](../articles/what-about-reference-entities.html)  
 [How to manage your reference entities?](../articles/manage-reference-entities.html)  
