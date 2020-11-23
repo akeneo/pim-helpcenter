@@ -357,6 +357,10 @@ The expected values are:
 - `label_locale`: the locale code for the label of the option or record (optional, only relevant for `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes). By default, the code of the option is used.
 - `unit_label_locale`: the locale code for the unit of the measurement (optional, only relevant for `measurement` attributes). By default, the code of the unit is used.
 
+:::warning
+We don't manage grammar corrections when using a measurement attribute type in a concatenation (i.e: no plural management).
+:::
+
 Here is an example:
 ```YML
   actions:
