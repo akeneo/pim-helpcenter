@@ -6,7 +6,7 @@ pim_announcement_audience:
 # Import and export your reference entity records
 ::: meta-data type="New" features="Productivity" available="late November"
 
-Having a hard time initializing the records of your reference entities? We got you covered! You can now import an Excel or CSV file containing your records. We also make it possible for you to export them in flat files, once enriched!
+Having a hard time initializing the records of your reference entities? We got you covered! You can now import an Excel or CSV file containing your records. We also make it possible for you to export them in Excel or CSV, once enriched. So neat!
 
 Discover this new feature in your `Import` and `Export` menus, under the following job names: 
 - `Reference entity record import in XSLX`,
