@@ -1,5 +1,5 @@
 ---
-id: enrich-your-reference-entity-records
+id: import-export-records
 themes: products-super-power, manage-your-reference-entities
 title: "Import and export your **reference entity records**"
 popular: false
