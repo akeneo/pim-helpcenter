@@ -29,7 +29,7 @@ If you have several records to add to your reference entity, you can stay in the
 1. Once you've done, press `Esc` or `Echap`   
 
 ### Via the record import profile
-It is also possible to create and edit a list of records in an excel or csv file, and then import it in the PIM. To do so, you have to [create a new import profile](create-a-new-import-profile.html) in the `Imports` menu, and select the `Reference entity record import in CSV` or `Reference entity record import in XLSX` job. As for your product imports, you can import record images as well, using an archive. 
+It is also possible to create and edit a list of records in an excel or csv file, and then import it in the PIM. To do so, you have to [create a new import profile](imports.html#create-a-new-import-profile) in the `Imports` menu, and select the `Reference entity record import in CSV` or `Reference entity record import in XLSX` job. As for your product imports, you can import record images as well, using an archive.
 
 :::tips
 In order to retrieve the structure of your records in your file, you can first export them using the dedicated export profile. But mind you! You can only export records coming from one reference entity.
@@ -186,14 +186,6 @@ We added the completeness of a record in the selector.
 ::: tips
 Click on the `link` icon on each record line in the selector to preview the record! It will automatically open a new tab in your browser.
 :::
-
-# Export records
-As explained earlier, you can export a set of records belonging to the same reference entity. To do so:
-- Go to the `Exports` tab of your PIM
-- Create a new export profile and define its code, label, and choose the `Reference entity record export in CSV` or `Reference entity record export in XLSX` job
-- Don't forget to select a reference entity in the `Global settings` tab.
-
-![Export records](../img/ReferenceEntity_ExportRecords.png)
 
 # Delete records
 
