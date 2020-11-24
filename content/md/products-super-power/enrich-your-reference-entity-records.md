@@ -29,7 +29,7 @@ If you have several records to add to your reference entity, you can stay in the
 1. Once you've done, press `Esc` or `Echap`   
 
 ### Via the record import profile
-It is also possible to create and edit a list of records in an excel or csv file, and then import it in the PIM. To do so, you have to [create a new import profile](create-a-new-import-profile.html) in the `Imports` menu, and select the `Reference entity record import in CSV` or `Reference entity record import in XLSX` job.
+It is also possible to create and edit a list of records in an excel or csv file, and then import it in the PIM. To do so, you have to [create a new import profile](create-a-new-import-profile.html) in the `Imports` menu, and select the `Reference entity record import in CSV` or `Reference entity record import in XLSX` job. As for your product imports, you can import record images as well, using an archive. 
 
 :::tips
 In order to retrieve the structure of your records in your file, you can first export them using the dedicated export profile. But mind you! You can only export records coming from one reference entity.
