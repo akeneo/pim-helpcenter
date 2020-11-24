@@ -9,7 +9,7 @@ related:
 
 # Import records
 
-As explained in [this article](enrich-your-reference-entity-records.html), you can import a set of records using a xlsx or a csv file.
+As explained in [this article](enrich-your-reference-entity-records.html#create-several-records), you can import a set of records using a xlsx or a csv file.
 To do so:
 - Go to the `Imports` tab of your PIM
 - Create a new import profile and define its code, label, and choose the `Reference entity record import in CSV` or `Reference entity record import in XLSX` job
