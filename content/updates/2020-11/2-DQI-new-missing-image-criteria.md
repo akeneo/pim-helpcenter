@@ -1,5 +1,6 @@
 ---
-pim_announcement_alt_img: "TODO"
+pim_announcement_img: ./img/missing-image-criteria.png
+pim_announcement_alt_img: "The missing image criteria"
 pim_announcement_audience:
 - CE
 - EE
@@ -13,7 +14,7 @@ You all know the expression _a picture is worth a thousand words_, don't you?  I
 
 Don’t forget them, otherwise, it will reduce your enrichment grade!
 
-![The "Missing image" criteria](../img/TODO.png)
+![The "Missing image" criteria](../img/missing-image-criteria.png)
 
 ::: more
 [What is data quality?](../articles/understand-data-quality.html)  
