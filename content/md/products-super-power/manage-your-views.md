@@ -20,9 +20,9 @@ Once you are all set, you will see that the `Default view` name became `Default 
 To create your first view:
 1.  Click on the "..." nearby the view selector menu
 ![Create a view](../img/Products_CreateView.png)
-1.  Select `Create view` in the dropdown. A window will appear.
+1.  Select `Create view` in the dropdown menu. A window will appear.
 1.  Enter a name for your view
-1.  Select `public view` if you want to share this view with all other users. If it's not selected, the view is private.
+1.  Select `public view` if you want to share this view with every user. If it's not selected, the view is private.
 1.  Click on `Save` to record your view
 
 This view will now be available under the Views dropdown menu.
