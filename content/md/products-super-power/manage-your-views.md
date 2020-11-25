@@ -20,16 +20,15 @@ Once you are all set, you will see that the `Default view` name became `Default 
 To create your first view:
 1.  Click on the "..." nearby the view selector menu
 ![Create a view](../img/Products_CreateView.png)
-1.  Select `Create view` in the dropdown
-1.  A window will appear:
-![Create a view window](../img/Products_CreateViewWizard1.png)
+1.  Select `Create view` in the dropdown. A window will appear.
 1.  Enter a name for your view
+1.  Select `public view` if you want to share this view with all other users. If it's not selected, the view is private.
 1.  Click on `Save` to record your view
 
 This view will now be available under the Views dropdown menu.
 
 Some rules about the views:
-- **All views created are shared with all other users**.
+- **By default, all new created views are private**.
 - **Only the view’s creator can delete or edit it**.
 - If you need to edit someone’s else view, select it, make your changes and save it again under a new name.
 - **Only active filters will be saved for your view**. For instance, an attribute filtered on `ALL` will disappear when saving your view, because `ALL` is the default filter value.
