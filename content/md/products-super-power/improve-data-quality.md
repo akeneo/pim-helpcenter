@@ -51,7 +51,7 @@ In this view, you can see the evolution of your grades for the past 7 days, 4 we
 Key indicators deep-dive into one particular criteria that needs to be fulfilled to reach a perfect quality score.
 
 - **Products with an image**: enables you to know the percentage of products with at least 1 image and also how many products need an image to fulfill the criteria.
-- **Products with a good enrichment ratio**: enables to know the percentage of products with at least 90% of enriched attributes and how many products need to be enriched further.
+- **Products with a good enrichment ratio**: enables to know the percentage of products with at least 80% of enriched attributes and how many products need to be enriched further.
 - **Products with perfect spelling in text product values**: enables you to know the percentage of products without spelling mistakes in the product data and how many products hold correction suggestions for spell-check.
 - **Products properly labelled**: enables you to know the percentage of attributes and options without spelling mistakes and how many hold correction suggestions for spell-check.
 
