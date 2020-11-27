@@ -354,7 +354,14 @@ The expected values are:
 - `scope`: the channel code for which the value is assigned (optional)
 - `format`: format of the date following the PHP format [specification](https://www.php.net/manual/en/function.date.php) (optional, only relevant for `date` attributes). By default, it is *Y-m-d* (e.g. *2020-01-31*)
 - `currency`: the currency code for which the price is assigned (optional, only relevant for `price_collection` attributes). By default, all the prices in the collection are displayed, separated by a comma.
-- `label_locale`: the locale code for the label of the option or record (optional, only relevant for `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes). By default, the code of the option is used. Here is an example:
+- `label_locale`: the locale code for the label of the option or record (optional, only relevant for `simple select`, `multi-select`, `reference entity single link` and `reference entity multiple link` attributes). By default, the code of the option is used.
+- `unit_label_locale`: the locale code for the unit of the measurement (optional, only relevant for `measurement` attributes). By default, the code of the unit is used.
+
+:::warning
+We don't manage grammar corrections when using a measurement attribute type in a concatenation (i.e: no plural management).
+:::
+
+Here is an example:
 ```YML
   actions:
     - type: concatenate
