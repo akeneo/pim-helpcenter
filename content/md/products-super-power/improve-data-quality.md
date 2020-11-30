@@ -136,7 +136,7 @@ If the status is "To improve", you may need to correct either attribute labels f
 ![Image data quality spell-check in attribute option](../img/data-quality-spelling-option.png)
 
 To do so, it’s very easy:
-1. Click on the attribute with the "To improve status"
+1. Click on the attribute with the `To improve` status
 2. View the number of errors you need to correct in the `options` and `labels` tabs of the attribute screen
 3. Use the spell-check suggestions to correct them
 4. Save your changes
