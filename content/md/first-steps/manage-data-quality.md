@@ -39,7 +39,7 @@ Deactivating data quality calculation for some attribute groups will trigger a n
 :::
 
 # Global view of attribute group activation
-To know which attribute groups are taken into account in the Quality Score, you can check the Attribute Groups Grid in the settings.
+To know which attribute groups are taken into account in the Quality Score, you can check the attribute group grid in the settings.
 
 ![Image data quality attribute groups grid](../img/data-quality-attribute-groups-grid.png)
 
