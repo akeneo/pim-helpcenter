@@ -12,7 +12,7 @@ What is this **red, orange or green A, B, C, D, E displayed on my product edit f
 
 ![Image quality score](../img/quality-score.png)
 
-**This is the quality score calculated thanks to Akeneo's data quality insights feature!**
+**This is the quality score calculated thanks to the data quality insights feature!**
 
 Because rich, coherent and consistent product data is important in order to deliver great product experiences, we introduced the concept of "data quality" in our PIM.  
 This new capability helps you measure your data quality along two axes: **enrichment** and **consistency**.  
