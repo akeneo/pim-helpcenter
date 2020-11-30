@@ -105,7 +105,7 @@ From the `data quality panel`, you can view attribute labels and options with sp
 ![Image data quality spellcheck on attribute option](../img/data-quality-spelling-option.png)
 
 
-## Improve data quality on variant products
+## Improve data quality on variant products and product models
 
 If you work with variant products, you will see slight differences between simple products, product models and variant products.
 
