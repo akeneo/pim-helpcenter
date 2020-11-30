@@ -47,3 +47,4 @@ To know which attribute groups are taken into account in the Quality Score, you 
 In the data quality panel of the product edit form, you are reminded which attribute groups are activated for the product you are working on.
 
 ![Image data quality attribute groups reminder](../img/data-quality-attribute-groups-reminder.png)
+:::
