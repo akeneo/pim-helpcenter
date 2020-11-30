@@ -17,5 +17,5 @@ Indeed, when creating a new view, you can now select if you want this view to be
 
 ::: more
 [What is a view?](../articles/manage-your-views.html#work-with-the-views)  
-[How to manage your views?](../articles/manage-your-views.html#create-a-view)
+[How to manage your views?](../articles/manage-your-views.html)
 :::
