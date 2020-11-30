@@ -34,7 +34,7 @@ You can see at a glance the current quality score (for your selection of locale+
 ### Quality score distribution
 You can also follow the evolution of the distribution of the different quality scores (A,B,C,D and E)
 
-![Image data quality distribution charts](../img/data-quality--distribution-chart.png)
+![Image data quality distribution charts](../img/data-quality-distribution-chart.png)
 
 
 ::: tips
