@@ -20,11 +20,11 @@ The Yes/No attribute is now more powerful: you can easily see if your Yes/No att
 ## Better filter with the Yes/No attribute
 ::: meta-data type="Improvement" features="Productivity" available="late November"
 
-Two new operators are now available when filtering on Yes/No attributes in your product grid and rules engine: `is empty` and `is not empty`. Those new filters we help you gain in productivity and be even more efficient when looking for specific products and product models.
+Two new operators are now available when filtering on Yes/No attributes in your product grid and rules engine: `is empty` and `is not empty`. Those new filters help you gain in productivity and be even more efficient when looking for specific products and product models.
 
 ![New is empty and is not empty filters on the Yes/No attributes](../img/is-empty-is-not-empty-filters.png)
 
-The first one, `is empty`, allows you to search for products and product models that have Yes/No attribute with no value selected. The seconde one, `is not empty` allows you to search for the contrary.
+The first one, `is empty`, allows you to search for products and product models that have Yes/No attribute with no value selected. The second one, `is not empty` allows you to search for the contrary.
 
 ::: more
 [What is an attribute?](../articles/what-is-an-attribute.html)  
