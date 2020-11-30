@@ -14,7 +14,7 @@ Discover this new feature in your `Import` and `Export` menus, under the followi
 - `Reference entity record export in XLSX`,
 - `Reference entity record export in CSV`.
 
-![TODO](../img/TODO.png)
+![Record export profiles](../img/record-export-profiles.png)
 
 This new feature can also help you bulk update your records or easily duplicate them.
 
