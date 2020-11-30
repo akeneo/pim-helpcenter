@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Personal views
-::: meta-data type="New" features="Productivity" available="late November"
+::: meta-data type="New" features="Productivity" available="late November" link-to-doc="../articles/manage-your-views.html#create-a-view"
 
 Stay organised in your product thanks to personal views! It's now possible to create private views, only visible by you, to help you focus on your own enrichment needs without polluting your teammates. 
 
