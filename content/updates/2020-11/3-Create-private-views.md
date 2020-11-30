@@ -9,7 +9,7 @@ pim_announcement_audience:
 # Create private views
 ::: meta-data type="New" features="Productivity" available="late November" link-to-doc="../articles/manage-your-views.html#create-a-view"
 
-Stay organised in your product thanks to private views! It's now possible to create private views, only visible by you, to help you focus on your own enrichment needs without polluting your teammates. 
+Stay organized in your product enrichment thanks to private views! It's now possible to create private views, only visible by you, to help you focus on your own enrichment needs without polluting your teammates. 
 
 Indeed, when creating a new view, you can now select if you want this view to be **private** -for you only- or **public** -for everyone working in the PIM.
 
