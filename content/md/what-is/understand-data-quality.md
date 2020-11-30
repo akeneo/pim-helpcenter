@@ -19,9 +19,9 @@ This new capability helps you measure your data quality along two axes: **enrich
 Each of these two axes take into account several criteria to come up with an overall **quality score** for each product of your catalog.
 
 ## How is the quality score calculated?
-The **enrichment axis** takes into account the percentage of attributes with values in your product edit form (whether the attributes are required for completeness or not).
-
-We now know that an image is a must-have for a compelling product description. Data quality insights ensures that all your products have at least one image for your customers to see.
+The **enrichment axis** takes into account:
+- The percentage of attributes with values in your product edit form (whether the attributes are required for completeness or not).
+- Whether your product is illustrated by at least one image (an image is a must-have for a compelling product description). 
 
 The **consistency axis** is a mix of the following criteria:
 - Spell check: localizable text and text areas, attribute labels and attribute options are checked for spelling mistakes.
