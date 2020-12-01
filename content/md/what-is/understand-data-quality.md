@@ -40,7 +40,7 @@ The **quality score** calculates the achievement
 - **A** means **"Excellent": 90 to 100%** of the data quality criteria are fulfilled. You may still have little improvements to make to reach perfection but you have done a tremendous job already.
 - **B** means **"Good": 80 to 89%** of the data quality criteria are fulfilled. This already is a good achievement, you can definitely go to the next level by following the PIM's recommendations and reach a first-class catalog.
 - **C** means **"Average": 70 to 79%** of the data quality criteria are fulfilled. Follow the PIM's recommendations whether in the dashboard or in the data quality insights panel of the product edit form to improve your data quality.
-- **D** means **"Below average": 60 to 69%** of the data quality criteria are fulfilled. Don't give up, we are here to help: check the **key indicators** to see where you should focus your efforts to begin with.
+- **D** means **"Below average": 60 to 69%** of the data quality criteria are fulfilled. Don't give up, we are here to help: check the **key indicators** to see where you should focus your efforts.
 - **E** means **"To improve": 0 to 59%** of the data quality criteria are fulfilled. You may be at the beginning of a project with a lot of enrichment to do or have lots of new products to enrich. Another explanation might be irrelevant attribute groups activated, such as ERP data, which might downgrade your quality score.
 
 ::: tips
