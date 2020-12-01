@@ -38,7 +38,7 @@ You can also follow the evolution of the distribution of the different quality s
 
 
 ::: tips
-To see the distribution of the quality score, simply mouse over the chart bar.
+To see the distribution of the quality score, simply hover over the chart bar.
 :::
 
 ::: success
