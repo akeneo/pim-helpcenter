@@ -85,7 +85,7 @@ The grades are updated whenever there is a change in the product data:
 - after an attribute or option is saved,
 - after a product is saved.
 
-Depending on the amount of data, refreshing the quality score can take up from a few minutes to several hours in order to calculate all the impacts of a modification in the following cases:
+Depending on the amount of data, refreshing the quality score can take anything from a few minutes to several hours in order to calculate all the impacts of a modification in the following cases:
 - after an import: all products,
 - after an attribute or option is saved: the impact is calculated on all the products holding the attribute or option,
 - after a product model is saved: the impact is calculated on all the product variants belonging to the model,
