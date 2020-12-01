@@ -89,4 +89,4 @@ Depending on the amount of data, refreshing the quality score can take anything 
 - after an import: all products,
 - after an attribute or option is saved: the impact is calculated on all the products holding the attribute or option,
 - after a product model is saved: the impact is calculated on all the product variants belonging to the model,
-- after an attribute group activation or deactivation: the impact is calculated on all products belonging to families with the updated attribute group.
+- after an attribute group activation or deactivation: the impact is calculated on all the products belonging to families with the updated attribute group.
