@@ -44,7 +44,7 @@ The **quality score** calculates the achievement
 - **E** stands for **"To improve": 0 to 59%** of the data quality criteria are fulfilled. You may be at the beginning of a project with a lot of enrichment to do or have lots of new products to enrich, or you may have unrelevant attribute groups activated such as ERP data downgrading your quality score.
 
 ::: tips
-By [disabling specific attribute group](manage-data-quality.html#data-quality-insights-activation-and-deactivation), you can focus your insights and progress on the most relevant product data for your end-customer needs. Therefore, you will get insights on what’s truly important to improve your product experience.
+By [disabling specific attribute group](manage-data-quality.html#data-quality-insights-activation-and-deactivation), you can focus your effort and progress on the most relevant product data for your end-customer needs. Therefore, you will get insights on what’s truly important to improve your product experience.
 :::
 
 # Where to see the quality score?
