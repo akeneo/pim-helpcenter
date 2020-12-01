@@ -24,7 +24,7 @@ The dashboard allows you to follow the evolution of your data quality for:
 - your entire catalog
 - a chosen category
 - a chosen family
-- for a given locale and channel selection
+- for a given locale and a specific channel
 
 ### Quality score evolution
 You can see at a glance the current quality score (for your selection of locale and channel and catalog or category or family) and its evolution up to 6 months behind.
