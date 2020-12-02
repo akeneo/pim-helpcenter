@@ -23,21 +23,24 @@
             </div>
         </div>
         <div class="row">
-            {{#each monthlyUpdates as |monthlyUpdate id|}}
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="persona">
-                        <a href="{{id}}.html">
-                            <img class="img-responsive center-block" src="../img/{{img}}"/>
-                            <h3 class="text-center">{{title}}</h3>
-                            <div class="row">
-                                <div class="col-xs-offset-1 col-xs-10">
-                                    <p class="text-center"><em>{{description}}</em></p>
-                                    <button class="btn btn-default btn-block">Read more</button>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+            {{#each yearlyUpdates}}
+                <div class="col-xs-2 col-md-1">
+                    <h1>{{year}}</h1>
                 </div>
+                <div class="col-xs-10 col-md-11">
+                    <hr style="margin: 90px 0 32px 0;"></hr>
+                </div>
+                {{#each monthlyUpdates as |monthlyUpdate id|}}
+                    <div class="col-xs-5 col-md-4 col-lg-3">
+                        <img class="img-responsive center-block" src="../img/{{img}}" style="margin-top: 50px;"/>
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
+                        <h3>{{title}}</h3>
+                        <p><em>{{description}}</em></p>
+                        <a href="{{id}}.html" class="btn btn-primary btn-ghost btn-sm" style="margin-bottom: 20px;">Read more</a>
+                    </div>
+                <div class="col-xs-12"></div>
+                {{/each}}
             {{/each}}
         </div>
     </div>

@@ -81,10 +81,22 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAl
         return keepUpdatesFromPreviousMonths(folderName, generateAllUpdates);
     });
 
+    // Classify all monthly updates by year
+    var yearlyUpdates = [];
+    _.each(monthlyUpdates, function(update, key) {
+        var year = key.substring(0,4);
+        var yearlyUpdate = _.find(yearlyUpdates, ['year', year]);
+        if(!yearlyUpdate){
+            yearlyUpdates.push({'year':year, 'monthlyUpdates': {}});
+        }
+        yearlyUpdate = _.find(yearlyUpdates, ['year', year]);
+        yearlyUpdate.monthlyUpdates[key] = update;
+    });
+
     return gulp.src('src/monthly-updates-index.handlebars')
         .pipe(gulpHandlebars({
             title: 'What\'s new in Serenity',
-            monthlyUpdates: monthlyUpdates,
+            yearlyUpdates: yearlyUpdates,
             majorVersion: majorVersion
         }, {
             partialsDirectory: ['./src/partials']
