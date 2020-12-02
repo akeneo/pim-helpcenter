@@ -22,7 +22,7 @@ To create your first view:
 ![Create a view](../img/Products_CreateView.png)
 1.  Select `Create view` in the dropdown menu. A window will appear.
 1.  Enter a name for your view
-1.  By default, the option *`I want to create a private view`* is selected. It means that the view will be only visible by you. If you want to share this view with every user, just uncheck this box.
+1.  By default, the option *`I want to create a private view`* is selected. It means that the view will only be visible by you. If you want to share this view with every user, just uncheck this box.
 1.  Click on `Save` to record your view
 
 This view will now be available under the Views dropdown menu.
