@@ -10,6 +10,7 @@ const revReplace = require('gulp-rev-replace');
 const _ = require('lodash');
 const moment = require ('moment');
 const coloredDomains = require('./common/colored-domains.js');
+const merge = require('merge-stream');
 
 const majorVersion = 'serenity';
 
@@ -18,7 +19,10 @@ module.exports = {generateVersionsInDetailPage};
 gulp.task('build-versions-in-detail-page', ['clean-dist','less'], function() {
     const fileDirectoryDestination = './dist/pim/serenity';
 
-    return generateVersionsInDetailPage(fileDirectoryDestination);
+    return merge(
+        generateVersionsInDetailPage(fileDirectoryDestination),
+        generateVersionsSupportedTable(fileDirectoryDestination)
+    );
 });
 
 function generateVersionsInDetailPage(fileDirectoryDestination) {
@@ -65,3 +69,27 @@ function generateVersionsInDetailPage(fileDirectoryDestination) {
         .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
         .pipe(gulp.dest(fileDirectoryDestination));
 };
+
+function generateVersionsSupportedTable(fileDirectoryDestination) {
+    var versions = JSON.parse(fs.readFileSync('content/versions-in-detail/versions-in-detail.json'));
+
+    _.each(versions, function(version){
+        var releaseDate = moment.utc(version.releaseDate);
+        var supportEndDate = moment.utc(version.supportEndDate);
+        version.releaseDateLongLabel = releaseDate.format('LL');
+        version.supportEndDateLongLabel = supportEndDate.format('LL');
+        version.isSupported = supportEndDate.isSameOrAfter(moment(),'day');
+    });
+
+    return gulp.src('src/supported-versions-table.handlebars')
+        .pipe(gulpHandlebars({
+            title: 'Support end date of our versions',
+            versions: versions,
+            majorVersion: majorVersion
+        }, {
+            partialsDirectory: ['./src/partials']
+        }))
+        .pipe(rename('supported-versions-table.html'))
+        .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
+        .pipe(gulp.dest(fileDirectoryDestination));
+}
