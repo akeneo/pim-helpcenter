@@ -10,7 +10,7 @@ related: improve-data-quality, manage-data-quality, access-rights-on-data-qualit
 # About data quality insights
 What is this **red, orange or green A, B, C, D, E displayed on my product edit form**?
 
-![Image quality score](../img/quality-score.png)
+![Image quality score](../img/data-quality-score.png)
 
 **This is the quality score calculated thanks to the data quality insights feature!**
 
@@ -21,7 +21,7 @@ Each of these two axes take into account several criteria to come up with an ove
 ## How is the quality score calculated?
 The **enrichment axis** takes into account:
 - The percentage of attributes with values in your product edit form (whether the attributes are required for completeness or not).
-- Whether your product is illustrated by at least one image (an image is a must-have for a compelling product description). 
+- Whether your product is illustrated by at least one image (an image is a must-have for a compelling product description).
 
 The **consistency axis** is a mix of the following criteria:
 - Spell check: localizable text and text areas, attribute labels and attribute options are checked for spelling mistakes.
@@ -35,7 +35,7 @@ If you use a single locale, then spell check is usable on text and text area att
 :::
 
 ## What does the quality score mean?
-The **quality score** calculates the achievement
+The **quality score** calculates the achievement.
 
 - **A** means **"Excellent": 90 to 100%** of the data quality criteria are fulfilled. You may still have little improvements to make to reach perfection but you have done a tremendous job already.
 - **B** means **"Good": 80 to 89%** of the data quality criteria are fulfilled. This already is a good achievement, you can definitely go to the next level by following the PIM's recommendations and craft a first-class catalog.

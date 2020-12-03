@@ -48,15 +48,15 @@ In this view, you can see the evolution of your grades for the past 7 days, 4 we
 ## Measure data quality
 
 ### Key indicators
-Key indicators deep-dive into one particular criteria that needs to be fulfilled to reach a perfect quality score.
+Each key indicator deep-dive into one particular criteria that needs to be fulfilled to reach a perfect quality score.
 
 - **Products with an image**: enables you to know the percentage of products with at least 1 image and also how many products need an image to fulfill the criteria.
-- **Products with a good enrichment ratio**: enables to know the percentage of products with at least 80% of enriched attributes and how many products need to be enriched further.
-- **Products with perfect spelling in text product values**: enables you to know the percentage of products without spelling mistakes in the product data and how many products hold correction suggestions for spell-check.
-- **Products properly labelled**: enables you to know the percentage of attributes and options without spelling mistakes and how many hold correction suggestions for spell-check.
+- **Products with a good enrichment ratio**: highlights the percentage of products with at least 80% of enriched attributes and the number of products that still need to be enriched further.
+- **Products with perfect spelling in text product values**: allows you to know the percentage of products without spelling mistakes in the product data as well as the number of products with correction suggestions for spell-check.
+- **Products properly labelled**: displays the percentage of attributes and options without spelling mistakes and the number of correction suggestions for spell-check per product.
 
 ::: success
-By clicking on the number of products that need to be worked on, you are led to a product grid with all products that need to be improved on this specific criteria.
+By clicking on the number of products that can still be improved, you land on a product grid with all products for this specific criteria.
 :::
 
 ### Categories and families
@@ -76,7 +76,7 @@ The cherry on the cake: click on `See on the grid` to access a filtered view of 
 
 
 # Improve data quality
-Now that you know how to measure and follow improvements on your catalog’s data quality, it’s easier to know which families and products need to be worked on.
+Now that you know how to measure and follow improvements on your catalog’s data quality, it’s easier to know which families and products still need to be pampered.
 To help you improve your products **quality score**, simply follow the **recommendations** that can be found in the **data quality insights** panel in your product edit form.
 
 ![Image data quality panel](../img/data-quality-panel.png)
@@ -116,12 +116,11 @@ For **product models**:
 - Recommendations are given for attributes at the product model level.
 
 For **sub-product models**:
-![Image data quality sub product model panel](../img/data-quality-sub-model-panel.png)
 - Recommendations are given for attributes at the product model and sub-product model levels. By clicking on an attribute name, you can go and improve an attribute in the product model or sub-product model.
 
 For **variant products**:
 ![Image data quality variant panel](../img/data-quality-variant-panel.png)
-- The quality score is calculated on the attributes that can be improved at all levels hence reflecting the data quality of the product that will be published.
+- The quality score is calculated on the attributes that can be improved at all levels, therefore, it reflects the data quality of the product that will be published.
 - Recommendations are given for all attributes by clicking on an attribute name, you can go and improve an attribute in the product model, the sub-product model or the variant product.
 
 ## Improve data quality on attribute labels and options
