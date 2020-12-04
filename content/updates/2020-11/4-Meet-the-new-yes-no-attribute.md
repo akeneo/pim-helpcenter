@@ -8,7 +8,7 @@ pim_announcement_audience:
 
 # Meet the new Yes/No attribute
 
-Discover our revamped Yes/No attribute in your product forms. This new display allows you to better see when your Yes/No attribute does not yet have a defined value. In addition to this improvement, we added new filters to ease the search on Yes/No attributes.
+Discover our revamped Yes/No attribute in your product form. This allows you to better see when your Yes/No attribute does not have a defined value yet. In addition to this improvement, we added new filters to ease the search on Yes/No attributes.
 
 ## New Yes/No attribute in the product form
 ::: meta-data type="Improvement" features="Productivity" available="late November"
@@ -20,7 +20,7 @@ The Yes/No attribute is now more user-friendly: you can easily see if your Yes/N
 ## Better filter with the Yes/No attribute
 ::: meta-data type="Improvement" features="Productivity" available="late November"
 
-Two new operators `is empty` and `is not empty` are now available to help you filter on Yes/No attributes in the product grid and to automate enrichment with the rules engine. These new filters help you gain in productivity and be even more efficient when looking for specific products and product models.
+Two new operators `is empty` and `is not empty` are now available to help you filter on Yes/No attributes in the product grid and to automate enrichment with the rules engine. These new filters help you boost your productivity and be even more efficient when looking for specific products and product models.
 
 ![New is empty and is not empty filters on the Yes/No attributes](../img/is-empty-is-not-empty-filters.png)
 

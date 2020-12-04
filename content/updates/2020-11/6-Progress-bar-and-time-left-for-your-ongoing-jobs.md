@@ -10,10 +10,10 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Productivity" available="mid-November" link-to-doc="../articles/monitor-jobs.html#what-can-you-find-in-a-job-detail"
 :::
 
-Whenever you launch a job, a progress bar and an estimation of the remaining time before the job is completed, are now displayed in the process tracker. You can now easily see how long it will take to process a job, to help you better organize your daily tasks. 
+Whenever you launch a job, a progress bar and an estimation of the remaining time before the job is completed, are now displayed in the process tracker. You can now easily see how long it will take to process a job, to help you better organize your daily tasks.
 
 ![Estimation of the time left and progress bar](../img/progress-bar-for-jobs.png)
 
-::: more 
+::: more
 [What is a job?](../articles/monitor-jobs.html#what-is-a-job)
 :::
