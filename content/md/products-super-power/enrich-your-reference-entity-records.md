@@ -10,7 +10,7 @@ related:
 # Create records
 ## Create a record
 Once you have created a reference entity, you can add **records**.
-Let’s say that you just have created the `Brand` reference entity, you have defined its records attributes and now it is time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
+Let’s say that you have just created the `Brand` reference entity and defined its attributes. Now it is time to add new records (for example: Fermob, Kartell, Muuto, Fatboy…)
 
 To add a new brand to the `Brand` reference entity:
 1. Go to your `Brand` entity (you will automatically land on the records grid)
@@ -21,7 +21,7 @@ To add a new brand to the `Brand` reference entity:
 ## Create several records
 
 ### Via the UI
-If you have several records to add to your reference entity, you can stay in the creation pop-in to add quickly as many records as needed:
+If you have several records to add to your reference entity, you can stay in the creation pop-in to quickly add as many records as needed:
 1. Input the first record label
 1. Tick `Create another record`
 1. Press `Enter`
