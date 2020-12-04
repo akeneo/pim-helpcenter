@@ -10,7 +10,7 @@ related:
 # Create records
 ## Create a record
 Once you have created a reference entity, you can add **records**.
-Let’s say that you have just created the `Brand` reference entity and defined its attributes. Now it is time to add new records (for example: Fermob, Kartell, Muuto, Fatboy…)
+Let’s say that you just have created the `Brand` reference entity, you have defined its records attributes and now it is time to add new records. For example: Fermob, Kartell, Muuto, Fatboy…
 
 To add a new brand to the `Brand` reference entity:
 1. Go to your `Brand` entity (you will automatically land on the records grid)
@@ -32,7 +32,7 @@ If you have several records to add to your reference entity, you can stay in the
 It is also possible to create and edit a list of records in an excel or csv file, and then import it in the PIM. To do so, you have to [create a new import profile](imports.html#create-a-new-import-profile) in the `Imports` menu, and select the `Reference entity record import in CSV` or `Reference entity record import in XLSX` job. As for your product imports, you can import record images as well, using an archive.
 
 :::tips
-In order to retrieve the structure of your records in your file, you can first export them using the dedicated export profile. But mind you! You can only export records coming from one reference entity.
+But mind you! Even though you can create as many export profiles as you want, you may only [export records](import-export-records.html#export-records) from a single reference entity at a time.
 :::
 
 ### Via the API
