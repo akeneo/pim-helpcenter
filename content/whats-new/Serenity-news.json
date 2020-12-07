@@ -49,11 +49,32 @@
     "link": "/pim/serenity/updates/2020-04.html#a-new-screen-to-add-your-own-measurement-units"
   },
   {
+    "title":"Private views 🔒",
+    "domains": ["Productivity", "Governance"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-11.html#create-private-views"
+  },
+  {
+    "title":"Reference entity record import and export",
+    "domains": ["Collaboration", "Governance"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-11.html#import-and-export-your-reference-entity-records"
+  },
+  {
     "title":"Measurements API 🔌",
     "domains": ["Governance","Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#new-endpoints-to-manage-measurements"
+  },
+  {
+    "title":"'Missing image' quality criteria 💯",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-11.html#data-quality-insights-new-missing-image-criteria"
   },
   {
     "title":"Data quality grades on variant products 💯",
