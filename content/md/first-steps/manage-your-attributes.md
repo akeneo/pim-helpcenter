@@ -274,13 +274,15 @@ Please first delete your attribute from the families it is used in and then from
 
 You have two ways to remove an attribute:
 
-Through the attribute edit form:
+##Through the attribute edit form
+
 1. Select the attribute to delete
 1. Click on `...` for other actions and then `Delete` on the top right corner
   ![image](../img/Settings_Attributes_Delete.png)
 1. Confirm the action in the popin
 
-Through the `Delete` shortcut in the grid:
+##Through the `Delete` shortcut in the grid
+
   ![image](../img/Settings_Attributes_GridDeleteHover.png)
 1. Select the attribute you want to remove from the attribute grid
 1. Place your mouse over the line of attribute in the grid, the button `Delete` is prompted (trash can icon)
