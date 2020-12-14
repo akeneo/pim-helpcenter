@@ -283,9 +283,9 @@ Please refer to [Manage your user roles](build-your-user-roles.html) to learn ab
 An attribute that is used in a published product cannot be deleted. You first need to unpublish the product and then delete the attribute.
 :::
 
-##Delete an attribute without keeping the related data
+## Delete an attribute without keeping the related data
 
-###Through the attribute edit form
+### Through the attribute edit form
 
 1. Go to `Settings` / `Attributes`
 1. Select the attribute you want to delete
@@ -293,7 +293,7 @@ An attribute that is used in a published product cannot be deleted. You first ne
   ![image](../img/Settings_Attributes_Delete.png)
 1. Confirm the action in the popin
 
-###Through the delete shortcut in the grid
+### Through the delete shortcut in the grid
 
 1. Go to `Settings` / `Attributes`
 1. Select the attribute you want to remove from the attribute grid
@@ -304,13 +304,18 @@ An attribute that is used in a published product cannot be deleted. You first ne
 
 **The attribute and all its relevant information will be deleted in Akeneo PIM. Once you have confirmed the action, it cannot be reverted.**
 
-##Delete an attribute and keep the related data
+## Delete an attribute and keep the related data
 
 If you need to change an attribute property (to make it scopable and/or localizable), or if you want to change the attribute type (from a simple text to a text area for instance), you need to delete the attribute.  
-Before doing so, **if you plan to create another attribute using the same code**, and if you want to keep the data already input for this attribute, you will first need to export the data, then delete the attribute. At this point, you need to create a new attribute, before you import the data back.  
+Before doing so, **if you plan to create another attribute using the same code**, and if you want to keep the data already input for this attribute, you will need to:
+1. Export the data
+1. Delete the attribute
+1. Create a new attribute
+1. Import the data back
+
 This walkthrough will help you go through the different steps.
 
-###First step: export the data
+### First step: export the data
 
 :::warning
 Before you begin, make sure you know how to configure a new export profile. If you need more help, please read our page on [How to create a new product export profile](#product-export-builder.html#create-a-new-product-export-profile).
@@ -327,7 +332,7 @@ Before you begin, make sure you know how to configure a new export profile. If y
 1. Check the different other options (channel, locales, format...) to refine your export and click on `Save`
 1.  Click on `Export now`
 
-###Second step: delete the attribute
+### Second step: delete the attribute
 
 To delete the attribute, you have two options:
 * From the [attribute edit form](manage-your-attributes.html#through-the-attribute-edit-form)
@@ -339,7 +344,7 @@ If you plan to delete a simple or multi select attribute, and if you want to kee
 ![Export attribute options](../img/Delete-Attribute_Job_Export-Attribute-options.png)
 
 
-###Third step: create the new attribute
+### Third step: create the new attribute
 
 To complete this step, please read [how to create an attribute](manage-your-attributes.html#how-to-create-an-attribute).
 Here you can create the new attribute using the same code that was used for the attribute you just deleted.
@@ -348,7 +353,7 @@ Here you can create the new attribute using the same code that was used for the 
 Once you've deleted an attribute, a process starts in order to clear all product values set for this attribute. While this process is running, you cannot create another attribute with the exact same code.
 :::
 
-###Fourth step: import the data back
+### Fourth step: import the data back
 
 1. Go to `Imports` and click on `Create import profile`
 1. Define a code and a label
