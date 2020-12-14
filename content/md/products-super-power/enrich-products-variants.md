@@ -277,13 +277,15 @@ To do so, several choices:
 
 Let's see how each of these solutions works!
 
+:::info
+No matter the way you do the conversion, your variant product becomes a simple product but don't worry, all of its former values, categories and associations will be saved.
+:::
+
 ## Convert a variant product to a simple one via a unitary action
 When you are on a product page, at the variant level, you can decide to convert it to a simple product very easily.
 1. Click on `...`
 1. Then `Convert to a simple product`
 1. Confirm
-
-Your variant product becomes a simple product but don't worry, all of its former values, categories and associations will be saved.
 
 ![Convert variant to simple via a unitary action](../img/ConvertVariantToSimpleUnitary.png)
 
