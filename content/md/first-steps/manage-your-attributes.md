@@ -48,6 +48,8 @@ Please note that the **following attribute codes cannot be used** in Akeneo PIM:
 ## Add attributes validation parameters
 
 Each attribute has specific properties to add more control on attribute's values:
+- **Yes/No attribute**:
+  - *Default value*: the value that is put in each Yes/No attribute when creating a new product/product model
 - **Date attribute**:
   - *Min date*: the earliest date that can be accepted
   - *Max date*: the latest date that can be accepted
