@@ -288,6 +288,10 @@ Moving attributes from `common attributes` to a variant level or from the `varia
 **You cannot move a variant axis** or **an attribute with the property `unique value` at `Yes`**.
 :::
 
+::: info
+You can edit the variant axis value of a variant product in each product sheet, simply by editing the attribute value that is used as variant axis.
+:::
+
 ## Translate a family variant label
 
 1.  In `Settings/Families`, choose a family and open the `Variants` tab
