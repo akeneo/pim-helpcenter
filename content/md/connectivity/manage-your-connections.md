@@ -4,7 +4,7 @@ themes: connectivity
 title: Manage your **connections**
 popular: false
 ee-only: false
-related: what-is-a-connection, how-to-connect-my-pim, connection-dashboard
+related: what-is-a-connection, how-to-connect-my-pim, connection-dashboard, events-subscription
 ---
 
 ::: info

@@ -4,7 +4,7 @@ themes: connectivity, import-export-data
 title: Monitor your third-party **connections**
 popular: false
 ee-only: false
-related: what-is-a-connection, how-to-connect-my-pim, manage-your-connections
+related: what-is-a-connection, how-to-connect-my-pim, manage-your-connections, events-subscription
 ---
 
 # Overview

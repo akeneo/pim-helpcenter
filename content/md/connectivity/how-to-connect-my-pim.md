@@ -4,7 +4,7 @@ themes: connectivity, import-export-data
 title: How to **connect** my PIM?
 popular: true
 ee-only: false
-related: what-is-a-connection, manage-your-connections, connection-dashboard
+related: what-is-a-connection, manage-your-connections, connection-dashboard, events-subscription
 ---
 
 # Meet the "Connections"
