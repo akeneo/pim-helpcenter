@@ -326,7 +326,7 @@ Before you begin, make sure you know how to configure a new export profile. If y
 1. Select the job in the `job` field, whether you want to export products or product models (if you need to export both, you will need to create an export profile for each)
 ![Select the job to export your data](../img/Delete-Attribute_Job_Export-profile.png)
 1.  In `Content`, filter the products by clicking on `Add attribute` and select the attribute you want to delete
-1.  Set the value to "Is not empty"  
+1.  Set the value to `Is not empty` 
 ![Select the appropriate attribute](../img/Delete-Attribute_Job_Export-profile_Content.png)
 1. In `Global settings`, make sure the option `Export with labels` is not activated
 1. Check the different other options (channel, locales, format...) to refine your export and click on `Save`
