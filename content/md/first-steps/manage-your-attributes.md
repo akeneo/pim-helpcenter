@@ -349,7 +349,7 @@ If you plan to delete a simple or multi select attribute, and if you want to kee
 To complete this step, please read [how to create an attribute](manage-your-attributes.html#how-to-create-an-attribute).
 Here you can create the new attribute using the same code that was used for the attribute you just deleted.
 
-:::warning
+::: warning
 Once you've deleted an attribute, a process starts in order to clear all product values set for this attribute. While this process is running, you cannot create another attribute with the exact same code.
 :::
 
