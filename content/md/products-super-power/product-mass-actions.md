@@ -221,6 +221,16 @@ The attributes defined as `common attributes` in the [family variant](what-about
 This operation can only be performed for variant products or [sub product models](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed), already linked to a parent product model.
 :::
 
+# Convert variants to simple products
+
+When selecting one or several product models or variant products, you can launch a bulk action in order to convert all these variants to simple products.
+1. Select one or several product models or variant products in the grid
+1. Click on `Bulk actions`
+1. Then select `Convert to simple products`
+1. Confirm your action
+
+All the variants of your selection will be then converted to simple products, meaning that they won't be attached to a parent anymore.
+
 # Associate products
 
 To ease the add of associations, you can mass associate products.
