@@ -308,16 +308,16 @@ An attribute that is used in a published product cannot be deleted. You first ne
 
 If you need to change an attribute property (to make it scopable and/or localizable), or if you want to change the attribute type (from a simple text to a text area for instance), you need to delete the attribute.  
 Before doing so, **if you plan to create another attribute using the same code**, and if you want to keep the data already input for this attribute, you will need to:
-1. Export the data
-1. Delete the attribute
-1. Create a new attribute
-1. Import the data back
+1. [Export the data](manage-your-attributes.html#first-step-export-the-data)
+1. [Delete the attribute](manage-your-attributes.html#second-step-delete-the-attribute)
+1. [Create a new attribute](manage-your-attributes.html#third-step-create-the-new-attribute)
+1. [Import the data back](manage-your-attributes.html#fourth-step-import-the-data-back)
 
 This walkthrough will help you go through the different steps.
 
 ### First step: export the data
 
-:::warning
+::: warning
 Before you begin, make sure you know how to configure a new export profile. If you need more help, please read our page on [How to create a new product export profile](#product-export-builder.html#create-a-new-product-export-profile).
 :::
 
@@ -326,23 +326,22 @@ Before you begin, make sure you know how to configure a new export profile. If y
 1. Select the job in the `job` field, whether you want to export products or product models (if you need to export both, you will need to create an export profile for each)
 ![Select the job to export your data](../img/Delete-Attribute_Job_Export-profile.png)
 1.  In `Content`, filter the products by clicking on `Add attribute` and select the attribute you want to delete
-1.  Set the value to `Is not empty` 
+1.  Set the value to `Is not empty`
 ![Select the appropriate attribute](../img/Delete-Attribute_Job_Export-profile_Content.png)
 1. In `Global settings`, make sure the option `Export with labels` is not activated
 1. Check the different other options (channel, locales, format...) to refine your export and click on `Save`
 1.  Click on `Export now`
+
+::: warning
+If you plan to delete a simple or multi select attribute, and if you want to keep their data, you will also need to export the attribute options through the Akeneo default export profile named `Demo XLSX attribute option export`. If this profile is not available in your PIM, please go back to the third step, and instead of selecting the product or the product model job, select the attribute options export.
+:::
+![Export attribute options](../img/Delete-Attribute_Job_Export-Attribute-options.png)
 
 ### Second step: delete the attribute
 
 To delete the attribute, you have two options:
 * From the [attribute edit form](manage-your-attributes.html#through-the-attribute-edit-form)
 * From the [delete shortcut](manage-your-attributes.html#through-the-delete-shortcut-in-the-grid) in the grid
-
-::: warning
-If you plan to delete a simple or multi select attribute, and if you want to keep their data, you will also need to export the attribute options through the Akeneo default export profile named `Demo XLSX attribute option export`. If this profile is not available in your PIM, please go back to the first step, and instead of selecting the product or the product model job, select the attribute options export.
-:::
-![Export attribute options](../img/Delete-Attribute_Job_Export-Attribute-options.png)
-
 
 ### Third step: create the new attribute
 
