@@ -26,6 +26,7 @@ Here’s the list of the bulk operations available in the PIM:
   - **Remove products from categories**: Remove products from one or more categories at once. Selected products will be uncategorized.
   - **Add to an existing product model**: Add a simple product as a variant to a [product model](what-about-products-variants.html#what-is-a-product-model) if 2 levels of variants or to a [sub product model](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) if 3 levels of variants.
   - **Change the parent product model**: Change the parent [product model](what-about-products-variants.html#what-is-a-product-model) of variant products or [sub product models](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed).
+  - **Convert to simple products**: Convert the selected variant products to simple products (remove their parent).
   - **Associate to products**: Add associations for your selection of products.
   - **Publish products _(EE only)_**: Mass publish products.
   - **Unpublish products _(EE only)_)**: Mass unpublish products. This action is available in the `Published products` grid.
