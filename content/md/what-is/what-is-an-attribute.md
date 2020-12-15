@@ -72,11 +72,6 @@ This tool can also be used to initialize reference entities data from an ERP/MDM
 
 Yes! Reference data are still available.
 
-### How can I import/export Reference entities?
-
-There is no native import/export for Reference Entities, but you can use our API to manage them. Learn about their API format and the endpoints available on our API online documentation:
-[Presentation of the reference entities and their associated standard formats](https://api.akeneo.com/concepts/reference-entities.html#reference-entities)
-
 # Specific properties of attributes
 
 An attribute can have several specific properties: it can have a value per channel, per locale, be locale specific, be read-only _(Enterprise Edition only)_.
