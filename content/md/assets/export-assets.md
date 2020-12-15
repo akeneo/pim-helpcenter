@@ -26,7 +26,7 @@ You'll see, it's quite simple. The first thing is to create an export profile. T
 Once the export profile is created, the settings of the export profile is open, and you can find 4 tabs:
 - `Properties`: where you can change the label of your profile
 - `Permissions`: where you can select which user group is allowed to execute and edit the job profile
-- `Global settings`: where you must define the **asset family**. Indeed, you must choose the asset family from which you want to export the assets. Each time you will launch this asset export, you will export assets that are in this specific asset family only. There is another option called `Export prefix and suffix` (by default, this parameter is set to `No`). This option enables you to choose whether you want to export the prefix and suffix of your media links attributes. 
+- `Global settings`: where you must define the **asset family**. Indeed, you must choose the asset family from which you want to export the assets. Each time you will launch this asset export, you will export assets that are in this specific asset family only. There is another option called `Export prefix and suffix` (by default, this parameter is set to `No`). This option lets you export the prefix and suffix of your media links attributes. 
 
 
 ![Settings of the export profile](../img/Assets_ExportProfileSettings.png)
