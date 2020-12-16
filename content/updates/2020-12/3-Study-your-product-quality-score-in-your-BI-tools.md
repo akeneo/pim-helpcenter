@@ -5,7 +5,7 @@ pim_announcement_audience:
 ---
 
 # Deliver your product quality scores to other applications
-::: meta-data type="New" features="Quality, Connectivity" available="early December" link-to-doc="TODO"
+::: meta-data type="New" features="Quality, Connectivity" available="mid- December" link-to-doc="TODO"
 
 Are interested in sending your product quality score to third-party applications to compare this score to relevant metrics, such as the number of sales or the number of returns? Or maybe, you want to know, on your website, which products should be highlighted according to the quality of their enrichment level. Well, great news! It is now possible thanks to an evolution of our Rest API. 
 
