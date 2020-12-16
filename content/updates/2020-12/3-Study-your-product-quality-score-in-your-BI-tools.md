@@ -13,26 +13,26 @@ Indeed, a new `quality_scores` field is now available in our JSON product format
 
 ```json
 {
-      "identifier": "1111111195",
-      "family": "clothing",
-      "parent": "jack_brown",
-      "categories": [
-        "tshirts"
-      ],
-      "quality_scores": [
-          {
-              "scope": "ecommerce",
-              "locale": "en_US",
-              "data": "A"
-          }
-      ],
-      "enabled": true,
-      "values": {...},
-      "created": "2017-10-05T11:25:48+02:00",
-      "updated": "2017-10-05T11:25:48+02:00",
-      "associations": {},
-      "quantified_associations": {}
+ "identifier": "1111111195",
+ "family": "clothing",
+ "parent": "jack_brown",
+ "categories": [
+     "tshirts"
+ ],
+ "quality_scores": [
+    {
+        "scope": "ecommerce",
+        "locale": "en_US",
+        "data": "A"
     }
+ ],
+ "enabled": true,
+ "values": {...},
+ "created": "2017-10-05T11:25:48+02:00",
+ "updated": "2017-10-05T11:25:48+02:00",
+ "associations": {},
+ "quantified_associations": {}
+}
 ```
 
 ::: more
