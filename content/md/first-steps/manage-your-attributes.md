@@ -354,13 +354,17 @@ Here you can create the new attribute using the same code that was used for the 
 Once you've deleted an attribute, a process starts in order to clear all product values set for this attribute. While this process is running, you cannot create another attribute with the exact same code.
 :::
 
-![Attribute deletion - Attribute Code Blacklisted](../img/Settings_Attributes_code_blacklisted.png)
+![Attribute deletion - Attribute code blacklisted](../img/Settings_Attributes_code_blacklisted.png)
 
 ### Fourth step: import the data back
 
 1. Go to `Imports` and click on `Create import profile`
 1. Define a code and a label
-1. Select the job in the `job` field, whether you want to import products or product models (if you need to export both, you will need to create an import profile for each)  
+1. Select the job in the `job` field, whether you want to import products, product models and/or attribute options (if you need to export all of them, you will need to create an import profile for each)  
 ![Select the job to export your data](../img/Delete-Attribute_Job_Import-profile.png)
 1. Check the different options (format, enable product...) to refine your import and click on `Save`
-1. Click on `Export now`
+1. Drop your file and click on `Upload and import now`
+
+::: success
+This walkthrough is now complete, and you should have kept your data. Congratulations! ;)
+:::
