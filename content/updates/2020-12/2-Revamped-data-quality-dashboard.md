@@ -14,7 +14,7 @@ Under the `Activity` menu, discover a totally reworked `Data Quality Insights` d
 ![The revamped DQI dashboard](../img/new-dqi-dashboard.png) 
 
 A step chart now shows the overall quality score evolution on a monthly basis.  
-New key indicators are also displayed to draw your attention to specific quality criteria, such as the percentage of products without images. Those indicators being taken into account in the quality score, don't hesitate to use them to drive your product enrichment and reach a better quality score.
+New key indicators are also displayed to draw your attention to specific quality criteria, such as the percentage of products without images. Those indicators are taken into account in the quality score, don't hesitate to use them to drive your product enrichment and reach a better quality score.
 
 ::: more
 [What is data quality?](../articles/understand-data-quality.html)  

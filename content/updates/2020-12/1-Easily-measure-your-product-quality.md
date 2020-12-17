@@ -13,7 +13,7 @@ Measuring your product quality has never been so easy thanks to our new simplifi
 
 ![The new quality score](../img/quality-score-in-pef.png) 
 
-You can now find this score next to the completeness in the header of each product page, as well as in the product grid. Don't hesitate to filter on it to focus on the products that need your attention due to their low quality scoring.
+You can now find this score next to the completeness in the header of each product page, as well as in the product grid. Don't hesitate to filter on it to focus on the products that need your attention due to their low-quality scoring.
 
 ::: more
 [What is data quality?](../articles/understand-data-quality.html)
