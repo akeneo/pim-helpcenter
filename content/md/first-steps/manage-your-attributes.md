@@ -272,7 +272,7 @@ There are two ways to remove an attribute:
 * Through the attribute edit form
 * Through the delete shortcut in the grid
 
-When you remove an attribute, all the product values set for this attribute will be cleared. If you want to keep them, please read [the dedicated section](Delete-an-attribute-and-keeping-the-related-data).
+When you remove an attribute, all the product values set for this attribute will be cleared. If you want to keep them, please read [the dedicated section](manage-your-attributes.html#delete-an-attribute-and-keep-the-related-data).
 
 ::: warning
 If you cannot access the attribute page or if you cannot add/delete an attribute, it is probably because you do not have the permission to.  
@@ -290,7 +290,7 @@ An attribute that is used in a published product cannot be deleted. You first ne
 1. Go to `Settings` / `Attributes`
 1. Select the attribute you want to delete
 1. Click on `...` for other actions and then `Delete` on the top right corner
-  ![image](../img/Settings_Attributes_Delete.png)
+  ![Attribute deletion - trash can](../img/Settings_Attributes_Delete.png)
 1. Confirm the action in the popin
 
 ### Through the delete shortcut in the grid
@@ -298,11 +298,13 @@ An attribute that is used in a published product cannot be deleted. You first ne
 1. Go to `Settings` / `Attributes`
 1. Select the attribute you want to remove from the attribute grid
 1. Place your mouse over the line of the attribute in the grid, a trash can icon appears
-  ![image](../img/Settings_Attributes_GridDeleteHover.png)
+  ![Attribute deletion - hover](../img/Settings_Attributes_Grid_Delete_Hover.png)
 1. Click on it
 1. Confirm the action in the popin
 
-**The attribute and all its relevant information will be deleted in Akeneo PIM. Once you have confirmed the action, it cannot be reverted.**
+::: warning
+The attribute and all its relevant information will be deleted in Akeneo PIM. Once you have confirmed the action, it cannot be reverted.
+:::
 
 ## Delete an attribute and keep the related data
 
@@ -317,7 +319,7 @@ This walkthrough will help you go through the different steps.
 
 ### First step: export the data
 
-::: warning
+::: info
 Before you begin, make sure you know how to configure a new export profile. If you need more help, please read our page on [How to create a new product export profile](#product-export-builder.html#create-a-new-product-export-profile).
 :::
 
@@ -351,6 +353,8 @@ Here you can create the new attribute using the same code that was used for the 
 ::: warning
 Once you've deleted an attribute, a process starts in order to clear all product values set for this attribute. While this process is running, you cannot create another attribute with the exact same code.
 :::
+
+![Attribute deletion - Attribute Code Blacklisted](../img/Settings_Attributes_code_blacklisted.png)
 
 ### Fourth step: import the data back
 
