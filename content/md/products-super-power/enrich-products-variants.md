@@ -310,7 +310,7 @@ If this option is set to `Yes`, then the PIM will convert all the variant produc
 ![Convert variant to simple via import](../img/ConvertVariantToSimpleImport.png)
 
 ## Convert variant products to simple ones via the API
-Please refer to our [API documentation](link) to discover how to convert variant products to simple ones via the API.
+Please refer to our [API documentation](https://api.akeneo.com/concepts/products.html#convert-a-variant-product-to-a-simple-product) to discover how to convert variant products to simple ones via the API.
 
 # Delete a product model
 
