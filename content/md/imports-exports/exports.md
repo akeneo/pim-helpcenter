@@ -84,7 +84,7 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 | Delimiter     | Defines the character to delimit the fields in the CSV file _(not available in Serenity offer)_ |
 | Enclosure   | Defines the character for the field enclosure in the CSV file _(not available in Serenity offer)_ |
 | Number of lines per file | Defines the limit number of lines per file for XSLX export |
-| Export media | If activated, all media (from asset collections, image and file attributes) of the products will be exported. You'll get an archive with the CSV file and a folder with the media |
+| Export media | If activated, all media (from asset collection, image and file attributes) of the products will be exported. You'll get an archive with the CSV file and a folder with the media |
 | Export with labels       | Defines if the export file displays values' labels instead of values' codes |
 | Headers with labels*      | Defines if the export file displays headers' labels instead of headers' codes |
 | File locale*      | Defines the locale in which labels are displayed |
