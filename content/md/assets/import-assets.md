@@ -28,5 +28,5 @@ If you get the structure of your import file thanks to a previous export, you'll
 :::
 
 :::warning
-When you are in a product sheet, you can directly upload a file there: t automatically creates a new asset in the Asset Manager. It's not the same behavior when you run a product import: if you add a new asset in your product import file, this new asset is **not created** in the Asset Manager!
+When you are in a product sheet, you can directly upload a file there: it automatically creates a new asset in the Asset Manager. It's not the same behavior when you run a product import: if you add a new asset in your product import file, this new asset is **not created** in the Asset Manager!
 :::
