@@ -17,7 +17,7 @@ If you are in this situation, or if you simply need to import assets and their a
 
 # Import assets with an import profile
 
-You can import a CSV or excel file with a list of urls and/or an archive with all the media. To do so, you first have to create an [import profile](imports.html#create-a-new-import-profile): choose a code, a label and select either `Asset import in xlsx` or `Asset import in CSV`.
+You can import a CSV or excel file with a list of urls and/or an archive with all the media. To do so, you first have to create an [import profile](imports.html#create-a-new-import-profile): choose a code, a label and select either `Asset import in XLSX` or `Asset import in CSV`.
 
 :::tips
 To get the structure of your asset import file, you can export the assets first - by creating an export profile with the `assets` job. But mind you! you can only [export assets from one family at once](export-assets.html#how-to-export-your-assets-with-the-export-jobs).
