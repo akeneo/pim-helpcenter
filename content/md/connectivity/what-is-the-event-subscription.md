@@ -65,5 +65,6 @@ The Akeneo PIM triggers product update message when:
 - a reference entity is removed,
 - a previous version of a product is restored,
 - the bulk action _Change the parent product model_ is launched,
-- the bulk action _Add to existing product model_ is launched.
-
+- the bulk action _Add to existing product model_ is launched,
+- the action to change a product variant in simple product, 
+- and the action thats allows you to update a variant axis value.
