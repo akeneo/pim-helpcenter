@@ -85,7 +85,7 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 | Enclosure   | Defines the character for the field enclosure in the CSV file _(not available in Serenity offer)_ |
 | Number of lines per file | Defines the limit number of lines per file for XSLX export |
 | With header             | Defines if the first line of the exported file contains the columns names |
-| Export files and images | Disables the media archiving of images, images will not be exported in the file and the image column will not be visible in the export |
+| Export media | If activated, all media (from asset collection, image and file attributes) of the products will be exported. You'll get an archive with the CSV file and a folder with the media |
 | Export with labels       | Defines if the export file displays values' labels instead of values' codes |
 | Headers with labels*      | Defines if the export file displays headers' labels instead of headers' codes |
 | File locale*      | Defines the locale in which labels are displayed |
@@ -94,6 +94,10 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 
 ::: warning
 If you export a file with labels and not codes you won't be able to re-upload it in the PIM afterwards.
+:::
+
+:::info
+If the asset collection attributes of your products are linked to asset families with a `media link` attribute used as main media, when you export the products, you won't get an archive. You will only export a CSV or an XLSX file with a column containing the url of the media.
 :::
 
 In the case of products and published products exports, you will see that there is an additional tab called `Content`. In this tab, you will be able to define precisely which products or published products data you want to export. To find out more about this feature called `Product export builder`, take a look at this article about [Product Export Builder](product-export-builder.html).

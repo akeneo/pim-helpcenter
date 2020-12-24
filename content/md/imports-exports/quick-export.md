@@ -23,6 +23,8 @@ To start the export of product information from the products' grid:
     - `All attributes` to generate files with all your product attributes
     - `With codes` to define if the export file displays values' **codes** instead of values' labels.
     - `With labels` to define if the export file displays values' **labels** instead of values' codes.
+    - `Without media` to export the attribute values except the media (from asset collection, image, or file attributes)
+    - `With media` to export the attribute values including the media (from asset collection, image, or file attributes)
     ![Quick Export checkboxes](../img/Exports_Quick-Export-checkboxes.png)
 1.  In the top-right corner, click on `Export`
 
