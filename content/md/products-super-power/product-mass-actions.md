@@ -26,6 +26,7 @@ Here’s the list of the bulk operations available in the PIM:
   - **Remove products from categories**: Remove products from one or more categories at once. Selected products will be uncategorized.
   - **Add to an existing product model**: Add a simple product as a variant to a [product model](what-about-products-variants.html#what-is-a-product-model) if 2 levels of variants or to a [sub product model](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed) if 3 levels of variants.
   - **Change the parent product model**: Change the parent [product model](what-about-products-variants.html#what-is-a-product-model) of variant products or [sub product models](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed).
+  - **Convert to simple products**: Convert the selected variant products to simple products (remove their parent).
   - **Associate to products**: Add associations for your selection of products.
   - **Publish products _(EE only)_**: Mass publish products.
   - **Unpublish products _(EE only)_)**: Mass unpublish products. This action is available in the `Published products` grid.
@@ -219,6 +220,16 @@ The attributes defined as `common attributes` in the [family variant](what-about
 :::warning
 This operation can only be performed for variant products or [sub product models](what-about-products-variants.html#how-many-levels-of-enrichment-are-managed), already linked to a parent product model.
 :::
+
+# Convert variants to simple products
+
+When selecting one or several product models or variant products, you can launch a bulk action in order to convert all these variants to simple products.
+1. Select one or several product models or variant products in the grid
+1. Click on `Bulk actions`
+1. Then select `Convert to simple products`
+1. Confirm your action
+
+All the variants of your selection will be then converted to simple products, meaning that they won't be attached to a parent anymore.
 
 # Associate products
 

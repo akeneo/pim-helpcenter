@@ -50,7 +50,7 @@ Let's take an example: you need to work on **variant products only** (not simple
 
 ## Filter on the identifier
 
-You can filter your products/product models on their **identifier**. This filter enables you to easily and quickly search for several product models for instance. 
+You can filter your products/product models on their **identifier**. This filter enables you to easily and quickly search for several product models for instance.
 
 ## Filter on your attributes
 
@@ -265,6 +265,52 @@ The list of versions are displayed in the `History` tab.
 ::: info
 In `COMMON`, only the common properties (attributes and categories) will be versioned. You can use the navigation component to display the versions of each variant level.
 :::
+
+# Convert a variant product to a simple one
+
+Sometimes, you may need to convert a variant product to a simple product, for instance when there is a reduction of your product range.
+To do so, several choices:
+- directly in a variant product sheet
+- via a bulk action
+- via a product import
+- via the API
+
+Let's see how each of these solutions works!
+
+:::info
+No matter the way you do the conversion, your variant product becomes a simple product but don't worry, all of its former values, categories and associations will be saved.
+:::
+
+## Convert a variant product to a simple one via a unitary action
+When you are on a product page, at the variant level, you can decide to convert it to a simple product very easily.
+1. Click on `...`
+1. Then `Convert to a simple product`
+1. Confirm
+
+![Convert variant to simple via a unitary action](../img/ConvertVariantToSimpleUnitary.png)
+
+## Convert variant products to a simple ones via a bulk action
+When selecting one or several product models or variant products, you can launch a bulk action in order to convert all these variants to simple products.
+1. Select one or several product models or variant products in the grid
+1. Click on `Bulk actions`
+1. Then select `Convert to simple products`
+1. Confirm your action
+
+All the variants of your selection will be then converted to simple products, meaning that they won't be attached to a parent anymore.
+
+![Convert variant to simple via a bulk action](../img/ConvertVariantToSimpleBulkaction.png)
+
+## Convert variant products to simple ones via an import
+It is also possible to convert a variant product to a simple one by import, by removing its parent.
+1. Go to the `Global settings` tab of your product import job profile
+1. Scroll down until the `Convert variant products to simple products` parameter.
+By default, it is set to `No`. It means that the PIM won't convert your variant products if the `parent` column is empty in your xlsx/csv file.
+If this option is set to `Yes`, then the PIM will convert all the variant products with an empty `parent` column.
+
+![Convert variant to simple via import](../img/ConvertVariantToSimpleImport.png)
+
+## Convert variant products to simple ones via the API
+Please refer to our [API documentation](https://api.akeneo.com/concepts/products.html#convert-a-variant-product-to-a-simple-product) to discover how to convert variant products to simple ones via the API.
 
 # Delete a product model
 
