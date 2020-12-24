@@ -21,7 +21,7 @@ Here are the attribute types available in Akeneo:
 - **Text area** attribute: a multi-line text field that can be used for a product description.
 - **Simple select** attribute: a single-choice list coming with custom options. Only one value can be selected amongst the available options.
 - **Multi select** attribute: a multi-choice list coming with custom options. More than one value can be selected amongst the available options.
-- **Yes/No** attribute: a boolean attribute
+- **Yes/No** attribute: a boolean attribute. You can define a *Default value*: this value is used at product/product model creation when no value is specified for this attribute.
 - **Date** attribute: a date field, the PIM will display a calendar to choose the date, which includes day, month and year.
 - **Number** attribute: a single-line field that can only contain digits.
 - **Measurement** attribute: a single-line field composed of a first field containing a value and a second field containing a measurement unit. It allows you to automatically convert measurement values to others to fit your export needs. You can check the [What about measurements](what-about-measurements) article to get more information about this feature.
