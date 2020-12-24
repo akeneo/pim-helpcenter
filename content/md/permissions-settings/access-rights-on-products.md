@@ -68,7 +68,7 @@ On the `fr_FR` locale, the user can edit the products in the `Shoes` category an
 It is possible to define for each [user group](what-is-a-user-group.html), on which [locale](what-is-a-locale.html) the product information can be viewed and/or edited.
 
 ## Three levels of access
-They are three levels of access based on the locales. Each one is described in the sections below.
+There are three levels of access based on the locales. Each one is described in the sections below.
 ### The edition right
 If a user **has rights to edit product information** for a specific locale (ie one of his user groups has at least the `Allowed to edit product information` permission), the specific locale will be displayed in the dropdown menu for the available locales:
 - In the product grid
@@ -134,8 +134,16 @@ If a user **has rights to only edit product information** for the products that 
 *   Create a product [draft](proposals-workflow.html#contribute-to-a-working-copy) that will need to be approved by the product manager
 *   Generate/send a proposal that will be processed by the product manager
 
+:::info
+To be able to access the `Categories` tab of the products that are in this given category, the user must be granted with the `Consult the categories of a product` role permission (`System` > `Roles` > `Products` > `Consult the categories of a product`). The user will be able to consult the categories but not edit them. Without this permission, the `Categories` tab won't appear.
+:::
+
 ### The view right
 If a user **has rights to only view product information** for the products that are in a given category (ie his user groups only have the `Allowed to view products` permission), he will only be able to view the product information and that's all. No possibility to edit it.
+
+:::info
+To be able to access the `Categories` tab of the products that are in this given category, the user must be granted with the `Consult the categories of a product` role permission (`System` > `Roles` > `Products` > `Consult the categories of a product`). The user will be able to consult the categories but not edit them. Without this permission, the `Categories` tab won't appear.
+:::
 
 ### No right
 If a user **has no rights to see nor edit product information** for the products that are in a given category, he won't be able to neither view nor edit the product information, whatever the screen in the PIM.
