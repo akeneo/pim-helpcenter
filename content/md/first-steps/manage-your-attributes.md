@@ -268,31 +268,103 @@ Unlike products you cannot restore or revert an attribute’s version.
 
 # Delete an attribute
 
+There are two ways to remove an attribute:
+* Through the attribute edit form
+* Through the delete shortcut in the grid
+
+When you remove an attribute, all the product values set for this attribute will be cleared. If you want to keep them, please read [the dedicated section](manage-your-attributes.html#delete-an-attribute-and-keep-the-related-data).
+
 ::: warning
-Please first delete your attribute from the families it is used in and then from the products. After this, you will be able to delete safely your attribute.
+If you cannot access the attribute page or if you cannot add/delete an attribute, it is probably because you do not have the permission to.  
+Please refer to [Manage your user roles](build-your-user-roles.html) to learn about roles.
 :::
-
-You have two ways to remove an attribute:
-
-Through the attribute edit form:
-1. Select the attribute to delete
-1. Click on `...` for other actions and then `Delete` on the top right corner
-  ![image](../img/Settings_Attributes_Delete.png)
-1. Confirm the action in the popin
-
-Through the `Delete` shortcut in the grid:
-  ![image](../img/Settings_Attributes_GridDeleteHover.png)
-1. Select the attribute you want to remove from the attribute grid
-1. Place your mouse over the line of attribute in the grid, the button `Delete` is prompted (trash can icon)
-1. Click on the trash can icon
-1. Confirm the action in the popin
-
-**The attribute and all its relevant information will be deleted in Akeneo PIM. Once you have confirmed the action, it cannot be reverted.**
 
 ::: ee
-An attribute that is used in a published product cannot be deleted. You first need to unpublish the product(s) and then delete the attribute.
+An attribute that is used in a published product cannot be deleted. You first need to unpublish the product and then delete the attribute.
 :::
 
+## Delete an attribute without keeping the related data
+
+### Through the attribute edit form
+
+1. Go to `Settings` / `Attributes`
+1. Select the attribute you want to delete
+1. Click on `...` for other actions and then `Delete` on the top right corner
+  ![Attribute deletion - trash can](../img/Settings_Attributes_Delete.png)
+1. Confirm the action in the popin
+
+### Through the delete shortcut in the grid
+
+1. Go to `Settings` / `Attributes`
+1. Select the attribute you want to remove from the attribute grid
+1. Place your mouse over the line of the attribute in the grid, a trash can icon appears
+  ![Attribute deletion - hover](../img/Settings_Attributes_Grid_Delete_Hover.png)
+1. Click on it
+1. Confirm the action in the popin
+
 ::: warning
-If you cannot access the attribute page or if you cannot add/delete an attribute, it is probably because you do not have the permission to. Please refer to [Manage your user roles](build-your-user-roles.html) to learn about roles.
+The attribute and all its relevant information will be deleted in Akeneo PIM. Once you have confirmed the action, it cannot be reverted.
+:::
+
+## Delete an attribute and keep the related data
+
+If you need to change an attribute property (to make it scopable and/or localizable), or if you want to change the attribute type (from a simple text to a text area for instance), you need to delete the attribute.  
+Before doing so, **if you plan to create another attribute using the same code**, and if you want to keep the data already input for this attribute, you will need to:
+1. [Export the data](manage-your-attributes.html#first-step-export-the-data)
+1. [Delete the attribute](manage-your-attributes.html#second-step-delete-the-attribute)
+1. [Create a new attribute](manage-your-attributes.html#third-step-create-the-new-attribute)
+1. [Import the data back](manage-your-attributes.html#fourth-step-import-the-data-back)
+
+This walkthrough will help you go through the different steps.
+
+### First step: export the data
+
+::: info
+Before you begin, make sure you know how to configure a new export profile. If you need more help, please read our page on [How to create a new product export profile](#product-export-builder.html#create-a-new-product-export-profile).
+:::
+
+1. Go to `Exports` and click on `Create export profile`
+1. Define a code and a label
+1. Select the job in the `job` field, whether you want to export products or product models (if you need to export both, you will need to create an export profile for each)
+![Select the job to export your data](../img/Delete-Attribute_Job_Export-profile.png)
+1.  In `Content`, filter the products by clicking on `Add attribute` and select the attribute you want to delete
+1.  Set the value to `Is not empty`
+![Select the appropriate attribute](../img/Delete-Attribute_Job_Export-profile_Content.png)
+1. In `Global settings`, make sure the option `Export with labels` is not activated
+1. Check the different other options (channel, locales, format...) to refine your export and click on `Save`
+1.  Click on `Export now`
+
+::: warning
+If you plan to delete a simple or multi select attribute, and if you want to keep their data, you will also need to export the attribute options through the Akeneo default export profile named `Demo XLSX attribute option export`. If this profile is not available in your PIM, please go back to the third step, and instead of selecting the product or the product model job, select the attribute options export.
+:::
+![Export attribute options](../img/Delete-Attribute_Job_Export-Attribute-options.png)
+
+### Second step: delete the attribute
+
+To delete the attribute, you have two options:
+* From the [attribute edit form](manage-your-attributes.html#through-the-attribute-edit-form)
+* From the [delete shortcut](manage-your-attributes.html#through-the-delete-shortcut-in-the-grid) in the grid
+
+### Third step: create the new attribute
+
+To complete this step, please read [how to create an attribute](manage-your-attributes.html#how-to-create-an-attribute).
+Here you can create the new attribute using the same code that was used for the attribute you just deleted.
+
+::: warning
+Once you've deleted an attribute, a process starts in order to clear all product values set for this attribute. While this process is running, you cannot create another attribute with the exact same code.
+:::
+
+![Attribute deletion - Attribute code blacklisted](../img/Settings_Attributes_code_blacklisted.png)
+
+### Fourth step: import the data back
+
+1. Go to `Imports` and click on `Create import profile`
+1. Define a code and a label
+1. Select the job in the `job` field, whether you want to import products, product models and/or attribute options (if you need to export all of them, you will need to create an import profile for each)  
+![Select the job to export your data](../img/Delete-Attribute_Job_Import-profile.png)
+1. Check the different options (format, enable product...) to refine your import and click on `Save`
+1. Drop your file and click on `Upload and import now`
+
+::: success
+This walkthrough is now complete, and you should have kept your data. Congratulations! ;)
 :::
