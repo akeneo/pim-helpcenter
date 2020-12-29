@@ -156,6 +156,17 @@ The date will be copied into the ISO 8601 format (ex: 2019-01-25T12:00:00+01:00)
 - a **textarea** attribute
 - a **multi select** attribute *(the option codes of the multi select attribute must already exist)*
 
+#### Specificity regarding simple select / multi select attributes
+
+To copy values from a simple select attribute to another, or from a multi select attribute to another, **the option you want to copy must already exist in the target attribute.**
+
+Let's say you have 2 attributes: attribute 1 and attribute 2. Both list sizes. You want to copy the size filled in Attribute 1, to Attribute 2. Both have an option with code "S", but this option doesn't have the same label: in attribute 1, the label is `Small` whereas is Attribute 2, it is `S`.
+
+When your perform a copy action on one or several products to copy this size, the option with code `S` will be copied from attribute 1 to attribute 2 in your Product Edit Form and the result will be:
+- Attribute 1: `Small`
+- Attribute 2: `S`
+
+If any label is defined for the option, then the code will be copied.
 
 
 ### Example
