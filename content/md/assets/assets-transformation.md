@@ -39,8 +39,8 @@ The asset transformations are automatically generated at the asset creation. If 
 :::
 
 ::: info
-**The PIM only generates variations for image files having the extensions: .jpg, .jpeg, .png.**
-Natively, the PIM cannot generate variations for a PDF file or AVI files for instance.
+**The PIM only generates variations for image files with mimetype: `image/jpeg`, `image/png`, `image/tiff`, `image/gif`.
+Natively, the PIM cannot generate variations for a PDF file or AVI files for instance.**
 :::
 
 Still not comfortable with transformations and want to better understand? Don't hesitate to go through the next sections where we detail each part of the transformation format.
