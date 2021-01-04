@@ -9,7 +9,7 @@ pim_announcement_audience:
 # Discover new designs
 ::: meta-data type="Improvement" features="Productivity" available="late December"
 
-To always increase your productivity and the level of readability of our PIM, we redesigned some parts of the PIM interface: the login page, flash messages, and the management page of our dear locales. Enjoy!
+To bring your productivity and the level of readability of our PIM to the next level, we redesigned some parts of the PIM interface: the login page, flash messages, and the management page of our dear locales. Enjoy!
 
 ![The revamped locales grid](../img/activated-locales-grid.png)
 
