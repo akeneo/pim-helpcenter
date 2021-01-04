@@ -12,7 +12,6 @@ Collaboration around product data is now more efficient as it's now possible to 
 
 ![Quick export products with their assets](../img/quick-export-products-with-assets.png)
 
-_How does it work?_ Once the export is completed, you receive an archive containing all the media linked to your products. In the downloaded Excel or CSV file, a new `file path` column allows you to know which assets are linked to which product.
 
 ::: more
 [What is an asset?](../articles/what-about-assets.html)  
