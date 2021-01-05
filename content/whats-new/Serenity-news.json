@@ -21,28 +21,7 @@
     "link": "/pim/serenity/updates/2020-09.html#display-labels-instead-of-codes-in-your-product-exports"
   },
   {
-    "title":"Product associations with quantities 🔗",
-    "domains": ["Governance","Productivity"],
-    "editions": ["CE","EE"],
-    "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2020-07.html#new-association-type-with-quantities"
-  },
-  {
-    "title":"Two-way product association 🔗",
-    "domains": ["Governance","Productivity"],
-    "editions": ["CE","EE"],
-    "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2020-05.html#new-association-type-the-two-way-association"
-  },
-  {
-    "title":"Full visibility on jobs 👁️",
-    "domains": ["Reporting","Collaboration"],
-    "editions": ["CE","EE"],
-    "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2020-05.html#more-visibility-on-pim-jobs"
-  },
-  {
-    "title":"Measurement families and units creation 📏",
+    "title":"Creation of measurement families and units 📏",
     "domains": ["Governance"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
@@ -63,11 +42,67 @@
     "link": "/pim/serenity/updates/2020-11.html#import-and-export-your-reference-entity-records"
   },
   {
+    "title":"Asset imports via XLSX and CSV 🖼️",
+    "domains": ["Collaboration","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-12.html#import-assets-with-excel-or-csv-files"
+  },
+  {
+    "title":"Export products with assets in XLSX and CSV 🖼️",
+    "domains": ["Collaboration"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-12.html#export-your-products-with-their-assets"
+  },
+  {
+    "title":"Unified product quality score 💯",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-12.html#easily-measure-your-product-quality"
+  },
+  {
+    "title":"Product associations with quantities 🔗",
+    "domains": ["Governance","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-07.html#new-association-type-with-quantities"
+  },
+  {
+    "title":"Two-way product association 🔗",
+    "domains": ["Governance","Productivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-05.html#new-association-type-the-two-way-association"
+  },
+  {
+    "title":"Variant to simple product conversion",
+    "domains": ["Governance"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-12.html#convert-variant-products-into-simple-products"
+  },
+  {
+    "title":"Full visibility on jobs 👁️",
+    "domains": ["Reporting","Collaboration"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-05.html#more-visibility-on-pim-jobs"
+  },
+  {
     "title":"Measurements API 🔌",
     "domains": ["Governance","Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-04.html#new-endpoints-to-manage-measurements"
+  },
+  {
+    "title":"Product quality score API 🔌",
+    "domains": ["Connectivity", "Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-12.html#deliver-your-product-quality-scores-to-other-applications"
   },
   {
     "title":"'Missing image' quality criteria 💯",
@@ -77,14 +112,14 @@
     "link": "/pim/serenity/updates/2020-11.html#data-quality-insights-new-missing-image-criteria"
   },
   {
-    "title":"Data quality grades on variant products 💯",
+    "title":"Product quality score on variant products 💯",
     "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-03.html#data-quality-insights-now-available-for-variant-products"
   },
   {
-    "title":"Data quality grades on product models 💯",
+    "title":"Product quality score on product models 💯",
     "domains": ["Data quality"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
@@ -201,5 +236,12 @@
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-06.html#better-manage-your-attribute-options"
+  },
+  {
+    "title":"Default value on yes/no attributes",
+    "domains": ["Productivity", "Governance"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2020-12.html#default-value-for-the-yesno-attribute"
   }
 ]
