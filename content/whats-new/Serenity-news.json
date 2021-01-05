@@ -21,7 +21,7 @@
     "link": "/pim/serenity/updates/2020-09.html#display-labels-instead-of-codes-in-your-product-exports"
   },
   {
-    "title":"Measurement families and units creation 📏",
+    "title":"Creation of measurement families and units 📏",
     "domains": ["Governance"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
@@ -53,7 +53,7 @@
     "domains": ["Collaboration"],
     "editions": ["CE","EE"],
     "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2020-12.html#exports-your-products-with-their-assets"
+    "link": "/pim/serenity/updates/2020-12.html#export-your-products-with-their-assets"
   },
   {
     "title":"Unified product quality score 💯",
