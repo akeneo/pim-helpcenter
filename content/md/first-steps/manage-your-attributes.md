@@ -279,6 +279,10 @@ If you cannot access the attribute page or if you cannot add/delete an attribute
 Please refer to [Manage your user roles](build-your-user-roles.html) to learn about roles.
 :::
 
+::: warning
+If you are using an Akeneo connector, make sure your data mapping is updated in the connector to maintain accurate data consistency.
+:::
+
 ::: ee
 An attribute that is used in a published product cannot be deleted. You first need to unpublish the product and then delete the attribute.
 :::
