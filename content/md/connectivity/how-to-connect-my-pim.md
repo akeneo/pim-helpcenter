@@ -4,7 +4,7 @@ themes: connectivity, import-export-data
 title: How to **connect** my PIM?
 popular: true
 ee-only: false
-related: what-is-a-connection, manage-your-connections, connection-dashboard
+related: what-is-a-connection, manage-your-connections, connection-dashboard, what-is-an-event-subscription
 ---
 
 # Meet the "Connections"
@@ -71,4 +71,3 @@ You can also find out more reasons to connect the PIM via the API, [directly on 
 ::: tips
 Want to know more about the API? You can easily send your first request by following this [simple guide](https://api.akeneo.com/getting-started/your-first-tutorial-4x/welcome.html).
 :::
-
