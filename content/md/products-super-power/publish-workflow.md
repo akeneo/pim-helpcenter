@@ -51,3 +51,7 @@ To associate 2 published products, for instance, *Product A* to *Product B*:
 1. Publish your *Product B*
 2. Create the association in the *Product A*, with your *Product B*
 3. Publish the *Product A*
+
+::: warning
+Associations for published products will only be visible via the API and flat file exports. You won't see them in the product interface.
+:::
