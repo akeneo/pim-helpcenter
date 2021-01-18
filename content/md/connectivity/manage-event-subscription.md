@@ -4,11 +4,11 @@ themes: connectivity, import-export-data
 title: Subscribe to **events**
 popular: true
 ee-only: false
-related: what-is-the-event-subscription, how-to-connect-my-pim, manage-your-connections
+related: what-is-an-event-subscription, how-to-connect-my-pim, manage-your-connections
 ---
 
 ::: info
-Before we jump right in, if you need to refresh your memory about [event subscriptions](what-is-the-event-subscription.html), take a look at our dedicated page.
+Before we jump right in, if you need to refresh your memory about [event subscriptions](what-is-an-event-subscription.html), take a look at our dedicated page.
 ::: 
 
 
@@ -24,7 +24,7 @@ On this page, you'll find answers to the following questions:
 First, an event subscription relies on the Akeneo PIM Connections feature, so you'll need to create a Connection first if you don't already have one.
 You will find everything you need on the [Create a connection](manage-your-connections.html#create-a-connection) page. 
 
-In order to enable the feature, go to the `Event Subscriptions` configuration page, then use the toggle to turn it on.
+In order to enable the feature, go to the `Event Subscription` configuration page, then use the toggle to turn it on.
 
 ![Using the Akeneo Events API](../img/event-subscription-helper.png)
 
