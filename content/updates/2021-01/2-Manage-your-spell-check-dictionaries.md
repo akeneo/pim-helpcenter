@@ -7,7 +7,7 @@ pim_announcement_audience:
 # Manage your spell-check dictionaries
 ::: meta-data type="New" features="Quality, Productivity" available="late January" link-to-doc="../articles/TODO"
 
-You can now fully manage your spell-check dictionaries in all your locales. Not only will you gain visibility on the words you have already added, but you will also be able to easily edit, delete or even add new words for each dictionary. Another step towards the next level in terms of enrichment productivity!
+You can now fully manage your spell-check dictionaries in all your locales. Not only you gain visibility on the words you have already added, but you are also able to easily edit, delete or even add new words for each dictionary. Another step towards the next level in terms of enrichment productivity!
 
 ![The spell-check dictionaries management feature](../img/TODO.png)
 
