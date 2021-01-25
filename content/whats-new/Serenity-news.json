@@ -21,6 +21,13 @@
     "link": "/pim/serenity/updates/2020-09.html#display-labels-instead-of-codes-in-your-product-exports"
   },
   {
+    "title":"Events API",
+    "domains": ["Connectivity"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-01.html#accelerate-your-connections-with-the-events-api"
+  },
+  {
     "title":"Creation of measurement families and units 📏",
     "domains": ["Governance"],
     "editions": ["CE","EE"],
@@ -229,6 +236,13 @@
     "editions": ["CE","EE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2020-07.html#avoid-spelling-mistakes-in-your-product-data"
+  },
+  {
+    "title":"Spell-check dictionaries",
+    "domains": ["Data quality"],
+    "editions": ["CE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-01.html#manage-your-spell-check-dictionaries"
   },
   {
     "title":"Improved attribute option management",
