@@ -53,5 +53,5 @@ To associate 2 published products, for instance, *Product A* to *Product B*:
 3. Publish the *Product A*
 
 ::: warning
-Associations for published products will only be visible via the API and flat file exports. You won't see them in the product interface.
+Associations for published products will only be visible via the API and flat file exports (csv or xlsx). That means you won’t see the `Associations` tab on the product edit form of published products. Please note that associations with quantities aren’t compatible with published products.
 :::
