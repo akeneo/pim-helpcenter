@@ -88,6 +88,8 @@ It is possible to delete your own selection of assets.
 1. In the bar at the bottom, click on `delete`
 1. In the confirmation popin, type in the name of the asset family and click on `delete`
 
+Please note that if you change any filter after having a selection of assets, this selection will be reset.
+
 ::: tips
 In the bottom bar, checking the box lets you select all assets or none in one click!
 :::
