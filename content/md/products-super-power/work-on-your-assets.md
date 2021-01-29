@@ -80,6 +80,21 @@ You can delete an asset or all the assets of an asset family.
 
 ![Assets Deletion](../img/Assets_Deletion.png)
 
+## Delete a selection of assets
+It is possible to delete your own selection of assets.
+* Select your asset family in the left panel
+* Choose the filters to display the assets
+* Check the box under each asset you would like to delete
+* In the bar at the bottom, click on `delete`
+* In the confirmation popin, type in the name of the asset family and click on `delete`
+
+::: tips
+In the bottom bar, checking the box lets you select all assets or none in one click!
+:::
+
+![Assets Mass Deletion](../img/Assets_Mass-delete-assets.png)
+
+
 ## Delete all the assets
 To delete all the assets of a family, click on the `...` button at the top right corner of the header's asset library, then `delete all assets`.
 
