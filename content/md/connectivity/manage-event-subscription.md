@@ -26,7 +26,11 @@ You will find everything you need on the [Create a connection](manage-your-conne
 
 In order to enable the feature, go to the `Event Subscription` configuration page, then use the toggle to turn it on.
 
-![Using the Akeneo Events API](../img/event-subscription-helper.png)
+![Event subscription page](../img/event-subscription-helper.png)
+
+::: warning
+To ensure the proper functioning of your Akeneo PIM, you can connect **up to 3 connections** to the Event subscription feature.
+::: 
 
 Now, let's move on to the URL configuration, and soon you'll be able to receive events.
 
