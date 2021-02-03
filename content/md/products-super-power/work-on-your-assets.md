@@ -96,15 +96,6 @@ In the bottom bar, checking the box lets you select all assets or none in one cl
 
 ![Assets Mass Deletion](../img/Assets_Mass-delete-assets.png)
 
-
-## Delete all the assets
-It is also possible to delete all assets of a family.
-1. Select your asset family in the left panel
-1. In the bar at the bottom, check the box two times so that it will select all the assets of the selected family and click on `delete`
-1. In the confirmation popin, type in the name of the asset family and click on `delete`
-
-![Delete All Assets](../img/Assets_DeleteAllAssets.png)
-
 ::: warning
 To delete all the assets of an asset family, you **need to check that no asset of this family is linked to a product or a product model**. Otherwise you will not be able to delete them.
 :::
