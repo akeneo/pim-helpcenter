@@ -238,13 +238,6 @@
     "link": "/pim/serenity/updates/2020-07.html#avoid-spelling-mistakes-in-your-product-data"
   },
   {
-    "title":"Spell-check dictionaries",
-    "domains": ["Data quality"],
-    "editions": ["CE","EE"],
-    "since-version": "Serenity",
-    "link": "/pim/serenity/updates/2021-01.html#manage-your-spell-check-dictionaries"
-  },
-  {
     "title":"Improved attribute option management",
     "domains": ["Productivity", "Governance"],
     "editions": ["CE","EE"],
