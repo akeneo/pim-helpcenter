@@ -1,4 +1,9 @@
 {
+  "2021-02": {
+    "title": "February 2021 Serenity updates",
+    "description": "February Serenity updates",
+    "img": "illus-february-21.svg"
+  },
   "2021-01": {
     "title": "January 2021 Serenity updates",
     "description": "What better way to start this new year than with a great new PIM feature? We are very happy and proud to release a brand new API called “Events API” to help you effectively connect your PIM to third party applications!",
