@@ -186,7 +186,7 @@ The number of impacted products will appear on the right side of your screen in 
 # Execute rules
 
 :::info
-Rules are automatically executed daily at 5 am UTC.  
+Rules are automatically executed 4 times a day at 5 am UTC, 11 am UTC, 5 pm UTC, and 11 pm UTC.  
 Rules are also regularly executed after a bulk action or after imports with rules.
 :::
 
