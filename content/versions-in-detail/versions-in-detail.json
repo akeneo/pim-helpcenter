@@ -1,5 +1,27 @@
 [
   {
+    "code": "50",
+    "label": "5.0",
+    "name": {
+      "CE": "Bully for Bugs",
+      "EE": "Buttercup"
+    },
+    "releaseDate": "2021-03-09",
+    "supportEndDate": "2022-09-30",
+    "doc": {
+      "functional": "/pim/v5",
+      "api": "https://api.akeneo.com/api-reference-index-50.html"
+    },
+    "migrationToLatestDoc": false,
+    "releaseNoteLink": "/pim/v5/updates/index.html",
+    "newKeyFeaturesIn": {
+      "CE": "/pim/serenity/whats-new.html#versions=.50&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.50&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    },
+    "newKeyFeaturesIfIMigrateToLatest": null,
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+  },
+  {
     "code": "40",
     "label": "4.0",
     "name": {
@@ -12,13 +34,13 @@
       "functional": "/pim/v4",
       "api": "https://api.akeneo.com/api-reference-index-40.html"
     },
-    "migrationToLatestDoc": false,
+    "migrationToLatestDoc": true,
     "releaseNoteLink": "/pim/v4/updates/index.html",
     "newKeyFeaturesIn": {
       "CE": "/pim/serenity/whats-new.html#versions=.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
       "EE": "/pim/serenity/whats-new.html#versions=.40&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
-    "newKeyFeaturesIfIMigrateToLatest": null,
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
     "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {

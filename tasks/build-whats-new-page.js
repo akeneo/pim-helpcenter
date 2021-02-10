@@ -21,6 +21,7 @@ const orderedVersions = {
     '31': { 'name': '3.1', 'isSupported': false },
     '32': { 'name': '3.2', 'isSupported': true },
     '40': { 'name': '4.0', 'isSupported': true },
+    '50': { 'name': '5.0', 'isSupported': true },
     'serenity': { 'name': 'Serenity', 'isSupported': true }
 };
 
