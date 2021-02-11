@@ -31,7 +31,7 @@ To add a new asset to the `Packshots` asset family:
 ![Create an asset](../img/Assets_UnitaryCreation.png)
 
 ::: info
-Note that we have defined a limitation of 1 million assets per asset family to guarantee that the PIM is functional and runs smoothly.
+Note that we have defined a limitation of 10 million assets per asset family to guarantee that the PIM is functional and runs smoothly.
 :::
 
 ## Upload and create several assets at the same time
