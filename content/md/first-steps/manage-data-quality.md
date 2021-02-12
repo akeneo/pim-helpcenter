@@ -75,6 +75,5 @@ Several ways to add words from the `Dictionary` screens
 
 :::info
 To add several words at a time, separate them with comas "," or space.
-You can add up to 100 words at a time.
 Words are case-insensitive: you can either type them all in lower or uppercases.
 :::
