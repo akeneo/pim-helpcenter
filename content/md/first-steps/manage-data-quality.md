@@ -57,7 +57,7 @@ Several ways to add words to the `Dictionary`:
 :::
 
 :::info
-To save you time, in addition to the manual ways, Akeneo PIM searches all words used in your product data (in text, text area attributes and attribute and option labels. If a word that counts a minimum of 3 letters is found at least 10 times, then this word will be automatically added to your personal dictionary.)
+To save you time, in addition to the manual ways, Akeneo PIM searches all words used in your product data (in text, text area attributes and attribute and option labels). If a word that counts a minimum of 3 letters is found at least 10 times, then this word will be automatically added to your personal dictionary.
 :::
 
 ## Locales dictionary
