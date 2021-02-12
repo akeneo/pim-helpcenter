@@ -69,7 +69,7 @@ Go to `Settings/Locales/Dictionary`
 
 Several ways to add words from the `Dictionary` screens
 - For several locales, by clicking on a locale name and using the mass action to add the same word or words for the selected locales
-- For a single  locale, by using the "add words" box
+- For a single locale, by using the "add words" box
 
 ![Image data quality add words to dictionary](../img/data-quality-add-words-dictionary.png)
 
