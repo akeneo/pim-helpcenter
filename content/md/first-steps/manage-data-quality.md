@@ -67,7 +67,7 @@ Go to `Settings/Locales/Dictionary`
 ![Image data quality dictionary](../img/data-quality-dictionary.png)
 :::
 
-Several ways to add words from the `Dictionary` screens
+Several ways to add words from the `Dictionary` screens:
 - For several locales, by clicking on a locale name and using the mass action to add the same word or words for the selected locales
 - For a single locale, by using the "add words" box
 
