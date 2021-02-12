@@ -62,7 +62,9 @@ To save you time, in addition to the manual ways, Akeneo PIM searches all words 
 
 ## Locales dictionary
 For users with rights to edit locales, it is possible to add, edit or delete words in the dictionary.
-Go to `Settings/Locales/Dictionary`
+- Go to `Settings/Locales/`
+- Select a `locale`
+- Choose `Dictionary`
 
 ![Image data quality dictionary](../img/data-quality-dictionary.png)
 :::
