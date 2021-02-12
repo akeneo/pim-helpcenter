@@ -27,6 +27,10 @@ To see which groups have been created:
 1.  Fill the form to name the group
 1.  Click on the `Save` button to save the newly created group
 
+:::info
+You can also import and export the user groups by using the dedicated import or export profiles.
+:::
+
 ## Edit the name of a user group
 
 1.  Log in with a user account with the rights to edit a group
