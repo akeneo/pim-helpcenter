@@ -44,5 +44,5 @@ gulp.task('copy-assets', ['clean-dist'], function(){
         .pipe(rename({dirname: ''}))
         .pipe(gulp.dest('dist/pim/' + majorVersion + '/img/'));
 
-    return merge(lib, css, fonts, img, pdfUserGuides, articleImg);
+    return merge(lib, css, fonts, img, pdfUserGuides, articleImg, versions);
 });
