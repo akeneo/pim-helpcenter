@@ -46,7 +46,7 @@ In the data quality panel of the product edit form, you can see which attribute 
 ![Image data quality attribute groups reminder](../img/data-quality-attribute-groups-reminder.png)
 :::
 
-# Manage your dictionary
+# Manage your dictionaries
 Either because your product names are unique or due to industry acronyms that are not part of regular dictionaries, you can add words in your personal dictionary to fit your special needs and avoid miscalculation of your Quality Score.
 
 Several ways to add words to the `Dictionary`:
