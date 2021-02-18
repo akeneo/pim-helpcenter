@@ -6,8 +6,7 @@ jobs:
         steps:
             - checkout
             - run: make build
-            - run: make test-helpcenter
-            
+
     deploy_staging:
         machine:
             image: ubuntu-1604:201903-01
@@ -17,7 +16,7 @@ jobs:
             - run:
                   name: Deploy on staging server
                   command: HOSTNAME=$STAGING_HOSTNAME PORT=$STAGING_PORT HELP_CENTER_URL="https://${STAGING_HOSTNAME}/" make deploy
-          
+
     deploy_production:
         machine:
             image: ubuntu-1604:201903-01
@@ -27,7 +26,7 @@ jobs:
             - run:
                   name: Deploy on production server
                   command: HOSTNAME=$PROD_HOSTNAME PORT=$PROD_PORT ONLY_PREVIOUS_MONTH_UPDATES=true make deploy
-            
+
 workflows:
     version: 2
     pull_request:
