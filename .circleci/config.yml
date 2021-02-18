@@ -39,10 +39,10 @@ workflows:
 
     deployment:
         jobs:
-            - deploy_production:
-                  filters:
-                      branches:
-                          only: v5
+            #            - deploy_production:
+            #                  filters:
+            #                      branches:
+            #                          only: v5
             - deploy_staging:
                   filters:
                       branches:
@@ -51,13 +51,13 @@ workflows:
     # feature announcements of the previous months should be deployed automatically the 5th day of the month in the helpcenter
     # before this date, the announcements are not generated and so not pushed in production
     # in staging, all announcements are published as soon as a PR is merged, so there is no need to redeploy it every night
-    nightly:
-        triggers:
-            - schedule:
-                  cron: "0 2 * * *"
-                  filters:
-                      branches:
-                          only:
-                              - v5
-        jobs:
-            - deploy_production
+    #nightly:
+    #    triggers:
+    #        - schedule:
+    #              cron: "0 2 * * *"
+    #              filters:
+    #                  branches:
+    #                      only:
+    #                          - v5
+    #    jobs:
+    #        - deploy_production
