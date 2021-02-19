@@ -1,6 +1,6 @@
 'use strict';
 
-const coloredDomains = {
+const coloredAreas = {
     'governance': { 'label': 'Governance', 'color': 'warning' },
     'productivity': { 'label': 'Productivity', 'color': 'info' },
     'collaboration': { 'label': 'Collaboration', 'color': 'primary' },
@@ -11,4 +11,4 @@ const coloredDomains = {
     'scalability': { 'label': 'Scalability', 'color': 'danger' }
 };
 
-module.exports = coloredDomains;
+module.exports = coloredAreas;
