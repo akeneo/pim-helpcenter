@@ -1,0 +1,32 @@
+{
+  "automation": {
+    "title": "Automation",
+    "description": "In your daily enrichment tasks, you may sometimes have the feeling of wasting your time in repetitive and mundane tasks. That's where the enhancements we did this year around automation can help you! You can now enjoy our brand new Rules builder, as well as other Rules engine improvements.",
+    "img": "illus-automation-v5.svg",
+    "eeOnly": true
+  },
+  "governance": {
+    "title": "Governance",
+    "description": "Data governance is key to further ensure the ease of enrichment and sustainability of your product catalog. That's why we added lots of great features to make our product modelling capabilities even more flexible and powerful. Among others, you'll now be able to enjoy new associations types, a revamped Yes/No attribute and enhancements around product variants.",
+    "img": "illus-governance-v5.svg",
+    "eeOnly": false
+  },
+  "quality": {
+    "title": "Quality",
+    "description": "Data quality is always a big concern. Spelling mistakes, inconsistencies, and formatting issues are easy to overlook, but can have a negative impact on product experience. To help you in this tedious task, we enhanced our dedicated feature, Data Quality Insights. It's never been so easy to monitor, track and fix your catalog quality.",
+    "img": "illus-quality-v5.svg",
+    "eeOnly": false
+  },
+  "connectivity": {
+    "title": "Connectivity",
+    "description": "You know the drill now: `The more connected your PIM is, the more powerful it will be!` And so, we continue our pursuit in making connectivity to other platforms and tools even more seamless, thanks to several new features including a brand new API! Our goal: allow you to create new PIM integrations in a breeze.",
+    "img": "illus-connectivity-v5.svg",
+    "eeOnly": false
+  },
+  "productivity": {
+    "title": "Productivity",
+    "description": "How can ",
+    "img": "illus-productivity-v5.svg",
+    "eeOnly": false
+  }
+}
