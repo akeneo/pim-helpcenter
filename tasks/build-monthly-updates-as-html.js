@@ -44,8 +44,20 @@ md
                 html += _.reduce(features, function(res, feature) {
                     return res + ' <span class="label label-info">' + feature + '</span>';
                 }, '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Feature' + ((features.length > 1) ? 's:</em>' : ':</em>'));
-                var editions = metaData.groups.in || '';
-                html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;In Serenity ' + editions + ' since ' + metaData.groups.available + '</em>';
+                if(metaData.groups.in){
+                    var editions = metaData.groups.in.split(',');
+                    html += _.reduce(editions, function(res, edition) {
+                        if(edition === 'EE'){
+                            if(editions.length === 1) return res + ' Serenity Enterprise Edition (EE) only';
+                            return res + ' Serenity Enterprise (EE) and';
+                        } else {
+                            return res + ' Growth (GE) editions'
+                        }
+                    }, '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in');
+                    html += ' since ' + metaData.groups.available + '</em>';
+                } else {
+                    html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in Serenity Enterprise Edition (EE) since ' + metaData.groups.available + '</em>';
+                }
                 var linkToDoc = metaData.groups.linkToDoc;
                 if(linkToDoc) {
                     html += '<em>&nbsp;&nbsp;|&nbsp;&nbsp;</em><a href="' + linkToDoc + '" target="_blank">📖 Read the doc</a>';
