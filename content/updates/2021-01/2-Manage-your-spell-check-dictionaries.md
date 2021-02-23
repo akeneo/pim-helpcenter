@@ -11,7 +11,7 @@ You can now fully manage your spell-check dictionaries in all your locales. Not 
 
 ![The spell-check dictionaries management feature](../img/TODO.png)
 
-This dictionary management feature is available for all the languages already supported by our spell-check, i.e., English, French, German, Spanish, Italian, Swedish, Norwegian, Danish, Dutch, and Brazilian.
+This dictionary management feature is available for all the languages already supported by our spell-check feature, i.e., English, French, German, Spanish, Italian, Swedish, Norwegian, Danish, Dutch, and Brazilian.
 
 ::: more
 [What is data quality?](../articles/understand-data-quality.html)
