@@ -8,7 +8,7 @@ pim_announcement_audience:
 # Mass delete your assets
 ::: meta-data type="New" features="Productivity" available="early February" link-to-doc="../articles/work-on-your-assets.html#delete-a-selection-of-assets"
 
-You can now delete several assets with just a few clicks. No doubt it will save you a tremendous amount of time!
+If you need to delete several assets from the same family at once, it's now possible to do it in the PIM user interface. No doubt it will save you a tremendous amount of time!
 
 ![Asset mass delete screen](../img/asset-mass-delete.png)
 
