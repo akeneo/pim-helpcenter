@@ -29,7 +29,7 @@ Automatically remove values from any attribute: a date, a price, a simple-select
 ## Copy an attribute value to another whatever their attribute types
 ::: meta-data type="Improvement" ee-only="true" link-to-doc="../articles/get-started-with-the-rules-engine.html#copy"
 :::
-You can now **copy the value from an attribute type to another attribute type**. For instance, you can create a rule to copy an option from a simple select attribute to a reference entity single link, instead of manually copy/pasting it. By automating the copy of values, you make sure you have the right data in the right place, this will get rid of some manual and error-prone tasks.
+You can now copy the value from an attribute type to another attribute type. For instance, you can create a rule to copy an option from a simple select attribute to a reference entity single link, instead of manually copy/pasting it. By automating the copy of values, you make sure you have the right data in the right place, this will get rid of some manual and error-prone tasks.
 
 ## Set or add associations
 ::: meta-data type="Improvement" ee-only="true" link-to-doc="../articles/get-started-with-the-rules-engine.html#add-associations"
