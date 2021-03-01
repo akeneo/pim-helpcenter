@@ -9,15 +9,17 @@ pim_announcement_audience:
 # Quality score in the Product Export Builder
 ::: meta-data type="New" features="Quality, Collaboration" available="mid-February" link-to-doc="../articles/product-export-builder.html#use-the-quality-score-filters-for-product-export"
 
-In the Product Export Builder, you can now enjoy the possibility to export the product quality score along all its other infomation whenever you export products in CSV or Excel format. There is also filter on the quality score so that you can precisely choose the products with either A, B, C, D, and/or E grades. This new feature comes in very handy in different situations:
-- when you want to only export high-quality products to then distribute their product information to third-parties,
-- when you want to select badly enriched products to allow external contributors to focus on them and enhance their quality score.
+You can now export your product quality scores along with other product information directly in your CSV and Excel product exports. Easily filter on the quality score(s) A, B, C, D, and/or E required to have the information in your exported file.
 
-You can also choose which locales you want this new filter to apply: whether it's on all the locales or only on a chosen one.
+This new feature can be very handy when:
+- you want to only export high-quality products to distribute them to third-parties, 
+- you want to find products with a low score to allow contributors to focus on enhancing this product information to increase their quality score.
+
+You can also choose which locales you want this quality score filter to apply: to all your locales or only one.
 
 ![Product export filters on quality score](../img/product-export-filters-on-quality-score.png)
 
-Note that your old product exports won't be impacted by this new capability as by default, we don't export the quality score.
+By default, we do not export the quality score in product export profiles, so if you want to export your quality score on existing product exports, you need to edit them to add this filter.
 
 ::: more
 [What is the Product Export Builder?](../articles/product-export-builder.html)  

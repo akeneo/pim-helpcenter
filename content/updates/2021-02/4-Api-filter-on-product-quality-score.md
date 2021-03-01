@@ -7,9 +7,7 @@ pim_announcement_audience:
 # New API filter on product quality score
 ::: meta-data type="New" features="Connectivity" available="mid-February" link-to-doc="https://api.akeneo.com/documentation/filter.html#on-their-quality-score"
 
-When retrieving products through our Rest API, you can now filter them according to their quality score. Pretty useful when:
-- you only want highly graded products to be distributed on your channels,
-- or you want to select products on which proper enrichment work is still needed.
+When retrieving products through our Rest API, you can now filter them according to their quality score. Very useful if you want to distribute only highly rated products on your channels or if you want to select products whose quality needs to be improved.
 
 Here is how this new filter looks like:
 ![API filter on quality score](../img/api-filter-on-quality-score.png)
