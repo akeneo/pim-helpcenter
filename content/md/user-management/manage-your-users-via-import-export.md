@@ -24,7 +24,7 @@ In order to get the correct structure of the csv/excel file, we highly recommend
 It is also possible to import/export the **user groups** by using the dedicated import/export profiles.
 
 :::info
-Please note that, you can only **create** user groups via an import (we only import their names), you **can't edit** them. Plus, **we don’t import users** in the user groups.
+Please note that you won't be able to **update the user group label** via an import. You will only be able to **create new user groups** via import. Plus, **we don’t import the users** that are in the user groups.
 :::
 
 # Import/export your user roles
