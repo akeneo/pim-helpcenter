@@ -31,10 +31,6 @@ Please note that you won't be able to **update the user group label** via an imp
 
 As for the user groups, you can import and export **user roles** as well. The dedicated export/import profiles will let you import/export the list of user roles plus their permissions.
 
-:::warning
-Please note that you won't be able to update the role label via an import. You will only be able to create new roles via import.
-:::
-
 :::wink
 You'll see when you'll export them: the list of permissions is quite complex to read, because all the permissions are listed in the same cell. That's why **we highly recommend you to use these import/export profiles only for data transfer purpose** (for instance, to transfer data from a pre-production instance to a production instance). These import/export profiles are not made for edition purpose.
 :::
