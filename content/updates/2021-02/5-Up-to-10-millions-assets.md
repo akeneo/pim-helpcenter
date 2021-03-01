@@ -6,7 +6,7 @@ pim_announcement_audience:
 # Up to 10 millions of assets per asset family
 ::: meta-data type="New" features="Scalability, Governance" available="mid-February" 
 
-It's now possible to have up to 10 million assets per asset family. Indeed, with time, your catalog grows as you add more and more products. As a result, your number of pictures and files can also double or triple.
+In the era of Product Experience, media files like images, videos, product sheets are more than ever needed to deliver compelling and personalized experiences to your customers. So as your media library grows, Akeneo needs to comply with your needs, that is why you can now have up to 10 million assets per asset family.
 
 ::: more
 [What is an asset?](../articles/what-about-assets.html)  
