@@ -16,7 +16,7 @@ In order to get the correct structure of the csv/excel file, we highly recommend
 :::
 
 :::info
-**For security purpose, it is not possible to export/import passwords**. When you create new users via an import, a provisional password is automatically created. The user will have to ask for a new password directly in the interface.
+**For security purpose, it is not possible to export/import passwords**. When you create new users via an import, a provisional password is automatically created. The user will have to ask for a new password directly on the login page through the "Forget your password?" link.
 :::
 
 # Import/export your user groups
