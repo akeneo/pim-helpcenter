@@ -6,7 +6,7 @@ pim_announcement_audience:
 # Rules execution 4 times a day
 ::: meta-data type="New" features="Automation" available="mid-February" 
 
-We now execute rules more often, 4 times a day. This enhancement will drastically help you reduce your time to market. Indeed, your catalog is now more and more up-to-date with the latest computed values generated automatically by the Rules Engine.
+We now automatically execute rules 4 times a day. This enhancement will help you faster your enrichment process. Indeed, your catalog is now more and more up-to-date with the latest computed values generated automatically by the Rules Engine. Of course, if you have the permission to, you can also execute one or several rules manually from the rule grid.
 
 ::: more
 [What is a rule?](../articles/what-is-a-rule.html)  
