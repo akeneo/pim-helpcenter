@@ -4,18 +4,19 @@
 ::: meta-data type="Improvement" ee-only="true" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
 :::
 
-To help reach a higher data quality content yet, **spell-check and suggestions are now available on text area attributes with rich text editor enabled** (WYSIWYG).
+To help reach a higher data quality content yet, spell-check and suggestions are now available on text area attributes with rich text editor enabled (WYSIWYG).
 
 ## On attribute and option labels
 ::: meta-data type="New" ee-only="true" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
 :::
 
-You can now benefit from spell-checking on attributes and option labels to guarantee the consistency on your customer-facing product data.
+Now, you can also benefit from spell-checking on attributes and option labels to guarantee the consistency on your customer-facing product data.
 
-You can now check and correct spelling mistakes in attributes in the `Settings` pages.  
-This improvement is also available in the product form. New recommendations are listed, should we find errors. The better the content, the higher the quality score! :wink:
+You can find this improvement under the attribute and attribute option setting pages. It is also available in the product form. New recommendations are listed, should we find errors. 
 
 ![dqi-tab-consistency-in-structure](../img/data-quality-spelling-option.png)
+
+The better the content, the higher the quality score! :wink:
 
 ## On new languages supported
 ::: meta-data type="Improvement" ee-only="true"
