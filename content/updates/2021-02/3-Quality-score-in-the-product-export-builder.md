@@ -9,7 +9,7 @@ pim_announcement_audience:
 # Filter and export your product quality score
 ::: meta-data type="New" features="Quality, Collaboration" available="mid-February" link-to-doc="../articles/product-export-builder.html#use-the-quality-score-filters-for-product-export"
 
-You can now export your product quality scores along with other product information directly in your CSV and Excel product exports. Easily filter on the quality score(s) A, B, C, D, and/or E required to have the information in your exported file.
+You can now export your product quality scores along with other product information directly in the Product Export Builder. Easily filter on the quality score(s) A, B, C, D, and/or E required to have the information in your exported Excel or CSV file.
 
 This new feature can be very handy when:
 - you want to only export high-quality products to distribute them to third-parties, 
