@@ -1,2 +1,0 @@
-# Quantified associations type
-YOLO
