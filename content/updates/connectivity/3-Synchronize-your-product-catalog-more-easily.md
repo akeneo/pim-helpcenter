@@ -93,7 +93,7 @@ The following filter enables you to retrieve all the attributes updated since th
 ::: meta-data type="New" ee-only="false" link-to-doc="https://api.akeneo.com/api-reference.html#get_attributes__code_"
 :::
 
-To further continue reducing the number of API requests when synchronising your product catalog, we now also send the attribute group labels whenever you ask for attributes. Indeed, there is now a new `group_labels` property in the attribute format:
+To further reduce the number of API requests when syncing your product catalog, we now also send attribute group labels whenever you request attributes. Indeed, there is now a new `group_labels` property in the attribute format:
 ```json
 {
     "code": "description",
@@ -113,5 +113,4 @@ To further continue reducing the number of API requests when synchronising your 
 }
 ```
 No need to call the attribute group endpoint to get them. Neat!
-
 

@@ -1,6 +1,6 @@
 # Enhanced connection monitoring
 
-## Monitor the errors on your connections 
+## Monitor errors on your connections 
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/connection-dashboard.html#in-the-connection-monitoring-page"
 :::
 
@@ -10,13 +10,16 @@ From this page, you can now easily track and fix any error on product creation, 
 
 ![Connection monitoring page](../img/new-connection-monitoring-page.png)
 
-Each warning message shows a small paragraph that explains what went wrong during the connection's synchronization, internal links to help you check the data in your PIM, and external links to directly access useful information in our help center.
+Each warning message shows:
+- a small paragraph that explains what went wrong during the connection's synchronization, 
+- internal links to help you check the data in your PIM,
+- external links to directly access useful information in our help center.
 
 ![Enriched error message](../img/fix-errors-on-your-connections.png)
 
 We also enhanced the Connection dashboard with additional information to ease error monitoring and allows you to see at a glance how your source connections are performing.  
 
-To ease error monitoring and allow you to see at a glance how your Source Connections are performing, the Connection dashboard now displays: 
+To ease error monitoring and allow you to see at a glance how your source connections are performing, the Connection dashboard now displays: 
 - a graph with the number of product errors (business and technical) for the past week,
 - connection cards showing the number of business errors for the past week. 
 
@@ -41,5 +44,4 @@ By default, new connections won't be monitored. If you want to activate their tr
 ![Enable connection tracking](../img/track-checkbox.png)
 
 You now have more control over the connections you want to track in the Connection Dashboard!
-
 
