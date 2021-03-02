@@ -4,7 +4,7 @@
 ::: meta-data type="New" ee-only="true" link-to-doc="../articles/manage-your-rules.html#duplicate-a-rule"
 :::
 
-Sometimes, you may have very similar rules with only one condition that is different. In order to avoid re-writing the whole rule, you are now able to duplicate it in two clicks! What a time saver, isn't it? :wink:
+Sometimes you can have very similar rules with just one different condition. In order to avoid rewriting the whole rule, you can now duplicate it in two clicks! What a time-saver, isn't it?
 
 ![Duplicate your rule](../img/Rules_Duplicate.png)
 
@@ -12,7 +12,7 @@ Sometimes, you may have very similar rules with only one condition that is diffe
 ::: meta-data type="New" ee-only="true" link-to-doc="../articles/manage-your-rules.html#define-a-status-for-a-rule"
 :::
 
-You can now easily activate or deactivate your rules. Very useful when the creation/edition of the rule is not finished yet! Setting its status to "disabled" will pause the automatic execution of the rule.  
+You can now easily enable or disable your rules. Very useful when the creation or edition of your rule is not finished yet! Setting its status to `disabled` will pause the automatic execution of the rule. 
 Once the rule is ready, you just have to enable it to let it run!
 
 ![Define a status for your rules](../img/Rules_Status.png)
