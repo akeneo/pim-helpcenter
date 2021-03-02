@@ -29,6 +29,3 @@ The spell-check feature now supports 7 new languages: Italian 🇮🇹, Swedish 
 :::
 
 For those of you who have a catalog with only one locale enabled, we've got some great news for you. You can now benefit from our spell-checking feature for all your text and text area attributes if your locale is one of the 11 supported languages.
-
-
-
