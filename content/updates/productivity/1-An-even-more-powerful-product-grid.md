@@ -1,4 +1,4 @@
-# An even more powerful product grid
+# Even more powerful product grid
 
 ## Duplicate your products
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/duplicate-a-product.html"

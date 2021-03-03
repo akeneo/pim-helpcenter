@@ -1,4 +1,4 @@
-# An easier collaboration with increased import and export capabilities
+# Easier collaboration with increased import and export capabilities
 
 ## Import and export your reference entity records
 ::: meta-data type="New" ee-only="true" link-to-doc="../articles/import-export-records.html"

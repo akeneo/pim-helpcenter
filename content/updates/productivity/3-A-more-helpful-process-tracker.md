@@ -1,4 +1,4 @@
-# A more helpful process tracker
+# More helpful process tracker
 
 ## See all the ongoing jobs
 ::: meta-data type="Improvement" ee-only="false" link-to-doc="../articles/monitor-jobs.html"
