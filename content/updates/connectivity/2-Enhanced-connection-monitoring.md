@@ -6,7 +6,7 @@
 
 For each of your connections, a new `Monitoring` page now lists the last integration errors that may have occurred.
 
-From this page, you can now easily track and fix any error on product creation, update, or deletion for each of your connections. 
+From this page, you can now easily track and fix any data error on product creation, update, or deletion for each of your connections. 
 
 ![Connection monitoring page](../img/new-connection-monitoring-page.png)
 
@@ -44,4 +44,3 @@ By default, new connections won't be monitored. If you want to activate their tr
 ![Enable connection tracking](../img/track-checkbox.png)
 
 You now have more control over the connections you want to track in the Connection Dashboard!
-
