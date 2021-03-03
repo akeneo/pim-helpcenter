@@ -19,14 +19,6 @@ Stay organized in your product enrichment thanks to private views! From now on, 
 
 ![Create a private view](../img/private-view.png)
 
-## Switch between simple and variant product displays
-::: meta-data type="New" ee-only="false" link-to-doc="../articles/enrich-products-variants.html#filter-on-product-typology"
-:::
-
-The new `Product typology` filter in the product grid allows you to choose to display only the simple products or only the variant products (or only their product models if you group your variants).
-
-![Product typology filter](../img/product-typology-filter.png)
-
 ## Switch between variant product and product model displays
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/enrich-products-variants.html#display-products-with-variants"
 :::
@@ -34,6 +26,14 @@ The new `Product typology` filter in the product grid allows you to choose to di
 The product grid also benefits from a new `Variant` display option above the grid. Use it if you want to see your variant products individually in the grid, or keep them grouped by product models. Thanks to this new option, you no longer need to click on a product model to access its variants. What a time saver!
 
 ![Variant display option](../img/variant-product-display-option.png)
+
+## Switch between simple and variant product displays
+::: meta-data type="New" ee-only="false" link-to-doc="../articles/enrich-products-variants.html#filter-on-product-typology"
+:::
+
+The new `Product typology` filter in the product grid allows you to choose to display only the simple products or only the variant products (or only their product models if you group your variants).
+
+![Product typology filter](../img/product-typology-filter.png)
 
 ## Search product models using their identifier
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/enrich-products-variants.html#filter-on-the-identifier"

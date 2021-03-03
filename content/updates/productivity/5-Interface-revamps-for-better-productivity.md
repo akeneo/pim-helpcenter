@@ -15,6 +15,3 @@ To finish, we also redesigned the login page, our flash messages, and the quick 
 ![New quick export UI](../img/Quick-export-new-UI_Export-with-labels.png)
 
 To help you save time, the custom choices you make for your XLSX or CSV quick export are saved. So next time you click on `Quick export`, the last export configuration will be displayed. :rocket:
-
-
-

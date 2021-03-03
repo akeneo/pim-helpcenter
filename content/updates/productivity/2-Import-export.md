@@ -20,14 +20,15 @@ This new feature can also help you bulk update your records or easily duplicate 
 
 It's now possible to export products and their associated assets from the product grid or your product export profiles. Collaboration around product data is more efficient and it will save you time whenever you need to share product information with your internal and external teams.
 
+To do so, you can use our new `With media` option when doing a quick export or using your favorite product export profile. Note, that by default, this option is not enabled.
 ![Quick export products with their assets](../img/quick-export-products-with-assets.png)
 
 ## Import assets with Excel or CSV files
 ::: meta-data type="New" ee-only="true" link-to-doc="../articles/import-assets.html"
 
-Have you ever wanted to mass import assets? It is now possible thanks to this new feature that allows you to import Excel or CSV files containing all your asset values. For sure, it allows you to save a significant amount of time!
+To save you a tremendous amount of time, it is now possible to mass import assets via Excel or CSV files containing all your asset values. Indeed, in our `Import` menu, you can now discover a brand new import profile dedicated to this task. 
 
-In our `Import` menu, you can now discover a brand new import profile dedicated to this task.
+Note that this feature is only available for assets with media file as main media.
 
 ![Asset import profile](../img/asset-import-profile.png)
 
@@ -42,4 +43,3 @@ Note that you can even choose the locale of the labels.
 ![New Export Profile option](../img/Product-export-profile.png)
 
 If you prefer to stick to the previous format of the export files, no problem, simply leave the button disabled.
-
