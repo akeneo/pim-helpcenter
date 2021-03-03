@@ -4,7 +4,7 @@
 
 Our rules engine enables you to automate enrichment actions on specific product selections. To make easier its use and boost your productivity, we are very glad to announce the introduction of a brand new user interface to directly manage your rules from within the PIM. :champagne: 
 
-![New screen to manage your rules](../img/Rules_UI.png)
+![New screen to create your rules](../img/the-rules-builder-tab.png)
 
 With just a few clicks, you are now autonomous to create, update and delete rules. This will certainly make rule management easier and faster for you. You will find this functionality under the `Rules Builder` tab after clicking on a rule in your rule grid.
 
