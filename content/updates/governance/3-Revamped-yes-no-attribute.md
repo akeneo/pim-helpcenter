@@ -10,7 +10,7 @@ The Yes/No attribute is now more user-friendly: you can easily see if your Yes/N
 ## Better filter with the Yes/No attribute
 ::: meta-data type="New" ee-only="false"
 
-Two new operators `is empty` and `is not empty` are now available to help you filter on Yes/No attributes in the product grid and to automate enrichment with the rules engine. These new filters help you boost your productivity and be even more efficient when looking for specific products and product models.
+Two new operators `is empty` and `is not empty` are now available in the product grid and in the [Rules Builder](TODO), to help you filter on Yes/No attributes. These new filters will help you to easily find what you were looking for in the product grid and be even more precise while building your rules.
 
 ![New is empty and is not empty filters on the Yes/No attributes](../img/is-empty-is-not-empty-filters.png)
 

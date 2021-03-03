@@ -24,10 +24,10 @@ Use a two-way association if you need to easily link substitute or replacement i
 ::: meta-data type="Improvement" ee-only="false"
 :::
 
-Starting now, enjoy some small improvements to make your life easier when you work with product associations:
+We made some small improvements to make your life easier when working with product associations:
 - We now display the total number of associations per product or product model nearby the `Associations` tab when you are on your product form. You can now see the number of associations for your products at a glance.
 - We also show you the total number of associations per association type, when you are on your product associations page.
 ![Associations number](../img/associations-number.png)
-- From the `Associations` tab, you can now click on an associated product or product model and have it displayed in a new tab.
+- From the `Associations` tab, you can now click on an associated product or product model to open it in a new tab.
 - To finish, when opening the association screen to associate a product with another one, we now display its product label under the title. This way we make sure you never lose track of what you are doing.
 ![Context in the associations popin](../img/context-in-associations-popin.png)

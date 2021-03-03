@@ -7,7 +7,7 @@ To offer greater flexibility when dealing with variant products, you can now eas
 
 On a side note, this new feature will also help you change the family variants of your product model more efficiently. A real time saver indeed.
 
-## Update the variant axis value of your product models
+## Update the axis value of your variant products
 ::: meta-data type="Improvement" ee-only="false"
 
-Sometimes, when new variant products are created, their variant axis can be set to a value that is not precisely the one you wanted. It is now possible to change this value afterward, making your product modeling even more flexible. And you already know this: under-control product information governance is the key to unlock powerful product experiences.
+Sometimes when new variant products are created, their variant axis may be set to a value that is not exactly what you wanted. It is now possible to change this value later, making your product modeling even more flexible. And you already know it: controlled governance of product information is the key to unlocking powerful product experiences.

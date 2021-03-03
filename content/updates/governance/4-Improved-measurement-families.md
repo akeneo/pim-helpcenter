@@ -8,7 +8,7 @@ In order to give you more flexibility over your catalog structure, we improved t
 
 ![Measurement families list screen](../img/Settings_Measurement_Families-updates.png)
 
-Alongside standard measurement families (eg. weight, length, volume...), create your custom measurement families per your needs (eg. inductance, luminance...). You now have full control over your measurement families: you can also add the units you deem necessary (Henry, Lambert...) or even delete measurement units or measurement families that you are not using.
+Alongside standard measurement families (eg. weight, length, volume...), you can now create your custom measurement families per your needs (eg. inductance, luminance...). You now have full control over your measurement families: you can also add the units you deem necessary (Henry, Lambert...) or even delete measurement units or measurement families that you are not using.
 
 ![Edition of units](../img/Settings_Measurement_Families_Edit_Unit-updates.png)
 
@@ -26,5 +26,4 @@ Also, we completed some existing standard measurement families with new units:
 - in `Weight`: microgram unit
 
 Of course, these new measurement families and units come with preset conversion operations to help you save some time.
-
 
