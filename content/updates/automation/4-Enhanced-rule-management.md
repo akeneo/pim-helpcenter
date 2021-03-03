@@ -4,7 +4,7 @@
 ::: meta-data type="New" ee-only="true" link-to-doc="../articles/manage-your-rules.html#duplicate-a-rule"
 :::
 
-Sometimes you can have very similar rules with just one different condition. In order to avoid rewriting the whole rule, you can now duplicate it in two clicks! What a time-saver, isn't it?
+Sometimes you can have very similar rules with just one different condition or action. In order to avoid rewriting the whole rule, you can now duplicate it in two clicks! What a time-saver, isn't it?
 
 ![Duplicate your rule](../img/Rules_Duplicate.png)
 
