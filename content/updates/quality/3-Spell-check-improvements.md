@@ -14,11 +14,11 @@ Now, you can also benefit from spell-checking on attributes and option labels to
 
 You can find this improvement under the attribute and attribute option setting pages. It is also available in the product form. New recommendations are listed, should we find errors. 
 
-![dqi-tab-consistency-in-structure](../img/data-quality-spelling-option.png)
+![dqi-tab-consistency-in-structure](../img/data-quality-attribute-label-spell-check.png)
 
 The better the content, the higher the quality score! :wink:
 
-## On new languages supported
+## With new languages supported
 ::: meta-data type="Improvement" ee-only="true"
 :::
 
