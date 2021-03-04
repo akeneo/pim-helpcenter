@@ -5,7 +5,7 @@
 
 Having a hard time initializing the records of your reference entities? We got you covered! You can now import an Excel or CSV file containing your records. We also make it possible for you to export them in Excel or CSV, once enriched. So neat!
 
-YOu can find this new feature in the `Import` and `Export` menus, under the following job names: 
+You can find this new feature in the `Import` and `Export` menus, under the following job names: 
 - `Reference entity record import in XSLX`,
 - `Reference entity record import in CSV`,
 - `Reference entity record export in XLSX`,
