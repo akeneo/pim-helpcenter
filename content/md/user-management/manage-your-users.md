@@ -61,6 +61,14 @@ The user can no longer connect to the PIM application.
 Even if a user is deleted, its actions generated in the PIM won't be erased.
 :::
 
+# Duplicate a user
+
+Sometimes, you may need to duplicate a user instead of creating a new one from scratch, because they share the same settings. You can do it in a few clicks:
+- either directly in the user grid, by clicking on the duplicate shortcut at the end of each line,
+- or when you are in a user edit form, by using the `...` button, then `Duplicate`.
+
+Then, a user creation popin opens.
+
 # Deal with the user permissions
 
 To know more about user permissions, there are five articles just for you depending on what your needs are:
