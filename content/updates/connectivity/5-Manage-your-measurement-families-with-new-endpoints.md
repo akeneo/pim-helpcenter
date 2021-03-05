@@ -10,4 +10,6 @@ They are the following:
 
 ![Measurement endpoints](../img/measurements-api.png)
 
+:::info
 Our previous endpoints about [metric families](https://api.akeneo.com/api-reference.html#Measurefamily) still work but we strongly recommend using the new ones as they are way more powerful. Indeed, they allow to create and update measurement families and they guarantee the order of the conversion calculations.
+:::

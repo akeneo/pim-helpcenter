@@ -8,7 +8,7 @@ For each of your connections, a new `Monitoring` page now lists the last integra
 
 From this page, you can now easily track and fix any data error on product creation, update, or deletion for each of your connections. 
 
-![Connection monitoring page](../img/new-connection-monitoring-page.png)
+![Error monitoring page](../img/error-monitoring-page-header.png)
 
 Each warning message shows:
 - a small paragraph that explains what went wrong during the connection's synchronization, 
@@ -21,9 +21,9 @@ We also enhanced the Connection dashboard with additional information to ease er
 
 To ease error monitoring and allow you to see at a glance how your source connections are performing, the Connection dashboard now displays: 
 - a graph with the number of product errors (business and technical) for the past week,
+![Error chart on connection dashboard](../img/connection-error-chart-in-the-dashboard.png)
 - connection cards showing the number of business errors for the past week. 
-
-![Error monitoring on connection dashboard](../img/error-monitoring-connection-dashboard.png)
+![Error monitoring on connection dashboard](../img/connection-error-card-in-the-dashboard.png)
 
 ## Track your destination connections
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/connection-dashboard.html#destination-connection-monitoring"

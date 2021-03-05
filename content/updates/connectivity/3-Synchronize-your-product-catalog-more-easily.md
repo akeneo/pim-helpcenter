@@ -6,11 +6,7 @@
 
 To help you reduce the number of API calls needed to synchronize your product data, we added option labels inside the product endpoints. You can now find the option labels directly inside your product values, in a new property called `linked_data`.
 
-![The new `linked_data` property in the product value](../img/linked_data_new_property.png)
-
-Let's take an example!
-
-If you use our API to display product content on a website, or to create marketing/sales materials, before this update, your connector needed to retrieve product attribute values by calling the `GET /products` endpoint. Then, for each attribute with a list of options, a `GET /attributes` was required to get the related labels.
+Let's take an example! If you use our API to display product content on a website, or to create marketing/sales materials, before this update, your connector needed to retrieve product attribute values by calling the `GET /products` endpoint. Then, for each attribute with a list of options, a `GET /attributes` was required to get the related labels.
 
 Before the connector only received codes inside the product values.
 
