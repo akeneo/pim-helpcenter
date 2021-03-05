@@ -8,6 +8,5 @@ Asset naming conventions populate asset attributes with values contained in the 
 
 There are two ways to manually execute a naming convention:
 - for one specific asset, directly in the asset edit form. The action is visible under the `...`.
-![Unitary execution](../img/unitary-execution.png)
 - for an asset family, under the `Product link rules` tab of your asset family. The naming convention will be applied to all the assets belonging to this family.
-![Mass execution](../img/mass-execution.png)
+![Mass manual execution of asset naming convention](../img/mass-manual-execution-of-asset-naming-convention.png)

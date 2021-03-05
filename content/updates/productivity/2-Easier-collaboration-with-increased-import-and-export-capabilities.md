@@ -28,18 +28,22 @@ To do so, you can use our new `With media` option when doing a quick export or u
 
 To save you a tremendous amount of time, it is now possible to mass import assets via Excel or CSV files containing all your asset values. Indeed, in our `Import` menu, you can now discover a brand new import profile dedicated to this task. 
 
-Note that this feature is only available for assets with media file as main media.
-
 ![Asset import profile](../img/asset-import-profile.png)
+
+::: info
+Note that this feature is only available for assets with media file as main media.
+:::
 
 ## Display labels instead of codes in your product exports
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/exports.html#update-an-export-profile"
 :::
 
-In the quick export and your product Excel and CSV export profile, you can now enable a new `With labels` option. It will allow you to export product data labels (e.g. attribute labels and values, etc.) instead of their code. With an increased readability, it is pretty useful if you plan to share this file to colleagues or external contributors.
+In the quick export and your product Excel and CSV export profiles, you can now enable a new `With labels` option. It will allow you to export product data labels (e.g. attribute labels and values, etc.) instead of their code. With an increased readability, it is pretty useful if you plan to share this file to colleagues or external contributors.
 
-Note that you can even choose the locale of the labels.  
+![With labels option in the product export profile](../img/labels-in-product-export-profile.png)
 
-![New Export Profile option](../img/Product-export-profile.png)
+Note that you can even choose the locale of the labels.
 
+::: info
 If you prefer to stick to the previous format of the export files, no problem, simply leave the button disabled.
+:::
