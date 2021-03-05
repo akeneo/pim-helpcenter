@@ -4,13 +4,13 @@
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/manage-your-measurements.html"
 :::
 
-In order to give you more flexibility over your catalog structure, we improved the way we manage measurements in the PIM. 
+In order to give you more flexibility over your catalog structure, we improved the way we manage measurements in the PIM. Alongside standard measurement families (eg. weight, length, volume...), you can now create your custom measurement families per your needs (eg. inductance, luminance...).
 
-![Measurement families list screen](../img/Settings_Measurement_Families-updates.png)
+![Measurement families list screen](../img/measurement-families-list.png)
 
-Alongside standard measurement families (eg. weight, length, volume...), you can now create your custom measurement families per your needs (eg. inductance, luminance...). You now have full control over your measurement families: you can also add the units you deem necessary (Henry, Lambert...) or even delete measurement units or measurement families that you are not using.
+You now have full control over your measurement families: you can also add the units you deem necessary (Henry, Lambert...) or even delete measurement units or measurement families that you are not using.
 
-![Edition of units](../img/Settings_Measurement_Families_Edit_Unit-updates.png)
+![Edition of units](../img/measurement-families-update-screen.png)
 
 ## New standard measurement units and families
 ::: meta-data type="New" ee-only="false"
