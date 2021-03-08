@@ -29,4 +29,4 @@ We made some small improvements to make your life easier when working with produ
 - We also show you the total number of associations per association type, when you are on your product associations page.
 ![Associations number](../img/associations-number.png)
 - From the `Associations` tab, you can now click on an associated product or product model to open it in a new tab.
-- To finish, when opening the association screen to associate a product with another one, we now display its product label under the title. This way we make sure you never lose track of what you are doing.
+- Finally, you can now see the label of the product you are working on in the association pop-up window so you keep track of what you are doing.
