@@ -28,7 +28,7 @@ This new action comes with a `round_precision` parameter to allow you to round t
 
 Automatically clear values from your attributes whatever their content (date, price, simple-select...) or from any other field, based on specific conditions with our new `clear` rule action. This new action also allows you to remove categories from a product, or ungroup/disassociate products from others automatically.
 
-## Copy an attribute value to another whatever their attribute types
+## Copy an attribute value to another regardless of their attribute types
 ::: meta-data type="Improvement" ee-only="true"
 :::
 

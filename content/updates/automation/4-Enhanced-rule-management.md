@@ -21,7 +21,7 @@ Once the rule is ready, you just have to enable it to let it run!
 ::: meta-data type="New" ee-only="true"
 :::
 
-You can now name your rules with a clear label. You can also define a rule name per PIM locale enabled. The rule label is visible under your rules grid and under your smart attributes: if you have international teams you can now make sure that they understand the purpose of a rule.
+You can now name your rules with a clear label. You can also define a rule's name per PIM locale enabled. The rule's label is visible in your rules grid and in your smart attributes: if you have international teams you can now make sure that they understand the purpose of a rule.
 
 ## New action tags for your rules
 ::: meta-data type="Improvement" ee-only="true"

@@ -14,7 +14,7 @@ You can now filter on:
 
 ![The new filters in action](../img/new-filters-for-rules-conditions.png)
 
-Don't hesitate to use these new filters. The more precise your rule conditions will be, the faster they will be executed.
+Don't hesitate to use these new filters. The more precise your rule conditions are, the faster they will be executed.
 
 ## Conditions with relative dates
 ::: meta-data type="Improvement" ee-only="true"
