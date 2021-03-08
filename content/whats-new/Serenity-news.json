@@ -1,2 +1,37 @@
 [
+  {
+    "title":"Asset mass deletion 🖼️",
+    "areas": ["Productivity"],
+    "editions": ["EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-02.html#mass-delete-your-assets"
+  },
+  {
+    "title":"Spell-check dictionaries management",
+    "areas": ["Data quality","Governance"],
+    "editions": ["EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-02.html#manage-your-spell-check-dictionaries"
+  },
+  {
+    "title":"Product quality score export in Excel or CSV files",
+    "areas": ["Data quality","Collaboration"],
+    "editions": ["GE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-02.html#filter-and-export-your-product-quality-score"
+  },
+  {
+    "title":"Product quality score export via API 🔌",
+    "areas": ["Data quality","Connectivity"],
+    "editions": ["GE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-02.html#new-api-filter-on-product-quality-score"
+  },
+  {
+    "title":"10 million assets per asset family 🖼️",
+    "areas": ["Governance"],
+    "editions": ["EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-02.html#up-to-10-millions-of-assets-per-asset-family"
+  }
 ]

@@ -5,8 +5,8 @@
     <div id="whats-new" class="container whats-new" data-init-versions="{{defaultVersions}}" data-init-areas="{{defaultAreas}}">
         <div class="row">
             <div class="col-xs-12">
-                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover the new key features released in our versions</p>
-                <h1>Discover the new key features released in our versions</h1>
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover the key features released in our versions</p>
+                <h1>Discover the key features released in our versions</h1>
             </div>
         </div>
         <div class="row">
@@ -18,7 +18,7 @@
                         <span class="label label-default whats-new-updates-label {{#if isSupported}} label-supported-version{{/if}}">{{name}}</span>
                     </label>
                 {{/each}}
-                <p class="small"><em>Versions are ranked from the oldest to the latest. Don't hesitate to migrate to newer versions to benefit from the features listed below!</em><br/><em class="label-supported-version">Currently supported versions if you are an Enterprise user.</em></p>
+                <p class="small"><em>Versions are ranked from the oldest to the latest. Don't hesitate to migrate to newer versions to benefit from the features listed below!</em><br/><em class="label-supported-version">Currently supported versions if you are an Enterprise or Growth user.</em></p>
             </div>
             <div class="col-xs-12 col-md-3">
                 <h3>PIM edition</h3>
@@ -54,7 +54,7 @@
                     {{#each updates as |update id|}}
                         <div class="whats-new-updates {{version}} {{#each areaCodes as |area|}}{{area}} {{/each}} {{#each editions as |edition|}}{{edition}} {{/each}}" data-version="{{version}}" data-order="{{order}}">
                             <p class="title">{{title}}</p>
-                            <p><em>Available {{#if isSerenityOnly}} in <b>Serenity</b>{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em>
+                            <p><em>Available {{#if isSerenityOnly}} in <b>Serenity</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em>
                             <p>{{#each coloredAreas as |area color|}}<span class="label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}}</p>
                             {{#if link}}<p class="text-right"><a class="link" href="{{link}}" target="_blank">Read more... ></a></p>{{/if}}
                         </div>
@@ -124,11 +124,19 @@
             var checked = _.find(checkedAreas, function(checkedArea) { return checkedArea === area; }) ? true : false;
             document.getElementById(area).checked = checked;
         });
+
+        disableGEWhenSerenityNotSelected();
+        disableCEWhenOnlySerenitySelected();
     }
 
     function countNews(){
         var newsCount = $grid.data('isotope').filteredItems.length;
-        document.getElementById('news-count').innerHTML = newsCount ? 'Here are the <b class="counter">' + newsCount + '</b> new key features delivered in the PIM for the versions, edition and areas you selected. 💪' :  'Uh oh! There were no new features delivered in the PIM for the versions, edition and areas you selected.<br/><b>Don\'t hesitate to play around with the filters to see more new features!</b> 😉';
+        if(checkedVersions.length === 1 && checkedVersions.includes('.serenity')){
+            document.getElementById('news-count').innerHTML = newsCount ? 'Here are the <b class="counter">' + newsCount + '</b> exclusive key features delivered in the Serenity PIM, for the edition and areas you selected. 💪 Note that, as a Serenity customer, you also benefit from all the features delivered in the past, in our previous versions. Select our older versions to check them out! 😉' :  'Uh oh! There were no features delivered in the Serenity PIM, for the edition and areas you selected.<br/><b>Don\'t hesitate to play around with the filters to see more features!</b> 😉';
+
+        } else {
+            document.getElementById('news-count').innerHTML = newsCount ? 'Here are the <b class="counter">' + newsCount + '</b> key features delivered in the PIM for the versions, edition and areas you selected. 💪' :  'Uh oh! There were no features delivered in the PIM for the versions, edition and areas you selected.<br/><b>Don\'t hesitate to play around with the filters to see more features!</b> 😉';
+        }
     }
 
     function filterVersions(version, elm) {
@@ -138,24 +146,9 @@
         if(checkedVersions.length === 0){
             checkedVersions.push('.none');
         }
-        // Serenity CE doesn't exist, so we disable CE whenever the only selected version is Serenity
-        if(checkedVersions.length === 1 && checkedVersions.includes('.serenity')){
-            document.getElementById('.CE').disabled = true;
-            if(checkedEdition === '.CE'){
-                filterEdition('.GE');
-            }
-        } else {
-            document.getElementById('.CE').disabled = false;
-        }
-        // GE only exists in Serenity version, so we disable GE whenever Serenity is not in the selected version
-        if(!checkedVersions.includes('.serenity')){
-            document.getElementById('.GE').disabled = true;
-            if(checkedEdition === '.GE'){
-                filterEdition('.CE');
-            }
-        } else {
-            document.getElementById('.GE').disabled = false;
-        }
+        disableGEWhenSerenityNotSelected();
+        disableCEWhenOnlySerenitySelected();
+        
         // And we update both URL and the news grid accordingly
         updateHashAndRedrawGrid();
     }
@@ -193,11 +186,32 @@
                 combinationOfVersionsAreas.push(area + version); 
             });
         });
+        console.log(combinationOfVersionsAreas.join(checkedEdition + ', ') + checkedEdition);
         return combinationOfVersionsAreas.join(checkedEdition + ', ') + checkedEdition;
     }
 
-    function grayOutCommunityEdition(){
-
+    function disableGEWhenSerenityNotSelected(){
+        // GE only exists in Serenity version, so we disable GE whenever Serenity is not in the selected version
+        if(!checkedVersions.includes('.serenity')){
+            document.getElementById('.GE').disabled = true;
+            if(checkedEdition === '.GE'){
+                filterEdition('.CE');
+            }
+        } else {
+            document.getElementById('.GE').disabled = false;
+        }
     }
+    function disableCEWhenOnlySerenitySelected(){
+        // Serenity CE doesn't exist, so we disable CE whenever the only selected version is Serenity
+        if(checkedVersions.length === 1 && checkedVersions.includes('.serenity')){
+            document.getElementById('.CE').disabled = true;
+            if(checkedEdition === '.CE'){
+                filterEdition('.GE');
+            }
+        } else {
+            document.getElementById('.CE').disabled = false;
+        }
+    }
+
 </script>
 {{/layout}}

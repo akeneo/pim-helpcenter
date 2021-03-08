@@ -1,49 +1,49 @@
 [
   {
     "title":"Teamwork Assistant",
-    "domains": ["Productivity", "Collaboration"],
+    "areas": ["Productivity", "Collaboration"],
     "editions": ["EE"],
     "since-version": "1.7",
     "link": "/pim/v2/articles/what-is-a-project.html"
   },
   {
     "title":"Products API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "1.7",
     "link": "https://api.akeneo.com/api-reference.html#Products"
   },
   {
     "title":"Categories API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "1.7",
     "link": "https://api.akeneo.com/api-reference.html#Category"
   },
   {
     "title":"Families API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "1.7",
     "link": "https://api.akeneo.com/api-reference.html#Family"
   },
   {
     "title":"Attributes API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "1.7",
     "link": "https://api.akeneo.com/api-reference.html#Attribute"
   },
   {
     "title":"Channels API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "1.7",
     "link": "https://api.akeneo.com/api-reference.html#Channel"
   },
   {
     "title":"Locales API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE","EE"],
     "since-version": "1.7",
     "link": "https://api.akeneo.com/api-reference.html#Locale"

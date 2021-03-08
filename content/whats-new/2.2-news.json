@@ -1,21 +1,21 @@
 [
   {
     "title":"Rules compatible with product models 🤖",
-    "domains": ["Automation", "Productivity"],
+    "areas": ["Automation", "Productivity"],
     "editions": ["EE"],
     "since-version": "2.2",
     "link": "/pim/v2/articles/manage-your-rules.html#execute-rules"
   },
   {
     "title":"Search filters in the proposal grid 🔍",
-    "domains": ["Productivity","Collaboration"],
+    "areas": ["Productivity","Collaboration"],
     "editions": ["EE"],
     "since-version": "2.2",
     "link": "/pim/v2/articles/review-products-proposals.html#filter-the-proposals-since-22"
   },
   {
     "title":"Bulk addition of product attribute values",
-    "domains": ["Productivity"],
+    "areas": ["Productivity"],
     "editions": ["CE","EE"],
     "since-version": "2.2",
     "link": "/pim/v2/articles/product-mass-actions.html#add-new-values-to-attributes-since-22"
