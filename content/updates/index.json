@@ -7,7 +7,7 @@
   },
   "governance": {
     "title": "Governance",
-    "description": "Data governance is essential to further guarantee the ease of enrichment and the sustainability of your product catalog. That’s why we’ve added a lot of cool features to make our product modeling capabilities even more flexible and powerful. Among other things, you will now be able to enjoy new associations types, a revamped Yes/No attribute, and enhancements around product variants.",
+    "description": "Data governance is essential to further guarantee the ease of enrichment and the sustainability of your product catalog. That’s why we’ve added a lot of cool features to make our product modeling capabilities even more flexible and powerful. Among other things, you will now be able to enjoy new associations types, a revamped Yes/No attribute, and enhancements around variant products.",
     "img": "illus-governance-v5.svg",
     "eeOnly": false
   },
