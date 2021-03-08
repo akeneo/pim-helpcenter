@@ -16,7 +16,7 @@ You can find this new feature in the `Import` and `Export` menus, under the foll
 This new feature can also help you bulk update your records or easily duplicate them.
 
 ## Export your products with their assets
-::: meta-data type="New" ee-only="true" link-to-doc="../articles/exports.html#update-an-export-profile"
+::: meta-data type="New" ee-only="true"
 
 It's now possible to export products and their associated assets from the product grid or your product export profiles. Collaboration around product data is more efficient and it will save you time whenever you need to share product information with your internal and external teams.
 
@@ -35,7 +35,7 @@ Note that this feature is only available for assets with media file as main medi
 :::
 
 ## Display labels instead of codes in your product exports
-::: meta-data type="New" ee-only="false" link-to-doc="../articles/exports.html#update-an-export-profile"
+::: meta-data type="New" ee-only="false"
 :::
 
 In the quick export and in your Excel and CSV export profiles, you can now choose whether you want to export your products with their labels or with their codes. The `With labels` option allows you to export product information labels (e.g. attribute labels and option values, etc.) instead of their codes (attribute codes, options codes, etc.). With increased readability, it is pretty useful if you plan to share this file with colleagues or external contributors.

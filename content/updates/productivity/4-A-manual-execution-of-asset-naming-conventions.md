@@ -1,5 +1,5 @@
 # Manual execution of asset naming conventions
-::: meta-data type="New" ee-only="true" link-to-doc="../articles/assets-product-link-rules.html#focus-on-the-naming-convention"
+::: meta-data type="New" ee-only="true"
 :::
 
 You can now manually execute asset naming conventions from the user interface whenever you need it. This new feature can be very useful if your naming convention has changed after assets were uploaded or created.

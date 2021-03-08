@@ -1,10 +1,10 @@
 # More helpful process tracker
 
 ## See all ongoing jobs
-::: meta-data type="Improvement" ee-only="false" link-to-doc="../articles/monitor-jobs.html"
+::: meta-data type="Improvement" ee-only="false"
 :::
 
-To give you more visibility and control on all PIM jobs, we added a new permission: `View all jobs in the Process Tracker` to see all jobs of any status under the Process Tracker.
+To give you more visibility and control on all PIM jobs, we added a new permission: `View all jobs in the Process Tracker` to see all jobs of any status under the process tracker.
 
 
 ## Easily stop ongoing jobs
@@ -26,7 +26,7 @@ Whenever you launch a job, a progress bar and an estimation of the remaining tim
 ![Estimation of the time left and progress bar](../img/progress-bar-for-jobs.png)
 
 ## Easily access to the detail of your quick export once launched
-::: meta-data type="Improvement" ee-only="false" link-to-doc="../articles/quick-export.html#how"
+::: meta-data type="Improvement" ee-only="false"
 :::
 
 When you launch a quick product export from the product grid, you can now easily jump to this task's progress detail in the process tracker. Indeed, you'll find a link to the job detail embedded in the flash message that confirms the quick export launch.
