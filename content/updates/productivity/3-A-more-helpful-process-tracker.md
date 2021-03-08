@@ -37,4 +37,4 @@ When you launch a quick product export from the product grid, you can now easily
 
 Quickly find a launched job thanks to the new `User` filter that we introduce in the process tracker grid. It allows you to easily find either your own jobs or those started by one of your colleagues. Neat!
 
-On a side note, you will also notice that you can sort the process tracker grid jobs by users.
+Additionally, you are also able to sort the process tracker grid jobs by users.
