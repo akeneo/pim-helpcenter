@@ -3,7 +3,7 @@
 ## New Yes/No attribute in the product form
 ::: meta-data type="Improvement" ee-only="false"
 
-The Yes/No attribute is now more user-friendly: you can easily see if your Yes/No attribute has no value yet. You can also empty it if needed.
+The Yes/No attribute is now more user-friendly: you can easily see if a value has been set or not yet. You can also empty it if needed.
 
 ![New Yes/No attribute design](../img/new-yes-no-attribute-design.png)
 
@@ -19,6 +19,6 @@ The first one, `is empty`, allows you to find products and product models that h
 ## Default value for the Yes/No attribute
 ::: meta-data type="New" ee-only="false"
 
-You can now define a default value for each of your Yes/No attributes. This will definitely help you be way more productive and swiftly reach your completeness goals. This new feature can also be used to initialize workflows based on Yes/No attributes.
+You can now define a default value for each of your Yes/No attributes. This will definitely help you be more productive and swiftly reach your completeness goals. This new feature can also be used to initialize workflows based on Yes/No attributes.
 
 ![The Yes/No attribute default value setting](../img/yes-no-attribute-default-value.png)
