@@ -65,7 +65,7 @@ Now, it receives codes and labels:
 In this example, we avoid 5 API calls per product. Can you imagine the impact on a catalog that contains thousands of products?
 
 ## New filters on categories, attributes, families and attribute groups
-::: meta-data type="Improvement" ee-only="false" link-to-doc="TODO"
+::: meta-data type="Improvement" ee-only="false" link-to-doc="https://api.akeneo.com/documentation/filter.html#filter-attributes"
 :::
 We introduced a new `search` parameter when retrieving attributes, families, categories, or attribute groups. It allows you to add filters to your requests which will help reduce the amount of data to process and the size of the API call responses.
 
