@@ -24,7 +24,7 @@ When you have improvement recommendations, you can simply click on your attribut
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/manage-data-quality.html#data-quality-insights-activation-and-deactivation"
 :::
 
-You can now select the product attributes to take into account when calculating your product quality score. You can toggle this option at the attribute group level under the attribute group settings page.
+You can now select the product attributes you want to take into account when calculating your product quality score. You can enable this option at the attribute group level on the attribute group settings page.
 
 ![Toggle Data Quality Insights in the attribute groups setting page](../img/toggle-dqi-in-the-attribute-groups-settings.png)
 
