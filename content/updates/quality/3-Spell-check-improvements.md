@@ -1,28 +1,29 @@
 # Spell-check improvements
 
-## On text area attributes with rich text editor enabled
-::: meta-data type="Improvement" ee-only="true" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
-:::
-
-To help reach higher data quality content, spell-check and suggestions are now available on text area attributes with rich text editor enabled (WYSIWYG).
-
 ## On attribute and option labels
-::: meta-data type="New" ee-only="true" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
+::: meta-data type="New" ee-only="true"
 :::
 
-Now, you can also benefit from spell-checking on attributes and option labels to guarantee the consistency of your customer-facing product data.
+Now, you can also benefit from spell-checking on attribute and option labels to guarantee the consistency of your customer-facing product data.
 
-You can find this improvement under the attribute and attribute option setting pages. It is also available in the product form. New recommendations are listed, should we find errors. 
+You can find this improvement on the attribute and attribute option setting pages.
 
-![dqi-tab-consistency-in-structure](../img/data-quality-attribute-label-spell-check.png)
+![Spell-check on an attribute label](../img/data-quality-attribute-label-spell-check.png)
+![Spell-check on a attribute option label](../img/data-quality-option-label-spell-check.png)
 
-The better the content, the higher the quality score! :wink:
+This feature is also available in the product form. New recommendations are listed, should we find errors. The better the content, the higher the quality score! :wink:
 
 ## With new languages supported
 ::: meta-data type="Improvement" ee-only="true"
 :::
 
 The spell-check feature now supports 7 new languages: Italian 🇮🇹, Swedish 🇸🇪, Danish 🇩🇰, Dutch 🇳🇱, Norwegian Bokmål 🇳🇴, Norwegian Nynorsk 🇳🇴 , and Brazilian Portuguese 🇧🇷 bringing the total number of supported languages to 11! With spelling mistakes automatically detected for so many locales, you will ensure data quality for most of your content! :wink:
+
+## On text area attributes with rich text editor enabled
+::: meta-data type="Improvement" ee-only="true"
+:::
+
+To help reach higher data quality content, spell-check and suggestions are now available on text area attributes with rich text editor enabled (WYSIWYG).
 
 ## For single locale PIM
 ::: meta-data type="Improvement" ee-only="true"
