@@ -1,4 +1,4 @@
-# Share your product quality scores with other applications
+# Share your product quality score with other applications
 ::: meta-data type="New" ee-only="false" link-to-doc="https://api.akeneo.com/concepts/products.html#product"
 
 Are you interested in sending your product quality score to third-party applications to compare this score with your other KPIs, such as the number of sales or the number of product returns? Or maybe, you'd like to know which products should be highlighted on your website depending on the quality of their enrichment level? Well, great news! It is now possible thanks to an evolution of our REST API. 

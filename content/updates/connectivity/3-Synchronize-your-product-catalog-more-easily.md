@@ -62,12 +62,12 @@ Now, it receives codes and labels:
 }
 ```
 
-In this example, we avoid 5 API calls per product. Can you imagine the impact for a catalog which contains thousands of products?
+In this example, we avoid 5 API calls per product. Can you imagine the impact on a catalog that contains thousands of products?
 
 ## New filters on categories, attributes, families and attribute groups
 ::: meta-data type="Improvement" ee-only="false" link-to-doc="TODO"
 :::
-We introduced a new `search` parameter when retrieving attributes, families, categories or attribute groups. It will allow you to add filters to your requests that will help reduce the amount of data to process and the size of the API call responses.
+We introduced a new `search` parameter when retrieving attributes, families, categories, or attribute groups. It allows you to add filters to your requests which will help reduce the amount of data to process and the size of the API call responses.
 
 Here are the available filters:
 - **code**: allows you to filter on specific codes,
@@ -75,11 +75,11 @@ Here are the available filters:
 - **type**: allows you to filter on attributes from a specific type (only available for attributes),
 - **parent**: allows you to retrieve all sub-categories of a parent category (only available for categories).
 
-You can combine filters to achieve powerful results!
+You can combine filters for more powerful results!
 
 Let's take an example: you have an eCommerce platform that uses your PIM data. You know the list of all the attributes you need, and your application synchronizes the catalog structure every day at 3 PM.  
 
-The following filter enables you to retrieve all the attributes updated since the 2020-08-26 at 15:00 and matching one of the listed codes (brand, size, description, name, picture, color, secondary_color):
+The following filter enables you to retrieve all the attributes updated since August 26th, 2020 at 03:00 pm and matching one of the listed codes (brand, size, description, name, picture, color, secondary_color):
 
 ```
 /api/rest/v1/attributes?search={"updated": [{ "operator": ">", "value": "2020-08-26T15:00:00Z"}],"code": [{ "operator": "IN", "value": ["brand","size","description","name","picture","color","secondary_color"]}]
@@ -109,4 +109,3 @@ To further reduce the number of API requests when syncing your product catalog, 
 }
 ```
 No need to call the attribute group endpoint to get them. Neat!
-

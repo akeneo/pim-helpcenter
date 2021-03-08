@@ -4,7 +4,7 @@
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/connection-dashboard.html#in-the-connection-monitoring-page"
 :::
 
-For each of your connections, a new `Monitoring` page now lists the last integration errors that may have occurred.
+For each of your connections, a new `Monitoring` page now lists the latest integration errors that may have occurred.
 
 From this page, you can now easily track and fix any data error on product creation, update, or deletion for each of your connections. 
 
@@ -17,7 +17,7 @@ Each warning message shows:
 
 ![Enriched error message](../img/fix-errors-on-your-connections.png)
 
-We also enhanced the Connection dashboard with additional information to ease error monitoring and allows you to see at a glance how your source connections are performing.  
+We also enhanced the Connection dashboard with additional information to ease error monitoring and allow you to see at a glance how your source connections are performing.  
 
 To ease error monitoring and allow you to see at a glance how your source connections are performing, the Connection dashboard now displays: 
 - a graph with the number of product errors (business and technical) for the past week,
