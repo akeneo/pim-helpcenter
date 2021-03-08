@@ -1,0 +1,55 @@
+{{!-- The index of the release note --}}
+{{#> layout }}
+{{> navbar-with-search }}
+{{> whats-new-button}}
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <img class="hidden-xs img-responsive center-block" src="../img/illus-gift.svg"></img>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-9">
+                    <h1 class="emphasis hidden-xs" style="margin-top: 30px;">What's new in Akeneo PIM 5.0?</h1>
+                    <h1 class="emphasis text-center visible-xs">What's new in Akeneo PIM 5.0?</h1>
+                    <p class="hidden-xs"><em>Akeneo PIM 5.0 will help you reach the next level through 70+ new features & improvements across 5 different domains: Automation, Governance, Quality, Connectivity, and Productivity. Akeneo PIM 5.0 is a Long-Term Support (LTS) version. It will be supported for <b>18 months</b> until the end of September 2022.</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/v5">PIM help center</a> / What's new in Akeneo PIM 5.0?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Browse the 5 PIM domains we focused on for our dear 5.0</h2>
+                <div class="row">
+                    {{#each updates as |update id|}}
+                        <div class="col-xs-12 col-sm-4">
+                            {{#if eeOnly}}
+                                <div class="persona persona-updates persona-updates-ee-only">
+                            {{else}}
+                                <div class="persona persona-updates persona-updates-ce-and-ee">
+                            {{/if}}
+                                <a href="{{id}}.html">
+                                    <h3 class="text-center">{{title}}</h3>
+                                    <div class="row">
+                                        <div class="col-xs-offset-1 col-xs-10">
+                                            <img class="img-responsive center-block" src="../img/{{img}}"/>
+                                            <button class="btn btn-default btn-block">Read more</button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    {{/each}}
+                    <div class="col-xs-12">
+                        <p>For questions about upgrades, please contact your Akeneo Customer Success Manager or Akeneo Partner Manager.</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/layout}}
