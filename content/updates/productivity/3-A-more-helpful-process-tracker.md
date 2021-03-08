@@ -4,7 +4,7 @@
 ::: meta-data type="Improvement" ee-only="false"
 :::
 
-To give you more visibility and control on all PIM jobs, we added a new permission: `View all jobs in the Process Tracker` to see all jobs of any status under the process tracker.
+To give you more visibility and control over all the PIM jobs, we added a new permission: `View all jobs in the process tracker`. This permission allows you to see all jobs, regardless of who runs them or what their status is in the process tracker.
 
 
 ## Easily stop ongoing jobs
