@@ -10,7 +10,7 @@ To help reach higher data quality content, spell-check and suggestions are now a
 ::: meta-data type="New" ee-only="true" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
 :::
 
-Now, you can also benefit from spell-checking on attributes and option labels to guarantee the consistency on your customer-facing product data.
+Now, you can also benefit from spell-checking on attributes and option labels to guarantee the consistency of your customer-facing product data.
 
 You can find this improvement under the attribute and attribute option setting pages. It is also available in the product form. New recommendations are listed, should we find errors. 
 
