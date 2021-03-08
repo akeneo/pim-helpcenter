@@ -1,6 +1,6 @@
 # Interface improvements for better productivity
 
-The attribute options screen for single and multiple-select attributes has been completely redesigned to give you a better user experience.
+The attribute option screen for single and multi-select attributes has been completely redesigned to give you a better user experience.
 
 ![New option screen](../img/new-option-screen.png)
 

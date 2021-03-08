@@ -25,7 +25,8 @@
   },
   "productivity": {
     "title": "Productivity",
-    "description": "How can we further ensure that you feel productive whenever you work on crafting great product experiences? We asked ourselves this question and we came up with lots of great new capabilities such as new import and export features, a better product grid experience and a more insightful process tracker.",
+    "description": "We want to make sure your productivity doesn't get in the way of crafting great product experiences. To help you even further, we added lots of new features and improvements like new import/export capabilities, an enhanced user experience on our product grid, and a more insightful process tracker. ",
+
     "img": "illus-productivity-v5.svg",
     "eeOnly": false
   }

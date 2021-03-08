@@ -4,7 +4,7 @@
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/duplicate-a-product.html"
 :::
 
-To easily create a new product based on an existing one, you can now use our duplicate feature to copy a product in your user interface in one single click!
+To easily create a new product based on an existing one, you can now use our duplicate feature to copy a product in your user interface in a single click!
 
 Find this new action under the `...` button in the top right corner of each of your product edit forms.
 
@@ -15,7 +15,7 @@ This new feature also comes with dedicated permission, so you can decide which g
 ## Create private views
 ::: meta-data type="New" ee-only="false" link-to-doc="../articles/manage-your-views.html#create-a-view"
 
-Stay organized in your product enrichment thanks to private views! From now on, when you create a view, you can make it private to keep it for yourself and have it only visible by you, or public to share it with other PIM users. This improvement will help you to focus on your own enrichment needs without confusing your teammates. 
+Stay organized in your product enrichment thanks to private views! From now on, when you create a view, you can make it private to keep it to yourself, for your personal work organization, or public to share it with other PIM users. This improvement will help you to focus on your own enrichment needs without confusing your teammates. 
 
 ![Create a private view](../img/private-view.png)
 
@@ -47,6 +47,6 @@ In your product grid, you can now search by product model (and sub-product model
 ::: meta-data type="Improvement" ee-only="false"
 :::
 
-The product grid counter at the top of the page is also revamped to be more intelligible. We now show you the number of products and the number of product models. Crystal clear!
+The product grid counter at the top of the page is also revamped to be easier to understand. We now show you the number of products and the number of product models. Crystal clear!
 
 ![New counters](../img/products-and-product-models-counters.png)
