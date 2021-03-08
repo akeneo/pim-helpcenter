@@ -31,7 +31,7 @@ To save you a tremendous amount of time, it is now possible to mass import asset
 ![Asset import profile](../img/asset-import-profile.png)
 
 ::: info
-Note that this feature is only available for assets with media file as main media.
+Note that this feature is only available for assets in families with a media file declared as main media.
 :::
 
 ## Display labels instead of codes in your product exports
