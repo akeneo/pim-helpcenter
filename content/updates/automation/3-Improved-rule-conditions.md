@@ -17,7 +17,7 @@ You can now filter on:
 Don't hesitate to use these new filters. The more precise your rule conditions will be, the faster they will be executed.
 
 ## Conditions with relative dates
-::: meta-data type="Improvement" ee-only="true" link-to-doc="../articles/get-started-with-the-rules-engine.html#created"
+::: meta-data type="Improvement" ee-only="true"
 :::
 
 It was already possible to apply conditions on products and product models based on their `creation date`, `updated date`, or the content of a `date` attribute type. But we wanted to go further by allowing you to not only filter on specific dates but also on relative dates. With this new functionality, you are now able to apply an action on all the products created or updated for the past X days for instance.

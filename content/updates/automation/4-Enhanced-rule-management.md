@@ -18,13 +18,13 @@ Once the rule is ready, you just have to enable it to let it run!
 ![Define a status for your rules](../img/disabled-status-of-a-rule.png)
 
 ## Name your rules
-::: meta-data type="New" ee-only="true" link-to-doc="../articles/get-started-with-the-rules-engine.html#name-your-rules"
+::: meta-data type="New" ee-only="true"
 :::
 
 You can now name your rules with a clear label. You can also define a rule name per PIM locale enabled. The rule label is visible under your rules grid and under your smart attributes: if you have international teams you can now make sure that they understand the purpose of a rule.
 
 ## New action tags for your rules
-::: meta-data type="Improvement" ee-only="true" link-to-doc="../articles/manage-your-rules.html#view-all-rules"
+::: meta-data type="Improvement" ee-only="true"
 :::
 
 From now on, you can see at a glance the action type behind each rule (add, copy, concatenate, set, calculate, remove, clear) in the rules grid. To ease your readability, each action type has its own color. :wink:
