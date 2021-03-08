@@ -13,7 +13,7 @@ You now have full control over your measurement families: you can also add the u
 ![Edition of units](../img/measurement-families-update-screen.png)
 
 ## New standard measurement units and families
-::: meta-data type="New" ee-only="false"
+::: meta-data type="Improvement" ee-only="false"
 :::
 
 We added four new standard measurement families: `Force`, `Angle`, `Capacitance` and `Volume Flow` to better fit your needs in terms of product modeling.
