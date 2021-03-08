@@ -17,9 +17,7 @@ Each warning message shows:
 
 ![Enriched error message](../img/fix-errors-on-your-connections.png)
 
-We also enhanced the Connection dashboard with additional information to ease error monitoring and allow you to see at a glance how your source connections are performing.  
-
-To ease error monitoring and allow you to see at a glance how your source connections are performing, the Connection dashboard now displays: 
+We also enhanced the Connection dashboard with additional information. To ease error monitoring and allow you to see at a glance how your source connections are performing, the Connection dashboard now displays: 
 - a graph with the number of product errors (business and technical) for the past week,
 ![Error chart on connection dashboard](../img/connection-error-chart-in-the-dashboard.png)
 - connection cards showing the number of business errors for the past week. 
