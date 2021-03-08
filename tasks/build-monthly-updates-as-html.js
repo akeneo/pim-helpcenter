@@ -48,15 +48,15 @@ md
                     var editions = metaData.groups.in.split(',');
                     html += _.reduce(editions, function(res, edition) {
                         if(edition === 'EE'){
-                            if(editions.length === 1) return res + ' Serenity Enterprise Edition (EE) only';
-                            return res + ' Serenity Enterprise (EE) and';
+                            if(editions.length === 1) return res + ' Serenity EE only';
+                            return res + ' Serenity EE and';
                         } else {
-                            return res + ' Growth (GE) editions'
+                            return res + ' GE'
                         }
                     }, '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in');
                     html += ' since ' + metaData.groups.available + '</em>';
                 } else {
-                    html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in Serenity Enterprise Edition (EE) since ' + metaData.groups.available + '</em>';
+                    html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in Serenity EE since ' + metaData.groups.available + '</em>';
                 }
                 var linkToDoc = metaData.groups.linkToDoc;
                 if(linkToDoc) {
