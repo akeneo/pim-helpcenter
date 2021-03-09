@@ -39,10 +39,10 @@ workflows:
 
     deployment:
         jobs:
-            #            - deploy_production:
-            #                  filters:
-            #                      branches:
-            #                          only: v5
+            - deploy_production:
+                  filters:
+                      branches:
+                         only: v5
             - deploy_staging:
                   filters:
                       branches:
