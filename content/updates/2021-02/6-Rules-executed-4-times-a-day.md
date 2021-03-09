@@ -4,7 +4,7 @@ pim_announcement_audience:
 ---
 
 # Rules execution 4 times a day
-::: meta-data type="New" features="Automation" available="mid-February"
+::: meta-data type="New" features="Automation" available="mid-February" in="EE"
 
 We now automatically execute rules 4 times a day: at 5 am UTC, at 11 am UTC, at 5 pm UTC, and at 11 pm UTC. This enhancement will help you speed up your enrichment process. Indeed, your catalog is even more synchronized with the latest computed values generated automatically by the Rules Engine.
 
