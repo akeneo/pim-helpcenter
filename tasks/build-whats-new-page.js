@@ -8,7 +8,7 @@ const fs = require('fs');
 const rename = require('gulp-rename');
 const revReplace = require('gulp-rev-replace');
 const _ = require('lodash');
-const coloredDomains = require('./common/colored-domains.js');
+const coloredAreas = require('./common/colored-areas.js');
 
 const majorVersion = 'serenity';
 const orderedVersions = {
@@ -21,6 +21,7 @@ const orderedVersions = {
     '31': { 'name': '3.1', 'isSupported': false },
     '32': { 'name': '3.2', 'isSupported': true },
     '40': { 'name': '4.0', 'isSupported': true },
+    '50': { 'name': '5.0', 'isSupported': true },
     'serenity': { 'name': 'Serenity', 'isSupported': true }
 };
 
@@ -49,12 +50,12 @@ function generateWhatsNew(fileDirectorySource, fileDirectoryDestination) {
     }, []);
 
     _.each(updates, function(update){
-        update.coloredDomains = _.keyBy(update.domains, function(domain){
-            var coloredDomain = coloredDomains[domain.replace(/\s/g, '').toLowerCase()];
-            return coloredDomain ? coloredDomain.color : 'default';
+        update.coloredAreas = _.keyBy(update.areas, function(area){
+            var coloredArea = coloredAreas[area.replace(/\s/g, '').toLowerCase()];
+            return coloredArea ? coloredArea.color : 'default';
         });
-        update.domainCodes = _.map(update.domains, function(domain){
-            return domain.replace(/\s/g, '').toLowerCase();
+        update.areaCodes = _.map(update.areas, function(area){
+            return area.replace(/\s/g, '').toLowerCase();
         }); 
         update.version = update['since-version'].split('.').join('').toLowerCase();
         update.isSerenityOnly = update['since-version'] === 'Serenity';
@@ -64,8 +65,8 @@ function generateWhatsNew(fileDirectorySource, fileDirectoryDestination) {
         .pipe(gulpHandlebars({
             title: 'What\'s new since your version?',
             updates: updates,
-            domains: coloredDomains,
-            defaultDomains: Object.keys(coloredDomains),
+            areas: coloredAreas,
+            defaultAreas: Object.keys(coloredAreas),
             versions: orderedVersions,
             defaultVersions: Object.keys(orderedVersions),
             majorVersion: majorVersion

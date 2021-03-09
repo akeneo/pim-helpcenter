@@ -9,7 +9,7 @@ const rename = require('gulp-rename');
 const revReplace = require('gulp-rev-replace');
 const _ = require('lodash');
 const moment = require ('moment');
-const coloredDomains = require('./common/colored-domains.js');
+const coloredAreas = require('./common/colored-areas.js');
 const merge = require('merge-stream');
 
 const majorVersion = 'serenity';
@@ -48,9 +48,9 @@ function generateVersionsInDetailPage(fileDirectoryDestination) {
 
     var serenityLastNewUpdates = _.take(JSON.parse(fs.readFileSync('content/whats-new/Serenity-news.json')), 4);
     _.each(serenityLastNewUpdates, function(update){
-        update.coloredDomains = _.keyBy(update.domains, function(domain){
-            var coloredDomain = coloredDomains[domain.replace(/\s/g, '').toLowerCase()];
-            return coloredDomain ? coloredDomain.color : 'default';
+        update.coloredAreas = _.keyBy(update.areas, function(area){
+            var coloredArea = coloredAreas[area.replace(/\s/g, '').toLowerCase()];
+            return coloredArea ? coloredArea.color : 'default';
         });
     });
 

@@ -29,21 +29,36 @@ md
             return params.trim().match(/^meta-data(.*)$/);
         },
         render: function (tokens, idx) {
-            var metaData = tokens[idx].info.trim().match(/^meta-data\stype="(.*)"\sfeatures="(.*)"\savailable="(.*)"\slink-to-doc="(.*)"$/);
+            var metaData = tokens[idx].info.trim().match(/^meta-data\stype="(?<type>.*)"\sfeatures="(?<features>.*)"\savailable="(?<available>.*)"\sin="(?<in>.*)"\slink-to-doc="(?<linkToDoc>.*)"$/);
             if(!metaData){
-                metaData = tokens[idx].info.trim().match(/^meta-data\stype="(.*)"\sfeatures="(.*)"\savailable="(.*)"$/)
+                metaData = tokens[idx].info.trim().match(/^meta-data\stype="(?<type>.*)"\sfeatures="(?<features>.*)"\savailable="(?<available>.*)"\sin="(?<in>.*)"$/)
+            }if(!metaData){
+                metaData = tokens[idx].info.trim().match(/^meta-data\stype="(?<type>.*)"\sfeatures="(?<features>.*)"\savailable="(?<available>.*)"\slink-to-doc="(?<linkToDoc>.*)"$/)
+            }if(!metaData){
+                metaData = tokens[idx].info.trim().match(/^meta-data\stype="(?<type>.*)"\sfeatures="(?<features>.*)"\savailable="(?<available>.*)"$/)
             }
             var html = '';
             if(tokens[idx].nesting === 1) {
-                var type = metaData[1];
-                html += '<p><em class="small text-primary">Type:</em> <span class="label label-version">' + type + '</span>';
-                var features = metaData[2].split(',');
+                html += '<p><em class="small text-primary">Type:</em> <span class="label label-version">' + metaData.groups.type + '</span>';
+                var features = metaData.groups.features.split(',');
                 html += _.reduce(features, function(res, feature) {
                     return res + ' <span class="label label-info">' + feature + '</span>';
                 }, '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Feature' + ((features.length > 1) ? 's:</em>' : ':</em>'));
-                var availability = metaData[3];
-                html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;In Serenity since ' + availability + '</em>';
-                var linkToDoc = metaData[4];
+                if(metaData.groups.in){
+                    var editions = metaData.groups.in.split(',');
+                    html += _.reduce(editions, function(res, edition) {
+                        if(edition === 'EE'){
+                            if(editions.length === 1) return res + ' Serenity EE only';
+                            return res + ' Serenity EE and';
+                        } else {
+                            return res + ' GE'
+                        }
+                    }, '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in');
+                    html += ' since ' + metaData.groups.available + '</em>';
+                } else {
+                    html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in Serenity EE since ' + metaData.groups.available + '</em>';
+                }
+                var linkToDoc = metaData.groups.linkToDoc;
                 if(linkToDoc) {
                     html += '<em>&nbsp;&nbsp;|&nbsp;&nbsp;</em><a href="' + linkToDoc + '" target="_blank">📖 Read the doc</a>';
                 }
@@ -95,7 +110,7 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAl
 
     return gulp.src('src/monthly-updates-index.handlebars')
         .pipe(gulpHandlebars({
-            title: 'What\'s new in Serenity',
+            title: 'What\'s new in Akeneo PIM',
             yearlyUpdates: yearlyUpdates,
             majorVersion: majorVersion
         }, {

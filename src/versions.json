@@ -1,5 +1,11 @@
 [
   {
+    "url": "/pim/v5/",
+    "version": "v5",
+    "label": "5.0 EE/CE",
+    "suffix_with_filename": true
+  },
+  {
     "url": "/pim/v4/",
     "version": "v4",
     "label": "4.0 EE/CE",

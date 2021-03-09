@@ -7,6 +7,12 @@
         input[type="radio"] {
             margin-left: 13px;
         }
+        input[disabled] + span.label.whats-new-updates-label {
+            background-color: lighten(@gray-lighter,2%);
+            color: lighten(@gray-light,5%);
+            border: 1px solid lighten(@gray-lighter,2%); 
+            cursor: not-allowed;
+        }
     }
     span.label.label-supported-version:before,
     em.label-supported-version:before {
@@ -18,7 +24,7 @@
         font-weight: bold;
         line-height: 20px;
     }
-    .version-checkbox, .domain-checkbox {
+    .version-checkbox, .area-checkbox {
         position: relative;
         padding-left: 30px;
         cursor: pointer;

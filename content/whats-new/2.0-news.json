@@ -1,69 +1,69 @@
 [
   {
     "title":"New modeling for products with variants",
-    "domains": ["Governance", "Productivity"],
+    "areas": ["Governance", "Productivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.0",
     "link": "/pim/v2/articles/what-about-products-variants.html"
   },
   {
     "title":"Product models API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.0",
     "link": "https://api.akeneo.com/api-reference-index.html#Productmodel"
   },
   {
     "title":"Family variants API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.0",
     "link": "https://api.akeneo.com/api-reference-index.html#Familyvariant"
   },
   {
     "title":"Permissions on product data on imports/exports 🔒",
-    "domains": ["Connectivity"],
+    "areas": ["Connectivity"],
     "editions": ["EE"],
     "since-version": "2.0",
     "link": "/pim/v2/articles/imports.html#with-the-user-groups-rights-ee-only"
   },
   {
     "title":"Brand new UX/UI 🖌️",
-    "domains": ["Productivity"],
+    "areas": ["Productivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.0"
   },
   {
     "title":"Attribute groups API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.0",
     "link": "https://api.akeneo.com/api-reference-index.html#Attributegroup"
   },
   {
     "title":"Association types API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.0",
     "link": "https://api.akeneo.com/api-reference-index.html#Associationtype"
   },
   {
     "title":"Currencies API 🔌",
-    "domains": ["Governance", "Connectivity"],
+    "areas": ["Governance", "Connectivity"],
     "editions": ["CE", "EE"],
     "since-version": "2.0",
     "link": "https://api.akeneo.com/api-reference-index.html#Currency"
   },
   {
     "title":"Published products API 🔌",
-    "domains": ["Connectivity"],
+    "areas": ["Connectivity"],
     "editions": ["EE"],
     "since-version": "2.0",
     "link": "https://api.akeneo.com/api-reference-index.html#Publishedproduct"
   },
   {
     "title":"Product draft management via API 🔌",
-    "domains": ["Connectivity","Collaboration"],
+    "areas": ["Connectivity","Collaboration"],
     "editions": ["EE"],
     "since-version": "2.0",
     "link": "https://api.akeneo.com/api-reference.html#get_draft__code_"
