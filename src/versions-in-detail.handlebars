@@ -51,11 +51,13 @@
                                     <div class="serenity-update">
                                         <div class="row">
                                             <div class="col-sm-8">
-                                                <p><b class="text-primary">{{title}}</b><br>
-                                                {{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Available in Serenity only</em></p>    
+                                                <p><b class="text-primary">{{title}}</b></p>
                                             </div>
                                             <div class="col-sm-4">
                                                 {{#if link}}<p class="text-right"><a class="link" href="{{link}}" target="_blank">Read more... ></a></p>{{/if}}
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Available in Serenity {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}} only</em></p>
                                             </div>
                                         </div>
                                     </div>
@@ -154,7 +156,7 @@
                             {{#if @first}}
                                 <h3>Want exclusive features?</h3>
                                 <p>The {{label}} is our latest GA version.</p>
-                                <p>But did you know that, in our <b>Serenity offer</b>, you can benefit from new exclusive features? <a href="{{newKeyFeaturesIfIMigrateToSernity}}">> Check out the exclusive Serenity features available so far</a><br>On top of that, in Serenity, you don't need to bother about migration anymore. We handle it for you. Convinced? Don't hesitate to <a href="https://www.akeneo.com/contact/">contact us</a> or your Customer Success Manager! </p>
+                                <p>But did you know that, in our <b>Serenity offer</b>, you can benefit from new exclusive features? <a href="{{newKeyFeaturesIfIMigrateToSerenity}}">> Check out the exclusive Serenity features available so far</a><br>On top of that, in Serenity, you don't need to bother about migration anymore. We handle it for you. Convinced? Don't hesitate to <a href="https://www.akeneo.com/contact/">contact us</a> or your Customer Success Manager! </p>
                                 <a href="#serenity" class="btn btn-primary btn-ghost btn-sm"> Learn more about Serenity</a>
                             {{else}}
                                 <h3>A newer version is out!</h3>

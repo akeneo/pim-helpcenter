@@ -75,7 +75,7 @@
     var checkedAreas = [...areas];
     // Only in the case there is no hash in the URL, we set up the hash to take into account the default filters set above.
     if(!getHashVersions() && !getHashEdition() && !getHashAreas()){
-       setHash(); 
+       setHash();
     }
     // Watch the changes in the URL hash to update the news grid and the selected filters accordingly
     $(window).on('hashchange',onHashchange);
@@ -83,22 +83,22 @@
     onHashchange();
 
     function getHashVersions() {
-        var matches = location.hash.match(/versions=([^&]+)&edition=.*&areas=.*/i);
+        var matches = location.hash.match(/versions=([^&]+)&edition=.*&domains=.*/i);
         var hashVersions = matches && matches[1];
         return hashVersions && decodeURIComponent(hashVersions);
     }
     function getHashEdition() {
-        var matches = location.hash.match(/versions=.*&edition=([^&]+)&areas=.*/i);
+        var matches = location.hash.match(/versions=.*&edition=([^&]+)&domains=.*/i);
         var hashEdition = matches && matches[1];
         return hashEdition && decodeURIComponent(hashEdition);
     }
     function getHashAreas() {
-        var matches = location.hash.match(/versions=.*&edition=.*&areas=([^&]+)/i);
+        var matches = location.hash.match(/versions=.*&edition=.*&domains=([^&]+)/i);
         var hashAreas = matches && matches[1];
         return hashAreas && decodeURIComponent(hashAreas);
     }
     function setHash(){
-        location.hash = 'versions=' + encodeURIComponent(checkedVersions) + '&edition=' + encodeURIComponent(checkedEdition) + '&areas=' + encodeURIComponent(checkedAreas);
+        location.hash = 'versions=' + encodeURIComponent(checkedVersions) + '&edition=' + encodeURIComponent(checkedEdition) + '&domains=' + encodeURIComponent(checkedAreas);
     }
 
     function onHashchange() {
@@ -186,7 +186,6 @@
                 combinationOfVersionsAreas.push(area + version); 
             });
         });
-        console.log(combinationOfVersionsAreas.join(checkedEdition + ', ') + checkedEdition);
         return combinationOfVersionsAreas.join(checkedEdition + ', ') + checkedEdition;
     }
 

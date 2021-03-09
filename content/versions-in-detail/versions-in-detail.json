@@ -15,11 +15,11 @@
     "migrationToLatestDoc": false,
     "releaseNoteLink": "/pim/v5/updates/index.html",
     "newKeyFeaturesIn": {
-      "CE": "/pim/serenity/whats-new.html#versions=.50&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-      "EE": "/pim/serenity/whats-new.html#versions=.50&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+      "CE": "/pim/serenity/whats-new.html#versions=.50&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.50&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
     "newKeyFeaturesIfIMigrateToLatest": null,
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "40",
@@ -37,11 +37,11 @@
     "migrationToLatestDoc": true,
     "releaseNoteLink": "/pim/v4/updates/index.html",
     "newKeyFeaturesIn": {
-      "CE": "/pim/serenity/whats-new.html#versions=.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-      "EE": "/pim/serenity/whats-new.html#versions=.40&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+      "CE": "/pim/serenity/whats-new.html#versions=.40&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "32",
@@ -58,11 +58,11 @@
     },
     "migrationToLatestDoc": true,
     "newKeyFeaturesIn": {
-      "CE": "/pim/serenity/whats-new.html#versions=.32&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-      "EE": "/pim/serenity/whats-new.html#versions=.32&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+      "CE": "/pim/serenity/whats-new.html#versions=.32&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.32&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.40&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "31",
@@ -79,11 +79,11 @@
     },
     "migrationToLatestDoc": true,
     "newKeyFeaturesIn": {
-      "CE": "/pim/serenity/whats-new.html#versions=.31&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-      "EE": "/pim/serenity/whats-new.html#versions=.31&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+      "CE": "/pim/serenity/whats-new.html#versions=.31&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.31&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "30",
@@ -100,11 +100,11 @@
     },
     "migrationToLatestDoc": true,
     "newKeyFeaturesIn": {
-      "CE": "/pim/serenity/whats-new.html#versions=.30&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-      "EE": "/pim/serenity/whats-new.html#versions=.30&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+      "CE": "/pim/serenity/whats-new.html#versions=.30&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.30&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "23",
@@ -121,11 +121,11 @@
     },
     "migrationToLatestDoc": true,
     "newKeyFeaturesIn": {
-      "CE": "/pim/serenity/whats-new.html#versions=.23&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-      "EE": "/pim/serenity/whats-new.html#versions=.23&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+      "CE": "/pim/serenity/whats-new.html#versions=.23&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.23&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "22",
@@ -142,11 +142,11 @@
     },
     "migrationToLatestDoc": true,
     "newKeyFeaturesIn": {
-      "CE": "/pim/serenity/whats-new.html#versions=.22&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-      "EE": "/pim/serenity/whats-new.html#versions=.22&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+      "CE": "/pim/serenity/whats-new.html#versions=.22&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.22&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "21",
@@ -163,11 +163,11 @@
       "api": "https://api.akeneo.com/api-reference-index-21.html"
     },
     "newKeyFeaturesIn": {
-      "CE": "/pim/serenity/whats-new.html#versions=.21&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-      "EE": "/pim/serenity/whats-new.html#versions=.21&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+      "CE": "/pim/serenity/whats-new.html#versions=.21&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.21&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "20",
@@ -184,11 +184,11 @@
     },
     "migrationToLatestDoc": true,
     "newKeyFeaturesIn": {
-      "CE": "/pim/serenity/whats-new.html#versions=.20&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-      "EE": "/pim/serenity/whats-new.html#versions=.20&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+      "CE": "/pim/serenity/whats-new.html#versions=.20&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.20&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "17",
@@ -205,11 +205,11 @@
     },
     "migrationToLatestDoc": true,
     "newKeyFeaturesIn": {
-      "CE": "/pim/serenity/whats-new.html#versions=.17&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-      "EE": "/pim/serenity/whats-new.html#versions=.17&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+      "CE": "/pim/serenity/whats-new.html#versions=.17&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.17&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
     },
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "16",
@@ -226,8 +226,8 @@
     },
     "migrationToLatestDoc": false,
     "newKeyFeaturesIn": null,
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "15",
@@ -244,8 +244,8 @@
     },
     "migrationToLatestDoc": false,
     "newKeyFeaturesIn": null,
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "14",
@@ -262,8 +262,8 @@
     },
     "migrationToLatestDoc": false,
     "newKeyFeaturesIn": null,
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "13",
@@ -280,8 +280,8 @@
     },
     "migrationToLatestDoc": false,
     "newKeyFeaturesIn": null,
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   },
   {
     "code": "10",
@@ -295,7 +295,7 @@
     "doc": null,
     "migrationToLatestDoc": false,
     "newKeyFeaturesIn": null,
-    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
-    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
   }
 ]
