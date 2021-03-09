@@ -4,7 +4,7 @@ pim_announcement_audience:
 ---
 
 # Up to 10 millions of assets per asset family
-::: meta-data type="New" features="Scalability, Governance" available="mid-February"
+::: meta-data type="New" features="Scalability, Governance" in="EE" available="mid-February"
 
 In the era of Product Experience more than ever, media files like images, videos, product sheets are must-haves to deliver compelling and personalized experiences to your customers. So as your media library grows, Akeneo needs to fulfil your expectations, that is why you can now have up to 10 million assets per asset family.
 
