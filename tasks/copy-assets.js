@@ -35,9 +35,6 @@ gulp.task('copy-assets', ['clean-dist'], function(){
     var img = gulp.src('content/img/**/*')
         .pipe(rename({dirname: ''}))
         .pipe(gulp.dest('dist/pim/' + majorVersion + '/img/'));
-    var img = gulp.src('content/pdf-user-guides/**/*')
-        .pipe(rename({dirname: ''}))
-        .pipe(gulp.dest('dist/pim/' + majorVersion + '/pdf-user-guides/'));
     var articleImg = gulp.src('content/md/*/img/*')
         .pipe(rename({dirname: ''}))
         .pipe(gulp.dest('dist/pim/' + majorVersion + '/img/'));
