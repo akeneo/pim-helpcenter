@@ -57,6 +57,7 @@
       "api": "https://api.akeneo.com/api-reference-index-32.html"
     },
     "migrationToLatestDoc": true,
+    "pdfReleaseNote": true,
     "newKeyFeaturesIn": {
       "CE": "/pim/serenity/whats-new.html#versions=.32&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
       "EE": "/pim/serenity/whats-new.html#versions=.32&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
@@ -78,6 +79,7 @@
       "api": "https://api.akeneo.com/api-reference-index-31.html"
     },
     "migrationToLatestDoc": true,
+    "pdfReleaseNote": true,
     "newKeyFeaturesIn": {
       "CE": "/pim/serenity/whats-new.html#versions=.31&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
       "EE": "/pim/serenity/whats-new.html#versions=.31&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
@@ -99,6 +101,7 @@
       "api": "https://api.akeneo.com/api-reference-index-30.html"
     },
     "migrationToLatestDoc": true,
+    "pdfReleaseNote": true,
     "newKeyFeaturesIn": {
       "CE": "/pim/serenity/whats-new.html#versions=.30&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
       "EE": "/pim/serenity/whats-new.html#versions=.30&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
@@ -120,6 +123,7 @@
       "api": "https://api.akeneo.com/api-reference-index-23.html"
     },
     "migrationToLatestDoc": true,
+    "pdfReleaseNote": true,
     "newKeyFeaturesIn": {
       "CE": "/pim/serenity/whats-new.html#versions=.23&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
       "EE": "/pim/serenity/whats-new.html#versions=.23&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
@@ -141,6 +145,7 @@
       "api": "https://api.akeneo.com/api-reference-index-22.html"
     },
     "migrationToLatestDoc": true,
+    "pdfReleaseNote": true,
     "newKeyFeaturesIn": {
       "CE": "/pim/serenity/whats-new.html#versions=.22&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
       "EE": "/pim/serenity/whats-new.html#versions=.22&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
@@ -155,13 +160,14 @@
       "CE": "Prest-O Change-O",
       "EE": "Walnut"
     },
-    "migrationToLatestDoc": true,
     "releaseDate": "2017-12-21",
     "supportEndDate": "2018-03-31",
     "doc": {
       "functional": "/pim/v2",
       "api": "https://api.akeneo.com/api-reference-index-21.html"
     },
+    "migrationToLatestDoc": true,
+    "pdfReleaseNote": true,
     "newKeyFeaturesIn": {
       "CE": "/pim/serenity/whats-new.html#versions=.21&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
       "EE": "/pim/serenity/whats-new.html#versions=.21&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
@@ -183,6 +189,7 @@
       "api": "https://api.akeneo.com/api-reference-index-20.html"
     },
     "migrationToLatestDoc": true,
+    "pdfReleaseNote": true,
     "newKeyFeaturesIn": {
       "CE": "/pim/serenity/whats-new.html#versions=.20&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
       "EE": "/pim/serenity/whats-new.html#versions=.20&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
@@ -204,6 +211,7 @@
       "api": "https://api.akeneo.com/api-reference-index-17.html"
     },
     "migrationToLatestDoc": true,
+    "pdfReleaseNote": true,
     "newKeyFeaturesIn": {
       "CE": "/pim/serenity/whats-new.html#versions=.17&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
       "EE": "/pim/serenity/whats-new.html#versions=.17&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
@@ -225,6 +233,7 @@
       "api": null
     },
     "migrationToLatestDoc": false,
+    "pdfReleaseNote": true,
     "newKeyFeaturesIn": null,
     "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
     "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
@@ -243,6 +252,7 @@
       "api": null
     },
     "migrationToLatestDoc": false,
+    "pdfReleaseNote": true,
     "newKeyFeaturesIn": null,
     "newKeyFeaturesIfIMigrateToLatest": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
     "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.50%2C.17%2C.20%2C.21%2C.22%2C.23%2C.30%2C.31%2C.32%2C.40%2C.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"

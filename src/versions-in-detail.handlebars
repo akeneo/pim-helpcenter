@@ -116,7 +116,13 @@
                         <div class="col-xs-12 col-sm-4">
                             <h3>Release</h3>
                             <p>The {{label}} was released on {{releaseDateLongLabel}}.<br><em class="small">The Community Edition is called <span class="version-code-names">{{name.CE}}</span> and the Enterprise Edition <span class="version-code-names">{{name.EE}}</span>.</em></p>
-                            <a href="{{releaseNoteLink}}">> Read the release note</a>
+                            {{#if releaseNoteLink}}
+                                <a href="{{releaseNoteLink}}">> Read the release note</a>
+                            {{else}}
+                                {{#if pdfReleaseNote}}
+                                <a href="/pim/v2/pdf-release-notes/Akeneo_Release_Notes_{{label}}_EN.pdf" download="Akeneo PIM release note v{{label}}.pdf">> Download the PDF release note</a>
+                                {{/if}}
+                            {{/if}}
                             {{#if newKeyFeaturesIn}}
                                 <h3>What's new?</h3>
                                 <p>Discover the new key features that come with the {{label}}.</p>
