@@ -57,6 +57,10 @@ The Event subscription leverages Akeneo PIM permissions to control access to pro
 
 For example, suppose your extension needs to receive product update events only for your eCommerce products. In that case, you need to give your connection user group at least the `read` permission on the `eCommerce` category tree, which is where your products are organized.
 
+::: warning
+If you create, update or delete a product with no category, the PIM will send an event to all the enabled event subscriptions. 
+:::
+
 ::: info
 You will find everything you need about connection user groups and permissions on the [Manage your connections](manage-your-connections.html#configure-the-connection-user-group) page. 
 :::
