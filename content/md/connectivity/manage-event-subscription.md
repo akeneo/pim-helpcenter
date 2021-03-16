@@ -1,7 +1,7 @@
 ---
 id: manage-event-subscription
 themes: connectivity, import-export-data
-title: Subscribe to **events**
+title: Subscribe and manage **events**
 popular: true
 ee-only: false
 related: what-is-an-event-subscription, how-to-connect-my-pim, manage-your-connections
@@ -19,7 +19,7 @@ On this page, you'll find answers to the following questions:
 - How to enable an event subscription?
 - How to configure the link with my extension?
 
-# Activation
+# Activate
 
 First, an event subscription relies on the Akeneo PIM Connections feature, so you'll need to create a Connection first if you don't already have one.
 You will find everything you need on the [Create a connection](manage-your-connections.html#create-a-connection) page. 
@@ -34,9 +34,9 @@ To ensure the proper functioning of your Akeneo PIM, you can connect **up to 3 c
 
 Now, let's move on to the URL configuration, and soon you'll be able to receive events.
 
-# Configuration
+# Configure
 
-## Request URL Configuration & Verification
+## Configure and verify your request URL
 
 It's better if your Event Request URL is confirmed before saving the form. 
 
@@ -76,7 +76,7 @@ When a product is created, updated, or deleted, you'll receive an event if:
 - an attribute value has been updated, regardless of its attribute group,
 - an attribute value has been updated, regardless of the current locale.
 
-In the payload, you only receive attribute values that are in the eCommerce, ERP, Marketing, and Media attribute groups and for the English GB, and French locales.
+You only receive attribute values in the eCommerce, ERP, Marketing, and Media attribute groups and English GB and French locales in the payload.
 
 ::: warning
 That means that you will receive an event if someone updates the German description of the product even if your connection is not allowed to see it. Same thing if someone updates an attribute that belongs to another attribute group.
@@ -84,4 +84,24 @@ That means that you will receive an event if someone updates the German descript
 
 ::: info
 If you are not comfortable with Akeneo PIM permissions, check the following article [Set rights on your catalog](access-rights-on-products.html)
+:::
+
+# Debug
+
+Now, everything is set-up, you probably want to be sure your event subscription is working well. 
+
+To do so, we added a button to allow you to download logs related to an event subscription. 
+
+![Download logs button](../img/connection-download-logs-button.png)
+
+In the `.txt` file uploaded on your computer when you click on the `Download logs` button, you have access to several log levels:
+- **Error** logs show you when something went wrong with the connected application. Either it didn't answer quickly enough, or it responded with an error code. 
+- **Warning** logs alert you when your PIM reached the maximum number of events we can send per hour.
+- **Notice** logs tell you why an event hasn't been sent to your connected application. It can be because the connection itself raised the event through the REST API or because the connection has no permission to see the product in question. 
+- **Info** logs inform you when a bunch of events has been sent to your connected application. 
+
+
+::: info
+Want to know more about each type of logs? 
+Please, read our article Debug and fix issues related to the Events API on the api.akeneo.com website. 
 :::
