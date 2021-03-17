@@ -105,6 +105,8 @@ When an attribute description is defined, it is displayed under the attribute in
 
 ![Attribute description in the product edit form](../img/PEF_AttributeDescription.png)
 
+This property can be translated into all the UI locales.
+
 ## The `Read-only` property
 
 If you enable this property, users will not be allowed to edit the attribute through the UI, it will only be updated through imports, API or [rules](manage-your-rules.html#mainContent). The attribute will appear as greyed out in the interface.
