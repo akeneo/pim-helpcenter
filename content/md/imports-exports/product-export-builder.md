@@ -119,9 +119,9 @@ Quality Score
 - `No condition on Quality Score`(default option): all products will be exported regardless of their Quality Score.
 - `A`,`B`,`C`,`D`,`E`: select the score or scores you want to filter your product export on.
 
-Filter on Quality Score
-- `Apply the selected score on at least one locale`: products will be exported if the selected score or scores is reached for at least 1 selected locale
-- `Apply the selected score on all locales`: products will be exported if the selected score or scores is reached for all selected locales
+Export Quality Score(s)for
+- `at least one locale`: products will be exported if the selected score or scores is reached for at least 1 selected locale
+- `all selected locales`: products will be exported if the selected score or scores is reached for all selected locales
 
 :::info
 The Quality Score columns are ignored when the files are imported
