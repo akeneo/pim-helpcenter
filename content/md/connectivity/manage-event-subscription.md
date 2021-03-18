@@ -98,12 +98,7 @@ To do so, we added a button to allow you to download logs related to an event su
 
 ![Download logs button](../img/connection-download-logs-button.png)
 
-In the `.txt` file uploaded on your computer when you click on the `Download logs` button, you have access to several log levels:
-- **Error** logs show you when something went wrong with the connected application. Either it didn't answer quickly enough, or it responded with an error code. 
-- **Warning** logs alert you when your PIM reached the maximum number of events we can send per hour.
-- **Notice** logs tell you why an event hasn't been sent to your connected application. It can be because the connection itself raised the event through the REST API or because the connection has no permission to see the product in question. 
-- **Info** logs inform you when a bunch of events has been sent to your connected application. 
-
+In the `.txt` file uploaded on your computer when you click on the `Download logs` button, you have access to several log levels that will help you to understand why you did or didn't receive some events.
 
 ::: info
 Want to know more about each type of logs? 
