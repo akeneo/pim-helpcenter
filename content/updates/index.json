@@ -1,4 +1,9 @@
 {
+  "2021-03": {
+    "title": "March 2021 Serenity updates",
+    "description": "March 2021 Serenity updates",
+    "img": "illus-march-21.svg"
+  },
   "2021-02": {
     "title": "February 2021 Serenity updates",
     "description": "February comes with improvements on data quality: new spell-check dictionaries to help you better manage your overall data quality and new export and API filters on your product quality scores, but also a new frequency for rules execution and extended capabilities for your asset families",
