@@ -36,7 +36,7 @@ Now, let's move on to the URL configuration, and soon you'll be able to receive 
 
 # Configure
 
-## Configure and verify your request URL
+## Configure and confirm your request URL
 
 It's better if your Event Request URL is confirmed before saving the form. 
 
@@ -98,9 +98,9 @@ To do so, we added a button to allow you to download logs related to an event su
 
 ![Download logs button](../img/connection-download-logs-button.png)
 
-In the `.txt` file uploaded on your computer when you click on the `Download logs` button, you have access to several log levels that will help you to understand why you did or didn't receive some events.
+When you click on `Download logs`, you have access to a `.txt`file containing several log levels that will help you to understand why you did or didn't receive some events.
 
 ::: info
 Want to know more about each type of logs? 
-Please, read our article Debug and fix issues related to the Events API on the api.akeneo.com website. 
+Please, read our article [Debug and fix issues related to the Events API](https://api.akeneo.com/events-documentation/subscription.html) on the api.akeneo.com website. 
 :::
