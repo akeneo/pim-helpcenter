@@ -1,7 +1,7 @@
 ---
 id: manage-event-subscription
 themes: connectivity, import-export-data
-title: Subscribe to **events**
+title: Subscribe and manage **events**
 popular: true
 ee-only: false
 related: what-is-an-event-subscription, how-to-connect-my-pim, manage-your-connections
@@ -19,7 +19,7 @@ On this page, you'll find answers to the following questions:
 - How to enable an event subscription?
 - How to configure the link with my extension?
 
-# Activation
+# Activate
 
 First, an event subscription relies on the Akeneo PIM Connections feature, so you'll need to create a Connection first if you don't already have one.
 You will find everything you need on the [Create a connection](manage-your-connections.html#create-a-connection) page. 
@@ -34,9 +34,9 @@ To ensure the proper functioning of your Akeneo PIM, you can connect **up to 3 c
 
 Now, let's move on to the URL configuration, and soon you'll be able to receive events.
 
-# Configuration
+# Configure
 
-## Request URL Configuration & Verification
+## Configure and confirm your request URL
 
 It's better if your Event Request URL is confirmed before saving the form. 
 
@@ -57,6 +57,10 @@ The Event subscription leverages Akeneo PIM permissions to control access to pro
 
 For example, suppose your extension needs to receive product update events only for your eCommerce products. In that case, you need to give your connection user group at least the `read` permission on the `eCommerce` category tree, which is where your products are organized.
 
+::: warning
+If you create, update or delete a product with no category, the PIM will send an event to all the enabled event subscriptions. 
+:::
+
 ::: info
 You will find everything you need about connection user groups and permissions on the [Manage your connections](manage-your-connections.html#configure-the-connection-user-group) page. 
 :::
@@ -76,7 +80,7 @@ When a product is created, updated, or deleted, you'll receive an event if:
 - an attribute value has been updated, regardless of its attribute group,
 - an attribute value has been updated, regardless of the current locale.
 
-In the payload, you only receive attribute values that are in the eCommerce, ERP, Marketing, and Media attribute groups and for the English GB, and French locales.
+You only receive attribute values in the eCommerce, ERP, Marketing, and Media attribute groups and English GB and French locales in the payload.
 
 ::: warning
 That means that you will receive an event if someone updates the German description of the product even if your connection is not allowed to see it. Same thing if someone updates an attribute that belongs to another attribute group.
@@ -84,4 +88,19 @@ That means that you will receive an event if someone updates the German descript
 
 ::: info
 If you are not comfortable with Akeneo PIM permissions, check the following article [Set rights on your catalog](access-rights-on-products.html)
+:::
+
+# Debug
+
+Now, everything is set-up, you probably want to be sure your event subscription is working well. 
+
+To do so, we added a button to allow you to download logs related to an event subscription. 
+
+![Download logs button](../img/connection-download-logs-button.png)
+
+When you click on `Download logs`, you have access to a `.txt`file containing several log levels that will help you to understand why you did or didn't receive some events.
+
+::: info
+Want to know more about each type of logs? 
+Please, read our article [Debug and fix issues related to the Events API](https://api.akeneo.com/events-documentation/subscription.html) on the api.akeneo.com website. 
 :::
