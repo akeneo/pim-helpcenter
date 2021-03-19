@@ -34,7 +34,9 @@ You can find a **locale and channel switcher** on each asset, meaning that if yo
 ![Assets Locale Switcher](../img/Assets_LocaleSwitcher.png)
 
 ## Bulk edit a selection of asset attributes
-It is possible to bulk edit your own selection of asset attributes in an asset family.
+It is possible to bulk edit your own selection of asset attributes within an asset family.
+Let's imagine that you need to add the same tag to several assets, for instance, their main color attribute. Instead of manually adding the tag for each one of these assets, you can easily do it once for your selection of assets, thanks to a bulk action. Here's how to do do:
+
 1. Check the box under each asset you would like to bulk edit
 1. In the bottom bar, click on `edit`
 1. At the "edit" step, click on `add attributes` in the top right menu
