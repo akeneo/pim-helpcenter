@@ -120,7 +120,7 @@ Quality Score
 - `A`,`B`,`C`,`D`,`E`: select the score or scores you want to filter your product export on.
 
 Export Quality Score(s)for
-- `at least one locale`: products will be exported if the selected score or scores is reached for at least 1 selected locale
+- `at least one locale`: products will be exported if they match the selected quality score(s) for at least one selected locale
 - `all selected locales`: products will be exported if the selected score or scores is reached for all selected locales
 
 :::info
