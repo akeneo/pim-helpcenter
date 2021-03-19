@@ -7,7 +7,8 @@ ee-only: right
 related: create-and-display-assets
 ---
 
-# Enrich an asset
+# Enrich your assets
+## Enrich an asset
 Once you have created your asset, you can enrich it in order to add some information.
 Nothing simpler: just go on an asset and add/change the values you want.  
 
@@ -31,6 +32,22 @@ As for a product, you can define if you want a **different content according to 
 You can find a **locale and channel switcher** on each asset, meaning that if you need to translate values for example, you can do it simply switching from a locale to another.
 
 ![Assets Locale Switcher](../img/Assets_LocaleSwitcher.png)
+
+## Bulk edit a selection of asset attributes
+It is possible to bulk edit your own selection of asset attributes in an asset family.
+1. Check the box under each asset you would like to bulk edit
+1. In the bottom bar, click on `edit`
+1. At the "edit" step, click on `add attributes` in the top right menu
+![Assets attributes selection](../img/Assets_bulk-edit-add-attributes.png)
+1. Select the attributes you would like to bulk edit
+![Assets attributes selection](../img/Assets_bulk-edit-attributes-selection.png)
+1. Fill in the values you want for each selected attribute
+1. Once you are done, click on `next` in the top right corner
+1. At the "confirm" step, you can visualise the changes that will be made. If you want to continue, click on `Confirm`
+
+::: warning
+Please note that it is possible to add the same attribute multiple times. For instance, if you would like to edit an attribute that is scopable and/or localisable, you will have the possibility to do so by adding the attribute as many times as you want, but you will have to carefully select a different locale and/or scope for each of them so that you will avoid to setting different values for the same attribute with the same locale and/or same scope.
+:::
 
 # Display the products linked to an asset
 You can see at a glance the products that are linked to an asset, directly in the asset edit form, in the `Linked products` section.
@@ -72,25 +89,7 @@ You also have the completeness indicator directly on the asset thumbnail in the 
 
 The completeness is **automatically calculated** as soon as we enrich a required attribute. It means that the bullet point will disappear as soon as the required attribute is filled, and same for the completeness percentage evolution.
 
-# Edit assets
-## Bulk edit a selection of asset attributes
-It is possible to bulk edit your own selection of asset attributes in an asset family.
-1. Check the box under each asset you would like to bulk edit
-1. In the bottom bar, click on `edit`
-1. At the "edit" step, click on `add attributes` in the top right menu
-![Assets attributes selection](../img/Assets_bulk-edit-add-attributes.png)
-1. Select the attributes you would like to bulk edit
-![Assets attributes selection](../img/Assets_bulk-edit-attributes-selection.png)
-1. Fill in the values you want for each selected attribute
-1. Once you are done, click on `next` in the top right corner
-1. At the "confirm" step, you can visualise the changes that will be made. If you want to continue, click on `Confirm`
-
-::: warning
-Please note that it is possible to add the same attribute multiple times. For instance, if you would like to edit an attribute that is scopable and/or localisable, you will have the possibility to do so by adding the attribute as many times as you want, but you will have to carefully select a different locale and/or scope for each of them so that you will avoid to setting different values for the same attribute with the same locale and/or same scope.
-:::
-
 # Delete assets
-
 ## Delete an asset
 You can delete an asset or all the assets of an asset family.
  To delete an asset, click on the asset, then on the `...` button at the top right corner of the header, and `delete`.
