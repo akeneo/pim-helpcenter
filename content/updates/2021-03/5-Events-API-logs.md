@@ -1,0 +1,25 @@
+---
+pim_announcement_alt_img: "Events API log screen"
+pim_announcement_audience:
+- CE
+- EE
+---
+
+# Browse your Events API logs
+::: meta-data type="New" features="Connectivity" available="late March" in="EE,GE" link-to-doc="TODO"
+
+To ease the debugging of your Events API-based connections, we introduce a brand new monitoring screen to display the Events API logs, whether they are just info, notices, warnings, or even errors. A great addition to help you find root causes of synchronization problems and also, without a doubt, an appreciated time-saver to understand what happened on your connections!
+
+You can find this new screen in the `Event logs` menu of each connection. Note that you can use the date and level filters to narrow down the selection of displayed logs.
+
+![Event logs screen](../img/event-logs-screen.png)
+
+To finish, you can also download these logs in `.txt` format.
+
+![Events API logs download button](../img/events-api-logs-download-button.png)
+
+::: more
+[What is the Events API?](https://api.akeneo.com/events-documentation/introduction.html)  
+[What is a connection?](../articles/what-is-a-connection.html)  
+[How to manage your connections?](../articles/manage-your-connections.html)
+:::
