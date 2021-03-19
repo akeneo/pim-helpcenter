@@ -121,7 +121,7 @@ Quality Score
 
 Export Quality Score(s)for
 - `at least one locale`: products will be exported if they match the selected quality score(s) for at least one selected locale
-- `all selected locales`: products will be exported if the selected score or scores is reached for all selected locales
+- `all selected locales`: products will be exported if they match the selected quality score(s) for all selected locales
 
 :::info
 You can reimport a product export file containing product quality scores. The product quality score columns will be simply ignored.
