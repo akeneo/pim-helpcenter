@@ -124,7 +124,7 @@ Export Quality Score(s)for
 - `all selected locales`: products will be exported if the selected score or scores is reached for all selected locales
 
 :::info
-The Quality Score columns are ignored when the files are imported
+You can reimport a product export file containing product quality scores. The product quality score columns will be simply ignored.
 :::
 
 ### Use the completeness filter for product export
