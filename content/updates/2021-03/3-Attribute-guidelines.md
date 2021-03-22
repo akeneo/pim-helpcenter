@@ -9,7 +9,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Governance" available="late March" link-to-doc="../articles/TODO"
 :::
 
-It is now possible to display a short guidelines for each of your attributes in the product form in order to help your teams better catch what are the attribute enrichment prerequisites.
+It is now possible to display a short explanation sentence for each attribute of your product form in order to help your teams better catch what are the attribute enrichment prerequisites.
 
 ![An example of attribute guidlines](../img/an-attribute-guidelines.png)
 
