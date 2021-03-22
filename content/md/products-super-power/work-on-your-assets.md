@@ -34,8 +34,8 @@ You can find a **locale and channel switcher** on each asset, meaning that if yo
 ![Assets Locale Switcher](../img/Assets_LocaleSwitcher.png)
 
 ## Bulk edit a selection of asset attributes
-It is possible to bulk edit your own selection of asset attributes within an asset family.
-Let's imagine that you need to add the same tag to several assets, for instance, their main color attribute. Instead of manually adding the tag for each one of these assets, you can easily do it once for your selection of assets, thanks to a bulk action. Here's how to do do:
+If you have the edit permission on an asset family, it is possible to bulk edit your own selection of asset attributes within this asset family.
+Let's imagine that you need to add the same tag to several assets, for instance their main color attribute. Instead of manually adding the tag for each one of these assets, you can easily do it in one action for your selection of assets, thanks to a bulk edition. Here's how to do so:
 
 1. Check the box under each asset you would like to bulk edit
 1. In the bottom bar, click on `edit`
@@ -48,8 +48,13 @@ Let's imagine that you need to add the same tag to several assets, for instance,
 1. At the "confirm" step, you can visualise the changes that will be made. If you want to continue, click on `Confirm`
 
 ::: warning
-Please note that it is possible to add the same attribute multiple times. For instance, if you would like to edit an attribute that is scopable and/or localisable, you will have the possibility to do so by adding the attribute as many times as you want, but you will have to carefully select a different locale and/or scope for each of them so that you will avoid to setting different values for the same attribute with the same locale and/or same scope.
+Please note that it is possible to add the same attribute multiple times. For instance, if you would like to edit an attribute that is scopable and/or localisable, you will have the possibility to do so by adding the attribute as many times as you want. However you will have to carefully select a different locale and/or scope for each of them, in order to avoid displaying an error when clicking on `Next`.
 :::
+
+::: info
+The attributes that are configured as "read only in the UI" cannot be selected in the bulk edit.
+:::
+
 
 # Display the products linked to an asset
 You can see at a glance the products that are linked to an asset, directly in the asset edit form, in the `Linked products` section.
