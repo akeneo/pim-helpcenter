@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Duplicate a user
-::: meta-data type="New" features="Productivity" available="late March" link-to-doc="../articles/manage-your-users.html#duplicate-a-user"
+::: meta-data type="New" features="Productivity" available="late March" in="EE,GE" link-to-doc="../articles/manage-your-users.html#duplicate-a-user"
 :::
 
 You can now duplicate a user to easily create new users based on existing ones. Pretty convenient when you need to create lots of similar users. :wink:

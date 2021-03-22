@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # Display attribute guidelines
-::: meta-data type="New" features="Governance" available="late March" link-to-doc="../articles/TODO"
+::: meta-data type="New" features="Governance" available="late March" in="EE,GE" link-to-doc="../articles/TODO"
 :::
 
 It is now possible to display a short explanation sentence for each attribute of your product form in order to help your teams better catch what are the attribute enrichment prerequisites.
