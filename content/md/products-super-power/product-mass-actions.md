@@ -16,7 +16,7 @@ To access the bulk actions, go on the Product grid, **select at least one produc
 
 # Available bulk actions
 Here’s the list of the bulk operations available in the PIM:
-  - **Edit attributes values**: Edit the attributes values of your selection of products. For instance, set a new release date or a new value for an attribute..
+  - **Edit attributes values**: Edit the attributes values of your selection of products. For instance, set a new release date or a new value for an attribute...
   - **Add attributes values**: Add values for the multivalued attributes on your selection of products. For instance, add a collection or an asset.  
   - **Change family**: Choose/change the family of the selected products.
   - **Change status (enable/disable)**: Edit the status of one or several products, enable or disable products.
