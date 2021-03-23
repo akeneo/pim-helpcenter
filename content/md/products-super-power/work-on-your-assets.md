@@ -8,9 +8,9 @@ related: create-and-display-assets
 ---
 
 # Enrich your assets
-## Enrich an asset
-Once you have created your asset, you can enrich it in order to add some information.
-Nothing simpler: just go on an asset and add/change the values you want.  
+## Enrich a single asset
+Once you have created your asset, you can enrich it.
+It's pretty straightforward, you just have to go to an asset and add/change the values you want.  
 
 Let's take an example.
 
@@ -33,26 +33,27 @@ You can find a **locale and channel switcher** on each asset, meaning that if yo
 
 ![Assets Locale Switcher](../img/Assets_LocaleSwitcher.png)
 
-## Bulk edit a selection of asset attributes
-If you have the edit permission on an asset family, it is possible to bulk edit your own selection of asset attributes within this asset family.
-Let's imagine that you need to add the same tag to several assets, for instance their main color attribute. Instead of manually adding the tag for each one of these assets, you can easily do it in one action for your selection of assets, thanks to a bulk edition. Here's how to do so:
+## Bulk edit multiple assets
+If you have the `edit` permission on an asset family, it is possible to bulk edit your own selection of assets within this asset family.
+Let's imagine that you need to add the same tag to several assets, for instance, their main color attribute. Instead of manually adding the tag for each of these assets, you can easily do it in one action for your selection of assets, thanks to a bulk edition. Here's how to do so:
 
-1. Check the box under each asset you would like to bulk edit
+1. Check the box under each asset you want to bulk edit
 1. In the bottom bar, click on `edit`
-1. At the "edit" step, click on `add attributes` in the top right menu
-![Assets attributes selection](../img/Assets_bulk-edit-add-attributes.png)
-1. Select the attributes you would like to bulk edit
-![Assets attributes selection](../img/Assets_bulk-edit-attributes-selection.png)
+1. In the bulk edit pop-in, click on `add attributes` in the top-right menu
+![Asset attributes selection](../img/Assets_bulk-edit-add-attributes.png)
+1. Select the attributes you want to bulk edit
+![Asset attributes selection](../img/Assets_bulk-edit-attributes-selection.png)
 1. Fill in the values you want for each selected attribute
-1. Once you are done, click on `next` in the top right corner
-1. At the "confirm" step, you can visualise the changes that will be made. If you want to continue, click on `Confirm`
+1. Once you are done, click on `next` in the top-right corner
+1. You can then review the changes that will be made. If you want to continue, click on `Confirm`
 
 ::: warning
-Please note that it is possible to add the same attribute multiple times. For instance, if you would like to edit an attribute that is scopable and/or localisable, you will have the possibility to do so by adding the attribute as many times as you want. However you will have to carefully select a different locale and/or scope for each of them, in order to avoid displaying an error when clicking on `Next`.
+Please note that it is possible to add the same attribute multiple times. For instance, if you want to edit an attribute that has a different value per channel and/or per locale, you have the possibility to do so by adding the attribute as many times as you want. However, you have to carefully select a different locale and/or channel for each of them, so that you will avoid setting different values for the same attribute with the same locale and/or channel.
+
 :::
 
 ::: info
-The attributes that are configured as "read only in the UI" cannot be selected in the bulk edit.
+The attributes that are configured as "read-only in the UI",  and those that are used as target attributes for an asset transformation cannot be edited in bulk. Check out our article to find out more [about transformations and target attributes](https://help.akeneo.com/pim/serenity/articles/assets-transformation.html).
 :::
 
 
