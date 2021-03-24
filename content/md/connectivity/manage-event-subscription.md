@@ -106,5 +106,5 @@ And you still have access to the `Download logs` button that allow you to downlo
 
 ::: info
 Want to know more about each type of logs? 
-Please, read our article Debug and fix issues related to the Events API on the api.akeneo.com website. 
+Please, read our article [Debug and fix issues related to the Events API](https://api.akeneo.com/events-documentation/subscription.html#debugging-events) on the [api.akeneo.com](https://api.akeneo.com/) website. 
 :::
