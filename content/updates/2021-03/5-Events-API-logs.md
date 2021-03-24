@@ -20,6 +20,8 @@ To finish, you can also download these logs in `.txt` format.
 
 ::: more
 [What is the Events API?](https://api.akeneo.com/events-documentation/introduction.html)  
+[What is an event subscription?](../articles/what-is-an-event-subscription.html)  
+[How to manage your event subscription?](../articles/manage-event-subscription.html)  
 [What is a connection?](../articles/what-is-a-connection.html)  
 [How to manage your connections?](../articles/manage-your-connections.html)
 :::
