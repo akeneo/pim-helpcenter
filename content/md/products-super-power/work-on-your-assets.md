@@ -34,17 +34,18 @@ You can find a **locale and channel switcher** on each asset, meaning that if yo
 ![Assets Locale Switcher](../img/Assets_LocaleSwitcher.png)
 
 ## Bulk edit multiple assets
-If you have the `edit` permission on an asset family, you can bulk edit attributes from one or more assets from the same asset family.
+If you have the `Edit` permission on an asset family, you can bulk edit attributes from one or more assets from the same asset family.
+
 Let's imagine you need to add a tag to several assets from the same family, this tag will give information on the main color of the image, and this color is the same for all your selected assets. Instead of manually adding the tag for each of these assets, you can easily do it in one action for your selection of assets, thanks to a bulk edition. Here's how to do so:
 
 1. Check the box under each asset you want to bulk edit
-1. In the bottom bar, click on `edit`
-1. In the bulk edit pop-in, click on `add attributes` in the top-right menu
+1. In the bottom bar, click on `Edit`
+1. In the bulk edit pop-in, click on `Add attributes` in the top-right menu
 ![Asset attributes selection](../img/Assets_bulk-edit-add-attributes.png)
 1. Select the attributes you want to bulk edit
 ![Asset attributes selection](../img/Assets_bulk-edit-attributes-selection.png)
 1. Fill in the values you want for each selected attribute
-1. Once you are done, click on `next` in the top-right corner
+1. Once you are done, click on `Next` in the top-right corner
 1. You can then review the changes that will be made. If you want to continue, click on `Confirm`
 
 ::: warning
