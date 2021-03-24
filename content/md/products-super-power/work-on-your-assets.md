@@ -34,8 +34,8 @@ You can find a **locale and channel switcher** on each asset, meaning that if yo
 ![Assets Locale Switcher](../img/Assets_LocaleSwitcher.png)
 
 ## Bulk edit multiple assets
-If you have the `edit` permission on an asset family, it is possible to bulk edit your own selection of assets within this asset family.
-Let's imagine that you need to add the same tag to several assets, for instance, their main color attribute. Instead of manually adding the tag for each of these assets, you can easily do it in one action for your selection of assets, thanks to a bulk edition. Here's how to do so:
+If you have the `edit` permission on an asset family, you can bulk edit attributes from one or more assets from the same asset family.
+Let's imagine you need to add a tag to several assets from the same family, this tag will give information on the main color of the image, and this color is the same for all your selected assets. Instead of manually adding the tag for each of these assets, you can easily do it in one action for your selection of assets, thanks to a bulk edition. Here's how to do so:
 
 1. Check the box under each asset you want to bulk edit
 1. In the bottom bar, click on `edit`
@@ -53,7 +53,7 @@ Please note that it is possible to add the same attribute multiple times. For in
 :::
 
 ::: info
-The attributes that are configured as "read-only in the UI",  and those that are used as target attributes for an asset transformation cannot be edited in bulk. Check out our article to find out more [about transformations and target attributes](https://help.akeneo.com/pim/serenity/articles/assets-transformation.html).
+The attributes configured as "read-only in the UI" and those used as target attributes for an asset transformation cannot be edited in bulk. Read our article to learn more about [transformations and target attributes](https://help.akeneo.com/pim/serenity/articles/assets-transformation.html).
 :::
 
 
