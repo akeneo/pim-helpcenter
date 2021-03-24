@@ -75,9 +75,5 @@ Just an additional thing you should be aware of: as we display the attributes of
 As a consequence, if you select the Attribute group marketing and the `Missing required attributes` filter, the missing required attributes of the attribute group marketing will be displayed in the product form.
 
 :::info
-In the Enterprise Edition, the yellow dot is displayed nearby a missing required attribute you have the right to edit.
-:::
-
-:::warning
-Asset attributes must have a variation generated for the selected channel (and locale if your reference file is localisable) to have their completeness filled. If the yellow dot remains even if you have an asset file associated to your product, check if it has a variation for your channel.
+In the Enterprise Edition, a yellow dot is displayed nearby a missing required attribute you have the right to edit.
 :::
