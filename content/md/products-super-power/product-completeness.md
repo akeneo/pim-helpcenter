@@ -77,7 +77,3 @@ As a consequence, if you select the Attribute group marketing and the `Missing r
 :::info
 In the Enterprise Edition, the yellow dot is displayed nearby a missing required attribute you have the right to edit.
 :::
-
-:::warning
-Asset attributes must have a variation generated for the selected channel (and locale if your reference file is localisable) to have their completeness filled. If the yellow dot remains even if you have an asset file associated to your product, check if it has a variation for your channel.
-:::
