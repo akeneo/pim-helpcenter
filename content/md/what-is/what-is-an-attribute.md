@@ -101,7 +101,7 @@ In this case, when creating your attribute, enable the `value per locale` proper
 ## The `Attribute description` property
 
 Thanks to this property, it is possible to explain what the expectations are for each attribute, in terms of enrichment. In other words, this description allows to define the enrichment guidelines.
-When an attribute description is defined, it is displayed under the attribute in the product edit form.
+When an attribute guideline is defined, it is displayed under the attribute in the product edit form.
 
 ![Attribute description in the product edit form](../img/PEF_AttributeDescription.png)
 
