@@ -98,9 +98,9 @@ For instance, this feature will allow you to have one product name or a descript
 
 In this case, when creating your attribute, enable the `value per locale` property.
 
-## The `Attribute description` property
+## The `Attribute guidelines` property
 
-Thanks to this property, it is possible to explain what the expectations are for each attribute, in terms of enrichment. In other words, this description allows to define the enrichment guidelines.
+Thanks to this property, it is possible to explain what the expectations are for each attribute, in terms of enrichment.
 When an attribute guideline is defined, it is displayed under the attribute in the product edit form.
 
 ![Attribute description in the product edit form](../img/PEF_AttributeDescription.png)
