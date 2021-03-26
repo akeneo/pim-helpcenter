@@ -87,9 +87,9 @@ Scores and recommendations are updated in the following cases:
 - after a product model is saved: the impact is calculated on all the product variants belonging to the model,
 - after an attribute group activation or deactivation: the impact is calculated on all the products belonging to families with the updated attribute group.
 
-Depending on the amount of data, refreshing the quality score can take anything from a few seconds to several hours.
+Depending on the amount of data, it may take a few seconds to several hours to refresh the quality score.
 
-Updates are almost simultaneous in the following examples:
+Updates are close to real-time in the following examples:
 - enriching attributes in the product edit form
 - uploading an image in the product edit form
 - correcting a spelling mistake in the product edit form
@@ -106,7 +106,7 @@ The quality score and recommendations are updated whenever there is a change in 
 - after a product is saved.
 
 ::: info
-To update the recommendation after ignoring a spellcheck suggestion or adding a word to the dictionary, it requires to save the attribute or option to product.
+To update the recommendation after ignoring a spell-check suggestion or adding a word to the dictionary, the attribute label or option must be saved in the product.
 :::
 
 ::: info
