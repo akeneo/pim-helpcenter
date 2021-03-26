@@ -79,14 +79,36 @@ There are several types of recommendations:
 - "N/A": if the recommendation is "N/A" (Not Applicable) it means that the criteria is not relevant for the given product. For example, "N/A" will be displayed for spell-check if you don't have any localizable text or text area attributes.
 - "In progress": the criteria is being checked.
 
-# How often is the quality score refreshed?
-The grades are updated whenever there is a change in the product data:
-- after an import,
-- after an attribute or option is saved,
-- after a product is saved.
+# When are the scores and recommendations updated?
 
-Depending on the amount of data, refreshing the quality score can take anything from a few minutes to several hours in order to calculate all the impacts of a modification in the following cases:
+Scores and recommendations are updated in the following cases:
 - after an import: all products are assessed,
 - after an attribute or option is saved: the impact is calculated on all the products holding the attribute or option,
 - after a product model is saved: the impact is calculated on all the product variants belonging to the model,
 - after an attribute group activation or deactivation: the impact is calculated on all the products belonging to families with the updated attribute group.
+
+Depending on the amount of data, refreshing the quality score can take anything from a few seconds to several hours.
+
+Updates are almost simultaneous in the following examples:
+- enriching attributes in the product edit form
+- uploading an image in the product edit form
+- correcting a spelling mistake in the product edit form
+
+It requires several minutes to several hours to update the recommendations and quality score of all products impacted by a modification when:
+- changing an attribute label or option used in tens of thousands of products
+- disabling an attribute group used in several families
+- ignoring a spellcheck suggestion or adding a word to the dictionary when used in multiple products
+
+
+The quality score and recommendations are updated whenever there is a change in the product data:
+- after an import,
+- after an attribute or option is saved,
+- after a product is saved.
+
+::: info
+To update the recommendation after ignoring a spellcheck suggestion or adding a word to the dictionary, it requires to save the attribute or option to product.
+:::
+
+::: info
+The dashboard is refreshed once a day. The quality score and indicators display the previous day data quality status.
+:::
