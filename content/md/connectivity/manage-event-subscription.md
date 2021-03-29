@@ -94,17 +94,22 @@ If you are not comfortable with Akeneo PIM permissions, check the following arti
 
 Now, everything is set-up, you probably want to be sure your event subscription is working well. 
 
-To do so, we added a new submenu `Event logs` where you have access to several log levels that will help you to understand why you did or didn't receive some events.
+To do so, we added a new submenu, `Event logs`, where you have access to several log levels that will help you to understand why you did or didn't receive some events.
 
 ![Event logs UI](../img/event-log-ui.gif)
 
+Moreover, we added a filter on log levels and a search bar to speed up your search of a specific log.
 
-And you still have access to the `Download logs` button that allow you to download `.txt` file with all the logs related to an event subscription. 
+![Filter on log levels](../img/event-filter-on-levels.png)
+
+![Download logs button](../img/event-logs-searchbar.png)
+
+And you still have access to the `Download logs` button that allows you to download a `.txt` file with all the logs related to an event subscription. 
 
 ![Download logs button](../img/connection-download-logs-button.png)
 
 
 ::: info
-Want to know more about each type of logs? 
+Want to know more about each type of log? 
 Please, read our article [Debug and fix issues related to the Events API](https://api.akeneo.com/events-documentation/subscription.html#debugging-events) on the [api.akeneo.com](https://api.akeneo.com/) website. 
 :::
