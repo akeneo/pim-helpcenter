@@ -3,7 +3,7 @@ id: improve-data-quality
 themes: products-super-power
 title: Improve **data quality**
 popular: false
-ee-only: true
+ee-only: false
 related: understand-data-quality, manage-data-quality, access-rights-on-data-quality
 ---
 
@@ -52,8 +52,8 @@ Each key indicator deep-dive into one particular criteria that needs to be fulfi
 
 - **Products with an image**: enables you to know the percentage of products with at least 1 image and also how many products need an image to fulfill the criteria.
 - **Products with a good enrichment ratio**: highlights the percentage of products with at least 80% of enriched attributes and the number of products that still need to be enriched further.
-- **Products with perfect spelling in text product values**: allows you to know the percentage of products without spelling mistakes in the product data as well as the number of products with correction suggestions for spell-check.
-- **Products properly labelled**: displays the percentage of attributes and options without spelling mistakes and the number of correction suggestions for spell-check per product.
+- **Products with perfect spelling in text product values** _(Entreprise Edition only)_: allows you to know the percentage of products without spelling mistakes in the product data as well as the number of products with correction suggestions for spell-check.
+- **Products properly labelled**_(Entreprise Edition only)_: displays the percentage of attributes and options without spelling mistakes and the number of correction suggestions for spell-check per product.
 
 ::: success
 By clicking on the number of products that can still be improved, you land on a product grid with all products for this specific criteria.
@@ -86,11 +86,11 @@ From the `data quality panel`, you will know which attributes need to be improve
 From the `data quality panel`, links on attribute names can take you to a specific attribute. By clicking on the `Display all improvable attributes`, you can easily access a product edit form filtered on all the attributes that need to be checked for consistency.
 :::
 
-To help you even further, in the `Attributes` panel, you can select spelling corrections.
+To help you even further, in the `Attributes` panel, you can select spelling corrections _(Enterprise Edition only)_.
 
 ![Image data quality spellcheck corrections](../img/data-quality-spelling.png)
 
-::: info
+::: ee
 Spell check is available for the English, French, German, Spanish, Italian, Dutch, Danish, Swedish, Norwegian and Portuguese (Brazilian) locales.
 Spell check is usable with localizable text and text area attributes.
 If you use a single locale, then spell check is usable on text and text area attributes.
@@ -100,7 +100,7 @@ If you use a single locale, then spell check is usable on text and text area att
 Even if they don't have permission to edit, all PIM users will be able to read data quality insights on all attributes.
 :::
 
-From the `data quality panel`, you can view attribute labels and options with spelling mistakes. By clicking on the link, you land on the **settings** screen from which you can correct these mistakes hence improving your consistency grade.
+From the `data quality panel`, you can view attribute labels and options with spelling mistakes. By clicking on the link, you land on the **settings** screen from which you can correct these mistakes hence improving your consistency grade. _(Enterprise Edition only)_ 
 
 ![Image data quality spellcheck on attribute option](../img/data-quality-spelling-option.png)
 
@@ -123,7 +123,7 @@ For **variant products**:
 - The quality score is calculated on the attributes that can be improved at all levels, therefore, it reflects the data quality of the product that will be published.
 - Recommendations are given for all attributes by clicking on an attribute name, you can go and improve an attribute in the product model, the sub-product model or the variant product.
 
-## Improve data quality on attribute labels and options
+## Improve data quality on attribute labels and options _(Enterprise Edition only)_ 
 
 From the `Settings` you can check and improve the data quality of your attribute labels and options.
 

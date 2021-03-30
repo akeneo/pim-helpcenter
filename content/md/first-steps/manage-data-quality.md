@@ -3,50 +3,50 @@ id: manage-data-quality
 themes: catalog-settings
 title: Manage your **data quality**
 popular: false
-ee-only: true
+ee-only: false
 related: understand-data-quality, improve-data-quality, access-rights-on-data-quality
 ---
 # Overview
 Learn how to get the most out of the Data Quality Insights feature.
 
-# Activate and deactivate Data Quality Insights
+# Enable and disable Data Quality Insights
 In order to check, score and get recommendations on the product data that truly matters to craft a great product experience, you can disable Data Quality Insights for non-relevant attribute groups (ie. ERP, internal…).  
 By doing so, you will be able to highlight the quality of the attributes that are the most valuable for your customers.
 
 :::info
-Data Quality Insights is activated by default for all attribute groups.
+Data Quality Insights is enabled by default for all attribute groups.
 
 You must be granted a specific permission by the administrator to be able to edit attribute groups.
 :::
 
 ![Image data quality attribute group activation](../img/data-quality-attribute-group-activation.png)
 
-To activate data quality insights from an attribute group:
+To enable data quality insights from an attribute group:
 1.  Go to `Settings/Attribute groups`
 2.  Click on an attribute group name
 3.  Set `Data Quality activation` to Yes
 
-To deactivate data quality insights from an attribute group:
+To disable data quality insights from an attribute group:
 1.  Go to `Settings/Attribute groups`
 2.  Click on an attribute group name
 3.  Set `Data Quality activation` to No
 
 :::info
-Deactivating data quality calculation for some attribute groups will trigger a new calculation of your Enrichment and Consistency grades. Depending on the size of your catalog, this action can take up to a few hours. When they are available, you will be able to access the results on the data quality dashboard.
+Disabling data quality calculation for some attribute groups will trigger a new calculation of your Quality Score. Depending on the size of your catalog, this action can take up to a few hours. When they are available, you will be able to access the results on the data quality dashboard.
 :::
 
-## Global view of attribute group activation
+## Global view of attribute group enablement
 To know which attribute groups are taken into account in the Quality Score, you can check the attribute group grid in the settings.
 
 ![Image data quality attribute groups grid](../img/data-quality-attribute-groups-grid.png)
 
 :::info
-In the data quality panel of the product edit form, you can see which attribute groups are activated for the product you are working on.
+In the data quality panel of the product edit form, you can see which attribute groups are enabled for the product you are working on.
 
 ![Image data quality attribute groups reminder](../img/data-quality-attribute-groups-reminder.png)
 :::
 
-# Manage your dictionaries
+# Manage your dictionaries _(Entreprise Edition only)_
 Either because your product names are unique or due to industry acronyms that are not part of regular dictionaries, you can add words in your personal dictionary to fit your special needs and avoid miscalculation of your Quality Score.
 
 Several ways to add words to the `Dictionary`:
