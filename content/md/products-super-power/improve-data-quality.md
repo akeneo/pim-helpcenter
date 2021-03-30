@@ -100,7 +100,7 @@ If you use a single locale, then spell check is usable on text and text area att
 Even if they don't have permission to edit, all PIM users will be able to read data quality insights on all attributes.
 :::
 
-_(Enterprise Edition only)_ From the `data quality panel`, you can view attribute labels and options with spelling mistakes. By clicking on the link, you land on the **settings** screen from which you can correct these mistakes hence improving your consistency grade.
+From the `data quality panel`, you can view attribute labels and options with spelling mistakes. By clicking on the link, you land on the **settings** screen from which you can correct these mistakes hence improving your consistency grade. _(Enterprise Edition only)_ 
 
 ![Image data quality spellcheck on attribute option](../img/data-quality-spelling-option.png)
 
