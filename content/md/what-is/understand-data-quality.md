@@ -3,7 +3,7 @@ id: understand-data-quality
 themes: first-steps
 title: Understand **data quality**
 popular: false
-ee-only: true
+ee-only: false
 related: improve-data-quality, manage-data-quality, access-rights-on-data-quality
 ---
 
@@ -18,17 +18,21 @@ Because rich, coherent and consistent product data is important in order to deli
 This new capability helps you measure your data quality along two axes: **enrichment** and **consistency**.  
 Each of these two axes take into account several criteria to come up with an overall **quality score** for each product of your catalog.
 
+::: ee
+The consistency axis is available in an Enterprise Edition feature
+:::
+
 ## How is the quality score calculated?
 The **enrichment axis** takes into account:
 - The percentage of attributes with values in your product edit form (whether the attributes are required for completeness or not).
 - Whether your product is illustrated by at least one image (an image is a must-have for a compelling product description).
 
-The **consistency axis** is a mix of the following criteria:
+The **consistency axis** _(Enterprise Edition only)_ is a mix of the following criteria:
 - Spell check: localizable text and text areas, attribute labels and attribute options are checked for spelling mistakes.
 - Uppercases formatting: the PIM checks whether text area attributes are correctly formatted for upper cases.
 - Lowercases formatting: the PIM checks whether text area attributes are correctly formatted for lower cases.
 
-::: info
+::: ee
 Spell check is available for the English, French, German, Spanish, Italian, Dutch, Danish, Swedish, Norwegian and Portuguese (Brazilian) locales.
 Spell check is usable with localizable text and text area attributes.
 If you use a single locale, then spell check is usable on text and text area attributes.
@@ -66,7 +70,7 @@ Your **product edit form** displays the quality score for each product.
 ![Image product edit form](../img/data-quality-pef.png)
 
 ::: info
-If all the attribute groups of your family have been deactivated, the quality score will not be calculated for your product.
+If all the attribute groups of your family have been disabled, the quality score will not be calculated for your product.
 :::
 
 ## In your data quality insights panel (product edit form)
@@ -76,7 +80,7 @@ Clicking on `data quality insights` in the product edit form takes you to a dedi
 There are several types of recommendations:
 - "Everything is good": all the checked attributes are correct.
 - "Attribute label": attribute labels are clickable so you can improve them easily.
-- "N/A": if the recommendation is "N/A" (Not Applicable) it means that the criteria is not relevant for the given product. For example, "N/A" will be displayed for spell-check if you don't have any localizable text or text area attributes.
+- "N/A": if the recommendation is "N/A" (Not Applicable) it means that the criteria is not relevant for the given product. For example, "N/A" will be displayed for spell-check if you haven't filled in any text or text area attributes or if the language is not supported by our spell-check feature.
 - "In progress": the criteria is being checked.
 
 # When are the scores and recommendations updated?
