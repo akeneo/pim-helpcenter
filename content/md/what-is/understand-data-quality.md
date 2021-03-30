@@ -19,7 +19,7 @@ This new capability helps you measure your data quality along two axes: **enrich
 Each of these two axes take into account several criteria to come up with an overall **quality score** for each product of your catalog.
 
 ::: ee
-The consistency axis is available in an Enterprise Edition feature
+The consistency axis is available in an Enterprise Edition feature.
 :::
 
 ## How is the quality score calculated?
