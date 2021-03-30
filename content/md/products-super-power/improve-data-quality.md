@@ -86,7 +86,7 @@ From the `data quality panel`, you will know which attributes need to be improve
 From the `data quality panel`, links on attribute names can take you to a specific attribute. By clicking on the `Display all improvable attributes`, you can easily access a product edit form filtered on all the attributes that need to be checked for consistency.
 :::
 
-_(Enterprise Edition only)_ To help you even further, in the `Attributes` panel, you can select spelling corrections.
+To help you even further, in the `Attributes` panel, you can select spelling corrections _(Enterprise Edition only)_.
 
 ![Image data quality spellcheck corrections](../img/data-quality-spelling.png)
 
