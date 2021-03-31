@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # Browse your Events API logs
-::: meta-data type="New" features="Connectivity" available="late March" in="EE,GE" link-to-doc="TODO"
+::: meta-data type="New" features="Connectivity" available="late March" in="EE,GE" link-to-doc="../articles/manage-event-subscription.html#debug"
 
 To ease the debugging of your Events API-based connections, we introduce a brand new monitoring screen to display the Events API logs, whether they are just info, notices, warnings, or even errors. A great addition to help you find root causes of synchronization problems and also, without a doubt, an appreciated time-saver to understand what happened on your connections!
 
