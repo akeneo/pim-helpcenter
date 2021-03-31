@@ -98,13 +98,19 @@ To do so, we added a new submenu, `Event logs`, where you have access to several
 
 ![Event logs UI](../img/event-log-ui.gif)
 
-Moreover, we added a filter on log levels and a search bar to speed up your search of a specific log.
+In addition, we added filters on log levels and log date and time to help you find the right log quickly.
 
 ![Filter on log levels](../img/event-filter-on-levels.png)
 
+![Filter on log date and time](../img/event-filter-on-datetime.png)
+
+
+Moreover, the search bar allows you to refine your research even more.
+
 ![Download logs button](../img/event-logs-searchbar.png)
 
-And you still have access to the `Download logs` button that allows you to download a `.txt` file with all the logs related to an event subscription. 
+
+Finally, you still have access to the `Download logs` button that allows you to download a `.txt` file with all the logs related to an event subscription. 
 
 ![Download logs button](../img/connection-download-logs-button.png)
 
