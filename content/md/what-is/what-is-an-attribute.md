@@ -103,7 +103,7 @@ In this case, when creating your attribute, enable the `value per locale` proper
 Thanks to this property, it is possible to explain what the expectations are for each attribute, in terms of enrichment.
 When an attribute guideline is defined, it is displayed under the attribute in the product edit form.
 
-![Attribute description in the product edit form](../img/PEF_AttributeDescription.png)
+![Attribute guidelines in the product edit form](../img/PEF_AttributeGuidelines.png)
 
 This property can be translated into all the UI locales.
 
