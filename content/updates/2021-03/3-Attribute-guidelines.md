@@ -9,7 +9,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Governance" available="late March" in="EE,GE" link-to-doc="../articles/TODO"
 :::
 
-It is now possible to display a short explanation sentence for each attribute of your product form. You can use this feature to add guidelines to your teams to help them better understand what is expected for specific attributes or to tell them what are the attribute enrichment prerequisites.
+You can now have a short text displayed under each of your attributes in your product form. Use this feature to show guidelines to your teams or contributors so they better understand what is expected for an attribute, or simply guide them through the attribute prerequisites.
 
 ![An example of attribute guidelines](../img/an-attribute-guidelines.png)
 
