@@ -5,7 +5,7 @@ pim_announcement_audience:
 - CE
 ---
 
-# Display attribute guidelines
+# Add guidelines to your attributes
 ::: meta-data type="New" features="Governance" available="late March" in="EE,GE" link-to-doc="../articles/TODO"
 :::
 
