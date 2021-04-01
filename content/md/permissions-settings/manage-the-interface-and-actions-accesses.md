@@ -25,6 +25,10 @@ For almost each screen and button in the PIM, you can say if a user can see/use 
 Only give UI permissions to user roles that are related to real users, not to [connection user roles](manage-your-connections.html#configure-the-connection-user-role). As it gives right over the interface, they should only be granted to real users and not to [connections](what-is-a-connection.html).
 :::
 
+:::info
+It is possible to import and export these permissions by using the dedicated import or export profiles.
+:::
+
 # Rights on products pages
 
 ## Permissions on products
@@ -255,10 +259,12 @@ Only give UI permissions to user roles that are related to real users, not to [c
 
 | Permission name | Effect on the interface |
 |---------------------------|--------------|
-| Delete rules                                  | User can delete rules in `Settings`/`Rules`, using the trash icon or the `Delete` mass action       |
-| Execute rules | User can run rules in `Settings`/`Rules`, using the run icon, the top button `Execute Rules` or the `Execute` mass action |
+| Create rules | User can create rules in `Settings`/`Rules` |
+| Delete rules | User can delete rules in `Settings`/`Rules`, using the trash icon or the `Delete` mass action  |
+| Edit rules  | User can edit rules in `Settings`/`Rules`, using the edit icon or clicking on a rule  |
+| Execute rules | User can run rules in `Settings`/`Rules`  |
 | Calculate the affected products for the rules | User can run the `Calculate the affected products` mass action to see how many products are impacted by a rule                        |
-| View rules  | User can view the active rules in `Settings`/`Rules`         |
+| View rules  | User can view the rules in `Settings`/`Rules`         |
 
 
 # Rights on system pages

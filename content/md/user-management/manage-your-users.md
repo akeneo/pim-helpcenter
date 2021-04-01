@@ -40,6 +40,10 @@ The user account is created.
 An email is not automatically sent to the new user. It depends on the initial configuration of the PIM. Hence you will need to provide the login and password to the user manually.
 :::
 
+:::tips
+It is also possible to import and export the users by using the dedicated import or export profiles. For each new user created via an import, the PIM generates a provisional password.
+:::
+
 # Change the user general information
 
 1. Go to `System` and click on the `Users` menu entry

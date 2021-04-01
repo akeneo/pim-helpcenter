@@ -24,6 +24,10 @@ To create a new role:
 
 To better understand what is behind each permission, do not hesitate to take a look at the following articles: [Manage the interface and actions accesses](manage-the-interface-and-actions-accesses.html) and [Manage the Web API permissions](manage-the-web-api-permissions.html)
 
+:::tips
+You can also import your roles thanks to the dedicated import profile. 
+:::
+
 # Edit a role’s name
 
 To edit the name of a role:
