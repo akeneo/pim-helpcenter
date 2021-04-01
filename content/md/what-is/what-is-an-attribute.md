@@ -98,6 +98,15 @@ For instance, this feature will allow you to have one product name or a descript
 
 In this case, when creating your attribute, enable the `value per locale` property.
 
+## The `Attribute guidelines` property
+
+Thanks to this property, it is possible to explain what the expectations are for each attribute, in terms of enrichment.
+When an attribute guideline is defined, it is displayed under the attribute in the product edit form.
+
+![Attribute guidelines in the product edit form](../img/PEF_AttributeGuidelines.png)
+
+This property can be translated into all the UI locales.
+
 ## The `Read-only` property
 
 If you enable this property, users will not be allowed to edit the attribute through the UI, it will only be updated through imports, API or [rules](manage-your-rules.html#mainContent). The attribute will appear as greyed out in the interface.
