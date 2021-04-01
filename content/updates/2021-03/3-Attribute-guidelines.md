@@ -13,7 +13,7 @@ You can now have a short text displayed under each of your attributes in your pr
 
 ![An example of attribute guidelines](../img/an-attribute-guidelines.png)
 
-To add attribute guidelines, go to your `Attributes` settings page and look for the eponymous section, as shown below.
+To add attribute guidelines, go to your `Attributes` settings page and look for the right section, as shown below.
 
 ![Guidelines field in the attribute settings page](../img/guidelines-in-the-attribute-settings-page.png)
 
