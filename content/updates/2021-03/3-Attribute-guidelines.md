@@ -1,4 +1,5 @@
 ---
+pim_announcement_img: ./img/an-example-of-attribute-guidelines.png
 pim_announcement_alt_img: "An example of attribute guidelines"
 pim_announcement_audience:
 - EE
@@ -11,7 +12,7 @@ pim_announcement_audience:
 
 You can now have a short text displayed under each of your attributes in your product form. Use this feature to show guidelines to your teams or contributors so they better understand what is expected for an attribute, or simply guide them through the attribute prerequisites.
 
-![An example of attribute guidelines](../img/an-attribute-guidelines.png)
+![An example of attribute guidelines](../img/an-example-of-attribute-guidelines.png)
 
 To add attribute guidelines, go to your `Attributes` settings page and look for the right section, as shown below.
 

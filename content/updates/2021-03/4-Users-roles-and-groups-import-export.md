@@ -11,7 +11,7 @@ pim_announcement_audience:
 
 We introduced new job profiles to allow you to import and export your users, their roles, and their groups. All these jobs are available in CSV and XLSX. They can be very handy in case of a mass edition of your users.
 
-![A user import job](../img/TODO.png)
+![A user import job](../img/a-user-import-job.png)
 
 ::: more
 [What is a user role?](../articles/what-is-a-role.html)  
