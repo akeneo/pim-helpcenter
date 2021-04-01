@@ -1,4 +1,5 @@
 ---
+pim_announcement_img: ./img/event-logs-screen.png
 pim_announcement_alt_img: "Events API log screen"
 pim_announcement_audience:
 - CE
@@ -15,8 +16,6 @@ You can find this new screen in the `Event logs` menu of each connection. Note t
 ![Event logs screen](../img/event-logs-screen.png)
 
 To finish, you can also download these logs in `.txt` format.
-
-![Events API logs download button](../img/events-api-logs-download-button.png)
 
 ::: more
 [What is the Events API?](https://api.akeneo.com/events-documentation/introduction.html)  
