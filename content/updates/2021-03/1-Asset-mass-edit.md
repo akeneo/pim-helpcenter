@@ -7,7 +7,7 @@ pim_announcement_audience:
 # Mass edit your assets
 ::: meta-data type="New" features="Productivity" available="late march" in="EE" link-to-doc="../articles/TODO"
 
-If you need to edit several assets from the same family at once, it's now possible to do it in the PIM user interface. No doubt it will save you a tremendous amount of time!
+If you need to edit one or more attributes of several assets from the same family at once, it's now possible to do so within the asset family grid. Moreover, if some of your attributes have different values per locale, you can add the attribute several times and select the locale(s) to edit. No doubt it will save you a tremendous amount of time!
 
 ![Asset mass edit screen](../img/TODO.png)
 
