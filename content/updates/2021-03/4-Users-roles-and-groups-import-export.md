@@ -9,7 +9,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Productivity" available="late March" in="EE,GE" link-to-doc="../articles/manage-your-users-via-import-export.html"
 :::
 
-You now have at your disposal several new jobs that will allow you to import and export your users, their roles as well as their groups. These new jobs are very handy in case of mass edition of your users.
+We introduced new job profiles to allow you to import and export your users, their roles, and their groups. All these jobs are available in CSV and XLSX. They can be very handy in case of a mass edition of your users.
 
 ![A user import job](../img/TODO.png)
 

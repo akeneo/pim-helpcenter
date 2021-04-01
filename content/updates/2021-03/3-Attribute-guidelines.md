@@ -13,7 +13,7 @@ It is now possible to display a short explanation sentence for each attribute of
 
 ![An example of attribute guidelines](../img/an-attribute-guidelines.png)
 
-These new attribute guidelines can be set up in the `Attributes` settings page, like shown below.
+To add attribute guidelines, go to your `Attributes` settings page and look for the eponymous section, as shown below.
 
 ![Guidelines field in the attribute settings page](../img/guidelines-in-the-attribute-settings-page.png)
 
