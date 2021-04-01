@@ -114,7 +114,6 @@ Finally, you still have access to the `Download logs` button that allows you to 
 
 ![Download logs button](../img/connection-download-logs-button.png)
 
-
 ::: info
 Want to know more about each type of log? 
 Please, read our article [Debug and fix issues related to the Events API](https://api.akeneo.com/events-documentation/subscription.html#debugging-events) on the [api.akeneo.com](https://api.akeneo.com/) website. 
