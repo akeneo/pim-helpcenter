@@ -7,9 +7,10 @@ ee-only: right
 related: create-and-display-assets
 ---
 
-# Enrich an asset
-Once you have created your asset, you can enrich it in order to add some information.
-Nothing simpler: just go on an asset and add/change the values you want.  
+# Enrich your assets
+## Enrich a single asset
+Once you have created your asset, you can enrich it.
+It's pretty straightforward, you just have to go to an asset and add/change the values you want.  
 
 Let's take an example.
 
@@ -31,6 +32,31 @@ As for a product, you can define if you want a **different content according to 
 You can find a **locale and channel switcher** on each asset, meaning that if you need to translate values for example, you can do it simply switching from a locale to another.
 
 ![Assets Locale Switcher](../img/Assets_LocaleSwitcher.png)
+
+## Bulk edit multiple assets
+If you have the `Edit` permission on an asset family, you can bulk edit attributes from one or more assets from the same asset family.
+
+Let's imagine you need to add a tag to several assets from the same family, this tag will give information on the main color of the image, and this color is the same for all your selected assets. Instead of manually adding the tag for each of these assets, you can easily do it in one action for your selection of assets, thanks to a bulk edition. Here's how to do so:
+
+1. Check the box under each asset you want to bulk edit
+1. In the bottom bar, click on `Edit`
+1. In the bulk edit pop-in, click on `Add attributes` in the top-right menu
+![Asset attributes selection](../img/Assets_bulk-edit-add-attributes.png)
+1. Select the attributes you want to bulk edit
+![Asset attributes selection](../img/Assets_bulk-edit-attributes-selection.png)
+1. Fill in the values you want for each selected attribute
+1. Once you are done, click on `Next` in the top-right corner
+1. You can then review the changes that will be made. If you want to continue, click on `Confirm`
+
+::: warning
+Please note that it is possible to add the same attribute multiple times. For instance, if you want to edit an attribute that has a different value per channel and/or per locale, you have the possibility to do so by adding the attribute as many times as you want. However, you have to carefully select a different locale and/or channel for each of them, so that you will avoid setting different values for the same attribute with the same locale and/or channel.
+
+:::
+
+::: info
+The attributes configured as "read-only in the UI" and those used as target attributes for an asset transformation cannot be edited in bulk. Read our article to learn more about [transformations and target attributes](https://help.akeneo.com/pim/serenity/articles/assets-transformation.html).
+:::
+
 
 # Display the products linked to an asset
 You can see at a glance the products that are linked to an asset, directly in the asset edit form, in the `Linked products` section.
@@ -73,7 +99,6 @@ You also have the completeness indicator directly on the asset thumbnail in the 
 The completeness is **automatically calculated** as soon as we enrich a required attribute. It means that the bullet point will disappear as soon as the required attribute is filled, and same for the completeness percentage evolution.
 
 # Delete assets
-
 ## Delete an asset
 You can delete an asset or all the assets of an asset family.
  To delete an asset, click on the asset, then on the `...` button at the top right corner of the header, and `delete`.
