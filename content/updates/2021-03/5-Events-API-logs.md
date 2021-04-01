@@ -15,7 +15,7 @@ You can find this new screen in the `Event logs` menu of each connection. Note t
 
 ![Event logs screen](../img/event-logs-screen.png)
 
-To finish, you can also download these logs in `.txt` format.
+Finally, you can also download these logs in `.txt` format.
 
 ::: more
 [What is the Events API?](https://api.akeneo.com/events-documentation/introduction.html)  
