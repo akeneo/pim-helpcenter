@@ -11,7 +11,6 @@ If you need to edit several assets from the same family at once, it's now possib
 
 ![Asset mass edit screen](../img/TODO.png)
 
-This new mass edition feature is all the more powerful since you can choose several asset attributes to modify at once. Neat!
 
 ::: more
 [What is an asset?](../articles/what-about-assets.html)  
