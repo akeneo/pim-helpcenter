@@ -94,7 +94,7 @@ If you are not comfortable with Akeneo PIM permissions, check the following arti
 
 Now, everything is set-up, you probably want to be sure your event subscription is working well. 
 
-To do so, we added a new submenu, `Event logs`, where you have access to several log levels that will help you to understand why you did or didn't receive some events.
+To do so, we added a new submenu, `Event logs`, where you have access to several log levels that will help you to understand why you did or didn't receive some of the events.
 
 ![Event logs UI](../img/event-log-ui.gif)
 
