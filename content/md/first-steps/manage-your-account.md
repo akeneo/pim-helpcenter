@@ -92,9 +92,9 @@ This UI locale is used all over the PIM interface: menus, screens labels, messag
 You can choose on which time zone you want your PIM interface to be.
 
 Still in edition mode in your profile account:
-1.  Click on the `Interfaces` tab
-2.  Select the default language for your account (`Time zone` field)
-3.  Click on `Save` to save your changes
+1.  Click on `Interfaces`
+2.  Select the default timezone for your account (`Timezone` field)
+3.  Click on `Save`
 
 This time zone is used all over the PIM interface: Product Form meta data and `History` panel, product grid, [last operations widget](discover-the-dashboard.html#last-operations) of the dashboard, [process tracker](monitor-jobs.html#what-can-you-find-in-a-job-detail), [published products grid](how-to-manage-my-publications.html#view-the-published-products) (EE only).
 
