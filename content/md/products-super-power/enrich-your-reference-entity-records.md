@@ -195,9 +195,23 @@ You can delete a record or all the records of an entity.
 - Either directly in the records grid, by clicking on the *trash can* button on each record line.
 - Either in the details of the record, by clicking on the `...` button at the top right corner of the header then `delete`.
 
-## Delete all the records
-To delete all the records of an entity, click on the `...` button at the top right corner of the header's records grid then `delete all records`.
+## Delete a selection of records
+
+It is possible to delete your own selection of records.
+1. Check the box under each record you would like to delete
+1. In the bar at the bottom, click on `delete`
+1. In the confirmation popin, type in the name of the reference entity and click on `delete`
+
+:::warning
+Please note that if you change any filter afterward, this record selection will be reset.
+:::
 
 ::: tips
+In the bottom bar, checking the box lets you select all records or none in one click! This way, you are able to mass delete all the records very easily :wink:.
+:::
+
+![Records Mass Deletion](../img/ReferenceEntity_Mass-delete-records.png)
+
+::: warning
 To delete all the records of an entity, you **need to check that no record of this entity is linked to other entities or used in a product**. Otherwise you will not be able to delete it.
 :::
