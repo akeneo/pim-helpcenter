@@ -1,5 +1,19 @@
 [
   {
+    "title":"Asset mass edition 🖼️",
+    "areas": ["Productivity"],
+    "editions": ["EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-03.html#mass-edit-your-assets"
+  },
+  {
+    "title":"Attribute guidelines",
+    "areas": ["Governance"],
+    "editions": ["GE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-03.html#add-guidelines-to-your-attributes"
+  },
+  {
     "title":"Asset mass deletion 🖼️",
     "areas": ["Productivity"],
     "editions": ["EE"],
@@ -7,7 +21,28 @@
     "link": "/pim/serenity/updates/2021-02.html#mass-delete-your-assets"
   },
   {
-    "title":"Spell-check dictionaries management",
+    "title":"User duplication 👤",
+    "areas": ["Productivity"],
+    "editions": ["GE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-03.html#duplicate-a-user"
+  },
+  {
+    "title":"User import and export in Excel or CSV 👤",
+    "areas": ["Productivity"],
+    "editions": ["GE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-03.html#import-and-export-your-users-roles-and-groups"
+  },
+  {
+    "title":"Events API logs",
+    "areas": ["Productivity", "Connectivity"],
+    "editions": ["GE","EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-03.html#browse-your-events-api-logs"
+  },
+  {
+    "title":"Spell-check dictionaries management 📗",
     "areas": ["Data quality","Governance"],
     "editions": ["EE"],
     "since-version": "Serenity",
