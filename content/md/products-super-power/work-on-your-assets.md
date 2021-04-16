@@ -116,7 +116,7 @@ Please note that if you change any filter afterward, this asset selection will b
 :::
 
 ::: tips
-In the bottom bar, checking the box lets you select all assets or none in one click! This way, you are able to mass delete all the assets very easily :wink:.
+In the bottom bar, checking the box allows you to select all assets or none in one click! This way, you are able to mass delete all the assets very easily :wink:.
 :::
 
 ![Assets Mass Deletion](../img/Assets_Mass-delete-assets.png)

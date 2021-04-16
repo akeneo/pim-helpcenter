@@ -207,7 +207,7 @@ Please note that if you change any filter afterward, this record selection will 
 :::
 
 ::: tips
-In the bottom bar, checking the box lets you select all records or none in one click! This way, you are able to mass delete all the records very easily :wink:.
+In the bottom bar, checking the box allows you to select all records or none in one click! This way, you are able to mass delete all the records very easily :wink:.
 :::
 
 ![Records Mass Deletion](../img/ReferenceEntity_Mass-delete-records.png)
