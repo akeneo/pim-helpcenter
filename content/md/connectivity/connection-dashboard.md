@@ -9,9 +9,9 @@ related: what-is-a-connection, how-to-connect-my-pim, manage-your-connections
 
 # Overview
 
-In the PIM, there is a dashboard, called the `Connection dashboard`, to help you follow your [connections](what-is-a-connection.html) activity. You can access it by clicking on the `Activity` menu, then on the `Connection dashboard` submenu. And here you are! :tada:
+In the PIM, there is a dashboard, called `Data flows`, to help you follow your [connections](what-is-a-connection.html) activity. You can access it by clicking on the `Connect` menu, then on the `Data flows` submenu. And here you are! :tada:
 
-![Connection dashboard](../img/connection-dashboard.png)
+![Data flows dashboard](../img/connection-dashboard.png)
 
 ::: info
 This is still the very first version of this dashboard. In the future, it will show you many more indicators. Stay tuned! 🙂  
@@ -60,11 +60,11 @@ Julia could solve **business errors** from the PIM or in the connected applicati
 For example, a `The title attribute must not contain more than 250 characters. The submitted value is too long.` error is considered as a business error because Julia could solve it by changing the value of the related attribute. But a `Property does not exist` error is regarded as a technical error because it can't be solved without modifying the connector.
 :::
 
-![Connection dashboard - error monitoring](../img/error-monitoring-connection-dashboard.png)
+![Data flows dashboard - error monitoring](../img/error-monitoring-connection-dashboard.png)
 
 ## In the connection Monitoring page
 
-You can access the `Monitoring` page by clicking directly on a connection card in the `Connection dashboard` or in the `System` menu, then `Connections`, and on your connection card. 
+You can access the `Monitoring` page by clicking directly on a connection card in the `Data flows` dashboard or in the `Connect` menu, then `Connection settings`, and on your connection card. 
 
 This page displays information about **the last 100 business errors**. 
 

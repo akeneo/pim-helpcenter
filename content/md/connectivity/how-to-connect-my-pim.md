@@ -52,7 +52,7 @@ That's the easiest part. When you created your connection, the PIM provided you 
 
 And... that's it! :)
 
-You can now enjoy your connection. By the way, you will surely need to monitor what is happening on this data flow. There is a feature for that. It is called `Connection dashboard`. Eager to know more? [Click here!](connection-dashboard.html)
+You can now enjoy your connection. By the way, you will surely need to monitor what is happening on this data flow. There is a feature for that. It is called `Data flows`. Eager to know more? [Click here!](connection-dashboard.html)
 
 You still have questions on how to properly connect the PIM to third-parties? Good news, we got you covered! There is a ["How to connect the PIM" guide](https://api.akeneo.com/getting-started/connect-the-pim-4x/welcome.html), on our API website. Don't hesitate to have a look at it! 
 
@@ -64,7 +64,7 @@ Here is why.
 
 1. The API is the most **stable** way to create connectors. It means that API-based connectors don't need to be migrated whenever your PIM is updated to a newer version. Which is a big plus, when you know that the cost of a migration project is usually quite high.
 2. We worked a lot to improve the **performances** of the API. For example, you will experience a better speed when you export product through the API than if you use our basic CSV export stack.
-3. This is the **only way to connect the PIM for our Serenity customers**. Indeed, the Serinity offer only provides a SaaS platform, on which you cannot customize anything. As a consequence, the API is your one and only way to connect the PIM. You can use it to create entire workflows around your PIM, that will create products or request them, depending on your needs.
+3. This is the **only way to connect the PIM for our Serenity customers**. Indeed, the Serenity offer only provides a SaaS platform, on which you cannot customize anything. As a consequence, the API is your one and only way to connect the PIM. You can use it to create entire workflows around your PIM, that will create products or request them, depending on your needs.
 
 You can also find out more reasons to connect the PIM via the API, [directly on our dear API website](https://api.akeneo.com/documentation/introduction.html#why-should-you-use-our-api)!
 

@@ -15,7 +15,7 @@ Wondering what `Connections` are? Let's discover what this concept is together [
 
 In the PIM, you can easily see all its connections to third-parties, such as ERPs, DAMs, ecommerce platforms, syndication tools,...
 
-To do so, click on the `System` menu and then, on the `Connections` submenu.  
+To do so, click on the `Connect` menu and then, on the `Connection settings` submenu.  
 The following screen should be displayed.
 
 ![Connections overview](../img/connections-overview.png)
@@ -39,8 +39,8 @@ You can create up to 50 connections. :rocket:
 :::
 
 Here are the simple steps to create a connection:
-1. Click on the `System` menu.
-2. Click on the `Connections` submenu.
+1. Click on the `Connect` menu.
+2. Click on the `Connection settings` submenu.
 3. Click on the `Create` button.
 4. In the `Label` field, enter the name of your connector. For example, if you wish to connect your PIM to Magento, write `Magento` or `Magento connector`.  
 _Sidenote: the code of the connection is automatically generated based on the label. You can keep it as is or change it, it's up to you!_
@@ -60,7 +60,7 @@ When you create or update a connection, you have to define a "flow type". But wh
 
 The flow type is a central concept in the connection notion. It allows you to characterize the data flows that will interact with your PIM. More precisely it allows to indicate the **direction** of a given flow.
 
-It will determine the way your connection flows are monitored in the [connection dashboard](connection-dashboard.html) feature.
+It will determine the way your connection flows are monitored in the [data flows dashboard](connection-dashboard.html) feature.
 
 This flow type has three available options you'll have to choose from. The next sections describe each of them. It will help make your decision.
 
@@ -72,7 +72,7 @@ Choose this option for you connection whenever it represents a data flow enterin
 With this flow type, you can connect ERP, DAM, MDM,...
 :::
 
-If you choose this option, the connection dashboard feature will focus on the data that is pushed inside the PIM via this connection.
+If you choose this option, the Data flows dashboard feature will focus on the data that is pushed inside the PIM via this connection.
 
 ## The `Destination connection` flow type
 
@@ -82,7 +82,7 @@ Choose this option for you connection whenever it represents a data flow that is
 With this flow type, you can connect e-commerce platforms, publishing and syndication tools...
 :::
 
-If you choose this option, the connection dashboard feature will focus on the data that is pushed outside the PIM via this connection.
+If you choose this option, the Data flows dashboard feature will focus on the data that is pushed outside the PIM via this connection.
 
 ## The `Other` flow type
 
@@ -99,8 +99,8 @@ That being said, even in this case, we advise you to choose between the two opti
 
 # Enable the tracking
 
-For each connection, you can choose whether you want to track it in the [connection dashboard](connection-dashboard.html).  
-To do so, select the `Track in the connection dashboard` checkbox, in the connection setting screen of the connection you want to track.
+For each connection, you can choose whether you want to track it in the [Data flows dashboard](connection-dashboard.html).  
+To do so, select the `Track this connection in the dashboard` checkbox, in the connection setting screen of the connection you want to track.
 
 ![Track checkbox](../img/track-checkbox.png)
 
@@ -125,7 +125,7 @@ These credentials consist of 4 different strings:
 - the connection `username`,
 - the connection `password`.
 
-To access the client id, the secret and the username, go to `System` / `Connections`, click on the connection for which you want to see the credentials. They are displayed on the right side of the screen in the `Credentials` column.
+To access the client id, the secret and the username, go to `Connect` / `Connection settings`, click on the connection for which you want to see the credentials. They are displayed on the right side of the screen in the `Credentials` column.
 
 ![Credentials in the connection form](../img/credentials-in-connection-form.png)
 
@@ -163,8 +163,8 @@ Along with the secret revocation, the PIM will automatically regenerate a new se
 :::
 
 Here are the simple steps to go through to revoke your secret:
-1. Click on the `System` menu.
-2. Click on the `Connections` submenu.
+1. Click on the `Connect` menu.
+2. Click on the `Connection settings` submenu.
 3. Click on the connection for which you want to revoke the secret.
 4. In the `Credentials` section, on the right side of the `Secret` line, click on the regenerate icon button.
 ![Revoke/Regenerate icon button](../img/regenerate-icon-button.png)
@@ -187,8 +187,8 @@ Don't really know how the authentication via API works? [Don't worry, there is d
 The PIM shows you the connection password only once, at the connection creation. In case you may have forgotten it, you can regenerate a new one.  
 
 Here's how:
-1. Click on the `System` menu.
-2. Click on the `Connections` submenu.
+1. Click on the `Connect` menu.
+2. Click on the `Connection settings` submenu.
 3. Click on the connection for which you want to revoke the password.
 4. In the `Credentials` section, on the right side of the `Password` line, click on the regenerate icon button.
 ![Regenerate password icon button](../img/regenerate-password-icon-button.png)
@@ -233,7 +233,9 @@ To create a user role and link it to your connection:
 5. Click on the `Web API permissions` tab and select `Overall Web API access`.
 6. You can also select other accesses in the list below depending on what you want your connection to be able to achieve.
 7. Save your configuration by clicking on the `Save` button.
-2. Click on the `Connections` submenu.
+
+1. Click on the `Connect` menu.
+2. Click on the `Connection settings` submenu.
 3. Click on the connection for which you want to set the permissions.
 4. On the right side of the screen, there is a `Permissions` section. Select the user role you've just created in the `Role` dropdown.
 ![Select the connection role](../img/select-the-connection-role.png)
@@ -254,8 +256,10 @@ To create a user group and link it to your connection:
 2. Click on the `User groups` submenu.
 3. Click on the `Create group` button.
 4. In the form that appears, give a name to your user group, `My Magento user group` for example.
-7. Save by clicking on the `Save` button.
-2. Click on the `Connections` submenu.
+5. Save by clicking on the `Save` button.
+
+1. Click on the `Connect` menu.
+2. Click on the `Connection settings` submenu.
 3. Click on the connection for which you want to set the permissions.
 4. On the right side of the screen, there is a `Permissions` section. Select the user group you've just created in the `Group` dropdown.
 ![Select the connection group](../img/select-the-connection-group.png)
@@ -270,8 +274,8 @@ To be able to view the catalog, you will need to give permissions to your connec
 
 If you created a connection you don't want to use anymore, you can delete it.
 
-1. Click on the `System` menu.
-2. Click on the `Connections` submenu.
+1. Click on the `Connect` menu.
+2. Click on the `Connection settings` submenu.
 3. Click on the connection you want to delete.
 4. Click on the `...` in the top right corner of your screen.
 5. Click on the `Delete` option.
@@ -279,5 +283,5 @@ If you created a connection you don't want to use anymore, you can delete it.
 6. A popin asks you for confirmation. Click on the `Delete` button.
 
 As a result, your connection will be deleted. It means that: 
-- you won't be able anymore to follow its data flows inside the [connection dashboard](connection-dashboard.html),
+- you won't be able anymore to follow its data flows inside the [Data flows dashboard](connection-dashboard.html),
 - the credentials that were generated with the connection will be revoked. The API authentication made with these credentials will be revoked as well. It means that all the API calls using a token that was generated based on these credentials will now send 401 errors. If this does not ring a bell for you, you might want to learn more about [authentication in the API right here](https://api.akeneo.com/documentation/authentication.html). :wink:
