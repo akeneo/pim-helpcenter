@@ -40,8 +40,6 @@ To quickly find products with proposals, a search bar on product label and produ
 
 The proposal grid also includes [filter management](products-grid.html#use-filters) to search on new attributes values. By default, the PIM displays the following filters: `family`, `author`, `source`, `proposed at` and `identifier`.
 
-![image](../img/Products_Proposals_Filter.png)
-
 ::: info
 If you are missing an attribute in the Filters menu, check if it is well activated as [`usable in grid`](manage-your-attributes.html#edit-attribute-properties).
 :::
