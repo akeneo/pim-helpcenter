@@ -1,4 +1,9 @@
 {
+  "2021-04": {
+    "title": "April 2021 Serenity updates",
+    "description": "April 2021 Serenity updates",
+    "img": "illus-april-21.svg"
+  },
   "2021-03": {
     "title": "March 2021 Serenity updates",
     "description": "This month, we’re glad to share with you lots of new features and enhancements that will definitely delight you! Less manual tasks thanks to a new mass action for assets and improvements on user management, more guidance on enrichement thanks to attribute guidelines, and an easier debugging for your Events API-based connections.",
