@@ -203,7 +203,7 @@ To mass review the products’ proposals:
 
 The action is performed as a back-end task. The report page is displayed so you can follow the execution of the action.
 
-![image](../img/Dashboard_MassEditProposals2.png)
+![image](../img/Proposal_MassEdit.png)
 
 ::: warning
 For a proposal having the `Can be reviewed partially` status, you can only review the changes you have edit rights on, the other changes are skipped during the mass review.  
