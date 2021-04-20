@@ -1,0 +1,9 @@
+{
+  "reference-entities": {
+    "title": "Reference entities",
+    "description": "Reference entities enable you to create and enrich entities related to products in the PIM. The new feature lets your team manage commonly used information related to products -- colors, sizes, ingredients, care instructions, etc. -- as well as non-product “entities” such as brands, designers, looks, rooms, cities, countries, and other descriptive entities.",
+    "img": "illus-reference-entities.svg",
+    "featureType": "New feature",
+    "eeOnly": true
+  }
+}

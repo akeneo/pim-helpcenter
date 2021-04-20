@@ -1,0 +1,54 @@
+{{!-- The index of the v3 updates --}}
+{{#> layout }}
+{{> navbar-with-search }}
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <img class="hidden-xs img-responsive center-block" src="../img/illus-gift.svg"></img>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-9">
+                    <h1 class="emphasis hidden-xs" style="margin-top: 30px;">What's new in Akeneo PIM 3.0, 3.1 and 3.2?</h1>
+                    <h1 class="emphasis text-center visible-xs">What's new in Akeneo PIM 3.0, 3.1 and 3.2?</h1>
+                    <p class="hidden-xs"><em>Akeneo PIM 3.0, 3.1 and 3.2 deliver additional features and enhancements requested by our beloved customers and partners. The primary development focus of these new versions covers 4 core topics: managing reference entities, easier connectivity, and workflow and performance improvements. We are also introducing a new enterprise feature named Franklin Insights.</em></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/v3">PIM help center</a> / What's new in Akeneo PIM 3.0, 3.1 and 3.2?</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>Browse the 3.x new features and improvements</h2>
+                <div class="row">
+                    {{#each updates as |update id|}}
+                        <div class="col-xs-12 col-sm-4">
+                            {{#if eeOnly}}
+                                <div class="persona persona-updates persona-updates-ee-only">
+                            {{else}}
+                                <div class="persona persona-updates persona-updates-ce-and-ee">
+                            {{/if}}
+                                <a href="{{id}}.html">
+                                    <h3 class="text-center">{{title}}</h3>
+                                    <div class="row">
+                                        <div class="col-xs-offset-1 col-xs-10">
+                                            <img class="img-responsive center-block" src="../img/{{img}}"/>
+                                            <button class="btn btn-default btn-block">Read more</button>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    {{/each}}
+                    <div class="col-xs-12">
+                        <p>For questions about upgrades, please contact your Akeneo Customer Success Manager or Akeneo Partner Manager.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/layout}}

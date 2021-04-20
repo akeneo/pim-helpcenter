@@ -10,6 +10,7 @@
   "devDependencies": {
     "del": "3.0.0",
     "gulp": "3.9.1",
+    "gulp-concat": "2.6.1",
     "gulp-flatmap": "1.0.0",
     "gulp-front-matter": "1.3.0",
     "gulp-handlebars-html": "0.0.2",
@@ -27,11 +28,15 @@
     "gulp-webserver": "0.9.1",
     "handlebars": "4.0.14",
     "highlightjs": "9.10.0",
+    "jest": "^26.1.0",
     "markdown-it": "8.2.2",
     "markdown-it-container": "2.0.0",
     "markdown-it-emoji": "1.4.0",
     "markdown-it-toc-and-anchor": "4.1.1",
     "merge-stream": "1.0.1",
     "require-dir": "0.3.2"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
