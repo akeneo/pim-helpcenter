@@ -16,7 +16,8 @@ Among other improvements, you can notice that:
 ![Reference entity records mass delete screen](../img/new-proposal-screen.png)
 
 ::: more
-[What is a reference entity?](../articles/what-about-reference-entities.html)  
-[How to manage your reference entities?](../articles/manage-reference-entities.html)  
-[How to enrich your reference entity records?](../articles/enrich-your-reference-entity-records.html)
+[What is a proposal?](../articles/proposals-workflow.html)  
+[How to review your proposals?](../articles/review-products-proposals.html)  
+[Which catalog rights do I need to become a proposal reviewer?](../articles/access-rights-on-products.html#the-owner-right)  
+[Which catalog rights do I need to create proposals?](../articles/access-rights-on-products.html#the-edition-right-2)
 :::
