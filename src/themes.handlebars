@@ -39,6 +39,7 @@
             <div class="col-xs-12 col-sm-offset-1 col-sm-8">
                 {{#each themes as |theme themeId|}}
                     <div class="theme">
+                        <a class="anchor" id="{{{themeId}}}"></a>
                         <div class="media hidden-xs hidden-sm">
                             {{#if theme.img}}
                             <div class="media-left">
@@ -46,14 +47,12 @@
                             </div>
                             {{/if}}
                             <div class="media-body">
-                                <a class="anchor" id="{{{themeId}}}"></a>
                                 <h2 class="media-heading"><a class="markdownIt-Anchor" href="#{{{themeId}}}">#</a>{{theme.title}}</h2>
                                 <p>{{theme.description}}</p>
                             </div>
                         </div>
                         <div class="visible-sm visible-xs">
                             <img src="./img/{{theme.img}}" width="150"></img>
-                            <a class="anchor" id="{{{themeId}}}"></a>
                             <h2 class="media-heading"><a class="markdownIt-Anchor" href="#{{{themeId}}}">#</a>{{theme.title}}</h2>
                             <p>{{theme.description}}</p>
                         </div>
