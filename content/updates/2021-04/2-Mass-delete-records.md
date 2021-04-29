@@ -8,7 +8,7 @@ pim_announcement_audience:
 # Mass delete your reference entity records
 ::: meta-data type="New" features="Productivity" available="mid-April" in="EE" link-to-doc="../articles/enrich-your-reference-entity-records.html#delete-a-selection-of-records"
 
-Ever needed to do some clean up in the records of your reference entities? You can now do it very quickly with just a few clicks directly from within your reference entity record grid. Indeed, you can now delete several records from the same reference entity at once. No doubt it will save you a tremendous amount of time!
+Have you ever needed to clean up your reference entity records? If yes, you can now do this very quickly within just a few clicks directly from your reference entity record grid. Indeed, you can now delete several records from the same reference entity at the same time. No doubt this will save you a lot of time!
 
 ![Reference entity records mass delete screen](../img/reference-entity-records-mass-delete.png)
 
