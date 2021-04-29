@@ -38,7 +38,7 @@ A proposal can gather several changes on a product.
 
 To quickly find products with proposals, a search bar on product label and product identifier is available. Its behaviour is the same as in the [product grid](products-grid.html#search-by-label-and-identifier.html).
 
-The proposal grid also includes [filter management](products-grid.html#use-filters) to search on new attributes values. By default, the PIM displays the following filters: `family`, `author`, `source`, `proposed at` and `identifier`.
+The proposal grid also includes [filter management](products-grid.html#use-filters) to search on new attribute values. By default, the PIM displays the following filters: `family`, `author`, `source`, `proposed at`, and `identifier`.
 
 ::: info
 If you are missing an attribute in the Filters menu, check if it is well activated as [`usable in grid`](manage-your-attributes.html#edit-attribute-properties).
@@ -80,13 +80,13 @@ A proposal can have several statuses, according to your rights on attribute grou
 |:-------|:--------|:------------------|
 | `In progress`               | The contributor is still working on the proposal, it is not yet completed. Hence, it is not possible to review it (it is not displayed in the proposals grid) | You can delete the draft in the product form, in the `Proposals` menu entry         |
 | `Waiting for approval`      | The proposal is complete and has been sent by the contributor. You have all the permissions to review the proposal changes | You can approve or reject all the proposal   |
-| `Can be partially reviewed` | The proposal is complete and has been sent by the contributor. You have partial permissions to review the proposal changes | You can approve or reject only the changes on values on which you have an edit rights |
+| `Can be partially reviewed` | The proposal is complete and has been submitted by the contributor. You have partial permissions to review the proposal changes | You can approve or reject only the changes on values on which you have edit rights |
 | `Can’t be reviewed`  | You have no permission to review the proposal changes | No action is available on the proposal                            |
 
 ![image](../img/Proposal_Status.png)
 
 ::: info
-If you have only view rights on some changes, the changes are displayed but you can do any action for this change.
+If you have only view rights on some changes, changes are displayed but you cannot do any action on these changes.
 :::
 
 # Review actions on proposals
@@ -100,7 +100,7 @@ Approving a proposal will validate the proposed values. When a proposal is valid
 
 To approve a proposal:
 1.  Go to the products’ proposals list, in the `Activity` menu for example
-1.  Drag your mouse over a proposal having the statuses `Waiting for approval` or `Can be partially reviewed`. The proposal will be greyed out and the `Approve all` button will appear
+1.  Drag your mouse over a proposal having the status `Waiting for approval` or `Can be partially reviewed`. The proposal will be greyed out and the `Approve all` button will appear
   ![image](../img/Proposal_ApproveAll.png)
 1.  Click on the `Approve all` button
 1.  A window appears displaying a comment text box, you can leave a note for the contributor
@@ -136,7 +136,7 @@ You can approve each change of the proposal one by one, according to your permis
 
 To approve a change:
 1.  Go to the products’ proposals list, in the `Activity` menu for example
-1.  For the proposals with the `Waiting for approval` or `can be partially reviewed` status, if you have edit rights on the changes on values, a checkmark green button is displayed
+1.  For the proposals with the `Waiting for approval` or `can be partially reviewed` status, if you have edit rights on values changed, a checkmark green button is displayed
     ![image](../img/Proposal_ApproveChange.png)
 1.  Click on the button to approve the change
 1.  You can add an optional comment for the contributor about your approval
