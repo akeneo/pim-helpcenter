@@ -8,7 +8,7 @@ pim_announcement_audience:
 # Review your proposals more efficiently
 ::: meta-data type="Improvement" features="Productivity, Collaboration" available="late April" in="EE" link-to-doc="../articles/review-products-proposals.html"
 
-We're glad to introduce the revamp of our proposals screen. It's now even more practical and efficient for those of you who, depending on their catalog rights, need to review the enrichment work of teammates. 
+We are happy to introduce our new screen to manage proposals. This screen will make it easier and faster for those of you who, depending on your catalog rights, need to review your teammate or external contributor suggestions. Indeed, it has been designed to be more simple and straightforward to use.
 
 Among other improvements, you can notice that:
 - You now have, directly from the proposal, a preview of your images, PDF files, YouTube links, and reference entity records. Being able to directly see and preview changes will surely help you save even more time!
