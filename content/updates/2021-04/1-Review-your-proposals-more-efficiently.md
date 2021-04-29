@@ -11,10 +11,10 @@ pim_announcement_audience:
 We're glad to introduce the revamp of our proposals screen. It's now even more practical and efficient for those of you who, depending on their catalog rights, need to review the enrichment work of teammates. 
 
 Among other improvements, you can notice that:
-- You now have, directly from within the proposal, a preview of your image assets, your PDFs, your YouTube links, and your reference entity records. A great time-saver when reviewing them!
-- Proposal layout is also now rearranged. Old and suggested new values are now easier to compare, making the whole process of values review more convenient.
+- You now have, directly from the proposal, a preview of your images, PDF files, YouTube links, and reference entity records. Being able to directly see and preview changes will surely help you save even more time!
+- The layout of the proposal has also been reorganized. Old and newly suggested values are now easier to compare, making the whole review process more convenient.
 
-![Reference entity records mass delete screen](../img/revamped-proposal-screen.png)
+![New proposal screen](../img/revamped-proposal-screen.png)
 
 ::: more
 [What is a proposal?](../articles/proposals-workflow.html)  
