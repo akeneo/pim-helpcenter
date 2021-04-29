@@ -38,9 +38,7 @@ A proposal can gather several changes on a product.
 
 To quickly find products with proposals, a search bar on product label and product identifier is available. Its behaviour is the same as in the [product grid](products-grid.html#search-by-label-and-identifier.html).
 
-The proposal grid also includes [filter management](products-grid.html#use-filters) to search on new attributes values. By default, the PIM displays the following filters: family, author, proposed date and SKU.
-
-![image](../img/Products_Proposals_Filter.png)
+The proposal grid also includes [filter management](products-grid.html#use-filters) to search on new attribute values. By default, the PIM displays the following filters: `family`, `author`, `source`, `proposed at`, and `identifier`.
 
 ::: info
 If you are missing an attribute in the Filters menu, check if it is well activated as [`usable in grid`](manage-your-attributes.html#edit-attribute-properties).
@@ -59,7 +57,7 @@ The two first actions and the last action take you straight to all product propo
 ![image](../img/Products_Proposals.png)
 
 ::: tips
-If you didn’t receive a notification when the contributors send to approve a proposal, check your [notifications preferences](manage-your-account.html#your-notifications-preferences-ee-only) in your user account. ;)
+If you haven't received a notification following a contributor's proposal, check your [notification preferences](manage-your-account.html#your-notifications-preferences-ee-only) in your user account. ;)
 :::
 
 The proposals have the following properties:
@@ -82,13 +80,13 @@ A proposal can have several statuses, according to your rights on attribute grou
 |:-------|:--------|:------------------|
 | `In progress`               | The contributor is still working on the proposal, it is not yet completed. Hence, it is not possible to review it (it is not displayed in the proposals grid) | You can delete the draft in the product form, in the `Proposals` menu entry         |
 | `Waiting for approval`      | The proposal is complete and has been sent by the contributor. You have all the permissions to review the proposal changes | You can approve or reject all the proposal   |
-| `Can be partially reviewed` | The proposal is complete and has been sent by the contributor. You have partial permissions to review the proposal changes | You can approve or reject only the changes on values on which you have an edit rights |
+| `Can be partially reviewed` | The proposal is complete and has been submitted by the contributor. You have partial permissions to review the proposal changes | You can approve or reject only the changes on values on which you have edit rights |
 | `Can’t be reviewed`  | You have no permission to review the proposal changes | No action is available on the proposal                            |
 
-![image](../img/Dashboard_ProposalsStatus.png)
+![image](../img/Proposal_Status.png)
 
 ::: info
-If you have only view rights on some changes, the changes are displayed but you can do any action for this change.
+If you have only view rights on some changes, changes are displayed but you cannot do any action on these changes.
 :::
 
 # Review actions on proposals
@@ -102,8 +100,8 @@ Approving a proposal will validate the proposed values. When a proposal is valid
 
 To approve a proposal:
 1.  Go to the products’ proposals list, in the `Activity` menu for example
-1.  Drag your mouse over a proposal having the statuses `Waiting for approval` or `Can be partially reviewed`. The proposal will be greyed out and the `Approve all` button will appear
-  ![image](../img/Dashboard_ProposalsAccepted.png)
+1.  Drag your mouse over a proposal having the status `Waiting for approval` or `Can be partially reviewed`. The proposal will be greyed out and the `Approve all` button will appear
+  ![image](../img/Proposal_ApproveAll.png)
 1.  Click on the `Approve all` button
 1.  A window appears displaying a comment text box, you can leave a note for the contributor
 1.  Click on `Send` to validate the proposal (with or without a comment). The popin window is closed, a green flash message appears on your screen and a notification is sent to the contributor.
@@ -123,7 +121,7 @@ Rejecting a proposal will refuse the suggested values (with edit rights) and it 
 To reject a proposal:
 1.  Go to the products’ proposals list, in the `Activity` menu for example
 1.  Drag your mouse over the proposal having the statuses `Waiting for approval` or `Can be partially reviewed`. The proposal will be greyed out and the `Reject all` button will be displayed
-  ![image](../img/Dashboard_ProposalsRejected.png)
+  ![image](../img/Proposal_RejectAll.png)
 1.  Click on the `Reject all` button
 1.  A window appears displaying a comment text box, you can leave a note for the contributor
 1.  Click on `Send` to reject the proposal (with or without a comment). The popin window is closed, a green flash message appears on your screen and a notification is sent to the contributor.
@@ -138,8 +136,8 @@ You can approve each change of the proposal one by one, according to your permis
 
 To approve a change:
 1.  Go to the products’ proposals list, in the `Activity` menu for example
-1.  For the proposals with the `Waiting for approval` or `can be partially reviewed` status, if you have edit rights on the changes on values, a checkmark green button is displayed
-    ![image](../img/Dashboard_ProposalsAccepted2.png)
+1.  For the proposals with the `Waiting for approval` or `can be partially reviewed` status, if you have edit rights on values changed, a checkmark green button is displayed
+    ![image](../img/Proposal_ApproveChange.png)
 1.  Click on the button to approve the change
 1.  You can add an optional comment for the contributor about your approval
 1.  Click on `Send` to approve the change. A notification is sent to the contributor
@@ -159,7 +157,7 @@ Your can reject each change of a proposal one by one, according to your permissi
 To reject a change:
 1.  Go to the products’ proposals list, in the `Activity` menu for example
 1.  For the proposals with the status `waiting for approval` or `can be partially reviewed`,  if you have edit rights on the changes on values, a cross red button is displayed
-    ![image](../img/Dashboard_ProposalsRejected2.png)
+    ![image](../img/Proposal_Reject2.png)
 1.  Click on the button to reject the change
 1.  You can add an optional comment for the contributor about your rejection
 1.  Click on `Send` to reject the proposal. A notification is sent to the contributor
@@ -179,7 +177,7 @@ Deleting a proposal also deletes all suggested new values: the contributor will 
 To delete a proposal:
 1.  Open the product and click on the `Proposals` menu entry
 1.  When mousing over the proposal’s line with the `In progress` status, the `Remove` button will be displayed
-    ![image](../img/Products_ProposalsInProgressRemove.png)
+    ![image](../img/Proposal_InProgressRemove.png)
 1.  Click on the `Remove` button
 1.  You can add an optional comment for the contributor about your deletion
 1.  Click on `Send` to delete the proposal. A notification is sent to the contributor
@@ -197,13 +195,12 @@ When you have a lot of proposals to review, you can see them all in the proposal
 To mass review the products’ proposals:
 1.  Tick the proposals you want to approve or reject in the proposals grid
 1.  Click on the `Approve all selected` or `Reject all selected` button in the toolbar that is displayed at the bottom of the grid
-  ![image](../img/Dashboard_MassEditProposals.png)
 1.  Add an optional comment for the contributor
 1.  Click on `Send` to approve/reject the proposals. A notification is sent to the contributor
 
 The action is performed as a back-end task. The report page is displayed so you can follow the execution of the action.
 
-![image](../img/Dashboard_MassEditProposals2.png)
+![image](../img/Proposal_MassEdit.png)
 
 ::: warning
 For a proposal having the `Can be reviewed partially` status, you can only review the changes you have edit rights on, the other changes are skipped during the mass review.  
