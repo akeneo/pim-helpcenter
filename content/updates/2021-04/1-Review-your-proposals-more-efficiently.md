@@ -11,7 +11,7 @@ pim_announcement_audience:
 We are happy to introduce our new screen to manage proposals. This screen will make it easier and faster for those of you who, depending on your catalog rights, need to review your teammate or external contributor suggestions. Indeed, it has been designed to be more simple and straightforward to use.
 
 Among other improvements, you can notice that:
-- You now have, directly from the proposal, a preview of your images, PDF files, YouTube links, and reference entity records. Being able to directly see and preview changes will surely help you save even more time!
+- You now have, directly from the proposal, a preview of your images, PDF files, YouTube/Vimeo links, and reference entity records. Being able to directly see and preview changes will surely help you save even more time!
 - The layout of the proposal has also been reorganized. Current and newly suggested values are now easier to compare, making the whole review process more practical.
 
 ![New proposal screen](../img/revamped-proposal-screen.png)
