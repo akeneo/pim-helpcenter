@@ -57,7 +57,7 @@ The two first actions and the last action take you straight to all product propo
 ![image](../img/Products_Proposals.png)
 
 ::: tips
-If you didn’t receive a notification when the contributors send to approve a proposal, check your [notifications preferences](manage-your-account.html#your-notifications-preferences-ee-only) in your user account. ;)
+If you didn't receive a notification when the contributors sent to approve a proposal, check your [notifications preferences](manage-your-account.html#your-notifications-preferences-ee-only) in your user account. ;)
 :::
 
 The proposals have the following properties:
