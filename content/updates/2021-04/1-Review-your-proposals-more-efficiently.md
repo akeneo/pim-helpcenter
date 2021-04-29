@@ -12,7 +12,7 @@ We are happy to introduce our new screen to manage proposals. This screen will m
 
 Among other improvements, you can notice that:
 - You now have, directly from the proposal, a preview of your images, PDF files, YouTube links, and reference entity records. Being able to directly see and preview changes will surely help you save even more time!
-- The layout of the proposal has also been reorganized. Old and newly suggested values are now easier to compare, making the whole review process more convenient.
+- The layout of the proposal has also been reorganized. Current and newly suggested values are now easier to compare, making the whole review process more practical.
 
 ![New proposal screen](../img/revamped-proposal-screen.png)
 
