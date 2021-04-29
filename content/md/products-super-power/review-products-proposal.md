@@ -195,7 +195,6 @@ When you have a lot of proposals to review, you can see them all in the proposal
 To mass review the products’ proposals:
 1.  Tick the proposals you want to approve or reject in the proposals grid
 1.  Click on the `Approve all selected` or `Reject all selected` button in the toolbar that is displayed at the bottom of the grid
-  ![image](../img/Dashboard_MassEditProposals.png)
 1.  Add an optional comment for the contributor
 1.  Click on `Send` to approve/reject the proposals. A notification is sent to the contributor
 
