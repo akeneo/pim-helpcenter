@@ -15,7 +15,7 @@ Wondering what `Connections` are? Let's discover what this concept is together [
 
 From Akeneo PIM, you can easily see all the connections to third parties, such as ERPs, DAMs, e-commerce platforms, syndication tools,...
 
-To do so, click on the `Connect` menu and then, on the `Connection settings` submenu.  
+To do so, click on `Connect`, then on `Connection settings`.  
 The following screen should be displayed.
 
 ![Connections overview](../img/connections-overview.png)
@@ -168,7 +168,7 @@ Here are the simple steps to go through to revoke your secret:
 3. Click on the connection for which you want to revoke the secret.
 4. In the `Credentials` section, on the right side of the `Secret` line, click on the regenerate icon.
 ![Revoke/Regenerate icon button](../img/regenerate-icon-button.png)
-5. A popin asks you for confirmation. Click on the `Regenerate` button.
+5. A popin asks you for confirmation. Click on `Regenerate`.
  
 The current secret will be revoked. It means that no one will be able to use it anymore to authenticate their API calls.  
 Also, a new secret has been generated. Be sure to use this new one in your connector, in order to be able to make API calls again.
@@ -192,7 +192,7 @@ Here's how:
 3. Click on the connection for which you want to revoke the password.
 4. In the `Credentials` section, on the right side of the `Password` line, click on the regenerate icon.
 ![Regenerate password icon button](../img/regenerate-password-icon-button.png)
-5. A popin asks you for confirmation. Click on the `Regenerate` button.
+5. A popin asks you for confirmation. Click on `Regenerate`.
 
 The current password will be deleted and a new one is generated. It means that no one will be able to use it anymore to authenticate their API calls.  
 Be sure to use the new password in your connector, in order to be able to make API calls again.
@@ -226,9 +226,9 @@ Also, we don't recommend giving UI permissions to your connection user roles.
 :::
 
 To create a user role and link it to your connection:
-1. Click on the `System` menu.
-2. Click on the `Roles` submenu.
-3. Click on the `Create role` button.
+1. Click on `System`.
+2. Click on `Roles`.
+3. Click on `Create role`.
 4. In the form that appears, give a name to your user role, `My Magento user role` for example.
 5. Click on `Web API permissions` and select `Overall Web API access`.
 6. You can also select other accesses in the list below depending on what you want your connection to be able to achieve.
@@ -239,7 +239,7 @@ To create a user role and link it to your connection:
 3. Click on the connection for which you want to set the permissions.
 4. On the right side of the screen, there is a `Permissions` section. Select the user role you've just created in the `Role` dropdown.
 ![Select the connection role](../img/select-the-connection-role.png)
-5. Don't forget to save by clicking on the `Save` button.
+5. Don't forget to save by clicking on `Save`.
 
 ## Configure the connection user group
 
@@ -252,7 +252,7 @@ By default, your connection is created with the `All` user group. You may want t
 We strongly recommend you to create one **dedicated user group** for your connections, different from the user groups that you use for your UI users. It's even better if you create one user group for every connection you will need, as it will allow you to fine tune what each connection will be able to access. :wink:
 
 To create a user group and link it to your connection:
-1. Click on the `System` menu.
+1. Click on `System`.
 2. Click on `User groups`.
 3. Click on `Create group`.
 4. In the form that appears, give a name to your user group, `My Magento user group` for example.
@@ -280,7 +280,7 @@ If you created a connection you don't want to use anymore, you can delete it.
 4. Click on `...` in the top right corner of your screen.
 5. Click on `Delete`.
 ![Delete a connection](../img/delete-a-connection.png)
-6. A popin asks you for confirmation. Click on `Delete`.
+6. A popin asks you for confirmation. Again click on `Delete`.
 
 As a result, your connection will be deleted. It means that: 
 - you will no longer be able to follow its data flows inside the [Data flows dashboard](connection-dashboard.html),

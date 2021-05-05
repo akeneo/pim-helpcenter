@@ -36,7 +36,7 @@ To do so, you can follow the dedicated article right [here](manage-your-connecti
 ## _Step 2_ | Activate an existing extension or develop your own from scratch
 It totally depends on which third-party you want to connect with.
 
-Thanks to our community and partners, we have plenty of extensions ready to be activated on your PIM. To find them, go to your PIM `Connect` menu, click on the `Marketplace` sub-menu, and here you are! 
+Thanks to our community and partners, we have plenty of extensions ready to be activated on your PIM. To find them, go to your PIM `Connect` menu, click on `Marketplace`, and here you are! 
 
 The PIM Marketplace page allows you to access our Marketplace and display all the extensions compatible with your PIM.
 For example, if you want to connect your PIM to Magento 2, we provide the [Akeneo connector](https://help.akeneo.com/magento2-connector/index.html).
