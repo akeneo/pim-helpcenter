@@ -9,7 +9,7 @@ related: what-is-a-connection, how-to-connect-my-pim, manage-your-connections
 
 # Overview
 
-In the PIM, there is a dashboard, called `Data flows`, to help you follow your [connections](what-is-a-connection.html) activity. You can access it by clicking on the `Connect` menu, then on the `Data flows` submenu. And here you are! :tada:
+In the PIM, there is a dashboard called `Data flows`, to help you follow your [connections](what-is-a-connection.html) activity. You can access it by clicking on the `Connect` menu, then on the `Data flows` submenu. And here you are! :tada:
 
 ![Data flows dashboard](../img/connection-dashboard.png)
 
