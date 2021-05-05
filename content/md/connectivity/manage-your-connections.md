@@ -234,8 +234,8 @@ To create a user role and link it to your connection:
 6. You can also select other accesses in the list below depending on what you want your connection to be able to achieve.
 7. Save your configuration by clicking on `Save`.
 
-1. Click on the `Connect` menu.
-2. Click on the `Connection settings` submenu.
+1. Click on `Connect`.
+2. Click on `Connection settings`.
 3. Click on the connection for which you want to set the permissions.
 4. On the right side of the screen, there is a `Permissions` section. Select the user role you've just created in the `Role` dropdown.
 ![Select the connection role](../img/select-the-connection-role.png)
@@ -253,13 +253,13 @@ We strongly recommend you to create one **dedicated user group** for your connec
 
 To create a user group and link it to your connection:
 1. Click on the `System` menu.
-2. Click on the `User groups` submenu.
-3. Click on the `Create group` button.
+2. Click on `User groups`.
+3. Click on `Create group`.
 4. In the form that appears, give a name to your user group, `My Magento user group` for example.
-5. Save by clicking on the `Save` button.
+5. Click on `Save`.
 
-1. Click on the `Connect` menu.
-2. Click on the `Connection settings` submenu.
+1. Click on `Connect`.
+2. Click on `Connection settings`.
 3. Click on the connection for which you want to set the permissions.
 4. On the right side of the screen, there is a `Permissions` section. Select the user group you've just created in the `Group` dropdown.
 ![Select the connection group](../img/select-the-connection-group.png)
@@ -274,13 +274,13 @@ To be able to view the catalog, you will need to give permissions to your connec
 
 If you created a connection you don't want to use anymore, you can delete it.
 
-1. Click on the `Connect` menu.
-2. Click on the `Connection settings` submenu.
+1. Click on `Connect`.
+2. Click on `Connection settings`.
 3. Click on the connection you want to delete.
-4. Click on the `...` in the top right corner of your screen.
-5. Click on the `Delete` option.
+4. Click on `...` in the top right corner of your screen.
+5. Click on `Delete`.
 ![Delete a connection](../img/delete-a-connection.png)
-6. A popin asks you for confirmation. Click on the `Delete` button.
+6. A popin asks you for confirmation. Click on `Delete`.
 
 As a result, your connection will be deleted. It means that: 
 - you will no longer be able to follow its data flows inside the [Data flows dashboard](connection-dashboard.html),
