@@ -104,6 +104,11 @@ In addition, we added filters on log levels and log date and time to help you fi
 
 ![Filter on log date and time](../img/event-filter-on-datetime.png)
 
+::: warning
+You may have differences in date format between the list and the filter.  
+The date and time formats of the filter use your browser configuration, and the list relies on your PIM settings.
+:::
+
 
 Moreover, the search bar allows you to refine your research even more.
 
