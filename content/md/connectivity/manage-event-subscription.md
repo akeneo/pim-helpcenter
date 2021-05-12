@@ -40,7 +40,7 @@ Now, let's move on to the URL configuration, and soon you'll be able to receive 
 
 It's better if your Event Request URL is confirmed before saving the form. 
 
-To do so, please fill in the URL field with your server URL, and click on the `Test` button to check if the URL works. To help you, Akeneo PIM will display the response code of the test request. 
+To do so, please fill in the URL field with your server URL, and click on `Test` to check if the URL works. To help you, Akeneo PIM will display the response code of the test request. 
 
 Here are some examples of responses you may encounter. 
 
