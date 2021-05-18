@@ -1,4 +1,9 @@
 {
+  "2021-05": {
+    "title": "May 2021 Serenity updates",
+    "description": "May serenity updates",
+    "img": "illus-may-21.svg"
+  },
   "2021-04": {
     "title": "April 2021 Serenity updates",
     "description": "In April, Akeneo PIM brings you an improved proposal screen, designed to be more simple and straightforward to use, and a new mass delete action for your reference entity records, to ease your records management.",
