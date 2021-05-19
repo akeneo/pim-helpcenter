@@ -44,4 +44,5 @@ push-announcements: build
 	$(DOCKER_RUN) -e GOOGLE_APPLICATION_CREDENTIALS="/opt/workdir/service-account-file.json" -e FIRESTORE_URL="https://$(FIREBASE_PROJECT).firebaseio.com" pim-helpcenter:master yarn gulp push-announcements
 
 deploy-firebase-functions: firebase-install
-	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro -e FIREBASE_TOKEN=$(FIREBASE_TOKEN) -w /opt/workdir/src/firebase pim-helpcenter:master sh -c "firebase use $$FIREBASE_PROJECT && firebase deploy -f"
+	bash -c 'echo -E $$GOOGLE_APPLICATION_CREDENTIALS > ./service-account-file.json' # use bash version of echo to print correctly \n
+	$(DOCKER_RUN) -e HOME=/tmp -v /etc/passwd:/etc/passwd:ro -e GOOGLE_APPLICATION_CREDENTIALS="/opt/workdir/service-account-file.json" -w /opt/workdir/src/firebase pim-helpcenter:master sh -c "firebase use $$FIREBASE_PROJECT && firebase deploy -f"
