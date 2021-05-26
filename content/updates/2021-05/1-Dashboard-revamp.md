@@ -13,7 +13,7 @@ Did you notice? To offer you a better experience when consulting your KPIs, we r
 
 ![New dashboard screen](../img/revamped-dashboard-screen.png)
 
-Note that the `Projects widget is only available for our Entreprise customers.
+Note that the `Projects` widget is only available for our Enterprise customers.
 
 ::: more
 [What is the Activity dashboard?](../articles/discover-the-dashboard.html)  
