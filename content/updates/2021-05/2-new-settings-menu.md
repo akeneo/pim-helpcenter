@@ -9,6 +9,6 @@ pim_announcement_audience:
 # Welcome to our new Settings menu!
 ::: meta-data type="Improvement" features="Productivity" available="early May" in="EE,GE"
 
-There is now a brand new page to access the settings part of the PIM. They are organized in two main categories: `Catalog` and `Product` settings. We also display the number of entities already created in your PIM. 
+We released a brand new page to access your PIM Settings. They are now organized into two main categories: `Catalog` and `Product` settings. Under each entry, you will see the number of entities already created in your PIM (number of attributes, categories, associations...).
 
 ![New Settings menu](../img/new-settings-menu.png)
