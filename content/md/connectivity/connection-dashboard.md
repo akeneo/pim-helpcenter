@@ -49,7 +49,7 @@ You can easily switch the destination connection you want to monitor by clicking
 
 # Error monitoring
 
-## In the Connection dashboard
+## In Data flows
 In this dashboard, you can easily track **product errors** that occurred over the last 7 days. 
 - The graph shows the number of product errors (business and technical), 
 - and connection cards display the number of business errors for the past week.
