@@ -9,7 +9,7 @@ pim_announcement_audience:
 
 When developing your connectors, you can now ask for the product completeness whenever retrieving products. Thanks to this piece of information, you can easily push forward the most enriched products on your different channels.
 
-Also, if your PIM is connected to your BI tool, the product completeness can be very useful to follow KPIs such as ...
+Also, if your PIM is connected to your BI tool, the product completeness can be very useful to follow KPIs such as the product completeness percentage per family for example.
 
 Below is a product example in JSON with its associated completeness for all its channels/locales combinations.
 ```json
