@@ -63,7 +63,7 @@ You can only edit the labels.
 :::
 
 :::warning
-The 2-way association property cannot be updated once the association type is created.
+The 2-way association property cannot be updated once the association type is created.  2-way associations only allows two different products to be associated.
 :::
 
 ## Create an association type with quantities
