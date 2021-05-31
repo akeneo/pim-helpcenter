@@ -9,7 +9,7 @@ pim_announcement_audience:
 # New Connect entry menu
 ::: meta-data type="Improvement" features="Productivity" available="mid-May" in="EE,GE"
 
-In the very new `Connect` menu, you can now find everything related to your connections: the data flow dashboard to monitor the data exchanges on your connections, a direct access to our marketplace to browse all the compatible connectors, and the settings page to manage your connections.
+In the brand new `Connect` menu, you can now find everything related to your connections: the data flow dashboard to monitor data exchanges of your connections, direct access to our marketplace to browse all compatible connectors, and the settings page to manage your connections.
 
 ![New Connect entry menu](../img/new-connect-entry-menu.png)
 
