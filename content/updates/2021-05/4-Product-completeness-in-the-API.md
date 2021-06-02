@@ -7,7 +7,7 @@ pim_announcement_audience:
 # Retrieve product completeness through API
 ::: meta-data type="Improvement" features="Productivity" available="late May" in="EE,GE" link-to-doc="https://api.akeneo.com/concepts/products.html#product"
 
- You can now retrieve your products' completeness in the REST API product data returns. This turns in handy when you need to connect your PIM to third-party systems. For instance, you can then use it to select the most enriched products before you share them to your different channels.
+You can now get your products’ completeness whenever retrieving products through the REST API. It gives an even more thorough vision of the products on your third-party applications. For instance, it can be used to rank or highlight the most complete products on the different sales channels.
 
  The product completeness is also a very useful KPI you can use, if your PIM is connected to a BI tool.
 
