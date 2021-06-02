@@ -9,7 +9,7 @@ pim_announcement_audience:
 # Better UX in your Activity dashboard
 ::: meta-data type="Improvement" features="Productivity" available="early May" in="EE,GE"
 
-Did you notice? To offer you a better experience when consulting your KPIs, we rethought the Activity dashboard layout to increase its readability. We hope you will enjoy it!
+Have you noticed? To offer you a better experience when you are consulting your KPIs, we rethought the Activity dashboard layout to make it easier to read. We hope you will enjoy it!
 
 ![New dashboard screen](../img/revamped-dashboard-screen.png)
 
