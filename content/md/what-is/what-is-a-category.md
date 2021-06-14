@@ -31,11 +31,10 @@ A category or a category tree only needs a code to be created. You can name your
 
 ## From the user interface
 
-Go to `Settings`/`Categories`. To create a new category tree, click on `Create a new category` button.
+Go to `Settings`/`Categories`. To create a new category tree, click on `Create` button.
 ![How to create a new category](../img/Settings_CreateCategoryCTA.png)
 
-To add a new category or subcategory in this tree, select your tree in the category dropdown menu. Once the tree appears, select the tree name to add a new category or select a category to add a new subcategory.
-Then right click on the selected category, a `Create` button appears.
+To add a new category or subcategory in this tree, select your tree in the list. Once the tree is selected, hover on the tree name to add a new category or on a category to add a new subcategory.
 
 ![image of create button to add a new category](../img/Settings_CreateASubcategory.png)
 
@@ -66,7 +65,7 @@ You cannot sort category trees only categories. Trees are displayed by date of c
 :::
 
 ::: ee
-In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Set rights on your catalog](access-rights-on-products.html#rights-depending-on-the-categories). 
+In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Set rights on your catalog](access-rights-on-products.html#rights-depending-on-the-categories).
 :::
 
 # How to categorize a product?
