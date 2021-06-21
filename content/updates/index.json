@@ -1,4 +1,9 @@
 {
+  "2021-06": {
+    "title": "June 2021 Serenity updates",
+    "description": "June Serenity updates",
+    "img": "illus-june-21.svg"
+  },
   "2021-05": {
     "title": "May 2021 Serenity updates",
     "description": "Providing you with a great user experience is crucial for us, that's why we revamped two major PIM screens and introduced a new menu to ease the management of connections. Also, we release two API improvements that will ease category tree synchronization and enable you to retrieve product completeness through API.",
