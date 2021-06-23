@@ -39,7 +39,7 @@ The existing PAM API endpoints have been deprecated in 3.2 and removed in 4.0.
 
 **So your connectors that previously imported or exported your PAM assets need to be updated to fit our new 4.0 asset structure.**
 
-If you use an Akeneo premium connector (with Magento or Salesforce Ecommerce cloud), they will be soon compatible with the new Asset Manager.
+Please note that our Akeneo Connectors (Magento and Salesforce Commerce Cloud) are compatible with the Asset Manager.
 
 :::info
 New API endpoints are available and explained on our [API documentation of the Asset Manager](https://api.akeneo.com/documentation/asset-manager.html).
