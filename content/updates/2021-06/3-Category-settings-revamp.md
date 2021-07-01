@@ -6,7 +6,7 @@ pim_announcement_audience:
 - CE
 ---
 
-# Revamped categories screen
+# Revamped category screen
 ::: meta-data type="Improvement" features="Productivity" available="late June" in="EE,GE" link-to-doc="what-is-a-category.html#how-to-create-a-new-category"
 
 Have you been to the category settings page recently? You may have noticed that we have rebuilt it from scratch. This should improve your user experience with Akeneo category management. We hope you enjoy it!
