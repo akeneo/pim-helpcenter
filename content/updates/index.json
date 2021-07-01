@@ -1,7 +1,7 @@
 {
   "2021-06": {
     "title": "June 2021 Serenity updates",
-    "description": "June Serenity updates",
+    "description": "Discover the latest PIM enhancements that ease even further the management of product models and assets through our REST API, as well as a new category screen to improve your user experience when managing categories and category trees.",
     "img": "illus-june-21.svg"
   },
   "2021-05": {
@@ -31,7 +31,7 @@
   },
   "2020-12": {
     "title": "December 2020 Serenity updates",
-    "description": "To end this weird 2020 year, our PIM is boosted with many improvements that will definitely make your daily life easier. Discover a new way to grade your products. Share and import assets easily. Enjoy an even more flexible catalog modeling when using product variants. And so much more!",
+    "description": "To end 2020, our PIM is boosted with many improvements that will definitely make your daily life easier. Discover a new way to grade your products. Share and import assets easily. Enjoy an even more flexible catalog modeling when using product variants. And so much more!",
     "img": "illus-december-20.svg"
   },
   "2020-11": {
