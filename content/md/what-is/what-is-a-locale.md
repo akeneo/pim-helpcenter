@@ -37,5 +37,5 @@ If you can't find happiness with our 200 locales, you can still add new ones :).
 :::
 
 ::: warning
-The locale concept in Akeneo is different from your Akeneo PIM interface language :)
+The locale concept in Akeneo is different from your Akeneo PIM interface language. :)
 :::
