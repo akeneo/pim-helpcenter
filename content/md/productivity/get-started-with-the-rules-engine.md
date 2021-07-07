@@ -286,7 +286,7 @@ And for the `UPSELL` association, it will **replace the associated product model
 
 ## Remove
 
-The `Remove` action enables you to remove values from a multi-select attribute, a reference entity multiple link attribute, a product category or a group.
+The `Remove` action enables you to remove values from a multi-select attribute, a reference entity multiple link attribute, an asset collection attribute, a price collection attribute, a product category or a group.
 
 The expected values are:
 - `field`: the attribute code or “categories”
