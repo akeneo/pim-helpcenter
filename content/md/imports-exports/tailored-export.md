@@ -32,9 +32,19 @@ Once you've created your tailored export profile, or if you want to edit an exis
 1. Click on the tailored product export profile line you want to edit
 1. Click on `Edit` located in the top right corner of the screen  
 
-You will then find different tabs that are described in the sections below.
+## Discover the different tabs of this profile
 
-## 
+As in all export profiles, the tailored export profile displays different tabs where you can configure it. Here's the list:
+
+`Properties`:
+`Permissions`:
+`Product selection`:
+`Export structure`:
+`History`:
+
+
+### Focus on product selection
+### Focus on export structure
 
 From a newly created product export profile, click on `Content`.
 
