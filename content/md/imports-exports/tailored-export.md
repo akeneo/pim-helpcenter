@@ -22,7 +22,7 @@ To create a product export:
 1. Go to `Exports`
 1. Click on the `Create export profile` button
 1. Indicate a unique export code, an export label and select the job `Tailored product export` or `Tailored product model export`. You can select either CSV or XLSX for each job.
-![Create a new product export profile](../img/Exports_CreateProfilExport.png)
+![Create a new product export profile](../img/TailoredExport_Create-export-profile.png)
 1. Save your new export profile
 
 # Edit a tailored product export profile
@@ -34,24 +34,38 @@ Once you've created your tailored export profile, or if you want to edit an exis
 
 ## Discover the different tabs of this profile
 
-As in all export profiles, the tailored export profile displays different tabs where you can configure it. Here's the list:
+As in all export profiles, the tailored export profile displays different tabs where you can configure it. Here's the list of the different tabs:
 
-`Properties`:
-`Permissions`:
-`Product selection`:
-`Export structure`:
-`History`:
+`Properties`: Define the label of your export profile
+`Permissions`: Set permissions to allow specific user groups to execute or edit your export profile (Enterprise Edition only).
+`Global settings`: Define the max number of lines per file you want, the field delimiter (CSV format only) and the field enclosure character (CSV format only).
+`Product selection`: Use the provided filters to decide which products will be exported (see dedicated section below for more information).
+`Export structure`: Build your export structure (see dedicated section below for more information).
+`History`: Display the modifications made by any user on your export profile.
 
 
-### Focus on product selection
-### Focus on export structure
+### Focus on 'Product selection' section
+
+In this tab, you can select the products which will be exported.
+A certain number of filters are available, helping you to refine your product selection, such as family, category, status, completeness or even insert a list of identifiers. You can also add new attributes to use them to filter your products.
+
+::: tips
+Note that you can now select any category from any category tree available in your PIM, including categories that aren't linked to a channel.
+:::
+
+![Select multiple category trees](../img/TailoredExport_Select-categories.png)
+
+### Focus on 'Export structure'
+
+In this tab, you can build the structure of the file.
+You need to create the columns of your file, name them & link them to your PIM attributes in order for your export profile to be ready to be launched.
+To do so, please follow the steps below:
+1.  Add a first column by clicking on `Add first column`
+![Add first column](../img/TailoredExport_Add-first-column.png)
+1.  
 
 From a newly created product export profile, click on `Content`.
 
 Then, you will land on a page divided into two sections:
 
 ![Edit a product export profile](../img/Exports_EditContent.png)
-
-`Filter the data`: this part allows you to define the data of the exported file, namely its columns: you will have to specify a channel and one or more locales to export. Those are required fields. The last field `Attributes` will allow you to select the attributes that will be used as file columns.
-
-`Filter the products`: this part allows you to filter your products on several product and system attributes such as family, category, status, completeness or even insert a list of identifiers. You can also add new attributes to use them to filter your products.
