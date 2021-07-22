@@ -60,12 +60,25 @@ Note that you can now select any category from any category tree available in yo
 In this tab, you can build the structure of the file.
 You need to create the columns of your file, name them & link them to your PIM attributes in order for your export profile to be ready to be launched.
 To do so, please follow the steps below:
-1.  Add a first column by clicking on `Add first column`
-![Add first column](../img/TailoredExport_Add-first-column.png)
-1.  
+1.  Add a first column by clicking on `Add first column`.
+![Add first column](../img/TailoredExport_Add-first-column.png)  
+::: tips
+If you want to add columns in bulk from an Excel file, you can copy all the columns in your Excel and paste them in the last column created, so that it creates automatically all your columns in your export.
+:::
+1.  Once your first column has been added, you can enter their name in the field created.
+![Add first column](../img/TailoredExport_Column-headers.png)
+1.  Then, you need to add a source for each column, which means selecting an attribute or a system property. To do that, please select the column you want, then in the right panel, click on `Add source` and select any item from the list.
+::: tips
+System properties are no more included by default. If you need them, you can select the following system properties: "Enabled", "Category", "Family", "Family variant", "Groups", "Parent" and your association types.
+:::
+1. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if  your attribute is localisable and/or scopable, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available, like a choice between the code or the label of the attributes, or the separator character to use.
+![Add a source](../img/TailoredExport_Add-source.gif)
+1.  Once you're done, click on `Save` in the top right corner.
+1.  You can now launch your export profile by cliking on `Export`.
 
-From a newly created product export profile, click on `Content`.
-
-Then, you will land on a page divided into two sections:
-
-![Edit a product export profile](../img/Exports_EditContent.png)
+::: warning
+Limitations have been set for each Tailored Export profile:
+* You can add up to 1000 columns
+* Text fields are limited to 250 characters
+* You can add up to 4 sources in a same column
+:::
