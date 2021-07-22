@@ -41,15 +41,15 @@ As in all export profiles, the tailored export profile displays different tabs w
 * `Properties`: Define the label of your export profile
 * `Permissions`: Set permissions to allow specific user groups to execute or edit your export profile (Enterprise Edition only).
 * `Global settings`: Define the max number of lines per file you want, the field delimiter (CSV format only) and the field enclosure character (CSV format only).
-* `Product selection`: Use the provided filters to decide which products will be exported (see dedicated section below for more information).
-* `Export structure`: Build your export structure (see dedicated section below for more information).
+* `Product selection`: Use the provided filters to decide which products will be exported (see [Focus on "Product selection" section](tailored-export.html#focus-on-product-selection-section)").
+* `Export structure`: Build your export structure (see [Focus on "Export structure" section](tailored-export.html#focus-on-export-structure)").
 * `History`: Display the modifications made by any user on your export profile.
 
 
 ### Focus on 'Product selection' section
 
 In this tab, you can select the products which will be exported.
-A certain number of filters are available, helping you to refine your product selection, such as family, category, status, completeness or even insert a list of identifiers. You can also add new attributes to use them to filter your products.
+A certain number of filters are available, helping you to refine your product selection, such as family, category, status, completeness, data quality or even insert a list of identifiers. You can also add new attributes to use them to filter your products.
 
 ::: tips
 Note that you can now select any category from any category tree available in your PIM, including categories that aren't linked to a channel.
@@ -67,16 +67,16 @@ To do so, please follow the steps below:
 ::: tips
 If you want to add columns in bulk from an Excel file, you can copy all the columns in your Excel and paste them in the last column created, so that it creates automatically all your columns in your export.
 :::
-1.  Once your first column has been added, you can enter their name in the field created.
+2.  Once your first column has been added, you can enter their name in the field created.
 ![Add first column](../img/TailoredExport_Column-headers.png)
-1.  Then, you need to add a source for each column, which means selecting an attribute or a system property. To do that, please select the column you want, then in the right panel, click on `Add source` and select any item from the list.
+3.  Then, you need to add a source for each column, which means selecting an attribute or a system property. To do that, please select the column you want, then in the right panel, click on `Add source` and select any item from the list.
 ::: tips
 System properties are no longer set by default. Select only the relevant system properties you need. Choosing from: "Enabled", "Category", "Family", "Family variant", "Groups", "Parent" and your association types.
 :::
-1. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if  your attribute is localisable and/or scopable, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available, like a choice between the code or the label of the attributes, or the separator character to use.
+4. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if  your attribute is localisable and/or scopable, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available, like a choice between the code or the label of the attributes, or the separator character to use.
 ![Add a source](../img/TailoredExport_Add-source.gif)
-1.  Once you're done, click on `Save` in the top right corner.
-1.  You can now launch your export profile by cliking on `Export`.
+5.  Once you're done, click on `Save` in the top right corner.
+6.  You can now launch your export profile by cliking on `Export`.
 
 ::: warning
 Limitations have been set for each Tailored Export profile:
