@@ -71,7 +71,7 @@ If you want to add columns in bulk from an Excel file, you can copy all the colu
 ![Add first column](../img/TailoredExport_Column-headers.png)
 1.  Then, you need to add a source for each column, which means selecting an attribute or a system property. To do that, please select the column you want, then in the right panel, click on `Add source` and select any item from the list.
 ::: tips
-System properties are no more included by default. If you need them, you can select the following system properties: "Enabled", "Category", "Family", "Family variant", "Groups", "Parent" and your association types.
+System properties are no longer set by default. Select only the relevant system properties you need. Choosing from: "Enabled", "Category", "Family", "Family variant", "Groups", "Parent" and your association types.
 :::
 1. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if  your attribute is localisable and/or scopable, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available, like a choice between the code or the label of the attributes, or the separator character to use.
 ![Add a source](../img/TailoredExport_Add-source.gif)
