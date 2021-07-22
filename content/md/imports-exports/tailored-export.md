@@ -13,8 +13,9 @@ This feature consists in a new export profile, available only for our Enterprise
 It helps you to export your product information in flat files, in the ways you want.  
 For instance, let's assume your retailers or distributors need the same product information from you in flat file, but they both want different structures:  
 * Retailer A wants an export with columns named: "Identifier", "Product Name", "Description" and "Weight (cm)".
-* Retailer B wants an export with columns named: "Name in french", "Name in english", "Description 1", "ID" and "Weight (mm)".
+* Retailer B wants an export with columns named: "Name in french", "Name in english", "Description 1", "ID" and "Weight (mm)".  
 It means you need to export your information thanks to the classic product export, and to manually modify your spreadsheet to reorder the columns, change their name, convert the measurement and other low value-added tasks.  
+Now you can easily create different Tailored Export profiles to match the requirements of most of your retailers or distributors!
 
 # Create a tailored product export profile
 
