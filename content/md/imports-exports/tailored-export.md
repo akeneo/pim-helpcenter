@@ -60,16 +60,16 @@ Note that you can now select any category from any category tree available in yo
 ### Focus on 'Export structure'
 
 In this tab, you can build the structure of the file.
-You need to create the columns of your file, name them & link them to your PIM attributes in order for your export profile to be ready to be launched.
+You need to create the columns of your file, name them & link them to your PIM attributes, system properties or Association types in order for your export profile to be ready to be launched.
 To do so, please follow the steps below:
 1.  Add a first column by clicking on `Add first column`.
 ![Add first column](../img/TailoredExport_Add-first-column.png)  
 ::: tips
-If you want to add columns in bulk from an Excel file, you can copy all the columns in your Excel and paste them in the last column created, so that it creates automatically all your columns in your export.
+If you want to add columns in bulk from an Excel file, you can copy all the columns header in your Excel and paste them in the last column created, so that it creates automatically all your columns in your export.
 :::
 2.  Once your first column has been added, you can enter their name in the field created.
 ![Add first column](../img/TailoredExport_Column-headers.png)
-3.  Then, you need to add a source for each column, which means selecting an attribute or a system property. To do that, please select the column you want, then in the right panel, click on `Add source` and select any item from the list.
+3.  Then, you need to add a source for each column, which means selecting an attribute, a system property or an Association type. To do that, please select the column you want, then in the right panel, click on `Add source` and select any item from the list.
 ::: tips
 System properties are no longer set by default. Select only the relevant system properties you need. Choosing from: "Enabled", "Category", "Family", "Family variant", "Groups", "Parent" and your association types.
 :::
@@ -81,6 +81,6 @@ System properties are no longer set by default. Select only the relevant system 
 ::: warning
 Limitations have been set for each Tailored Export profile:
 * You can add up to 1000 columns
-* Text fields are limited to 250 characters
+* Text fields are limited to 255 characters
 * You can add up to 4 sources in a same column
 :::
