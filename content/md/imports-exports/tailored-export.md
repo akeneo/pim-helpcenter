@@ -62,7 +62,8 @@ To do so, please follow the steps below:
 1.  Add a first column by clicking on `Add first column`.
 ![Add first column](../img/TailoredExport_Add-first-column.png)  
 ::: tips
-If you want to add columns in bulk from an Excel file, you can copy all the columns header in your Excel and paste them in the last column created, so that it creates automatically all your columns in your export.
+If you want to add columns in bulk from an Excel file, you can copy all the columns header in your spreadsheet and paste them in the last column created, so that it creates automatically all your columns in your export.
+![Add columns un bulk](../img/TailoredExport_Add-columns-in-bulk.gif)
 :::
 2.  Once your first column has been added, you can type its name in the field created.
 ![Name your columns](../img/TailoredExport_Column-headers.png)
