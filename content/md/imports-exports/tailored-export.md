@@ -81,8 +81,17 @@ To do so, please follow the steps below:
 
 ::: warning
 Limitations have been set for each Tailored Export profile:
+* Column headers must be unique
 * You can add up to 1,000 columns
-* Text fields are limited to 255 characters
 * You can add up to 4 sources in a single column
+* Text fields are limited to 255 characters
 :::
+
+# Discover all transformations
+
+When adding sources to your columns, you can add different transformations. For now are available:
+* `Boolean replacement`: Replace the default values of the boolean attribute (for now only available for the `Enabled` system property)
+* `Concatenate`: Concatenate different sources by adding up to 4 of them per column
+* `Select labels`: Export the labels of your sources instead of codes
+
 We hope that you enjoy working with Tailored Export 101. A more advanced version will be released in the coming months, stay tuned!
