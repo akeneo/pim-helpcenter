@@ -4,6 +4,7 @@ themes: import-export-data
 title: "Tailored export - customize your product information exports"
 popular: false
 ee-only: true
+ge-only: true
 related: exports, monitor-jobs, access-rights-on-imports-exports
 ---
 
@@ -45,6 +46,9 @@ The tailored export profile is exactly like a regular product and product export
 * `Export structure`: Build your export structure (see [Focus on "Export structure" section](tailored-export.html#focus-on-export-structure)").
 * `History`: Display the modifications made by any user on your export profile.
 
+:::warning
+If the attribute as main media used in your asset family has a value per locale and/or a value per channel, all of its media will be exported.
+:::
 
 ### Focus on 'Product selection'
 
@@ -60,20 +64,20 @@ You need to create the columns of your file, name them & link them to your PIM a
 To do so, please follow the steps below:
 1.  Add a first column by clicking on `Add first column`.
 ![Add first column](../img/TailoredExport_Add-first-column.png)  
-  ::: tips
-  If you want to add columns in bulk from an Excel file, you can copy all the columns header in your spreadsheet and paste them in the last column created, so that it creates automatically all your columns in your export.
-  ![Add columns un bulk](../img/TailoredExport_Add-columns-in-bulk.gif)
-  :::
-2.  Once your first column has been added, you can type its name in the field created.
-  ![Name your columns](../img/TailoredExport_Column-headers.png)
-3.  Then, you need to add a source for each column, which means selecting an attribute, a system property or an Association type. To do so, please select the column you want, then, in the right panel, click on `Add source` and select any item from the list.
-  ::: tips
-  System properties are not set by default. Select only the system properties you need. You can choose: "Enabled", "Category", "Family", "Family variant", "Groups", "Parent" and your association types.
-  :::
-4. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if your attribute has a value per locale or per channel, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available. For instance, you can choose between exporting the code or the label of the attribute option, and which separator (',', ';', '|') you want when applicable.
-  ![Add a source](../img/TailoredExport_Add-source.gif)
-5.  Once you're done, click on `Save` in the top right corner.
-6.  You can now launch your export profile by cliking on `Export`.
+    ::: tips
+    If you want to add columns in bulk from an Excel file, you can copy all the columns header in your spreadsheet and paste them in the last column created, so that it creates automatically all your columns in your export.
+    ![Add columns un bulk](../img/TailoredExport_Add-columns-in-bulk.gif)
+    :::
+1.  Once your first column has been added, you can type its name in the field created.
+![Name your columns](../img/TailoredExport_Column-headers.png)
+1.  Then, you need to add a source for each column, which means selecting an attribute, a system property or an Association type. To do so, please select the column you want, then, in the right panel, click on `Add source` and select any item from the list.  
+    ::: info
+    System properties are not set by default. Select only the system properties you need. You can choose: "Enabled", "Category", "Family", "Family variant", "Groups", "Parent" and your association types.
+    :::
+1. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if your attribute has a value per locale or per channel, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available. For instance, you can choose between exporting the code or the label of the attribute option, and which separator (',', ';', '|') you want when applicable.
+![Add a source](../img/TailoredExport_Add-source.gif)
+1.  Once you're done, click on `Save` in the top right corner.
+1.  You can now launch your export profile by cliking on `Export`.
 
 ::: warning
 Limitations have been set for each Tailored Export profile:
