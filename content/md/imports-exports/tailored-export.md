@@ -87,11 +87,13 @@ Limitations have been set for each Tailored Export profile:
 * Text fields are limited to 255 characters
 :::
 
-# Discover all transformations
+# Discover operations
 
-When adding sources to your columns, you can add different transformations. For now are available:
-* `Boolean replacement`: Replace the default values of the boolean attribute (for now only available for the `Enabled` system property)
-* `Concatenate`: Concatenate different sources by adding up to 4 of them per column
-* `Select labels`: Export the labels of your sources instead of codes
+You can use operations to share the most meaningful values for your stakeholders by adapting your PIM values in different ways when exporting them. 
+
+Here are the different types of operations you can add when defining your sources:
+* `Boolean replacement`: Replace the default values of the boolean attribute with your own value. For now, this is only available for the `Enabled` system property
+* `Concatenate`: Concatenate different sources by displaying up to 4 of them per column
+* `Select labels`: Export the labels of your sources instead of the codes
 
 We hope that you enjoy working with Tailored Export 101. A more advanced version will be released in the coming months, stay tuned!
