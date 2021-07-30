@@ -50,14 +50,14 @@ The tailored export profile is exactly like a regular product and product export
 If the attribute as main media used in your asset family has a value per locale and/or a value per channel, all of its media will be exported.
 :::
 
-### Focus on 'Product selection'
+## Define your product selection
 
 In this tab, you can select the products which will be exported.
 A certain number of filters are available, helping you to refine your product selection, such as family, category, status, completeness, data quality or even insert a list of identifiers. You can also add new attributes to use them to filter your products.
 
 ![Select multiple category trees](../img/TailoredExport_Select-categories.png)
 
-### Focus on 'Export structure'
+## Define your export structure
 
 In this tab, you can build the structure of your file.
 You need to create the columns of your file, name them & link them to your PIM attributes, system properties or association types in order for your export profile to be ready to be launched.
@@ -89,7 +89,7 @@ Limitations have been set for each Tailored Export profile:
 
 # Discover operations
 
-You can use operations to share the most meaningful values for your stakeholders by adapting your PIM values in different ways when exporting them. 
+You can use operations to share the most meaningful values for your stakeholders by adapting your PIM values in different ways when exporting them.
 
 Here are the different types of operations you can add when defining your sources:
 * `Boolean replacement`: Replace the default values of the boolean attribute with your own value. For now, this is only available for the `Enabled` system property
