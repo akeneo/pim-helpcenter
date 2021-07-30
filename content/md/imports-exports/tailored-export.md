@@ -1,10 +1,9 @@
 ---
 id: tailored-export
 themes: import-export-data
-title: "Tailored export - customize your product information exports"
+title: Tailored export - **customize your product information exports**
 popular: false
 ee-only: true
-ge-only: true
 related: exports, monitor-jobs, access-rights-on-imports-exports
 ---
 
@@ -17,7 +16,7 @@ For instance, let's assume your retailers or distributors need the same product 
 * Retailer B wants an export with columns named: "Name in French", "Name in English", "Description 1", "ID", and "Weight (Kilograms)".  
 
 Previously, you had to export your product information thanks to a regular product export profile, and manually modify your spreadsheet to reorder the columns, change their name, convert the measurements, for as many retailers and distributors that needed it.
-Now, prepare the work from Akeneo PIM creating a Tailored Export profile per your retailer's or distributor's requirements and use it as often as necessary. You no longer need to manually edit your flat files as soon as you need to share product information.
+Now, prepare the work from Akeneo PIM creating a Tailored Export profile per your retailer's or distributor's requirements and use it as often as necessary. **You no longer need to manually edit your flat files as soon as you need to share product information.**
 
 # Create a tailored product export profile
 
@@ -46,21 +45,26 @@ The tailored export profile is exactly like a regular product and product export
 * `Export structure`: Build your export structure (see [Focus on "Export structure" section](tailored-export.html#focus-on-export-structure)").
 * `History`: Display the modifications made by any user on your export profile.
 
+:::info
+To export the media, your export structure must include at least one source using an attribute like image, file or asset collection.
+:::
+
 :::warning
 If the attribute as main media used in your asset family has a value per locale and/or a value per channel, all of its media will be exported.
 :::
 
 ## Define your product selection
 
-In this tab, you can select the products which will be exported.
+In the `Product selection` tab, you can select the products which will be exported.
 A certain number of filters are available, helping you to refine your product selection, such as family, category, status, completeness, data quality or even insert a list of identifiers. You can also add new attributes to use them to filter your products.
 
 ![Select multiple category trees](../img/TailoredExport_Select-categories.png)
 
 ## Define your export structure
 
-In this tab, you can build the structure of your file.
+In the `Export structure` tab, you can build the structure of your file.
 You need to create the columns of your file, name them & link them to your PIM attributes, system properties or association types in order for your export profile to be ready to be launched.
+
 To do so, please follow the steps below:
 1.  Add a first column by clicking on `Add first column`.
 ![Add first column](../img/TailoredExport_Add-first-column.png)  
