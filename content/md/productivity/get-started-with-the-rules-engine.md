@@ -160,7 +160,7 @@ The date will be copied into the ISO 8601 format (ex: 2019-01-25T12:00:00+01:00)
 
 In a list, an option is defined by a code and a label (the label is not mandatory). When the rule engine performs a copy action, it uses the option **codes**.
 
-To copy values from a simple select attribute to another, or from a multi select attribute to another, **the option you want to copy must already exist in the target attribute.**
+To copy values from a simple select attribute to another, or from a multi select attribute to another, **every options you want to copy must already exist in the target attribute.**
 
 Let's say you have 2 attributes: attribute 1 and attribute 2, both containing sizes. You want to copy the size filled in Attribute 1, to Attribute 2. Both have an option with code "S", but this option doesn't have the same label: in attribute 1, the label is `Small` whereas is Attribute 2, it is `S`.
 
