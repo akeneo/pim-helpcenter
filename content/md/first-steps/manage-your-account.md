@@ -57,7 +57,7 @@ To edit your [user groups](what-is-a-user-group.html) and [roles](what-is-a-role
 1. On the top of the page, you will see the user group(s) you belong to, and then your user role(s). Check/uncheck to change your groups/roles.
 2. Click on `Save` to save your changes
 
-![image](../img/System_users_Profil_edit_grpandroles.png)
+![image](../img/System_users_Profil_edit_grpandroles2.png)
 
 ## Your password
 
