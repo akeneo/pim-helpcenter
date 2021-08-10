@@ -116,7 +116,7 @@ As for the other attribute types, you can define that a table is required for th
 
 As of today, we consider a **complete** table, as soon as **1 cell is filled**. Stay tuned, we should improve it soon.
 
-
+# Use a table attribute in your product edit form
 
 >
 - idem via l'API (format en sortie : JSON)
