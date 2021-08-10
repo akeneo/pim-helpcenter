@@ -20,7 +20,14 @@ This attribute type is available in the _Growth Edition_ and in the _Enterprise 
 ## How to create a Table attribute within Akeneo?
 
 As for the other attribute types, you can create a Table by clicking on `Settings`, `Attributes`, `Create attribute`. Then, click on `Table` and choose among our **templates**.
-Then, a popin appears, asking you to choose a `code`, a `label`, and a `standard`, depending on the template you just chose.
+
+:::info
+These templates are here to guide you. They are only **presentation suggestions** and can be modified if they don't match your exact needs. If you prefere to create your table from scratch, then choose the `Empty table` template.
+:::
+
+Once the template is selected, a popin appears then, asking you to choose a `code`, a `label`, and a `standard`, depending on the template you just chose. You'll discover a new tab called `Table structure`: this is where you can define your columns.
+
+>image
 
 ### Let's discover the table attribute's particularities
 
@@ -30,7 +37,7 @@ We've defined several rules to structure a table attribute, in order to benefit 
 Each column is defined by a `code`, a `label`, and a `type`. The label can be translated, and you cannot change the code neither the type of a column afterward.
 
 #### Once the table structure is done and saved, it cannot be changed afterward.
-It means that your columns are frozen once you've clicked on `Save`.
+It means that your columns are frozen once you've clicked on `Save`. If you need to change a column, you must delete and re-create it.
 
 #### The first column must be of type `Select`.
 To structure your table, you can choose among 4 column types:
@@ -39,19 +46,34 @@ To structure your table, you can choose among 4 column types:
 - `Number`
 - `Text`
 
-Nevertheless, the first colunm must always be of type `Select`. We will detail how this column type works in the [next section](next-section).
+Nevertheless, **the first colunm must always be of type `Select`**. We will detail how this column type works in the [next section](next-section).
 
+>lien
 
 ## Specificity of each column type
 
 ### Select column type
-As for the `Simple select` and `Multi select` attribute types, you can define **options** for your `Select` column types. For instance, if your table gathers the ingredients of a product, 
+As for the `Simple select` and `Multi select` attribute types, you can define **options** in your `Select` column types.  
+For instance, if your table attribute gathers the ingredients of a product, you have to create each ingredient as `option` of your `Select` column, in order to be able to use it in the Product Edit Form.
+This way, you create the options only one time, and you use them as many times as you want in your product tables :wink:.
+
 
 ### Text column type
+In the `Text` columns, you can define the `maximum number of characters`, in order to controle the length of your cells content.  
+Of course, you cannot define a negative value, and moreover, you are limited to 100 characters by the system. In other words, this parameter lets you define a **maximum number of characters between 1 and 100.**
 
 ### Number column type
+In the `Number` column type, you can specify the `Minimum value`, the `maximum value` and if you allow decimal values or not.
 
 ### Yes/No (boolean) column type
+There is no validation parameters in this column type!
+
+## Scalability of a table attribute
+In order to ensure that the PIM will still be running, we have defined some limits.  
+- You can create up to **20 columns** in a single table.
+- You can create up to **200000 options** within a Select column.
+- You can have up to **100 raws** per table attribute in a product sheet.
+> limits to validate
 
 ## Import/export your table data
 
@@ -78,10 +100,7 @@ As of today, we consider a **complete** table, as soon as **1 cell is filled**. 
 
 
 >
-- possibilité d'importer/exporter, pas le biais de profils d'export différents :
-    - la structure d'un tableau
-    - les options d'une colonne select
-    - les product values
+
 - idem via l'API (format en sortie : JSON)
 - possibilité de rechercher des values d'un tableau dans la grille produit
 - possibilité d'enrichir un tableau dans le PEF, de changer l'ordre des lignes et de
