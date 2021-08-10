@@ -33,9 +33,13 @@ You'll discover a new tab called `Table structure`: this is where you can define
 
 >image
 
-Except for the `Empty table` template, some columns will be created for you. You are free to add new ones, simply by clicking on `Add new columns`.  
+Except for the `Empty table` template, some columns are already created for you. You are free to add new ones, simply by clicking on `Add new columns`.  
 For each new column, you must define a code, a label, and the type (`select`, `number`, `text` or `yes/no`). The column label can be translated in your catalog locales.
+You can also **change the order** of the columns, by clicking on the burger button.
 
+>image
+
+Finally, you are also free to **delete** each column, by clicking on the trashcan (appearing when hovering the raw).
 
 # Let's discover the table attribute's particularities
 
@@ -45,7 +49,7 @@ We've defined several rules to structure a table attribute, in order to benefit 
 Each column is defined by a `code`, a `label`, and a `type`. The label can be translated, and you cannot change the code neither the type of a column afterward.
 
 ### Once the table structure is done and saved, it cannot be changed afterward.
-It means that your columns are frozen once you've clicked on `Save`. If you need to change a column, you must delete and re-create it.
+It means that your columns are frozen once you've clicked on `Save`. If you need to change the code or the type of a column, you must delete and re-create it.
 
 ### The first column must be of type `Select`.
 To structure your table, you can choose among 4 column types:
@@ -82,6 +86,14 @@ In order to ensure that the PIM will still be running, we have defined some limi
 - You can have up to **100 raws** per table attribute in a product sheet.
 > limits to validate
 
+# History tab
+As for the other attribute types, you retrieve the `History` tab.  
+In this tab, we track the activity on your attribute such as:
+- any change in the attribute `properties` tab
+- any change in the `table structure` tab, except if you update the option's labels (within a `select` column).
+- any change in the `label translations` tab
+
+
 # Import/export your table data
 
 ## Import/export a table structure
@@ -96,7 +108,7 @@ We are conscious that this format is not ideal, but there is no other easy way t
 Don't worry, we've developed dedicated import/export profiles for the options of your `select` column types :wink:.
 
 
-## Import/export the values of a table in a product
+## Import/export the table values in a product
 
 # What about the completeness?
 
