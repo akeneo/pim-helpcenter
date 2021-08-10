@@ -60,6 +60,10 @@ A certain number of filters are available, helping you to refine your product se
 
 ![Select multiple category trees](../img/TailoredExport_Select-categories.png)
 
+:::info
+If no categories are selected, all products will be exported, including all uncategorized products.
+:::
+
 ## Define your export structure
 
 In the `Export structure` tab, you can build the structure of your file.
