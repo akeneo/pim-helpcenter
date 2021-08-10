@@ -41,7 +41,7 @@ You can also **change the order** of the columns, by clicking on the burger butt
 
 Finally, you are also free to **delete** each column, by clicking on the trashcan (appearing when hovering the raw).
 
-# Let's discover the table attribute's particularities
+## Let's discover the table attribute's particularities
 
 We've defined several rules to structure a table attribute, in order to benefit from the powerness of the PIM and from the "Akeneo logic".
 
@@ -62,31 +62,31 @@ Nevertheless, **the first colunm must always be of type `Select`**. We will deta
 
 >lien
 
-# Specificity of each column type
+## Specificity of each column type
 
-## Select column type
+### Select column type
 As for the `Simple select` and `Multi select` attribute types, you can define **options** in your `Select` column types.  
 For instance, if your table attribute gathers the ingredients of a product, you have to create each ingredient as `option` of your `Select` column, in order to be able to use it in the Product Edit Form.
 This way, you create the options only one time, and you use them as many times as you want in your product tables :wink:.
 
-## Text column type
+### Text column type
 In the `Text` columns, you can define the `maximum number of characters`, in order to controle the length of your cells content.  
 Of course, you cannot define a negative value, and moreover, you are limited to 100 characters by the system. In other words, this parameter lets you define a **maximum number of characters between 1 and 100.**
 
-## Number column type
+### Number column type
 In the `Number` column type, you can specify the `Minimum value`, the `maximum value` and if you allow decimal values or not.
 
-## Yes/No (boolean) column type
+### Yes/No (boolean) column type
 There is no validation parameters in this column type!
 
-# Scalability of a table attribute
+## Scalability of a table attribute
 In order to ensure that the PIM will still be running, we have defined some limits.  
 - You can create up to **20 columns** in a single table.
 - You can create up to **200000 options** within a Select column.
 - You can have up to **100 raws** per table attribute in a product sheet.
 > limits to validate
 
-# History tab
+## History tab
 As for the other attribute types, you retrieve the `History` tab.  
 In this tab, we track the activity on your attribute such as:
 - any change in the attribute `properties` tab
