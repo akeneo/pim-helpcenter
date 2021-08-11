@@ -24,6 +24,11 @@ If a reference entity has already been created, simply click on it to access its
 
 ![image](../img/ReferenceEntity_ListEntities.png)
 
+:::warning
+If you create a PDF version of a product, it will only display the codes of the Reference Entities 
+ and not their labels.
+:::
+
 # Create a reference entity
 
 To create a [reference entity](what-about-reference-entities.html), follow these steps:

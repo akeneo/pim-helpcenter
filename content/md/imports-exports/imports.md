@@ -19,6 +19,10 @@ The imports accept two types of file: CSV and XSLX.
 
 You can import product data, but also catalog entities such as the families, the categories, the attributes...
 
+::: warning
+Please note that Akeneo PIM is not case-sensitive. As an example, if you want to import two products with the following identifiers "A238B" and "A238b", they will be skipped as the PIM doesn't differentiate the uppercase "B" from the lowercase "b", and thus will not be able to import them.
+:::
+
 ## Steps of an import
 File import process is really simple. It consists of:
 1.  Creating an import profile (see below for more information about it)
