@@ -102,13 +102,14 @@ In this tab, we track the activity on your attribute such as:
 You can import/export a table attribute the same way as the other attribute types, by using the `attribute import` or `attribute export` profiles. But, the structure of your table (a.k.a, the columns of your table) must be written in a JSON format, and inserted in the dedicated column of your import/export file, called `table_configuration`.
 
 :::tips
-We are conscious that this format is not ideal, but there is no other easy way to proceed as of today. That's why, if you need to make some changes via flat files, we advise you to export your attributes first, fix what you need to fix, and re-import it.
+We are aware that this JSON format is not ideal, but there is no other easy way to proceed as of today. That's why, if you need to make some changes via flat files, we advise you to export your attributes first, fix what you need to fix, and re-import it.
 :::
 
 Don't worry, we've developed dedicated import/export profiles for the options of your `select` column types :wink:.
 
+### Import/export the options of your 'select' columns.
 
-## Import/export the table values in a product
+## Import/export the table values of a product
 
 # What about the completeness?
 
@@ -116,10 +117,12 @@ As for the other attribute types, you can define that a table is required for th
 
 As of today, we consider a **complete** table, as soon as **1 cell is filled**. Stay tuned, we should improve it soon.
 
-# Use a table attribute in your product edit form
+Now that you know all the secrets of the Table attribute type, [let's discover its capabilities in the Product Edit Form!](use-a-table-attribute-in-your-product-edit-form.html)
+
 
 >
 - idem via l'API (format en sortie : JSON)
 - possibilité de rechercher des values d'un tableau dans la grille produit
 - possibilité d'enrichir un tableau dans le PEF, de changer l'ordre des lignes et de
 - pas possible de faire des actions dans les règles, sur les tableaux
+- mass edit (attention, supprime tout et recrée)
