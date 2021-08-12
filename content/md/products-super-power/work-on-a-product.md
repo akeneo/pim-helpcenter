@@ -205,6 +205,31 @@ We added the completeness of a record in the selector.
 You can open the record directly from the list: just click on the `Link` icon at the end of each record line and the record will open in a new tab.
 :::
 
+## Use a table attribute in your product sheets _(EE and GE only)_
+Once you've created a `table` attribute and added it to a product family, then you can add raws in each of these products.
+
+When arriving on a product sheet composed by a table attribute, this attribute is empty.
+1. The first thing to do is to `add raws`. You'll retrieve here, all the `options` you defined in the first column (configured in the [settings of this attribute](link-parameters-column)).
+2. Once the raws are added, then you can start enriching the table.
+
+:::info
+As for the other attribute types, a table can have different values depending on the channel and/or the locale. It means that, if you switch from a locale to another for instance, then you'll have to update the whole table in the other locale.
+:::
+
+### Use the table values to search for your products in the product grid
+Let's imagine you use the table attribute for your _ingredients_, and some of them contain _allergens_ (this information is hold by a `yes/no` column in your table).
+Then your table could looks like that:
+- a column called `ingredients` containing `sugar`, `butter`, `peanut`...
+- a column called `% per 100g`, where you'll put the percentage of each ingredient for 100 grams,
+- a column called `allergen`, where you'll select either `yes` or `no`.  
+
+Thanks to the product grid filters, you can easily find all the products with peanuts and allergen:
+1. Select the right table attribute as filter, i.e `ingredients`
+1. Select the column you want to search in, i.e `allergen`
+1. Select the right line you want to search in, i.e `peanut`
+1. Choose your operator (it depends on the column type), here we can choose `=`
+1. Choose or type the value you're searching for, i.e `yes`.
+
 # Compare product information from another locale and/or channel
 
 ## View product information from another locale and/or channel
