@@ -46,7 +46,7 @@ The tailored export profile is exactly like a regular product and product export
 * `History`: Display the modifications made by any user on your export profile.
 
 :::info
-To export the media, your export structure must include at least one source using an attribute like image, file or asset collection.
+To export the media, your export structure must include at least one source using an attribute like `Image`, `File` or `Asset collection`.
 :::
 
 :::warning
@@ -69,20 +69,20 @@ If no categories are selected, all products will be exported, including all unca
 In the `Export structure` tab, you can build the structure of your file.
 You need to create the columns of your file, name them & link them to your PIM attributes, system properties or association types in order for your export profile to be ready to be launched.
 
-To do so, please follow the steps below:
+To do this, please follow the steps below:
 1.  Add a first column by clicking on `Add first column`.
 ![Add first column](../img/TailoredExport_Add-first-column.png)  
     ::: tips
     If you want to add columns in bulk from an Excel file, you can copy all the columns header in your spreadsheet and paste them in the last column created, so that it creates automatically all your columns in your export.
-    ![Add columns un bulk](../img/TailoredExport_Add-columns-in-bulk.gif)
+    ![Add columns in bulk](../img/TailoredExport_Add-columns-in-bulk.gif)
     :::
 1.  Once your first column has been added, you can type its name in the field created.
 ![Name your columns](../img/TailoredExport_Column-headers.png)
-1.  Then, you need to add a source for each column, which means selecting an attribute, a system property or an Association type. To do so, please select the column you want, then, in the right panel, click on `Add source` and select any item from the list.  
+1.  Then, you need to add a source for each column, which means selecting an attribute, a system property or an Association type. To do this, please select the column you want, then, in the right panel, click on `Add source` and select any item from the list.  
     ::: info
     System properties are not set by default. Select only the system properties you need. You can choose: "Enabled", "Category", "Family", "Family variant", "Groups", "Parent" and your association types.
     :::
-1. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if your attribute has a value per locale or per channel, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available. For instance, you can choose between exporting the code or the label of the attribute option, and which separator (',', ';', '|') you want when applicable.
+1. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if your attribute has a value per locale or per channel, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available. For instance, you can choose between exporting the code or the label of the attribute option, and which separator (comma, semi-colon, pipe) you want, when applicable.
 ![Add a source](../img/TailoredExport_Add-source.gif)
 1.  Once you're done, click on `Save` in the top right corner.
 1.  You can now launch your export profile by cliking on `Export`.
@@ -100,8 +100,19 @@ Limitations have been set for each Tailored Export profile:
 You can use operations to share the most meaningful values for your stakeholders by adapting your PIM values in different ways when exporting them.
 
 Here are the different types of operations you can add when defining your sources:
-* `Boolean replacement`: Replace the default values of the boolean attribute with your own value. For now, this is only available for the `Enabled` system property
-* `Concatenate`: Concatenate different sources by displaying up to 4 of them per column
-* `Select labels`: Export the labels of your sources instead of the codes
+* `Boolean replacement`: Replace the default values of the boolean attribute with your own value. For now, this is only available for the `Enabled` system property.
+* `Concatenate`: Concatenate different sources by displaying up to 4 of them per column.
+* `Select labels`: Export the labels of your sources instead of the codes.
+* `Use default value when empty`: Define a default value when the source value is empty.
+
+<!--
+# Duplicate a tailored product export profile
+
+If you want to create another export profile based on an existing one, you can duplicate it.
+To do this, please follow the steps below:
+1. Select the export profile you would like to duplicate
+1. Click on `Edit`
+1. In the top right corner, click on the three dots "..." and select `Duplicate`
+-->
 
 We hope that you enjoy working with Tailored Export 101. A more advanced version will be released in the coming months, stay tuned!
