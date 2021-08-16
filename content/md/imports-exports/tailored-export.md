@@ -92,6 +92,7 @@ Limitations have been set for each Tailored Export profile:
 * Column headers must be unique
 * You can add up to 1,000 columns
 * You can add up to 4 sources in a single column
+<!-- * You can add up to 10 text separators within a concatenation operation.-->
 * Text fields are limited to 255 characters
 :::
 
@@ -101,9 +102,10 @@ You can use operations to share the most meaningful values for your stakeholders
 
 Here are the different types of operations you can add when defining your sources:
 * `Boolean replacement`: Replace the default values of the boolean attribute with your own value. For now, this is only available for the `Enabled` system property.
-* `Concatenate`: Concatenate different sources by displaying up to 4 of them per column.
+* `Concatenate`: Concatenate different sources by displaying up to 4 of them per column. <!-- Click on `Add text` to define a text separator of your choice.-->
 * `Select labels`: Export the labels of your sources instead of the codes.
 * `Use default value when empty`: Define a default value when the source value is empty.
+* `Conversion`: Convert a measurement unit into another one, within the same measurement family (only available for measurement attributes used as a source).
 
 <!--
 # Duplicate a tailored product export profile
@@ -115,4 +117,6 @@ To do this, please follow the steps below:
 1. In the top right corner, click on the three dots "..." and select `Duplicate`
 -->
 
+:::wink
 We hope that you enjoy working with Tailored Export 101. A more advanced version will be released in the coming months, stay tuned!
+:::
