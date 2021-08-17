@@ -107,7 +107,7 @@ It is possible to copy values from an attribute type to another attribute of the
 You can copy the values of a table attribute to another table, only if both tables share the exact same structure.
 :::
 
-And you can go even further.  It is possible to copy attribute values in another attribute value field even if they are two different types of values. :wink: There are some exceptions mind you! Check out the list below.
+And you can go even further. It is possible to copy attribute values in another attribute value field even if they are two different types of values. :wink: There are some exceptions mind you! Check out the list below.
 
 You can copy the given attribute to a selection of attribute types that we defined based on logical criteria:
 #### You can copy the option code of a **simple select** attribute to:
