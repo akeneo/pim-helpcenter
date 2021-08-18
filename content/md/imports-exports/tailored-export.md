@@ -85,7 +85,7 @@ To do this, please follow the steps below:
 1. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if your attribute has a value per locale or per channel, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available. For instance, you can choose between exporting the code or the label of the attribute option, and which separator (comma, semi-colon, pipe) you want, when applicable.
 ![Add a source](../img/TailoredExport_Add-source.gif)
 1.  Once you're done, click on `Save` in the top right corner.
-1.  You can now launch your export profile by cliking on `Export`.
+1.  You can now launch your export profile by clicking on `Export`.
 
 ::: warning
 Limitations have been set for each Tailored Export profile:
@@ -100,12 +100,12 @@ Limitations have been set for each Tailored Export profile:
 
 You can use operations to share the most meaningful values for your stakeholders by adapting your PIM values in different ways when exporting them.
 
-Here are the different types of operations you can add when defining your sources:
-* `Boolean replacement`: Replace the default values of the boolean attribute with your own value. For now, this is only available for the `Enabled` system property.
-* `Concatenate`: Concatenate different sources by displaying up to 4 of them per column. <!-- Click on `Add text` to define a text separator of your choice.-->
-* `Select labels`: Export the labels of your sources instead of the codes.
+Depending on the sources you define, here are the different types of operations you can add:
+* `Yes/No replacement`: Replace the default values with your own value (only available for the Yes/No attribute or the enabled system property).
 * `Use default value when empty`: Define a default value when the source value is empty.
-* `Conversion`: Convert a measurement unit into another one, within the same measurement family (only available for measurement attributes used as a source).
+<!--* `Conversion`: Convert measurement units within the same measurement family (only available for measurement attributes used as a source).-->
+* `Selection`: Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more...
+* `Concatenate`: Concatenate different sources by displaying up to 4 per column. <!-- Click on `Add text` to add more details and create a separation between sources.-->
 
 <!--
 # Duplicate a tailored product export profile
