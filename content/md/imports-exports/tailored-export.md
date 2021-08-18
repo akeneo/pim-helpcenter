@@ -117,6 +117,6 @@ To do this, please follow the steps below:
 1. In the top right corner, click on the three dots "..." and select `Duplicate`
 -->
 
-:::wink
+:::tips
 We hope that you enjoy working with Tailored Export 101. A more advanced version will be released in the coming months, stay tuned!
 :::
