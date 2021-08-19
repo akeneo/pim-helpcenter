@@ -82,8 +82,8 @@ Each attribute has specific properties to add more control on attribute's values
   - *Reference data type*: choose an existing reference data value to link to your attribute
 - **Asset collection attribute _(Enterprise Edition only)_**:
   - *Related asset family*: the asset family linked to this attribute
-- **Table attribute _(Enterprise and Growth Editions only)_**: depending on you column types, there can be several validation parameters:
-  - `text` column type: *Maximum number of characters* (it must be lower than 100 characters)
+- **Table attribute _(Enterprise and Growth Editions only)_**: depending on your column types, there can be several validation parameters:
+  - `text` column type: *Maximum number of characters* (it must be less than 100 characters)
   - `number` column type:   
     - *Allow decimals*
     - *Minimum value*: the smallest allowed value
