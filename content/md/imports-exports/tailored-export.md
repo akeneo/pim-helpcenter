@@ -109,7 +109,7 @@ Depending on the sources you define, here are the different types of operations 
 * `Selection`: Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more...
 ![Selection](../img/TailoredExport_Operation_Selection.png)
 * `Concatenate`: Concatenate different sources by displaying up to 4 per column. <!-- Click on `Add text` to add more details and create a separation between sources.-->
-![Concatenate](../img/TailoredExport_Operation_Concatenate.gif.gif)
+![Concatenate](../img/TailoredExport_Operation_Concatenate.gif)
 
 <!--
 # Duplicate a tailored product export profile
