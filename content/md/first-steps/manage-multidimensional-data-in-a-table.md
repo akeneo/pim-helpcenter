@@ -22,10 +22,10 @@ This attribute type is available in the _Growth Edition_ and in the _Enterprise 
 As for the other attribute types, you can create a Table by clicking on `Settings`, `Attributes`, `Create attribute`. Then, click on `Table` and choose among our **templates**.
 
 :::info
-These templates are here to guide you. They are only **presentation suggestions** and can be modified if they don't match your exact needs. If you prefere to create your table from scratch, then choose the `Empty table` template.
+These templates are here to guide you. They are only **presentation suggestions** and can be modified if they don't match your exact needs. If you prefer to create your table from scratch, then choose the `Empty table` template.
 :::
 
-Once the template is selected, then a popin appears, asking you to choose a `code`, a `label`, and sometimes a `standard`, depending on the template you just chose.
+Once the template is selected, a pop-in appears, asking you to choose a `code`, a `label`, and sometimes a `standard`, depending on the template you just chose.
 
 >image
 
@@ -43,7 +43,7 @@ Finally, you are also free to **delete** each column, by clicking on the trashca
 
 ## Let's discover the table attribute's particularities
 
-We've defined several rules to structure a table attribute, in order to benefit from the power of the PIM and from the "Akeneo logic".
+We've defined several rules to structure a table attribute, in order to leverage the power of the PIM and the "Akeneo logic".
 
 ### A table must contain at least 2 columns.
 Each column is defined by a `code`, a `label`, and a `type`. The label can be translated into your catalog locales.
@@ -101,7 +101,7 @@ In this tab, we track the activity on your attribute such as:
 ## Import/export the table structure
 
 ### Import/export the columns
-You can import/export a table attribute the same way as the other attribute types, by using the `attribute import` or `attribute export` profiles. But, the structure of your table (a.k.a, the columns of your table) must be written in a JSON format, and inserted in the dedicated column of your import/export file, called `table_configuration`.
+You can import/export a table attribute the same way as the other attribute types, by using the `attribute import` or `attribute export` profiles. But, the structure of your table (i.e, the columns of your table) must be written in a JSON format, and inserted in the dedicated column of your import/export file, called `table_configuration`.
 
 :::tips
 We are aware that this JSON format is not ideal, but there is no other easy way to proceed as of today. That's why, if you need to make some changes via flat files, we advise you to export your attributes first, fix what you need to fix, and re-import it.
