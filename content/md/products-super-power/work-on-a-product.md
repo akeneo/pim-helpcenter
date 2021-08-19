@@ -206,18 +206,17 @@ You can open the record directly from the list: just click on the `Link` icon at
 :::
 
 ## Use a table attribute in your product sheets _(EE and GE only)_
-Once you've created a `table` attribute and added it to a product family, then you can add raws in each of these products.
-
+Once you've created a `table` attribute and you've added it to a product family, you can add rows to each of these products.
 When arriving on a product sheet composed by a table attribute, this attribute is empty.
-1. The first thing to do is to `add raws`. You'll retrieve here, all the `options` you defined in the first column (configured in the [settings of this attribute](link-parameters-column)).
-2. Once the raws are added, then you can start enriching the table.
+1. The first thing to do is to `add rows`. The `options` you defined in the first column are available here (configured in the [settings of this attribute](link-parameters-column)).
+2. Once the rows are added, then you can start enriching the table.
 
 :::info
 As for the other attribute types, a table can have different values depending on the channel and/or the locale. It means that, if you switch from a locale to another for instance, then you'll have to update the whole table in the other locale.
 :::
 
 ### Use the table values to search for your products in the product grid
-Let's imagine you use the table attribute for your _ingredients_, and some of them contain _allergens_ (this information is hold by a `yes/no` column in your table).
+Let's assume you use the table attribute for your _ingredients_, and some of them contain _allergens_ (this information is stored in a `yes/no` column in your table).
 Then your table could looks like that:
 - a column called `ingredients` containing `sugar`, `butter`, `peanut`...
 - a column called `% per 100g`, where you'll put the percentage of each ingredient for 100 grams,
