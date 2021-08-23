@@ -1,6 +1,6 @@
 ---
-pim_announcement_img:  IMG.png
-pim_announcement_alt_img: ALT TAG
+pim_announcement_img: ./img/revamped-category-settings-screen.png
+pim_announcement_alt_img: "ALT TAG"
 pim_announcement_audience:
 - EE
 - CE
