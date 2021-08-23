@@ -79,6 +79,11 @@ During the installation, the App will ask you to authorize it to access some par
 When the following page appears in your PIM, please read the list of all required authorizations, then click on `Allow`.
 If you made a mistake or don't want the App to read or edit data in your PIM, you can abort the installation process by clicking on `Cancel`. 
 
+### No specific authorizations have been requested
+If you see the following screen, that means the App needs no specific authorization. However, it will be able to: 
+get the list of all API endpoints, which is also available on api.akeneo.com,
+get your system information. That means the App will be able to retrieve your PIM version and edition.
+
 ## Only for EE customers - Permission steps
 As you use the Enterprise Edition, your PIM has a permission management system. In addition to authorizations, the App needs permissions. 
 
@@ -94,3 +99,12 @@ To ease the permission settings, we display only category trees that exist in yo
 
 ### Attribute groups
 <!-- TODO -->
+
+
+
+Well done! Your App can now interact with your PIM. 
+
+::: warn
+The App may require some more configuration. 
+Check the App interface or documentation to assure you forgot anything. 
+:::
