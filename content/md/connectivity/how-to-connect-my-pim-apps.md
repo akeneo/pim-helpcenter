@@ -66,3 +66,31 @@ To do so, you have to:
 If you don't have any activation link yet, please click on `More info` and contact the App developer to get all the information.
 :::
 
+
+# The App requires some authorizations
+
+To interact with your PIM, any App needs some authorization and permissions. This is why we created the `Authorization wizard`. 
+
+This wizard contains either one step (CE or GE) or three steps (EE only). 
+
+## All editions - Authorization step
+During the installation, the App will ask you to authorize it to access some parts of your PIM: catalog structure, products, assets, reference entities, etc. 
+
+When the following page appears in your PIM, please read the list of all required authorizations, then click on `Allow`.
+If you made a mistake or don't want the App to read or edit data in your PIM, you can abort the installation process by clicking on `Cancel`. 
+
+## Only for EE customers - Permission steps
+As you use the Enterprise Edition, your PIM has a permission management system. In addition to authorizations, the App needs permissions. 
+
+As you may know, the Akeneo PIM permission system works on three axes: categories, locales, and attribute groups.
+
+### Categories
+To ease the permission settings, we display only category trees that exist in your PIM. 
+
+<!-- add information about permission levels --> 
+
+### Locales 
+<!-- TODO -->
+
+### Attribute groups
+<!-- TODO -->
