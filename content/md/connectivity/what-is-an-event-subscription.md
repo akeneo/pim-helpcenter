@@ -4,7 +4,7 @@ themes: connectivity, import-export-data
 title: What is an **event subscription**?
 popular: true
 ee: false
-related: manage-event-subscription, how-to-connect-my-pim, manage-your-connections
+related: manage-event-subscription, how-to-connect-my-pim-legacy, manage-your-connections
 ---
 
 # Introduction

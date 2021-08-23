@@ -4,7 +4,7 @@ themes: connectivity
 title: Manage your **connections**
 popular: false
 ee: false
-related: what-is-a-connection, how-to-connect-my-pim, connection-dashboard, what-is-an-event-subscription
+related: what-is-a-connection, how-to-connect-my-pim-legacy, connection-dashboard, what-is-an-event-subscription
 ---
 
 ::: info
@@ -32,7 +32,7 @@ There is no connection declared here yet? Discover [what a connection is here](w
 
 # Create a connection
 
-To [connect your PIM](how-to-connect-my-pim.html) to a third-party solution, you will need to create a connection.
+To [connect your PIM](how-to-connect-my-pim-legacy.html) to a third-party solution, you will need to create a connection.
 
 ::: info
 You can create up to 50 connections. :rocket:

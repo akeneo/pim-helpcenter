@@ -14,7 +14,7 @@ Here is how this new filter looks like:
 
 ::: more
 [Why should you use the API to connect your PIM?](https://api.akeneo.com/documentation/why-the-api.html)  
-[How to connect the PIM?](../articles/how-to-connect-my-pim.html)  
+[How to connect the PIM?](../articles/how-to-connect-my-pim-legacy.html)  
 [What is data quality?](../articles/understand-data-quality.html)  
 [What is the quality score?](../articles/understand-data-quality.html#how-is-the-quality-score-calculated)
 :::
