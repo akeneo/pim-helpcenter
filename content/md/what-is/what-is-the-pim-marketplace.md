@@ -4,7 +4,7 @@ themes: akeneo-concepts, connectivity
 title: What is the **PIM Marketplace**?
 popular: false
 ee-only: false
-related: how-to-connect-my-pim, connection-dashboard, manage-your-connections
+related: how-to-connect-my-pim-apps, connection-dashboard, manage-your-connections
 ---
 
 # Connect your PIM from Akeneo Marketplace
