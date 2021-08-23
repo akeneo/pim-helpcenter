@@ -17,6 +17,8 @@ For instance, let's assume your retailers or distributors need the same product 
 Previously, you had to export your product information thanks to a regular product export profile, and manually modify your spreadsheet to reorder the columns, change their name, convert the measurements, for as many retailers and distributors that needed it.
 Now, prepare the work from Akeneo PIM creating a Tailored Export profile per your retailer's or distributor's requirements and use it as often as necessary. **You no longer need to manually edit your flat files as soon as you need to share product information.**
 
+![Tailored Export - Structure](../img/TailoredExport_Structure.png)
+
 ::: more
 [Export your data](../articles/exports.html)
 :::
