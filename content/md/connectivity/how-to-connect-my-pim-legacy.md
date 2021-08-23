@@ -1,10 +1,17 @@
 ---
 id: how-to-connect-my-pim-legacy
 themes: connectivity, import-export-data
+<<<<<<< HEAD
 title: How to **connect** my PIM (legacy)?
 popular: true
 ee: false
 related: what-is-a-connection, manage-your-connections, connection-dashboard, what-is-the-pim-marketplace, what-is-an-event-subscription
+=======
+title: How to connect my PIM? (legacy)
+popular: false
+ee-only: false
+related: what-is-a-connection, manage-your-connections, connection-dashboard, what-is-an-event-subscription
+>>>>>>> 467e5592 (remove what's the marketplace + how to connect with Apps (first version))
 ---
 
 # Meet the "Connect" menu
