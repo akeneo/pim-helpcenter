@@ -17,6 +17,16 @@ Now, prepare the work from Akeneo PIM creating a Tailored Export profile per you
 
 ![Tailored Export - Structure](../img/TailoredExport_Structure.png)
 
+In this release, you'll be able to:
+* Name your columns & to reorder them
+* Add system properties (groups, associations, parent, family, category etc.)
+* Select any category (not only linked to a channel)
+* Concatenate (up to 4 sources in one column)
+* Paste headers from a spreadsheet to create your columns
+* Search for a column
+* Replace the values for the Yes/No attribute
+* Use default value when empty
+
 ::: more
 [Export your data](../articles/exports.html)
 :::
