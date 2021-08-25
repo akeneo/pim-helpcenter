@@ -9,13 +9,13 @@ related: exports, monitor-jobs, access-rights-on-imports-exports
 
 # Overview
 
-This feature consists in a new export profile, available only for our Enterprise Edition or Growth Edition users.
-It helps you to export your product information in flat files, with your own structure.
+This feature consists in a new export profile, available only for our Enterprise Edition <!-- or Growth Edition--> users.
+It helps you to export your product information in flat files, with your own structure.  
 For instance, let's assume your retailers or distributors need the same product information from you, but they want different structures:  
 * Retailer A wants an export with columns named: "Identifier", "Product Name", "Description", and "Weight (Ounces)".
 * Retailer B wants an export with columns named: "Name in French", "Name in English", "Description 1", "ID", and "Weight (Kilograms)".  
 
-Previously, you had to export your product information thanks to a regular product export profile, and manually modify your spreadsheet to reorder the columns, change their name, convert the measurements, for as many retailers and distributors that needed it.
+Previously, you had to export your product information thanks to a regular product export profile, and manually modify your spreadsheet to reorder the columns, change their name, convert the measurements, for as many retailers and distributors that needed it.  
 Now, prepare the work from Akeneo PIM creating a Tailored Export profile per your retailer's or distributor's requirements and use it as often as necessary. **You no longer need to manually edit your flat files as soon as you need to share product information.**
 
 # Create a tailored product export profile
@@ -89,11 +89,11 @@ To do this, please follow the steps below:
 
 ::: warning
 Limitations have been set for each Tailored Export profile:
-* Column headers must be unique
-* You can add up to 1,000 columns
-* You can add up to 4 sources in a single column
-<!-- * You can add up to 10 text separators within a concatenation operation.-->
-* Text fields are limited to 255 characters
+* Column headers must be unique.
+* You can add up to 1,000 columns.
+* You can add up to 4 sources in a single column.
+* You can add up to 10 text separators within a concatenation operation.
+* Text fields are limited to 255 characters.
 :::
 
 # Discover operations
@@ -108,7 +108,7 @@ Depending on the sources you define, here are the different types of operations 
 ![Use default value when empty](../img/TailoredExport_Operation_UseDefaultValueWhenEmpty.png)
 * `Selection`: Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more...
 ![Selection](../img/TailoredExport_Operation_Selection.png)
-* `Concatenate`: Concatenate different sources by displaying up to 4 per column. <!-- Click on `Add text` to add more details and create a separation between sources.-->
+* `Concatenate`: Concatenate different sources by displaying up to 4 per column. Click on `Add text` to add more details and create a separation between sources.
 ![Concatenate](../img/TailoredExport_Operation_Concatenate.gif)
 
 <!--
