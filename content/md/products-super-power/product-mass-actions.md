@@ -271,10 +271,6 @@ To delete multiple products:
 ![Confirm delete](../img/Products_BulkActionUppermenuDelete2.png)
 
 :::info
-Due to safety reasons, **you cannot remove more than 1000 products at a time.**
-:::
-
-:::info
 You can also mass delete [product models](what-about-products-variants.html#what-is-a-product-model). **If you delete product models, all their children (product models and variant products) are also deleted.**
 :::
 
