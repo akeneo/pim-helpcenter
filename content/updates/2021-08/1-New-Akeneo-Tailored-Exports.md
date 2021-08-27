@@ -1,4 +1,6 @@
 ---
+pim_announcement_img: ./img/TailoredExport_Structure.png
+pim_announcement_alt_img: "Tailored Exports"
 pim_announcement_audience:
 - EE
 - CE
