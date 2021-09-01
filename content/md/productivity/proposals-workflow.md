@@ -3,6 +3,7 @@ id: proposals-workflow
 themes: boost-your-productivity, collaborative-work
 title: Workflow & **proposals**
 ee-only: true
+ge-only: false
 related: review-products-proposals, build-your-user-groups, what-is-a-user-group, access-rights-on-products
 ---
 

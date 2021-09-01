@@ -4,6 +4,7 @@ themes: user-management
 title: How to **troubleshoot** the Single Sign-On
 popular: false
 ee-only: true
+ge-only: false
 related: configure-saml-sso
 priority: low
 ---

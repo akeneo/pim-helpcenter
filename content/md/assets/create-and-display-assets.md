@@ -4,6 +4,7 @@ themes: manage-your-assets,
 title: "**Create and display** assets"
 popular: false
 ee-only: true
+ge-only: false
 related: work-on-your-assets
 ---
 

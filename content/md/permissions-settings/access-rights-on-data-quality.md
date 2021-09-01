@@ -4,6 +4,7 @@ themes: permissions-settings
 title: Set rights on **data quality**
 popular: false
 ee-only: true
+ge-only: false
 related: understand-data-quality, improve-data-quality, manage-data-quality
 ---
 

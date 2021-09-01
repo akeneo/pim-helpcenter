@@ -4,6 +4,7 @@ themes: permissions-settings, manage-your-assets
 title: Set rights on your **asset families**
 popular: false
 ee-only: true
+ge-only: false
 related: what-about-assets, manage-your-assets, build-your-user-groups
 ---
 

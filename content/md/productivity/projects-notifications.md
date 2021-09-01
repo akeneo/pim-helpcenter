@@ -4,6 +4,7 @@ themes: boost-your-productivity
 title: Understand your project **notifications**
 popular: false
 ee-only: true
+ge-only: false
 ---
 
 # Overview

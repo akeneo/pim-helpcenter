@@ -4,6 +4,7 @@ themes: permissions-settings, manage-your-reference-entities
 title: Set rights on your **reference entities**
 popular: false
 ee-only: true
+ge-only: false
 related: what-about-reference-entities, manage-your-reference-entities, build-your-user-groups
 ---
 

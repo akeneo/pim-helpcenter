@@ -4,6 +4,7 @@ themes: products-super-power
 title: Restore a **previous product version**
 popular: false
 ee-only: true
+ge-only: false
 ---
 
 # Some concrete use cases

@@ -4,6 +4,7 @@ themes: boost-your-productivity, collaborative-work
 title: Discover the **project widget** in the dashboard
 popular: false
 ee-only: true
+ge-only: false
 ---
 
 # Display key figures

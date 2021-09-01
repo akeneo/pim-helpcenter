@@ -4,6 +4,7 @@ themes: import-export-data
 title: Tailored export - **customize your product information exports**
 popular: false
 ee-only: true
+ge-only: true
 related: exports, monitor-jobs, access-rights-on-imports-exports
 ---
 

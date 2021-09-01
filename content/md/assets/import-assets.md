@@ -4,6 +4,7 @@ themes: administration, manage-your-assets
 title: "**Import** your assets"
 popular: true
 ee-only: true
+ge-only: false
 related: imports, work-on-your-assets
 ---
 

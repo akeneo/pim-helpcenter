@@ -4,6 +4,7 @@ themes: products-super-power
 title: Manage **publishing**
 popular: false
 ee-only: true
+ge-only: false
 related: publish-workflow, work-on-a-product
 ---
 

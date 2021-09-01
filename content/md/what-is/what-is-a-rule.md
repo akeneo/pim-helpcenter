@@ -4,6 +4,7 @@ themes: boost-your-productivity, akeneo-concepts
 title: What is a **rule**?
 popular: false
 ee-only: true
+ge-only: false
 related: manage-your-rules
 ---
 

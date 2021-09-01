@@ -4,6 +4,7 @@ themes: administration, manage-your-assets
 title: "**Export** your assets"
 popular: true
 ee-only: true
+ge-only: false
 related: exports, work-on-your-assets
 ---
 

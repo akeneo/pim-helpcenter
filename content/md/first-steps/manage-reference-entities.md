@@ -4,6 +4,7 @@ themes: catalog-settings, manage-your-reference-entities
 title: Manage your **reference entities**
 popular: false
 ee-only: true
+ge-only: false
 related: what-about-reference-entities, enrich-your-reference-entity-records
 ---
 

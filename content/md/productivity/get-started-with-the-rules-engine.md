@@ -4,6 +4,7 @@ themes: boost-your-productivity, catalog-settings
 title: Get started with the **rules engine**
 popular: false
 ee-only: true
+ge-only: false
 related: what-is-a-rule
 ---
 

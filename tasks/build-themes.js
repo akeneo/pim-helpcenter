@@ -29,7 +29,8 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
                             var id = file.fm['id'] == undefined ? '' : file.fm['id'];
                             var themes = file.fm['themes'] == undefined ? '' : file.fm['themes'].split(',');
                             var title = file.fm['title'] == undefined ? '' : file.fm['title'];
-                            var eeOnly = file.fm['ee-only'] == undefined ? '' : file.fm['ee-only'];
+                            var eeOnly = file.fm['ee-only'] == undefined ? false : file.fm['ee-only'];
+                            var eeAndGeOnly = file.fm['ge-only'] == undefined ? false : file.fm['ge-only'];
                             // One article should have at list an id and be in one theme to be displayed on the Themes page
                             if(id && themes){
                                 themes.forEach(function(theme){
@@ -39,7 +40,8 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
                                         var article = {
                                             articleName: titleWithBold,
                                             articlePath: id + '.html',
-                                            eeOnly: eeOnly
+                                            eeOnly: eeOnly,
+                                            eeAndGeOnly: eeAndGeOnly
                                         };
                                         if(personaThemes[trimmedTheme].articles){
                                             personaThemes[trimmedTheme].articles.push(article);

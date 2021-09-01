@@ -4,6 +4,7 @@ themes: products-super-power
 title: Product **publication**, the "2 versions/1 product" feature
 popular: false
 ee-only: true
+ge-only: false
 related: how-to-manage-my-publications, products-associations
 ---
 

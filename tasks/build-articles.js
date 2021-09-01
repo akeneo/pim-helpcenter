@@ -27,7 +27,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
 
     return gulp.src('content/md/**/*.md')
         .pipe(flatmap(function(stream, file){
-            var id, themes, title, eeOnly, titleWithBold, relatedArticlesId, relatedArticles;
+            var id, themes, title, eeOnly, eeAndGeOnly, titleWithBold, relatedArticlesId, relatedArticles;
             // This first stream go through all Markdown articles and retrieve the information
             // from their header such as their id, title, themes and related articles
             // It also removes the header from the Markdown file, convert it into HTML and finally,
@@ -38,7 +38,8 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                     id = file.fm['id'] == undefined ? '' : file.fm['id'];
                     themes = file.fm['themes'] == undefined ? '' : file.fm['themes'].split(',');
                     title = file.fm['title'] == undefined ? '' : file.fm['title'];
-                    eeOnly = file.fm['ee-only'] == undefined ? '' : file.fm['ee-only'];
+                    eeOnly = file.fm['ee-only'] == undefined ? false : file.fm['ee-only'];
+                    eeAndGeOnly = file.fm['ge-only'] == undefined ? false : file.fm['ge-only'];
                     titleWithBold = title.replace(/\*\*/, '<strong>').replace(/\*\*/, '</strong>');
                     title = title.replace(/\*\*/, '').replace(/\*\*/, '');
                     relatedArticlesId = file.fm['related'] == undefined ? '' : file.fm['related'].split(',');
@@ -47,7 +48,6 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                 .pipe(insert.prepend(getTocMarkdown(path.basename(file.path)) + "\n"))
                 .pipe(gulpMarkdownIt(md))
                 .pipe(gulp.dest('tmp/'));
-
             // When the previous stream is finished, we launch the second stream
             // that also go through all articles again, but this time to find the information regarding
             // the related articles of one given article
@@ -65,7 +65,8 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                                         var article = {
                                             articleName: relatedArticleTitle.replace(/\*\*/, '<strong>').replace(/\*\*/, '</strong>'),
                                             articlePath: articleId + '.html',
-                                            eeOnly: file.fm['ee-only'] == undefined ? '' : file.fm['ee-only']
+                                            eeOnly: file.fm['ee-only'] == undefined ? false : file.fm['ee-only'],
+                                            eeAndGeOnly: file.fm['ge-only'] == undefined ? false : file.fm['ge-only']
                                         };
                                         if(relatedArticles){
                                             relatedArticles.push(article);
@@ -87,6 +88,7 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                             title: title,
                             titleWithBold: titleWithBold,
                             eeOnly: eeOnly,
+                            eeAndGeOnly: eeAndGeOnly,
                             relatedArticles: relatedArticles,
                             mainContent: fs.readFileSync('tmp/' + fileName),
                             filePath: 'articles/' + id + '.html',

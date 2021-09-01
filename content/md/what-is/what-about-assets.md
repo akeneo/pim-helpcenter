@@ -4,6 +4,7 @@ themes: first-steps, manage-your-assets
 title: What about **assets**?
 popular: true
 ee-only: true
+ge-only: false
 related: manage-assets, enrich-your-assets
 ---
 

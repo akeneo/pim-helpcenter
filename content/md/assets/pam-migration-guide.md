@@ -3,6 +3,7 @@ id: pam-migration-guide
 title: The **migration guide** to migrate your PAM assets in 4.0
 popular: false
 ee-only: true
+ge-only: false
 related: from-PAM-to-new-AM
 ---
 
