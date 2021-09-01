@@ -30,7 +30,9 @@ exports.announcements = functions.region('us-central1').https.onRequest(async (r
     const collectionName = request.query.collection_name_suffix === undefined ? defaultCollectionName : defaultCollectionName + request.query.collection_name_suffix;
     const collection = admin.firestore().collection(collectionName);
 
-    const audience = request.query.pim_edition === 'Serenity' ? request.query.pim_edition : request.query.pim_edition + '-' + request.query.pim_version;
+    const audience = request.query.pim_edition === 'Serenity' || request.query.pim_edition === 'Growth Edition' ?
+        request.query.pim_edition :
+        request.query.pim_edition + '-' + request.query.pim_version;
 
     let query = collection
         .where('audience', 'array-contains', audience)
@@ -105,7 +107,9 @@ exports.new_announcements = functions.region('us-central1').https.onRequest(asyn
     const day = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(currentDate);
     const formattedCurrentDate = year + '-' + month + '-' + day;
 
-    const audience = request.query.pim_edition === 'Serenity' ? request.query.pim_edition : request.query.pim_edition + '-' + request.query.pim_version;
+    const audience = request.query.pim_edition === 'Serenity' || request.query.pim_edition === 'Growth Edition' ?
+        request.query.pim_edition :
+        request.query.pim_edition + '-' + request.query.pim_version;
 
     collection
         .where('audience', 'array-contains', audience)
