@@ -41,8 +41,8 @@ The tailored export profile is exactly like a regular product and product export
 * `Properties`: Define the label of your export profile
 * `Permissions`: Set permissions to allow specific user groups to execute or edit your export profile (Enterprise Edition only).
 * `Global settings`: Define the maximum number of lines per file you want, if you want to export the media (this will generate a file archive when exporting), the field delimiter (CSV format only) and the field enclosure character (CSV format only).
-* `Product selection`: Use the provided filters to decide which products will be exported (see [Focus on "Product selection" section](tailored-export.html#focus-on-product-selection-section)").
-* `Export structure`: Build your export structure (see [Focus on "Export structure" section](tailored-export.html#focus-on-export-structure)").
+* `Product selection`: Use the provided filters to decide which products will be exported (read how to [define your product selection](tailored-export.html#define-your-product-selection)).
+* `Export structure`: Build your export structure (read how to [define your export structure](tailored-export.html#define-your-export-structure)).
 * `History`: Display the modifications made by any user on your export profile.
 
 :::info
