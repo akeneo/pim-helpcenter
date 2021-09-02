@@ -96,6 +96,15 @@ In the `Global settings` tab, properties depend on the import job. For example, 
 If a user has no rights granted to modify an import profile due to his role(s), then the permissions which he may benefit due to his user group(s) _(EE only)_ will not be applied. For instance, if a user does not have the `Edit profiles of imports` permission, his Enterprise Edition rights to edit a specific import profile will be ignored.
 :::
 
+# Duplicate an import profile
+
+If you want to create another import profile based on an existing one, you can duplicate it.
+To do this, please follow the steps below:
+1. Select the export profile you would like to duplicate
+1. Click on `Edit`
+1. In the top right corner, click on the three dots "..." and select `Duplicate`
+1. Write a label and a code then click on `Save`
+
 # Run an import
 
 ## How to
