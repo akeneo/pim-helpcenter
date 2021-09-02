@@ -104,8 +104,9 @@ Depending on the sources you define, here are the different types of operations 
 * `Yes/No replacement`: Replace the default values with your own value (only available for the "Yes/No" attribute or the "Enabled" system property).
 ![Yes/No replacement](../img/TailoredExport_Operation_Boolean_Replacement.png)
 * `Use default value when empty`: Define a default value when the source value is empty.
-* `Conversion`: Convert measurement units within the same measurement family (only available for measurement attributes used as a source).
 ![Use default value when empty](../img/TailoredExport_Operation_UseDefaultValueWhenEmpty.png)
+* `Conversion`: Convert measurement units within the same measurement family (only available for measurement attributes used as a source).
+![Conversion](../img/TailoredExport_Operation_Conversion.png)
 * `Selection`: Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more...
 ![Selection](../img/TailoredExport_Operation_Selection.png)
 * `Concatenate`: Concatenate different sources by displaying up to 4 per column. Click on `Add text` to add more details and create a separation between sources.
@@ -118,6 +119,7 @@ To do this, please follow the steps below:
 1. Select the export profile you would like to duplicate
 1. Click on `Edit`
 1. In the top right corner, click on the three dots "..." and select `Duplicate`
+1. Write a label and a code then click on `Save`
 
 
 :::tips
