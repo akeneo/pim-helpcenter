@@ -3,7 +3,8 @@ id: access-rights-on-products
 themes: permissions-settings
 title: Set rights on your **catalog**
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: what-is-a-user-group, what-is-a-user, build-your-user-groups
 priority: low
 ---

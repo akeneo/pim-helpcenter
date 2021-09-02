@@ -3,7 +3,7 @@ id: exports
 themes: import-export-data
 title: "**Export** your data"
 popular: false
-ee-only: false
+ee: false
 related: monitor-jobs, product-export-builder, access-rights-on-imports-exports, imports
 ---
 

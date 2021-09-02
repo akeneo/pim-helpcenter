@@ -3,7 +3,8 @@ id: what-is-a-rule
 themes: boost-your-productivity, akeneo-concepts
 title: What is a **rule**?
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: manage-your-rules
 ---
 

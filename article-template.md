@@ -1,8 +1,9 @@
 ---
-id: 
-themes: 
-title: 
-popular: 
-ee-only:
-related: 
+id:
+themes:
+title:
+popular:
+ee:
+ge:
+related:
 ---

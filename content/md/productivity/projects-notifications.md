@@ -3,7 +3,8 @@ id: projects-notifications
 themes: boost-your-productivity
 title: Understand your project **notifications**
 popular: false
-ee-only: true
+ee: true
+ge: false
 ---
 
 # Overview

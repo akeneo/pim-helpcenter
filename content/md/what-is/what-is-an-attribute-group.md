@@ -3,7 +3,7 @@ id: what-is-an-attribute-group
 themes: akeneo-concepts
 title: What is an **attribute group**?
 popular: false
-ee-only: false
+ee: false
 related: manage-your-attribute-groups
 ---
 

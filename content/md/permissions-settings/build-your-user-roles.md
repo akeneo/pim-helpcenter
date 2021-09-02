@@ -3,7 +3,7 @@ id: build-your-user-roles
 themes: permissions-settings
 title: Build your **user roles**
 popular: false
-ee-only: false
+ee: false
 related: manage-the-interface-and-actions-accesses, manage-the-web-api-permissions, what-is-a-role, what-is-a-user
 ---
 

@@ -45,6 +45,10 @@
     "require-dir": "0.3.2"
   },
   "scripts": {
-    "test": "jest --runInBand --detectOpenHandles"
+    "test": "jest --runInBand --detectOpenHandles",
+    "start": "gulp serve"
+  },
+  "engines": {
+    "node": ">=0.10.0 <12"
   }
 }

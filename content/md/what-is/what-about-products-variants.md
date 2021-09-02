@@ -3,7 +3,7 @@ id: what-about-products-variants
 themes: first-steps, products-super-power
 title: What about products with **variants**?
 popular: true
-ee-only: false
+ee: false
 related: enrich-products-variants, manage-your-families, create-a-product
 ---
 

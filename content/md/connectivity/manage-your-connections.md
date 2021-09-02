@@ -3,7 +3,7 @@ id: manage-your-connections
 themes: connectivity
 title: Manage your **connections**
 popular: false
-ee-only: false
+ee: false
 related: what-is-a-connection, how-to-connect-my-pim, connection-dashboard, what-is-an-event-subscription
 ---
 

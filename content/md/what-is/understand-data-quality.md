@@ -3,7 +3,7 @@ id: understand-data-quality
 themes: first-steps
 title: Understand **data quality**
 popular: false
-ee-only: false
+ee: false
 related: improve-data-quality, manage-data-quality, access-rights-on-data-quality
 ---
 

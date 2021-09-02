@@ -9,7 +9,13 @@
             <div class="col-xs-12">
                 <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / {{{titleWithBold}}}</p>
                 <h1 class="article-title docSearch-mainTitle">{{{titleWithBold}}}</h1>
-                {{#if eeOnly}}<p class="small"><em>Only available in our <a href="https://www.akeneo.com/akeneo-pim/?source=akeneo-help">Entreprise Edition</a></em></p>{{/if}}
+                {{#if eeOnly}}
+                    {{#if eeAndGeOnly}}
+                        <p class="small"><em>Available in our <a href="https://www.akeneo.com/akeneo-pim/?source=akeneo-help">Entreprise Edition</a> & <a href="https://www.akeneo.com/akeneo-pim-growth-edition/">Growth Edition</a></em></p>
+                    {{else}}
+                        <p class="small"><em>Only available in our <a href="https://www.akeneo.com/akeneo-pim/?source=akeneo-help">Entreprise Edition</a></em></p>
+                    {{/if}}
+                {{/if}}
             </div>
             {{{mainContent}}}
         </div>
@@ -21,7 +27,15 @@
                         <div class="row">
                             {{#each relatedArticles}}
                                 <div class="col-md-6">
-                                    <p {{#if eeOnly}}class="label-ee"{{/if}}><a href="{{articlePath}}">{{{articleName}}} ></a></p>
+                                    <p
+                                        {{#if eeOnly}}
+                                            {{#if eeAndGeOnly}}
+                                                class="label-ee-ge"
+                                            {{else}}
+                                                class="label-ee"
+                                            {{/if}}
+                                        {{/if}}
+                                    ><a href="{{articlePath}}">{{{articleName}}} ></a></p>
                                 </div>
                             {{/each}}
                         </div>

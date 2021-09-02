@@ -4,7 +4,7 @@ themes: products-super-power, boost-your-productivity
 
 title: "**Bulk actions** on products"
 popular: false
-ee-only: false
+ee: false
 related: sequential-edit
 ---
 

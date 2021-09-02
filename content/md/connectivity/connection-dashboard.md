@@ -3,7 +3,7 @@ id: connection-dashboard
 themes: connectivity, import-export-data
 title: Monitor your third-party **connections**
 popular: false
-ee-only: false
+ee: false
 related: what-is-a-connection, how-to-connect-my-pim, manage-your-connections
 ---
 

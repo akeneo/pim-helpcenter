@@ -3,7 +3,7 @@ id: imports
 themes: import-export-data, catalog-settings
 title: "**Import** your data"
 popular: false
-ee-only: false
+ee: false
 related: monitor-jobs, access-rights-on-imports-exports, exports
 ---
 

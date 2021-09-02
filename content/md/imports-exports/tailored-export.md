@@ -3,7 +3,8 @@ id: tailored-export
 themes: import-export-data
 title: Tailored export - **customize your product information exports**
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: exports, monitor-jobs, access-rights-on-imports-exports
 ---
 

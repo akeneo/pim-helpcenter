@@ -3,7 +3,7 @@ id: how-to-connect-my-pim
 themes: connectivity, import-export-data
 title: How to **connect** my PIM?
 popular: true
-ee-only: false
+ee: false
 related: what-is-a-connection, manage-your-connections, connection-dashboard, what-is-the-pim-marketplace, what-is-an-event-subscription
 ---
 

@@ -3,7 +3,7 @@ id: work-on-a-product
 themes: products-super-power
 title: "**Enrich** your product"
 popular: false
-ee-only: false
+ee: false
 related: create-a-product, product-completeness, categorize-a-product, products-associations
 ---
 

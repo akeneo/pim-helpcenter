@@ -3,7 +3,8 @@ id: manage-your-projects
 themes: boost-your-productivity, collaborative-work
 title: Manage your **projects**
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: project-widget-dashboard, projects-notifications, what-is-a-project
 ---
 

@@ -3,7 +3,7 @@ id: what-is-a-connection
 themes: akeneo-concepts, connectivity
 title: What is a **connection**?
 popular: false
-ee-only: false
+ee: false
 related: manage-your-connections, how-to-connect-my-pim, connection-dashboard
 ---
 
