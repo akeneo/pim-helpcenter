@@ -3,7 +3,7 @@ id: categorize-a-product
 themes: products-super-power
 title: "**Categorize** a product"
 popular: false
-ee-only: false
+ee: false
 related: what-is-a-category
 ---
 

@@ -3,7 +3,7 @@ id: manage-event-subscription
 themes: connectivity, import-export-data
 title: Subscribe and manage **events**
 popular: true
-ee-only: false
+ee: false
 related: what-is-an-event-subscription, how-to-connect-my-pim, manage-your-connections
 ---
 

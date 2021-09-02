@@ -3,7 +3,7 @@ id: manage-your-families
 themes: catalog-settings
 title: Manage your **families and variant families**
 popular: false
-ee-only: false
+ee: false
 related: what-is-a-family
 ---
 

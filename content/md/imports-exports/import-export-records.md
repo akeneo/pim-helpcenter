@@ -3,7 +3,7 @@ id: import-export-records
 themes: products-super-power, manage-your-reference-entities
 title: "Import and export your **reference entity records**"
 popular: false
-ee-only: right
+ee: true
 related:
 ---
 

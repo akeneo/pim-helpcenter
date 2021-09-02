@@ -3,7 +3,7 @@ id: enrich-products-variants
 themes: products-super-power
 title: "**Enrich** your products with variants"
 popular: false
-ee-only: false
+ee: false
 related: what-about-products-variants, manage-your-families, create-a-product, work-on-a-product
 ---
 

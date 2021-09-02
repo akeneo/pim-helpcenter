@@ -3,8 +3,8 @@ id: access-rights-on-imports-exports
 themes: permissions-settings
 title: Set rights on your **imports and exports**
 popular: false
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 related: what-is-a-user-group, what-is-a-user, build-your-user-groups
 priority: low
 ---

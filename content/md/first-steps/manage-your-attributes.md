@@ -3,7 +3,7 @@ id: manage-your-attributes
 themes: catalog-settings
 title: Manage your **attributes**
 popular: false
-ee-only: false
+ee: false
 related: what-is-an-attribute
 ---
 

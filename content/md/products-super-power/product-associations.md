@@ -3,7 +3,7 @@ id: products-associations
 themes: products-super-power
 title: "**Associations** of products"
 popular: false
-ee-only: false
+ee: false
 related: manage-your-association-types
 ---
 

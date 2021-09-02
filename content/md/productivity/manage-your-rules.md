@@ -3,8 +3,8 @@ id: manage-your-rules
 themes: boost-your-productivity, catalog-settings
 title: Manage your **rules**
 popular: false
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 related: what-is-a-rule
 ---
 

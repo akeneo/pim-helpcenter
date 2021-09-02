@@ -3,7 +3,7 @@ id: monitor-jobs
 themes: import-export-data, administration
 title: Follow your **jobs** execution
 popular: false
-ee-only: false
+ee: false
 related: imports, exports, product-export-builder, discover-the-dashboard, what-is-a-rule, what-is-a-project, product-mass-actions
 ---
 

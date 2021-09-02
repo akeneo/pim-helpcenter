@@ -3,7 +3,7 @@ id:
 themes:
 title:
 popular:
-ee-only:
-ge-only:
+ee:
+ge:
 related:
 ---

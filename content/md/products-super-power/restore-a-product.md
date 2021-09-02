@@ -3,8 +3,8 @@ id: restore-a-product
 themes: products-super-power
 title: Restore a **previous product version**
 popular: false
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 ---
 
 # Some concrete use cases

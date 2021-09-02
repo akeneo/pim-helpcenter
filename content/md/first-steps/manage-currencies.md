@@ -3,7 +3,7 @@ id: manage-your-currencies
 themes: catalog-settings
 title: View and enable **currencies**
 popular: false
-ee-only: false
+ee: false
 ---
 
 # Overview

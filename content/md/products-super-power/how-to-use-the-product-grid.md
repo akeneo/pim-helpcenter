@@ -3,7 +3,7 @@ id: products-grid
 themes: products-super-power
 title: Get familiar with the **product grid**
 popular: true
-ee-only: false
+ee: false
 related: manage-your-views, what-is-a-category, what-is-a-channel, what-is-a-locale
 ---
 

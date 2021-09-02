@@ -3,8 +3,8 @@ id: import-assets
 themes: administration, manage-your-assets
 title: "**Import** your assets"
 popular: true
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 related: imports, work-on-your-assets
 ---
 

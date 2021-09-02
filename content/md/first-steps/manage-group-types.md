@@ -3,7 +3,7 @@ id: manage-your-group-types
 themes: catalog-settings
 title: Manage your **group types**
 popular: false
-ee-only: false
+ee: false
 ---
 
 # Overview

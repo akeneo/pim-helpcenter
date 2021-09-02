@@ -3,7 +3,7 @@ id: enrich-your-reference-entity-records
 themes: products-super-power, manage-your-reference-entities
 title: "Enrich your **reference entity records**"
 popular: false
-ee-only: right
+ee: right
 related:
 ---
 

@@ -3,8 +3,8 @@ id: how-to-manage-my-publications
 themes: products-super-power
 title: Manage **publishing**
 popular: false
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 related: publish-workflow, work-on-a-product
 ---
 

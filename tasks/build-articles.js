@@ -38,8 +38,8 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                     id = file.fm['id'] == undefined ? '' : file.fm['id'];
                     themes = file.fm['themes'] == undefined ? '' : file.fm['themes'].split(',');
                     title = file.fm['title'] == undefined ? '' : file.fm['title'];
-                    eeOnly = file.fm['ee-only'] == undefined ? false : file.fm['ee-only'];
-                    eeAndGeOnly = file.fm['ge-only'] == undefined ? false : file.fm['ge-only'];
+                    eeOnly = file.fm['ee'] == undefined ? false : file.fm['ee'];
+                    eeAndGeOnly = file.fm['ge'] == undefined ? false : file.fm['ge'];
                     titleWithBold = title.replace(/\*\*/, '<strong>').replace(/\*\*/, '</strong>');
                     title = title.replace(/\*\*/, '').replace(/\*\*/, '');
                     relatedArticlesId = file.fm['related'] == undefined ? '' : file.fm['related'].split(',');
@@ -65,8 +65,8 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                                         var article = {
                                             articleName: relatedArticleTitle.replace(/\*\*/, '<strong>').replace(/\*\*/, '</strong>'),
                                             articlePath: articleId + '.html',
-                                            eeOnly: file.fm['ee-only'] == undefined ? false : file.fm['ee-only'],
-                                            eeAndGeOnly: file.fm['ge-only'] == undefined ? false : file.fm['ge-only']
+                                            eeOnly: file.fm['ee'] == undefined ? false : file.fm['ee'],
+                                            eeAndGeOnly: file.fm['ge'] == undefined ? false : file.fm['ge']
                                         };
                                         if(relatedArticles){
                                             relatedArticles.push(article);

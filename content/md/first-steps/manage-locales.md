@@ -3,7 +3,7 @@ id: manage-your-locales
 themes: catalog-settings
 title: Manage your **locales**
 popular: false
-ee-only: false
+ee: false
 related: what-is-a-locale
 ---
 

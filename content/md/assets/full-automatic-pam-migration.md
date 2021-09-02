@@ -2,8 +2,8 @@
 id: full-automatic-pam-migration
 title: The **fully-automatic** migration for PAM assets
 popular: false
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 related: from-PAM-to-new-AM, pam-migration-guide
 ---
 

@@ -3,8 +3,8 @@ id: assets-transformation
 themes: administration, manage-your-assets
 title: About the **assets transformations**
 popular: false
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 related: work-with-assets, upload-assets
 ---
 

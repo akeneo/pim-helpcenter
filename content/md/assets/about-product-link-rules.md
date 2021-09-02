@@ -3,8 +3,8 @@ id: assets-product-link-rules
 themes: manage-your-assets, boost-your-productivity, catalog-settings
 title: About the **product link rules**
 popular: false
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 related: work-with-assets, upload-assets
 ---
 

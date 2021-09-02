@@ -3,8 +3,8 @@ id: create-and-display-assets
 themes: manage-your-assets,
 title: "**Create and display** assets"
 popular: false
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 related: work-on-your-assets
 ---
 

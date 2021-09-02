@@ -3,7 +3,7 @@ id: manage-the-web-api-permissions
 themes: permissions-settings
 title: Manage the **Web API** permissions
 popular: false
-ee-only: false
+ee: false
 related: build-your-user-roles, what-is-a-role, what-is-a-user, manage-the-interface-and-actions-accesses
 ---
 

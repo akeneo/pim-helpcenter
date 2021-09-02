@@ -3,8 +3,8 @@ id: what-about-assets
 themes: first-steps, manage-your-assets
 title: What about **assets**?
 popular: true
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 related: manage-assets, enrich-your-assets
 ---
 

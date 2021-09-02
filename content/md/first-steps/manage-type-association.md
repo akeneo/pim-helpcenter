@@ -3,7 +3,7 @@ id: manage-your-association-types
 themes: catalog-settings
 title: Manage your **association types**
 popular: false
-ee-only: false
+ee: false
 ---
 
 # Overview

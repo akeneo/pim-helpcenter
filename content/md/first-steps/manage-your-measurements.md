@@ -3,7 +3,7 @@ id: manage-your-measurements
 themes: catalog-settings
 title: Manage your **measurements**
 popular: false
-ee-only: false
+ee: false
 related: what-about-measurements, manage-your-attributes
 ---
 

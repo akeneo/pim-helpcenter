@@ -3,8 +3,8 @@ id: manage-reference-entities
 themes: catalog-settings, manage-your-reference-entities
 title: Manage your **reference entities**
 popular: false
-ee-only: true
-ge-only: false
+ee: true
+ge: false
 related: what-about-reference-entities, enrich-your-reference-entity-records
 ---
 
