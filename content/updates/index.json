@@ -1,4 +1,9 @@
 {
+  "2021-09": {
+    "title": "September 2021 Serenity updates",
+    "description": "Lorem Ipsum",
+    "img": "illus-september-21.svg"
+  },
   "2021-08": {
     "title": "July & August 2021 Serenity updates",
     "description": "Things were heating up in Akeneo PIM this July and August. With the release of Tailored Exports allowing you to define and create custom export files and the new marketplace menu with the list of connectors compatible with your PIM. You're in for our sweetest experience yet.",
