@@ -98,8 +98,11 @@ If a user has no rights granted to modify an import profile due to his role(s), 
 
 # Import images & files
 
-If you're not using the Asset Manager, you can still import images and/or files, if you have such attributes in your PIM.
-To do this, you first need to export the relevant products then to configure the archive in order to modify the file and to add your images, and finally to import back your archive:
+If you have `Image` and/or `File` attribute types in your families, then you can import their content directly via the product import profile.
+To do this:
+1. First, [export the relevant product or product models](imports.html#export-the-relevant-products-or-product-models.html) via an archive.
+1. Then, [configure the archive](imports.html#configure-the-archive.html) in order to modify the product/product model file by adding your images and/or files.
+1. Finally, [import back the new archive](import.html#import-back-the-new-archive) in the PIM.
 
 ## Export the relevant products or product models
 1. From the left menu, click `Exports`
@@ -109,7 +112,7 @@ To do this, you first need to export the relevant products then to configure the
 1. Save and click `Export`
 1. Once the job is finished, click on `Download generated files` and get the archive
 
-## Configure your archive
+## Configure the archive
 1. Open the archive you just downloaded
 1. Open the `Files` folder
 1. Each folder under `Files` corresponds to a product or product model and their names are the SKUs or codes of your product or product models
@@ -121,12 +124,16 @@ To do this, you first need to export the relevant products then to configure the
 1. Save your spreadsheet
 1. Select simultaneously the spreadsheets and the folder `File` and create an archive
 
-## Import your images
+## Import back the new archive
 1. From the left menu, click `Imports`
 1. Select the export profile named `XLSX product import`
 1. Upload your archive and click `Import`
 
 You're done :)
+
+:::warning
+You can't import back the archive you downloaded from the PIM. To learn how to do this, please red how to [import back an archive](imports.html#import-back-the-new-archive).
+:::
 
 # Duplicate an import profile
 
