@@ -14,5 +14,5 @@ We are pleased to introduce a new export feature called **Tailored Exports**. Fr
 ![Tailored Export - Structure](../img/TailoredExport_Structure.png)
 
 ::: more
-[Export your data](../articles/tailored-export.html.html)
+[Export your data](../articles/tailored-export.html)
 :::
