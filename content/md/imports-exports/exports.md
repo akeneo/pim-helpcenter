@@ -4,7 +4,7 @@ themes: import-export-data
 title: "**Export** your data"
 popular: false
 ee: false
-related: monitor-jobs, product-export-builder, access-rights-on-imports-exports, imports
+related: monitor-jobs, product-export-builder, access-rights-on-imports-exports, imports, tailored-export
 ---
 
 # Overview

@@ -28,7 +28,7 @@ To learn more about Tailored Export and how to use this feature, please watch ou
 To create a tailored product export:
 1. Go to `Exports`
 1. Click on `Create export profile`
-1. Type a unique export code and a label, then select the job `Tailored product export` <!-- or `Tailored product model export`. You can select either CSV or XLSX for each job. -->
+1. Type a unique export code and a label, then select the job `Tailored product export` or `Tailored product model export`. You can select either CSV or XLSX for each job.
 ![Create a new product export profile](../img/TailoredExport_Create-export-profile.png)
 1. Save your new export profile
 
@@ -90,7 +90,7 @@ To do this, please follow the steps below:
 1. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if your attribute has a value per locale or per channel, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available. For instance, you can choose between exporting the code or the label of the attribute option, and which separator (comma, semi-colon, pipe) you want, when applicable.
 ![Add a source](../img/TailoredExport_Add-source.gif)
 1.  Once you're done, click on `Save` in the top right corner.
-1.  You can now launch your export profile by clicking on `Export`.
+1.  To launch your export profile, click in the top left breadcrumb on the name of your export profile, then click on `Export`.
 
 ::: warning
 Limitations have been set for each Tailored Export profile:
@@ -116,6 +116,8 @@ Depending on the sources you define, here are the different types of operations 
 ![Selection](../img/TailoredExport_Operation_Selection.png)
 * `Concatenate`: Concatenate different sources by displaying up to 4 per column. Click on `Add text` to add more details and create a separation between sources.
 ![Concatenate](../img/TailoredExport_Operation_Concatenate.gif)
+* `Clean HTML tags`: Clean automatically all the HTML tags in your text attributes used as a source.
+![Clean HTML tags](../img/TailoredExport_Operation_CleanHTML.png)
 
 # Duplicate a tailored product export profile
 

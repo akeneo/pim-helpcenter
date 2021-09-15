@@ -26,7 +26,7 @@ If a reference entity has already been created, simply click on it to access its
 ![image](../img/ReferenceEntity_ListEntities.png)
 
 :::warning
-If you create a PDF version of a product, it will only display the codes of the Reference Entities 
+If you create a PDF version of a product, it will only display the codes of the Reference Entities
  and not their labels.
 :::
 
@@ -44,7 +44,7 @@ To create a [reference entity](what-about-reference-entities.html), follow these
 Then you can [define its properties](manage-reference-entities.html#define-its-properties) (`Properties` tab) and [define its records attributes](manage-reference-entities.html#define-its-records-attributes) (`Attributes` tab).
 
 :::info
-To guarantee that the PIM is functional and runs smoothly, we defined a volume limitation of 100 reference entities for this feature. If you try to create more than 100 reference entities, you will have a blocking message.
+We defined a volume limitation of 200 reference entities for this feature to guarantee that the PIM is functional and runs smoothly. An error message will prevent you from creating more.
 :::
 
 # Define its properties
