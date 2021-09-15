@@ -41,6 +41,10 @@ You can also **change the order** of the columns, by clicking on the burger butt
 
 Finally, you are also free to **delete** each column, by clicking on the trashcan (appearing when hovering the raw).
 
+:::tips
+Let's imagine you are selling foods worldwide, and you need to add the nutritional values of your products. You know that these nutritional tables are specific to a country or a continent (their format are different) and must obey the law. Then you'll need one nutritional table per geographical area. For instance: one for your US market, one for your European market, and a last one for the UK market. In this case, we advise you to create 3 nutritional tables, with the `locale specific` parameter, in order to avoid having empty tables in some locales.
+:::
+
 ## Let's discover the table attribute's particularities
 
 We've defined several rules to structure a table attribute, in order to leverage the power of the PIM and the "Akeneo logic".
