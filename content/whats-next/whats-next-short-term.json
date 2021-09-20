@@ -1,0 +1,23 @@
+[
+  {
+    "title": "The Table attribute",
+    "description": "You will be able to create tables in the PIM, thanks to a new dedicated attribute type called `Table`. Particularly useful for a lot of stuff.",
+    "image": "./img/pim-marketplace-connectors.png",
+    "areas": ["Governance", "Productivity"],
+    "editions": ["GE","EE"]
+  },
+  {
+    "title": "Tailored exports",
+    "description": "Tailored exports are so great. Now, you can... See a screenshot below for more details.",
+    "image": "./img/pim-marketplace-connectors.png",
+    "areas": ["Productivity"],
+    "editions": ["GE","EE"]
+  },
+  {
+    "title": "Tailored exports",
+    "description": "Tailored exports are so great. Now, you can... See a screenshot below for more details.",
+    "image": "./img/pim-marketplace-connectors.png",
+    "areas": ["Productivity"],
+    "editions": ["GE","EE"]
+  }
+]

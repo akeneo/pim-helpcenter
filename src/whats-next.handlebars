@@ -1,0 +1,79 @@
+{{!-- The index of the what's next page --}}
+{{#> layout title="Discover what's coming next"}}
+{{> navbar-only-logo }}
+{{> serenity-updates-button}}
+{{> whats-new-button}}
+    <div id="whats-new" class="container whats-new" data-init-versions="{{defaultVersions}}" data-init-areas="{{defaultAreas}}">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover what's coming next</p>
+                <h1>Discover what's coming next</h1>
+                <p>Description of the page here, with some guidance on how to read it.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h2>Mid term 🔬 <small>| 6-18 months</small></h2>
+                        <p><em>You'll find below what's in our pipes. Not for now, now, but for one day, in 6 to 18 months.</em></p>
+                        <div class="row">
+                            {{#each whatsNextMidTerm}}
+                                <div class="col-xs-12">
+                                    <div class="whats-next-update">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
+                                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} </p>
+                                                <p>{{description}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    <div class="col-sm-7 col-short-term">
+                        <h2>Short term ⚗️ <small>| 1-6 months</small></h2>
+                        <p><em>These topics are under construction. You'll see them available soon, very soon, like in 1 to 6 months.</em></p>
+                        <div class="row">
+                            {{#each whatsNextShortTerm}}
+                                <div class="col-xs-12">
+                                    <div class="whats-next-update">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
+                                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Will be available in <b>Serenity</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}</em></p>
+                                                <p>{{description}}</p>
+                                                <img class="img-responsive center-block" src="{{image}}"></img>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h2>Released 🎈</h2>
+                <p><em>These subjects are already available in our PIM. TADA!</em></p>
+                <div class="row">
+                    {{#each serenityLastNewUpdates}}
+                        <div class="col-xs-12">
+                            <div class="whats-next-update">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
+                                        <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Available {{#if isSerenityOnly}} in <b>Serenity</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em></p>
+                                        {{#if link}}<p class="text-right"><a class="link" href="{{link}}" target="_blank">Read more... ></a></p>{{/if}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+{{/layout}}
