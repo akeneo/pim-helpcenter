@@ -7,6 +7,13 @@ jobs:
             - checkout
             - run: make build
             - run: make test-helpcenter
+
+    test_announcements:
+        machine:
+            image: ubuntu-1604:201903-01
+        steps:
+            - checkout
+            - run: make build
             - run: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS=$STAGING_GOOGLE_APPLICATION_CREDENTIALS make test-push-announcements
             - run: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT FIREBASE_TOKEN=$FIREBASE_TOKEN GOOGLE_APPLICATION_CREDENTIALS=$STAGING_GOOGLE_APPLICATION_CREDENTIALS make test-firebase-functions
 
@@ -52,6 +59,14 @@ workflows:
                           ignore:
                               - master
 
+    pull_request_announcements:
+        jobs:
+            - test_announcements:
+                  filters:
+                      branches:
+                          only:
+                              -/announcements.*/ 
+
     deployment:
         jobs:
             - deploy_production:
@@ -76,3 +91,5 @@ workflows:
                               - master
         jobs:
             - deploy_production
+            - test_announcements 
+            - build 
