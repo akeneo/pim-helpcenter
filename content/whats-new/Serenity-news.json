@@ -1,5 +1,12 @@
 [
   {
+    "title":"Tailored exports 🪡",
+    "areas": ["Collaboration", "Productivity"],
+    "editions": ["EE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-08.html#advanced-product-export-capabilities"
+  },
+  {
     "title":"Asset mass edition 🖼️",
     "areas": ["Productivity"],
     "editions": ["EE"],
