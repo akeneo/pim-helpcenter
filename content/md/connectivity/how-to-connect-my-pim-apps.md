@@ -111,15 +111,15 @@ If you're setting permissions for an App that will connect Akeneo PIM with your 
 
 #### Which level should you give to your App?
 
-- **The Own level**
+- The Own level
 
 If you want your App to create, update, or delete products **without creating proposals** in your PIM, you should give your App the `Own` level. 
 
-- **The Edit level**
+- The Edit level
 
 On the contrary, if you prefer to **validate any product creation or update** made by the App, add category tree(s) in the `Edit` level fields and leave the `Own` level field empty. This could be useful if you connect your PIM with a translation tool and you want to proofread all the suggested translations. 
 
-- **The View level**
+- The View level
 
 The third option is the `View` level. In that case, the App will **only see the products** categorized in one or several categories of the tree(s) you select.
 
@@ -127,7 +127,7 @@ The third option is the `View` level. In that case, the App will **only see the 
 
 You set up your App permissions and categorized your products like on the following screenshots. 
 
-![Wizard EE step 3 summary](../img/wizard-step3-category-trees.png)
+![Wizard EE step 3 categories](../img/wizard-step3-category-trees.png)
 ![Hat product categories](../img/hat-all-trees.png)
 ![Braided hat categories](../img/hat-ecommerce-tree.png)
 
@@ -142,39 +142,55 @@ Thanks to the locales permission, you can configure either the App will update p
 
 #### Which level should you give to your App?
 
-- **The Edit level**
+- The Edit level
 
 Thanks to that field, you can allow an App to **update product data in specific locales**.
 
-- **The View level**
+- The View level
 
 If you only give the `View` level and not the `Edit` one, your App will **see product data in the selected locales** but won't be able to update product data. 
 
 
 #### Example
 
-You connect a translation App to translate your product data from the French language to the English and German languages. 
-So, the App needs to update English & German data. 
+You connect a translation App to translate your product data from French to English and German.  
 
-You could also give the `Edit` level on the French locale, but you don't want it to update French data you worked on. 
+You could also give the `Edit` level on the French locale, but you don't want it to update the French data you worked on. 
 
 According to your need, you should configure permissions locales as in the following screenshot. 
 
-![Wizard EE step 3 summary](../img/wizard-step3-locales.png)
+![Wizard EE step 3 locales](../img/wizard-step3-locales.png)
 
 
 ### Attribute groups
 
+In Akeneo PIM, you can organize your attributes in groups to help you display related attributes one after the other in the interface. Well, we also use these attribute groups to give rights to an App. 
+Thanks to the attribute group's permission, you can configure whether the App will update product information for specific attributes or won't. 
+
 #### Which level should you give to your App?
 
-- **The Edit level**
+- The Edit level
 
+Thanks to that field, you can allow an App to **update product data for a specific list of attributes**.
 
-- **The View level**
+- The View level
 
+If you only give the `View` level and not the `Edit` one, your App will **see product data for attributes in the selected attribute groups** but won't be able to update it. 
 
 #### Example
 
+You are connecting an App to synchronize your product data with your e-commerce solution. 
+Some product data you see in Akeneo PIM are relevant for your e-commerce solution, but others are useless. 
+
+For example, data you put in `ERP` and `technical` groups attributes will never go online. 
+On the contrary, product data in the `ecommerce`, `marketing`, and `medias` groups are crucial for selling your products online. 
+
+Moreover, this App will only retrieve data and never create, update or delete products in your PIM. 
+
+The best solution here is to set up your permissions as in the following screenshot.
+
+
+![Wizard EE step 3 attribute groups](../img/wizard-step3-att-groups.png)
 
 
 Well done! Your App can now interact with your PIM. 
