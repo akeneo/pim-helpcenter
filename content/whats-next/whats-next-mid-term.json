@@ -11,7 +11,7 @@
   },
   {
     "title": "Product identifier other than SKU",
-    "description": "Today, we provide one product identifier named `sku`. It can be a bit too restrictive as some of you use other identifiers such as EAN or GTIN for example. Let's make it possible for you to choose a different naming!",
+    "description": "Today, we provide one product identifier named `sku`. It can be a bit too restrictive as some of you use other identifiers such as GTIN for example. Let's make it possible for you to choose a different naming!",
     "areas": ["Governance"]
   },
   {
