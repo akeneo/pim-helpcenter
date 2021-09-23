@@ -6,7 +6,7 @@
   },
   {
     "title": "Several product identifiers for one product",
-    "description": "We want to allow the use of several identifiers because in most of the cases, both EAN and SKU are needed. Some of you even use, in addition to those two, an internal identifier.",
+    "description": "We want to allow the use of several identifiers because in most of the cases, both GTIN and SKU are needed. Some of you even use, in addition to those two, an internal identifier.",
     "areas": ["Governance"]
   },
   {
