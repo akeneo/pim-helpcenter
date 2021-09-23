@@ -17,6 +17,16 @@
   {
     "title": "Table attribute enhancements",
     "description": "We want to enrich our brand new Table attribute type with new columns types such as reference entities for example. We also want to add more options in the way your table completeness is computed.",
-    "areas": ["Governance", "Quality"]
+    "areas": ["Governance", "Data Quality"]
+  },
+  {
+    "title": "Tailored imports",
+    "description": "We want you to be able to import simple flat files with formats differing from ours. In this first step, we want to allow various basic data transformations such as the ability to map options or format dates for example.",
+    "areas": ["Collaboration", "Productivity"]
+  },
+  {
+    "title": "Association reorder",
+    "description": "We want to add the possibility to order your product associations.",
+    "areas": ["Governance", "Productivity"]
   }
 ]

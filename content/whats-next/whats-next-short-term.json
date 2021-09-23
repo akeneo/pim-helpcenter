@@ -5,5 +5,11 @@
     "img": "./img/table_attribute_templates.png",
     "areas": ["Governance", "Productivity"],
     "editions": ["GE","EE"]
+  },
+  {
+    "title": "Even more powerful tailored exports",
+    "description": "We will continue to deliver new features to enhance our tailored exports: product model support, CSV file format, ability to replace simple select values, and to clean the HTML tags of your text areas.",
+    "areas": ["Collaboration"],
+    "editions": ["GE","EE"]
   }
 ]
