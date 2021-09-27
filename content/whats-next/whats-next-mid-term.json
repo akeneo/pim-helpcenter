@@ -23,10 +23,5 @@
     "title": "Tailored imports",
     "description": "We want you to be able to import simple flat files with formats differing from ours. In this first step, we want to allow various basic data transformations (replacements, first letters upper/lower case, date formats...)",
     "areas": ["Collaboration", "Productivity"]
-  },
-  {
-    "title": "Association reorder",
-    "description": "We want to add the possibility to order your product associations.",
-    "areas": ["Governance", "Productivity"]
   }
 ]
