@@ -114,7 +114,7 @@ We are aware that this JSON format is not ideal, but there is no other easy way 
 :::
 
 :::info
-If you prefer to use the API, please note that the column information are part of the `Attribute` endpoints. To learn more about it, you can refer to our [API documentation](lien API.html).
+If you prefer to use the API, please note that the column information are part of the `Attribute` endpoints. To learn more about it, you can refer to our [API documentation](https://api.akeneo.com/concepts/catalog-structure.html#attribute).
 :::
 
 Don't worry, we've developed dedicated import/export profiles for the options of your `select` column types :wink:.
@@ -123,7 +123,7 @@ Don't worry, we've developed dedicated import/export profiles for the options of
 Because it would have been a nightmare to mix up the columns configuration and the options of the `Select` columns in the same file, we've decided to create distinct import and export profiles for the options: the `table option import` and `table option export`, both in CSV or XLSX format. To know more about imports, please check out [the dedicated article](imports.html), and for the exports, everything you need to know is in [this article](exports.html).
 
 :::info
-And if you are comfortable with the API, you can retrieve the table options within the `Attribute` endpoints, as you can see in our [API documentation](Apidoc).
+And if you are comfortable with the API, you can retrieve the table options within the `Attribute` endpoints, as you can see in our [API documentation](https://api.akeneo.com/api-reference.html#Attribute).
 :::
 
 ## Import/export the table values of a product
@@ -137,7 +137,7 @@ As for the other attribute types, you can define that a table is required for th
 
 As of today, we consider a **complete** table, as soon as **1 cell is filled**. Stay tuned, we should improve it soon.  
 
-Now that you know all the secrets of the Table attribute type, [let's discover its capabilities in the Product Edit Form!](use-a-table-attribute-in-your-product-edit-form.html)
+Now that you know all the secrets of the Table attribute type, [let's discover its capabilities in the Product Edit Form!](work-on-a-product.html/use-a-table-attribute-in-your-product-sheets)
 
-
+>
 Now that you know everything about how this `table` attribute type can be configured, [let's discover how to use it in your product edit form](new-article-PEF)!
