@@ -1,55 +1,51 @@
 {{!-- The index of the what's next page --}}
-{{#> layout title="Discover what's coming next in our PIM Serenity"}}
+{{#> layout title="Discover what's coming next in PIM Serenity"}}
 {{> navbar-only-logo }}
 {{> serenity-updates-button}}
 {{> whats-new-button}}
-    <div id="whats-new" class="container whats-new" data-init-versions="{{defaultVersions}}" data-init-areas="{{defaultAreas}}">
+    <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover what's coming next in our PIM Serenity</p>
-                <h1>Discover what's coming next in our PIM Serenity</h1>
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover what's coming next in PIM Serenity</p>
+                <h1>Discover what's coming next in PIM Serenity</h1>
                 <p>This page lists all the topics that are in our pipes, whether we are just gathering customers feedback or actively coding a whole new feature. <br/><em>Want to share your inputs about one of these subjects? Don't hesitate to reach out to your dedicated Customer success manager. We will be glad to hear about it!</em></p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-9">
+        <div class="row" style="display: flex; display: -webkit-flex; flex-wrap: wrap;">
+            <div class="col-sm-5 col-md-4 col-whats-next">
+                <h2>Mid term 🔬 <small>| 6-18 months</small></h2>
+                <p class="small"><em>You'll find below the topics that are currently being studied by our teams. They have high chances to end up in the PIM someday but at this stage, keep in mind that nothing is set in stone.</em></p>
                 <div class="row">
-                    <div class="col-sm-5">
-                        <h2>Mid term 🔬 <small>| 6-18 months</small></h2>
-                        <p class="small"><em>You'll find below the topics that are currently being studied by our teams. They have high chances to end up in the PIM someday but at this stage, keep in mind that nothing is set in stone.</em></p>
-                        <div class="row">
-                            {{#each whatsNextMidTerm}}
-                                <div class="col-xs-12">
-                                    <div class="whats-next-update">
-                                        <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
-                                        <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} </p>
-                                        <p>{{description}}</p>
-                                    </div>
-                                </div>
-                            {{/each}}
+                    {{#each whatsNextMidTerm}}
+                        <div class="col-xs-12">
+                            <div class="whats-next-update">
+                                <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
+                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} </p>
+                                <p>{{description}}</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-sm-7 col-short-term">
-                        <h2>Short term ⚗️ <small>| 1-6 months</small></h2>
-                        <p class="small"><em>The features listed in this column are currently under development. It means that a solution has been designed by our teams and that we are actively working on it.<br/>You can expect seeing them available in the PIM soon, like in 1 to 6 months.</em></p>
-                        <div class="row">
-                            {{#each whatsNextShortTerm}}
-                                <div class="col-xs-12">
-                                    <div class="whats-next-update">
-                                        <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
-                                        <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Will be available in <b>Serenity</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}</em></p>
-                                        <p>{{description}}</p>
-                                        {{#if img}}<img class="img-responsive center-block" src="{{img}}"></img>{{/if}}
-                                    </div>
-                                </div>
-                            {{/each}}
-                        </div>
-                    </div>
+                    {{/each}}
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-7 col-md-5 col-whats-next col-short-term">
+                <h2>Short term ⚗️ <small>| 1-6 months</small></h2>
+                <p class="small"><em>The features listed in this column are currently under development. It means that a solution has been designed by our teams and that we are actively working on it.<br/>You can expect seeing them available in the PIM soon, like in 1 to 6 months.</em></p>
+                <div class="row">
+                    {{#each whatsNextShortTerm}}
+                        <div class="col-xs-12">
+                            <div class="whats-next-update">
+                                <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
+                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Will be available in <b>Serenity</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}</em></p>
+                                <p>{{description}}</p>
+                                {{#if img}}<img class="img-responsive center-block" src="{{img}}"></img>{{/if}}
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+            <div class="col-md-3 col-whats-next">
                 <h2>Released 🎈</h2>
-                <p class="small"><em>Here you will find subjects we released for our PIM Serenity customers. TADA!<br/>Don't hesitate to go through their details to learn more.</em></p>
+                <p class="small"><em>Here you will find subjects already available for our PIM Serenity customers.<br/>Tada! Don't hesitate to go through their details to learn more.</em></p>
                 <div class="row">
                     <div class="col-xs-12">
                         {{#each serenityLastNewUpdates}}
