@@ -11,7 +11,7 @@ pim_announcement_audience:
 
 When creating a new category, you can now define its label for the current locale together with the code. This is quite a time saver as you no longer need to click around to access the label field. And there is more, when navigating through the categories, when going back to your category trees, you will see a collapsed view showing in which context the category you were editing is.
 
-![New label field](../img/pim-categorytree.png)
+![New label field](../img/pim-categorytree.png)  
 ![New label field](../img/pim-createcategory.png)
 
 ::: more
