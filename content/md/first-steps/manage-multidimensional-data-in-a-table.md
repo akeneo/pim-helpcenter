@@ -87,10 +87,12 @@ There is no validation parameters in this column type!
 
 ## Scalability of a table attribute
 In order to ensure that the PIM will still be running, we have defined some limits.  
-- You can create up to **20 columns** in a single table.
+- You can create up to **10 columns** in a single table.
 - You can create up to **200000 options** within a Select column.
-- You can have up to **100 raws** per table attribute in a product sheet.
-> limits to validate
+- You can have up to **100 rows** per table attribute in a product sheet.
+- You can create up to **50 table attributes** in your PIM.
+- You can have up to **8000 product values** in a product sheet (including the whole product values + the table attributes content)
+
 
 ## History tab
 As for the other attribute types, you retrieve the `History` tab.  
