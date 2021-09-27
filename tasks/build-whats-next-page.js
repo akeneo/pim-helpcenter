@@ -45,7 +45,7 @@ function generateWhatsNext(fileDirectorySource, fileDirectoryDestination) {
         });
     });
 
-    var serenityLastNewUpdates = _.take(JSON.parse(fs.readFileSync('content/whats-new/Serenity-news.json')), 4);
+    var serenityLastNewUpdates = _.take(JSON.parse(fs.readFileSync('content/whats-new/Serenity-news.json')), 6);
     _.each(serenityLastNewUpdates, function(update){
         update.coloredAreas = _.keyBy(update.areas, function(area){
             var coloredArea = coloredAreas[area.replace(/\s/g, '').toLowerCase()];
