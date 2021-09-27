@@ -1,22 +1,9 @@
 [
   {
     "title": "The Table attribute",
-    "description": "You will be able to create tables in the PIM, thanks to a new dedicated attribute type called `Table`. Particularly useful for a lot of stuff.",
-    "img": "./img/pim-marketplace-connectors.png",
+    "description": "We will introduce a brand new attribute type called `Table`. It will be very helpful for your multi-dimensional data needs. Indeed, it will be perfect to handle information such as product composition, dimensions, packaging or even nutrition information. You will be able to choose from different pre-crafted templates and then, select a type for all your table columns (simple select, number, text or boolean).",
+    "img": "./img/table_attribute_templates.png",
     "areas": ["Governance", "Productivity"],
-    "editions": ["GE","EE"]
-  },
-  {
-    "title": "Tailored exports",
-    "description": "Tailored exports are so great. Now, you can... See a screenshot below for more details.",
-    "img": "./img/pim-marketplace-connectors.png",
-    "areas": ["Productivity"],
-    "editions": ["GE","EE"]
-  },
-  {
-    "title": "Tailored exports",
-    "description": "Tailored exports are so great. Now, you can... See a screenshot below for more details.",
-    "areas": ["Productivity"],
     "editions": ["GE","EE"]
   },
   {

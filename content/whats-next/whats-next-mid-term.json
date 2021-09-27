@@ -1,17 +1,22 @@
 [
   {
-    "title": "SKU generator",
-    "description": "We saw a problem here. And we are thinking about it. If interested, don't hesitate to reach out to your customer success manager.",
-    "areas": ["Productivity"]
+    "title": "Product identifier generator",
+    "description": "We want the PIM to be responsible for creating unique product identifiers on the fly when importing/creating new products, based on nomenclatures.",
+    "areas": ["Automation","Governance"]
   },
   {
-    "title": "SKU generator",
-    "description": "We saw a problem here. And we are thinking about it. If interested, don't hesitate to reach out to your customer success manager.",
-    "areas": ["Productivity"]
+    "title": "Several product identifiers for one product",
+    "description": "We want to allow the use of several identifiers because in most of the cases, both GTIN and SKU are needed. Some of you even use, in addition to those two, an internal identifier.",
+    "areas": ["Governance"]
   },
   {
-    "title": "SKU generator",
-    "description": "We saw a problem here. And we are thinking about it. If interested, don't hesitate to reach out to your customer success manager.",
-    "areas": ["Productivity"]
+    "title": "Product identifier other than SKU",
+    "description": "Today, we provide one product identifier named `sku`. It can be a bit too restrictive as some of you use other identifiers such as GTIN for example. Let's make it possible for you to choose a different naming!",
+    "areas": ["Governance"]
+  },
+  {
+    "title": "Table attribute enhancements",
+    "description": "We want to enrich our brand new Table attribute type with new columns types such as reference entities for example. We also want to add more options in the way your table completeness is computed.",
+    "areas": ["Governance", "Quality"]
   }
 ]
