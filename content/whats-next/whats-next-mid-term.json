@@ -21,7 +21,7 @@
   },
   {
     "title": "Tailored imports",
-    "description": "We want you to be able to import simple flat files with formats differing from ours. In this first step, we want to allow various basic data transformations such as the ability to map options or to choose the dates format for example.",
+    "description": "We want you to be able to import simple flat files with formats differing from ours. In this first step, we want to allow various basic data transformations (replacements, first letters upper/lower case, date formats...)",
     "areas": ["Collaboration", "Productivity"]
   },
   {
