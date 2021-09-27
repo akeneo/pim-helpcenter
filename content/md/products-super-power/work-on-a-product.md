@@ -215,6 +215,11 @@ When arriving on a product sheet composed by a table attribute, this attribute i
 As for the other attribute types, a table can have different values depending on the channel and/or the locale. It means that, if you switch from a locale to another for instance, then you'll have to update the whole table in the other locale.
 :::
 
+Please note that we have defined some limits in order to guarantee that the PIM is functional and runs smoothly.
+- The maximum number of rows in a table is set to 100.
+- The maximum number of table attributes within the PIM is set to 50.
+- The maximum number of cells per product is set to 8000 (it includes the total number of product values + the table attributes content).
+
 ### Use the table values to search for your products in the product grid
 Let's assume you use the table attribute for your _ingredients_, and some of them contain _allergens_ (this information is stored in a `yes/no` column in your table).
 Then your table could looks like that:
