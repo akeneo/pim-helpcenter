@@ -1,0 +1,64 @@
+{{!-- The index of the what's next page --}}
+{{#> layout title="Discover what's coming next in Akeneo PIM SaaS Edition"}}
+{{> navbar-only-logo }}
+{{> serenity-updates-button}}
+{{> whats-new-button}}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover what's coming next in Akeneo PIM SaaS Edition</p>
+                <h1>Discover what's coming next in Akeneo PIM SaaS Edition</h1>
+                <p style="margin-bottom: 60px;">Here you'll find all the major topics we are currently looking into, whether we are just gathering customers' feedback or actively developing a whole new feature. <br/><em>Want to share your inputs about one of these subjects? Don't hesitate to reach out to your dedicated Customer Success Manager. We will be glad to hear about it!</em></p>
+            </div>
+        </div>
+        <div class="row" style="display: flex; display: -webkit-flex; flex-wrap: wrap;">
+            <div class="col-sm-5 col-md-4 col-whats-next">
+                <h2>Mid term 🔬 <small>| 6-18 months</small></h2>
+                <p class="small"><em>Here are the topics that are currently being studied by our teams. They have high chances to end up in the PIM someday but at this stage, keep in mind that nothing is set in stone.</em></p>
+                <div class="row">
+                    {{#each whatsNextMidTerm}}
+                        <div class="col-xs-12">
+                            <div class="whats-next-update">
+                                <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
+                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} </p>
+                                <p>{{description}}</p>
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+            <div class="col-sm-7 col-md-5 col-whats-next col-short-term">
+                <h2>Short term ⚗️ <small>| 1-6 months</small></h2>
+                <p class="small"><em>The features listed in this column are currently under development. It means that a solution has been designed by our teams and that we are actively working on it. You can expect to see them available in the PIM soon, in the coming months.</em></p>
+                <div class="row">
+                    {{#each whatsNextShortTerm}}
+                        <div class="col-xs-12">
+                            <div class="whats-next-update">
+                                <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
+                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Will be available in <b>Serenity</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}</em></p>
+                                <p>{{description}}</p>
+                                {{#if img}}<img class="img-responsive center-block" src="{{img}}"></img>{{/if}}
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+            <div class="col-md-3 col-whats-next">
+                <h2>Released 🎈</h2>
+                <p class="small"><em>Here you will find subjects already available for our PIM SaaS customers.<br/>Tada! Don't hesitate to go through their details to learn more.</em></p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        {{#each serenityLastNewUpdates}}
+                            <div class="whats-next-update">
+                                <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
+                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Available {{#if isSerenityOnly}} in <b>Serenity</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em></p>
+                                {{#if link}}<p class="text-right"><a class="link" href="{{link}}" target="_blank">Read more... ></a></p>{{/if}}
+                            </div>
+                        {{/each}}
+                        <p><em>This is just an overview of our latest released features. If you want to scroll through the entire list of all the features we launched recently, there's a dedicated page for you.</em><br/><a href="updates/index.html">Go to our What's New page</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/layout}}

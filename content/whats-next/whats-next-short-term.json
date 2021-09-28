@@ -1,0 +1,22 @@
+[
+  {
+    "title": "The Table Attribute",
+    "description": "We will introduce a brand new attribute type called `Table`. It will be very helpful for your multi-dimensional data needs. Indeed, it will be perfect to handle product composition, dimensions, packaging, or even nutrition information. You will be able to choose from different pre-defined templates and then, choose your table column types: simple select, number, text, or boolean.",
+    "img": "./img/table_attribute_templates.png",
+    "areas": ["Governance", "Productivity"],
+    "editions": ["GE","EE"]
+  },
+  {
+    "title": "Even More Powerful Tailored Exports",
+    "description": "We will continue to deliver new features to enhance our tailored exports: product model support, CSV file format, ability to replace simple select values, and to clean the HTML tags of your text areas.",
+    "areas": ["Collaboration"],
+    "editions": ["GE","EE"]
+  },
+  {
+    "title": "Easy Set up of Marketplace Extensions",
+    "description": "In the Connect menu, we will introduce `Apps`. Apps are marketplace extensions that can be activated directly from within the PIM. Their setup and PIM authorizations configuration will be really simplified thanks to a guided step by step wizard.",
+    "img": "./img/apps_in_marketplace.png",
+    "areas": ["Connectivity", "Productivity"],
+    "editions": ["GE","EE"]
+  }
+]
