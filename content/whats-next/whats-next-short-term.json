@@ -11,5 +11,12 @@
     "description": "We will continue to deliver new features to enhance our tailored exports: product model support, CSV file format, ability to replace simple select values, and to clean the HTML tags of your text areas.",
     "areas": ["Collaboration"],
     "editions": ["GE","EE"]
+  },
+  {
+    "title": "Easy Set up of Marketplace Extensions",
+    "description": "In the Connect menu, we will introduce `Apps`. Apps are marketplace extensions that can be activated directly from within the PIM. Their setup and PIM authorizations configuration will be really simplified thanks to a guided step by step wizard.",
+    "img": "./img/apps_in_marketplace.png",
+    "areas": ["Connectivity", "Productivity"],
+    "editions": ["GE","EE"]
   }
 ]
