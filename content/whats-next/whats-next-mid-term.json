@@ -15,6 +15,11 @@
     "areas": ["Governance"]
   },
   {
+    "title": "Tailored Imports",
+    "description": "We want you to be able to import simple flat files in your own formats. In this first step, we want to allow various basic data transformations (replacements, first letters upper/lower case, date formats...)",
+    "areas": ["Collaboration", "Productivity"]
+  },
+  {
     "title": "Table Attribute Enhancements",
     "description": "We want to enrich our brand new Table attribute type with new column types such as reference entities for example. We also want to add more options in the way your table completeness is computed.",
     "areas": ["Governance", "Quality"]
