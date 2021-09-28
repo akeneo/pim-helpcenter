@@ -10,7 +10,7 @@ pim_announcement_audience:
 ::: meta-data type="New" features="Productivity" available="mid-September" in="EE" link-to-doc="../articles/tailored-export.html#duplicate-a-tailored-product-export-profile"
 
 
- Your distributors need similar product information, duplicate your Tailored Export profile in a click and adapt it according to their requirements. It's quite a time-saver not having to build your export profiles from scratch every time!
+Your distributors need similar product information, duplicate your Tailored Export profile in a click and adapt it according to their requirements. It's quite a time-saver not having to build your export profiles from scratch every time!
 
 
 
