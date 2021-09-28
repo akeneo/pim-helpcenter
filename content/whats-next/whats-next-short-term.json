@@ -1,7 +1,7 @@
 [
   {
     "title": "The Table attribute",
-    "description": "We will introduce a brand new attribute type called `Table`. It will be very helpful for your multi-dimensional data needs. Indeed, it will be perfect to handle information such as product composition, dimensions, packaging or even nutrition information. You will be able to choose from different pre-crafted templates and then, select a type for all your table columns (simple select, number, text or boolean).",
+    "description": "We will introduce a brand new attribute type called `Table`. It will be very helpful for your multi-dimensional data needs. Indeed, it will be perfect to handle product composition, dimensions, packaging, or even nutrition information. You will be able to choose from different pre-defined templates and then, choose your table column types: simple select, number, text, or boolean.",
     "img": "./img/table_attribute_templates.png",
     "areas": ["Governance", "Productivity"],
     "editions": ["GE","EE"]
