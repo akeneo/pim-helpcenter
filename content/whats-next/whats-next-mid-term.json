@@ -22,6 +22,6 @@
   {
     "title": "Table Attribute Enhancements",
     "description": "We want to enrich our brand new Table attribute type with new column types such as reference entities for example. We also want to add more options in the way your table completeness is computed.",
-    "areas": ["Governance", "Quality"]
+    "areas": ["Governance", "Data Quality"]
   }
 ]
