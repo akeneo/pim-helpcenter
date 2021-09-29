@@ -9,7 +9,7 @@ pim_announcement_audience:
 # Four New Operations Available in Tailored Exports
 ::: meta-data type="New" features="Productivity" available="mid-September" in="EE" link-to-doc="../articles/tailored-export.html#discover-operations"
 
-Sharing the right product information with your retailers or distributors can be daunting. Tailored Export covers even more business needs with the possibility to concatenate up to 4 values from different sources into one column, to convert measurement units, to add a default value in an empty cell, and to automatically clean HTML tags.
+Sometimes your product information may live in separate attributes, so instead of combining them in spreadsheets after you've downloaded it, take advantage of the new concatenate feature in Tailored Exports. Concatenate up to four values from different sources into one column, convert measurement units, add a default value in an empty cell, and automatically clean up HTML tags without ever leaving the export profile UI.
 
 ![](../img/TailoredExport_Operation_CleanHTML.png)  
 ![](../img/TailoredExport_Operation_Conversion.png)  
