@@ -6,7 +6,7 @@ pim_announcement_audience:
 - CE
 ---
 
-# Welcome to your new System menu
+# Welcome to your new System Menu
 ::: meta-data type="New" features="Productivity" available="mid-August" in="EE,GE"
 
 This is your brand new System menu. It is structured into two main categories: `System Navigation` and `Users Management Navigation` settings. You won't be lost as it looks very much like its older sister, the `Settings` menu released a couple of month ago.
