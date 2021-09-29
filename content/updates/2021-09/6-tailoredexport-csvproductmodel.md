@@ -9,7 +9,7 @@ pim_announcement_audience:
 # Tailored Exports Extended Capabilities
 ::: meta-data type="New" features="Productivity" available="mid-September" in="EE"
 
-Tailored Export now offers the same possibilities as any other export profile. Define the format, CSV or XLXS, and choose between exporting products or product models. With these extended capabilities, Tailored Export is about to become a must-have in your Akeneo PIM toolbox.
+Tailored Exports now offer the same possibilities as any other export profile. Define the format, CSV or XLXS, and choose between exporting products or product models. With these extended capabilities, Tailored Export is a must-have in your Akeneo PIM toolbox.
 
 
 ![New label field](../img/TailoredExport_Create-export-profile.png)
