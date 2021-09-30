@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Product Identifier Generator",
+    "description": "We want the PIM to be responsible for creating unique product identifiers on the fly when importing/creating new products, based on nomenclatures.",
+    "areas": ["Automation","Governance"]
+  },
+  {
+    "title": "Several Product Identifiers for One Product",
+    "description": "We want to allow the use of several identifiers because in most cases, both GTIN and SKU are needed. Some of you even use an internal identifier in addition to those two.",
+    "areas": ["Governance"]
+  },
+  {
+    "title": "Product Identifier other than SKU",
+    "description": "Today, we provide one product identifier named `sku`. It can be a bit too restrictive as some of you use other identifiers such as GTIN for example. Let's make it possible for you to choose a different naming!",
+    "areas": ["Governance"]
+  },
+  {
+    "title": "Tailored Imports",
+    "description": "We want you to be able to import simple flat files in your own formats. In this first step, we want to allow various basic data transformations (replacements, first letters upper/lower case, date formats...)",
+    "areas": ["Collaboration", "Productivity"]
+  },
+  {
+    "title": "Table Attribute Enhancements",
+    "description": "We want to enrich our brand new Table attribute type with new column types such as reference entities for example. We also want to add more options in the way your table completeness is computed.",
+    "areas": ["Governance", "Data Quality"]
+  }
+]
