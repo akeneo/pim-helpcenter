@@ -35,7 +35,7 @@
                         <div class="col-xs-12">
                             <div class="whats-next-update">
                                 <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
-                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Will be available in <b>SaaS</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}</em></p>
+                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Will be available in <b>Serenity</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}</em></p>
                                 <p>{{description}}</p>
                                 {{#if img}}<img class="img-responsive center-block" src="{{img}}"></img>{{/if}}
                             </div>
@@ -51,7 +51,7 @@
                         {{#each serenityLastNewUpdates}}
                             <div class="whats-next-update">
                                 <p class="whats-next-update-title"><b class="text-primary">{{title}}</b></p>
-                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Available {{#if isSerenityOnly}} in <b>SaaS</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em></p>
+                                <p>{{#each coloredAreas as |area color|}}<span class="small label label-{{color}} whats-new-updates-label">{{area}}</span> {{/each}} | <em class="small">Available {{#if isSerenityOnly}} in <b>Serenity</b> {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{else}} since <b>{{since-version}}</b> in {{#each editions as |edition|}} {{#if @last}}{{#unless @first}} & {{/unless}}{{/if}}{{edition}}{{/each}}{{/if}}</em></p>
                                 {{#if link}}<p class="text-right"><a class="link" href="{{link}}" target="_blank">Read more... ></a></p>{{/if}}
                             </div>
                         {{/each}}
