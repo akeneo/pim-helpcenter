@@ -368,7 +368,7 @@ Once you've deleted an attribute, a process starts in order to clear all product
 
 ![Attribute deletion - Attribute code blacklisted](../img/Settings_Attributes_code_blacklisted.png)
 
-### Fourth step: import back the families and/or family variants
+### Fifth step: import back the families and/or family variants
 
 1. Go to `Imports` and click on `Create import profile`
 1. Define a code and a label
