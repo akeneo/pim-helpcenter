@@ -231,11 +231,11 @@ Thanks to the product grid filters, you can easily find all the products with fr
 1. Select the right table attribute as filter, i.e `ingredients`
 1. Select the column you want to search in, i.e `origin`
 1. Select the right row you want to search in, i.e `wheat flour`
-1. Choose your operator (it depends on the column type), here we can choose `IN`
-1. Choose or type the value you're searching for, i.e `france`.
+1. Choose your operator (it depends on the column type), here we can choose `IN LIST`
+1. Choose or type the value you're searching for, i.e `France`.
 
 :::info
-The third step is not mandatory. If you don't fill any row, then it means that you'll search for all products with a french ingredient. 
+The third step is not mandatory. If you don't fill any row, then it means that you'll search for all products with a french ingredient.
 :::
 
 # Compare product information from another locale and/or channel
