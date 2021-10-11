@@ -221,18 +221,22 @@ Please note that we have defined some limits in order to guarantee that the PIM 
 - The maximum number of cells per product is set to 8000 (it includes the total number of product values + the table attributes content).
 
 ### Use the table values to search for your products in the product grid
-Let's assume you use the table attribute for your _ingredients_, and some of them contain _allergens_ (this information is stored in a `yes/no` column in your table).
-Then your table could looks like that:
-- a column called `ingredients` containing `sugar`, `butter`, `peanut`...
+Let's assume you use the table attribute for your _ingredient list_, and their _origin_ (this information is stored in a `select` column in your table).
+Then your table could look like that:
+- a column called `ingredients` containing `sugar`, `butter`, `wheat flour`...
 - a column called `% per 100g`, where you'll put the percentage of each ingredient for 100 grams,
-- a column called `allergen`, where you'll select either `yes` or `no`.  
+- a column called `origin`, where you'll choose among options.  
 
-Thanks to the product grid filters, you can easily find all the products with peanuts and allergen:
+Thanks to the product grid filters, you can easily find all the products with french wheat flour:
 1. Select the right table attribute as filter, i.e `ingredients`
-1. Select the column you want to search in, i.e `allergen`
-1. Select the right line you want to search in, i.e `peanut`
-1. Choose your operator (it depends on the column type), here we can choose `=`
-1. Choose or type the value you're searching for, i.e `yes`.
+1. Select the column you want to search in, i.e `origin`
+1. Select the right row you want to search in, i.e `wheat flour`
+1. Choose your operator (it depends on the column type), here we can choose `IN`
+1. Choose or type the value you're searching for, i.e `france`.
+
+:::info
+The third step is not mandatory. If you don't fill any row, then it means that you'll search for all products with a french ingredient. 
+:::
 
 # Compare product information from another locale and/or channel
 
