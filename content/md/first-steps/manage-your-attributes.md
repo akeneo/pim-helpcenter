@@ -315,10 +315,10 @@ The attribute and all its relevant information will be deleted in Akeneo PIM. On
 If you need to change an attribute property (to make it scopable and/or localizable), or if you want to change the attribute type (from a simple text to a text area for instance), you need to delete the attribute.  
 Before doing so, **if you plan to create another attribute using the same code**, and if you want to keep the data already input for this attribute, you will need to:
 1. [Export the product information](manage-your-attributes.html#first-step-export-the-product-information)
-1. [Export the families and/or family variants](manage-your-attributes.html#second-step-export-the-families-and-or-family-variants)
+1. [Export the families and/or family variants](manage-your-attributes.html#second-step-export-the-families-andor-family-variants)
 1. [Delete the attribute](manage-your-attributes.html#third-step-delete-the-attribute)
 1. [Create a new attribute](manage-your-attributes.html#fourth-step-create-the-new-attribute)
-1. [Import back the families and/or family variants](manage-your-attributes.html#fifth-step-import-back-the-families-and-or-family-variants)
+1. [Import back the families and/or family variants](manage-your-attributes.html#fifth-step-import-back-the-families-andor-family-variants)
 1. [Import the product information back](manage-your-attributes.html#sixth-step-import-the-product-information-back)
 
 This walkthrough will help you go through the different steps.
