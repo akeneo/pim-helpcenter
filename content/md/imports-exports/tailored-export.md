@@ -127,12 +127,7 @@ Define a default value when the source value is empty.
 Convert measurement units within the same measurement family (only available for measurement attributes used as a source).
 ![Conversion](../img/TailoredExport_Operation_Conversion.png)
 
-## Selection
-
-Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more...
-![Selection](../img/TailoredExport_Operation_Selection.png)
-
-## Concatenate
+## Concatenation
 
 Concatenate different sources by displaying up to 4 per column. Click on `Add text` to add more details and create a separation between sources.
 ![Concatenate](../img/TailoredExport_Operation_Concatenate.gif)
@@ -141,6 +136,11 @@ Concatenate different sources by displaying up to 4 per column. Click on `Add te
 
 Clean automatically all the HTML tags in your text attributes used as a source.
 ![Clean HTML tags](../img/TailoredExport_Operation_CleanHTML.png)
+
+## Selection
+
+Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more... This operation will allow you decide exactly what product information you want to export, for each source.
+![Selection](../img/TailoredExport_Operation_Selection.png)
 
 # Duplicate a tailored product export profile
 
