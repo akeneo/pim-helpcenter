@@ -3,33 +3,21 @@
 {{> navbar-with-search }}
 {{> whats-new-button}}
 {{> whats-next-button}}
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-4 col-md-3">
-                    <img class="hidden-xs img-responsive center-block" src="../img/illus-gift.svg"></img>
-                </div>
-                <div class="col-xs-12 col-sm-8 col-md-9">
-                    <h1 class="emphasis hidden-xs" style="margin-top: 30px;">What's new in Akeneo PIM Serenity EE & GE?</h1>
-                    <h1 class="emphasis text-center visible-xs">What's new in Akeneo PIM Serenity EE & GE?</h1>
-                    <p class="hidden-xs"><em>You'll find below all the updates that our Serenity Entreprise edition (EE) and Serenity Growth edition (GE) of the PIM has to offer, month after month. Enjoy!</em></p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
                 <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / What's new in Akeneo PIM Serenity Enterprise & Growth editions?</p>
+                <h1>What's new in Akeneo PIM Serenity EE & GE?</h1>
+                <p><em>You'll find below all the updates that our Serenity Entreprise edition (EE) and Serenity Growth edition (GE) of the PIM have to offer, month after month. Enjoy!</em></p>
             </div>
         </div>
         <div class="row">
             {{#each yearlyUpdates}}
                 <div class="col-xs-2 col-md-1">
-                    <h1>{{year}}</h1>
+                    <h2>{{year}}</h2>
                 </div>
                 <div class="col-xs-10 col-md-11">
-                    <hr style="margin: 90px 0 32px 0;"></hr>
+                    <hr style="margin: 58px 0 32px 0;"></hr>
                 </div>
                 {{#each monthlyUpdates as |monthlyUpdate id|}}
                     <div class="col-xs-5 col-md-4 col-lg-3">
