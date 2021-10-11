@@ -132,7 +132,7 @@ To do this:
 You're done :)
 
 :::warning
-You can't import back the archive you downloaded from the PIM. To learn how to do this, please red how to [import back an archive](imports.html#import-back-the-new-archive).
+You can't import back the archive you just downloaded from the PIM. To learn how to do this, please first read [how to configure it](imports.html#configure-the-archive), then read [how to import it](imports.html#import-back-the-new-archive).
 :::
 
 # Duplicate an import profile
