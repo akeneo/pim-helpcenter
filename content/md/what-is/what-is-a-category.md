@@ -6,7 +6,7 @@ related: categorize-a-product
 ---
 
 # Definition of a category
-In Akeneo, **a category is used to classify products or assets (EE only)**. A category is always part of a main category tree (or *classification tree*).
+In Akeneo, **a category is used to classify products**. A category is always part of a main category tree (or *classification tree*).
 
 You can have **one or more category trees** in Akeneo with an **unlimited number of levels** (categories, subcategories, sub-subcategories...).
 
@@ -66,7 +66,7 @@ You cannot sort category trees only categories. Trees are displayed by date of c
 :::
 
 ::: ee
-In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Set rights on your catalog](access-rights-on-products.html#rights-depending-on-the-categories). 
+In the Enterprise Edition, you can define specific user rights on categories, to give ownership on products. For more information about permissions on categories see the following page: [Set rights on your catalog](access-rights-on-products.html#rights-depending-on-the-categories).
 :::
 
 # How to categorize a product?
