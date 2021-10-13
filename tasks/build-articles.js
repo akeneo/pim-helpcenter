@@ -19,7 +19,7 @@ const rename = require('gulp-rename');
 const revReplace = require('gulp-rev-replace');
 const HelpcenterMarkdownIt = require('./common/markdown-it.js');
 
-var majorVersion = 'serenity';
+var majorVersion = 'v6';
 
 
 gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {

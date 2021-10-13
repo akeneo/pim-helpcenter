@@ -1,97 +1,14 @@
 {
-  "2021-09": {
-    "title": "September 2021 Serenity updates",
-    "description": "As soon as they were back to school, Akeneo teams have been busy to make sure that your Tailored Export experience would be even more complete. Also, you'll enjoy the new navigation of the Category and Option screens along with an improved Settings page. ",
-    "img": "illus-september-21.svg"
+  "pxmArea1": {
+    "title": "PXM Area 1",
+    "description": "A description of the first PXM area here. Don't forget to change whether it's an EE only feature below, and also, don't hesitate to change the image",
+    "img": "illus-gift2.svg",
+    "eeOnly": false
   },
-  "2021-08": {
-    "title": "July & August 2021 Serenity updates",
-    "description": "Things were heating up in Akeneo PIM this July and August. With the release of Tailored Exports allowing you to define and create custom export files and the new marketplace menu with the list of connectors compatible with your PIM. You're in for our sweetest experience yet.",
-    "img": "illus-july-august-21.svg"
-  },
-  "2021-06": {
-    "title": "June 2021 Serenity updates",
-    "description": "Discover the latest PIM enhancements that ease even further the management of product models and assets through our REST API, as well as a new category screen to improve your user experience when managing categories and category trees.",
-    "img": "illus-june-21.svg"
-  },
-  "2021-05": {
-    "title": "May 2021 Serenity updates",
-    "description": "Providing you with a great user experience is crucial for us, that's why we revamped two major PIM screens and introduced a new menu to ease the management of connections. Also, we release two API improvements that will ease category tree synchronization and enable you to retrieve product completeness through API.",
-    "img": "illus-may-21.svg"
-  },
-  "2021-04": {
-    "title": "April 2021 Serenity updates",
-    "description": "In April, Akeneo PIM brings you an improved proposal screen, designed to be more simple and straightforward to use, and a new mass delete action for your reference entity records, to ease your records management.",
-    "img": "illus-april-21.svg"
-  },
-  "2021-03": {
-    "title": "March 2021 Serenity updates",
-    "description": "This month, we’re glad to share with you lots of new features and enhancements that will definitely delight you! Less manual tasks thanks to a new mass action for assets and improvements on user management, more guidance on enrichement thanks to attribute guidelines, and an easier debugging for your Events API-based connections.",
-    "img": "illus-march-21.svg"
-  },
-  "2021-02": {
-    "title": "February 2021 Serenity updates",
-    "description": "February comes with improvements on data quality: new spell-check dictionaries to help you better manage your overall data quality and new export and API filters on your product quality scores, but also a new frequency for rules execution and extended capabilities for your asset families.",
-    "img": "illus-february-21.svg"
-  },
-  "2021-01": {
-    "title": "January 2021 Serenity updates",
-    "description": "What better way to start this new year than with a great new PIM feature? We are very happy and proud to release a brand new API called “Events API” to help you effectively connect your PIM to third party applications!",
-    "img": "illus-january-21.svg"
-  },
-  "2020-12": {
-    "title": "December 2020 Serenity updates",
-    "description": "To end 2020, our PIM is boosted with many improvements that will definitely make your daily life easier. Discover a new way to grade your products. Share and import assets easily. Enjoy an even more flexible catalog modeling when using product variants. And so much more!",
-    "img": "illus-december-20.svg"
-  },
-  "2020-11": {
-    "title": "November 2020 Serenity updates",
-    "description": "Lots of new features and improvements this month! Easily organize your daily tasks with our new private views, better manage reference entities thanks to the new import and export of reference entities records, identify missing images with our data quality feature, and easily monitor your jobs and even stop them!",
-    "img": "illus-november-20.svg"
-  },
-  "2020-10": {
-    "title": "October 2020 Serenity updates",
-    "description": "October rhymes with better productivity, quickly automate your content creation with the rules engine, easily work with product variants and models thanks to our product grid enhancements, better prioritize your data quality focus areas and benefit from other improvements.",
-    "img": "illus-october-20.svg"
-  },
-  "2020-09": {
-    "title": "September 2020 Serenity updates",
-    "description": "This month, we completed the Rules Builder, our new rules engine user interface, and enriched it with additional rules features. We extended the capabilities of product exports to offer you more flexibility and we added new API filters to ease data synchronization.",
-    "img": "illus-september-20.svg"
-  },
-  "2020-08": {
-    "title": "August 2020 Serenity updates",
-    "description": "No vacation for new features! This summer, our teams continued to work on the rules engine user interface: it's boosted with new actions and conditions. We also improved our API usability by adding search filters when retrieving attributes and families.",
-    "img": "illus-august-20.svg"
-  },
-  "2020-07": {
-    "title": "July 2020 Serenity updates",
-    "description": "In July, the rules engine started a makeover to offer you a new screen to more easily create or update rules; but also check out our new association type, as well as other improvements on the Connection messages, the spell-check feature and date rules condition!",
-    "img": "illus-july-20.svg"
-  },
-  "2020-06": {
-    "title": "June 2020 Serenity updates",
-    "description": "In June, teams will be more empowered than ever! Check out our new product duplication feature, get a better user experience with our new attribute options screen and our rules engine updates, and execute asset naming conventions with more flexibility.",
-    "img": "illus-june-20.svg"
-  },
-  "2020-05": {
-    "title": "May 2020 Serenity updates",
-    "description": "The month of May brings improvements for error management on Connections, more flexibility for your data modeling thanks to a brand new association type, more control and visibility on the ongoing PIM jobs and additional features for the rules engine!",
-    "img": "illus-may-20.svg"
-  },
-  "2020-04": {
-    "title": "April 2020 Serenity updates",
-    "description": "This month is full of new features and updates! Discover our new measurement families, improvements on product associations and on the Connection dashboard. But that's not it! Find out new rules actions and our latest data quality improvements.",
-    "img": "illus-april-20.svg"
-  },
-  "2020-03": {
-    "title": "March 2020 Serenity updates",
-    "description": "This month, enhance your productivity thanks to new rules engine capabilities, better model your catalog with new measurement units and families, and finally keep on improving your product information with data quality extended features.",
-    "img": "illus-march-20.svg"
-  },
-  "2020-02": {
-    "title": "February 2020 Serenity updates",
-    "description": "This month Serenity updates include two new improvements: a new asset management operation to optimize the weight of your transformed files and new warning messages on usernames for the Connections.",
-    "img": "illus-february-20.svg"
+  "pxmArea2": {
+    "title": "PXM Area 2",
+    "description": "A description of the first PXM area here. You can add as many PXM areas as the release contains.",
+    "img": "illus-gift2.svg",
+    "eeOnly": true
   }
 }
