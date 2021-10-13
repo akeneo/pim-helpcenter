@@ -96,6 +96,45 @@ In the `Global settings` tab, properties depend on the import job. For example, 
 If a user has no rights granted to modify an import profile due to his role(s), then the permissions which he may benefit due to his user group(s) _(EE only)_ will not be applied. For instance, if a user does not have the `Edit profiles of imports` permission, his Enterprise Edition rights to edit a specific import profile will be ignored.
 :::
 
+# Import images & files
+
+If you have `Image` and/or `File` attribute types in your families, then you can import their content directly via the product import profile.
+To do this:
+1. First, [export the relevant product or product models](imports.html#export-the-relevant-products-or-product-models.html) via an archive.
+1. Then, [configure the archive](imports.html#configure-the-archive.html) in order to modify the product/product model file by adding your images and/or files.
+1. Finally, [import back the new archive](import.html#import-back-the-new-archive) in the PIM.
+
+## Export the relevant products or product models
+1. From the left menu, click `Exports`
+1. From the top right corner, click `Create`, type a label and a code and select the job `Product export in XLSX` or `product model export in XLSX`
+1. Under `Global settings`, switch `Export files and images` to `Yes`
+1. Under `Content`, select the relevant `Image` or `File` attributes
+1. Save and click `Export`
+1. Once the job is finished, click on `Download generated files` and get the archive
+
+## Configure the archive
+1. Open the archive you just downloaded
+1. Open the `Files` folder
+1. Each folder under `Files` corresponds to a product or product model and their names are the SKUs or codes of your product or product models
+![Exported products file archive](../img/Exports_archive.png)
+1. To add new images or files, click on the relevant folders, open the folders and add your image into each one
+1. Once done, open the CSV or XLSX files corresponding to your products or product models
+1. Go to the columns corresponding to your image or file attributes
+1. Change the filenames of the images or files corresponding to the name of the images of files you added in the previous steps
+1. Save your spreadsheet
+1. Select simultaneously the spreadsheets and the folder `File` and create an archive
+
+## Import back the new archive
+1. From the left menu, click `Imports`
+1. Select the export profile named `XLSX product import`
+1. Upload your archive and click `Import`
+
+You're done :)
+
+:::warning
+You can't import back the archive you just downloaded from the PIM. To learn how to do this, please first read [how to configure it](imports.html#configure-the-archive), then read [how to import it](imports.html#import-back-the-new-archive).
+:::
+
 # Duplicate an import profile
 
 If you want to create another import profile based on an existing one, you can duplicate it.
@@ -116,7 +155,7 @@ To start an import:
 
 When the import ends, a notification is available on the top right corner of the PIM.
 
-![image](../img/Imports-ImportProcess.gif)
+![Import process](../img/Imports-ImportProcess.gif)
 
 An email can also be sent depending on your user configuration. For further details on this, please refer to the [Manage your account](manage-your-account.html) article.
 
