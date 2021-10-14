@@ -143,7 +143,7 @@ If you added a default value with HTML tags thanks to the `Use default value whe
 
 ## Selection
 
-Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more... This operation will allow you decide exactly what product information you want to export, for each source.
+Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more... This operation will allow you to decide exactly what product information you want to export, for each source.
 ![Selection](../img/TailoredExport_Operation_Selection.png)
 
 # Duplicate a tailored product export profile
