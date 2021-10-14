@@ -137,6 +137,10 @@ Concatenate different sources by displaying up to 4 per column. Click on `Add te
 Clean automatically all the HTML tags in your text attributes used as a source.
 ![Clean HTML tags](../img/TailoredExport_Operation_CleanHTML.png)
 
+:::warning
+If you added a default value with HTML tags thanks to the `Use default value when empty operation`, and if you checked `Clean HTML tags` for the same source, this operation won't clean the HTML tags for the default value.
+:::
+
 ## Selection
 
 Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more... This operation will allow you decide exactly what product information you want to export, for each source.
