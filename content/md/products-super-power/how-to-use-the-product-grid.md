@@ -96,7 +96,7 @@ The grid can display up to 400 pages (10000 results). However, you can use the f
 
 On the left side of the page, you will see the category panel. Thanks to this panel, you can easily navigate between category trees or between categories. It displays all categories you have access to.
 
-In the Enterprise Edition, you can define specific rights on categories and category trees. Thus, if you do not see a specific tree or category, it’s because you have not the permission to see it. Click on a category name to expand it or to display its products in the grid.
+In the Enterprise Edition, you can define specific rights on categories and category trees. Thus, if you do not see a specific tree or category, it’s because if you have not the permission to see the products that are inside we choose to hide them. Click on a category name to expand it or to display its products in the grid.
 
 ![Browse products' categories](../img/Products_Category1.png)
 
@@ -121,6 +121,7 @@ Click on `All products` to see all products (categorised and uncategorised) of t
 ## Product counter
 
 Akeneo displays you the number of products available in each category and category tree. You will see a number into brackets nearby each category, this figure represents the total number of products classified in this category or sub-category.
+In the Enterprise Edition, this figure represents the total number of products you are allowed to view classified in this category or sub-category.
 
 At the bottom of the category tree, you will see a Yes/No option: `Include sub-categories`.
 
