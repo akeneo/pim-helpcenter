@@ -106,18 +106,45 @@ Limitations have been set for each Tailored Export profile:
 You can use operations to share the most meaningful values for your stakeholders by adapting your PIM values in different ways when exporting them.
 
 Depending on the sources you define, here are the different types of operations you can add:
-* `Yes/No replacement`: Replace the default values with your own value (only available for the "Yes/No" attribute or the "Enabled" system property).
+
+## Yes/No replacement
+
+Replace the default values with your own value (only available for the "Yes/No" attribute or the "Enabled" system property).
 ![Yes/No replacement](../img/TailoredExport_Operation_Boolean_Replacement.png)
-* `Use default value when empty`: Define a default value when the source value is empty.
+
+## Replacement
+
+Replace the values by your own (only available for simple select, multi select, reference entities single link or multiple link attributes).
+![Replacement](../img/TailoredExport_Operation_Replacement.png)
+
+## Use default value when empty
+
+Define a default value when the source value is empty.
 ![Use default value when empty](../img/TailoredExport_Operation_UseDefaultValueWhenEmpty.png)
-* `Conversion`: Convert measurement units within the same measurement family (only available for measurement attributes used as a source).
+
+## Conversion
+
+Convert measurement units within the same measurement family (only available for measurement attributes used as a source).
 ![Conversion](../img/TailoredExport_Operation_Conversion.png)
-* `Selection`: Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more...
-![Selection](../img/TailoredExport_Operation_Selection.png)
-* `Concatenate`: Concatenate different sources by displaying up to 4 per column. Click on `Add text` to add more details and create a separation between sources.
+
+## Concatenation
+
+Concatenate different sources by displaying up to 4 per column. Click on `Add text` to add more details and create a separation between sources.
 ![Concatenate](../img/TailoredExport_Operation_Concatenate.gif)
-* `Clean HTML tags`: Clean automatically all the HTML tags in your text attributes used as a source.
+
+## Clean HTML tags
+
+Clean automatically all the HTML tags in your text attributes used as a source.
 ![Clean HTML tags](../img/TailoredExport_Operation_CleanHTML.png)
+
+:::warning
+If you added a default value with HTML tags thanks to the `Use default value when empty operation`, and if you checked `Clean HTML tags` for the same source, this operation won't clean the HTML tags for the default value.
+:::
+
+## Selection
+
+Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more... This operation will allow you to decide exactly what product information you want to export, for each source.
+![Selection](../img/TailoredExport_Operation_Selection.png)
 
 # Duplicate a tailored product export profile
 
