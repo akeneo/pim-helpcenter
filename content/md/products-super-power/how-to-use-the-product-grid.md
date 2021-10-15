@@ -121,7 +121,7 @@ Click on `All products` to see all products (categorised and uncategorised) of t
 ## Product counter
 
 Akeneo displays you the number of products available in each category and category tree. You will see a number into brackets nearby each category, this figure represents the total number of products classified in this category or sub-category.
-In the Enterprise Edition, this figure represents the total number of products you are allowed to view classified in this category or sub-category.
+In the Enterprise Edition, this figure represents the total number of products **you are allowed to view** and that are classified in this category or sub-category.
 
 At the bottom of the category tree, you will see a Yes/No option: `Include sub-categories`.
 
