@@ -96,7 +96,7 @@ The grid can display up to 400 pages (10000 results). However, you can use the f
 
 On the left side of the page, you will see the category panel. Thanks to this panel, you can easily navigate between category trees or between categories. It displays all categories you have access to.
 
-In the Enterprise Edition, you can define specific rights on categories and category trees. Thus, if you do not see a specific tree or category, it’s because if you have not the permission to see the products that are inside we choose to hide them. Click on a category name to expand it or to display its products in the grid.
+In the Enterprise Edition, you can define specific rights on categories and category trees, in order to define which user group can see, edit or own products of these categories or category trees. You may not see some specific trees or categories. It's a normal behavior: we hide the categories or category trees of products you don't have view permission on. Click on a category name to expand it or to display its products in the grid.
 
 ![Browse products' categories](../img/Products_Category1.png)
 
