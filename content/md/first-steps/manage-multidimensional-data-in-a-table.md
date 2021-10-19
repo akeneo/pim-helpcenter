@@ -64,14 +64,16 @@ To structure your table, you can choose among 4 column types:
 
 Nevertheless, **the first column must always be of type `Select`**. We will detail how this column type works in the [next section](#specificity-of-each-column-type).
 
->lien
-
 ## Specificity of each column type
 
 ### Select column type
 As for the `Simple select` and `Multi select` attribute types, you can define **options** in your `Select` column types.  
 For instance, if your table attribute gathers the ingredients of a product, you have to create each ingredient as `option` of your `Select` column, in order to be able to use it in the Product Edit Form.
 This way, you create the options only one time, and you use them as many times as you want in your product tables :wink:.
+
+:::info
+The sorting of the options in the `manage options` screen is based on their creation date, in order to guarantee the best performances of your PIM.
+:::
 
 ### Text column type
 In the `Text` columns, you can define the `maximum number of characters`, in order to controle the length of your cells content.  
