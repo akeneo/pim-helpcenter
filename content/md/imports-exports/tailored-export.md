@@ -10,14 +10,14 @@ related: exports, monitor-jobs, access-rights-on-imports-exports
 
 # Overview
 
-This feature consists in a new export profile, available only for our Enterprise Edition <!-- or Growth Edition--> users.
+This feature consists in an export profile, available only for our Enterprise Edition <!-- or Growth Edition--> users.
 It helps you to export your product information in flat files, with your own structure.  
 For instance, let's assume your retailers or distributors need the same product information from you, but they want different structures:  
 * Retailer A wants an export with columns named: "Identifier", "Product Name", "Description", and "Weight (Ounces)".
 * Retailer B wants an export with columns named: "Name in French", "Name in English", "Description 1", "ID", and "Weight (Kilograms)".  
 
-Previously, you had to export your product information thanks to a regular product export profile, and manually modify your spreadsheet to reorder the columns, change their name, convert the measurements, for as many retailers and distributors that needed it.  
-Now, prepare the work from Akeneo PIM creating a Tailored Export profile per your retailer's or distributor's requirements and use it as often as necessary. **You no longer need to manually edit your flat files as soon as you need to share product information.**
+Without Tailored Export, you have to export your product information thanks to a regular product export profile, and manually modify your spreadsheet to reorder the columns, change their name, convert the measurements, for as many retailers and distributors that need it.  
+Thanks to Tailored Export, prepare the work from Akeneo PIM creating a Tailored Export profile per your retailer's or distributor's requirements and use it as often as necessary. **You no longer need to manually edit your flat files when you need to share product information.**
 
 :::tips
 To learn more about Tailored Export and how to use this feature, please watch our training content at [Akeneo Akademy](https://akademy.akeneo.com/tailored-exports-foundations).
@@ -41,14 +41,15 @@ Once you've created your tailored export profile, or if you want to edit an exis
 
 ## Discover the different tabs of this profile
 
-The tailored export profile is exactly like a regular product and product export profile. The only difference is that you have a tab to configure the structure of your flat file.
+A tailored export profile is similar to a regular product and product export profile. The main difference is that you have a tab to configure the structure of your flat file.
 
-* `Properties`: Define the label of your export profile
-* `Permissions`: Set permissions to allow specific user groups to execute or edit your export profile (Enterprise Edition only).
-* `Global settings`: Define the maximum number of lines per file you want, if you want to export the media (this will generate a file archive when exporting), the field delimiter (CSV format only) and the field enclosure character (CSV format only).
-* `Product selection`: Use the provided filters to decide which products will be exported (read how to [define your product selection](tailored-export.html#define-your-product-selection)).
-* `Export structure`: Build your export structure (read how to [define your export structure](tailored-export.html#define-your-export-structure)).
-* `History`: Display the modifications made by any user on your export profile.
+Here are the tabs you can use:
+* `Properties`: To define the label of your export profile.
+* `Permissions`: To set permissions to allow specific user groups to execute or edit your export profile (Enterprise Edition only).
+* `Global settings`: To define several settings: the maximum number of lines per file, if you want to export the media (this will generate a file archive when exporting), the field delimiter (CSV format only) and the field enclosure character (CSV format only).
+* `Product selection`: To use the provided filters to decide which products will be exported (read how to [define your product selection](tailored-export.html#define-your-product-selection)).
+* `Export structure`: To build your export structure (read how to [define your export structure](tailored-export.html#define-your-export-structure)).
+* `History`: To display the modifications made by any user on your export profile.
 
 :::info
 To export the media, your export structure must include at least one source using an attribute like `Image`, `File` or `Asset collection`.
