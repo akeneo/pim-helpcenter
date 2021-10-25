@@ -19,25 +19,25 @@ This attribute type is available in the _Growth Edition_ and in the _Enterprise 
 
 # How to create a Table attribute within Akeneo?
 
-As for the other attribute types, you can create a Table by clicking on `Settings`, `Attributes`, `Create attribute`. Then, click on `Table` and choose among our **templates**, or build your own.
+As for the other attribute types, you can create a Table by clicking on `Settings` > `Attributes` > `Create attribute`. Then, click on `Table` and choose among our **templates**, or build your own.
 
 :::info
 These templates are here to guide you. They are only **presentation suggestions** and can be edited to adapt to your needs. If you prefer to create your table from scratch, choose the `Empty table` template.
 :::
 
-Once the template is selected, a pop-in appears, asking you to choose a `code`, a `label`, and sometimes a `standard`, depending on the template you just chose.
+![image](../img/TableAttributeTemplates.png)
 
->image
+Once the template is selected, a pop-in appears, asking you to choose a `code`, a `label`, and sometimes a `standard`, depending on the template you just chose.
 
 You'll discover a tab called `Table structure`: this is where you can define your columns.
 
->image
+![image](../img/TableAttributeStructure.png)
 
 Except for the `Empty table` template, some columns have already been created for you. You can add new ones, simply by clicking on `Add new columns`.  
 For each new column, you must define a code, a label, and the type (`select`, `number`, `text` or `yes/no`). The column label can be translated in your catalog locales.
 You can also **change the order** of the columns, by clicking on the drag and drop area.
 
->image
+![image](../img/TableAttributeDragAndDropFocus.png)
 
 Finally,  **delete** any column you don't need, by clicking on the trashcan (appearing when hovering the row).
 
@@ -140,6 +140,3 @@ You can define that a table is required for the completeness of a channel. See t
 As of today, we consider a table **complete**, as soon as **1 cell is filled**. Stay tuned, we will improve it soon.  
 
 Now that you know all the secrets of the Table attribute type, [let's discover its capabilities in the Product Edit Form!](work-on-a-product.html/use-a-table-attribute-in-your-product-sheets)
-
->
-Now that you know everything about how this `table` attribute type can be configured, [let's discover how to use it in your product edit form](new-article-PEF)!
