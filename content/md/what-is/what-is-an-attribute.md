@@ -33,7 +33,7 @@ Here are the attribute types available in Akeneo:
 - **Reference entity multiple links** attribute **_(Enterprise Edition only)_**: the same as above but allowing you to manage multiple links
 - **Reference data simple select** attribute: allows you to manage any kind of data that has its own properties, as a single-choice select.
 - **Reference data multi select** attribute: allows you to manage any kind of data that has its own properties, as a multi-choice select.
-- **Table** attribute **_(Enterprise and Growth Editions only)_**: allows you to manage multidimensional data in a table. Check out our dedicated article [article](article) for more information.
+- **Table** attribute **_(Enterprise and Growth Editions only)_**: allows you to manage multidimensional data in a table. Check out our dedicated article [Manage multidimensional data in a table](manage-multidimensional-data-in-a-table.html) for more information.
 
 :::warning
 You can have only one attribute `identifier`, but you can have several attributes from the other types. If you need more identifier fields, use a text field with a unique value parameter set to `Yes`.
