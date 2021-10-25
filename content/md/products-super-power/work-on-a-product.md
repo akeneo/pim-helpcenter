@@ -207,8 +207,8 @@ You can open the record directly from the list: just click on the `Link` icon at
 
 ## Use a table attribute in your product sheets _(EE and GE only)_
 Once you've created a `table` attribute and you've added it to a product family, you can add rows to each of these products.
-When arriving on a product sheet composed by a table attribute, this attribute is empty.
-1. The first thing to do is to `add rows`. The `options` you defined in the first column are available here (configured in the [settings of this attribute](link-parameters-column)).
+The first time you open a product sheet that has a table attribute, this attribute is empty.
+The first thing to do is to `add rows`. The `options` you defined in the first column are available here (configured in the [settings of this attribute](link-parameters-column)).
 2. Once the rows are added, then you can start enriching the table.
 
 :::info
@@ -218,7 +218,7 @@ As for the other attribute types, a table can have different values depending on
 Please note that we have defined some limits in order to guarantee that the PIM is functional and runs smoothly.
 - The maximum number of rows in a table is set to 100.
 - The maximum number of table attributes within the PIM is set to 50.
-- The maximum number of cells per product is set to 8000 (it includes the total number of product values + the table attributes content).
+- The maximum number of filled cells per product is set to 8000 (including all the table attributes).
 
 ### Use the table values to search for your products in the product grid
 Let's assume you use the table attribute for your _ingredient list_, and their _origin_ (this information is stored in a `select` column in your table).
