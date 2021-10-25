@@ -93,11 +93,11 @@ In order to ensure that the PIM keeps running, we have defined some limits.
 - You can create up to **200000 options** within a Select column.
 - You can have up to **100 rows** per table attribute in a product sheet.
 - You can create up to **50 table attributes** in your PIM.
-- You can have up to **8000 product values** in a product sheet (including the whole product values + the table attributes content)
+- You can have up to **8000 filled cells** in a product sheet (including all table attributes)
 
 
 ## History tab
-As for the other attribute types, you retrieve the `History` tab.  
+Just like the other attribute types, there is an `History` tab.  
 In this tab, we track the activity on your attribute such as:
 - any change in the attribute `properties` tab
 - any change in the `table structure` tab, except if you update the option's labels (within a `select` column).
@@ -116,7 +116,7 @@ We are aware that this JSON format is not ideal, but there is no other easy way 
 :::
 
 :::info
-If you prefer to use the API, please note that the column information are part of the `Attribute` endpoints. To learn more about it, you can refer to our [API documentation](https://api.akeneo.com/concepts/catalog-structure.html#attribute).
+If you prefer to use the API, please note that the table configuration is part of the `Attribute` endpoint. To learn more about it, you can refer to our [API documentation](https://api.akeneo.com/concepts/catalog-structure.html#attribute).
 :::
 
 We've developed dedicated import/export profiles for the options of your `select` column types :wink:.
