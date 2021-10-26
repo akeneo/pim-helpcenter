@@ -47,7 +47,7 @@ Imagine you sell food products worldwide, and you need to add the nutritional va
 
 ## Let's discover the table attribute's particularities
 
-We've defined several rules to structure a table attribute, in order to leverage the power of the PIM and the Akeneo logic.
+We've defined several golden rules to structure a table attribute, in order to leverage the power of the PIM and the Akeneo logic.
 
 ### A table must contain at least 2 columns.
 Each column is defined by a `code`, a `label`, and a `type`. The label can be translated into your catalog locales.
