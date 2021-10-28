@@ -3,7 +3,6 @@ pim_announcement_img: ./img/TableAttribute-table.png
 pim_announcement_alt_img: "Table Attribute"
 pim_announcement_audience:
 - EE
-- CE
 ---
 
 # Manage your multidimensional data in Akeneo PIM
