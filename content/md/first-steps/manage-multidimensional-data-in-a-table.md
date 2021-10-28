@@ -4,6 +4,7 @@ themes: catalog-settings
 title: Manage multidimensional data in a **table**
 popular: true
 ee: true
+ge: true
 related: manage-your-attributes
 ---
 
