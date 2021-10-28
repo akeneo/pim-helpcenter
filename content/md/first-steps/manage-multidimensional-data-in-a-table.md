@@ -5,7 +5,7 @@ title: Manage multidimensional data in a **table**
 popular: true
 ee: true
 ge: true
-related:
+related: manage-your-attributes
 ---
 
 # Overview
