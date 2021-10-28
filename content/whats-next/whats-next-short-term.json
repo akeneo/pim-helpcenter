@@ -8,7 +8,7 @@
   },
   {
     "title": "Tailored Exports for Growth Edition",
-    "description": "Exporting customized flat files containing the most relevant product information will be possible in Akeneo Growth Edition. You are a GE user, sharing your precious product data with your distributors will become radically easier with this powerful and entirely customizable tailored export capability.",
+    "description": "The ability to export customized flat files from Akeneo PIM will be possible in Akeneo Growth Edition. As a GE user, sharing key product data with your distributors will become radically easier with this powerful and entirely customizable capability. Define the data, customize the structure, perform operations and more, all for a seamless exportation experience.",
     "img": "./img/TailoredExport-WhatsNext.png",
     "areas": ["Collaboration"],
     "editions": ["GE"]
