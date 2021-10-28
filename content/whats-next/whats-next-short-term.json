@@ -7,10 +7,11 @@
     "editions": ["EE","GE"]
   },
   {
-    "title": "Even More Powerful Tailored Exports",
-    "description": "We will continue to deliver new features to enhance our tailored exports with the ability to replace simple & multi select values.",
+    "title": "Tailored Exports for Growth Edition",
+    "description": "Exporting customized flat files containing the most relevant product information will be possible in Akeneo Growth Edition. You are a GE user, sharing your precious product data with your distributors will become radically easier with this powerful and entirely customizable tailored export capability.",
+    "img": "./img/TailoredExport-WhatsNext.png",
     "areas": ["Collaboration"],
-    "editions": ["EE","GE"]
+    "editions": ["GE"]
   },
   {
     "title": "Easy Set up of Marketplace Extensions",
