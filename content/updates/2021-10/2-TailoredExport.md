@@ -3,7 +3,6 @@ pim_announcement_img: ./img/Tailored-export-replacevalue.png
 pim_announcement_alt_img: "Tailored Exports"
 pim_announcement_audience:
 - EE
-- CE
 ---
 
 # Easily replace a value in Tailored Export
