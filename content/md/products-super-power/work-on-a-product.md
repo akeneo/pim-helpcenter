@@ -208,8 +208,8 @@ You can open the record directly from the list: just click on the `Link` icon at
 ## Use a table attribute in your product page _(EE and GE only)_
 You've created a `table` attribute and you've added it to a product family, you can now select the most relevant rows for each of your products.
 The first time you open a product sheet that has a table attribute, this attribute is empty.
-The first thing to do is to `add rows`. To do so, you will use the `options` you defined in the first column. They are configured in the [settings of this attribute](manage-multidimensional-data-in-a-table.html#select-column-type).
-2. Once the rows are added, then you can start enriching the table.
+1. The first thing to do is to `add rows`. To do so, you will use the `options` you defined in the first column. They are configured in the [settings of this attribute](manage-multidimensional-data-in-a-table.html#select-column-type).
+1. Once the rows are added, then you can start enriching the table.
 
 :::info
 A table can have different values depending on the channel and/or the locale. It means that, if you switch from a locale to another for instance, then you'll have to update the whole table in the other locale.
