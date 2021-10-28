@@ -3,7 +3,8 @@ id: configure-saml-sso
 themes: user-management
 title: Configure the SAML-based **Single Sign-On**
 popular: false
-ee-only: true
+ee: true
+ge: false
 related:
 priority: low
 ---

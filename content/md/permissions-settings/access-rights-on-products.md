@@ -3,7 +3,8 @@ id: access-rights-on-products
 themes: permissions-settings
 title: Set rights on your **catalog**
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: what-is-a-user-group, what-is-a-user, build-your-user-groups
 priority: low
 ---
@@ -222,7 +223,6 @@ Now, imagine Mary is both in the `Divider supplier` and the `Manager` user group
 ### The `Apply changes on children` option
 
 In the `Permissions` tab, there is an option called `Apply changes on children`. This option is checked by default. It means that the permissions you have granted to your current category will be apply to all its sub-categories.  
-And vice-versa.
 
 As you can see in the example below, the `Apply changes on children` is checked for the parent category. So all its sub-categories will get exactly the same user groups configuration for the view and edit rights.
 

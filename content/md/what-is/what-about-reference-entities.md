@@ -3,7 +3,8 @@ id: what-about-reference-entities
 themes: first-steps, manage-your-reference-entities
 title: What is a **reference entity**?
 popular: true
-ee-only: true
+ee: true
+ge: false
 related: manage-reference-entities, enrich-your-reference-entity-records
 ---
 

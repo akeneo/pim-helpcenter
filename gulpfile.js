@@ -22,6 +22,7 @@ gulp.task('watch', ['create-dist'], function() {
   gulp.watch('content/updates/*', ['create-dist']);
   gulp.watch('content/updates/**/*.md', ['create-dist']);
   gulp.watch('content/whats-new/*.json', ['create-dist']);
+  gulp.watch('content/whats-next/*.json', ['create-dist']);
   gulp.watch('content/versions-in-detail/*.json', ['create-dist']);
 });
 
@@ -47,6 +48,7 @@ gulp.task('create-dist', [
   'build-monthly-updates-as-html',
   'build-monthly-updates-as-json',
   'build-whats-new-page',
+  'build-whats-next-page',
   'build-versions-in-detail-page'
 ]);
 

@@ -3,7 +3,7 @@ id: improve-data-quality
 themes: products-super-power
 title: Improve **data quality**
 popular: false
-ee-only: false
+ee: false
 related: understand-data-quality, manage-data-quality, access-rights-on-data-quality
 ---
 

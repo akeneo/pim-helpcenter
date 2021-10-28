@@ -3,7 +3,8 @@ id: access-rights-on-asset-families
 themes: permissions-settings, manage-your-assets
 title: Set rights on your **asset families**
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: what-about-assets, manage-your-assets, build-your-user-groups
 ---
 

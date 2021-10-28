@@ -3,7 +3,8 @@ id: project-widget-dashboard
 themes: boost-your-productivity, collaborative-work
 title: Discover the **project widget** in the dashboard
 popular: false
-ee-only: true
+ee: true
+ge: false
 ---
 
 # Display key figures

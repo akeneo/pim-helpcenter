@@ -3,7 +3,8 @@ id: from-PAM-to-new-AM
 themes: manage-your-assets
 title: From PAM to new Asset Manager
 popular: true
-ee-only: true
+ee: true
+ge: false
 related: upload-assets, assets-transformation, pam-migration-guide, what-about-assets
 ---
 

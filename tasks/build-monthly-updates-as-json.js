@@ -226,10 +226,10 @@ function getAudience(editions) {
         switch (edition) {
             case 'EE':
                 return 'Serenity';
-                break;
             case 'CE':
                 return 'CE-master';
-                break;
+            case 'GE':
+                return 'Growth Edition';
             default:
                 throw new Error('Edition is not supported.');
         }

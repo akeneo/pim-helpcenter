@@ -3,7 +3,7 @@ id: what-about-measurements
 themes: first-steps, akeneo-concepts
 title: What about **measurements**?
 popular: false
-ee-only: false
+ee: false
 related: manage-your-measurements, manage-your-attributes
 ---
 

@@ -3,7 +3,7 @@ id: what-is-the-pim-marketplace
 themes: akeneo-concepts, connectivity
 title: What is the **PIM Marketplace**?
 popular: false
-ee-only: false
+ee: false
 related: how-to-connect-my-pim, connection-dashboard, manage-your-connections
 ---
 

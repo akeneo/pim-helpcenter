@@ -3,7 +3,8 @@ id: access-rights-on-entities
 themes: permissions-settings, manage-your-reference-entities
 title: Set rights on your **reference entities**
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: what-about-reference-entities, manage-your-reference-entities, build-your-user-groups
 ---
 

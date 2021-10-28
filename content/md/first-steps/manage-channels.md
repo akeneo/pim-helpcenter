@@ -3,7 +3,7 @@ id: manage-your-channels
 themes: catalog-settings
 title: Manage your **channels**
 popular: false
-ee-only: false
+ee: false
 related: what-is-a-channel
 ---
 

@@ -3,7 +3,7 @@ id: work-on-a-product
 themes: products-super-power
 title: "**Enrich** your product"
 popular: false
-ee-only: false
+ee: false
 related: create-a-product, product-completeness, categorize-a-product, products-associations
 ---
 
@@ -203,6 +203,39 @@ We added the completeness of a record in the selector.
 
 ::: tips
 You can open the record directly from the list: just click on the `Link` icon at the end of each record line and the record will open in a new tab.
+:::
+
+## Use a table attribute in your product page _(EE and GE only)_
+You've created a `table` attribute and you've added it to a product family, you can now select the most relevant rows for each of your products.
+The first time you open a product sheet that has a table attribute, this attribute is empty.
+1. The first thing to do is to `add rows`. To do so, you will use the `options` you defined in the first column. They are configured in the [settings of this attribute](manage-multidimensional-data-in-a-table.html#select-column-type).
+1. Once the rows are added, then you can start enriching the table.
+
+:::info
+A table can have different values depending on the channel and/or the locale. It means that, if you switch from a locale to another for instance, then you'll have to update the whole table in the other locale.
+:::
+
+Please note that we have defined some limits in order to guarantee the PIM stability.
+- The maximum number of rows in a table is set to 100.
+- The maximum number of table attributes within the PIM is set to 50.
+- The maximum number of filled cells per product is set to 8000, for all the table attributes on a given product page.
+
+### Use the table values to search for your products in the product grid
+Let's assume you are using a table attribute for your _ingredient list_, and their _origin_ (this information is stored in a `select` column in your table).
+Then your table could look like that:
+- a column called `ingredients` containing `sugar`, `butter`, `wheat flour`...
+- a column called `% per 100g`, where you'll put the percentage of each ingredient for 100 grams,
+- a column called `origin`, where you'll choose among options.  
+
+Thanks to the product grid filters, you can easily find all the products with French wheat flour:
+1. Select the right table attribute as filter, i.e `ingredients`
+1. Select the column you want to search in, i.e `origin`
+1. Select the right row you want to search in, i.e `wheat flour`
+1. Choose your operator (it depends on the column type), here we can choose `IN LIST`
+1. Choose or type the value you're searching for, i.e `France`.
+
+:::info
+The third step is not mandatory. If you don't fill any row, then it means that you'll search for all products with a French ingredient.
 :::
 
 # Compare product information from another locale and/or channel

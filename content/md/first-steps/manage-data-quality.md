@@ -3,7 +3,7 @@ id: manage-data-quality
 themes: catalog-settings
 title: Manage your **data quality**
 popular: false
-ee-only: false
+ee: false
 related: understand-data-quality, improve-data-quality, access-rights-on-data-quality
 ---
 # Overview

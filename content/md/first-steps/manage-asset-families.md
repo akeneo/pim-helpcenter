@@ -3,7 +3,8 @@ id: manage-asset-families
 themes: catalog-settings, manage-your-assets
 title: Manage your **asset families**
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: what-about-assets, enrich-your-assets
 ---
 
@@ -283,7 +284,7 @@ I recommend you to read [this article](assets-transformation.html) to know how t
 The following operations are available:
 - `colorspace` (change the image's colorspace)
     - parameters:
-        - `colorspace` (string): one value among `rgb`, `cmyk` or `grey` (mandatory)
+        - `colorspace` (string): one value among `rgb` or `grey` (mandatory)
 - `scale` (resize image while keeping the width/height proportions)
     - parameters: (at least one of the following)
         - `width` (int > 0): new width of the image in pixels

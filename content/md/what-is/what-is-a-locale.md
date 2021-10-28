@@ -3,7 +3,7 @@ id: what-is-a-locale
 themes: first-steps, akeneo-concepts
 title: What is a **locale**?
 popular: false
-ee-only: false
+ee: false
 related: manage-your-locales, what-is-an-attribute, access-rights-on-products
 ---
 

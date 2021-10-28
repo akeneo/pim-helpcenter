@@ -3,7 +3,7 @@ id: work-on-your-assets
 themes: manage-your-assets
 title: "Work on your **assets**"
 popular: false
-ee-only: right
+ee: right
 related: create-and-display-assets
 ---
 

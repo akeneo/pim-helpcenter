@@ -3,7 +3,8 @@ id: duplicate-a-product
 themes: products-super-power
 title: "**Duplicate** products"
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: products-grid, work-on-a-product, create-a-product
 ---
 

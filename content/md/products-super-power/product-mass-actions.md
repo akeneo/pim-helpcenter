@@ -4,7 +4,7 @@ themes: products-super-power, boost-your-productivity
 
 title: "**Bulk actions** on products"
 popular: false
-ee-only: false
+ee: false
 related: sequential-edit
 ---
 
@@ -269,10 +269,6 @@ To delete multiple products:
 3.  Click on `Delete` in the toolbar located at the bottom of the screen
 4.  Confirm the action with the `Confirm` button
 ![Confirm delete](../img/Products_BulkActionUppermenuDelete2.png)
-
-:::info
-Due to safety reasons, **you cannot remove more than 1000 products at a time.**
-:::
 
 :::info
 You can also mass delete [product models](what-about-products-variants.html#what-is-a-product-model). **If you delete product models, all their children (product models and variant products) are also deleted.**

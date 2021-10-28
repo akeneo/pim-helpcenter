@@ -3,7 +3,8 @@ id: assets-transformation
 themes: administration, manage-your-assets
 title: About the **assets transformations**
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: work-with-assets, upload-assets
 ---
 
@@ -137,7 +138,6 @@ With the `colorspace` type, you can change the image's colorspace. For example, 
 
 There is one available parameter for this operation: `colorspace`. It allows you to choose which colorspace you want your image to be turned into. It should be one of the following values:
 - `rgb`,
-- `cmyk`,
 - `grey`.
 
 ::: info

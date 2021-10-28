@@ -3,8 +3,8 @@ id: product-export-builder
 themes: import-export-data
 title: The power of the **Product Export Builder**
 popular: false
-ee-only: false
-related: exports, monitor-jobs
+ee: false
+related: exports, monitor-jobs, tailored-export
 ---
 
 # Overview

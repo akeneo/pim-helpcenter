@@ -3,7 +3,7 @@ id: manage-your-attribute-groups
 themes: catalog-settings
 title: Manage your **attribute groups**
 popular: false
-ee-only: false
+ee: false
 related: what-is-an-attribute-group
 ---
 

@@ -6,7 +6,7 @@ related: categorize-a-product
 ---
 
 # Definition of a category
-In Akeneo, **a category is used to classify products or assets (EE only)**. A category is always part of a main category tree (or *classification tree*).
+In Akeneo, **a category is used to classify products**. A category is always part of a main category tree (or *classification tree*).
 
 You can have **one or more category trees** in Akeneo with an **unlimited number of levels** (categories, subcategories, sub-subcategories...).
 

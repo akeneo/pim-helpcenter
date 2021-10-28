@@ -3,7 +3,7 @@ id: product-completeness
 themes: products-super-power
 title: Follow your **product**'s completeness
 popular: false
-ee-only: false
+ee: false
 related: completeness
 ---
 

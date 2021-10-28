@@ -2,7 +2,8 @@
 id: family-by-family-pam-migration
 title: The **family-by-family** migration for PAM assets
 popular: false
-ee-only: true
+ee: true
+ge: false
 related: from-PAM-to-new-AM, pam-migration-guide
 ---
 

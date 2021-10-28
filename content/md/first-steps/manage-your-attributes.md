@@ -3,7 +3,7 @@ id: manage-your-attributes
 themes: catalog-settings
 title: Manage your **attributes**
 popular: false
-ee-only: false
+ee: false
 related: what-is-an-attribute
 ---
 
@@ -80,8 +80,14 @@ Each attribute has specific properties to add more control on attribute's values
   - *Related reference entity*: the reference entity linked to this attribute
 - **Reference data simple select attribute** & **reference data multi select**:
   - *Reference data type*: choose an existing reference data value to link to your attribute
-- **Asset collection attribute _(Enterprise Edition only)_** :
+- **Asset collection attribute _(Enterprise Edition only)_**:
   - *Related asset family*: the asset family linked to this attribute
+- **Table attribute _(Enterprise and Growth Editions only)_**: depending on your column types, there can be several validation parameters:
+  - `text` column type: *Maximum number of characters* (it must be less than 100 characters)
+  - `number` column type:   
+    - *Allow decimals*
+    - *Minimum value*: the smallest allowed value
+    - *Maximum value*: the largest allowed value
 
 For the text attribute type, you can add a regular expression to validate the content of the input. For instance, to control the right format of a EAN13 code, add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 
@@ -314,14 +320,16 @@ The attribute and all its relevant information will be deleted in Akeneo PIM. On
 
 If you need to change an attribute property (to make it scopable and/or localizable), or if you want to change the attribute type (from a simple text to a text area for instance), you need to delete the attribute.  
 Before doing so, **if you plan to create another attribute using the same code**, and if you want to keep the data already input for this attribute, you will need to:
-1. [Export the data](manage-your-attributes.html#first-step-export-the-data)
-1. [Delete the attribute](manage-your-attributes.html#second-step-delete-the-attribute)
-1. [Create a new attribute](manage-your-attributes.html#third-step-create-the-new-attribute)
-1. [Import the data back](manage-your-attributes.html#fourth-step-import-the-data-back)
+1. [Export the product information](manage-your-attributes.html#first-step-export-the-product-information)
+1. [Export the families and/or family variants](manage-your-attributes.html#second-step-export-the-families-andor-family-variants)
+1. [Delete the attribute](manage-your-attributes.html#third-step-delete-the-attribute)
+1. [Create a new attribute](manage-your-attributes.html#fourth-step-create-the-new-attribute)
+1. [Import back the families and/or family variants](manage-your-attributes.html#fifth-step-import-back-the-families-andor-family-variants)
+1. [Import the product information back](manage-your-attributes.html#sixth-step-import-the-product-information-back)
 
 This walkthrough will help you go through the different steps.
 
-### First step: export the data
+### First step: export the product information
 
 ::: info
 Before you begin, make sure you know how to configure a new export profile. If you need more help, please read our page on [How to create a new product export profile](#product-export-builder.html#create-a-new-product-export-profile).
@@ -343,13 +351,19 @@ If you plan to delete a simple or multi select attribute, and if you want to kee
 :::
 ![Export attribute options](../img/Delete-Attribute_Job_Export-Attribute-options.png)
 
-### Second step: delete the attribute
+### Second step: export the families and/or family variants
+1. Go to `Exports` and click on `Create export profile`
+1. Define a code and a label
+1. Select the job in the `job` field, whether you want to export the families or the family variants
+1. Click on `Save` and on `Export now`
+
+### Third step: delete the attribute
 
 To delete the attribute, you have two options:
 * From the [attribute edit form](manage-your-attributes.html#through-the-attribute-edit-form)
 * From the [delete shortcut](manage-your-attributes.html#through-the-delete-shortcut-in-the-grid) in the grid
 
-### Third step: create the new attribute
+### Fourth step: create the new attribute
 
 To complete this step, please read [how to create an attribute](manage-your-attributes.html#how-to-create-an-attribute).
 Here you can create the new attribute using the same code that was used for the attribute you just deleted.
@@ -360,7 +374,14 @@ Once you've deleted an attribute, a process starts in order to clear all product
 
 ![Attribute deletion - Attribute code blacklisted](../img/Settings_Attributes_code_blacklisted.png)
 
-### Fourth step: import the data back
+### Fifth step: import back the families and/or family variants
+
+1. Go to `Imports` and click on `Create import profile`
+1. Define a code and a label
+1. Select the job in the `job` field, whether you want to import the families or the family variants
+1. Drop your file and click on `Upload and import now`
+
+### Sixth step: import the product information back
 
 1. Go to `Imports` and click on `Create import profile`
 1. Define a code and a label
