@@ -80,8 +80,14 @@ Each attribute has specific properties to add more control on attribute's values
   - *Related reference entity*: the reference entity linked to this attribute
 - **Reference data simple select attribute** & **reference data multi select**:
   - *Reference data type*: choose an existing reference data value to link to your attribute
-- **Asset collection attribute _(Enterprise Edition only)_** :
+- **Asset collection attribute _(Enterprise Edition only)_**:
   - *Related asset family*: the asset family linked to this attribute
+- **Table attribute _(Enterprise and Growth Editions only)_**: depending on your column types, there can be several validation parameters:
+  - `text` column type: *Maximum number of characters* (it must be less than 100 characters)
+  - `number` column type:   
+    - *Allow decimals*
+    - *Minimum value*: the smallest allowed value
+    - *Maximum value*: the largest allowed value
 
 For the text attribute type, you can add a regular expression to validate the content of the input. For instance, to control the right format of a EAN13 code, add a validation rule based on the following regular expression: `/^[0-9]{13}$/`
 
