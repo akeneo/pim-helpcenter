@@ -103,7 +103,12 @@ The expected values are:
  - `to_scope`: the channel code where the value will be copied *(optional)*
 
 It is possible to copy values from an attribute type to another attribute of the same type (for example: from a `text` attribute type to another `text` attribute type).  
-And you can go even further.  It is possible to copy attribute values in another attribute value field even if they are two different types of values. :wink: There are some exceptions mind you! Check out the list below.
+
+:::info
+You can copy the values of a table attribute to another table, only if both tables share the exact same structure.
+:::
+
+You can go even further. It is possible to copy attribute values in another attribute value field even if they are two different types of values. There are some exceptions mind you! Take a look at the list below.
 
 You can copy the given attribute to a selection of attribute types that we defined based on logical criteria:
 #### You can copy the option code of a **simple select** attribute to:
