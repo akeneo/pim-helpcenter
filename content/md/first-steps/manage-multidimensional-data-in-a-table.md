@@ -3,7 +3,7 @@ id: manage-multidimensional-data-in-a-table
 themes: catalog-settings
 title: Manage multidimensional data in a **table**
 popular: true
-ee-only: true
+ee: true
 related: manage-your-attributes
 ---
 
