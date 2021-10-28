@@ -49,31 +49,31 @@ Here are the tabs you can use:
 * `Global settings`: To define several settings: the maximum number of lines per file, if you want to export the media (this will generate a file archive when exporting), the field delimiter (CSV format only) and the field enclosure character (CSV format only).
 * `Product selection`: To use the provided filters to decide which products will be exported (read how to [define your product selection](tailored-export.html#define-your-product-selection)).
 * `Export structure`: To build your export structure (read how to [define your export structure](tailored-export.html#define-your-export-structure)).
-* `History`: To display the modifications made by any user on your export profile.
+* `History`: To display the modifications by any user on your export profile.
 
 :::info
 To export the media, your export structure must include at least one source using an attribute like `Image`, `File` or `Asset collection`.
 :::
 
 :::warning
-If the attribute as main media used in your asset family has a value per locale and/or a value per channel, all of its media will be exported.
+If the attribute as main media used in your asset family has a value per locale and/or per channel, all of its media files will be exported.
 :::
 
 ## Define your product selection
 
 In the `Product selection` tab, you can select the products which will be exported.
-A certain number of filters are available, helping you to refine your product selection, such as family, category, status, completeness, data quality or even insert a list of identifiers. You can also add new attributes to use them to filter your products.
+Filters are available to help you to refine your product selection. You can filter on family, category, status, completeness, data quality or even insert a list of identifiers. You can also add new attributes to use them to filter your products.
 
 ![Select multiple category trees](../img/TailoredExport_Select-categories.png)
 
 :::info
-If no categories are selected, all products will be exported, including all uncategorized products.
+If no categories are selected, all products will be exported, including all unclassified products.
 :::
 
 ## Define your export structure
 
 In the `Export structure` tab, you can build the structure of your file.
-You need to create the columns of your file, name them & link them to your PIM attributes, system properties or association types in order for your export profile to be ready to be launched.
+You need to create the columns of your file, name them & link them to your PIM attributes, system properties or association types in order for your export profile to be launched.
 
 To do this, please follow the steps below:
 1.  Add a first column by clicking on `Add first column`.
@@ -82,16 +82,16 @@ To do this, please follow the steps below:
     If you want to add columns in bulk from an Excel file, you can copy all the columns header in your spreadsheet and paste them in the last column created, so that it creates automatically all your columns in your export.
     ![Add columns in bulk](../img/TailoredExport_Add-columns-in-bulk.gif)
     :::
-1.  Once your first column has been added, you can type its name in the field created.
+1.  Once your first column has been added, you can define the column name in the text field that just appeared.
 ![Name your columns](../img/TailoredExport_Column-headers.png)
-1.  Then, you need to add a source for each column, which means selecting an attribute, a system property or an Association type. To do this, please select the column you want, then, in the right panel, click on `Add source` and select any item from the list.  
+1.  Then, you need to add a source for each column, which means selecting an attribute, a system property or an association type. To do this, please select the column you want, then, in the right panel, click on `Add source` and select any item from the list.  
     ::: info
     System properties are not set by default. Select only the system properties you need. You can choose: "Enabled", "Category", "Family", "Family variant", "Groups", "Parent" and your association types.
     :::
 1. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if your attribute has a value per locale or per channel, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available. For instance, you can choose between exporting the code or the label of the attribute option, and which separator (comma, semi-colon, pipe) you want, when applicable.
 ![Add a source](../img/TailoredExport_Add-source.gif)
 1.  Once you're done, click on `Save` in the top right corner.
-1.  To launch your export profile, click in the top left breadcrumb on the name of your export profile, then click on `Export`.
+1.  To launch your export profile, in the breadcrumb, click on the name of your export profile, then click on `Export`. ![Breadcrumb](../img/TailoredExport_Breadcrumb.png)
 
 ::: warning
 Limitations have been set for each Tailored Export profile:
@@ -144,7 +144,7 @@ If you added a default value with HTML tags thanks to the `Use default value whe
 
 ## Selection
 
-Select the format of the value you want to export. For instance, you can select the label or the code, the separator and more... This operation will allow you to decide exactly what product information you want to export, for each source.
+Select the format of the value you want to export. For instance, you can select the label or the code, the separator, etc. This operation will allow you to decide exactly what product information you want to export, for each source.
 ![Selection](../img/TailoredExport_Operation_Selection.png)
 
 # Duplicate a tailored product export profile
@@ -155,8 +155,3 @@ To do this, please follow the steps below:
 1. Click on `Edit`
 1. In the top right corner, click on the three dots "..." and select `Duplicate`
 1. Write a label and a code then click on `Save`
-
-
-:::tips
-We hope that you enjoy working with Tailored Export 101. A more advanced version will be released in the coming months, stay tuned!
-:::
