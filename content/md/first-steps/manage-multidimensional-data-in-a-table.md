@@ -69,7 +69,7 @@ Nevertheless, **the first column type must always be `Select`**. We will detail 
 
 ### Select column type
 Just like for the `Simple select` and `Multi select` attribute types, you can define **options** for your `Select` column type.  
-For instance, if your table attribute is used to list the ingredients of a product, each ingredient is an `option` of your `Select` column, this way you will be able to use it in the Product Edit Form. Check out our [dedicated article](work-on-a-product.html/#use-a-table-attribute-in-your-product-page) to discover how to use rows in your product page.
+For instance, if your table attribute is used to list the ingredients of a product, each ingredient is an `option` of your `Select` column, this way you will be able to use it in the Product Edit Form. Check out our [dedicated article](work-on-a-product.html#use-a-table-attribute-in-your-product-page-ee-and-ge-only) to discover how to use rows in your product page.
 You create the options once, and you use them as much as you want in your product tables :wink:.
 
 :::info
