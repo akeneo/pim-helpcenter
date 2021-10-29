@@ -91,7 +91,7 @@ There is no validation parameters in this column type!
 ## Scalability of a table attribute
 In order to ensure that the PIM keeps running, we have defined some limits.  
 - You can create up to **10 columns** in a single table.
-- You can create up to **200000 options** within a Select column.
+- You can create up to **20000 options** within a Select column.
 - You can have up to **100 rows** per table attribute in a product sheet.
 - You can create up to **50 table attributes** in your PIM.
 - You can have up to **8000 filled cells** in a product sheet (including all table attributes)
