@@ -1,5 +1,12 @@
 [
   {
+    "title":"Table attribute",
+    "areas": ["Governance"],
+    "editions": ["EE","GE"],
+    "since-version": "Serenity",
+    "link": "/pim/serenity/updates/2021-10.html#manage-your-multidimensional-data-in-akeneo-pim"
+  },
+  {
     "title":"Tailored exports",
     "areas": ["Collaboration", "Productivity"],
     "editions": ["EE"],
