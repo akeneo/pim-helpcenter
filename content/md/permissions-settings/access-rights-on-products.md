@@ -195,6 +195,7 @@ The product A is categorized in:
  - the `Divided brand` category, on which the `Divided supplier` user group has an owner right
  - the `Tshirt` category, on which the `Divided supplier` user group only has a edit right
  - the `Yellow` category, on which the `Divided supplier` user group only has a view right
+ 
 Now, imagine Mary is in the `Divider supplier` user group. She will have the owner right on the product A.
 
 ### One product, no category
