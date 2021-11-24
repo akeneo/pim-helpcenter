@@ -132,7 +132,17 @@ And if you are comfortable with the API, you can retrieve the table options with
 ## Import/export the table values of a product
 Exactly like for other attribute types, you can import and export your products with table attributes. But, as a table is a quite complexe value, the only way for the PIM to import table data among the other attributes of the product, is by translating your value into JSON in the "table" attribute column of your CSV or XLSX file.
 
-That's why **we highly recommend you to keep the import/export feature for data flows between the PIM and other systems purpose, and not for human enrichment purpose.**
+### Use the dedicated "product data table values" import/export jobs
+We know that, working with JSON format within a xlsx/csv file is not that much comfortable for manual enrichment. That's why we have created several import and export jobs in order to import and export the enriched table attributes, formatted as they are in the product edit form.  
+
+These dedicated job are named:
+- `product data table values` import and export (csv and xlsx)
+- `product model data table values` import and export (csv and xlsx)
+
+You should create **1 import profile per table attribute** you want to import/export. Indeed, these jobs enable you to import/export the table values of several products sharing the same table attribute. As each table attribute can have a different structure, we cannot mix them up in the same file :wink:.
+
+For instance: you manage your `composition` with a table attribute in your "food" family. You can create a new import profile called `food composition`, that uses the `product data table values` job, in order to import the `composition` values of several food products at a time.
+
 
 # What about the completeness?
 
