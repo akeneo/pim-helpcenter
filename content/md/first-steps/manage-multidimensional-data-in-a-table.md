@@ -136,7 +136,7 @@ Exactly like for other attribute types, you can import and export your products 
 We know that, working with JSON format within a xlsx/csv file is not that much comfortable for manual enrichment. That's why we have created several import and export jobs in order to import and export the enriched table attributes, formatted as they are in the product edit form.  
 
 These dedicated job are named:
-- `product data table values` import and export (csv and xlsx)
+- `Product table values` import and export (csv and xlsx)
 - `Product model table values` import and export (csv and xlsx)
 
 You should create **1 import profile per table attribute** you want to import/export. Indeed, these jobs enable you to import/export the table values of several products sharing the same table attribute. As each table attribute can have a different structure, we cannot mix them up in the same file :wink:.
