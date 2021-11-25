@@ -137,7 +137,7 @@ We know that, working with JSON format within a xlsx/csv file is not that much c
 
 These dedicated job are named:
 - `product data table values` import and export (csv and xlsx)
-- `product model data table values` import and export (csv and xlsx)
+- `Product model table values` import and export (csv and xlsx)
 
 You should create **1 import profile per table attribute** you want to import/export. Indeed, these jobs enable you to import/export the table values of several products sharing the same table attribute. As each table attribute can have a different structure, we cannot mix them up in the same file :wink:.
 
