@@ -50,10 +50,6 @@ To give the role permission:
 
 ![Role manage apps](../img/role-manage-apps.png)
 
-::: warning
-This permission management is only available for EE users.
-::: 
-
 The PIM is also using the following role permissions to manage who can grant permission to an App: 
 
 - Manage attribute group permissions
