@@ -145,6 +145,6 @@ The basic rule is that we consider a table **complete**, as soon as **1 cell is 
 This way, you can easily define that:
 - the table is complete if **every cells** are filled (you should have checked the completeness option in every column)
 - the table is complete if **every cells of 1 or several column.s** are filled (you should have checked the completeness option in some columns only)
-- the table is complete as soon as **one cell** is filled (including the cells of the first column).
+- the table is complete as soon as **one cell** is filled (only the completeness option of the first column should be checked). This is the default.
 
 Now that you know all the secrets of the Table attribute type, [let's discover its capabilities in the Product Edit Form!](work-on-a-product.html/use-a-table-attribute-in-your-product-sheets)
