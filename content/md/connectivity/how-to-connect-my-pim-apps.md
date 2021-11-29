@@ -3,7 +3,7 @@ id: how-to-connect-my-pim-with-apps
 themes: connectivity, import-export-data
 title: How to **connect my PIM with Apps**?
 popular: true
-ee-only: false
+ee: false
 related: manage-your-apps, connection-dashboard
 ---
 
