@@ -138,13 +138,13 @@ That's why **we highly recommend you to keep the import/export feature for data 
 
 You can define that a table is required for the completeness of a channel. See the [dedicated article](what-is-the-completeness.html).
 
-The basic rule is that we consider a table **complete**, as soon as **1 cell is filled**. But you can go further by defining, in each column, if this one is required for the completeness of the attribute.
+The ground rule is that we consider a table **complete** as soon as **one cell is filled**. You can go further by defining the completeness at the column level by making it required for the completeness of the attribute.
 
 ![image](../img/TableAttributeCompleteness.png)
 
-This way, you can easily define that:
-- the table is complete if **every cells** are filled (you should have checked the completeness option in every column)
-- the table is complete if **every cells of 1 or several column.s** are filled (you should have checked the completeness option in some columns only)
-- the table is complete as soon as **one cell** is filled (only the completeness option of the first column should be checked). This is the default.
+This way, you can easily define three different levels of completeness:
+- the table is complete if **every cell** is filled (you should have checked the completeness option in every column)
+- the table is complete if **every cell of 1 or several column.s** is filled (you should have checked the completeness option in some columns only)
+- the table is complete as soon as **one cell** is filled. In that case, only the completeness option of the first column should be checked. This is the default behavior.
 
 Now that you know all the secrets of the Table attribute type, [let's discover its capabilities in the Product Edit Form!](work-on-a-product.html/use-a-table-attribute-in-your-product-sheets)
