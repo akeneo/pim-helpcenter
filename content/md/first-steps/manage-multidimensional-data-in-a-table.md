@@ -136,7 +136,7 @@ That's why **we highly recommend you to keep the import/export feature for data 
 
 # What about the completeness?
 
-You can define that a table is required for the completeness of a channel. See the [dedicated article](what-is-the-completeness.html).
+You can define that a table is required for the completeness of a channel. [Check out our dedicated article for more information.](what-is-the-completeness.html).
 
 The ground rule is that we consider a table **complete** as soon as **one cell is filled**. You can go further by defining the completeness at the column level by making it required for the completeness of the attribute.
 
