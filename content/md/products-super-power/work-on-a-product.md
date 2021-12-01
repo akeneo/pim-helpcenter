@@ -211,6 +211,8 @@ The first time you open a product sheet that has a table attribute, this attribu
 1. The first thing to do is to `add rows`. To do so, you will use the `options` you defined in the first column. They are configured in the [settings of this attribute](manage-multidimensional-data-in-a-table.html#select-column-type).
 1. Once the rows are added, then you can start enriching the table.
 
+![table](../img/Product_TableAttribute.png)
+
 :::info
 A table can have different values depending on the channel and/or the locale. It means that, if you switch from a locale to another for instance, then you'll have to update the whole table in the other locale.
 :::
