@@ -7,7 +7,7 @@ ee: false
 related: how-to-connect-my-pim-with-apps, connection-dashboard
 ---
 
-# How to manage your connected Apps
+# Manage your connected Apps
 
 Now that you connected one or several Apps with your Akeneo PIM, you probably want to see the list of all the connected Apps and access their settings.
 
@@ -24,7 +24,7 @@ This is where you can see which authorizations have been granted during the acti
 ![Connected app Settings](../img/connected-app-settings.png)
 
 
-# Setup your App permissions
+# Setup your App permissions `EE`
 
 ::: warning
 This tab is only available for EE users.
@@ -34,7 +34,7 @@ To access the settings of an App, click on `Manage App` and you will access th
 
 This is where you can view and update permissions granted to an App.
 
-![Connected app permissions](../img/connected-app-permissions.png)
+![Connected app permissions](../img/connected-app-permissions.png) <!--Update screenshot-->
 
 If you want to know more about App permissions, please read this paragraph of our documentation: [How to give permissions to your App?](how-to-connect-my-pim-with-apps.html#how-to-give-permissions-to-your-app-ee-only) 
 

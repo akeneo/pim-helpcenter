@@ -67,7 +67,7 @@ A wizard is a **step-by-step activation process** that will accompany you on the
 
 This wizard contains either one step (CE or GE) or three steps (EE only).
 
-## How to grant authorization to your App? (all editions)
+## Grant authorization to your App
 
 During the installation, the App will ask you to grant it access to parts of your PIM: catalog structure, products, assets, reference entities, etc.
 
@@ -83,7 +83,11 @@ If you see the following message, it means the App needs no specific authorizati
 
 When it happens, the App will only be able to retrieve your PIM version and edition.
 
-## How to give permissions to your App? (EE only)
+## Give permissions to your App `EE`
+
+::: warning
+The following paragraphs are for EE customers only.
+:::
 
 As you use the Enterprise Edition, your PIM has a permission management system. In addition to authorizations, the App needs permissions to access product data.
 
@@ -125,11 +129,11 @@ Your products are categorized as you can see below. You have defined the `Own`, 
 
 As the `Hat` product is categorized in the `Ecommerce` tree, the App will be able to update or delete it. Also, the App can create any new product in the `Ecommerce` tree.
 
-![Step 2 Hat product](../img/wizard-step2-hat.png)
+![Step 2 Hat product](../img/wizard-step2-hat-product.png)
 
 On the contrary, your App couldn't retrieve or update the `Braided hat` product data because this product is only categorized in the `Print` tree.
 
-![Step 2 Braided hat product](../img/wizard-step2-braided-hat.png)
+![Step 2 Braided hat product](../img/wizard-step2-braided-hat-product.png)
 
 
 
