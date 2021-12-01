@@ -140,4 +140,4 @@ You can define that a table is required for the completeness of a channel. See t
 
 As of today, we consider a table **complete**, as soon as **1 cell is filled**. Stay tuned, we will improve it soon.  
 
-Now that you know all the secrets of the Table attribute type, [let's discover its capabilities in the Product Edit Form!](work-on-a-product.html/use-a-table-attribute-in-your-product-sheets)
+Now that you know all the secrets of the Table attribute type, [let's discover its capabilities in the Product Edit Form!](work-on-a-product.html#use-a-table-attribute-in-your-product-page-ee-and-ge-only)
