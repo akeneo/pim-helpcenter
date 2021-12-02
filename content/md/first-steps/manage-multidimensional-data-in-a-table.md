@@ -130,9 +130,20 @@ And if you are comfortable with the API, you can retrieve the table options with
 :::
 
 ## Import/export the table values of a product
-Exactly like for other attribute types, you can import and export your products with table attributes. But, as a table is a quite complexe value, the only way for the PIM to import table data among the other attributes of the product, is by translating your value into JSON in the "table" attribute column of your CSV or XLSX file.
+Exactly like for other attribute types, you can import and export your products with table attributes. CSV and XLSX formats are structured as tables. Therefore, to import the Akeneo PIM table attribute value, it must be formatted in a single cell of your import using the JSON format. This way it’ll be imported along with any other regular attribute values. It’s faster but more technical. 
 
-That's why **we highly recommend you to keep the import/export feature for data flows between the PIM and other systems purpose, and not for human enrichment purpose.**
+
+### Using "product data table values" import/export jobs
+There is another way, more readable and easier to configure using dedicated export and import jobs for the table attribute. It will only handle table attribute values and it will be formatted as they are in the product edit form.  
+
+These dedicated jobs are:
+- `Product table values` import and export (csv and xlsx)
+- `Product model table values` import and export (csv and xlsx)
+
+We recommend you to create **one import profile per table attribute** you want to import/export. Indeed, these jobs enable you to import/export the table values of several products sharing the same table attribute. For imports, as each table attribute can have a different structure, we don’t want to import files mixing up tables with different structures. For exports, you need to choose a single attribute for each job.
+
+For instance: you manage your `composition` with a table attribute in your "food" family. You can create a new import profile called `food composition`, that uses the `product data table values` job, in order to import the `composition` values of several food products at a time.
+
 
 # What about the completeness?
 
