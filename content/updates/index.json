@@ -1,7 +1,7 @@
 {
   "2021-11": {
     "title": "November 2021 Serenity updates",
-    "description": "Importing and exporting user-friendly versions of your table attributes is now possible! Add new rows and options directly from the PEF to save time and stay focused on your product enrichment. Last but not least, the possibility to delete product models from a new API end-point.",
+    "description": "Importing and exporting user-friendly versions of your table attributes is now possible! Add new rows and options to save time and stay focused on your product enrichment. Last but not least, there is now the ability to delete product models from a new API end-point.",
     "img": "illus-november-21.svg"
   },
   "2021-10": {
