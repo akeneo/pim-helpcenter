@@ -6,7 +6,7 @@ pim_announcement_audience:
 - GE
 ---
 
-# Add New Rows to the Table Attribute from the Product Edit Form
+# Add New Rows to the Table Attribute from the PEF
 ::: meta-data type="New" features="Governance" available="Late-October" in="EE" link-to-doc="../articles/manage-multidimensional-data-in-a-table.html"
 
 Add new row options to your tables directly from the Product Edit Form. As soon as you realize a row is missing, you no longer have to go back to the Settings page to edit your Table Attribute. Staying in the PEF will help you stay focused on enrichment and get your products will be ready to be shared in no time!
