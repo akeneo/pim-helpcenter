@@ -4,7 +4,7 @@ themes: akeneo-concepts, connectivity
 title: What is a **connection**?
 popular: false
 ee: false
-related: manage-your-connections, how-to-connect-my-pim, connection-dashboard
+related: manage-your-connections, how-to-connect-my-pim-legacy, connection-dashboard
 ---
 
 # In a few words

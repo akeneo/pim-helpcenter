@@ -2,9 +2,9 @@
 id: what-is-an-event-subscription
 themes: connectivity, import-export-data
 title: What is an **event subscription**?
-popular: true
+popular: false
 ee: false
-related: manage-event-subscription, how-to-connect-my-pim, manage-your-connections
+related: manage-event-subscription, how-to-connect-my-pim-legacy, manage-your-connections
 ---
 
 # Introduction

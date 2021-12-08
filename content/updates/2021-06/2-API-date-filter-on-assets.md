@@ -19,5 +19,5 @@ We also added the creation and last updated date in the asset format as you can 
 ```
 
 ::: more
-[How to connect my PIM?](../articles/how-to-connect-my-pim.html)
+[How to connect my PIM?](../articles/how-to-connect-my-pim-legacy.html)
 :::

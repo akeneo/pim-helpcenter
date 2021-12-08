@@ -1,10 +1,10 @@
 ---
 id: connection-dashboard
 themes: connectivity, import-export-data
-title: Monitor your third-party **connections**
+title: Monitor your **Data flows**
 popular: false
 ee: false
-related: what-is-a-connection, how-to-connect-my-pim, manage-your-connections
+related: what-is-a-connection, how-to-connect-my-pim-with-apps, manage-your-connections
 ---
 
 # Overview

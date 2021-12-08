@@ -14,5 +14,5 @@ On a related topic, we also added operators when you filter products by their pa
 - choose whether you will get simple products only, or variant products only.
 
 ::: more
-[How to connect my PIM?](../articles/how-to-connect-my-pim.html)
+[How to connect my PIM?](../articles/how-to-connect-my-pim-legacy.html)
 :::

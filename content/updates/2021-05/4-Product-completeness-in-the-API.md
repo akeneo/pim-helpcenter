@@ -34,5 +34,5 @@ Below is a JSON example of a product with its completeness across all channel/lo
 ```
 
 ::: more
-[How to connect the PIM to my channels?](../articles/how-to-connect-my-pim.html)
+[How to connect the PIM to my channels?](../articles/how-to-connect-my-pim-legacy.html)
 :::
