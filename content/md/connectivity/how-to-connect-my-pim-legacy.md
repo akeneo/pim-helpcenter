@@ -1,8 +1,8 @@
 ---
 id: how-to-connect-my-pim-legacy
 themes: connectivity, import-export-data
-title: How to connect my PIM? (legacy)
-popular: false
+title: How to connect my PIM?
+popular: true
 ee: false
 related: what-is-a-connection, manage-your-connections, connection-dashboard, what-is-an-event-subscription
 ---
