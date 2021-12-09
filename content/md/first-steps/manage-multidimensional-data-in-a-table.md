@@ -147,8 +147,15 @@ For instance: you manage your `composition` with a table attribute in your "food
 
 # What about the completeness?
 
-You can define that a table is required for the completeness of a channel. See the [dedicated article](what-is-the-completeness.html).
+You can define that a table is required for the completeness of a channel. [Check out our dedicated article for more information](what-is-the-completeness.html).
 
-As of today, we consider a table **complete**, as soon as **1 cell is filled**. Stay tuned, we will improve it soon.  
+The ground rule is that we consider a table **complete** as soon as **one cell is filled**. You can go further by defining the completeness at the column level by making it required for the completeness of the attribute.
+
+![image](../img/TableAttributeCompleteness.png)
+
+This way, you can easily define three different levels of completeness:
+- the table is complete if **every cell** is filled (you should have checked the completeness option in every column)
+- the table is complete if **every cell of at least one column** is filled (you should have checked the completeness option for one or several columns)
+- the table is complete as soon as **one cell** is filled. In that case, only the completeness option of the first column should be checked. This is the default behavior.
 
 Now that you know all the secrets of the Table attribute type, [let's discover its capabilities in the Product Edit Form!](work-on-a-product.html#use-a-table-attribute-in-your-product-page-ee-and-ge-only)
