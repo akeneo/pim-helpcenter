@@ -26,7 +26,7 @@
   },
   {
     "title": "Import/export automation",
-    "description": "In SaaS, We want to automatize your product information imports & exports. No more manual tasks!",
+    "description": "Saas users need to automate their imports and exports directly from the PIM. We are looking into making it available for product information in XLSX and CSV format.",
     "areas": ["Productivity"]
   }
 ]
