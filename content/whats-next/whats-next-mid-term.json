@@ -25,7 +25,7 @@
     "areas": ["Governance", "Data Quality"]
   },
   {
-    "title": "Flat file imports/exports automation",
+    "title": "Import/export automation",
     "description": "In SaaS, We want to automatize your product information imports & exports. No more manual tasks!",
     "areas": ["Productivity"]
   }
