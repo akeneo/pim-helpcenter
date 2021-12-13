@@ -25,8 +25,8 @@
     "areas": ["Governance", "Data Quality"]
   },
   {
-    "title": "Import/export automation",
-    "description": "Saas users need to automate their imports and exports directly from the PIM. We are looking into making it available for product information in XLSX and CSV format.",
+    "title": "Import/Export Automation",
+    "description": "SaaS users need to automate their imports and exports directly from the PIM. We are looking into making it available for product information in XLSX and CSV format.",
     "areas": ["Productivity"]
   }
 ]
