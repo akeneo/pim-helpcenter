@@ -23,5 +23,10 @@
     "title": "Table Attribute Enhancements",
     "description": "We want to enrich our brand new Table attribute type with new column types such as reference entities for example. We also want to add more options in the way your table completeness is computed.",
     "areas": ["Governance", "Data Quality"]
+  },
+  {
+    "title": "Import/export automation",
+    "description": "Saas users need to automate their imports and exports directly from the PIM. We are looking into making it available for product information in XLSX and CSV format.",
+    "areas": ["Productivity"]
   }
 ]
