@@ -4,13 +4,13 @@ themes: import-export-data
 title: Tailored export - **customize your product information exports**
 popular: false
 ee: true
-ge: false
+ge: true
 related: exports, monitor-jobs, access-rights-on-imports-exports
 ---
 
 # Overview
 
-This feature consists in an export profile, available only for our Enterprise Edition <!-- or Growth Edition--> users.
+This feature consists in an export profile, available only for our Enterprise Edition or Growth Edition users.
 It helps you to export your product information in flat files, with your own structure.  
 For instance, let's assume your retailers or distributors need the same product information from you, but they want different structures:  
 * Retailer A wants an export with columns named: "Identifier", "Product Name", "Description", and "Weight (Ounces)".
