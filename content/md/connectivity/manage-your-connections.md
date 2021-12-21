@@ -66,7 +66,7 @@ This flow type has three available options you'll have to choose from. The next 
 
 ## The `Source connection` flow type
 
-Choose this option for you connection whenever it represents a data flow entering the PIM. For example, your data flow is mainly creating or updating PIM data, such as products, product models, assets, reference entities,...
+Choose this option for your connection whenever it represents a data flow entering the PIM. For example, your data flow is mainly creating or updating PIM data, such as products, product models, assets, reference entities,...
 
 ::: info
 With this flow type, you can connect ERP, DAM, MDM,...
@@ -76,7 +76,7 @@ If you choose this option, the Data flows dashboard will focus on the data that 
 
 ## The `Destination connection` flow type
 
-Choose this option for you connection whenever it represents a data flow that is mainly extracting product information from your PIM.
+Choose this option for your connection whenever it represents a data flow that is mainly extracting product information from your PIM.
 
 ::: info
 With this flow type, you can connect e-commerce platforms, publishing and syndication tools...
@@ -100,7 +100,7 @@ That being said, even in this case, we advise you to choose between the two opti
 # Enable the tracking
 
 For each connection, you can choose whether you want to track it in [Data flows](connection-dashboard.html).  
-To do so, check `Track this connection in the dashboard`, in the connection setting screen of the connection you want to track.
+To do so, check `Track in Data flows dashboard`, in the connection setting screen of the connection you want to track.
 
 ![Track checkbox](../img/track-checkbox.png)
 
@@ -112,7 +112,7 @@ If you want to track the data that is pulled out of the PIM by your connector, [
 
 ::: info
 You can deactivate the tracking whenever you want.  
-We will stop tracking the connection immediately and you won't be able to select it in the filters of the connection dashboard. However, note that all the data collected up to that point for this connection will still appear in some KPIs.
+We will stop tracking the connection immediately and you won't be able to select it in the filters of the Data flows dashboard. However, note that all the data collected up to that point for this connection will still appear in some KPIs.
 :::
 
 # Grab your credentials
