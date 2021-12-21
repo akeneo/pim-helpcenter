@@ -9,7 +9,7 @@ related: what-is-a-locale
 
 # Manage your locales
 
-## See the available locales 
+## See the available locales
 
 To view the available locales in Akeneo, go to `Settings/Locales`. You can find a locale using its code. You can also filter on its status `Activated`: All/Yes/No.
 
@@ -30,7 +30,7 @@ Akeneo offers more than 200 locales by default, but if you are missing a locale 
 
 ## Format of the new locale
 
-Your new locale has to respect one of the following formats: xx_YY, xxx_YY, xx_YY_ZZ... If you upload a `es_DE` locale, it will appear as `Spanish (Germany)` in Akeneo. If you upload a locale called `English_test_web` it will appear as `English (test, Web)`. 
+Your new locale has to respect one of the following formats: xx_YY, xxx_YY, xx_YY_ZZ... If you upload a `es_DE` locale, it will appear as `Spanish (Germany)` in Akeneo. If you upload a locale called `English_test_web` it will appear as `English (test, Web)`.
 
 The PIM limits to 20 the number of characters that can be used for a locale name.
 
@@ -44,6 +44,10 @@ For instance, to add a `en_HK` locale, follow these steps:
 1.  To enable it and add it to a channel, go to `Settings/Channels` and add it in the `Locales` field. If you cannot find it, use a channel import job (csv or xlsx) and add the `en_HK` code in the `locales` column along with your current enabled locales for this channel if you have any.
 
 And that's it! Your `en_HK` locale is activated for your channel! You will be able to find it in your Product grid, as well as in the product forms.
+
+:::warning
+When creating the code of your locale, please note white spaces are not allowed.
+:::
 
 :::ee
 If you do not see your new locales in the User Interface, it's maybe because you forgot to set permissions on it in `Settings/Locales`. Select your locale and go under the `Permissions` tab. To know how to set up permissions on locales, check the [Set Rights depending on the locale](access-rights-on-products.html#rights-depending-on-the-locale) article.
