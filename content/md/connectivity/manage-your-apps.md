@@ -15,7 +15,7 @@ Now that you connected one or several apps with your Akeneo PIM, you probably wa
 
 This is the role of the `Connect` sub-menu called `Apps`. Here you can see information about connected apps. Their name, logo, category, and who owns it.
 
-![Connected apps](../img/connected-apps.png) <!--Update screenshot-->
+![Connected apps](../img/connected-apps.png) 
 
 ::: info
 To discover how to connect an app with your PIM, please read our article [How to connect my PIM with apps?](how-to-connect-my-pim-with-apps.html)
@@ -36,7 +36,7 @@ To give role permission:
 - Go to the `Permissions` tab and select the System entry
 - Finally, enable the `Manage apps` and/or `Open apps` options.
 
-![Role manage apps](../img/role-manage-apps.png) <!-- TO UPDATE -->
+![Role manage apps](../img/role-manage-apps.png) 
 
 ::: warning
 If you can't update user roles, please ask your administrator. 
@@ -46,23 +46,23 @@ If you can't update user roles, please ask your administrator.
 To open a connected app interface, click on `Open app` in the `Apps` menu. 
 The app interface will opens in a new tab of your navigator. 
 
-![Open app button](../img/open-app-button.png) <!-- TO ADD -->
+![Open app button](../img/app-card-open.png) 
 
 When you open an app, Akeneo PIM may ask you to agree to share some of your user information to directly authenticate your on the app. To do so, click on `Agree` and you will be automaticaly redirected to the app.
 
-![Wizard authentication](../img/wizard-step-authentication.png) <!-- TO ADD -->
+![Wizard authentication](../img/wizard-authentication.png) 
 
  
 # Manage your connected app settings
 
 To access a connected app's settings, click on `Manage app` in the `Apps` menu. 
 
+![Manage app button](../img/app-card-manage.png) 
+
 Each connected app has 3 tabs: 
 - Settings
 - Permissions
 - Error monitoring
-
-![Manage app button](../img/manage-app-button.png) <!-- TO ADD -->
 
 ## Choose your flow type
 
@@ -103,7 +103,7 @@ You can connect e-commerce, publishing, or syndication apps with this flow type.
 You can choose to track a connected app in [Data flows](connection-dashboard.html).  
 To do so, check `Track in Data flows dashboard` in the setting screen of the connected app you want to track.
 
-![Track checkbox](../img/track-checkbox.png) 
+<img class="img-responsive in-article" alt="Track checkbox" src="../img/track-checkbox.png" style="max-width: 250px;">
 
 ::: warning
 We don't track apps with the `Others` flow type.  
@@ -136,7 +136,7 @@ To access an app's settings, click on `Manage app` and you will access the first
 
 This page allows you to view and update permissions granted to an app.
 
-![Connected app permissions](../img/connected-app-permissions.png) <!--Update screenshot-->
+![Connected app permissions](../img/connected-app-permissions.png) 
 
 ::: info
 If you want to know more about app permissions, please read this paragraph of our documentation: [How to give permissions to your app?](how-to-connect-my-pim-with-apps.html#how-to-give-permissions-to-your-app-ee-only) 

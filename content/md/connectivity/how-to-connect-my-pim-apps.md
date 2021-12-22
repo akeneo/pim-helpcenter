@@ -74,17 +74,23 @@ This wizard contains either one step (CE or GE) or three steps (EE only).
 
 ## Grant authorization to your app
 
-During the installation, the app will ask you to grant it access to parts of your PIM: catalog structure, products, assets, reference entities, etc.
+During the installation, the app will ask you to grant it access your user information or parts of your PIM: catalog structure, products, assets, reference entities, etc.
 
 When the following page appears in your PIM, please read the list of all required authorizations, then click on `Allow` or `Allow and next`. If you make a mistake or don't want the app to access your PIM, you can abort the installation process by clicking on `Cancel`.
 
-![Step 1 Authorizations](../img/wizard-step1-authorizations.png)
+![Step Authentication](../img/wizard-authentication.png)
+
+![Step Authorizations](../img/wizard-authorization.png)
+
+::: info
+Apps can need your user information in order to ease your authentication to access the app interface.
+:::
 
 ### No specific authorizations have been requested
 
 If you see the following message, it means the app needs no specific authorization. 
 
-![Step 1 No specific authorizations](../img/wizard-step1-no-specific-auth.png)
+![Step Authorizations No specific authorizations](../img/wizard-authorization-no-specific-auth.png)
 
 When it happens, the app will only be able to retrieve your PIM version and edition.
 
@@ -95,6 +101,8 @@ The following paragraphs are for EE customers only.
 :::
 
 As you use the Enterprise Edition, your PIM has a permission management system. In addition to authorizations, the app needs permissions to access product data.
+
+![Step Permissions](../img/wizard-permissions-edit.png)
 
 As you may know, the Akeneo PIM permission system works on three axes: categories, locales, and attribute groups.
 
@@ -110,7 +118,7 @@ For example, let's take a look at a catalog with three trees:
 
 In the wizard, you would see three options. If you're setting permissions for an app that will connect Akeneo PIM with your ERP, you'd probably give the `Own` permission on the `Master catalog` tree only.
 
-![Step 2 Own category trees](../img/wizard-step2-own-category-trees.png)
+<img class="img-responsive in-article" alt="Step Permissions Own category trees" src="../img/wizard-step2-own-category-trees.png" style="max-width: 500px;">
 
 #### Which level should you give your app?
 
@@ -130,15 +138,15 @@ The third option is the `View` level. In that case, the app will only see the
 
 Your products are categorized as you can see below. You have defined the `Own`, `Edit`, and `View` permission levels for the `Ecommerce` tree only. The app will not have any access to the other trees (Print and Master Catalog).
 
-![Step 2 Category tree permissions](../img/wizard-step2-trees-permissions.png)
+<img class="img-responsive in-article" alt="Step Category tree permissions" src="../img/wizard-step2-trees-permissions.png" style="max-width: 500px;">
 
 As the `Hat` product is categorized in the `Ecommerce` tree, the app will be able to update or delete it. Also, the app can create any new product in the `Ecommerce` tree.
 
-![Step 2 Hat product](../img/wizard-step2-hat-product.png)
+![Step Permissions Hat product](../img/wizard-step2-hat-product.png)
 
 On the contrary, your app couldn't retrieve or update the `Braided hat` product data because this product is only categorized in the `Print` tree.
 
-![Step 2 Braided hat product](../img/wizard-step2-braided-hat-product.png)
+![Step Permissions Braided hat product](../img/wizard-step2-braided-hat-product.png)
 
 
 
@@ -166,9 +174,7 @@ Give the `Edit` permission level to both German and English locale for the app t
 
 Here you can see how it would look like in the UI. 
 
-![Step 2 Locales](../img/wizard-step2-locales.png)
-
-
+<img class="img-responsive in-article" alt="Step Permissions Locales" src="../img/wizard-step2-locales.png" style="max-width: 500px;">
 
 
 ### Attribute groups
@@ -197,7 +203,7 @@ This app will only retrieve data and never create, update or delete products in 
 
 The best solution here is to set up your permissions as in the following screenshot.
 
-![Step 2 Attribute groups](../img/wizard-step2-att-groups.png)
+<img class="img-responsive in-article" alt="Step Permissions Attribute groups" src="../img/wizard-step2-att-groups.png" style="max-width: 500px;">
 
 ::: warning
 The app may require some more configuration. 
