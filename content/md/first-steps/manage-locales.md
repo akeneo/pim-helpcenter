@@ -30,7 +30,7 @@ Akeneo offers more than 200 locales by default, but if you are missing a locale 
 
 ## Format of the new locale
 
-Your new locale has to respect one of the following formats: xx_YY, xxx_YY, xx_YY_ZZ... If you upload a `es_DE` locale, it will appear as `Spanish (Germany)` in Akeneo. If you upload a locale called `English_test_web` it will appear as `English (test, Web)`.
+Your new locale has to respect one of the following formats: xx_YY, xxx_YY, xx_YY_ZZ... If you upload a `es_DE` locale, it will appear as `Spanish (Germany)` in Akeneo. If you upload a locale called `english_test_web` it will appear as `english (test, Web)`.
 
 The PIM limits to 20 the number of characters that can be used for a locale name.
 
@@ -45,7 +45,7 @@ For instance, to add a `en_HK` locale, follow these steps:
 
 And that's it! Your `en_HK` locale is activated for your channel! You will be able to find it in your Product grid, as well as in the product forms.
 
-:::warning
+:::tips
 When creating the code of your locale, please note white spaces are not allowed.
 :::
 
