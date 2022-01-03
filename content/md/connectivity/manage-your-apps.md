@@ -13,22 +13,22 @@ related: how-to-connect-my-pim-with-apps, connection-dashboard
 
 Now that you connected one or several Apps with your Akeneo PIM, you probably want to see the list of all the connected Apps and access their settings.
 
-This is the role of the `Connect` sub-menu called `Apps`. Here you can see information about connected apps. Their name, logo, category, and who owns it.
+This is the role of the `Connect` sub-menu called `Apps`. Here you can see information about connected Apps. Their name, logo, category, and who owns it.
 
 ![Connected apps](../img/connected-apps.png) 
 
 ::: info
-To discover how to connect an App with your PIM, please read our article [How to connect my PIM with apps?](how-to-connect-my-pim-with-apps.html)
+To discover how to connect an App with your PIM, please read our article [How to connect my PIM with Apps?](how-to-connect-my-pim-with-apps.html)
 :::
 
 
-# Who can manage and open apps?
+# Who can manage and open Apps?
 
-From the `Apps` menu, users can manage and open apps.
+From the `Apps` menu, users can manage and open Apps.
 
-To give you the capacity to choose who can manage or open an app, we added two new Role permissions in the PIM. 
+To give you the capacity to choose who can manage or open an App, we added two new Role permissions in the PIM. 
 
-To manage an app, at least one of your user roles needs the `Manage apps` permission, and to open a connected App interface, at least one of your user roles needs the `Open apps` permission.
+To manage an App, at least one of your user roles needs the `Manage apps` permission, and to open a connected App interface, at least one of your user roles needs the `Open apps` permission.
 
 To give role permission: 
 - Go to `System`, then `Roles`
@@ -48,14 +48,14 @@ The App interface will opens in a new tab of your navigator.
 
 ![Open App button](../img/app-card-open.png) 
 
-When you open an app, Akeneo PIM may ask you to agree to share some of your user information to directly authenticate you on the app. To do so, click on `Agree` and you will be automatically redirected to the app.
+When you open an App, Akeneo PIM may ask you to agree to share some of your user information to directly authenticate you on the App. To do so, click on `Agree` and you will be automatically redirected to the App.
 
 ![Wizard authentication](../img/wizard-authentication.png) 
 
  
 # Manage your connected App settings
 
-To access a connected app's settings, click on `Manage app` in the `Apps` menu. 
+To access a connected App's settings, click on `Manage app` in the `Apps` menu. 
 
 ![Manage App button](../img/app-card-manage.png) 
 
@@ -66,7 +66,7 @@ Each connected App has 3 tabs:
 
 ## Choose your flow type
 
-You can define a "flow type" after you connect an app. But what does it mean?
+You can define a "flow type" after you connect an App. But what does it mean?
 
 The flow type allows you to characterize the data flows interacting with your PIM. More precisely, it allows you to indicate the **direction** of a given flow.
 
@@ -82,7 +82,7 @@ By default, all connected Apps have the `Other` flow type, so you won't have any
 
 Choose this option for your App whenever it represents a data flow entering the PIM. For example, select this option if the connected App mainly creates or updates PIM data, such as products, product models, assets, or reference entities.
 
-If you choose this option, the Data flows dashboard will focus on this app's data pushed **inside** the PIM.
+If you choose this option, the Data flows dashboard will focus on this App's data pushed **inside** the PIM.
 
 ::: info
 With this flow type, you can connect ERP, DAM, or MDM.
@@ -92,7 +92,7 @@ With this flow type, you can connect ERP, DAM, or MDM.
 
 Choose this option for your App to represent a data flow that mainly extracts product information from your PIM.
 
-If you choose this option, the Data flows dashboard will focus on this app's data pushed **outside** the PIM.
+If you choose this option, the Data flows dashboard will focus on this App's data pushed **outside** the PIM.
 
 ::: info
 You can connect e-commerce, publishing, or syndication Apps with this flow type.
@@ -108,7 +108,7 @@ To do so, check `Track in Data flows dashboard` in the setting screen of the con
 ::: warning
 We don't track Apps with the `Others` flow type.  
 If you want to track the data entering your PIM, [change your connected App flow type](#choose-your-flow-type) to `Data source`.  
-If you want to track the data pulled out of the PIM by your app, [change your connected App flow type](#choose-your-flow-type) to `Data destination`.
+If you want to track the data pulled out of the PIM by your App, [change your connected App flow type](#choose-your-flow-type) to `Data destination`.
 :::
 
 ::: info
@@ -117,9 +117,9 @@ We will stop tracking the connected App immediately, and you won't be able to se
 :::
 
 
-## Consult authorizations granted to your app
+## Consult authorizations granted to your App
 
-To access an app's settings, click on `Manage app`, and you will access the first page of the App settings. 
+To access an App's settings, click on `Manage app`, and you will access the first page of the App settings. 
 
 This page is where you can see which authorizations have been granted during the activation process.
 
@@ -132,19 +132,19 @@ This page is where you can see which authorizations have been granted during the
 This tab is only available for EE users.
 :::
 
-To access an app's settings, click on `Manage app` and you will access the first page of the App settings, then click on the `Permissions` tab.
+To access an App's settings, click on `Manage app` and you will access the first page of the App settings, then click on the `Permissions` tab.
 
-This page allows you to view and update permissions granted to an app.
+This page allows you to view and update permissions granted to an App.
 
 ![Connected App permissions](../img/connected-app-permissions.png) 
 
 ::: info
-If you want to know more about App permissions, please read this paragraph of our documentation: [How to give permissions to your app?](how-to-connect-my-pim-with-apps.html#how-to-give-permissions-to-your-app-ee-only) 
+If you want to know more about App permissions, please read this paragraph of our documentation: [How to give permissions to your App?](how-to-connect-my-pim-with-apps.html#how-to-give-permissions-to-your-app-ee-only) 
 :::
 
 ### Who can manage App permissions?
 
-The PIM is using the following role permissions to manage who can grant permission to an app: 
+The PIM is using the following role permissions to manage who can grant permission to an App: 
 
 - Manage attribute group permissions
 - Manage category permissions
@@ -158,7 +158,7 @@ If your user doesn't have these permissions, the fields related to permission wi
 
 ![Connected App Permissions on attribute groups](../img/connected-app-permissions-att-groups.png)
 
-# Delete an app
+# Delete an App
 
 If you connected an App you don't want to use anymore, you can delete it.
 

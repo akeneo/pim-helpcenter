@@ -1,7 +1,7 @@
 ---
 id: how-to-connect-my-pim-with-apps
 themes: connectivity, import-export-data
-title: How to **connect my PIM with apps**?
+title: How to **connect my PIM with Apps**?
 popular: false
 ee: false
 related: manage-your-apps, connection-dashboard
@@ -12,7 +12,7 @@ related: manage-your-apps, connection-dashboard
 :::
 
 
-# What is an app?
+# What is an App?
 
 For two years, Connections have been the best way to connect Akeneo PIM with a third party, and thanks to our community and partners, we have plenty of Connectors ready to be connected to your PIM.
 
@@ -35,10 +35,10 @@ Akeneo Marketplace is where you will read all the documentation, consult all the
 
 To find the Apps or Connectors you need, in you PIM, go to the `Connect` menu, then click on `Marketplace`, and here you are!
 
-# Who can connect apps?
+# Who can connect Apps?
 
-To give the capacity to choose who can connect an app, we added a new Role permission in the PIM: `Manage apps`. 
-To connect an app, your user role needs it.
+To give the capacity to choose who can connect an App, we added a new Role permission in the PIM: `Manage Apps`. 
+To connect an App, your user role needs it.
 
 Without this role permission, you won't see the `Apps` menu and won't be able to click on `Connect` as in the following screenshot.
 
@@ -54,16 +54,16 @@ To give the role permission:
 ![Role manage apps](../img/role-manage-apps.png)
 
 
-# How to connect an app?
+# How to connect an App?
 
-To enable an app, click on `Connect` on the App card on the PIM Marketplace page. 
+To enable an App, click on `Connect` on the App card on the PIM Marketplace page. 
 
 As soon as you click on `Connect`, the App will open in a new tab. 
 
 At this point you are entering the App world, it is independent of the PIM. If you need more help, you will find everything you need in the App documentation using the `More info` button.
 
 ::: tips
-The `Connect` may be disabled. If that's the case, please get in touch with an Administrator. That means you don't have the `Manage apps` permission on your PIM. To know how to grant this permission, please read the [Who can connect an app](how-to-connect-my-pim-with-apps.html#who-can-connect-apps) paragraph.
+The `Connect` may be disabled. If that's the case, please get in touch with an Administrator. That means you don't have the `Manage apps` permission on your PIM. To know how to grant this permission, please read the [Who can connect an App](how-to-connect-my-pim-with-apps.html#who-can-connect-apps) paragraph.
 :::
 
 To interact with your PIM, any App needs authorization and permissions. This is why we created the `Authorization wizard`.
@@ -72,7 +72,7 @@ A wizard is a **step-by-step activation process** that will accompany you on the
 
 This wizard contains either one step (CE or GE) or three steps (EE only).
 
-## Grant authorization to your app
+## Grant authorization to your App
 
 During the installation, the App will ask you to grant it access your user information or parts of your PIM: catalog structure, products, assets, reference entities, etc.
 
@@ -120,7 +120,7 @@ In the wizard, you would see three options. If you're setting permissions for an
 
 <img class="img-responsive in-article" alt="Step Permissions Own category trees" src="../img/wizard-step2-own-category-trees.png" style="max-width: 500px;">
 
-#### Which level should you give your app?
+#### Which level should you give your App?
 
 - **The Own level**
 
@@ -128,7 +128,7 @@ If you want your App to create, update, or delete products without going throug
 
 - **The Edit level**
 
-On the contrary, if you prefer to validate any product creation or update made by the app, use the `Edit` level for your category tree(s) and leave the `Own` level empty. For instance, this could be useful if you connect your PIM with a translation tool and you want to proofread all the suggested translations. This `Edit` permission level uses proposals to reject or approve suggestions or new additions. 
+On the contrary, if you prefer to validate any product creation or update made by the App, use the `Edit` level for your category tree(s) and leave the `Own` level empty. For instance, this could be useful if you connect your PIM with a translation tool and you want to proofread all the suggested translations. This `Edit` permission level uses proposals to reject or approve suggestions or new additions. 
 
 - **The View level**
 
@@ -154,7 +154,7 @@ On the contrary, your App couldn't retrieve or update the `Braided hat` produc
 
 Thanks to the locales permission, you can configure whether the App will be allowed to update product information for a specific locale or not.
 
-#### Which level should you give your app?
+#### Which level should you give your App?
 
 - **The Edit level**
 
@@ -179,9 +179,9 @@ Here you can see how it would look like in the UI.
 
 ### Attribute groups
 
-In Akeneo PIM, you can organize your attributes in groups to help you display related attributes one after the other in the interface. We also use these attribute groups to give rights to an app. Thanks to the attribute group's permission, you can configure whether the App will update product information for specific attributes or not.
+In Akeneo PIM, you can organize your attributes in groups to help you display related attributes one after the other in the interface. We also use these attribute groups to give rights to an App. Thanks to the attribute group's permission, you can configure whether the App will update product information for specific attributes or not.
 
-#### Which level should you give your app?
+#### Which level should you give your App?
 
 - **The Edit level**
 
