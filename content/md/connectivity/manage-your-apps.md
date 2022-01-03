@@ -85,7 +85,7 @@ Choose this option for your app whenever it represents a data flow entering the 
 If you choose this option, the Data flows dashboard will focus on this app's data pushed **inside** the PIM.
 
 ::: info
-With this flow type, you can connect ERP, DAM, MDM,...
+With this flow type, you can connect ERP, DAM, or MDM.
 :::
 
 ### The `Data destination` flow type
