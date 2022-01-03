@@ -48,7 +48,7 @@ The app interface will opens in a new tab of your navigator.
 
 ![Open app button](../img/app-card-open.png) 
 
-When you open an app, Akeneo PIM may ask you to agree to share some of your user information to directly authenticate your on the app. To do so, click on `Agree` and you will be automaticaly redirected to the app.
+When you open an app, Akeneo PIM may ask you to agree to share some of your user information to directly authenticate you on the app. To do so, click on `Agree` and you will be automatically redirected to the app.
 
 ![Wizard authentication](../img/wizard-authentication.png) 
 
