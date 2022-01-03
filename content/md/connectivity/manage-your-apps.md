@@ -152,11 +152,11 @@ The PIM is using the following role permissions to manage who can grant permissi
 
 If your user doesn't have these permissions, the fields related to permission will be blocked. 
 
-![Connected App Permissions on categories](../img/connected-app-permissions-categories.png)
+![Connected app Permissions on categories](../img/connected-app-permissions-categories.png)
 
-![Connected App Permissions on locales](../img/connected-app-permissions-locales.png)
+![Connected app Permissions on locales](../img/connected-app-permissions-locales.png)
 
-![Connected App Permissions on attribute groups](../img/connected-app-permissions-att-groups.png)
+![Connected app Permissions on attribute groups](../img/connected-app-permissions-att-groups.png)
 
 # Delete an App
 

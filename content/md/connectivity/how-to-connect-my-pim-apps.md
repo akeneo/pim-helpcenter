@@ -24,7 +24,7 @@ This is why we now introduce `Apps`.
 
 Apps can retrieve and push data from and into Akeneo PIM through the REST API and events. Thanks to a step-by-step activation process integrated into the Akeneo PIM interface, anyone can connect an App to Akeneo PIM despite these technical interactions.
 
-# Where to find Apps & connectors?
+# Where to find Apps & Connectors?
 Because we know it can be tedious to leave your work environment to find the App or Connector you need, we bring them to you. We developed the PIM `Marketplace` as a way for you to smoothly identify the most relevant App or Connector directly from your PIM interface.
 
 ![PIM Marketplace](../img/pim-marketplace-with-apps.png)
