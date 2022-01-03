@@ -142,13 +142,13 @@ When the password is visible, there is a copy icon next to it for easy copy-past
 You forgot your password? Don't worry, you can regenerate a new one. Take a look at the [Regenerate your connection password](#regenerate-your-connection-password) section.
 :::
 
-Use these credentials to authenticate the API calls in the connector that matches your connection. For this step, take a look at this [guide](https://api.akeneo.com/getting-started/connect-the-pim-4x/step-3.html).
+Use these credentials to authenticate the API calls in the Connector that matches your connection. For this step, take a look at this [guide](https://api.akeneo.com/getting-started/connect-the-pim-4x/step-3.html).
 
 ## Why should you use the connection username?
 
 You may have noticed that nothing prevents you from using another username than the one generated for you when your connection is created. It's totally possible but it's, in fact, not recommended at all!
 
-Instead, we highly **recommend using the connection username** to authenticate all the API calls coming from the connector linked to your connection.
+Instead, we highly **recommend using the connection username** to authenticate all the API calls coming from the Connector linked to your connection.
 
 Here are the 2 main reasons why:
 - First, all the [permissions](#set-the-permissions) set on your connection are based on the connection username. So if you don't use it, your permission connection won't be enforced.
@@ -174,7 +174,7 @@ The current secret will be revoked. It means that no one will be able to use it 
 Also, a new secret has been generated. Be sure to use this new one in your connector, in order to be able to make API calls again.
 
 ::: warning
-As you may have understood, revoking a secret can have an impact on the connector linked to your connection. Indeed, when you revoke a secret that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authenticated anymore.  
+As you may have understood, revoking a secret can have an impact on the Connector linked to your connection. Indeed, when you revoke a secret that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authenticated anymore.  
 To be authenticated again, launch a new [authentication request](https://api.akeneo.com/api-reference.html#post_token) using the new generated secret.
 :::
 
@@ -198,7 +198,7 @@ The current password will be deleted and a new one is generated. It means that n
 Be sure to use the new password in your connector, in order to be able to make API calls again.
 
 ::: warning
-As you may have understood, regenerating a password can have an impact on the connector linked to your connection. Indeed, when you regenerate a password that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authenticated anymore.  
+As you may have understood, regenerating a password can have an impact on the Connector linked to your connection. Indeed, when you regenerate a password that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authenticated anymore.  
 To be authenticated again, launch a new [authentication request](https://api.akeneo.com/api-reference.html#post_token) using the new generated password.
 :::
 
