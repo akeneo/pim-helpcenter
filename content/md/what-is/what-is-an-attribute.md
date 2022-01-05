@@ -7,7 +7,7 @@ related: manage-your-attributes, what-is-an-attribute-group
 
 # Introduction
 
-An attribute is a product’s characteristic. A product is usually composed of several attributes: an identification number, a name, a description, a price, a color... Depending on your Akeneo Edition version (Community or Enterprise), you can choose amongst **17 attribute types**.
+An attribute is a product’s characteristic. A product is usually composed of several attributes: an identification number, a name, a description, a price, a color... Depending on your Akeneo Edition version (Community or Enterprise), you can choose amongst **18 attribute types**.
 
 In Akeneo, attributes are gathered into **families**, so all products belonging to the same family share the same attributes. If you are not familiar with the concept of families, check our [What is family?](what-is-a-family.html) article.
 
