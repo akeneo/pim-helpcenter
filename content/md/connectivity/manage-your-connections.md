@@ -66,17 +66,17 @@ This flow type has three available options you'll have to choose from. The next 
 
 ## The `Source connection` flow type
 
-Choose this option for you connection whenever it represents a data flow entering the PIM. For example, your data flow is mainly creating or updating PIM data, such as products, product models, assets, reference entities,...
+Choose this option for your connection whenever it represents a data flow entering the PIM. For example, your data flow mainly creates or updates PIM data, such as products, product models, assets, reference entities,...
 
 ::: info
-With this flow type, you can connect ERP, DAM, MDM,...
+With this flow type, you can connect your ERP, DAM, MDM, etc.
 :::
 
 If you choose this option, the Data flows dashboard will focus on the data that is pushed inside the PIM via this connection.
 
 ## The `Destination connection` flow type
 
-Choose this option for you connection whenever it represents a data flow that is mainly extracting product information from your PIM.
+Choose this option for your connection whenever it represents a data flow that mainly extracts product information from your PIM.
 
 ::: info
 With this flow type, you can connect e-commerce platforms, publishing and syndication tools...
@@ -97,10 +97,10 @@ You may be tempted to declare the connections connecting to translation tools as
 That being said, even in this case, we advise you to choose between the two options, instead of choosing `Others`. The question you should ask yourself here is _"Do I wish to have a monitoring of the flows that are going out or the flows that are going in?"_.
 :::
 
-# Enable the tracking
+# Enable the monitoring
 
-For each connection, you can choose whether you want to track it in [Data flows](connection-dashboard.html).  
-To do so, check `Track this connection in the dashboard`, in the connection setting screen of the connection you want to track.
+For each connection, you can choose whether you want to monitor it in [Data flows](connection-dashboard.html).  
+To do so, check `Track in Data flows dashboard`, in the connection settings screen of the connection you want to track.
 
 ![Track checkbox](../img/track-checkbox.png)
 
@@ -111,8 +111,8 @@ If you want to track the data that is pulled out of the PIM by your connector, [
 :::
 
 ::: info
-You can deactivate the tracking whenever you want.  
-We will stop tracking the connection immediately and you won't be able to select it in the filters of the connection dashboard. However, note that all the data collected up to that point for this connection will still appear in some KPIs.
+You can disable the monitoring whenever you want.  
+We will stop monitoring the connection immediately and you won't be able to select it in the filters of the Data flows dashboard. However, note that all the data collected up to that point for this connection will still appear in some KPIs.
 :::
 
 # Grab your credentials
@@ -142,13 +142,13 @@ When the password is visible, there is a copy icon next to it for easy copy-past
 You forgot your password? Don't worry, you can regenerate a new one. Take a look at the [Regenerate your connection password](#regenerate-your-connection-password) section.
 :::
 
-Use these credentials to authenticate the API calls in the connector that matches your connection. For this step, take a look at this [guide](https://api.akeneo.com/getting-started/connect-the-pim-4x/step-3.html).
+Use these credentials to authenticate the API calls in the Connector that matches your connection. For this step, take a look at this [guide](https://api.akeneo.com/getting-started/connect-the-pim-4x/step-3.html).
 
 ## Why should you use the connection username?
 
 You may have noticed that nothing prevents you from using another username than the one generated for you when your connection is created. It's totally possible but it's, in fact, not recommended at all!
 
-Instead, we highly **recommend using the connection username** to authenticate all the API calls coming from the connector linked to your connection.
+Instead, we highly **recommend using the connection username** to authenticate all the API calls coming from the Connector linked to your connection.
 
 Here are the 2 main reasons why:
 - First, all the [permissions](#set-the-permissions) set on your connection are based on the connection username. So if you don't use it, your permission connection won't be enforced.
@@ -174,7 +174,7 @@ The current secret will be revoked. It means that no one will be able to use it 
 Also, a new secret has been generated. Be sure to use this new one in your connector, in order to be able to make API calls again.
 
 ::: warning
-As you may have understood, revoking a secret can have an impact on the connector linked to your connection. Indeed, when you revoke a secret that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authenticated anymore.  
+As you may have understood, revoking a secret can have an impact on the Connector linked to your connection. Indeed, when you revoke a secret that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authenticated anymore.  
 To be authenticated again, launch a new [authentication request](https://api.akeneo.com/api-reference.html#post_token) using the new generated secret.
 :::
 
@@ -198,7 +198,7 @@ The current password will be deleted and a new one is generated. It means that n
 Be sure to use the new password in your connector, in order to be able to make API calls again.
 
 ::: warning
-As you may have understood, regenerating a password can have an impact on the connector linked to your connection. Indeed, when you regenerate a password that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authenticated anymore.  
+As you may have understood, regenerating a password can have an impact on the Connector linked to your connection. Indeed, when you regenerate a password that is used by one of your connectors, all its API calls will automatically stop working and send 401 errors instead. You won't be authenticated anymore.  
 To be authenticated again, launch a new [authentication request](https://api.akeneo.com/api-reference.html#post_token) using the new generated password.
 :::
 

@@ -22,10 +22,10 @@ Before you enable an event subscription, you may want to know what it is, and wh
 
 ## What happens when you enable an event subscription on a connection?
 
-1. A user or another app triggers an event in Akeneo PIM. 
-2. Akeneo PIM sends a message that contains product data and the event type to the connected app. 
-3. The connected app acknowledges the message reception, then processes the message.
-4. The product data is synchronized with the connected application. 
+1. A user or a third-party triggers an event in Akeneo PIM. 
+2. Akeneo PIM sends a message that contains product data and the event type to the connected third-party. 
+3. The connected third-party acknowledges the message reception, then processes the message.
+4. The product data is synchronized with the connected third-party. 
 
 ## Who/what can trigger an event?
 

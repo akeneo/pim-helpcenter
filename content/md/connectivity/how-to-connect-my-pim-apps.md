@@ -63,28 +63,34 @@ As soon as you click on `Connect`, the App will open in a new tab.
 At this point you are entering the App world, it is independent of the PIM. If you need more help, you will find everything you need in the App documentation using the `More info` button.
 
 ::: tips
-The `Connect` may be disabled. If that's the case, please get in touch with an Administrator. That means you don't have the `Manage Apps` permission on your PIM. To know how to grant this permission, please read the [Who can connect an App](how-to-connect-my-pim-with-apps.html#who-can-connect-apps) paragraph.
+`Connect` may be disabled. If that's the case, that means you don't have the `Manage apps` permission on your PIM. Please get in touch with an Administrator.  To know how to grant or get permissions, please read the [Who can connect an App](how-to-connect-my-pim-with-apps.html#who-can-connect-apps) section.
 :::
 
 To interact with your PIM, any App needs authorization and permissions. This is why we created the `Authorization wizard`.
 
-A wizard is a **step-by-step activation process** that will accompany you on the path to a successful app implementation.
+A wizard is a **step-by-step activation process** that will accompany you on the path to a successful App implementation.
 
 This wizard contains either one step (CE or GE) or three steps (EE only).
 
 ## Grant authorization to your App
 
-During the installation, the App will ask you to grant it access to parts of your PIM: catalog structure, products, assets, reference entities, etc.
+During the installation, the App will ask you to grant it access to your user information or to parts of your PIM: catalog structure, products, assets, reference entities, etc.
 
-When the following page appears in your PIM, please read the list of all required authorizations, then click on `Allow` or `Allow and next`. If you make a mistake or don't want the App to access your PIM, you can abort the installation process by clicking on `Cancel`.
+When the following page appears in your PIM, please read the list of all required authorizations, then click on `Allow` or `Allow and next`. If you made a mistake or don't want the App to access your PIM, you can abort the installation process by clicking on `Cancel`.
 
-![Step 1 Authorizations](../img/wizard-step1-authorizations.png)
+![Step Authentication](../img/wizard-authentication.png)
+
+![Step Authorizations](../img/wizard-authorization.png)
+
+::: info
+Apps may need your user information in order to ease your authentication to access the App interface.
+:::
 
 ### No specific authorizations have been requested
 
 If you see the following message, it means the App needs no specific authorization. 
 
-![Step 1 No specific authorizations](../img/wizard-step1-no-specific-auth.png)
+![Authorizations Step - No specific authorizations](../img/wizard-authorization-no-specific-auth.png)
 
 When it happens, the App will only be able to retrieve your PIM version and edition.
 
@@ -95,6 +101,8 @@ The following paragraphs are for EE customers only.
 :::
 
 As you use the Enterprise Edition, your PIM has a permission management system. In addition to authorizations, the App needs permissions to access product data.
+
+![Permissions step](../img/wizard-permissions-edit.png)
 
 As you may know, the Akeneo PIM permission system works on three axes: categories, locales, and attribute groups.
 
@@ -110,7 +118,7 @@ For example, let's take a look at a catalog with three trees:
 
 In the wizard, you would see three options. If you're setting permissions for an App that will connect Akeneo PIM with your ERP, you'd probably give the `Own` permission on the `Master catalog` tree only.
 
-![Step 2 Own category trees](../img/wizard-step2-own-category-trees.png)
+<img class="img-responsive in-article" alt="Step Permissions Own category trees" src="../img/wizard-step2-own-category-trees.png" style="max-width: 500px;">
 
 #### Which level should you give your App?
 
@@ -130,15 +138,15 @@ The third option is the `View` level. In that case, the App will only see the
 
 Your products are categorized as you can see below. You have defined the `Own`, `Edit`, and `View` permission levels for the `Ecommerce` tree only. The App will not have any access to the other trees (Print and Master Catalog).
 
-![Step 2 Category tree permissions](../img/wizard-step2-trees-permissions.png)
+<img class="img-responsive in-article" alt="Step Category tree permissions" src="../img/wizard-step2-trees-permissions.png" style="max-width: 500px;">
 
 As the `Hat` product is categorized in the `Ecommerce` tree, the App will be able to update or delete it. Also, the App can create any new product in the `Ecommerce` tree.
 
-![Step 2 Hat product](../img/wizard-step2-hat-product.png)
+![Step Permissions Hat product](../img/wizard-step2-hat-product.png)
 
 On the contrary, your App couldn't retrieve or update the `Braided hat` product data because this product is only categorized in the `Print` tree.
 
-![Step 2 Braided hat product](../img/wizard-step2-braided-hat-product.png)
+![Step Permissions Braided hat product](../img/wizard-step2-braided-hat-product.png)
 
 
 
@@ -166,9 +174,7 @@ Give the `Edit` permission level to both German and English locale for the App t
 
 Here you can see how it would look like in the UI. 
 
-![Step 2 Locales](../img/wizard-step2-locales.png)
-
-
+<img class="img-responsive in-article" alt="Step Permissions Locales" src="../img/wizard-step2-locales.png" style="max-width: 500px;">
 
 
 ### Attribute groups
@@ -197,7 +203,7 @@ This App will only retrieve data and never create, update or delete products in 
 
 The best solution here is to set up your permissions as in the following screenshot.
 
-![Step 2 Attribute groups](../img/wizard-step2-att-groups.png)
+<img class="img-responsive in-article" alt="Step Permissions Attribute groups" src="../img/wizard-step2-att-groups.png" style="max-width: 500px;">
 
 ::: warning
 The App may require some more configuration. 
