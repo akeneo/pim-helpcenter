@@ -66,17 +66,17 @@ This flow type has three available options you'll have to choose from. The next 
 
 ## The `Source connection` flow type
 
-Choose this option for your connection whenever it represents a data flow entering the PIM. For example, your data flow is mainly creating or updating PIM data, such as products, product models, assets, reference entities,...
+Choose this option for your connection whenever it represents a data flow entering the PIM. For example, your data flow mainly creates or updates PIM data, such as products, product models, assets, reference entities,...
 
 ::: info
-With this flow type, you can connect ERP, DAM, MDM,...
+With this flow type, you can connect your ERP, DAM, MDM, etc.
 :::
 
 If you choose this option, the Data flows dashboard will focus on the data that is pushed inside the PIM via this connection.
 
 ## The `Destination connection` flow type
 
-Choose this option for your connection whenever it represents a data flow that is mainly extracting product information from your PIM.
+Choose this option for your connection whenever it represents a data flow that mainly extracts product information from your PIM.
 
 ::: info
 With this flow type, you can connect e-commerce platforms, publishing and syndication tools...
@@ -97,10 +97,10 @@ You may be tempted to declare the connections connecting to translation tools as
 That being said, even in this case, we advise you to choose between the two options, instead of choosing `Others`. The question you should ask yourself here is _"Do I wish to have a monitoring of the flows that are going out or the flows that are going in?"_.
 :::
 
-# Enable the tracking
+# Enable the monitoring
 
-For each connection, you can choose whether you want to track it in [Data flows](connection-dashboard.html).  
-To do so, check `Track in Data flows dashboard`, in the connection setting screen of the connection you want to track.
+For each connection, you can choose whether you want to monitor it in [Data flows](connection-dashboard.html).  
+To do so, check `Track in Data flows dashboard`, in the connection settings screen of the connection you want to track.
 
 ![Track checkbox](../img/track-checkbox.png)
 
@@ -111,8 +111,8 @@ If you want to track the data that is pulled out of the PIM by your connector, [
 :::
 
 ::: info
-You can deactivate the tracking whenever you want.  
-We will stop tracking the connection immediately and you won't be able to select it in the filters of the Data flows dashboard. However, note that all the data collected up to that point for this connection will still appear in some KPIs.
+You can disable the monitoring whenever you want.  
+We will stop monitoring the connection immediately and you won't be able to select it in the filters of the Data flows dashboard. However, note that all the data collected up to that point for this connection will still appear in some KPIs.
 :::
 
 # Grab your credentials

@@ -63,7 +63,7 @@ As soon as you click on `Connect`, the App will open in a new tab.
 At this point you are entering the App world, it is independent of the PIM. If you need more help, you will find everything you need in the App documentation using the `More info` button.
 
 ::: tips
-The `Connect` may be disabled. If that's the case, please get in touch with an Administrator. That means you don't have the `Manage apps` permission on your PIM. To know how to grant this permission, please read the [Who can connect an App](how-to-connect-my-pim-with-apps.html#who-can-connect-apps) paragraph.
+`Connect` may be disabled. If that's the case, that means you don't have the `Manage apps` permission on your PIM. Please get in touch with an Administrator.  To know how to grant or get permissions, please read the [Who can connect an App](how-to-connect-my-pim-with-apps.html#who-can-connect-apps) section.
 :::
 
 To interact with your PIM, any App needs authorization and permissions. This is why we created the `Authorization wizard`.
@@ -74,23 +74,23 @@ This wizard contains either one step (CE or GE) or three steps (EE only).
 
 ## Grant authorization to your App
 
-During the installation, the App will ask you to grant it access your user information or parts of your PIM: catalog structure, products, assets, reference entities, etc.
+During the installation, the App will ask you to grant it access to your user information or to parts of your PIM: catalog structure, products, assets, reference entities, etc.
 
-When the following page appears in your PIM, please read the list of all required authorizations, then click on `Allow` or `Allow and next`. If you make a mistake or don't want the App to access your PIM, you can abort the installation process by clicking on `Cancel`.
+When the following page appears in your PIM, please read the list of all required authorizations, then click on `Allow` or `Allow and next`. If you made a mistake or don't want the App to access your PIM, you can abort the installation process by clicking on `Cancel`.
 
 ![Step Authentication](../img/wizard-authentication.png)
 
 ![Step Authorizations](../img/wizard-authorization.png)
 
 ::: info
-Apps can need your user information in order to ease your authentication to access the App interface.
+Apps may need your user information in order to ease your authentication to access the App interface.
 :::
 
 ### No specific authorizations have been requested
 
 If you see the following message, it means the App needs no specific authorization. 
 
-![Step Authorizations No specific authorizations](../img/wizard-authorization-no-specific-auth.png)
+![Authorizations Step - No specific authorizations](../img/wizard-authorization-no-specific-auth.png)
 
 When it happens, the App will only be able to retrieve your PIM version and edition.
 
@@ -102,7 +102,7 @@ The following paragraphs are for EE customers only.
 
 As you use the Enterprise Edition, your PIM has a permission management system. In addition to authorizations, the App needs permissions to access product data.
 
-![Step Permissions](../img/wizard-permissions-edit.png)
+![Permissions step](../img/wizard-permissions-edit.png)
 
 As you may know, the Akeneo PIM permission system works on three axes: categories, locales, and attribute groups.
 
