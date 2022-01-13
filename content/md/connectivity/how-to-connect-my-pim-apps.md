@@ -56,6 +56,10 @@ To give the role permission:
 
 # How to connect an App?
 
+::: info
+You can connect up to 50 third-parties through connections and connected Apps. 
+:::
+
 To enable an App, click on `Connect` on the App card on the PIM Marketplace page. 
 
 As soon as you click on `Connect`, the App will open in a new tab. 
