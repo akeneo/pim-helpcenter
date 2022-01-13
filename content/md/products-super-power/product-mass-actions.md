@@ -96,6 +96,10 @@ These actions will not apply on products without families.
 
 :::ee
 A check box `Send for approval` is displayed in the confirmation step. If you select it and have `Edit` rights on products, you will automatically send the [drafts](proposals-workflow.html#statuses-of-products) for approval. At the end of the process, you will receive a notification with the number of proposals generated.
+
+If you have `Edit` rights on products and you use a bulk action to edit attributes values, then:
+  - all changes made before on attributes on the [drafts](proposals-workflow.html#statuses-of-products) will be lost after the mass action;
+  - a new draft will be created with the results of the mass action.
 :::
 
 ## Edit attribute values
