@@ -132,6 +132,11 @@ Define a default value when the source value is empty.
 Convert measurement units within the same measurement family (only available for measurement attributes used as a source).
 ![Conversion](../img/TailoredExport_Operation_Conversion.png)
 
+## Rounding
+
+Round measurements values, choosing from `Round`, `Round up` & `Round down` and define the number of digits - up to 12 - after the decimal separator (only available for measurement attributes used as a source).
+![Rounding](../img/TailoredExport_Operation_Rounding.png)
+
 ## Concatenation
 
 Concatenate different sources by displaying up to 4 per column. Click on `Add text` to add more details and create a separation between sources.
