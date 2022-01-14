@@ -134,7 +134,7 @@ Convert measurement units within the same measurement family (only available for
 
 ## Rounding
 
-Round measurements values, choosing from `Round`, `Round up` & `Round down` and define the number - up to 12 - digits after the decimal separator (only available for measurement attributes used as a source).
+Round measurements values, choosing from `Round`, `Round up` & `Round down` and define the number of digits - up to 12 - after the decimal separator (only available for measurement attributes used as a source).
 ![Rounding](../img/TailoredExport_Operation_Rounding.png)
 
 ## Concatenation
