@@ -91,7 +91,7 @@ There is no validation parameters in this column type!
 If you already use the reference entity feature to handle your ingredients, materials, colors as records... you can easily use them in your table attribute. To do so, you just have to select the `reference entity` column type, and choose the reference entity to link, in order to get all the existing records as options.
 
 :::info
-It's impossible to create to records from a table attribute.
+It's impossible to create records from a table attribute.
 :::
 
 ## Scalability of a table attribute
