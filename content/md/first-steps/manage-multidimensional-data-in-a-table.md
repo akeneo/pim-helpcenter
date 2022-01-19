@@ -62,9 +62,11 @@ To structure your table, you can choose among 5 column types:
 - `Yes/No`(boolean)
 - `Number`
 - `Text`
-- `Reference entity`
+- `Reference entity` (EE only)
 
-Nevertheless, **the first column type must always be `Select`** or a `Reference entity` one. We will detail how these column types work in the [next section](#specificity-of-each-column-type).
+Nevertheless, **the first column type must always be `Select`** or a `Reference entity` one.  
+
+We will detail how these 5 column types work in the [next section](#specificity-of-each-column-type).
 
 ## Specificity of each column type
 
@@ -87,7 +89,7 @@ In the `Number` column type, you can specify the `minimum value`, the `maximum v
 ### Yes/No (boolean) column type
 There is no validation parameters in this column type!
 
-### Reference entity column type
+### Reference entity column type (EE only)
 If you already use the reference entity feature to handle your ingredients, materials, colors as records... you can easily use them in your table attribute. To do so, you just have to select the `reference entity` column type, and choose the reference entity to link, in order to get all the existing records as options.
 
 :::info
