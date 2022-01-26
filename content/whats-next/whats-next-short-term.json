@@ -1,7 +1,7 @@
 [
   {
     "title": "Akeneo PIM - Tailored Imports and Data Mapping",
-    "description": "Being able to import and map data coming from manufacturers or suppliers and leverage it efficiently in Akeneo PIM is essential. It will be possible to import various XLSX file structures, to map columns to their PIM attributes, and to define operations to transform the data if needed (data cleansing, concatenation, split,...).", with Tailored Imports.
+    "description": "Being able to import and map data coming from manufacturers or suppliers and leverage it efficiently in Akeneo PIM is essential. It will be possible to import various XLSX file structures, to map columns to their PIM attributes, and to define operations to transform the data if needed (data cleansing, concatenation, split,...).",
     "img": "./img/tailoredimport-whatsnext.png",
     "areas": ["Collaboration"],
     "editions": ["EE","GE"]
