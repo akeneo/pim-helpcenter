@@ -90,7 +90,7 @@ In the `Number` column type, you can specify the `minimum value`, the `maximum v
 There is no validation parameters in this column type!
 
 ### Reference entity column type (EE only)
-If you already use the reference entity feature to handle your ingredients, materials, colors as records... you can easily use them in your table attribute. To do so, you just have to select the `reference entity` column type, and choose the reference entity to link, in order to get all the existing records as options.
+If you already use the reference entity feature to handle your ingredients, materials, or colors as records you can easily use them in your table attribute. To do so, you just have to select the `reference entity` column type and choose the reference entity to link, in order to get all the existing records as options.
 
 :::info
 It's impossible to create records from a table attribute.
