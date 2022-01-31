@@ -24,10 +24,10 @@ Enterprise Edition clients will also see a `Notifications` tab to manage notific
 
 ## Your general information
 
-Under the `General` tab, you will be able to edit your personal information: username, first name, last name, add/remove your picture, and your email address. 
+Under the `General` tab, you will be able to edit your personal information: username, first name, last name, add/remove your picture, and your email address.
 
 ::: tips
-You can even select `What is your main mission` in the PIM. This will help us improve Akeneo PIM and your user experience. 
+You can even select `What is your main mission` in the PIM. This will help us improve Akeneo PIM and your user experience.
 By knowing your main mission, we will be able to enhance Akeneo PIM to help you improve your product data, your catalog structure or suggest third parties to connect with your PIM depending on your specific needs.
 :::
 
@@ -52,7 +52,8 @@ The search bar available on top of the product grid behaves like a filter, it ca
 :::
 
 ::: info
-If no default filters are defined, the system attributes (family, groups, status, completeness, creation date, updated date, product identifier, permissions, label or identifier filter) will be used as default filters on the product grid.
+If no default filters are defined, the system attributes (family, groups, status, completeness, creation date, updated date, product identifier, permissions, label or identifier filter) will be used as default filters on the product grid.  
+Note that the SKU filter will always be displayed.
 :::
 
 ## Your groups and roles
