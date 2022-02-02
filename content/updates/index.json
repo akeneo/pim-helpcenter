@@ -1,4 +1,9 @@
 {
+  "2022-01": {
+    "title": "January 2022 Serenity updates",
+    "description": "2022 has arrived! Enjoy increased functionality in Table Attributes with Reference Entities and with more operations like rounding in Tailored Exports. ",
+    "img": "illus-january-22.svg"
+  },
   "2021-12": {
     "title": "December 2021 Serenity updates",
     "description": "Happy New Year dear users! We ended 2021 by making Tailored Exports available for our Growth Edition users. We also added completeness calculation options for Table Attributes and the process tracker is fully revamped with new filters and a progress bar. Cheers to 2022!",
