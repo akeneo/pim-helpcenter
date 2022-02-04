@@ -1,4 +1,9 @@
 {
+  "2022-01": {
+    "title": "January 2022 Serenity updates",
+    "description": "2022 kicked off and we are proud to announce new improvements on Tailored Export with advanced rounding options. We also strengthened Table Attribute by adding Reference Entities as a column type. Explore the power of Akeneo PIM throughout its latest features!",
+    "img": "illus-january-22.svg"
+  },
   "2021-12": {
     "title": "December 2021 Serenity updates",
     "description": "Happy New Year dear users! We ended 2021 by making Tailored Exports available for our Growth Edition users. We also added completeness calculation options for Table Attributes and the process tracker is fully revamped with new filters and a progress bar. Cheers to 2022!",
