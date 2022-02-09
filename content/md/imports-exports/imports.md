@@ -15,7 +15,7 @@ When importing data, Akeneo PIM extracts the data from the file and converts the
 
 ::: info
 The imports accept two types of files: CSV and XLSX.  
-Imports are limited to a maximum of 512 MB per file.
+Imports are limited to 512 MB per file.
 :::
 
 You can import product data, but also catalog entities such as the families, the categories, the attributes...
