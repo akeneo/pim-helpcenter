@@ -62,8 +62,8 @@ To structure your table, you can choose among 6 column types:
 - `Yes/No`(boolean)
 - `Number`
 - `Text`
-- `Measurement`
 - `Reference entity` (EE only)
+- `Measurement`
 
 Nevertheless, **the first column type must always be `Select`** or a `Reference entity` one.  
 
@@ -90,18 +90,18 @@ In the `Number` column type, you can specify the `minimum value`, the `maximum v
 ### Yes/No (boolean) column type
 There is no validation parameters in this column type!
 
-### Measurement column type
-In the `Measurement` column type, you will first be asked to choose the `Measurement family` your column will inherit from. Then, you will be able to define the `Default unit`.
-
-:::info
-Note that the `Measurement family` cannot be changed once the column has been saved but the `Default unit` can.
-:::
-
 ### Reference entity column type (EE only)
 If you already use the reference entity feature to handle your ingredients, materials, or colors as records you can easily use them in your table attribute. To do so, you just have to select the `reference entity` column type and choose the reference entity to link, in order to get all the existing records as options.
 
 :::info
 It's impossible to create records from a table attribute.
+:::
+
+### Measurement column type
+In the `Measurement` column type, you will first be asked to choose the `Measurement family` your column will inherit from. Then, you will be able to define the `Default unit`.
+
+:::info
+Note that the `Measurement family` cannot be changed once the column has been saved but the `Default unit` can.
 :::
 
 ## Scalability of a table attribute
