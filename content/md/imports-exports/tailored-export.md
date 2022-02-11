@@ -11,13 +11,13 @@ related: exports, monitor-jobs, access-rights-on-imports-exports
 # Overview
 
 This feature consists in an export profile, available only for our Enterprise Edition or Growth Edition users.
-It helps you to export your product information in flat files, with your own structure.  
+It helps you to export your product information in XLSX or CSV files, with your own structure.  
 For instance, let's assume your retailers or distributors need the same product information from you, but they want different structures:  
 * Retailer A wants an export with columns named: "Identifier", "Product Name", "Description", and "Weight (Ounces)".
 * Retailer B wants an export with columns named: "Name in French", "Name in English", "Description 1", "ID", and "Weight (Kilograms)".  
 
 Without Tailored Export, you have to export your product information thanks to a regular product export profile, and manually modify your spreadsheet to reorder the columns, change their name, convert the measurements, for as many retailers and distributors that need it.  
-Thanks to Tailored Export, prepare the work from Akeneo PIM creating a Tailored Export profile per your retailer's or distributor's requirements and use it as often as necessary. **You no longer need to manually edit your flat files when you need to share product information.**
+Thanks to Tailored Export, prepare the work from Akeneo PIM creating a Tailored Export profile per your retailer's or distributor's requirements and use it as often as necessary. **You no longer need to manually edit your XLSX or CSV files when you need to share product information.**
 
 :::tips
 To learn more about Tailored Export and how to use this feature, please watch our training [Tailored Exports Foundations](https://akademy.akeneo.com/tailored-exports-foundations).
@@ -41,7 +41,7 @@ Once you've created your tailored export profile, or if you want to edit an exis
 
 ## Discover the different tabs of this profile
 
-A tailored export profile is similar to a regular product and product export profile. The main difference is that you have a tab to configure the structure of your flat file.
+A tailored export profile is similar to a regular product and product export profile. The main difference is that you have a tab to configure the structure of your XLSX or CSV file.
 
 Here are the tabs you can use:
 * `Properties`: To define the label of your export profile.

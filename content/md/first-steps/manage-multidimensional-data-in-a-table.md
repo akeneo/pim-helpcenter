@@ -121,7 +121,7 @@ In this tab, we track the activity on your attribute such as:
 You can import/export a table attribute just like any other attribute types, by using the `attribute import` or `attribute export` profiles. But, the structure of your table (i.e, the columns of your table) must be written in a JSON format, and inserted in the dedicated column of your import/export file, called `table_configuration`.
 
 :::tips
-We are aware that this JSON format is not ideal, but there is no other easy way to proceed as of today. That's why, if you need to make some changes via flat files, we recommend you to export your attributes first, fix what needs to be, and re-import it.
+We are aware that this JSON format is not ideal, but there is no other easy way to proceed as of today. That's why, if you need to make some changes via XLSX or CSV files, we recommend you to export your attributes first, fix what needs to be, and re-import it.
 :::
 
 :::info
