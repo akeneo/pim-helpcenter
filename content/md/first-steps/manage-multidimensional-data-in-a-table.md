@@ -80,7 +80,7 @@ You create the options once, and you use them as much as you want in your produc
 The sorting of the options in the `manage options` screen is based on their creation date, in order to guarantee the best performances of your PIM.
 :::
 
-Directly from the `manage options` screen, you can add options coming from a simple or multi-select attribute  as an option for your table, just by clicking on the `Import from existing attribute` button.
+Directly from the `manage options` screen, you can add options coming from a simple or multi-select attribute as an option for your table, just by clicking on the `Import from existing attribute` button.
 
 :::warning
 Note that imported options are not synchronised but are a one-shot copy of existing attribute options. Adding or removing options from the PIM won't change the options of the table.
