@@ -57,16 +57,17 @@ Each column is defined by a `code`, a `label`, and a `type`. The label can be tr
 It means that your columns are frozen once you've clicked on `Save`. If you need to change the code or the type of a column, you must delete and re-create it.
 
 ### The first column is always a `Select` or a `Reference entity` one.
-To structure your table, you can choose among 5 column types:
+To structure your table, you can choose among 6 column types:
 - `Select`
 - `Yes/No`(boolean)
 - `Number`
 - `Text`
 - `Reference entity` (EE only)
+- `Measurement`
 
 Nevertheless, **the first column type must always be `Select`** or a `Reference entity` one.  
 
-We will detail how these 5 column types work in the [next section](#specificity-of-each-column-type).
+We will detail how these 6 column types work in the [next section](#specificity-of-each-column-type).
 
 ## Specificity of each column type
 
@@ -77,6 +78,18 @@ You create the options once, and you use them as much as you want in your produc
 
 :::info
 The sorting of the options in the `manage options` screen is based on their creation date, in order to guarantee the best performances of your PIM.
+:::
+
+Directly from the `manage options` screen, you can add options coming from a simple or multi-select attribute as an option for your table, just by clicking on the `Import from existing attribute` button.
+
+:::warning
+Note that imported options are not synchronised but are a one-shot copy of existing attribute options. Adding or removing options from the selected simple or multi-select attribute won't change the options of the table column.
+:::
+
+:::info
+If an option already exists on the table option list (same code), all the labels of this option will be replaced by the imported option.
+
+Furthermore, if, while importing options, the table option list exceed the 20000 options limit threshold, all the remaining options will be ignored and won't be imported.
 :::
 
 ### Text column type
@@ -94,6 +107,13 @@ If you already use the reference entity feature to handle your ingredients, mate
 
 :::info
 It's impossible to create records from a table attribute.
+:::
+
+### Measurement column type
+In the `Measurement` column type, you will first be asked to choose the `Measurement family` your column will inherit from. Then, you will be able to define the `Default unit`.
+
+:::info
+Note that the `Measurement family` cannot be changed once the column has been saved but the `Default unit` can.
 :::
 
 ## Scalability of a table attribute
