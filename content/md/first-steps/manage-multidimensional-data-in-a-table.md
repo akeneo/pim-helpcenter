@@ -83,7 +83,7 @@ The sorting of the options in the `manage options` screen is based on their crea
 Directly from the `manage options` screen, you can add options coming from a simple or multi-select attribute as an option for your table, just by clicking on the `Import from existing attribute` button.
 
 :::warning
-Note that imported options are not synchronised but are a one-shot copy of existing attribute options. Adding or removing options from the PIM won't change the options of the table.
+Note that imported options are not synchronised but are a one-shot copy of existing attribute options. Adding or removing options from the selected simple or multi-select attribute won't change the options of the table column.
 :::
 
 :::info
