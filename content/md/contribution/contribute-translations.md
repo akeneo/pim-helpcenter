@@ -16,12 +16,16 @@ You'll see. This is very straight forward!
 
 # Introducing Crowdin
 
-Akeneo uses the application [Crowdin](https://crowdin.com/) which provides a collaborative environment for the community to translate the PIM. Feel free to create an account and submit translations for your language! This will be much appreciate. ;)
+Akeneo uses the application [Crowdin](https://crowdin.com/) which provides a collaborative environment for the community to translate the PIM. Feel free to create an account and submit translations for your language, this will be much appreciated. ;)
 
 Access to [Crowdin](https://crowdin.com/) is free, simply register to access to [Akeneo project](https://fr.crowdin.com/project/akeneo) and start contributing!
 
 For now, here is the current status on PIM translation on Crowdin.
 ![image](../img/Crowdin_situation.png)
+
+:::warning
+Please note that any language whose completion reaches 70% will appear in the UI of the SaaS version.
+:::
 
 # Get your reward
 
