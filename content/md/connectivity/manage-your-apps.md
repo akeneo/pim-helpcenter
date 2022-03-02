@@ -172,4 +172,4 @@ If you connected an App you don't want to use anymore, you can delete it.
 As a result, your App will be deleted from your PIM. It means that:
 
 - you will no longer be able to follow its data flows from the Data flows dashboard,
-- your App won't be able to read, edit or delete data in your PIM. If you ever need this App again, you will have to connect it again from the PIM App store.
+- your App won't be able to read, edit or delete data in your PIM. If you ever need this App again, you will have to connect it again from the PIM App Store.

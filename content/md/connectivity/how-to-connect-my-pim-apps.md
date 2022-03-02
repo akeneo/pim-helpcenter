@@ -27,11 +27,11 @@ Apps can retrieve and push data from and into Akeneo PIM through the REST API an
 # Where to find Apps & Connectors?
 Because we know it can be tedious to leave your work environment to find the App or Connector you need, we bring them to you. We developed the PIM `Marketplace` as a way for you to smoothly identify the most relevant App or Connector directly from your PIM interface.
 
-![PIM App store](../img/pim-marketplace-with-apps.png)
+![PIM App Store](../img/pim-marketplace-with-apps.png)
 
 You can see Apps and Connectors compatible with your Akeneo PIM version and edition. When you identify something interesting, click on `More info` to access the related documentation.
 
-Akeneo App store is where you will read all the documentation, consult all the available screenshots, and reach the seller.
+Akeneo App Store is where you will read all the documentation, consult all the available screenshots, and reach the seller.
 
 To find the Apps or Connectors you need, in you PIM, go to the `Connect` menu, then click on `Marketplace`, and here you are!
 
@@ -60,7 +60,7 @@ To give the role permission:
 You can connect up to 50 third-parties through connections and connected Apps. 
 :::
 
-To enable an App, click on `Connect` on the App card on the PIM App store page. 
+To enable an App, click on `Connect` on the App card on the PIM App Store page. 
 
 As soon as you click on `Connect`, the App will open in a new tab. 
 
