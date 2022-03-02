@@ -9,7 +9,7 @@ related: manage-event-subscription, how-to-connect-my-pim-legacy, manage-your-co
 
 # Introduction
 
-Some extensions of the [Akeneo marketplace](https://marketplace.akeneo.com) use events to synchronize the Akeneo PIM product data with other applications. 
+Some extensions of the [Akeneo App store](https://marketplace.akeneo.com) use events to synchronize the Akeneo PIM product data with other applications. 
 
 To use these extensions, you need to enable an event subscription that relies on the connections in the Akeneo PIM. 
 
