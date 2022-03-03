@@ -37,7 +37,7 @@ To find the Apps or Connectors you need, in you PIM, go to the `Connect` menu, t
 
 # Who can connect Apps?
 
-To give the capacity to choose who can connect an App, we added a new Role permission in the PIM: `Manage Apps`. 
+To give the capacity to choose who can connect an App, we added a new Role permission in the PIM: `Manage apps`. 
 To connect an App, your user role needs it.
 
 Without this role permission, you won't see the `Apps` menu and won't be able to click on `Connect` as in the following screenshot.

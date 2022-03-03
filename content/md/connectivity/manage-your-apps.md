@@ -13,7 +13,7 @@ related: how-to-connect-my-pim-with-apps, connection-dashboard
 
 Now that you connected one or several Apps with your Akeneo PIM, you probably want to see them listed in the UI and access their settings.
 
-This is the role of the `Connect` sub-menu called `Apps`. Here you can see information about connected Apps: their name, logo, category, and who owns it.
+This is the role of the `Connect` sub-menu called `Connected Apps`. Here you can see information about connected Apps: their name, logo, category, and who owns it.
 
 ![Connected apps](../img/connected-apps.png) 
 
@@ -24,7 +24,7 @@ To discover how to connect an App with your PIM, please read our article [How to
 
 # Who can manage and open Apps?
 
-From the `Apps` menu, users can manage and open Apps.
+From the `Connected Apps` menu, users can manage and open Apps.
 
 To give you the capacity to choose who can manage or open an App, we added two new Role permissions in the PIM. 
 
@@ -43,7 +43,7 @@ If you can't update user roles, please ask your administrator.
 :::
 
 # Open a connected App interface
-To open a connected App interface, click on `Open app` in the `Apps` menu. 
+To open a connected App interface, click on `Open app` in the `Connected Apps` menu. 
 The App interface will open in a new tab of your navigator. 
 
 ![Open App button](../img/app-card-open.png) 
@@ -55,7 +55,7 @@ When you open an App, Akeneo PIM may ask you to agree to share some of your user
  
 # Manage your connected App settings
 
-To access the connected App settings, click on `Manage app` in the `Apps` menu. 
+To access the connected App settings, click on `Manage app` in the `Connected Apps` menu. 
 
 ![Manage App button](../img/app-card-manage.png) 
 
@@ -163,7 +163,7 @@ If your user doesn't have these permissions, the fields related to permission wi
 If you connected an App you don't want to use anymore, you can delete it.
 
 1. Click on `Connect`.
-2. Click on `Apps`.
+2. Click on `Connected Apps`.
 3. Click on the App you want to delete.
 4. Click on `...` in the top right corner of your screen.
 5. And click on `Delete`.
