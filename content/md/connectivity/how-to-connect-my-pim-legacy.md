@@ -36,18 +36,18 @@ To do so, you can follow the dedicated article right [here](manage-your-connecti
 ## _Step 2_ | Activate an existing extension or develop your own from scratch
 It totally depends on which third-party you want to connect with.
 
-Thanks to our community and partners, we have plenty of extensions ready to be activated on your PIM. To find them, go to your PIM `Connect` menu, click on `Marketplace`, and here you are! 
+Thanks to our community and partners, we have plenty of extensions ready to be activated on your PIM. To find them, go to your PIM `Connect` menu, click on `App Store`, and here you are! 
 
-The PIM App Store page allows you to access Akeneo App Store and display all the extensions compatible with your PIM.
+The App Store page allows you to access Akeneo App Store and display all the extensions compatible with your PIM.
 For example, if you want to connect your PIM to Magento 2, we provide the [Akeneo connector](https://help.akeneo.com/magento2-connector/index.html).
 
-So, your first reflex should be to check if there is already an existing extension on Akeneo App Store for your needs.
+So, your first reflex should be to check if there is already an existing extension on the Akeneo App Store for your needs.
 
-There may be some third parties for which no API-based extension was created and available on Akeneo App Store. In this case, you will have to develop it to cover your own needs.  
+There may be some third parties for which no API-based extension was created and available on the Akeneo App Store. In this case, you will have to develop it to cover your own needs.  
 We provide guides to help you in this task. For example, here is how you can [connect to a DAM](https://api.akeneo.com/guides/dam-connection/introduction.html) with our API. If you can't find a guide covering your use case, we recommend you to get familiar with our [API documentation](https://api.akeneo.com).
 
 ::: tips
-We publish new extensions regularly, so don't forget to keep an eye on [Akeneo App Store](https://marketplace.akeneo.com/)! :wink:
+We publish new extensions regularly, so don't forget to keep an eye on the [Akeneo App Store](https://marketplace.akeneo.com/)! :wink:
 :::
 
 ## _Step 3_ | Use the credentials in the extension
