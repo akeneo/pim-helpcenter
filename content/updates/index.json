@@ -1,8 +1,13 @@
 {
-  "2022-01": {
-    "title": "January 2022 Serenity updates",
-    "description": "2022 kicked off and we are proud to announce new improvements on Tailored Export with advanced rounding options. We also strengthened Table Attribute by adding Reference Entities as a column type. Explore the power of Akeneo PIM throughout its latest features!",
-    "img": "illus-january-22.svg"
+  "2022-02": {
+    "title": "February 2022 Serenity updates",
+    "description": "Table Attributes got some love this February with a few key updates. Now you can include measurements when creating a table attribute, and import options from existing attributes to save you time.",
+    "img": "illus-february-22.svg"
+  },
+    "2022-01": {
+      "title": "January 2022 Serenity updates",
+      "description": "2022 kicked off and we are proud to announce new improvements on Tailored Export with advanced rounding options. We also strengthened Table Attribute by adding Reference Entities as a column type. Explore the power of Akeneo PIM throughout its latest features!",
+      "img": "illus-january-22.svg"
   },
   "2021-12": {
     "title": "December 2021 Serenity updates",
