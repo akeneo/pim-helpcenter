@@ -9,6 +9,11 @@ related: what-is-a-connection, manage-your-connections, connection-dashboard, wh
 
 # Meet the "Connect" menu
 
+::: tips
+Since the 6.0 and for all SaaS customers, you can connect Apps from the `Connect` menu with the step-by-step activation process. 
+Please go to our [How to connect my PIM with Apps?](how-to-connect-my-pim-with-apps.html) article to know more about App connection. 
+:::
+
 You need to gather all your product data, and this is why you use Akeneo PIM. But, you also need to retrieve product data or share them, right?
 
 Indeed, for your PIM to work correctly, you first need to connect it to the data flows that are coming from your ERP, DAM, or even MDM.  
@@ -16,7 +21,7 @@ Once your products are enriched into the PIM, you need them to be delivered to a
 Maybe, you also need to connect your PIM to a translation tool to enrich your data more efficiently. You can also consider combining the PIM with some BI tools to get reports on the enrichment workload.
 
 
-In the PIM, there is a concept that helps you connect any third party you might think of to boost the powers of your PIM. It is called `Connections`. :tada:
+In the PIM, there is a concept that helps you connect any third party you might think of to boost the powers of your PIM. It is called `Connections`. 
 
 Want to know more? Ellen is going to give you some pointers on what this amazing feature is about.
 

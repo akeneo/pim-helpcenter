@@ -7,11 +7,6 @@ ee: false
 related: manage-your-apps, connection-dashboard
 ---
 
-::: warning
-**THIS FEATURE WILL BE AVAILABLE SOON**
-:::
-
-
 # What is an App?
 
 For two years, Connections have been the best way to connect Akeneo PIM with a third party, and thanks to our community and partners, we have plenty of Connectors ready to be connected to your PIM.
@@ -34,6 +29,11 @@ You can see the Akeneo Marketplace Apps and Connectors compatible with your Aken
 Akeneo Marketplace is where you will read all the documentation, consult all the available screenshots, and reach the seller.
 
 To find the Apps or Connectors you need, in you PIM, go to the `Connect` menu, then click on `Marketplace`, and here you are!
+
+::: tips
+Feel free to test our new connection experience by connecting the **Akeneo Demo App**. 
+:::
+
 
 # Who can connect Apps?
 

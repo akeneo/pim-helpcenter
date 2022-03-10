@@ -7,10 +7,6 @@ ee: false
 related: how-to-connect-my-pim-with-apps, connection-dashboard
 ---
 
-::: warning
-**THIS FEATURE WILL BE AVAILABLE SOON**
-:::
-
 Now that you connected one or several Apps with your Akeneo PIM, you probably want to see them listed in the UI and access their settings.
 
 This is the role of the `Connect` sub-menu called `Apps`. Here you can see information about connected Apps: their name, logo, category, and who owns it.
