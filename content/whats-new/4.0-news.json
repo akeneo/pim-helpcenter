@@ -107,63 +107,63 @@
   {
     "title":"API connections management 🔌",
     "areas": ["Connectivity"],
-    "editions": ["CE","EE"],
+    "editions": ["CE","GE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/articles/manage-your-connections.html"
   },
   {
     "title":"Streamlined API connectors configuration 🔌",
     "areas": ["Connectivity"],
-    "editions": ["CE","EE"],
+    "editions": ["CE","GE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/connections.html#a-new-streamlined-way-to-configure-connectors-from-within-the-pim"
   },
   {
     "title":"API product import monitoring 📊",
     "areas": ["Connectivity","Reporting"],
-    "editions": ["CE","EE"],
+    "editions": ["CE","GE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/connections.html#a-new-dashboard-to-monitor-all-your-connections"
   },
   {
     "title":"2x to 4x faster API product import 🚀",
     "areas": ["Connectivity","Scalability"],
-    "editions": ["CE","EE"],
+    "editions": ["CE","GE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-import-performance"
   },
   {
     "title":"3x to 6x faster API product model import 🚀",
     "areas": ["Connectivity","Scalability"],
-    "editions": ["CE","EE"],
+    "editions": ["CE","GE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-import-performance"
   },
   {
     "title":"1.5x to 9x faster CSV product import 🚀",
     "areas": ["Connectivity","Scalability"],
-    "editions": ["CE","EE"],
+    "editions": ["CE","GE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-import-performance"
   },
   {
     "title":"6x to 12x faster CSV product model import 🚀",
     "areas": ["Connectivity","Scalability"],
-    "editions": ["CE","EE"],
+    "editions": ["CE","GE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-import-performance"
   },
   {
     "title":"30% faster API product export 🚀",
     "areas": ["Connectivity","Scalability"],
-    "editions": ["CE","EE"],
+    "editions": ["CE","GE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-export-performance"
   },
   {
     "title":"CSV product export performance twice faster 🚀",
     "areas": ["Connectivity","Scalability"],
-    "editions": ["CE","EE"],
+    "editions": ["CE","GE","EE"],
     "since-version": "4.0",
     "link": "/pim/v4/updates/performance.html#better-export-performance"
   }
