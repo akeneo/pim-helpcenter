@@ -1,0 +1,14 @@
+{
+  "pxmArea1": {
+    "title": "PXM Area 1",
+    "description": "A description of the first PXM area here. Don't forget to change whether it's an EE only feature below, and also, don't hesitate to change the image",
+    "img": "illus-gift2.svg",
+    "eeOnly": false
+  },
+  "pxmArea2": {
+    "title": "PXM Area 2",
+    "description": "A description of the first PXM area here. You can add as many PXM areas as the release contains.",
+    "img": "illus-gift2.svg",
+    "eeOnly": true
+  }
+}
