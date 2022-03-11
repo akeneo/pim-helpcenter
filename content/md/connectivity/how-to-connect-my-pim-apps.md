@@ -7,11 +7,6 @@ ee: false
 related: manage-your-apps, connection-dashboard
 ---
 
-::: warning
-**THIS FEATURE WILL BE AVAILABLE SOON**
-:::
-
-
 # What is an App?
 
 For two years, Connections have been the best way to connect Akeneo PIM with a third party, and thanks to our community and partners, we have plenty of Connectors ready to be connected to your PIM.
@@ -27,7 +22,7 @@ Apps can retrieve and push data from and into Akeneo PIM through the REST API an
 # Where to find Apps & Connectors?
 Because we know it can be tedious to leave your work environment to find the App or Connector you need, we bring them to you. We developed the PIM `App Store` as a way for you to smoothly identify the most relevant App or Connector directly from your PIM interface.
 
-![PIM App Store](../img/pim-marketplace-with-apps.png)
+![PIM App Store](../img/pim-marketplace-with-apps.gif)
 
 You can see Apps and Connectors compatible with your Akeneo PIM version and edition. When you identify something interesting, click on `More info` to access the related documentation.
 
@@ -42,7 +37,7 @@ To connect an App, your user role needs it.
 
 Without this role permission, you won't see the `Apps` menu and won't be able to click on `Connect` as in the following screenshot.
 
-![App Store connect disabled](../img/marketplace-connect-disabled.png)
+<img class="img-responsive in-article" alt="App Store connect disabled" src="../img/marketplace-connect-disabled.png" style="max-width: 500px;">
 
 To give the role permission: 
 
