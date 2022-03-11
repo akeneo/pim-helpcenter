@@ -9,7 +9,7 @@
   {
     "title":"Tailored exports",
     "areas": ["Collaboration", "Productivity"],
-    "editions": ["EE"],
+    "editions": ["EE","GE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2021-08.html#advanced-product-export-capabilities"
   },
