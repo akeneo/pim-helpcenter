@@ -1,8 +1,15 @@
 [
   {
+    "title":"Table Attribute",
+    "areas": ["Governance"],
+    "editions": ["EE", "GE"],
+    "since-version": "6.0",
+    "link": "/pim/serenity/updates/2021-10.html#manage-your-multidimensional-data-in-akeneo-pim"
+  },
+  {
     "title":"Tailored exports 🪡",
     "areas": ["Collaboration", "Productivity"],
-    "editions": ["EE"],
+    "editions": ["EE", "GE"],
     "since-version": "6.0",
     "link": "/pim/serenity/updates/2021-08.html#advanced-product-export-capabilities"
   },
