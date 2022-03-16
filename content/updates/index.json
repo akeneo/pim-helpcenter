@@ -1,14 +1,14 @@
 {
-  "pxmArea1": {
-    "title": "PXM Area 1",
-    "description": "A description of the first PXM area here. Don't forget to change whether it's an EE only feature below, and also, don't hesitate to change the image",
+  "Connectivity": {
+    "title": "Connectivity",
+    "description": "Connecting your Akeneo PIM is an important part of running a successful omnichannel business. That's why with Akeneo PIM Version 6 we've introduced new features and functionality to improve your API and your connection experience.",
     "img": "illus-gift.svg",
     "eeOnly": false
   },
-  "pxmArea2": {
-    "title": "PXM Area 2",
-    "description": "A description of the first PXM area here. You can add as many PXM areas as the release contains.",
+  "Productivity": {
+    "title": "Productivity",
+    "description": "Akeneo PIM is designed to help you be more productive and collaborate with more efficieny. That's why with Akeneo PIM Version 6 we've introduced new features and functionality to improve your efficieny with data exportation and distribution, and UI improvements making your PIM even easier to use.",
     "img": "illus-gift.svg",
-    "eeOnly": true
+    "eeOnly": false
   }
 }
