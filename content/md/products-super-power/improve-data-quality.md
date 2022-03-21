@@ -100,30 +100,35 @@ If you use a single locale, then spell check is usable on text and text area att
 Even if they don't have permission to edit, all PIM users will be able to read data quality insights on all attributes.
 :::
 
-From the `data quality panel`, you can view attribute labels and options with spelling mistakes. By clicking on the link, you land on the **settings** screen from which you can correct these mistakes hence improving your consistency grade. _(Enterprise Edition only)_ 
+From the `data quality panel`, you can view attribute labels and options with spelling mistakes. By clicking on the link, you land on the **settings** screen from which you can correct these mistakes hence improving your consistency grade. _(Enterprise Edition only)_
 
 ![Image data quality spellcheck on attribute option](../img/data-quality-spelling-option.png)
 
 
 ## Improve data quality on variant products and product models
 
-If you work with variant products, you will see slight differences between simple products, product models and variant products.
+There are a few differences in quality score displays and calculation between simple products, product models and variant products.
 
-To help you craft compelling product experiences, the **quality score** aims at helping you improve the data quality of your end-customer facing product data. The product your customer is interested in is the product variant. Therefore, the **quality score** is calculated and displayed only at the variant level.
+The **quality score** aims at helping you improve the data quality of your end-customer facing product data. The product your customer will buy is the product variant. Therefore, the **quality score** calculated at the variant level is the score taken into account to monitor your catalog data quality on the dashboard.
 
 For **product models**:
 ![Image data quality product model panel](../img/data-quality-model-panel.png)
+- The quality score is calculated on the attributes at the product model level only.
+- The quality score representation is different to help you understand at a glance which level you are viewing and improving.
 - Recommendations are given for attributes at the product model level.
 
 For **sub-product models**:
+- The quality score is calculated on the attributes at the product sub-product model level only.
+- The quality score representation is the same for sub-product and product models.
 - Recommendations are given for attributes at the product model and sub-product model levels. By clicking on an attribute name, you can go and improve an attribute in the product model or sub-product model.
 
 For **variant products**:
 ![Image data quality variant panel](../img/data-quality-variant-panel.png)
 - The quality score is calculated on the attributes that can be improved at all levels, therefore, it reflects the data quality of the product that will be published.
+- The quality score representation is the same for variant and simple products.
 - Recommendations are given for all attributes by clicking on an attribute name, you can go and improve an attribute in the product model, the sub-product model or the variant product.
 
-## Improve data quality on attribute labels and options _(Enterprise Edition only)_ 
+## Improve data quality on attribute labels and options _(Enterprise Edition only)_
 
 From the `Settings` you can check and improve the data quality of your attribute labels and options.
 
