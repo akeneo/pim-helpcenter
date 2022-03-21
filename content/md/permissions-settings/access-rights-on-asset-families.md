@@ -19,6 +19,7 @@ For assets, we have 2 levels of access: the view right and the edit right.
 
 ::: warning
 It’s not possible to hide an asset family.
+These permissions doesn't apply to connections.
 :::
 
 ## The edit right
