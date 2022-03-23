@@ -37,47 +37,74 @@ You can also be more precise in terms of endpoints you want your API users to ca
 
 The following tables sum up the permissions you will find to restrict the access to the API, endpoint by endpoint.
 
-| Channel endpoints  |                                        |
+| Assets  |                                        |
 |:--------------|:------------------------------------------------|
-| List channels | Gives permission to GET on the channel endpoint |
-| Create and update channels | Gives permission to POST and PATCH on the channel endpoint |
+| List assets | Gives permission to retrieve assets using the API |
+| Create and update assets | Gives permission to create and update assets using the API |
+| Delete assets | Gives permission to delete assets using the API |
+| List asset families | Gives permission to retrieve asset families using the API |
+| Create and update asset families | Gives permission to create and update asset families using the API |
 
-| Locale endpoints |                                                |
-|:-------------|:-----------------------------------------------|
-| List locales | Gives permission to GET on the locale endpoint |
+| Attributes  |                                        |
+|:--------------|:------------------------------------------------|
+| List attributes | Gives permission to retrieve attributes using the API |
+| Create and update attributes | Gives permission to create and update attributes using the API |
 
-| Currency endpoints |                                                |
-|:-------------|:-----------------------------------------------|
-| List currencies | Gives permission to GET on the currency endpoint |
+| Attribute options  |                                        |
+|:--------------|:------------------------------------------------|
+| List attribute options | Gives permission to retrieve attribute options using the API |
+| Create and update attribute options | Gives permission to create and update attribute options using the API |
 
-| Family endpoints |                                       |
-|:------------------------|:--------------------------------------|
-| List families              | Gives permission to GET on the family endpoint |
-| Create and update families | Gives permission to POST and PATCH on the family endpoint |
+| Categories  |                                        |
+|:--------------|:------------------------------------------------|
+| List categories | Gives permission to retrieve categories using the API |
+| Create and update categories | Gives permission to create and update categories using the API |
 
-| Attribute endpoints |                                       |
-|:------------------------|:--------------------------------------|
-| List attributes      | Gives permission to GET on the attribute endpoint |
-| Create and update attributes | Gives permission to POST and PATCH on the attribute endpoint |
+| Families  |                                        |
+|:--------------|:------------------------------------------------|
+| List families | Gives permission to retrieve families using the API |
+| Create and update families | Gives permission to create and update families using the API |
 
-| Attribute option endpoints |                                       |
-|:------------------------|:--------------------------------------|
-| List attribute options  | Gives permission to GET on the attribute options endpoint  |
-| Create and update attribute options | Gives permission to POST and PATCH on the attribute options endpoint |
+| Familiy variants  |                                        |
+|:--------------|:------------------------------------------------|
+| List familiy variants | Gives permission to retrieve familiy variants using the API |
+| Create and update familiy variants | Gives permission to create and update familiy variants using the API |
 
-| Attribute group endpoints |                                       |
-|:------------------------|:--------------------------------------|
-| List attribute groups  | Gives permission to GET on the attribute groups endpoint  |
-| Create and update attribute groups | Gives permission to POST and PATCH on the attribute groups endpoint |
+| Channels  |                                        |
+|:--------------|:------------------------------------------------|
+| List channels | Gives permission to retrieve channels using the API |
+| Create and update channels | Gives permission to create and update channels using the API |
 
-| Category endpoints |                                       |
-|:------------------------|:--------------------------------------|
-| List categories    | Gives permission to GET on the category endpoint   |
-| Create and update categories | Gives permission to POST and PATCH on the category endpoint |
+| Locales  |                                        |
+|:--------------|:------------------------------------------------|
+| List locales | Gives permission to retrieve locales using the API |
 
-| Association type endpoints |                                       |
-|:------------------------|:--------------------------------------|
-| List association types    | Gives permission to GET on the association type endpoint   |
-| Create and update association types | Gives permission to POST and PATCH on the association type endpoint |
+| Attribute groups  |                                        |
+|:--------------|:------------------------------------------------|
+| List attribute groups | Gives permission to retrieve attribute groups using the API |
+| Create and update attribute groups | Gives permission to create and update attribute groups using the API |
+
+| Currencies  |                                        |
+|:--------------|:------------------------------------------------|
+| List currencies | Gives permission to retrieve currencies using the API |
+
+| Association types  |                                        |
+|:--------------|:------------------------------------------------|
+| List association types | Gives permission to retrieve association types using the API |
+| Create and update association types | Gives permission to create and update association types using the API |
+
+| Products  |                                        |
+|:--------------|:------------------------------------------------|
+| List products | Gives permission to retrieve products (products and product models) using the API |
+| Create and update products | Gives permission to create and update products (products and product models) using the API |
+| Delete products | Gives permission to delete products (products and product models) using the API |
+
+| Reference entities  |                                        |
+|:--------------|:------------------------------------------------|
+| List reference entity records | Gives permission to retrieve reference entity records using the API |
+| Create and update reference entity records | Gives permission to create and update reference entity records using the API |
+| Delete reference entity records | Gives permission to delete reference entity records using the API |
+| List reference entities | Gives permission to retrieve reference entities using the API |
+| Create and update reference entities | Gives permission to create and update reference entities using the API |
 
 For more details about these permissions, have a look to our [dedicated section](https://api.akeneo.com/documentation/permissions.html#permissions) in the API documentation.
