@@ -2,31 +2,31 @@
   {
     "url": "/pim/v6/",
     "version": "v6",
-    "label": "6.0 EE/CE",
+    "label": "6.0 EE Flexibility/CE",
     "suffix_with_filename": true
   },
   {
     "url": "/pim/v5/",
     "version": "v5",
-    "label": "5.0 EE/CE",
+    "label": "5.0 EE Flexibility/CE",
     "suffix_with_filename": true
   },
   {
     "url": "/pim/v4/",
     "version": "v4",
-    "label": "4.0 EE/CE",
+    "label": "4.0 EE Flexibility/CE",
     "suffix_with_filename": true
   },
   {
     "url": "/pim/v3/",
     "version": "v3",
-    "label": "v3 EE/CE",
+    "label": "v3 EE Flexibility/CE",
     "suffix_with_filename": true
   },
   {
     "url": "/pim/v2/",
     "version": "v2",
-    "label": "v2 EE/CE",
+    "label": "v2 EE Flexibility/CE",
     "suffix_with_filename": true
   },
   {
