@@ -65,10 +65,10 @@ The following tables sum up the permissions you will find to restrict the access
 | List families | Gives permission to retrieve families using the API |
 | Create and update families | Gives permission to create and update families using the API |
 
-| Familiy variants  |                                        |
+| Family variants  |                                        |
 |:--------------|:------------------------------------------------|
-| List familiy variants | Gives permission to retrieve familiy variants using the API |
-| Create and update familiy variants | Gives permission to create and update familiy variants using the API |
+| List family variants | Gives permission to retrieve family variants using the API |
+| Create and update family variants | Gives permission to create and update family variants using the API |
 
 | Channels  |                                        |
 |:--------------|:------------------------------------------------|
