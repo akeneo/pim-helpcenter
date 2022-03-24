@@ -18,7 +18,7 @@ You can define which user groups can view or edit an asset family, its propertie
 For assets, we have 2 levels of access: the view right and the edit right.
 
 ::: warning
-It’s not possible to hide an asset family.
+It’s not possible to hide an asset family.    
 These permissions don't apply to connections.
 :::
 
