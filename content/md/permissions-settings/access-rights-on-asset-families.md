@@ -20,6 +20,7 @@ For assets, we have 2 levels of access: the view right and the edit right.
 
 ::: warning
 It’s not possible to hide an asset family.
+These permissions don't apply on the API and file import.
 :::
 
 ## The edit right
