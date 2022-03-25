@@ -6,7 +6,6 @@ jobs:
         steps:
             - checkout
             - run: make build
-            - run: make test-helpcenter
 
     deploy_staging:
         machine:
