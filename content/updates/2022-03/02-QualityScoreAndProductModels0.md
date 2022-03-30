@@ -14,5 +14,5 @@ If you're working with product variants in Akeneo PIM, you will be happy to hear
 ![Quality Score and Product Models](../img/QualityScoreAndProductModels.png)
 
 ::: more
-[Understanding Data Quality](../articles/understand-data-quality.html)
+[Learn about product models](../articles/what-about-products-variants.html#how-many-levels-of-enrichment-are-managed)
 :::
