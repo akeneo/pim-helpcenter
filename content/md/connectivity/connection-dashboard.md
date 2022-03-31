@@ -18,7 +18,7 @@ This is still the very first version of this dashboard. In the future, it will s
 And also, don't hesitate to fill in the survey at the bottom of the dashboard page to vote for the next KPI you'd like to see in there.
 :::
 
-In this dashboard, for now, you can monitor both your source and destination connections.
+In this dashboard, for now, you can monitor both your source and destination connections. Activity on product models is not monitored in the following dashboards.
 
 ::: tips
 Empty charts? Have you ticked the `Track this connection in the dashboard` checkbox in your connections settings? Do you use the connection user to call the PIM through the API?
