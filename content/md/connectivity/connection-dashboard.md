@@ -11,10 +11,11 @@ related: what-is-a-connection, how-to-connect-my-pim-with-apps, manage-your-conn
 
 In the PIM, there is a dashboard called `Data flows`, to help you follow your [connections](what-is-a-connection.html) activity. You can access it by clicking on the `Connect` menu, then on the `Data flows` submenu. And here you are! :tada:
 
-![Data flows dashboard](../img/connection-dashboard.png) <!--Update screenshot-->
+<img class="img-responsive in-article" alt="Data flows dashboard" src="../img/connection-dashboard.png" style="max-width: 700px;">
 
 ::: info
-This is still the very first version of this dashboard. In the future, it will show you many more indicators. Stay tuned! 🙂  
+This is still the very first version of this dashboard. For now, **we only monitor simple products and product variants**.  
+In the future, it will show you many more indicators. Stay tuned! 🙂  
 And also, don't hesitate to fill in the survey at the bottom of the dashboard page to vote for the next KPI you'd like to see in there.
 :::
 
