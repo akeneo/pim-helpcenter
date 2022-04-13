@@ -5,12 +5,5 @@
     "img": "./img/tailoredimport-whatsnext.png",
     "areas": ["Collaboration"],
     "editions": ["EE","GE"]
-  },
-  {
-    "title": "Akeneo PIM - Easy Set up of Marketplace Extensions",
-    "description": "In the Connect menu, we will introduce `Apps`. Apps are marketplace extensions that can be activated directly from within the PIM. Their setup and PIM authorizations configuration will be really simplified thanks to a guided step by step wizard.",
-    "img": "./img/apps_in_marketplace.png",
-    "areas": ["Connectivity", "Productivity"],
-    "editions": ["EE","GE"]
   }
 ]
