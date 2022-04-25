@@ -59,7 +59,7 @@ In the `Import structure` tab, you can define the structure of your file so that
 To do that, you will need to import a first file to define the structure and then create your mappings and operations, by adding PIM attributes and linking them to your file columns. After this initial configuration that has to be done only once, you will be able to import directly all your product files.
 
 To do this, please follow the steps below:
-1.  Add a first column by clicking on `Add first column`.
+1.  Under `Import structure` tab, click on `Initialize import structure`
 ![Add first column](../img/TailoredExport_Add-first-column.png)  
     ::: tips
     If you want to add columns in bulk from an Excel file, you can copy all the columns header in your spreadsheet and paste them in the last column created, so that it creates automatically all your columns in your export.
