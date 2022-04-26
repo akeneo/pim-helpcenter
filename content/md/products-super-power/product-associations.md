@@ -72,6 +72,10 @@ A product can also be associated to a [product model](what-about-products-varian
 If you want to associate your products/product models with 2-way associations via an XLSX/CSV import, please note that the PIM processes the import information line by line. So if different products A & B are associated with a same product C, make sure that the product C is also associated with products A & B, otherwise the associations made on the previous lines will be removed.
 :::
 
+:::warning
+Please note that you should not associate more than 100 products/product models per one product/product model. If you exceed this number, you might expect performance issues.
+:::
+
 ## B: add associations to a product using an association type with quantities
 
 1.  Create a **product** or a **product model** that will be the base of your product set
