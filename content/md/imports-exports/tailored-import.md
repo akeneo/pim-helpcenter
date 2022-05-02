@@ -10,14 +10,14 @@ related: imports, monitor-jobs, access-rights-on-imports-exports
 
 # Overview
 
-This feature consists in an import profile, available only for our Enterprise Edition or Growth Edition users.
-It helps you to import your product information in XLSX or CSV files, with different structures than what the PIM offers.  
+This feature consists in an import profile, available only for our SaaS users (Enterprise Edition or Growth Edition).
+It helps you to import your product information in XLSX or CSV files, with different structures than what the PIM usually accept.  
 For instance, let's assume your supplier or brands send you their product information in different XLSX files, having different structures:  
-* Retailer A sends a file with columns named: "Identifier", "Product Name", "Description", and "Weight (Lb)".
-* Retailer B sends a file with columns named: "EAN, "Name", "Description 1", "Description 2", and "Weight (Kilograms)".  
+* Supplier A sends a file with columns named: "Product ID", "Model Name", "Online description", and "Color".
+* Brand B sends a file with columns named: "Gencod, "Web title", "Long label", "Web description", "Supplied accessories".  
 
-Without Tailored Import, you have to import your product information thanks to a regular product import profile, and manually modify your spreadsheet to convert the labels into the codes of your PIM, convert the measurements, and many more manual operations.
-Thanks to Tailored Import, configure all your needs (mapping, operations) via an import, and use it as often as necessary. **You no longer need to manually edit your XLSX or CSV files when you need to import product information.**
+**Without** Tailored Import, you have to import your product information thanks to a regular product import profile, and manually modify your spreadsheet to transform your attributes from code to label, transform you options values from label to codes, convert the measurements, and many more manual operations.
+Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import, and use it as often as necessary. **You no longer need to manually edit your XLSX or CSV files when you need to import product information.**
 
 <!--
 :::tips
@@ -31,7 +31,7 @@ To create a tailored product export:
 1. Go to `Imports`
 1. Click on `Create import profile`
 1. Type a unique export code and a label, then select the job `Tailored product import`<!-- or `Tailored product model import`-->. <!--You can select either CSV or XLSX for each job.-->
-![Create a new product import profile](../img/TailoredExport_Create-import-profile.png)
+![Create a new product import profile](../img/Tailored-Import_Create-import-profile.png)
 1. Save your new import profile
 
 # Edit a tailored product import profile
@@ -43,12 +43,12 @@ Once you've created your tailored import profile, or if you want to edit an exis
 
 ## Discover the different tabs of this profile
 
-A tailored export profile is similar to a regular product and product export profile. The main difference is that you have a tab to configure the structure of your XLSX or CSV file.
+A tailored export profile is not far from a regular product and product import profile. The main difference is that you have a tab to configure the structure of your XLSX <!--or CSV -->file.
 
 Here are the tabs you can use:
-* `Properties`: To define the label of your export profile.
+* `Properties`: To name your import profile.
 * `Permissions`: To set permissions to allow specific user groups to execute or edit your export profile (Enterprise Edition only).
-* `Global settings`: To define the behavior in case an error occurred: you can either skip the product, or skip the value only.
+* `Global settings`: To define the behavior in case an error occurred: you can either skip the products (the rows won't be imported), or skip the value only (the faulty cell won't be imported).
 * `Import structure`: To create your import structure (read how to [define your import structure](tailored-import.html#define-your-import-structure)).
 * `History`: To display the modifications by any user on your export profile.
 
@@ -56,15 +56,19 @@ Here are the tabs you can use:
 ## Define your import structure
 
 In the `Import structure` tab, you can define the structure of your file so that it matches all the future files you will import.
-To do that, you will need to import a first file to define the structure and then create your mappings and operations, by adding PIM attributes and linking them to your file columns. After this initial configuration that has to be done only once, you will be able to import directly all your product files.
+To do that, on one hand you will need to import a file to define the structure and then create your mappings and operations, by adding PIM attributes and linking them to your file columns. On the other hand, after this initial configuration has been done, you will be able to import directly all your product files sharing the same structure.
+
+:::warning
+Please note that once you defined and confirmed the structure of your import profile, you won't be able to change it. For instance, if the next file you want to import has a different column ordering or an extra column, you won't be able to use this import profile and you will have to create another one.
+:::
 
 To do this, please follow the steps below:
 1.  Under `Import structure` tab, click on `Initialize import structure`
-![Add first column](../img/TailoredExport_Add-first-column.png)  
-    ::: tips
-    If you want to add columns in bulk from an Excel file, you can copy all the columns header in your spreadsheet and paste them in the last column created, so that it creates automatically all your columns in your export.
-    ![Add columns in bulk](../img/TailoredExport_Add-columns-in-bulk.gif)
-    :::
+![Initialize import structure](../img/Tailored-Import_Initialize-import-structure.png)
+1.  Now, upload the file you need to import. This step will help the PIM to understand the structure of your file; it won't import the products from your file to the PIM.  
+1.
+
+
 1.  Once your first column has been added, you can define the column name in the text field that just appeared.
 ![Name your columns](../img/TailoredExport_Column-headers.png)
 1.  Then, you need to add a source for each column, which means selecting an attribute, a system property or an association type. To do this, please select the column you want, then, in the right panel, click on `Add source` and select any item from the list.  
