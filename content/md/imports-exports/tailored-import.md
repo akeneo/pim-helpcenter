@@ -65,8 +65,18 @@ Please note that once you defined and confirmed the structure of your import pro
 To do this, please follow the steps below:
 1.  Under `Import structure` tab, click on `Initialize import structure`
 ![Initialize import structure](../img/Tailored-Import_Initialize-import-structure.png)
-1.  Now, upload the file you need to import. This step will help the PIM to understand the structure of your file; it won't import the products from your file to the PIM.  
-1.
+1.  Now, upload the file you need to import. This step will help the PIM to assess the structure of your file. Note that the products in the uploaded file won't be imported at this step.
+    ::: warning
+    Limitations have been set for each uploaded file:
+    * It should have a maximum of 500 columns.
+    * Its size should be a maximum of 50 MB.
+    :::
+1.  Once uploaded, you'll have to set different fields:
+    * The appropriate sheet in your spreadsheet.
+    * The row where are located the headers.
+    * The row where the first product is displayed.
+    * The column where the first product information is displayed.
+    * The unique identifier column (this column will be automatically mapped to the "SKU" attribute in the PIM).
 
 
 1.  Once your first column has been added, you can define the column name in the text field that just appeared.
@@ -81,9 +91,8 @@ To do this, please follow the steps below:
 1.  To launch your export profile, in the breadcrumb, click on the name of your export profile, then click on `Export`. ![Breadcrumb](../img/TailoredExport_Breadcrumb.png)
 
 ::: warning
-Limitations have been set for each Tailored Export profile:
-* Column headers must be unique.
-* You can add up to 1,000 columns.
+Limitations have been set for each Tailored Import profile:
+* Files must contain a maximum of 500 columns.
 * You can add up to 4 sources in a single column.
 * You can add up to 10 text separators within a concatenation operation.
 * Text fields are limited to 255 characters.
