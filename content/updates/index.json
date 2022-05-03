@@ -1,4 +1,9 @@
 {
+  "2022-04": {
+    "title": "April 2022 Serenity updates",
+    "description": "April brought on some spring cleaning, so we decluttered your attribute creation modal to remove a commonly confused and retired attribute type -- the reference data attribute.",
+    "img": "illus-april-22.svg"
+  },
   "2022-03": {
     "title": "March 2022 Serenity updates",
     "description": "Some high quality updates and new capabilities this month. Product models are now taken into account with your Quality Score. And we're excited to launch an all-new Akeneo App Store to connect with your ecosystem, with new Apps already available right from within Akeneo PIM. Read more to get the scoop.",
