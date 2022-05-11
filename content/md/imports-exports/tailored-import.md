@@ -41,7 +41,7 @@ Once you've created your tailored import profile, or if you want to edit an exis
 1. Click on the tailored import profile you want to edit
 1. Click on `Edit` located in the top right corner of the screen  
 
-## Discover the different tabs of this profile
+# Discover the different tabs of this profile
 
 A tailored export profile is not far from a regular product and product import profile. The main difference is that you have a tab to configure the structure of your XLSX <!--or CSV -->file.
 
@@ -53,7 +53,7 @@ Here are the tabs you can use:
 * `History`: To display the modifications by any user on your export profile.
 
 
-## Define your import structure
+# Define your import structure
 
 In the `Import structure` tab, you can define the structure of your file so that it matches all the future files you will import.
 To do that, on one hand you will need to import a file to define the structure and then create your mappings and operations, by adding PIM attributes and linking them to your file columns. On the other hand, after this initial configuration has been done, you will be able to import directly all your product files sharing the same structure.
@@ -77,18 +77,10 @@ To do this, please follow the steps below:
     * The row where the first product is displayed.
     * The column where the first product information is displayed.
     * The unique identifier column (this column will be automatically mapped to the "SKU" attribute in the PIM).
-
-
-1.  Once your first column has been added, you can define the column name in the text field that just appeared.
-![Name your columns](../img/TailoredExport_Column-headers.png)
-1.  Then, you need to add a source for each column, which means selecting an attribute, a system property or an association type. To do this, please select the column you want, then, in the right panel, click on `Add source` and select any item from the list.  
-    ::: info
-    System properties are not set by default. Select only the system properties you need. You can choose: "Enabled", "Category", "Family", "Family variant", "Groups", "Parent" and your association types.
+    ::: warning
+    Before you click on `Confirm`, please make sure the configuration you set is right. Once this step has been confirmed, you won't be able to change it and you would have to create another import profile if you wanted to set it differently.
     :::
-1. Once you've added a source, different options are available depending on the attribute you selected. Most of the time, if your attribute has a value per locale or per channel, you may have to select from which channel and/or from which locale you want the data to be exported. But for some attributes, more options are available. For instance, you can choose between exporting the code or the label of the attribute option, and which separator (comma, semi-colon, pipe) you want, when applicable.
-![Add a source](../img/TailoredExport_Add-source.gif)
-1.  Once you're done, click on `Save` in the top right corner.
-1.  To launch your export profile, in the breadcrumb, click on the name of your export profile, then click on `Export`. ![Breadcrumb](../img/TailoredExport_Breadcrumb.png)
+1. Click on `Confirm` and you'll notice the mapping structure has already an attribute mapped. This attribute is the SKU which was selected in the step 3 above.
 
 ::: warning
 Limitations have been set for each Tailored Import profile:
@@ -98,15 +90,33 @@ Limitations have been set for each Tailored Import profile:
 * Text fields are limited to 255 characters.
 :::
 
+# Start mapping your columns to your attributes
+
+1. Now it's time to map all the relevant information from your file to the PIM. To do that, click on `Add attribute` and select an attribute from the PIM that you would like to use, for instance the "Name" attribute.
+1. Then, you'll see the right panel of this attribute displays three different sections: `Target`, `Source(s)` and `Operation(s)`.
+    * The target section will display different settings depending on the attribute you selected in the step above.
+    * The Source(s) section displays all the columns that were found in your uploaded spreadsheet.
+    * The Operation(s) section will display a certain operation available to transform your data, depending on the target you selected.
+1. Click on `Add a source` and select a source listed from your file. The letter between brackets indicates the column where this source is located in your spreadsheet. For instance, select the one that matches to the name of your product, e.g. "Web title".
+1. Now look at the "Operation(s)" section where is displayed a first data samples preview. This preview will display random data samples from the uploaded file so that you can really confirm the source you've added to this target.
+![Input data sample preview](../img/Tailored-Import_Imput-data-sample-preview.png)
+    ::: warning
+    Data samples are unique values selected randomly amongst the first 1,000 rows found in the file uploaded for the configuration.
+    :::
+1. If you need, you can add operations under the data samples. Click on `Add operation` and select the one you'd like. Please note that the operations are available depending to the attribute selected as a target, but also depending on previously added operations.
+1. At the end of the operations, is displayed an output preview of the sample data, changed according to the operations you've added.
+![Input data sample preview](../img/Tailored-Import_Output-data-sample-preview.png)
+1. Once you're done, click on `Save` in the top right corner. You're now ready to import your products.
+
+# Import your products
+
+1.  To launch your import profile, in the breadcrumb, click on the name of your import profile, drag & drop your file and click on `Upload & import now`.
+![Upload & import](../img/Tailored-Import_Upload&Import.png)
+
 # Discover operations
 
-You can use operations to share the most meaningful values for your stakeholders by adapting your PIM values in different ways when exporting them.
-
-:::tips
-To learn more about operations, please watch our training [Tailored Exports Operations](https://akademy.akeneo.com/tailored-exports-operations).
-:::
-
-Depending on the sources you define, here are the different types of operations you can add:
+You can use operations to ease as much as possible the import process, where the data needs to be transformed.
+Depending on the targets you define, here are the different types of operations you can add:
 
 ## Yes/No replacement
 
@@ -147,14 +157,11 @@ Clean automatically all the HTML tags in your text attributes used as a source.
 If you added a default value with HTML tags thanks to the `Use default value when empty operation`, and if you checked `Clean HTML tags` for the same source, this operation won't clean the HTML tags for the default value.
 :::
 
-## Selection
-
-Select the format of the value you want to export. For instance, you can select the label or the code, the separator, etc. This operation will allow you to decide exactly what product information you want to export, for each source.
-![Selection](../img/TailoredExport_Operation_Selection.png)
-
 # Duplicate a tailored product export profile
 
 If you want to create another export profile based on an existing one, you can duplicate it.
+Please note that this import profile will still keep its import structure frozen. You will only be able to add or remove operations, targets and sources.
+
 To do this, please follow the steps below:
 1. Select the export profile you would like to duplicate
 1. Click on `Edit`
