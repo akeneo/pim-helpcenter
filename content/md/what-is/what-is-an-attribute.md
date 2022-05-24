@@ -16,7 +16,7 @@ You can easily create attribute groups to gather your attributes and ease their 
 # Akeneo attribute types
 
 Here are the attribute types available in Akeneo:
-- **Identifier** attribute: a code to identify your product, **this code must be unique**. It can be a SKU, a MPN... **This attribute is mandatory to create products.**
+- **Identifier** attribute: a code to identify your product, there can only be one identifier attribute in the PIM, **this code must be unique for each product**. This identifier attribute is always named SKU **This attribute is mandatory to create products and can not be removed.**
 - **Text** attribute: a single-line text field that can contain **up to 255 characters**, it is usually used for a product name.
 - **Text area** attribute: a multi-line text field that can be used for a product description.
 - **Simple select** attribute: a single-choice list coming with custom options. Only one value can be selected amongst the available options.
