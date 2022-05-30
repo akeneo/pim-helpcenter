@@ -1,11 +1,11 @@
 # Automatically see the Extensions Compatible with your PIM
-::: meta-data type="New" ee-only="false" link-to-doc="../articles/work-on-your-assets.html#delete-a-selection-of-assets#the-title-anchor"
+::: meta-data type="New" ee-only="false" link-to-doc="../articles/what-is-the-pim-marketplace.html"
 :::
 
-If you need to delete several assets from the same family at once, it's now possible to do it in the Akeneo PIM user interface. No doubt it will save you a tremendous amount of time!
+You can now easily find the Apps and Connectors compatible with the version and edition of your PIM directly from your working environment. You no longer need to go to the Akeneo App Store website, we bring it to you for a better experience.
 
-![An image here](../img/asset-mass-delete.png)
+![Akeneo PIM App store with connectors](../img/pim-marketplace-connectors.png)
 
 ::: info
-[How to enrich your assets](../articles/work-on-your-assets.html)
+[Where to find Apps and Connectors](../articles/how-to-connect-my-pim-with-apps.html#where-to-find-apps-connectors)
 :::
