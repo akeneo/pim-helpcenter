@@ -1,4 +1,9 @@
 {
+  "2022-05": {
+    "title": "May 2022 Serenity updates",
+    "description": "This month there were new updates to the Akeneo App Store, specifically to the app authorization process, making it easier than ever to connect and manage your apps.",
+    "img": "illus-may-22.svg"
+  },
   "2022-04": {
     "title": "April 2022 Serenity updates",
     "description": "April brought on some spring cleaning, so we decluttered your attribute creation modal to remove a commonly confused and retired attribute type -- the reference data attribute.",
