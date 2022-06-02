@@ -1,22 +1,17 @@
 [
   {
-    "title": "Product Identifier Generator",
-    "description": "We want the PIM to be responsible for creating unique product identifiers on the fly when importing/creating new products, based on nomenclatures.",
-    "areas": ["Automation","Governance"]
-  },
-  {
-    "title": "Several Product Identifiers for One Product",
-    "description": "We want to allow the use of several identifiers because in most cases, both GTIN and SKU are needed. Some of you even use an internal identifier in addition to those two.",
+    "title": "Multiple Product Identifiers",
+    "description": "Oftentimes Akeneo customers need to use more than one product identifier for a single product. With this release, you can use several identifiers per product to suit your needs, like GTIN and SKU, as well as internal identifiers.",
     "areas": ["Governance"]
   },
   {
-    "title": "Product Identifier other than SKU",
-    "description": "Today, we provide one product identifier named `sku`. It can be a bit too restrictive as some of you use other identifiers such as GTIN for example. Let's make it possible for you to choose a different naming!",
+    "title": "Enriched Categories",
+    "description": "Creating a great customer experience means providing additional context at every step of their buying journey. Therefore Enriched Categories will give Akeneo customers the ability to enrich not just products, but categories as well, including channel- and locale-specific attributes too!",
     "areas": ["Governance"]
   },
   {
-    "title": "Import/Export Automation",
-    "description": "SaaS users need to automate their imports and exports directly from the PIM. We are looking into making it available for product information in XLSX and CSV format.",
+    "title": "Simultaneous Work",
+    "description": "With many teams collaborating on the enrichment of products within Akeneo PIM, they need a way to know if someone else is also working on that product. With Simulatneous Work in Akeneo PIM, users will not only see when someone else is working on the same product, but they can also work on the same product at the same time without overwriting each other’s product values.",
     "areas": ["Productivity"]
   }
 ]

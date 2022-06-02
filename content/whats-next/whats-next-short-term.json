@@ -5,5 +5,24 @@
     "img": "./img/tailoredimport-whatsnext.png",
     "areas": ["Collaboration"],
     "editions": ["EE","GE"]
+  },
+  {
+    "title": "Akeneo PIM - Scheduled Imports & Exports",
+    "description": "Akeneo PIM users will have the ability to schedule automated executions of their product imports or exports to an STFP storage server.",
+    "img": "./img/importexportscheduling2-whatsnext.png",
+    "areas": ["Automation"],
+    "editions": ["EE","GE"]
+  },
+  {
+    "title": "Akeneo PIM - Product Identifier Generator",
+    "description": "Improve product lifecycle management by enabling unique product identifier generation within Akeneo PIM. This will make Akeneo PIM responsible for creating product identifiers on the fly when importing or creating new products based on nomenclatures.",
+    "areas": ["Governance"],
+    "editions": ["EE","GE"]
+  },
+  {
+    "title": "Akeneo PIM - Product Identifier other than SKU",
+    "description": "Today, Akeneo PIM users are provided with one product identifier called `SKU`. However, we know for certain customers would prefer to use other identifiers, such as GTIN. With this release we’ll make it possible for you to choose a different identifier.",
+    "areas": ["Governance"],
+    "editions": ["EE","GE"]
   }
 ]
