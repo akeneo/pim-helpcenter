@@ -105,7 +105,7 @@ Limitations have been set for each Tailored Import profile:
     :::
 1. If you need, you can add operations under the data samples. Click on `Add operation` and select the one you'd like. Please note that the operations are available depending to the attribute selected as a target, but also depending on previously added operations.
 1. At the end of the operations, is displayed an output preview of the sample data, changed according to the operations you've added.
-![Input data sample preview](../img/Tailored-Import_Output-data-sample-preview.png)
+![Output data sample preview](../img/Tailored-Import_Output-data-sample-preview.png)
 1. Once you're done, click on `Save` in the top right corner. You're now ready to import your products.
 
 # Import your products
@@ -126,12 +126,13 @@ Replace the default values with your own value (only available for the "Yes/No" 
 ## Replacement
 
 Replace the values by your own (only available for simple select, multi select<!--, reference entities single link or multiple link--> attributes).
-![Replacement](../img/)
+![Replacement operation](../img/Tailored-Import_Replacement.png)
 
 ## Split
 
 If you want to import different values that are located into the same cell of your spreadsheet, you can use this operation to split the values thanks to a separator: comma (,), semicolon (;), pipe (|).
-![Split](../img/)
+![Split operation](../img/Tailored-Import_Split.png)
+![Split operation demo](../img/Tailored-Import_Split-demo.gif)
 
 <!--## Use default value when empty
 
