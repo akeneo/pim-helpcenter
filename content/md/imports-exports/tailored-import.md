@@ -21,7 +21,7 @@ Thanks to Tailored Import, you can configure all your needs (mapping, operations
 
 <!--
 :::tips
-To learn more about Tailored Export and how to use this feature, please watch our training [Tailored Exports Foundations](https://akademy.akeneo.com/tailored-exports-foundations).
+To learn more about Tailored Import and how to use this feature, please watch our training [Tailored Imports](https://akademy.akeneo.com/tailored-exports-foundations).
 :::
 -->
 
@@ -118,52 +118,57 @@ Limitations have been set for each Tailored Import profile:
 You can use operations to ease as much as possible the import process, where the data needs to be transformed.
 Depending on the targets you define, here are the different types of operations you can add:
 
-## Yes/No replacement
+<!--## Yes/No replacement
 
 Replace the default values with your own value (only available for the "Yes/No" attribute or the "Enabled" system property).
-![Yes/No replacement](../img/TailoredExport_Operation_Boolean_Replacement.png)
+![Yes/No replacement](../img/TailoredExport_Operation_Boolean_Replacement.png)-->
 
 ## Replacement
 
-Replace the values by your own (only available for simple select, multi select, reference entities single link or multiple link attributes).
-![Replacement](../img/TailoredExport_Operation_Replacement.png)
+Replace the values by your own (only available for simple select, multi select<!--, reference entities single link or multiple link--> attributes).
+![Replacement](../img/)
 
-## Use default value when empty
+## Split
+
+If you want to import different values that are located into the same cell of your spreadsheet, you can use this operation to split the values thanks to a separator: comma (,), semicolon (;), pipe (|).
+![Split](../img/)
+
+<!--## Use default value when empty
 
 Define a default value when the source value is empty.
-![Use default value when empty](../img/TailoredExport_Operation_UseDefaultValueWhenEmpty.png)
+![Use default value when empty](../img/TailoredExport_Operation_UseDefaultValueWhenEmpty.png)-->
 
-## Conversion
+<!--## Conversion
 
 Convert measurement units within the same measurement family (only available for measurement attributes used as a source).
-![Conversion](../img/TailoredExport_Operation_Conversion.png)
+![Conversion](../img/TailoredExport_Operation_Conversion.png)-->
 
-## Rounding
+<!--## Rounding
 
 Round measurements values, choosing from `Round`, `Round up` & `Round down` and define the number of digits - up to 12 - after the decimal separator (only available for measurement attributes used as a source).
-![Rounding](../img/TailoredExport_Operation_Rounding.png)
+![Rounding](../img/TailoredExport_Operation_Rounding.png)-->
 
-## Concatenation
+<!--## Concatenation
 
 Concatenate different sources by displaying up to 4 per column. Click on `Add text` to add more details and create a separation between sources.
-![Concatenate](../img/TailoredExport_Operation_Concatenate.gif)
+![Concatenate](../img/TailoredExport_Operation_Concatenate.gif)-->
 
 ## Clean HTML tags
 
-Clean automatically all the HTML tags in your text attributes used as a source.
-![Clean HTML tags](../img/TailoredExport_Operation_CleanHTML.png)
+Clean automatically all the HTML tags in your text values.
+![Clean HTML tags](../img/)
 
-:::warning
+<!--:::warning
 If you added a default value with HTML tags thanks to the `Use default value when empty operation`, and if you checked `Clean HTML tags` for the same source, this operation won't clean the HTML tags for the default value.
-:::
+:::-->
 
-# Duplicate a tailored product export profile
+# Duplicate a tailored import profile
 
-If you want to create another export profile based on an existing one, you can duplicate it.
+If you want to create another import profile based on an existing one, you can duplicate it.
 Please note that this import profile will still keep its import structure frozen. You will only be able to add or remove operations, targets and sources.
 
 To do this, please follow the steps below:
-1. Select the export profile you would like to duplicate
+1. Select the import profile you would like to duplicate
 1. Click on `Edit`
 1. In the top right corner, click on the three dots "..." and select `Duplicate`
 1. Write a label and a code then click on `Save`
