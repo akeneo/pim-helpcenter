@@ -6,7 +6,7 @@ Apps are the newest way to connect Akeneo PIM to other third party tools that yo
 
 Within the Connect Menu you'll also find a new navigation option called Connected Apps. This is where you'll find all of your Connected Apps after they've been activated. This menu will also allow our you to update Apps permissions without having to go to each Settings Menu. This is an easy one-stop-shop to manage your Apps, all from right within Akeneo PIM.
 
-![An image here](../img/pim-marketplace-with-apps.gif)
+![Akeneo PIM App Store](../img/pim-marketplace-with-apps.gif)
 
 ::: info
 [How to connect your PIM with Apps](../articles/how-to-connect-my-pim-with-apps.html#what-is-an-app)
