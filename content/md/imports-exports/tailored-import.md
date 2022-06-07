@@ -27,7 +27,7 @@ To learn more about Tailored Import and how to use this feature, please watch ou
 
 # Create a tailored product import profile
 
-To create a tailored product export:
+To create a tailored product import:
 1. Go to `Imports`
 1. Click on `Create import profile`
 1. Type a unique export code and a label, then select the job `Tailored product import`<!-- or `Tailored product model import`-->. <!--You can select either CSV or XLSX for each job.-->
@@ -36,9 +36,9 @@ To create a tailored product export:
 
 # Edit a tailored product import profile
 
-Once you've created your tailored import profile, or if you want to edit an existing one:
+Once you've created your Tailored Import profile, or if you want to edit an existing one:
 1. Go to `Imports`
-1. Click on the tailored import profile you want to edit
+1. Click on the Tailored Import profile you want to edit
 1. Click on `Edit` located in the top right corner of the screen  
 
 # Discover the different tabs of this profile
@@ -163,7 +163,7 @@ Clean automatically all the HTML tags in your text values.
 If you added a default value with HTML tags thanks to the `Use default value when empty operation`, and if you checked `Clean HTML tags` for the same source, this operation won't clean the HTML tags for the default value.
 :::-->
 
-# Duplicate a tailored import profile
+# Duplicate a Tailored Import profile
 
 If you want to create another import profile based on an existing one, you can duplicate it.
 Please note that this import profile will still keep its import structure frozen. You will only be able to add or remove operations, targets and sources.
