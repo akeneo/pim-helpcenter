@@ -76,6 +76,9 @@ To add an attribute, follow these steps:
  ![image](../img/ReferenceEntity_AddAttribute_Type.png)
     - **Image**: for images attributes
     - **Text**: for text or text area attributes
+        :::info
+        You can add up to 65,535 characters. Please note that HTML tags are included in the characters' count.
+        :::
     - **Number**: for number attributes
     - **Reference entity single link**: to link a record to only one entity record
     - **Reference entity multiple links**: to link a record to several entity records
