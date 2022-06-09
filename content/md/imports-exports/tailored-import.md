@@ -14,7 +14,7 @@ This feature consists in an import profile, available only for our SaaS users (E
 It helps you to import your product information in XLSX or CSV files, with different structures than what the PIM usually accept.  
 For instance, let's assume your supplier or brands send you their product information in different XLSX files, having different structures:  
 * Supplier A sends a file with columns named: "Product ID", "Model Name", "Online description", and "Color".
-* Brand B sends a file with columns named: "Gencod, "Web title", "Long label", "Web description", "Supplied accessories".  
+* Brand B sends a file with columns named: "Gencod", "Web title", "Long label", "Web description", "Supplied accessories".  
 
 **Without** Tailored Import, you have to import your product information thanks to a regular product import profile, and manually modify your spreadsheet to transform your attributes from code to label, transform you options values from label to codes, convert the measurements, and many more manual operations.
 Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import, and use it as often as necessary. **You no longer need to manually edit your XLSX or CSV files when you need to import product information.**
@@ -30,7 +30,7 @@ To learn more about Tailored Import and how to use this feature, please watch ou
 To create a tailored product import:
 1. Go to `Imports`
 1. Click on `Create import profile`
-1. Type a unique export code and a label, then select the job `Tailored product import`<!-- or `Tailored product model import`-->. <!--You can select either CSV or XLSX for each job.-->
+1. Type a unique import code and a label, then select the job `Tailored product import`<!-- or `Tailored product model import`-->. <!--You can select either CSV or XLSX for each job.-->
 ![Create a new product import profile](../img/Tailored-Import_Create-import-profile.png)
 1. Save your new import profile
 
@@ -43,11 +43,11 @@ Once you've created your Tailored Import profile, or if you want to edit an exis
 
 # Discover the different tabs of this profile
 
-A tailored export profile is not far from a regular product and product import profile. The main difference is that you have a tab to configure the structure of your XLSX <!--or CSV -->file.
+A tailored import profile is not far from a regular product and product import profile. The main difference is that you have a tab to configure the structure of your XLSX <!--or CSV -->file.
 
 Here are the tabs you can use:
 * `Properties`: To name your import profile.
-* `Permissions`: To set permissions to allow specific user groups to execute or edit your export profile (Enterprise Edition only).
+* `Permissions`: To set permissions to allow specific user groups to execute or edit your import profile (Enterprise Edition only).
 * `Global settings`: To define the behavior in case an error occurred: you can either skip the products (the rows won't be imported), or skip the value only (the faulty cell won't be imported).
 * `Import structure`: To create your import structure (read how to [define your import structure](tailored-import.html#define-your-import-structure)).
 * `History`: To display the modifications by any user on your export profile.
