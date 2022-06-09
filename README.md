@@ -5,6 +5,8 @@ This repository holds the sources for our help center, made by hand with love.
 
 Install [Docker Engine](https://docs.docker.com/engine/installation/)
 
+Changes to show Github built-in editor to easily make changes to the pim-helpcenter.
+
 ### Build with docker
 
 ```bash
