@@ -16,7 +16,8 @@ For instance, let's assume your supplier or brands send you their product inform
 * Supplier A sends a file with columns named: "Product ID", "Model Name", "Online description", and "Color".
 * Brand B sends a file with columns named: "Gencod", "Web title", "Long label", "Web description", "Supplied accessories".  
 
-**Without** Tailored Import, you have to import your product information thanks to a regular product import profile, and manually modify your spreadsheet to transform your attributes from code to label, transform you options values from label to codes, convert the measurements, and many more manual operations.
+**Without** Tailored Import and using a regular import profile, you have to manually modify your spreadsheet to transform your attributes from label to code, transform you options values from label to codes, convert your measurements, and many more manual operations before finally being able to import your product information.
+
 Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import, and use it as often as necessary. **You no longer need to manually edit your XLSX or CSV files when you need to import product information.**
 
 <!--
