@@ -87,7 +87,6 @@ To do this, please follow the steps below:
 Limitations have been set for each Tailored Import profile:
 * Files must contain a maximum of 500 columns.
 * You can add up to 4 sources in a single column.
-* You can add up to 10 text separators within a concatenation operation.
 * Text fields are limited to 255 characters.
 :::
 
