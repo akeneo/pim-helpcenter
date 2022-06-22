@@ -11,18 +11,19 @@ related: imports, monitor-jobs, access-rights-on-imports-exports
 # Overview
 
 This feature consists in an import profile, available only for our SaaS users (Enterprise Edition or Growth Edition).
-It helps you to import your product information in XLSX or CSV files, with different structures than what the PIM usually accept.  
-For instance, let's assume your supplier or brands send you their product information in different XLSX files, having different structures:  
+It helps you to import your product information in XLSX or CSV files, with different structures to what the PIM usually accepts.  
+For instance, let's assume your supplier or brand sends you their product information in different XLSX files; each with different structures:  
 * Supplier A sends a file with columns named: "Product ID", "Model Name", "Online description", and "Color".
 * Brand B sends a file with columns named: "Gencod", "Web title", "Long label", "Web description", "Supplied accessories".  
 
-**Without** Tailored Import and using a regular import profile, you have to manually modify your spreadsheet to transform your attributes from label to code, transform you options values from label to codes, convert your measurements, and many more manual operations before finally being able to import your product information.
+**Without** Tailored Import and using a regular import profile, you have to manually modify everything. Transforming your spreadsheet in order to transform your attributes from label to code. Transforming labels, converting measurements, along with many more manual operations.
 
-Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import, and use it as often as necessary. **You no longer need to manually edit your XLSX or CSV files when you need to import product information.**
+Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import and use it as often as necessary. **You no longer need to manually edit your XLSX or CSV files when you need to import product information.**
+
 
 <!--
 :::tips
-To learn more about Tailored Import and how to use this feature, please watch our training [Tailored Imports](https://akademy.akeneo.com/tailored-exports-foundations).
+To learn more about Tailored Import and how to use this feature, please watch our training video [Tailored Imports]().
 :::
 -->
 
@@ -39,28 +40,28 @@ To create a tailored product import:
 
 Once you've created your Tailored Import profile, or if you want to edit an existing one:
 1. Go to `Imports`
-1. Click on the Tailored Import profile you want to edit
+1. Click on the Tailored Import profile that you want to edit
 1. Click on `Edit` located in the top right corner of the screen  
 
 # Discover the different tabs of this profile
 
-A tailored import profile is not far from a regular product and product import profile. The main difference is that you have a tab to configure the structure of your XLSX <!--or CSV -->file.
+A tailored import profile is not unlike a regular product and product import profile. The main difference is that you have a tab to configure the structure of your XLSX <!--or CSV -->file.
 
 Here are the tabs you can use:
 * `Properties`: To name your import profile.
 * `Permissions`: To set permissions to allow specific user groups to execute or edit your import profile (Enterprise Edition only).
 * `Global settings`: To define the behavior in case an error occurred: you can either skip the products (the rows won't be imported), or skip the value only (the faulty cell won't be imported).
 * `Import structure`: To create your import structure (read how to [define your import structure](tailored-import.html#define-your-import-structure)).
-* `History`: To display the modifications by any user on your export profile.
+* `History`: To display the modifications made by any user on your export profile.
 
 
 # Define your import structure
 
-In the `Import structure` tab, you can define the structure of your file so that it matches all the future files you will import.
-To do that, on one hand you will need to import a file to define the structure and then create your mappings and operations, by adding PIM attributes and linking them to your file columns. On the other hand, after this initial configuration has been done, you will be able to import directly all your product files sharing the same structure.
+In the `Import structure` tab, you can define the structure of your file so that it matches all the future files that you will import.
+To do that, on one hand you will need to import a file to define the structure and then create your mappings and operations, by adding PIM attributes and linking them to your file columns. On the other hand, after this initial configuration has been done, you will be able to directly import all the product files that share the same structure.
 
 :::warning
-Please note that once you defined and confirmed the structure of your import profile, you won't be able to change it. For instance, if the next file you want to import has a different column ordering or an extra column, you won't be able to use this import profile and you will have to create another one.
+Please note that once you define and confirm the structure of your import profile, you won't be able to change it. For instance, if the next file you want to import has a different column order or an extra column, you won't be able to use this import profile and you will have to create another one.
 :::
 
 To do this, please follow the steps below:
@@ -69,23 +70,23 @@ To do this, please follow the steps below:
 1.  Now, upload the file you need to import. This step will help the PIM to assess the structure of your file. Note that the products in the uploaded file won't be imported at this step.
     ::: warning
     Limitations have been set for each uploaded file:
-    * It should have a maximum of 500 columns.
-    * Its size should be a maximum of 50 MB.
+    * Maximum of 500 columns.
+    * Maximum 50 MB file size.
     :::
 1.  Once uploaded, you'll have to set different fields:
     * The appropriate sheet in your spreadsheet.
-    * The row where are located the headers.
+    * The row where the header is located.
     * The row where the first product is displayed.
     * The column where the first product information is displayed.
     * The unique identifier column (this column will be automatically mapped to the "SKU" attribute in the PIM).
     ::: warning
-    Before you click on `Confirm`, please make sure the configuration you set is right. Once this step has been confirmed, you won't be able to change it and you would have to create another import profile if you wanted to set it differently.
+    Before you click on `Confirm`, please verify your configuration. Once this step has been confirmed, you won't be able to change it and you would have to create another import profile if you want to set it differently.
     :::
-1. Click on `Confirm` and you'll notice the mapping structure has already an attribute mapped. This attribute is the SKU which was selected in the step 3 above.
+1. Click on `Confirm` and you'll notice the mapping structure already has an attribute mapped. This attribute is the SKU which was selected in the step 3 above.
 
 ::: warning
 Limitations have been set for each Tailored Import profile:
-* Files must contain a maximum of 500 columns.
+* Maximum 500 columns.
 * You can add up to 4 sources in a single column.
 * Text fields are limited to 255 characters.
 :::
@@ -95,33 +96,32 @@ Limitations have been set for each Tailored Import profile:
 1. Now it's time to map all the relevant information from your file to the PIM. To do that, click on `Add attribute` and select an attribute from the PIM that you would like to use, for instance the "Name" attribute.
 1. Then, you'll see the right panel of this attribute displays three different sections: `Target`, `Source(s)` and `Operation(s)`.
     * The target section will display different settings depending on the attribute you selected in the step above.
-    * The Source(s) section displays all the columns that were found in your uploaded spreadsheet.
-    * The Operation(s) section will display a certain operation available to transform your data, depending on the target you selected.
-1. Click on `Add a source` and select a source listed from your file. The letter between brackets indicates the column where this source is located in your spreadsheet. For instance, select the one that matches to the name of your product, e.g. "Web title".
-1. Now look at the "Operation(s)" section where is displayed a first data samples preview. This preview will display random data samples from the uploaded file so that you can really confirm the source you've added to this target.
+      * The Source(s) section displays all the columns that were found in your uploaded spreadsheet.
+        * The Operation(s) section will display a certain operation available to transform your data, depending on the target you selected.
+1. Click on `Add a source` and select a source listed from your file. The letter between brackets indicates the column where this source is located in your spreadsheet. For instance, select the one that matches the name of your product, e.g. "Web title".
+1. Now look at the "Operation(s)" section where the first data samples are displayed as a preview. This preview will display random data samples from the uploaded file enabling you to ensure confirmation of  the sources that you've added to this target.
 ![Input data sample preview](../img/Tailored-Import_Imput-data-sample-preview.png)
     ::: warning
-    Data samples are unique values selected randomly amongst the first 1,000 rows found in the file uploaded for the configuration.
+    Data samples are unique values selected randomly from the first 1,000 rows found in the file uploaded for the configuration.
     :::
-1. If you need, you can add operations under the data samples. Click on `Add operation` and select the one you'd like. Please note that the operations are available depending to the attribute selected as a target, but also depending on previously added operations.
-1. At the end of the operations, is displayed an output preview of the sample data, changed according to the operations you've added.
+1. If required, you can add operations under the data samples. Click on `Add operation` and select the one you'd like. Please note that the operations are available depending on the attribute selected as a target, but also depending on previously added operations.
+1. At the end of the operations, an output preview of the sample data will be shown, with changes according to the operations that you've added.
 ![Output data sample preview](../img/Tailored-Import_Output-data-sample-preview.png)
 1. Once you're done, click on `Save` in the top right corner. You're now ready to import your products.
 
 # Import your products
 
-1.  To launch your import profile, in the breadcrumb, click on the name of your import profile, drag & drop your file and click on `Upload & import now`.
+To launch your import profile, in the breadcrumb, click on the name of your import profile, drag & drop your file and click on `Upload & import now`.
 ![Upload & import](../img/Tailored-Import_Upload&Import.png)
 
 # Discover operations
 
-You can use operations to ease as much as possible the import process, where the data needs to be transformed.
-Depending on the targets you define, here are the different types of operations you can add:
+You can use operations to transform the data in order to make the import process easier. Depending on the targets that you define, here are the different types of operations that you can add:
 
-<!--## Yes/No replacement
+## Yes/No replacement
 
 Replace the default values with your own value (only available for the "Yes/No" attribute or the "Enabled" system property).
-![Yes/No replacement](../img/TailoredExport_Operation_Boolean_Replacement.png)-->
+![Yes/No replacement operation](../img/Tailored-Import_Yes-No_Replacement.png)
 
 ## Replacement
 
@@ -157,7 +157,7 @@ Concatenate different sources by displaying up to 4 per column. Click on `Add te
 ## Clean HTML tags
 
 Clean automatically all the HTML tags in your text values.
-![Clean HTML tags](../img/)
+![Clean HTML tags operation](../img/Tailored-Import_Clean-HTML-tags.png)
 
 <!--:::warning
 If you added a default value with HTML tags thanks to the `Use default value when empty operation`, and if you checked `Clean HTML tags` for the same source, this operation won't clean the HTML tags for the default value.
@@ -166,7 +166,7 @@ If you added a default value with HTML tags thanks to the `Use default value whe
 # Duplicate a Tailored Import profile
 
 If you want to create another import profile based on an existing one, you can duplicate it.
-Please note that this import profile will still keep its import structure frozen. You will only be able to add or remove operations, targets and sources.
+Please note that the structure of this import profile will remain unmodifiable. You will only be able to add or remove operations, targets and sources.
 
 To do this, please follow the steps below:
 1. Select the import profile you would like to duplicate
