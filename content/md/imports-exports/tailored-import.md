@@ -45,12 +45,10 @@ Once you've created your Tailored Import profile, or if you want to edit an exis
 
 # Discover the different tabs of this profile
 
-A tailored import profile is not unlike a regular product and product import profile. The main difference is that you have a tab to configure the structure of your XLSX <!--or CSV -->file.
-
-Here are the tabs you can use:
+A Tailored Import profile displays the following tabs:
 * `Properties`: To name your import profile.
 * `Permissions`: To set permissions to allow specific user groups to execute or edit your import profile (Enterprise Edition only).
-* `Global settings`: To define the behavior in case an error occurred: you can either skip the products (the rows won't be imported), or skip the value only (the faulty cell won't be imported).
+* `Global settings`: To define the behavior in case an error occurred: you can either skip the products (the rows won't be imported), or skip the values only (the faulty cells won't be imported).
 * `Import structure`: To create your import structure (read how to [define your import structure](tailored-import.html#define-your-import-structure)).
 * `History`: To display the modifications made by any user on your export profile.
 
@@ -96,8 +94,8 @@ Limitations have been set for each Tailored Import profile:
 1. Now it's time to map all the relevant information from your file to the PIM. To do that, click on `Add attribute` and select an attribute from the PIM that you would like to use, for instance the "Name" attribute.
 1. Then, you'll see the right panel of this attribute displays three different sections: `Target`, `Source(s)` and `Operation(s)`.
     * The target section will display different settings depending on the attribute you selected in the step above.
-      * The Source(s) section displays all the columns that were found in your uploaded spreadsheet.
-        * The Operation(s) section will display a certain operation available to transform your data, depending on the target you selected.
+    * The Source(s) section displays all the columns that were found in your uploaded spreadsheet.
+    * The Operation(s) section will display one or more operation(s) to transform your data, depending on the target you selected.
 1. Click on `Add a source` and select a source listed from your file. The letter between brackets indicates the column where this source is located in your spreadsheet. For instance, select the one that matches the name of your product, e.g. "Web title".
 1. Now look at the "Operation(s)" section where the first data samples are displayed as a preview. This preview will display random data samples from the uploaded file enabling you to ensure confirmation of  the sources that you've added to this target.
 ![Input data sample preview](../img/Tailored-Import_Imput-data-sample-preview.png)
