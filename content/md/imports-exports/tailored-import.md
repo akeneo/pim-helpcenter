@@ -27,16 +27,16 @@ To learn more about Tailored Import and how to use this feature, please watch ou
 :::
 -->
 
-# Create a tailored product import profile
+# Create a Tailored Import profile
 
-To create a tailored product import:
+To create a new import profile:
 1. Go to `Imports`
 1. Click on `Create import profile`
 1. Type a unique import code and a label, then select the job `Tailored product import`<!-- or `Tailored product model import`-->. <!--You can select either CSV or XLSX for each job.-->
 ![Create a new product import profile](../img/Tailored-Import_Create-import-profile.png)
 1. Save your new import profile
 
-# Edit a tailored product import profile
+# Edit a Tailored Import profile
 
 Once you've created your Tailored Import profile, or if you want to edit an existing one:
 1. Go to `Imports`
