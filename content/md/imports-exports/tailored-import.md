@@ -1,7 +1,7 @@
 ---
 id: tailored-import
 themes: import-export-data
-title: Tailored import - **import any file structure**
+title: Tailored import - **import any file structure** to Akeneo PIM
 popular: false
 ee: true
 ge: true
@@ -10,7 +10,7 @@ related: imports, monitor-jobs, access-rights-on-imports-exports
 
 # Overview
 
-This feature consists in an import profile, available only for our SaaS users (Enterprise Edition or Growth Edition).
+Tailored Imports is a new import profile that is available to all SaaS users (Enterprise and Growth Edition).
 It helps you to import your product information in XLSX or CSV files, with different structures to what the PIM usually accepts.  
 For instance, let's assume your supplier or brand sends you their product information in different XLSX files; each with different structures:  
 * Supplier A sends a file with columns named: "Product ID", "Model Name", "Online description", and "Color".
@@ -66,7 +66,7 @@ To do this, please follow the steps below:
 1.  Under `Import structure` tab, click on `Initialize import structure`
 ![Initialize import structure](../img/Tailored-Import_Initialize-import-structure.png)
 1.  Now, upload the file you need to import. This step will help the PIM to assess the structure of your file. Note that the products in the uploaded file won't be imported at this step.
-    ::: warning
+    ::: info
     Limitations have been set for each uploaded file:
     * Maximum of 500 columns.
     * Maximum 50 MB file size.
@@ -82,7 +82,7 @@ To do this, please follow the steps below:
     :::
 1. Click on `Confirm` and you'll notice the mapping structure already has an attribute mapped. This attribute is the SKU which was selected in the step 3 above.
 
-::: warning
+::: info
 Limitations have been set for each Tailored Import profile:
 * Maximum 500 columns.
 * You can add up to 4 sources in a single column.
@@ -93,19 +93,26 @@ Limitations have been set for each Tailored Import profile:
 
 1. Now it's time to map all the relevant information from your file to the PIM. To do that, click on `Add attribute` and select an attribute from the PIM that you would like to use, for instance the "Name" attribute.
 1. Then, you'll see the right panel of this attribute displays three different sections: `Target`, `Source(s)` and `Operation(s)`.
-    * The target section will display different settings depending on the attribute you selected in the step above.
+    * The target section will display different settings depending on the attribute you selected in the step above. Read more about ([conditional settings](tailored-import.html#conditional-settings)).
     * The Source(s) section displays all the columns that were found in your uploaded spreadsheet.
     * The Operation(s) section will display one or more operation(s) to transform your data, depending on the target you selected.
 1. Click on `Add a source` and select a source listed from your file. The letter between brackets indicates the column where this source is located in your spreadsheet. For instance, select the one that matches the name of your product, e.g. "Web title".
 1. Now look at the "Operation(s)" section where the first data samples are displayed as a preview. This preview will display random data samples from the uploaded file enabling you to ensure confirmation of  the sources that you've added to this target.
 ![Input data sample preview](../img/Tailored-Import_Imput-data-sample-preview.png)
-    ::: warning
+    ::: info
     Data samples are unique values selected randomly from the first 1,000 rows found in the file uploaded for the configuration.
     :::
 1. If required, you can add operations under the data samples. Click on `Add operation` and select the one you'd like. Please note that the operations are available depending on the attribute selected as a target, but also depending on previously added operations.
 1. At the end of the operations, an output preview of the sample data will be shown, with changes according to the operations that you've added.
 ![Output data sample preview](../img/Tailored-Import_Output-data-sample-preview.png)
 1. Once you're done, click on `Save` in the top right corner. You're now ready to import your products.
+
+### Conditional settings
+
+Depending on the target you selected, some other parameters can be displayed:
+* For scopable and/or localizable attributes, you will need to select to which channel and/or locale you want to import your data. ![Target settings - scopable/localizable](../img/Tailored-Import_settings-scopable-localizable.png)
+* For collection attributes (multi-select, categories), in case the products in your PIM already exists with a few values, you have the possibility to choose if you want to add the data from your file to the existing data, or if you want to replace the data in the PIM by the one from the file. ![Add or replace exiting dat-ata](../img/Tailored-Import_Add-Replace-existing-data.png)
+
 
 # Import your products
 
