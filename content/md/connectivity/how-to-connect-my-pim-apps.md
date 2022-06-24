@@ -225,7 +225,7 @@ Here you access the list of all the catalogs the app can manage with a label and
 
 Click on the catalog you want to set up to access the configuration interface. 
 
-When accessing a catalog, you see two tabs:
+When you access a catalog, you will see two tabs:
 - `Settings`: where you can enable or disable a catalog,
 - `Product selection`: where you will configure criteria to filter your product selection.
 
@@ -242,10 +242,10 @@ When there are no criteria, your whole PIM catalog is selected.
 
 <!-- Display until we release the rest of the criteria. -->
 As we only released the beta version, you will find only one criterion in the list: the **status** filter.  
-But stay tuned. We are working on adding new criteria!
+Stay tuned, we are working on adding new criteria!
 
 <!-- For the GA 
-You will find the system fields at the top of the list, and below are all the attributes gathered by attribute groups. There is a search bar to help you find the attributes.  -->
+You will find the system fields at the top of the list and below are all the attributes gathered by attribute groups. There is a search bar to help you find the attributes.  -->
 
 Each time you add a criterion, its color turns purple to inform you that it is already used.  
 A new line appears in the product selection.
