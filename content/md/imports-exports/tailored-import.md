@@ -66,7 +66,8 @@ To do this, please follow the steps below:
     ::: info
     Limitations have been set for each uploaded file:
     * Maximum of 500 columns.
-    * Maximum 50 MB file size.
+    * Maximum 10 MB file size for the structure initialization.
+    * Maximum 50 MB file size for product import.
     :::
 1.  Once uploaded, you'll have to set different fields:
     * The appropriate sheet in your spreadsheet.
@@ -115,6 +116,12 @@ Depending on the target you selected, some other parameters can be displayed:
 
 To launch your import profile, in the breadcrumb, click on the name of your import profile, drag & drop your file and click on `Upload & import now`.
 ![Upload & import](../img/Tailored-Import_Upload&Import.png)
+
+::: info
+Limitations have been set for each uploaded file:
+* Maximum of 500 columns.
+* Maximum 50 MB file size.
+:::
 
 # Discover operations
 
