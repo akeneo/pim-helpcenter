@@ -11,21 +11,18 @@ related: imports, monitor-jobs, access-rights-on-imports-exports
 # Overview
 
 Tailored Imports is a new import profile that is available to all SaaS users (Enterprise and Growth Edition).
-It helps you to import your product information in XLSX or CSV files, with different structures to what the PIM usually accepts.  
+It helps you to import your product information in XLSX <!--or CSV -->files, with different structures to what the PIM usually accepts.  
 For instance, let's assume your supplier or brand sends you their product information in different XLSX files; each with different structures:  
 * Supplier A sends a file with columns named: "Product ID", "Model Name", "Online description", and "Color".
 * Brand B sends a file with columns named: "Gencod", "Web title", "Long label", "Web description", "Supplied accessories".  
 
 **Without** Tailored Import and using a regular import profile, you have to manually modify everything. Transforming your spreadsheet in order to transform your attributes from label to code. Transforming labels, converting measurements, along with many more manual operations.
 
-Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import and use it as often as necessary. **You no longer need to manually edit your XLSX or CSV files when you need to import product information.**
+Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import and use it as often as necessary. **You no longer need to manually edit your XLSX <!-- or CSV files -->when you need to import product information.**
 
-
-<!--
 :::tips
-To learn more about Tailored Import and how to use this feature, please watch our training video [Tailored Imports]().
+To learn more about Tailored Import and how to use this feature, please watch our training video [Tailored Imports](https://akademy.akeneo.com/tailored-imports).
 :::
--->
 
 # Create a Tailored Import profile
 
@@ -48,7 +45,7 @@ Once you've created your Tailored Import profile, or if you want to edit an exis
 A Tailored Import profile displays the following tabs:
 * `Properties`: To name your import profile.
 * `Permissions`: To set permissions to allow specific user groups to execute or edit your import profile (Enterprise Edition only).
-* `Global settings`: To define the behavior in case an error occurred: you can either skip the products (the rows won't be imported), or skip the values only (the faulty cells won't be imported).
+* `Global settings`: To define the behavior in case an error occurred: you can either skip the products (the rows won't be imported), or skip the values only (the faulty cells won't be imported). Please note in some cases, depending on the error, whole rows could be skipped even though "Skip values" is selected.
 * `Import structure`: To create your import structure (read how to [define your import structure](tailored-import.html#define-your-import-structure)).
 * `History`: To display the modifications made by any user on your export profile.
 
@@ -69,7 +66,8 @@ To do this, please follow the steps below:
     ::: info
     Limitations have been set for each uploaded file:
     * Maximum of 500 columns.
-    * Maximum 50 MB file size.
+    * Maximum 10 MB file size for the structure initialization.
+    * Maximum 50 MB file size for product import.
     :::
 1.  Once uploaded, you'll have to set different fields:
     * The appropriate sheet in your spreadsheet.
@@ -111,13 +109,20 @@ Limitations have been set for each Tailored Import profile:
 
 Depending on the target you selected, some other parameters can be displayed:
 * For scopable and/or localizable attributes, you will need to select to which channel and/or locale you want to import your data. ![Target settings - scopable/localizable](../img/Tailored-Import_settings-scopable-localizable.png)
-* For collection attributes (multi-select, categories), in case the products in your PIM already exists with a few values, you have the possibility to choose if you want to add the data from your file to the existing data, or if you want to replace the data in the PIM by the one from the file. ![Add or replace exiting dat-ata](../img/Tailored-Import_Add-Replace-existing-data.png)
+* For collection attributes (multi-select, categories), in case the products in your PIM already exists with a few values, you have the possibility to choose if you want to add the data from your file to the existing data, or if you want to replace the data in the PIM by the one from the file. ![Add or replace exiting data](../img/Tailored-Import_Add-Replace-existing-data.png)
+* For each target, the checkbox "Clear if empty in file" helps you decide if you want to clear the product value in your PIM when the cell in your file to import is empty. ![Target settings - clear value if empry](../img/Tailored-Import_settings-clear-if-empty.png)
 
 
 # Import your products
 
 To launch your import profile, in the breadcrumb, click on the name of your import profile, drag & drop your file and click on `Upload & import now`.
 ![Upload & import](../img/Tailored-Import_Upload&Import.png)
+
+::: info
+Limitations have been set for each uploaded file:
+* Maximum of 500 columns.
+* Maximum 50 MB file size.
+:::
 
 # Discover operations
 
