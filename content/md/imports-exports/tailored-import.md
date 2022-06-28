@@ -11,7 +11,7 @@ related: imports, monitor-jobs, access-rights-on-imports-exports
 # Overview
 
 Tailored Imports is a new import profile that is available to all SaaS users (Enterprise and Growth Edition).
-It helps you to import your product information in XLSX or CSV files, with different structures to what the PIM usually accepts.  
+It helps you to import your product information in XLSX <!--or CSV -->files, with different structures to what the PIM usually accepts.  
 For instance, let's assume your supplier or brand sends you their product information in different XLSX files; each with different structures:  
 * Supplier A sends a file with columns named: "Product ID", "Model Name", "Online description", and "Color".
 * Brand B sends a file with columns named: "Gencod", "Web title", "Long label", "Web description", "Supplied accessories".  
