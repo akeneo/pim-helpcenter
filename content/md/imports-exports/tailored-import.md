@@ -18,14 +18,11 @@ For instance, let's assume your supplier or brand sends you their product inform
 
 **Without** Tailored Import and using a regular import profile, you have to manually modify everything. Transforming your spreadsheet in order to transform your attributes from label to code. Transforming labels, converting measurements, along with many more manual operations.
 
-Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import and use it as often as necessary. **You no longer need to manually edit your XLSX or CSV files when you need to import product information.**
+Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import and use it as often as necessary. **You no longer need to manually edit your XLSX <!-- or CSV files -->when you need to import product information.**
 
-
-<!--
 :::tips
-To learn more about Tailored Import and how to use this feature, please watch our training video [Tailored Imports]().
+To learn more about Tailored Import and how to use this feature, please watch our training video [Tailored Imports](https://akademy.akeneo.com/tailored-imports).
 :::
--->
 
 # Create a Tailored Import profile
 
