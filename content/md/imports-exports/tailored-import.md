@@ -45,7 +45,7 @@ Once you've created your Tailored Import profile, or if you want to edit an exis
 A Tailored Import profile displays the following tabs:
 * `Properties`: To name your import profile.
 * `Permissions`: To set permissions to allow specific user groups to execute or edit your import profile (Enterprise Edition only).
-* `Global settings`: To define the behavior in case an error occurred: you can either skip the products (the rows won't be imported), or skip the values only (the faulty cells won't be imported).
+* `Global settings`: To define the behavior in case an error occurred: you can either skip the products (the rows won't be imported), or skip the values only (the faulty cells won't be imported). Please note in some cases, depending on the error, whole rows could be skipped even though "Skip values" is selected.
 * `Import structure`: To create your import structure (read how to [define your import structure](tailored-import.html#define-your-import-structure)).
 * `History`: To display the modifications made by any user on your export profile.
 
@@ -109,7 +109,8 @@ Limitations have been set for each Tailored Import profile:
 
 Depending on the target you selected, some other parameters can be displayed:
 * For scopable and/or localizable attributes, you will need to select to which channel and/or locale you want to import your data. ![Target settings - scopable/localizable](../img/Tailored-Import_settings-scopable-localizable.png)
-* For collection attributes (multi-select, categories), in case the products in your PIM already exists with a few values, you have the possibility to choose if you want to add the data from your file to the existing data, or if you want to replace the data in the PIM by the one from the file. ![Add or replace exiting dat-ata](../img/Tailored-Import_Add-Replace-existing-data.png)
+* For collection attributes (multi-select, categories), in case the products in your PIM already exists with a few values, you have the possibility to choose if you want to add the data from your file to the existing data, or if you want to replace the data in the PIM by the one from the file. ![Add or replace exiting data](../img/Tailored-Import_Add-Replace-existing-data.png)
+* For each target, the checkbox "Clear if empty in file" helps you decide if you want to clear the product value in your PIM when the cell in your file to import is empty. ![Target settings - clear value if empry](../img/Tailored-Import_settings-clear-if-empty.png)
 
 
 # Import your products
