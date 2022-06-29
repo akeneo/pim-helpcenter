@@ -8,7 +8,7 @@
   },
   {
     "title": "Akeneo PIM - Scheduled Imports & Exports",
-    "description": "Akeneo PIM users will have the ability to schedule automated executions of their product imports or exports to an STFP storage server.",
+    "description": "Akeneo PIM users will have the ability to schedule automated executions of their product imports or exports to an SFTP storage server.",
     "img": "./img/importexportscheduling2-whatsnext.png",
     "areas": ["Automation"],
     "editions": ["EE","GE"]
