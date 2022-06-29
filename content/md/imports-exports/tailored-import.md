@@ -24,6 +24,12 @@ Thanks to Tailored Import, you can configure all your needs (mapping, operations
 To learn more about Tailored Import and how to use this feature, please watch our training video [Tailored Imports](https://akademy.akeneo.com/tailored-imports).
 :::
 
+:::info
+Tailored Import is a feature which will be updated all along the year.
+So far, the following attribute types aren't available to be mapped: `Price`, `Reference entity multi-select`, `Reference entity single-select`, `Asset collection`, `Table`, `File` & `Image`.
+So far, the following system properties aren't available to be mapped: `Parent`, `Family variant`, `Groups` & `Associations`
+:::
+
 # Create a Tailored Import profile
 
 To create a new import profile:
@@ -126,7 +132,13 @@ Limitations have been set for each uploaded file:
 
 # Discover operations
 
-You can use operations to transform the data in order to make the import process easier. Depending on the targets that you define, here are the different types of operations that you can add:
+You can use operations to transform the data in order to make the import process easier.
+
+:::info
+New operations will come along the year to help you save time importing your product information. Do not hesitate to contact your Customer Success Manager if you want to help us by communicating your use case & needs.
+:::
+
+Depending on the targets that you define, here are the different types of operations that you can add:
 
 ## Yes/No replacement
 
@@ -140,7 +152,7 @@ Replace the values by your own (only available for simple select, multi select<!
 
 ## Split
 
-If you want to import different values that are located into the same cell of your spreadsheet, you can use this operation to split the values thanks to a separator: comma (,), semicolon (;), pipe (|).
+If you want to import different values that are located into the same cell of your spreadsheet, you can use this operation to split the values thanks to a separator: comma (,), semicolon (; ), pipe (|).
 ![Split operation](../img/Tailored-Import_Split.png)
 ![Split operation demo](../img/Tailored-Import_Split-demo.gif)
 
