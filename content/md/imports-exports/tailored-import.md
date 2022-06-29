@@ -26,7 +26,7 @@ To learn more about Tailored Import and how to use this feature, please watch ou
 
 :::info
 Tailored Import is a feature which will be updated all along the year.
-So far, the following attribute types aren't available to be mapped: `Price`, `Reference entity multi-select`, `Reference entity single-select`, `Asset collection`, `Image`, `Table`, `File` & `Image`.
+So far, the following attribute types aren't available to be mapped: `Price`, `Reference entity multi-select`, `Reference entity single-select`, `Asset collection`, `Table`, `File` & `Image`.
 So far, the following system properties aren't available to be mapped: `Parent`, `Family variant`, `Groups` & `Associations`
 :::
 
