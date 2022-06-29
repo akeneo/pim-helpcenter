@@ -135,7 +135,7 @@ Limitations have been set for each uploaded file:
 You can use operations to transform the data in order to make the import process easier.
 
 :::info
-New operations will come all during the year to help you save time importing your product information. Do not hesitate to contact your Customer Success Manager if you want to help us by communicating your use case & needs.
+New operations will come along the year to help you save time importing your product information. Do not hesitate to contact your Customer Success Manager if you want to help us by communicating your use case & needs.
 :::
 
 Depending on the targets that you define, here are the different types of operations that you can add:
