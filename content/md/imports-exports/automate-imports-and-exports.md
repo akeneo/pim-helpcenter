@@ -15,7 +15,11 @@ You will be able to:
 * Connect your product imports/exports to remote SFTP storages.
 * Automate them by scheduling their executions.
 
-# Connect your import/export to a remote SFTP server
+# Connect your import/export to a remote server
+
+::: info
+For now, the only remote connection supported is SFTP.
+:::
 
 To connect your product import/export to a remote storage:
 1. Go to `Imports` or `Exports`
@@ -23,12 +27,23 @@ To connect your product import/export to a remote storage:
 1. Click `Edit` in the top right corner
 1. Click `Properties`
 1. Under "Connection", select `SFTP`
-1. Fill in all fields
+![Select a connection type](../img/Automation_connection_type.png)
+1. Fill in all fields: `Filepath`, `Host` & `Port`, `Login` and `Password`
+![Fill in all fields](../img/Automation_SFTP_configured.png)
+1. Click `Save` in the top right corner of the screen
 
+::: tips
+* If you want to automate your product exports, we support the patterns `%job_label%` & `%datetime%`. You can create a filepath like `/myfolder1/mysubfolder2/export_%job_label%_%datetime%.xlsx.`
+* You can use the `Test connection settings` button to check your settings and make sure your connection is valid.
+:::
 
+# Automate your import/export profile
 
+Once you connected your import/export profile to a remote server, go back to the root of your profile by clicking on its name in the breadcrumb, and simply click on `Import now` to import from your SFTP server or `Export now` to export to your SFTP server.
 
-1. Select `Create export profile` button
-1. Indicate a unique export code, an export label and select a job, for example: `Product model export in CSV`, `Product export in XLSX` or `Published product export in XLSX` (EE only)
-![Create a new product export profile](../img/Exports_CreateProfilExport.png)
-1. Save your new export profile
+Please note that if you're importing from a remote server, the configured host will be displayed.
+![Host displayed](../img/Automation_import_host_displayed.png)
+
+::: info
+For now, there is no possibility to define a scheduling for a full automation of your import/export profile. This will come later this year, stay tuned ;)
+:::
