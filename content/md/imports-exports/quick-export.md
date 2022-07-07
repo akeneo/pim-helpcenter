@@ -11,6 +11,9 @@ related: products-grid, exports, monitor-jobs
 Akeneo allows you to export your search result or a selection of products from the PIM grid to a CSV file or a XLSX file. This can be used to retrieve structured product information and thus create your own reports, graphics, etc.
 
 # How?
+
+## Start a quick export
+
 To start the export of product information from the products' grid:
 1. Search for products in the grid with the appropriate filters
 1. Select the products on which you want to perform the operation via the selection tool: all the products recorded, all visible products from the ongoing page, none of the products and the products for which you have ticked the 1st column
@@ -32,10 +35,18 @@ To start the export of product information from the products' grid:
 To save time, your selections are stored in your local session. It means the next time you click on Quick Export, the same options will already be selected.
 :::
 
+## Track the progress of your quick export
+
 After you've launched a quick product export from the product grid, you can easily jump to this task's progress details in the process tracker. Indeed, you just need to click on the link to the job detail directly embedded in the flash message that confirms the quick export launch.
 ![Quick Export flash message](../img/Exports_Quick-Export-direct-link.png)
 
+::: warning
+To be able to see the progress of your quick export, the role of the user must include the permission `View process tracker`. Please read how to [check your role's permissions](what-is-a-role.html).
+:::
+
 The action is processed as a back-end task, so that you can continue to work on the PIM. When the process is done, you are the only user to be notified. To download your file, click on the notification you received in the bottom-right corner or go to `Activity` then click on `Process tracker` and on the desired job.
+
+## Download your product export
 
 On the report page, you can download your selection by clicking on `Download generated files` in the top-right corner.
 
