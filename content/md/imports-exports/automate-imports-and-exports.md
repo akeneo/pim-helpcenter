@@ -33,7 +33,7 @@ To connect your product import/export to a remote storage:
 1. Click `Save` in the top right corner of the screen
 
 ::: tips
-* If you want to automate your product exports, we support the patterns `%job_label%` & `%datetime%`. You can create a filepath like `/myfolder1/mysubfolder2/export_%job_label%_%datetime%.xlsx.`
+* If you want to automate your product exports, we support the patterns `%job_label%` & `%datetime%`. You can create a filepath like "/myfolder1/mysubfolder2/export_%job_label%_%datetime%.xlsx".
 * You can use the `Test connection settings` button to check your settings and make sure your connection is valid.
 :::
 
