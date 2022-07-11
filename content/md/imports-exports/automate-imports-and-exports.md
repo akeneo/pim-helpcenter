@@ -1,7 +1,7 @@
 ---
 id: import-export-automation
 themes: import-export-data
-title: Automate and schedule all imports/exports
+title: Automate and schedule <!---all---> product imports/exports
 popular: false
 ee: true
 ge: true
@@ -13,7 +13,7 @@ related: imports, exports, tailored-export, tailored-import,
 This feature helps you to automatize your product imports and/or exports, and is available only for our Enterprise Edition or Growth Edition users.
 You will be able to:
 * Connect your product imports/exports to remote SFTP storages.
-* Automate them by scheduling their executions.
+<!---* Automate them by scheduling their executions.--->
 
 # Connect your import/export to a remote server
 
