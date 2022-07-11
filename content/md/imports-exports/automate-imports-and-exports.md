@@ -10,7 +10,7 @@ related: imports, exports, tailored-export, tailored-import,
 
 # Overview
 
-This feature helps you to automatize your product imports and/or exports, and is available only for our Enterprise Edition or Growth Edition users.
+This feature allows you to automate your product imports and/or exports, and is available only for our Enterprise Edition or Growth Edition users.
 You will be able to:
 * Connect your product imports/exports to remote SFTP storages.
 <!---* Automate them by scheduling their executions.--->
@@ -39,11 +39,11 @@ To connect your product import/export to a remote storage:
 
 # Automate your import/export profile
 
-Once you connected your import/export profile to a remote server, go back to the root of your profile by clicking on its name in the breadcrumb, and simply click on `Import now` to import from your SFTP server or `Export now` to export to your SFTP server.
+Once you have connected your import/export profile to a remote server, go back to the root of your profile by clicking on its name in the breadcrumb, and simply click on `Import now` to import from your SFTP server or `Export now` to export to your SFTP server.
 
 Please note that if you're importing from a remote server, the configured host will be displayed.
 ![Host displayed](../img/Automation_import_host_displayed.png)
 
 ::: info
-For now, there is no possibility to define a scheduling for a full automation of your import/export profile. This will come later this year, stay tuned ;)
+For now, full automation & scheduling of your import/export profile is not possible. This will come later this year, stay tuned!
 :::
