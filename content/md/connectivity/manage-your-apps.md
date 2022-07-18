@@ -122,7 +122,7 @@ Here is where you can see which authorizations have been granted during the acti
 ![Connected App Settings](../img/connected-app-settings.png)
 
 
-## Setup your App permissions `EE`
+# Update your App permissions `EE`
 
 ::: warning
 This tab is only available for EE users.
@@ -138,7 +138,8 @@ This page allows you to view and update permissions granted to an App.
 If you want to know more about App permissions, please read this section of our documentation: [How to give permissions to your App?](how-to-connect-my-pim-with-apps.html#how-to-give-permissions-to-your-app-ee-only) 
 :::
 
-### Who can manage App permissions?
+
+## Who can manage App permissions?
 
 The PIM uses the following role permissions to manage who can grant permission to an App: 
 

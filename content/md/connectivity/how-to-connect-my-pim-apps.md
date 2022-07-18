@@ -9,15 +9,12 @@ related: manage-your-apps, connection-dashboard
 
 # What is an App?
 
-For two years, Connections have been the best way to connect Akeneo PIM with a third party, and thanks to our community and partners, we have plenty of Connectors ready to be connected to your PIM.
+Apps are the best way to connect Akeneo PIM with third parties.
 
-But you may know that it requires technical skills to understand and install a Connector, you may have experienced it first hand actually. Moreover, the person in charge of setting up the connection must know the permission system perfectly if you are an EE customer.
+Apps can retrieve and push data from and into Akeneo PIM through the REST API. Thanks to a step-by-step activation process integrated into the Akeneo PIM interface, anyone can connect an App to Akeneo PIM despite these technical interactions.
 
-This is why we now introduce `Apps`.
+![What's an app schema](../img/whats-an-app.png)
 
-**Apps are the new way to connect Akeneo PIM with third parties.**
-
-Apps can retrieve and push data from and into Akeneo PIM through the REST API and events. Thanks to a step-by-step activation process integrated into the Akeneo PIM interface, anyone can connect an App to Akeneo PIM despite these technical interactions.
 
 # Where to find Apps & Connectors?
 Because we know it can be tedious to leave your work environment to find the App or Connector you need, we bring them to you. We developed the PIM `App Store` as a way for you to smoothly identify the most relevant App or Connector directly from your PIM interface.
@@ -153,7 +150,6 @@ On the contrary, your App couldn't retrieve or update the `Braided hat` produc
 ![Step Permissions Braided hat product](../img/wizard-step2-braided-hat-product.png)
 
 
-
 ### Locales
 
 Thanks to the locales permission, you can configure whether the App will be allowed to update product information for a specific locale or not.
@@ -214,3 +210,85 @@ The App may require some more configuration.
 Check the App interface or documentation to assure you don't forget anything.
 :::
 
+
+# How to configure catalogs for Apps? 
+
+## What's a catalog?
+With catalogs, you can configure which products you want to share with an app thanks to a product selection composed of one or several criteria that allow you to filter products.
+
+When an app uses catalogs to retrieve product data, it automatically enables the Catalogs tab and creates catalogs for this app in your PIM.
+To configure your catalogs, go to the `Connect > Connected Apps`, click on `Manage app`, and then click on `Catalogs`. 
+
+Here you access the list of all the catalogs the app can manage with a label and a status. 
+
+![Catalog list](../img/app-catalog-list.png)
+
+Click on the catalog you want to set up to access the configuration interface. 
+
+When you access a catalog, you will see two tabs:
+- `Settings`: where you can enable or disable a catalog,
+- `Product selection`: where you will configure criteria to filter your product selection.
+
+::: info
+If you can't click on `Manage apps`, please read our paragraph [Who can connect apps?](#who-can-connect-apps)
+:::
+
+## How to configure a product selection?
+In the `Product selection` tab, you can define selection criteria. They are the attributes or system fields you can use to filter your products. Altogether, the criteria will create your Product selection.
+
+::: warning
+When there are no criteria, your whole PIM catalog is selected. 
+:::
+
+<!-- Display until we release the rest of the criteria. -->
+As we only released the beta version, you will find only one criterion in the list: the **status** filter.  
+Stay tuned, we are working on adding new criteria!
+
+<!-- For the GA 
+You will find the system fields at the top of the list and below are all the attributes gathered by attribute groups. There is a search bar to help you find the attributes.  -->
+
+Each time you add a criterion, its color turns purple to inform you that it is already used.  
+A new line appears in the product selection.
+
+Let's see how a line is organized.
+
+1. You will find the system fields or attribute you chose in purple on the left. 
+2. Then, you have to choose an operator. Depending on the filter, the operator list changes. 
+
+The following fields vary depending on your filter. There can be up to 3 types of fields.  
+- You can have the value field. For example, if your filter is a multi-select attribute type, you can choose which options you want to filter on.
+- If your filter has a value per channel and/or per locale, the channel and locale fields appear to let you choose which locale/channel you want to filter on.
+
+If you want to remove a condition, click on the cross at the end of the line.
+
+<!-- Will be added as soon as each type is released
+### Available conditions
+To select your products, you can use the following system fields and attribute types of the PIM as conditions:
+- Status
+- Category
+- Completeness
+- Family
+- Simple select attribute
+- Text attribute
+- Measurement attribute
+- Yes/No attribute
+- Multi-select attribute
+- Number attribute
+- Text area attribute
+- Reference entity single link attribute
+- Asset collection attribute
+- Reference entity multiple links attribute
+- Date attribute
+- Identifier -->
+
+
+## How to enable or disable a catalog?
+Once you finish configuring your catalog, go to the `Settings` tab and update the Enabled value to `Yes`. 
+
+As soon as you enable a catalog, the app will be able to retrieve your product selection data. 
+
+On the contrary, if you want to stop the catalog synchronization between Akeneo PIM and the app, go to the `Settings` tab and update the Enabled value to `No`. 
+
+::: info
+All new catalogs are disabled by default when you connect an app. It's up to you to enable them when your configuration is ready. 
+:::
