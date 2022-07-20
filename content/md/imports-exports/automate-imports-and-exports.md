@@ -1,7 +1,7 @@
 ---
 id: import-export-automation
 themes: import-export-data
-title: Automate and schedule <!---all---> product imports/exports
+title: Automate<!---and schedule all---> your product imports/exports
 popular: false
 ee: true
 ge: true
@@ -33,7 +33,7 @@ To connect your product import/export to a remote storage:
 1. Click `Save` in the top right corner of the screen
 
 ::: tips
-* If you want to automate your product exports, we support the patterns `%job_label%` & `%datetime%`. You can create a filepath like "/myfolder1/mysubfolder2/export_%job_label%_%datetime%.xlsx".
+* If you want to automate your product exports, we support the patterns `%job_label%` & `%datetime%`. You can create a filepath like "/myfolder1/mysubfolder2/export_%job_label%_%datetime%.xlsx". Note that for now we don't support directories; files will be sent to the root of your server.
 * You can use the `Test connection settings` button to check your settings and make sure your connection is valid.
 :::
 
@@ -45,5 +45,5 @@ Please note that if you're importing from a remote server, the configured host w
 ![Host displayed](../img/Automation_import_host_displayed.png)
 
 ::: info
-For now, full automation & scheduling of your import/export profile is not possible. This will come later this year, stay tuned!
+For now, the scheduling of your import/export profile is not possible. This will come later this year, stay tuned!
 :::
