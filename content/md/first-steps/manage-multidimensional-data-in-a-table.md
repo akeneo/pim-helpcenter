@@ -11,7 +11,7 @@ related: manage-your-attributes
 # Overview
 
 Sometimes, it can be useful to present product information in a table, in order to **ease the enrichment**, **improve the readability** of the product sheet, and/or because it is **required by law** (for instance, to present the nutritional values of a product in the food industry).
-s
+
 This is why we've decided to create a new attribute type: the **Table attribute**.
 
 :::info
