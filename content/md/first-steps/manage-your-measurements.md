@@ -125,7 +125,7 @@ Once you are on your measurement family edit form, go to the `Units` tab:
 
 You can change the following properties of a unit:
 - *Symbol*: the symbol of the unit
-- *Conversion operations*: the operations to convert the unit to the standard unit
+- *Conversion operations*: the operations to convert the unit from the standard unit
 - *Label translations*: the translated labels for the unit for all the [UI locales](manage-your-account.html#your-interface-default-language)
 
 ::: info
