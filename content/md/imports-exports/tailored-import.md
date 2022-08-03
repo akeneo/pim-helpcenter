@@ -16,7 +16,7 @@ For instance, let's assume your supplier or brand sends you their product inform
 * Supplier A sends a file with columns named: "Product ID", "Model Name", "Online description", and "Color".
 * Brand B sends a file with columns named: "Gencod", "Web title", "Long label", "Web description", "Supplied accessories".  
 
-**Without** Tailored Import and using a regular import profile, you have to manually modify everything. Transforming your spreadsheet in order to transform your attributes from label to code. Transforming labels, converting measurements, along with many more manual operations.
+**Without** Tailored Import you have to manually modify your spreadsheet to conform with a regular import profile. This includes time spent converting attributes from label to code, transforming labels, and converting measurements, along with many more manual operations.
 
 Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import and use it as often as necessary. **You no longer need to manually edit your XLSX <!-- or CSV files -->when you need to import product information.**
 
@@ -25,10 +25,9 @@ To learn more about Tailored Import and how to use this feature, please watch ou
 :::
 
 :::info
-Tailored Import is a feature which will be updated all along the year.
-So far, the following attribute types aren't available to be mapped: `Price`, `Reference entity multi-select`, `Reference entity single-select`, `Asset collection`, `Table`, `File` & `Image`.
-So far, the following system properties aren't available to be mapped: `Parent`, `Family variant`, `Groups` & `Associations`.
-Finally, please note we don't support media files import for now.
+We will continue to add new capabilities to our new Tailored Import functionality throughout the year. At this time, the following attribute types aren’t available to be mapped: `Price` (work in progress), `Table`, `File` & `Image`.
+In addition, the following system properties aren't available to be mapped: `Parent`, `Family variant`, `Groups` & `Associations`.
+Finally, please note we don't currently support media files import for now.
 :::
 
 # Create a Tailored Import profile
