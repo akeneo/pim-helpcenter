@@ -1,4 +1,9 @@
 {
+  "2022-07": {
+    "title": "July 2022 Serenity updates",
+    "description": "Tailored Imports has increased functionality by including Reference Entities and Asset Collections, try it out today!",
+    "img": "illus-july-22.svg"
+  },
   "2022-06": {
     "title": "June 2022 Serenity updates",
     "description": "Hot off the press: Tailored Imports is available! Ever wanted to import product data into your Akeneo PIM without it matching your current PIM structure? Well now you can! Read this month's update to learn more.",

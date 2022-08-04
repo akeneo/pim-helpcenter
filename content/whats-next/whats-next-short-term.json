@@ -1,12 +1,5 @@
 [
   {
-    "title": "Akeneo PIM - Tailored Imports and Data Mapping",
-    "description": "Being able to import and map data coming from manufacturers or suppliers and leverage it efficiently in Akeneo PIM is essential. It will be possible to import various XLSX file structures, to map columns to their PIM attributes, and to define operations to transform the data if needed (data cleansing, concatenation, split,...).",
-    "img": "./img/tailoredimport-whatsnext.png",
-    "areas": ["Collaboration"],
-    "editions": ["EE","GE"]
-  },
-  {
     "title": "Akeneo PIM - Scheduled Imports & Exports",
     "description": "Akeneo PIM users will have the ability to schedule automated executions of their product imports or exports to an SFTP storage server.",
     "img": "./img/importexportscheduling2-whatsnext.png",
@@ -20,9 +13,8 @@
     "editions": ["EE","GE"]
   },
   {
-    "title": "Akeneo PIM - Product Identifier other than SKU",
-    "description": "Today, Akeneo PIM users are provided with one product identifier called `SKU`. However, we know for certain customers would prefer to use other identifiers, such as GTIN. With this release we’ll make it possible for you to choose a different identifier.",
-    "areas": ["Governance"],
-    "editions": ["EE","GE"]
+    "title": "Enriched Categories",
+    "description": "Creating a great customer experience means providing additional context at every step of their buying journey. Therefore Enriched Categories will give Akeneo customers the ability to enrich not just products, but categories as well, including channel- and locale-specific attributes too!",
+    "areas": ["Governance"]
   }
 ]
