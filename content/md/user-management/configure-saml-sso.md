@@ -98,7 +98,7 @@ The `Metadata URL` and `ACS URL` are read-only. They have a built-in 'copy' func
 :::
 
 :::info
-The SP certificate is self-signed and is generated to never expire. You will never have to renew it.
+The SP certificate is self-signed by default. The expiration date is visible from the UI. Once expired, you will have to renew it.
 :::
 
 # Disable the SSO
