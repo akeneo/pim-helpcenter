@@ -156,6 +156,10 @@ If you added a default value with HTML tags thanks to the `Use default value whe
 Select the format of the value you want to export. For instance, you can select the label or the code, the separator, etc. This operation will allow you to decide exactly what product information you want to export, for each source.
 ![Selection](../img/TailoredExport_Operation_Selection.png)
 
+:::tips
+`Decimal separator` and `Separator` are two different options. The first one helps you to separate your figures with a dot, a comma or the arabic decimal separator. The second one helps you to separate a collection of values for a same attribute, for instance if you export multiple assets, you can separate them with a comma, a semi-colon or a pipe.
+:::
+
 # Duplicate a tailored product export profile
 
 If you want to create another export profile based on an existing one, you can duplicate it.
