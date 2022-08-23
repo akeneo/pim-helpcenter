@@ -62,9 +62,13 @@ To highlight the products' images, a `Gallery` display of the product grid is av
 With the `Gallery` display, the following properties are displayed in the grid (you cannot choose them, there is no `Columns` button available):
 - Identifier for a product (attribute defined as product identifier) or code for a [product model](what-about-products-variants.html#what-is-a-product-model)
 - Label: attribute used as "label" in the [product family](manage-your-families.html#create-a-family)
-- Image: attribute used as "main picture" in the [product family](manage-your-families.html#create-a-family)
+- Image: attribute used as "main picture" in the [product family](manage-your-families.html#create-a-family). 
 - Completeness for a product
 - Number of complete variant products out of the number of variant products for a [product model](what-about-products-variants.html#what-is-a-product-model) (ex: "2/3" means that 2 variants out of 3 for the product model are complete)
+
+:::warning
+For product models, if the attribute as main image is set at the variant level, the main image of the product model will be the first image found in its variants, ordered by creation date.
+:::
 
 :::info
 Other grid features also apply to this display (channel, locale and categories selection, filters, pagination, products selection, etc.).
