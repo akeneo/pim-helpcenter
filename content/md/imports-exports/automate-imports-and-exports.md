@@ -36,7 +36,7 @@ To connect your product import/export to a remote storage:
 ::: tips
 * If you want to automate your product exports, we support the patterns `%job_label%` & `%datetime%`. You can combine them to create a filepath like the following: "/myfolder1/mysubfolder2/export_%job_label%_%datetime%.xlsx".
 * You can use the `Test connection settings` button to check your settings and make sure your connection is valid.
-* You can import media files with a .ZIP archive. Your spreadhsheet should contain a filepath column.
+* You can import media files with a .ZIP archive. Your spreadsheet should contain a filepath column.
 * If you export media files to a remote server, it will create a folder with the spreadsheet and the related media files. This folder won't be compressed.
 :::
 
