@@ -1,7 +1,7 @@
 ---
 id: import-export-automation
 themes: import-export-data
-title: Automate<!---and schedule all---> your product imports/exports
+title: Automate your product imports/exports
 popular: false
 ee: true
 ge: true
