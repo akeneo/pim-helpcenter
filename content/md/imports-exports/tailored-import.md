@@ -11,21 +11,21 @@ related: imports, monitor-jobs, access-rights-on-imports-exports
 # Overview
 
 Tailored Imports is a new import profile that is available to all SaaS users (Enterprise and Growth Edition).
-It helps you to import your product information in XLSX <!--or CSV -->files, with different structures to what the PIM usually accepts.  
-For instance, let's assume your supplier or brand sends you their product information in different XLSX files; each with different structures:  
+It helps you to import your product information in an XLSX file, with different structures to what the PIM usually accepts.  
+For instance, let's assume your supplier or brand sends you their product information in different XLSX files, each with different structures:  
 * Supplier A sends a file with columns named: "Product ID", "Model Name", "Online description", and "Color".
 * Brand B sends a file with columns named: "Gencod", "Web title", "Long label", "Web description", "Supplied accessories".  
 
 **Without** Tailored Import you have to manually modify your spreadsheet to conform with a regular import profile. This includes time spent converting attributes from label to code, transforming labels, and converting measurements, along with many more manual operations.
 
-Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import and use it as often as necessary. **You no longer need to manually edit your XLSX <!-- or CSV files -->when you need to import product information.**
+Thanks to Tailored Import, you can configure all your needs (mapping, operations) via an import and use it as often as necessary. **You no longer need to manually edit your XLSX files when you need to import product information.**
 
 :::tips
 To learn more about Tailored Import and how to use this feature, please watch our training video [Tailored Imports](https://akademy.akeneo.com/tailored-imports).
 :::
 
 :::info
-We will continue to add new capabilities to our new Tailored Import functionality throughout the year. At this time, the following attribute types aren’t available to be mapped: `Price` (work in progress), `Table`, `File` & `Image`.
+We will continue to add new capabilities to our new Tailored Import functionality throughout the year. At this time, the following attribute types aren’t available to be mapped: `Table`, `File` & `Image`.
 In addition, the following system properties aren't available to be mapped: `Parent`, `Family variant`, `Groups` & `Associations`.
 Finally, please note we don't currently support media files import for now.
 :::
@@ -35,7 +35,7 @@ Finally, please note we don't currently support media files import for now.
 To create a new import profile:
 1. Go to `Imports`
 1. Click on `Create import profile`
-1. Type a unique import code and a label, then select the job `Tailored product import`<!-- or `Tailored product model import`-->. <!--You can select either CSV or XLSX for each job.-->
+1. Type a unique import code and a label, then select the job `Tailored product import`
 ![Create a new product import profile](../img/Tailored-Import_Create-import-profile.png)
 1. Save your new import profile
 
@@ -156,29 +156,24 @@ If you want to import different values that are located into the same cell of yo
 ![Split operation](../img/Tailored-Import_Split.png)
 ![Split operation demo](../img/Tailored-Import_Split-demo.gif)
 
+## Change case
+
+This operation is available for `Text` and `Text Area` attributes used as a target.
+It will help you to change the case, choosing from:
+* Lowercase
+* Uppercase
+* First letter uppercase
+![Change case operation](../img/Tailored-Import_Change-case.png)
+
 <!--## Use default value when empty
 
 Define a default value when the source value is empty.
 ![Use default value when empty](../img/TailoredExport_Operation_UseDefaultValueWhenEmpty.png)-->
 
-<!--## Conversion
-
-Convert measurement units within the same measurement family (only available for measurement attributes used as a source).
-![Conversion](../img/TailoredExport_Operation_Conversion.png)-->
-
-<!--## Rounding
-
-Round measurements values, choosing from `Round`, `Round up` & `Round down` and define the number of digits - up to 12 - after the decimal separator (only available for measurement attributes used as a source).
-![Rounding](../img/TailoredExport_Operation_Rounding.png)-->
-
-<!--## Concatenation
-
-Concatenate different sources by displaying up to 4 per column. Click on `Add text` to add more details and create a separation between sources.
-![Concatenate](../img/TailoredExport_Operation_Concatenate.gif)-->
-
 ## Clean HTML tags
 
-Clean automatically all the HTML tags in your text values.
+This operation is available for `Text` and `Text Area` attributes used as a target.
+Clean all the HTML tags in your text values.
 ![Clean HTML tags operation](../img/Tailored-Import_Clean-HTML-tags.png)
 
 <!--:::warning
