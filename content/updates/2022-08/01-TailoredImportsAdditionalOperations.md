@@ -1,6 +1,6 @@
 ---
 pim_announcement_img: ./img/familyreplacement.png
-pim_announcement_alt_img: Price Attribute for Tailored Import Mapping
+pim_announcement_alt_img: Family Replacement for Tailored Import Mapping
 pim_announcement_audience:
 - EE
 - GE
