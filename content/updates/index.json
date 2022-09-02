@@ -1,4 +1,9 @@
 {
+  "2022-08": {
+    "title": "August 2022 Serenity updates",
+    "description": "It's been a hot summer for many Akeneo customers and the month of August brings some features and functionality hot off the press! Tailored Imports now supports price attributes and additional operations like case changing and family replacement. Check it out!",
+    "img": "illus-august-22.svg"
+  },
   "2022-07": {
     "title": "July 2022 Serenity updates",
     "description": "Tailored Imports has increased functionality by including Reference Entities and Asset Collections, try it out today!",
