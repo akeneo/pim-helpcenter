@@ -173,12 +173,18 @@ Define a default value when the source value is empty.
 ## Clean HTML tags
 
 This operation is available for `Text` and `Text Area` attributes used as a target.
-Clean all the HTML tags in your text values.
+It will help you to clean your HTML values with two options:
+* Remove HTML tags
+* Decode HTML characters
 ![Clean HTML tags operation](../img/Tailored-Import_Clean-HTML-tags.png)
 
 <!--:::warning
 If you added a default value with HTML tags thanks to the `Use default value when empty operation`, and if you checked `Clean HTML tags` for the same source, this operation won't clean the HTML tags for the default value.
 :::-->
+
+:::info
+Adding the operations in the correct order is essential. For instance, if you want to convert ` this text ` to `This text`, you need to add the operations `Remove whitespaces at the beginning and the end`, then `First letter uppercase`, and not the contrary.
+:::
 
 # Duplicate a Tailored Import profile
 
