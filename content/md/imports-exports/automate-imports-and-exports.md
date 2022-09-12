@@ -17,11 +17,6 @@ You will be able to:
 
 # Connect your import/export to a remote server
 
-::: info
-For now, the only remote connection supported is SFTP.
-Supported jobs: Tailored Export in XLSX, Tailored Import in XLSX, classical Product Export in XLSX and Product Import in XLSX are available. Stay tuned!
-:::
-
 To connect your product import/export to a remote storage:
 1. Go to `Imports` or `Exports`
 1. Select the profile you would like to automate
@@ -37,13 +32,13 @@ To connect your product import/export to a remote storage:
 * If you want to automate your product exports, we support the patterns `%job_label%` & `%datetime%`. You can combine them to create a filepath like the following: "/myfolder1/mysubfolder2/export_%job_label%_%datetime%.xlsx".
 * You can use the `Test connection settings` button to check your settings and make sure your connection is valid.
 * You can import media files with a .ZIP archive. Your spreadsheet should contain a filepath column.
-* If you export media files to a remote server, it will create a folder with the spreadsheet and the related media files. This folder won't be compressed.
+* If you export media files to a remote server, it will create a folder with the spreadsheet and the related media files. This folder won't be compressed (no .ZIP archive).
 :::
 
 # Automate your import/export profile
 
 ::: info
-For now, the scheduling of your import/export profile is not possible. This will come later this year, stay tuned!
+For now, the scheduling of your import/export profile is not possible. This will come early Fall, stay tuned!
 :::
 
 Once you have connected your import/export profile to a remote server, go back to the root of your profile by clicking on its name in the breadcrumb, and simply click on `Import now` to import from an SFTP server or `Export now` to export to an SFTP server.
