@@ -68,10 +68,13 @@ If you want to remove all files at once, click on the `Remove all` button. ;)
 :::
 
 ::: warning
-Only letters, numbers and underscores are allowed in an asset code, the other characters will be replaced by an underscore " _ ". i.e: if the file's name contains a minus sign character "-", it will be changed into an underscore sign " _ ", so the "picture-1.jpg" and "picture_1.jpg" will be linked to the same asset code "picture_1".  
+Only letters, numbers and underscores are allowed in an asset code, the other characters will be replaced by an underscore " _ ".   For instance, if the file's name contains a minus sign character "-", it will be changed into an underscore sign " _ ", so the "picture-1.jpg" and "picture_1.jpg" will be linked to the same asset code "picture_1".  
 :::
 
-Pretty simple, isn't it?
+::: warning
+If you plan to upload your assets in bulk, this will automatically activate for each asset the [Product Link Rules](assets-product-link-rules.html) that you might have defined. To make sure every Product Link Rule is properly executed, we recommend you to [import your assets via an archive](import-assets.html) or via the API.
+:::
+
 If you need to have specific files per channel or per locale, there is another step to do.
 
 ### Special cases
