@@ -72,7 +72,7 @@ Only letters, numbers and underscores are allowed in an asset code, the other ch
 :::
 
 ::: warning
-If you plan to upload your assets in bulk, this will automatically activate for each asset the [Product Link Rules](assets-product-link-rules.html) that you might have defined. To make sure every product link rule can be executed in the right time, we recommend you to [import your assets via an archive](import-assets.html) or via the API.
+If you plan to upload your assets in bulk, this will automatically activate for each asset the [Product Link Rules](assets-product-link-rules.html) that you might have defined. To make sure every Product Link Rule can is properly executed, we recommend you to [import your assets via an archive](import-assets.html) or via the API.
 :::
 
 If you need to have specific files per channel or per locale, there is another step to do.
