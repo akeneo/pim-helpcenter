@@ -35,6 +35,19 @@ The total number of associations is displayed per product or product model (the 
 
 By default, if the product has no association for the selected association type, nothing is displayed in the `Associations` tab.
 
+# About associations' order
+
+Today, it is not possible to define a specific order of your associated products/product models.
+The current order is following the rules after:
+* Associated products are first displayed, then associated product models are displayed after.
+* Associated products/product models are then ordered by an alphanumerical logic based on their SKU.  
+
+For instance, if you associated the products "4544719001003", "61223" "CHAIR_ROSA_BLUE_2022" and the product model "DINING_SET_3055978276329", the order all those products are displayed will be the following:
+1. Product "4544719001003"
+1. Product "61223"
+1. Product "CHAIR_ROSA_BLUE_2022"
+1. Product model "DINING_SET_3055978276329"
+
 ![No association](../img/Products_Products_No_Association.png)
 
 # Open an associated product
