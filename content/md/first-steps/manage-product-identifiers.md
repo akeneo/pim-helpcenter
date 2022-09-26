@@ -27,9 +27,9 @@ The identifier is an attribute with a few specific characteristics:
 - This attribute is not localizable (per locale) nor scopable (per channel)
 
 ::: warning
-Starting in September, the identifier attribute will evolve:
+The identifier attribute will evolve:
 - SKU will soon become optional, meaning this field can stay empty when creating a new product
-- This attribute can also be deleted from family attributes and be unselected from being required for product completeness.
+- This attribute can also be deleted from family attributes and be unselected from being required for product completeness
 :::
 
 ## Search for products with the identifier attribute
