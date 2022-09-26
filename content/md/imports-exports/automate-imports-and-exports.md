@@ -35,13 +35,20 @@ To connect your product import/export to a remote storage:
 * If you export media files to a remote server, it will create a folder with the spreadsheet and the related media files. This folder won't be compressed (no .ZIP archive).
 :::
 
-# Automate your import/export profile
-
-::: info
-For now, the scheduling of your import/export profile is not possible. This will come early Fall, stay tuned!
-:::
-
-Once you have connected your import/export profile to a remote server, go back to the root of your profile by clicking on its name in the breadcrumb, and simply click on `Import now` to import from an SFTP server or `Export now` to export to an SFTP server.
-
 Please note that if you're importing from a remote server, the host you configured will be displayed.
 ![Host displayed](../img/Automation_import_host_displayed.png)
+
+# Schedule and automate your import/export profile
+
+In order to automatically execute an import/export profile:
+1. Go to `Imports` or `Exports`
+1. Select the profile you would like to automate
+1. Click `Edit` in the top right corner
+1. Click `Properties`
+1. Under "Automation", switch "Enable scheduling" button to `Yes`
+1. Under "Scheduling", select your preferred frequency of execution
+![Select frequency of execution](../img/Automation_frequency-selection.png)
+
+# Manually execute an import/export profile connected to an SFTP server
+
+Once you have connected your import/export profile to a remote server, go back to the root of your profile by clicking on its name in the breadcrumb, and simply click on `Import now` to import from an SFTP server or `Export now` to export to an SFTP server.
