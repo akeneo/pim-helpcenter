@@ -8,7 +8,7 @@ ge: true
 related: manage-your-attributes
 ---
 
-You might need to identify products in the PIM for various reasons: Search for a specific product, update one or more products, or even synchronize product data with other systems.
+You might need to identify products in the PIM for various reasons: search for a specific product, update one or more products, or even synchronize product data with other systems.
 
 # How to identify a product?
 
@@ -39,11 +39,11 @@ On the PIM, you can search for a product with its identifier in two different wa
 
 ## Update your products with imports
 
-When exporting your products from the PIM, your downloaded files will contain an “ SKU “ column.
+When exporting your products from the PIM, your downloaded files contain a “SKU“ column.
 Once you have modified your product details in the file, ensure the “SKU” column is still included in the document as it will help identify your products and update them.
 
 ::: info
-Exported files now contain a “UUID” column. It is now the best way to identify your products as this technical product identifier is immutable, and will work even if you have products without, SKU. [Learn more in this section](manage-product-identifiers.html#manage-your-products-with-the-uuid)
+Exported files now contain a “UUID” column. It is the best way to identify your products as this technical product identifier is immutable, and will work even if you have products without SKU. [Learn more in this section](manage-product-identifiers.html#manage-your-products-with-the-uuid)
 :::
 
 ## Update your products with the API
@@ -65,7 +65,7 @@ Introduced in September 2022, the UUID is a technical product identifier assigne
 Here are some characteristics of this identifier:
 - The UUID is **not an attribute** but a technical identifier. Therefore, it won’t be displayed as a product value unlike the identifier attribute.
 - The UUID is **immutable**, meaning it can’t be modified or deleted after the product creation unlike the identifier attribute
-- The value of each UUID is unique in the PIM
+- The value of each UUID is unique in a PIM
 
 Every product must have a UUID assigned at the product creation. This can be done in 2 different ways:
 - A UUID is randomly assigned to a product in the PIM during the product creation
@@ -85,13 +85,13 @@ Once you have modified your product details in the file, ensure the “UUID” c
 Here are a few use cases when importing products
 - If there are no UUID nor SKU columns in a row, a new product will be created and a UUID will be generated
 - If the UUID and the SKU of a product don’t match, the UUID will prevail and the current SKU will be modified by the new one
-- If there is no UUID but an SKU of an existing product, the product will be updated as it always worked
+- If there is no UUID but a SKU of an existing product, the product will be updated as it always worked
 - If there is a UUID but no SKU for an existing product, the product will be updated
 
 ## Update your products with the API
 
 8 new API endpoints have been created to help you identify your products, update them, or even delete them by using their UUID. They are very similar to old endpoints using the product’s SKU.
 
-This is the most future-proof way to identify and modify your products regardless of the presence of an SKU, this is why we advise you to update your API configuration with these new endpoints.
+This is the most future-proof way to identify and modify your products regardless of the presence of a SKU, this is why we advise you to update your API configuration with these new endpoints.
 
-Please refer to [api.akeneo.com](https://api.akeneo.com/) for more details.
+Please refer to our guide [From product identifier to product UUID](https://api.akeneo.com/getting-started/from-identifiers-to-uuid-7x/welcome.html) for more details.
