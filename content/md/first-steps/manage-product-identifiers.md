@@ -35,7 +35,9 @@ The identifier attribute will evolve:
 ## Search for products with the identifier attribute
 
 One of the big benefits of the identifier attribute is to be able to identify your products by all means:
-On the PIM, you can search for a product with its identifier in two different ways: (a) use the search bar at the top of the product grid if you search for one specific product, (b) use the filter on the left with the in-list function if you want to display a list of several products.
+On the PIM, you can search for a product with its identifier in two different ways:
+- Use the search bar at the top of the product grid if you search for one specific product,
+- or use the filter on the left with the in-list function if you want to display a list of several products.
 
 ## Update your products with imports
 
