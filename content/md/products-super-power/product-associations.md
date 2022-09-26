@@ -37,6 +37,23 @@ By default, if the product has no association for the selected association type,
 
 ![No association](../img/Products_Products_No_Association.png)
 
+# About associations' order
+
+Today, it is not possible to define a specific order of your associated products/product models.
+The current order is following those rules:
+* Associated products are first displayed, then associated product models are displayed after.
+* Associated products/product models are ordered by an alpha-numerical logic based on their main identifier.  
+
+For instance, if you associated the products "61223", "4544719001003", "CHAIR_ROSA_BLUE_2022" and the product model "DINING_SET_3055978276329", the default order logic will be the following:
+1. Product "4544719001003" (it starts with a "4", the lowest figure here)
+1. Product "61223" (it starts with a "6" which comes after "4")
+1. Product "CHAIR_ROSA_BLUE_2022" (it starts with alphabetical values which come after numerical values)
+1. Product model "DINING_SET_2023_WINTER"
+
+:::info
+If you export your associated products/product models using the API or XLSX/CSV files, the order will be the same as explained in the paragraph above.
+:::
+
 # Open an associated product
 1.  Open the relevant product edit form
 1.  Click on the `Associations` tab
