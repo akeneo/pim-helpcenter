@@ -35,7 +35,7 @@ Starting in September, the identifier attribute will evolve:
 ## Search for products with the identifier attribute
 
 One of the big benefits of the identifier attribute is to be able to identify your products by all means:
-On the PIM, you can search for a product with its identifier. Use the search bar at the top of the product grid if you search for one specific product. or use the filter on the left with the in-list function if you want to display a list of several products.
+On the PIM, you can search for a product with its identifier in two different ways: (a) use the search bar at the top of the product grid if you search for one specific product, (b) use the filter on the left with the in-list function if you want to display a list of several products.
 
 ## Update your products with imports
 
@@ -63,8 +63,8 @@ Please refer to [api.akeneo.com](https://api.akeneo.com/) for more details.
 Introduced in September 2022, the UUID is a technical product identifier assigned to every product in the PIM.
 
 Here are some characteristics of this identifier:
-- The UUID is not an attribute but a technical identifier. therefore it won’t be displayed as product values unlike the identifier attribute
-- The UUID is immutable, meaning it can’t be modified or deleted after the product creation unlike the identifier attribute
+- The UUID is **not an attribute** but a technical identifier. Therefore, it won’t be displayed as a product value unlike the identifier attribute.
+- The UUID is **immutable**, meaning it can’t be modified or deleted after the product creation unlike the identifier attribute
 - The value of each UUID is unique in the PIM
 
 Every product must have a UUID assigned at the product creation. This can be done in 2 different ways:
