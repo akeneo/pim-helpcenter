@@ -35,6 +35,8 @@ The total number of associations is displayed per product or product model (the 
 
 By default, if the product has no association for the selected association type, nothing is displayed in the `Associations` tab.
 
+![No association](../img/Products_Products_No_Association.png)
+
 # About associations' order
 
 Today, it is not possible to define a specific order of your associated products/product models.
@@ -48,7 +50,9 @@ For instance, if you associated the products "61223", "4544719001003", "CHAIR_RO
 1. Product "CHAIR_ROSA_BLUE_2022" (it starts with alphabetical values which come after numerical values)
 1. Product model "DINING_SET_2023_WINTER"
 
-![No association](../img/Products_Products_No_Association.png)
+:::info
+If you export your associated products/product models using the API or XLSX/CSV files, the order will be the same as explained in the paragraph above.
+:::
 
 # Open an associated product
 1.  Open the relevant product edit form
