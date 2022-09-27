@@ -61,7 +61,7 @@ In order to automatically execute an import/export profile:
 * To ensure the best performances, the minimum frequency execution is set to every 4 hours.
 * Frequencies executed multiple times a day start at midnight (UTC).
 * Frequencies are displayed in UTC.
-* Automated jobs will be executed by a system user, so if you want to see the job in the Process Tracker, please make sure to check the permission `View all jobs in process tracker` under the user roles's permissions.
+* Automated jobs will be executed by a system user, so if you want to see the job in the Process Tracker, please make sure to check the permission `View all jobs in process tracker` under the user roles' permissions.
 :::
 
 # Manually execute an import/export profile connected to an SFTP server
