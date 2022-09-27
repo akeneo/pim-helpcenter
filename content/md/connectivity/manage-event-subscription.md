@@ -51,6 +51,17 @@ Here are some examples of responses you may encounter.
 If the third-party server takes too much time to answer, your initial attempt at URL verification may fail due to a timeout, so use the `Test` button to relaunch the verification.
 :::
 
+## Choose your favorite product format
+There are two ways to identify products in the PIM, and this is why you can choose from the `Event Subscription` page which API format you will receive in events. 
+
+![UUID option](../img/uuid-option.png)
+
+If you want to receive the product identified by their UUID, enable this option; if not, let it be disabled. 
+
+::: info
+To know more about ways to identify products, please read our [Manage your product identifiers](manage-product-identifiers.html) article, and for more information about API formats, please go to our [API documentation website](https://api.akeneo.com/concepts/products.html#product).
+:::
+
 ## Manage your permissions
 
 The Event subscription leverages Akeneo PIM permissions to control access to product data. 
