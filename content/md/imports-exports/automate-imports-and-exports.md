@@ -1,7 +1,7 @@
 ---
 id: import-export-automation
 themes: import-export-data
-title: Automate your product imports/exports
+title: Schedule and automate your product imports/exports
 popular: false
 ee: true
 ge: true
@@ -15,7 +15,7 @@ You will be able to:
 * Connect your product imports/exports to remote SFTP storages.
 * Automate them by scheduling their executions.
 
-# Connect your import/export to a remote server
+# Connect your import/export profile to a remote storage
 
 To connect your product import/export to a remote storage:
 1. Go to `Imports` or `Exports`
@@ -64,6 +64,6 @@ In order to automatically execute an import/export profile:
 * Automated jobs will be executed by a system user, so if you want to see the job in the Process Tracker, please make sure to check the permission `View all jobs in process tracker` under the user roles's permissions.
 :::
 
-# Manually execute an import/export profile connected to an SFTP server
+# Manually execute an import/export profile connected to a remote storage
 
 Once you have connected your import/export profile to a remote server, go back to the root of your profile by clicking on its name in the breadcrumb, and simply click on `Import now` to import from an SFTP server or `Export now` to export to an SFTP server.
