@@ -75,10 +75,14 @@ Every product must have a UUID assigned at the product creation. This can be don
 
 The UUID is visible in the following places:
 - URL of the product in the PIM
-- Product export files
 - Product API
+<!-- - Product export files -->
 
-## Update your products with imports
+::: tips 
+Stay tuned, you will soon be able to use the UUID in the **product export files**.
+:::
+
+<!-- ## Update your products with imports
 
 When exporting your products from the PIM, your downloaded files will contain a new column named “UUID”. Unlike the identifier attribute, you are sure that all your products have a UUID, meaning it is the best way to update your products when re-importing your file in the PIM.
 
@@ -88,7 +92,7 @@ Here are a few use cases when importing products
 - If there are no UUID nor SKU columns in a row, a new product will be created and a UUID will be generated
 - If the UUID and the SKU of a product don’t match, the UUID will prevail and the current SKU will be modified by the new one
 - If there is no UUID but a SKU of an existing product, the product will be updated as it always worked
-- If there is a UUID but no SKU for an existing product, the product will be updated
+- If there is a UUID but no SKU for an existing product, the product will be updated -->
 
 ## Update your products with the API
 
