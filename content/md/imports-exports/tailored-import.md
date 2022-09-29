@@ -149,7 +149,7 @@ It will help you to replace the default values with your own value.
 ## Replacement
 
 Replace the values by your own. Only available for simple select, multi select, reference entities single link<!--or multiple link--> attributes.
-![Replacement operation](../img/Tailored-Import_Replacement.png)
+![Replacement operation](../img/Tailored-Import_Operation_Replacement.png)
 
 ::: warning
 Replacement values are case-sensitive.
@@ -177,7 +177,7 @@ This operation is available for `Text` and `Text Area` attributes used as a targ
 It will help you to clean your HTML values with two options:
 * Remove HTML tags
 * Decode HTML characters
-![Clean HTML operation](../img/Tailored-Import_Clean-HTML-tags.png)
+![Clean HTML operation](../img/Tailored-Import_Operation_Clean-HTML-tags.png)
 
 ## Remove whitespaces
 
@@ -185,7 +185,7 @@ This operation is available for `Text` and `Text Area` attributes used as a targ
 It will help you to clean the unnecessary whitespaces values with two options:
 * Clean consecutive whitespaces
 * Remove whitespaces at the beginning and the end
-![Remove whitespaces operation](../img/Tailored-Import_Remove-whitespaces.png)
+![Remove whitespaces operation](../img/Tailored-Import_Operation_Remove-whitespaces.png)
 
 :::info
 Adding the operations in the correct order is essential. For instance, if you want to convert ` this text ` to `This text`, you need to add the operations `Remove whitespaces at the beginning and the end`, then `First letter uppercase`, and not the contrary.
