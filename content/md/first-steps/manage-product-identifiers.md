@@ -23,13 +23,13 @@ There are now 2 ways to identify a product:
 
 The identifier is an attribute with a few specific characteristics:
 - Right now, only one identifier attribute is created by default. It is always called “SKU” as the attribute code can't be modified. Only its label can be modified.
-- The value of this attribute must be unique per product
-- This attribute is not localizable (per locale) nor scopable (per channel)
+- The value of this attribute must be unique per product.
+- This attribute is not localizable (per locale) nor scopable (per channel).
 
 ::: warning
 The identifier attribute will evolve:
-- SKU will soon become optional, meaning this field can stay empty when creating a new product
-- This attribute can also be deleted from family attributes and be unselected from being required for product completeness
+- SKU will soon become optional, meaning this field can stay empty when creating a new product.
+- This attribute can also be deleted from family attributes and be unselected from being required for product completeness.
 :::
 
 ## Search for products with the identifier attribute
@@ -66,16 +66,21 @@ Introduced in September 2022, the UUID is a technical product identifier assigne
 
 Here are some characteristics of this identifier:
 - The UUID is **not an attribute** but a technical identifier. Therefore, it won’t be displayed as a product value unlike the identifier attribute.
-- The UUID is **immutable**, meaning it can’t be modified or deleted after the product creation unlike the identifier attribute
-- The value of each UUID is unique in a PIM
+- The UUID is **immutable**, meaning it can’t be modified or deleted after the product creation unlike the identifier attribute.
+- The value of each UUID is **unique** in a PIM.
 
 Every product must have a UUID assigned at the product creation. This can be done in 2 different ways:
-- A UUID is randomly assigned to a product in the PIM during the product creation
-- A UUID can also be assigned manually during product creation but only with an import process or with the API, must answer UUID format standards and must be unique. The generated UUID have to be Version 4 UUID.
+- A UUID is randomly assigned to a product in the PIM during the product creation.
+- A UUID can also be manually assigned during product creation but only with an import process or the API.
+
+::: warning
+The assigned UUID must match the **Version 4 UUID** standard.   
+To help you validate your UUID format, here is the link to an [online validator](https://createuuid.com/validator/).
+:::
 
 The UUID is visible in the following places:
-- URL of the product in the PIM
-- Product API
+- The URL of the product in the PIM,
+- and the product API.
 <!-- - Product export files -->
 
 ::: tips 
@@ -89,10 +94,10 @@ When exporting your products from the PIM, your downloaded files will contain a 
 Once you have modified your product details in the file, ensure the “UUID” column is still included in the document as it will help identify your products to update them.
 
 Here are a few use cases when importing products
-- If there are no UUID nor SKU columns in a row, a new product will be created and a UUID will be generated
-- If the UUID and the SKU of a product don’t match, the UUID will prevail and the current SKU will be modified by the new one
-- If there is no UUID but a SKU of an existing product, the product will be updated as it always worked
-- If there is a UUID but no SKU for an existing product, the product will be updated -->
+- If there are no UUID nor SKU columns in a row, a new product will be created and a UUID will be generated.
+- If the UUID and the SKU of a product don’t match, the UUID will prevail and the current SKU will be modified by the new one.
+- If there is no UUID but a SKU of an existing product, the product will be updated as it always worked.
+- If there is a UUID but no SKU for an existing product, the product will be updated. -->
 
 ## Update your products with the API
 
