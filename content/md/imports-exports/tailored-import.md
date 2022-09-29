@@ -148,8 +148,12 @@ It will help you to replace the default values with your own value.
 
 ## Replacement
 
-Replace the values by your own. Only available for simple select, multi select, reference entities single link or multiple link attributes.
+Replace the values by your own. Only available for simple select, multi select, reference entities single link<!--or multiple link--> attributes.
 ![Replacement operation](../img/Tailored-Import_Replacement.png)
+
+::: warning
+Replacement values are case-sensitive.
+:::
 
 ## Split
 
