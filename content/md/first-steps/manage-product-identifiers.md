@@ -71,7 +71,7 @@ Here are some characteristics of this identifier:
 
 Every product must have a UUID assigned at the product creation. This can be done in 2 different ways:
 - A UUID is randomly assigned to a product in the PIM during the product creation
-- A UUID can also be assigned manually during product creation but only with an import process or with the API, must answer UUID format standards and must be unique
+- A UUID can also be assigned manually during product creation but only with an import process or with the API, must answer UUID format standards and must be unique. The generated UUID have to be Version 4 UUID.
 
 The UUID is visible in the following places:
 - URL of the product in the PIM
