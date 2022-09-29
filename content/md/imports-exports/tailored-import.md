@@ -111,7 +111,7 @@ Limitations have been set for each Tailored Import profile:
 ![Output data sample preview](../img/Tailored-Import_Output-data-sample-preview.png)
 1. Once you're done, click on `Save` in the top right corner. You're now ready to import your products.
 
-### Conditional settings
+## Conditional settings
 
 Depending on the target you selected, some other parameters can be displayed:
 * For scopable and/or localizable attributes, you will need to select to which channel and/or locale you want to import your data. ![Target settings - scopable/localizable](../img/Tailored-Import_settings-scopable-localizable.png)
@@ -142,17 +142,23 @@ Depending on the targets that you define, here are the different types of operat
 
 ## Yes/No replacement
 
-Replace the default values with your own value (only available for the "Yes/No" attribute or the "Enabled" system property).
+This operation is available for `Yes/No` and `Enabled` attributes used as a target.
+It will help you to replace the default values with your own value.
 ![Yes/No replacement operation](../img/Tailored-Import_Yes-No_Replacement.png)
 
 ## Replacement
 
-Replace the values by your own (only available for simple select, multi select<!--, reference entities single link or multiple link--> attributes).
-![Replacement operation](../img/Tailored-Import_Replacement.png)
+Replace the values by your own. Only available for simple select, multi select, reference entities single link<!--or multiple link--> attributes.
+![Replacement operation](../img/Tailored-Import_Operation_Replacement.png)
+
+::: warning
+Replacement values are case-sensitive.
+:::
 
 ## Split
 
-If you want to import different values that are located into the same cell of your spreadsheet, you can use this operation to split the values thanks to a separator: comma (,), semicolon (; ), pipe (|).
+This operation is available for collection attributes used as a target.
+It will help you to import different values that are located into the same cell of your spreadsheet by splitting these values thanks to a separator: comma (,), semicolon (; ) or pipe (|).
 ![Split operation](../img/Tailored-Import_Split.png)
 ![Split operation demo](../img/Tailored-Import_Split-demo.gif)
 
@@ -165,20 +171,25 @@ It will help you to change the case, choosing from:
 * First letter uppercase
 ![Change case operation](../img/Tailored-Import_Change-case.png)
 
-<!--## Use default value when empty
-
-Define a default value when the source value is empty.
-![Use default value when empty](../img/TailoredExport_Operation_UseDefaultValueWhenEmpty.png)-->
-
-## Clean HTML tags
+## Clean HTML
 
 This operation is available for `Text` and `Text Area` attributes used as a target.
-Clean all the HTML tags in your text values.
-![Clean HTML tags operation](../img/Tailored-Import_Clean-HTML-tags.png)
+It will help you to clean your HTML values with two options:
+* Remove HTML tags
+* Decode HTML characters
+![Clean HTML operation](../img/Tailored-Import_Operation_Clean-HTML-tags.png)
 
-<!--:::warning
-If you added a default value with HTML tags thanks to the `Use default value when empty operation`, and if you checked `Clean HTML tags` for the same source, this operation won't clean the HTML tags for the default value.
-:::-->
+## Remove whitespaces
+
+This operation is available for `Text` and `Text Area` attributes used as a target.
+It will help you to clean the unnecessary whitespaces values with two options:
+* Clean consecutive whitespaces
+* Remove whitespaces at the beginning and the end
+![Remove whitespaces operation](../img/Tailored-Import_Operation_Remove-whitespaces.png)
+
+:::info
+Adding the operations in the correct order is essential. For instance, if you want to convert ` this text ` to `This text`, you need to add the operations `Remove whitespaces at the beginning and the end`, then `First letter uppercase`, and not the contrary.
+:::
 
 # Duplicate a Tailored Import profile
 
