@@ -1,4 +1,9 @@
 {
+  "2022-09": {
+    "title": "September 2022 Serenity updates",
+    "description": "Fall is coming at Akeneo, but it doesn't mean that our Serenity releases are cooling down. With new automated SFTP import and export scheduling and catalogs for apps you'll get even more out-of-the-box functionality from Akeneo PIM.",
+    "img": "illus-september-22.svg"
+  },
   "2022-08": {
     "title": "August 2022 Serenity updates",
     "description": "It's been a hot summer for many Akeneo customers and the month of August brings some features and functionality hot off the press! Tailored Imports now supports price attributes and additional operations like case changing and family replacement. Check it out!",
