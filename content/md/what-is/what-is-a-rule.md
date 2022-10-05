@@ -20,7 +20,7 @@ For instance, rules allow you to automatically:
 
 A rule is defined by a code (required) and you can name it with a label as well. This label can have a value per locale.
 
-Rules can be created and imported in Akeneo using both UI and YML file and you can manage them from the UI. Check our [How to manage your rules](manage-your-rules.html) article.
+Rules can only be created and imported in Akeneo using a YML file, but you can manage them from the UI. Check our [How to manage your rules](manage-your-rules.html) article.
 
 Rules can be prioritized: a rule with a priority of 100 will be applied before a rule having a priority of 10 or 50.
 
