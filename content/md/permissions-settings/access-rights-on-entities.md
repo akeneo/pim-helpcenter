@@ -19,7 +19,8 @@ You can define which user groups can view or edit a reference entity, its proper
 For reference entities, we have 2 levels of access: the view right and the edit right.
 
 ::: warning
-It’s not possible to hide a reference entity.
+It’s not possible to hide a reference entity.  
+These permissions don't apply to the API and file import.
 :::
 
 ## The edit right
