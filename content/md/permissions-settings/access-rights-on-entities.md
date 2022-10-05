@@ -20,6 +20,7 @@ For reference entities, we have 2 levels of access: the view right and the edit 
 
 ::: warning
 It’s not possible to hide a reference entity.
+  These permissions don't apply to the API and file import.
 :::
 
 ## The edit right
