@@ -148,7 +148,8 @@ It will help you to replace the default values with your own value.
 
 ## Replacement
 
-Replace the values by your own. Only available for simple select, multi select, reference entities single link<!--or multiple link--> attributes.
+This operation is available for `Simple select`, `Multi select`, `Reference entity single link` or `Reference entity multiple link` attributes used as a target.
+It will help you to replace the values by your own.
 ![Replacement operation](../img/Tailored-Import_Operation_Replacement.png)
 
 ::: warning
