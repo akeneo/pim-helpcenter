@@ -112,6 +112,10 @@ This property can be translated into all the UI locales.
 
 If you enable this property, users will not be allowed to edit the attribute through the UI, it will only be updated through imports, API or [rules](manage-your-rules.html#mainContent). The attribute will appear as greyed out in the interface.
 
+:::warning
+In the case of the Product proposal import job, you cannot import read-only attributes (only editable attributes). Values will be automatically skipped from the import.
+:::
+
 ## The `Usable in Grid` property
 
 This property defines whether or not the attribute can be displayed as a column or used as a filter in the product grid or in the [published products grid](how-to-manage-my-publications.html#view-the-published-products) and [proposals grid](review-products-proposals.html#filter-the-proposals)
