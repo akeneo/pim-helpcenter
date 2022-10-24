@@ -216,6 +216,6 @@ If you want to be sure that the thumbnail that you are currently seeing is still
 
 ::: info
 To optimize user experience, we set two limits:  
-* 2 seconds to fetch the asset from the distant server
-* 60 seconds to generate the preview of the asset
+* 2 seconds to fetch an asset from its distant server
+* 60 seconds to generate the preview of a media-link asset
 :::
