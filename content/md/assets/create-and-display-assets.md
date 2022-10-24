@@ -213,3 +213,7 @@ The PIM cannot ensure that what you are currently seeing in a `media link` attri
 If you want to be sure that the thumbnail that you are currently seeing is still the one behind the url (and not the old one that is still in the PIM cache), you can click on the reload icon just next to the url or on the top right corner of the main media preview.
 
 ![Reload button](../img/Assets_ReloadButton.png)
+
+::: info
+To optimize user experience, the preview generation have been developed with a fixed limit of 2 seconds (timeout).
+:::
