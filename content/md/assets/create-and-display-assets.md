@@ -215,5 +215,7 @@ If you want to be sure that the thumbnail that you are currently seeing is still
 ![Reload button](../img/Assets_ReloadButton.png)
 
 ::: info
-To optimize user experience, the preview generation have been developed with a fixed limit of 2 seconds (timeout).
+To optimize user experience, we set two limits:  
+* 2 seconds to fetch an asset from its distant server
+* 60 seconds to generate the preview of a media-link asset
 :::
