@@ -215,8 +215,8 @@ If you want to be sure that the thumbnail that you are currently seeing is still
 ![Reload button](../img/Assets_ReloadButton.png)
 
 ::: info
-To optimize user experience, we set two limits:  
+To optimize user experience, we set three limits to get a preview:  
 * 56 MB for the size of an asset
 * 2 seconds to fetch an asset from its distant server
-* 60 seconds to generate the preview of an asset
+* 60 seconds to generate the preview
 :::
