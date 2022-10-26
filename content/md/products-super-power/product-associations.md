@@ -42,13 +42,13 @@ By default, if the product has no association for the selected association type,
 Today, it is not possible to define a specific order of your associated products/product models.
 The current order is following those rules:
 * Associated products are first displayed, then associated product models are displayed after.
-* Associated products/product models are ordered by an alpha-numerical logic based on their main identifier.  
+* Associated products/product models are ordered by an alpha-numerical logic based on their internal ID (visible in the URL).  
 
-For instance, if you associated the products "61223", "4544719001003", "CHAIR_ROSA_BLUE_2022" and the product model "DINING_SET_3055978276329", the default order logic will be the following:
-1. Product "4544719001003" (it starts with a "4", the lowest figure here)
-1. Product "61223" (it starts with a "6" which comes after "4")
-1. Product "CHAIR_ROSA_BLUE_2022" (it starts with alphabetical values which come after numerical values)
-1. Product model "DINING_SET_2023_WINTER"
+For instance, if you associated the products "e9af9526-08df-4177-a7bc-34016b231d0c", "02255102-39ee-41cd-87af-340d1a3fe5cd", "732b0fe5-1159-4802-8c3d-a68eff1ba158" and the product model "1568", the default order logic will be the following:
+1. Product "02255102-39ee-41cd-87af-340d1a3fe5cd" (it starts with a "0", the lowest figure here)
+1. Product "732b0fe5-1159-4802-8c3d-a68eff1ba158" (it starts with a "7" which comes after "0")
+1. Product "e9af9526-08df-4177-a7bc-34016b231d0c" (it starts with alphabetical value "e" which come after numerical values)
+1. Product model "1568"
 
 :::info
 If you export your associated products/product models using the API or XLSX/CSV files, the order will be the same as explained in the paragraph above.
