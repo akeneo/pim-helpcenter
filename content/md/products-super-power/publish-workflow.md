@@ -45,6 +45,7 @@ This is not the case if you change other product information such as product act
 
 # Published products & associations
 
+## Add an association between multiple published products
 Products associated to a published product should also be published, if you want to see the associations between those products in your published product. Learn more about associations in the [Associations of products](products-associations.html) article.
 In other words, an association of a published product A with a non-published product B, will not be visible in your published product A.
 
@@ -52,6 +53,10 @@ To associate 2 published products, for instance, *Product A* to *Product B*:
 1. Publish your *Product B*
 2. Create the association in the *Product A*, with your *Product B*
 3. Publish the *Product A*
+
+::: warning
+If you edited the values of products B & C associated with product A, and if product A has been published, you need to unpublish and republish product A to consider the changes.
+:::
 
 ::: warning
 Associations for published products will only be visible via the API and XLSX or CSV exports. That means you won’t see the `Associations` tab on the product edit form of published products. Please note that associations with quantities aren’t compatible with published products.
