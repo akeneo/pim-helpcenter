@@ -117,10 +117,18 @@ Depending on the sources you define, here are the different types of operations 
 Replace the default values with your own value (only available for the "Yes/No" attribute or the "Enabled" system property).
 ![Yes/No replacement](../img/TailoredExport_Operation_Boolean_Replacement.png)
 
+:::tips
+Replacement values are case-sensitive.
+:::
+
 ## Replacement
 
 Replace the values by your own (only available for simple select, multi select, reference entities single link or multiple link attributes).
 ![Replacement](../img/TailoredExport_Operation_Replacement.png)
+
+:::tips
+Replacement values are case-sensitive.
+:::
 
 ## Use default value when empty
 
