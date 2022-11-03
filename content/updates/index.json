@@ -1,4 +1,9 @@
 {
+  "2022-10": {
+  "title": "October 2022 Serenity updates",
+  "description": "This month we are introducing a big change to SKUs. They are no longer required when entering a product in Akeneo PIM. Plus, new enhancements to Tailored Imports provide options to replace values in a supplier’s file with reference entities.",
+  "img": "illus-october-22.svg"
+},
   "2022-09": {
     "title": "September 2022 Serenity updates",
     "description": "Fall is coming at Akeneo, but it doesn't mean that our Serenity releases are cooling down. With new automated SFTP import and export scheduling and catalogs for apps you'll get even more out-of-the-box functionality from Akeneo PIM.",
