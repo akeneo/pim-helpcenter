@@ -1,7 +1,7 @@
 ---
 id: manage-product-identifiers
 themes: catalog-settings
-title: Manage your product identifiers
+title: Manage your product **identifiers**
 popular: true
 ee: true
 ge: true
@@ -27,8 +27,8 @@ The identifier is an attribute with a few specific characteristics:
 - This attribute is not localizable (per locale) nor scopable (per channel).
 
 ::: warning
-The identifier attribute will evolve:
-- SKU will soon become optional, meaning this field can stay empty when creating a new product.
+The identifier attribute has evolved:
+- SKU is now optional, meaning this field can stay empty when creating a new product.
 - This attribute can also be deleted from family attributes and be unselected from being required for product completeness.
 :::
 
@@ -45,7 +45,7 @@ When exporting your products from the PIM, your downloaded files contain a “SK
 Once you have modified your product details in the file, ensure the “SKU” column is still included in the document as it will help identify your products and update them.
 
 ::: info
-Exported files now contain a “UUID” column. It is the best way to identify your products as this technical product identifier is immutable, and will work even if you have products without SKU. [Learn more in this section](manage-product-identifiers.html#manage-your-products-with-the-uuid)
+Exported files will soon contain a “UUID” column. It is the best way to identify your products as this technical product identifier is immutable, and will work even if you have products without SKU. [Learn more in this section](manage-product-identifiers.html#manage-your-products-with-the-uuid)
 :::
 
 ## Update your products with the API
@@ -55,7 +55,7 @@ Exported files now contain a “UUID” column. It is the best way to identify y
 Please refer to [api.akeneo.com](https://api.akeneo.com/) for more details.
 
 ::: warning
-8 new API endpoints have been created, working with “UUID” product identifiers, which is the most future-proof way to identify products, especially if you have or plan to have products without SKU.
+New API endpoints have been created, working with “UUID” product identifiers, which is the most future-proof way to identify products, especially if you have or plan to have products without SKU.
 :::
 
 # Manage your products with the UUID
@@ -81,27 +81,34 @@ To help you validate your UUID format, here is the link to an [online validator]
 The UUID is visible in the following places:
 - The URL of the product in the PIM,
 - and the product API.
+
 <!-- - Product export files -->
 
-::: tips 
-Stay tuned, you will soon be able to use the UUID in the **product export files**.
+::: tips
+Stay tuned, you will soon be able to :
+- Use the UUID in the **product export files**
+- Perform **product updates with imports** using the UUID with a SKU or not  
 :::
 
-<!-- ## Update your products with imports
+<!--  ## Update your products with imports
 
-When exporting your products from the PIM, your downloaded files will contain a new column named “UUID”. Unlike the identifier attribute, you are sure that all your products have a UUID, meaning it is the best way to update your products when re-importing your file in the PIM.
+When exporting your products from the PIM, your downloaded files can now contain a new column named “UUID”. Unlike the identifier attribute, you are sure that all your products have a UUID, meaning it is the best way to update your products when re-importing your file in the PIM.
+
+::: info
+The UUID column is hidden by default. If you want to display this column, click on .... (to be finished)
+:::
 
 Once you have modified your product details in the file, ensure the “UUID” column is still included in the document as it will help identify your products to update them.
 
 Here are a few use cases when importing products
 - If there are no UUID nor SKU columns in a row, a new product will be created and a UUID will be generated.
-- If the UUID and the SKU of a product don’t match, the UUID will prevail and the current SKU will be modified by the new one.
-- If there is no UUID but a SKU of an existing product, the product will be updated as it always worked.
-- If there is a UUID but no SKU for an existing product, the product will be updated. -->
+- If there is no UUID but a SKU for an existing product, the product will be updated as it always worked.
+- If there is a UUID but no SKU for an existing product, the product will be updated.
+- If the UUID and the SKU of a product don’t match, the UUID will prevail and the current SKU will be modified by the new one. -->
 
 ## Update your products with the API
 
-8 new API endpoints have been created to help you identify your products, update them, or even delete them by using their UUID. They are very similar to old endpoints using the product’s SKU.
+New API endpoints have been created to help you identify your products, update them, or even delete them by using their UUID. They are very similar to old endpoints using the product’s SKU.
 
 This is the most future-proof way to identify and modify your products regardless of the presence of a SKU, this is why we advise you to update your API configuration with these new endpoints.
 
