@@ -31,7 +31,8 @@ To connect your product import/export to a remote storage:
 ::: tips
 * If you want to automate your product exports, we support the patterns `%job_label%` & `%datetime%`. You can combine them to create a filepath like the following: "/myfolder1/mysubfolder2/export_%job_label%_%datetime%.xlsx".
 * You can use the `Test connection settings` button to check your settings and make sure your connection is valid.
-* If you want to authenticate your SFTP server, you can paste its fingerprint in the optional field `Host fingerprint`. Note that this field requires a SHA-512 hashed checksum with a colon notation.
+* If you want to authenticate your SFTP server, you can paste its fingerprint in the optional field `Host fingerprint`.
+The accepted format of the fingerprint depends on the format of the server's public key: MD5 for `ssh-rsa` signatures, SHA-512 for others.
 :::
 
 :::info
