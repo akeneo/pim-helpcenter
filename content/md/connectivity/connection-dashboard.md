@@ -15,14 +15,15 @@ In the PIM, there is a dashboard called `Data flows`, to help you follow your [c
 
 ::: info
 This is still the very first version of this dashboard. For now, **we only monitor simple products and product variants**.  
-In the future, it will show you many more indicators. Stay tuned! 🙂  
-And also, don't hesitate to fill in the survey at the bottom of the dashboard page to vote for the next KPI you'd like to see in there.
+Don't hesitate to fill in the survey at the bottom of the dashboard page to vote for the next KPI you'd like to see in there.
 :::
 
 In this dashboard, for now, you can monitor both your source and destination connections.
 
 ::: tips
-Empty charts? Have you ticked the `Track this connection in the dashboard` checkbox in your connections settings? Do you use the connection user to call the PIM through the API?
+**Empty charts?**  
+Have you ticked the `Track this connection in the dashboard` checkbox in your connections settings? Do you use the connection user to call the PIM through the API?  
+Please, note that inbound charts are updated every hour, and outbound charts are updated as soon as a connection gets or receives a product from your PIM. 
 :::
 
 # Source connection monitoring
