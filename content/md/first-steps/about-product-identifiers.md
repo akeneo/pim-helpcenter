@@ -32,9 +32,7 @@ For that purpose we will give more flexibility in the short term regarding ident
 
 For more details, please refer to [the help center page dedicated to identifiers](manage-product-identifiers.html).
 
-:::info
-These changes are available in the _Growth Edition_ and in the _Enterprise Edition_.
-:::
+
 
 # Prepare now for this evolution
 
