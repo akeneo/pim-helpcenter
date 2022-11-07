@@ -146,7 +146,7 @@ This rule is defined at the asset family level, and the PIM automatically launch
 Note that if:
 * you did not define a naming convention
 * you created/uploaded your assets within the user interface
-Then, at the asset creation, only the code, the label, and the media file will be available. Therefore, if your product selection is based on an asset attribute value, it will select no product. You can either add a naming convention or execute the PLR manually after filling in the desired asset attribute value.
+Then, at the asset creation, only the code and the label will be available, while at the asset upload, only the code, the label and the media file will be available. Therefore, if your product selection is based on an asset attribute value, it will select no product. You can either add a naming convention or execute the PLR manually after filling in the desired asset attribute value.
 
 :::tips
 If your product link rule happened to change afterward, you could easily execute it again thanks to the `Execute rules` button.
