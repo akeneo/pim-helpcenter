@@ -22,7 +22,7 @@ Here are some examples of families:
 - a `hammers` family...
 
 All these types of products have **their own characteristics**, a camcorder will have for instance the following attributes in its family:
-- a product identifier (a `sku` for instance),
+- a product identifier (an UUD or a `sku` for instance),
 - a GTIN/EAN/UPC/ASIN code,
 - a brand,
 - a commercial name,
@@ -35,7 +35,7 @@ All these types of products have **their own characteristics**, a camcorder will
 
 The family `Camcorders` will **gather all these attributes**, and they will be automatically added to any new product added to this family.
 
-A hammer will also have a product identifier (a sku for instance), a GTIN/EAN code, a name, a description, but it will have its own attributes like a handle length, a handle material, a weight, a material...
+A hammer will also have a product identifier (an UUID or a sku for instance), a GTIN/EAN code, a name, a description, but it will have its own attributes like a handle length, a handle material, a weight, a material...
 
 So, a family can use all the attributes available in the PIM and a same attribute can be used in several families, most of your products will have a description, a name, an identifier...
 
