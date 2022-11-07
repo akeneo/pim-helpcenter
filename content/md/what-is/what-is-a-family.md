@@ -22,7 +22,7 @@ Here are some examples of families:
 - a `hammers` family...
 
 All these types of products have **their own characteristics**, a camcorder will have for instance the following attributes in its family:
-- a product identifier (an UUD or a `sku` for instance),
+- a product identifier (an UUID or a `sku` for instance),
 - a GTIN/EAN/UPC/ASIN code,
 - a brand,
 - a commercial name,
