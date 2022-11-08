@@ -26,6 +26,10 @@ If you click on the arrow to open the complete `History` page, the published ver
 
 ![Published History Button dropdown](../img/Products_PublishedHistoryDropdown.png)
 
+:::info
+**Products without SKU cannot be published.** If you would like to publish your products, **a SKU will be required to do so.**
+:::
+
 ## Publish several products at once
 
 To publish several products simultaneously:
