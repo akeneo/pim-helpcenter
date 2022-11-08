@@ -31,7 +31,7 @@ Let's take a well-known example of products with variants that are T-shirts. A T
 For all the colors and sizes of the T-shirt, **some attributes are common**, such as the name « Cotton T-shirt with a round neck », the brand « DIVIDED », and the care instructions « machine wash at fourty degrees ».   
 Each T-shirt color has **different pictures and could have a different composition**.  
 Each T-shirt color could be **available in different sizes: S, M or L.**   
-For each color/size, **the identifier of the product is different** (EAN, SKU) as well as **the technical specs like weight, sleeves length that could vary from a T-shirt from another.**
+For each color/size, a specific product will be created with its own product identifier (ex: SKU), its own UUID, as well as **technical specs like weight, sleeves length that could vary from a T-shirt from another.**
 
 ![Scheme modeling products with variants](../img/scheme_variants.png)
 
@@ -42,7 +42,7 @@ A product model has **no product identifier** (ex: SKU) but a dedicated code.
 
 ## What is a variant product?
 
-A **variant product is a product** and it is also a **variant of a product model**. It shares the common attributes of a product model but also has its own properties. A **variant product has a product identifier** (ex: SKU).
+A **variant product is a product** and it is also a **variant of a product model**. It shares the common attributes of a product model but also has its own properties. A **variant product has a product identifier (ex: SKU) and its own UUID. Please note that the SKU is now optional.**
 
 ## What is a family variant?
 
