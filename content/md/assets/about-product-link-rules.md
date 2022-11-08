@@ -145,7 +145,8 @@ As said above, the product link rule is very useful when you can automate the li
 This rule is defined at the asset family level, and the PIM automatically launches it after the asset is created.
 Note that if:
 * you did not define a naming convention
-* you created/uploaded your assets within the user interface  
+* you created/uploaded your assets within the user interface
+
 Then, at the asset creation, only the code and the label will be available, while at the asset upload, only the code, the label and the media file will be available. Therefore, if your product selection is based on an asset attribute value, it will select no product. You can either add a naming convention or execute the PLR manually after filling in the desired asset attribute value.
 
 :::tips
