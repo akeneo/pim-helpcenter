@@ -58,3 +58,7 @@ Select `All contributors` to have the global overview of the project.
 If you have no projects, the widget will display users the message: `You have no current project, start a new project`.
 
 ![image](../img/Dashboard_NoProject.png)
+
+:::info
+Please note that the Teamwork Assistant is **not compatible with products that do not have a SKU.**
+:::
