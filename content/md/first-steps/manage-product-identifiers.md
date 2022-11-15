@@ -74,25 +74,24 @@ The UUID is visible in the following places:
 - The URL of the product in the PIM,
 - and the product API.
 
-<!-- - Product export files -->
 
 ## Update your products with imports
 
 When exporting your products from the PIM, your downloaded files can now contain a new column named “UUID”. Unlike the identifier attribute, you are sure that all your products have a UUID, meaning it is the best way to update your products when re-importing your file in the PIM.
 
 ::: info
-The UUID column is hidden by default. If you want to display this column, click on 'With UUID' when running your export.
+The UUID column is hidden by default. If you want to display this column, [Update your export profile](exports.html#update-an-export-profile) and activate 'With Product UUID' before running your export.
 :::
 
 Once you have modified your product details in the file, ensure the “UUID” column is still included in the document as it will help identify your products to update them.
 
 Here are a few use cases when importing products:
-- *I can create a product with no SKU & no UUID:* a new product will be created and a UUID will be randomly assigned.
-- *I can create a product with a SKU and no UUID:* a new product will be created with this SKU and a UUID will be randomly assigned.
-- *I can update a product only with its UUID:* the product will be updated even if the SKU is not available.
-- *I can update a product only with its SKU:* the product will be updated even if the UUID is not available.
-- *I can update the SKU of a product using its UUID:* the product will be updated with a new SKU.
-- *I can create a product with my own UUID:* you can generate a v4 UUID anywhere (on this website for ex.) and add it during the product creation process.
+- *You can create a product with no SKU & no UUID:* a new product will be created and a UUID will be randomly assigned.
+- *You can create a product with a SKU and no UUID:* a new product will be created with this SKU and a UUID will be randomly assigned.
+- *You can update a product only with its UUID:* the product will be updated even if the SKU is not available.
+- *You can update a product only with its SKU:* the product will be updated even if the UUID is not available.
+- *You can update the SKU of a product using its UUID:* the product will be updated with a new SKU.
+- *You can create a product with my own UUID:* you can generate a v4 UUID anywhere (on this website for ex.) and add it during the product creation process.
 
 Here is the table listing all usecases depending on what you fill in the UUID and SKU columns:
 | uuid | sku | family | name-en_US | Result |
