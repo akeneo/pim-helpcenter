@@ -175,16 +175,16 @@ The permission to execute imports can be customized for each import profile. So 
 
 # New import processes with the UUID
 
-New import processes have been implemented with the [UUID](https://help.akeneo.com/pim/serenity/articles/manage-product-identifiers.html) being recently introduced as a new way to identify your products.
+New import processes have been implemented with the [UUID](https://help.akeneo.com/pim/serenity/articles/manage-product-identifiers.html#manage-your-products-with-the-uuid) being recently introduced as a new way to identify your products.
 
 Please find the following usecases when running imports: 
 
-- *I can create a product with no SKU & no UUID:* a new product will be created and a UUID will be randomly assigned.
-- *I can create a product with a SKU and no UUID:* a new product will be created with this SKU and a UUID will be randomly assigned.
-- *I can update a product only with its UUID:* the product will be updated even if the SKU is not available.
-- *I can update a product only with its SKU:* the product will be updated even if the UUID is not available.
-- *I can update the SKU of a product using its UUID:* the product will be updated with a new SKU.
-- *I can create a product with my own UUID:* you can generate a v4 UUID anywhere (on this website for ex.) and add it during the product creation process.
+- *You can create a product with no SKU & no UUID:* a new product will be created and a UUID will be randomly assigned.
+- *You can create a product with a SKU and no UUID:* a new product will be created with this SKU and a UUID will be randomly assigned.
+- *You can update a product only with its UUID:* the product will be updated even if the SKU is not available.
+- *You can update a product only with its SKU:* the product will be updated even if the UUID is not available.
+- *You can update the SKU of a product using its UUID:* the product will be updated with a new SKU.
+- *You can create a product with my own UUID:* you can generate a v4 UUID anywhere (on this website for ex.) and add it during the product creation process.
 
 **Here is the table listing all usecases depending on what you fill in the UUID and SKU columns:**
 
