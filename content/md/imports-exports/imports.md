@@ -186,6 +186,12 @@ Please find the following usecases when running imports:
 - *You can update the SKU of a product using its UUID:* the product will be updated with a new SKU.
 - *You can create a product with my own UUID:* you can generate a v4 UUID anywhere (on this website for ex.) and add it during the product creation process.
 
+
+::: info
+The UUID column is hidden by default. If you want to display this column, [Update your export profile](exports.html#update-an-export-profile) and activate 'With Product UUID' before running your export.
+:::
+
+
 **Here is the table listing all usecases depending on what you fill in the UUID and SKU columns:**
 
 | uuid | sku | family | name-en_US | Result |
