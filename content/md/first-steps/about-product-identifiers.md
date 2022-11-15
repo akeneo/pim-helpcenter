@@ -36,6 +36,8 @@ For more details, please refer to [the help center page dedicated to identifiers
 These changes are available in the _Growth Edition_ and in the _Enterprise Edition_.
 :::
 
+
+
 # Prepare now for this evolution
 
 If you wish to begin creating products without the SKU in your PIM, please confirm the following steps to avoid disruption to your product catalogs:
