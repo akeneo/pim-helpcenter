@@ -36,6 +36,22 @@ For more details, please refer to [the help center page dedicated to identifiers
 These changes are available in the _Growth Edition_ and in the _Enterprise Edition_.
 :::
 
+**Here is the table listing all usecases depending on what you fill in the UUID and SKU columns:**
+
+| uuid | sku | family | name-en_US | Result |
+| --- | --- | --- | --- | --- |
+|  | SKU-ex01 | tshirt | Existing product | Update product having SKU = SKU-ex01 |
+|  | SKU-new01 | tshirt | New product | Create product with generated uuid and SKU = SKU-new01 |
+|  |  | tshirt | New product | Create product with generated uuid and no SKU |
+| uuid-0001 | SKU-ex02 | tshirt | Existing product | Update product having uuid = uuid-0001 |
+| uuid-0002 | SKU-new02 | tshirt | New product | Create product with uuid = uuid-0002 and SKU = SKU-new02 |
+| uuid-0003 |  | tshirt | Existing product | Update product having uuid = uuid-0003 and no SKU |
+| uuid-0004 |  | tshirt | New product | Create product with uuid = uuid-0004 and no SKU |
+
+::: warning
+Please note that the UUID can’t be modified once the product is created.
+:::
+
 # Prepare now for this evolution
 
 If you wish to begin creating products without the SKU in your PIM, please confirm the following steps to avoid disruption to your product catalogs:
