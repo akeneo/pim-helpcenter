@@ -2,6 +2,7 @@
   {
     "title": "Multiple Product Identifiers",
     "description": "Oftentimes Akeneo customers need to use more than one product identifier for a single product. With this release, you can use several identifiers per product to suit your needs, like GTIN and SKU, as well as internal identifiers.",
+    "img" "./img/IDGeneratorMedium.png",
     "areas": ["Governance"]
   },
   {
