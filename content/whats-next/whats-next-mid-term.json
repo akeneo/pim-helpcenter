@@ -7,6 +7,8 @@
   {
     "title": "Simultaneous Work in Akeneo PIM",
     "description": "With many teams collaborating on the enrichment of products within Akeneo PIM, they need a way to know if someone else is also working on that product. With Simulatneous Work in Akeneo PIM, users will not only see when someone else is working on the same product, but they can also work on the same product at the same time without overwriting each other’s product values.",
+    "img": "./img/enrichedcats1Large.png",
+    "img": "./img/enrichedcats2Large.png",
     "areas": ["Productivity"]
   }
 ]
