@@ -3,11 +3,14 @@
     "title": "Akeneo PIM - Product Identifier Generator",
     "description": "Improve product lifecycle management by enabling unique product identifier generation within Akeneo PIM. Generate IDs based on nomenclature, like combining attributes, or use reference entities to do so. Take advantange of this increased flexibility in Akeneo SaaS versions.",
     "areas": ["Governance"],
+    "img": "./img/IDGeneratorMedium.png",
     "editions": ["EE","GE"]
   },
   {
     "title": "Enriched Categories",
     "description": "Creating a great customer experience means providing additional context at every step of their buying journey. Therefore Enriched Categories will give Akeneo customers the ability to enrich not just products, but categories as well, including channel- and locale-specific attributes too!",
+    "img": "./img/enrichedcats1Large.png",
+    "img": "./img/enrichedcats2Large.png",
     "areas": ["Governance"]
   }
 ]
