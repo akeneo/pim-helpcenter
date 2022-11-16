@@ -188,7 +188,7 @@ The format of the product selection part is defined as follows:
         {
           "field": "enabled",
           "operator": "=",
-          "value": "true"
+          "value": true
         },
         {
           "field": "categories",
@@ -206,13 +206,15 @@ You can use multiple conditions to make your selection. Those conditions are cum
 Here is the list of the fields you can use to select your products:
 
 - Among the product properties:
-  * the `product family`,
-  * the `product categories`,
-  * the `product status`,
+  * the `family`,
+  * the `categories`,
+  * the `status`,
+  * the `enabled`.
 - Among the product attributes:
   * the `identifier` attribute,
-  * the `text` attributes,
-  * the `simple/multi select` attributes.
+  * the `text` & `text area` attributes,
+  * the `simple select` and `multi select` attributes,
+  * the `yes/no` attribute.
 
 [Here](https://api.akeneo.com/documentation/asset-manager.html#product-selection) is the complete explanation of the expected JSON format.
 
