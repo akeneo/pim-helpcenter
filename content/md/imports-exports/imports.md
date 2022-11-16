@@ -172,3 +172,38 @@ If you want to know more about how the rights on product data works in the PIM, 
 
 ### Rights on import execution
 The permission to execute imports can be customized for each import profile. So if you cannot launch an import, be sure that you have the right to run it in the `Permissions` tab of your import profile in edition mode. See the [Access rights on imports/exports](access-rights-on-imports-exports.html) article for more details.
+
+# New import processes with the UUID
+
+New import processes have been implemented with the [UUID](https://help.akeneo.com/pim/serenity/articles/manage-product-identifiers.html#manage-your-products-with-the-uuid) being recently introduced as a new way to identify your products.
+
+Please find the following usecases when running imports: 
+
+- *You can create a product with no SKU & no UUID:* a new product will be created and a UUID will be randomly assigned.
+- *You can create a product with a SKU and no UUID:* a new product will be created with this SKU and a UUID will be randomly assigned.
+- *You can update a product only with its UUID:* the product will be updated even if the SKU is not available.
+- *You can update a product only with its SKU:* the product will be updated even if the UUID is not available.
+- *You can update the SKU of a product using its UUID:* the product will be updated with a new SKU.
+- *You can create a product with my own UUID:* you can generate a v4 UUID anywhere (on this website for ex.) and add it during the product creation process.
+
+
+::: info
+The UUID column is hidden by default. If you want to display this column, [Update your export profile](exports.html#update-an-export-profile) and activate 'With Product UUID' before running your export.
+:::
+
+
+**Here is the table listing all usecases depending on what you fill in the UUID and SKU columns:**
+
+| uuid | sku | family | name-en_US | Result |
+| --- | --- | --- | --- | --- |
+|  | SKU-ex01 | tshirt | Existing product | Update product having SKU = SKU-ex01 |
+|  | SKU-new01 | tshirt | New product | Create product with generated uuid and SKU = SKU-new01 |
+|  |  | tshirt | New product | Create product with generated uuid and no SKU |
+| uuid-0001 | SKU-ex02 | tshirt | Existing product | Update product having uuid = uuid-0001 |
+| uuid-0002 | SKU-new02 | tshirt | New product | Create product with uuid = uuid-0002 and SKU = SKU-new02 |
+| uuid-0003 |  | tshirt | Existing product | Update product having uuid = uuid-0003 and no SKU |
+| uuid-0004 |  | tshirt | New product | Create product with uuid = uuid-0004 and no SKU |
+
+::: warning
+Please note that the UUID can’t be modified once the product is created.
+:::
