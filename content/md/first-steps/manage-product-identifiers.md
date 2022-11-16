@@ -34,19 +34,11 @@ The identifier attribute has evolved:
 
 ## Search for products with the identifier attribute
 
-One of the big benefits of the identifier attribute is to be able to identify your products by all means:
+One of the big benefits of the identifier attribute is to be able to identify your products by all means.
+
 On the PIM, you can search for a product with its identifier in two different ways:
 - Use the search bar at the top of the product grid if you search for one specific product,
 - or use the filter on the left with the in-list function if you want to display a list of several products.
-
-## Update your products with imports
-
-When exporting your products from the PIM, your downloaded files contain a “SKU“ column.
-Once you have modified your product details in the file, ensure the “SKU” column is still included in the document as it will help identify your products and update them.
-
-::: info
-Exported files will soon contain a “UUID” column. It is the best way to identify your products as this technical product identifier is immutable, and will work even if you have products without SKU. [Learn more in this section](manage-product-identifiers.html#manage-your-products-with-the-uuid)
-:::
 
 ## Update your products with the API
 
@@ -82,29 +74,36 @@ The UUID is visible in the following places:
 - The URL of the product in the PIM,
 - and the product API.
 
-<!-- - Product export files -->
 
-::: tips
-Stay tuned, you will soon be able to :
-- Use the UUID in the **product export files**
-- Perform **product updates with imports** using the UUID with a SKU or not  
-:::
-
-<!--  ## Update your products with imports
+## Update your products with imports
 
 When exporting your products from the PIM, your downloaded files can now contain a new column named “UUID”. Unlike the identifier attribute, you are sure that all your products have a UUID, meaning it is the best way to update your products when re-importing your file in the PIM.
 
 ::: info
-The UUID column is hidden by default. If you want to display this column, click on .... (to be finished)
+The UUID column is hidden by default. If you want to display this column, [Update your export profile](exports.html#update-an-export-profile) and activate 'With Product UUID' before running your export.
 :::
 
 Once you have modified your product details in the file, ensure the “UUID” column is still included in the document as it will help identify your products to update them.
 
-Here are a few use cases when importing products
-- If there are no UUID nor SKU columns in a row, a new product will be created and a UUID will be generated.
-- If there is no UUID but a SKU for an existing product, the product will be updated as it always worked.
-- If there is a UUID but no SKU for an existing product, the product will be updated.
-- If the UUID and the SKU of a product don’t match, the UUID will prevail and the current SKU will be modified by the new one. -->
+Here are a few use cases when importing products:
+- *You can create a product with no SKU & no UUID:* a new product will be created and a UUID will be randomly assigned.
+- *You can create a product with a SKU and no UUID:* a new product will be created with this SKU and a UUID will be randomly assigned.
+- *You can update a product only with its UUID:* the product will be updated even if the SKU is not available.
+- *You can update a product only with its SKU:* the product will be updated even if the UUID is not available.
+- *You can update the SKU of a product using its UUID:* the product will be updated with a new SKU.
+- *You can create a product with my own UUID:* you can generate a v4 UUID anywhere (on this website for ex.) and add it during the product creation process.
+
+Here is the table listing all usecases depending on what you fill in the UUID and SKU columns:
+| uuid | sku | family | name-en_US | Result |
+| --- | --- | --- | --- | --- |
+|  | SKU-ex01 | tshirt | Existing product | Update product having SKU = SKU-ex01 |
+|  | SKU-new01 | tshirt | New product | Create product with generated uuid and SKU = SKU-new01 |
+|  |  | tshirt | New product | Create product with generated uuid and no SKU |
+| uuid-0001 | SKU-ex02 | tshirt | Existing product | Update product having uuid = uuid-0001 |
+| uuid-0002 | SKU-new02 | tshirt | New product | Create product with uuid = uuid-0002 and SKU = SKU-new02 |
+| uuid-0003 |  | tshirt | Existing product | Update product having uuid = uuid-0003 and no SKU |
+| uuid-0004 |  | tshirt | New product | Create product with uuid = uuid-0004 and no SKU |
+
 
 ## Update your products with the API
 
