@@ -208,7 +208,6 @@ Here is the list of the fields you can use to select your products:
 - Among the product properties:
   * the `family`,
   * the `categories`,
-  * the `status`,
   * the `enabled`.
 - Among the product attributes:
   * the `identifier` attribute,
