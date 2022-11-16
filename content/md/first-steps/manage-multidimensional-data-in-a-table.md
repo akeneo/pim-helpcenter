@@ -158,7 +158,7 @@ And if you are comfortable with the API, you can retrieve the table options with
 :::
 
 :::warning
-When exporting lots of options, please note that the export will fail if the total number of characters exceed 32,767 per cell.
+When exporting lots of options in XLSX, please note that the export will fail if the total number of characters exceed 32,767 per cell.
 :::
 
 ## Import/export the table values of a product
