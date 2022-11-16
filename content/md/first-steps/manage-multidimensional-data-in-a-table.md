@@ -157,6 +157,10 @@ Because it would have been a nightmare to mix up the columns configuration and t
 And if you are comfortable with the API, you can retrieve the table options within the `Attribute` endpoints, as you can see in our [API documentation](https://api.akeneo.com/api-reference.html#Attribute).
 :::
 
+:::warning
+When exporting lots of options, please note that the export will fail if the total number of characters exceed 32,767 per cell.
+:::
+
 ## Import/export the table values of a product
 Exactly like for other attribute types, you can import and export your products with table attributes. CSV and XLSX formats are structured as tables. Therefore, to import the Akeneo PIM table attribute value, it must be formatted in a single cell of your import using the JSON format. This way it’ll be imported along with any other regular attribute values. It’s faster but more technical.
 
