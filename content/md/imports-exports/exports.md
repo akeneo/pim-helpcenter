@@ -74,7 +74,7 @@ To update an export profile:
 In the tab `General properties`, you can edit the label of your profile.  
 In the `Global settings` tab, properties depend on the export job. For example, for the CSV product export, you will find the following properties:
 
-![Product export global settings](../img/Exports_Product-Export_global-settings.png)
+![Product export global settings](../img/Exports_Product-Export_global-settings-UUID.png)
 
 | Property            | Details   |
 |:--------------------|:----------|
@@ -89,6 +89,7 @@ In the `Global settings` tab, properties depend on the export job. For example, 
 | Export with labels       | Defines if the export file displays values' labels instead of values' codes |
 | Headers with labels*      | Defines if the export file displays headers' labels instead of headers' codes |
 | File locale*      | Defines the locale in which labels are displayed |
+| With product UUID    | Adds the product UUID in the file as the first column |
 
 *Only visible if the option `Export with labels` has been activated.
 
