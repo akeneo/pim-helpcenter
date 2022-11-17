@@ -28,7 +28,10 @@ To start the export of product information from the products' grid:
     - `With labels` to define if the export file displays values' **labels** instead of values' codes.
     - `Without media` to export the attribute values except the media (from asset collection, image, or file attributes)
     - `With media` to export the attribute values including the media (from asset collection, image, or file attributes)
-    ![Quick Export checkboxes](../img/Exports_Quick-Export-checkboxes.png)
+    - `Without UUID` to export the product values except the product UUID (the associated products will also be displayed with their SKU)
+    - `With UUID` to export the product values including the product UUID (the associated products will also be displayed with their UUID instead of their SKU)
+
+    ![Quick Export checkboxes](../img/Exports_Quick-Export-checkboxes-UUID.png)
 1.  In the top-right corner, click on `Export`
 
 ::: tips
