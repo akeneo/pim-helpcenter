@@ -31,7 +31,7 @@ To start the export of product information from the products' grid:
     - `Without UUID` to export the product values except the product UUID (the associated products will also be displayed with their SKU)
     - `With UUID` to export the product values including the product UUID (the associated products will also be displayed with their UUID instead of their SKU)
 
-    ![Quick Export checkboxes](../img/Exports_Quick-Export-checkboxes.png)
+    ![Quick Export checkboxes](../img/Exports_Quick-Export-checkboxes-UUID.png)
 1.  In the top-right corner, click on `Export`
 
 ::: tips
