@@ -12,5 +12,12 @@
     "img": "./img/enrichedcats1Large.png",
     "img": "./img/enrichedcats2Large.png",
     "areas": ["Governance"]
+  },
+  {
+    "title": "Akeneo Apps - Catalogs with attribute mapping",
+    "description": "Ease the app development and configuration is key for Akeneo. With the attribute mapping, developers can reduce the TCO of their app and users can directly map PIM attributes with channel data within the Akeneo PIM.",
+    "img": "./img/Mapping-enriched.png",
+    "areas": ["Connectivity"],
+    "editions": ["EE","GE"]
   }
 ]
