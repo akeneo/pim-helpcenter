@@ -139,7 +139,7 @@ New operations will come along the year to help you save time importing your pro
 :::
 
 :::warning
-Adding the operations in the correct order is essential. For instance, if you want to convert ` this text ` to `This text`, you need to add the operations `Remove whitespaces at the beginning and the end`, then `First letter uppercase`, and not the contrary.
+Adding the operations in the correct order is essential. For instance, if you want to import the column "Main color" that contains multiple values in each cell (e.g. "Black, Crow, Charcoal, Obsidian") from your Excel spreadsheet into one multi-select attribute "Color" in our PIM, you need to add the operations in that order: first `Split`, then `Replacement`.
 :::
 
 Depending on the targets that you define, here are the different types of operations that you can add:
@@ -157,7 +157,7 @@ It will help you to replace the values by your own.
 ![Replacement operation](../img/Tailored-Import_Operation_Replacement.png)
 
 ::: warning
-Replacement values are case-sensitive.
+Replacement values are case-insensitive.
 :::
 
 ## Split
