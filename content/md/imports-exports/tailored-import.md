@@ -138,6 +138,10 @@ You can use operations to transform the data in order to make the import process
 New operations will come along the year to help you save time importing your product information. Do not hesitate to contact your Customer Success Manager if you want to help us by communicating your use case & needs.
 :::
 
+:::warning
+Adding the operations in the correct order is essential. For instance, if you want to import the column "Main color" that contains multiple values in each cell (e.g. "Black, Crow, Charcoal, Obsidian") from your Excel spreadsheet into one multi-select attribute "Color" in our PIM, you need to add the operations in that order: first `Split`, then `Replacement`.
+:::
+
 Depending on the targets that you define, here are the different types of operations that you can add:
 
 ## Yes/No replacement
@@ -153,7 +157,7 @@ It will help you to replace the values by your own.
 ![Replacement operation](../img/Tailored-Import_Operation_Replacement.png)
 
 ::: warning
-Replacement values are case-sensitive.
+Replacement values are case-insensitive.
 :::
 
 ## Split
@@ -188,9 +192,12 @@ It will help you to clean the unnecessary whitespaces values with two options:
 * Remove whitespaces at the beginning and the end
 ![Remove whitespaces operation](../img/Tailored-Import_Operation_Remove-whitespaces.png)
 
-:::info
-Adding the operations in the correct order is essential. For instance, if you want to convert ` this text ` to `This text`, you need to add the operations `Remove whitespaces at the beginning and the end`, then `First letter uppercase`, and not the contrary.
-:::
+## Search and replace
+
+This operation is available for `Text` and `Text Area` attributes used as a target.
+It will help you to search for a term and replace it by another one. Note that you can add up to 10 replaced values per operation.
+![Search & replace operation](../img/Tailored-Import_Operation_Search-and-Replace.png)
+
 
 # Duplicate a Tailored Import profile
 
