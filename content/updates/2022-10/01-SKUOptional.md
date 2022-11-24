@@ -14,5 +14,5 @@ SKU is no longer mandatory when creating products in Akeneo PIM and we're introd
 ![Create a SKU](../img/skuoptional.png)
 
 ::: more
-[Read the complete documenatation](../articles/manage-product-identifiers.html#update-your-products-with-the-api)
+[Read the complete documentation](../articles/manage-product-identifiers.html#update-your-products-with-the-api)
 :::
