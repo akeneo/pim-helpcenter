@@ -15,7 +15,7 @@
   },
   {
     "title": "Akeneo Apps - Catalogs with attribute mapping",
-    "description": "Ease the app development and configuration is key for Akeneo. With the attribute mapping, developers can reduce the TCO of their app and users can directly map PIM attributes with channel data within the Akeneo PIM.",
+    "description": "Easing app development and configuration is key for Akeneo partners and developers. With attribute mapping for catalogs developers can reduce the TCO and improve the time to deployment, since native mapping capabilities inside Akeneo PIM will enable users to connect and then map their PIM attributes to the app targets.",
     "img": "./img/Mapping-enriched.png",
     "areas": ["Connectivity"],
     "editions": ["EE","GE"]
