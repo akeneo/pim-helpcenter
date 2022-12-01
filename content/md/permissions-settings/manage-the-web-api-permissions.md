@@ -103,7 +103,6 @@ The following tables sum up the permissions you will find to restrict the access
 |:--------------|:------------------------------------------------|
 | List reference entity records | Gives permission to retrieve reference entity records using the API |
 | Create and update reference entity records | Gives permission to create and update reference entity records using the API |
-| Delete reference entity records | Gives permission to delete reference entity records using the API |
 | List reference entities | Gives permission to retrieve reference entities using the API |
 | Create and update reference entities | Gives permission to create and update reference entities using the API |
 
