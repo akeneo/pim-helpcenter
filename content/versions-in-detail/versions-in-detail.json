@@ -1,5 +1,27 @@
 [
   {
+    "code": "70",
+    "label": "7.0",
+    "name": {
+      "CE": "Sahara Hare",
+      "EE": "Buckwheat"
+    },
+    "releaseDate": "",
+    "supportEndDate": "",
+    "doc": {
+      "functional": "/pim/v7",
+      "api": "https://api.akeneo.com/api-reference-index-70.html"
+    },
+    "migrationToLatestDoc": false,
+    "releaseNoteLink": "/pim/v7/updates/index.html",
+    "newKeyFeaturesIn": {
+      "CE": "/pim/serenity/whats-new.html#versions=.70&edition=.CE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability",
+      "EE": "/pim/serenity/whats-new.html#versions=.70&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+    },
+    "newKeyFeaturesIfIMigrateToLatest": null,
+    "newKeyFeaturesIfIMigrateToSerenity": "/pim/serenity/whats-new.html#versions=.serenity&edition=.EE&domains=.governance%2C.productivity%2C.collaboration%2C.connectivity%2C.dataquality%2C.automation%2C.reporting%2C.scalability"
+  },
+  {
     "code": "60",
     "label": "6.0",
     "name": {
