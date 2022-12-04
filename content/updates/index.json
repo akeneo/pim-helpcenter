@@ -1,4 +1,9 @@
 {
+  "2022-11": {
+  "title": "November 2022 Serenity updates",
+  "description": "This month we added additional options to support import and export capabilities in Akeneo PIM. Tailored Imports now includes search and replace options and the UUID identifier can be added to export files.",
+  "img": "illus-november-22.svg"
+},
   "2022-10": {
   "title": "October 2022 Serenity updates",
   "description": "This month we are introducing a big change to SKUs. They are no longer required when entering a product in Akeneo PIM. Plus, new enhancements to Tailored Imports provide options to replace values in a supplier’s file with reference entities.",
