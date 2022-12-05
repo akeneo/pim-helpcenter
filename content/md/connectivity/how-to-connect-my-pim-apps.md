@@ -240,12 +240,7 @@ In the `Product selection` tab, you can define selection criteria. They are the 
 When there are no criteria, your whole PIM catalog is selected. 
 :::
 
-<!-- Display until we release the rest of the criteria. -->
-As we only released the beta version, you will find only one criterion in the list: the **status** filter.  
-Stay tuned, we are working on adding new criteria!
-
-<!-- For the GA 
-You will find the system fields at the top of the list and below are all the attributes gathered by attribute groups. There is a search bar to help you find the attributes.  -->
+You will find the system fields at the top of the list and below are all the attributes gathered by attribute groups. There is a search bar to help you find the attributes. 
 
 Each time you add a criterion, its color turns purple to inform you that it is already used.  
 A new line appears in the product selection.
@@ -261,7 +256,6 @@ The following fields vary depending on your filter. There can be up to 3 types o
 
 If you want to remove a condition, click on the cross at the end of the line.
 
-<!-- Will be added as soon as each type is released
 ### Available conditions
 To select your products, you can use the following system fields and attribute types of the PIM as conditions:
 - Status
@@ -275,11 +269,9 @@ To select your products, you can use the following system fields and attribute t
 - Multi-select attribute
 - Number attribute
 - Text area attribute
-- Reference entity single link attribute
-- Asset collection attribute
-- Reference entity multiple links attribute
 - Date attribute
-- Identifier -->
+- Identifier 
+- Measurement
 
 
 ## How to enable or disable a catalog?
