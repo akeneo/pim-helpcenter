@@ -12,7 +12,7 @@ related: manage-your-users, what-is-a-role, build-your-user-groups, build-your-u
 Nothing exotic here. A user is simply an account access to log into the PIM.
 
 ::: info
-One user account can be used by one or several persons in a company.
+One user account can only be used by one person in a company.
 :::
 
 A user has at least:
