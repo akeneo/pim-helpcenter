@@ -55,6 +55,10 @@ SAML (Security Assertion Markup Language) is an XML-based standard for exchangin
 
 SAML-based Single Sign-On is a two-way communication between an authentication server (the Identity Provider) and an application (the Service Provider). Therefore, your PIM needs to be configured to declare who will be the authentication server and how the communication must work.
 
+## Pre-Requisites
+
+Before proceeding with the configuration make sure you have configured your AKENEO_PIM_URL on your PIM. This variable can be edited in app/config/pim_parameters.yml. This variable match the URL you will be accessing the PIM from and will be used to auto-generate the SP ACS and SP Metadata URL.
+
 ## Gather information from your Identity Provider (IdP)
 
 First of all, before configuring your PIM to communicate with an `Identity Provider`, you will have to gather some information about your IdP. Your IT department/SSO administrator must probably have all the information.
