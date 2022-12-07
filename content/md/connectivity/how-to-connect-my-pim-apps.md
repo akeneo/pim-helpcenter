@@ -236,11 +236,15 @@ If you can't click on `Manage apps`, please read our paragraph [Who can connect 
 ## How to configure a product selection?
 In the `Product selection` tab, you can define selection criteria. They are the attributes or system fields you can use to filter your products. Altogether, the criteria will create your Product selection.
 
+![Catalog - Product selection](../img/app-catalog-product-selection.png)
+
 ::: warning
 When there are no criteria, your whole PIM catalog is selected. 
 :::
 
 You will find the system fields at the top of the list and below are all the attributes gathered by attribute groups. There is a search bar to help you find the attributes. 
+
+<img class="img-responsive in-article" alt="Product selection criteria" src="../img/app-catalog-criteria-selection.png" style="max-width: 700px;">
 
 Each time you add a criterion, its color turns purple to inform you that it is already used.  
 A new line appears in the product selection.
@@ -273,13 +277,31 @@ To select your products, you can use the following system fields and attribute t
 - Identifier 
 - Measurement
 
+## How to configure filters?
+In the `Filter the values` tab, you can configure data filters to send only the data your app needs. 
+
+### Available filters
+To filter product values, you can use the following filters:
+- Channels: when an attribute has value per channel, the PIM sends only product values for the selected channels
+- Locales: when an attribute has value per locale, the PIM sends only product values for the selected locales
+- Currencies: the PIM sends only prices for the selected currencies
+
+### Example
+You connect your e-commerce app with your PIM and want to send only data related to your e-commerce channel. 
+
+In the `Filter the values` tab, we advise you to filter the values on your e-commerce channel as in the following screenshot. 
+
+<img class="img-responsive in-article" alt="Catalog - Filter the values" src="../img/app-catalog-value-filters.png" style="max-width: 500px;">
+
 
 ## How to enable or disable a catalog?
-Once you finish configuring your catalog, go to the `Settings` tab and update the Enabled value to `Yes`. 
+Once you finish configuring your catalog, update the `Enable status` value to `Yes` in the catalog header.
+
+<img class="img-responsive in-article" alt="Product selection criteria" src="../img/app-catalog-enable-button.png" style="max-width: 700px;">
 
 As soon as you enable a catalog, the app will be able to retrieve your product selection data. 
 
-On the contrary, if you want to stop the catalog synchronization between Akeneo PIM and the app, go to the `Settings` tab and update the Enabled value to `No`. 
+On the contrary, if you want to stop the catalog synchronization between Akeneo PIM and the app, update the `Enable status` value to `No` in the catalog header. 
 
 ::: info
 All new catalogs are disabled by default when you connect an app. It's up to you to enable them when your configuration is ready. 
