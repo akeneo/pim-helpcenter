@@ -61,3 +61,7 @@ If you edited the values of products B & C associated with product A, and if pro
 ::: warning
 Associations for published products will only be visible via the API and XLSX or CSV exports. That means you won’t see the `Associations` tab on the product edit form of published products. Please note that associations with quantities aren’t compatible with published products.
 :::
+
+::: warning
+Published products are not compatible with the associations inherited from product models.
+::: 
