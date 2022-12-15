@@ -20,7 +20,7 @@ Without Tailored Export, you have to export your product information thanks to a
 Thanks to Tailored Export, prepare the work from Akeneo PIM creating a Tailored Export profile per your retailer's or distributor's requirements and use it as often as necessary. **You no longer need to manually edit your XLSX or CSV files when you need to share product information.**
 
 :::tips
-To learn more about Tailored Export and how to use this feature, please watch our training [Tailored Exports Foundations](https://akademy.akeneo.com/tailored-exports-foundations).
+To learn more about Tailored Export and how to use this feature, please watch our training [Tailored Exports Foundations](https://akademy.akeneo.com/tailored-exports/).
 :::
 
 # Create a tailored product export profile
@@ -107,7 +107,7 @@ Limitations have been set for each Tailored Export profile:
 You can use operations to share the most meaningful values for your stakeholders by adapting your PIM values in different ways when exporting them.
 
 :::tips
-To learn more about operations, please watch our training [Tailored Exports Operations](https://akademy.akeneo.com/tailored-exports-operations).
+To learn more about operations, please watch our lesson 5 about [Tailored Exports Operations](https://akademy.akeneo.com/tailored-exports/).
 :::
 
 Depending on the sources you define, here are the different types of operations you can add:
