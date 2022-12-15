@@ -106,7 +106,7 @@ The `pattern` property allows you to define how the PIM should split the [source
 
 The split pattern should be a string. It should be given as a regular expression.  
 For the PIM to know into which asset attributes the result of the split should be sent, this regular expression should contain one or several named capture groups.  
-Note that the names of these capture groups should be equal to the code of existing asset attribute of the family and these asset attributes can only be `text` attributes and `number` attributes.
+Note that the names of these capture groups should be equal to the code of existing asset attribute of the family and these asset attributes can only be `text`, `number` and `option` attributes.
 
 ::: warning
 These asset attributes cannot be localizable neither scopable.
