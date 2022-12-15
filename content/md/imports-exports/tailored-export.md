@@ -107,7 +107,7 @@ Limitations have been set for each Tailored Export profile:
 You can use operations to share the most meaningful values for your stakeholders by adapting your PIM values in different ways when exporting them.
 
 :::tips
-To learn more about operations, please watch our training [Tailored Exports Operations](https://akademy.akeneo.com/tailored-exports-operations).
+To learn more about operations, please watch our lesson 5 about [Tailored Exports Operations](https://akademy.akeneo.com/tailored-exports/).
 :::
 
 Depending on the sources you define, here are the different types of operations you can add:
