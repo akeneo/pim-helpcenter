@@ -12,7 +12,7 @@ related: imports, exports, tailored-export, tailored-import,
 
 This feature allows you to automate your product imports and/or exports, and is available only for our Enterprise Edition or Growth Edition users.
 You will be able to:
-* Connect your product imports/exports to remote SFTP storages.
+* Connect your product imports/exports to remote storages.
 * Automate them by scheduling their executions.
 
 # Connect your import/export profile to a remote storage
@@ -22,7 +22,7 @@ To connect your product import/export to a remote storage:
 1. Select the profile you would like to automate
 1. Click `Edit` in the top right corner
 1. Click `Properties`
-1. Under "Connection", select `SFTP`
+1. Under "Connection", select any choice from the dropdown list. For instance: `SFTP`
 ![Select a connection type](../img/Automation_connection_type.png)
 1. Fill in all mandatory fields: `Filepath`, `Host`, `Port`, `Login` and `Password`
 ![Fill in all fields](../img/Automation_SFTP_configured.png)
@@ -53,7 +53,7 @@ In order to automatically execute an import/export profile:
 1. Under "Automation", switch "Enable scheduling" button to `Yes`
 1. Under "Scheduling", select your preferred frequency of execution
 ![Select frequency of execution](../img/Automation_frequency-selection.png)
-1. Then, select the user group to apply the related permissions (EE only)
+1. Then, select the user group to apply the related permissions to this automated job can apply (EE only)
 ![Select user group to apply permissions](../img/Automation_user-groups_permissions.png)
 1. Finally, select the user groups and/or users to be notified when a job is completed with success, has failed, or can't even be launched. One e-mail and one in-app notification will be sent for each job status.
 ![Select users and/or user groups to be notified](../img/Automation_user-groups_users_notifications.png)
@@ -68,4 +68,4 @@ In order to automatically execute an import/export profile:
 
 # Manually execute an import/export profile connected to a remote storage
 
-Once you have connected your import/export profile to a remote server, go back to the root of your profile by clicking on its name in the breadcrumb, and simply click on `Import now` to import from an SFTP server or `Export now` to export to an SFTP server.
+Once you have connected your import/export profile to a remote server, go back to the root of your profile by clicking on its name in the breadcrumb, and simply click on `Import now` to import from a remote server or `Export now` to export to a remote server.
