@@ -19,5 +19,12 @@
     "img": "./img/Mapping-enriched.png",
     "areas": ["Connectivity"],
     "editions": ["EE","GE"]
+  },
+  {
+    "title": "Time-To-Market Insights",
+    "description": "Time-to-Market Insights identifies opportunities to streamline the product data enrichment process in Akeneo PIM to bring products to market faster.",
+    "img": "./img/Timetoenrich.png",
+    "areas": ["Productivity"],
+    "editions": ["EE"]
   }
 ]
