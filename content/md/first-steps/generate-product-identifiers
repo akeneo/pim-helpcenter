@@ -1,1 +1,147 @@
+---
+id: generate-product-identifiers
+themes: catalog-settings
+title: Generate product **identifiers**
+popular: true
+ee: true
+ge: true
+related: about-product-identifiers
+---
 
+# Identifier Generators
+
+## Overview
+
+The Identifier Generator is the new way to automate the generation of your identifiers during the creation process of your products, allowing you to create and structure product identifiers matching your needs. 
+
+:::tips
+More features will be released in the coming weeks: 
+- the ability to create several identifier generators
+- to select your targeted products (families or categories)
+- to create the structure of your identifiers with product attributes
+- and to manage custom abbreviations for each attribute value.
+:::
+
+## Create an Identifier Generator
+
+To create an identifier generator, click on ‘Settings’ and then ‘Identifier Generators’. (singulier ou pluriel? to check) 
+
+:::info
+If you don’t see the icon ‘Identifier Generators’ or don’t see the button ‘create’, check with your Administrator that you have the permission to create identifier generators. (lien vers permissions de cette même page)
+:::
+
+Start creating your generator by defining its name and label. The label should not exceed 255 characters. 
+
+
+## Define your product selection
+
+For the first version of our Identifier Generator, all products from your product catalog will be concerned. Stay tuned for the next steps of our Identifier Generator with advanced capabilities coming in Q1.
+
+<!---(Si product sélection déjà prête :
+
+By default, all your products will be impacted by the identifier generator, meaning that all your products will have the same identifier structure. 
+
+Add conditions to your product selection, if you want to:
+- automate the creation of identifiers for a targeted selection of products
+- have multiple structures of identifiers for different selection of products.
+
+Here is the type of conditions that you can add to the structure:
+
+1️. **Add a condition on the Status of your product:** You can choose to target only ‘enabled’ or ‘disabled’ products
+
+1. **Add a condition on the Family of the product :** You will be able to choose families your product is part of or NOT part of, or create identifiers only for products with a family.
+
+:::info
+You will soon be able to customize the structure of your identifiers even further:
+
+- **By customizing the name of your identifiers** for different selections of products (based on their category, a simple select or a multi select attribute) example:
+    - For my t-shirts: Tsh-Red-001
+    - For my pants: Pants-M-001
+ :::  
+--->
+
+## Define your properties
+
+Start to build your identifier structure by selecting ‘Add new property’.
+
+Here are the type of properties that you can add in the structure:
+
+###**Add one or several free text properties:** every ‘free text’ property should not exceed 100 characters. Leading or trailing spaces are not accepted in these properties. 
+
+###**Add an auto number (or incremental number):** 
+
+- Choose the minimum number of digits for the structure of your auto number
+- Choose a minimum number that your auto number will start from
+- The structure of your identifier must only contain one auto number
+
+For example, if the number of digits is 4 and the minimum number is 1, then the first number generated will be 0001.
+
+Please find below the different usecases about autonumbers and prefixes:
+
+| If the last identifier generated is | and if | then the next identifier generated is |
+| --- | --- | --- |
+| AKN001 | A new product is created | AKN002 |
+| AKN001 | a product is imported with AKN060 as the identifier | AKN061 |
+| AKN232 | AKN235 is created by a user in the UI | AKN236 |
+| AKN999 | A new product is created | AKN1000 |
+
+###**Add the delimiter of your choice.** The delimiter is not added by default in the structure. 
+
+ If you tick the box ‘Use delimiters between each property’, a ‘-’ delimiter will be added between every properties of your structure. This delimiter can be changed. 
+
+A delimiter must not be a comma, a semicolon or leading/trailing space.
+
+:::info
+It is only possible to create one delimiter for an Identifier Generator.
+
+If you would like to **create several delimiters within your structure** (ex: AKN-PRODUCT/001), then we recommend to create free text properties:
+
+- Free text: AKN
+- Free Text: -
+- Free Text: PRODUCT
+- Free text: /
+- Auto number: 001
+:::
+
+
+The structure of your Identifier Generator should match the existing constraints of your identifier attribute (number of characters, regex, etc.) or an identifier won’t be generated.
+
+
+:::warning
+Please note that you will be able to create a **maximum of 20 properties** (including one or several free texts and an auto number).
+:::
+
+You will soon be able to customize the structure of your identifiers even further:
+
+- **by defining identifiers including product values** (like the family or a simple select) but also by managing abbreviations. Example of identifier: Tshirt-Akeneo-Red-XS-001
+
+
+## When is my Identifier generated?
+
+- **When a product is created or updated:** in the User Interface, via an import or via the API.
+- **Only when a product has no existing SKU:** we will never delete a identifier that is already assigned to a product.
+
+::: warning 
+Existing products are not automatically updated after the creation of the generator. To assign a new identifier to an existing product matching your Identifier Generator settings, you will need to modify the concerned product and save it. 
+:::
+
+## How to delete or modify an Identifier Generator?
+
+If you would like to delete or modify an existing Identifier Generator, it is important to take note that all previously generated product identifiers will remain assigned on your products.
+
+Only newly created or modified and saved products will be impacted. 
+
+## Define permissions
+
+By default, all users will have the right to view the Identifier Generators but also to view generators. Administrators will be able to remove this access to a user. 
+
+If an Administrator unticks all permissions for a user, this user will not be able to access the ‘Identifier Generators’ section.
+
+Administrators will manage access rights to other users with the following permissions:
+
+- ‘View Generators’: Users will see the list of generators and consult the settings of each one of them but they won’t be able to create, edit, or delete generators.
+- ‘Create, Edit and Delete Generators’: Users will have the full rights to create and modify generators.
+
+:::info
+By default, new users added on the PIM will have the ‘View Generators’ access.
+:::
