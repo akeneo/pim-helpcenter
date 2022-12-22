@@ -198,6 +198,8 @@ This operation is available for `Text` and `Text Area` attributes used as a targ
 It will help you to search for a term and replace it by another one. Note that you can add up to 10 replaced values per operation.
 ![Search & replace operation](../img/Tailored-Import_Operation_Search-and-Replace.png)
 
+## Extract with regular expression
+
 
 # Duplicate a Tailored Import profile
 
