@@ -200,6 +200,14 @@ It will help you to search for a term and replace it by another one. Note that y
 
 ## Extract with regular expression
 
+This operation is available for `Text` and `Text Area` attributes used as a target.
+It will help you to extract a value based on a regular expression from your choice.
+![Regular expression operation](../img/Tailored-Import_Operation_Regular-expression.png)
+
+::: tips
+Your regular expression shoud start and end by a slash (/).  
+If you're new to regular expressions, you can use the service of [Autoregex](https://www.autoregex.xyz/) to generate a regular expression based on a sentence describing your need.
+:::
 
 # Duplicate a Tailored Import profile
 
