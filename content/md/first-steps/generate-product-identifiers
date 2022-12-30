@@ -24,7 +24,7 @@ More features will be released in the coming weeks:
 
 ## Create an Identifier Generator
 
-To create an identifier generator, click on ‘Settings’ and then ‘Identifier Generators’. (singulier ou pluriel? to check) 
+To create an identifier generator, click on ‘Settings’ and then ‘Identifier Generators’.
 
 :::info
 If you don’t see the icon ‘Identifier Generators’ or don’t see the button ‘create’, check with your Administrator that you have the permission to create identifier generators. (lien vers permissions de cette même page)
@@ -35,7 +35,11 @@ Start creating your generator by defining its name and label. The label should n
 
 ## Define your product selection
 
-For the first version of our Identifier Generator, all products from your product catalog will be concerned. Stay tuned for the next steps of our Identifier Generator with advanced capabilities coming in Q1.
+For the first version of our Identifier Generator, all products from your product catalog will be concerned. 
+
+![image](../img/Settings_IdentifierGenerator_ProductSelection.png)
+
+Stay tuned for the next steps of our Identifier Generator with advanced capabilities coming in Q1.
 
 <!---(Si product sélection déjà prête :
 
@@ -103,6 +107,7 @@ If you would like to **create several delimiters within your structure** (ex: AK
 - Auto number: 001
 :::
 
+![image](../img/Settings_IdentifierGenerator_ProductStructure.png)
 
 The structure of your Identifier Generator should match the existing constraints of your identifier attribute (number of characters, regex, etc.) or an identifier won’t be generated.
 
