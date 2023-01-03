@@ -213,5 +213,8 @@ In the bottom bar, checking the box allows you to select all records or none in 
 ![Records Mass Deletion](../img/ReferenceEntity_Mass-delete-records.png)
 
 ::: warning
-To delete all the records of an entity, you **need to check that no record of this entity is linked to other entities or used in a product**. Otherwise you will not be able to delete it.
+To be able to delete all the records of an entity, you need to check that:
+* No record of this entity is linked to other entities
+* No record of this entity is linked to a table attribute
+* No record of this entity is in a product
 :::
