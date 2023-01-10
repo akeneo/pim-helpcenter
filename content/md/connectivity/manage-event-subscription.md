@@ -42,7 +42,7 @@ Now, let's move on to the URL configuration, and soon you'll be able to receive 
 Before configuring your request URL, please check our [security constraints regarding this field](https://api.akeneo.com/events-documentation/security.html#constraints-on-ip-addresses).
 :::
 
-Please fill in the URL field with your server URL to configure your request URL. Then, before saving the form, click on `Test` to check if the URL works. To help you, Akeneo PIM will display the response code of the test request. 
+Please fill in the URL field with your server URL. Then, before saving the form, click on `Test` to check if the request URL you configured works. To help you, Akeneo PIM will display the response code of the test request.
 
 Here are some examples of responses you may encounter. 
 ![URL Warnings](../img/url-warnings.png)
