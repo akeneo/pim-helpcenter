@@ -11,7 +11,6 @@ related: what-is-an-event-subscription, how-to-connect-my-pim-legacy, manage-you
 Before we jump right in, if you need to refresh your memory about [event subscriptions](what-is-an-event-subscription.html), take a look at our dedicated page.
 ::: 
 
-
 You are about to set up your first event-enabled extension and you want to make sure it works. 
 You've come to the right place. 
 
@@ -120,11 +119,9 @@ You may have differences in date format between the list and the filter.
 The date and time formats of the filter use your browser configuration, and the list relies on your PIM settings.
 :::
 
-
 Moreover, the search bar allows you to refine your research even more.
 
 ![Download logs button](../img/event-logs-searchbar.png)
-
 
 Finally, you still have access to the `Download logs` button that allows you to download a `.txt` file with all the logs related to an event subscription. 
 
