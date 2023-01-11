@@ -11,7 +11,6 @@ related: what-is-an-event-subscription, how-to-connect-my-pim-legacy, manage-you
 Before we jump right in, if you need to refresh your memory about [event subscriptions](what-is-an-event-subscription.html), take a look at our dedicated page.
 ::: 
 
-
 You are about to set up your first event-enabled extension and you want to make sure it works. 
 You've come to the right place. 
 
@@ -38,13 +37,13 @@ Now, let's move on to the URL configuration, and soon you'll be able to receive 
 
 ## Configure and confirm your request URL
 
-It's better if your Event Request URL is confirmed before saving the form. 
+::: tips
+Before configuring your request URL, please check our [security constraints regarding this field](https://api.akeneo.com/events-documentation/security.html#constraints-on-ip-addresses).
+:::
 
-To do so, please fill in the URL field with your server URL, and click on `Test` to check if the URL works. To help you, Akeneo PIM will display the response code of the test request. 
+Please fill in the URL field with your server URL. Then, before saving the form, click on `Test` to check if the request URL you configured works. To help you, Akeneo PIM will display the response code of the test request.
 
 Here are some examples of responses you may encounter. 
-
-
 ![URL Warnings](../img/url-warnings.png)
 
 ::: info
@@ -120,11 +119,9 @@ You may have differences in date format between the list and the filter.
 The date and time formats of the filter use your browser configuration, and the list relies on your PIM settings.
 :::
 
-
 Moreover, the search bar allows you to refine your research even more.
 
 ![Download logs button](../img/event-logs-searchbar.png)
-
 
 Finally, you still have access to the `Download logs` button that allows you to download a `.txt` file with all the logs related to an event subscription. 
 
