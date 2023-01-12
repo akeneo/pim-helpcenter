@@ -1,5 +1,5 @@
 ---
-pim_announcement_img: ./img/openapps.png
+pim_announcement_img: ./img/akeneoopenapp.png
 pim_announcement_alt_img: Open your Connected Apps
 pim_announcement_audience:
 - EE
@@ -12,4 +12,4 @@ pim_announcement_audience:
 Now you can open a connected app from the App Settings page. Change the app settings or permissions and then quickly open the app by clicking the new “Go to App” button and eliminate the extra step of returning to the Connected Apps page to access your apps.  
 
 
-![Search and Replace](../img/openapps.png)
+![Search and Replace](../img/akeneoopenapp.png)
