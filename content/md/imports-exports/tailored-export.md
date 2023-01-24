@@ -102,6 +102,13 @@ Limitations have been set for each Tailored Export profile:
 * Text fields are limited to 255 characters.
 :::
 
+::: tips
+When selecting a reference entity attribute as a source, you have multiple choices:
+* Either the code or the label of the record
+* Either an attribute value used in the records, amongst the following: `Text`, `Text area`, `Number`, `Simple select` and `Multiple select`.  
+For instance, if you selected as a source the reference entity “Colors”, you will be able to select the description attribute of the record linked to the products to be exported.
+:::
+
 # Discover operations
 
 You can use operations to share the most meaningful values for your stakeholders by adapting your PIM values in different ways when exporting them.
