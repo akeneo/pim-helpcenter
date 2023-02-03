@@ -64,4 +64,5 @@ Associations for published products will only be visible via the API and XLSX or
 
 ::: warning
 Published products are not compatible with the associations inherited from product models.
+Please also note that associations with quantities and 2-way associations are not compatible with published products. 
 ::: 
