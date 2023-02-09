@@ -184,11 +184,9 @@ It is possible to import and export these permissions by using the dedicated imp
 |---------------------------|--------------|
 | Create a category                | User can create a new category while clicking on the tree and click on the  `Create a new category` button in the `Settings`/`Categories` menu entry |
 | Edit a category                  | User can edit a category while directly clicking on the category line. It allows to access the `Properties` tab to edit and save the category’s label translations. |
-| View category history | User can access the `History` tab of categories to view categories’ history at the condition that Edit a category right has been activated.
- |
+| View category history | User can access the `History` tab of categories to view categories’ history at the condition that Edit a category right has been activated.|
 | List categories | User can see and access all trees, then any of their related categories and sub-categories listed under the `Settings`/`Categories` menu entry |
-| Order/reorder categories         | In a category tree, user can order/reorder categories in the list using the drag-and-drop capacity at the condition that List categories right has been activated. Info: if you already have the right of Edit a category, the new Order/reorder categories right will be automatically activated.
- |
+| Order/reorder categories         | In a category tree, user can order/reorder categories in the list using the drag-and-drop capacity at the condition that List categories right has been activated. Info: if you already have the right of Edit a category, the new Order/reorder categories right will be automatically activated.|
 | Remove a category | User can remove a category using the `Delete` button |
 | Manage category template | User can `Activate` a category template per tree and `View` its related attributes in the new `Attributes` tab. Activating a category template is a prerequisite to `Edit category attributes`, allowing the user to enrich a category with content. Info: if you already have the right of Create a category or Edit a category, the new Manage category template right will be automatically activated. |
 | Edit category attributes | Once a category template has been activated for a given category tree, user can access the edition of the category attributes through the `Attributes` tab of any of its categories, at the condition that Edit categories has been activated. Info: if you already have the right of Edit a category, the new Edit category attributes right will be automatically activated. |
