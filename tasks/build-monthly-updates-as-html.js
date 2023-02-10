@@ -18,7 +18,7 @@ const tap = require('gulp-tap');
 const merge = require('merge-stream');
 const HelpcenterMarkdownIt = require('./common/markdown-it.js');
 
-const majorVersion = 'serenity';
+const majorVersion = 'v7';
 
 module.exports = {generateIndex, generateUpdates};
 
@@ -79,7 +79,7 @@ md
 
 gulp.task('build-monthly-updates-as-html', ['clean-dist','less'], function() {
     const fileDirectorySource = 'content/updates';
-    const fileDirectoryDestination = './dist/pim/serenity/updates';
+    const fileDirectoryDestination = './dist/pim/v7/updates';
     // by default, we generate all updates except if env variable ONLY_PREVIOUS_MONTH_UPDATES=true
     const generateAllUpdates = !(process.env.ONLY_PREVIOUS_MONTH_UPDATES && process.env.ONLY_PREVIOUS_MONTH_UPDATES === 'true');
 

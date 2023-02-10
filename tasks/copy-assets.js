@@ -5,7 +5,7 @@ var gulp = require('gulp');
 var rename = require('gulp-rename');
 var merge = require('merge-stream');
 
-var majorVersion = 'serenity';
+var majorVersion = 'v7';
 
 gulp.task('copy-assets', ['clean-dist'], function(){
     var lib = gulp.src([

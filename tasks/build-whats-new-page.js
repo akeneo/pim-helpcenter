@@ -10,7 +10,7 @@ const revReplace = require('gulp-rev-replace');
 const _ = require('lodash');
 const coloredAreas = require('./common/colored-areas.js');
 
-const majorVersion = 'serenity';
+const majorVersion = 'v7';
 const orderedVersions = {
     '17': { 'name': '1.7', 'isSupported': false },
     '20': { 'name': '2.0', 'isSupported': false },
@@ -31,7 +31,7 @@ module.exports = {generateWhatsNew};
 
 gulp.task('build-whats-new-page', ['clean-dist','less'], function() {
     const fileDirectorySource = 'content/whats-new';
-    const fileDirectoryDestination = './dist/pim/serenity';
+    const fileDirectoryDestination = './dist/pim/v7';
 
     return generateWhatsNew(fileDirectorySource, fileDirectoryDestination);
 });
