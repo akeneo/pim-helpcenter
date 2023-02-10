@@ -6,7 +6,7 @@
     <div id="whats-new" class="container whats-new" data-init-versions="{{defaultVersions}}" data-init-areas="{{defaultAreas}}">
         <div class="row">
             <div class="col-xs-12">
-                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / Discover the key features released in our versions</p>
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/v7">PIM help center</a> / Discover the key features released in our versions</p>
                 <h1>Discover the key features released in our versions</h1>
             </div>
         </div>
@@ -40,7 +40,7 @@
                 <h3>PXM areas</h3>
                 {{#each areas as |area key|}}
                     <label class="area-checkbox">
-                        <input id=".{{key}}" onclick="filterAreas('.{{key}}', this)" type="checkbox" value=".{{key}}" /> 
+                        <input id=".{{key}}" onclick="filterAreas('.{{key}}', this)" type="checkbox" value=".{{key}}" />
                         <span class="label label-{{area.color}} whats-new-updates-label">{{area.label}}</span>
                     </label>
                 {{/each}}
@@ -109,7 +109,7 @@
         checkedEdition = getHashEdition();
         var hashAreas = getHashAreas();
         checkedAreas = hashAreas ? hashAreas.split(',') : ['.none'];
-        
+
         // Filter the news in the grid depending on the checked filters
         $grid.isotope({ filter: computeFilters() });
         // Set the number of news displayed in the grid
@@ -149,7 +149,7 @@
         }
         disableGEWhenSerenityNotSelected();
         disableCEWhenOnlySerenitySelected();
-        
+
         // And we update both URL and the news grid accordingly
         updateHashAndRedrawGrid();
     }
@@ -184,7 +184,7 @@
         var combinationOfVersionsAreas = [];
         _.each(checkedAreas, function(area){
             _.each(checkedVersions, function(version){
-                combinationOfVersionsAreas.push(area + version); 
+                combinationOfVersionsAreas.push(area + version);
             });
         });
         return combinationOfVersionsAreas.join(checkedEdition + ', ') + checkedEdition;
