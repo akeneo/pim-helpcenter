@@ -1,5 +1,11 @@
 [
   {
+    "url": "/pim/v7/",
+    "version": "v7",
+    "label": "7.0 EE Flexibility/CE",
+    "suffix_with_filename": true
+  },
+  {
     "url": "/pim/v6/",
     "version": "v6",
     "label": "6.0 EE Flexibility/CE",
