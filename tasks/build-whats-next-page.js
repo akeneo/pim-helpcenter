@@ -10,13 +10,13 @@ const revReplace = require('gulp-rev-replace');
 const _ = require('lodash');
 const coloredAreas = require('./common/colored-areas.js');
 
-const majorVersion = 'serenity';
+const majorVersion = 'v7';
 
 module.exports = {generateWhatsNext};
 
 gulp.task('build-whats-next-page', ['clean-dist','less'], function() {
     const fileDirectorySource = 'content/whats-next';
-    const fileDirectoryDestination = './dist/pim/serenity';
+    const fileDirectoryDestination = './dist/pim/v7';
 
     return generateWhatsNext(fileDirectorySource, fileDirectoryDestination);
 });

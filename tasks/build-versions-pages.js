@@ -12,12 +12,12 @@ const moment = require ('moment');
 const coloredAreas = require('./common/colored-areas.js');
 const merge = require('merge-stream');
 
-const majorVersion = 'serenity';
+const majorVersion = 'v7';
 
 module.exports = {generateVersionsInDetailPage};
 
 gulp.task('build-versions-in-detail-page', ['clean-dist','less'], function() {
-    const fileDirectoryDestination = './dist/pim/serenity';
+    const fileDirectoryDestination = './dist/pim/v7';
 
     return merge(
         generateVersionsInDetailPage(fileDirectoryDestination),

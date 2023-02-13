@@ -10,7 +10,7 @@ const revReplace = require('gulp-rev-replace');
 const _ = require('lodash');
 const coloredAreas = require('./common/colored-areas.js');
 
-const majorVersion = 'serenity';
+const majorVersion = 'v7';
 const orderedVersions = {
     '17': { 'name': '1.7', 'isSupported': false },
     '20': { 'name': '2.0', 'isSupported': false },
@@ -21,8 +21,9 @@ const orderedVersions = {
     '31': { 'name': '3.1', 'isSupported': false },
     '32': { 'name': '3.2', 'isSupported': false },
     '40': { 'name': '4.0', 'isSupported': false },
-    '50': { 'name': '5.0', 'isSupported': true },
+    '50': { 'name': '5.0', 'isSupported': false },
     '60': { 'name': '6.0', 'isSupported': true },
+    '70': { 'name': '7.0', 'isSupported': true },
     'serenity': { 'name': 'Serenity', 'isSupported': true }
 };
 
@@ -30,7 +31,7 @@ module.exports = {generateWhatsNew};
 
 gulp.task('build-whats-new-page', ['clean-dist','less'], function() {
     const fileDirectorySource = 'content/whats-new';
-    const fileDirectoryDestination = './dist/pim/serenity';
+    const fileDirectoryDestination = './dist/pim/v7';
 
     return generateWhatsNew(fileDirectorySource, fileDirectoryDestination);
 });
@@ -42,7 +43,7 @@ function generateWhatsNew(fileDirectorySource, fileDirectoryDestination) {
     });
     const updates = _.reduce(_.reverse(orderedVersions), function(concatUpdates, version){
         var updatesByVersion = JSON.parse(fs.readFileSync(fileDirectorySource + '/' + version.name + '-news.json'));
-        var order = 0; 
+        var order = 0;
         _.eachRight(updatesByVersion, function(update){
             update.order = order;
             order ++;
@@ -57,7 +58,7 @@ function generateWhatsNew(fileDirectorySource, fileDirectoryDestination) {
         });
         update.areaCodes = _.map(update.areas, function(area){
             return area.replace(/\s/g, '').toLowerCase();
-        }); 
+        });
         update.version = update['since-version'].split('.').join('').toLowerCase();
         update.isSerenityOnly = update['since-version'] === 'Serenity';
     });

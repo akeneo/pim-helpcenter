@@ -2,7 +2,7 @@ version: 2
 jobs:
     build:
         machine:
-            image: ubuntu-2004:202111-02
+            image: ubuntu-2204:2022.07.1
         steps:
             - checkout
             - run: make build
@@ -10,44 +10,31 @@ jobs:
 
     test_announcements:
         machine:
-            image: ubuntu-2004:202111-02
+            image: ubuntu-2204:2022.07.1
         steps:
             - checkout
             - run: make build
-            - run: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS=$STAGING_GOOGLE_APPLICATION_CREDENTIALS make test-push-announcements
             - run: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT FIREBASE_TOKEN=$FIREBASE_TOKEN GOOGLE_APPLICATION_CREDENTIALS=$STAGING_GOOGLE_APPLICATION_CREDENTIALS make test-firebase-functions
 
     deploy_staging:
         machine:
-            image: ubuntu-2004:202111-02
+            image: ubuntu-2204:2022.07.1
         steps:
             - checkout
             - add_ssh_keys
             - run:
                   name: Deploy on staging server
                   command: HOSTNAME=$STAGING_HOSTNAME PORT=$STAGING_PORT HELP_CENTER_URL="https://${STAGING_HOSTNAME}/" make deploy
-            - run:
-                  name: Push announcements of communication panel of the PIM into firestore
-                  command: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS="$STAGING_GOOGLE_APPLICATION_CREDENTIALS" make push-announcements
-            - run:
-                  name: Push serverless functions into firebase to expose communication panel API
-                  command: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS="$STAGING_GOOGLE_APPLICATION_CREDENTIALS" make deploy-firebase-functions
 
     deploy_production:
         machine:
-            image: ubuntu-2004:202111-02
+            image: ubuntu-2204:2022.07.1
         steps:
             - checkout
             - add_ssh_keys
             - run:
                   name: Deploy on production server
                   command: HOSTNAME=$PROD_HOSTNAME PORT=$PROD_PORT ONLY_PREVIOUS_MONTH_UPDATES=true make deploy
-            - run:
-                  name: Push announcements of communication panel of the PIM into firestore
-                  command: FIREBASE_PROJECT=$PROD_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS="$PROD_GOOGLE_APPLICATION_CREDENTIALS" ONLY_PREVIOUS_MONTH_UPDATES=true make push-announcements
-            - run:
-                  name: Push serverless functions into firebase to expose communication panel API
-                  command: FIREBASE_PROJECT=$PROD_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS="$PROD_GOOGLE_APPLICATION_CREDENTIALS" make deploy-firebase-functions
 
 workflows:
     version: 2
@@ -57,7 +44,7 @@ workflows:
                   filters:
                       branches:
                           ignore:
-                              - master
+                              - v7
 
     pull_request_announcements:
         jobs:
@@ -65,18 +52,23 @@ workflows:
                   filters:
                       branches:
                           only:
-                              -/announcements.*/ 
+                              -/announcements.*/
 
     deployment:
         jobs:
-            - deploy_production:
-                  filters:
-                      branches:
-                          only: master
             - deploy_staging:
                   filters:
                       branches:
-                          only: master
+                          only: v7
+
+            - approve_to_deploy_in_production:
+                  type: approval
+                  requires:
+                      - deploy_staging
+
+            - deploy_production:
+                  requires:
+                      - approve_to_deploy_in_production
 
     # feature announcements of the previous months should be deployed automatically the 5th day of the month in the helpcenter
     # before this date, the announcements are not generated and so not pushed in production
@@ -91,5 +83,5 @@ workflows:
                               - master
         jobs:
             - deploy_production
-            - test_announcements 
-            - build 
+            - test_announcements
+            - build

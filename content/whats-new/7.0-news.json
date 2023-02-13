@@ -1,0 +1,44 @@
+[
+  {
+    "title":"Akeneo App Store",
+    "areas": ["Connectivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-03.html#akeneo-app-store"
+  },
+  {
+    "title":"App Authorization Notifications",
+    "areas": ["Connectivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-05.html#app-authorization-notifications"
+  },
+  {
+    "title":"Tailored Imports",
+    "areas": ["Productivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-06.html#tailored-imports"
+  },
+  {
+    "title":"Automated SFTP Imports and Exports",
+    "areas": ["Productivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-09.html#automate-sftp-imports-and-exports"
+  },
+  {
+    "title":"Catalogs for Apps",
+    "areas": ["Connectivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-09.html#catalogs-for-apps"
+  },
+  {
+    "title":"Data Cleaning with Tailored Imports",
+    "areas": ["Productivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-09.html#additional-data-cleaning-with-tailored-imports"
+  }
+]
