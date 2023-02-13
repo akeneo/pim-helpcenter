@@ -44,7 +44,7 @@ workflows:
                   filters:
                       branches:
                           ignore:
-                              - master
+                              - v7
 
     pull_request_announcements:
         jobs:
@@ -56,17 +56,19 @@ workflows:
 
     deployment:
         jobs:
-            - deploy_production:
-                  filters:
-                      branches:
-                          only: master
             - deploy_staging:
                   filters:
                       branches:
-                          only:
-                              - master
-                              - RAB-1153
-                              - v7
+                          only: v7
+
+            - approve_to_deploy_in_production:
+                  type: approval
+                  requires:
+                      - deploy_staging
+
+            - deploy_production:
+                  requires:
+                      - approve_to_deploy_in_production
 
     # feature announcements of the previous months should be deployed automatically the 5th day of the month in the helpcenter
     # before this date, the announcements are not generated and so not pushed in production
