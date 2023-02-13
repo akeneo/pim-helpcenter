@@ -66,6 +66,7 @@ workflows:
                           only:
                               - master
                               - RAB-1153
+                              - v7
 
     # feature announcements of the previous months should be deployed automatically the 5th day of the month in the helpcenter
     # before this date, the announcements are not generated and so not pushed in production
