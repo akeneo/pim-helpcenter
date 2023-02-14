@@ -36,7 +36,7 @@ Time-to-market insights is accessible through the Activity section. Here we can 
 
 ### Metrics
 
-2 metrics to analyze your time-to-market performance
+Two metrics to analyze your time-to-market performance:
 - Time-to-enrich: the amount of time spent from the creation of the product to the first 100% completeness
 - Number of enriched products: total number of products enriched over the defined period of time
 
