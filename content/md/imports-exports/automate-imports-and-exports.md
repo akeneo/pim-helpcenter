@@ -66,7 +66,7 @@ To connect your product import/export to Microsoft Azure:
 1. Select the profile you would like to automate
 1. Click `Edit` in the top right corner
 1. Click `Properties`
-1. Under "Type", select `Amazon S3`
+1. Under "Type", select `Microsoft Azure`
 1. Fill in all mandatory fields: `Filepath`, `Region`, `Bucket name`, `Key` and `Secret`
 1. Click `Save` in the top right corner of the screen
 
@@ -78,7 +78,7 @@ To connect your product import/export to Google Cloud Storage:
 1. Select the profile you would like to automate
 1. Click `Edit` in the top right corner
 1. Click `Properties`
-1. Under "Type", select `Amazon S3`
+1. Under "Type", select `Google Cloud Storage`
 1. Fill in all mandatory fields: `Filepath`, `Project ID`, `Service account` and `Bucket`
 1. Click `Save` in the top right corner of the screen
 
@@ -103,6 +103,7 @@ In order to automatically execute an import/export profile:
 * Frequencies executed multiple times a day start at midnight (UTC).
 * Frequencies are displayed in UTC.
 * Automated jobs will be executed by a system user, so if you want to see the job in the Process Tracker, please make sure to check the permission `View all jobs in process tracker` under the user roles' permissions.
+* To be able to automate a job, you need to configure a remote storage.
 :::
 
 # Manually execute an import/export profile connected to a remote storage
