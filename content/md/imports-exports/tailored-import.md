@@ -201,7 +201,7 @@ It will help you to search for a term and replace it by another one. Note that y
 ## Extract with regular expression
 
 This operation is available for `Text` and `Text Area` attributes used as a target.
-It will help you to extract a value based on a regular expression from your choice.
+It will help you extract a value based on a regular expression of your choice.
 ![Regular expression operation](../img/Tailored-Import_Operation_Regular-expression.png)
 
 ::: tips
