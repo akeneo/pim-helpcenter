@@ -198,6 +198,16 @@ This operation is available for `Text` and `Text Area` attributes used as a targ
 It will help you to search for a term and replace it by another one. Note that you can add up to 10 replaced values per operation.
 ![Search & replace operation](../img/Tailored-Import_Operation_Search-and-Replace.png)
 
+## Extract with regular expression
+
+This operation is available for `Text` and `Text Area` attributes used as a target.
+It will help you extract a value based on a regular expression of your choice.
+![Regular expression operation](../img/Tailored-Import_Operation_Regular-expression.png)
+
+::: tips
+Regular expressions mostly start and end by a slash (/) or a tilde (~).  
+If you're new to regular expressions, you can use the service of [Autoregex](https://www.autoregex.xyz/) to generate a regular expression based on a sentence describing your need.
+:::
 
 # Duplicate a Tailored Import profile
 
