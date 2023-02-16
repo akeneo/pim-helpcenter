@@ -205,7 +205,7 @@ It will help you extract a value based on a regular expression of your choice.
 ![Regular expression operation](../img/Tailored-Import_Operation_Regular-expression.png)
 
 ::: tips
-Your regular expression shoud start and end by a slash (/).  
+Regular expressions mostly start and end by a slash (/) or a tilde (~).  
 If you're new to regular expressions, you can use the service of [Autoregex](https://www.autoregex.xyz/) to generate a regular expression based on a sentence describing your need.
 :::
 
