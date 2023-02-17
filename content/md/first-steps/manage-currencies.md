@@ -41,4 +41,4 @@ For a currency to be available for a product, you will need to add the specific 
 1. Go to `Settings/Channels` and select the channel of your product
 1. Add your currency to the field `Currencies` and save.
 
-![Add currencies to a channel](../img/Settings_Currencies_for_Channels.png)
+![Add currencies to a channel](../img/Settings_Currencies_for_Channels.png.jpg)
