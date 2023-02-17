@@ -34,3 +34,11 @@ The currency status will be changed, and the currency grid will be automatically
 ::: info
 The shortcut action will be displayed if you have the appropriate rights.
 :::
+
+# Add currency to a channel
+
+For a currency to be available for a product, you will need to add the specific currency to the channel of your choice.
+1. Go to `Settings/Channels` and select the channel of your product
+1. Add your currency to the field `Currencies` and save.
+
+![Add currencies to a channel](../img/Settings_Currencies_for_Channels.png)
