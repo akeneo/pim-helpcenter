@@ -45,11 +45,7 @@ gulp.task('create-dist', [
   'copy-assets',
   'landings',
   'build-articles',
-  'build-monthly-updates-as-html',
-  'build-monthly-updates-as-json',
-  'build-whats-new-page',
-  'build-whats-next-page',
-  'build-versions-in-detail-page'
+  'build-updates-as-html',
 ]);
 
 // Main task that should be used for development purpose
