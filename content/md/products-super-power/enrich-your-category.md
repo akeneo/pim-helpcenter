@@ -81,7 +81,9 @@ By default and to allow flexibility, you can edit any of the attributes on the c
 1.  Complete or change your category values
 1.  Click on the Save button (top right-hand corner).
 
-  ![Edit a product](../img/record Enriched Categories_early access-degrade.mp4)
+<video controls class="img-responsive in-article">
+  <source src="../img/enriched-categories-demo.mp4" type="video/mp4" />
+<video>
 
 ::: info
 If you cannot add category content to enrich a category, you may not have the appropriate rights to Edit category attributes, please refer to the [Manage the interface and actions accesses > Rights on settings > Permissions](manage-the-interface-and-actions-accesses.html) on categories article.
