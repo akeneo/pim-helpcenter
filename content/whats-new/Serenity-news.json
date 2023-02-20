@@ -40,5 +40,12 @@
     "editions": ["EE", "GE"],
     "since-version": "Serenity",
     "link": "/pim/serenity/updates/2022-09.html#additional-data-cleaning-with-tailored-imports"
+  },
+  {
+    "title":"Time-to-Market Insights",
+     "areas": ["Productivity","Performance"],
+     "editions": ["EE"],
+     "since-version": "Serenity",
+     "link": "/pim/serenity/updates/2022-09.html#additional-data-cleaning-with-tailored-imports"
   }
 ]
