@@ -81,6 +81,8 @@ By default and to allow flexibility, you can edit any of the attributes on the c
 1.  Complete or change your category values
 1.  Click on the Save button (top right-hand corner).
 
+---
+
 <video controls class="img-responsive in-article">
   <source src="../img/enriched-categories-demo.mp4" type="video/mp4" />
 <video>
