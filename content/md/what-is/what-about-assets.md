@@ -51,6 +51,7 @@ There are several types of asset attributes, that will allow you to handle diffe
 - the **text** attribute,
 - the **single and multiple options** attributes,
 - the **number** attribute,
+- the **boolean** attribute,
 - the **media file** attribute,
 - the **media link** attribute.
 
