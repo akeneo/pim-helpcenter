@@ -1,5 +1,5 @@
 # An example
-::: meta-data type="New" ee-only="false" link-to-doc="../articles/what-is-the-pim-marketplace.html"
+::: meta-data type="New" features="Productivity" ee-only="false" link-to-doc="../articles/what-is-the-pim-marketplace.html"
 :::
 
 This is an example
