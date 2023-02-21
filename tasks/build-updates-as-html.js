@@ -13,6 +13,22 @@ const revReplace = require('gulp-rev-replace');
 const concat = require('gulp-concat');
 const tap = require('gulp-tap');
 const HelpcenterMarkdownIt = require('./common/markdown-it.js');
+const through = require('through2');
+
+function sort(comparator) {
+    const files = [];
+
+    return through.obj(function (file, enc, cb) {
+        files.push(file);
+        cb();
+    }, function (cb) {
+        files.sort(comparator);
+        files.forEach(function (file) {
+            this.push(file);
+        }, this);
+        cb();
+    });
+}
 
 const majorVersion = 'v7';
 
@@ -25,13 +41,14 @@ md
             return params.trim().match(/^meta-data(.*)$/);
         },
         render: function (tokens, idx) {
-            var metaData = tokens[idx].info.trim().match(/^meta-data\stype="(?<type>.*)"\see-only="(?<eeOnly>.*)"\slink-to-doc="(?<linkToDoc>.*)"$/);
+            var metaData = tokens[idx].info.trim().match(/^meta-data\stype="(?<type>.*)"\sfeatures="(?<features>.*)"\see-only="(?<eeOnly>.*)"\slink-to-doc="(?<linkToDoc>.*)"$/);
             if(!metaData){
-                metaData = tokens[idx].info.trim().match(/^meta-data\stype="(?<type>.*)"\see-only="(?<eeOnly>.*)"$/)
+                metaData = tokens[idx].info.trim().match(/^meta-data\stype="(?<type>.*)"\sfeatures="(?<features>.*)"\see-only="(?<eeOnly>.*)"$/)
             }
             var html = '';
             if(tokens[idx].nesting === 1) {
                 html += '<p><em class="small text-primary">Type:</em> <span class="label label-version">' + metaData.groups.type + '</span>';
+                html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Feature:</em> <span class="label label-primary">' + metaData.groups.features + '</span>';
                 html += '<em class="small text-primary">&nbsp;&nbsp;|&nbsp;&nbsp;Available in</em> <span class="label label-primary">';
                 if(metaData.groups.eeOnly == 'true'){
                     html += 'Enterprise Edition only</span>';
@@ -66,6 +83,10 @@ gulp.task('build-updates-as-html', ['clean-dist','less'], function() {
 
 function generateIndex(fileDirectorySource, fileDirectoryDestination) {
     return gulp.src(path.join(fileDirectorySource, '/*.md'))
+        .pipe(sort((a, b) => a.path.localeCompare(b.path, undefined, {
+            numeric: true,
+            sensitivity: 'base'
+        })))
         .pipe(frontMatter({property: 'fm', remove: true}))
         .pipe(concat( 'index-copy.html'))
         .pipe(insert.wrap("::::: mainContent\n", "\n:::::"))
