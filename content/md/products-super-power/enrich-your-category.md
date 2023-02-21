@@ -4,7 +4,7 @@ themes: products-super-power
 title: 'NEW - **Enrich** your category - Early Access'
 popular: false
 ee: false
-related: what-is-a-category
+related: categorize-a-product, what-is-a-category, manage-the-interface-and-actions-accesses
 ---
 
 # Why enrich a category?
