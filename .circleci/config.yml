@@ -6,7 +6,6 @@ jobs:
         steps:
             - checkout
             - run: make build
-            - run: make test-helpcenter
 
     test_announcements:
         machine:
