@@ -4,7 +4,7 @@ themes: products-super-power
 title: 'NEW - **Enrich** your category - Early Access'
 popular: false
 ee: false
-related: what-is-a-category
+related: categorize-a-product, what-is-a-category, manage-the-interface-and-actions-accesses
 ---
 
 # Why enrich a category?
@@ -76,13 +76,14 @@ By default and to allow flexibility, you can edit any of the attributes on the c
 
 # Enrich category attributes
 
+Go to `Settings/Categories` and once a category template has been activated per tree, then you can edit attributes and enrich any of your categories.
+
 1.  Click on the `Attributes` tab
 1.  Select the channel and locale you want to enrich
 1.  Complete or change your category values
 1.  Click on the Save button (top right-hand corner).
 
 ---
-
 <video controls class="img-responsive in-article">
   <source src="../img/enriched-categories-demo.mp4" type="video/mp4" />
 </video>
