@@ -51,6 +51,7 @@ To add an attribute, follow these steps:
     - **Media link**: for images and files stores externally (when you have a url link)
     - **Text**: for text or text area attributes. You can also use the `rich text editor` for this attribute type.
     - **Number**: for number attributes
+    - **Yes/No**: for boolean attributes
     - **Single option**: to define a list of options with a single choice
     - **Multiple options**: to define a list of options with multiple choices
 1.  Tick `Value per locale` if your asset has different values per locale for this attribute
@@ -128,7 +129,7 @@ If not `Text area`:
 :::tips
 To allow positive values only, define a `min value` equals to 0.  
 To allow negative values only, define a `max value` equals to 0.
-:::   
+:::
 
 ### Edit a single/multiple options attribute  
   - The `Manage options` button enables to [manage the options of the list](#manage-the-options)
