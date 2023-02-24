@@ -1,5 +1,5 @@
 # Schedule and automate your product imports/exports
-::: meta-data type="New" features="Productivity" ee-only="false" link-to-doc="../articles/import-export-automation.html#overview"
+::: meta-data type="New" features="Productivity" ee-only="true" link-to-doc="../articles/import-export-automation.html#overview"
 
 Now you can automate the execution of any import or export job and connect your product imports/exports to remote storages such as Amazon S3, Microsoft Azure, Google Cloud Storage, or any SFTP server. 
 
