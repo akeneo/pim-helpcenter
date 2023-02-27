@@ -237,7 +237,7 @@ Thanks to the product grid filters, you can easily find all the products with Fr
 1. Choose or type the value you're searching for, i.e `France`.
 
 :::info
-The third step is not mandatory. If you don't fill any row, then it means that you'll search for all products with a French ingredient.
+If you would like to retrieve information from all existing rows in your table, please select 'Any rows' instead of a specific row.
 :::
 
 # Compare product information from another locale and/or channel
