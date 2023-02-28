@@ -33,7 +33,7 @@ More features will be released soon, such as:
 To create an identifier generator, click on ‘Settings’ and then ‘Identifier Generators’.
 
 :::info
-If you don’t see the icon ‘Identifier Generators’ or don’t see the button ‘create’, check with your Administrator that you have the permission to create identifier generators. (lien vers permissions de cette même page)
+If you don’t see the ‘Identifier Generator’ icon or don’t see the ‘create’ button, check with your Administrator that you have the permission to create identifier generators. (lien vers permissions de cette même page)
 :::
 
 **Be aware that once you have created the identifier structure and saved the generator, your generator is enabled, meaning identifiers will be generated when creating or updating products without SKU.**
