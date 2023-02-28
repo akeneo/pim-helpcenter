@@ -48,7 +48,7 @@ If you need time to set up your identifier generator and make sure it is not ena
 
 ## Define your Identifier Structure
 
-Create the identifier structure of your choice by defining a template that will be applied for each product that match your identifier selection. 
+Create the identifier structure of your choice by defining a template that will be applied for each product that matches your identifier selection. 
 
 Here are the type of properties that you can add to the structure, when selecting ‘Add new property’:
 
