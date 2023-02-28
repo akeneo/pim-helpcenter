@@ -185,7 +185,7 @@ If you want to modify or delete an identifier generator:
 
 By default, all users will have the right to view the Identifier Generators but also to view generators. Administrators will be able to remove this access to a user.
 
-If an Administrator unticks all permissions for a user, this user will not be able to access the ‘Identifier Generators’ section in the 'Settings' of is interface.
+If an Administrator unticks all permissions for a user, this user will not be able to access the ‘Identifier Generators’ section in the 'Settings' of his interface.
 
 Administrators will manage access rights to other users with the following permissions:
 - ‘View Generators’: Users will see the list of generators and consult the settings of each one of them, but they won’t be able to create, edit, or delete generators.
