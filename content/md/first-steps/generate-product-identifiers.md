@@ -107,7 +107,7 @@ If you would like to **create several delimiters within your structure** (ex: AK
 - Auto number: 001
 :::
 
-**## Nomenclature: add custom abbreviations of your choice for families and simple select attributes**
+## **Nomenclature: add custom abbreviations of your choice for families and simple select attributes**
 
 A few things to know about the nomenclature:
 - All abbreviations will be shared by all your Identifier Generators.
