@@ -92,7 +92,7 @@ For example, if the number of digits is 4 and the minimum number is 1, then the 
 
 The delimiter is not added by default in the structure.
 
-If you tick the box `Use delimiters between each property`, a ‘-’ delimiter will be added between every property of your structure. This delimiter can be changed.
+If you tick the box `Use delimiters between each property`, a `-` delimiter will be added between every property of your structure. This delimiter can be changed.
 
 A delimiter must not be a comma, a semicolon, or a leading/trailing space.
 
