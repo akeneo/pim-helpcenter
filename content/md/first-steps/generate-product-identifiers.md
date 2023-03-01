@@ -53,20 +53,20 @@ Create the identifier structure of your choice by defining a template that will 
 
 Here are the type of properties that you can add to the structure, when selecting `Add new property`:
 
-## **Add free text properties:** 
+## Add free text properties:
 
 - you can have 1 or more free text properties
 - every ‘free text’ property should not exceed 100 characters. Leading or trailing spaces are not accepted in these properties.
 
 
-## **Add a family,** with the possibility to choose:
+## Add a family, with the possibility to choose:
 
 - either its full code
 - its first characters
 - or to define its nomenclature by selecting the number of characters but also the operator `Is equal to` or `Lower than or equals to`. For more information about the nomenclature, please refer to our dedicated paragraph below. 
 
 
-## **Add an auto number (or incremental number):**
+## Add an auto number (or incremental number):
 
 - Choose the minimum number of digits for the structure of your auto number
 - Choose a minimum number that your auto number will start from
@@ -88,7 +88,7 @@ For example, if the number of digits is 4 and the minimum number is 1, then the 
 
 **If you would like to have more tailored identifier generators, we can recommend you to:**
 
-## **Add the delimiter of your choice** 
+## Add the delimiter of your choice
 
 The delimiter is not added by default in the structure.
 
@@ -107,7 +107,7 @@ If you would like to **create several delimiters within your structure** (ex: AK
 - Auto number: 001
 :::
 
-## **Nomenclature: add custom abbreviations of your choice for families and simple select attributes**
+## Nomenclature: add custom abbreviations of your choice for families and simple select attributes
 
 A few things to know about the nomenclature:
 - All abbreviations will be shared by all your Identifier Generators.
