@@ -27,20 +27,26 @@ Time-to-Market Insights is accessible through the Activity section. Here we can 
 1. The insights block above the graph provides a digest of your Time-to-enrich performance
 2. The dashboard provides a visual representation of the data
 3. The table gives you the expected result
-4. The control panel defines the metric and the associated filters you want to analyze
+4. The control panel defines the metric and the associated filters you want to analyze and allows you to export data
 
 
 ## Control panel
 
 ![TTMI control panel](../img/TTMI_control_panel.png)
 
-### Metrics
+### Metrics and Filters
+
+#### Metrics
 
 Two metrics to analyze your time-to-market performance:
 - Time-to-enrich: the amount of time spent from the creation of the product to the first 100% completeness
 - Number of enriched products: total number of products enriched over the defined period of time
 
-### Dimensions
+::: info
+Please note that the updates on existing products are not taken into account in the metric calculation
+:::
+
+#### Dimensions
 
 You can analyze the selected metric by grouping through entities: Families and Categories.
 - Family: how you have defined completeness for products according to a set of required Attributes to be enriched
@@ -51,9 +57,13 @@ Also, you can go deeper into your analysis through the channels and the locales:
 - At Least one: choose `At least one Channel` or `At least one Locale` 
 - Choose a specific channel or locale for focused insights in a particular area
 
-### Time frame (From)
+#### Time frame (From)
 
 You can define the time frame you want to display for your analysis.
+
+### Export
+
+Based on the filters defined on the control panel (Dimensions and Time frame), you can export the data for all the displayed metrics. Once you click on "Download report", an XLXS file is downloaded in your browser, and you can access the data related to the control panel configuration. 
 
 ## Dashboard and table vizualisation
 
