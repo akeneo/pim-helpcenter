@@ -107,11 +107,13 @@ If you would like to **create several delimiters within your structure** (ex: AK
 - Auto number: 001
 :::
 
-## Nomenclature: add custom abbreviations of your choice for families and simple select attributes
+## Use your own nomenclature
+
+You will have the possibility to automatically generate a nomenclature, by adding abbreviations of your choices for families or simple select attributes in your identifier structure. 
 
 A few things to know about the nomenclature:
 - All abbreviations will be shared by all your Identifier Generators.
-- By default, the nomenclature is empty. You will have the possibility to automatically generate a nomenclature, when adding families or simple select attributes in your identifier structure. You can select `Use your own nomenclature` as the format, and start to edit your nomenclature.
+- By default, the nomenclature is empty. You can select `Use your own nomenclature` as the format, and start to edit your nomenclature.
 
 
 **To edit your nomenclature:**
@@ -136,7 +138,7 @@ Please note that you will be able to create a **maximum of 20 properties** (incl
 :::
 
 
-## Define your product selection
+# Define your product selection
 
 Add conditions to your product selection if you want to:
 - automate the creation of identifiers for a targeted selection of products
@@ -157,9 +159,9 @@ You will soon be able to add multi select attribute options and categories to yo
 :::
 
 
-## Edit your settings
+# Edit your settings
 
-**Start creating your generator by defining its name and label.** The label should not exceed 255 characters. You can also add translations for your Identifier Generator in each of your available locales. 
+The label of your identifier generator should not exceed 255 characters. You can also add translations for your Identifier Generator in each of your available locales. 
 
 When creating your Identifier Generator, you will have the possibility to select **Text transformation capabilities**. For example, if you select `No text transformation`, the structure of your Identifier Generator will remain as it has been pre-filled (ex: Tshirt-AKN-001).
 
@@ -167,28 +169,7 @@ On the other hand, here are examples of how your structure will be modified:
 - If you select `Uppercase`, your structure will be modified in uppercase (ex: TSHIRT-AKN-001).
 - If you select `Lowercase`, your structure will be modified in lowercase (ex: tshirt-akn-001).
 
-
-## When is my Identifier generated?
-- **When a product is created or updated:** in the User Interface, via an import or via the API.
-- **Only when a product has no existing SKU:** we will never modify or delete an identifier that is already assigned to a product.
-
-::: warning
-**Existing products are not automatically updated after the creation of the generator.** To assign a new identifier to an existing product matching your Identifier Generator settings, you will need to modify the concerned product and save it.
-:::
-
-
-## Delete or modify an Identifier Generator
-
-If you would like to delete or modify an existing Identifier Generator, it is important to take note that all previously generated product identifiers will remain assigned to your products.
-
-Only newly created or modified and saved products will be impacted.
-
-If you want to modify or delete an identifier generator:
-1. Access the list of generators
-1. Move your mouse on the generator you want to modify or delete
-1. Edit or delete the generator.
-
-## Manage permissions 
+# Manage permissions 
 
 By default, all users will have the right to view the Identifier Generator but also to view generators. Administrators will be able to remove this access to a user.
 
@@ -206,3 +187,23 @@ By default, new users added to the PIM will have the `View Generators` access.
 When launching the feature, users will be assigned the same permissions level as the one they already have for our Rule Engine feature. 
 For example, if an user has the right to `Edit` Rules, he/she will have the right to create/edit an `Identifier Generator`. Then, for new companies and users, they will have the `View` access by default *(view the ‘Identifier Generator’ but also to view generators settings).*
 :::
+
+# When is my Identifier generated?
+- **When a product is created or updated:** in the User Interface, via an import or via the API.
+- **Only when a product has no existing SKU:** we will never modify or delete an identifier that is already assigned to a product.
+
+::: warning
+**Existing products are not automatically updated after the creation of the generator.** To assign a new identifier to an existing product matching your Identifier Generator settings, you will need to modify the concerned product and save it.
+:::
+
+
+# How to delete or modify an Identifier Generator?
+
+If you would like to delete or modify an existing Identifier Generator, it is important to take note that all previously generated product identifiers will remain assigned to your products.
+
+Only newly created or modified and saved products will be impacted.
+
+If you want to modify or delete an identifier generator:
+1. Access the list of generators
+1. Move your mouse on the generator you want to modify or delete
+1. Edit or delete the generator.
