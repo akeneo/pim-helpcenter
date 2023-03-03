@@ -184,6 +184,10 @@ You can define option values for simple and multi select attribute types. Option
 
 ![image](../img/Settings_Attributes_Options.png)
 
+:::tips
+Leading and trailing spaces are not allowed for attribute options and will be automatically removed when entering an option that contains one.
+:::
+
 ## Find the attribute options
 
 To manage your simple and multi selects attribute options, remove an option or add a new one:
