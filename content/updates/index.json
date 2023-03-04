@@ -1,9 +1,15 @@
-{
+{ 
+  "2023-02": {
+  "title": "February 2023 Serenity updates",
+  "description": "This month we are excited to announce the availability of Time-to-Market Insights, new analytical capabilities that identify opportunities to streamline product enrichment processes and to help bring products to market faster. Plus, we’ve released Enriched Categories and made enhancements to import/export options and asset attribute types.",
+  "img": "illus-february-23.svg"
+}, 
   "2022-12": {
     "title": "December 2022 Serenity updates",
     "description": "Happy New Year! We wrapped up 2022 with a few usability improvements to Catalogs for Apps to help developers access data from Akeneo PIM.",
     "img": "illus-december-22.svg"
-  },"2022-11": {
+},
+"2022-11": {
   "title": "November 2022 Serenity updates",
   "description": "This month we added additional options to support import and export capabilities in Akeneo PIM. Tailored Imports now includes search and replace options and the UUID identifier can be added to export files.",
   "img": "illus-november-22.svg"
