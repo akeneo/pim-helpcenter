@@ -1,6 +1,6 @@
 ---
 pim_announcement_img: ./img/enriched-categories-tree-list.png
-pim_announcement_alt_img: Enrich Categories to create more impactful product showcases
+pim_announcement_alt_img: Enrich Categories to showcase your products with greater impact
 pim_announcement_audience:
 - EE
 - GE
