@@ -40,5 +40,12 @@
     "editions": ["EE", "GE"],
     "since-version": "7.0",
     "link": "/pim/serenity/updates/2022-09.html#additional-data-cleaning-with-tailored-imports"
+  },
+  {
+    "title":"SKUs Optional and UUIDs",
+    "areas": ["Productivity"],
+    "editions": ["CE", "EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-10.html#product-identifier-changes-skus-optional-and-uuids"
   }
 ]
