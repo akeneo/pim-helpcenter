@@ -29,7 +29,7 @@ To manage an App, at least one of your user roles needs the `Manage apps` permis
 To give role permission: 
 - Go to `System`, then `Roles`
 - Click on the role you want to update
-- Go to `Permissions` and select the System entry
+- Go to `Permissions` and select the `Connect` entry
 - Finally, enable the `Manage apps` and/or `Open apps` options.
 
 ![Role manage apps](../img/role-manage-apps.png) 

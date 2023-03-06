@@ -1,57 +1,13 @@
 ---
 id: how-to-connect-my-pim-with-apps
-themes: connectivity, import-export-data
+themes: connectivity
 title: How to **connect my PIM with Apps**?
 popular: false
 ee: false
 related: manage-your-apps, connection-dashboard
 ---
 
-# What is an App?
-
-Apps are the best way to connect Akeneo PIM with third parties.
-
-Apps can retrieve and push data from and into Akeneo PIM through the REST API. Thanks to a step-by-step activation process integrated into the Akeneo PIM interface, anyone can connect an App to Akeneo PIM despite these technical interactions.
-
-![What's an app schema](../img/whats-an-app.png)
-
-
-# Where to find Apps & Connectors?
-Because we know it can be tedious to leave your work environment to find the App or Connector you need, we bring them to you. We developed the PIM `App Store` as a way for you to smoothly identify the most relevant App or Connector directly from your PIM interface.
-
-![PIM App Store](../img/pim-marketplace-with-apps.gif)
-
-You can see Apps and Connectors compatible with your Akeneo PIM version and edition. When you identify something interesting, click on `More info` to access the related documentation.
-
-Akeneo App Store is where you will read all the documentation, consult all the available screenshots, and reach the seller.
-
-To find the Apps or Connectors you need, in you PIM, go to the `Connect` menu, then click on `App Store`, and here you are!
-
-::: tips
-Feel free to test our new connection experience by connecting the **Akeneo Demo App**. 
-:::
-
-
-# Who can connect Apps?
-
-To give the capacity to choose who can connect an App, we added a new Role permission in the PIM: `Manage apps`. 
-To connect an App, your user role needs it.
-
-Without this role permission, you won't see the `Apps` menu and won't be able to click on `Connect` as in the following screenshot.
-
-<img class="img-responsive in-article" alt="App Store connect disabled" src="../img/marketplace-connect-disabled.png" style="max-width: 500px;">
-
-To give the role permission: 
-
-- Go to `System`, then `Roles`
-- Click on the role you want to update
-- Go to the `Permissions` tab and select the System entry
-- Finally enable the `Manage apps` option.
-
-![Role manage apps](../img/role-manage-apps.png)
-
-
-# How to connect an App?
+# Connect your App
 
 ::: info
 You can connect up to 50 third-parties through connections and connected Apps. 
@@ -73,7 +29,7 @@ A wizard is a **step-by-step activation process** that will accompany you on the
 
 This wizard contains either one step (CE or GE) or three steps (EE only).
 
-## Grant authorization to your App
+# Grant authorization to your App
 
 During the installation, the App will ask you to grant it access to your user information or to parts of your PIM: catalog structure, products, assets, reference entities, etc.
 
@@ -87,7 +43,7 @@ When the following page appears in your PIM, please read the list of all require
 Apps may need your user information in order to ease your authentication to access the App interface.
 :::
 
-### No specific authorizations have been requested
+## No specific authorizations have been requested
 
 If you see the following message, it means the App needs no specific authorization. 
 
@@ -95,7 +51,7 @@ If you see the following message, it means the App needs no specific authorizati
 
 When it happens, the App will only be able to retrieve your PIM version and edition.
 
-## Give permissions to your App `EE`
+# Give permissions to your App `EE`
 
 ::: warning
 The following paragraphs are for EE customers only.
@@ -107,7 +63,7 @@ As you use the Enterprise Edition, your PIM has a permission management system. 
 
 As you may know, the Akeneo PIM permission system works on three axes: categories, locales, and attribute groups.
 
-### Category trees
+## Category trees
     
 To ease the permission settings, we display only category trees that exist in your PIM.
 
@@ -121,7 +77,7 @@ In the wizard, you would see three options. If you're setting permissions for an
 
 <img class="img-responsive in-article" alt="Step Permissions Own category trees" src="../img/wizard-step2-own-category-trees.png" style="max-width: 500px;">
 
-#### Which level should you give your App?
+### Which level should you give your App?
 
 - **The Own level**
 
@@ -135,7 +91,7 @@ On the contrary, if you prefer to validate any product creation or update made
 
 The third option is the `View` level. In that case, the App will only see the products categorized in one or several categories of the tree(s) you select.
 
-#### Example
+### Example
 
 Your products are categorized as you can see below. You have defined the `Own`, `Edit`, and `View` permission levels for the `Ecommerce` tree only. The App will not have any access to the other trees (Print and Master Catalog).
 
@@ -150,11 +106,11 @@ On the contrary, your App couldn't retrieve or update the `Braided hat` produc
 ![Step Permissions Braided hat product](../img/wizard-step2-braided-hat-product.png)
 
 
-### Locales
+## Locales
 
 Thanks to the locales permission, you can configure whether the App will be allowed to update product information for a specific locale or not.
 
-#### Which level should you give your App?
+### Which level should you give your App?
 
 - **The Edit level**
 
@@ -177,11 +133,11 @@ Here you can see how it would look like in the UI.
 <img class="img-responsive in-article" alt="Step Permissions Locales" src="../img/wizard-step2-locales.png" style="max-width: 500px;">
 
 
-### Attribute groups
+## Attribute groups
 
 In Akeneo PIM, you can organize your attributes in groups to help you display related attributes one after the other in the interface. We also use these attribute groups to give rights to an App. Thanks to the attribute group's permission, you can configure whether the App will update product information for specific attributes or not.
 
-#### Which level should you give your App?
+### Which level should you give your App?
 
 - **The Edit level**
 
@@ -191,7 +147,7 @@ Thanks to that field, you can allow an App to update product data for a specifi
 
 If you only give the `View` level and not the `Edit` one, your App will see product data for attributes in the selected attribute groups but won't be able to update it.
 
-#### Example
+### Example
 
 You are connecting an App to synchronize your product data with your e-commerce solution. Some product data you see in Akeneo PIM are relevant for your e-commerce solution, but others are useless.
 
@@ -208,101 +164,4 @@ The best solution here is to set up your permissions as in the following screens
 ::: warning
 The App may require some more configuration. 
 Check the App interface or documentation to assure you don't forget anything.
-:::
-
-
-# How to configure catalogs for Apps? 
-
-## What's a catalog?
-With catalogs, you can configure which products you want to share with an app thanks to a product selection composed of one or several criteria that allow you to filter products.
-
-When an app uses catalogs to retrieve product data, it automatically enables the Catalogs tab and creates catalogs for this app in your PIM.
-To configure your catalogs, go to the `Connect > Connected Apps`, click on `Manage app`, and then click on `Catalogs`. 
-
-Here you access the list of all the catalogs the app can manage with a label and a status. 
-
-![Catalog list](../img/app-catalog-list.png)
-
-Click on the catalog you want to set up to access the configuration interface. 
-
-When you access a catalog, you will see two tabs:
-- `Settings`: where you can enable or disable a catalog,
-- `Product selection`: where you will configure criteria to filter your product selection.
-
-::: info
-If you can't click on `Manage apps`, please read our paragraph [Who can connect apps?](#who-can-connect-apps)
-:::
-
-## How to configure a product selection?
-In the `Product selection` tab, you can define selection criteria. They are the attributes or system fields you can use to filter your products. Altogether, the criteria will create your Product selection.
-
-![Catalog - Product selection](../img/app-catalog-product-selection.png)
-
-::: warning
-When there are no criteria, your whole PIM catalog is selected. 
-:::
-
-You will find the system fields at the top of the list and below are all the attributes gathered by attribute groups. There is a search bar to help you find the attributes. 
-
-<img class="img-responsive in-article" alt="Product selection criteria" src="../img/app-catalog-criteria-selection.png" style="max-width: 700px;">
-
-Each time you add a criterion, its color turns purple to inform you that it is already used.  
-A new line appears in the product selection.
-
-Let's see how a line is organized.
-
-1. You will find the system fields or attribute you chose in purple on the left. 
-2. Then, you have to choose an operator. Depending on the filter, the operator list changes. 
-
-The following fields vary depending on your filter. There can be up to 3 types of fields.  
-- You can have the value field. For example, if your filter is a multi-select attribute type, you can choose which options you want to filter on.
-- If your filter has a value per channel and/or per locale, the channel and locale fields appear to let you choose which locale/channel you want to filter on.
-
-If you want to remove a condition, click on the cross at the end of the line.
-
-### Available conditions
-To select your products, you can use the following system fields and attribute types of the PIM as conditions:
-- Status
-- Category
-- Completeness
-- Family
-- Simple select attribute
-- Text attribute
-- Measurement attribute
-- Yes/No attribute
-- Multi-select attribute
-- Number attribute
-- Text area attribute
-- Date attribute
-- Identifier 
-- Measurement
-
-## How to configure filters?
-In the `Filter the values` tab, you can configure data filters to send only the data your app needs. 
-
-### Available filters
-To filter product values, you can use the following filters:
-- Channels: when an attribute has value per channel, the PIM sends only product values for the selected channels
-- Locales: when an attribute has value per locale, the PIM sends only product values for the selected locales
-- Currencies: the PIM sends only prices for the selected currencies
-
-### Example
-You connect your e-commerce app with your PIM and want to send only data related to your e-commerce channel. 
-
-In the `Filter the values` tab, we advise you to filter the values on your e-commerce channel as in the following screenshot. 
-
-<img class="img-responsive in-article" alt="Catalog - Filter the values" src="../img/app-catalog-value-filters.png" style="max-width: 500px;">
-
-
-## How to enable or disable a catalog?
-Once you finish configuring your catalog, update the `Enable status` value to `Yes` in the catalog header.
-
-<img class="img-responsive in-article" alt="Product selection criteria" src="../img/app-catalog-enable-button.png" style="max-width: 700px;">
-
-As soon as you enable a catalog, the app will be able to retrieve your product selection data. 
-
-On the contrary, if you want to stop the catalog synchronization between Akeneo PIM and the app, update the `Enable status` value to `No` in the catalog header. 
-
-::: info
-All new catalogs are disabled by default when you connect an app. It's up to you to enable them when your configuration is ready. 
 :::
