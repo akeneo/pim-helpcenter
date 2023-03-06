@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Three Remote Storage Options Added for Import/Export
-::: meta-data type="Improvement" features="Productivity" available="February" in="EE,GE" link-to-doc="..import-export-automation.html#connect-your-importexport-profile-to-a-remote-storage"
+::: meta-data type="Improvement" features="Productivity" available="February" in="EE,GE" link-to-doc="../articles/import-export-automation.html#connect-your-importexport-profile-to-a-remote-storage"
 
 Securely transfer product data to and from Akeneo PIM by connecting imports and exports to a remote storage. Akeneo PIM now supports the ability to automate and schedule import and export jobs that connect to Amazon S3, Microsoft Azure, or Google Cloud Storage. 
 
