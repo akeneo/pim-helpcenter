@@ -12,4 +12,4 @@ pim_announcement_audience:
 Create more impactful experiences for your customers on your D2C site. Give customers access to more information about specific product lines, categories or sub-categories. With Enriched Categories you can leverage e-merchandising information such as images, descriptions and SEO content to better inform your buyers.
 
 
-![Enrich categories with e-merchandising information](../img/enriched-categories-tree-list.png.)
+![Enrich categories with e-merchandising information](../img/enriched-categories-tree-list.png)
