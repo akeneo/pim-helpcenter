@@ -21,8 +21,9 @@ Here you access the list of all the catalogs the app can manage with a label and
 Click on the catalog you want to set up to access the configuration interface. 
 
 When you access a catalog, you will see two tabs:
-- `Settings`: where you can enable or disable a catalog,
-- `Product selection`: where you will configure criteria to filter your product selection.
+- `Product selection`: where you will configure criteria to filter your product selection, 
+- `Filter the values`: when a catalog is not compatible with mapping, we display this tab to allow you to choose which values to send to the app based on filters, 
+- `Product mapping`: where you can map your PIM attributes with the app expected targets. 
 
 ::: info
 If you can't click on `Manage apps`, please read our paragraph [Who can connect apps?](#who-can-connect-apps)
