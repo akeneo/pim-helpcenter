@@ -16,5 +16,5 @@ Add new row options to your tables directly from the Product Edit Form. As soon 
 
 ::: more
 [What is table attribute?](../articles/manage-multidimensional-data-in-a-table.html)  
-[How to use table attribute in your product page?](../articles/work-on-a-product/#use-a-table-attribute-in-your-product-page.html)
+[How to use table attribute in your product page?](../articles/work-on-a-product.html#use-a-table-attribute-in-your-product-page.html)
 :::

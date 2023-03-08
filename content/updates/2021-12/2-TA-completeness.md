@@ -16,5 +16,5 @@ Completeness for your table attributes can now be defined at the table attribute
 
 ::: more
 [What is table attribute?](../articles/manage-multidimensional-data-in-a-table.html)  
-[How to set completeness](../articlesmanage-multidimensional-data-in-a-table.html#what-about-the-completeness)
+[How to set completeness](../articles/manage-multidimensional-data-in-a-table.html#what-about-the-completeness)
 :::

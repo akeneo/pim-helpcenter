@@ -16,5 +16,5 @@ Several dedicated import and export jobs for table attributes are available to a
 
 ::: more
 [What is table attribute?](../articles/manage-multidimensional-data-in-a-table.html)  
-[How to add new rows](../articles/work-on-a-product/#use-a-table-attribute-in-your-product-page.html)
+[How to add new rows](../articles/work-on-a-product.html#use-a-table-attribute-in-your-product-page.html)
 :::

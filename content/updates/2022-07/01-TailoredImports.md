@@ -13,5 +13,5 @@ Tailored Imports allows you to easily transform, map, and import data files that
 ![TailoredImportImportProfile](../img/refentities.png)
 
 ::: more
-[Manage your Reference Entities](../articles/hmanage-reference-entities.html#mainContent)
+[Manage your Reference Entities](../articles/manage-reference-entities.html#mainContent)
 :::
