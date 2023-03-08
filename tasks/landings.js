@@ -12,7 +12,7 @@ var revReplace = require('gulp-rev-replace');
 var tap = require('gulp-tap');
 var frontMatter = require('gulp-front-matter');
 
-var majorVersion = 'v7';
+var majorVersion = 'flexibility-v7';
 
 // This task goes through every Markdown articles looking for "popular" articles
 // in order to find information such as their title and path.

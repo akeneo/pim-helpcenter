@@ -22,5 +22,5 @@ build: yarn-install
 	 $(DOCKER_RUN) -e HELP_CENTER_URL=$(HELP_CENTER_URL) -e ONLY_PREVIOUS_MONTH_UPDATES=$(ONLY_PREVIOUS_MONTH_UPDATES) $(DOCKER_IMAGE_TAG) yarn gulp create-dist
 
 deploy: build
-	$(DOCKER_RUN) -v /etc/passwd:/etc/passwd:ro -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/pim/v7/ akeneo@$${HOSTNAME}:/var/www/html/pim/v7
+	$(DOCKER_RUN) -v /etc/passwd:/etc/passwd:ro -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az --delete dist/pim/flexibility-v7/ akeneo@$${HOSTNAME}:/var/www/html/pim/flexibility-v7
 	$(DOCKER_RUN) -v /etc/passwd:/etc/passwd:ro -v $${SSH_AUTH_SOCK}:/ssh-auth.sock:ro -e SSH_AUTH_SOCK=/ssh-auth.sock $(DOCKER_IMAGE_TAG) rsync --no-v -e "ssh -q -p $${PORT} -o StrictHostKeyChecking=no" -az dist/pim/versions.json akeneo@$${HOSTNAME}:/var/www/html/pim/versions.json
