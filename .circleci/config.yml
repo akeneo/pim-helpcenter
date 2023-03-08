@@ -55,15 +55,18 @@ workflows:
 
     deployment:
         jobs:
+            - approve_to_deploy_staging:
+                type: approval
             - deploy_staging:
-                  filters:
-                      branches:
-                          only: v7
-
+                requires:
+                    - approve_to_deploy_staging
             - approve_to_deploy_in_production:
-                  type: approval
-                  requires:
-                      - deploy_staging
+                type: approval
+                filters:
+                    branches:
+                        only: v7
+                requires:
+                    - deploy_staging
 
             - deploy_production:
                   requires:

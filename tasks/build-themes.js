@@ -11,7 +11,7 @@ var frontMatter = require('gulp-front-matter');
 var rename = require('gulp-rename');
 var revReplace = require('gulp-rev-replace');
 
-var majorVersion = 'v7';
+var majorVersion = 'flexibility-v7';
 
 gulp.task('build-themes', ['clean-dist','less'], function () {
     // For each Json file containing the Persona themes

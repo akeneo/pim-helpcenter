@@ -30,7 +30,7 @@ function sort(comparator) {
     });
 }
 
-const majorVersion = 'v7';
+const majorVersion = 'flexibility-v7';
 
 module.exports = {generateIndex};
 
@@ -76,7 +76,7 @@ md
 
 gulp.task('build-updates-as-html', ['clean-dist','less'], function() {
     const fileDirectorySource = 'content/updates';
-    const fileDirectoryDestination = './dist/pim/v7/updates';
+    const fileDirectoryDestination = './dist/pim/' + majorVersion + '/updates';
 
     return generateIndex(fileDirectorySource, fileDirectoryDestination);
 });
