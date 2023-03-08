@@ -103,7 +103,7 @@ If you have `Image` and/or `File` attribute types in your families, then you can
 To do this:
 1. First, [export the relevant product or product models](imports.html#export-the-relevant-products-or-product-models.html) via an archive.
 1. Then, [configure the archive](imports.html#configure-the-archive.html) in order to modify the product/product model file by adding your images and/or files.
-1. Finally, [import back the new archive](import.html#import-back-the-new-archive) in the PIM.
+1. Finally, [import back the new archive](imports.html#import-back-the-new-archive) in the PIM.
 
 ## Export the relevant products or product models
 1. From the left menu, click `Exports`
