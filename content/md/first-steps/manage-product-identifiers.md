@@ -47,7 +47,7 @@ On the PIM, you can search for a product with its identifier in two different wa
 Please refer to [api.akeneo.com](https://api.akeneo.com/) for more details.
 
 ::: warning
-New API endpoints have been created, working with “UUID” product identifiers, which is the most future-proof way to identify products, especially if you have or plan to have products without SKU.
+New API endpoints have been created, working with “UUID” product identifiers, which is the most future-proof way to identify products. Please note that you can not call or update products without SKU with the ‘old’ API endpoints. We recommend you to use the new API endpoints.
 :::
 
 # Manage your products with the UUID
