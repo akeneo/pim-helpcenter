@@ -9,7 +9,7 @@ pim_announcement_audience:
 # Identifier Generator
 ::: meta-data type="New" features="Productivity" available="March" in="EE,GE" link-to-doc="https://help.akeneo.com/serenity-your-first-steps-with-akeneo/generate-product-identifiers?from_search=113993232"
 
-The product identifier is a critical piece of product information but often teams have to wait for the identifier to be created in another system such as the ERP or spreadsheet before creating the product in Akeneo PIM. Our new Identifier Generator enables product managers to automate the generation of product identifiers directly in Akeneo PIM and more efficiently prepare products for market by creating the product identifier in the same system where your product information lives. 
+The product identifier is a critical piece of product information but often teams have to wait for the identifier to be created in another system such as the ERP before enriching the product in Akeneo PIM. Our new Identifier Generator enables product managers to automate the generation of product identifiers directly in Akeneo PIM.
 
 Our first release of the Identifier Generator introduces the ability to create simple product identifiers for a selection of products, such as a family. The generator provides options to incorporate free text, family information, an auto-generated incremental number, and a separator, such as a hyphen, between components to create your own unique identifier. For example, you could create an identifier in this format “Akeneo-Family-100”.
 
