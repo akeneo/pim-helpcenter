@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # Time to Market Insights
-::: meta-data type="New" features="Productivity" available="February" in="EE" link-to-doc="../articles/time-to-market-insights.html#overview"
+::: meta-data type="New" features="Productivity" available="February" in="EE" link-to-doc="https://help.akeneo.com/serenity-boost-your-productivity/time-to-market-insights"
 
 Time-to-Market Insights delivers operational metrics and KPIs that track how long it takes to prepare products for launch in Akeneo PIM and identify opportunities to streamline the product data enrichment process to bring products to market faster.
 
