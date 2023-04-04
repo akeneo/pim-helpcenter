@@ -162,6 +162,8 @@ function generateJson() {
 
     return through((file, enc, cb) => {
         const directoryName = path.basename(path.dirname(file.path));
+        const parentDirectoryName = path.dirname(file.path);
+        console.log(parentDirectoryName);
         const link = helpCenterUrl + 'pim/serenity/updates/' + directoryName + '.html#' + file.anchorTitle;
 
         const startDate = getStartDate(directoryName);
