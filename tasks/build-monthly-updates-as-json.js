@@ -162,7 +162,7 @@ function generateJson() {
 
     return through((file, enc, cb) => {
         const directoryName = path.basename(path.dirname(file.path));
-        const parentDirectoryName = path.dirname(file).split(path.sep).pop();
+        const parentDirectoryName = path.dirname(file.path).split(path.sep).pop();
         console.log(parentDirectoryName);
         const link = helpCenterUrl + parentDirectoryName + directoryName + '.html#' + file.anchorTitle;
 
