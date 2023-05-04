@@ -1,4 +1,10 @@
 { 
+  "2023-04": {
+  "title": "April 2023 Serenity updates",
+  "description": "This month we are focused on helping you increase productivity by introducing a number of improvements designed to help you work smarter and faster in Akeneo PIM. Plus, the new industry benchmark capability for Time-to-Market Insights will help you understand how your product enrichment processes compare to your peers.",
+  "img": "illus-april-23.svg"
+},
+{ 
   "2023-03": {
   "title": "March 2023 Serenity updates",
   "description": "March brings the highly-anticipated arrival of the new Identifier Generator, making it possible to automate the creation of product identifiers in Akeneo PIM. Plus, new Custom Apps offer a flexible solution to extend the functionality of Akeneo PIM to address unique business needs.",
