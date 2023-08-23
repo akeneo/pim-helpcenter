@@ -6,7 +6,6 @@ jobs:
         steps:
             - checkout
             - run: make build
-            - run: make test-helpcenter
 
     test_announcements:
         machine:
@@ -17,15 +16,12 @@ jobs:
             - run: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS=$STAGING_GOOGLE_APPLICATION_CREDENTIALS make test-push-announcements
             - run: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT FIREBASE_TOKEN=$FIREBASE_TOKEN GOOGLE_APPLICATION_CREDENTIALS=$STAGING_GOOGLE_APPLICATION_CREDENTIALS make test-firebase-functions
 
-    deploy_staging:
+    push_staging:
         machine:
             image: ubuntu-2204:2022.07.1
         steps:
             - checkout
             - add_ssh_keys
-            - run:
-                  name: Deploy on staging server
-                  command: HOSTNAME=$STAGING_HOSTNAME PORT=$STAGING_PORT HELP_CENTER_URL="https://${STAGING_HOSTNAME}/" make deploy
             - run:
                   name: Push announcements of communication panel of the PIM into firestore
                   command: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS="$STAGING_GOOGLE_APPLICATION_CREDENTIALS" make push-announcements
@@ -33,15 +29,12 @@ jobs:
                   name: Push serverless functions into firebase to expose communication panel API
                   command: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS="$STAGING_GOOGLE_APPLICATION_CREDENTIALS" make deploy-firebase-functions
 
-    deploy_production:
+    push_production:
         machine:
             image: ubuntu-2204:2022.07.1
         steps:
             - checkout
             - add_ssh_keys
-#            - run:
-#                  name: Deploy on production server
-#                  command: HOSTNAME=$PROD_HOSTNAME PORT=$PROD_PORT ONLY_PREVIOUS_MONTH_UPDATES=true make deploy
             - run:
                   name: Push announcements of communication panel of the PIM into firestore
                   command: FIREBASE_PROJECT=$PROD_FIREBASE_PROJECT GOOGLE_APPLICATION_CREDENTIALS="$PROD_GOOGLE_APPLICATION_CREDENTIALS" ONLY_PREVIOUS_MONTH_UPDATES=true make push-announcements
@@ -59,24 +52,16 @@ workflows:
                           ignore:
                               - master
 
-    pull_request_announcements:
-        jobs:
-            - test_announcements:
-                  filters:
-                      branches:
-                          only:
-                              -/announcements.*/
-
     deployment:
         jobs:
-            - deploy_production:
+            - push_production:
                   filters:
                       branches:
                           only: master
-#            - deploy_staging:
-#                  filters:
-#                      branches:
-#                          only: master
+            - push_staging:
+                 filters:
+                     branches:
+                         only: master
 
     # feature announcements of the previous months should be deployed automatically the 5th day of the month in the helpcenter
     # before this date, the announcements are not generated and so not pushed in production
@@ -90,6 +75,6 @@ workflows:
                           only:
                               - master
         jobs:
-            - deploy_production
-            - test_announcements
             - build
+            - test_announcements
+            - push_production
