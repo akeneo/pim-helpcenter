@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # A revamped data quality dashboard
-::: meta-data type="Improvement" features="Quality" available="early December" link-to-doc="../articles/improve-data-quality.html#know-your-data-quality"
+::: meta-data type="Improvement" features="Quality" available="early December"
 
 Under the `Activity` menu, discover a totally reworked `Data Quality Insights` dashboard to easily follow the catalog's data quality. An improved UX, a new chart and key indicators help you get a better overview of your progress and your current situation when it comes to this crucial topic: the quality of your product information.
 

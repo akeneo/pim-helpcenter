@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # A new screen to add your own measurement units
-::: meta-data type="New" features="Measurements, Data Governance" available="mid-April" link-to-doc="../articles/manage-your-measurements.html"
+::: meta-data type="New" features="Measurements, Data Governance" available="mid-April"
 :::
 
 In order to give you more flexibility, we have improved the way we manage metrics in the PIM. Discover our new Measurements feature now!

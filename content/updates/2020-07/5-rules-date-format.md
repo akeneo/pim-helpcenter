@@ -4,7 +4,7 @@ pim_announcement_audience:
 ---
 
 # New rules condition on relative dates
-::: meta-data type="Improvement" features="Rules engine, Productivity" available="mid-July" link-to-doc="../articles/get-started-with-the-rules-engine.html#created"
+::: meta-data type="Improvement" features="Rules engine, Productivity" available="mid-July"
 :::
 
 You can now create a rule based on a **relative date** condition. For now, this new format can only be used through YML import (it will be shortly available in our brand new rules engine screen!). You can use it on the `updated` and `created` system attributes and the `date` attribute type.

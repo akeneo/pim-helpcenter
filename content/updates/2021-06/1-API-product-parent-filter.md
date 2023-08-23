@@ -5,7 +5,7 @@ pim_announcement_audience:
 ---
 
 # Easier product model retrieval within your connectors
-::: meta-data type="Improvement" features="Connectivity" available="early June" in="EE,GE" link-to-doc="https://api.akeneo.com/documentation/filter.html#on-their-parent-2"
+::: meta-data type="Improvement" features="Connectivity" available="early June" in="EE,GE"
 
 When you request product models via the REST API, you can ask for them to be filtered by their parent. It will help you separate more easily root product models from second-level product models.
 

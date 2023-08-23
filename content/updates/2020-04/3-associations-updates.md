@@ -10,7 +10,7 @@ pim_announcement_audience:
 Starting now, enjoy some small improvements to make your life easier when you work with product associations.
 
 ## View the number of associations per product
-::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-April" link-to-doc="../articles/products-associations.html#view-the-products-associations"
+::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-April"
 :::
 
 We now display the **total number of associations per product or product model nearby the `Associations` tab** when you are on your product form.    
@@ -21,13 +21,13 @@ We also show you the **total number of associations per association type**, when
 ![Associations number](../img/associations-number.png)
 
 ## Easy access to associations
-::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-April" link-to-doc="../articles/products-associations.html#open-an-associated-product"
+::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-April"
 :::
 
 Many of you had been asking for it... From the `Associations` tab, you can now click on an associated product or product model and have it displayed in a new tab!
 
 ## Association screen improvement
-::: meta-data type="Improvement" features="Product associations, Productivity" available="mid-April" link-to-doc="../articles/products-associations.html"
+::: meta-data type="Improvement" features="Product associations, Productivity" available="mid-April"
 :::
 
 Until now, when opening the association screen to associate a product with another one, the label of your product was not visible. We now display it under the title! This way we make sure you never lose track of what you are doing, even when a colleague of yours interrupts you during your work!

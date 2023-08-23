@@ -5,7 +5,7 @@ pim_announcement_audience:
 ---
 
 # Convert variant products into simple products
-::: meta-data type="New" features="Governance, Productivity" available="late December" link-to-doc="../articles/enrich-products-variants.html#convert-a-variant-product-to-a-simple-one"
+::: meta-data type="New" features="Governance, Productivity" available="late December"
 
 To offer greater flexibility when dealing with variant products, you can now easily transform them into simple products directly from the PIM interface. Quite a game changer when you need to refine your family variants! You can also use it if your product range now contains one product instead of several.
 

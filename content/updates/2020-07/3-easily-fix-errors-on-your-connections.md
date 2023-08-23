@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Easily fix errors on your connections
-::: meta-data type="Improvement" features="Connections, Productivity" available="early July" link-to-doc="../articles/connection-dashboard.html#in-the-connection-monitoring-page"
+::: meta-data type="Improvement" features="Connections, Productivity" available="early July"
 :::
 
 To facilitate connection management, we have improved the connection warning message you can find under the `Monitoring` page. Each warning message shows a small paragraph that explains what went wrong during the connection's synchronization, internal links to help you check the data in your PIM, and external links to directly access useful information in our help center.

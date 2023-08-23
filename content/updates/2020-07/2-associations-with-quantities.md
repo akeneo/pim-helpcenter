@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # New association type with quantities
-::: meta-data type="New" features="Product Associations" available="early July" link-to-doc="../articles/manage-your-association-types.html#create-an-association-type-with-quantities"
+::: meta-data type="New" features="Product Associations" available="early July"
 :::
 
 The new association type with quantities enables you to create product sets. You can associate several products together and define quantities for each of them. 

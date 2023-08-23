@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # New: execute asset naming conventions manually
-::: meta-data type="New" features="Productivity, Asset Manager" available="late June" link-to-doc="../articles/assets-product-link-rules.html#focus-on-the-naming-convention"
+::: meta-data type="New" features="Productivity, Asset Manager" available="late June"
 :::
 
 You can now manually execute naming conventions from the user interface whenever you need it. This new feature can be very useful if your naming convention has changed after asset uploads or creations.

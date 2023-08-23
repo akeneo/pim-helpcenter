@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # Export your products with their assets
-::: meta-data type="New" features="Collaboration, Productivity" available="late December" link-to-doc="../articles/exports.html#update-an-export-profile"
+::: meta-data type="New" features="Collaboration, Productivity" available="late December"
 
 Collaboration around product data is more efficient than ever as it's now possible to export products and their associated assets from the product grid or your product export profiles. It will save you time whenever you need to share product information with your internal and external teams.
 

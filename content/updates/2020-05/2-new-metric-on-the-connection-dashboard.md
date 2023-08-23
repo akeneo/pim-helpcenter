@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # New metrics on the Connection dashboard
-::: meta-data type="New" features="Connections, Productivity" available="late-May" link-to-doc="../articles/connection-dashboard.html#in-the-connection-dashboard"
+::: meta-data type="New" features="Connections, Productivity" available="late-May"
 :::
 
 The Connection dashboard now displays additional information to ease error monitoring and allows you to see at a glance how your source connections are performing.  

@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # New! Create and update rules from the PIM!
-::: meta-data type="New" features="Rules engine, Productivity" available="mid-July" link-to-doc="../articles/manage-your-rules.html#the-rule-builder-tab"
+::: meta-data type="New" features="Rules engine, Productivity" available="mid-July"
 :::
 
 To make the use of the rules engine easier and boost your productivity, we created a brand new user interface to directly manage your rules in the PIM.  

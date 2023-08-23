@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Monitor ongoing jobs progress and time left
-::: meta-data type="New" features="Productivity" available="mid-November" link-to-doc="../articles/monitor-jobs.html#what-can-you-find-in-a-job-detail"
+::: meta-data type="New" features="Productivity" available="mid-November"
 :::
 
 Whenever you launch a job, a progress bar and an estimation of the remaining time before the job is completed, are now displayed in the process tracker. You can now easily see how long it will take to process a job, to help you better organize your daily tasks.

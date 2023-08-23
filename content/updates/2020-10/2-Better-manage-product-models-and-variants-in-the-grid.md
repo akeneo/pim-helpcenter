@@ -11,7 +11,7 @@ pim_announcement_audience:
 You work a lot with product models and variants? You will definitely enjoy these simple yet efficient improvements in the product grid: a new filter on the product type, a new display option...
 
 ## Filter on the product typology
-::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#filter-on-product-typology"
+::: meta-data type="New" features="Productivity" available="early October"
 :::
 
 The new `Product typology` filter in the product grid allows you to choose to display only the simple products or only the variant products (or only their product models if you group your variants).
@@ -19,7 +19,7 @@ The new `Product typology` filter in the product grid allows you to choose to di
 ![Product typology filter](../img/product-typology-filter.png)
 
 ## Variant product display option
-::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#display-products-with-variants"
+::: meta-data type="New" features="Productivity" available="early October"
 :::
 
 The product grid also benefits from a new `Variant` display option above the grid. Use it if you want to see your variant products individually in the grid, or keep them grouped by product models. Thanks to this new option, you no longer need to click on a product model to access its variants. What a time saver!
@@ -27,7 +27,7 @@ The product grid also benefits from a new `Variant` display option above the gri
 ![Variant display option](../img/variant-product-display-option.png)
 
 ## Search product models using their identifier
-::: meta-data type="New" features="Productivity" available="early October" link-to-doc="../articles/enrich-products-variants.html#filter-on-the-identifier"
+::: meta-data type="New" features="Productivity" available="early October"
 :::
 
 In your product grid, you can now search by product model (and sub-product model) identifiers. Enter your product model ID in our search bar or in the `Identifier` filter et voilà!

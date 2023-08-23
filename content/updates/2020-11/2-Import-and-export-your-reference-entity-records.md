@@ -4,7 +4,7 @@ pim_announcement_audience:
 ---
 
 # Import and export your reference entity records
-::: meta-data type="New" features="Productivity" available="late November" link-to-doc="../articles/import-export-records.html"
+::: meta-data type="New" features="Productivity" available="late November"
 
 Having a hard time initializing the records of your reference entities? We got you covered! You can now import an Excel or CSV file containing your records. We also make it possible for you to export them in Excel or CSV, once enriched. So neat!
 

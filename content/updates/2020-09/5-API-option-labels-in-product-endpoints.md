@@ -5,7 +5,7 @@ pim_announcement_audience:
 ---
 
 # Option labels in product API synchronization  
-::: meta-data type="Improvement" features="API, Connectivity" available="mid-September" link-to-doc="https://api.akeneo.com/concepts/products.html#the-global-format"
+::: meta-data type="Improvement" features="API, Connectivity" available="mid-September"
 :::
 
 To help you reduce the number of API calls needed to synchronize your product data, we added option labels inside the product endpoints.

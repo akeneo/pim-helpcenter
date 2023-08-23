@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Duplicate a user
-::: meta-data type="New" features="Productivity" available="late March" in="EE,GE" link-to-doc="../articles/manage-your-users.html#duplicate-a-user"
+::: meta-data type="New" features="Productivity" available="late March" in="EE,GE"
 :::
 
 You can now duplicate a user to easily create new users based on existing ones. Settings like groups and roles, and additional information, interface settings from the former user will be automatically set for the new user. This new feature is convenient when you need to create similar users.

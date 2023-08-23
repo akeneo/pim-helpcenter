@@ -5,7 +5,7 @@ pim_announcement_audience:
 ---
 
 # Share your product quality scores with other applications
-::: meta-data type="New" features="Quality, Connectivity" available="mid-December" link-to-doc="https://api.akeneo.com/concepts/products.html#product"
+::: meta-data type="New" features="Quality, Connectivity" available="mid-December"
 
 Are you interested in sending your product quality score to third-party applications to compare this score with your other KPIs, such as the number of sales or the number of product returns? Or maybe, you'd like to know which products should be highlighted on your website depending on the quality of their enrichment level? Well, great news! It is now possible thanks to an evolution of our Rest API. 
 

@@ -8,7 +8,7 @@ pim_announcement_audience:
 
 # New association type: the two-way association
 
-::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-May" link-to-doc="../articles/manage-your-association-types.html#create-a-2-way-association-type"
+::: meta-data type="New" features="Product associations, Productivity, Data Governance" available="mid-May"
 :::
 
 Easily handle product compatibility in your PIM thanks to our **brand new two-way association type**! This new association type is now available under `Settings`/`Association types`.

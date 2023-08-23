@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Better manage your attribute options
-::: meta-data type="Improvement" features="Productivity, Data Governance" available="late June" link-to-doc="../articles/manage-your-attributes.html#manage-simple-and-multi-selects-attribute-options"
+::: meta-data type="Improvement" features="Productivity, Data Governance" available="late June"
 :::
 
 The attribute options screen for single and multiple-select attributes has been completely redesigned to give you a better user experience.

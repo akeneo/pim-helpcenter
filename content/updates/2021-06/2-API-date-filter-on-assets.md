@@ -4,7 +4,7 @@ pim_announcement_audience:
 ---
 
 # Improved asset synchronization within your connectors
-::: meta-data type="Improvement" features="Connectivity" available="mid-June" in="EE" link-to-doc="https://api.akeneo.com/documentation/filter.html#by-update-date-2"
+::: meta-data type="Improvement" features="Connectivity" available="mid-June" in="EE"
 
 When requesting assets via the REST API, you can ask to retrieve all the assets updated on a date range, since a number of days, or even before a given date. This should heavily help you improve the performance of your asset synchronization in your connectors.
 

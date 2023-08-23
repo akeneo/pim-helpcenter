@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Easily monitor errors on your connections 
-::: meta-data type="New" features="Connections, Productivity" available="mid-May" link-to-doc="../articles/connection-dashboard.html#in-the-connection-monitoring-page"
+::: meta-data type="New" features="Connections, Productivity" available="mid-May"
 :::
 
 For each of your connections, a new `Monitoring` page now lists the last integration errors that may have occurred.

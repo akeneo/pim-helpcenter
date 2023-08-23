@@ -4,7 +4,7 @@ pim_announcement_audience:
 ---
 
 # The rules engine user interface 100% complete!
-::: meta-data type="New" features="Rules engine, Productivity" available="late September" link-to-doc="../articles/manage-your-rules.html#create-a-rule-in-the-pim-ui"
+::: meta-data type="New" features="Rules engine, Productivity" available="late September"
 :::
 
 The Rules Builder is now compatible with all the rules engine's conditions and actions, so you can now create your rules **from A to Z** from your PIM user interface. 

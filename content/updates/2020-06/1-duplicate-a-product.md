@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # New: duplicate a product
-::: meta-data type="New" features="Productivity" available="early June" link-to-doc="../articles/duplicate-a-product.html"
+::: meta-data type="New" features="Productivity" available="early June"
 :::
 
 You want to easily create a new product based on an existing one? Use our brand new duplicate feature to copy a product in your user interface in one single click!

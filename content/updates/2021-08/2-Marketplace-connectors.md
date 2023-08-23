@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Discover all the connectors compatible with your PIM
-::: meta-data type="New" features="Connectivity" available="mid-July" in="EE,GE" link-to-doc="../articles/what-is-the-pim-marketplace.html"
+::: meta-data type="New" features="Connectivity" available="mid-July" in="EE,GE"
 
 Thanks to this marketplace update, you can now **easily find the tools and extensions** compatible with the version and edition of your PIM directly **from your working environment**. You no longer need to go to the marketplace website, we bring it to you for a premium SaaS experience.
 

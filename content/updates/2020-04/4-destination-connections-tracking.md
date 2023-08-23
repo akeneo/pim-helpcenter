@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Track your destination connections
-::: meta-data type="New" features="Connections, Connectivity" available="early April" link-to-doc="../articles/connection-dashboard.html#destination-connection-monitoring"
+::: meta-data type="New" features="Connections, Connectivity" available="early April"
 :::
 
 You can now easily track the number of products that were sent to your destinations in the Connection dashboard.

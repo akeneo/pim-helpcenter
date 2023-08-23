@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Duplicate Import and Export Profiles
-::: meta-data type="New" features="Productivity" available="mid-September" in="EE" link-to-doc="../articles/tailored-export.html#duplicate-a-tailored-product-export-profile"
+::: meta-data type="New" features="Productivity" available="mid-September" in="EE"
 
 
 Oftentimes the data that you export for your distributors is similar. Therefore being able to duplicate your Tailored Export profile in a single click and adapt it according to the requirements for your new distributor, is quite the time-saver.

@@ -13,7 +13,7 @@ We added new filters on the `search` parameter. They enable you to add filters t
 Those two enhancements will help reduce further the number of data to process, the size of the API call responses, and the number of API calls needed to synchronize your catalog structure.
 
 ## New filters when requesting categories and attribute groups
-::: meta-data type="New" features="API, Connectivity" available="early September" link-to-doc="https://api.akeneo.com/documentation/filter.html#filter-categories"
+::: meta-data type="New" features="API, Connectivity" available="early September"
 :::
 
 Here are the new filters:
@@ -34,7 +34,7 @@ You can combine filters to reach powerful results!
 :::
 
 ## Attribute group labels inside the attribute endpoints  
-::: meta-data type="New" features="API, Connectivity" available="early September" link-to-doc="https://api.akeneo.com/api-reference.html#get_attributes__code_"
+::: meta-data type="New" features="API, Connectivity" available="early September"
 :::
 
 Let's say you have an online catalog on your website, your visitors can easily browse and find your product information in it.

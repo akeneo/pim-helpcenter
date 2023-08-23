@@ -5,7 +5,7 @@ pim_announcement_audience:
 ---
 
 # More visibility on PIM jobs
-::: meta-data type="Improvement" features="Productivity" available="mid-May" link-to-doc="../articles/monitor-jobs.html"
+::: meta-data type="Improvement" features="Productivity" available="mid-May"
 :::
 
 To give you more visibility and control on all PIM jobs, we added a new permission: `View all jobs in the Process Tracker` to see all jobs of any status under the Process Tracker.

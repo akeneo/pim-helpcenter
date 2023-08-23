@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Add guidelines to your attributes
-::: meta-data type="New" features="Governance" available="late March" in="EE,GE" link-to-doc="../articles/what-is-an-attribute.html#the-attribute-guidelines-property"
+::: meta-data type="New" features="Governance" available="late March" in="EE,GE"
 :::
 
 You can now have a short text displayed under each of your attributes in your product form. Use this feature to show guidelines to your teams or contributors so they better understand what is expected for an attribute, or simply guide them through the attribute prerequisites.

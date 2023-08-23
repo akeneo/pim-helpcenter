@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Display labels instead of codes in your product exports
-::: meta-data type="New" features="Collaboration, Productivity" available="mid-September" link-to-doc="../articles/exports.html#update-an-export-profile"
+::: meta-data type="New" features="Collaboration, Productivity" available="mid-September"
 :::
 
 To save time and improve the reading of exported files, we added an option in our XLSX and CSV export functionalities to display attribute labels instead of codes in the export files.

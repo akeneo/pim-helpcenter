@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # Avoid spelling mistakes in your product data
-::: meta-data type="Improvement" features="Data Quality Insights" available="late July" link-to-doc="../articles/improve-data-quality.html#improve-data-quality"
+::: meta-data type="Improvement" features="Data Quality Insights" available="late July"
 :::
 
 You can now benefit from spell-checking on attributes and option labels to guarantee the consistency on your customer-facing product data.

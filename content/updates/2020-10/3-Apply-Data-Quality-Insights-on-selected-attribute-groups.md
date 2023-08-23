@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # Apply Data Quality Insights on selected attribute groups
-::: meta-data type="New" features="Data quality" available="late October" link-to-doc="../articles/manage-data-quality.html#data-quality-insights-activation-and-deactivation"
+::: meta-data type="New" features="Data quality" available="late October"
 :::
 
 Data Quality Insights evolves to help you better prioritize your data quality focus areas. You can now enable/disable the feature at the attribute group level.

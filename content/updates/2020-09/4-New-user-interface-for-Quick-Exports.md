@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # A new user interface for quick exports
-::: meta-data type="New" features="Collaboration, Productivity" available="mid-September" link-to-doc="../articles/quick-export.html"
+::: meta-data type="New" features="Collaboration, Productivity" available="mid-September"
 :::
 
 For a better user experience, we created a new user interface to make it easier for you to generate a quick export from the product grid.

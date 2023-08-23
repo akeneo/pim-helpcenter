@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # New warning message on connection usernames
-::: meta-data type="Improvement" features="Connections" available="late February" link-to-doc="../articles/manage-your-connections.html#why-should-you-use-the-connection-username"
+::: meta-data type="Improvement" features="Connections" available="late February"
 :::
 
 Whenever one of your connectors is not using the dedicated connection username, we display a warning message in the main Connections screen as well as in the Connection form.

@@ -9,7 +9,7 @@ pim_announcement_audience:
 The Connection dashboard has been improved with a new layout as well as the possibility to choose which connection you want to track.
 
 ## Source connections charts improved
-::: meta-data type="New" features="Connections, Connectivity" available="early April" link-to-doc="../articles/connection-dashboard.html#source-connection-monitoring"
+::: meta-data type="New" features="Connections, Connectivity" available="early April"
 :::
 
 We reworked the display of the two charts about the source connections in the Connection dashboard. We also now compute the sum of the number of products created and updated in the last 7 days.
@@ -17,7 +17,7 @@ We reworked the display of the two charts about the source connections in the Co
 ![Sources connection charts](../img/number-of-products-created-updated.png)
 
 ## Choose which connection you want to track
-::: meta-data type="New" features="Connections, Connectivity" available="early April" link-to-doc="../articles/manage-your-connections.html#enable-the-tracking"
+::: meta-data type="New" features="Connections, Connectivity" available="early April"
 :::
 
 By default, new connections won't be monitored. If you want to activate their tracking, check the dedicated option in the Connection setting page.

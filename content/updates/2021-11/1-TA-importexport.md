@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Importing and Exporting Table Attributes
-::: meta-data type="New" features="Governance" available="Late-November" in="EE,GE" link-to-doc="../articles/manage-multidimensional-data-in-a-table.html#importexport-your-table-data.html"
+::: meta-data type="New" features="Governance" available="Late-November" in="EE,GE"
 
 Several dedicated import and export jobs for table attributes are available to adapt to your most efficient workflows. This means more autonomy for you and table attributes that become more readable and easier to enrich. Your exported table attributes will be displayed exactly the way you see them in the product edit form.  
 

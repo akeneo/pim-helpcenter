@@ -7,7 +7,7 @@ pim_announcement_audience:
 Data Quality Insights recommendations and grades are now also available for product models to help you ensure that all your products have enriched and consistent content. Also, our spell-check feature now supports additional languages.
 
 ## Data Quality Insights on product models
-::: meta-data type="Improvement" features="Data Quality Insights, Data Quality" available="mid-April" link-to-doc="../articles/understand-data-quality.html"
+::: meta-data type="Improvement" features="Data Quality Insights, Data Quality" available="mid-April"
 :::
 
 Following last month improvements on product variants, the data quality insights tab listing recommendations and grades is **now also available for product models**. You can now see the enrichment and consistency grading scores for all attributes and see at a glance on which level the attribute is (product variant or model level).

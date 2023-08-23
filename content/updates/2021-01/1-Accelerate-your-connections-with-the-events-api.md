@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Accelerate your connections with the Events API
-::: meta-data type="New" features="Connectivity" available="mid-January" in="EE,GE" link-to-doc="https://api.akeneo.com/events-documentation/overview.html"
+::: meta-data type="New" features="Connectivity" available="mid-January" in="EE,GE"
 
 You know how crucial it is to efficiently connect your PIM to third-party applications such as your ERP, eCommerce platform, or DAM. To help you ramp up on this topic, we're launching a brand new API, called the `Events API`.
 

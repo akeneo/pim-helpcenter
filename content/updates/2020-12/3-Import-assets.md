@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # Import assets with Excel or CSV files
-::: meta-data type="New" features="Productivity, Collaboration" available="late December" link-to-doc="../articles/import-assets.html"
+::: meta-data type="New" features="Productivity, Collaboration" available="late December"
 
 Have you ever wanted to mass import assets? It is now possible thanks to this new feature that allows you to import Excel or CSV files containing all your asset values. For sure, it allows you to save a significant amount of time!
 

@@ -7,7 +7,7 @@ pim_announcement_audience:
 ---
 
 # Easily stop ongoing jobs
-::: meta-data type="New" features="Productivity" available="mid-November" link-to-doc="../articles/monitor-jobs.html#how-to-stop-your-jobs"
+::: meta-data type="New" features="Productivity" available="mid-November"
 :::
 
 A brand new `Stop` button is now displayed in your process tracker. It enables you to stop jobs: imports, exports but also ongoing mass actions or rule executions. Super helpful whenever you launch a job by mistake (we're only humans after all) and don't want to wait for it to run until the end. 😉

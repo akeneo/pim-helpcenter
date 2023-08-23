@@ -11,7 +11,7 @@ pim_announcement_audience:
 Check our latest process tracker enhancements: a shortcut for a fast access to quick export job details, and a new sorting option in the process tracker grid.
 
 ## Easy access to the detail of your quick export once launched
-::: meta-data type="Improvement" features="Productivity" available="mid-October" link-to-doc="../articles/quick-export.html#how"
+::: meta-data type="Improvement" features="Productivity" available="mid-October"
 :::
 
 When you launch a quick product export from the product grid, you can now easily jump to this task's progress detail in the process tracker. Indeed, you'll find a link to the job detail embedded in the flash message that confirms the quick export launch.
@@ -19,7 +19,7 @@ When you launch a quick product export from the product grid, you can now easily
 ![Flash message with the direct link to the quick export detail](../img/flash-message-with-direct-link-to-the-quick-export-detail.png)
 
 ## Process tracker display enhancements
-::: meta-data type="New" features="Productivity" available="mid-October" link-to-doc="../articles/monitor-jobs.html#searching-for-a-job"
+::: meta-data type="New" features="Productivity" available="mid-October"
 :::
 
 Quickly find a launched job thanks to the new `User` filter we introduce in the process tracker grid. It allows you to easily find either your own jobs or the ones launched by one of your colleagues. Neat!

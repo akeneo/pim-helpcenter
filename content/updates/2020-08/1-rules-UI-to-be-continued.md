@@ -4,7 +4,7 @@ pim_announcement_audience:
 ---
 
 # More and more capabilities in your rules builder interface!
-::: meta-data type="New" features="Rules engine, Productivity" available="mid-August" link-to-doc="../articles/manage-your-rules.html#the-rule-builder-tab"
+::: meta-data type="New" features="Rules engine, Productivity" available="mid-August"
 :::
 
 As you may know, we recently introduced a brand new user interface to enable you to manage your rules directly in the PIM! We are still adding new filters (aka the `conditions`) and `actions` to make it more powerful!

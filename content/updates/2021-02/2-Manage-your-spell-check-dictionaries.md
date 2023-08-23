@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # Manage your spell-check dictionaries
-::: meta-data type="New" features="Quality, Productivity" available="early February" in="EE" link-to-doc="../articles/manage-data-quality.html#manage-your-dictionaries"
+::: meta-data type="New" features="Quality, Productivity" available="early February" in="EE"
 
 You can now fully manage your spell-check dictionaries for all your supported locales. Not only do you gain visibility on the words you have already added, but you can also easily edit, delete or even add new words for each dictionary. Getting closer to the next level of enrichment productivity!
 

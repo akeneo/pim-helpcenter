@@ -6,7 +6,7 @@ pim_announcement_audience:
 ---
 
 # Optimize the weight of your assets
-::: meta-data type="Improvement" features="Asset Manager" available="late February" link-to-doc="../articles/assets-transformation.html#optimize-jpeg"
+::: meta-data type="Improvement" features="Asset Manager" available="late February"
 :::
 
 If you need to reduce the size of your images, you can now use a new operation `optimize_jpeg`. This transformation operation will compress your file to a jpeg. 
