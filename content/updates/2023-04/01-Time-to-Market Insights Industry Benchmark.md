@@ -3,6 +3,7 @@ pim_announcement_img: ./img/TTM_Industry_Benchmark.png
 pim_announcement_alt_img: Industry Benchmark now available in Time-to-Market Insights
 pim_announcement_audience:
 - EE
+pim_announcement_link: https://unlock.akeneo.com/2023-Paris
 ---
 
 # Industry Benchmarks Added to Time-to-Market Insights

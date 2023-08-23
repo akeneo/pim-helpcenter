@@ -108,6 +108,7 @@ function validateData() {
         'pim_announcement_img': null,
         'pim_announcement_alt_img': null,
         'pim_announcement_audience': [],
+        'pim_announcement_link': null
     };
 
     return through((file, enc, cb) => {
@@ -131,6 +132,11 @@ function validateData() {
                 error = new Error(`Please specify an alternative text for the image ${imageRelativePath} in ${directoryName}/${filename}`);
                 return cb(error);
             }
+        }
+
+        if (data['pim_announcement_link'] === null) {
+            error = new Error(`Please specify at least an announcement link in ${directoryName}/${filename}`);
+            return cb(error);
         }
 
         if (data['pim_announcement_audience'].length === 0) {
@@ -164,7 +170,6 @@ function generateJson() {
         const directoryName = path.basename(path.dirname(file.path));
         const parentDirectoryNameArray = path.dirname(file.path).split(path.sep);
         const parentDirectoryName = parentDirectoryNameArray[2];
-        const link = helpCenterUrl + parentDirectoryName + directoryName + '.html#' + file.anchorTitle;
 
         const startDate = getStartDate(directoryName);
         // hardcoded to the 5th day of the month as we publish this day
@@ -175,9 +180,11 @@ function generateJson() {
             'pim_announcement_img': null,
             'pim_announcement_alt_img': null,
             'pim_announcement_audience': [],
+            'pim_announcement_link': null,
         };
 
         const data = {...defaultValues, ...file.fm };
+        const link = data['pim_announcement_link'];
         const imgContent = getBase64Content(file, data['pim_announcement_img']);
         const audience = getAudience(data['pim_announcement_audience']);
 
