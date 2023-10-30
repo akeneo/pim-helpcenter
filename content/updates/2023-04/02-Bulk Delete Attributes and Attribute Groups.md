@@ -4,7 +4,7 @@ pim_announcement_alt_img: Bulk delete attributes and attribute groups to save ti
 pim_announcement_audience:
 - EE
 - GE
-pim_announcement_link: https://help.akeneo.com/serenity-2023/april-2023-serenity-updates#bulk-delete-attributes-and-attribute-groups
+pim_announcement_link: https://help.akeneo.com/serenity-2023/april-2023-serenity-updates#bulk-delete-attributes-attribute-groups
 ---
 
 # Bulk Delete Attributes and Attribute Groups
