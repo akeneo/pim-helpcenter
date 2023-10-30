@@ -3,6 +3,7 @@ pim_announcement_img: ./img/TTM_Industry_Benchmark.png
 pim_announcement_alt_img: Industry Benchmark now available in Time-to-Market Insights
 pim_announcement_audience:
 - EE
+pim_announcement_link: https://help.akeneo.com/serenity-2023/april-2023-serenity-updates#industry-benchmarks-added-to-time-to-market-insights
 ---
 
 # Industry Benchmarks Added to Time-to-Market Insights

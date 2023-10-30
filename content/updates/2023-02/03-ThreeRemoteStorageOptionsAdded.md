@@ -4,6 +4,7 @@ pim_announcement_alt_img: New remote storage options now available for import/ex
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2023/february-2023-serenity-updates#three-remote-storage-options-added-for-importexport
 ---
 
 # Three Remote Storage Options Added for Import/Export

@@ -2,6 +2,7 @@
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2023/march-2023-serenity-updates#custom-apps
 ---
 
 # Custom Apps
