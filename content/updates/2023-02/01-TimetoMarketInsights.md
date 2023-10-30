@@ -3,6 +3,7 @@ pim_announcement_img: ./img/Time_to_Market_Insights.png
 pim_announcement_alt_img: Time to Market Insights Dashboard
 pim_announcement_audience:
 - EE
+pim_announcement_link: https://help.akeneo.com/serenity-2023/february-2023-serenity-updates#time-to-market-insights
 ---
 
 # Time to Market Insights

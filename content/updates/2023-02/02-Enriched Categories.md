@@ -4,6 +4,7 @@ pim_announcement_alt_img: Enrich Categories to showcase your products with great
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2023/february-2023-serenity-updates#enriched-categories
 ---
 
 # Enriched Categories

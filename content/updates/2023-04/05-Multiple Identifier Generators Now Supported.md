@@ -4,6 +4,7 @@ pim_announcement_alt_img: Create multiple Identifier Generators to serve your bu
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2023/april-2023-serenity-updates#multiple-identifier-generators
 ---
 
 # Multiple Identifier Generators

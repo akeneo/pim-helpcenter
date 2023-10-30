@@ -108,6 +108,7 @@ function validateData() {
         'pim_announcement_img': null,
         'pim_announcement_alt_img': null,
         'pim_announcement_audience': [],
+        'pim_announcement_link': '',
     };
 
     return through((file, enc, cb) => {
@@ -158,13 +159,8 @@ function validateData() {
 }
 
 function generateJson() {
-    const helpCenterUrl = process.env.HELP_CENTER_URL ? process.env.HELP_CENTER_URL : HELP_CENTER_PRODUCTION_URL;
-
     return through((file, enc, cb) => {
         const directoryName = path.basename(path.dirname(file.path));
-        const parentDirectoryNameArray = path.dirname(file.path).split(path.sep);
-        const parentDirectoryName = parentDirectoryNameArray[2];
-        const link = helpCenterUrl + parentDirectoryName + directoryName + '.html#' + file.anchorTitle;
 
         const startDate = getStartDate(directoryName);
         // hardcoded to the 5th day of the month as we publish this day
@@ -175,9 +171,11 @@ function generateJson() {
             'pim_announcement_img': null,
             'pim_announcement_alt_img': null,
             'pim_announcement_audience': [],
+            'pim_announcement_link': '',
         };
 
         const data = {...defaultValues, ...file.fm };
+        const link = data['pim_announcement_link'];
         const imgContent = getBase64Content(file, data['pim_announcement_img']);
         const audience = getAudience(data['pim_announcement_audience']);
 
@@ -193,7 +191,7 @@ function generateJson() {
             'notificationEndDate': notificationEndDate,
             'tags': ['updates'],
             'title': file.title,
-            'link': link
+            'link': link,
         });
 
         file.contents = Buffer.from(content);

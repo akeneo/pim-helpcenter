@@ -4,6 +4,7 @@ pim_announcement_alt_img: Deactivate a category template when it is no longer ne
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2023/april-2023-serenity-updates#deactivate-pre-defined-category-templates
 ---
 
 # Deactivate Pre-Defined Category Templates
