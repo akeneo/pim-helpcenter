@@ -3,7 +3,7 @@ pim_announcement_img: ./img/Add_New_Asset_Attribute.png
 pim_announcement_alt_img: Add date-based information to assets with the new Date Type attribute
 pim_announcement_audience:
 - EE
-pim_announcement_link: https://help.akeneo.com/serenity-2023/april-2023-serenity-updates#date-type-attribute-for-assets
+pim_announcement_link: https://help.akeneo.com/serenity-2023/april-2023-serenity-updates#date-type-attributes-for-assets
 ---
 
 # Date Type Attribute for Assets
