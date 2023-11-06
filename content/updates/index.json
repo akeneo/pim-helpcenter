@@ -1,4 +1,9 @@
 { 
+  "2023-10": {
+    "title": "October 2023 Serenity updates",
+    "description": "This month we are focused on helping you support better data governance by introducing new Family Templates to help save time during the catalog modeling step. Plus, Tailored Imports now supports the inclusion of additional product identifiers.",
+    "img": "illus-october-23.svg"
+  }, 
   "2023-04": {
   "title": "April 2023 Serenity updates",
   "description": "This month we are focused on helping you increase productivity by introducing a number of improvements designed to help you work smarter and faster in Akeneo PIM. Plus, the new industry benchmark capability for Time-to-Market Insights will help you understand how your product enrichment processes compare to your peers.",
