@@ -4,6 +4,7 @@ pim_announcement_alt_img: Export profiles with UUID
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2022/serenity-november-2022-serenity-updates#products-imports-exports-compatible-with-uuid
 ---
 
 # Products imports & exports compatible with UUID

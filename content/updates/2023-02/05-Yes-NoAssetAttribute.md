@@ -4,6 +4,7 @@ pim_announcement_alt_img: Yes/No is now an asset attribute type
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2023/february-2023-serenity-updates#yesno-attribute-type-for-assets
 ---
 
 # Yes/No Attribute Type for Assets
