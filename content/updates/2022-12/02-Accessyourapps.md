@@ -4,6 +4,7 @@ pim_announcement_alt_img: Open your Connected Apps
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2022/december-2022-serenity-updates#open-apps-from-the-settings-tab
 ---
 
 # Open Apps from the Settings Tab

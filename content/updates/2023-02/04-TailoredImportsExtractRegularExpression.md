@@ -4,6 +4,7 @@ pim_announcement_alt_img: Extract with regular expression
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2023/february-2023-serenity-updates#tailored-imports-extract-with-regular-expression
 ---
 
 # Tailored Imports: Extract with Regular Expression

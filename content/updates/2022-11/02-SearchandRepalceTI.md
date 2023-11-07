@@ -4,6 +4,7 @@ pim_announcement_alt_img: Tailored Imports Search and Replace Operations
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2022/serenity-november-2022-serenity-updates#search-and-replace-functionality-in-tailored-imports
 ---
 
 # Search and Replace Functionality in Tailored Imports

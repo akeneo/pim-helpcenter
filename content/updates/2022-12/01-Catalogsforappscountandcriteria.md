@@ -4,6 +4,7 @@ pim_announcement_alt_img: 993 products in this selection
 pim_announcement_audience:
 - EE
 - GE
+pim_announcement_link: https://help.akeneo.com/serenity-2022/december-2022-serenity-updates#product-criteria-and-product-counts-in-catalogs-for-apps
 ---
 
 # Product Criteria and Product Counts in Catalogs for Apps
