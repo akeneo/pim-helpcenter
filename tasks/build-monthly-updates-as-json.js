@@ -171,7 +171,7 @@ function generateJson() {
             'pim_announcement_img': null,
             'pim_announcement_alt_img': null,
             'pim_announcement_audience': [],
-            'pim_announcement_link': '',
+            'pim_announcement_link': null,
         };
 
         const data = {...defaultValues, ...file.fm };
