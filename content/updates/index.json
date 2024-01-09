@@ -1,4 +1,9 @@
 { 
+  "2023-12": {
+    "title": "December 2023 Serenity updates",
+    "description": "We wrapped up 2023 by introducing, Simultaneous Work, a new feature designed to encourage efficient teamwork and reinforce global workflows.",
+    "img": "illus-december-23.svg"
+  }, 
   "2023-10": {
     "title": "October 2023 Serenity updates",
     "description": "This month we are focused on helping you support better data governance by introducing new Family Templates to help save time during the catalog modeling step. Plus, Tailored Imports now supports the inclusion of additional product identifiers.",
