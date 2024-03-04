@@ -1,5 +1,10 @@
 { 
-  "2023-12": {
+  "2024-03": {
+    "title": "March 2024 Serenity updates",
+    "description": "Akeneo's Spring Release blooms with AI, analytics, and workflows.",
+    "img": "illus-march-24.svg"
+  },
+   "2023-12": {
     "title": "December 2023 Serenity updates",
     "description": "We wrapped up 2023 by introducing, Simultaneous Work, a new feature designed to encourage efficient teamwork and reinforce global workflows.",
     "img": "illus-december-23.svg"
