@@ -1,19 +1,19 @@
-{ 
-  "2024-03": {
-    "title": "March 2024 Serenity updates",
+{
+  "2024-02": {
+    "title": "February 2024 Serenity updates",
     "description": "Akeneo's Spring Release blooms with AI, analytics, and workflows.",
-    "img": "illus-march-24.svg"
+    "img": "illus-february-24.svg"
   },
    "2023-12": {
     "title": "December 2023 Serenity updates",
     "description": "We wrapped up 2023 by introducing, Simultaneous Work, a new feature designed to encourage efficient teamwork and reinforce global workflows.",
     "img": "illus-december-23.svg"
-  }, 
+  },
   "2023-10": {
     "title": "October 2023 Serenity updates",
     "description": "This month we are focused on helping you support better data governance by introducing new Family Templates to help save time during the catalog modeling step. Plus, Tailored Imports now supports the inclusion of additional product identifiers.",
     "img": "illus-october-23.svg"
-  }, 
+  },
   "2023-04": {
   "title": "April 2023 Serenity updates",
   "description": "This month we are focused on helping you increase productivity by introducing a number of improvements designed to help you work smarter and faster in Akeneo PIM. Plus, the new industry benchmark capability for Time-to-Market Insights will help you understand how your product enrichment processes compare to your peers.",
@@ -28,7 +28,7 @@
   "title": "February 2023 Serenity updates",
   "description": "This month we are excited to announce the availability of Time-to-Market Insights, new analytical capabilities that identify opportunities to streamline product enrichment processes and to help bring products to market faster. Plus, we’ve released Enriched Categories and made enhancements to import/export options and asset attribute types.",
   "img": "illus-february-23.svg"
-}, 
+},
   "2022-12": {
     "title": "December 2022 Serenity updates",
     "description": "Happy New Year! We wrapped up 2022 with a few usability improvements to Catalogs for Apps to help developers access data from Akeneo PIM.",
