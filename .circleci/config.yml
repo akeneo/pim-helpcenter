@@ -2,14 +2,14 @@ version: 2
 jobs:
     build:
         machine:
-            image: ubuntu-2204:2022.07.1
+            image: ubuntu-2204:current
         steps:
             - checkout
             - run: make build
 
     test_announcements:
         machine:
-            image: ubuntu-2204:2022.07.1
+            image: ubuntu-2204:current
         steps:
             - checkout
             - run: make build
@@ -18,7 +18,7 @@ jobs:
 
     push_staging:
         machine:
-            image: ubuntu-2204:2022.07.1
+            image: ubuntu-2204:current
         steps:
             - checkout
             - add_ssh_keys
@@ -31,7 +31,7 @@ jobs:
 
     push_production:
         machine:
-            image: ubuntu-2204:2022.07.1
+            image: ubuntu-2204:current
         steps:
             - checkout
             - add_ssh_keys
