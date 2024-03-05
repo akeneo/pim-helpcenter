@@ -7,8 +7,8 @@ pim_announcement_audience:
 pim_announcement_link: https://help.akeneo.com/serenity-2024/march-2024-serenity-updates
 ---
 
-# March 2024 Updates
-::: meta-data type="Improvement" features="Collaboration" available="March" in="EE,GE" link-to-doc="https://help.akeneo.com/serenity-2024/march-2024-serenity-updates"
+# February 2024 Updates
+::: meta-data type="Improvement" features="Collaboration" available="February" in="EE,GE" link-to-doc="https://help.akeneo.com/serenity-2024/march-2024-serenity-updates"
 
 Akeneo's Spring 2024 Release is here! Introducing AI-enhanced enrichment and translation, business analytics, enrichment workflows, and more in Akeneo PIM.
 
