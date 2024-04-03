@@ -35,7 +35,7 @@ There is no connection declared here yet? Discover [what a connection is here](w
 To [connect your PIM](how-to-connect-my-pim-legacy.html) to a third-party solution, you will need to create a connection.
 
 ::: info
-You can connect up to 50 third-parties through connections and connected Apps. :rocket:
+You can connect up to 100 third-parties through connections and connected Apps. :rocket:
 :::
 
 Here are the simple steps to create a connection:

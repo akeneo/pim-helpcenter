@@ -10,7 +10,7 @@ related: manage-your-apps, connection-dashboard
 # Connect your App
 
 ::: info
-You can connect up to 50 third-parties through connections and connected Apps. 
+You can connect up to 100 third-parties through connections and connected Apps. 
 :::
 
 To enable an App, click on `Connect` on the App card on the PIM App Store page. 
