@@ -1,4 +1,9 @@
 {
+  "2024-04": {
+    "title": "April 2024 Serenity updates",
+    "description": "Our latest releases mark a season of rejuvenated productivity and efficiency. From automated email notifications simplifying your communication to team dashboards granting managers comprehensive oversight, and now, introducing the persistent compare/translate panel, we foster an environment where multi-language enrichment thrives effortlessly.",
+    "img": "illus-april-24.svg"
+  }, 
   "2024-02": {
     "title": "February 2024 Serenity updates",
     "description": "Akeneo's Spring Release blooms with AI, analytics, and workflows.",
