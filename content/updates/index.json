@@ -1,4 +1,9 @@
 {
+  "2024-05": {
+    "title": "May 2024 Serenity updates",
+    "description": "May blooms with fresh features and APIs improvements in Akeneo Serenity: Embrace the growth of your Product Management efficiency!",
+    "img": "illus-may-24.svg"
+  }, 
   "2024-04": {
     "title": "April 2024 Serenity updates",
     "description": "Our latest releases mark a season of rejuvenated productivity and efficiency. From automated email notifications simplifying your communication to team dashboards granting managers comprehensive oversight, and now, introducing the persistent compare/translate panel, we foster an environment where multi-language enrichment thrives effortlessly.",
