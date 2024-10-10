@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:18-alpine
 RUN apk add yarn
 RUN apk add openssh-client
 RUN apk add rsync
