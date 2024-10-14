@@ -60,7 +60,7 @@ const createDist = gulp.series(
 //Define tasks
 gulp.task('clean-dist', cleanDist);
 gulp.task('watch', gulp.series(createDist, watch));
-gulp.task('launch-server', gulp.series(createDist, launchWebserver));
+gulp.task('launch-webserver', gulp.series(createDist, launchWebserver));
 gulp.task('create-dist', createDist);
 gulp.task('serve', gulp.parallel('launch-webserver', 'watch'));
 
