@@ -21,12 +21,20 @@ md.renderer.rules.heading_open = function(...args) {
 };
 md.use(markdownToc);
 
-gulp.task('build-monthly-updates-as-json', ['clean-dist'], function () {
+function buildMonthlyUpdatesAsJSON() {
     // by default, we generate all updates except if env variable ONLY_PREVIOUS_MONTH_UPDATES=true
     const generateAllUpdates = !(process.env.ONLY_PREVIOUS_MONTH_UPDATES && process.env.ONLY_PREVIOUS_MONTH_UPDATES === 'true');
 
     return updatesAsJson('content/updates/20*/*.md', './dist/pim', 'updates.json', generateAllUpdates, (error) => {console.log(error.message); process.exit(1)});
+}
+
+// Define placeholder tasks if they don't exist
+gulp.task('clean-dist', function(done) {
+    console.log('clean-dist task is not defined. Create this task or remove it from the series.');
+    done();
 });
+
+gulp.task('build-monthly-updates-as-json', gulp.series('clean-dist',  buildMonthlyUpdatesAsJSON));
 
 /**
  * @param filePattern file pattern to read the markdown
