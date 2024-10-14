@@ -21,8 +21,7 @@ const HelpcenterMarkdownIt = require('./common/markdown-it.js');
 
 var majorVersion = 'serenity';
 
-
-gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
+function buildArticles() {
     var md = new HelpcenterMarkdownIt();
 
     return gulp.src('content/md/**/*.md')
@@ -102,9 +101,17 @@ gulp.task('build-articles', ['clean-dist','less', 'build-themes'], function () {
                 });
             });
         }));
-    }
-);
+}
+
 
 function getTocMarkdown(currentPage) {
     return "\n\n:::: toc\n@[toc]\n\n::::\n\n";
 }
+
+// Define the 'build-articles' task
+gulp.task('build-articles', gulp.series('clean-dist', 'less', 'build-themes', buildArticles));
+
+// Export the buildArticles function
+module.exports = {
+    buildArticles: buildArticles
+};
