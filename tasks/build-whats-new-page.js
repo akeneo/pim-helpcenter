@@ -27,8 +27,6 @@ const orderedVersions = {
     'serenity': { 'name': 'Serenity', 'isSupported': true }
 };
 
-module.exports = {generateWhatsNew};
-
 function buildWhatsNewPage() {
     const fileDirectorySource = 'content/whats-new';
     const fileDirectoryDestination = './dist/pim/serenity';
@@ -48,6 +46,17 @@ gulp.task('less', function(done) {
 });
 
 gulp.task('build-whats-new-page', gulp.series('clean-dist', 'less', buildWhatsNewPage));
+
+function revReplaceIfManifestExists() {
+    const manifestPath = "./tmp/rev/rev-manifest.json";
+    
+    if (fs.existsSync(manifestPath)) {
+        return revReplace({manifest: gulp.src(manifestPath, {allowEmpty: true})});
+    } else {
+        console.warn("Warning: rev-manifest.json not found. Skipping asset revisioning.");
+        return gulp.src('.', {allowEmpty: true});  // This is a no-op
+    }
+}
 
 function generateWhatsNew(fileDirectorySource, fileDirectoryDestination) {
     const versions = {};
@@ -89,6 +98,8 @@ function generateWhatsNew(fileDirectorySource, fileDirectoryDestination) {
             partialsDirectory: ['./src/partials']
         }))
         .pipe(rename('whats-new.html'))
-        .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
+        .pipe(revReplaceIfManifestExists())
         .pipe(gulp.dest(fileDirectoryDestination));
 };
+
+module.exports = {generateWhatsNew};
