@@ -22,7 +22,6 @@ const HelpcenterMarkdownIt = require('./common/markdown-it.js');
 var majorVersion = 'serenity';
 
 function buildArticles() {
-function buildArticles() {
     var md = new HelpcenterMarkdownIt();
 
     return gulp.src('content/md/**/*.md')
