@@ -29,12 +29,25 @@ const orderedVersions = {
 
 module.exports = {generateWhatsNew};
 
-gulp.task('build-whats-new-page', ['clean-dist','less'], function() {
+function buildWhatsNewPage() {
     const fileDirectorySource = 'content/whats-new';
     const fileDirectoryDestination = './dist/pim/serenity';
 
     return generateWhatsNew(fileDirectorySource, fileDirectoryDestination);
+};
+
+// Define placeholder tasks if they don't exist
+gulp.task('clean-dist', function(done) {
+    console.log('clean-dist task is not defined. Create this task or remove it from the series.');
+    done();
 });
+
+gulp.task('less', function(done) {
+    console.log('less task is not defined. Create this task or remove it from the series.');
+    done();
+});
+
+gulp.task('build-whats-new-page', gulp.series('clean-dist', 'less', buildWhatsNewPage));
 
 function generateWhatsNew(fileDirectorySource, fileDirectoryDestination) {
     const versions = {};
