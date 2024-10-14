@@ -87,7 +87,7 @@ function buildMonthlyUpdatesAsHTML() {
         generateUpdates(fileDirectorySource, fileDirectoryDestination, generateAllUpdates),
         generateIndex(fileDirectorySource, fileDirectoryDestination, generateAllUpdates)
     );
-}
+};
 
 // Define placeholder tasks if they don't exist
 gulp.task('clean-dist', function(done) {
@@ -169,17 +169,17 @@ function generateUpdates(fileDirectorySource, fileDirectoryDestination, generate
     });
 
     return merge(tasks);
-}
+};
 
 function getFolders(dir) {
     return fs.readdirSync(dir).filter(function(file) {
         return fs.statSync(path.join(dir, file)).isDirectory();
     });
-}
+};
 
 function getTocMarkdown() {
     return "\n\n:::: toc\n@[toc]\n\n::::\n\n";
-}
+};
 
 /**
  *
@@ -197,4 +197,4 @@ function keepUpdatesFromPreviousMonths(folderName, generateAllUpdates) {
     const maxDate = year + '-' + month;
 
     return folderName <= maxDate || generateAllUpdates;
-}
+};

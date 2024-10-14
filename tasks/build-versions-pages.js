@@ -16,14 +16,27 @@ const majorVersion = 'serenity';
 
 module.exports = {generateVersionsInDetailPage};
 
-gulp.task('build-versions-in-detail-page', ['clean-dist','less'], function() {
+function buildVersionsPages() {
     const fileDirectoryDestination = './dist/pim/serenity';
 
     return merge(
         generateVersionsInDetailPage(fileDirectoryDestination),
         generateVersionsSupportedTable(fileDirectoryDestination)
     );
+};
+
+// Define placeholder tasks if they don't exist
+gulp.task('clean-dist', function(done) {
+    console.log('clean-dist task is not defined. Create this task or remove it from the series.');
+    done();
 });
+
+gulp.task('less', function(done) {
+    console.log('less task is not defined. Create this task or remove it from the series.');
+    done();
+});
+
+gulp.task('build-versions-in-detail-page',  gulp.series('clean-dist', 'less', buildVersionsPages));
 
 function generateVersionsInDetailPage(fileDirectoryDestination) {
     var versions = JSON.parse(fs.readFileSync('content/versions-in-detail/versions-in-detail.json'));
@@ -92,4 +105,4 @@ function generateVersionsSupportedTable(fileDirectoryDestination) {
         .pipe(rename('supported-versions-table.html'))
         .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
         .pipe(gulp.dest(fileDirectoryDestination));
-}
+};

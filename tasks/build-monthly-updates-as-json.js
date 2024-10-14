@@ -26,7 +26,7 @@ function buildMonthlyUpdatesAsJSON() {
     const generateAllUpdates = !(process.env.ONLY_PREVIOUS_MONTH_UPDATES && process.env.ONLY_PREVIOUS_MONTH_UPDATES === 'true');
 
     return updatesAsJson('content/updates/20*/*.md', './dist/pim', 'updates.json', generateAllUpdates, (error) => {console.log(error.message); process.exit(1)});
-}
+};
 
 // Define placeholder tasks if they don't exist
 gulp.task('clean-dist', function(done) {
@@ -53,7 +53,7 @@ function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestinatio
         .pipe(generateJson())
         .pipe(jsonCombine(fileNameDestination, data => { return new Buffer.from(JSON.stringify(Object.values(data))); }))
         .pipe(gulp.dest(fileDirectoryDestination));
-}
+};
 
 function parseMarkdown(file) {
     const env = {};
@@ -63,7 +63,7 @@ function parseMarkdown(file) {
     file.description = env.description;
 
     return;
-}
+};
 
 /**
  * Return the first h1 title in the markdown file.
@@ -164,7 +164,7 @@ function validateData() {
 
         return cb(null, file);
     })
-}
+};
 
 function generateJson() {
     return through((file, enc, cb) => {
@@ -205,7 +205,7 @@ function generateJson() {
         file.contents = Buffer.from(content);
         cb(null, file);
     });
-}
+};
 
 function getBase64Content(file, imageRelativePath) {
     if (!imageRelativePath) {
@@ -222,7 +222,7 @@ function getBase64Content(file, imageRelativePath) {
     const base64 = 'data:image/' + extension +';base64, ' +content;
 
     return base64;
-}
+};
 
 /**
  * Transform EE into Serenity to match PIM version.
@@ -242,7 +242,7 @@ function getAudience(editions) {
                 throw new Error('Edition is not supported.');
         }
     });
-}
+};
 
 function getNotificationEndDate(starDateString) {
     let startDate = new Date(starDateString);
@@ -253,7 +253,7 @@ function getNotificationEndDate(starDateString) {
     const day = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(startDate);
 
     return year + '-' + month + '-' + day;
-}
+};
 
 /**
  * This is the date of the publishment of the news. It's a feature in February 2020, it will be 2020-03.
@@ -266,7 +266,7 @@ function getStartDate(directoryName) {
     const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(startDate);
 
     return year + '-' + month;
-}
+};
 
 /**
  * Do not generate updates that are not published yet, except if generateAllUpdates = true (only for staging env).
@@ -286,4 +286,4 @@ function keepUpdatesFromPreviousMonths(generateAllUpdates) {
 
         return folderName <= maxDate || generateAllUpdates;
     }
-}
+};

@@ -14,6 +14,7 @@ var revReplace = require('gulp-rev-replace');
 var majorVersion = 'serenity';
 
 function buildThemes() {
+function buildThemes() {
     // For each Json file containing the Persona themes
     return gulp.src('content/*.json')
         .pipe(jsonTransform(function(data, file) {
@@ -78,7 +79,7 @@ function buildThemes() {
                     .pipe(gulp.dest('./dist/pim/' + majorVersion));
             });
         }));
-}
+};
 
 // Define placeholder tasks if they don't exist
 gulp.task('clean-dist', function(done) {
