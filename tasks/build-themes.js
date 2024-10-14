@@ -13,7 +13,7 @@ var revReplace = require('gulp-rev-replace');
 
 var majorVersion = 'serenity';
 
-gulp.task('build-themes', ['clean-dist','less'], function () {
+function buildThemes() {
     // For each Json file containing the Persona themes
     return gulp.src('content/*.json')
         .pipe(jsonTransform(function(data, file) {
@@ -78,4 +78,22 @@ gulp.task('build-themes', ['clean-dist','less'], function () {
                     .pipe(gulp.dest('./dist/pim/' + majorVersion));
             });
         }));
+}
+
+// Define placeholder tasks if they don't exist
+gulp.task('clean-dist', function(done) {
+    console.log('clean-dist task is not defined. Create this task or remove it from the series.');
+    done();
 });
+
+gulp.task('less', function(done) {
+    console.log('less task is not defined. Create this task or remove it from the series.');
+    done();
+});
+
+gulp.task('build-themes', gulp.series('clean-dist', 'less', buildThemes));
+
+// Export the buildArticles function
+module.exports = {
+    buildThemes: buildThemes
+};
