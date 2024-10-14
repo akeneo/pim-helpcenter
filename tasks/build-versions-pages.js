@@ -38,6 +38,17 @@ gulp.task('less', function(done) {
 
 gulp.task('build-versions-in-detail-page',  gulp.series('clean-dist', 'less', buildVersionsPages));
 
+function revReplaceIfManifestExists() {
+    const manifestPath = "./tmp/rev/rev-manifest.json";
+    
+    if (fs.existsSync(manifestPath)) {
+        return revReplace({manifest: gulp.src(manifestPath, {allowEmpty: true})});
+    } else {
+        console.warn("Warning: rev-manifest.json not found. Skipping asset revisioning.");
+        return gulp.src('.', {allowEmpty: true}); 
+    }
+}
+
 function generateVersionsInDetailPage(fileDirectoryDestination) {
     var versions = JSON.parse(fs.readFileSync('content/versions-in-detail/versions-in-detail.json'));
 
@@ -79,7 +90,7 @@ function generateVersionsInDetailPage(fileDirectoryDestination) {
             partialsDirectory: ['./src/partials']
         }))
         .pipe(rename('versions-in-detail.html'))
-        .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
+        .pipe(revReplaceIfManifestExists())
         .pipe(gulp.dest(fileDirectoryDestination));
 };
 
@@ -103,6 +114,6 @@ function generateVersionsSupportedTable(fileDirectoryDestination) {
             partialsDirectory: ['./src/partials']
         }))
         .pipe(rename('supported-versions-table.html'))
-        .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
+        .pipe(revReplaceIfManifestExists())
         .pipe(gulp.dest(fileDirectoryDestination));
 };
