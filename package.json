@@ -13,7 +13,7 @@
   "devDependencies": {
     "del": "3.0.0",
     "firebase-admin": "^8.12.1",
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "gulp-base64-inline": "1.0.6",
     "gulp-concat": "2.6.1",
     "gulp-filter": "^6.0.0",
@@ -49,6 +49,6 @@
     "start": "gulp serve"
   },
   "engines": {
-    "node": ">=0.10.0 <12"
+    "node": ">=0.16.0 <18"
   }
 }
