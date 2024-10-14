@@ -168,7 +168,11 @@ function generateUpdates(fileDirectorySource, fileDirectoryDestination, generate
             }));
     });
 
-    return merge(tasks);
+    return merge(tasks)
+        .on('error', function(err) {
+            console.error('Error in generate updates task:', err);
+            this.emit('end');
+        });
 };
 
 function getFolders(dir) {
