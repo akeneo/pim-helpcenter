@@ -2,12 +2,9 @@ const gulp = require('gulp');
 const admin = require("firebase-admin");
 const fs = require('fs');
 
-module.exports = pushAnnouncements;
-
-gulp.task('push-announcements', [], async () => {
+async function pushAnnouncementsTask() {
     await pushAnnouncements('./dist/pim/updates.json', 'announcements');
-});
-
+};
 
 async function pushAnnouncements(updateFilePath, collectionName) {
     admin.initializeApp({
@@ -19,7 +16,7 @@ async function pushAnnouncements(updateFilePath, collectionName) {
     await writeAnnouncements(updateFilePath, collectionName);
 
     await admin.app().delete();
-}
+};
 
 async function writeAnnouncements(updateFilepath, collectionName) {
     const announcements = admin.firestore().collection(collectionName);
@@ -30,7 +27,7 @@ async function writeAnnouncements(updateFilepath, collectionName) {
     await Promise.all(data.map(async (announcement) => {
         await announcements.doc(announcement.id).set(announcement);
     }));
-}
+};
 
 
 /**
@@ -52,7 +49,7 @@ async function deleteAnnouncements(updateFilepath, collectionName) {
     await Promise.all(deletedIds.map(async (id) => {
         await announcements.doc(id).delete();
     }));
-}
+};
 
 async function getIdsInFirestore(collectionName) {
     const announcements = await admin.firestore().collection(collectionName).where('type', '==', 'update').get();
@@ -63,11 +60,18 @@ async function getIdsInFirestore(collectionName) {
     });
 
     return ids;
-}
+};
 
 function getIdsInFile(updateFilepath) {
     const rawData = fs.readFileSync(updateFilepath);
     const data = JSON.parse(rawData);
 
     return data.map(obj => obj.id);
-}
+};
+
+gulp.task('push-announcements', pushAnnouncementsTask);
+
+module.exports = {
+    pushAnnouncements,
+    pushAnnouncementsTask
+};
