@@ -54,7 +54,7 @@ function revReplaceIfManifestExists() {
         return revReplace({manifest: gulp.src(manifestPath, {allowEmpty: true})});
     } else {
         console.warn("Warning: rev-manifest.json not found. Skipping asset revisioning.");
-        return gulp.src('.', {allowEmpty: true});  // This is a no-op
+        return gulp.src('.', {allowEmpty: true}); 
     }
 }
 

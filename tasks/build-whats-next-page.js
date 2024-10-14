@@ -34,6 +34,17 @@ gulp.task('less', function(done) {
 
 gulp.task('build-whats-next-page', gulp.series('clean-dist', 'less', buildWhatsNextPage));
 
+function revReplaceIfManifestExists() {
+    const manifestPath = "./tmp/rev/rev-manifest.json";
+    
+    if (fs.existsSync(manifestPath)) {
+        return revReplace({manifest: gulp.src(manifestPath, {allowEmpty: true})});
+    } else {
+        console.warn("Warning: rev-manifest.json not found. Skipping asset revisioning.");
+        return gulp.src('.', {allowEmpty: true}); 
+    }
+}
+
 function generateWhatsNext(fileDirectorySource, fileDirectoryDestination) {
     const whatsNextMidTerm = JSON.parse(fs.readFileSync(fileDirectorySource + '/whats-next-mid-term.json'));
     const whatsNextShortTerm = JSON.parse(fs.readFileSync(fileDirectorySource + '/whats-next-short-term.json'));
@@ -79,6 +90,6 @@ function generateWhatsNext(fileDirectorySource, fileDirectoryDestination) {
             partialsDirectory: ['./src/partials']
         }))
         .pipe(rename('whats-next.html'))
-        .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
+        .pipe(revReplaceIfManifestExists())
         .pipe(gulp.dest(fileDirectoryDestination));
 };
