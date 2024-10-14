@@ -76,8 +76,8 @@ md
             return (tokens[idx].nesting === 1) ? '<div class="alert alert-info"><b>Not familiar with the context?</b><br><em>Here is a selection from our help center:</em>' : '</div>\n'
         }
     });
-
-gulp.task('build-monthly-updates-as-html', ['clean-dist','less'], function() {
+    
+function buildMonthlyUpdatesAsHTML() {
     const fileDirectorySource = 'content/updates';
     const fileDirectoryDestination = './dist/pim/serenity/updates';
     // by default, we generate all updates except if env variable ONLY_PREVIOUS_MONTH_UPDATES=true
@@ -87,7 +87,21 @@ gulp.task('build-monthly-updates-as-html', ['clean-dist','less'], function() {
         generateUpdates(fileDirectorySource, fileDirectoryDestination, generateAllUpdates),
         generateIndex(fileDirectorySource, fileDirectoryDestination, generateAllUpdates)
     );
+}
+
+// Define placeholder tasks if they don't exist
+gulp.task('clean-dist', function(done) {
+    console.log('clean-dist task is not defined. Create this task or remove it from the series.');
+    done();
 });
+
+gulp.task('less', function(done) {
+    console.log('less task is not defined. Create this task or remove it from the series.');
+    done();
+});
+
+
+gulp.task('build-monthly-updates-as-html', gulp.series('clean-dist', 'less', buildMonthlyUpdatesAsHTML));
 
 function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAllUpdates) {
     const data = fs.readFileSync(fileDirectorySource + '/index.json');

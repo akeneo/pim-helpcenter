@@ -104,13 +104,9 @@ function buildArticles() {
         }));
 }
 
-}
-
-
 function getTocMarkdown(currentPage) {
     return "\n\n:::: toc\n@[toc]\n\n::::\n\n";
 }
-
 
 // Define placeholder tasks if they don't exist
 gulp.task('clean-dist', function(done) {
