@@ -22,6 +22,7 @@ const HelpcenterMarkdownIt = require('./common/markdown-it.js');
 var majorVersion = 'serenity';
 
 function buildArticles() {
+function buildArticles() {
     var md = new HelpcenterMarkdownIt();
 
     return gulp.src('content/md/**/*.md')
@@ -103,10 +104,29 @@ function buildArticles() {
         }));
 }
 
+}
+
 
 function getTocMarkdown(currentPage) {
     return "\n\n:::: toc\n@[toc]\n\n::::\n\n";
 }
+
+
+// Define placeholder tasks if they don't exist
+gulp.task('clean-dist', function(done) {
+    console.log('clean-dist task is not defined. Create this task or remove it from the series.');
+    done();
+});
+
+gulp.task('less', function(done) {
+    console.log('less task is not defined. Create this task or remove it from the series.');
+    done();
+});
+
+gulp.task('build-themes', function(done) {
+    console.log('build-themes task is not defined. Create this task or remove it from the series.');
+    done();
+});
 
 // Define the 'build-articles' task
 gulp.task('build-articles', gulp.series('clean-dist', 'less', 'build-themes', buildArticles));
