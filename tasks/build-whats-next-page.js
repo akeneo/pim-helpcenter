@@ -14,12 +14,25 @@ const majorVersion = 'serenity';
 
 module.exports = {generateWhatsNext};
 
-gulp.task('build-whats-next-page', ['clean-dist','less'], function() {
+function buildWhatsNextPage() {
     const fileDirectorySource = 'content/whats-next';
     const fileDirectoryDestination = './dist/pim/serenity';
 
     return generateWhatsNext(fileDirectorySource, fileDirectoryDestination);
+};
+
+// Define placeholder tasks if they don't exist
+gulp.task('clean-dist', function(done) {
+    console.log('clean-dist task is not defined. Create this task or remove it from the series.');
+    done();
 });
+
+gulp.task('less', function(done) {
+    console.log('less task is not defined. Create this task or remove it from the series.');
+    done();
+});
+
+gulp.task('build-whats-next-page', gulp.series('clean-dist', 'less', buildWhatsNextPage));
 
 function generateWhatsNext(fileDirectorySource, fileDirectoryDestination) {
     const whatsNextMidTerm = JSON.parse(fs.readFileSync(fileDirectorySource + '/whats-next-mid-term.json'));
