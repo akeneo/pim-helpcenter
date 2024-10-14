@@ -103,6 +103,17 @@ gulp.task('less', function(done) {
 
 gulp.task('build-monthly-updates-as-html', gulp.series('clean-dist', 'less', buildMonthlyUpdatesAsHTML));
 
+function revReplaceIfManifestExists() {
+    const manifestPath = "./tmp/rev/rev-manifest.json";
+    
+    if (fs.existsSync(manifestPath)) {
+        return revReplace({manifest: gulp.src(manifestPath, {allowEmpty: true})});
+    } else {
+        console.warn("Warning: rev-manifest.json not found. Skipping asset revisioning.");
+        return gulp.src('.', {allowEmpty: true}); 
+    }
+}
+
 function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAllUpdates) {
     const data = fs.readFileSync(fileDirectorySource + '/index.json');
 
@@ -131,7 +142,7 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAl
             partialsDirectory: ['./src/partials']
         }))
         .pipe(rename('index.html'))
-        .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
+        .pipe(revReplaceIfManifestExists())
         .pipe(gulp.dest(fileDirectoryDestination));
 };
 
@@ -163,7 +174,7 @@ function generateUpdates(fileDirectorySource, fileDirectoryDestination, generate
                         partialsDirectory: ['./src/partials']
                     }))
                     .pipe(rename(folder + '.html'))
-                    .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
+                    .pipe(revReplaceIfManifestExists())
                     .pipe(gulp.dest(fileDirectoryDestination))
             }));
     });
