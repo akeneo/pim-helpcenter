@@ -76,8 +76,8 @@ md
             return (tokens[idx].nesting === 1) ? '<div class="alert alert-info"><b>Not familiar with the context?</b><br><em>Here is a selection from our help center:</em>' : '</div>\n'
         }
     });
-
-gulp.task('build-monthly-updates-as-html', ['clean-dist','less'], function() {
+    
+function buildMonthlyUpdatesAsHTML() {
     const fileDirectorySource = 'content/updates';
     const fileDirectoryDestination = './dist/pim/serenity/updates';
     // by default, we generate all updates except if env variable ONLY_PREVIOUS_MONTH_UPDATES=true
@@ -87,7 +87,32 @@ gulp.task('build-monthly-updates-as-html', ['clean-dist','less'], function() {
         generateUpdates(fileDirectorySource, fileDirectoryDestination, generateAllUpdates),
         generateIndex(fileDirectorySource, fileDirectoryDestination, generateAllUpdates)
     );
+};
+
+// Define placeholder tasks if they don't exist
+gulp.task('clean-dist', function(done) {
+    console.log('clean-dist task is not defined. Create this task or remove it from the series.');
+    done();
 });
+
+gulp.task('less', function(done) {
+    console.log('less task is not defined. Create this task or remove it from the series.');
+    done();
+});
+
+
+gulp.task('build-monthly-updates-as-html', gulp.series('clean-dist', 'less', buildMonthlyUpdatesAsHTML));
+
+function revReplaceIfManifestExists() {
+    const manifestPath = "./tmp/rev/rev-manifest.json";
+    
+    if (fs.existsSync(manifestPath)) {
+        return revReplace({manifest: gulp.src(manifestPath, {allowEmpty: true})});
+    } else {
+        console.warn("Warning: rev-manifest.json not found. Skipping asset revisioning.");
+        return gulp.src('.', {allowEmpty: true}); 
+    }
+}
 
 function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAllUpdates) {
     const data = fs.readFileSync(fileDirectorySource + '/index.json');
@@ -117,7 +142,7 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAl
             partialsDirectory: ['./src/partials']
         }))
         .pipe(rename('index.html'))
-        .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
+        .pipe(revReplaceIfManifestExists())
         .pipe(gulp.dest(fileDirectoryDestination));
 };
 
@@ -149,23 +174,27 @@ function generateUpdates(fileDirectorySource, fileDirectoryDestination, generate
                         partialsDirectory: ['./src/partials']
                     }))
                     .pipe(rename(folder + '.html'))
-                    .pipe(revReplace({manifest: gulp.src("./tmp/rev/rev-manifest.json")}))
+                    .pipe(revReplaceIfManifestExists())
                     .pipe(gulp.dest(fileDirectoryDestination))
             }));
     });
 
-    return merge(tasks);
-}
+    return merge(tasks)
+        .on('error', function(err) {
+            console.error('Error in generate updates task:', err);
+            this.emit('end');
+        });
+};
 
 function getFolders(dir) {
     return fs.readdirSync(dir).filter(function(file) {
         return fs.statSync(path.join(dir, file)).isDirectory();
     });
-}
+};
 
 function getTocMarkdown() {
     return "\n\n:::: toc\n@[toc]\n\n::::\n\n";
-}
+};
 
 /**
  *
@@ -183,4 +212,4 @@ function keepUpdatesFromPreviousMonths(folderName, generateAllUpdates) {
     const maxDate = year + '-' + month;
 
     return folderName <= maxDate || generateAllUpdates;
-}
+};

@@ -6,14 +6,14 @@ var requireDir = require('require-dir');
 var tasks = requireDir('./tasks');
 
 // Clean dist directory
-gulp.task('clean-dist', function () {
+function cleanDist() {
   return del(['dist/*', 'tmp/*']);
-});
+}
 
 // Watch if markdown, less, html or image files have changed
 // so as to relaunch the build into dist directory
 // Should be used for dev purpose
-gulp.task('watch', ['create-dist'], function() {
+function watch() {
   gulp.watch('content/md/**/*.md', ['create-dist']);
   gulp.watch('content/*.json', ['create-dist']);
   gulp.watch('styles/*.less', ['create-dist']);
@@ -24,11 +24,12 @@ gulp.task('watch', ['create-dist'], function() {
   gulp.watch('content/whats-new/*.json', ['create-dist']);
   gulp.watch('content/whats-next/*.json', ['create-dist']);
   gulp.watch('content/versions-in-detail/*.json', ['create-dist']);
-});
+};
+//gulp.task('watch', ['create-dist'], function() {});
 
 // Launch a server with dist directory exposed on it
 // Should be used for dev purpose
-gulp.task('launch-webserver', ['create-dist'], function() {
+function launchWebserver() {
   return gulp.src('dist')
     .pipe(webserver({
       livereload: true,
@@ -36,24 +37,36 @@ gulp.task('launch-webserver', ['create-dist'], function() {
       open: '/pim/serenity/',
       host: '0.0.0.0',
     }));
-});
+};
+
+//gulp.task('launch-webserver', ['create-dist'], function() {});
 
 // Build the documentation is dist directory
-gulp.task('create-dist', [
-  'clean-dist',
-  'less',
-  'copy-assets',
-  'landings',
-  'build-articles',
-  'build-monthly-updates-as-html',
-  'build-monthly-updates-as-json',
-  'build-whats-new-page',
-  'build-whats-next-page',
-  'build-versions-in-detail-page'
-]);
+const createDist = gulp.series(
+  cleanDist,
+  gulp.parallel(
+    'less',
+    'copy-assets',
+    'landings',
+    'build-articles',
+    'build-monthly-updates-as-html',
+    'build-monthly-updates-as-json',
+    'build-whats-new-page',
+    'build-whats-next-page',
+    'build-versions-in-detail-page'
+  )
+);
 
-// Main task that should be used for development purpose
-gulp.task('serve', [
-  'launch-webserver',
-  'watch'
-]);
+//Define tasks
+gulp.task('clean-dist', cleanDist);
+gulp.task('watch', gulp.series(createDist, watch));
+gulp.task('launch-webserver', gulp.series(createDist, launchWebserver));
+gulp.task('create-dist', createDist);
+gulp.task('serve', gulp.parallel('launch-webserver', 'watch'));
+
+module.exports = {
+  cleanDist,
+  watch,
+  launchWebserver,
+  createDist
+};
