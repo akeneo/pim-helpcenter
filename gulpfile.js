@@ -14,18 +14,17 @@ function cleanDist() {
 // so as to relaunch the build into dist directory
 // Should be used for dev purpose
 function watch() {
-  gulp.watch('content/md/**/*.md', ['create-dist']);
-  gulp.watch('content/*.json', ['create-dist']);
-  gulp.watch('styles/*.less', ['create-dist']);
-  gulp.watch('src/**/*.handlebars', ['create-dist']);
-  gulp.watch('content/img/*', ['create-dist']);
-  gulp.watch('content/updates/*', ['create-dist']);
-  gulp.watch('content/updates/**/*.md', ['create-dist']);
-  gulp.watch('content/whats-new/*.json', ['create-dist']);
-  gulp.watch('content/whats-next/*.json', ['create-dist']);
-  gulp.watch('content/versions-in-detail/*.json', ['create-dist']);
+  gulp.watch('content/md/**/*.md', gulp.series('create-dist'));
+  gulp.watch('content/*.json', gulp.series('create-dist'));
+  gulp.watch('styles/*.less', gulp.series('create-dist'));
+  gulp.watch('src/**/*.handlebars', gulp.series('create-dist'));
+  gulp.watch('content/img/*', gulp.series('create-dist'));
+  gulp.watch('content/updates/*', gulp.series('create-dist'));
+  gulp.watch('content/updates/**/*.md', gulp.series('create-dist'));
+  gulp.watch('content/whats-new/*.json', gulp.series('create-dist'));
+  gulp.watch('content/whats-next/*.json', gulp.series('create-dist'));
+  gulp.watch('content/versions-in-detail/*.json', gulp.series('create-dist'));
 };
-//gulp.task('watch', ['create-dist'], function() {});
 
 // Launch a server with dist directory exposed on it
 // Should be used for dev purpose

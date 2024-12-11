@@ -22,6 +22,7 @@ test('It generates all updates in the json file by default to deploy everything 
 
         try {
             expect(data.sort(sortJson)).toStrictEqual(expectedData.sort(sortJson));
+            expect(data.every(update => update.currentMonth)).toBe(true);
             done();
         } catch (error) {
             done(error);
@@ -53,6 +54,7 @@ test('When we are from 05 to 31 March 2020, generate the updates until February 
 
         try {
             expect(data.sort(sortJson)).toStrictEqual(expectedData.sort(sortJson));
+            expect(data.every(update => update.currentMonth)).toBe(true);
             done();
         } catch (error) {
             done(error);
@@ -85,6 +87,7 @@ test('When we are in March 31th 2020, generate the updates until February 2020',
 
         try {
             expect(data.sort(sortJson)).toStrictEqual(expectedData.sort(sortJson));
+            expect(data.every(update => update.currentMonth)).toBe(true);
             done();
         } catch (error) {
             done(error);
@@ -111,6 +114,7 @@ test('When we are from 01 to 04 April 2020, generate the updates until February 
 
         try {
             expect(data.sort(sortJson)).toStrictEqual(expectedData.sort(sortJson));
+            expect(data.every(update => update.currentMonth)).toBe(true);
             done();
         } catch (error) {
             done(error);
@@ -137,6 +141,7 @@ test('When we are from 05 to April to 04 May 2020, generate the updates until Ma
 
         try {
             expect(data.sort(sortJson)).toStrictEqual(expectedData.sort(sortJson));
+            expect(data.every(update => update.currentMonth)).toBe(true);
             done();
         } catch (error) {
             done(error);

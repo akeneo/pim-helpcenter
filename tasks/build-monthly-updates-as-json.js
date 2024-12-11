@@ -171,8 +171,8 @@ function generateJson() {
         const directoryName = path.basename(path.dirname(file.path));
 
         const startDate = getStartDate(directoryName);
-        // hardcoded to the 5th day of the month as we publish this day
-        const startDateWithDay = startDate + '-05';
+        // hardcoded to the 8th day of the month as we publish this day
+        const startDateWithDay = startDate + '-08';
         const notificationEndDate = getNotificationEndDate(startDateWithDay);
 
         const defaultValues = {
@@ -186,6 +186,7 @@ function generateJson() {
         const link = data['pim_announcement_link'];
         const imgContent = getBase64Content(file, data['pim_announcement_img']);
         const audience = getAudience(data['pim_announcement_audience']);
+        const currentMonth = new Date().toLocaleString('default', { month: 'long', year: 'numeric' });
 
         let content = JSON.stringify({
             'id':  'update_' + path.basename(file.path, '.md').replace('_', '-') + '_' + startDate,
@@ -200,6 +201,7 @@ function generateJson() {
             'tags': ['updates'],
             'title': file.title,
             'link': link,
+            'currentMonth': currentMonth,
         });
 
         file.contents = Buffer.from(content);
