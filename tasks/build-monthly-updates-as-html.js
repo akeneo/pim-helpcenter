@@ -118,7 +118,7 @@ function generateIndex(fileDirectorySource, fileDirectoryDestination, generateAl
     const data = fs.readFileSync(fileDirectorySource + '/index.json');
 
     const monthlyUpdates = _.pickBy(JSON.parse(data), (update, folderName) => {
-        return keepUpdatesFromPreviousMonths(folderName, generateAllUpdates);
+        return keepUpdates(folderName, generateAllUpdates);
     });
 
     // Classify all monthly updates by year
@@ -152,7 +152,7 @@ function generateUpdates(fileDirectorySource, fileDirectoryDestination, generate
     const monthlyUpdates = JSON.parse(rawData);
 
     const folders = getFolders(fileDirectorySource).filter((folder) => {
-        return keepUpdatesFromPreviousMonths(folder, generateAllUpdates);
+        return keepUpdates(folder, generateAllUpdates);
     });
 
     const tasks = folders.map(function (folder) {
@@ -213,3 +213,12 @@ function keepUpdatesFromPreviousMonths(folderName, generateAllUpdates) {
 
     return folderName <= maxDate || generateAllUpdates;
 };
+
+function keepUpdates(folderName, generateAllUpdates) {
+    const currentDate = new Date(Date.now());
+    const currentYear = currentDate.getFullYear();
+    const currentMonth = String(currentDate.getMonth() + 1).padStart(2, '0');
+    const maxDate = `${currentYear}-${currentMonth}`;
+    
+    return folderName <= maxDate || generateAllUpdates;
+}

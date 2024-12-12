@@ -10,7 +10,6 @@ const filter = require('gulp-filter');
 
 const path = require('path');
 
-//const HELP_CENTER_PRODUCTION_URL = 'https://help.akeneo.com/';
 
 module.exports = updatesAsJson;
 
