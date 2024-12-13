@@ -10,7 +10,6 @@ const filter = require('gulp-filter');
 
 const path = require('path');
 
-const HELP_CENTER_PRODUCTION_URL = 'https://help.akeneo.com/';
 
 module.exports = updatesAsJson;
 
@@ -45,7 +44,7 @@ gulp.task('build-monthly-updates-as-json', gulp.series('clean-dist',  buildMonth
  */
 function updatesAsJson(filePattern, fileDirectoryDestination, fileNameDestination, generateAllUpdates, errorHandler) {
     return gulp.src(filePattern)
-        .pipe(filter(keepUpdatesFromPreviousMonths(generateAllUpdates)))
+        .pipe(filter(keepUpdates(generateAllUpdates)))
         .pipe(frontMatter({property: 'fm',remove: true}))
         .pipe(tap(parseMarkdown))
         .pipe(validateData())
@@ -286,6 +285,19 @@ function keepUpdatesFromPreviousMonths(generateAllUpdates) {
         const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);
         const maxDate = year + '-' + month;
 
+        return folderName <= maxDate || generateAllUpdates;
+    }
+};
+
+function keepUpdates(generateAllUpdates) {
+    return (file) => {
+        const folderName = path.basename(path.dirname(file.path));
+
+        const currentDate = new Date(Date.now());
+        const currentYear = currentDate.getFullYear();
+        const currentMonth = String(currentDate.getMonth() + 1).padStart(2, '0');
+        const maxDate = `${currentYear}-${currentMonth}`;
+        
         return folderName <= maxDate || generateAllUpdates;
     }
 };
