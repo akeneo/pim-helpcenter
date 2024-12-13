@@ -261,7 +261,7 @@ function getNotificationEndDate(starDateString) {
  */
 function getStartDate(directoryName) {
     let startDate = new Date(directoryName + '-01');
-    startDate.setMonth(startDate.getMonth() + 1);
+    startDate.setMonth(startDate.getMonth());
 
     const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(startDate);
     const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(startDate);
@@ -272,23 +272,6 @@ function getStartDate(directoryName) {
 /**
  * Do not generate updates that are not published yet, except if generateAllUpdates = true (only for staging env).
  */
-function keepUpdatesFromPreviousMonths(generateAllUpdates) {
-    return (file) => {
-        const folderName = path.basename(path.dirname(file.path));
-
-        const currentDate = new Date(Date.now());
-        const dayOfMonth = currentDate.getDate();
-
-        const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setDate(0));
-
-        const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(previousMonthDate);
-        const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);
-        const maxDate = year + '-' + month;
-
-        return folderName <= maxDate || generateAllUpdates;
-    }
-};
-
 function keepUpdates(generateAllUpdates) {
     return (file) => {
         const folderName = path.basename(path.dirname(file.path));
