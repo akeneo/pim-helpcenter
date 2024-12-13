@@ -202,18 +202,6 @@ function getTocMarkdown() {
  * @param generateAllUpdates boolean to generate all updates (staging) or not
  * @returns {boolean|*}
  */
-function keepUpdatesFromPreviousMonths(folderName, generateAllUpdates) {
-    const currentDate = new Date(Date.now());
-    const dayOfMonth = currentDate.getDate();
-    const previousMonthDate = dayOfMonth < 5 ? new Date(currentDate.setMonth(currentDate.getMonth() - 2)) : new Date(currentDate.setDate(0));
-
-    const year = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(previousMonthDate);
-    const month = new Intl.DateTimeFormat('en', { month: '2-digit' }).format(previousMonthDate);
-    const maxDate = year + '-' + month;
-
-    return folderName <= maxDate || generateAllUpdates;
-};
-
 function keepUpdates(folderName, generateAllUpdates) {
     const currentDate = new Date(Date.now());
     const currentYear = currentDate.getFullYear();
