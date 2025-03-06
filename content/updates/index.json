@@ -1,5 +1,10 @@
 {
-"2025-02": {
+"2025-03": {
+    "title": "March 2025 Serenity updates",
+    "description": "Spring release is here! Discover new capabilities to turn insights into impact, along with enhancements for greater flexibility and efficiency in Akeneo Product Cloud.",
+    "img": "illus-march-25.svg"
+  },
+  "2025-02": {
     "title": "February 2025 Serenity updates",
     "description": "As winter brings a fresh perspective, the Akeneo team delivers a suite of refreshing enhancements—optimizing data modeling, and ensuring data quality—so your product experiences can shine even in the coldest months.",
     "img": "illus-february-25.svg"
