@@ -948,6 +948,8 @@ We expect **numeric value** and **measurement unit code** in the following forma
 The possible operators for the `boolean` attribute type are:  
 - =
 - !=
+- EMPTY
+- NOT EMPTY
 
 ### Example
 
