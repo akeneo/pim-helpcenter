@@ -1,5 +1,10 @@
 {
-"2025-07": {
+"2025-09": {
+    "title": "September 2025 Serenity updates",
+    "description": "This month, Akeneo enables you to collaborate more intelligently, access trusted AI, and streamline everyday tasks. Explore powerful new features and enhancements designed to keep your product data market-ready.",
+    "img": "illus-september-25.svg"
+  },
+  "2025-07": {
     "title": "July 2025 Serenity updates",
     "description": "This July, we wrapped up our Summer Release with five major updates—from faster, smarter data modeling with our new AI Agent to upgraded PX Insights, next-gen GenAI config, enhanced completeness with categorization, and hierarchical product modeling.",
     "img": "illus-july-25.svg"
