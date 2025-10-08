@@ -1,16 +1,16 @@
 ---
-pim_announcement_img: ./img/Workflows-9-25.png
-pim_announcement_alt_img: Introducing a new workflow type to support ongoing updates, optimization, and AI-assisted improvements.
+pim_announcement_img: ./img/Workflow_Connectivity.png
+pim_announcement_alt_img: With Workflow Connectivity, Akeneo PIM becomes more than a workflow engine—it’s the orchestrator of collaboration across people, processes, and platforms.
 pim_announcement_audience:
 - EE
 - GE
-pim_announcement_link: https://help.akeneo.com/2025/september-2025-serenity-updates
+pim_announcement_link: https://help.akeneo.com/2025/august-2025-serenity-updates
 ---
 
 # September 2025 Updates
-::: meta-data type="Improvement" features="Productivity" available="September" in="EE,GE" link-to-doc="https://help.akeneo.com/2025/september-2025-serenity-updates"
+::: meta-data type="Improvement" features="Productivity" available="September" in="EE,GE" link-to-doc="https://help.akeneo.com/2025/august-2025-serenity-updates"
 
-September brings enhancements to support more intelligent collaboration, access trusted AI, and streamline everyday tasks by extending the capabilities of your PIM with UI Extensions.
+From the upgraded Data Architect Agent to hyper-connected workflows, import flexibility, and smarter AI prompt previews, September is packed with improvements designed to boost your team’s efficiency and impact!
 
-![Introducing a new workflow type to support ongoing updates, optimization, and AI-assisted improvements.](../img/Workflows-9-25.png)
+![With Workflow Connectivity, Akeneo PIM becomes more than a workflow engine—it’s the orchestrator of collaboration across people, processes, and platforms.](../img/Workflow_Connectivity.png)
 

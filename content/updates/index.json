@@ -1,8 +1,13 @@
 {
 "2025-09": {
     "title": "September 2025 Serenity updates",
-    "description": "This month, Akeneo enables you to collaborate more intelligently, access trusted AI, and streamline everyday tasks. Explore powerful new features and enhancements designed to keep your product data market-ready.",
+    "description": "From the upgraded Data Architect Agent to hyper-connected workflows, import flexibility, and smarter AI prompt previews, September is packed with improvements designed to boost your team’s efficiency and impact!",
     "img": "illus-september-25.svg"
+  },
+  "2025-08": {
+    "title": "August 2025 Serenity updates",
+    "description": "This month, Akeneo enables you to collaborate more intelligently, access trusted AI, and streamline everyday tasks. Explore powerful new features and enhancements designed to keep your product data market-ready.",
+    "img": "illus-august-25.svg"
   },
   "2025-07": {
     "title": "July 2025 Serenity updates",
