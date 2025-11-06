@@ -1,5 +1,10 @@
 {
-"2025-09": {
+"2025-10": {
+    "title": "October 2025 Serenity updates",
+    "description": "From AI-Enhanced Enrichment with broader data coverage, to the reborn Akeneo DAM with automated AI tagging, a more powerful Data Architect Agent, and a real-time Rules Engine that syncs perfectly with Collaboration Workflows — enjoy this release!",
+    "img": "illus-october-25.svg"
+  },
+  "2025-09": {
     "title": "September 2025 Serenity updates",
     "description": "From the upgraded Data Architect Agent to hyper-connected workflows, import flexibility, and smarter AI prompt previews, September is packed with improvements designed to boost your team’s efficiency and impact!",
     "img": "illus-september-25.svg"
