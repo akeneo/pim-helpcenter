@@ -1,6 +1,6 @@
 ---
 pim_announcement_img: ./img/AI_configurations.png
-pim_announcement_alt_img: AI-Enhanced Enrichment: Broader Coverage, Smarter Guidance, and More Control.
+pim_announcement_alt_img: AI-Enhanced Enrichment Bringing Broader Coverage, Smarter Guidance, and More Control.
 pim_announcement_audience:
 - EE
 - GE
