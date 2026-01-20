@@ -40,7 +40,7 @@ We wrote an [article](https://medium.com/akeneo-labs/because-your-product-catalo
 ::: tips
 You can't see the widget we are talking about? What a shame!  
 If you are a Community Edition user or working on the On-Premise or PaaS version, it's probably because you or your administrator didn't launch the CRON job to calculate the values shown in this widget.  
-To do so, please refer to our technical documentation: over [here](https://docs.akeneo.com/latest/install_pim/manual/installation_ce_archive.html#configuring-tasks-via-crontab) for CE and over [there](https://docs.akeneo.com/latest/install_pim/manual/installation_ee_archive.html#configuring-tasks-via-crontab) for EE.
+To do so, please refer to our technical documentation: over [here](https://docs.akeneo.com/6.0/install_pim/manual/installation_ce.html#cron-jobs) for CE and over [there](https://docs.akeneo.com/6.0/install_pim/manual/installation_ee_archive.html#cron-jobs) for EE.
 :::
 
 ### The other sections
