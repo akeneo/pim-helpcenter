@@ -246,7 +246,7 @@ Click on `Apply` to save your changes. Your customised grid will be displayed.
 
 ## Sort values within the grid
 
-You can also sort on some columns headers, for instance you can sort products on sku, family, status, complete, created and updated at and on some other attributes (text, text area, number, simple select attributes).
+You can also sort on some columns headers, for instance you can sort products on sku, family, status, complete, created and updated at and on some other attributes (text, text area, number, identifier, simple select attributes).
 
 You can not sort values on price, media, asset, metric, multiselect attributes and on Label and Groups system attributes. To check if you can sort on a column simply hover your mouse over the column’s header.
 
