@@ -1,5 +1,10 @@
 {
-"2026-03": {
+"2026-04": {
+    "title": "April 2026 Serenity updates",
+    "description": "With the Spring Release, Akeneo introduces Responsive Catalog Modeling & Enrichment a major evolution that officially closes the loop between market signals and your data model.",
+     "img": "illus-april-26.svg"
+  },
+  "2026-03": {
     "title": "March 2026 Serenity updates",
     "description": "From real-time automation for Reference Entities to unified import/export capabilities, discover how our March enhancements are designed to remove manual friction and accelerate your time-to-market.",
      "img": "illus-march-26.svg"
