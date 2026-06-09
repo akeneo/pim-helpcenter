@@ -1,5 +1,10 @@
 {
-"2026-04": {
+"2026-05": {
+    "title": "May 2026 Serenity updates",
+    "description": "Introducing Ask Ziggy, your new AI product expert!",
+     "img": "illus-may-26.svg"
+  },
+  "2026-04": {
     "title": "April 2026 Serenity updates",
     "description": "With the Spring Release, Akeneo introduces Responsive Catalog Modeling & Enrichment a major evolution that officially closes the loop between market signals and your data model.",
      "img": "illus-april-26.svg"
