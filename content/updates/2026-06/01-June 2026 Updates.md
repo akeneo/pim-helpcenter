@@ -13,5 +13,5 @@ pim_announcement_link: https://help.akeneo.com/2026/-june-2026-apc-updates
 
 Introducing Agentic Ziggy! Turn AI recommendations into governed action at scale with our new AI operational layer for the Product Cloud. 
 
-![Agentic Ziggy helps your teams organize, prioritize, and execute the work required to continuously improve your product experiences.](../img/AgenticZiggy_slide.jpg)
+![Agentic Ziggy helps your teams organize, prioritize, and execute the work required to continuously improve your product experiences.](../img/AgenticZiggy_slide.png)
 
