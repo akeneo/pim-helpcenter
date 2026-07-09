@@ -1,5 +1,5 @@
 ---
-pim_announcement_img: ./img/AgenticZiggy_slide.jpg
+pim_announcement_img: ./img/AgenticZiggy_slide.png
 pim_announcement_alt_img: Agentic Ziggy helps your teams organize, prioritize, and execute the work required to continuously improve your product experiences.
 pim_announcement_audience:
 - EE
