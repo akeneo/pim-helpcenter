@@ -7,7 +7,7 @@
     "isotope-layout": "^3.0.6",
     "jquery": "3.5.1",
     "lato-font": "3.0.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "typeface-comfortaa": "0.0.35"
   },
   "devDependencies": {
