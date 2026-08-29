@@ -809,7 +809,7 @@ value: Akeneo\Pim\Enrichment\Component\Product\Model\ProductModelInterface
 ```
 
 ::: info
-The `value` field expects either `Akeneo\Pim\Enrichment\Component\Product\Model\ProductInterface` for products, or `Akeneo\Pim\Enrichment\Component\Product\Model\ProductInterface` for product models.
+The `value` field expects either `Akeneo\Pim\Enrichment\Component\Product\Model\ProductInterface` for products, or `Akeneo\Pim\Enrichment\Component\Product\Model\ProductModelInterface` for product models.
 :::
 
 ## Groups
