@@ -1,5 +1,10 @@
 {
-"2026-08": {
+"2026-09": {
+    "title": "September 2026 Serenity updates",
+    "description": "Take greater control of your product assets with automated availability and scheduling in Akeneo DAM, while enjoying a smoother PIM experience with more flexible locale management, smarter imports, and simpler category management.",
+     "img": "illus-september-26.svg"
+  },
+  "2026-08": {
     "title": "August 2026 Serenity updates",
     "description": "Protect your brand assets and simplify compliance with new automated asset watermarking, while enjoying smoother everyday work with PIM enhancements across navigation, exports, and product editing.",
      "img": "illus-august-26.svg"
