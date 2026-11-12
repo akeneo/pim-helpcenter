@@ -125,7 +125,7 @@ The regexp above will split the source string into two parts, thanks to two name
 - `(?<product_ref>.*)` is the first capture group. It is named `product_ref`. So, the result of this capture will be sent into the `product_ref` asset attribute. The `product_ref` attribute should exist in the asset family.
 
 - `(?<attribute_ref>.*)` is the second capture group. It is named `attribute_ref`. So, the result of this capture will be sent to the `attribute_ref` asset attribute. The `attribute_ref` attribute should exist in the asset family.
-Let's say our source string is equal to `Victor_packshot.png`. After the naming convention application, the `product_ref` asset attribute will contain the value "Victor" and the `attribute_ref` asset attribute will contain the value "packshot".
+Let's say our source string is equal to `Victor_packshot.jpg`. After the naming convention application, the `product_ref` asset attribute will contain the value "Victor" and the `attribute_ref` asset attribute will contain the value "packshot".
 
 #### Abortion on error
 
