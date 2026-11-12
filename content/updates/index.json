@@ -1,5 +1,10 @@
 {
-"2026-09": {
+"2026-10": {
+    "title": "October 2026 Serenity updates",
+    "description": "Autumn Release is here! Discover new capabilities to accelerate product data operations, govern team access, and align product readiness with business goals.",
+     "img": "illus-october-26.svg"
+  },
+  "2026-09": {
     "title": "September 2026 Serenity updates",
     "description": "Take greater control of your product assets with automated availability and scheduling in Akeneo DAM, while enjoying a smoother PIM experience with more flexible locale management, smarter imports, and simpler category management.",
      "img": "illus-september-26.svg"
