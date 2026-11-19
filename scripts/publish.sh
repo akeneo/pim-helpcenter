@@ -2,10 +2,10 @@
 # Publishes ./public (or $OUTPUT_DIR) to the site bucket, then invalidates the CDN cache.
 #
 # Required environment:
-#   SITE_BUCKET   e.g. akecld-prd-pim-helpcenter-prd-site
+#   SITE_BUCKET   e.g. akecld-prd-paas-helpcenter-prd-site
 # Optional environment:
-#   GCP_PROJECT   e.g. akecld-prd-pim-helpcenter-prd (needed to invalidate the CDN cache)
-#   SITE_URL_MAP  e.g. pim-helpcenter-site (CDN invalidation is skipped when empty)
+#   GCP_PROJECT   e.g. akecld-prd-paas-helpcenter-prd (needed to invalidate the CDN cache)
+#   SITE_URL_MAP  e.g. paas-helpcenter-site (CDN invalidation is skipped when empty)
 #   DRY_RUN=1     only show what would change
 #
 # gcloud must be authenticated with an identity allowed to write in the bucket

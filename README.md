@@ -71,20 +71,20 @@ The CI publishes the site on every push to `flexibility-archive`
 
 1. `build`: `scripts/build.sh`, the result is kept as an artifact (`pim-helpcenter-site.tar.gz`),
 2. `publish`: `scripts/publish.sh`, which synchronizes `public/` to
-   `gs://akecld-prd-pim-helpcenter-prd-site` and invalidates the Cloud CDN cache.
+   `gs://akecld-prd-paas-helpcenter-prd-site` and invalidates the Cloud CDN cache.
 
-The GCP project `akecld-prd-pim-helpcenter-prd` and its hosting (bucket, HTTPS load balancer with
+The GCP project `akecld-prd-paas-helpcenter-prd` and its hosting (bucket, HTTPS load balancer with
 a Google-managed certificate and Cloud CDN) are defined in
 [akeneo/gcp-projects](https://github.com/akeneo/gcp-projects), in
-`product/documentation/pim-helpcenter`. The CI authenticates through OIDC (CircleCI context
-`PIM_HELPCENTER`), without any service account key.
+`product/documentation/paas-helpcenter`. The CI authenticates through OIDC (CircleCI context
+`PAAS_HELPCENTER`), without any service account key.
 
 To publish by hand, with an identity allowed to write in the bucket:
 
 ```bash
-SITE_BUCKET=akecld-prd-pim-helpcenter-prd-site \
-GCP_PROJECT=akecld-prd-pim-helpcenter-prd \
-SITE_URL_MAP=pim-helpcenter-site \
+SITE_BUCKET=akecld-prd-paas-helpcenter-prd-site \
+GCP_PROJECT=akecld-prd-paas-helpcenter-prd \
+SITE_URL_MAP=paas-helpcenter-site \
 make publish
 ```
 
