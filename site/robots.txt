@@ -1,0 +1,4 @@
+# The same articles are published on the Akeneo Help Center (help.akeneo.com, Helpjuice):
+# this archive is not indexed, so that search engines send readers there.
+User-agent: *
+Disallow: /

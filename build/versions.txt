@@ -1,0 +1,10 @@
+# Versions published on the static site, newest first.
+# The first one is the landing page of the site.
+#
+# <directory in versions/>  <directory its build writes in dist/pim/>
+v7  flexibility-v7
+v6  v6
+v5  v5
+v4  v4
+v3  v3
+v2  v2
