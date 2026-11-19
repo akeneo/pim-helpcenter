@@ -1,9 +1,0 @@
-*.sublime-project
-*.sublime-workspace
-/dist/
-/node_modules/
-.DS_Store
-/tmp/
-.env
-service-account-file.json
-package-lock.json
