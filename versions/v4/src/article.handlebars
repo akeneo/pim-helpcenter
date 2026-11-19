@@ -1,0 +1,31 @@
+{{!-- Shared template for all the articles --}}
+{{#> layout }}
+{{> navbar-with-search }}
+{{> updates-button}}
+{{> whats-new-button}}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <p class="breadcrumb text-muted"><a href="/">Home</a> / <a href="/pim/serenity">PIM help center</a> / {{{titleWithBold}}}</p>
+                <h1 class="article-title docSearch-mainTitle">{{{titleWithBold}}}</h1>
+                {{#if eeOnly}}<p class="small"><em>Only available in our <a href="https://www.akeneo.com/akeneo-pim/?source=akeneo-help">Entreprise Edition</a></em></p>{{/if}}
+            </div>
+            {{{mainContent}}}
+        </div>
+        {{#if relatedArticles}}
+            <div class="row">
+                <div class="col-sm-offset-3 col-sm-9">
+                    <hr>
+                    <h2>Want to find out more? Take a look at these related articles</h2>
+                        <div class="row">
+                            {{#each relatedArticles}}
+                                <div class="col-md-6">
+                                    <p {{#if eeOnly}}class="label-ee"{{/if}}><a href="{{articlePath}}">{{{articleName}}} ></a></p>
+                                </div>
+                            {{/each}}
+                        </div>
+                </div>
+            </div>
+        {{/if}}
+    </div>
+{{/layout}}
