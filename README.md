@@ -61,7 +61,7 @@ public/
 └── robots.txt              not indexed: the same articles are on help.akeneo.com
 ```
 
-`HELP_CENTER_URL` (default `https://help.akeneo.com/`) sets the base URL of the links of the
+`HELP_CENTER_URL` (default `https://flexibility.help.akeneo.com/`, the domain of the site) sets the base URL of the links of the
 "updates" feed each version generates.
 
 ## Publish
