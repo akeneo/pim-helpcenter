@@ -1,0 +1,89 @@
+version: 2
+jobs:
+    build:
+        machine:
+            image: ubuntu-2204:2022.07.1
+        steps:
+            - checkout
+            - run: make build
+
+    test_announcements:
+        machine:
+            image: ubuntu-2204:2022.07.1
+        steps:
+            - checkout
+            - run: make build
+            - run: FIREBASE_PROJECT=$STAGING_FIREBASE_PROJECT FIREBASE_TOKEN=$FIREBASE_TOKEN GOOGLE_APPLICATION_CREDENTIALS=$STAGING_GOOGLE_APPLICATION_CREDENTIALS make test-firebase-functions
+
+    deploy_staging:
+        machine:
+            image: ubuntu-2204:2022.07.1
+        steps:
+            - checkout
+            - add_ssh_keys
+            - run:
+                  name: Deploy on staging server
+                  command: HOSTNAME=$STAGING_HOSTNAME PORT=$STAGING_PORT HELP_CENTER_URL="https://${STAGING_HOSTNAME}/" make deploy
+
+    deploy_production:
+        machine:
+            image: ubuntu-2204:2022.07.1
+        steps:
+            - checkout
+            - add_ssh_keys
+            - run:
+                  name: Deploy on production server
+                  command: HOSTNAME=$PROD_HOSTNAME PORT=$PROD_PORT ONLY_PREVIOUS_MONTH_UPDATES=true make deploy
+
+workflows:
+    version: 2
+    pull_request:
+        jobs:
+            - build:
+                  filters:
+                      branches:
+                          ignore:
+                              - v7
+
+    pull_request_announcements:
+        jobs:
+            - test_announcements:
+                  filters:
+                      branches:
+                          only:
+                              -/announcements.*/
+
+    deployment:
+        jobs:
+            - approve_to_deploy_staging:
+                type: approval
+            - deploy_staging:
+                requires:
+                    - approve_to_deploy_staging
+            - approve_to_deploy_in_production:
+                type: approval
+                filters:
+                    branches:
+                        only: v7
+                requires:
+                    - deploy_staging
+
+            - deploy_production:
+                  requires:
+                      - approve_to_deploy_in_production
+
+    # feature announcements of the previous months should be deployed automatically the 5th day of the month in the helpcenter
+    # before this date, the announcements are not generated and so not pushed in production
+    # in staging, all announcements are published as soon as a PR is merged, so there is no need to redeploy it every night
+    nightly:
+        triggers:
+            - schedule:
+                  cron: "0 2 * * *"
+                  filters:
+                      branches:
+                          only:
+                              - master
+        jobs:
+            - deploy_production
+            - test_announcements
+            - build

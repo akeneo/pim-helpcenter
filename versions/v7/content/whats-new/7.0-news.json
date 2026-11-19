@@ -1,0 +1,44 @@
+[
+  {
+    "title":"Tailored Imports",
+    "areas": ["Productivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-06.html#tailored-imports"
+  },
+  {
+    "title":"App Authorization Notifications",
+    "areas": ["Connectivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-05.html#app-authorization-notifications"
+  },
+  {
+    "title":"Tailored Imports Additional Operations",
+    "areas": ["Productivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-08.html#replace-families-and-change-cases-with-tailored-imports"
+  },
+  {
+    "title":"Automated SFTP Imports and Exports",
+    "areas": ["Productivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-09.html#automate-sftp-imports-and-exports"
+  },
+  {
+    "title":"Product Identifier Management",
+    "areas": ["Connectivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-10.html#product-identifier-changes-skus-optional-and-uuids"
+  },
+  {
+    "title":"Data Cleaning with Tailored Imports",
+    "areas": ["Productivity"],
+    "editions": ["EE", "GE"],
+    "since-version": "7.0",
+    "link": "/pim/serenity/updates/2022-09.html#additional-data-cleaning-with-tailored-imports"
+  }
+]

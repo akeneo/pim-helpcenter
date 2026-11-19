@@ -1,0 +1,42 @@
+{
+    "title":"Using Akeneo",
+    "description":"You are our dear Julia: the PIM is your daily tool. You want to be productive and have the best products catalog ever. We're here to help you.",
+    "img":"illus-using.svg",
+    "themes":{
+        "first-steps":{
+            "title": "Your first steps with Akeneo",
+            "img": "illus-first-steps.svg",
+            "description": "You are very new to Akeneo and you don't know where to begin. Here are a few articles to help you understand the basics. Enjoy!"
+        },
+        "products-super-power":{
+            "title": "Take the power over your products",
+            "img": "illus-products.svg",
+            "description": "Everything you ever wanted to know about product enrichment. Brace yourself, here are a few articles just for you."
+        },
+        "boost-your-productivity":{
+            "title": "Boost your productivity",
+            "img": "illus-productivity.svg",
+            "description": "You've gotten the hang of handling your products in Akeneo. Ready for the next level? Become a PIM master thanks to these awesome features."
+        },
+        "collaborative-work":{
+            "title": "Collaborative work",
+            "img": "illus-drafts.svg",
+            "description": "At Akeneo, we think teamwork is a fundamental key to success. Empower your coworkers, enrich your products as a team!"
+        },
+        "import-export-data":{
+            "title": "Import/export data",
+            "img": "illus-imports.svg",
+            "description": "Anything you need to know about importing data in your dearest PIM. Here, you'll also find here information about exporting data. 'Cause yeah, product information you cannot export is kind of useless, right?"
+        },
+        "manage-your-assets":{
+            "title": "Manage your images, files, assets",
+            "img": "illus-assets.svg",
+            "description": "Product information without any asset, is like Akeneo without Ziggy, it's depressing. Here is how to handle the assets that will liven up your product sheets."
+        },
+        "manage-your-reference-entities":{
+            "title": "Manage your reference entities",
+            "img": "illus-entities.svg",
+            "description": "Your product sheets look good, but you feel like you could do better? Try the reference entities! Create relevant information related to products (e.g. brands, manufacturers, colors, materials, ingredients...) and provide your customers with a rich Product Experience!"
+        }
+    }
+}
