@@ -1,0 +1,14 @@
+{
+  "Connectivity": {
+    "title": "Connectivity",
+    "description": "Connecting your Akeneo PIM is an important part of running a successful omnichannel business. That's why with Akeneo PIM Version 6 we've introduced new features and functionality to improve your API and your connection experience.",
+    "img": "illus-gift.svg",
+    "eeOnly": false
+  },
+  "Productivity": {
+    "title": "Productivity",
+    "description": "Akeneo PIM is designed to help you be more productive and collaborate with more efficieny. That's why with Akeneo PIM Version 6 we've introduced new features and functionality to improve your efficieny with data exportation and distribution, and UI improvements making your PIM even easier to use.",
+    "img": "illus-gift.svg",
+    "eeOnly": false
+  }
+}

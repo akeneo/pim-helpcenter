@@ -1,0 +1,49 @@
+version: 2
+jobs:
+    build:
+        machine:
+                image: ubuntu-2004:202111-02
+        steps:
+            - checkout
+            - run: make build
+
+    deploy_staging:
+        machine:
+            image: ubuntu-2004:202111-02
+        steps:
+            - checkout
+            - add_ssh_keys
+            - run:
+                  name: Deploy on staging server
+                  command: HOSTNAME=$STAGING_HOSTNAME PORT=$STAGING_PORT HELP_CENTER_URL="https://${STAGING_HOSTNAME}/" make deploy
+
+    deploy_production:
+        machine:
+            image: ubuntu-2004:202111-02
+        steps:
+            - checkout
+            - add_ssh_keys
+            - run:
+                  name: Deploy on production server
+                  command: HOSTNAME=$PROD_HOSTNAME PORT=$PROD_PORT ONLY_PREVIOUS_MONTH_UPDATES=true make deploy
+
+workflows:
+    version: 2
+    pull_request:
+        jobs:
+            - build:
+                  filters:
+                      branches:
+                          ignore:
+                              - v6
+
+    deployment:
+        jobs:
+            - deploy_production:
+                  filters:
+                      branches:
+                          only: v6
+            - deploy_staging:
+                  filters:
+                      branches:
+                          only: v6
