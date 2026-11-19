@@ -1,0 +1,33 @@
+{
+  "automation": {
+    "title": "Automation",
+    "description": "In your daily work, you can sometimes feel that you have too many repetitive and mundane tasks. This is where the improvements we've made this year around automation come in handy! You can now take advantage of our brand new Rules Builder, as well as other improvements to the Rules Engine.",
+    "img": "illus-automation-v5.svg",
+    "eeOnly": true
+  },
+  "governance": {
+    "title": "Governance",
+    "description": "Data governance is essential to further guarantee the ease of enrichment and the sustainability of your product catalog. That’s why we’ve added a lot of cool features to make our product modeling capabilities even more flexible and powerful. Among other things, you are now able to enjoy new associations types, a revamped Yes/No attribute, and enhancements around variant products.",
+    "img": "illus-governance-v5.svg",
+    "eeOnly": false
+  },
+  "quality": {
+    "title": "Quality",
+    "description": "Data quality is always a big concern. Spelling mistakes, inconsistencies, and formatting issues are easy to overlook but can negatively impact the product experience. To help you with this tedious task, we've improved our dedicated feature, Data Quality Insights. It has never been easier to monitor, track and correct the quality of your product catalog.",
+    "img": "illus-quality-v5.svg",
+    "eeOnly": false
+  },
+  "connectivity": {
+    "title": "Connectivity",
+    "description": "You know the drill now: `The more your PIM is connected, the more powerful it will be!` With this new release, we keep making the connection between PIM and other platforms and tools always more seamless thanks to new features like our brand new Events API and enhancements on Connections and on our REST API.",
+    "img": "illus-connectivity-v5.svg",
+    "eeOnly": false
+  },
+  "productivity": {
+    "title": "Productivity",
+    "description": "We want to make sure your productivity doesn't get in the way of crafting great product experiences. To help you even further, we added lots of new features and improvements like new import/export capabilities, an enhanced user experience on our product grid, and a more insightful process tracker. ",
+
+    "img": "illus-productivity-v5.svg",
+    "eeOnly": false
+  }
+}
