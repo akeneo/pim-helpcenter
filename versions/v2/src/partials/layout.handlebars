@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <meta name="description" content="Help center">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="docsearch:solution" content="pimv2">
+    <script src="/pim/{{majorVersion}}/js/jquery.min.js"></script>
+    <script src='/pim/{{majorVersion}}/js/bootstrap.min.js'></script>
+    <script src='/pim/{{majorVersion}}/js/docsearch.min.js'></script>
+    <script src='/pim/{{majorVersion}}/js/versions.js'></script>
+    <link rel="icon" type="image/png" href="/pim/{{majorVersion}}/img/akene36.png">
+    <link rel="stylesheet" href="/pim/{{majorVersion}}/css/docsearch.min.css">
+    <link rel="stylesheet" href="/pim/{{majorVersion}}/css/variables.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+</head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35417741-7"></script>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-35417741-7', 'auto');
+    ga('send', 'pageview');
+</script>
+<body data-spy="scroll" data-target="#navbar">
+
+    <div id="mainContent">
+        {{> @partial-block }}
+    </div>
+    {{> main-footer }}
+
+</body>
+<script type="text/javascript">
+    if($('#docSearch-input').length){
+      docsearch({
+          apiKey: '383063c398d4eb9df08945560d3d26fc',
+          indexName: 'akeneo-help',
+          inputSelector: '#docSearch-input',
+          debug: false, // Set debug to true if you want to inspect the dropdown
+          algoliaOptions: {
+            'facetFilters': ["solution:pimv2"]
+          }
+      });
+    }
+</script>
+<script>
+    $(function(){
+        var navbar = $('.navbar');
+        $(window).scroll(function(){
+            if($(window).scrollTop() <= 40){
+                navbar.removeClass('scroll');
+            } else {
+              navbar.addClass('scroll');
+            }
+        });
+    });
+
+    updateVersions();
+</script>
+</html>
