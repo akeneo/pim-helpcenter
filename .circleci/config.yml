@@ -1,24 +1,58 @@
-# CI of the Flexibility / On-Premise help center archive (branch flexibility-archive).
+# CI of the Flexibility / On-Premise help center archive (branch flexibility-archive), on the model
+# of akeneo/pim-api-docs.
 #
-# - build:   builds every version of versions/ into public/ (on every push)
-# - publish: deploys public/ to the Firebase Hosting site of the help center archive
-#            (only on flexibility-archive, after the build)
+# - build:           builds every version of versions/ into public/ (on every push)
+# - infrastructure:  applies deployments/stages/prd/{dependencies,services} (Firebase Hosting, DNS)
+# - push_sources:    deploys public/ to the Firebase Hosting site (scripts/publish.py)
 #
-# The publish job authenticates on GCP through OIDC, without any service account key.
-# The PAAS_HELPCENTER context must hold (see akeneo/gcp-projects, product/documentation/paas-helpcenter/prd):
-#   GOOGLE_PROJECT_NUMBER       number of akecld-prd-paas-helpcenter-prd
-#   OIDC_POOL                   ci-pool
-#   OIDC_PROVIDER               circleci-jwt
-#   OIDC_SERVICE_ACCOUNT_EMAIL  ci-service-account@akecld-prd-paas-helpcenter-prd.iam.gserviceaccount.com
+# The last two only run on flexibility-archive. They authenticate on GCP through OIDC and
+# impersonate the main service account of akecld-prd-paas-helpcenter-prd (project created in
+# akeneo/gcp-projects, product/documentation/paas-helpcenter). The PAAS_HELPCENTER context only
+# needs to exist: the OIDC trust is restricted to it.
 version: 2.1
 
-parameters:
-  gcp-project:
-    type: string
-    default: "akecld-prd-paas-helpcenter-prd"
-  firebase-site:
-    type: string
-    default: "akeneo-paas-helpcenter"
+orbs:
+  security-hunter: akeneo-orbs/security-hunter@2.18.3
+
+aliases:
+  - &dockerExecutorWithPython
+    docker:
+      - image: 'google/cloud-sdk@sha256:25342a0d2f507dafb2e34a8b7dac6418a7178fb5a5cfeda9dbfab3d66c4d5a9e'
+  - &gcpEnvironment
+    # TODO before the first run: number of akecld-prd-paas-helpcenter-prd, once the project is created.
+    GOOGLE_PROJECT_NUMBER: "000000000000"
+    OIDC_SERVICE_ACCOUNT_EMAIL: "ci-service-account@akecld-prd-paas-helpcenter-prd.iam.gserviceaccount.com"
+    GCP_SERVICE_ACCOUNT_EMAIL_TO_IMPERSONATE: "main-service-account@akecld-prd-paas-helpcenter-prd.iam.gserviceaccount.com"
+    OIDC_POOL: "circleci-pool"
+    OIDC_PROVIDER: "circleci-jwt"
+    GOOGLE_CLOUD_PROJECT: "akecld-prd-paas-helpcenter-prd"
+
+workflows:
+  build_and_deploy:
+    jobs:
+      - build
+      - infrastructure:
+          name: "infrastructure_dependencies_apply_with_plan_prd"
+          context: PAAS_HELPCENTER
+          deployment_scope: "dependencies"
+          filters: &onlyArchive
+            branches:
+              only:
+                - flexibility-archive
+      - infrastructure:
+          name: "infrastructure_services_apply_with_plan_prd"
+          context: PAAS_HELPCENTER
+          deployment_scope: "services"
+          requires:
+            - infrastructure_dependencies_apply_with_plan_prd
+          filters: *onlyArchive
+      - push_sources:
+          name: "push_sources_prd"
+          context: PAAS_HELPCENTER
+          requires:
+            - build
+            - infrastructure_services_apply_with_plan_prd
+          filters: *onlyArchive
 
 jobs:
   build:
@@ -40,40 +74,50 @@ jobs:
           paths:
             - public
 
-  publish:
-    docker:
-      - image: google/cloud-sdk:502.0.0-slim
-    resource_class: small
+  infrastructure:
+    parameters:
+      target_stage_id:
+        type: string
+        default: "prd"
+      deployment_scope:
+        type: string
+    environment: *gcpEnvironment
+    <<: *dockerExecutorWithPython
+    steps:
+      - checkout
+      - security-hunter/install_terraform:
+          version: 1.6.5
+          digest: f6404dc264aff75fc1b776670c1abf732cfed3d4a1ce49b64bc5b5d116fe87d5
+      - run:
+          name: PIP install
+          command: apk --no-cache add py3-pip
+      - security-hunter/gcp_oidc_auth:
+          impersonate: true
+      - run:
+          name: terraform/init
+          command: terraform -chdir=deployments/stages/<<parameters.target_stage_id>>/<<parameters.deployment_scope>> init -input=false
+      - run:
+          name: terraform/validate
+          command: terraform -chdir=deployments/stages/<<parameters.target_stage_id>>/<<parameters.deployment_scope>> validate
+      - run:
+          name: terraform/plan
+          command: terraform -chdir=deployments/stages/<<parameters.target_stage_id>>/<<parameters.deployment_scope>> plan -input=false -out=tfplan
+      - run:
+          name: terraform/apply
+          command: terraform -chdir=deployments/stages/<<parameters.target_stage_id>>/<<parameters.deployment_scope>> apply -input=false -auto-approve tfplan
+
+  push_sources:
+    environment: *gcpEnvironment
+    <<: *dockerExecutorWithPython
     steps:
       - checkout
       - attach_workspace:
           at: .
       - run:
-          name: Authenticate on GCP through OIDC
-          command: |
-            echo "${CIRCLE_OIDC_TOKEN_V2}" > /tmp/oidc_token.json
-            gcloud iam workload-identity-pools create-cred-config \
-              "projects/${GOOGLE_PROJECT_NUMBER}/locations/global/workloadIdentityPools/${OIDC_POOL}/providers/${OIDC_PROVIDER}" \
-              --service-account="${OIDC_SERVICE_ACCOUNT_EMAIL}" \
-              --credential-source-file=/tmp/oidc_token.json \
-              --output-file=/tmp/gcp_cred_config.json
-            gcloud auth login --cred-file=/tmp/gcp_cred_config.json --quiet
-            # The CI service account holds no role: it impersonates the main service account.
-            gcloud config set auth/impersonate_service_account \
-              "main-service-account@<< pipeline.parameters.gcp-project >>.iam.gserviceaccount.com"
+          name: PIP install
+          command: apk --no-cache add py3-pip
+      - security-hunter/gcp_oidc_auth:
+          impersonate: true
       - run:
           name: Deploy to Firebase Hosting
-          command: FIREBASE_SITE="<< pipeline.parameters.firebase-site >>" python3 scripts/publish.py
-
-workflows:
-  build_and_publish:
-    jobs:
-      - build
-      - publish:
-          context: PAAS_HELPCENTER
-          requires:
-            - build
-          filters:
-            branches:
-              only:
-                - flexibility-archive
+          command: FIREBASE_SITE=akeneo-paas-helpcenter python3 scripts/publish.py

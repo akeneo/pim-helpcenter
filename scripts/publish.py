@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Deploy ./public (or $OUTPUT_DIR) to a Firebase Hosting site and release it.
 
-Uses the Firebase Hosting REST API with an access token from gcloud, so it works with any identity
-gcloud is configured with, including the impersonated service account the CI uses (firebase-tools
-cannot chain an OIDC login with an impersonation). Only the Python standard library is needed.
+Uses the Firebase Hosting REST API with an access token ($GOOGLE_OAUTH_ACCESS_TOKEN, as exported by
+the security-hunter/gcp_oidc_auth CircleCI command, or gcloud), so it works with the impersonated
+service account the CI uses. Only the Python standard library is needed.
 
 Required environment:
   FIREBASE_SITE   Firebase Hosting site id, e.g. akeneo-paas-helpcenter
@@ -35,16 +35,21 @@ CACHE_CONTROL = "public, max-age=3600"
 
 
 class Token:
-    """Access token from gcloud, refreshed before it expires (they last one hour)."""
+    """Access token of the deploying identity.
+
+    In CI, security-hunter/gcp_oidc_auth exports the token of the impersonated main service account
+    as GOOGLE_OAUTH_ACCESS_TOKEN. Otherwise, it comes from gcloud and is refreshed before it expires.
+    """
 
     def __init__(self):
         self._lock = threading.Lock()
-        self._value = None
-        self._at = 0.0
+        self._value = os.environ.get("GOOGLE_OAUTH_ACCESS_TOKEN") or None
+        self._fixed = self._value is not None
+        self._at = time.time()
 
     def get(self):
         with self._lock:
-            if self._value is None or time.time() - self._at > 1800:
+            if not self._fixed and (self._value is None or time.time() - self._at > 1800):
                 self._value = subprocess.run(
                     ["gcloud", "auth", "print-access-token"],
                     check=True, capture_output=True, text=True,

@@ -14,6 +14,7 @@ versions/<version>/   sources of each version, imported from the <version> branc
 build/versions.txt    published versions, newest first, and the directory each build produces
 scripts/build.sh      builds the site into public/
 scripts/publish.py    deploys public/ to Firebase Hosting
+deployments/          Terraform of the hosting (Firebase Hosting site, DNS zone), applied by the CI
 site/                 404 page, robots.txt and the template of the redirect pages
 helpjuice/            how to bring the changes made on Helpjuice back into Git
 .circleci/config.yml  build on every push, publication from flexibility-archive
@@ -66,20 +67,31 @@ public/
 
 ## Publish
 
-The CI publishes the site on every push to `flexibility-archive`
-([CircleCI config](.circleci/config.yml)), on https://flexibility.help.akeneo.com/:
+The help center is served on https://flexibility.help.akeneo.com/ by Firebase Hosting, in the GCP
+project `akecld-prd-paas-helpcenter-prd`. As for akeneo/pim-api-docs, the project itself (service
+accounts, Terraform state bucket, OIDC access for the CI) is created in
+[akeneo/gcp-projects](https://github.com/akeneo/gcp-projects), in
+`product/documentation/paas-helpcenter`, and the hosting is described here, in `deployments/`:
+
+```
+deployments/modules/dependencies   APIs, Firebase on the project, DNS zone of flexibility.help.akeneo.com
+deployments/modules/services       Firebase Hosting site, its custom domain and DNS records
+deployments/stages/prd/<scope>     the production values; state in gs://akecld-terraform-paas-helpcenter-prd
+```
+
+On every push to `flexibility-archive`, the CI ([config](.circleci/config.yml)):
 
 1. `build`: `scripts/build.sh`, the result is kept as an artifact (`pim-helpcenter-site.tar.gz`),
-2. `publish`: `scripts/publish.py`, which deploys `public/` to the Firebase Hosting site
-   `akeneo-paas-helpcenter` and releases it. Only the files that changed are uploaded, and
-   Firebase keeps the last 5 versions, so a release can be rolled back from the Firebase console.
+2. `infrastructure_*`: `terraform plan` and `apply` of `dependencies`, then `services`,
+3. `push_sources_prd`: `scripts/publish.py`, which deploys `public/` to the Firebase Hosting site
+   `akeneo-paas-helpcenter` through the Firebase Hosting REST API and releases it. Only the files
+   that changed are uploaded, and Firebase keeps the last 5 versions for rollbacks.
 
-The GCP project `akecld-prd-paas-helpcenter-prd` and its Firebase Hosting site are defined in
-[akeneo/gcp-projects](https://github.com/akeneo/gcp-projects), in
-`product/documentation/paas-helpcenter`. The CI authenticates through OIDC (CircleCI context
-`PAAS_HELPCENTER`), without any service account key. `scripts/publish.py` calls the Firebase
-Hosting REST API with a `gcloud` access token, because firebase-tools cannot use the impersonated
-service account the CI ends up with.
+The jobs authenticate through OIDC (`security-hunter/gcp_oidc_auth`, CircleCI context
+`PAAS_HELPCENTER`) and impersonate the main service account of the project, without any key.
+
+The DNS zone of `flexibility.help.akeneo.com` is in the project: its name servers (output
+`name_servers` of `deployments/stages/prd/dependencies`) are declared as NS records at Gandi.
 
 To publish by hand, with `gcloud` logged in as an identity holding `roles/firebasehosting.admin`
 on the project:
