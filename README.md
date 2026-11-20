@@ -13,7 +13,7 @@ The `master` branch is the help center of Akeneo PIM SaaS (Serenity), now publis
 versions/<version>/   sources of each version, imported from the <version> branch (history kept)
 build/versions.txt    published versions, newest first, and the directory each build produces
 scripts/build.sh      builds the site into public/
-scripts/publish.sh    publishes public/ to the GCS bucket and invalidates the CDN cache
+scripts/publish.py    deploys public/ to Firebase Hosting
 site/                 404 page, robots.txt and the template of the redirect pages
 helpjuice/            how to bring the changes made on Helpjuice back into Git
 .circleci/config.yml  build on every push, publication from flexibility-archive
@@ -67,25 +67,25 @@ public/
 ## Publish
 
 The CI publishes the site on every push to `flexibility-archive`
-([CircleCI config](.circleci/config.yml)):
+([CircleCI config](.circleci/config.yml)), on https://flexibility.help.akeneo.com/:
 
 1. `build`: `scripts/build.sh`, the result is kept as an artifact (`pim-helpcenter-site.tar.gz`),
-2. `publish`: `scripts/publish.sh`, which synchronizes `public/` to
-   `gs://akecld-prd-paas-helpcenter-prd-site` and invalidates the Cloud CDN cache.
+2. `publish`: `scripts/publish.py`, which deploys `public/` to the Firebase Hosting site
+   `akeneo-paas-helpcenter` and releases it. Only the files that changed are uploaded, and
+   Firebase keeps the last 5 versions, so a release can be rolled back from the Firebase console.
 
-The GCP project `akecld-prd-paas-helpcenter-prd` and its hosting (bucket, HTTPS load balancer with
-a Google-managed certificate and Cloud CDN) are defined in
+The GCP project `akecld-prd-paas-helpcenter-prd` and its Firebase Hosting site are defined in
 [akeneo/gcp-projects](https://github.com/akeneo/gcp-projects), in
 `product/documentation/paas-helpcenter`. The CI authenticates through OIDC (CircleCI context
-`PAAS_HELPCENTER`), without any service account key.
+`PAAS_HELPCENTER`), without any service account key. `scripts/publish.py` calls the Firebase
+Hosting REST API with a `gcloud` access token, because firebase-tools cannot use the impersonated
+service account the CI ends up with.
 
-To publish by hand, with an identity allowed to write in the bucket:
+To publish by hand, with `gcloud` logged in as an identity holding `roles/firebasehosting.admin`
+on the project:
 
 ```bash
-SITE_BUCKET=akecld-prd-paas-helpcenter-prd-site \
-GCP_PROJECT=akecld-prd-paas-helpcenter-prd \
-SITE_URL_MAP=paas-helpcenter-site \
-make publish
+FIREBASE_SITE=akeneo-paas-helpcenter make publish
 ```
 
 ## Change the help center

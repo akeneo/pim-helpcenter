@@ -1,7 +1,7 @@
 # CI of the Flexibility / On-Premise help center archive (branch flexibility-archive).
 #
 # - build:   builds every version of versions/ into public/ (on every push)
-# - publish: synchronizes public/ to the site bucket of the help center archive
+# - publish: deploys public/ to the Firebase Hosting site of the help center archive
 #            (only on flexibility-archive, after the build)
 #
 # The publish job authenticates on GCP through OIDC, without any service account key.
@@ -16,12 +16,9 @@ parameters:
   gcp-project:
     type: string
     default: "akecld-prd-paas-helpcenter-prd"
-  site-bucket:
+  firebase-site:
     type: string
-    default: "akecld-prd-paas-helpcenter-prd-site"
-  site-url-map:
-    type: string
-    default: "paas-helpcenter-site"
+    default: "akeneo-paas-helpcenter"
 
 jobs:
   build:
@@ -65,12 +62,8 @@ jobs:
             gcloud config set auth/impersonate_service_account \
               "main-service-account@<< pipeline.parameters.gcp-project >>.iam.gserviceaccount.com"
       - run:
-          name: Publish to the site bucket
-          command: |
-            SITE_BUCKET="<< pipeline.parameters.site-bucket >>" \
-            GCP_PROJECT="<< pipeline.parameters.gcp-project >>" \
-            SITE_URL_MAP="<< pipeline.parameters.site-url-map >>" \
-            scripts/publish.sh
+          name: Deploy to Firebase Hosting
+          command: FIREBASE_SITE="<< pipeline.parameters.firebase-site >>" python3 scripts/publish.py
 
 workflows:
   build_and_publish:

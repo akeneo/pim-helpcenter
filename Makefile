@@ -20,9 +20,9 @@ build-version:
 serve:
 	python3 -m http.server --directory $(OUTPUT_DIR) $(PORT)
 
-## Publish $(OUTPUT_DIR) to the site bucket (needs SITE_BUCKET, see scripts/publish.sh)
+## Deploy $(OUTPUT_DIR) to Firebase Hosting (needs FIREBASE_SITE, see scripts/publish.py)
 publish:
-	scripts/publish.sh
+	python3 scripts/publish.py
 
 clean:
 	rm -rf $(OUTPUT_DIR) .build
